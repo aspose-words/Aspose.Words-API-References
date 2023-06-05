@@ -49,6 +49,8 @@ foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
 
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
+
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);
 }

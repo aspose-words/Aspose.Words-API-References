@@ -5,7 +5,7 @@ articleTitle: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldUpdateCultureSource enum. Indicates what culture to use during field update in C#.
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration

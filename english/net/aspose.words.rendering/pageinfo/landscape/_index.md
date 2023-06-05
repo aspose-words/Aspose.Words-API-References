@@ -5,7 +5,7 @@ articleTitle: Landscape
 second_title: Aspose.Words for .NET
 description: PageInfo Landscape property. Returns true if the page orientation specified in the document for this page is landscape in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property

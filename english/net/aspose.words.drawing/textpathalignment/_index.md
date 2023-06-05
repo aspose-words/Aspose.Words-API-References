@@ -5,7 +5,7 @@ articleTitle: TextPathAlignment
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.TextPathAlignment enum. WordArt alignment in C#.
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enumeration

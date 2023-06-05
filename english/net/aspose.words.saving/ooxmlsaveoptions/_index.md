@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the Docx Docm Dotx Dotm or FlatOpc format in C#.
 type: docs
-weight: 5260
+weight: 5300
 url: /net/aspose.words.saving/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class

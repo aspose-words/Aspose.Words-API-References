@@ -5,7 +5,7 @@ articleTitle: Fill
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Fill class. Represents fill formatting for an object in C#.
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.words.drawing/fill/
 ---
 ## Fill class
@@ -25,6 +25,7 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Gets or sets a Color object that represents the background color for the fill. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the background color for the fill. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens the background color. |
+| [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Gets or sets a Color object that represents the foreground color for the fill. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Gets a fill type. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Gets or sets a Color object that represents the foreground color for the fill. |
 | [ForeThemeColor](../../aspose.words.drawing/fill/forethemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the foreground color for the fill. |

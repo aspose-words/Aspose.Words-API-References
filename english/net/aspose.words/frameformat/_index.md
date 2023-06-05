@@ -5,7 +5,7 @@ articleTitle: FrameFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.FrameFormat class. Represents frame related formatting for a paragraph in C#.
 type: docs
-weight: 3030
+weight: 3040
 url: /net/aspose.words/frameformat/
 ---
 ## FrameFormat class

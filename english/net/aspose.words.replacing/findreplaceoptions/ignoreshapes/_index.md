@@ -18,6 +18,23 @@ The default value is `false`.
 public bool IgnoreShapes { get; set; }
 ```
 
+## Examples
+
+Shows how to ignore shapes while replacing text.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+builder.InsertShape(ShapeType.Balloon, 200, 200);            
+builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+
+builder.Document.Range.Replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", new FindReplaceOptions() { IgnoreShapes = true });
+Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.Document.GetText().Trim());
+```
+
 ### See Also
 
 * class [FindReplaceOptions](../)

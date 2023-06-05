@@ -279,7 +279,7 @@ Shows how to load a document from a URL.
 
 ```csharp
 // Create a URL that points to a Microsoft Word document.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
+const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
 // Download the document into a byte array, then load that array into a document using a memory stream.
 using (HttpClient webClient = new HttpClient())
@@ -291,10 +291,10 @@ using (HttpClient webClient = new HttpClient())
         Document doc = new Document(byteStream);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }

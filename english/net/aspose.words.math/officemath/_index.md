@@ -5,7 +5,7 @@ articleTitle: OfficeMath
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Math.OfficeMath class. Represents an Office Math object such as function equation matrix or alike. Can contain child elements including runs of mathematical text bookmarks comments other OfficeMath instances and some other nodes in C#.
 type: docs
-weight: 4030
+weight: 4070
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
@@ -22,7 +22,6 @@ public class OfficeMath : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [DisplayType](../../aspose.words.math/officemath/displaytype/) { get; set; } | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |

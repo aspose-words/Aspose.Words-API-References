@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.StructuredDocumentTag class. Represents a structured document tag SDT or content control in a document in C#.
 type: docs
-weight: 3970
+weight: 4010
 url: /net/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -33,7 +33,6 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [BuildingBlockGallery](../../aspose.words.markup/structureddocumenttag/buildingblockgallery/) { get; set; } | Specifies type of building block for this **SDT**. Can not be `null`. |
 | [CalendarType](../../aspose.words.markup/structureddocumenttag/calendartype/) { get; set; } | Specifies the type of calendar for this **SDT**. Default is Default |
 | [Checked](../../aspose.words.markup/structureddocumenttag/checked/) { get; set; } | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is `false`. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Color](../../aspose.words.markup/structureddocumenttag/color/) { get; set; } | Gets or sets the color of the structured document tag. |
 | [ContentsFont](../../aspose.words.markup/structureddocumenttag/contentsfont/) { get; } | Font formatting that will be applied to text entered into **SDT**. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
@@ -147,6 +146,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

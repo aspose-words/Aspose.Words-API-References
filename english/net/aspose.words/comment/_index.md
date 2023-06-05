@@ -31,7 +31,6 @@ public sealed class Comment : InlineStory
 | --- | --- |
 | [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returns the parent `Comment` object. Returns `null` for top-level comments. |
 | [Author](../../aspose.words/comment/author/) { get; set; } | Returns or sets the author name for a comment. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [DateTime](../../aspose.words/comment/datetime/) { get; set; } | Gets the date and time that the comment was made. |

@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.NodeType enum. Specifies the type of a Word document node in C#.
 type: docs
-weight: 4140
+weight: 4180
 url: /net/aspose.words/nodetype/
 ---
 ## NodeType enumeration
@@ -83,9 +83,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)

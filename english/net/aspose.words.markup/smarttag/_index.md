@@ -5,7 +5,7 @@ articleTitle: SmartTag
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.SmartTag class. This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in C#.
 type: docs
-weight: 3960
+weight: 4000
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
@@ -28,7 +28,6 @@ public class SmartTag : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

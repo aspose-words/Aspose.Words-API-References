@@ -5,7 +5,7 @@ articleTitle: LayoutOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.LayoutOptions class. Holds the options that allow controlling the document layout process in C#.
 type: docs
-weight: 3290
+weight: 3310
 url: /net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
@@ -32,6 +32,7 @@ public class LayoutOptions
 | [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Gets or sets the way comments are rendered. Default value is ShowInBalloons. |
 | [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is `true`. |
+| [KeepOriginalFontMetrics](../../aspose.words.layout/layoutoptions/keeporiginalfontmetrics/) { get; set; } | Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is `true`. |
 | [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Gets revision options. |
 | [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Gets or sets indication of whether hidden text in the document is rendered. Default is `false`. |
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is `false`. |
