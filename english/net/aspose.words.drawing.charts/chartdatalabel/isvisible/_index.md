@@ -5,7 +5,7 @@ articleTitle: IsVisible
 second_title: Aspose.Words for .NET
 description: ChartDataLabel IsVisible property. Returns true if this data label has something to display in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property

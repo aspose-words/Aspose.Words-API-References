@@ -5,7 +5,7 @@ articleTitle: TextOrientation
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TextOrientation enum. Specifies orientation of text on a page in a table cell or a text frame in C#.
 type: docs
-weight: 6330
+weight: 6380
 url: /net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration

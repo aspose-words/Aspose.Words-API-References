@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Markup
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document smart tags custom XML and structured document tags content controls in C#.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.markup/
 ---
 The **Aspose.Words.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).

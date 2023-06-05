@@ -5,7 +5,7 @@ articleTitle: FieldEmbed
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldEmbed class. Implements the EMBED field in C#.
 type: docs
-weight: 1820
+weight: 1830
 url: /net/aspose.words.fields/fieldembed/
 ---
 ## FieldEmbed class

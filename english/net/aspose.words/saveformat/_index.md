@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SaveFormat enum. Indicates the format in which the document is saved in C#.
 type: docs
-weight: 4750
+weight: 4790
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -52,6 +52,7 @@ public enum SaveFormat
 | XamlFlow | `71` | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
 | XamlFlowPack | `72` | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
 | Markdown | `73` | Saves the document in the Markdown format. |
+| Xlsx | `80` | Saves the document as an Office Open XML SpreadsheetML Document (macro-free). |
 | Tiff | `100` | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
 | Png | `101` | Renders a page of the document and saves it as a PNG file. |
 | Bmp | `102` | Renders a page of the document and saves it as a BMP file. |

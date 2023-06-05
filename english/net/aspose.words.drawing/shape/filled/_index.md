@@ -18,7 +18,7 @@ public bool Filled { get; set; }
 
 ## Remarks
 
-This is a shortcut to the On property.
+This is a shortcut to the [`Visible`](../../fill/visible/) property.
 
 The default value is `true`.
 

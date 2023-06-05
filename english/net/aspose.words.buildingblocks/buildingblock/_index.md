@@ -30,7 +30,6 @@ public class BuildingBlock : CompositeNode
 | --- | --- |
 | [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
 | [Category](../../aspose.words.buildingblocks/buildingblock/category/) { get; set; } | Specifies the second-level categorization for the building block. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [Description](../../aspose.words.buildingblocks/buildingblock/description/) { get; set; } | Gets or sets the description associated with this building block. |

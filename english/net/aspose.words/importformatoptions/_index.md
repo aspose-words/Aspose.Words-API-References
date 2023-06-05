@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ImportFormatOptions class. Allows to specify various import options to format output in C#.
 type: docs
-weight: 3180
+weight: 3200
 url: /net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class

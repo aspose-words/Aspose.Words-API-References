@@ -5,7 +5,7 @@ articleTitle: Cell
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Cell class. Represents a table cell in C#.
 type: docs
-weight: 6140
+weight: 6190
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -29,7 +29,6 @@ public class Cell : CompositeNode
 | Name | Description |
 | --- | --- |
 | [CellFormat](../../aspose.words.tables/cell/cellformat/) { get; } | Provides access to the formatting properties of the cell. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

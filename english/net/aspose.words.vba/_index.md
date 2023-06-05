@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Vba
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Vba namespace provides classes to work with VBA projects in C#.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.words.vba/
 ---
 The **Aspose.Words.Vba** namespace provides classes to work with VBA projects.

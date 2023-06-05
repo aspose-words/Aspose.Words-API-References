@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1220
+weight: 1230
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -39,7 +39,6 @@ public sealed class Shape : ShapeBase
 | [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects/) { get; } | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
 | [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returns `true` if the shape type allows the shape to have an image. |
 | [Chart](../../aspose.words.drawing/shape/chart/) { get; } | Provides access to the chart properties if this shape has a [`Chart`](../../aspose.words.drawing.charts/chart/). |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [CoordOrigin](../../aspose.words.drawing/shapebase/coordorigin/) { get; set; } | The coordinates at the top-left corner of the containing block of this shape. |
 | [CoordSize](../../aspose.words.drawing/shapebase/coordsize/) { get; set; } | The width and height of the coordinate space inside the containing block of this shape. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |

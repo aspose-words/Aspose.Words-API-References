@@ -5,7 +5,7 @@ articleTitle: JoinStyle
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.JoinStyle enum. Line join style in C#.
 type: docs
-weight: 1060
+weight: 1070
 url: /net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration

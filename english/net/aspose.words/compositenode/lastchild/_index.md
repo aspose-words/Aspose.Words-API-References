@@ -5,7 +5,7 @@ articleTitle: LastChild
 second_title: Aspose.Words for .NET
 description: CompositeNode LastChild property. Gets the last child of the node in C#.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property

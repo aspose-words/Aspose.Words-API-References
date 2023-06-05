@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Remarks
 
-This is a shortcut to the Color property.
+This is a shortcut to the [`Color`](../../fill/color/) property.
 
 The default value is Gray.
 

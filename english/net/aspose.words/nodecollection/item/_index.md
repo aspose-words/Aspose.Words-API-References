@@ -53,9 +53,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)

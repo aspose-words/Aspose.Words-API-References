@@ -5,7 +5,7 @@ articleTitle: OneColorGradient
 second_title: Aspose.Words for .NET
 description: Fill OneColorGradient method. Sets the specified fill to a onecolor gradient in C#.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}

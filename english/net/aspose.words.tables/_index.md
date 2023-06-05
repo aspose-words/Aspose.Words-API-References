@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Tables
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Tables namespace contains classes that represent tables rows cells and their formatting in C#.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.words.tables/
 ---
 The **Aspose.Words.Tables** namespace contains classes that represent tables, rows, cells and their formatting.

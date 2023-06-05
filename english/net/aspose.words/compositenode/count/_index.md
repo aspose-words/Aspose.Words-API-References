@@ -5,7 +5,7 @@ articleTitle: Count
 second_title: Aspose.Words for .NET
 description: CompositeNode Count property. Gets the number of immediate children of this node in C#.
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words/compositenode/count/
 ---
 ## CompositeNode.Count property

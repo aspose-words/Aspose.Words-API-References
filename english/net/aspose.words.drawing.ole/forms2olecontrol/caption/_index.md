@@ -36,6 +36,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Note, that you can't set GroupName for a Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

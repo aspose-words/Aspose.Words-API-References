@@ -5,7 +5,7 @@ articleTitle: RevisionGroup
 second_title: Aspose.Words for .NET
 description: Aspose.Words.RevisionGroup class. Represents a group of sequential Revision objects in C#.
 type: docs
-weight: 4690
+weight: 4730
 url: /net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class

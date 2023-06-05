@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningSource enum. Specifies the module that produces a warning during document loading or saving in C#.
 type: docs
-weight: 6550
+weight: 6600
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -46,6 +46,8 @@ public enum WarningSource
 | Markdown | `23` | Module that reads/writes Markdown files. |
 | Chm | `24` | Module that reads CHM files. |
 | Epub | `25` | Module that reads/writes EPUB files. |
+| Xml | `26` | Module that reads XML files. |
+| Xlsx | `27` | Module that writes XLSX files. |
 
 ### See Also
 

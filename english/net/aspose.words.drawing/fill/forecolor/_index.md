@@ -5,7 +5,7 @@ articleTitle: ForeColor
 second_title: Aspose.Words for .NET
 description: Fill ForeColor property. Gets or sets a Color object that represents the foreground color for the fill in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -15,6 +15,10 @@ Gets or sets a Color object that represents the foreground color for the fill.
 ```csharp
 public Color ForeColor { get; set; }
 ```
+
+## Remarks
+
+This property resets the alpha component of the Color to fully opaque color unlike the [`Color`](../color/) property, which preserves it.
 
 ## Examples
 

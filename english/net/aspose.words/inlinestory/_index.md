@@ -5,7 +5,7 @@ articleTitle: InlineStory
 second_title: Aspose.Words for .NET
 description: Aspose.Words.InlineStory class. Base class for inlinelevel nodes that can contain paragraphs and tables in C#.
 type: docs
-weight: 3210
+weight: 3230
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class
@@ -22,7 +22,6 @@ public abstract class InlineStory : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

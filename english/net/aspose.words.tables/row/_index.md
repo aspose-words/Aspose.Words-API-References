@@ -5,7 +5,7 @@ articleTitle: Row
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Row class. Represents a table row in C#.
 type: docs
-weight: 6210
+weight: 6260
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -29,7 +29,6 @@ public class Row : CompositeNode
 | Name | Description |
 | --- | --- |
 | [Cells](../../aspose.words.tables/row/cells/) { get; } | Provides typed access to the [`Cell`](../cell/) child nodes of the row. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

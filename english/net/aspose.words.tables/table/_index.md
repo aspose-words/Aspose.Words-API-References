@@ -5,7 +5,7 @@ articleTitle: Table
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs
-weight: 6240
+weight: 6290
 url: /net/aspose.words.tables/table/
 ---
 ## Table class
@@ -37,7 +37,6 @@ public class Table : CompositeNode
 | [Bidi](../../aspose.words.tables/table/bidi/) { get; set; } | Gets or sets whether this is a right-to-left table. |
 | [BottomPadding](../../aspose.words.tables/table/bottompadding/) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of cells. |
 | [CellSpacing](../../aspose.words.tables/table/cellspacing/) { get; set; } | Gets or sets the amount of space (in points) between the cells. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [Description](../../aspose.words.tables/table/description/) { get; set; } | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |

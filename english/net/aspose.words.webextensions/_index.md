@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.WebExtensions
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.WebExtensions namespace provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Addins in C#.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.words.webextensions/
 ---
 The **Aspose.Words.WebExtensions** namespace provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins.
