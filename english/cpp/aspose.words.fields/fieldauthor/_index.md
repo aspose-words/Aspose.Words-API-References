@@ -69,7 +69,7 @@ ASSERT_EQ(String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::DynamicCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());

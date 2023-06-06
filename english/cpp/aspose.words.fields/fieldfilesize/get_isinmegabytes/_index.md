@@ -34,7 +34,7 @@ builder->InsertParagraph();
 // Below are three different units of measure
 // with which FILESIZE fields can display the document's file size.
 // 1 -  Bytes:
-auto field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+auto field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->Update();
 
 ASSERT_EQ(u" FILESIZE ", field->GetFieldCode());
@@ -42,7 +42,7 @@ ASSERT_EQ(u"18105", field->get_Result());
 
 // 2 -  Kilobytes:
 builder->InsertParagraph();
-field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->set_IsInKilobytes(true);
 field->Update();
 
@@ -51,7 +51,7 @@ ASSERT_EQ(u"18", field->get_Result());
 
 // 3 -  Megabytes:
 builder->InsertParagraph();
-field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->set_IsInMegabytes(true);
 field->Update();
 

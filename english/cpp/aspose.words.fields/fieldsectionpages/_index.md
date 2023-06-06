@@ -60,19 +60,19 @@ builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 
 // A SECTION field displays the number of the section it is in.
 builder->Write(u"Section ");
-auto fieldSection = System::DynamicCast<FieldSection>(builder->InsertField(FieldType::FieldSection, true));
+auto fieldSection = System::ExplicitCast<FieldSection>(builder->InsertField(FieldType::FieldSection, true));
 
 ASSERT_EQ(u" SECTION ", fieldSection->GetFieldCode());
 
 // A PAGE field displays the number of the page it is in.
 builder->Write(u"\nPage ");
-auto fieldPage = System::DynamicCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
+auto fieldPage = System::ExplicitCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 
 ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder->Write(u" of ");
-auto fieldSectionPages = System::DynamicCast<FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
+auto fieldSectionPages = System::ExplicitCast<FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
 
 ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
 

@@ -76,7 +76,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 builder->Write(u"Statement 1: ");
-auto field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+auto field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"0");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"1");
@@ -93,7 +93,7 @@ ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
 ASSERT_EQ(u"False", field->get_Result());
 
 builder->Write(u"\nStatement 2: ");
-field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");

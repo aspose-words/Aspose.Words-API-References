@@ -88,7 +88,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Insert a QUOTE field, which will display the value of its Text property.
-auto field = System::DynamicCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
+auto field = System::ExplicitCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
 ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
@@ -98,7 +98,7 @@ ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 // Nesting the DATE field inside the QUOTE field like this will freeze its value
 // to the date when we created the document.
 builder->Write(u"\nDocument creation date: ");
-field = System::DynamicCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
+field = System::ExplicitCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 builder->MoveTo(field->get_Separator());
 builder->InsertField(FieldType::FieldDate, true);
 

@@ -32,7 +32,7 @@ It is the responsibility of the caller to dispose the stream.
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();
@@ -85,7 +85,7 @@ void Aspose::Words::Drawing::OleFormat::Save(const System::String &fileName)
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();

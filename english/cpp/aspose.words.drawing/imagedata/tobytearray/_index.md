@@ -29,7 +29,7 @@ Shows how to create an image file from a shape's raw image data.
 ```cpp
 auto imgSourceDoc = MakeObject<Document>(MyDir + u"Images.docx");
 
-auto imgShape = System::DynamicCast<Shape>(imgSourceDoc->GetChild(NodeType::Shape, 0, true));
+auto imgShape = System::ExplicitCast<Shape>(imgSourceDoc->GetChild(NodeType::Shape, 0, true));
 
 ASSERT_TRUE(imgShape->get_HasImage());
 

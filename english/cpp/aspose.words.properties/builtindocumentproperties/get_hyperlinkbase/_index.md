@@ -47,7 +47,7 @@ SharedPtr<BuiltInDocumentProperties> properties = doc->get_BuiltInDocumentProper
 properties->set_HyperlinkBase(MyDir);
 
 ASSERT_TRUE(System::IO::File::Exists(properties->get_HyperlinkBase() +
-                                     (System::DynamicCast<FieldHyperlink>(doc->get_Range()->get_Fields()->idx_get(0)))->get_Address()));
+                                     (System::ExplicitCast<FieldHyperlink>(doc->get_Range()->get_Fields()->idx_get(0)))->get_Address()));
 
 doc->Save(ArtifactsDir + u"DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ```

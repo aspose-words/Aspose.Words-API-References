@@ -86,7 +86,7 @@ enum class InsertLinkedObjectAs
 static void InsertFieldLink(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                             String sourceItem, bool shouldAutoUpdate)
 {
-    auto field = System::DynamicCast<FieldLink>(builder->InsertField(FieldType::FieldLink, true));
+    auto field = System::ExplicitCast<FieldLink>(builder->InsertField(FieldType::FieldLink, true));
 
     switch (insertLinkedObjectAs)
     {
@@ -126,7 +126,7 @@ static void InsertFieldLink(SharedPtr<DocumentBuilder> builder, ExField::InsertL
 static void InsertFieldDde(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                            String sourceItem, bool isLinked, bool shouldAutoUpdate)
 {
-    auto field = System::DynamicCast<FieldDde>(builder->InsertField(FieldType::FieldDDE, true));
+    auto field = System::ExplicitCast<FieldDde>(builder->InsertField(FieldType::FieldDDE, true));
 
     switch (insertLinkedObjectAs)
     {
@@ -167,7 +167,7 @@ static void InsertFieldDde(SharedPtr<DocumentBuilder> builder, ExField::InsertLi
 static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                                String sourceItem, bool isLinked)
 {
-    auto field = System::DynamicCast<FieldDdeAuto>(builder->InsertField(FieldType::FieldDDEAuto, true));
+    auto field = System::ExplicitCast<FieldDdeAuto>(builder->InsertField(FieldType::FieldDDEAuto, true));
 
     switch (insertLinkedObjectAs)
     {

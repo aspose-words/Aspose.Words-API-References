@@ -21,13 +21,14 @@ class VbaProject : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Performs a copy of the [VbaProject](./). |
-| [get_CodePage](./get_codepage/)() const | Returns the VBA project’s code page. |
+| [get_CodePage](./get_codepage/)() const | Gets or sets the VBA project’s code page. |
 | [get_IsSigned](./get_issigned/)() | Shows whether the [VbaProject](./) is signed or not. |
 | [get_Modules](./get_modules/)() | Returns collection of VBA project modules. |
 | [get_Name](./get_name/)() const | Gets or sets VBA project name. |
 | [get_References](./get_references/)() | Gets a collection of VBA project references. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_CodePage](./set_codepage/)(int32_t) | Setter for [Aspose::Words::Vba::VbaProject::get_CodePage](./get_codepage/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Vba::VbaProject::get_Name](./get_name/). |
 | static [Type](./type/)() |  |
 | [VbaProject](./vbaproject/)() | Creates a blank [VbaProject](./). |

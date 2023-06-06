@@ -40,7 +40,7 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (const auto& value : System::IterateOver(
-                 System::DynamicCast_noexcept<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
             std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
         }
@@ -84,7 +84,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());

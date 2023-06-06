@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a Document object in C#.
 type: docs
-weight: 3560
+weight: 3580
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -52,6 +52,12 @@ public class HtmlLoadOptions : LoadOptions
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields/) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback/) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [WebRequestTimeout](../../aspose.words.loading/htmlloadoptions/webrequesttimeout/) { get; set; } | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### See Also
 

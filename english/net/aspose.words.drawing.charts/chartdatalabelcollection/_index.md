@@ -24,6 +24,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Returns the number of [`ChartDataLabel`](../chartdatalabel/) in this collection. |
 | [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Provides access to the font formatting of the data labels of the entire series. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Provides access to fill and line formatting of the data labels. |
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Returns [`ChartDataLabel`](../chartdatalabel/) for the specified index. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Gets an [`ChartNumberFormat`](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |

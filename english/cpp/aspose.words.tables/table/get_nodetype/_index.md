@@ -44,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -68,7 +68,7 @@ void CalculateDepthOfNestedTables()
 
     for (int i = 0; i < tables->get_Count(); i++)
     {
-        auto table = System::DynamicCast<Table>(tables->idx_get(i));
+        auto table = System::ExplicitCast<Table>(tables->idx_get(i));
 
         // Find out if any cells in the table have other tables as children.
         int count = GetChildTableCount(table);

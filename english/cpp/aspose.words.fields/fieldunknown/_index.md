@@ -65,7 +65,7 @@ SharedPtr<Field> field = builder->InsertField(u" NOTAREALFIELD //a");
 ASSERT_EQ(FieldType::FieldNone, field->get_Type());
 
 // We can also still work with these fields and assign them as instances of the FieldUnknown class.
-auto fieldUnknown = System::DynamicCast<FieldUnknown>(field);
+auto fieldUnknown = System::ExplicitCast<FieldUnknown>(field);
 ASSERT_EQ(u" NOTAREALFIELD //a", fieldUnknown->GetFieldCode());
 ```
 

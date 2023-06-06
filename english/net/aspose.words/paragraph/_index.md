@@ -5,7 +5,7 @@ articleTitle: Paragraph
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Paragraph class. Represents a paragraph of text in C#.
 type: docs
-weight: 4300
+weight: 4340
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class
@@ -29,7 +29,6 @@ public class Paragraph : CompositeNode
 | Name | Description |
 | --- | --- |
 | [BreakIsStyleSeparator](../../aspose.words/paragraph/breakisstyleseparator/) { get; } | True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

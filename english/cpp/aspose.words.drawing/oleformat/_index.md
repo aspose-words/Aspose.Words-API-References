@@ -58,7 +58,7 @@ Use the [OleFormat](../shape/get_oleformat/) property to access the data of an O
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();

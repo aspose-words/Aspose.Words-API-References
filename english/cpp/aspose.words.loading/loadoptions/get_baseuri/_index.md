@@ -42,7 +42,7 @@ Shows how to open an HTML document with images from a stream using a base URI.
     auto doc = MakeObject<Document>(stream, loadOptions);
 
     // Verify that the first shape of the document contains a valid image.
-    auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+    auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(shape->get_ImageData()->get_ImageBytes() == nullptr);

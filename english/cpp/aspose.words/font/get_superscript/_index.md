@@ -24,7 +24,7 @@ bool Aspose::Words::Font::get_Superscript()
 Shows how to format text to offset its position. 
 ```cpp
 auto doc = MakeObject<Document>();
-auto para = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // Raise this run of text 5 points above the baseline.
 auto run = MakeObject<Run>(doc, u"Raised text. ");

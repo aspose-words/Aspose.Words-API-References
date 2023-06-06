@@ -50,7 +50,7 @@ ASSERT_EQ(NodeType::Section, nodes->idx_get(0)->get_NodeType());
 ASSERT_EQ(NodeType::Body, nodes->idx_get(1)->get_NodeType());
 ASSERT_EQ(NodeType::Paragraph, nodes->idx_get(2)->get_NodeType());
 
-(System::DynamicCast<Paragraph>(nodes->idx_get(2)))->get_Runs()->Add(MakeObject<Run>(doc, u"Hello world!"));
+(System::ExplicitCast<Paragraph>(nodes->idx_get(2)))->get_Runs()->Add(MakeObject<Run>(doc, u"Hello world!"));
 ```
 
 ## See Also

@@ -44,7 +44,7 @@ doc->set_FontSettings(MakeObject<FontSettings>());
 // By default, a blank document always contains a system font source.
 ASSERT_EQ(1, doc->get_FontSettings()->GetFontsSources()->get_Length());
 
-auto systemFontSource = System::DynamicCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
+auto systemFontSource = System::ExplicitCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
 ASSERT_EQ(FontSourceType::SystemFonts, systemFontSource->get_Type());
 ASSERT_EQ(0, systemFontSource->get_Priority());
 

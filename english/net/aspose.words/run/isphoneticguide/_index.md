@@ -16,6 +16,20 @@ Gets a boolean value indicating either the run is a phonetic guide.
 public bool IsPhoneticGuide { get; }
 ```
 
+## Examples
+
+Shows how to get properties of the phonetic guide.
+
+```csharp
+Document doc = new Document(MyDir + "Phonetic guide.docx");            
+
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
+// Use phonetic guide in the Asian text.
+Assert.AreEqual(true, runs[0].IsPhoneticGuide);
+Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
+Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+```
+
 ### See Also
 
 * class [Run](../)

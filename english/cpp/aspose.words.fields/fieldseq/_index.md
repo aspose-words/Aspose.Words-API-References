@@ -68,7 +68,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // A TOC field can create an entry in its table of contents for each SEQ field found in the document.
 // Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
-auto fieldToc = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -97,7 +97,7 @@ builder->InsertBreak(BreakType::PageBreak);
 // This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
 // Since this field does not belong to the main sequence identified
 // by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
-auto fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
@@ -111,7 +111,7 @@ ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
 // The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
 // and the separator is ">", so entry will display "1>2".
 builder->Write(u"First TOC entry, MySequence #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
 ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
@@ -120,10 +120,10 @@ ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
 // so the TOC entry will display "2>3" at its page count.
 builder->InsertBreak(BreakType::PageBreak);
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 builder->Write(u"Second TOC entry, MySequence #");
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
@@ -143,7 +143,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Insert a SEQ field that will display the current count value of "MySequence",
 // after using the "ResetNumber" property to set it to 100.
 builder->Write(u"#");
-auto fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
@@ -153,7 +153,7 @@ ASSERT_EQ(u"100", fieldSeq->get_Result());
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
@@ -167,7 +167,7 @@ builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"))
 
 // Insert another SEQ field from the same sequence and configure it to reset the count at every heading with 1.
 builder->Write(u"\n#");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
@@ -178,7 +178,7 @@ ASSERT_EQ(u"1", fieldSeq->get_Result());
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();

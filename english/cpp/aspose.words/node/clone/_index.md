@@ -45,13 +45,13 @@ para->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
 // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 SharedPtr<Node> cloneWithChildren = para->Clone(true);
 
-ASSERT_TRUE((System::DynamicCast<CompositeNode>(cloneWithChildren))->get_HasChildNodes());
+ASSERT_TRUE((System::ExplicitCast<CompositeNode>(cloneWithChildren))->get_HasChildNodes());
 ASSERT_EQ(u"Hello world!", cloneWithChildren->GetText().Trim());
 
 // 2 -  Create a clone of a node just by itself without any children.
 SharedPtr<Node> cloneWithoutChildren = para->Clone(false);
 
-ASSERT_FALSE((System::DynamicCast<CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
+ASSERT_FALSE((System::ExplicitCast<CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
 ASSERT_EQ(String::Empty, cloneWithoutChildren->GetText().Trim());
 ```
 

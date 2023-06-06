@@ -144,7 +144,7 @@ for (int i = 1; i <= 15; i++)
     builder->Write(String::Format(u"List Item {0}\n", i));
 }
 
-auto attachDoc = System::DynamicCast<Document>(dstDoc->Clone(true));
+auto attachDoc = System::ExplicitCast<Document>(dstDoc->Clone(true));
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.

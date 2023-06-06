@@ -47,7 +47,7 @@ Shows how to measure and scale shapes.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.

@@ -143,7 +143,7 @@ Shows how to work with a [FieldStart](../fieldstart/) node.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
+auto field = System::ExplicitCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
@@ -154,7 +154,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
 // Retrieve the facade object which represents the field in the document.
-field = System::DynamicCast<FieldDate>(fieldStart->GetField());
+field = System::ExplicitCast<FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
 ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());

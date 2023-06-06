@@ -31,7 +31,7 @@ Shows how to unlink all fields in a range.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Linked fields.docx");
 
-auto newSection = System::DynamicCast<Section>(doc->get_Sections()->idx_get(0)->Clone(true));
+auto newSection = System::ExplicitCast<Section>(doc->get_Sections()->idx_get(0)->Clone(true));
 doc->get_Sections()->Add(newSection);
 
 doc->get_Sections()->idx_get(1)->get_Range()->UnlinkFields();

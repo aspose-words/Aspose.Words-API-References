@@ -5,7 +5,7 @@ articleTitle: Item
 second_title: Aspose.Words for .NET
 description: ChartDataLabelCollection Item property. Returns ChartDataLabel for the specified index in C#.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer

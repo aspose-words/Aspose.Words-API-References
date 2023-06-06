@@ -23,7 +23,6 @@ public abstract class DocumentBase : CompositeNode
 | Name | Description |
 | --- | --- |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Gets or sets the background shape of the document. Can be `null`. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | override [Document](../../aspose.words/documentbase/document/) { get; } | Gets this instance. |

@@ -74,7 +74,7 @@ void CalculateDepthOfNestedTables()
 
     for (int i = 0; i < tables->get_Count(); i++)
     {
-        auto table = System::DynamicCast<Table>(tables->idx_get(i));
+        auto table = System::ExplicitCast<Table>(tables->idx_get(i));
 
         // Find out if any cells in the table have other tables as children.
         int count = GetChildTableCount(table);

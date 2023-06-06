@@ -33,7 +33,7 @@ Shows how to open an HTML document with images from a stream using a base URI.
     auto doc = MakeObject<Document>(stream, loadOptions);
 
     // Verify that the first shape of the document contains a valid image.
-    auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+    auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(shape->get_ImageData()->get_ImageBytes() == nullptr);
@@ -79,7 +79,7 @@ ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 auto doc = MakeObject<Document>(MyDir + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.

@@ -43,7 +43,7 @@ void DefineDateTimeFormatting()
     // Set a provider that returns a culture object specific to each field.
     doc->get_FieldOptions()->set_FieldUpdateCultureProvider(MakeObject<ExFieldOptions::FieldUpdateCultureProvider>());
 
-    auto fieldDate = System::DynamicCast<FieldTime>(doc->get_Range()->get_Fields()->idx_get(0));
+    auto fieldDate = System::ExplicitCast<FieldTime>(doc->get_Range()->get_Fields()->idx_get(0));
     if (fieldDate->get_LocaleId() != (int)EditingLanguage::Russian)
     {
         fieldDate->set_LocaleId((int)EditingLanguage::Russian);

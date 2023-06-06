@@ -56,13 +56,13 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 // In Microsoft Word, we can insert these fields via the Legacy Tools menu in the Developer tab.
 auto doc = MakeObject<Document>(MyDir + u"Form fields.docx");
 
-auto fieldFormCheckBox = System::DynamicCast<FieldFormCheckBox>(doc->get_Range()->get_Fields()->idx_get(1));
+auto fieldFormCheckBox = System::ExplicitCast<FieldFormCheckBox>(doc->get_Range()->get_Fields()->idx_get(1));
 ASSERT_EQ(u" FORMCHECKBOX \u0001", fieldFormCheckBox->GetFieldCode());
 
-auto fieldFormDropDown = System::DynamicCast<FieldFormDropDown>(doc->get_Range()->get_Fields()->idx_get(2));
+auto fieldFormDropDown = System::ExplicitCast<FieldFormDropDown>(doc->get_Range()->get_Fields()->idx_get(2));
 ASSERT_EQ(u" FORMDROPDOWN \u0001", fieldFormDropDown->GetFieldCode());
 
-auto fieldFormText = System::DynamicCast<FieldFormText>(doc->get_Range()->get_Fields()->idx_get(0));
+auto fieldFormText = System::ExplicitCast<FieldFormText>(doc->get_Range()->get_Fields()->idx_get(0));
 ASSERT_EQ(u" FORMTEXT \u0001", fieldFormText->GetFieldCode());
 ```
 

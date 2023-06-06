@@ -24,6 +24,21 @@ When the value is `true` the paragraph graphics will be marked as "Artifact".
 
 This value is ignored when [`ExportDocumentStructure`](../exportdocumentstructure/) is `false`.
 
+## Examples
+
+Shows how to export paragraph graphics as artifact (underlines, text emphasis, etc.).
+
+```csharp
+Document doc = new Document(MyDir + "PDF artifacts.docx");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.ExportDocumentStructure = true;
+saveOptions.ExportParagraphGraphicsToArtifact = true;
+saveOptions.TextCompression = PdfTextCompression.None;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)

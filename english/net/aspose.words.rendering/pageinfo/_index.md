@@ -5,7 +5,7 @@ articleTitle: PageInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.PageInfo class. Represents information about a particular document page in C#.
 type: docs
-weight: 4480
+weight: 4520
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -22,6 +22,7 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Returns `true` if the page contains colored content. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Gets the height of the page in points. |
 | [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returns `true` if the page orientation specified in the document for this page is landscape. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Gets the paper size as enumeration. |

@@ -5,7 +5,7 @@ articleTitle: GetChild
 second_title: Aspose.Words for .NET
 description: CompositeNode GetChild method. Returns an Nth child node that matches the specified type in C#.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -81,9 +81,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)

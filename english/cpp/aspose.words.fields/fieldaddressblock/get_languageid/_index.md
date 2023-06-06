@@ -26,7 +26,7 @@ Shows how to insert an ADDRESSBLOCK field.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
+auto field = System::ExplicitCast<FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
 
 ASSERT_EQ(u" ADDRESSBLOCK ", field->GetFieldCode());
 

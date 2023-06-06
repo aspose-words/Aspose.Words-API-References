@@ -68,7 +68,7 @@ builder->MoveToDocumentEnd();
 builder->Writeln();
 
 // This FILENAME field will display the local system file name of the document we loaded.
-auto field = System::DynamicCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
+auto field = System::ExplicitCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->Update();
 
 ASSERT_EQ(u" FILENAME ", field->GetFieldCode());
@@ -78,7 +78,7 @@ builder->Writeln();
 
 // By default, the FILENAME field shows the file's name, but not its full local file system path.
 // We can set a flag to make it show the full file path.
-field = System::DynamicCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
+field = System::ExplicitCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->set_IncludeFullPath(true);
 field->Update();
 

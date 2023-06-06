@@ -44,7 +44,7 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (const auto& value : System::IterateOver(
-                 System::DynamicCast_noexcept<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
             std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
         }

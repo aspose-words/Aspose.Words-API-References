@@ -30,7 +30,7 @@ doc->get_BuiltInDocumentProperties()->set_Subject(u"My subject");
 
 // Create a SUBJECT field to display the value of that built-in property.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
+auto field = System::ExplicitCast<FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
 field->Update();
 
 ASSERT_EQ(u" SUBJECT ", field->GetFieldCode());

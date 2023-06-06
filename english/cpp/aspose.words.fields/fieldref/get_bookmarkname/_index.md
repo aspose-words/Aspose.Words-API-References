@@ -28,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Name bookmarked text with a SET field.
 // This field refers to the "bookmark" not a bookmark structure that appears within the text, but a named variable.
-auto fieldSet = System::DynamicCast<FieldSet>(builder->InsertField(FieldType::FieldSet, false));
+auto fieldSet = System::ExplicitCast<FieldSet>(builder->InsertField(FieldType::FieldSet, false));
 fieldSet->set_BookmarkName(u"MyBookmark");
 fieldSet->set_BookmarkText(u"Hello world!");
 fieldSet->Update();
@@ -36,7 +36,7 @@ fieldSet->Update();
 ASSERT_EQ(u" SET  MyBookmark \"Hello world!\"", fieldSet->GetFieldCode());
 
 // Refer to the bookmark by name in a REF field and display its contents.
-auto fieldRef = System::DynamicCast<FieldRef>(builder->InsertField(FieldType::FieldRef, true));
+auto fieldRef = System::ExplicitCast<FieldRef>(builder->InsertField(FieldType::FieldRef, true));
 fieldRef->set_BookmarkName(u"MyBookmark");
 fieldRef->Update();
 

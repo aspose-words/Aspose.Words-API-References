@@ -33,7 +33,7 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 // Create a USERADDRESS field to display the current user's address,
 // taken from the UserInformation object we created above.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto fieldUserAddress = System::DynamicCast<FieldUserAddress>(builder->InsertField(FieldType::FieldUserAddress, true));
+auto fieldUserAddress = System::ExplicitCast<FieldUserAddress>(builder->InsertField(FieldType::FieldUserAddress, true));
 
 ASSERT_EQ(u" USERADDRESS ", fieldUserAddress->GetFieldCode());
 ASSERT_EQ(u"123 Main Street", fieldUserAddress->get_Result());

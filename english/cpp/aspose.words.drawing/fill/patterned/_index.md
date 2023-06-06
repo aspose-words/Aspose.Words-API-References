@@ -29,7 +29,7 @@ Shows how to set pattern for a shape.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
 
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Fill> fill = shape->get_Fill();
 
 std::cout << String::Format(u"Pattern value is: {0}", fill->get_Pattern()) << std::endl;
@@ -74,7 +74,7 @@ Shows how to set pattern for a shape.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
 
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Fill> fill = shape->get_Fill();
 
 std::cout << String::Format(u"Pattern value is: {0}", fill->get_Pattern()) << std::endl;

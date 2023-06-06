@@ -44,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {

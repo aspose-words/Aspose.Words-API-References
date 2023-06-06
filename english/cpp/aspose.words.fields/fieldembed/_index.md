@@ -70,15 +70,15 @@ ASSERT_EQ(3, shapes->get_Count());
 
 // The first Shape node corresponds to the SHAPE field in the input document,
 // which is the inline canvas for the AutoShape.
-auto shape = System::DynamicCast<Shape>(shapes->idx_get(0));
+auto shape = System::ExplicitCast<Shape>(shapes->idx_get(0));
 ASSERT_EQ(ShapeType::Image, shape->get_ShapeType());
 
 // The second Shape node is the AutoShape itself.
-shape = System::DynamicCast<Shape>(shapes->idx_get(1));
+shape = System::ExplicitCast<Shape>(shapes->idx_get(1));
 ASSERT_EQ(ShapeType::Can, shape->get_ShapeType());
 
 // The third Shape is what was the EMBED field that contained the external spreadsheet.
-shape = System::DynamicCast<Shape>(shapes->idx_get(2));
+shape = System::ExplicitCast<Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
 

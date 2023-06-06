@@ -55,7 +55,7 @@ Shows how to insert an OCX field.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldOcx>(builder->InsertField(FieldType::FieldOcx, true));
+auto field = System::ExplicitCast<FieldOcx>(builder->InsertField(FieldType::FieldOcx, true));
 
 ASSERT_EQ(u" OCX ", field->GetFieldCode());
 ```

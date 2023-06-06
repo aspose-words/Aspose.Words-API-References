@@ -92,7 +92,7 @@ ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 auto doc = MakeObject<Document>(MyDir + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.

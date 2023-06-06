@@ -51,7 +51,7 @@ public:
             SharedPtr<System::Drawing::Image> newImage = System::Drawing::Image::FromFile(ImageDir + newImageFilename);
             auto converter = MakeObject<System::Drawing::ImageConverter>();
             ArrayPtr<uint8_t> imageBytes =
-                System::DynamicCast<System::Array<uint8_t>>(converter->ConvertTo(newImage, System::ObjectExt::GetType<System::Array<uint8_t>>()));
+                System::ExplicitCast<System::Array<uint8_t>>(converter->ConvertTo(newImage, System::ObjectExt::GetType<System::Array<uint8_t>>()));
             args->SetData(imageBytes);
             return ResourceLoadingAction::UserProvided;
         }

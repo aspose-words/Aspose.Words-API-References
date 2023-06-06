@@ -47,7 +47,7 @@ importFormatOptions->set_IgnoreTextBoxes(ignoreTextBoxes);
 // Import the text box from the source document into the destination document,
 // and then verify whether we have preserved the styling of its text contents.
 auto importer = MakeObject<NodeImporter>(srcDoc, dstDoc, ImportFormatMode::KeepSourceFormatting, importFormatOptions);
-auto importedTextBox = System::DynamicCast<Shape>(importer->ImportNode(textBox, true));
+auto importedTextBox = System::ExplicitCast<Shape>(importer->ImportNode(textBox, true));
 dstDoc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->AppendChild(importedTextBox);
 
 if (ignoreTextBoxes)

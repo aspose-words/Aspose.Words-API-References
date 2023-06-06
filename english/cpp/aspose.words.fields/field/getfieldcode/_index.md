@@ -40,7 +40,7 @@ Shows how to get a field's field code.
 ```cpp
 // Open a document which contains a MERGEFIELD inside an IF field.
 auto doc = MakeObject<Document>(MyDir + u"Nested fields.docx");
-auto fieldIf = System::DynamicCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
+auto fieldIf = System::ExplicitCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
@@ -81,7 +81,7 @@ Shows how to get a field's field code.
 ```cpp
 // Open a document which contains a MERGEFIELD inside an IF field.
 auto doc = MakeObject<Document>(MyDir + u"Nested fields.docx");
-auto fieldIf = System::DynamicCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
+auto fieldIf = System::ExplicitCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:

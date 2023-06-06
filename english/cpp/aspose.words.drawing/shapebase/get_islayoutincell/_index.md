@@ -37,7 +37,7 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_BottomPadding(20);
 tableStyle->set_LeftPadding(10);
 tableStyle->set_RightPadding(10);

@@ -5,7 +5,7 @@ articleTitle: Story
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Story class. Base class for elements that contain blocklevel nodes Paragraph and Table in C#.
 type: docs
-weight: 6010
+weight: 6060
 url: /net/aspose.words/story/
 ---
 ## Story class
@@ -22,7 +22,6 @@ public abstract class Story : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

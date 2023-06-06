@@ -38,7 +38,7 @@ SharedPtr<Field> field = builder->InsertField(u"DATE", nullptr);
 ASSERT_EQ(FieldType::FieldDate, field->get_Type());
 
 // Manually change the raw text of the field, which determines the field code.
-auto fieldText = System::DynamicCast<Run>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Run, true)->idx_get(0));
+auto fieldText = System::ExplicitCast<Run>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Run, true)->idx_get(0));
 fieldText->set_Text(u"PAGE");
 
 // Changing the field code has changed this field to one of a different type,

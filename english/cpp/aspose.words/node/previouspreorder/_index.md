@@ -46,7 +46,7 @@ while (curNode != nullptr)
         ASPOSE_ASSERT_EQ(curNode, nextNode->PreviousPreOrder(doc));
     }
 
-    if (curNode->get_NodeType() == NodeType::Shape && (System::DynamicCast<Shape>(curNode))->get_HasImage())
+    if (curNode->get_NodeType() == NodeType::Shape && (System::ExplicitCast<Shape>(curNode))->get_HasImage())
     {
         curNode->Remove();
     }

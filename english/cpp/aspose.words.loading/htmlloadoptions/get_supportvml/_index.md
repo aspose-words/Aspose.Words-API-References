@@ -36,11 +36,11 @@ auto doc = MakeObject<Document>(MyDir + u"VML conditional.htm", loadOptions);
 
 if (supportVml)
 {
-    ASSERT_EQ(ImageType::Jpeg, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ(ImageType::Png, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
 

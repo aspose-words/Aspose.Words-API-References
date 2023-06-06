@@ -34,7 +34,7 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(shape);
 
 doc->Save(ArtifactsDir + u"Image.CreateImageDirectly.docx");
 
-shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 TestUtil::VerifyImageInShape(1600, 1600, ImageType::Wmf, shape);
 
@@ -42,7 +42,7 @@ auto loadOptions = MakeObject<LoadOptions>();
 loadOptions->set_ConvertMetafilesToPng(true);
 
 doc = MakeObject<Document>(ArtifactsDir + u"Image.CreateImageDirectly.docx", loadOptions);
-shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 ```
 
 ## See Also

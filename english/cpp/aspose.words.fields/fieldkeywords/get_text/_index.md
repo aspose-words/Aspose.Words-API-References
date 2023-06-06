@@ -30,7 +30,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_Keywords(u"Keyword1, Keyword2");
 
 // The KEYWORDS field displays the value of this property.
-auto field = System::DynamicCast<FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
+auto field = System::ExplicitCast<FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
 field->Update();
 
 ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());

@@ -86,7 +86,7 @@ Shows how to set office math display formatting.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.

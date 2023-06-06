@@ -30,7 +30,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment.");
 
 // Create a COMMENTS field to display the value of that built-in property.
-auto field = System::DynamicCast<FieldComments>(builder->InsertField(FieldType::FieldComments, true));
+auto field = System::ExplicitCast<FieldComments>(builder->InsertField(FieldType::FieldComments, true));
 field->Update();
 
 ASSERT_EQ(u" COMMENTS ", field->GetFieldCode());

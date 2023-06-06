@@ -77,7 +77,7 @@ void FieldTime_()
 
 static SharedPtr<FieldTime> InsertFieldTime(SharedPtr<DocumentBuilder> builder, String format)
 {
-    auto field = System::DynamicCast<FieldTime>(builder->InsertField(FieldType::FieldTime, true));
+    auto field = System::ExplicitCast<FieldTime>(builder->InsertField(FieldType::FieldTime, true));
     builder->MoveTo(field->get_Separator());
     builder->Write(format);
     builder->MoveTo(field->get_Start()->get_ParentNode());

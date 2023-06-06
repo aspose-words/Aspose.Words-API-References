@@ -31,8 +31,8 @@ builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Writeln(u"Section 2 text.");
 
 // Both sections are siblings of each other.
-auto lastSection = System::DynamicCast<Section>(doc->get_LastChild());
-auto firstSection = System::DynamicCast<Section>(lastSection->get_PreviousSibling());
+auto lastSection = System::ExplicitCast<Section>(doc->get_LastChild());
+auto firstSection = System::ExplicitCast<Section>(lastSection->get_PreviousSibling());
 
 // Remove a section based on its sibling relationship with another section.
 if (lastSection->get_PreviousSibling() != nullptr)

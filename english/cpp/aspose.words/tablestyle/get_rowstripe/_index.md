@@ -45,7 +45,7 @@ for (int i = 0; i < 15; i++)
 builder->EndTable();
 
 // Apply a line style to all the borders of the table.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Black());
 tableStyle->get_Borders()->set_LineStyle(LineStyle::Double);
 

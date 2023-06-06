@@ -57,7 +57,7 @@ DigitalSignatureUtil::Sign(ArtifactsDir + u"DocumentBuilder.SignatureLineProvide
 // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
 // indicating that the signature line contains a signature.
 doc = MakeObject<Document>(ArtifactsDir + u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 signatureLine = shape->get_SignatureLine();
 
 ASSERT_TRUE(signatureLine->get_IsSigned());

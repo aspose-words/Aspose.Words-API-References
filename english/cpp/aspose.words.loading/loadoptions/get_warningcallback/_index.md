@@ -34,7 +34,7 @@ void LoadOptionsWarningCallback()
     auto doc = MakeObject<Document>(MyDir + u"Document.docx", loadOptions);
 
     SharedPtr<System::Collections::Generic::List<SharedPtr<WarningInfo>>> warnings =
-        (System::StaticCast<ApiExamples::ExLoadOptions::DocumentLoadingWarningCallback>(loadOptions->get_WarningCallback()))->GetWarnings();
+        (System::ExplicitCast<ApiExamples::ExLoadOptions::DocumentLoadingWarningCallback>(loadOptions->get_WarningCallback()))->GetWarnings();
     ASSERT_EQ(3, warnings->get_Count());
 }
 

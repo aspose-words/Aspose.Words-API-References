@@ -65,7 +65,7 @@ private:
 
         if (args->get_Node()->get_NodeType() == NodeType::Run)
         {
-            SharedPtr<Aspose::Words::Font> font = (System::DynamicCast<Run>(args->get_Node()))->get_Font();
+            SharedPtr<Aspose::Words::Font> font = (System::ExplicitCast<Run>(args->get_Node()))->get_Font();
             mLog->Append(String::Format(u"\tFont:\tChanged from \"{0}\" {1}pt", font->get_Name(), font->get_Size()));
 
             font->set_Size(24);

@@ -50,7 +50,7 @@ void DocumentToTxt()
 
     // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
     auto absPositionTab =
-        System::DynamicCast<AbsolutePositionTab>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChild(NodeType::SpecialChar, 0, true));
+        System::ExplicitCast<AbsolutePositionTab>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChild(NodeType::SpecialChar, 0, true));
 
     myDocTextExtractor = MakeObject<ExAbsolutePositionTab::DocTextExtractor>();
     absPositionTab->Accept(myDocTextExtractor);

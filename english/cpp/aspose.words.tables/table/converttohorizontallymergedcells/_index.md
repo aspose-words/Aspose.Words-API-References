@@ -42,7 +42,7 @@ SharedPtr<Row> row = table->get_Rows()->idx_get(0);
 ASSERT_EQ(5, row->get_Cells()->get_Count());
 auto horizontalMergeIsNone = [](SharedPtr<Node> c)
 {
-    return (System::DynamicCast<Cell>(c))->get_CellFormat()->get_HorizontalMerge() == CellMerge::None;
+    return (System::ExplicitCast<Cell>(c))->get_CellFormat()->get_HorizontalMerge() == CellMerge::None;
 };
 ASSERT_TRUE(row->get_Cells()->LINQ_All(horizontalMergeIsNone));
 

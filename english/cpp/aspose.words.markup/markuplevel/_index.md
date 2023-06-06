@@ -55,7 +55,7 @@ SharedPtr<NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocument
 
 for (const auto& node : System::IterateOver(tags))
 {
-    auto sdt = System::DynamicCast<StructuredDocumentTag>(node);
+    auto sdt = System::ExplicitCast<StructuredDocumentTag>(node);
 
     ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());

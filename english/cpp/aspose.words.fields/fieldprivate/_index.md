@@ -60,7 +60,7 @@ void FieldPrivate_()
     // WordPerfect 5.x/6.x documents like the one we have loaded may contain PRIVATE fields.
     // Microsoft Word preserves PRIVATE fields during load/save operations,
     // but provides no functionality for them.
-    auto field = System::DynamicCast<FieldPrivate>(doc->get_Range()->get_Fields()->idx_get(0));
+    auto field = System::ExplicitCast<FieldPrivate>(doc->get_Range()->get_Fields()->idx_get(0));
 
     ASSERT_EQ(u" PRIVATE \"My value\" ", field->GetFieldCode());
     ASSERT_EQ(FieldType::FieldPrivate, field->get_Type());

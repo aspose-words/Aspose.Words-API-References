@@ -2,7 +2,7 @@
 title: Aspose::Words::Vba::VbaProject::get_CodePage method
 linktitle: get_CodePage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Vba::VbaProject::get_CodePage method. Returns the VBA project’s code page in C++.'
+description: 'Aspose::Words::Vba::VbaProject::get_CodePage method. Gets or sets the VBA project’s code page in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.vba/vbaproject/get_codepage/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.vba/vbaproject/get_codepage/
 ## VbaProject::get_CodePage method
 
 
-Returns the VBA project’s code page.
+Gets or sets the VBA project’s code page.
 
 ```cpp
 int32_t Aspose::Words::Vba::VbaProject::get_CodePage() const

@@ -28,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are two similar field types that we can use to display images linked from the local file system.
 // 1 -  The INCLUDEPICTURE field:
-auto fieldIncludePicture = System::DynamicCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
+auto fieldIncludePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 fieldIncludePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldIncludePicture->GetFieldCode(), u" INCLUDEPICTURE  .*")->get_Success());
@@ -40,7 +40,7 @@ fieldIncludePicture->set_ResizeHorizontally(true);
 fieldIncludePicture->set_ResizeVertically(true);
 
 // 2 -  The IMPORT field:
-auto fieldImport = System::DynamicCast<FieldImport>(builder->InsertField(FieldType::FieldImport, true));
+auto fieldImport = System::ExplicitCast<FieldImport>(builder->InsertField(FieldType::FieldImport, true));
 fieldImport->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 fieldImport->set_GraphicFilter(u"PNG32");
 fieldImport->set_IsLinked(true);

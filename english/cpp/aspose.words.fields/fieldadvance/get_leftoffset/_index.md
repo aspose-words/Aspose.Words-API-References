@@ -32,7 +32,7 @@ builder->Write(u"This text is in its normal place.");
 // The effects of an ADVANCE field continue to be applied until the paragraph ends,
 // or another ADVANCE field updates the offset/coordinate values.
 // 1 -  Specify a directional offset:
-auto field = System::DynamicCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
+auto field = System::ExplicitCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
 field->set_RightOffset(u"5");
 field->set_UpOffset(u"5");
 
@@ -40,7 +40,7 @@ ASSERT_EQ(u" ADVANCE  \\r 5 \\u 5", field->GetFieldCode());
 
 builder->Write(u"This text will be moved up and to the right.");
 
-field = System::DynamicCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
+field = System::ExplicitCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
 field->set_DownOffset(u"5");
 field->set_LeftOffset(u"100");
 
@@ -49,7 +49,7 @@ ASSERT_EQ(u" ADVANCE  \\d 5 \\l 100", field->GetFieldCode());
 builder->Writeln(u"This text is moved down and to the left, overlapping the previous text.");
 
 // 2 -  Move text to a position specified by coordinates:
-field = System::DynamicCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
+field = System::ExplicitCast<FieldAdvance>(builder->InsertField(FieldType::FieldAdvance, true));
 field->set_HorizontalPosition(u"-100");
 field->set_VerticalPosition(u"200");
 

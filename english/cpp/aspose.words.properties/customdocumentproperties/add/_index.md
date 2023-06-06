@@ -61,7 +61,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -148,7 +148,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -235,7 +235,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -322,7 +322,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -419,7 +419,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());

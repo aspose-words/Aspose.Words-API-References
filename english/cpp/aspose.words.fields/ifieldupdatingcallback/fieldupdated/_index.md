@@ -63,7 +63,7 @@ private:
     {
         if (field->get_Type() == FieldType::FieldAuthor)
         {
-            auto fieldAuthor = System::DynamicCast<FieldAuthor>(field);
+            auto fieldAuthor = System::ExplicitCast<FieldAuthor>(field);
             fieldAuthor->set_AuthorName(u"Updating John Doe");
         }
     }

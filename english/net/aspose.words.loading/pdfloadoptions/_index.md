@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a Document object in C#.
 type: docs
-weight: 3610
+weight: 3630
 url: /net/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -47,6 +47,12 @@ public class PdfLoadOptions : LoadOptions
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder/) { get; set; } | Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used. |
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields/) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback/) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### See Also
 

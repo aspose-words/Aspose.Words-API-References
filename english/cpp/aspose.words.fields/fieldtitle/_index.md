@@ -61,7 +61,7 @@ doc->get_BuiltInDocumentProperties()->set_Title(u"My Title");
 
 // We can use the TITLE field to display the value of this property in the document.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
+auto field = System::ExplicitCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
 field->Update();
 
 ASSERT_EQ(u" TITLE ", field->GetFieldCode());
@@ -70,7 +70,7 @@ ASSERT_EQ(u"My Title", field->get_Result());
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
 builder->Writeln();
-field = System::DynamicCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
+field = System::ExplicitCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
 field->set_Text(u"My New Title");
 field->Update();
 

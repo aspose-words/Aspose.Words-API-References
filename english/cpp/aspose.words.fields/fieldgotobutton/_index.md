@@ -61,7 +61,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Add a GOTOBUTTON field. When we double-click this field in Microsoft Word,
 // it will take the text cursor to the bookmark whose name the Location property references.
-auto field = System::DynamicCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
+auto field = System::ExplicitCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 

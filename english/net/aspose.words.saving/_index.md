@@ -5,7 +5,7 @@ articleTitle: Aspose.Words.Saving
 second_title: Aspose.Words for .NET
 description: The Aspose.Words.Saving namespace provides classes and enumerations that allow to specify additional options for saving or converting documents in C#.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.words.saving/
 ---
 The **Aspose.Words.Saving** namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
@@ -52,6 +52,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [WordML2003SaveOptions](./wordml2003saveoptions/) | Can be used to specify additional options when saving a document into the WordML format. |
 | [XamlFixedSaveOptions](./xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the XamlFixed format. |
 | [XamlFlowSaveOptions](./xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the XamlFlow or XamlFlowPack format. |
+| [XlsxSaveOptions](./xlsxsaveoptions/) | Can be used to specify additional options when saving a document into the Xlsx format. |
 | [XpsSaveOptions](./xpssaveoptions/) | Can be used to specify additional options when saving a document into the Xps format. |
 ## Interfaces
 

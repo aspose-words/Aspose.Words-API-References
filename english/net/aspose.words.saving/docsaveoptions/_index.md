@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.DocSaveOptions class. Can be used to specify additional options when saving a document into the Doc or Dot format in C#.
 type: docs
-weight: 4840
+weight: 4880
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class

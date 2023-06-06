@@ -115,7 +115,7 @@ void FieldEQ_()
 
 static SharedPtr<FieldEQ> InsertFieldEQ(SharedPtr<DocumentBuilder> builder, String args)
 {
-    auto field = System::DynamicCast<FieldEQ>(builder->InsertField(FieldType::FieldEquation, true));
+    auto field = System::ExplicitCast<FieldEQ>(builder->InsertField(FieldType::FieldEquation, true));
     builder->MoveTo(field->get_Separator());
     builder->Write(args);
     builder->MoveTo(field->get_Start()->get_ParentNode());

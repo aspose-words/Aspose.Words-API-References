@@ -64,7 +64,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 builder->Write(u"Current revision #");
 
 // Insert a REVNUM field, which displays the document's current revision number property.
-auto field = System::DynamicCast<FieldRevNum>(builder->InsertField(FieldType::FieldRevisionNum, true));
+auto field = System::ExplicitCast<FieldRevNum>(builder->InsertField(FieldType::FieldRevisionNum, true));
 
 ASSERT_EQ(u" REVNUM ", field->GetFieldCode());
 ASSERT_EQ(u"1", field->get_Result());

@@ -45,7 +45,7 @@ builder->InsertNode(shape);
 doc->Save(ArtifactsDir + u"Shape.Title.docx");
 
 doc = MakeObject<Document>(ArtifactsDir + u"Shape.Title.docx");
-shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 ASSERT_EQ(String::Empty, shape->get_Title());
 ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());

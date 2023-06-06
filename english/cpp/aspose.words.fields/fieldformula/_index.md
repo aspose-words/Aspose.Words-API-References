@@ -61,7 +61,7 @@ fieldBuilder->AddArgument(2);
 fieldBuilder->AddArgument(u"*");
 fieldBuilder->AddArgument(5);
 
-auto field = System::DynamicCast<FieldFormula>(fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph()));
+auto field = System::ExplicitCast<FieldFormula>(fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph()));
 field->Update();
 
 ASSERT_EQ(u" = 2 * 5 ", field->GetFieldCode());

@@ -47,7 +47,7 @@ Shows how to render an Office [Math](../../../aspose.words.math/) object into an
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto math = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto math = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
 // how it renders the OfficeMath node into an image.

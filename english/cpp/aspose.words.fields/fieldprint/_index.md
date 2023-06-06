@@ -63,7 +63,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 builder->Write(u"My paragraph");
 
 // The PRINT field can send instructions to the printer.
-auto field = System::DynamicCast<FieldPrint>(builder->InsertField(FieldType::FieldPrint, true));
+auto field = System::ExplicitCast<FieldPrint>(builder->InsertField(FieldType::FieldPrint, true));
 
 // Set the area for the printer to perform instructions over.
 // In this case, it will be the paragraph that contains our PRINT field.

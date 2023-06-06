@@ -55,7 +55,7 @@ Shows how to insert a DATA field into a document.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldData>(builder->InsertField(FieldType::FieldData, true));
+auto field = System::ExplicitCast<FieldData>(builder->InsertField(FieldType::FieldData, true));
 ASSERT_EQ(u" DATA ", field->GetFieldCode());
 ```
 

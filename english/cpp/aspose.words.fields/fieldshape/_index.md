@@ -60,7 +60,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
 // but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
 // The following field will display ".1", the RTL equivalent of list number "1.".
-auto field = System::DynamicCast<FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
+auto field = System::ExplicitCast<FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
 builder->Writeln(u"שלום");
 
 ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());
@@ -103,15 +103,15 @@ ASSERT_EQ(3, shapes->get_Count());
 
 // The first Shape node corresponds to the SHAPE field in the input document,
 // which is the inline canvas for the AutoShape.
-auto shape = System::DynamicCast<Shape>(shapes->idx_get(0));
+auto shape = System::ExplicitCast<Shape>(shapes->idx_get(0));
 ASSERT_EQ(ShapeType::Image, shape->get_ShapeType());
 
 // The second Shape node is the AutoShape itself.
-shape = System::DynamicCast<Shape>(shapes->idx_get(1));
+shape = System::ExplicitCast<Shape>(shapes->idx_get(1));
 ASSERT_EQ(ShapeType::Can, shape->get_ShapeType());
 
 // The third Shape is what was the EMBED field that contained the external spreadsheet.
-shape = System::DynamicCast<Shape>(shapes->idx_get(2));
+shape = System::ExplicitCast<Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
 

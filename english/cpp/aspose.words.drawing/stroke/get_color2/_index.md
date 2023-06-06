@@ -28,7 +28,7 @@ The default value for a [Shape](../../shape/) is **White**.
 Shows how to process shape stroke features. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Stroke> stroke = shape->get_Stroke();
 
 // Strokes can have two colors, which are used to create a pattern defined by two-tone image data.

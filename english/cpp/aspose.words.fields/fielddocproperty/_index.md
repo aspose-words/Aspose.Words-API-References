@@ -60,7 +60,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Set a custom value for the "Category" built-in property, then insert a DOCPROPERTY field that references it.
 doc->get_BuiltInDocumentProperties()->set_Category(u"My category");
 
-auto fieldDocProperty = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
+auto fieldDocProperty = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
 fieldDocProperty->Update();
 
 ASSERT_EQ(u" DOCPROPERTY Category ", fieldDocProperty->GetFieldCode());
@@ -73,7 +73,7 @@ builder->InsertParagraph();
 ASSERT_EQ(0, doc->get_Variables()->get_Count());
 doc->get_Variables()->Add(u"My variable", u"My variable's value");
 
-auto fieldDocVariable = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto fieldDocVariable = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 fieldDocVariable->set_VariableName(u"My Variable");
 fieldDocVariable->Update();
 

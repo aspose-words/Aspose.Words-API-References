@@ -61,12 +61,12 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Each AUTONUM field displays the current value of a running count of AUTONUM fields,
 // allowing us to automatically number items like a numbered list.
 // This field will display a number "1.".
-auto field = System::DynamicCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
+auto field = System::ExplicitCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 1.");
 
 ASSERT_EQ(u" AUTONUM ", field->GetFieldCode());
 
-field = System::DynamicCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
+field = System::ExplicitCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 2.");
 
 // The separator character, which appears in the field result immediately after the number,is a full stop by default.

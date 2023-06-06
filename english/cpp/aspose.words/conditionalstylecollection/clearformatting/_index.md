@@ -34,7 +34,7 @@ builder->InsertCell();
 builder->Write(u"Last row");
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 table->set_Style(tableStyle);
 
 // Set the table style to color the borders of the first row of the table in red.

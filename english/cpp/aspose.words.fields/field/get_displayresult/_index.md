@@ -27,7 +27,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 builder->Write(u"This document was written by ");
-auto fieldAuthor = System::DynamicCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto fieldAuthor = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 fieldAuthor->set_AuthorName(u"John Doe");
 
 // We can use the DisplayResult property to verify what exact text

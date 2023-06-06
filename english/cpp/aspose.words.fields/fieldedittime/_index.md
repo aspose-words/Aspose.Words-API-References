@@ -59,7 +59,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // the time spent with the document open in a Microsoft Word window.
 builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Write(u"You've been editing this document for ");
-auto field = System::DynamicCast<FieldEditTime>(builder->InsertField(FieldType::FieldEditTime, true));
+auto field = System::ExplicitCast<FieldEditTime>(builder->InsertField(FieldType::FieldEditTime, true));
 builder->Writeln(u" minutes.");
 
 // This built in document property tracks the minutes. Microsoft Word uses this property

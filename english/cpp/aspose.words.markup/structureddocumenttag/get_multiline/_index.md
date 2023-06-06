@@ -68,7 +68,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 builder->InsertNode(tag);
 
 // Insert a clone of our structured document tag in a new paragraph.
-auto tagClone = System::DynamicCast<StructuredDocumentTag>(tag->Clone(true));
+auto tagClone = System::ExplicitCast<StructuredDocumentTag>(tag->Clone(true));
 builder->InsertParagraph();
 builder->InsertNode(tagClone);
 

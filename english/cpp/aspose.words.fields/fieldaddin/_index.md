@@ -55,7 +55,7 @@ Shows how to process an ADDIN field.
 auto doc = MakeObject<Document>(MyDir + u"Field sample - ADDIN.docx");
 
 // Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
-auto field = System::DynamicCast<FieldAddIn>(doc->get_Range()->get_Fields()->idx_get(0));
+auto field = System::ExplicitCast<FieldAddIn>(doc->get_Range()->get_Fields()->idx_get(0));
 
 ASSERT_EQ(u" ADDIN \"My value\" ", field->GetFieldCode());
 ```

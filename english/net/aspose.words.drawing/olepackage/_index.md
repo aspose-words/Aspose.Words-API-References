@@ -5,7 +5,7 @@ articleTitle: OlePackage
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.OlePackage class. Allows to access OLE Package properties in C#.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class

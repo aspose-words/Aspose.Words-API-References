@@ -77,7 +77,7 @@ auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
 SharedPtr<Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::DynamicCast<Table>(doc->GetChild(NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Table>(doc->GetChild(NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())

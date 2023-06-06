@@ -33,7 +33,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
 // but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
 // The following field will display ".1", the RTL equivalent of list number "1.".
-auto field = System::DynamicCast<FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
+auto field = System::ExplicitCast<FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
 builder->Writeln(u"שלום");
 
 ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());

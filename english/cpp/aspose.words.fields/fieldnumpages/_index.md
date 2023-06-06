@@ -60,20 +60,20 @@ builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 // Below are three types of fields that we can use to track the size of our documents.
 // 1 -  Track the character count with a NUMCHARS field:
-auto fieldNumChars = System::DynamicCast<FieldNumChars>(builder->InsertField(FieldType::FieldNumChars, true));
+auto fieldNumChars = System::ExplicitCast<FieldNumChars>(builder->InsertField(FieldType::FieldNumChars, true));
 builder->Writeln(u" characters");
 
 // 2 -  Track the word count with a NUMWORDS field:
-auto fieldNumWords = System::DynamicCast<FieldNumWords>(builder->InsertField(FieldType::FieldNumWords, true));
+auto fieldNumWords = System::ExplicitCast<FieldNumWords>(builder->InsertField(FieldType::FieldNumWords, true));
 builder->Writeln(u" words");
 
 // 3 -  Use both PAGE and NUMPAGES fields to display what page the field is on,
 // and the total number of pages in the document:
 builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 builder->Write(u"Page ");
-auto fieldPage = System::DynamicCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
+auto fieldPage = System::ExplicitCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 builder->Write(u" of ");
-auto fieldNumPages = System::DynamicCast<FieldNumPages>(builder->InsertField(FieldType::FieldNumPages, true));
+auto fieldNumPages = System::ExplicitCast<FieldNumPages>(builder->InsertField(FieldType::FieldNumPages, true));
 
 ASSERT_EQ(u" NUMCHARS ", fieldNumChars->GetFieldCode());
 ASSERT_EQ(u" NUMWORDS ", fieldNumWords->GetFieldCode());

@@ -28,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // We can use an INCLUDE field to import a portion of another document in the local file system.
 // The bookmark from the other document that we reference with this field contains this imported portion.
-auto field = System::DynamicCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
+auto field = System::ExplicitCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
 field->set_SourceFullName(MyDir + u"Bookmarks.docx");
 field->set_BookmarkName(u"MyBookmark1");
 field->set_LockFields(false);

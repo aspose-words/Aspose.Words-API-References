@@ -60,7 +60,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_LastSavedBy(u"John Doe");
 
 // We can use the LASTSAVEDBY field to display the value of this property in the document.
-auto field = System::DynamicCast<FieldLastSavedBy>(builder->InsertField(FieldType::FieldLastSavedBy, true));
+auto field = System::ExplicitCast<FieldLastSavedBy>(builder->InsertField(FieldType::FieldLastSavedBy, true));
 
 ASSERT_EQ(u" LASTSAVEDBY ", field->GetFieldCode());
 ASSERT_EQ(u"John Doe", field->get_Result());

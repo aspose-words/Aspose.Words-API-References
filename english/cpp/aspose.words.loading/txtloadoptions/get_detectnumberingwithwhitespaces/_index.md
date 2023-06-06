@@ -55,13 +55,13 @@ if (detectNumberingWithWhitespaces)
 {
     ASSERT_EQ(4, doc->get_Lists()->get_Count());
     ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(
-        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::DynamicCast<Paragraph>(p))->get_IsListItem(); }));
+        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Paragraph>(p))->get_IsListItem(); }));
 }
 else
 {
     ASSERT_EQ(3, doc->get_Lists()->get_Count());
     ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(
-        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::DynamicCast<Paragraph>(p))->get_IsListItem(); }));
+        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Paragraph>(p))->get_IsListItem(); }));
 }
 ```
 

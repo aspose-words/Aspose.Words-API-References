@@ -5,7 +5,7 @@ articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldDatabaseDataTable class. Provides data for the FieldDatabase field result. Please see DataTable instance in C#.
 type: docs
-weight: 1730
+weight: 1740
 url: /net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class

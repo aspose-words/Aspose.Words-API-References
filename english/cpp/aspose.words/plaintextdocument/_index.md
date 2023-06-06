@@ -10,7 +10,7 @@ url: /cpp/aspose.words/plaintextdocument/
 ## PlainTextDocument class
 
 
-Allows to extract plain-text representation of the document's content. To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/cpp/work-with-text-document/) documentation article.
+Allows to extract plain-text representation of the document's content. To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/cpp/working-with-text-document/) documentation article.
 
 ```cpp
 class PlainTextDocument : public System::Object

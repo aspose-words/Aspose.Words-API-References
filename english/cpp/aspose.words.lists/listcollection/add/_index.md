@@ -133,7 +133,7 @@ builder->Write(u"Paragraph 3");
 
 SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 
 SharedPtr<List> list = doc->get_Lists()->Add(ListTemplate::NumberUppercaseLetterDot);
 
@@ -143,7 +143,7 @@ for (const auto& paragraph : System::IterateOver(paras->LINQ_OfType<SharedPtr<Pa
     paragraph->get_ListFormat()->set_ListLevelNumber(1);
 }
 
-ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 ```
 
 ## See Also

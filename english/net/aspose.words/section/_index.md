@@ -5,7 +5,7 @@ articleTitle: Section
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Section class. Represents a single section in a document in C#.
 type: docs
-weight: 5630
+weight: 5680
 url: /net/aspose.words/section/
 ---
 ## Section class
@@ -29,7 +29,6 @@ public sealed class Section : CompositeNode
 | Name | Description |
 | --- | --- |
 | [Body](../../aspose.words/section/body/) { get; } | Returns the [`Body`](../body/) child node of the section. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |

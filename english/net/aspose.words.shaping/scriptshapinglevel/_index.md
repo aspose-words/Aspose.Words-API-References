@@ -5,7 +5,7 @@ articleTitle: ScriptShapingLevel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.ScriptShapingLevel enum. Describes shaping levels required by a script in C#.
 type: docs
-weight: 5970
+weight: 6020
 url: /net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration

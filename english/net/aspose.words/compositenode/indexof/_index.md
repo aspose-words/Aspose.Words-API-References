@@ -5,7 +5,7 @@ articleTitle: IndexOf
 second_title: Aspose.Words for .NET
 description: CompositeNode IndexOf method. Returns the index of the specified child node in the child node array in C#.
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 Body body = doc.FirstSection.Body;
 
 // Retrieve the index of the last paragraph in the body of the first section.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
+Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 
 ### See Also

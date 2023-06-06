@@ -5,7 +5,7 @@ articleTitle: OleControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.OleControl class. Represents OLE ActiveX control in C#.
 type: docs
-weight: 1110
+weight: 1120
 url: /net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
@@ -45,6 +45,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Note, that you can't set GroupName for a Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

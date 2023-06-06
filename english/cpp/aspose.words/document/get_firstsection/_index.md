@@ -91,7 +91,7 @@ for (const auto& node : System::IterateOver(section))
     switch (node->get_NodeType())
     {
     case NodeType::Body: {
-        auto body = System::DynamicCast<Body>(node);
+        auto body = System::ExplicitCast<Body>(node);
 
         std::cout << "Body:" << std::endl;
         std::cout << "\t\"" << body->GetText().Trim() << "\"" << std::endl;
@@ -99,7 +99,7 @@ for (const auto& node : System::IterateOver(section))
     }
 
     case NodeType::HeaderFooter: {
-        auto headerFooter = System::DynamicCast<HeaderFooter>(node);
+        auto headerFooter = System::ExplicitCast<HeaderFooter>(node);
 
         std::cout << String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
         std::cout << "\t\"" << headerFooter->GetText().Trim() << "\"" << std::endl;

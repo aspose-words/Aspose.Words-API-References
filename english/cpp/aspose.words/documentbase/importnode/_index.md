@@ -55,7 +55,7 @@ ASSERT_THROW(dstDoc->AppendChild(srcDoc->get_FirstSection()), System::ArgumentEx
 
 // Use the ImportNode method to create a copy of a node, which will have the document
 // that called the ImportNode method set as its new owner document.
-auto importedSection = System::DynamicCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true));
+auto importedSection = System::ExplicitCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true));
 
 ASPOSE_ASSERT_EQ(dstDoc, importedSection->get_Document());
 
@@ -126,7 +126,7 @@ dstBuilder->Writeln(u"Destination document text.");
 // Import the Section from the destination document into the source document, causing a style name collision.
 // If we use destination styles, then the imported source text with the same style name
 // as destination text will adopt the destination style.
-auto importedSection = System::DynamicCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true, ImportFormatMode::UseDestinationStyles));
+auto importedSection = System::ExplicitCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true, ImportFormatMode::UseDestinationStyles));
 ASSERT_EQ(dstStyle->get_Font()->get_Name(), importedSection->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
 ASSERT_EQ(dstStyle->get_Name(), importedSection->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_StyleName());
 

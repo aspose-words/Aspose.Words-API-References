@@ -56,7 +56,7 @@ ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Edit the text of the structured document tag and hide the placeholder text.
-auto run = System::DynamicCast<Run>(tag->GetChild(NodeType::Run, 0, true));
+auto run = System::ExplicitCast<Run>(tag->GetChild(NodeType::Run, 0, true));
 run->set_Text(u"New text.");
 tag->set_IsShowingPlaceholderText(false);
 

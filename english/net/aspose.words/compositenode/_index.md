@@ -22,7 +22,6 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 | Name | Description |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
@@ -100,9 +99,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)

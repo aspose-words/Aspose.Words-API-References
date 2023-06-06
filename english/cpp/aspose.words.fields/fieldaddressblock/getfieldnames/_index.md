@@ -28,7 +28,7 @@ auto doc = MakeObject<Document>(MyDir + u"Field sample - ADDRESSBLOCK.docx");
 ArrayPtr<String> addressFieldsExpect = MakeArray<String>(
     {u"Company", u"First Name", u"Middle Name", u"Last Name", u"Suffix", u"Address 1", u"City", u"State", u"Country or Region", u"Postal Code"});
 
-auto addressBlockField = System::DynamicCast<FieldAddressBlock>(doc->get_Range()->get_Fields()->idx_get(0));
+auto addressBlockField = System::ExplicitCast<FieldAddressBlock>(doc->get_Range()->get_Fields()->idx_get(0));
 ArrayPtr<String> addressBlockFieldNames = addressBlockField->GetFieldNames();
 ```
 

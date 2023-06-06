@@ -32,7 +32,7 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto includePicture = System::DynamicCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
+auto includePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 includePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 includePicture->Update(true);
 

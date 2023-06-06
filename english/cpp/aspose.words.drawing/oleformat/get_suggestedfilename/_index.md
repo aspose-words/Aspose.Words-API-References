@@ -25,7 +25,7 @@ Shows how to get an OLE object's suggested file name.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE shape.rtf");
 
-auto oleShape = System::DynamicCast<Shape>(doc->get_FirstSection()->get_Body()->GetChild(NodeType::Shape, 0, true));
+auto oleShape = System::ExplicitCast<Shape>(doc->get_FirstSection()->get_Body()->GetChild(NodeType::Shape, 0, true));
 
 // OLE objects can provide a suggested filename and extension,
 // which we can use when saving the object's contents into a file in the local file system.

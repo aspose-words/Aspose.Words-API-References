@@ -5,7 +5,7 @@ articleTitle: Forms2OleControl
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control in C#.
 type: docs
-weight: 1080
+weight: 1090
 url: /net/aspose.words.drawing.ole/forms2olecontrol/
 ---
 ## Forms2OleControl class
@@ -51,6 +51,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Note, that you can't set GroupName for a Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

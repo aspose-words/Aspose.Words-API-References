@@ -27,7 +27,7 @@ auto doc = MakeObject<Document>(MyDir + u"OLE objects.docx");
 
 for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape, true)))
 {
-    SharedPtr<OleFormat> oleFormat = (System::DynamicCast<Shape>(shape))->get_OleFormat();
+    SharedPtr<OleFormat> oleFormat = (System::ExplicitCast<Shape>(shape))->get_OleFormat();
     if (oleFormat != nullptr)
     {
         std::cout << "This is " << (oleFormat->get_IsLink() ? String(u"a linked") : String(u"an embedded")) << " object" << std::endl;

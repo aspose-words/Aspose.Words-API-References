@@ -45,7 +45,7 @@ builder->InsertCell();
 builder->Write(u"Hello world!");
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_RowStripe(3);
 tableStyle->set_CellSpacing(5);
 tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
@@ -66,7 +66,7 @@ Shows how to traverse through a composite node's collection of child nodes.
 auto doc = MakeObject<Document>();
 
 // Add two runs and one shape as child nodes to the first paragraph of this document.
-auto paragraph = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 paragraph->AppendChild(MakeObject<Run>(doc, u"Hello world! "));
 
 auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
@@ -95,7 +95,7 @@ for (const auto& child : System::IterateOver(children))
         break;
 
     case NodeType::Shape: {
-        auto childShape = System::DynamicCast<Shape>(child);
+        auto childShape = System::ExplicitCast<Shape>(child);
         std::cout << "Shape:" << std::endl;
         std::cout << String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
         ASSERT_EQ(100, shape->get_CustomNodeId());

@@ -25,7 +25,7 @@ Shows how to set that the shape is decorative.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Decorative shapes.docx");
 
-auto shape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto shape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(shape->get_IsDecorative());
 
 // If "AlternativeText" is not empty, the shape cannot be decorative.

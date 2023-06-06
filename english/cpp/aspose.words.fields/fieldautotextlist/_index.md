@@ -74,7 +74,7 @@ void FieldAutoTextList_()
     // Create an AUTOTEXTLIST field and set the text that the field will display in Microsoft Word.
     // Set the text to prompt the user to right-click this field to select an AutoText building block,
     // whose contents the field will display.
-    auto field = System::DynamicCast<FieldAutoTextList>(builder->InsertField(FieldType::FieldAutoTextList, true));
+    auto field = System::ExplicitCast<FieldAutoTextList>(builder->InsertField(FieldType::FieldAutoTextList, true));
     field->set_EntryName(u"Right click here to select an AutoText block");
     field->set_ListStyle(u"Heading 1");
     field->set_ScreenTip(u"Hover tip text for AutoTextList goes here");
