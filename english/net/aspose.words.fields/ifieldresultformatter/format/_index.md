@@ -158,7 +158,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namespace [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -313,5 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namespace [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

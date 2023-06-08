@@ -63,5 +63,5 @@ chartData.Clear();
 ### See Also
 
 * class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

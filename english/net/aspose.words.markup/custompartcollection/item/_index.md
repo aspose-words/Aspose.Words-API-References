@@ -65,5 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* namespace [Aspose.Words.Markup](../../custompartcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

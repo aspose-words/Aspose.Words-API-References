@@ -138,5 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* namespace [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

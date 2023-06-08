@@ -74,5 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### See Also
 
 * class [OleFormat](../)
-* namespace [Aspose.Words.Drawing](../../oleformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

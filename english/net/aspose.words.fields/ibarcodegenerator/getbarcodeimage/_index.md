@@ -101,5 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* namespace [Aspose.Words.Fields](../../ibarcodegenerator/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

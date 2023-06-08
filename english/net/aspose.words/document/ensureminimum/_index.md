@@ -54,5 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

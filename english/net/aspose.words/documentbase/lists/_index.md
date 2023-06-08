@@ -74,5 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

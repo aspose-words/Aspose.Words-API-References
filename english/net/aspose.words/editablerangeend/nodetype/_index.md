@@ -63,5 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeEnd](../)
-* namespace [Aspose.Words](../../editablerangeend/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

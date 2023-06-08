@@ -57,5 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

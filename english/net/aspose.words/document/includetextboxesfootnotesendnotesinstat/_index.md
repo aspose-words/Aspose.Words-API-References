@@ -40,5 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -61,5 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

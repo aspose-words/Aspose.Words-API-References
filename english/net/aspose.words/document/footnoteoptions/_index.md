@@ -188,5 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

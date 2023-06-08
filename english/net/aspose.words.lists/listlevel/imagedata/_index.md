@@ -24,5 +24,5 @@ If this level doesn't define picture bullet returns `null`. Before setting new i
 
 * class [ImageData](../../../aspose.words.drawing/imagedata/)
 * class [ListLevel](../)
-* namespace [Aspose.Words.Lists](../../listlevel/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

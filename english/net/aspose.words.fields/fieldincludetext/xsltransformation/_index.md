@@ -61,5 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### See Also
 
 * class [FieldIncludeText](../)
-* namespace [Aspose.Words.Fields](../../fieldincludetext/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

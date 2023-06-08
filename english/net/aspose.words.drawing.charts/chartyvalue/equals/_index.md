@@ -19,5 +19,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [ChartYValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

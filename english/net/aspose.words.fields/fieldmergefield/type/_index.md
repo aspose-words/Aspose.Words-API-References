@@ -20,5 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* namespace [Aspose.Words.Fields](../../fieldmergefield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -57,5 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

@@ -94,5 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* namespace [Aspose.Words](../../nodechangingargs/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

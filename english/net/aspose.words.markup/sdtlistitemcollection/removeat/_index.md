@@ -77,5 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### See Also
 
 * class [SdtListItemCollection](../)
-* namespace [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

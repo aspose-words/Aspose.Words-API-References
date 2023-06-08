@@ -151,5 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* namespace [Aspose.Words.Fields](../../formfield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

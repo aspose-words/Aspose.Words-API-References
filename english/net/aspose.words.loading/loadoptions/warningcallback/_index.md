@@ -61,5 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -91,5 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

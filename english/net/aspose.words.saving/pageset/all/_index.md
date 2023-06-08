@@ -19,5 +19,5 @@ public static PageSet All { get; }
 ### See Also
 
 * class [PageSet](../)
-* namespace [Aspose.Words.Saving](../../pageset/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

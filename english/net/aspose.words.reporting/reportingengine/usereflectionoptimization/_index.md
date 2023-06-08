@@ -23,5 +23,5 @@ There are some scenarios where it is preferrable to disable this optimization. F
 ### See Also
 
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

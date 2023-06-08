@@ -36,5 +36,5 @@ Calls [`VisitSectionStart`](../../documentvisitor/visitsectionstart/), then call
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

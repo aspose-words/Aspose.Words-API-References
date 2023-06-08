@@ -95,5 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* namespace [Aspose.Words.Tables](../../cell/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

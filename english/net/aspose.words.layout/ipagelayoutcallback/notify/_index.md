@@ -91,5 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* namespace [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

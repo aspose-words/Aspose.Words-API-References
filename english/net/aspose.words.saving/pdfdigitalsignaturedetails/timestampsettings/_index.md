@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* namespace [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

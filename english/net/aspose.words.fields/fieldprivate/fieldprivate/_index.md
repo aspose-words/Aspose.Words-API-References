@@ -19,5 +19,5 @@ public FieldPrivate()
 ### See Also
 
 * class [FieldPrivate](../)
-* namespace [Aspose.Words.Fields](../../fieldprivate/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

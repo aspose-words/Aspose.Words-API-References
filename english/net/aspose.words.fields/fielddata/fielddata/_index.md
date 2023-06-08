@@ -19,5 +19,5 @@ public FieldData()
 ### See Also
 
 * class [FieldData](../)
-* namespace [Aspose.Words.Fields](../../fielddata/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

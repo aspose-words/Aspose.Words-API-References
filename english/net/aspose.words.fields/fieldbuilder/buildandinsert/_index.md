@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -152,5 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

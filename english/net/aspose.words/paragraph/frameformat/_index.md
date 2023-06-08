@@ -42,5 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

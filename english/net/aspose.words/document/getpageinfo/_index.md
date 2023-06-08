@@ -24,5 +24,5 @@ public PageInfo GetPageInfo(int pageIndex)
 
 * class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

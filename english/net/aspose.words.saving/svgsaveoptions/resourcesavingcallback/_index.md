@@ -60,5 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [SvgSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../svgsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

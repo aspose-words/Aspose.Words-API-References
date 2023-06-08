@@ -79,5 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### See Also
 
 * class [FontFallbackSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public string[] ColumnNames { get; }
 ### See Also
 
 * class [FieldDatabaseDataTable](../)
-* namespace [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

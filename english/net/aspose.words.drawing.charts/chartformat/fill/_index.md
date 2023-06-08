@@ -55,5 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

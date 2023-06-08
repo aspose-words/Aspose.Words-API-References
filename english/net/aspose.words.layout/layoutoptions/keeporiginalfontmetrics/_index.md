@@ -19,5 +19,5 @@ public bool KeepOriginalFontMetrics { get; set; }
 ### See Also
 
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

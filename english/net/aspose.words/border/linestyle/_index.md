@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* namespace [Aspose.Words](../../border/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

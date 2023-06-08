@@ -97,5 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* namespace [Aspose.Words.Tables](../../cell/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

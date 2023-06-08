@@ -37,5 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

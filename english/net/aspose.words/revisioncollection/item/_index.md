@@ -114,5 +114,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* namespace [Aspose.Words](../../revisioncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

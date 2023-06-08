@@ -155,5 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* namespace [Aspose.Words.Fields](../../formfield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

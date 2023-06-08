@@ -37,5 +37,5 @@ Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastPar
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

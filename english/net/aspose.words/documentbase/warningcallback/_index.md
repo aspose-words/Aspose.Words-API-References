@@ -126,5 +126,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

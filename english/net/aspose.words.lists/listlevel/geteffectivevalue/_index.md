@@ -59,5 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* namespace [Aspose.Words.Lists](../../listlevel/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

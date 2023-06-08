@@ -68,5 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### See Also
 
 * class [ToaCategories](../)
-* namespace [Aspose.Words.Fields](../../toacategories/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -65,5 +65,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * class [TableStyle](../)
-* namespace [Aspose.Words](../../tablestyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

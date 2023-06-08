@@ -23,7 +23,7 @@ public CsvDataSource(string csvPath)
 ### See Also
 
 * class [CsvDataSource](../)
-* namespace [Aspose.Words.Reporting](../../csvdatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -45,7 +45,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* namespace [Aspose.Words.Reporting](../../csvdatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -65,7 +65,7 @@ public CsvDataSource(Stream csvStream)
 ### See Also
 
 * class [CsvDataSource](../)
-* namespace [Aspose.Words.Reporting](../../csvdatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -87,5 +87,5 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* namespace [Aspose.Words.Reporting](../../csvdatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

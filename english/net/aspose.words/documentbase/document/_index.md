@@ -19,5 +19,5 @@ public override DocumentBase Document { get; }
 ### See Also
 
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

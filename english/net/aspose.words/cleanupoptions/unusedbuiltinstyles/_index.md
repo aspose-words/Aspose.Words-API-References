@@ -65,5 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### See Also
 
 * class [CleanupOptions](../)
-* namespace [Aspose.Words](../../cleanupoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

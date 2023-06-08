@@ -45,5 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* namespace [Aspose.Words.Comparing](../../compareoptions/)
+* namespace [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assembly [Aspose.Words](../../../)

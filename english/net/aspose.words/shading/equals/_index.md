@@ -19,7 +19,7 @@ public bool Equals(Shading rhs)
 ### See Also
 
 * class [Shading](../)
-* namespace [Aspose.Words](../../shading/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -35,5 +35,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [Shading](../)
-* namespace [Aspose.Words](../../shading/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

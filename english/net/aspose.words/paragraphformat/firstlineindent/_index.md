@@ -50,5 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### See Also
 
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

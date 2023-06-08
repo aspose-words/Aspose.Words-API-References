@@ -66,7 +66,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -148,7 +148,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -228,7 +228,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -304,7 +304,7 @@ using (HttpClient webClient = new HttpClient())
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -410,5 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

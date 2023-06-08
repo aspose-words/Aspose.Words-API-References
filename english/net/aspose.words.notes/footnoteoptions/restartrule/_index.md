@@ -72,5 +72,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [FootnoteOptions](../)
-* namespace [Aspose.Words.Notes](../../footnoteoptions/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

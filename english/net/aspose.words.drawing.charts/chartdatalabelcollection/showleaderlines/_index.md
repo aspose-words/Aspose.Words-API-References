@@ -55,5 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### See Also
 
 * class [ChartDataLabelCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

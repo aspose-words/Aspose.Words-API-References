@@ -132,5 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* namespace [Aspose.Words.Settings](../../compatibilityoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

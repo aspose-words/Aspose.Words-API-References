@@ -76,5 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### See Also
 
 * class [DocumentPropertyCollection](../)
-* namespace [Aspose.Words.Properties](../../documentpropertycollection/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

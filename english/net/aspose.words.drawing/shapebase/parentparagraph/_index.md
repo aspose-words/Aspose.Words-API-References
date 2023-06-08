@@ -59,5 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* namespace [Aspose.Words.Drawing](../../shapebase/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -45,5 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### See Also
 
 * class [SignOptions](../)
-* namespace [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

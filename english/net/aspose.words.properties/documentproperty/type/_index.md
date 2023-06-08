@@ -106,5 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* namespace [Aspose.Words.Properties](../../documentproperty/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

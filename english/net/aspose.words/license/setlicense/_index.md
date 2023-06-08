@@ -64,7 +64,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### See Also
 
 * class [License](../)
-* namespace [Aspose.Words](../../license/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -101,5 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### See Also
 
 * class [License](../)
-* namespace [Aspose.Words](../../license/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

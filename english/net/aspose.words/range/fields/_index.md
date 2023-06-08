@@ -20,5 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

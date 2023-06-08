@@ -60,7 +60,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### See Also
 
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -119,5 +119,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### See Also
 
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

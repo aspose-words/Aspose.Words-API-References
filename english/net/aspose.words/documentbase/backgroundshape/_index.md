@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

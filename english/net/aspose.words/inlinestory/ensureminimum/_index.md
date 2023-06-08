@@ -75,5 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### See Also
 
 * class [InlineStory](../)
-* namespace [Aspose.Words](../../inlinestory/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

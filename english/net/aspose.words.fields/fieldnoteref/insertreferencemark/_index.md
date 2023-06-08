@@ -85,5 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### See Also
 
 * class [FieldNoteRef](../)
-* namespace [Aspose.Words.Fields](../../fieldnoteref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

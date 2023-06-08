@@ -19,5 +19,5 @@ public override int GetHashCode()
 ### See Also
 
 * class [List](../)
-* namespace [Aspose.Words.Lists](../../list/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

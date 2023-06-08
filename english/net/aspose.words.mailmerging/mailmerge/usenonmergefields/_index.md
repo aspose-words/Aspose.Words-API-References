@@ -94,5 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

@@ -84,5 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

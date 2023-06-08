@@ -19,5 +19,5 @@ public FieldIncludePicture()
 ### See Also
 
 * class [FieldIncludePicture](../)
-* namespace [Aspose.Words.Fields](../../fieldincludepicture/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

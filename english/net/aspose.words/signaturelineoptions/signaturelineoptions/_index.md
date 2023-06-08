@@ -19,5 +19,5 @@ public SignatureLineOptions()
 ### See Also
 
 * class [SignatureLineOptions](../)
-* namespace [Aspose.Words](../../signaturelineoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

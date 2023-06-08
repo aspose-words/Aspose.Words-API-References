@@ -309,5 +309,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

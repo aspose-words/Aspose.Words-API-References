@@ -72,5 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### See Also
 
 * class [RevisionCollection](../)
-* namespace [Aspose.Words](../../revisioncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

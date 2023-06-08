@@ -19,5 +19,5 @@ public string Id { get; set; }
 ### See Also
 
 * class [WebExtensionBinding](../)
-* namespace [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

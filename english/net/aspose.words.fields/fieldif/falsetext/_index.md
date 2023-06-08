@@ -62,5 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### See Also
 
 * class [FieldIf](../)
-* namespace [Aspose.Words.Fields](../../fieldif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

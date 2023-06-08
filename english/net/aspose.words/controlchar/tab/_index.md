@@ -35,5 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### See Also
 
 * class [ControlChar](../)
-* namespace [Aspose.Words](../../controlchar/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

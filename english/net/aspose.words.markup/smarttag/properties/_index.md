@@ -122,5 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* namespace [Aspose.Words.Markup](../../smarttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

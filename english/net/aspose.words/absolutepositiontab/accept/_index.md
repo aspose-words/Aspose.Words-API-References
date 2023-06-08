@@ -107,5 +107,5 @@ public class DocTextExtractor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AbsolutePositionTab](../)
-* namespace [Aspose.Words](../../absolutepositiontab/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

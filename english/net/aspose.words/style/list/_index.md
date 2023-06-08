@@ -82,5 +82,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [List](../../../aspose.words.lists/list/)
 * class [Style](../)
-* namespace [Aspose.Words](../../style/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

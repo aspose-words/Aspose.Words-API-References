@@ -103,7 +103,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -203,7 +203,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -303,7 +303,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -403,7 +403,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -504,5 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

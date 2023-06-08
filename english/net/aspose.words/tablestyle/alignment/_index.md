@@ -65,5 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* namespace [Aspose.Words](../../tablestyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

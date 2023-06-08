@@ -134,5 +134,5 @@ Shows how to add a signature line to a document, and then sign it using a digita
 ### See Also
 
 * class [SignatureLine](../)
-* namespace [Aspose.Words.Drawing](../../signatureline/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldBarcode()
 ### See Also
 
 * class [FieldBarcode](../)
-* namespace [Aspose.Words.Fields](../../fieldbarcode/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -54,5 +54,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

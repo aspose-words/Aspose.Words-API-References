@@ -79,5 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

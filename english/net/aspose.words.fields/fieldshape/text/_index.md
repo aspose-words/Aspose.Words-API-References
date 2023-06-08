@@ -85,5 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### See Also
 
 * class [FieldShape](../)
-* namespace [Aspose.Words.Fields](../../fieldshape/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

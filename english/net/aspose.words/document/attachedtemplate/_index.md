@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

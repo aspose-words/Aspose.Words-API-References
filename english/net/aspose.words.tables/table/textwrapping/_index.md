@@ -48,5 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

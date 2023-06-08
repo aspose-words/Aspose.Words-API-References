@@ -41,5 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* namespace [Aspose.Words](../../story/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

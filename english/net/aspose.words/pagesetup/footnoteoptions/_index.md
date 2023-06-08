@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

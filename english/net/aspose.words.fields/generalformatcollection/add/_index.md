@@ -85,5 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* namespace [Aspose.Words.Fields](../../generalformatcollection/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

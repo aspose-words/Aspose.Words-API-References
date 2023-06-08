@@ -68,5 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* namespace [Aspose.Words.MailMerging](../../imailmergecallback/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

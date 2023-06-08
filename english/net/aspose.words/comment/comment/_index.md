@@ -190,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namespace [Aspose.Words](../../comment/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -234,5 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namespace [Aspose.Words](../../comment/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

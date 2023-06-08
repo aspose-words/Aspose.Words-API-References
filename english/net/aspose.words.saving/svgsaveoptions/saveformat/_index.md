@@ -60,5 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SvgSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../svgsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

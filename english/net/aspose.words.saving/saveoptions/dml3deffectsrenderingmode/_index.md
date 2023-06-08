@@ -24,5 +24,5 @@ The default value is Basic.
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

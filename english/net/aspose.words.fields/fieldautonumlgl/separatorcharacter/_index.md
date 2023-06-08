@@ -92,5 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### See Also
 
 * class [FieldAutoNumLgl](../)
-* namespace [Aspose.Words.Fields](../../fieldautonumlgl/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -56,5 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

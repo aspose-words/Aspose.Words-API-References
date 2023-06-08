@@ -87,5 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### See Also
 
 * interface [IFieldUserPromptRespondent](../)
-* namespace [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

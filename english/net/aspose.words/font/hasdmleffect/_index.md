@@ -44,5 +44,5 @@ Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
 
 * enum [TextDmlEffect](../../textdmleffect/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

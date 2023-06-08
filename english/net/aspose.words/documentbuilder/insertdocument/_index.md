@@ -52,7 +52,7 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -119,5 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

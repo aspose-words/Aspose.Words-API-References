@@ -34,5 +34,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 
 * enum [PreferredWidthType](../../preferredwidthtype/)
 * class [PreferredWidth](../)
-* namespace [Aspose.Words.Tables](../../preferredwidth/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

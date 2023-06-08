@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

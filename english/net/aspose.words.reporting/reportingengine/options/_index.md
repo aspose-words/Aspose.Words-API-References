@@ -20,5 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

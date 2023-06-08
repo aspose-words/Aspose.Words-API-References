@@ -44,5 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### See Also
 
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

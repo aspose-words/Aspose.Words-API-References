@@ -70,5 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * class [Document](../../../aspose.words/document/)
 * class [AsposeWordsPrintDocument](../)
-* namespace [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

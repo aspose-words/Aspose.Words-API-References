@@ -125,5 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* namespace [Aspose.Words.Notes](../../footnote/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

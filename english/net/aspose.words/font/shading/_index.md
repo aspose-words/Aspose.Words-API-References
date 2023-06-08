@@ -42,5 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

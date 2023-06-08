@@ -19,5 +19,5 @@ public FieldNumWords()
 ### See Also
 
 * class [FieldNumWords](../)
-* namespace [Aspose.Words.Fields](../../fieldnumwords/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

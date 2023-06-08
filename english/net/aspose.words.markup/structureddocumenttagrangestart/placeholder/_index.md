@@ -24,5 +24,5 @@ Can be `null`, meaning that the placeholder is not applicable for this structure
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -55,5 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

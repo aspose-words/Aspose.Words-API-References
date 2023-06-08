@@ -147,5 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* namespace [Aspose.Words.Replacing](../../ireplacingcallback/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

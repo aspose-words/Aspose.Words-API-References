@@ -72,7 +72,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -118,5 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

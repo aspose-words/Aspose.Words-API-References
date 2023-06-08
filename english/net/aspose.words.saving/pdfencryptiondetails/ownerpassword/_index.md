@@ -55,5 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### See Also
 
 * class [PdfEncryptionDetails](../)
-* namespace [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

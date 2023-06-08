@@ -80,5 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### See Also
 
 * class [DefaultFontSubstitutionRule](../)
-* namespace [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

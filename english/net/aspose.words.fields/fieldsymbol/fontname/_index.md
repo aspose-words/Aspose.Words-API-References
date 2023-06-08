@@ -72,5 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldSymbol](../)
-* namespace [Aspose.Words.Fields](../../fieldsymbol/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

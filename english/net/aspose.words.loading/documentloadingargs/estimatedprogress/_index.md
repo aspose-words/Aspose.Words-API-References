@@ -19,5 +19,5 @@ public double EstimatedProgress { get; }
 ### See Also
 
 * class [DocumentLoadingArgs](../)
-* namespace [Aspose.Words.Loading](../../documentloadingargs/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

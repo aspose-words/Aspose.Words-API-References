@@ -173,5 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

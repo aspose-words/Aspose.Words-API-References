@@ -74,5 +74,5 @@ outlineLevels.Clear();
 ### See Also
 
 * class [BookmarksOutlineLevelCollection](../)
-* namespace [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

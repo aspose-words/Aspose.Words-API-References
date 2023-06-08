@@ -47,5 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### See Also
 
 * class [Bookmark](../)
-* namespace [Aspose.Words](../../bookmark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

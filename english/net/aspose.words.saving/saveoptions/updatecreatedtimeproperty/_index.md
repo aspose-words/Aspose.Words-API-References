@@ -19,5 +19,5 @@ public bool UpdateCreatedTimeProperty { get; set; }
 ### See Also
 
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

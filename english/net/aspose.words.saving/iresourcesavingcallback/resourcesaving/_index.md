@@ -136,5 +136,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * class [ResourceSavingArgs](../../resourcesavingargs/)
 * interface [IResourceSavingCallback](../)
-* namespace [Aspose.Words.Saving](../../iresourcesavingcallback/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

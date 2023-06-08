@@ -42,5 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### See Also
 
 * class [CertificateHolder](../)
-* namespace [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

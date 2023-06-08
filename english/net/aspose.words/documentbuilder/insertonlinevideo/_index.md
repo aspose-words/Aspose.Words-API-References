@@ -57,7 +57,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -126,7 +126,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -199,7 +199,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -281,5 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -47,5 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### See Also
 
 * class [Style](../)
-* namespace [Aspose.Words](../../style/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

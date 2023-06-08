@@ -20,5 +20,5 @@ public MeasurementUnits MeasurementUnit { get; set; }
 
 * enum [MeasurementUnits](../../../aspose.words/measurementunits/)
 * class [RevisionOptions](../)
-* namespace [Aspose.Words.Layout](../../revisionoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

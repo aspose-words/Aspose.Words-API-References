@@ -63,5 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### See Also
 
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -59,5 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### See Also
 
 * class [DigitalSignature](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

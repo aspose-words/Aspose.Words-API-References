@@ -62,5 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

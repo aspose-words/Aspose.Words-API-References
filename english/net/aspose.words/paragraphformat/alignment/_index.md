@@ -94,5 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

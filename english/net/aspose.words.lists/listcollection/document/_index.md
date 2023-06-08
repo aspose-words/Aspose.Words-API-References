@@ -39,5 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

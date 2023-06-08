@@ -117,5 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

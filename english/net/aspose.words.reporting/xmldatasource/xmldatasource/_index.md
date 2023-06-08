@@ -23,7 +23,7 @@ public XmlDataSource(string xmlPath)
 ### See Also
 
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -43,7 +43,7 @@ public XmlDataSource(Stream xmlStream)
 ### See Also
 
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -64,7 +64,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### See Also
 
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -85,7 +85,7 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### See Also
 
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -107,7 +107,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -129,7 +129,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -175,5 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namespace [Aspose.Words.Reporting](../../xmldatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

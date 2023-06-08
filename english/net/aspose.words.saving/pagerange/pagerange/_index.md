@@ -43,5 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### See Also
 
 * class [PageRange](../)
-* namespace [Aspose.Words.Saving](../../pagerange/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

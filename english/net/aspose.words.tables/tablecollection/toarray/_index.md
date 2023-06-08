@@ -67,5 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* namespace [Aspose.Words.Tables](../../tablecollection/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

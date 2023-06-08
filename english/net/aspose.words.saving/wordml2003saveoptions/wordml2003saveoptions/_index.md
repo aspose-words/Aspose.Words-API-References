@@ -19,5 +19,5 @@ public WordML2003SaveOptions()
 ### See Also
 
 * class [WordML2003SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../wordml2003saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

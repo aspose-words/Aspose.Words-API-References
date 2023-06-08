@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### See Also
 
 * class [Comment](../)
-* namespace [Aspose.Words](../../comment/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

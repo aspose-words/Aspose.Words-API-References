@@ -76,7 +76,7 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -146,7 +146,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -236,5 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

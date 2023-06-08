@@ -79,5 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### See Also
 
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

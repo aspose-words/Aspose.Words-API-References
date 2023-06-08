@@ -25,7 +25,7 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* namespace [Aspose.Words.Shaping](../../itextshaperfactory/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -48,5 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* namespace [Aspose.Words.Shaping](../../itextshaperfactory/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

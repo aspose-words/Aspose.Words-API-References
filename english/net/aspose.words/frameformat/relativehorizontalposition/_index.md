@@ -42,5 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* namespace [Aspose.Words](../../frameformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

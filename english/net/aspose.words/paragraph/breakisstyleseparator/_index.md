@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

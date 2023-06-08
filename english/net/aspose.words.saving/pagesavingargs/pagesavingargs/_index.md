@@ -19,5 +19,5 @@ public PageSavingArgs()
 ### See Also
 
 * class [PageSavingArgs](../)
-* namespace [Aspose.Words.Saving](../../pagesavingargs/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

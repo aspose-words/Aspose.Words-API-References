@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

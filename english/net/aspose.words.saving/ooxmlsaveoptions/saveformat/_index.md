@@ -52,5 +52,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

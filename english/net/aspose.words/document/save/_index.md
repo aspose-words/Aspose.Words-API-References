@@ -54,7 +54,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -91,7 +91,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -295,7 +295,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -387,7 +387,7 @@ Document doc = new Document();
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -442,7 +442,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -504,5 +504,5 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 * enum [ContentDisposition](../../contentdisposition/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

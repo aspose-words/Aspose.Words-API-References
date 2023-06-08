@@ -24,5 +24,5 @@ Empty values are represented as **null**.
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

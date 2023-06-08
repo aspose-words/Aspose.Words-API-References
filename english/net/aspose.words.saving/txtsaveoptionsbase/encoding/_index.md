@@ -51,5 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### See Also
 
 * class [TxtSaveOptionsBase](../)
-* namespace [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

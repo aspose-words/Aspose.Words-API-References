@@ -80,5 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* namespace [Aspose.Words](../../body/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -38,5 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### See Also
 
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

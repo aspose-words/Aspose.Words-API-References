@@ -138,5 +138,5 @@ private class ShapeForm : Form
 ### See Also
 
 * class [NodeRendererBase](../)
-* namespace [Aspose.Words.Rendering](../../noderendererbase/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

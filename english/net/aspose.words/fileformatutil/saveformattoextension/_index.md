@@ -62,5 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

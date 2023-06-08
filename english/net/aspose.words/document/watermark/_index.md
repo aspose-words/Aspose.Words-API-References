@@ -20,5 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

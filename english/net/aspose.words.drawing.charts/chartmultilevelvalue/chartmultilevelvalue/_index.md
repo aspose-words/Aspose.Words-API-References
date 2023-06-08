@@ -19,7 +19,7 @@ public ChartMultilevelValue(string level1, string level2, string level3)
 ### See Also
 
 * class [ChartMultilevelValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -35,7 +35,7 @@ public ChartMultilevelValue(string level1, string level2)
 ### See Also
 
 * class [ChartMultilevelValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -51,5 +51,5 @@ public ChartMultilevelValue(string level1)
 ### See Also
 
 * class [ChartMultilevelValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

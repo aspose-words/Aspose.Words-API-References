@@ -56,5 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### See Also
 
 * class [PreferredWidth](../)
-* namespace [Aspose.Words.Tables](../../preferredwidth/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

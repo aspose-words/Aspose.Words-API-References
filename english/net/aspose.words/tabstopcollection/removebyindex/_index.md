@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ### See Also
 
 * class [TabStopCollection](../)
-* namespace [Aspose.Words](../../tabstopcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

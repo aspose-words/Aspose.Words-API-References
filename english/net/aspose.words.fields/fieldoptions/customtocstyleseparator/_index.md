@@ -105,5 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### See Also
 
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -58,5 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### See Also
 
 * class [PageInfo](../)
-* namespace [Aspose.Words.Rendering](../../pageinfo/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

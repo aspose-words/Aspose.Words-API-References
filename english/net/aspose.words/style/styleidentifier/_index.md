@@ -47,5 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* namespace [Aspose.Words](../../style/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -76,5 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

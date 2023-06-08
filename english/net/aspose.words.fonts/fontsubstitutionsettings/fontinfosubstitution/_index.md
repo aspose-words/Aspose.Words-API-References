@@ -74,5 +74,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

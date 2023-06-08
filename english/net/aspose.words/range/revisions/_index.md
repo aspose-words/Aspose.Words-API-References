@@ -42,5 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

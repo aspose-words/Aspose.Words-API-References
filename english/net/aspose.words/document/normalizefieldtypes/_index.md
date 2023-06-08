@@ -59,5 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

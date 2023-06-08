@@ -55,5 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* namespace [Aspose.Words.Fonts](../../fontsourcebase/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

@@ -30,5 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* namespace [Aspose.Words](../../revisiongroupcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

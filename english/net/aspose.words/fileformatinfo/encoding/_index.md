@@ -33,5 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### See Also
 
 * class [FileFormatInfo](../)
-* namespace [Aspose.Words](../../fileformatinfo/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

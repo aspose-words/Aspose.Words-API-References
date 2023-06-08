@@ -43,5 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### See Also
 
 * class [VbaProject](../)
-* namespace [Aspose.Words.Vba](../../vbaproject/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

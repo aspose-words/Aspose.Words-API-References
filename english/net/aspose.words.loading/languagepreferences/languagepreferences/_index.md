@@ -19,5 +19,5 @@ public LanguagePreferences()
 ### See Also
 
 * class [LanguagePreferences](../)
-* namespace [Aspose.Words.Loading](../../languagepreferences/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

@@ -20,5 +20,5 @@ public VbaReferenceCollection References { get; }
 
 * class [VbaReferenceCollection](../../vbareferencecollection/)
 * class [VbaProject](../)
-* namespace [Aspose.Words.Vba](../../vbaproject/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

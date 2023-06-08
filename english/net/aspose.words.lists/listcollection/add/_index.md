@@ -149,7 +149,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -237,5 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

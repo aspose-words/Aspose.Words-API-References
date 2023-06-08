@@ -34,5 +34,5 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -48,5 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* namespace [Aspose.Words.Fields](../../fieldchar/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

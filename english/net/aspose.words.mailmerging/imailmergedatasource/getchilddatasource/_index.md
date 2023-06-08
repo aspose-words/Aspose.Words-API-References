@@ -150,5 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### See Also
 
 * interface [IMailMergeDataSource](../)
-* namespace [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

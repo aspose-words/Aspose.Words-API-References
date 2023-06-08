@@ -20,5 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

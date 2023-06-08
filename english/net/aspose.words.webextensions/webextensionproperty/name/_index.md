@@ -19,5 +19,5 @@ public string Name { get; set; }
 ### See Also
 
 * class [WebExtensionProperty](../)
-* namespace [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

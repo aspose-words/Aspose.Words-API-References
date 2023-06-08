@@ -82,5 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* namespace [Aspose.Words.Lists](../../listlevel/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

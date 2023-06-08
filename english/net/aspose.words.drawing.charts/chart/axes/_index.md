@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chart/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

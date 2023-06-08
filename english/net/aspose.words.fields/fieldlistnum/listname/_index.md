@@ -86,5 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### See Also
 
 * class [FieldListNum](../)
-* namespace [Aspose.Words.Fields](../../fieldlistnum/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

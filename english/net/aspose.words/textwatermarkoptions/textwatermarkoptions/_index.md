@@ -19,5 +19,5 @@ public TextWatermarkOptions()
 ### See Also
 
 * class [TextWatermarkOptions](../)
-* namespace [Aspose.Words](../../textwatermarkoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

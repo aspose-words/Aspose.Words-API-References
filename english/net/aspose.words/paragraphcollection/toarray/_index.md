@@ -55,5 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* namespace [Aspose.Words](../../paragraphcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public int Count { get; }
 ### See Also
 
 * class [ChartYValueCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

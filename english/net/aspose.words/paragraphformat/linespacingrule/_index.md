@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -42,7 +42,7 @@ builder.Write("Hello world!");
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -144,5 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

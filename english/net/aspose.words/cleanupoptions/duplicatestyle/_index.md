@@ -64,5 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### See Also
 
 * class [CleanupOptions](../)
-* namespace [Aspose.Words](../../cleanupoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

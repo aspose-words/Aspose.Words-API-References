@@ -19,5 +19,5 @@ public FieldBidiOutline()
 ### See Also
 
 * class [FieldBidiOutline](../)
-* namespace [Aspose.Words.Fields](../../fieldbidioutline/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

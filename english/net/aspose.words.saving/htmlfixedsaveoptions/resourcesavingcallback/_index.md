@@ -96,5 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### See Also
 
 * class [FieldXE](../)
-* namespace [Aspose.Words.Fields](../../fieldxe/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public TaskPane()
 ### See Also
 
 * class [TaskPane](../)
-* namespace [Aspose.Words.WebExtensions](../../taskpane/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

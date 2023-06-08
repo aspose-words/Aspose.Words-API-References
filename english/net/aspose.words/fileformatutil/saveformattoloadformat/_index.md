@@ -39,5 +39,5 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(Sav
 * enum [LoadFormat](../../loadformat/)
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -20,5 +20,5 @@ public KnownTypeSet KnownTypes { get; }
 
 * class [KnownTypeSet](../../knowntypeset/)
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

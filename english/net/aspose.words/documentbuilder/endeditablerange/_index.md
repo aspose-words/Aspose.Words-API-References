@@ -73,7 +73,7 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -145,5 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

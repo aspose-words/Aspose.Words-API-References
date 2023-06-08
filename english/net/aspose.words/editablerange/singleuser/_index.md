@@ -139,5 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### See Also
 
 * class [EditableRange](../)
-* namespace [Aspose.Words](../../editablerange/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

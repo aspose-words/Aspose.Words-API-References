@@ -19,5 +19,5 @@ public XamlFixedSaveOptions()
 ### See Also
 
 * class [XamlFixedSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

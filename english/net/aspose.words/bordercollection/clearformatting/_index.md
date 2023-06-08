@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### See Also
 
 * class [BorderCollection](../)
-* namespace [Aspose.Words](../../bordercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

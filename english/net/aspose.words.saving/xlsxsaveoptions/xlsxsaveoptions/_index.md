@@ -19,5 +19,5 @@ public XlsxSaveOptions()
 ### See Also
 
 * class [XlsxSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

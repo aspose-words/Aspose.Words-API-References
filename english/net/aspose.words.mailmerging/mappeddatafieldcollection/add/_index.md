@@ -106,5 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### See Also
 
 * class [MappedDataFieldCollection](../)
-* namespace [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

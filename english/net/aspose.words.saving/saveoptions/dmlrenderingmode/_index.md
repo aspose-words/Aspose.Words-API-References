@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -47,5 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### See Also
 
 * class [Metered](../)
-* namespace [Aspose.Words](../../metered/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

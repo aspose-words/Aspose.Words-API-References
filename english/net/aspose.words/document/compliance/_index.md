@@ -39,5 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

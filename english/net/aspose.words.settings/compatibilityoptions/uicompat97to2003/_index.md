@@ -23,5 +23,5 @@ Controls the Word97-2003 compatibility setting that disables UI functionality wh
 ### See Also
 
 * class [CompatibilityOptions](../)
-* namespace [Aspose.Words.Settings](../../compatibilityoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

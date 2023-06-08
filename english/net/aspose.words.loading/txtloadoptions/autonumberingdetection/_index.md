@@ -28,5 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### See Also
 
 * class [TxtLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../txtloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

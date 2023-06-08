@@ -110,5 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

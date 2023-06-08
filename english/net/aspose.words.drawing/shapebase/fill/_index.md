@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* namespace [Aspose.Words.Drawing](../../shapebase/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

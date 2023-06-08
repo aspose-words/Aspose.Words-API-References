@@ -73,5 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* namespace [Aspose.Words](../../inline/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

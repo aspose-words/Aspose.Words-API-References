@@ -28,5 +28,5 @@ Returns null if the structured document tag with the specified tag cannot be fou
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

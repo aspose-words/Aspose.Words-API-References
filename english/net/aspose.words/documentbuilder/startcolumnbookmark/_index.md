@@ -79,5 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

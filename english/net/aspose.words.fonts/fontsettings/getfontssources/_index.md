@@ -74,5 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontsettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

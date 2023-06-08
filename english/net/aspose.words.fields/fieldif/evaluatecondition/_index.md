@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* namespace [Aspose.Words.Fields](../../fieldif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldUserName()
 ### See Also
 
 * class [FieldUserName](../)
-* namespace [Aspose.Words.Fields](../../fieldusername/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

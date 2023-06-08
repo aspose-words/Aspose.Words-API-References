@@ -19,5 +19,5 @@ public FieldTA()
 ### See Also
 
 * class [FieldTA](../)
-* namespace [Aspose.Words.Fields](../../fieldta/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

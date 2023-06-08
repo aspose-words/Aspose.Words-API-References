@@ -74,5 +74,5 @@ Document doc = new Document();
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

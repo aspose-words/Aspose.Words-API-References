@@ -20,5 +20,5 @@ public ChartAxis this[int index] { get; }
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

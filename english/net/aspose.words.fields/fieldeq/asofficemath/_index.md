@@ -24,5 +24,5 @@ Returns `null` if field code is empty or invalid, otherwise an [`OfficeMath`](..
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [FieldEQ](../)
-* namespace [Aspose.Words.Fields](../../fieldeq/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

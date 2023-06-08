@@ -39,5 +39,5 @@ doc.Save(ArtifactsDir + "DocumentBase.SetPageColor.docx");
 ### See Also
 
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

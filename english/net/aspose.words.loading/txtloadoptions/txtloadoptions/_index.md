@@ -19,5 +19,5 @@ public TxtLoadOptions()
 ### See Also
 
 * class [TxtLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../txtloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

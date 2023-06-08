@@ -68,5 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* namespace [Aspose.Words.Rendering](../../officemathrenderer/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

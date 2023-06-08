@@ -71,5 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* namespace [Aspose.Words.Saving](../../imagesavingargs/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

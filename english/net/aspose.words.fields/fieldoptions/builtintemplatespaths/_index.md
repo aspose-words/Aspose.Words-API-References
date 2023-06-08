@@ -72,5 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### See Also
 
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

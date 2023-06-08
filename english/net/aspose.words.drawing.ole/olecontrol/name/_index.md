@@ -46,5 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### See Also
 
 * class [OleControl](../)
-* namespace [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* namespace [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assembly [Aspose.Words](../../../)

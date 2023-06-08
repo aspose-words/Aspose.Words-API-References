@@ -77,5 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* namespace [Aspose.Words](../../revision/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public static ChartXValue FromDateTime(DateTime value)
 ### See Also
 
 * class [ChartXValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

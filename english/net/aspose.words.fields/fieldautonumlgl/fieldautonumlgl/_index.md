@@ -19,5 +19,5 @@ public FieldAutoNumLgl()
 ### See Also
 
 * class [FieldAutoNumLgl](../)
-* namespace [Aspose.Words.Fields](../../fieldautonumlgl/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

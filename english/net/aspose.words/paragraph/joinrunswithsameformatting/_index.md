@@ -61,5 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

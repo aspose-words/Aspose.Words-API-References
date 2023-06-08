@@ -28,5 +28,5 @@ A [`Document`](../../document/) object that represents a Word document.
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namespace [Aspose.Words](../../comhelper/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

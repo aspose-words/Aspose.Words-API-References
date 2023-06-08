@@ -19,5 +19,5 @@ public FieldFormText()
 ### See Also
 
 * class [FieldFormText](../)
-* namespace [Aspose.Words.Fields](../../fieldformtext/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

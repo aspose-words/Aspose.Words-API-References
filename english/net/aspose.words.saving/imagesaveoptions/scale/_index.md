@@ -75,5 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### See Also
 
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

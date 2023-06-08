@@ -73,5 +73,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### See Also
 
 * class [WarningInfo](../)
-* namespace [Aspose.Words](../../warninginfo/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

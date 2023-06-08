@@ -19,5 +19,5 @@ public FieldTemplate()
 ### See Also
 
 * class [FieldTemplate](../)
-* namespace [Aspose.Words.Fields](../../fieldtemplate/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

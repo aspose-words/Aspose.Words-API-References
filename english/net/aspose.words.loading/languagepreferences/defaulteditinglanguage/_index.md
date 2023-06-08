@@ -38,5 +38,5 @@ Console.WriteLine(localeId == (int)EditingLanguage.Russian
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* namespace [Aspose.Words.Loading](../../languagepreferences/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

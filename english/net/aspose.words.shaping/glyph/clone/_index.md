@@ -19,5 +19,5 @@ public Glyph Clone()
 ### See Also
 
 * class [Glyph](../)
-* namespace [Aspose.Words.Shaping](../../glyph/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

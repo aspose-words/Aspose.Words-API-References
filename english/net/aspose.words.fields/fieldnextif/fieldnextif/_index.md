@@ -19,5 +19,5 @@ public FieldNextIf()
 ### See Also
 
 * class [FieldNextIf](../)
-* namespace [Aspose.Words.Fields](../../fieldnextif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

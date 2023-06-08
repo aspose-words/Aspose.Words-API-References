@@ -19,5 +19,5 @@ public FieldOcx()
 ### See Also
 
 * class [FieldOcx](../)
-* namespace [Aspose.Words.Fields](../../fieldocx/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

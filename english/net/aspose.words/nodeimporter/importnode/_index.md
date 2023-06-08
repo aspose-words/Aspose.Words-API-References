@@ -102,5 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* namespace [Aspose.Words](../../nodeimporter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

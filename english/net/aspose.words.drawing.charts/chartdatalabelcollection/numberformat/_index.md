@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

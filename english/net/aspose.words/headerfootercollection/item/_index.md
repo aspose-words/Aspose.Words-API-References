@@ -96,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* namespace [Aspose.Words](../../headerfootercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -171,5 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namespace [Aspose.Words](../../headerfootercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -19,7 +19,7 @@ public bool Equals(List list)
 ### See Also
 
 * class [List](../)
-* namespace [Aspose.Words.Lists](../../list/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -35,5 +35,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [List](../)
-* namespace [Aspose.Words.Lists](../../list/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

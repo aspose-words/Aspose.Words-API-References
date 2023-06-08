@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### See Also
 
 * class [ChartLegend](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

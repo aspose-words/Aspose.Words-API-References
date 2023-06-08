@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### See Also
 
 * class [FieldAdvance](../)
-* namespace [Aspose.Words.Fields](../../fieldadvance/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -50,5 +50,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../docsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

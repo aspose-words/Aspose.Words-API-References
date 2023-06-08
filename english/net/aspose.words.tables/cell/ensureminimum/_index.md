@@ -42,5 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### See Also
 
 * class [Cell](../)
-* namespace [Aspose.Words.Tables](../../cell/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

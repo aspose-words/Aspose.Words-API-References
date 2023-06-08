@@ -65,5 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### See Also
 
 * class [ImportFormatOptions](../)
-* namespace [Aspose.Words](../../importformatoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

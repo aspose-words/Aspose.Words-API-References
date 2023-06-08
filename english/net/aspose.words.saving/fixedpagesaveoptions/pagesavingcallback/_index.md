@@ -74,5 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

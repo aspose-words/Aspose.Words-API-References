@@ -65,5 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* namespace [Aspose.Words.Themes](../../theme/)
+* namespace [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assembly [Aspose.Words](../../../)

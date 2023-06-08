@@ -54,5 +54,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 * enum [EmbeddedFontFormat](../../embeddedfontformat/)
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* namespace [Aspose.Words.Fonts](../../fontinfo/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

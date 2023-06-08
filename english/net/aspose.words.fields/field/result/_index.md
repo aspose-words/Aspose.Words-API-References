@@ -36,5 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### See Also
 
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

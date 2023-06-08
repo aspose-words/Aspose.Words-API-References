@@ -45,5 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

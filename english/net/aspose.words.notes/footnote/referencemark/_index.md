@@ -70,5 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### See Also
 
 * class [Footnote](../)
-* namespace [Aspose.Words.Notes](../../footnote/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

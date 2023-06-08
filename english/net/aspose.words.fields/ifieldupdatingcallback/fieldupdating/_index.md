@@ -85,5 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* namespace [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

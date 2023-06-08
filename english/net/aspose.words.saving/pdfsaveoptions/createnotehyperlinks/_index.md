@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### See Also
 
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

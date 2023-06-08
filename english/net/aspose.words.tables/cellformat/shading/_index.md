@@ -115,5 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* namespace [Aspose.Words.Tables](../../cellformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

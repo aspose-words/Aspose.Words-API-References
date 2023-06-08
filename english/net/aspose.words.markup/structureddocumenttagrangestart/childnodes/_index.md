@@ -20,5 +20,5 @@ public NodeCollection ChildNodes { get; }
 
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

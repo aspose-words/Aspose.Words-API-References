@@ -51,5 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

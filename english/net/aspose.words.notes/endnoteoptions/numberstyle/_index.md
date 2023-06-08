@@ -71,5 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* namespace [Aspose.Words.Notes](../../endnoteoptions/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

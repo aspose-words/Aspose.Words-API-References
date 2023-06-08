@@ -70,5 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### See Also
 
 * class [ChartAxis](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

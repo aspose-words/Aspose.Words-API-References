@@ -20,7 +20,7 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -96,7 +96,7 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -114,5 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

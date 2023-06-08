@@ -75,5 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namespace [Aspose.Words.Layout](../../layoutcollector/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

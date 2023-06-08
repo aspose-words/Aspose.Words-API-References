@@ -92,5 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### See Also
 
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

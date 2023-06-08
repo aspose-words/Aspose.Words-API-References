@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
 ### See Also
 
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -70,7 +70,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -143,5 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* namespace [Aspose.Words](../../documentbase/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

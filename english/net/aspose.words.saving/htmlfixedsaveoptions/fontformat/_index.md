@@ -47,5 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

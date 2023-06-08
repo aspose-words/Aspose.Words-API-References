@@ -109,5 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### See Also
 
 * class [FieldSkipIf](../)
-* namespace [Aspose.Words.Fields](../../fieldskipif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

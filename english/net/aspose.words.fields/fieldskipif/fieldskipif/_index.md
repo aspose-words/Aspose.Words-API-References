@@ -19,5 +19,5 @@ public FieldSkipIf()
 ### See Also
 
 * class [FieldSkipIf](../)
-* namespace [Aspose.Words.Fields](../../fieldskipif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

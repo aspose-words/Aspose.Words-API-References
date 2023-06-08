@@ -19,5 +19,5 @@ public FieldEditTime()
 ### See Also
 
 * class [FieldEditTime](../)
-* namespace [Aspose.Words.Fields](../../fieldedittime/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -57,5 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../txtsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

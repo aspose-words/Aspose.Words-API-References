@@ -19,5 +19,5 @@ public FieldDocProperty()
 ### See Also
 
 * class [FieldDocProperty](../)
-* namespace [Aspose.Words.Fields](../../fielddocproperty/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

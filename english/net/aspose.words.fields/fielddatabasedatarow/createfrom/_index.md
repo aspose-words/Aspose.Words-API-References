@@ -19,5 +19,5 @@ public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)
 ### See Also
 
 * class [FieldDatabaseDataRow](../)
-* namespace [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

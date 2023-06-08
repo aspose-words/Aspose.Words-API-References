@@ -24,5 +24,5 @@ public void Merge(Stream outputStream, params Stream[] inputStreams)
 ### See Also
 
 * interface [IDocumentMergerPlugin](../)
-* namespace [Aspose.Words](../../idocumentmergerplugin/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

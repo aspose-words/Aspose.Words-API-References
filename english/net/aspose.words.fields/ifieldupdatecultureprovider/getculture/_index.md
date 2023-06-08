@@ -97,5 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* namespace [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

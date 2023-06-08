@@ -49,5 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### See Also
 
 * class [StructuredDocumentTagCollection](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

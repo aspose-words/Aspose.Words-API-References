@@ -40,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namespace [Aspose.Words.Properties](../../documentpropertycollection/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -83,5 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namespace [Aspose.Words.Properties](../../documentpropertycollection/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

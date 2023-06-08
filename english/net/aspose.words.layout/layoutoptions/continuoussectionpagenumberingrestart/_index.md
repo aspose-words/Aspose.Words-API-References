@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

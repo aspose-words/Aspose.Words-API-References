@@ -76,5 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* namespace [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

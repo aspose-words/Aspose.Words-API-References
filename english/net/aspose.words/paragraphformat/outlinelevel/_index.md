@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

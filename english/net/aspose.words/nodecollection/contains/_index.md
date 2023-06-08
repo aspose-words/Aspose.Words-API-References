@@ -66,5 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namespace [Aspose.Words](../../nodecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

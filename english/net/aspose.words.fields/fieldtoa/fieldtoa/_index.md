@@ -19,5 +19,5 @@ public FieldToa()
 ### See Also
 
 * class [FieldToa](../)
-* namespace [Aspose.Words.Fields](../../fieldtoa/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

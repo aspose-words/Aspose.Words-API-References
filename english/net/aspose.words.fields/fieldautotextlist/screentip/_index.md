@@ -71,5 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### See Also
 
 * class [FieldAutoTextList](../)
-* namespace [Aspose.Words.Fields](../../fieldautotextlist/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

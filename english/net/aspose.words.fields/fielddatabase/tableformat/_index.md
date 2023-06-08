@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### See Also
 
 * class [FieldDatabase](../)
-* namespace [Aspose.Words.Fields](../../fielddatabase/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

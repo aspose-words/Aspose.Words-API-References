@@ -37,5 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

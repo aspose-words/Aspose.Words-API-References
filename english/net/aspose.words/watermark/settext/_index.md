@@ -62,7 +62,7 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### See Also
 
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -125,5 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

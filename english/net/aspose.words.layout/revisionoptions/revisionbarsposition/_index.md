@@ -24,5 +24,5 @@ Values of Center and Inside are not allowed and will cause ArgumentOutOfRangeExc
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* namespace [Aspose.Words.Layout](../../revisionoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

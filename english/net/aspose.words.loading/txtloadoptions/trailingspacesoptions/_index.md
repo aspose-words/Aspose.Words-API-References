@@ -93,5 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../txtloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

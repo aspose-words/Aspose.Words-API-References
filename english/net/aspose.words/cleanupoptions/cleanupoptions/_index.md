@@ -19,5 +19,5 @@ public CleanupOptions()
 ### See Also
 
 * class [CleanupOptions](../)
-* namespace [Aspose.Words](../../cleanupoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

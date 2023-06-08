@@ -35,5 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### See Also
 
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

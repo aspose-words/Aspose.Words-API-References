@@ -28,7 +28,7 @@ By default KeepSourceFormatting is used.
 ### See Also
 
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -54,7 +54,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -80,7 +80,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -103,7 +103,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -126,7 +126,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -175,5 +175,5 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namespace [Aspose.Words.LowCode](../../merger/)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)

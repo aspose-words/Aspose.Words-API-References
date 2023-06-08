@@ -83,5 +83,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

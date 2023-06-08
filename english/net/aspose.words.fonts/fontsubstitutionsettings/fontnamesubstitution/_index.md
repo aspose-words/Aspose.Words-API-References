@@ -20,5 +20,5 @@ public FontNameSubstitutionRule FontNameSubstitution { get; }
 
 * class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

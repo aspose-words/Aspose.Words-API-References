@@ -134,5 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

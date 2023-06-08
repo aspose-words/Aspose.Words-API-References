@@ -20,5 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* namespace [Aspose.Words.Drawing](../../shadowformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

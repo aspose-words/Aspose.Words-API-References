@@ -20,5 +20,5 @@ public BasicTextShaperCache(ITextShaperFactory factory)
 
 * interface [ITextShaperFactory](../../itextshaperfactory/)
 * class [BasicTextShaperCache](../)
-* namespace [Aspose.Words.Shaping](../../basictextshapercache/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

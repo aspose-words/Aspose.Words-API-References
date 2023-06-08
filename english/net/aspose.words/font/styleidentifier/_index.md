@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

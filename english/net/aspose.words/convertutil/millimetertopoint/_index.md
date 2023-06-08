@@ -56,5 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### See Also
 
 * class [ConvertUtil](../)
-* namespace [Aspose.Words](../../convertutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

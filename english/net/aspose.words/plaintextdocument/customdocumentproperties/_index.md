@@ -39,5 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

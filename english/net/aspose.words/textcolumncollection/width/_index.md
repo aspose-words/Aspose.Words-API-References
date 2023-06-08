@@ -23,5 +23,5 @@ Has effect only when [`EvenlySpaced`](../evenlyspaced/) is set to `true`.
 ### See Also
 
 * class [TextColumnCollection](../)
-* namespace [Aspose.Words](../../textcolumncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

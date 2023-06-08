@@ -191,5 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -56,5 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### See Also
 
 * class [ShapeBase](../)
-* namespace [Aspose.Words.Drawing](../../shapebase/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

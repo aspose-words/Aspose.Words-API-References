@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

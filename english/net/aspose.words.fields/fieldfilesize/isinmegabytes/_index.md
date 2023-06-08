@@ -64,5 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### See Also
 
 * class [FieldFileSize](../)
-* namespace [Aspose.Words.Fields](../../fieldfilesize/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

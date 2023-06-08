@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * enum [ColorMode](../../colormode/)
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

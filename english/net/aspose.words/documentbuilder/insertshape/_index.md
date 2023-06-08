@@ -56,7 +56,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -118,5 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

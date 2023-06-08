@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### See Also
 
 * class [TextColumnCollection](../)
-* namespace [Aspose.Words](../../textcolumncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

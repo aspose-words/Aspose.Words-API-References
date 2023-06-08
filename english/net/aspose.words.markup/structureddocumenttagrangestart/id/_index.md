@@ -61,5 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### See Also
 
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

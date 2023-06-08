@@ -48,5 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

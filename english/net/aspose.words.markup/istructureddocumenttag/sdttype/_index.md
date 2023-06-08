@@ -20,5 +20,5 @@ public SdtType SdtType { get; }
 
 * enum [SdtType](../../sdttype/)
 * interface [IStructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -57,5 +57,5 @@ doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

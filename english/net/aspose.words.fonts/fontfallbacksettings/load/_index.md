@@ -41,7 +41,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### See Also
 
 * class [FontFallbackSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -87,5 +87,5 @@ using (FileStream fontFallbackStream =
 ### See Also
 
 * class [FontFallbackSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

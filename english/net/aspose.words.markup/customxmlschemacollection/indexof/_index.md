@@ -70,5 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### See Also
 
 * class [CustomXmlSchemaCollection](../)
-* namespace [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

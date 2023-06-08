@@ -53,5 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* namespace [Aspose.Words](../../style/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

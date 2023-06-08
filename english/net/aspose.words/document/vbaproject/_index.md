@@ -48,5 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

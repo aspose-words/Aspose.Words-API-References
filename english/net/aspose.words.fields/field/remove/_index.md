@@ -125,5 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

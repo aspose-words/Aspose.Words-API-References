@@ -19,5 +19,5 @@ public CompareOptions()
 ### See Also
 
 * class [CompareOptions](../)
-* namespace [Aspose.Words.Comparing](../../compareoptions/)
+* namespace [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assembly [Aspose.Words](../../../)

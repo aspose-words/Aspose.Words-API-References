@@ -84,5 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

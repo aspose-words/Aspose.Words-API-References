@@ -97,7 +97,7 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### See Also
 
 * class [Hyphenation](../)
-* namespace [Aspose.Words](../../hyphenation/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -225,5 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### See Also
 
 * class [Hyphenation](../)
-* namespace [Aspose.Words](../../hyphenation/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

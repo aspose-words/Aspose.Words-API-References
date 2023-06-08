@@ -19,5 +19,5 @@ public FieldSubject()
 ### See Also
 
 * class [FieldSubject](../)
-* namespace [Aspose.Words.Fields](../../fieldsubject/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

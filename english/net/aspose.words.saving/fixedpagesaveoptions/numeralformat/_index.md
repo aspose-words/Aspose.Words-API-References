@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

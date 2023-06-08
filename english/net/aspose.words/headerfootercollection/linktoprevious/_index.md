@@ -89,7 +89,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### See Also
 
 * class [HeaderFooterCollection](../)
-* namespace [Aspose.Words](../../headerfootercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -177,5 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namespace [Aspose.Words](../../headerfootercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

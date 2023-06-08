@@ -53,5 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -20,5 +20,5 @@ public Glyph[] Glyphs { get; }
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* namespace [Aspose.Words.Shaping](../../cluster/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

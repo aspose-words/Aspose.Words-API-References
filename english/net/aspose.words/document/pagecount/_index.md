@@ -43,5 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

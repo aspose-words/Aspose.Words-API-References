@@ -66,5 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* namespace [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

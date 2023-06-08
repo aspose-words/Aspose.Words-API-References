@@ -19,5 +19,5 @@ public FieldAuthor()
 ### See Also
 
 * class [FieldAuthor](../)
-* namespace [Aspose.Words.Fields](../../fieldauthor/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

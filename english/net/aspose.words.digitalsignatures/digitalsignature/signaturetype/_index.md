@@ -39,5 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

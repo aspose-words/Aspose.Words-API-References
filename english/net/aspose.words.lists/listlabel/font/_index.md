@@ -20,5 +20,5 @@ public Font Font { get; }
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLabel](../)
-* namespace [Aspose.Words.Lists](../../listlabel/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

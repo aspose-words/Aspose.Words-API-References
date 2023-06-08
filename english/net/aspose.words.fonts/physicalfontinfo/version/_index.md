@@ -36,5 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### See Also
 
 * class [PhysicalFontInfo](../)
-* namespace [Aspose.Words.Fonts](../../physicalfontinfo/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

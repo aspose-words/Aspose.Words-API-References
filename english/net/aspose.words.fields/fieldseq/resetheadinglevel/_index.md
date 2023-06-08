@@ -80,5 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### See Also
 
 * class [FieldSeq](../)
-* namespace [Aspose.Words.Fields](../../fieldseq/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

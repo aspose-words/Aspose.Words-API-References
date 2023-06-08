@@ -19,5 +19,5 @@ public GraphicsQualityOptions()
 ### See Also
 
 * class [GraphicsQualityOptions](../)
-* namespace [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

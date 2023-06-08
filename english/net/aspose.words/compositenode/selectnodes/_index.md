@@ -77,5 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

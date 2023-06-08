@@ -20,5 +20,5 @@ public IEnumerator<ChartYValue> GetEnumerator()
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

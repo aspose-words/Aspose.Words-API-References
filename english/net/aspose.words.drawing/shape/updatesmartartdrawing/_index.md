@@ -23,5 +23,5 @@ Microsoft Word generates and saves the pre-rendered drawing along with SmartArt 
 ### See Also
 
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

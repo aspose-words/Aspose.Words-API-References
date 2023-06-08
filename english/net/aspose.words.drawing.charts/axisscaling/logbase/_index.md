@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### See Also
 
 * class [AxisScaling](../)
-* namespace [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

@@ -58,5 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### See Also
 
 * class [FieldMergeField](../)
-* namespace [Aspose.Words.Fields](../../fieldmergefield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

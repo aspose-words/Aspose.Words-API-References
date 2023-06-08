@@ -70,5 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chart/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

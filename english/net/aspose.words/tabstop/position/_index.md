@@ -42,5 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### See Also
 
 * class [TabStop](../)
-* namespace [Aspose.Words](../../tabstop/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

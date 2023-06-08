@@ -42,5 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### See Also
 
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

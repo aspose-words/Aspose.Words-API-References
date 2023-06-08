@@ -45,5 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldSectionPages()
 ### See Also
 
 * class [FieldSectionPages](../)
-* namespace [Aspose.Words.Fields](../../fieldsectionpages/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

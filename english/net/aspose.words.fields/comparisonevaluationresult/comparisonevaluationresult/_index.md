@@ -100,7 +100,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### See Also
 
 * class [ComparisonEvaluationResult](../)
-* namespace [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -197,5 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### See Also
 
 * class [ComparisonEvaluationResult](../)
-* namespace [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

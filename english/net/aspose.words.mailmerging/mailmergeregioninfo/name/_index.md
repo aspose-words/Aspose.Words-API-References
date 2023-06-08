@@ -61,5 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### See Also
 
 * class [MailMergeRegionInfo](../)
-* namespace [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

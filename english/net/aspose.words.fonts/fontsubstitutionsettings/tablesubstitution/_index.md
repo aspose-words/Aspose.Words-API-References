@@ -78,5 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

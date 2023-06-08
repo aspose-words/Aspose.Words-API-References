@@ -45,5 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

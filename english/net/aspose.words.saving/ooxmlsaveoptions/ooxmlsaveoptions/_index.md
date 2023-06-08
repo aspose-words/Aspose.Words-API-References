@@ -51,7 +51,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 ### See Also
 
 * class [OoxmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -96,5 +96,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

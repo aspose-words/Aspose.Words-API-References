@@ -78,5 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* namespace [Aspose.Words.Saving](../../csssavingargs/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

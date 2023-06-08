@@ -68,5 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

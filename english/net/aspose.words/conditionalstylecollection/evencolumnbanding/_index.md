@@ -87,5 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namespace [Aspose.Words](../../conditionalstylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

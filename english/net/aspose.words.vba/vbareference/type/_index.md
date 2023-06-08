@@ -20,5 +20,5 @@ public abstract VbaReferenceType Type { get; }
 
 * enum [VbaReferenceType](../../vbareferencetype/)
 * class [VbaReference](../)
-* namespace [Aspose.Words.Vba](../../vbareference/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

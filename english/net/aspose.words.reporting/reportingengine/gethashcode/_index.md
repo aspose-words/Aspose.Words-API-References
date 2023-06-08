@@ -19,5 +19,5 @@ public int GetHashCode()
 ### See Also
 
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

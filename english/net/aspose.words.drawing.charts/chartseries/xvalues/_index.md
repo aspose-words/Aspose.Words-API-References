@@ -20,5 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

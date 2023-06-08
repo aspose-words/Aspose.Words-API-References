@@ -105,5 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### See Also
 
 * class [Bookmark](../)
-* namespace [Aspose.Words](../../bookmark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

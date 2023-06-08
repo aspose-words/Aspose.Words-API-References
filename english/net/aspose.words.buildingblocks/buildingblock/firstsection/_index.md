@@ -118,5 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* namespace [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

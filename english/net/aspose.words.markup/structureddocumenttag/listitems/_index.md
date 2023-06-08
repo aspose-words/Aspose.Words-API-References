@@ -80,5 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

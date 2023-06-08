@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* namespace [Aspose.Words.Tables](../../cellformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

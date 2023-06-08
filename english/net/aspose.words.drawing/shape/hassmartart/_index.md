@@ -31,5 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### See Also
 
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

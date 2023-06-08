@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### See Also
 
 * class [FieldUserInitials](../)
-* namespace [Aspose.Words.Fields](../../fielduserinitials/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

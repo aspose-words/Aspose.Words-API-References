@@ -124,5 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* namespace [Aspose.Words.Drawing](../../groupshape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

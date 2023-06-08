@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

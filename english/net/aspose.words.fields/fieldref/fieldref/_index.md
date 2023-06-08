@@ -19,5 +19,5 @@ public FieldRef()
 ### See Also
 
 * class [FieldRef](../)
-* namespace [Aspose.Words.Fields](../../fieldref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

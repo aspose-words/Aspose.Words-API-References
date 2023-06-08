@@ -49,5 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

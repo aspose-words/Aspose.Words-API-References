@@ -19,5 +19,5 @@ public FieldFormula()
 ### See Also
 
 * class [FieldFormula](../)
-* namespace [Aspose.Words.Fields](../../fieldformula/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public int Count { get; }
 ### See Also
 
 * class [TextColumnCollection](../)
-* namespace [Aspose.Words](../../textcolumncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

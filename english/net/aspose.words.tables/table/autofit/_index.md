@@ -76,5 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

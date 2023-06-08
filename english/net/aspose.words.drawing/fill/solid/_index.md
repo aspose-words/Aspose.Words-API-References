@@ -23,7 +23,7 @@ Use this method to convert any of the fills back to solid fill.
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -68,5 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

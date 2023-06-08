@@ -43,5 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### See Also
 
 * class [ControlChar](../)
-* namespace [Aspose.Words](../../controlchar/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

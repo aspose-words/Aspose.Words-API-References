@@ -20,5 +20,5 @@ public IEnumerator<Node> GetEnumerator()
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -62,5 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

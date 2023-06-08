@@ -79,5 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

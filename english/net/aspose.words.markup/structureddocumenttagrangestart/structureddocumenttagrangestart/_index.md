@@ -89,5 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

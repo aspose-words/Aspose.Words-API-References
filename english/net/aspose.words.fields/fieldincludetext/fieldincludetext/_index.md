@@ -19,5 +19,5 @@ public FieldIncludeText()
 ### See Also
 
 * class [FieldIncludeText](../)
-* namespace [Aspose.Words.Fields](../../fieldincludetext/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

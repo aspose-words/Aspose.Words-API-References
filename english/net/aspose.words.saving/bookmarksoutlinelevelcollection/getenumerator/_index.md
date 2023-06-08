@@ -19,5 +19,5 @@ public IEnumerator<KeyValuePair<string, int>> GetEnumerator()
 ### See Also
 
 * class [BookmarksOutlineLevelCollection](../)
-* namespace [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

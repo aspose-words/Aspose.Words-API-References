@@ -19,5 +19,5 @@ public FieldUnknown()
 ### See Also
 
 * class [FieldUnknown](../)
-* namespace [Aspose.Words.Fields](../../fieldunknown/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

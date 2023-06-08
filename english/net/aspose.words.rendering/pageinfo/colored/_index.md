@@ -19,5 +19,5 @@ public bool Colored { get; }
 ### See Also
 
 * class [PageInfo](../)
-* namespace [Aspose.Words.Rendering](../../pageinfo/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

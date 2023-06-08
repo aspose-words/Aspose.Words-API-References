@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* namespace [Aspose.Words.Tables](../../row/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

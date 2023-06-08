@@ -61,5 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### See Also
 
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -77,5 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### See Also
 
 * class [Bookmark](../)
-* namespace [Aspose.Words](../../bookmark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

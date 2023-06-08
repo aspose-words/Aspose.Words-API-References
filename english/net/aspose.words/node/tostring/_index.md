@@ -93,7 +93,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -142,5 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

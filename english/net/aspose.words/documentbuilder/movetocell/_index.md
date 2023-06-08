@@ -60,5 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

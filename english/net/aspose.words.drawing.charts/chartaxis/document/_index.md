@@ -20,5 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

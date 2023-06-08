@@ -46,5 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

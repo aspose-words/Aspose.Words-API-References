@@ -56,5 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### See Also
 
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

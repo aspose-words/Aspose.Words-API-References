@@ -20,5 +20,5 @@ public IPageLayoutCallback Callback { get; set; }
 
 * interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

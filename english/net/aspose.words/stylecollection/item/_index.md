@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -96,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -133,5 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

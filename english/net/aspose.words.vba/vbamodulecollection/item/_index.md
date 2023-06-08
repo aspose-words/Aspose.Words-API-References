@@ -52,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namespace [Aspose.Words.Vba](../../vbamodulecollection/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -97,5 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namespace [Aspose.Words.Vba](../../vbamodulecollection/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

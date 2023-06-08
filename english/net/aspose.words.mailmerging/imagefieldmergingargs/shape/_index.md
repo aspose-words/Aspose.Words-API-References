@@ -26,5 +26,5 @@ Use this property to fully control the process of merging an image merge field. 
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* namespace [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

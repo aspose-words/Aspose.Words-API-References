@@ -43,5 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* namespace [Aspose.Words](../../comment/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

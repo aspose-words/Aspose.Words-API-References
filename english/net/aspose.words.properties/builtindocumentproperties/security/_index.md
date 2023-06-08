@@ -70,5 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

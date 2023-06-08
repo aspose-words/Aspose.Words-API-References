@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### See Also
 
 * class [TabStop](../)
-* namespace [Aspose.Words](../../tabstop/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -125,5 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* namespace [Aspose.Words](../../tabstop/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

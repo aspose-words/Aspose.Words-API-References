@@ -77,5 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* namespace [Aspose.Words](../../body/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

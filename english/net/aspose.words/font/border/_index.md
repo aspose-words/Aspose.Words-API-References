@@ -37,5 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

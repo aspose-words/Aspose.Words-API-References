@@ -52,5 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

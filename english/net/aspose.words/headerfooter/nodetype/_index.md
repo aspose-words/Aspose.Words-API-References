@@ -66,5 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* namespace [Aspose.Words](../../headerfooter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

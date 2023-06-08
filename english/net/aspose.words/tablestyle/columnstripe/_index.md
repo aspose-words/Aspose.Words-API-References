@@ -71,5 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### See Also
 
 * class [TableStyle](../)
-* namespace [Aspose.Words](../../tablestyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -23,5 +23,5 @@ The default value is 36.
 ### See Also
 
 * class [TextPath](../)
-* namespace [Aspose.Words.Drawing](../../textpath/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

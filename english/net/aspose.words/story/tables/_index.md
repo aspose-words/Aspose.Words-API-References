@@ -42,5 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* namespace [Aspose.Words](../../story/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

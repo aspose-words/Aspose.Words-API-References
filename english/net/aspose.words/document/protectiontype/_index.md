@@ -70,5 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -66,5 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### See Also
 
 * class [FieldXE](../)
-* namespace [Aspose.Words.Fields](../../fieldxe/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,7 +19,7 @@ public FindReplaceOptions()
 ### See Also
 
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -34,7 +34,7 @@ public FindReplaceOptions(FindReplaceDirection direction)
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -49,7 +49,7 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -65,5 +65,5 @@ public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback rep
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

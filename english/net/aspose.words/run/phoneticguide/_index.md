@@ -34,5 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* namespace [Aspose.Words](../../run/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

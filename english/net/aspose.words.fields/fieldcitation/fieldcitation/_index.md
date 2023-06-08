@@ -19,5 +19,5 @@ public FieldCitation()
 ### See Also
 
 * class [FieldCitation](../)
-* namespace [Aspose.Words.Fields](../../fieldcitation/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

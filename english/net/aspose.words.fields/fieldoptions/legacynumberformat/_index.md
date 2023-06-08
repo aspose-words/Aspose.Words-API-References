@@ -45,5 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### See Also
 
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -23,5 +23,5 @@ Odd pages have even indices since page indices are zero-based.
 ### See Also
 
 * class [PageSet](../)
-* namespace [Aspose.Words.Saving](../../pageset/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

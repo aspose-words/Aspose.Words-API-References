@@ -24,5 +24,5 @@ public VbaReference this[int index] { get; }
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* namespace [Aspose.Words.Vba](../../vbareferencecollection/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

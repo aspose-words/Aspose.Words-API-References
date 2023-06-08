@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### See Also
 
 * class [FieldComments](../)
-* namespace [Aspose.Words.Fields](../../fieldcomments/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

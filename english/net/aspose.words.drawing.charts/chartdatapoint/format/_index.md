@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

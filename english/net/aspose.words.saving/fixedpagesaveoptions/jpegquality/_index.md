@@ -57,5 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### See Also
 
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

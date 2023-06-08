@@ -79,7 +79,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### See Also
 
 * class [CertificateHolder](../)
-* namespace [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -155,7 +155,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### See Also
 
 * class [CertificateHolder](../)
-* namespace [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -215,7 +215,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### See Also
 
 * class [CertificateHolder](../)
-* namespace [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -293,5 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### See Also
 
 * class [CertificateHolder](../)
-* namespace [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

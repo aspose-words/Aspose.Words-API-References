@@ -72,5 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

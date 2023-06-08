@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -108,5 +108,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

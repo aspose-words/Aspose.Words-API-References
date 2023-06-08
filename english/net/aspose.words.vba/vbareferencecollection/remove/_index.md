@@ -91,5 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* namespace [Aspose.Words.Vba](../../vbareferencecollection/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

@@ -59,7 +59,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -200,7 +200,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -267,7 +267,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -332,5 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

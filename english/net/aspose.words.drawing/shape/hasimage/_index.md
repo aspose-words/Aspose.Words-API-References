@@ -62,5 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### See Also
 
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

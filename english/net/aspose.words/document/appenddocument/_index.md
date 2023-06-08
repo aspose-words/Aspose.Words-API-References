@@ -68,7 +68,7 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -172,5 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

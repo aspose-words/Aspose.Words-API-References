@@ -71,5 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### See Also
 
 * class [MailMergeRegionInfo](../)
-* namespace [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

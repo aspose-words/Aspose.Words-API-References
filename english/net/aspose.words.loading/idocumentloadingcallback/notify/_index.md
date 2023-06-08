@@ -92,5 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* namespace [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

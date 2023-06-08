@@ -82,5 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### See Also
 
 * class [Shading](../)
-* namespace [Aspose.Words](../../shading/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

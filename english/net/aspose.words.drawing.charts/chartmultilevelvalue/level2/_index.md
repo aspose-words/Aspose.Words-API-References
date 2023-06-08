@@ -19,5 +19,5 @@ public string Level2 { get; }
 ### See Also
 
 * class [ChartMultilevelValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

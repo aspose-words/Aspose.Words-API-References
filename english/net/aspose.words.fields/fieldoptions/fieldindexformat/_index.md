@@ -40,5 +40,5 @@ doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
 
 * enum [FieldIndexFormat](../../fieldindexformat/)
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

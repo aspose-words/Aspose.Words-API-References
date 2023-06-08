@@ -23,5 +23,5 @@ The default value is `false`.
 ### See Also
 
 * class [XmlDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../xmldataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

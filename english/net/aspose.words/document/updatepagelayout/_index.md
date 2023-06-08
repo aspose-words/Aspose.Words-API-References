@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -43,5 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### See Also
 
 * class [TextColumnCollection](../)
-* namespace [Aspose.Words](../../textcolumncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

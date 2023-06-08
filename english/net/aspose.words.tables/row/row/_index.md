@@ -83,5 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* namespace [Aspose.Words.Tables](../../row/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

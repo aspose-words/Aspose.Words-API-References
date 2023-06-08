@@ -58,5 +58,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### See Also
 
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)
