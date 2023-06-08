@@ -19,5 +19,5 @@ public FieldGreetingLine()
 ### See Also
 
 * class [FieldGreetingLine](../)
-* namespace [Aspose.Words.Fields](../../fieldgreetingline/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

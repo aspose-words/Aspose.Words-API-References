@@ -78,5 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * class [ShapeBase](../)
-* namespace [Aspose.Words.Drawing](../../shapebase/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

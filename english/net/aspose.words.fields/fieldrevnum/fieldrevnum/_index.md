@@ -19,5 +19,5 @@ public FieldRevNum()
 ### See Also
 
 * class [FieldRevNum](../)
-* namespace [Aspose.Words.Fields](../../fieldrevnum/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

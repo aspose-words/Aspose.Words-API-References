@@ -92,7 +92,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* namespace [Aspose.Words](../../nodeimporter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -188,5 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* namespace [Aspose.Words](../../nodeimporter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

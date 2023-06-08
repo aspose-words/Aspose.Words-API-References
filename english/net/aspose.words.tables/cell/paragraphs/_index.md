@@ -42,5 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* namespace [Aspose.Words.Tables](../../cell/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

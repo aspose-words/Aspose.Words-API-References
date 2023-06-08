@@ -52,5 +52,5 @@ if (isLinuxOrMac)
 ### See Also
 
 * class [FontConfigSubstitutionRule](../)
-* namespace [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

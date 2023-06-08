@@ -42,7 +42,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### See Also
 
 * class [FolderFontSource](../)
-* namespace [Aspose.Words.Fonts](../../folderfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -82,5 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### See Also
 
 * class [FolderFontSource](../)
-* namespace [Aspose.Words.Fonts](../../folderfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

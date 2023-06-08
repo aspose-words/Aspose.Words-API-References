@@ -62,5 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

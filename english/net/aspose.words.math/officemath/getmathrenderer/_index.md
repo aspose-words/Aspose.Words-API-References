@@ -47,5 +47,5 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * class [OfficeMath](../)
-* namespace [Aspose.Words.Math](../../officemath/)
+* namespace [Aspose.Words.Math](../../../aspose.words.math/)
 * assembly [Aspose.Words](../../../)

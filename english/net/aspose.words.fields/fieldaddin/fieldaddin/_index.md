@@ -19,5 +19,5 @@ public FieldAddIn()
 ### See Also
 
 * class [FieldAddIn](../)
-* namespace [Aspose.Words.Fields](../../fieldaddin/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

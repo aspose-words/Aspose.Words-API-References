@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "Shape.FillTintAndShade.docx");
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

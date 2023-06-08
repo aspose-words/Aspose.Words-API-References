@@ -91,5 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* namespace [Aspose.Words.Tables](../../cellformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public GlossaryDocument()
 ### See Also
 
 * class [GlossaryDocument](../)
-* namespace [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

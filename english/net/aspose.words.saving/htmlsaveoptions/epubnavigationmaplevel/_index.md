@@ -72,5 +72,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.EpubHeadings.epub", options);
 ### See Also
 
 * class [HtmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

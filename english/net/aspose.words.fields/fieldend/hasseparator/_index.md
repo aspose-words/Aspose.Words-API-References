@@ -119,5 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### See Also
 
 * class [FieldEnd](../)
-* namespace [Aspose.Words.Fields](../../fieldend/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

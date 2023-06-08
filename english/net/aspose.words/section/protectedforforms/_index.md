@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

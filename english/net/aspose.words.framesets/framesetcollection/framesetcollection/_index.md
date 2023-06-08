@@ -19,5 +19,5 @@ public FramesetCollection()
 ### See Also
 
 * class [FramesetCollection](../)
-* namespace [Aspose.Words.Framesets](../../framesetcollection/)
+* namespace [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * assembly [Aspose.Words](../../../)

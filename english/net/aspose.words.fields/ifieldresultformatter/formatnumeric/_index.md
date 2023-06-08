@@ -157,5 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### See Also
 
 * interface [IFieldResultFormatter](../)
-* namespace [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

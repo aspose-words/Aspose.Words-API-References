@@ -103,5 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

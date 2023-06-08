@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

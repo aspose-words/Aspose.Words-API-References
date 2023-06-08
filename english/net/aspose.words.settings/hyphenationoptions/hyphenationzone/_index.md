@@ -39,5 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### See Also
 
 * class [HyphenationOptions](../)
-* namespace [Aspose.Words.Settings](../../hyphenationoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

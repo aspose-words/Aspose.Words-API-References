@@ -78,5 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### See Also
 
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

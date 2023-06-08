@@ -106,5 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chart/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

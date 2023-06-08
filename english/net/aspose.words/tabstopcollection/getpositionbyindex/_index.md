@@ -42,5 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### See Also
 
 * class [TabStopCollection](../)
-* namespace [Aspose.Words](../../tabstopcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

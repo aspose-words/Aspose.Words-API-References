@@ -65,5 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

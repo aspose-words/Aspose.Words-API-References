@@ -49,5 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namespace [Aspose.Words](../../story/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -49,5 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### See Also
 
 * class [PrinterSettingsContainer](../)
-* namespace [Aspose.Words.Rendering](../../printersettingscontainer/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

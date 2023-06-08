@@ -101,5 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public override string ToString()
 ### See Also
 
 * class [DigitalSignature](../)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

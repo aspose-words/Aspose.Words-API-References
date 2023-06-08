@@ -19,5 +19,5 @@ public JsonDataLoadOptions()
 ### See Also
 
 * class [JsonDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

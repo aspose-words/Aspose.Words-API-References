@@ -64,5 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### See Also
 
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

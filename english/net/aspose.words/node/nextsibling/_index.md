@@ -82,5 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### See Also
 
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

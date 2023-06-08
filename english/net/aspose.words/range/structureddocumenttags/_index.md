@@ -20,5 +20,5 @@ public StructuredDocumentTagCollection StructuredDocumentTags { get; }
 
 * class [StructuredDocumentTagCollection](../../../aspose.words.markup/structureddocumenttagcollection/)
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

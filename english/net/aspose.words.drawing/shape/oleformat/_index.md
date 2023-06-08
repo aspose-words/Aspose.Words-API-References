@@ -140,5 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [OleFormat](../../oleformat/)
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -91,5 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* namespace [Aspose.Words.Replacing](../../replacingargs/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

@@ -200,5 +200,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SubDocument](../)
-* namespace [Aspose.Words](../../subdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

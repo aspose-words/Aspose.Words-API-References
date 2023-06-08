@@ -136,5 +136,5 @@ Shows how to add a signature line to a document, and then sign it using a digita
 ### See Also
 
 * class [SignOptions](../)
-* namespace [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

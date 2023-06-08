@@ -77,7 +77,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namespace [Aspose.Words](../../run/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -122,5 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namespace [Aspose.Words](../../run/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

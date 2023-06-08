@@ -35,5 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### See Also
 
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

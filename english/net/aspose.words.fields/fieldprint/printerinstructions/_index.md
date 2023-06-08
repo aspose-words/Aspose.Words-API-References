@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### See Also
 
 * class [FieldPrint](../)
-* namespace [Aspose.Words.Fields](../../fieldprint/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

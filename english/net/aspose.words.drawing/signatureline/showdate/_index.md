@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### See Also
 
 * class [SignatureLine](../)
-* namespace [Aspose.Words.Drawing](../../signatureline/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

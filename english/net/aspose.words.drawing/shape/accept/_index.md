@@ -156,5 +156,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

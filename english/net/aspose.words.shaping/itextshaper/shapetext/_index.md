@@ -31,5 +31,5 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
 * interface [ITextShaper](../)
-* namespace [Aspose.Words.Shaping](../../itextshaper/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

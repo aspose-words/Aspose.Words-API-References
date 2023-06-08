@@ -59,5 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### See Also
 
 * class [Hyphenation](../)
-* namespace [Aspose.Words](../../hyphenation/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

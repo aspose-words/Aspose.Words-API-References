@@ -199,5 +199,5 @@ public enum InsertLinkedObjectAs
 ### See Also
 
 * class [FieldLink](../)
-* namespace [Aspose.Words.Fields](../../fieldlink/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

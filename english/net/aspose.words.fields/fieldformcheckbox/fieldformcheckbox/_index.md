@@ -19,5 +19,5 @@ public FieldFormCheckBox()
 ### See Also
 
 * class [FieldFormCheckBox](../)
-* namespace [Aspose.Words.Fields](../../fieldformcheckbox/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -75,5 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* namespace [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

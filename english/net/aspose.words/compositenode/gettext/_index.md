@@ -67,5 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### See Also
 
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

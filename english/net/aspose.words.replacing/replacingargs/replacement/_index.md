@@ -72,5 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### See Also
 
 * class [ReplacingArgs](../)
-* namespace [Aspose.Words.Replacing](../../replacingargs/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

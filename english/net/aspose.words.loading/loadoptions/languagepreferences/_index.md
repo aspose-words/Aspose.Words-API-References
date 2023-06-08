@@ -36,5 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

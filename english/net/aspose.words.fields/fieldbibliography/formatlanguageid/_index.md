@@ -70,5 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### See Also
 
 * class [FieldBibliography](../)
-* namespace [Aspose.Words.Fields](../../fieldbibliography/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

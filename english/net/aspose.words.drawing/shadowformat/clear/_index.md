@@ -34,5 +34,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### See Also
 
 * class [ShadowFormat](../)
-* namespace [Aspose.Words.Drawing](../../shadowformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

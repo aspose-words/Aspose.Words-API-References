@@ -184,5 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* namespace [Aspose.Words.Tables](../../row/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

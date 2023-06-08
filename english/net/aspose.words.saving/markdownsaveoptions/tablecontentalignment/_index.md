@@ -20,5 +20,5 @@ public TableContentAlignment TableContentAlignment { get; set; }
 
 * enum [TableContentAlignment](../../tablecontentalignment/)
 * class [MarkdownSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

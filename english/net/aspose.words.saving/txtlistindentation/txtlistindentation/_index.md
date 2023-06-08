@@ -19,5 +19,5 @@ public TxtListIndentation()
 ### See Also
 
 * class [TxtListIndentation](../)
-* namespace [Aspose.Words.Saving](../../txtlistindentation/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

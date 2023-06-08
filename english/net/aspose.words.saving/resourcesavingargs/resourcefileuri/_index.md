@@ -71,5 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### See Also
 
 * class [ResourceSavingArgs](../)
-* namespace [Aspose.Words.Saving](../../resourcesavingargs/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### See Also
 
 * class [BorderCollection](../)
-* namespace [Aspose.Words](../../bordercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

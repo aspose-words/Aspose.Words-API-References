@@ -131,5 +131,5 @@ private class ShapeForm : Form
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ShapeRenderer](../)
-* namespace [Aspose.Words.Rendering](../../shaperenderer/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

@@ -134,5 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* namespace [Aspose.Words.Fields](../../fieldend/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

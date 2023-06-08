@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* namespace [Aspose.Words](../../tablestyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

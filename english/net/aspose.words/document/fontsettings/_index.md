@@ -66,5 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

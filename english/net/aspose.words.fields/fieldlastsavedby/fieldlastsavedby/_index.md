@@ -19,5 +19,5 @@ public FieldLastSavedBy()
 ### See Also
 
 * class [FieldLastSavedBy](../)
-* namespace [Aspose.Words.Fields](../../fieldlastsavedby/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldEmbed()
 ### See Also
 
 * class [FieldEmbed](../)
-* namespace [Aspose.Words.Fields](../../fieldembed/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

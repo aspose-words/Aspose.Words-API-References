@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

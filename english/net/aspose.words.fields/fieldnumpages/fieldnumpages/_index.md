@@ -19,5 +19,5 @@ public FieldNumPages()
 ### See Also
 
 * class [FieldNumPages](../)
-* namespace [Aspose.Words.Fields](../../fieldnumpages/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

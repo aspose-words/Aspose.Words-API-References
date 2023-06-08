@@ -46,5 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

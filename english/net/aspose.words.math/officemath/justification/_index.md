@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* namespace [Aspose.Words.Math](../../officemath/)
+* namespace [Aspose.Words.Math](../../../aspose.words.math/)
 * assembly [Aspose.Words](../../../)

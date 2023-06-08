@@ -60,5 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### See Also
 
 * class [UserInformation](../)
-* namespace [Aspose.Words.Fields](../../userinformation/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

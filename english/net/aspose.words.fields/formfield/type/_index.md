@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* namespace [Aspose.Words.Fields](../../formfield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

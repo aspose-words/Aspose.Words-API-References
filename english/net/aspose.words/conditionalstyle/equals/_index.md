@@ -19,5 +19,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [ConditionalStyle](../)
-* namespace [Aspose.Words](../../conditionalstyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

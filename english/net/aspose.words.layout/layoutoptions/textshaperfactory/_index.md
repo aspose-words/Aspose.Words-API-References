@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

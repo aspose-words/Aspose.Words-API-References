@@ -87,5 +87,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* namespace [Aspose.Words](../../runcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

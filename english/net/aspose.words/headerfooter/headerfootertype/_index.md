@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* namespace [Aspose.Words](../../headerfooter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

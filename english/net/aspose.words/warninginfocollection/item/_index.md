@@ -24,5 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* namespace [Aspose.Words](../../warninginfocollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

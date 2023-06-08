@@ -25,5 +25,5 @@ Double the character to place it into quoted text.
 ### See Also
 
 * class [CsvDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

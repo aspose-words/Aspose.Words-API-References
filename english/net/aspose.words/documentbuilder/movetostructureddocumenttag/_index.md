@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -111,5 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

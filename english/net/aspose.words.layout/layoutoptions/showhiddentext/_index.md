@@ -40,5 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### See Also
 
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

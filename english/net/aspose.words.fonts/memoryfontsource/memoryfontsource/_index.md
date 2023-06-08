@@ -39,7 +39,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### See Also
 
 * class [MemoryFontSource](../)
-* namespace [Aspose.Words.Fonts](../../memoryfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -76,7 +76,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### See Also
 
 * class [MemoryFontSource](../)
-* namespace [Aspose.Words.Fonts](../../memoryfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -146,5 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### See Also
 
 * class [MemoryFontSource](../)
-* namespace [Aspose.Words.Fonts](../../memoryfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

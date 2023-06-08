@@ -74,5 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

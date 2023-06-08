@@ -50,5 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../txtsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

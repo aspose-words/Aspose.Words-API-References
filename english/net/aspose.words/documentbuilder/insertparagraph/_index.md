@@ -61,5 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

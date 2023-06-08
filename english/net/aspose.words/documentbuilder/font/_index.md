@@ -101,5 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

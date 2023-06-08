@@ -48,5 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

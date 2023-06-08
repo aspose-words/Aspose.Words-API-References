@@ -20,5 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XlsxSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

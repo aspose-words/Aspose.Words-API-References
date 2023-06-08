@@ -20,5 +20,5 @@ public ChartFormat Format { get; }
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabel](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

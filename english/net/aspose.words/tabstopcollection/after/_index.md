@@ -73,5 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namespace [Aspose.Words](../../tabstopcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

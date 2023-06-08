@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### See Also
 
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

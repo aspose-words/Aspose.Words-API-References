@@ -46,5 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -44,5 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### See Also
 
 * class [GraphicsQualityOptions](../)
-* namespace [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

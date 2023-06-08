@@ -47,5 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../htmlloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

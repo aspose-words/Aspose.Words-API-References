@@ -20,5 +20,5 @@ public JsonSimpleValueParseMode SimpleValueParseMode { get; set; }
 
 * enum [JsonSimpleValueParseMode](../../jsonsimplevalueparsemode/)
 * class [JsonDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

@@ -59,7 +59,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### See Also
 
 * class [TableSubstitutionRule](../)
-* namespace [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -115,5 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### See Also
 
 * class [TableSubstitutionRule](../)
-* namespace [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

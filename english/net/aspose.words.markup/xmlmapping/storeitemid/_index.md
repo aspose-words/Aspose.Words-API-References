@@ -32,5 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### See Also
 
 * class [XmlMapping](../)
-* namespace [Aspose.Words.Markup](../../xmlmapping/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

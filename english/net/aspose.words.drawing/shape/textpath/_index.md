@@ -120,5 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

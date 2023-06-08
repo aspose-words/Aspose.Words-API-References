@@ -47,5 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### See Also
 
 * class [FileFormatInfo](../)
-* namespace [Aspose.Words](../../fileformatinfo/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

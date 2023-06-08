@@ -36,5 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FileFontSource](../)
-* namespace [Aspose.Words.Fonts](../../filefontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

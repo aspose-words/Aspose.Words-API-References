@@ -19,5 +19,5 @@ public BarcodeParameters()
 ### See Also
 
 * class [BarcodeParameters](../)
-* namespace [Aspose.Words.Fields](../../barcodeparameters/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

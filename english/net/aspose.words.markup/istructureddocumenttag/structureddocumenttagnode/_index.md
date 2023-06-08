@@ -20,5 +20,5 @@ public Node StructuredDocumentTagNode()
 
 * class [Node](../../../aspose.words/node/)
 * interface [IStructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

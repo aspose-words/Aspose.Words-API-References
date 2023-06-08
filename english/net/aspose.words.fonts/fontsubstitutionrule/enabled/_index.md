@@ -103,5 +103,5 @@ Assert.AreEqual(1,
 ### See Also
 
 * class [FontSubstitutionRule](../)
-* namespace [Aspose.Words.Fonts](../../fontsubstitutionrule/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

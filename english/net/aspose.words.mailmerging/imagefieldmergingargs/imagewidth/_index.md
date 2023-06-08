@@ -93,5 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* namespace [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

@@ -31,5 +31,5 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

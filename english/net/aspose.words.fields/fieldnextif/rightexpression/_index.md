@@ -98,5 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### See Also
 
 * class [FieldNextIf](../)
-* namespace [Aspose.Words.Fields](../../fieldnextif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

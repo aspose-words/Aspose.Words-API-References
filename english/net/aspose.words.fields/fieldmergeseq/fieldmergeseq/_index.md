@@ -19,5 +19,5 @@ public FieldMergeSeq()
 ### See Also
 
 * class [FieldMergeSeq](../)
-* namespace [Aspose.Words.Fields](../../fieldmergeseq/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

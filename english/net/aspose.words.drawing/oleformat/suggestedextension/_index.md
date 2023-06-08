@@ -51,5 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### See Also
 
 * class [OleFormat](../)
-* namespace [Aspose.Words.Drawing](../../oleformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

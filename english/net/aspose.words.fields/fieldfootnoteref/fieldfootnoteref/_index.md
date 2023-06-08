@@ -19,5 +19,5 @@ public FieldFootnoteRef()
 ### See Also
 
 * class [FieldFootnoteRef](../)
-* namespace [Aspose.Words.Fields](../../fieldfootnoteref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

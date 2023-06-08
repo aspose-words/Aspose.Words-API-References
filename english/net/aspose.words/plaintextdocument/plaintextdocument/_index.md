@@ -50,7 +50,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### See Also
 
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -105,7 +105,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -161,7 +161,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### See Also
 
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -226,5 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

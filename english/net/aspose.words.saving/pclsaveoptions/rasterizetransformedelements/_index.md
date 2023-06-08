@@ -39,5 +39,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ### See Also
 
 * class [PclSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pclsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

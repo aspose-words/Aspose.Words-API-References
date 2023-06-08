@@ -19,5 +19,5 @@ public FieldFormDropDown()
 ### See Also
 
 * class [FieldFormDropDown](../)
-* namespace [Aspose.Words.Fields](../../fieldformdropdown/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

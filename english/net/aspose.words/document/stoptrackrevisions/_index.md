@@ -65,5 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

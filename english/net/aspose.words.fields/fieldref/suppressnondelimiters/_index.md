@@ -106,5 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### See Also
 
 * class [FieldRef](../)
-* namespace [Aspose.Words.Fields](../../fieldref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -67,5 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### See Also
 
 * class [NodeRendererBase](../)
-* namespace [Aspose.Words.Rendering](../../noderendererbase/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

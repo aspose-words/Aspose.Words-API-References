@@ -139,5 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### See Also
 
 * class [FieldTA](../)
-* namespace [Aspose.Words.Fields](../../fieldta/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

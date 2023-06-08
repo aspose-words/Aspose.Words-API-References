@@ -50,5 +50,5 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### See Also
 
 * class [RevisionCollection](../)
-* namespace [Aspose.Words](../../revisioncollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

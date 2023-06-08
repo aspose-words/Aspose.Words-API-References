@@ -42,5 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetTextOrientation.docx");
 
 * enum [TextOrientation](../../textorientation/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

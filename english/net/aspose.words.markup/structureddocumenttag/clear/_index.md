@@ -70,5 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### See Also
 
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

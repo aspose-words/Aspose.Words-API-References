@@ -19,5 +19,5 @@ public FieldNext()
 ### See Also
 
 * class [FieldNext](../)
-* namespace [Aspose.Words.Fields](../../fieldnext/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -92,5 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### See Also
 
 * class [FieldIndex](../)
-* namespace [Aspose.Words.Fields](../../fieldindex/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

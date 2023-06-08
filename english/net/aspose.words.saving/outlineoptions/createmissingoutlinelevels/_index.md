@@ -61,5 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### See Also
 
 * class [OutlineOptions](../)
-* namespace [Aspose.Words.Saving](../../outlineoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

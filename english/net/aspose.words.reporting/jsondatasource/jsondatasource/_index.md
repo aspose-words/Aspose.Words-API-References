@@ -23,7 +23,7 @@ public JsonDataSource(string jsonPath)
 ### See Also
 
 * class [JsonDataSource](../)
-* namespace [Aspose.Words.Reporting](../../jsondatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -43,7 +43,7 @@ public JsonDataSource(Stream jsonStream)
 ### See Also
 
 * class [JsonDataSource](../)
-* namespace [Aspose.Words.Reporting](../../jsondatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -65,7 +65,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* namespace [Aspose.Words.Reporting](../../jsondatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -87,5 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* namespace [Aspose.Words.Reporting](../../jsondatasource/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

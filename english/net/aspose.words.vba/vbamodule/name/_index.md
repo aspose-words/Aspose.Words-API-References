@@ -69,5 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### See Also
 
 * class [VbaModule](../)
-* namespace [Aspose.Words.Vba](../../vbamodule/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

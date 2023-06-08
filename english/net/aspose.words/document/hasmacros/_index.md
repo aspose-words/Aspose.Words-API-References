@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

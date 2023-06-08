@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### See Also
 
 * class [PsSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pssaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

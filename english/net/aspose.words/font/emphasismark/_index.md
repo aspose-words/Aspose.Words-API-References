@@ -39,5 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

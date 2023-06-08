@@ -45,5 +45,5 @@ Assert.AreEqual(
 ### See Also
 
 * class [RtfLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../rtfloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

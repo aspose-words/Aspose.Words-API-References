@@ -48,5 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* namespace [Aspose.Words.Notes](../../footnoteoptions/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

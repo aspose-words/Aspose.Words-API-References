@@ -82,5 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

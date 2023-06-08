@@ -19,5 +19,5 @@ public FieldRD()
 ### See Also
 
 * class [FieldRD](../)
-* namespace [Aspose.Words.Fields](../../fieldrd/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

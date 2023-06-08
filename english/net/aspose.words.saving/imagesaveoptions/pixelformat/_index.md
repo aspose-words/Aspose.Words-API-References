@@ -90,5 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

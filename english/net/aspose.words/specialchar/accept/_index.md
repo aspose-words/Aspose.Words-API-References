@@ -34,5 +34,5 @@ For more info see the Visitor design pattern.
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* namespace [Aspose.Words](../../specialchar/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -20,5 +20,5 @@ public override NodeType NodeType { get; }
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

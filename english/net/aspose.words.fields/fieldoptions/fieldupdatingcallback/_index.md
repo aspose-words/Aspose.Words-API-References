@@ -20,5 +20,5 @@ public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }
 
 * interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * class [FieldOptions](../)
-* namespace [Aspose.Words.Fields](../../fieldoptions/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

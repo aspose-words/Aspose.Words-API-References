@@ -119,5 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

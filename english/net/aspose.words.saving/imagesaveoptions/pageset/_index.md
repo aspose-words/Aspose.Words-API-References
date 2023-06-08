@@ -121,5 +121,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

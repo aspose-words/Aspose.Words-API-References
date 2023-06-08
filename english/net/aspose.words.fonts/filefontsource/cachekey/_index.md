@@ -25,5 +25,5 @@ If key is not specified then [`FilePath`](../filepath/) will be used as a key in
 ### See Also
 
 * class [FileFontSource](../)
-* namespace [Aspose.Words.Fonts](../../filefontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

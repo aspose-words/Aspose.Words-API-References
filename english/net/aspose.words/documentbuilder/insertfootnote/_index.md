@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -114,5 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

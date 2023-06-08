@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### See Also
 
 * class [FieldImport](../)
-* namespace [Aspose.Words.Fields](../../fieldimport/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

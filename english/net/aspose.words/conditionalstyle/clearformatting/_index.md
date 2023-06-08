@@ -56,5 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### See Also
 
 * class [ConditionalStyle](../)
-* namespace [Aspose.Words](../../conditionalstyle/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

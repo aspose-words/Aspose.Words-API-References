@@ -19,5 +19,5 @@ public FieldEQ()
 ### See Also
 
 * class [FieldEQ](../)
-* namespace [Aspose.Words.Fields](../../fieldeq/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

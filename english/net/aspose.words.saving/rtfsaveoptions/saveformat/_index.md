@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [RtfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../rtfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -44,7 +44,7 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* namespace [Aspose.Words.Rendering](../../noderendererbase/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -88,5 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* namespace [Aspose.Words.Rendering](../../noderendererbase/)
+* namespace [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assembly [Aspose.Words](../../../)

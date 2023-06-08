@@ -20,5 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* namespace [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

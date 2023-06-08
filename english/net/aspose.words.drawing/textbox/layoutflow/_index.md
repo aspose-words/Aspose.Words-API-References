@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* namespace [Aspose.Words.Drawing](../../textbox/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

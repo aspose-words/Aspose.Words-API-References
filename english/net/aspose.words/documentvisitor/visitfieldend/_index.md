@@ -133,5 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

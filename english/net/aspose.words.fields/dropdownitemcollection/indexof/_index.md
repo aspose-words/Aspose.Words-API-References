@@ -78,5 +78,5 @@ dropDownItems.Clear();
 ### See Also
 
 * class [DropDownItemCollection](../)
-* namespace [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

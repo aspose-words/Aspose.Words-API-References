@@ -92,5 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### See Also
 
 * class [ControlChar](../)
-* namespace [Aspose.Words](../../controlchar/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

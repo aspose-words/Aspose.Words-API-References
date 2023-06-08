@@ -19,5 +19,5 @@ public WebExtensionReference()
 ### See Also
 
 * class [WebExtensionReference](../)
-* namespace [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

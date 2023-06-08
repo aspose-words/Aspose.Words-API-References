@@ -99,5 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### See Also
 
 * class [FieldArgumentBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

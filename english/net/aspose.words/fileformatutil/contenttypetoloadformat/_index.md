@@ -77,5 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

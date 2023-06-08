@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

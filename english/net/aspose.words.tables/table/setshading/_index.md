@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

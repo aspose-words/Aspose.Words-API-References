@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### See Also
 
 * class [ChartDataLabel](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

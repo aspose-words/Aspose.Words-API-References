@@ -35,5 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

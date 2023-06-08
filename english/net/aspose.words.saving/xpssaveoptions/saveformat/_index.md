@@ -60,5 +60,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../xpssaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

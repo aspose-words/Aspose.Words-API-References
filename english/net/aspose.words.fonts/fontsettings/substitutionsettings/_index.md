@@ -73,5 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* namespace [Aspose.Words.Fonts](../../fontsettings/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

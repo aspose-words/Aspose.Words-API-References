@@ -47,5 +47,5 @@ field.Update();
 ### See Also
 
 * class [FieldChar](../)
-* namespace [Aspose.Words.Fields](../../fieldchar/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

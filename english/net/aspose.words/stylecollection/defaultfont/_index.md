@@ -44,5 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

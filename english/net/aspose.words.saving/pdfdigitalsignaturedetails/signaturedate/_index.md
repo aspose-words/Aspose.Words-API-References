@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### See Also
 
 * class [PdfDigitalSignatureDetails](../)
-* namespace [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

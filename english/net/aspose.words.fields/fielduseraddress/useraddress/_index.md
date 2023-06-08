@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### See Also
 
 * class [FieldUserAddress](../)
-* namespace [Aspose.Words.Fields](../../fielduseraddress/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

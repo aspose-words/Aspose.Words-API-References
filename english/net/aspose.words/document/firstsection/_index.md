@@ -122,5 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

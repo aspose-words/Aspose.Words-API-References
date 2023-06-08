@@ -19,5 +19,5 @@ public FieldSaveDate()
 ### See Also
 
 * class [FieldSaveDate](../)
-* namespace [Aspose.Words.Fields](../../fieldsavedate/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

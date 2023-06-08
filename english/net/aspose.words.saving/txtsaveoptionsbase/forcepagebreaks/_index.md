@@ -58,5 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### See Also
 
 * class [TxtSaveOptionsBase](../)
-* namespace [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

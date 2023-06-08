@@ -19,5 +19,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [AxisBound](../)
-* namespace [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

@@ -52,5 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

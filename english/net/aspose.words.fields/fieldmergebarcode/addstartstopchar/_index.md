@@ -60,5 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### See Also
 
 * class [FieldMergeBarcode](../)
-* namespace [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

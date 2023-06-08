@@ -68,5 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

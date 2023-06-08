@@ -85,5 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* namespace [Aspose.Words.Drawing](../../shape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

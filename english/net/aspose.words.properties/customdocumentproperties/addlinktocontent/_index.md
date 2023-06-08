@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

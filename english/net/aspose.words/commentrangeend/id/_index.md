@@ -177,5 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### See Also
 
 * class [CommentRangeEnd](../)
-* namespace [Aspose.Words](../../commentrangeend/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

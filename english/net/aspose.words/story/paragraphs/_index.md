@@ -51,5 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* namespace [Aspose.Words](../../story/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

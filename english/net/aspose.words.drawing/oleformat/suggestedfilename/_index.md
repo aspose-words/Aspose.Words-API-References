@@ -40,5 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### See Also
 
 * class [OleFormat](../)
-* namespace [Aspose.Words.Drawing](../../oleformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

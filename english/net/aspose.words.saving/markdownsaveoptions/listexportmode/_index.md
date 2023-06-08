@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "MarkdownSaveOptions.ListExportMode.md", options);
 
 * enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * class [MarkdownSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

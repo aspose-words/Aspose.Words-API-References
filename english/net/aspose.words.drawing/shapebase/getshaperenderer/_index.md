@@ -50,5 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* namespace [Aspose.Words.Drawing](../../shapebase/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -20,5 +20,5 @@ public IEnumerator<GradientStop> GetEnumerator()
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namespace [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

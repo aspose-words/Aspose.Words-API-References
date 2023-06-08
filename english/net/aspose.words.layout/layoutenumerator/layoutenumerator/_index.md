@@ -172,5 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* namespace [Aspose.Words.Layout](../../layoutenumerator/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

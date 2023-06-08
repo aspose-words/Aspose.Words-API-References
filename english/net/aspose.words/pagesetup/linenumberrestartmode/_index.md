@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

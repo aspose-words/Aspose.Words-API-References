@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -94,5 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

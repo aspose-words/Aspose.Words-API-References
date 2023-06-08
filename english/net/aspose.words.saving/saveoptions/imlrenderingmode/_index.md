@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * enum [ImlRenderingMode](../../imlrenderingmode/)
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

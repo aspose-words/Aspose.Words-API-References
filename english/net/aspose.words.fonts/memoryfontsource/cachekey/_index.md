@@ -23,5 +23,5 @@ This key is used to identify cache item when saving/loading font search cache wi
 ### See Also
 
 * class [MemoryFontSource](../)
-* namespace [Aspose.Words.Fonts](../../memoryfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

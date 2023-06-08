@@ -77,7 +77,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -142,5 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* namespace [Aspose.Words](../../fileformatutil/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

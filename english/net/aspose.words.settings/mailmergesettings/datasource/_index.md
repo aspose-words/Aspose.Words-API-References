@@ -81,5 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### See Also
 
 * class [MailMergeSettings](../)
-* namespace [Aspose.Words.Settings](../../mailmergesettings/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

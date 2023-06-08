@@ -27,5 +27,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### See Also
 
 * class [BuildVersionInfo](../)
-* namespace [Aspose.Words](../../buildversioninfo/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

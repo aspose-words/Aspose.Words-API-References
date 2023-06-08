@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -42,5 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### See Also
 
 * class [ViewOptions](../)
-* namespace [Aspose.Words.Settings](../../viewoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

@@ -85,5 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* namespace [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

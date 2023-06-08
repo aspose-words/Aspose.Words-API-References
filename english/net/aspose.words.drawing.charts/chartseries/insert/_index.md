@@ -24,7 +24,7 @@ The corresponding data point with default formatting will be inserted into the d
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -46,7 +46,7 @@ The corresponding data point with default formatting will be inserted into the d
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -68,5 +68,5 @@ The corresponding data point with default formatting will be inserted into the d
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

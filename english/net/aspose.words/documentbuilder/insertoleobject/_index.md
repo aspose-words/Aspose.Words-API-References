@@ -71,7 +71,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -132,7 +132,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -195,5 +195,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

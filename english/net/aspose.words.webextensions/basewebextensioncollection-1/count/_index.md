@@ -45,5 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### See Also
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namespace [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

@@ -92,5 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

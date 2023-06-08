@@ -56,5 +56,5 @@ Document doc = new Document();
 ### See Also
 
 * class [ImageWatermarkOptions](../)
-* namespace [Aspose.Words](../../imagewatermarkoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

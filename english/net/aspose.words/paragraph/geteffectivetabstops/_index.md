@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

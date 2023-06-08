@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -107,7 +107,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -166,5 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

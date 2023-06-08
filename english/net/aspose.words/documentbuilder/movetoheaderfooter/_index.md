@@ -112,5 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

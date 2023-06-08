@@ -19,5 +19,5 @@ public int Count { get; }
 ### See Also
 
 * class [StructuredDocumentTagCollection](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

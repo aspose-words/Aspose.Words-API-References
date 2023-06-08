@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

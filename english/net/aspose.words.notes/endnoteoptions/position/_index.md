@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* namespace [Aspose.Words.Notes](../../endnoteoptions/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

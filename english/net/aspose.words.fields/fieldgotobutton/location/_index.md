@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### See Also
 
 * class [FieldGoToButton](../)
-* namespace [Aspose.Words.Fields](../../fieldgotobutton/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

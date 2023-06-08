@@ -19,7 +19,7 @@ public CsvDataLoadOptions()
 ### See Also
 
 * class [CsvDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -35,5 +35,5 @@ public CsvDataLoadOptions(bool hasHeaders)
 ### See Also
 
 * class [CsvDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldMergeRec()
 ### See Also
 
 * class [FieldMergeRec](../)
-* namespace [Aspose.Words.Fields](../../fieldmergerec/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

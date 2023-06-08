@@ -31,5 +31,5 @@ doc.Save(ArtifactsDir + "Document.IgnorePrinterMetrics.docx");
 ### See Also
 
 * class [LayoutOptions](../)
-* namespace [Aspose.Words.Layout](../../layoutoptions/)
+* namespace [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assembly [Aspose.Words](../../../)

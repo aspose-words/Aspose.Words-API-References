@@ -20,5 +20,5 @@ public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

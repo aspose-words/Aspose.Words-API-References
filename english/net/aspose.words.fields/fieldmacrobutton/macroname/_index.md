@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### See Also
 
 * class [FieldMacroButton](../)
-* namespace [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

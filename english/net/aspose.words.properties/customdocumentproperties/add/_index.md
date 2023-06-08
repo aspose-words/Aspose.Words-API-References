@@ -86,7 +86,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -169,7 +169,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -262,7 +262,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -345,7 +345,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -428,5 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../customdocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

@@ -55,5 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

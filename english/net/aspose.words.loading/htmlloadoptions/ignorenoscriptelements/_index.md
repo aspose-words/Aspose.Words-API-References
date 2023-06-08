@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.IgnoreNoscriptElements.pdf");
 ### See Also
 
 * class [HtmlLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../htmlloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

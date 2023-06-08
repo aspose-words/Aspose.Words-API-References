@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### See Also
 
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

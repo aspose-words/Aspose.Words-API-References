@@ -80,5 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### See Also
 
 * class [FontSavingArgs](../)
-* namespace [Aspose.Words.Saving](../../fontsavingargs/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -120,5 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

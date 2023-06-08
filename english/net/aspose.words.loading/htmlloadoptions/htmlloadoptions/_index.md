@@ -41,7 +41,7 @@ else
 ### See Also
 
 * class [HtmlLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../htmlloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -91,7 +91,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### See Also
 
 * class [HtmlLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../htmlloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -136,5 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../htmlloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

@@ -19,7 +19,7 @@ public string this[string name] { get; set; }
 ### See Also
 
 * class [VariableCollection](../)
-* namespace [Aspose.Words](../../variablecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -39,5 +39,5 @@ public string this[int index] { get; set; }
 ### See Also
 
 * class [VariableCollection](../)
-* namespace [Aspose.Words](../../variablecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

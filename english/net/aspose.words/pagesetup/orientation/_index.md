@@ -75,5 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -53,5 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

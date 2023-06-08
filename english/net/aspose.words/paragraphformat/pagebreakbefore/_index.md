@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### See Also
 
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -23,5 +23,5 @@ The string that contains the character that this node represents.
 ### See Also
 
 * class [SpecialChar](../)
-* namespace [Aspose.Words](../../specialchar/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldTime()
 ### See Also
 
 * class [FieldTime](../)
-* namespace [Aspose.Words.Fields](../../fieldtime/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

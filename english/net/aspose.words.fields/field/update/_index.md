@@ -120,7 +120,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### See Also
 
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -179,5 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### See Also
 
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

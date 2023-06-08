@@ -19,5 +19,5 @@ public FieldAutoText()
 ### See Also
 
 * class [FieldAutoText](../)
-* namespace [Aspose.Words.Fields](../../fieldautotext/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

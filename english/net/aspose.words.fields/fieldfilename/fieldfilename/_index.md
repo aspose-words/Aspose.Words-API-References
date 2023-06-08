@@ -19,5 +19,5 @@ public FieldFileName()
 ### See Also
 
 * class [FieldFileName](../)
-* namespace [Aspose.Words.Fields](../../fieldfilename/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldDocVariable()
 ### See Also
 
 * class [FieldDocVariable](../)
-* namespace [Aspose.Words.Fields](../../fielddocvariable/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

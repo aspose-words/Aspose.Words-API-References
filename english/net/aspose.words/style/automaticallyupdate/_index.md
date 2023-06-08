@@ -63,5 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### See Also
 
 * class [Style](../)
-* namespace [Aspose.Words](../../style/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

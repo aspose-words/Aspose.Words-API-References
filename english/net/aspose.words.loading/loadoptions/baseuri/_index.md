@@ -50,5 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### See Also
 
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

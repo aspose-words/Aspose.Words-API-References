@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

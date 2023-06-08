@@ -64,7 +64,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namespace [Aspose.Words](../../comhelper/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -115,5 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namespace [Aspose.Words](../../comhelper/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

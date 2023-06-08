@@ -90,5 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### See Also
 
 * class [ImageFieldMergingArgs](../)
-* namespace [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

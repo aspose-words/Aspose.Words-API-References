@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * class [GraphicsQualityOptions](../../graphicsqualityoptions/)
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

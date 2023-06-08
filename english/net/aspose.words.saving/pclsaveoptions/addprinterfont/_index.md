@@ -47,5 +47,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ### See Also
 
 * class [PclSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pclsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

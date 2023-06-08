@@ -19,5 +19,5 @@ public FieldImport()
 ### See Also
 
 * class [FieldImport](../)
-* namespace [Aspose.Words.Fields](../../fieldimport/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

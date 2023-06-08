@@ -20,5 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* namespace [Aspose.Words](../../warninginfo/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

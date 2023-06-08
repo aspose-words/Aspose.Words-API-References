@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../imagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

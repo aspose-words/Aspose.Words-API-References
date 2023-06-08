@@ -44,5 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

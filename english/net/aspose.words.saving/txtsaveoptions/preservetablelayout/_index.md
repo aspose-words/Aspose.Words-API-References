@@ -63,5 +63,5 @@ else
 ### See Also
 
 * class [TxtSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../txtsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

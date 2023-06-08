@@ -46,5 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### See Also
 
 * class [ViewOptions](../)
-* namespace [Aspose.Words.Settings](../../viewoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

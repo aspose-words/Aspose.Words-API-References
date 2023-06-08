@@ -20,5 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* namespace [Aspose.Words.WebExtensions](../../webextension/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

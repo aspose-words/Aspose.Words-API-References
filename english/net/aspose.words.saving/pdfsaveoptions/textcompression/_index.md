@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

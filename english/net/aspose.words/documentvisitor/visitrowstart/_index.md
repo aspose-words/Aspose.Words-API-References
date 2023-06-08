@@ -189,5 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -227,5 +227,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

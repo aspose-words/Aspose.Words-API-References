@@ -102,5 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### See Also
 
 * class [ChartNumberFormat](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

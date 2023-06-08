@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namespace [Aspose.Words](../../bordercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

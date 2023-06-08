@@ -124,5 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* namespace [Aspose.Words.Tables](../../cellformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

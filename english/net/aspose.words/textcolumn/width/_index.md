@@ -53,5 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### See Also
 
 * class [TextColumn](../)
-* namespace [Aspose.Words](../../textcolumn/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

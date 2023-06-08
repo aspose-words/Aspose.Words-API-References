@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* namespace [Aspose.Words](../../bordercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -113,5 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namespace [Aspose.Words](../../bordercollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

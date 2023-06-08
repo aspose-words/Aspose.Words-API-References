@@ -19,5 +19,5 @@ public int PageIndex { get; set; }
 ### See Also
 
 * class [PdfLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../pdfloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

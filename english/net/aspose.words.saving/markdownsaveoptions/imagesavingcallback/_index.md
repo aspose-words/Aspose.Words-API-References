@@ -76,5 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -74,5 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### See Also
 
 * class [FieldDisplayBarcode](../)
-* namespace [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

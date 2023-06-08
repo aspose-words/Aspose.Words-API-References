@@ -35,5 +35,5 @@ Assert.AreEqual(SdtType.RichText, tags[2].SdtType);
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

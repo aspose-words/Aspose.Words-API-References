@@ -43,5 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### See Also
 
 * class [OoxmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

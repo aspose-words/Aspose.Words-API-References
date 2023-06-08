@@ -118,5 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

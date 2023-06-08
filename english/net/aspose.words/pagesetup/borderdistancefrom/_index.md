@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

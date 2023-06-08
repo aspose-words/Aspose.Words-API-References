@@ -56,5 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* namespace [Aspose.Words.Fonts](../../fontinfo/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

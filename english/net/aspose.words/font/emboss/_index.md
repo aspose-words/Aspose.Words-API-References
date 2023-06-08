@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### See Also
 
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

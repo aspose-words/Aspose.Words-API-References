@@ -19,5 +19,5 @@ public FieldGlossary()
 ### See Also
 
 * class [FieldGlossary](../)
-* namespace [Aspose.Words.Fields](../../fieldglossary/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

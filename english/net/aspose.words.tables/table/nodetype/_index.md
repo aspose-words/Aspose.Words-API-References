@@ -137,5 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

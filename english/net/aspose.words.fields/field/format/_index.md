@@ -81,5 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* namespace [Aspose.Words.Fields](../../field/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -148,5 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

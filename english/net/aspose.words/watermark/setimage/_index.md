@@ -29,7 +29,7 @@ public void SetImage(Image image)
 ### See Also
 
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -86,7 +86,7 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -118,5 +118,5 @@ If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is `null`, the waterm
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namespace [Aspose.Words](../../watermark/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

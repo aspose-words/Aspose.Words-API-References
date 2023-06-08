@@ -19,5 +19,5 @@ public VbaExecutableAttribute()
 ### See Also
 
 * class [VbaExecutableAttribute](../)
-* namespace [Aspose.Words.Vba](../../vbaexecutableattribute/)
+* namespace [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assembly [Aspose.Words](../../../)

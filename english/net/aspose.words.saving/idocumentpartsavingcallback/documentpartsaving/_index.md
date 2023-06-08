@@ -134,5 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* namespace [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

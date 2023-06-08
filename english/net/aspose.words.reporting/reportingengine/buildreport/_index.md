@@ -49,7 +49,7 @@ For information on how to work with data sources of different types in template 
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -96,7 +96,7 @@ For information on how to work with data sources of different types in template 
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -145,5 +145,5 @@ For information on how to work with data sources of different types in template 
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namespace [Aspose.Words.Reporting](../../reportingengine/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

@@ -94,5 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* namespace [Aspose.Words.Markup](../../xmlmapping/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -79,5 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### See Also
 
 * class [ResourceLoadingArgs](../)
-* namespace [Aspose.Words.Loading](../../resourceloadingargs/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

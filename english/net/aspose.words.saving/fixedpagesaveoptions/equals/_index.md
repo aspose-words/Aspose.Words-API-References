@@ -19,5 +19,5 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

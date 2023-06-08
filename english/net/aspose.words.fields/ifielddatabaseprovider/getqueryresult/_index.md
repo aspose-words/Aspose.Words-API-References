@@ -33,5 +33,5 @@ The [`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instance that shou
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* namespace [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

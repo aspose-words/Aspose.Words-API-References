@@ -19,5 +19,5 @@ public FieldHyperlink()
 ### See Also
 
 * class [FieldHyperlink](../)
-* namespace [Aspose.Words.Fields](../../fieldhyperlink/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

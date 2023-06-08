@@ -51,5 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* namespace [Aspose.Words.Tables](../../table/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

@@ -214,5 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* namespace [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

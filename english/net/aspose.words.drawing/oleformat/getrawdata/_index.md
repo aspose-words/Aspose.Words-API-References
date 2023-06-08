@@ -39,5 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### See Also
 
 * class [OleFormat](../)
-* namespace [Aspose.Words.Drawing](../../oleformat/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

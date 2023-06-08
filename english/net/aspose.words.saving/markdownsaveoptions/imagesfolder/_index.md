@@ -29,5 +29,5 @@ If the folder specified by `ImagesFolder` doesn't exist, it will be created auto
 ### See Also
 
 * class [MarkdownSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

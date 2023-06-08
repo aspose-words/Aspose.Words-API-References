@@ -57,5 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### See Also
 
 * class [ImportFormatOptions](../)
-* namespace [Aspose.Words](../../importformatoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

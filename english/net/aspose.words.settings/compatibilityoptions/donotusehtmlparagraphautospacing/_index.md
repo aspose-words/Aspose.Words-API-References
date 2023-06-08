@@ -19,5 +19,5 @@ public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }
 ### See Also
 
 * class [CompatibilityOptions](../)
-* namespace [Aspose.Words.Settings](../../compatibilityoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

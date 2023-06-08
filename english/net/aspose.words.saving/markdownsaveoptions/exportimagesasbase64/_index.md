@@ -41,5 +41,5 @@ Assert.True(exportImagesAsBase64
 ### See Also
 
 * class [MarkdownSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

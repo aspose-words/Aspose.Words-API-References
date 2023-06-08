@@ -64,5 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* namespace [Aspose.Words.Drawing](../../groupshape/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

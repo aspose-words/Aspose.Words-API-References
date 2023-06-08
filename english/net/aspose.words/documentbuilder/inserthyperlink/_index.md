@@ -110,5 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

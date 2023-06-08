@@ -46,5 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### See Also
 
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

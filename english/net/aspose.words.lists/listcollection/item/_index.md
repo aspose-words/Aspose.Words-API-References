@@ -65,5 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

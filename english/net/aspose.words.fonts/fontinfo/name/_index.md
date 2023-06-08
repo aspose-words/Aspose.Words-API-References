@@ -40,5 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### See Also
 
 * class [FontInfo](../)
-* namespace [Aspose.Words.Fonts](../../fontinfo/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

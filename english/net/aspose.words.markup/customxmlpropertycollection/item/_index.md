@@ -78,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namespace [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -153,5 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namespace [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -71,5 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

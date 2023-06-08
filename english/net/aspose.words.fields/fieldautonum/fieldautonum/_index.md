@@ -19,5 +19,5 @@ public FieldAutoNum()
 ### See Also
 
 * class [FieldAutoNum](../)
-* namespace [Aspose.Words.Fields](../../fieldautonum/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -41,5 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### See Also
 
 * class [FieldInclude](../)
-* namespace [Aspose.Words.Fields](../../fieldinclude/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

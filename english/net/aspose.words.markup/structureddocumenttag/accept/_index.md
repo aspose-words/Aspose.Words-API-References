@@ -123,5 +123,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

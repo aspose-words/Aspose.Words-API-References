@@ -23,5 +23,5 @@ This key is used to identify cache item when saving/loading font search cache wi
 ### See Also
 
 * class [StreamFontSource](../)
-* namespace [Aspose.Words.Fonts](../../streamfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

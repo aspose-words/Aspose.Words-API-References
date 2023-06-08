@@ -77,5 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* namespace [Aspose.Words](../../revision/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

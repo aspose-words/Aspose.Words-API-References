@@ -23,5 +23,5 @@ Value defined for this property can be overridden for an individual data label w
 ### See Also
 
 * class [ChartDataLabelCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

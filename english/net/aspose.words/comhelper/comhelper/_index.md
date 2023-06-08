@@ -41,5 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### See Also
 
 * class [ComHelper](../)
-* namespace [Aspose.Words](../../comhelper/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

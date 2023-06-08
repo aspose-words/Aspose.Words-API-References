@@ -58,7 +58,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -121,5 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -132,5 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* namespace [Aspose.Words.Lists](../../listlevelcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

@@ -83,5 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### See Also
 
 * class [OutlineOptions](../)
-* namespace [Aspose.Words.Saving](../../outlineoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

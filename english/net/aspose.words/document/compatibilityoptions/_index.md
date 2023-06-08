@@ -76,5 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

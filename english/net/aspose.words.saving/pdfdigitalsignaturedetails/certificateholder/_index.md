@@ -20,5 +20,5 @@ public CertificateHolder CertificateHolder { get; set; }
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* namespace [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -37,5 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -52,5 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### See Also
 
 * class [ListLevel](../)
-* namespace [Aspose.Words.Lists](../../listlevel/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

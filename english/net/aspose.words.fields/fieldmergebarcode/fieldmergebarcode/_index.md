@@ -19,5 +19,5 @@ public FieldMergeBarcode()
 ### See Also
 
 * class [FieldMergeBarcode](../)
-* namespace [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

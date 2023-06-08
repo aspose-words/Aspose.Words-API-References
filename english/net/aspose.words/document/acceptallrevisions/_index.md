@@ -48,5 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

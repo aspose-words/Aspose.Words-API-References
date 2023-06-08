@@ -72,5 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### See Also
 
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -64,5 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* namespace [Aspose.Words.Markup](../../smarttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

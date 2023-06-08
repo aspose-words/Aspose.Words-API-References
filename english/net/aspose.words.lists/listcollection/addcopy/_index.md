@@ -109,5 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

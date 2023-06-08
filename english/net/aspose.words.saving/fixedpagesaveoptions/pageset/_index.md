@@ -107,5 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

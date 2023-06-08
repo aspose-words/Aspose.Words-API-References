@@ -125,5 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* namespace [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

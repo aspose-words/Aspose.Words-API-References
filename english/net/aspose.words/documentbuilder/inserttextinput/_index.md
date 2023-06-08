@@ -92,5 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

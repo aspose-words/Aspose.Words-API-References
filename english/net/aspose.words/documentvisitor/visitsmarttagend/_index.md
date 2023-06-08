@@ -118,5 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

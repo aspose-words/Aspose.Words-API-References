@@ -49,5 +49,5 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [OoxmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -57,5 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### See Also
 
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

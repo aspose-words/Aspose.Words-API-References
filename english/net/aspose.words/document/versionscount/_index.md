@@ -41,5 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

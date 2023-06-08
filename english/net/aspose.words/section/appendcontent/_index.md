@@ -64,5 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

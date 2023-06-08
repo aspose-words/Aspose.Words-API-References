@@ -91,5 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* namespace [Aspose.Words.Comparing](../../compareoptions/)
+* namespace [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assembly [Aspose.Words](../../../)

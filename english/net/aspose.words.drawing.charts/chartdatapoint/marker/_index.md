@@ -20,5 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartDataPoint](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

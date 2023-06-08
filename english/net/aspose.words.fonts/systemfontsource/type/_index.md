@@ -73,5 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* namespace [Aspose.Words.Fonts](../../systemfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

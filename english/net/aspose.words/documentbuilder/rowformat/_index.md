@@ -156,5 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

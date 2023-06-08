@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

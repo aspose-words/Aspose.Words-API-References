@@ -23,5 +23,5 @@ An IEnumerator object to iterate over items of the set.
 ### See Also
 
 * class [KnownTypeSet](../)
-* namespace [Aspose.Words.Reporting](../../knowntypeset/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

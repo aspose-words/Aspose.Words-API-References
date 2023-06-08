@@ -20,5 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* namespace [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

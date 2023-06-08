@@ -158,5 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* namespace [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

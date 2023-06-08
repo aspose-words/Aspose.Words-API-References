@@ -56,5 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namespace [Aspose.Words.Lists](../../listcollection/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

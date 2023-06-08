@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### See Also
 
 * class [ViewOptions](../)
-* namespace [Aspose.Words.Settings](../../viewoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

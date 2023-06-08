@@ -64,5 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* namespace [Aspose.Words.Fields](../../formfield/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

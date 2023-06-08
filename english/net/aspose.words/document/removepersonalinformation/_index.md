@@ -50,5 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

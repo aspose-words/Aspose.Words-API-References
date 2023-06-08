@@ -24,5 +24,5 @@ You can use the [`SetMapping`](../../xmlmapping/setmapping/) method of this obje
 
 * class [XmlMapping](../../xmlmapping/)
 * interface [IStructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -56,5 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

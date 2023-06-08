@@ -19,5 +19,5 @@ public FieldAutoNumOut()
 ### See Also
 
 * class [FieldAutoNumOut](../)
-* namespace [Aspose.Words.Fields](../../fieldautonumout/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "DocSaveOptions.PictureBullets.doc", saveOptions);
 ### See Also
 
 * class [DocSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../docsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

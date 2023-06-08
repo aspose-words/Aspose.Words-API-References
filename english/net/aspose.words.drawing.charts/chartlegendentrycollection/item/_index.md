@@ -20,5 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

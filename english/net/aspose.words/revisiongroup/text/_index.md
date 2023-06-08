@@ -35,5 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### See Also
 
 * class [RevisionGroup](../)
-* namespace [Aspose.Words](../../revisiongroup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

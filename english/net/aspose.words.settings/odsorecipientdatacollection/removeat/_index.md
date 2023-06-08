@@ -60,5 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### See Also
 
 * class [OdsoRecipientDataCollection](../)
-* namespace [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

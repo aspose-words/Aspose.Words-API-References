@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### See Also
 
 * class [BuiltInDocumentProperties](../)
-* namespace [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namespace [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assembly [Aspose.Words](../../../)

@@ -19,7 +19,7 @@ public static string GetString(Cluster[] clusters)
 ### See Also
 
 * class [Cluster](../)
-* namespace [Aspose.Words.Shaping](../../cluster/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -35,5 +35,5 @@ public string GetString()
 ### See Also
 
 * class [Cluster](../)
-* namespace [Aspose.Words.Shaping](../../cluster/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

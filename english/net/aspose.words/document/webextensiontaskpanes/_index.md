@@ -20,5 +20,5 @@ public TaskPaneCollection WebExtensionTaskPanes { get; }
 
 * class [TaskPaneCollection](../../../aspose.words.webextensions/taskpanecollection/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

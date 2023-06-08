@@ -75,5 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

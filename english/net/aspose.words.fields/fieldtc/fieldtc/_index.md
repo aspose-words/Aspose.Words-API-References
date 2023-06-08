@@ -19,5 +19,5 @@ public FieldTC()
 ### See Also
 
 * class [FieldTC](../)
-* namespace [Aspose.Words.Fields](../../fieldtc/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

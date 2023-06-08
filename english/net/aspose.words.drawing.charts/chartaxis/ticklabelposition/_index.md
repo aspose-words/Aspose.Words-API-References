@@ -74,5 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

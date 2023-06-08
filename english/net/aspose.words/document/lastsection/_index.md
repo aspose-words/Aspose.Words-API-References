@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

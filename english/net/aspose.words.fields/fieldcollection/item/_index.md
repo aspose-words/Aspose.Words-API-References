@@ -73,5 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* namespace [Aspose.Words.Fields](../../fieldcollection/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

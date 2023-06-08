@@ -19,5 +19,5 @@ public SignOptions()
 ### See Also
 
 * class [SignOptions](../)
-* namespace [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namespace [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assembly [Aspose.Words](../../../)

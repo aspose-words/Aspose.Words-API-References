@@ -34,5 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* namespace [Aspose.Words](../../subdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

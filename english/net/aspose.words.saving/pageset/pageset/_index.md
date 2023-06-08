@@ -27,7 +27,7 @@ If a page is encountered that is not in the document, an exception will be throw
 ### See Also
 
 * class [PageSet](../)
-* namespace [Aspose.Words.Saving](../../pageset/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -77,7 +77,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### See Also
 
 * class [PageSet](../)
-* namespace [Aspose.Words.Saving](../../pageset/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -117,5 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* namespace [Aspose.Words.Saving](../../pageset/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

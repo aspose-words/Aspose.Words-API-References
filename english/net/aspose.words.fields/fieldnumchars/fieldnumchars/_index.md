@@ -19,5 +19,5 @@ public FieldNumChars()
 ### See Also
 
 * class [FieldNumChars](../)
-* namespace [Aspose.Words.Fields](../../fieldnumchars/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

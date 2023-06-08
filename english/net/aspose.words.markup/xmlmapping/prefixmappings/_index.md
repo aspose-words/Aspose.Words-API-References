@@ -56,5 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### See Also
 
 * class [XmlMapping](../)
-* namespace [Aspose.Words.Markup](../../xmlmapping/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

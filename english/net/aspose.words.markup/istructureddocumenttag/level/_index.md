@@ -20,5 +20,5 @@ public MarkupLevel Level { get; }
 
 * enum [MarkupLevel](../../markuplevel/)
 * interface [IStructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

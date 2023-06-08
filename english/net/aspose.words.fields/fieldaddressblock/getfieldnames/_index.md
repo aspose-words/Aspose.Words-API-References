@@ -36,5 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### See Also
 
 * class [FieldAddressBlock](../)
-* namespace [Aspose.Words.Fields](../../fieldaddressblock/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -199,5 +199,5 @@ public enum InsertLinkedObjectAs
 ### See Also
 
 * class [FieldDdeAuto](../)
-* namespace [Aspose.Words.Fields](../../fieldddeauto/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

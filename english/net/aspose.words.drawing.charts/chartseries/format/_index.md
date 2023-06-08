@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

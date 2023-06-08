@@ -32,7 +32,7 @@ This method ignores the RemoveUnusedRegions option.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -113,7 +113,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -190,7 +190,7 @@ private static Document CreateSourceDocExecuteDataTable()
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -265,7 +265,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -327,7 +327,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -398,5 +398,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public FieldStyleRef()
 ### See Also
 
 * class [FieldStyleRef](../)
-* namespace [Aspose.Words.Fields](../../fieldstyleref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

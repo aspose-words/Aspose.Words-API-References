@@ -19,5 +19,5 @@ public SvgSaveOptions()
 ### See Also
 
 * class [SvgSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../svgsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

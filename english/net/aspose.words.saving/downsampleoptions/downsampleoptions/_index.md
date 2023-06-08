@@ -19,5 +19,5 @@ public DownsampleOptions()
 ### See Also
 
 * class [DownsampleOptions](../)
-* namespace [Aspose.Words.Saving](../../downsampleoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

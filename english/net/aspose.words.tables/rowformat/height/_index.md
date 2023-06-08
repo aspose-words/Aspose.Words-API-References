@@ -111,5 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### See Also
 
 * class [RowFormat](../)
-* namespace [Aspose.Words.Tables](../../rowformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

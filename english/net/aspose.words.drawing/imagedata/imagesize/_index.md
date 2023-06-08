@@ -78,5 +78,5 @@ Shows how to resize a shape with an image.
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

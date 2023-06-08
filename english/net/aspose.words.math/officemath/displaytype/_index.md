@@ -48,5 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* namespace [Aspose.Words.Math](../../officemath/)
+* namespace [Aspose.Words.Math](../../../aspose.words.math/)
 * assembly [Aspose.Words](../../../)

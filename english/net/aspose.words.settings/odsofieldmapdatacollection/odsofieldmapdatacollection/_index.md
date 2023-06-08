@@ -19,5 +19,5 @@ public OdsoFieldMapDataCollection()
 ### See Also
 
 * class [OdsoFieldMapDataCollection](../)
-* namespace [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

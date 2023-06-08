@@ -23,5 +23,5 @@ The default value is '#' (number sign).
 ### See Also
 
 * class [CsvDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

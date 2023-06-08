@@ -83,5 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* namespace [Aspose.Words](../../inlinestory/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

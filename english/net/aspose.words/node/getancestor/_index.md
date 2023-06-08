@@ -107,7 +107,7 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -208,5 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

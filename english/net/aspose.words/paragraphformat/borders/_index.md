@@ -40,5 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

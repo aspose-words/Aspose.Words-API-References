@@ -71,5 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namespace [Aspose.Words](../../node/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

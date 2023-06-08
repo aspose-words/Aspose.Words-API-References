@@ -46,5 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### See Also
 
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

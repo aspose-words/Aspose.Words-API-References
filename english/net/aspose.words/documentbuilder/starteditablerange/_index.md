@@ -109,5 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

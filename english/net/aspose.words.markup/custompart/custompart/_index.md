@@ -19,5 +19,5 @@ public CustomPart()
 ### See Also
 
 * class [CustomPart](../)
-* namespace [Aspose.Words.Markup](../../custompart/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

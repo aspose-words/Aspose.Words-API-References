@@ -19,5 +19,5 @@ public FieldXE()
 ### See Also
 
 * class [FieldXE](../)
-* namespace [Aspose.Words.Fields](../../fieldxe/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

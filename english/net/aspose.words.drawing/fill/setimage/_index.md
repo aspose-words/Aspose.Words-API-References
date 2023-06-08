@@ -47,7 +47,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -67,7 +67,7 @@ public void SetImage(Stream stream)
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -87,5 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### See Also
 
 * class [Fill](../)
-* namespace [Aspose.Words.Drawing](../../fill/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

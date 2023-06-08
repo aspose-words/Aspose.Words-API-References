@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

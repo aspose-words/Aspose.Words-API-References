@@ -87,5 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* namespace [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

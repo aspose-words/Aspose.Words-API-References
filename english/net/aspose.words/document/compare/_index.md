@@ -60,7 +60,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -148,5 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

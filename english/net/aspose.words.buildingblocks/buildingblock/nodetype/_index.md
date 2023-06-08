@@ -64,5 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* namespace [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

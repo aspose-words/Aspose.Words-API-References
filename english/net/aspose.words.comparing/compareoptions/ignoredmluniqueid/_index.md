@@ -37,5 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### See Also
 
 * class [CompareOptions](../)
-* namespace [Aspose.Words.Comparing](../../compareoptions/)
+* namespace [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assembly [Aspose.Words](../../../)

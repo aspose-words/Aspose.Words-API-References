@@ -63,5 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* namespace [Aspose.Words](../../editablerange/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

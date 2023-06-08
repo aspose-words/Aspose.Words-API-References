@@ -74,5 +74,5 @@ Assert.True(shape.HasImage);
 ### See Also
 
 * class [NodeList](../)
-* namespace [Aspose.Words](../../nodelist/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -49,5 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* namespace [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namespace [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assembly [Aspose.Words](../../../)

@@ -38,5 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### See Also
 
 * class [NodeCollection](../)
-* namespace [Aspose.Words](../../nodecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

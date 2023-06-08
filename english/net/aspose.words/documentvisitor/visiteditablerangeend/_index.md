@@ -120,5 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

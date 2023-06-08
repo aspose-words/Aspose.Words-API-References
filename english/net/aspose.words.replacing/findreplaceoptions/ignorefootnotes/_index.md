@@ -43,5 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### See Also
 
 * class [FindReplaceOptions](../)
-* namespace [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namespace [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assembly [Aspose.Words](../../../)

@@ -19,5 +19,5 @@ public static FieldDatabaseDataTable CreateFrom(DataTable dataTable)
 ### See Also
 
 * class [FieldDatabaseDataTable](../)
-* namespace [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

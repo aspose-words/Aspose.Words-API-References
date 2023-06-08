@@ -83,5 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [XamlFlowSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

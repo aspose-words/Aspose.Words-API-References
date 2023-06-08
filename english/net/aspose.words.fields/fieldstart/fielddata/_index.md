@@ -30,5 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### See Also
 
 * class [FieldStart](../)
-* namespace [Aspose.Words.Fields](../../fieldstart/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

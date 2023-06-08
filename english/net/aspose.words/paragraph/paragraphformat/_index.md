@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

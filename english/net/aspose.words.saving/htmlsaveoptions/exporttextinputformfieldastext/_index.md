@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### See Also
 
 * class [HtmlSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -22,5 +22,5 @@ public virtual VisitorAction VisitStructuredDocumentTagRangeEnd(
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

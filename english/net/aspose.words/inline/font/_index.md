@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* namespace [Aspose.Words](../../inline/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

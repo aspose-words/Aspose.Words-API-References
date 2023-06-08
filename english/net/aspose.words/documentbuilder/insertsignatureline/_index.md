@@ -79,7 +79,7 @@ Assert.True(signatureLine.IsValid);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -145,5 +145,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

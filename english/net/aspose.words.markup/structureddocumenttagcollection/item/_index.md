@@ -24,5 +24,5 @@ public IStructuredDocumentTag this[int index] { get; }
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* namespace [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

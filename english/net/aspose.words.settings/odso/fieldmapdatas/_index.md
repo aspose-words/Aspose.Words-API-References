@@ -60,5 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* namespace [Aspose.Words.Settings](../../odso/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

@@ -68,5 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* namespace [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namespace [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../../)

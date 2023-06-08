@@ -79,5 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### See Also
 
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

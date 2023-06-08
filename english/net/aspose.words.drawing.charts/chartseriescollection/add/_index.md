@@ -110,7 +110,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -217,7 +217,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -320,7 +320,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -427,5 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

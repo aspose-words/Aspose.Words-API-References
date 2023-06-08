@@ -145,5 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeStart](../../commentrangestart/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -48,5 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

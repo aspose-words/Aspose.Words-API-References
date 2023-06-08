@@ -70,5 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### See Also
 
 * class [EndnoteOptions](../)
-* namespace [Aspose.Words.Notes](../../endnoteoptions/)
+* namespace [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assembly [Aspose.Words](../../../)

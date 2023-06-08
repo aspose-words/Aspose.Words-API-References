@@ -42,5 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* namespace [Aspose.Words.Settings](../../viewoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

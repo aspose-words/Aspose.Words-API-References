@@ -273,7 +273,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -480,7 +480,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -605,7 +605,7 @@ private static DataSet CreateDataSet()
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -764,7 +764,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -845,7 +845,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -916,5 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### See Also
 
 * class [MailMerge](../)
-* namespace [Aspose.Words.MailMerging](../../mailmerge/)
+* namespace [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assembly [Aspose.Words](../../../)

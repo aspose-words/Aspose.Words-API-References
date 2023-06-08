@@ -49,5 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* namespace [Aspose.Words.Fields](../../fieldbuilder/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

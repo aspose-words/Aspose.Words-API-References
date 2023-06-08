@@ -50,5 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* namespace [Aspose.Words.Drawing](../../stroke/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

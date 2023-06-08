@@ -88,7 +88,7 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -168,5 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

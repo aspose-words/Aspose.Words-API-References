@@ -126,5 +126,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [HeaderFooter](../)
-* namespace [Aspose.Words](../../headerfooter/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

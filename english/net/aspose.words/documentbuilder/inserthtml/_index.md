@@ -124,7 +124,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -183,7 +183,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### See Also
 
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -234,5 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

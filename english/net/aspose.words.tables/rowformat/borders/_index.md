@@ -83,5 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* namespace [Aspose.Words.Tables](../../rowformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

@@ -131,5 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

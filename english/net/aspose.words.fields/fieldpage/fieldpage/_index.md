@@ -19,5 +19,5 @@ public FieldPage()
 ### See Also
 
 * class [FieldPage](../)
-* namespace [Aspose.Words.Fields](../../fieldpage/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

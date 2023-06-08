@@ -39,5 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### See Also
 
 * class [SaveOutputParameters](../)
-* namespace [Aspose.Words.Saving](../../saveoutputparameters/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

@@ -63,5 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* namespace [Aspose.Words](../../commentcollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

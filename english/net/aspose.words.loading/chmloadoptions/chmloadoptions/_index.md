@@ -19,5 +19,5 @@ public ChmLoadOptions()
 ### See Also
 
 * class [ChmLoadOptions](../)
-* namespace [Aspose.Words.Loading](../../chmloadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

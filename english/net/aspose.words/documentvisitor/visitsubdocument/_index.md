@@ -195,5 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SubDocument](../../subdocument/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

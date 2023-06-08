@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### See Also
 
 * class [FieldCompare](../)
-* namespace [Aspose.Words.Fields](../../fieldcompare/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -70,5 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### See Also
 
 * class [ParagraphFormat](../)
-* namespace [Aspose.Words](../../paragraphformat/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

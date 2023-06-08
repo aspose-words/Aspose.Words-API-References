@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### See Also
 
 * class [FieldQuote](../)
-* namespace [Aspose.Words.Fields](../../fieldquote/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

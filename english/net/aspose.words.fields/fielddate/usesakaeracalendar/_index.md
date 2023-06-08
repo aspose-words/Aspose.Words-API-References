@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### See Also
 
 * class [FieldDate](../)
-* namespace [Aspose.Words.Fields](../../fielddate/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

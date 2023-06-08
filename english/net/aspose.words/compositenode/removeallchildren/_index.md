@@ -66,5 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### See Also
 
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

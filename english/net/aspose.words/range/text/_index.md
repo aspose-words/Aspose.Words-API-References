@@ -36,5 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### See Also
 
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

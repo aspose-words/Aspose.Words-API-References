@@ -19,5 +19,5 @@ public int[] Codepoints { get; }
 ### See Also
 
 * class [Cluster](../)
-* namespace [Aspose.Words.Shaping](../../cluster/)
+* namespace [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assembly [Aspose.Words](../../../)

@@ -54,5 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* namespace [Aspose.Words.Drawing](../../stroke/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

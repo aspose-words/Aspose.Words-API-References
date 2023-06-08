@@ -112,5 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* namespace [Aspose.Words.Tables](../../rowformat/)
+* namespace [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assembly [Aspose.Words](../../../)

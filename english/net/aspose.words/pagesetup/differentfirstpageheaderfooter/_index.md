@@ -138,5 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### See Also
 
 * class [PageSetup](../)
-* namespace [Aspose.Words](../../pagesetup/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

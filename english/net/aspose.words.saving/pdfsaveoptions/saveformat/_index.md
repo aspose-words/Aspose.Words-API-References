@@ -59,5 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PdfSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

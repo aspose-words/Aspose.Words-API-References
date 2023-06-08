@@ -57,7 +57,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -105,5 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

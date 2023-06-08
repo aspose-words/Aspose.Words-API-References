@@ -80,7 +80,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -156,5 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

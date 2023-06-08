@@ -43,5 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### See Also
 
 * class [OlePackage](../)
-* namespace [Aspose.Words.Drawing](../../olepackage/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

@@ -106,7 +106,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### See Also
 
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -170,7 +170,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### See Also
 
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -317,7 +317,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -489,5 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namespace [Aspose.Words](../../range/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

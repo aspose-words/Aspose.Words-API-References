@@ -61,7 +61,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -119,5 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

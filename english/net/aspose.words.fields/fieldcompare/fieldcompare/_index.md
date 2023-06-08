@@ -19,5 +19,5 @@ public FieldCompare()
 ### See Also
 
 * class [FieldCompare](../)
-* namespace [Aspose.Words.Fields](../../fieldcompare/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

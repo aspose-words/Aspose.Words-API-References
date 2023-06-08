@@ -52,5 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -92,5 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* namespace [Aspose.Words](../../nodechangingargs/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

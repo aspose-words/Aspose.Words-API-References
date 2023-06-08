@@ -135,5 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### See Also
 
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

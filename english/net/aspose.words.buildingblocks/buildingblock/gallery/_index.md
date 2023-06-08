@@ -120,5 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* namespace [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namespace [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../../)

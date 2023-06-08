@@ -68,5 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### See Also
 
 * class [FieldToc](../)
-* namespace [Aspose.Words.Fields](../../fieldtoc/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

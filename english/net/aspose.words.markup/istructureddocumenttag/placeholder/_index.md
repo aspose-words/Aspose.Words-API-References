@@ -24,5 +24,5 @@ Can be null, meaning that the placeholder is not applicable for this Sdt.
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* namespace [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assembly [Aspose.Words](../../../)

@@ -40,5 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* namespace [Aspose.Words](../../border/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

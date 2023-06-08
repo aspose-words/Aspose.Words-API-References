@@ -45,5 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### See Also
 
 * class [TextBox](../)
-* namespace [Aspose.Words.Drawing](../../textbox/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

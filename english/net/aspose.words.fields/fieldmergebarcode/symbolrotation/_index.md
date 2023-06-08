@@ -66,5 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### See Also
 
 * class [FieldMergeBarcode](../)
-* namespace [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

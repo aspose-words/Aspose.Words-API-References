@@ -44,5 +44,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
 * class [OdtSaveOptions](../)
-* namespace [Aspose.Words.Saving](../../odtsaveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

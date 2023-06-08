@@ -72,5 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* namespace [Aspose.Words](../../document/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -168,5 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

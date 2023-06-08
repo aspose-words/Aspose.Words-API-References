@@ -24,5 +24,5 @@ Currently, the property can only be used for data labels.
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

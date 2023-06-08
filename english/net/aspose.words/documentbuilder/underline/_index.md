@@ -38,5 +38,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
 
 * enum [Underline](../../underline/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

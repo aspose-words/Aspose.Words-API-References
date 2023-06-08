@@ -19,5 +19,5 @@ public OdsoRecipientData()
 ### See Also
 
 * class [OdsoRecipientData](../)
-* namespace [Aspose.Words.Settings](../../odsorecipientdata/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

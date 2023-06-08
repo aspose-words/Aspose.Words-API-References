@@ -48,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* namespace [Aspose.Words.Fonts](../../fontinfocollection/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -93,5 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* namespace [Aspose.Words.Fonts](../../fontinfocollection/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

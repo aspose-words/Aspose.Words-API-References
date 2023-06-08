@@ -134,5 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../documentbuilder/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

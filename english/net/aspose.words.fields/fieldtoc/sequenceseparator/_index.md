@@ -92,5 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### See Also
 
 * class [FieldToc](../)
-* namespace [Aspose.Words.Fields](../../fieldtoc/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

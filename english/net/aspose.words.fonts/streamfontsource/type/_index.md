@@ -20,5 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* namespace [Aspose.Words.Fonts](../../streamfontsource/)
+* namespace [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assembly [Aspose.Words](../../../)

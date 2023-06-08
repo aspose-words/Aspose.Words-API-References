@@ -31,5 +31,5 @@ doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
 ### See Also
 
 * class [StyleCollection](../)
-* namespace [Aspose.Words](../../stylecollection/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

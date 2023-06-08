@@ -135,5 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* namespace [Aspose.Words](../../documentvisitor/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

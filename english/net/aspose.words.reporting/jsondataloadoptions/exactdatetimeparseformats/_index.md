@@ -27,5 +27,5 @@ Strings encoded using Microsoft® JSON date-time format (for example, "/Date(122
 ### See Also
 
 * class [JsonDataLoadOptions](../)
-* namespace [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namespace [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assembly [Aspose.Words](../../../)

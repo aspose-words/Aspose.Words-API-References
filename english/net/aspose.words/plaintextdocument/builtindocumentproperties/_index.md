@@ -39,5 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* namespace [Aspose.Words](../../plaintextdocument/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

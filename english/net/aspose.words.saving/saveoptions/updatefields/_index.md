@@ -58,5 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### See Also
 
 * class [SaveOptions](../)
-* namespace [Aspose.Words.Saving](../../saveoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

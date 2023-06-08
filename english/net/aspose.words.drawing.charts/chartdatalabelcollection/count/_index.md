@@ -94,5 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### See Also
 
 * class [ChartDataLabelCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assembly [Aspose.Words](../../../)

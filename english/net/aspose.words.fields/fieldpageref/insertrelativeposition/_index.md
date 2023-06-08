@@ -86,5 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### See Also
 
 * class [FieldPageRef](../)
-* namespace [Aspose.Words.Fields](../../fieldpageref/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### See Also
 
 * class [GradientStop](../)
-* namespace [Aspose.Words.Drawing](../../gradientstop/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -146,5 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### See Also
 
 * class [GradientStop](../)
-* namespace [Aspose.Words.Drawing](../../gradientstop/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

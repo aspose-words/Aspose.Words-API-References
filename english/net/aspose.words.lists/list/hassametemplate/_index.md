@@ -30,5 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### See Also
 
 * class [List](../)
-* namespace [Aspose.Words.Lists](../../list/)
+* namespace [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assembly [Aspose.Words](../../../)

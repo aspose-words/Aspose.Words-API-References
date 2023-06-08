@@ -50,5 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### See Also
 
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

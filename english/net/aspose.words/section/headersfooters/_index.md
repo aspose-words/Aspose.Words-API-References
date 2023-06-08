@@ -69,5 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* namespace [Aspose.Words](../../section/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

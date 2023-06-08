@@ -19,5 +19,5 @@ public FieldIf()
 ### See Also
 
 * class [FieldIf](../)
-* namespace [Aspose.Words.Fields](../../fieldif/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

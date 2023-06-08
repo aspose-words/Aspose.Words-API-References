@@ -20,5 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* namespace [Aspose.Words](../../font/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -65,5 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### See Also
 
 * class [OutlineOptions](../)
-* namespace [Aspose.Words.Saving](../../outlineoptions/)
+* namespace [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assembly [Aspose.Words](../../../)

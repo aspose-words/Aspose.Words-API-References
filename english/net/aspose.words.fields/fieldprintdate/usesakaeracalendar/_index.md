@@ -58,5 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### See Also
 
 * class [FieldPrintDate](../)
-* namespace [Aspose.Words.Fields](../../fieldprintdate/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

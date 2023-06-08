@@ -55,5 +55,5 @@ Assert.AreEqual("Hello world!", doc.ToString(SaveFormat.Text).Trim());
 ### See Also
 
 * class [LoadOptions](../)
-* namespace [Aspose.Words.Loading](../../loadoptions/)
+* namespace [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assembly [Aspose.Words](../../../)

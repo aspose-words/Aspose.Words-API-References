@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -111,7 +111,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -165,5 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namespace [Aspose.Words](../../paragraph/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

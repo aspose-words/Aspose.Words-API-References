@@ -79,5 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### See Also
 
 * class [ImageData](../)
-* namespace [Aspose.Words.Drawing](../../imagedata/)
+* namespace [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../../)

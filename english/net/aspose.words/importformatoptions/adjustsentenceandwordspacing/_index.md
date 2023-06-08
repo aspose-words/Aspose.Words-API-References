@@ -39,5 +39,5 @@ Assert.AreEqual("Lorem ipsum. Dolor sit amet.", dstDoc.FirstSection.Body.FirstPa
 ### See Also
 
 * class [ImportFormatOptions](../)
-* namespace [Aspose.Words](../../importformatoptions/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

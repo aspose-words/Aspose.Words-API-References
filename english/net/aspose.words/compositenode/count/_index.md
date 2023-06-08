@@ -69,5 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### See Also
 
 * class [CompositeNode](../)
-* namespace [Aspose.Words](../../compositenode/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

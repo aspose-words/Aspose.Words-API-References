@@ -23,5 +23,5 @@ The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user in
 ### See Also
 
 * class [CompatibilityOptions](../)
-* namespace [Aspose.Words.Settings](../../compatibilityoptions/)
+* namespace [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assembly [Aspose.Words](../../../)

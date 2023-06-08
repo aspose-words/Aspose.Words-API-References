@@ -47,5 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### See Also
 
 * class [FieldSet](../)
-* namespace [Aspose.Words.Fields](../../fieldset/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)

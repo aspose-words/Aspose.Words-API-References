@@ -52,5 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### See Also
 
 * class [FieldTitle](../)
-* namespace [Aspose.Words.Fields](../../fieldtitle/)
+* namespace [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assembly [Aspose.Words](../../../)
