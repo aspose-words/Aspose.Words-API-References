@@ -33,9 +33,9 @@ doc = aw.Document(MY_DIR + "Multi-section structured document tags.docx")
 tag = doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START, True)[0].as_structured_document_tag_range_start()
 
 print("StructuredDocumentTagRangeStart values:")
-print(f"\t|Child nodes count: {tag.child_nodes.count}\n")
+print(f"\t|Child nodes count: {tag.get_child_nodes(aw.NodeType.ANY, False).count}\n")
 
-for node in tag.child_nodes:
+for node in tag.get_child_nodes(aw.NodeType.ANY, False):
     print(f"\t|Child node type: {node.node_type}")
 
 for node in tag.get_child_nodes(aw.NodeType.RUN, True):

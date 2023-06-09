@@ -5,7 +5,7 @@ articleTitle: visible property
 second_title: Aspose.Words for Python
 description: "Fill.visible property. Gets or sets value that is ``True`` if the formatting applied to this instance, is visible."
 type: docs
-weight: 210
+weight: 200
 url: /python-net/aspose.words.drawing/fill/visible/
 ---
 

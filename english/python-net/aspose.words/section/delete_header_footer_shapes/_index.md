@@ -33,7 +33,7 @@ builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 100, 100)
 
 # Create a primary footer with an image.
 builder.move_to_header_footer(aw.HeaderFooterType.FOOTER_PRIMARY)
-builder.insert_image(IMAGE_DIR + "Logo Icon.ico")
+builder.insert_image(IMAGE_DIR + "Logo icon.ico")
 
 self.assertEqual(1, doc.first_section.headers_footers.header_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)
 self.assertEqual(1, doc.first_section.headers_footers.footer_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)

@@ -44,6 +44,8 @@ Specifies the module that produces a warning during document loading or saving.
 | MARKDOWN | Module that reads/writes Markdown files. |
 | CHM | Module that reads CHM files. |
 | EPUB | Module that reads/writes EPUB files. |
+| XML | Module that reads XML files. |
+| XLSX | Module that writes XLSX files. |
 
 ### See Also
 

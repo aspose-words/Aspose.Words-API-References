@@ -30,8 +30,8 @@ For more info see the Visitor design pattern.
 
 
 
-Calls [DocumentVisitor.visit_glossary_document_start()](../../../aspose.words/documentvisitor/visit_glossary_document_start/#glossarydocument), then calls [Node.accept()](../../../aspose.words/node/accept/#documentvisitor) 
-for all child nodes of this node and then calls [DocumentVisitor.visit_glossary_document_end()](../../../aspose.words/documentvisitor/visit_glossary_document_end/#glossarydocument) 
+Calls [DocumentVisitor.visit_glossary_document_start()](../../../aspose.words/documentvisitor/visit_glossary_document_start/#glossarydocument), then calls [Node.accept()](../../../aspose.words/node/accept/#documentvisitor)
+for all child nodes of this node and then calls [DocumentVisitor.visit_glossary_document_end()](../../../aspose.words/documentvisitor/visit_glossary_document_end/#glossarydocument)
 at the end.
 
 

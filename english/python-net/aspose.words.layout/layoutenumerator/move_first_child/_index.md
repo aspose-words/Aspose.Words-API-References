@@ -5,7 +5,7 @@ articleTitle: move_first_child method
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.move_first_child method. Moves to the first child entity."
 type: docs
-weight: 90
+weight: 80
 url: /python-net/aspose.words.layout/layoutenumerator/move_first_child/
 ---
 

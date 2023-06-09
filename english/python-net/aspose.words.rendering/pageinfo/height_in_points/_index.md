@@ -5,7 +5,7 @@ articleTitle: height_in_points property
 second_title: Aspose.Words for Python
 description: "PageInfo.height_in_points property. Gets the height of the page in points."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.rendering/pageinfo/height_in_points/
 ---
 

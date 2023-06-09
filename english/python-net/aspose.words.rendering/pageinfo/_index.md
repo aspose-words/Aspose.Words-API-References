@@ -27,6 +27,7 @@ already rotated to the correct orientation.
 
 | Name | Description |
 | --- | --- |
+| [colored](./colored/) | Returns ``True`` if the page contains colored content. |
 | [height_in_points](./height_in_points/) | Gets the height of the page in points. |
 | [landscape](./landscape/) | Returns ``True`` if the page orientation specified in the document for this page is landscape. |
 | [paper_size](./paper_size/) | Gets the paper size as enumeration. |

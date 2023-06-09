@@ -5,7 +5,7 @@ articleTitle: rectangle property
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.rectangle property. Returns the bounding rectangle of the current entity relative to the page top left corner (in points)."
 type: docs
-weight: 60
+weight: 50
 url: /python-net/aspose.words.layout/layoutenumerator/rectangle/
 ---
 

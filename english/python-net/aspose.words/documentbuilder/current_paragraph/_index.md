@@ -32,7 +32,7 @@ builder.start_bookmark("MyBookmark")
 builder.write("Bookmark contents.")
 builder.end_bookmark("MyBookmark")
 
-first_paragraph_nodes = doc.first_section.body.first_paragraph.child_nodes
+first_paragraph_nodes = doc.first_section.body.first_paragraph.get_child_nodes(aw.NodeType.ANY, False)
 
 self.assertEqual(aw.NodeType.BOOKMARK_START, first_paragraph_nodes[0].node_type)
 self.assertEqual(aw.NodeType.RUN, first_paragraph_nodes[1].node_type)

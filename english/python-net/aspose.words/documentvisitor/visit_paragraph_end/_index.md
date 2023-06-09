@@ -45,6 +45,7 @@ def test_doc_structure_to_text(self):
 
     print(visitor.get_text())
 
+
 class DocStructurePrinter(aw.DocumentVisitor):
     """Traverses a node's tree of child nodes.
     Creates a map of this tree in the form of a string."""

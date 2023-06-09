@@ -39,6 +39,7 @@ should be called in order for the changed options to be applied to the layout.
 | [comment_display_mode](./comment_display_mode/) | Gets or sets the way comments are rendered. Default value is [CommentDisplayMode.SHOW_IN_BALLOONS](../commentdisplaymode/#SHOW_IN_BALLOONS). |
 | [continuous_section_page_numbering_restart](./continuous_section_page_numbering_restart/) | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [ignore_printer_metrics](./ignore_printer_metrics/) | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is ``True``. |
+| [keep_original_font_metrics](./keep_original_font_metrics/) | Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is ``True``. |
 | [revision_options](./revision_options/) | Gets revision options. |
 | [show_hidden_text](./show_hidden_text/) | Gets or sets indication of whether hidden text in the document is rendered. Default is ``False``. |
 | [show_paragraph_marks](./show_paragraph_marks/) | Gets or sets indication of whether paragraph marks are rendered. Default is ``False``. |

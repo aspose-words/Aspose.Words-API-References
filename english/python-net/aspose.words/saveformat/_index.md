@@ -50,6 +50,7 @@ Indicates the format in which the document is saved.
 | XAML_FLOW | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
 | XAML_FLOW_PACK | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
 | MARKDOWN | Saves the document in the Markdown format. |
+| XLSX | Saves the document as an Office Open XML SpreadsheetML Document (macro-free). |
 | TIFF | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
 | PNG | Renders a page of the document and saves it as a PNG file. |
 | BMP | Renders a page of the document and saves it as a BMP file. |
