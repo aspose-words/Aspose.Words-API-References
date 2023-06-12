@@ -5,7 +5,7 @@ articleTitle: aspose.words.saving module
 second_title: Aspose.Words for Python
 description: "The aspose.words.saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.saving/
 ---
 
@@ -64,6 +64,7 @@ allow to specify additional options for saving or converting documents.
 | [WordML2003SaveOptions](./wordml2003saveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.WORD_ML](../aspose.words/saveformat/#WORD_ML) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article. |
 | [XamlFixedSaveOptions](./xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.XAML_FIXED](../aspose.words/saveformat/#XAML_FIXED) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article. |
 | [XamlFlowSaveOptions](./xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the  [SaveFormat.XAML_FLOW](../aspose.words/saveformat/#XAML_FLOW) or [SaveFormat.XAML_FLOW_PACK](../aspose.words/saveformat/#XAML_FLOW_PACK) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article. |
+| [XlsxSaveOptions](./xlsxsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.XLSX](../aspose.words/saveformat/#XLSX) format. To learn more, visit the [Specify             Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article. |
 | [XpsSaveOptions](./xpssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.XPS](../aspose.words/saveformat/#XPS) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article. |
 
 ## Enumerations

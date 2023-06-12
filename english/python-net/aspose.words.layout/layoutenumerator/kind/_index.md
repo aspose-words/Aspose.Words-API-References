@@ -5,7 +5,7 @@ articleTitle: kind property
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.kind property. Gets the kind of the current entity"
 type: docs
-weight: 40
+weight: 30
 url: /python-net/aspose.words.layout/layoutenumerator/kind/
 ---
 

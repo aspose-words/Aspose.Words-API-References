@@ -13,7 +13,7 @@ url: /python-net/aspose.words.drawing/shape/filled/
 
 Determines whether the closed path of the shape will be filled.
 
-This is a shortcut to the [Fill.on](../../fill/on/) property.
+This is a shortcut to the [Fill.visible](../../fill/visible/) property.
 
 The default value is ``True``.
 

@@ -36,7 +36,7 @@ doc = aw.Document(MY_DIR + "Rendering.docx")
 body = doc.first_section.body
 
 # Retrieve the index of the last paragraph in the body of the first section.
-self.assertEqual(24, body.child_nodes.index_of(body.last_paragraph))
+self.assertEqual(24, body.get_child_nodes(aw.NodeType.ANY, False).index_of(body.last_paragraph))
 ```
 
 ### See Also

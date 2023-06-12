@@ -48,7 +48,6 @@ to avoid unnecessary collection of more layout mappings.
 | --- | --- |
 |[ clear()](./clear/#default) | Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt. |
 |[ get_end_page_index(node)](./get_end_page_index/#node) | Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page. |
-|[ get_entity(node)](./get_entity/#node) | Returns an opaque position of the [LayoutEnumerator](../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [LayoutEnumerator.current](../layoutenumerator/current/) given the document being enumerated and the document of the node are the same. |
 |[ get_num_pages_spanned(node)](./get_num_pages_spanned/#node) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [LayoutCollector.get_end_page_index()](./get_end_page_index/#node) - [LayoutCollector.get_start_page_index()](./get_start_page_index/#node). |
 |[ get_start_page_index(node)](./get_start_page_index/#node) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
 

@@ -5,7 +5,7 @@ articleTitle: move_previous_logical method
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.move_previous_logical method. Moves to the previous sibling entity in a logical order."
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.words.layout/layoutenumerator/move_previous_logical/
 ---
 
@@ -22,7 +22,7 @@ def move_previous_logical(self):
     ...
 ```
 
-Note that all [LayoutEntityType.SPAN](../../layoutentitytype/#SPAN) entities are linked together thus if [LayoutEnumerator.current](../current/)
+Note that all [LayoutEntityType.SPAN](../../layoutentitytype/#SPAN) entities are linked together thus if Aspose.Words.Layout.LayoutEnumerator.Current
 entity is span repeated calling of this method will iterates complete story of the document.
 
 

@@ -15,9 +15,9 @@ Specifies the name of the folder used to construct image URIs written into an fi
 Default is ``None``.
 
 
-When you save a [Document](../../../aspose.words/document/) in fixed page Xaml format, Aspose.Words needs to save all 
-images embedded in the document as standalone files. [XamlFixedSaveOptions.resources_folder](../resources_folder/) 
-allows you to specify where the images will be saved and [XamlFixedSaveOptions.resources_folder_alias](./) 
+When you save a [Document](../../../aspose.words/document/) in fixed page Xaml format, Aspose.Words needs to save all
+images embedded in the document as standalone files. [XamlFixedSaveOptions.resources_folder](../resources_folder/)
+allows you to specify where the images will be saved and [XamlFixedSaveOptions.resources_folder_alias](./)
 allows to specify how the image URIs will be constructed.
 
 

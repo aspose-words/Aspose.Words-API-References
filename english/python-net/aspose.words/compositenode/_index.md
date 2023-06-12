@@ -104,9 +104,9 @@ paragraph.append_child(aw.Run(doc, "Hello again!"))
 
 # Iterate through the paragraph's collection of immediate children,
 # and print any runs or shapes that we find within.
-children = paragraph.child_nodes
+children = paragraph.get_child_nodes(aw.NodeType.ANY, False)
 
-self.assertEqual(3, paragraph.child_nodes.count)
+self.assertEqual(3, paragraph.get_child_nodes(aw.NodeType.ANY, False).count)
 
 for child in children:
     if child.node_type == aw.NodeType.RUN:

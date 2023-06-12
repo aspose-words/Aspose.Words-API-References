@@ -13,7 +13,7 @@ url: /python-net/aspose.words.loading/resourceloadingargs/set_data/
 
 Sets user provided data of the resource which is used
 if [IResourceLoadingCallback.resource_loading()](../../iresourceloadingcallback/resource_loading/#resourceloadingargs)
-returns [ResourceLoadingAction.USER_PROVIDED](../../resourceloadingaction/#USER_PROVIDED). 
+returns [ResourceLoadingAction.USER_PROVIDED](../../resourceloadingaction/#USER_PROVIDED).
 
 
 

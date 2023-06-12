@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.document property. Gets document this instance enumerates."
 type: docs
-weight: 30
+weight: 20
 url: /python-net/aspose.words.layout/layoutenumerator/document/
 ---
 

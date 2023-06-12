@@ -27,6 +27,7 @@ The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDa
 | Name | Description |
 | --- | --- |
 | [font](./font/) | Provides access to the font formatting of this data label. |
+| [format](./format/) | Provides access to fill and line formatting of the data label. |
 | [index](./index/) | Specifies the index of the containing element.  This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
 | [is_hidden](./is_hidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is ``False``. |
 | [is_visible](./is_visible/) | Returns ``True`` if this data label has something to display. |

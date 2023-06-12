@@ -45,7 +45,7 @@ self.assertEqual("\uFEFFÀ È Ì Ò Ù.\r\n", doc_text)
 txt_save_options.encoding = "ascii"
 doc.save(ARTIFACTS_DIR + "TxtSaveOptions.encoding.ascii.txt", txt_save_options)
 
-with open(ARTIFACTS_DIR + "TxtSaveOptions.Encoding.ASCII.txt", "rb") as file:
+with open(ARTIFACTS_DIR + "TxtSaveOptions.Encoding.ascii.txt", "rb") as file:
     doc_text = file.read().decode('ascii')
 
 self.assertEqual("? ? ? ? ?.\r\n", doc_text)
