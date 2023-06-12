@@ -5,7 +5,7 @@ articleTitle: clear_format method
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.clear_format method. Clears format of this data label"
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/clear_format/
 ---
 

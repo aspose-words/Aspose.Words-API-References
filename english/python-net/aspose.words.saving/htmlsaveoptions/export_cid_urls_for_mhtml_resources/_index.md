@@ -54,12 +54,12 @@ with open(ARTIFACTS_DIR + "HtmlSaveOptions.content_id_urls.mht", "rt", encoding=
 if export_cid_urls_for_mhtml_resources:
     self.assertIn("Content-ID: <document.html>", out_doc_contents)
     self.assertIn("<link href=3D\"cid:styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />", out_doc_contents)
-    self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }", out_doc_contents)
+    self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\nlk.ttf') }", out_doc_contents)
     self.assertIn("<img src=3D\"cid:image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />", out_doc_contents)
 else:
     self.assertIn("Content-Location: document.html", out_doc_contents)
     self.assertIn("<link href=3D\"styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />", out_doc_contents)
-    self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }", out_doc_contents)
+    self.assertIn("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\ntf') }", out_doc_contents)
     self.assertIn("<img src=3D\"image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />",out_doc_contents)
 ```
 

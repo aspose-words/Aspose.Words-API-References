@@ -13,6 +13,9 @@ url: /python-net/aspose.words.drawing/fill/color/
 
 Gets or sets a Color object that represents the foreground color for the fill.
 
+This property preserves the alpha component of the System.Drawing.Color,
+unlike the [Fill.fore_color](../fore_color/) property, which resets it to fully opaque color.
+
 
 ### See Also
 

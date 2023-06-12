@@ -5,7 +5,7 @@ articleTitle: is_hidden property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.is_hidden property. Gets/sets a flag indicating whether this label is hidden"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/is_hidden/
 ---
 

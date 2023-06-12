@@ -61,6 +61,7 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [AxisTimeUnit](./axistimeunit/) | Specifies the unit of time for axes. |
 | [ChartAxisType](./chartaxistype/) | Specifies type of chart axis. |
 | [ChartSeriesType](./chartseriestype/) | Specifies a type of a chart series. |
+| [ChartShapeType](./chartshapetype/) | Specifies the shape type of chart elements. |
 | [ChartType](./charttype/) | Specifies type of a chart. |
 | [ChartXValueType](./chartxvaluetype/) | Allows to specify type of an X value of a chart series. |
 | [ChartYValueType](./chartyvaluetype/) | Allows to specify type of an Y value of a chart series. |

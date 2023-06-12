@@ -5,7 +5,7 @@ articleTitle: aspose.words.math module
 second_title: Aspose.Words for Python
 description: "The aspose.words.math module contains classes that represent Office Math elements."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.math/
 ---
 

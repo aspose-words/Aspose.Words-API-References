@@ -76,38 +76,6 @@ You can use this method to insert an HTML fragment or whole HTML document.
 
 ## Examples
 
-Shows how to use a document builder to insert html content into a document.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-html = ("<p align='right'>Paragraph right</p>" +
-        "<b>Implicit paragraph left</b>" +
-        "<div align='center'>Div center</div>" +
-        "<h1 align='left'>Heading 1 left.</h1>")
-
-builder.insert_html(html)
-
-# Inserting HTML code parses the formatting of each element into equivalent document text formatting.
-paragraphs = doc.first_section.body.paragraphs
-
-self.assertEqual("Paragraph right", paragraphs[0].get_text().strip())
-self.assertEqual(aw.ParagraphAlignment.RIGHT, paragraphs[0].paragraph_format.alignment)
-
-self.assertEqual("Implicit paragraph left", paragraphs[1].get_text().strip())
-self.assertEqual(aw.ParagraphAlignment.LEFT, paragraphs[1].paragraph_format.alignment)
-self.assertTrue(paragraphs[1].runs[0].font.bold)
-
-self.assertEqual("Div center", paragraphs[2].get_text().strip())
-self.assertEqual(aw.ParagraphAlignment.CENTER, paragraphs[2].paragraph_format.alignment)
-
-self.assertEqual("Heading 1 left.", paragraphs[3].get_text().strip())
-self.assertEqual("Heading 1", paragraphs[3].paragraph_format.style.name)
-
-doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_html.docx")
-```
-
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```python
@@ -160,6 +128,38 @@ class HandleMergeFieldInsertHtml(aw.mailmerging.IFieldMergingCallback):
 
         # Do nothing.
         pass
+```
+
+Shows how to use a document builder to insert html content into a document.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+
+html = ("<p align='right'>Paragraph right</p>" +
+        "<b>Implicit paragraph left</b>" +
+        "<div align='center'>Div center</div>" +
+        "<h1 align='left'>Heading 1 left.</h1>")
+
+builder.insert_html(html)
+
+# Inserting HTML code parses the formatting of each element into equivalent document text formatting.
+paragraphs = doc.first_section.body.paragraphs
+
+self.assertEqual("Paragraph right", paragraphs[0].get_text().strip())
+self.assertEqual(aw.ParagraphAlignment.RIGHT, paragraphs[0].paragraph_format.alignment)
+
+self.assertEqual("Implicit paragraph left", paragraphs[1].get_text().strip())
+self.assertEqual(aw.ParagraphAlignment.LEFT, paragraphs[1].paragraph_format.alignment)
+self.assertTrue(paragraphs[1].runs[0].font.bold)
+
+self.assertEqual("Div center", paragraphs[2].get_text().strip())
+self.assertEqual(aw.ParagraphAlignment.CENTER, paragraphs[2].paragraph_format.alignment)
+
+self.assertEqual("Heading 1 left.", paragraphs[3].get_text().strip())
+self.assertEqual("Heading 1", paragraphs[3].paragraph_format.style.name)
+
+doc.save(ARTIFACTS_DIR + "DocumentBuilder.insert_html.docx")
 ```
 
 Shows how to apply a document builder's formatting while inserting HTML content.

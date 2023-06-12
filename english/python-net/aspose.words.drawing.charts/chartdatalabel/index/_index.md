@@ -5,7 +5,7 @@ articleTitle: index property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.index property. Specifies the index of the containing element"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 

@@ -40,7 +40,6 @@ You do not create instances of the [Fill](./) class directly.
 | [gradient_style](./gradient_style/) | Gets the gradient style [GradientStyle](../gradientstyle/) for the fill. |
 | [gradient_variant](./gradient_variant/) | Gets the gradient variant [GradientVariant](../gradientvariant/) for the fill. |
 | [image_bytes](./image_bytes/) | Gets the raw bytes of the fill texture or pattern. |
-| [on](./on/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
 | [opacity](./opacity/) | Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [pattern](./pattern/) | Gets a [PatternType](../patterntype/) for the fill. |
 | [preset_texture](./preset_texture/) | Gets a [PresetTexture](../presettexture/) for the fill. |

@@ -22,6 +22,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | Name | Description |
 | --- | --- |
 | [fill](./fill/) | Gets fill formatting for the parent chart element. |
+| [shape_type](./shape_type/) | Gets or sets the shape type of the parent chart element. |
 | [stroke](./stroke/) | Gets line formatting for the parent chart element. |
 
 ### See Also

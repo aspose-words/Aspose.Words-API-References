@@ -160,7 +160,7 @@ tags = doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG, True)
 
 for node in tags:
     sdt = node.as_structured_document_tag()
-
+    print(sdt.word_open_xml_minimal)
     self.assertEqual(aw.StyleIdentifier.QUOTE, sdt.style.style_identifier)
     self.assertEqual("Quote", sdt.style_name)
 ```
