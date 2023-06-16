@@ -19,7 +19,7 @@ bool Aspose::Words::Drawing::Shape::get_Filled()
 ## Remarks
 
 
-This is a shortcut to the [On](../../fill/get_on/) property.
+This is a shortcut to the [Visible](../../fill/get_visible/) property.
 
 The default value is **true**.
 

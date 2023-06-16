@@ -20,6 +20,7 @@ class PageInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_Colored](./get_colored/)() | Returns **true** if the page contains colored content. |
 | [get_HeightInPoints](./get_heightinpoints/)() | Gets the height of the page in points. |
 | [get_Landscape](./get_landscape/)() const | Returns **true** if the page orientation specified in the document for this page is landscape. |
 | [get_PaperSize](./get_papersize/)() | Gets the paper size as enumeration. |

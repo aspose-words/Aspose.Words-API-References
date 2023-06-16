@@ -24,6 +24,7 @@ class LayoutOptions : public System::Object
 | [get_CommentDisplayMode](./get_commentdisplaymode/)() const | Gets or sets the way comments are rendered. Default value is [ShowInBalloons](../commentdisplaymode/). |
 | [get_ContinuousSectionPageNumberingRestart](./get_continuoussectionpagenumberingrestart/)() const | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [get_IgnorePrinterMetrics](./get_ignoreprintermetrics/)() const | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is **true**. |
+| [get_KeepOriginalFontMetrics](./get_keeporiginalfontmetrics/)() const | Gets an indication of whether the original font metrics should be used after font substitution. Default is **true**. |
 | [get_RevisionOptions](./get_revisionoptions/)() const | Gets revision options. |
 | [get_ShowHiddenText](./get_showhiddentext/)() const | Gets or sets indication of whether hidden text in the document is rendered. Default is **false**. |
 | [get_ShowParagraphMarks](./get_showparagraphmarks/)() const | Gets or sets indication of whether paragraph marks are rendered. Default is **false**. |
@@ -35,6 +36,7 @@ class LayoutOptions : public System::Object
 | [set_CommentDisplayMode](./set_commentdisplaymode/)(Aspose::Words::Layout::CommentDisplayMode) | Setter for [Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode](./get_commentdisplaymode/). |
 | [set_ContinuousSectionPageNumberingRestart](./set_continuoussectionpagenumberingrestart/)(Aspose::Words::Layout::ContinuousSectionRestart) | Setter for [Aspose::Words::Layout::LayoutOptions::get_ContinuousSectionPageNumberingRestart](./get_continuoussectionpagenumberingrestart/). |
 | [set_IgnorePrinterMetrics](./set_ignoreprintermetrics/)(bool) | Setter for [Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics](./get_ignoreprintermetrics/). |
+| [set_KeepOriginalFontMetrics](./set_keeporiginalfontmetrics/)(bool) | Sets an indication of whether the original font metrics should be used after font substitution. Default is **true**. |
 | [set_ShowHiddenText](./set_showhiddentext/)(bool) | Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText](./get_showhiddentext/). |
 | [set_ShowParagraphMarks](./set_showparagraphmarks/)(bool) | Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks](./get_showparagraphmarks/). |
 | [set_TextShaperFactory](./set_textshaperfactory/)(const System::SharedPtr\<Aspose::Words::Shaping::ITextShaperFactory\>\&) | Sets [ITextShaperFactory](../) implementation used for Advanced Typography rendering features. |

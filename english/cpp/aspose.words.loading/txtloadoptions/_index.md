@@ -20,6 +20,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 
 | Method | Description |
 | --- | --- |
+| [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override |  |
 | [get_AutoNumberingDetection](./get_autonumberingdetection/)() const | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is **true**. |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
