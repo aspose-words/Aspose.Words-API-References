@@ -4,7 +4,7 @@ linktitle: PageInfo
 second_title: Aspose.Words for Java
 description: Represents information about a particular document page in Java.
 type: docs
-weight: 451
+weight: 454
 url: /java/com.aspose.words/pageinfo/
 ---
 
@@ -28,6 +28,7 @@ The page width and height returned by this object represent the "final" size of 
 
 | Method | Description |
 | --- | --- |
+| [getColored()](#getColored) | Returns  true  if the page contains colored content. |
 | [getHeightInPoints()](#getHeightInPoints) | Gets the height of the page in points. |
 | [getLandscape()](#getLandscape) | Returns  true  if the page orientation specified in the document for this page is landscape. |
 | [getPaperSize()](#getPaperSize) | Gets the paper size as enumeration. |
@@ -36,6 +37,16 @@ The page width and height returned by this object represent the "final" size of 
 | [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the page size in points. |
 | [getWidthInPoints()](#getWidthInPoints) | Gets the width of the page in points. |
+### getColored() {#getColored}
+```
+public boolean getColored()
+```
+
+
+Returns  true  if the page contains colored content.
+
+**Returns:**
+boolean -  true  if the page contains colored content.
 ### getHeightInPoints() {#getHeightInPoints}
 ```
 public float getHeightInPoints()

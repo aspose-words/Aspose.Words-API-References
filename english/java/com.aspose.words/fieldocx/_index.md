@@ -4,7 +4,7 @@ linktitle: FieldOcx
 second_title: Aspose.Words for Java
 description: Implements the OCX field in Java.
 type: docs
-weight: 237
+weight: 238
 url: /java/com.aspose.words/fieldocx/
 ---
 

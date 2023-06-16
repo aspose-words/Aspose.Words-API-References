@@ -83,9 +83,11 @@ Shows how to work with data points on a line chart.
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of this marker. |
+| [getShapeType()](#getShapeType) |  |
 | [getSize()](#getSize) | Gets chart marker size. |
 | [getSymbol()](#getSymbol) | Gets chart marker symbol. |
 | [materializeSpPr()](#materializeSpPr) |  |
+| [setShapeType(int value)](#setShapeType-int) |  |
 | [setSize(int value)](#setSize-int) | Sets chart marker size. |
 | [setSymbol(int value)](#setSymbol-int) | Sets chart marker symbol. |
 ### getFormat() {#getFormat}
@@ -135,6 +137,16 @@ Show how to set marker formatting.
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
 ### getSize() {#getSize}
 ```
 public int getSize()
@@ -272,6 +284,19 @@ public void materializeSpPr()
 
 
 
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSize(int value) {#setSize-int}
 ```

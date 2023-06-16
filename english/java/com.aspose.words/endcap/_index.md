@@ -4,7 +4,7 @@ linktitle: EndCap
 second_title: Aspose.Words for Java
 description: Specifies line cap style in Java.
 type: docs
-weight: 156
+weight: 157
 url: /java/com.aspose.words/endcap/
 ---
 

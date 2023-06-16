@@ -4,7 +4,7 @@ linktitle: FormField
 second_title: Aspose.Words for Java
 description: Represents a single form field in Java.
 type: docs
-weight: 308
+weight: 309
 url: /java/com.aspose.words/formfield/
 ---
 
@@ -3817,7 +3817,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (140491,6)
+Returns  true  if this node can contain other nodes. (141872,6)
 
  **Examples:** 
 

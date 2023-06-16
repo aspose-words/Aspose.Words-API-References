@@ -4,7 +4,7 @@ linktitle: WebExtensionReferenceCollection
 second_title: Aspose.Words for Java
 description: Specifies a list of web extension references in Java.
 type: docs
-weight: 638
+weight: 641
 url: /java/com.aspose.words/webextensionreferencecollection/
 ---
 

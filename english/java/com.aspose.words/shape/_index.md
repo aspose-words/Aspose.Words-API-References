@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 536
+weight: 539
 url: /java/com.aspose.words/shape/
 ---
 
@@ -2878,7 +2878,7 @@ Determines whether the closed path of the shape will be filled.
 
  **Remarks:** 
 
-This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill/\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill/\#setOn-boolean) property.
+This is a shortcut to the [Fill.getVisible()](../../com.aspose.words/fill/\#getVisible) / [Fill.setVisible(boolean)](../../com.aspose.words/fill/\#setVisible-boolean) property.
 
 The default value is  true .
 
@@ -10046,7 +10046,7 @@ Determines whether the closed path of the shape will be filled.
 
  **Remarks:** 
 
-This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill/\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill/\#setOn-boolean) property.
+This is a shortcut to the [Fill.getVisible()](../../com.aspose.words/fill/\#getVisible) / [Fill.setVisible(boolean)](../../com.aspose.words/fill/\#setVisible-boolean) property.
 
 The default value is  true .
 

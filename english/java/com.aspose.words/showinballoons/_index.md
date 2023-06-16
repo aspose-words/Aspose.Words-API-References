@@ -4,7 +4,7 @@ linktitle: ShowInBalloons
 second_title: Aspose.Words for Java
 description: Specifies which revisions are rendered in balloons in Java.
 type: docs
-weight: 542
+weight: 545
 url: /java/com.aspose.words/showinballoons/
 ---
 

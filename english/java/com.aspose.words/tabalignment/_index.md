@@ -4,7 +4,7 @@ linktitle: TabAlignment
 second_title: Aspose.Words for Java
 description: Specifies the alignment/type of a tab stop in Java.
 type: docs
-weight: 564
+weight: 567
 url: /java/com.aspose.words/tabalignment/
 ---
 

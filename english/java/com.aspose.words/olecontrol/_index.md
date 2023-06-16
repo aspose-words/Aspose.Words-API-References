@@ -4,7 +4,7 @@ linktitle: OleControl
 second_title: Aspose.Words for Java
 description: Represents OLE ActiveX control in Java.
 type: docs
-weight: 441
+weight: 444
 url: /java/com.aspose.words/olecontrol/
 ---
 

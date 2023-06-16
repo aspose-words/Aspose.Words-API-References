@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading HTML document into a Document object in Java.
 type: docs
-weight: 340
+weight: 341
 url: /java/com.aspose.words/htmlloadoptions/
 ---
 
@@ -31,6 +31,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 
 | Method | Description |
 | --- | --- |
+| [equals(Object obj)](#equals-java.lang.Object) |  |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getBlockImportMode()](#getBlockImportMode) | Gets a value that specifies how properties of block-level elements are imported. |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
@@ -154,6 +155,21 @@ Initializes a new instance of this class.
 | password | java.lang.String |  |
 | baseUri | java.lang.String |  |
 
+### equals(Object obj) {#equals-java.lang.Object}
+```
+public boolean equals(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()

@@ -93,10 +93,12 @@ Shows how to work with data points on a line chart.
 | [getIndex()](#getIndex) | Index of the data point this object applies formatting to. |
 | [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [getMarker()](#getMarker) | Specifies chart data marker. |
+| [getShapeType()](#getShapeType) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [setShapeType(int value)](#setShapeType-int) |  |
 ### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
@@ -251,6 +253,16 @@ Specifies chart data marker.
 
 **Returns:**
 [ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()
@@ -297,4 +309,17 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 

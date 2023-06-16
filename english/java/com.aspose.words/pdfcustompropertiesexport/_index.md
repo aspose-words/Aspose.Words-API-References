@@ -4,7 +4,7 @@ linktitle: PdfCustomPropertiesExport
 second_title: Aspose.Words for Java
 description: Specifies the way Document.getCustomDocumentProperties are exported to PDF file in Java.
 type: docs
-weight: 467
+weight: 470
 url: /java/com.aspose.words/pdfcustompropertiesexport/
 ---
 

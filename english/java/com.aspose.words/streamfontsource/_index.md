@@ -4,7 +4,7 @@ linktitle: StreamFontSource
 second_title: Aspose.Words for Java
 description: Base class for user-defined stream font source in Java.
 type: docs
-weight: 550
+weight: 553
 url: /java/com.aspose.words/streamfontsource/
 ---
 
@@ -65,6 +65,7 @@ Shows how to load fonts from stream.
 | [getCacheKey()](#getCacheKey) | The key of this source in the cache. |
 | [getCacheKeyInternal()](#getCacheKeyInternal) |  |
 | [getFilePath()](#getFilePath) |  |
+| [getFontBytes()](#getFontBytes) |  |
 | [getFontDataInternal()](#getFontDataInternal) |  |
 | [getPriority()](#getPriority) | Returns the font source priority. |
 | [getPriorityInternal()](#getPriorityInternal) |  |
@@ -135,6 +136,16 @@ public String getFilePath()
 
 **Returns:**
 java.lang.String
+### getFontBytes() {#getFontBytes}
+```
+public byte[] getFontBytes()
+```
+
+
+
+
+**Returns:**
+byte[]
 ### getFontDataInternal() {#getFontDataInternal}
 ```
 public Iterable getFontDataInternal()

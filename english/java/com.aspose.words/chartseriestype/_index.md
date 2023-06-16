@@ -15,6 +15,31 @@ public class ChartSeriesType
 ```
 
 Specifies a type of a chart series.
+
+ **Examples:** 
+
+Shows how to
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ // Remove all series of the Column type.
+ for (int i = chart.getSeries().getCount() - 1; i >= 0; i--)
+ {
+     if (chart.getSeries().get(i).getSeriesType() == ChartSeriesType.COLUMN)
+         chart.getSeries().removeAt(i);
+ }
+
+ chart.getSeries().add(
+         "Aspose Series",
+         new String[] { "Category 1", "Category 2", "Category 3", "Category 4" },
+         new double[] { 5.6, 7.1, 2.9, 8.9 });
+
+ doc.save(getArtifactsDir() + "Charts.RemoveSpecificChartSeries.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

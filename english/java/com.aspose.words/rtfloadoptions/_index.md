@@ -4,7 +4,7 @@ linktitle: RtfLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.RTF document into a Document object in Java.
 type: docs
-weight: 515
+weight: 518
 url: /java/com.aspose.words/rtfloadoptions/
 ---
 
@@ -55,6 +55,7 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object obj)](#equals-java.lang.Object) |  |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
@@ -122,6 +123,21 @@ Shows how to detect UTF-8 characters while loading an RTF document.
  
 ```
 
+### equals(Object obj) {#equals-java.lang.Object}
+```
+public boolean equals(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()

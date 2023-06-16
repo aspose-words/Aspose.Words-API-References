@@ -4,7 +4,7 @@ linktitle: FieldMergingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the MergeField event in Java.
 type: docs
-weight: 229
+weight: 230
 url: /java/com.aspose.words/fieldmergingargs/
 ---
 

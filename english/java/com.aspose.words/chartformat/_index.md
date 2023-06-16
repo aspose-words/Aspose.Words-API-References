@@ -53,6 +53,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getPatternType()](#getPatternType) |  |
 | [getPresetTexture()](#getPresetTexture) |  |
 | [getRotateWithObject()](#getRotateWithObject) |  |
+| [getShapeType()](#getShapeType) | Gets the shape type of the parent chart element. |
 | [getStartArrowLength()](#getStartArrowLength) |  |
 | [getStartArrowType()](#getStartArrowType) |  |
 | [getStartArrowWidth()](#getStartArrowWidth) |  |
@@ -87,6 +88,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [setOldOn(boolean value)](#setOldOn-boolean) |  |
 | [setOldOpacity(double value)](#setOldOpacity-double) |  |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) |  |
+| [setShapeType(int value)](#setShapeType-int) | Sets the shape type of the parent chart element. |
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int) |  |
@@ -423,6 +425,20 @@ public boolean getRotateWithObject()
 
 **Returns:**
 boolean
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+Gets the shape type of the parent chart element.
+
+ **Remarks:** 
+
+Currently, the property can only be used for data labels.
+
+**Returns:**
+int - The shape type of the parent chart element. The returned value is one of [ChartShapeType](../../com.aspose.words/chartshapetype/) constants.
 ### getStartArrowLength() {#getStartArrowLength}
 ```
 public int getStartArrowLength()
@@ -876,6 +892,23 @@ public void setRotateWithObject(boolean value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+Sets the shape type of the parent chart element.
+
+ **Remarks:** 
+
+Currently, the property can only be used for data labels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The shape type of the parent chart element. The value must be one of [ChartShapeType](../../com.aspose.words/chartshapetype/) constants. |
 
 ### setStartArrowLength(int value) {#setStartArrowLength-int}
 ```

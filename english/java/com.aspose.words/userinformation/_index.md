@@ -4,7 +4,7 @@ linktitle: UserInformation
 second_title: Aspose.Words for Java
 description: Specifies information about the user in Java.
 type: docs
-weight: 611
+weight: 614
 url: /java/com.aspose.words/userinformation/
 ---
 

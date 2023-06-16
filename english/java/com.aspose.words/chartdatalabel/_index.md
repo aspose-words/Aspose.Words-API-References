@@ -104,9 +104,11 @@ Shows how to apply labels to data points in a line chart.
 | [clearFormat()](#clearFormat) | Clears format of this data label. |
 | [generateItemText()](#generateItemText) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this data label. |
+| [getFormat()](#getFormat) | Provides access to fill and line formatting of the data label. |
 | [getIndex()](#getIndex) | Specifies the index of the containing element. |
 | [getNumberFormat()](#getNumberFormat) | Returns number format of the parent element. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels on a chart. |
+| [getShapeType()](#getShapeType) |  |
 | [getShowBubbleSize()](#getShowBubbleSize) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
 | [getShowCategoryName()](#getShowCategoryName) | Allows to specify if category name is to be displayed for the data labels on a chart. |
 | [getShowDataLabelsRange()](#getShowDataLabelsRange) | Allows to specify if values from data labels range to be displayed in the data labels. |
@@ -119,7 +121,9 @@ Shows how to apply labels to data points in a line chart.
 | [isHidden(boolean value)](#isHidden-boolean) | Gets/sets a flag indicating whether this label is hidden. |
 | [isInherited()](#isInherited) |  |
 | [isVisible()](#isVisible) | Returns  true  if this data label has something to display. |
+| [materializeSpPr()](#materializeSpPr) |  |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels on a chart. |
+| [setShapeType(int value)](#setShapeType-int) |  |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
 | [setShowCategoryName(boolean value)](#setShowCategoryName-boolean) | Allows to specify if category name is to be displayed for the data labels on a chart. |
 | [setShowDataLabelsRange(boolean value)](#setShowDataLabelsRange-boolean) | Allows to specify if values from data labels range to be displayed in the data labels. |
@@ -184,6 +188,16 @@ Shows how to use 3D effects with bubble charts.
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getFormat() {#getFormat}
+```
+public ChartFormat getFormat()
+```
+
+
+Provides access to fill and line formatting of the data label.
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getIndex() {#getIndex}
 ```
 public int getIndex()
@@ -424,6 +438,16 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 java.lang.String - String separator used for the data labels on a chart.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
 ### getShowBubbleSize() {#getShowBubbleSize}
 ```
 public boolean getShowBubbleSize()
@@ -1279,6 +1303,14 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 boolean -  true  if this data label has something to display.
+### materializeSpPr() {#materializeSpPr}
+```
+public void materializeSpPr()
+```
+
+
+
+
 ### setSeparator(String value) {#setSeparator-java.lang.String}
 ```
 public void setSeparator(String value)
@@ -1361,6 +1393,19 @@ Shows how to apply labels to data points in a line chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | String separator used for the data labels on a chart. |
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setShowBubbleSize(boolean value) {#setShowBubbleSize-boolean}
 ```

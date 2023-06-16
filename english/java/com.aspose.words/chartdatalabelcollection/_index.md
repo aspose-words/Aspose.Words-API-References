@@ -101,8 +101,10 @@ Shows how to apply labels to data points in a line chart.
 | [get(int index)](#get-int) | Returns [ChartDataLabel](../../com.aspose.words/chartdatalabel/) for the specified index. |
 | [getCount()](#getCount) | Returns the number of [ChartDataLabel](../../com.aspose.words/chartdatalabel/) in this collection. |
 | [getFont()](#getFont) | Provides access to the font formatting of the data labels of the entire series. |
+| [getFormat()](#getFormat) | Provides access to fill and line formatting of the data labels. |
 | [getNumberFormat()](#getNumberFormat) | Gets an [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels of the entire series. |
+| [getShapeType()](#getShapeType) |  |
 | [getShowBubbleSize()](#getShowBubbleSize) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
 | [getShowCategoryName()](#getShowCategoryName) | Allows to specify whether category name is to be displayed for the data labels of the entire series. |
 | [getShowDataLabelsRange()](#getShowDataLabelsRange) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. |
@@ -113,7 +115,9 @@ Shows how to apply labels to data points in a line chart.
 | [getShowValue()](#getShowValue) | Allows to specify whether values are to be displayed in the data labels of the entire series. |
 | [isInherited()](#isInherited) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
+| [materializeSpPr()](#materializeSpPr) |  |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels of the entire series. |
+| [setShapeType(int value)](#setShapeType-int) |  |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
 | [setShowCategoryName(boolean value)](#setShowCategoryName-boolean) | Allows to specify whether category name is to be displayed for the data labels of the entire series. |
 | [setShowDataLabelsRange(boolean value)](#setShowDataLabelsRange-boolean) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. |
@@ -413,6 +417,16 @@ Shows how to enable and configure data labels for a chart series.
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getFormat() {#getFormat}
+```
+public ChartFormat getFormat()
+```
+
+
+Provides access to fill and line formatting of the data labels.
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getNumberFormat() {#getNumberFormat}
 ```
 public ChartNumberFormat getNumberFormat()
@@ -533,6 +547,16 @@ Shows how to work with data labels of a pie chart.
 
 **Returns:**
 java.lang.String - String separator used for the data labels of the entire series.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
 ### getShowBubbleSize() {#getShowBubbleSize}
 ```
 public boolean getShowBubbleSize()
@@ -961,6 +985,14 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 java.util.Iterator
+### materializeSpPr() {#materializeSpPr}
+```
+public void materializeSpPr()
+```
+
+
+
+
 ### setSeparator(String value) {#setSeparator-java.lang.String}
 ```
 public void setSeparator(String value)
@@ -1039,6 +1071,19 @@ Shows how to work with data labels of a pie chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | String separator used for the data labels of the entire series. |
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setShowBubbleSize(boolean value) {#setShowBubbleSize-boolean}
 ```

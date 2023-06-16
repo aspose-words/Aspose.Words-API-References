@@ -4,7 +4,7 @@ linktitle: WarningSource
 second_title: Aspose.Words for Java
 description: Specifies the module that produces a warning during document loading or saving in Java.
 type: docs
-weight: 626
+weight: 629
 url: /java/com.aspose.words/warningsource/
 ---
 
@@ -44,6 +44,8 @@ Specifies the module that produces a warning during document loading or saving.
 | [VALIDATOR](#VALIDATOR) | Module that verifies model consistency and validity. |
 | [WORD_ML](#WORD-ML) | Module that reads/writes WML files. |
 | [XAML](#XAML) | Module that reads/writes Xaml files. |
+| [XLSX](#XLSX) | Module that writes XLSX files. |
+| [XML](#XML) | Module that reads XML files. |
 | [XPS](#XPS) | Module that renders XPS. |
 | [length](#length) |  |
 ## Methods
@@ -253,6 +255,22 @@ public static int XAML
 
 
 Module that reads/writes Xaml files.
+
+### XLSX {#XLSX}
+```
+public static int XLSX
+```
+
+
+Module that writes XLSX files.
+
+### XML {#XML}
+```
+public static int XML
+```
+
+
+Module that reads XML files.
 
 ### XPS {#XPS}
 ```
