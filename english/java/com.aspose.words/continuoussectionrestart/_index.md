@@ -4,7 +4,7 @@ linktitle: ContinuousSectionRestart
 second_title: Aspose.Words for Java
 description: Represents different behaviors when computing page numbers in a continuous section that restarts page numbering in Java.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.words/continuoussectionrestart/
 ---
 

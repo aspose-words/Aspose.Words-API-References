@@ -4,7 +4,7 @@ linktitle: Revision
 second_title: Aspose.Words for Java
 description: Represents a revision tracked change in a document node or style in Java.
 type: docs
-weight: 503
+weight: 506
 url: /java/com.aspose.words/revision/
 ---
 

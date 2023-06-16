@@ -4,7 +4,7 @@ linktitle: LayoutOptions
 second_title: Aspose.Words for Java
 description: Holds the options that allow controlling the document layout process in Java.
 type: docs
-weight: 375
+weight: 376
 url: /java/com.aspose.words/layoutoptions/
 ---
 
@@ -95,6 +95,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [getCommentDisplayMode()](#getCommentDisplayMode) | Gets the way comments are rendered. |
 | [getContinuousSectionPageNumberingRestart()](#getContinuousSectionPageNumberingRestart) | Gets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [getIgnorePrinterMetrics()](#getIgnorePrinterMetrics) | Gets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
+| [getKeepOriginalFontMetrics()](#getKeepOriginalFontMetrics) | Gets an indication of whether the original font metrics should be used after font substitution. |
 | [getRevisionOptions()](#getRevisionOptions) | Gets revision options. |
 | [getShowHiddenText()](#getShowHiddenText) | Gets indication of whether hidden text in the document is rendered. |
 | [getShowParagraphMarks()](#getShowParagraphMarks) | Gets indication of whether paragraph marks are rendered. |
@@ -103,6 +104,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [setCommentDisplayMode(int value)](#setCommentDisplayMode-int) | Sets the way comments are rendered. |
 | [setContinuousSectionPageNumberingRestart(int value)](#setContinuousSectionPageNumberingRestart-int) | Sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [setIgnorePrinterMetrics(boolean value)](#setIgnorePrinterMetrics-boolean) | Sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
+| [setKeepOriginalFontMetrics(boolean value)](#setKeepOriginalFontMetrics-boolean) | Sets an indication of whether the original font metrics should be used after font substitution. |
 | [setShowHiddenText(boolean value)](#setShowHiddenText-boolean) | Sets indication of whether hidden text in the document is rendered. |
 | [setShowParagraphMarks(boolean value)](#setShowParagraphMarks-boolean) | Sets indication of whether paragraph marks are rendered. |
 | [setTextShaperFactory(ITextShaperFactory value)](#setTextShaperFactory-com.aspose.words.ITextShaperFactory) | Sets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
@@ -217,6 +219,16 @@ Shows how to ignore 'Use printer metrics to lay out document' option.
 
 **Returns:**
 boolean - Indication of whether the "Use printer metrics to lay out document" compatibility option is ignored.
+### getKeepOriginalFontMetrics() {#getKeepOriginalFontMetrics}
+```
+public boolean getKeepOriginalFontMetrics()
+```
+
+
+Gets an indication of whether the original font metrics should be used after font substitution. Default is  true .
+
+**Returns:**
+boolean - An indication of whether the original font metrics should be used after font substitution.
 ### getRevisionOptions() {#getRevisionOptions}
 ```
 public RevisionOptions getRevisionOptions()
@@ -465,6 +477,19 @@ Shows how to ignore 'Use printer metrics to lay out document' option.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
+
+### setKeepOriginalFontMetrics(boolean value) {#setKeepOriginalFontMetrics-boolean}
+```
+public void setKeepOriginalFontMetrics(boolean value)
+```
+
+
+Sets an indication of whether the original font metrics should be used after font substitution. Default is  true .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | An indication of whether the original font metrics should be used after font substitution. |
 
 ### setShowHiddenText(boolean value) {#setShowHiddenText-boolean}
 ```

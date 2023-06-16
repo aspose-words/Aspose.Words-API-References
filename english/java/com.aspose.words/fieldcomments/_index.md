@@ -4,7 +4,7 @@ linktitle: FieldComments
 second_title: Aspose.Words for Java
 description: Implements the COMMENTS field in Java.
 type: docs
-weight: 181
+weight: 182
 url: /java/com.aspose.words/fieldcomments/
 ---
 

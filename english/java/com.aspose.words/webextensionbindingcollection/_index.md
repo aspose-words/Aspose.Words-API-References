@@ -4,7 +4,7 @@ linktitle: WebExtensionBindingCollection
 second_title: Aspose.Words for Java
 description: Specifies a list of web extension bindings in Java.
 type: docs
-weight: 633
+weight: 636
 url: /java/com.aspose.words/webextensionbindingcollection/
 ---
 

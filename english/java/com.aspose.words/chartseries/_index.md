@@ -148,6 +148,68 @@ public void add(ChartXValue xValue, ChartYValue yValue)
 
 Adds the specified X and Y values to the chart series.
 
+ **Examples:** 
+
+Shows how to add/remove chart data values.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeries department1Series = chart.getSeries().get(0);
+ ChartSeries department2Series = chart.getSeries().get(1);
+
+ // Remove the first value in the both series.
+ department1Series.remove(0);
+ department2Series.remove(0);
+
+ // Add new values to the both series.
+ ChartXValue newXCategory = ChartXValue.fromString("Q1, 2023");
+ department1Series.add(newXCategory, ChartYValue.fromDouble(10.3));
+ department2Series.add(newXCategory, ChartYValue.fromDouble(5.7));
+
+ doc.save(getArtifactsDir() + "Charts.ChartDataValues.docx");
+ 
+```
+
+Shows how to populate chart series with data.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeries series1 = chart.getSeries().get(0);
+
+ // Clear X and Y values of the first series.
+ series1.clearValues();
+
+ // Populate the series with data.
+ series1.add(ChartXValue.fromDouble(3.0), ChartYValue.fromDouble(10.0));
+ series1.add(ChartXValue.fromDouble(5.0), ChartYValue.fromDouble(5.0));
+ series1.add(ChartXValue.fromDouble(7.0), ChartYValue.fromDouble(11.0));
+ series1.add(ChartXValue.fromDouble(9.0), ChartYValue.fromDouble(17.0));
+
+ ChartSeries series2 = chart.getSeries().get(1);
+
+ // Clear X and Y values of the second series.
+ series2.clearValues();
+
+ // Populate the series with data.
+ series2.add(ChartXValue.fromDouble(2.0), ChartYValue.fromDouble(4.0));
+ series2.add(ChartXValue.fromDouble(4.0), ChartYValue.fromDouble(7.0));
+ series2.add(ChartXValue.fromDouble(6.0), ChartYValue.fromDouble(14.0));
+ series2.add(ChartXValue.fromDouble(8.0), ChartYValue.fromDouble(7.0));
+
+ doc.save(getArtifactsDir() + "Charts.PopulateChartWithData.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -537,6 +599,31 @@ public int getSeriesType()
 
 Gets the type of this chart series.
 
+ **Examples:** 
+
+Shows how to
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series.docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ // Remove all series of the Column type.
+ for (int i = chart.getSeries().getCount() - 1; i >= 0; i--)
+ {
+     if (chart.getSeries().get(i).getSeriesType() == ChartSeriesType.COLUMN)
+         chart.getSeries().removeAt(i);
+ }
+
+ chart.getSeries().add(
+         "Aspose Series",
+         new String[] { "Category 1", "Category 2", "Category 3", "Category 4" },
+         new double[] { 5.6, 7.1, 2.9, 8.9 });
+
+ doc.save(getArtifactsDir() + "Charts.RemoveSpecificChartSeries.docx");
+ 
+```
+
 **Returns:**
 int - The type of this chart series. The returned value is one of [ChartSeriesType](../../com.aspose.words/chartseriestype/) constants.
 ### getSmooth() {#getSmooth}
@@ -711,6 +798,33 @@ public void remove(int index)
 
 
 Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed.
+
+ **Examples:** 
+
+Shows how to add/remove chart data values.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeries department1Series = chart.getSeries().get(0);
+ ChartSeries department2Series = chart.getSeries().get(1);
+
+ // Remove the first value in the both series.
+ department1Series.remove(0);
+ department2Series.remove(0);
+
+ // Add new values to the both series.
+ ChartXValue newXCategory = ChartXValue.fromString("Q1, 2023");
+ department1Series.add(newXCategory, ChartYValue.fromDouble(10.3));
+ department2Series.add(newXCategory, ChartYValue.fromDouble(5.7));
+
+ doc.save(getArtifactsDir() + "Charts.ChartDataValues.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

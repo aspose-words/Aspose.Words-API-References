@@ -4,7 +4,7 @@ linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for Java
 description: Provides methods for signing document in Java.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.words/digitalsignatureutil/
 ---
 
@@ -197,6 +197,22 @@ public static void removeAllSignatures(String srcFileName, String dstFileName)
 
 
 Removes all digital signatures from source file and writes unsigned file to destination file.
+
+The following formats are compatible for digital signature removal:
+
+[LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC)
+
+[LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT)
+
+[LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX)
+
+[LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX)
+
+[LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM)
+
+[LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT)
+
+[LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT)
 
  **Examples:** 
 

@@ -4,7 +4,7 @@ linktitle: Fill
 second_title: Aspose.Words for Java
 description: Represents fill formatting for an object in Java.
 type: docs
-weight: 279
+weight: 280
 url: /java/com.aspose.words/fill/
 ---
 
@@ -75,7 +75,6 @@ Shows how to fill a shape with a solid color.
 | [getGradientStyle()](#getGradientStyle) | Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle/) for the fill. |
 | [getGradientVariant()](#getGradientVariant) | Gets the gradient variant [GradientVariant](../../com.aspose.words/gradientvariant/) for the fill. |
 | [getImageBytes()](#getImageBytes) | Gets the raw bytes of the fill texture or pattern. |
-| [getOn()](#getOn) | Gets value that is  true  if the formatting applied to this instance, is visible. |
 | [getOpacity()](#getOpacity) | Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [getPattern()](#getPattern) | Gets a [PatternType](../../com.aspose.words/patterntype/) for the fill. |
 | [getPresetTexture()](#getPresetTexture) | Gets a [PresetTexture](../../com.aspose.words/presettexture/) for the fill. |
@@ -99,7 +98,6 @@ Shows how to fill a shape with a solid color.
 | [setImage(byte[] imageBytes)](#setImage-byte) | Changes the fill type to single image. |
 | [setImage(InputStream stream)](#setImage-java.io.InputStream) |  |
 | [setImage(String fileName)](#setImage-java.lang.String) | Changes the fill type to single image. |
-| [setOn(boolean value)](#setOn-boolean) | Sets value that is  true  if the formatting applied to this instance, is visible. |
 | [setOpacity(double value)](#setOpacity-double) | Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) | Sets whether the fill rotates with the specified object. |
 | [setTextureAlignment(int value)](#setTextureAlignment-int) | Sets the alignment for tile texture fill. |
@@ -197,6 +195,10 @@ public Color getColor()
 
 Gets a Color object that represents the foreground color for the fill.
 
+ **Remarks:** 
+
+This property preserves the alpha component of the java.awt.Color, unlike the [getForeColor()](../../com.aspose.words/fill/\#getForeColor) / [setForeColor(java.awt.Color)](../../com.aspose.words/fill/\#setForeColor-java.awt.Color) property, which resets it to fully opaque color.
+
  **Examples:** 
 
 Shows how to convert any of the fills back to solid fill.
@@ -243,6 +245,10 @@ public Color getForeColor()
 
 
 Gets a Color object that represents the foreground color for the fill.
+
+ **Remarks:** 
+
+This property resets the alpha component of the java.awt.Color to fully opaque color unlike the [getColor()](../../com.aspose.words/fill/\#getColor) / [setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property, which preserves it.
 
  **Examples:** 
 
@@ -684,16 +690,6 @@ Shows to create a variety of shapes.
 
 **Returns:**
 byte[] - The raw bytes of the fill texture or pattern.
-### getOn() {#getOn}
-```
-public boolean getOn()
-```
-
-
-Gets value that is  true  if the formatting applied to this instance, is visible.
-
-**Returns:**
-boolean - Value that is  true  if the formatting applied to this instance, is visible.
 ### getOpacity() {#getOpacity}
 ```
 public double getOpacity()
@@ -1072,6 +1068,10 @@ public void setColor(Color value)
 
 Sets a Color object that represents the foreground color for the fill.
 
+ **Remarks:** 
+
+This property preserves the alpha component of the java.awt.Color, unlike the [getForeColor()](../../com.aspose.words/fill/\#getForeColor) / [setForeColor(java.awt.Color)](../../com.aspose.words/fill/\#setForeColor-java.awt.Color) property, which resets it to fully opaque color.
+
  **Examples:** 
 
 Shows how to convert any of the fills back to solid fill.
@@ -1111,6 +1111,10 @@ public void setForeColor(Color value)
 
 
 Sets a Color object that represents the foreground color for the fill.
+
+ **Remarks:** 
+
+This property resets the alpha component of the java.awt.Color to fully opaque color unlike the [getColor()](../../com.aspose.words/fill/\#getColor) / [setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property, which preserves it.
 
  **Examples:** 
 
@@ -1352,19 +1356,6 @@ Changes the fill type to single image.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The path to the image file. |
-
-### setOn(boolean value) {#setOn-boolean}
-```
-public void setOn(boolean value)
-```
-
-
-Sets value that is  true  if the formatting applied to this instance, is visible.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Value that is  true  if the formatting applied to this instance, is visible. |
 
 ### setOpacity(double value) {#setOpacity-double}
 ```

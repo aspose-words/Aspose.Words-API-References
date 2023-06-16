@@ -95,6 +95,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartSeries](../com.aspose.words/chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](../com.aspose.words/chartseriescollection/) | Represents collection of a [ChartSeries](../com.aspose.words/chartseries/). |
 | [ChartSeriesType](../com.aspose.words/chartseriestype/) | Specifies a type of a chart series. |
+| [ChartShapeType](../com.aspose.words/chartshapetype/) | Specifies the shape type of chart elements. |
 | [ChartTitle](../com.aspose.words/charttitle/) | Provides access to the chart title properties. |
 | [ChartType](../com.aspose.words/charttype/) | Specifies type of a chart. |
 | [ChartXValue](../com.aspose.words/chartxvalue/) | Represents an X value for a chart series. |
@@ -433,6 +434,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MemoryFontSource](../com.aspose.words/memoryfontsource/) | Represents the single TrueType font file stored in memory. |
 | [MergeFieldImageDimension](../com.aspose.words/mergefieldimagedimension/) | Represents an image dimension (i.e. |
 | [MergeFieldImageDimensionUnit](../com.aspose.words/mergefieldimagedimensionunit/) | Specifies an unit of an image dimension (i.e. |
+| [MergeFormatMode](../com.aspose.words/mergeformatmode/) | Specifies how formatting is merged when combining multiple documents. |
+| [Merger](../com.aspose.words/merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
 | [MetafileRenderingMode](../com.aspose.words/metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [MetafileRenderingOptions](../com.aspose.words/metafilerenderingoptions/) | Allows to specify additional metafile rendering options. |
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
@@ -668,6 +671,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [X509Certificate2Wrapper](../com.aspose.words/x509certificate2wrapper/) | JAVA-added public wrapper around ours internal X509Certificate2. |
 | [XamlFixedSaveOptions](../com.aspose.words/xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FIXED](../com.aspose.words/saveformat/\#XAML-FIXED) format. |
 | [XamlFlowSaveOptions](../com.aspose.words/xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FLOW](../com.aspose.words/saveformat/\#XAML-FLOW) or [SaveFormat.\#XAML\_FLOW\_PACK](../com.aspose.words/saveformat/\#XAML-FLOW-PACK) format. |
+| [XlsxSaveOptions](../com.aspose.words/xlsxsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XLSX](../com.aspose.words/saveformat/\#XLSX) format. |
 | [XmlDataLoadOptions](../com.aspose.words/xmldataloadoptions/) | Represents options for XML data loading. |
 | [XmlDataSource](../com.aspose.words/xmldatasource/) | Provides access to data of an XML file or stream to be used within a report. |
 | [XmlMapping](../com.aspose.words/xmlmapping/) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
@@ -683,6 +687,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [IComparisonExpressionEvaluator](../com.aspose.words/icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](../com.aspose.words/fieldif/) and [FieldCompare](../com.aspose.words/fieldcompare/) fields. |
 | [ICssSavingCallback](../com.aspose.words/icsssavingcallback/) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |
 | [IDocumentLoadingCallback](../com.aspose.words/idocumentloadingcallback/) | Implement this interface if you want to have your own custom method called during loading a document. |
+| [IDocumentMergerPlugin](../com.aspose.words/idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
 | [IDocumentPartSavingCallback](../com.aspose.words/idocumentpartsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.\#HTML](../com.aspose.words/saveformat/\#HTML) or [SaveFormat.\#EPUB](../com.aspose.words/saveformat/\#EPUB) format. |
 | [IDocumentReaderPlugin](../com.aspose.words/idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IDocumentSavingCallback](../com.aspose.words/idocumentsavingcallback/) | Implement this interface if you want to have your own custom method called during saving a document. |

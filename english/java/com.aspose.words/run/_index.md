@@ -4,7 +4,7 @@ linktitle: Run
 second_title: Aspose.Words for Java
 description: Represents a run of characters with the same font formatting in Java.
 type: docs
-weight: 517
+weight: 520
 url: /java/com.aspose.words/run/
 ---
 
@@ -1049,6 +1049,23 @@ public PhoneticGuide getPhoneticGuide()
 
 Gets a [getPhoneticGuide()](../../com.aspose.words/run/\#getPhoneticGuide) object.
 
+ **Examples:** 
+
+Shows how to get properties of the phonetic guide.
+
+```
+
+ Document doc = new Document(getMyDir() + "Phonetic guide.docx");
+
+ RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
+
+ // Use phonetic guide in the Asian text.
+ Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
+ Assert.assertEquals("base", runs.get(0).getPhoneticGuide().getBaseText());
+ Assert.assertEquals("ruby", runs.get(0).getPhoneticGuide().getRubyText());
+ 
+```
+
 **Returns:**
 [PhoneticGuide](../../com.aspose.words/phoneticguide/) - A [getPhoneticGuide()](../../com.aspose.words/run/\#getPhoneticGuide) object.
 ### getPreviousSibling() {#getPreviousSibling}
@@ -1191,7 +1208,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (140491,6)
+Returns  true  if this node can contain other nodes. (141872,6)
 
  **Examples:** 
 
@@ -1568,16 +1585,18 @@ Gets a boolean value indicating either the run is a phonetic guide.
 
  **Examples:** 
 
-Shows how to check if the run is phonetic guide.
+Shows how to get properties of the phonetic guide.
 
 ```
 
- DocumentBuilder builder = new DocumentBuilder();
- builder.write("Lorem ipsum.");
+ Document doc = new Document(getMyDir() + "Phonetic guide.docx");
 
- RunCollection runs = builder.getDocument().getFirstSection().getBody().getFirstParagraph().getRuns();
+ RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
+
  // Use phonetic guide in the Asian text.
- Assert.assertEquals(false, runs.get(0).isPhoneticGuide());
+ Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
+ Assert.assertEquals("base", runs.get(0).getPhoneticGuide().getBaseText());
+ Assert.assertEquals("ruby", runs.get(0).getPhoneticGuide().getRubyText());
  
 ```
 

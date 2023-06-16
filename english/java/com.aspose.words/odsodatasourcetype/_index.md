@@ -4,7 +4,7 @@ linktitle: OdsoDataSourceType
 second_title: Aspose.Words for Java
 description: Specifies the type of the external data source to be connected to as part of the ODSO connection information in Java.
 type: docs
-weight: 429
+weight: 432
 url: /java/com.aspose.words/odsodatasourcetype/
 ---
 

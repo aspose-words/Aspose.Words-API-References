@@ -4,7 +4,7 @@ linktitle: Comment
 second_title: Aspose.Words for Java
 description: Represents a container for text of a comment in Java.
 type: docs
-weight: 87
+weight: 88
 url: /java/com.aspose.words/comment/
 ---
 

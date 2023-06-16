@@ -4,7 +4,7 @@ linktitle: PdfZoomBehavior
 second_title: Aspose.Words for Java
 description: Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer in Java.
 type: docs
-weight: 480
+weight: 483
 url: /java/com.aspose.words/pdfzoombehavior/
 ---
 

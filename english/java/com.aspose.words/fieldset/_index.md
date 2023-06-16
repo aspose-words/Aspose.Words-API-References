@@ -4,7 +4,7 @@ linktitle: FieldSet
 second_title: Aspose.Words for Java
 description: Implements the SET field in Java.
 type: docs
-weight: 253
+weight: 254
 url: /java/com.aspose.words/fieldset/
 ---
 

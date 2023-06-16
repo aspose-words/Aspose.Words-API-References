@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 131
+weight: 132
 url: /java/com.aspose.words/document/
 ---
 

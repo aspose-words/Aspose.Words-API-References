@@ -4,7 +4,7 @@ linktitle: VbaModule
 second_title: Aspose.Words for Java
 description: Provides access to VBA project module in Java.
 type: docs
-weight: 613
+weight: 616
 url: /java/com.aspose.words/vbamodule/
 ---
 

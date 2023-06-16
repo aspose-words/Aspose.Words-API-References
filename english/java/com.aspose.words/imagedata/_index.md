@@ -4,7 +4,7 @@ linktitle: ImageData
 second_title: Aspose.Words for Java
 description: Defines an image for a shape in Java.
 type: docs
-weight: 349
+weight: 350
 url: /java/com.aspose.words/imagedata/
 ---
 
@@ -992,7 +992,7 @@ public ImageSize getImageSize()
 ```
 
 
-Gets the information about image size and resolution. (18221,6)
+Gets the information about image size and resolution. (19460,6)
 
  **Remarks:** 
 
@@ -1055,7 +1055,7 @@ public int getImageType()
 ```
 
 
-Gets the type of the image. (18272,6)
+Gets the type of the image. (19511,6)
 
  **Examples:** 
 
@@ -1224,7 +1224,7 @@ public boolean hasImage()
 ```
 
 
-Returns  true  if the shape has image bytes or links an image. (18183,6)
+Returns  true  if the shape has image bytes or links an image. (19422,6)
 
  **Examples:** 
 
@@ -1273,7 +1273,7 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (18296,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (19535,6)
 
  **Examples:** 
 
@@ -1346,7 +1346,7 @@ public boolean isLinkOnly()
 ```
 
 
-Returns  true  if the image is linked and not stored in the document. (18358,6)
+Returns  true  if the image is linked and not stored in the document. (19597,6)
 
  **Examples:** 
 

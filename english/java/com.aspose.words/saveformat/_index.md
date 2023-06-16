@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Words for Java
 description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 519
+weight: 522
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -69,6 +69,7 @@ Shows how to convert from DOCX to HTML format.
 | [XAML_FIXED](#XAML-FIXED) | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document. |
 | [XAML_FLOW](#XAML-FLOW) | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
 | [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
+| [XLSX](#XLSX) | Saves the document as an Office Open XML SpreadsheetML Document (macro-free). |
 | [XPS](#XPS) | Saves the document in the XPS (XML Paper Specification) format. |
 | [length](#length) |  |
 ## Methods
@@ -374,6 +375,14 @@ public static int XAML_FLOW_PACK
 
 
 **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.
+
+### XLSX {#XLSX}
+```
+public static int XLSX
+```
+
+
+Saves the document as an Office Open XML SpreadsheetML Document (macro-free).
 
 ### XPS {#XPS}
 ```

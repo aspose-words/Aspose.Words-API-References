@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Words for Java
 description: Indicates the format of the document that is to be loaded in Java.
 type: docs
-weight: 390
+weight: 391
 url: /java/com.aspose.words/loadformat/
 ---
 
