@@ -46,6 +46,8 @@ enum class WarningSource
 | Markdown | 23 | Module that reads/writes Markdown files. |
 | Chm | 24 | Module that reads CHM files. |
 | Epub | 25 | Module that reads/writes EPUB files. |
+| Xml | 26 | Module that reads XML files. |
+| Xlsx | 27 | Module that writes XLSX files. |
 
 ## See Also
 

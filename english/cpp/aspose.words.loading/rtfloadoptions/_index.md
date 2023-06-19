@@ -20,6 +20,7 @@ class RtfLoadOptions : public Aspose::Words::Loading::LoadOptions
 
 | Method | Description |
 | --- | --- |
+| [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office [Math](../../aspose.words.math/) objects. |

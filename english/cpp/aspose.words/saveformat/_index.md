@@ -52,6 +52,7 @@ enum class SaveFormat
 | XamlFlow | 71 | **Beta.** Saves the document in the Extensible Application [Markup](../../aspose.words.markup/) Language (XAML) format as a flow document. |
 | XamlFlowPack | 72 | **Beta.** Saves the document in the Extensible Application [Markup](../../aspose.words.markup/) Language (XAML) package format as a flow document. |
 | Markdown | 73 | Saves the document in the Markdown format. |
+| Xlsx | 80 | Saves the document as an Office Open XML SpreadsheetML [Document](../document/) (macro-free). |
 | Tiff | 100 | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
 | Png | 101 | Renders a page of the document and saves it as a PNG file. |
 | Bmp | 102 | Renders a page of the document and saves it as a BMP file. |

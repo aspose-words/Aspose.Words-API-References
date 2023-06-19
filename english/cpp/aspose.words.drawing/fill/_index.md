@@ -33,7 +33,6 @@ class Fill : public System::Object
 | [get_GradientStyle](./get_gradientstyle/)() | Gets the gradient style [GradientStyle](../gradientstyle/) for the fill. |
 | [get_GradientVariant](./get_gradientvariant/)() | Gets the gradient variant [GradientVariant](../gradientvariant/) for the fill. |
 | [get_ImageBytes](./get_imagebytes/)() | Gets the raw bytes of the fill texture or pattern. |
-| [get_On](./get_on/)() |  |
 | [get_Opacity](./get_opacity/)() | Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [get_Pattern](./get_pattern/)() | Gets a [PatternType](../patterntype/) for the fill. |
 | [get_PresetTexture](./get_presettexture/)() | Gets a [PresetTexture](../presettexture/) for the fill. |
@@ -56,7 +55,6 @@ class Fill : public System::Object
 | [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the foreground color for the fill. |
 | [set_ForeTintAndShade](./set_foretintandshade/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_ForeTintAndShade](./get_foretintandshade/). |
 | [set_GradientAngle](./set_gradientangle/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_GradientAngle](./get_gradientangle/). |
-| [set_On](./set_on/)(bool) |  |
 | [set_Opacity](./set_opacity/)(double) | Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [set_RotateWithObject](./set_rotatewithobject/)(bool) | Sets whether the fill rotates with the specified object. |
 | [set_TextureAlignment](./set_texturealignment/)(Aspose::Words::Drawing::TextureAlignment) | Setter for [Aspose::Words::Drawing::Fill::get_TextureAlignment](./get_texturealignment/). |
