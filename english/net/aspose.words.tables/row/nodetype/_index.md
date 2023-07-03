@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Row NodeType property. Returns Row in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.tables/row/nodetype/
 ---
 ## Row.NodeType property

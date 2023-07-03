@@ -5,7 +5,7 @@ articleTitle: IWarningCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.IWarningCallback interface. Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving in C#.
 type: docs
-weight: 3170
+weight: 3180
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
@@ -139,6 +139,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original font metrics should be used after font substitution.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
     doc.FontSettings = fontSettings;

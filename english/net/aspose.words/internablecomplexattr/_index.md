@@ -5,7 +5,7 @@ articleTitle: InternableComplexAttr
 second_title: Aspose.Words for .NET
 description: Aspose.Words.InternableComplexAttr class. Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed in C#.
 type: docs
-weight: 3240
+weight: 3250
 url: /net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class

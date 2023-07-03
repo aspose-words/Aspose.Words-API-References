@@ -5,7 +5,7 @@ articleTitle: MailMergeRegionInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.MailMergeRegionInfo class. Contains information about a mail merge region in C#.
 type: docs
-weight: 3820
+weight: 3830
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
@@ -23,12 +23,15 @@ public class MailMergeRegionInfo
 | Name | Description |
 | --- | --- |
 | [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | Returns an end field for the region. |
+| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | Returns an end "mustache" tag for the region. |
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | Returns a list of child fields. |
 | [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Returns the nesting level for the region. |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | Returns a list of child "mustache" tags. |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | Returns the name of region. |
 | [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Returns parent region info (null for top-level region). |
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Returns a list of child regions. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Returns a start field for the region. |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Returns a start "mustache" tag for the region. |
 
 ## Examples
 

@@ -20,6 +20,7 @@ The **Aspose.Words.MailMerging** namespace contains classes of the "original" ma
 | [MailMerge](./mailmerge/) | Represents the mail merge functionality. |
 | [MailMergeRegionInfo](./mailmergeregioninfo/) | Contains information about a mail merge region. |
 | [MappedDataFieldCollection](./mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
+| [MustacheTag](./mustachetag/) | Represents "mustache" tag. |
 ## Interfaces
 
 | Interface | Description |

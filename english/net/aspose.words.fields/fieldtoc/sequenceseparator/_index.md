@@ -3,18 +3,24 @@ title: FieldToc.SequenceSeparator
 linktitle: SequenceSeparator
 articleTitle: SequenceSeparator
 second_title: Aspose.Words for .NET
-description: FieldToc SequenceSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
+description: FieldToc SequenceSeparator property. Makes a Bookmark object for a bookmark name in b switch argument in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldtoc/sequenceseparator/
 ---
 ## FieldToc.SequenceSeparator property
 
+Makes a Bookmark object for a bookmark name in \\b switch argument.
+
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
 ```csharp
 public string SequenceSeparator { get; set; }
 ```
+
+### Return Value
+
+`null` if a valid bookmark can not be found.
 
 ## Examples
 

@@ -3,14 +3,14 @@ title: ImageSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions SaveFormat property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff Png Bmp Jpeg or vector Emf Svg in C#.
+description: ImageSaveOptions SaveFormat property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff Png Bmp Jpeg or vector Emf Eps Svg in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Svg.
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Eps, Svg.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Remarks
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [`ImageSaveOptions`](../) and via [`SvgSaveOptions`](../../svgsaveoptions/).
 

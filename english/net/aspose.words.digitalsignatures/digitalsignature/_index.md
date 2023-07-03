@@ -27,6 +27,7 @@ public class DigitalSignature
 | [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returns the subject distinguished name of the certificate isuuer. |
 | [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returns `true` if this digital signature is valid and the document has not been tampered with. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Gets the type of the digital signature. |
+| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Gets an array of bytes representing a signature value. |
 | [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Gets the time the document was signed. |
 | [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
 
