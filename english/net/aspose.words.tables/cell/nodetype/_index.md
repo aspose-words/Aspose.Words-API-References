@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Cell NodeType property. Returns Cell in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.tables/cell/nodetype/
 ---
 ## Cell.NodeType property

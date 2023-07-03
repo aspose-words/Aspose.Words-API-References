@@ -5,7 +5,7 @@ articleTitle: ParentRow
 second_title: Aspose.Words for .NET
 description: Cell ParentRow property. Returns the parent row of the cell in C#.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.tables/cell/parentrow/
 ---
 ## Cell.ParentRow property

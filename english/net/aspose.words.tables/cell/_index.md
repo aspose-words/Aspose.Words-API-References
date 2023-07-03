@@ -5,7 +5,7 @@ articleTitle: Cell
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Cell class. Represents a table cell in C#.
 type: docs
-weight: 6190
+weight: 6210
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -40,11 +40,13 @@ public class Cell : CompositeNode
 | [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | True if this is the last cell inside a row; false otherwise. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Gets the last paragraph among the immediate children. |
+| [NextCell](../../aspose.words.tables/cell/nextcell/) { get; } | Gets the next `Cell` node. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | Returns Cell. |
 | [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the cell. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentRow](../../aspose.words.tables/cell/parentrow/) { get; } | Returns the parent row of the cell. |
+| [PreviousCell](../../aspose.words.tables/cell/previouscell/) { get; } | Gets the previous `Cell` node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [Tables](../../aspose.words.tables/cell/tables/) { get; } | Gets a collection of tables that are immediate children of the cell. |

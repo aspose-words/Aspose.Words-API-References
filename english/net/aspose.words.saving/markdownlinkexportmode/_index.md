@@ -5,7 +5,7 @@ articleTitle: MarkdownLinkExportMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.MarkdownLinkExportMode enum. The mode of exporting links to a target document in C#.
 type: docs
-weight: 5210
+weight: 5230
 url: /net/aspose.words.saving/markdownlinkexportmode/
 ---
 ## MarkdownLinkExportMode enumeration

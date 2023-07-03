@@ -5,7 +5,7 @@ articleTitle: CustomXmlProperty
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.CustomXmlProperty class. Represents a single custom XML attribute or a smart tag property in C#.
 type: docs
-weight: 3890
+weight: 3910
 url: /net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class

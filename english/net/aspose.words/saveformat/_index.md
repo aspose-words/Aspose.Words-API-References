@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SaveFormat enum. Indicates the format in which the document is saved in C#.
 type: docs
-weight: 4790
+weight: 4810
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -59,6 +59,7 @@ public enum SaveFormat
 | Emf | `103` | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
+| Eps | `106` | Renders a page of the document and saves it as an EPS file. |
 
 ## Examples
 

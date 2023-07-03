@@ -25,6 +25,22 @@ public static void Merge(string outputFile, string[] inputFiles)
 
 By default KeepSourceFormatting is used.
 
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```csharp
+//There is a several ways to merge documents:
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+
+Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+```
+
 ### See Also
 
 * class [Merger](../)
@@ -48,6 +64,22 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | inputFiles | String[] | The input file names. |
 | saveFormat | SaveFormat | The save format. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```csharp
+//There is a several ways to merge documents:
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+
+Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+```
 
 ### See Also
 
@@ -75,6 +107,22 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
 
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```csharp
+//There is a several ways to merge documents:
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+
+Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+```
+
 ### See Also
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
@@ -97,6 +145,22 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | --- | --- | --- |
 | inputFiles | String[] | The input file names. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Examples
+
+Shows how to merge documents into a single output document.
+
+```csharp
+//There is a several ways to merge documents:
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SimpleMerge.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" });
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveOptions.docx", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+Merger.Merge(ArtifactsDir + "LowCode.MergeDocument.SaveFormat.pdf", new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, SaveFormat.Pdf, MergeFormatMode.KeepSourceLayout);
+
+Document doc = Merger.Merge(new[] { MyDir + "Big document.docx", MyDir + "Tables.docx" }, MergeFormatMode.MergeFormatting);
+doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
+```
 
 ### See Also
 
@@ -121,6 +185,28 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | outputStream | Stream | The output stream. |
 | inputStreams | Stream[] | The input streams. |
 | saveFormat | SaveFormat | The save format. |
+
+## Examples
+
+Shows how to merge documents from stream into a single output document.
+
+```csharp
+//There is a several ways to merge documents from stream:
+using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream secondStreamIn = new FileStream(MyDir + "Tables.docx", FileMode.Open, FileAccess.Read))
+    {
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveOptions.docx", FileMode.Create, FileAccess.ReadWrite))
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveFormat.docx", FileMode.Create, FileAccess.ReadWrite))                    
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, SaveFormat.Docx);
+
+        Document doc = Merger.Merge(new[] { firstStreamIn, secondStreamIn }, MergeFormatMode.MergeFormatting);
+        doc.Save(ArtifactsDir + "LowCode.MergeStreamDocument.DocumentInstance.docx");
+    }
+}
+```
 
 ### See Also
 
@@ -147,6 +233,28 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
 
+## Examples
+
+Shows how to merge documents from stream into a single output document.
+
+```csharp
+//There is a several ways to merge documents from stream:
+using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream secondStreamIn = new FileStream(MyDir + "Tables.docx", FileMode.Open, FileAccess.Read))
+    {
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveOptions.docx", FileMode.Create, FileAccess.ReadWrite))
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveFormat.docx", FileMode.Create, FileAccess.ReadWrite))                    
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, SaveFormat.Docx);
+
+        Document doc = Merger.Merge(new[] { firstStreamIn, secondStreamIn }, MergeFormatMode.MergeFormatting);
+        doc.Save(ArtifactsDir + "LowCode.MergeStreamDocument.DocumentInstance.docx");
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
@@ -169,6 +277,28 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | --- | --- | --- |
 | inputStreams | Stream[] | The input streams. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Examples
+
+Shows how to merge documents from stream into a single output document.
+
+```csharp
+//There is a several ways to merge documents from stream:
+using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream secondStreamIn = new FileStream(MyDir + "Tables.docx", FileMode.Open, FileAccess.Read))
+    {
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveOptions.docx", FileMode.Create, FileAccess.ReadWrite))
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, new OoxmlSaveOptions() { Password = "Aspose.Words" }, MergeFormatMode.KeepSourceFormatting);
+
+        using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamDocument.SaveFormat.docx", FileMode.Create, FileAccess.ReadWrite))                    
+            Merger.Merge(streamOut, new[] { firstStreamIn, secondStreamIn }, SaveFormat.Docx);
+
+        Document doc = Merger.Merge(new[] { firstStreamIn, secondStreamIn }, MergeFormatMode.MergeFormatting);
+        doc.Save(ArtifactsDir + "LowCode.MergeStreamDocument.DocumentInstance.docx");
+    }
+}
+```
 
 ### See Also
 

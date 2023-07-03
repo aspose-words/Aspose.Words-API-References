@@ -5,7 +5,7 @@ articleTitle: Row
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Row class. Represents a table row in C#.
 type: docs
-weight: 6260
+weight: 6280
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -40,10 +40,12 @@ public class Row : CompositeNode
 | [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True if this is the last row in a table; false otherwise. |
 | [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Returns the last [`Cell`](../cell/) in the row. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
+| [NextRow](../../aspose.words.tables/row/nextrow/) { get; } | Gets the next `Row` node. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | Returns Row. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | Returns the immediate parent table of the row. |
+| [PreviousRow](../../aspose.words.tables/row/previousrow/) { get; } | Gets the previous `Row` node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | Provides access to the formatting properties of the row. |
