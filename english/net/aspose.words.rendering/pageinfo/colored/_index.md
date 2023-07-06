@@ -16,6 +16,17 @@ Returns `true` if the page contains colored content.
 public bool Colored { get; }
 ```
 
+## Examples
+
+Shows how to check whether the page is in color or not.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+// Check that the first page of the document is not colored.
+Assert.IsFalse(doc.GetPageInfo(0).Colored);
+```
+
 ### See Also
 
 * class [PageInfo](../)

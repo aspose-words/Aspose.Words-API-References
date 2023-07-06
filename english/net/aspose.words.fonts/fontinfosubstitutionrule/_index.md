@@ -48,6 +48,9 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
+    // Original font metrics should be used after font substitution.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
     // We will get a font substitution warning if we save a document with a missing font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");

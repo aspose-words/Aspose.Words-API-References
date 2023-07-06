@@ -5,7 +5,7 @@ articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.OdsoRecipientDataCollection class. A typed collection of OdsoRecipientData in C#.
 type: docs
-weight: 5890
+weight: 5910
 url: /net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class

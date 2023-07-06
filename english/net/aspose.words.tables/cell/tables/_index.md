@@ -5,7 +5,7 @@ articleTitle: Tables
 second_title: Aspose.Words for .NET
 description: Cell Tables property. Gets a collection of tables that are immediate children of the cell in C#.
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property

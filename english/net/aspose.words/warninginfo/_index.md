@@ -5,7 +5,7 @@ articleTitle: WarningInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving in C#.
 type: docs
-weight: 6580
+weight: 6600
 url: /net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
@@ -49,6 +49,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original font metrics should be used after font substitution.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
     doc.FontSettings = fontSettings;

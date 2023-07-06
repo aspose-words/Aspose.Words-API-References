@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningInfoCollection class. Represents a typed collection of WarningInfo objects in C#.
 type: docs
-weight: 6590
+weight: 6610
 url: /net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
@@ -62,6 +62,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original font metrics should be used after font substitution.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
     doc.FontSettings = fontSettings;

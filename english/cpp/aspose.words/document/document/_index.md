@@ -102,32 +102,6 @@ Shows how to load a document using a stream.
 }
 ```
 
-
-Shows how to load a document from a URL. 
-```cpp
-// Create a URL that points to a Microsoft Word document.
-const String url = u"https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
-
-// Download the document into a byte array, then load that array into a document using a memory stream.
-{
-    auto webClient = MakeObject<System::Net::WebClient>();
-    ArrayPtr<uint8_t> dataBytes = webClient->DownloadData(url);
-
-    {
-        auto byteStream = MakeObject<System::IO::MemoryStream>(dataBytes);
-        auto doc = MakeObject<Document>(byteStream);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        ASSERT_EQ(String(u"Use this section to highlight your relevant passions, activities, and how you like to give back. ") +
-                      u"It’s good to include Leadership and volunteer experiences here. " +
-                      u"Or show off important extras like publications, certifications, languages and more.",
-                  doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(4)->GetText().Trim());
-
-        doc->Save(ArtifactsDir + u"Document.LoadFromWeb.docx");
-    }
-}
-```
-
 ## See Also
 
 * Class [Document](../)

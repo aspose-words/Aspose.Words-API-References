@@ -5,7 +5,7 @@ articleTitle: PdfFontEmbeddingMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfFontEmbeddingMode enum. Specifies how Aspose.Words should embed fonts in C#.
 type: docs
-weight: 5420
+weight: 5440
 url: /net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -61,7 +61,7 @@ switch (pdfFontEmbeddingMode)
         Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
     case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4217, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
+        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
 }
 ```

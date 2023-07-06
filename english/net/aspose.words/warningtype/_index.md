@@ -5,7 +5,7 @@ articleTitle: WarningType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.WarningType enum. Specifies the type of a warning that is issued by Aspose.Words during document loading or saving in C#.
 type: docs
-weight: 6610
+weight: 6630
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -52,6 +52,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original font metrics should be used after font substitution.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
     doc.FontSettings = fontSettings;

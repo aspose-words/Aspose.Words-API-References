@@ -100,6 +100,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 
 | Interface | Description |
 | --- | --- |
+| [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |

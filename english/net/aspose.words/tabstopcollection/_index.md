@@ -5,7 +5,7 @@ articleTitle: TabStopCollection
 second_title: Aspose.Words for .NET
 description: Aspose.Words.TabStopCollection class. A collection of TabStop objects that represent custom tabs for a paragraph or a style in C#.
 type: docs
-weight: 6160
+weight: 6180
 url: /net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class

@@ -5,7 +5,7 @@ articleTitle: Accept
 second_title: Aspose.Words for .NET
 description: Row Accept method. Accepts a visitor in C#.
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method

@@ -22,9 +22,11 @@ class ChartFormat : public Aspose::Words::Drawing::Core::IFillable,
 | Method | Description |
 | --- | --- |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the parent chart element. |
+| [get_ShapeType](./get_shapetype/)() | Gets the shape type of the parent chart element. |
 | [get_Stroke](./get_stroke/)() | Gets line formatting for the parent chart element. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_ShapeType](./set_shapetype/)(Aspose::Words::Drawing::Charts::ChartShapeType) | Sets the shape type of the parent chart element. |
 | static [Type](./type/)() |  |
 ## See Also
 

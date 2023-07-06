@@ -16,6 +16,19 @@ Specifies the compression level used to save document. The default value is Norm
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
+## Examples
+
+Shows how to compress XLSX document.
+
+```csharp
+Document doc = new Document(MyDir + "Shape with linked chart.docx");
+
+XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum; 
+
+doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+```
+
 ### See Also
 
 * enum [CompressionLevel](../../compressionlevel/)
