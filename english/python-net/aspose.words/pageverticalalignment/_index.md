@@ -5,7 +5,7 @@ articleTitle: PageVerticalAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PageVerticalAlignment enumeration. Specifies vertical justification of text on each page."
 type: docs
-weight: 820
+weight: 830
 url: /python-net/aspose.words/pageverticalalignment/
 ---
 

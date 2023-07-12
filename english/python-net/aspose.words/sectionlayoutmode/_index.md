@@ -5,7 +5,7 @@ articleTitle: SectionLayoutMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SectionLayoutMode enumeration. Specifies the layout mode for a section allowing to define the document grid behavior."
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/sectionlayoutmode/
 ---
 

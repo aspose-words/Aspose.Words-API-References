@@ -5,7 +5,7 @@ articleTitle: Run class
 second_title: Aspose.Words for Python
 description: "aspose.words.Run class. Represents a run of characters with the same font formatting"
 type: docs
-weight: 980
+weight: 990
 url: /python-net/aspose.words/run/
 ---
 

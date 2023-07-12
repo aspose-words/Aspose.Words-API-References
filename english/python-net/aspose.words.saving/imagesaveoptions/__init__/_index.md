@@ -3,7 +3,7 @@ title: ImageSaveOptions constructor
 linktitle: ImageSaveOptions constructor
 articleTitle: ImageSaveOptions constructor
 second_title: Aspose.Words for Python
-description: "ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG) or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG) format"
+description: "ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../../aspose.words/saveformat/#EPS) or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG) format."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/imagesaveoptions/__init__/
@@ -13,9 +13,8 @@ url: /python-net/aspose.words.saving/imagesaveoptions/__init__/
 
 Initializes a new instance of this class that can be used to save rendered images in the
 [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),
-[SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG) or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG) format.
-[SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG)
-or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG)  format.
+[SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../../aspose.words/saveformat/#EPS)
+or [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG) format.
 
 
 

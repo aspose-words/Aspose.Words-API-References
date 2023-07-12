@@ -53,7 +53,7 @@ their heading levels, and specified styles, and inserts that table at this place
 | [preserve_tabs](./preserve_tabs/) | Gets or sets whether to preserve tab entries within table entries. |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
 | [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
-| [sequence_separator](./sequence_separator/) | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [sequence_separator](./sequence_separator/) | Makes a Bookmark object for a bookmark name in \\\\b switch argument. |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
 | [table_of_figures_label](./table_of_figures_label/) | Gets or sets the name of the sequence identifier used when building a table of figures. |
 | [type](../field/type/) | Gets the Microsoft Word field type.<br>(Inherited from [Field](../field/)) |

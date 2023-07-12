@@ -5,7 +5,7 @@ articleTitle: RevisionGroup class
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionGroup class. Represents a group of sequential [Revision](../revision/) objects"
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.words/revisiongroup/
 ---
 
