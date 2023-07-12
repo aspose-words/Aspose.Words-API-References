@@ -13,20 +13,13 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_
 
 Removes all digital signatures from source file and writes unsigned file to destination file.
 The following formats are compatible for digital signature removal:
-
-[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC)
-
-[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT)
-
-[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX)
-
-[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX)
-
-[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM)
-
-[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT)
-
-[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT)
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 
 
@@ -47,20 +40,13 @@ Removes all digital signatures from document in source stream and writes unsigne
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
 The following formats are compatible for digital signature removal:
-
-[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC)
-
-[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT)
-
-[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX)
-
-[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX)
-
-[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM)
-
-[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT)
-
-[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT)
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 
 

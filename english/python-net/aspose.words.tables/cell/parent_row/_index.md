@@ -5,7 +5,7 @@ articleTitle: parent_row property
 second_title: Aspose.Words for Python
 description: "Cell.parent_row property. Returns the parent row of the cell."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.tables/cell/parent_row/
 ---
 

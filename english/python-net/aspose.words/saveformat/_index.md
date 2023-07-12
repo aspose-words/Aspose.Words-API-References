@@ -5,7 +5,7 @@ articleTitle: SaveFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SaveFormat enumeration. Indicates the format in which the document is saved."
 type: docs
-weight: 1000
+weight: 1010
 url: /python-net/aspose.words/saveformat/
 ---
 
@@ -57,6 +57,7 @@ Indicates the format in which the document is saved.
 | EMF | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
 | JPEG | Renders a page of the document and saves it as a JPEG file. |
 | GIF | Renders a page of the document and saves it as a GIF file. |
+| EPS | Renders a page of the document and saves it as an EPS file. |
 
 ### Examples
 

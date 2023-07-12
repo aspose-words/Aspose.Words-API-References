@@ -14,10 +14,11 @@ url: /python-net/aspose.words.saving/imagesaveoptions/save_format/
 Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used.
 Can be a raster
 [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),
-[SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.SVG](../../../aspose.words/saveformat/#SVG).
+[SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../../aspose.words/saveformat/#EPS),
+[SaveFormat.SVG](../../../aspose.words/saveformat/#SVG).
 
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).
 

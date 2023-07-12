@@ -26,6 +26,7 @@ Specifies the type (format) of an image in a Microsoft Word document.
 | JPEG | JPEG JFIF. |
 | PNG | Portable Network Graphics. |
 | BMP | Windows Bitmap. |
+| EPS | Encapsulated PostScript. |
 
 ### Examples
 

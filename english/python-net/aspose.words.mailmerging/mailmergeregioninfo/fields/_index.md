@@ -5,7 +5,7 @@ articleTitle: fields property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.fields property. Returns a list of child fields."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/fields/
 ---
 

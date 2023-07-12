@@ -5,7 +5,7 @@ articleTitle: level property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.level property. Returns the nesting level for the region."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
 

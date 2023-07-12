@@ -5,7 +5,7 @@ articleTitle: ensure_minimum method
 second_title: Aspose.Words for Python
 description: "Cell.ensure_minimum method. If the last child is not a paragraph, creates and appends one empty paragraph."
 type: docs
-weight: 120
+weight: 140
 url: /python-net/aspose.words.tables/cell/ensure_minimum/
 ---
 
