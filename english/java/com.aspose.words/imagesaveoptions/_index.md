@@ -1586,11 +1586,11 @@ public int getSaveFormat()
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
  **Remarks:** 
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/).
 
@@ -3529,11 +3529,11 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF), [SaveFormat.EPS](../../com.aspose.words/saveformat/\#EPS), [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
  **Remarks:** 
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/).
 

@@ -38,6 +38,7 @@ Shows how to add an image to a shape and check its type.
 | --- | --- |
 | [BMP](#BMP) | Windows Bitmap. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
+| [EPS](#EPS) | Encapsulated PostScript. |
 | [JPEG](#JPEG) | JPEG JFIF. |
 | [NO_IMAGE](#NO-IMAGE) | The is no image data. |
 | [PICT](#PICT) | Macintosh PICT. |
@@ -68,6 +69,14 @@ public static int EMF
 
 
 Windows Enhanced Metafile.
+
+### EPS {#EPS}
+```
+public static int EPS
+```
+
+
+Encapsulated PostScript.
 
 ### JPEG {#JPEG}
 ```

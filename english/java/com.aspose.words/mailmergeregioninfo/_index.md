@@ -64,12 +64,15 @@ Shows how to get MailMergeRegionInfo and work with it.
 | Method | Description |
 | --- | --- |
 | [getEndField()](#getEndField) | Returns an end field for the region. |
+| [getEndMustacheTag()](#getEndMustacheTag) | Returns an end "mustache" tag for the region. |
 | [getFields()](#getFields) | Returns a list of child fields. |
 | [getLevel()](#getLevel) | Returns the nesting level for the region. |
+| [getMustacheTags()](#getMustacheTags) | Returns a list of child "mustache" tags. |
 | [getName()](#getName) | Returns the name of region. |
 | [getParentRegion()](#getParentRegion) | Returns parent region info (null for top-level region). |
 | [getRegions()](#getRegions) | Returns a list of child regions. |
 | [getStartField()](#getStartField) | Returns a start field for the region. |
+| [getStartMustacheTag()](#getStartMustacheTag) | Returns a start "mustache" tag for the region. |
 ### getEndField() {#getEndField}
 ```
 public FieldMergeField getEndField()
@@ -119,6 +122,16 @@ Shows how to get MailMergeRegionInfo and work with it.
 
 **Returns:**
 [FieldMergeField](../../com.aspose.words/fieldmergefield/) - An end field for the region.
+### getEndMustacheTag() {#getEndMustacheTag}
+```
+public MustacheTag getEndMustacheTag()
+```
+
+
+Returns an end "mustache" tag for the region.
+
+**Returns:**
+[MustacheTag](../../com.aspose.words/mustachetag/) - An end "mustache" tag for the region.
 ### getFields() {#getFields}
 ```
 public ArrayList getFields()
@@ -217,6 +230,16 @@ Shows how to get MailMergeRegionInfo and work with it.
 
 **Returns:**
 int - The nesting level for the region.
+### getMustacheTags() {#getMustacheTags}
+```
+public ArrayList getMustacheTags()
+```
+
+
+Returns a list of child "mustache" tags.
+
+**Returns:**
+java.util.ArrayList - A list of child "mustache" tags.
 ### getName() {#getName}
 ```
 public String getName()
@@ -421,3 +444,13 @@ Shows how to get MailMergeRegionInfo and work with it.
 
 **Returns:**
 [FieldMergeField](../../com.aspose.words/fieldmergefield/) - A start field for the region.
+### getStartMustacheTag() {#getStartMustacheTag}
+```
+public MustacheTag getStartMustacheTag()
+```
+
+
+Returns a start "mustache" tag for the region.
+
+**Returns:**
+[MustacheTag](../../com.aspose.words/mustachetag/) - A start "mustache" tag for the region.

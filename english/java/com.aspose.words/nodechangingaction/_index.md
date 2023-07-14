@@ -4,7 +4,7 @@ linktitle: NodeChangingAction
 second_title: Aspose.Words for Java
 description: Specifies the type of node change in Java.
 type: docs
-weight: 422
+weight: 423
 url: /java/com.aspose.words/nodechangingaction/
 ---
 

@@ -171,12 +171,14 @@ Shows how to build a nested table without using a document builder.
 | [getFirstParagraph()](#getFirstParagraph) | Gets the first paragraph among the immediate children. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getLastParagraph()](#getLastParagraph) | Gets the last paragraph among the immediate children. |
+| [getNextCell()](#getNextCell) | Gets the next [Cell](../../com.aspose.words/cell/) node. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeType()](#getNodeType) | Returns [NodeType.CELL](../../com.aspose.words/nodetype/\#CELL). |
 | [getParagraphs()](#getParagraphs) | Gets a collection of paragraphs that are immediate children of the cell. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getParentRow()](#getParentRow) | Returns the parent row of the cell. |
+| [getPreviousCell()](#getPreviousCell) | Gets the previous [Cell](../../com.aspose.words/cell/) node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getTables()](#getTables) | Gets a collection of tables that are immediate children of the cell. |
@@ -1360,6 +1362,20 @@ Shows how to apply settings to vertical borders to a table row's format.
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph/) - The last paragraph among the immediate children.
+### getNextCell() {#getNextCell}
+```
+public Cell getNextCell()
+```
+
+
+Gets the next [Cell](../../com.aspose.words/cell/) node.
+
+ **Remarks:** 
+
+The method can be used when you need to have typed access to cells of a [Row](../../com.aspose.words/row/). If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a row instead of a cell, it is automatically traversed to get a cell contained within.
+
+**Returns:**
+[Cell](../../com.aspose.words/cell/) - The next [Cell](../../com.aspose.words/cell/) node.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -1622,6 +1638,20 @@ Shows how to set a table to stay together on the same page.
 
 **Returns:**
 [Row](../../com.aspose.words/row/) - The parent row of the cell.
+### getPreviousCell() {#getPreviousCell}
+```
+public Cell getPreviousCell()
+```
+
+
+Gets the previous [Cell](../../com.aspose.words/cell/) node.
+
+ **Remarks:** 
+
+The method can be used when you need to have typed access to cells of a [Row](../../com.aspose.words/row/). If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a row instead of a cell, it is automatically traversed to get a cell contained within.
+
+**Returns:**
+[Cell](../../com.aspose.words/cell/) - The previous [Cell](../../com.aspose.words/cell/) node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()

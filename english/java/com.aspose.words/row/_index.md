@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for Java
 description: Represents a table row in Java.
 type: docs
-weight: 515
+weight: 516
 url: /java/com.aspose.words/row/
 ---
 
@@ -172,10 +172,12 @@ Shows how to build a nested table without using a document builder.
 | [getLastCell()](#getLastCell) | Returns the last [Cell](../../com.aspose.words/cell/) in the row. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
+| [getNextRow()](#getNextRow) | Gets the next [Row](../../com.aspose.words/row/) node. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeType()](#getNodeType) | Returns [NodeType.ROW](../../com.aspose.words/nodetype/\#ROW). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getParentTable()](#getParentTable) | Returns the immediate parent table of the row. |
+| [getPreviousRow()](#getPreviousRow) | Gets the previous [Row](../../com.aspose.words/row/) node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRowFormat()](#getRowFormat) | Provides access to the formatting properties of the row. |
@@ -1504,6 +1506,20 @@ public Node getNextMatchingNode(Node curNode)
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
+### getNextRow() {#getNextRow}
+```
+public Row getNextRow()
+```
+
+
+Gets the next [Row](../../com.aspose.words/row/) node.
+
+ **Remarks:** 
+
+The method can be used when you need to have typed access to table rows. If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a table instead of a row, it is automatically traversed to get a row contained within.
+
+**Returns:**
+[Row](../../com.aspose.words/row/) - The next [Row](../../com.aspose.words/row/) node.
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -1841,6 +1857,20 @@ Shows how to print the node structure of every table in a document.
 
 **Returns:**
 [Table](../../com.aspose.words/table/) - The immediate parent table of the row.
+### getPreviousRow() {#getPreviousRow}
+```
+public Row getPreviousRow()
+```
+
+
+Gets the previous [Row](../../com.aspose.words/row/) node.
+
+ **Remarks:** 
+
+The method can be used when you need to have typed access to table rows. If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a table instead of a row, it is automatically traversed to get a row contained within.
+
+**Returns:**
+[Row](../../com.aspose.words/row/) - The previous [Row](../../com.aspose.words/row/) node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()

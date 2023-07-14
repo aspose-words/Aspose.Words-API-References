@@ -4,7 +4,7 @@ linktitle: Run
 second_title: Aspose.Words for Java
 description: Represents a run of characters with the same font formatting in Java.
 type: docs
-weight: 520
+weight: 521
 url: /java/com.aspose.words/run/
 ---
 
@@ -1208,7 +1208,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (141872,6)
+Returns  true  if this node can contain other nodes. (141952,6)
 
  **Examples:** 
 

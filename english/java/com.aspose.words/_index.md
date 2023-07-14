@@ -441,6 +441,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
 | [MsWordVersion](../com.aspose.words/mswordversion/) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
 | [MultiplePagesType](../com.aspose.words/multiplepagestype/) | Specifies how document is printed out. |
+| [MustacheTag](../com.aspose.words/mustachetag/) | Represents "mustache" tag. |
 | [NativeLibSettings](../com.aspose.words/nativelibsettings/) | This class helps to set various options such as temporary folder for Aspose.Words native libraries and whether native libraries should be loaded and used. |
 | [Node](../com.aspose.words/node/) | Base class for all nodes of a Word document. |
 | [NodeChangingAction](../com.aspose.words/nodechangingaction/) | Specifies the type of node change. |
@@ -686,6 +687,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [IChartDataPoint](../com.aspose.words/ichartdatapoint/) | Contains properties of a single data point on the chart. |
 | [IComparisonExpressionEvaluator](../com.aspose.words/icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](../com.aspose.words/fieldif/) and [FieldCompare](../com.aspose.words/fieldcompare/) fields. |
 | [ICssSavingCallback](../com.aspose.words/icsssavingcallback/) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |
+| [IDocumentConverterPlugin](../com.aspose.words/idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentLoadingCallback](../com.aspose.words/idocumentloadingcallback/) | Implement this interface if you want to have your own custom method called during loading a document. |
 | [IDocumentMergerPlugin](../com.aspose.words/idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
 | [IDocumentPartSavingCallback](../com.aspose.words/idocumentpartsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.\#HTML](../com.aspose.words/saveformat/\#HTML) or [SaveFormat.\#EPUB](../com.aspose.words/saveformat/\#EPUB) format. |
