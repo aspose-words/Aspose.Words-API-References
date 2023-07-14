@@ -51,6 +51,7 @@ Shows how to validate and display information about each signature in a document
 | [getIssuerName()](#getIssuerName) | Returns the subject distinguished name of the certificate isuuer. |
 | [getSignTime()](#getSignTime) | Gets the time the document was signed. |
 | [getSignatureType()](#getSignatureType) | Gets the type of the digital signature. |
+| [getSignatureValue()](#getSignatureValue) | Gets an array of bytes representing a signature value. |
 | [getSubjectName()](#getSubjectName) | Returns the subject distinguished name of the certificate that was used to sign the document. |
 | [isValid()](#isValid) | Returns  true  if this digital signature is valid and the document has not been tampered with. |
 | [toString()](#toString) | Returns a user-friendly string that displays the value of this object. |
@@ -268,6 +269,16 @@ Shows how to validate and display information about each signature in a document
 
 **Returns:**
 int - The type of the digital signature. The returned value is one of [DigitalSignatureType](../../com.aspose.words/digitalsignaturetype/) constants.
+### getSignatureValue() {#getSignatureValue}
+```
+public byte[] getSignatureValue()
+```
+
+
+Gets an array of bytes representing a signature value.
+
+**Returns:**
+byte[] - An array of bytes representing a signature value.
 ### getSubjectName() {#getSubjectName}
 ```
 public String getSubjectName()

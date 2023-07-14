@@ -4,7 +4,7 @@ linktitle: OutlineOptions
 second_title: Aspose.Words for Java
 description: Allows to specify outline options in Java.
 type: docs
-weight: 451
+weight: 452
 url: /java/com.aspose.words/outlineoptions/
 ---
 

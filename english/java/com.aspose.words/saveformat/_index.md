@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Words for Java
 description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 522
+weight: 523
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -41,6 +41,7 @@ Shows how to convert from DOCX to HTML format.
 | [DOTM](#DOTM) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template. |
 | [DOTX](#DOTX) | Saves the document as an Office Open XML WordprocessingML Template (macro-free). |
 | [EMF](#EMF) | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
+| [EPS](#EPS) | Renders a page of the document and saves it as an EPS file. |
 | [EPUB](#EPUB) | Saves the document in the EPUB format. |
 | [FLAT_OPC](#FLAT-OPC) | Saves the document as an Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package. |
 | [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package. |
@@ -151,6 +152,14 @@ public static int EMF
 
 
 Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file.
+
+### EPS {#EPS}
+```
+public static int EPS
+```
+
+
+Renders a page of the document and saves it as an EPS file.
 
 ### EPUB {#EPUB}
 ```

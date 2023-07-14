@@ -91,14 +91,6 @@ Shows how to configure list exporting to HTML.
                          "" +
                          ""));
 
-         Assert.assertTrue(outDocContents.contains(
-                 " " +
-                         "" +
-                         "2.1.1.1" +
-                         "       " +
-                         "" +
-                         "Outline legal heading list item 5." +
-                         ""));
          break;
      case ExportListLabels.BY_HTML_TAGS:
          Assert.assertTrue(outDocContents.contains(
@@ -108,13 +100,6 @@ Shows how to configure list exporting to HTML.
                          "" +
                          ""));
 
-         Assert.assertTrue(outDocContents.contains(
-                 " " +
-                         " " +
-                         "       " +
-                         "Outline legal heading list item 5." +
-                         "" +
-                         ""));
          break;
  }
  

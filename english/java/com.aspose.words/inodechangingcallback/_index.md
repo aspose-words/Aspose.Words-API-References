@@ -4,7 +4,7 @@ linktitle: INodeChangingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document in Java.
 type: docs
-weight: 678
+weight: 680
 url: /java/com.aspose.words/inodechangingcallback/
 ---
 ```

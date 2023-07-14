@@ -4,7 +4,7 @@ linktitle: OfficeMathJustification
 second_title: Aspose.Words for Java
 description: Specifies the justification of the equation in Java.
 type: docs
-weight: 442
+weight: 443
 url: /java/com.aspose.words/officemathjustification/
 ---
 

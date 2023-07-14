@@ -183,7 +183,6 @@ Shows how to populate a TOC field with entries using SEQ fields.
 
 | Method | Description |
 | --- | --- |
-| [getAreCustomStylesSpecified()](#getAreCustomStylesSpecified) |  |
 | [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark that marks the portion of the document used to build the table. |
 | [getCaptionlessTableOfFiguresLabel()](#getCaptionlessTableOfFiguresLabel) | Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
 | [getCustomStyles()](#getCustomStyles) | Gets a list of styles other than the built-in heading styles to include in the table of contents. |
@@ -192,39 +191,29 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [getEntryIdentifier()](#getEntryIdentifier) | Gets a string that should match type identifiers of TC fields being included. |
 | [getEntryLevelRange()](#getEntryLevelRange) | Gets a range of levels of the table of contents entries to be included. |
 | [getEntrySeparator()](#getEntrySeparator) | Gets a sequence of characters that separate an entry and its page number. |
-| [getEntryTypeCore()](#getEntryTypeCore) |  |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getHeadingLevelRange()](#getHeadingLevelRange) | Gets a range of heading levels to include. |
 | [getHideInWebLayout()](#getHideInWebLayout) | Gets whether to hide tab leader and page numbers in Web layout view. |
-| [getIncludeRefDocFields()](#getIncludeRefDocFields) |  |
-| [getIncludeTocEntryFields()](#getIncludeTocEntryFields) |  |
 | [getInsertHyperlinks()](#getInsertHyperlinks) | Gets whether to make the table of contents entries hyperlinks. |
-| [getLevelForCustomStyle(Paragraph paragraph, Style style)](#getLevelForCustomStyle-com.aspose.words.Paragraph-com.aspose.words.Style) |  |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getPageNumberOmittingLevelRange()](#getPageNumberOmittingLevelRange) | Gets a range of levels of the table of contents entries from which to omits page numbers. |
 | [getPrefixedSequenceIdentifier()](#getPrefixedSequenceIdentifier) | Gets the identifier of a sequence for which a prefix should be added to the entry's page number. |
 | [getPreserveLineBreaks()](#getPreserveLineBreaks) | Gets whether to preserve newline characters within table entries. |
 | [getPreserveTabs()](#getPreserveTabs) | Gets whether to preserve tab entries within table entries. |
-| [getRangeBookmark()](#getRangeBookmark) |  |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
-| [getSequenceSeparator()](#getSequenceSeparator) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
-| [getSkipTables()](#getSkipTables) |  |
+| [getSequenceSeparator()](#getSequenceSeparator) | Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getTableOfFiguresLabel()](#getTableOfFiguresLabel) | Gets the name of the sequence identifier used when building a table of figures. |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getUseParagraphOutlineLevel()](#getUseParagraphOutlineLevel) | Gets whether to use the applied paragraph outline level. |
-| [isBookmarkRangeSpecified()](#isBookmarkRangeSpecified) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isEntryLevelRangeSpecified()](#isEntryLevelRangeSpecified) |  |
-| [isHeadingLevelRangeSpecified()](#isHeadingLevelRangeSpecified) |  |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [isTableOfFigures()](#isTableOfFigures) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark that marks the portion of the document used to build the table. |
 | [setCaptionlessTableOfFiguresLabel(String value)](#setCaptionlessTableOfFiguresLabel-java.lang.String) | Sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
@@ -241,23 +230,13 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [setPreserveLineBreaks(boolean value)](#setPreserveLineBreaks-boolean) | Sets whether to preserve newline characters within table entries. |
 | [setPreserveTabs(boolean value)](#setPreserveTabs-boolean) | Sets whether to preserve tab entries within table entries. |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
-| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [setTableOfFiguresLabel(String value)](#setTableOfFiguresLabel-java.lang.String) | Sets the name of the sequence identifier used when building a table of figures. |
 | [setUseParagraphOutlineLevel(boolean value)](#setUseParagraphOutlineLevel-boolean) | Sets whether to use the applied paragraph outline level. |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
 | [updatePageNumbers()](#updatePageNumbers) | Updates the page numbers for items in this table of contents. |
-### getAreCustomStylesSpecified() {#getAreCustomStylesSpecified}
-```
-public boolean getAreCustomStylesSpecified()
-```
-
-
-
-
-**Returns:**
-boolean
 ### getBookmarkName() {#getBookmarkName}
 ```
 public String getBookmarkName()
@@ -808,16 +787,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 java.lang.String - A sequence of characters that separate an entry and its page number.
-### getEntryTypeCore() {#getEntryTypeCore}
-```
-public int getEntryTypeCore()
-```
-
-
-
-
-**Returns:**
-int
 ### getFieldCode() {#getFieldCode}
 ```
 public String getFieldCode()
@@ -1162,26 +1131,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean - Whether to hide tab leader and page numbers in Web layout view.
-### getIncludeRefDocFields() {#getIncludeRefDocFields}
-```
-public boolean getIncludeRefDocFields()
-```
-
-
-
-
-**Returns:**
-boolean
-### getIncludeTocEntryFields() {#getIncludeTocEntryFields}
-```
-public boolean getIncludeTocEntryFields()
-```
-
-
-
-
-**Returns:**
-boolean
 ### getInsertHyperlinks() {#getInsertHyperlinks}
 ```
 public boolean getInsertHyperlinks()
@@ -1274,22 +1223,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean - Whether to make the table of contents entries hyperlinks.
-### getLevelForCustomStyle(Paragraph paragraph, Style style) {#getLevelForCustomStyle-com.aspose.words.Paragraph-com.aspose.words.Style}
-```
-public int getLevelForCustomStyle(Paragraph paragraph, Style style)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph/) |  |
-| style | [Style](../../com.aspose.words/style/) |  |
-
-**Returns:**
-int
 ### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
@@ -1688,16 +1621,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean - Whether to preserve tab entries within table entries.
-### getRangeBookmark() {#getRangeBookmark}
-```
-public Bookmark getRangeBookmark()
-```
-
-
-
-
-**Returns:**
-[Bookmark](../../com.aspose.words/bookmark/)
 ### getResult() {#getResult}
 ```
 public String getResult()
@@ -1834,7 +1757,7 @@ public String getSequenceSeparator()
 ```
 
 
-Gets the character sequence that is used to separate sequence numbers and page numbers.
+Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
  **Examples:** 
 
@@ -1912,17 +1835,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 ```
 
 **Returns:**
-java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
-### getSkipTables() {#getSkipTables}
-```
-public boolean getSkipTables()
-```
-
-
-
-
-**Returns:**
-boolean
+java.lang.String -  null  if a valid bookmark can not be found.
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -2245,16 +2158,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean - Whether to use the applied paragraph outline level.
-### isBookmarkRangeSpecified() {#isBookmarkRangeSpecified}
-```
-public boolean isBookmarkRangeSpecified()
-```
-
-
-
-
-**Returns:**
-boolean
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -2380,26 +2283,6 @@ Shows how to use special property for updating field result.
 | --- | --- | --- |
 | value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isEntryLevelRangeSpecified() {#isEntryLevelRangeSpecified}
-```
-public boolean isEntryLevelRangeSpecified()
-```
-
-
-
-
-**Returns:**
-boolean
-### isHeadingLevelRangeSpecified() {#isHeadingLevelRangeSpecified}
-```
-public boolean isHeadingLevelRangeSpecified()
-```
-
-
-
-
-**Returns:**
-boolean
 ### isLocked() {#isLocked}
 ```
 public boolean isLocked()
@@ -2483,16 +2366,6 @@ Shows how to work with a FieldStart node.
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### isTableOfFigures() {#isTableOfFigures}
-```
-public boolean isTableOfFigures()
-```
-
-
-
-
-**Returns:**
-boolean
 ### remove() {#remove}
 ```
 public Node remove()
@@ -3761,7 +3634,7 @@ public void setSequenceSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate sequence numbers and page numbers.
+Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 
  **Examples:** 
 
@@ -3841,7 +3714,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
+| value | java.lang.String |  null  if a valid bookmark can not be found. |
 
 ### setTableOfFiguresLabel(String value) {#setTableOfFiguresLabel-java.lang.String}
 ```
