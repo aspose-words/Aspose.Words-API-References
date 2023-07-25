@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_tableoffigureslabel/
 Gets or sets the name of the sequence identifier used when building a table of figures.
 
 ```cpp
-System::String Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel() override
+System::String Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel()
 ```
 
 

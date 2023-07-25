@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_fields/
 Returns a list of child fields.
 
 ```cpp
-System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<Aspose::Words::Fields::Field>>> Aspose::Words::MailMerging::MailMergeRegionInfo::get_Fields() const
+const System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<Aspose::Words::Fields::Field>>> & Aspose::Words::MailMerging::MailMergeRegionInfo::get_Fields() const
 ```
 
 

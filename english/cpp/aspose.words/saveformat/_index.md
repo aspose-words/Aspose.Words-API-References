@@ -59,6 +59,7 @@ enum class SaveFormat
 | Emf | 103 | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
 | Jpeg | 104 | Renders a page of the document and saves it as a JPEG file. |
 | Gif | 105 | Renders a page of the document and saves it as a GIF file. |
+| Eps | 106 | Renders a page of the document and saves it as an EPS file. |
 
 
 ## Examples
