@@ -14,8 +14,7 @@ Implements the TOC field. To learn more, visit the [Working with Fields](https:/
 
 ```cpp
 class FieldToc : public Aspose::Words::Fields::Field,
-                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                 public Aspose::Words::Fields::ITocEntryExtractorOptions
+                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -24,10 +23,9 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | --- | --- |
 | [FieldToc](./fieldtoc/)() |  |
 | [get_BookmarkName](./get_bookmarkname/)() | Gets or sets the name of the bookmark that marks the portion of the document used to build the table. |
-| [get_CaptionlessTableOfFiguresLabel](./get_captionlesstableoffigureslabel/)() override | Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
+| [get_CaptionlessTableOfFiguresLabel](./get_captionlesstableoffigureslabel/)() | Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
 | [get_CustomStyles](./get_customstyles/)() | Gets or sets a list of styles other than the built-in heading styles to include in the table of contents. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
-| [get_End](./get_end/)() override | Gets the node that represents the field end. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
 | [get_EntryIdentifier](./get_entryidentifier/)() | Gets or sets a string that should match type identifiers of TC fields being included. |
 | [get_EntryLevelRange](./get_entrylevelrange/)() | Gets or sets a range of levels of the table of contents entries to be included. |
@@ -48,11 +46,10 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SequenceSeparator](./get_sequenceseparator/)() | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
-| [get_Start](./get_start/)() override | Gets the node that represents the start of the field. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
-| [get_TableOfFiguresLabel](./get_tableoffigureslabel/)() override | Gets or sets the name of the sequence identifier used when building a table of figures. |
+| [get_TableOfFiguresLabel](./get_tableoffigureslabel/)() | Gets or sets the name of the sequence identifier used when building a table of figures. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [get_UseParagraphOutlineLevel](./get_useparagraphoutlinelevel/)() override | Gets or sets whether to use the applied paragraph outline level. |
+| [get_UseParagraphOutlineLevel](./get_useparagraphoutlinelevel/)() | Gets or sets whether to use the applied paragraph outline level. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |

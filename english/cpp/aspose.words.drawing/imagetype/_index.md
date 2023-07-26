@@ -28,6 +28,7 @@ enum class ImageType
 | Jpeg | 5 | JPEG JFIF. |
 | Png | 6 | Portable Network Graphics. |
 | Bmp | 7 | Windows Bitmap. |
+| Eps | 8 | Encapsulated PostScript. |
 
 
 ## Examples
