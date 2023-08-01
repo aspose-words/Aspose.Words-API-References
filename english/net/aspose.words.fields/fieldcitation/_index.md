@@ -28,7 +28,7 @@ public class FieldCitation : Field
 
 | Name | Description |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Gets or sets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
@@ -40,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Gets or sets a prefix that is prepended to the citation. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Gets or sets a value that matches the **Tag** element's value of the source to insert. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Gets or sets a suffix that is appended to the citation. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Gets or sets whether the author information is suppressed from the citation. |

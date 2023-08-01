@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontSubstitutionRule class. This is an abstract base class for the font substitution rule in C#.
 type: docs
-weight: 2970
+weight: 2980
 url: /net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class

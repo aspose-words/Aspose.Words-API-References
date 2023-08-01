@@ -5,7 +5,7 @@ articleTitle: ExportPageMargins
 second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ExportPageMargins property. Specifies whether page margins is exported to HTML MHTML or EPUB. Default is false in C#.
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property

@@ -136,6 +136,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | Interface | Description |
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator/) | Public interface for barcode custom generator. Implementation should be provided by user. |
+| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | Implement this interface to provide bibliography style for the [`FieldBibliography`](../aspose.words.fields/fieldbibliography/) and [`FieldCitation`](../aspose.words.fields/fieldcitation/) fields when they're updated. |
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](../aspose.words.fields/fieldif/) and [`FieldCompare`](../aspose.words.fields/fieldcompare/) fields. |
 | [IFieldDatabaseProvider](./ifielddatabaseprovider/) | Implement this interface to provide data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field when it's updated. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implement this interface if you want to control how the field result is formatted. |

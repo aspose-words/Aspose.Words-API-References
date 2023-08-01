@@ -30,6 +30,7 @@ public class FieldBibliography : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
+| [FilterLanguageId](../../aspose.words.fields/fieldbibliography/filterlanguageid/) { get; set; } | Gets or sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
 | [FormatLanguageId](../../aspose.words.fields/fieldbibliography/formatlanguageid/) { get; set; } | Gets or sets the language ID that is used to format the bibliographic sources in the document. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
@@ -37,6 +38,7 @@ public class FieldBibliography : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Gets or sets the LCID of the field. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
+| [SourceTag](../../aspose.words.fields/fieldbibliography/sourcetag/) { get; set; } | Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
 

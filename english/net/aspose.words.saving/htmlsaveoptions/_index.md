@@ -5,7 +5,7 @@ articleTitle: HtmlSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the Html Mhtml Epub Azw3 or Mobi format in C#.
 type: docs
-weight: 5080
+weight: 5090
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -44,7 +44,6 @@ public class HtmlSaveOptions : SaveOptions
 | [DocumentSplitCriteria](../../aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) { get; set; } | Specifies how the document should be split when saving to Html, Epub or Azw3 format. Default is None for HTML and HeadingParagraph for EPUB and AZW3. |
 | [DocumentSplitHeadingLevel](../../aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/) { get; set; } | Specifies the maximum level of headings at which to split the document. Default value is `2`. |
 | [Encoding](../../aspose.words.saving/htmlsaveoptions/encoding/) { get; set; } | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is `new UTF8Encoding(false)` (UTF-8 without BOM). |
-| [EpubNavigationMapLevel](../../aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel/) { get; set; } | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is `3`. |
 | [ExportCidUrlsForMhtmlResources](../../aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/) { get; set; } | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is `false`. |
 | [ExportDocumentProperties](../../aspose.words.saving/htmlsaveoptions/exportdocumentproperties/) { get; set; } | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is `false`. |
 | [ExportDropDownFormFieldAsText](../../aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/) { get; set; } | Controls how drop-down form fields are saved to HTML or MHTML. Default value is `false`. |
@@ -76,6 +75,7 @@ public class HtmlSaveOptions : SaveOptions
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
 | [MetafileFormat](../../aspose.words.saving/htmlsaveoptions/metafileformat/) { get; set; } | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is Png, meaning that metafiles are rendered to raster PNG images. |
+| [NavigationMapLevel](../../aspose.words.saving/htmlsaveoptions/navigationmaplevel/) { get; set; } | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is `3`. |
 | [OfficeMathOutputMode](../../aspose.words.saving/htmlsaveoptions/officemathoutputmode/) { get; set; } | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is Image. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
