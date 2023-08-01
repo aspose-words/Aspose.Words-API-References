@@ -79,6 +79,9 @@ for (int i = 0; i < doc.PageCount; i++)
     // Set the "PageSet" property to the number of the first page from
     // which to start rendering the document from.
     options.PageSet = new PageSet(i);
+    // Export page at 2325x5325 pixels and 600 dpi.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
