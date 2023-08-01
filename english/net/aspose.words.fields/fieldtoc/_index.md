@@ -49,7 +49,7 @@ public class FieldToc : Field
 | [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | Gets or sets whether to preserve tab entries within table entries. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | Makes a Bookmark object for a bookmark name in \\b switch argument. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | Gets or sets the name of the sequence identifier used when building a table of figures. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |

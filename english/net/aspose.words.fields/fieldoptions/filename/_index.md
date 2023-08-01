@@ -5,7 +5,7 @@ articleTitle: FileName
 second_title: Aspose.Words for .NET
 description: FieldOptions FileName property. Gets or sets the file name of the document in C#.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.fields/fieldoptions/filename/
 ---
 ## FieldOptions.FileName property

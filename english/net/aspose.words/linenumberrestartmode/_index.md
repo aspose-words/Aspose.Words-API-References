@@ -5,7 +5,7 @@ articleTitle: LineNumberRestartMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LineNumberRestartMode enum. Determines when automatic line numbering restarts in C#.
 type: docs
-weight: 3400
+weight: 3410
 url: /net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration

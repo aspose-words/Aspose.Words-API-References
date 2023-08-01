@@ -5,7 +5,7 @@ articleTitle: MailMergeSettings
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.MailMergeSettings class. Specifies all of the mail merge information for a document in C#.
 type: docs
-weight: 5820
+weight: 5830
 url: /net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class

@@ -16,6 +16,22 @@ Gets an array of bytes representing a signature value.
 public byte[] SignatureValue { get; }
 ```
 
+## Examples
+
+Shows how to get a digital signature value from a digitally signed document.
+
+```csharp
+Document doc = new Document(MyDir + "Digitally signed.docx");
+
+foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
+{
+    string signatureValue = Convert.ToBase64String(digitalSignature.SignatureValue);
+    Assert.AreEqual("K1cVLLg2kbJRAzT5WK+m++G8eEO+l7S+5ENdjMxxTXkFzGUfvwxREuJdSFj9AbD" +
+        "MhnGvDURv9KEhC25DDF1al8NRVR71TF3CjHVZXpYu7edQS5/yLw/k5CiFZzCp1+MmhOdYPcVO+Fm" +
+        "+9fKr2iNLeyYB+fgEeZHfTqTFM2WwAqo=", signatureValue);
+}
+```
+
 ### See Also
 
 * class [DigitalSignature](../)

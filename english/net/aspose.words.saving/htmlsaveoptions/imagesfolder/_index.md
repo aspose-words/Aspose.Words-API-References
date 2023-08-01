@@ -5,7 +5,7 @@ articleTitle: ImagesFolder
 second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ImagesFolder property. Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string in C#.
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property

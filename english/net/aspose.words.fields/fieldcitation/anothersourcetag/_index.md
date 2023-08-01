@@ -3,14 +3,14 @@ title: FieldCitation.AnotherSourceTag
 linktitle: AnotherSourceTag
 articleTitle: AnotherSourceTag
 second_title: Aspose.Words for .NET
-description: FieldCitation AnotherSourceTag property. Gets or sets a value that mathes the Tag elements value of another source to be included in the citation in C#.
+description: FieldCitation AnotherSourceTag property. Gets or sets a value that matches the Tag elements value of another source to be included in the citation in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation.
+Gets or sets a value that matches the **Tag** element's value of another source to be included in the citation.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
@@ -59,9 +59,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // We can use a BIBLIOGRAPHY field to display all the sources within the document.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

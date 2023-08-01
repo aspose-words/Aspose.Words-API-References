@@ -3,14 +3,14 @@ title: FieldCitation.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words for .NET
-description: FieldCitation SourceTag property. Gets or sets a value that mathes the Tag elements value of the source to insert in C#.
+description: FieldCitation SourceTag property. Gets or sets a value that matches the Tag elements value of the source to insert in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Gets or sets a value that mathes the **Tag** element's value of the source to insert.
+Gets or sets a value that matches the **Tag** element's value of the source to insert.
 
 ```csharp
 public string SourceTag { get; set; }
@@ -59,9 +59,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // We can use a BIBLIOGRAPHY field to display all the sources within the document.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

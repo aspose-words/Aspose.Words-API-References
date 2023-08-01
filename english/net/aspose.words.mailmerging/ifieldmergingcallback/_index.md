@@ -5,7 +5,7 @@ articleTitle: IFieldMergingCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.MailMerging.IFieldMergingCallback interface. Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in C#.
 type: docs
-weight: 3760
+weight: 3770
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
@@ -34,7 +34,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))

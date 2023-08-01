@@ -5,7 +5,7 @@ articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ExportTocPageNumbers property. Specifies whether to write page numbers to table of contents when saving HTML MHTML and EPUB. Default value is false in C#.
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property

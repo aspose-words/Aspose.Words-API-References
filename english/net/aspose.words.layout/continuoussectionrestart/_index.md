@@ -5,7 +5,7 @@ articleTitle: ContinuousSectionRestart
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.ContinuousSectionRestart enum. Represents different behaviors when computing page numbers in a continuous section that restarts page numbering in C#.
 type: docs
-weight: 3270
+weight: 3280
 url: /net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration

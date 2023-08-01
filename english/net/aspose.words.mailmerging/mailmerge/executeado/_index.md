@@ -65,7 +65,7 @@ public void ExecuteADO()
 
     // Create a connection string that points to the "Northwind" database file
     // in our local file system and open a connection.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
     // Populate our DataSet by running an SQL command on our database.

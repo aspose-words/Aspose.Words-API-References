@@ -5,7 +5,7 @@ articleTitle: LayoutCollector
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.LayoutCollector class. This class allows to compute page numbers of document nodes in C#.
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class

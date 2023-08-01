@@ -5,7 +5,7 @@ articleTitle: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET
 description: FieldOptions FieldUpdateCultureSource property. Specifies what culture to use to format the field result in C#.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
 ## FieldOptions.FieldUpdateCultureSource property

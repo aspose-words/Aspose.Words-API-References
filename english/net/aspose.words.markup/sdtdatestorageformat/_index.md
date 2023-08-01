@@ -5,7 +5,7 @@ articleTitle: SdtDateStorageFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.SdtDateStorageFormat enum. Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store in C#.
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration

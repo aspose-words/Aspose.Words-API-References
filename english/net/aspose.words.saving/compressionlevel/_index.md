@@ -5,7 +5,7 @@ articleTitle: CompressionLevel
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.CompressionLevel enum. Compression level for OOXML files in C#.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration

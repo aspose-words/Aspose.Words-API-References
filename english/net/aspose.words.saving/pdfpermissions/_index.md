@@ -5,7 +5,7 @@ articleTitle: PdfPermissions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfPermissions enum. Specifies the operations that are allowed to a user on an encrypted PDF document in C#.
 type: docs
-weight: 5480
+weight: 5490
 url: /net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration
@@ -42,19 +42,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Start by disallowing all permissions.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Extend permissions to allow the editing of annotations.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Enable encryption via the "EncryptionDetails" property.
 saveOptions.EncryptionDetails = encryptionDetails;
 
