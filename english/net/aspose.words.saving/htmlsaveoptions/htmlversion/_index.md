@@ -5,7 +5,7 @@ articleTitle: HtmlVersion
 second_title: Aspose.Words for .NET
 description: HtmlSaveOptions HtmlVersion property. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml in C#.
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property

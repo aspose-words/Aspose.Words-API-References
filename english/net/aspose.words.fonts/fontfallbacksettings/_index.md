@@ -5,7 +5,7 @@ articleTitle: FontFallbackSettings
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.FontFallbackSettings class. Specifies font fallback mechanism settings in C#.
 type: docs
-weight: 2870
+weight: 2880
 url: /net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class

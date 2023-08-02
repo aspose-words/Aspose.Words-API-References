@@ -234,29 +234,33 @@ builder.InsertField(" MERGEFIELD UnitPrice");
 
 // Create a connection string that points to the "Northwind" database file
 // in our local file system, open a connection, and set up an SQL query.
-string connectionString = @"Driver={Microsoft Access Driver (*.mdb)};Dbq=" + DatabaseDir + "Northwind.mdb";
-string query = 
-    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, {fn ROUND(Products.UnitPrice,2)} as UnitPrice
+string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
+string query =
+    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
     FROM Products 
     INNER JOIN Suppliers 
     ON Products.SupplierID = Suppliers.SupplierID";
 
-using (OdbcConnection connection = new OdbcConnection())
+using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    connection.ConnectionString = connectionString;
-    connection.Open();
-
     // Create an SQL command that will source data for our mail merge.
     // The names of the table's columns that this SELECT statement will return
     // will need to correspond to the merge fields we placed above.
-    OdbcCommand command = connection.CreateCommand();
+    OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
-
-    // This will run the command and store the data in the reader.
-    OdbcDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
-
-    // Take the data from the reader and use it in the mail merge.
-    doc.MailMerge.Execute(reader);
+    try
+    {                    
+        connection.Open();                 
+        using (OleDbDataReader reader = command.ExecuteReader())
+        {
+            // Take the data from the reader and use it in the mail merge.
+            doc.MailMerge.Execute(reader);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }                
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");

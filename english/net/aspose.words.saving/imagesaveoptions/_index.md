@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images in C#.
 type: docs
-weight: 5200
+weight: 5210
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -41,6 +41,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [ImageBrightness](../../aspose.words.saving/imagesaveoptions/imagebrightness/) { get; set; } | Gets or sets the brightness for the generated images. |
 | [ImageColorMode](../../aspose.words.saving/imagesaveoptions/imagecolormode/) { get; set; } | Gets or sets the color mode for the generated images. |
 | [ImageContrast](../../aspose.words.saving/imagesaveoptions/imagecontrast/) { get; set; } | Gets or sets the contrast for the generated images. |
+| [ImageSize](../../aspose.words.saving/imagesaveoptions/imagesize/) { get; set; } | Gets or sets the size of a generated image in pixels. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [JpegQuality](../../aspose.words.saving/imagesaveoptions/jpegquality/) { get; set; } | Gets or sets a value determining the quality of the generated JPEG images. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |

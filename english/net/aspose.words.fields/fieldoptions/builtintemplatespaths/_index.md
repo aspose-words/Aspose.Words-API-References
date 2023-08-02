@@ -5,7 +5,7 @@ articleTitle: BuiltInTemplatesPaths
 second_title: Aspose.Words for .NET
 description: FieldOptions BuiltInTemplatesPaths property. Gets or sets paths of MS Word builtin templates in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property

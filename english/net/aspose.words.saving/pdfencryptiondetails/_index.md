@@ -5,7 +5,7 @@ articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfEncryptionDetails class. Contains details for encrypting and access permissions for a PDF document in C#.
 type: docs
-weight: 5430
+weight: 5440
 url: /net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
@@ -22,7 +22,8 @@ public class PdfEncryptionDetails
 
 | Name | Description |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/)(*string, string*) | Initializes an instance of this class. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Initializes an instance of this class. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Initializes an instance of this class. |
 
 ## Properties
 
@@ -42,19 +43,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Start by disallowing all permissions.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Extend permissions to allow the editing of annotations.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Enable encryption via the "EncryptionDetails" property.
 saveOptions.EncryptionDetails = encryptionDetails;
 

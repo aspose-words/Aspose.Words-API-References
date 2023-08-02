@@ -23,6 +23,7 @@ public sealed class FieldOptions
 | Name | Description |
 | --- | --- |
 | [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Gets or set custom barcode generator. |
+| [BibliographyStylesProvider](../../aspose.words.fields/fieldoptions/bibliographystylesprovider/) { get; set; } | Gets or sets a provider that returns a bibliography style for the [`FieldBibliography`](../fieldbibliography/) and [`FieldCitation`](../fieldcitation/) fields. |
 | [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Gets or sets paths of MS Word built-in templates. |
 | [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | Gets or sets the field comparison expressions evaluator. |
 | [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | Gets or sets the current user information. |

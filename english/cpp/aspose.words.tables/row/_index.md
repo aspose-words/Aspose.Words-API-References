@@ -39,10 +39,12 @@ class Row : public Aspose::Words::CompositeNode,
 | [get_IsLastRow](./get_islastrow/)() | True if this is the last row in a table; false otherwise. |
 | [get_LastCell](./get_lastcell/)() | Returns the last [Cell](../cell/) in the row. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
+| [get_NextRow](./get_nextrow/)() | Gets the next [Row](./) node. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Row](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentTable](./get_parenttable/)() | Returns the immediate parent table of the row. |
+| [get_PreviousRow](./get_previousrow/)() | Gets the previous [Row](./) node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_RowFormat](./get_rowformat/)() | Provides access to the formatting properties of the row. |

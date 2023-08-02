@@ -73,16 +73,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // This DATABASE field will run a query on a database, and display the result in a table.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.mdb";
-field.Connection = "Provider=Microsoft.Jet.OLEDB.4.0";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"} \\c Provider=Microsoft.Jet.OLEDB.4.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
 // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.mdb";
-field.Connection = "Provider=Microsoft.Jet.OLEDB.4.0";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +

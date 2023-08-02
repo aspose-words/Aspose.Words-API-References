@@ -5,7 +5,7 @@ articleTitle: PageSet
 second_title: Aspose.Words for .NET
 description: ImageSaveOptions PageSet property. Gets or sets the pages to render. Default is all the pages in the document in C#.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.saving/imagesaveoptions/pageset/
 ---
 ## ImageSaveOptions.PageSet property
@@ -35,33 +35,6 @@ imageOptions.PageSet = pageSet;
 doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-Shows how to render every page of a document to a separate TIFF image.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Page 1.");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 2.");
-builder.InsertImage(ImageDir + "Logo.jpg");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 3.");
-
-// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-// to modify the way in which that method renders the document into an image.
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
-
-for (int i = 0; i < doc.PageCount; i++)
-{
-    // Set the "PageSet" property to the number of the first page from
-    // which to start rendering the document from.
-    options.PageSet = new PageSet(i);
-
-    doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
-}
-```
-
 Shows how to specify which page in a document to render as an image.
 
 ```csharp
@@ -87,6 +60,36 @@ for (int i = 1; i <= doc.PageCount; i++)
     saveOptions.PageSet = new PageSet(1);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageIndex.Page {i}.gif", saveOptions);
+}
+```
+
+Shows how to render every page of a document to a separate TIFF image.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+
+for (int i = 0; i < doc.PageCount; i++)
+{
+    // Set the "PageSet" property to the number of the first page from
+    // which to start rendering the document from.
+    options.PageSet = new PageSet(i);
+    // Export page at 2325x5325 pixels and 600 dpi.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
+
+    doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
 ```
 

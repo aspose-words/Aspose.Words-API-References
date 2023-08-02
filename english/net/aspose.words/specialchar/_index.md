@@ -5,7 +5,7 @@ articleTitle: SpecialChar
 second_title: Aspose.Words for .NET
 description: Aspose.Words.SpecialChar class. Base class for special characters in the document in C#.
 type: docs
-weight: 6070
+weight: 6080
 url: /net/aspose.words/specialchar/
 ---
 ## SpecialChar class

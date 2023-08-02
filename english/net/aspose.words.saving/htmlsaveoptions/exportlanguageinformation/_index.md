@@ -5,7 +5,7 @@ articleTitle: ExportLanguageInformation
 second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ExportLanguageInformation property. Specifies whether language information is exported to HTML MHTML or EPUB. Default is false in C#.
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property

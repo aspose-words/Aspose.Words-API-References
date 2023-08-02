@@ -25,6 +25,7 @@ class DigitalSignature : public System::Object
 | [get_IssuerName](./get_issuername/)() | Returns the subject distinguished name of the certificate isuuer. |
 | [get_IsValid](./get_isvalid/)() const | Returns **true** if this digital signature is valid and the document has not been tampered with. |
 | [get_SignatureType](./get_signaturetype/)() const | Gets the type of the digital signature. |
+| [get_SignatureValue](./get_signaturevalue/)() const | Gets an array of bytes representing a signature value. |
 | [get_SignTime](./get_signtime/)() const | Gets the time the document was signed. |
 | [get_SubjectName](./get_subjectname/)() | Returns the subject distinguished name of the certificate that was used to sign the document. |
 | [GetType](./gettype/)() const override |  |
