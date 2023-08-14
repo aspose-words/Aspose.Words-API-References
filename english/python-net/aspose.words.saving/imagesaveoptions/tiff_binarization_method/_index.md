@@ -5,7 +5,7 @@ articleTitle: tiff_binarization_method property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.tiff_binarization_method property. Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.save_format](../save_format/) is [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF) and [ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to [TiffCompression.CCITT3](../../tiffcompression/#CCITT3) or [TiffCompression.CCITT4](../../tiffcompression/#CCITT4)."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.saving/imagesaveoptions/tiff_binarization_method/
 ---
 

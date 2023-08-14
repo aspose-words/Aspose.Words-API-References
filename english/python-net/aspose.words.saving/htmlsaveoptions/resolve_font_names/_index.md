@@ -5,7 +5,7 @@ articleTitle: resolve_font_names property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.resolve_font_names property. Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../../aspose.words/document/font_settings/) when being written into HTML-based formats."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words.saving/htmlsaveoptions/resolve_font_names/
 ---
 

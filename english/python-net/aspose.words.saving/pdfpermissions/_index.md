@@ -39,13 +39,8 @@ builder = aw.DocumentBuilder(doc)
 
 builder.writeln("Hello world!")
 
-encryption_details = aw.saving.PdfEncryptionDetails("password", "")
-
-# Start by disallowing all permissions.
-encryption_details.permissions = aw.saving.PdfPermissions.DISALLOW_ALL
-
-# Extend permissions to allow the editing of annotations.
-encryption_details.permissions = aw.saving.PdfPermissions.MODIFY_ANNOTATIONS | aw.saving.PdfPermissions.DOCUMENT_ASSEMBLY
+encryption_details = aw.saving.PdfEncryptionDetails("password", "", aw.saving.PdfPermissions.MODIFY_ANNOTATIONS
+                                                    | aw.saving.PdfPermissions.DOCUMENT_ASSEMBLY)
 
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.

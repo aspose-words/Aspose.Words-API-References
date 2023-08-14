@@ -5,7 +5,7 @@ articleTitle: NodeType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeType enumeration. Specifies the type of a Word document node."
 type: docs
-weight: 750
+weight: 760
 url: /python-net/aspose.words/nodetype/
 ---
 

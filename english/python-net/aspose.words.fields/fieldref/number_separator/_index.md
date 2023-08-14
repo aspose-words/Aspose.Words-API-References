@@ -19,6 +19,7 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 Shows how to insert REF fields to reference bookmarks.
 
 ```python
+@unittest.skip("WORDSNET-18067")  # ExSkip
 def test_field_ref(self):
 
     doc = aw.Document()

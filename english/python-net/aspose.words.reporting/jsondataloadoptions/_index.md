@@ -32,6 +32,7 @@ An instance of this class can be passed into constructors of [JsonDataSource](..
 | --- | --- |
 | [always_generate_root_object](./always_generate_root_object/) | Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. |
 | [exact_date_time_parse_formats](./exact_date_time_parse_formats/) | Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is ``None``. |
+| [preserve_spaces](./preserve_spaces/) | Gets or sets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data. |
 | [simple_value_parse_mode](./simple_value_parse_mode/) | Gets or sets a mode for parsing JSON simple values (null, boolean, number, integer, and string)  while loading JSON. Such a mode does not affect parsing of date-time values. The default is  [JsonSimpleValueParseMode.LOOSE](../jsonsimplevalueparsemode/#LOOSE). |
 
 ### See Also

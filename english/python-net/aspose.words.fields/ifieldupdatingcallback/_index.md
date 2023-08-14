@@ -5,7 +5,7 @@ articleTitle: IFieldUpdatingCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.IFieldUpdatingCallback class. Implement this interface if you want to have your own custom methods called during a field update."
 type: docs
-weight: 1250
+weight: 1260
 url: /python-net/aspose.words.fields/ifieldupdatingcallback/
 ---
 

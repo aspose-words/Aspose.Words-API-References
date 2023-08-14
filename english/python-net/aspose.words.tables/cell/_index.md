@@ -50,11 +50,13 @@ A minimal valid cell needs to have at least one [Paragraph](../../aspose.words/p
 | [is_last_cell](./is_last_cell/) | True if this is the last cell inside a row; false otherwise. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [last_paragraph](./last_paragraph/) | Gets the last paragraph among the immediate children. |
+| [next_cell](./next_cell/) | Gets the next [Cell](./) node. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [node_type](./node_type/) | Returns [NodeType.CELL](../../aspose.words/nodetype/#CELL). |
 | [paragraphs](./paragraphs/) | Gets a collection of paragraphs that are immediate children of the cell. |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_row](./parent_row/) | Returns the parent row of the cell. |
+| [previous_cell](./previous_cell/) | Gets the previous [Cell](./) node. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [tables](./tables/) | Gets a collection of tables that are immediate children of the cell. |

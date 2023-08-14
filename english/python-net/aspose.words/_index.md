@@ -86,6 +86,7 @@ The main classes in this module are:
 | [HeaderFooter](./headerfooter/) | Represents a container for the header or footer text of a section. To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/python-net/working-with-headers-and-footers/) documentation article. |
 | [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [HeaderFooter](./headerfooter/) nodes of a [Section](./section/). To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/python-net/working-with-headers-and-footers/) documentation article. |
 | [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/python-net/working-with-hyphenation/) documentation article. |
+| [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |

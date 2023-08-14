@@ -5,7 +5,7 @@ articleTitle: toa_categories property
 second_title: Aspose.Words for Python
 description: "FieldOptions.toa_categories property. Gets or sets the table of authorities categories."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.fields/fieldoptions/toa_categories/
 ---
 

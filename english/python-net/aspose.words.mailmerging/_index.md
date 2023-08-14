@@ -45,6 +45,7 @@ For the newer and more advanced reporting engine based on the LINQ method syntax
 | [MailMerge](./mailmerge/) | Represents the mail merge functionality. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
 | [MailMergeRegionInfo](./mailmergeregioninfo/) | Contains information about a mail merge region. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
 | [MappedDataFieldCollection](./mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
+| [MustacheTag](./mustachetag/) | Represents "mustache" tag. |
 
 ## Enumerations
 

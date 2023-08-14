@@ -32,7 +32,7 @@ Inserts the contents of the **Source** element with a specified **Tag** element 
 
 | Name | Description |
 | --- | --- |
-| [another_source_tag](./another_source_tag/) | Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [another_source_tag](./another_source_tag/) | Gets or sets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [display_result](../field/display_result/) | Gets the text that represents the displayed field result.<br>(Inherited from [Field](../field/)) |
 | [end](../field/end/) | Gets the node that represents the field end.<br>(Inherited from [Field](../field/)) |
 | [format](../field/format/) | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting.<br>(Inherited from [Field](../field/)) |
@@ -44,7 +44,7 @@ Inserts the contents of the **Source** element with a specified **Tag** element 
 | [prefix](./prefix/) | Gets or sets a prefix that is prepended to the citation. |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
 | [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
-| [source_tag](./source_tag/) | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
+| [source_tag](./source_tag/) | Gets or sets a value that matches the **Tag** element's value of the source to insert. |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
 | [suffix](./suffix/) | Gets or sets a suffix that is appended to the citation. |
 | [suppress_author](./suppress_author/) | Gets or sets whether the author information is suppressed from the citation. |
@@ -108,9 +108,9 @@ self.assertEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\
 # We can use a BIBLIOGRAPHY field to display all the sources within the document.
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 field_bibliography = builder.insert_field(aw.fields.FieldType.FIELD_BIBLIOGRAPHY, True).as_field_bibliography()
-field_bibliography.format_language_id = "1124"
+field_bibliography.format_language_id = "5129"
 
-self.assertEqual(" BIBLIOGRAPHY  \\l 1124", field_bibliography.get_field_code())
+self.assertEqual(" BIBLIOGRAPHY  \\l 5129", field_bibliography.get_field_code())
 
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_citation.docx")

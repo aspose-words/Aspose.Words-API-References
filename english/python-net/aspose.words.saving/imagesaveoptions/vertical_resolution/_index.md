@@ -5,7 +5,7 @@ articleTitle: vertical_resolution property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.vertical_resolution property. Gets or sets the vertical resolution for the generated images, in dots per inch."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.saving/imagesaveoptions/vertical_resolution/
 ---
 

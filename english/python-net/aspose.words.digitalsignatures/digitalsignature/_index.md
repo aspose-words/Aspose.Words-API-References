@@ -27,6 +27,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | [issuer_name](./issuer_name/) | Returns the subject distinguished name of the certificate isuuer. |
 | [sign_time](./sign_time/) | Gets the time the document was signed. |
 | [signature_type](./signature_type/) | Gets the type of the digital signature. |
+| [signature_value](./signature_value/) | Gets an array of bytes representing a signature value. |
 | [subject_name](./subject_name/) | Returns the subject distinguished name of the certificate that was used to sign the document. |
 
 ### Examples

@@ -5,7 +5,7 @@ articleTitle: comparison_expression_evaluator property
 second_title: Aspose.Words for Python
 description: "FieldOptions.comparison_expression_evaluator property. Gets or sets the field comparison expressions evaluator."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.fields/fieldoptions/comparison_expression_evaluator/
 ---
 

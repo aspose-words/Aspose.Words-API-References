@@ -5,7 +5,7 @@ articleTitle: template_name property
 second_title: Aspose.Words for Python
 description: "FieldOptions.template_name property. Gets or sets the file name of the template used by the document."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.fields/fieldoptions/template_name/
 ---
 

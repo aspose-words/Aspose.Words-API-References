@@ -50,10 +50,12 @@ A minimal valid row needs to have at least one [Cell](../cell/).
 | [is_last_row](./is_last_row/) | True if this is the last row in a table; false otherwise. |
 | [last_cell](./last_cell/) | Returns the last [Cell](../cell/) in the row. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [next_row](./next_row/) | Gets the next [Row](./) node. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [node_type](./node_type/) | Returns [NodeType.ROW](../../aspose.words/nodetype/#ROW). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_table](./parent_table/) | Returns the immediate parent table of the row. |
+| [previous_row](./previous_row/) | Gets the previous [Row](./) node. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [row_format](./row_format/) | Provides access to the formatting properties of the row. |

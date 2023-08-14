@@ -5,7 +5,7 @@ articleTitle: simple_value_parse_mode property
 second_title: Aspose.Words for Python
 description: "JsonDataLoadOptions.simple_value_parse_mode property. Gets or sets a mode for parsing JSON simple values (null, boolean, number, integer, and string)  while loading JSON"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.reporting/jsondataloadoptions/simple_value_parse_mode/
 ---
 
