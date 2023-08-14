@@ -19,6 +19,7 @@ Gets or sets whether to insert the relative position of the referenced paragraph
 Shows how to insert REF fields to reference bookmarks.
 
 ```python
+@unittest.skip("WORDSNET-18067")  # ExSkip
 def test_field_ref(self):
 
     doc = aw.Document()

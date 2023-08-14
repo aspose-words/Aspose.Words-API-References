@@ -20,6 +20,7 @@ marked by the bookmark, and insert the corresponding footnote, endnote, and comm
 Shows how to insert REF fields to reference bookmarks.
 
 ```python
+@unittest.skip("WORDSNET-18067")  # ExSkip
 def test_field_ref(self):
 
     doc = aw.Document()

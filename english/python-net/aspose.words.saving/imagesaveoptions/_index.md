@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format. [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or [SaveFormat.SVG](../../aspose.words/saveformat/#SVG)  format. |
+| [ImageSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save rendered images in the [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS) or [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format. |
 
 ### Properties
 
@@ -39,6 +39,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [image_brightness](./image_brightness/) | Gets or sets the brightness for the generated images. |
 | [image_color_mode](./image_color_mode/) | Gets or sets the color mode for the generated images. |
 | [image_contrast](./image_contrast/) | Gets or sets the contrast for the generated images. |
+| [image_size](./image_size/) | Gets or sets the size of a generated image in pixels. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpeg_quality](./jpeg_quality/) | Gets or sets a value determining the quality of the generated JPEG images. |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -51,7 +52,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [pixel_format](./pixel_format/) | Gets or sets the pixel format for the generated images. |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [save_format](./save_format/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.SVG](../../aspose.words/saveformat/#SVG). |
+| [save_format](./save_format/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.TIFF](../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../aspose.words/saveformat/#BMP), [SaveFormat.JPEG](../../aspose.words/saveformat/#JPEG) or vector [SaveFormat.EMF](../../aspose.words/saveformat/#EMF), [SaveFormat.EPS](../../aspose.words/saveformat/#EPS), [SaveFormat.SVG](../../aspose.words/saveformat/#SVG). |
 | [scale](./scale/) | Gets or sets the zoom factor for the generated images. |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [threshold_for_floyd_steinberg_dithering](./threshold_for_floyd_steinberg_dithering/) | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING](../imagebinarizationmethod/#FLOYD_STEINBERG_DITHERING). |
@@ -61,7 +62,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_saved_time_property](../saveoptions/update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [update_sdt_content](../saveoptions/update_sdt_content/) | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_anti_aliasing](../saveoptions/use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_gdi_emf_renderer](./use_gdi_emf_renderer/) | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [use_high_quality_rendering](../saveoptions/use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |

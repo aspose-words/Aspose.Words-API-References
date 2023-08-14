@@ -33,6 +33,7 @@ Inserts the contents of the document's Bibliography part in a bibliographic styl
 | --- | --- |
 | [display_result](../field/display_result/) | Gets the text that represents the displayed field result.<br>(Inherited from [Field](../field/)) |
 | [end](../field/end/) | Gets the node that represents the field end.<br>(Inherited from [Field](../field/)) |
+| [filter_language_id](./filter_language_id/) | Gets or sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language. |
 | [format](../field/format/) | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting.<br>(Inherited from [Field](../field/)) |
 | [format_language_id](./format_language_id/) | Gets or sets the language ID that is used to format the bibliographic sources in the document. |
 | [is_dirty](../field/is_dirty/) | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.<br>(Inherited from [Field](../field/)) |
@@ -40,6 +41,7 @@ Inserts the contents of the document's Bibliography part in a bibliographic styl
 | [locale_id](../field/locale_id/) | Gets or sets the LCID of the field.<br>(Inherited from [Field](../field/)) |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
 | [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
+| [source_tag](./source_tag/) | Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography. |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
 | [type](../field/type/) | Gets the Microsoft Word field type.<br>(Inherited from [Field](../field/)) |
 
@@ -98,9 +100,9 @@ self.assertEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\
 # We can use a BIBLIOGRAPHY field to display all the sources within the document.
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 field_bibliography = builder.insert_field(aw.fields.FieldType.FIELD_BIBLIOGRAPHY, True).as_field_bibliography()
-field_bibliography.format_language_id = "1124"
+field_bibliography.format_language_id = "5129"
 
-self.assertEqual(" BIBLIOGRAPHY  \\l 1124", field_bibliography.get_field_code())
+self.assertEqual(" BIBLIOGRAPHY  \\l 5129", field_bibliography.get_field_code())
 
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_citation.docx")

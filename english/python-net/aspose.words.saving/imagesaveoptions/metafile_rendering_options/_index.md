@@ -5,7 +5,7 @@ articleTitle: metafile_rendering_options property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.metafile_rendering_options property. Allows to specify how metafiles are treated in the rendered output."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.saving/imagesaveoptions/metafile_rendering_options/
 ---
 

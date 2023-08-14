@@ -5,7 +5,7 @@ articleTitle: page_set property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.page_set property. Gets or sets the pages to render"
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.saving/imagesaveoptions/page_set/
 ---
 
@@ -96,6 +96,9 @@ for i in range(doc.page_count):
     # Set the "page_set" property to the number of the first page from
     # which to start rendering the document from.
     options.page_set = aw.saving.PageSet(i)
+    options.vertical_resolution = 600
+    options.horizontal_resolution = 600
+    options.image_size = drawing.Size(2325, 5325)
 
     doc.save(ARTIFACTS_DIR + f"ImageSaveOptions.page_by_page.{i + 1}.tiff", options)
 ```

@@ -5,7 +5,7 @@ articleTitle: TextDmlEffect enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextDmlEffect enumeration. Dml text effect for text runs."
 type: docs
-weight: 1220
+weight: 1230
 url: /python-net/aspose.words/textdmleffect/
 ---
 

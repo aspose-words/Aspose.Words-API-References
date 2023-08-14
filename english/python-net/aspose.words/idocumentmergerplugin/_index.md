@@ -5,7 +5,7 @@ articleTitle: IDocumentMergerPlugin class
 second_title: Aspose.Words for Python
 description: "aspose.words.IDocumentMergerPlugin class. Defines an interface for external merger plugin that can merge Pdf documents."
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.words/idocumentmergerplugin/
 ---
 

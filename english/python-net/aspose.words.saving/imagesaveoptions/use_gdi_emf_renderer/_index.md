@@ -5,7 +5,7 @@ articleTitle: use_gdi_emf_renderer property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.use_gdi_emf_renderer property. Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.saving/imagesaveoptions/use_gdi_emf_renderer/
 ---
 

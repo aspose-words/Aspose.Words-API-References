@@ -135,6 +135,7 @@ represent Microsoft Word fields in a document.
 | [FormFieldCollection](./formfieldcollection/) | A collection of [FormField](./formfield/) objects that represent all the form fields in a range. To learn more, visit the [Working with Form Fields](https://docs.aspose.com/words/python-net/working-with-form-fields/) documentation article. |
 | [GeneralFormatCollection](./generalformatcollection/) | Represents a typed collection of general formats. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [IBarcodeGenerator](./ibarcodegenerator/) | Public interface for barcode custom generator. Implementation should be provided by user. |
+| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | Implement this interface to provide bibliography style for the  [FieldBibliography](./fieldbibliography/) and [FieldCitation](./fieldcitation/) fields when they're updated. |
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](./fieldif/) and [FieldCompare](./fieldcompare/) fields. |
 | [IFieldDatabaseProvider](./ifielddatabaseprovider/) | Implement this interface to provide data for the [FieldDatabase](./fielddatabase/) field when it's updated. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implement this interface if you want to control how the field result is formatted. |

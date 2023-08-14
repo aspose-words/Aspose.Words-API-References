@@ -5,7 +5,7 @@ articleTitle: user_prompt_respondent property
 second_title: Aspose.Words for Python
 description: "FieldOptions.user_prompt_respondent property. Gets or sets the respondent to user prompts during field update."
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words.fields/fieldoptions/user_prompt_respondent/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: parent_region property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.parent_region property. Returns parent region info (null for top-level region)."
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/parent_region/
 ---
 

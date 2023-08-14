@@ -5,7 +5,7 @@ articleTitle: IFieldDatabaseProvider class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.IFieldDatabaseProvider class. Implement this interface to provide data for the [FieldDatabase](../fielddatabase/) field when it's updated."
 type: docs
-weight: 1220
+weight: 1230
 url: /python-net/aspose.words.fields/ifielddatabaseprovider/
 ---
 

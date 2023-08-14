@@ -5,7 +5,7 @@ articleTitle: custom_toc_style_separator property
 second_title: Aspose.Words for Python
 description: "FieldOptions.custom_toc_style_separator property. Gets or sets custom style separator for the \\t switch in [FieldToc](../../fieldtoc/) field."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.fields/fieldoptions/custom_toc_style_separator/
 ---
 

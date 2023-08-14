@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.name property. Returns the name of region."
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/name/
 ---
 

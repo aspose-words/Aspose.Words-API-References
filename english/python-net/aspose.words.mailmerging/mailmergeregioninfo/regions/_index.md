@@ -5,7 +5,7 @@ articleTitle: regions property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.regions property. Returns a list of child regions."
 type: docs
-weight: 60
+weight: 80
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 

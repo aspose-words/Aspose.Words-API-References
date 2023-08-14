@@ -5,7 +5,7 @@ articleTitle: SignatureLineOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.SignatureLineOptions class. Allows to specify options for signature line being inserted"
 type: docs
-weight: 1060
+weight: 1070
 url: /python-net/aspose.words/signaturelineoptions/
 ---
 

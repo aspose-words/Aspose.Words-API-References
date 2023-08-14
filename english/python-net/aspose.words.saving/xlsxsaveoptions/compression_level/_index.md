@@ -16,6 +16,19 @@ The default value is [CompressionLevel.NORMAL](../../compressionlevel/#NORMAL).
 
 
 
+### Examples
+
+Shows how to compress XLSX document.
+
+```python
+doc = Document(MY_DIR + "Shape with linked chart.docx")
+
+xlsx_save_options = XlsxSaveOptions()
+xlsx_save_options.compression_level = CompressionLevel.MAXIMUM
+
+doc.save(ARTIFACTS_DIR + "XlsxSaveOptions.CompressXlsx.xlsx", xlsx_save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

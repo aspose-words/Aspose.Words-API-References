@@ -5,7 +5,7 @@ articleTitle: VisitorAction enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.VisitorAction enumeration. Allows the visitor to control the enumeration of nodes."
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.words/visitoraction/
 ---
 
