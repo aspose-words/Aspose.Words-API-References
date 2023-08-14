@@ -5,7 +5,7 @@ articleTitle: create method
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.CertificateHolder.create method"
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 

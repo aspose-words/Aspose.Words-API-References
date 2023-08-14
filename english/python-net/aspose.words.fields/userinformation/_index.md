@@ -5,7 +5,7 @@ articleTitle: UserInformation class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.UserInformation class. Specifies information about the user"
 type: docs
-weight: 1320
+weight: 1330
 url: /python-net/aspose.words.fields/userinformation/
 ---
 

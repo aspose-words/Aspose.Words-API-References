@@ -5,7 +5,7 @@ articleTitle: current_user property
 second_title: Aspose.Words for Python
 description: "FieldOptions.current_user property. Gets or sets the current user information."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.fields/fieldoptions/current_user/
 ---
 

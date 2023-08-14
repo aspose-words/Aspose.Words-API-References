@@ -22,6 +22,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 | Name | Description |
 | --- | --- |
 | [barcode_generator](./barcode_generator/) | Gets or set custom barcode generator. |
+| [bibliography_styles_provider](./bibliography_styles_provider/) | Gets or sets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [built_in_templates_paths](./built_in_templates_paths/) | Gets or sets paths of MS Word built-in templates. |
 | [comparison_expression_evaluator](./comparison_expression_evaluator/) | Gets or sets the field comparison expressions evaluator. |
 | [current_user](./current_user/) | Gets or sets the current user information. |

@@ -39,6 +39,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [image_brightness](./image_brightness/) | Gets or sets the brightness for the generated images. |
 | [image_color_mode](./image_color_mode/) | Gets or sets the color mode for the generated images. |
 | [image_contrast](./image_contrast/) | Gets or sets the contrast for the generated images. |
+| [image_size](./image_size/) | Gets or sets the size of a generated image in pixels. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpeg_quality](./jpeg_quality/) | Gets or sets a value determining the quality of the generated JPEG images. |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -61,7 +62,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_saved_time_property](../saveoptions/update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [update_sdt_content](../saveoptions/update_sdt_content/) | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_anti_aliasing](../saveoptions/use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_gdi_emf_renderer](./use_gdi_emf_renderer/) | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [use_high_quality_rendering](../saveoptions/use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |

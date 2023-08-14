@@ -5,7 +5,7 @@ articleTitle: tiff_compression property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.tiff_compression property. Gets or sets the type of compression to apply when saving generated images to the TIFF format."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.saving/imagesaveoptions/tiff_compression/
 ---
 

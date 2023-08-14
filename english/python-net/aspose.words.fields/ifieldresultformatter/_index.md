@@ -5,7 +5,7 @@ articleTitle: IFieldResultFormatter class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.IFieldResultFormatter class. Implement this interface if you want to control how the field result is formatted."
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.words.fields/ifieldresultformatter/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: file_name property
 second_title: Aspose.Words for Python
 description: "FieldOptions.file_name property. Gets or sets the file name of the document."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.fields/fieldoptions/file_name/
 ---
 

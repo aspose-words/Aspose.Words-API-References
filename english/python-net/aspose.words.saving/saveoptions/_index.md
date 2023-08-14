@@ -43,7 +43,6 @@ or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) o
 | [update_fields](./update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``. |
 | [update_last_printed_property](./update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving. |
 | [update_last_saved_time_property](./update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving. |
-| [update_sdt_content](./update_sdt_content/) | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [use_anti_aliasing](./use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [use_high_quality_rendering](./use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 

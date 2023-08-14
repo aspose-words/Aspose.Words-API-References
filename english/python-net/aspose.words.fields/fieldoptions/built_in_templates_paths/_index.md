@@ -5,7 +5,7 @@ articleTitle: built_in_templates_paths property
 second_title: Aspose.Words for Python
 description: "FieldOptions.built_in_templates_paths property. Gets or sets paths of MS Word built-in templates."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.fields/fieldoptions/built_in_templates_paths/
 ---
 

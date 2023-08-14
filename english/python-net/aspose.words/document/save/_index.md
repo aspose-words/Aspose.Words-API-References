@@ -210,6 +210,9 @@ for i in range(doc.page_count):
     # Set the "page_set" property to the number of the first page from
     # which to start rendering the document from.
     options.page_set = aw.saving.PageSet(i)
+    options.vertical_resolution = 600
+    options.horizontal_resolution = 600
+    options.image_size = drawing.Size(2325, 5325)
 
     doc.save(ARTIFACTS_DIR + f"ImageSaveOptions.page_by_page.{i + 1}.tiff", options)
 ```

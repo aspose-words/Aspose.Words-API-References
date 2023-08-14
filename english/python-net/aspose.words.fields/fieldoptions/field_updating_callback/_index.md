@@ -5,7 +5,7 @@ articleTitle: field_updating_callback property
 second_title: Aspose.Words for Python
 description: "FieldOptions.field_updating_callback property. Gets or sets [IFieldUpdatingCallback](../../ifieldupdatingcallback/) implementation"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.fields/fieldoptions/field_updating_callback/
 ---
 
