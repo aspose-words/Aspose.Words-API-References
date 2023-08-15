@@ -15,6 +15,38 @@ public class PdfImageCompression
 ```
 
 Specifies the type of compression applied to images in the PDF file.
+
+ **Examples:** 
+
+Shows how to specify a compression type for all images in a document that we are converting to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

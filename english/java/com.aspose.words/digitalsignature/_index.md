@@ -277,6 +277,24 @@ public byte[] getSignatureValue()
 
 Gets an array of bytes representing a signature value.
 
+ **Examples:** 
+
+Shows how to get a digital signature value from a digitally signed document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature digitalSignature : doc.getDigitalSignatures())
+ {
+     String signatureValue = Base64.getEncoder().encodeToString(digitalSignature.getSignatureValue());
+     Assert.assertEquals("K1cVLLg2kbJRAzT5WK+m++G8eEO+l7S+5ENdjMxxTXkFzGUfvwxREuJdSFj9AbD" +
+             "MhnGvDURv9KEhC25DDF1al8NRVR71TF3CjHVZXpYu7edQS5/yLw/k5CiFZzCp1+MmhOdYPcVO+Fm" +
+             "+9fKr2iNLeyYB+fgEeZHfTqTFM2WwAqo=", signatureValue);
+ }
+ 
+```
+
 **Returns:**
 byte[] - An array of bytes representing a signature value.
 ### getSubjectName() {#getSubjectName}

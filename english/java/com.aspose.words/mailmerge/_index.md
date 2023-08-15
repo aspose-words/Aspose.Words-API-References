@@ -998,7 +998,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
@@ -1208,7 +1208,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
@@ -1430,7 +1430,8 @@ Shows how to define custom logic for handling events during mail merge.
 
 ```
 
- Document document = new Document();
+ public void testTagsReplacedEventShouldRisedWithUseNonMergeFieldsOption() throws Exception {
+     Document document = new Document();
      document.getMailMerge().setUseNonMergeFields(true);
 
      MailMergeCallbackStub mailMergeCallbackStub = new MailMergeCallbackStub();
@@ -1439,8 +1440,7 @@ Shows how to define custom logic for handling events during mail merge.
      document.getMailMerge().execute(new String[0], new Object[0]);
 
      Assert.assertEquals(mailMergeCallbackStub.getTagsReplacedCounter(), 1);
- 
-```
+ }
 
  private static class MailMergeCallbackStub implements IMailMergeCallback {
      public void tagsReplaced() {
@@ -1453,7 +1453,7 @@ Shows how to define custom logic for handling events during mail merge.
 
      private int mTagsReplacedCounter;
  }
- }
+ 
 ```
 
 **Returns:**
@@ -2432,7 +2432,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
@@ -2488,7 +2488,8 @@ Shows how to define custom logic for handling events during mail merge.
 
 ```
 
- Document document = new Document();
+ public void testTagsReplacedEventShouldRisedWithUseNonMergeFieldsOption() throws Exception {
+     Document document = new Document();
      document.getMailMerge().setUseNonMergeFields(true);
 
      MailMergeCallbackStub mailMergeCallbackStub = new MailMergeCallbackStub();
@@ -2497,8 +2498,7 @@ Shows how to define custom logic for handling events during mail merge.
      document.getMailMerge().execute(new String[0], new Object[0]);
 
      Assert.assertEquals(mailMergeCallbackStub.getTagsReplacedCounter(), 1);
- 
-```
+ }
 
  private static class MailMergeCallbackStub implements IMailMergeCallback {
      public void tagsReplaced() {
@@ -2511,7 +2511,7 @@ Shows how to define custom logic for handling events during mail merge.
 
      private int mTagsReplacedCounter;
  }
- }
+ 
 ```
 
 **Parameters:**

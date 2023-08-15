@@ -1518,6 +1518,26 @@ Gets the next [Row](../../com.aspose.words/row/) node.
 
 The method can be used when you need to have typed access to table rows. If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a table instead of a row, it is automatically traversed to get a row contained within.
 
+ **Examples:** 
+
+Shows how to enumerate through all table cells.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Enumerate through all cells of the table.
+ for (Row row = table.getFirstRow(); row != null; row = row.getNextRow())
+ {
+     for (Cell cell = row.getFirstCell(); cell != null; cell = cell.getNextCell())
+     {
+         System.out.println(cell.getText());
+     }
+ }
+ 
+```
+
 **Returns:**
 [Row](../../com.aspose.words/row/) - The next [Row](../../com.aspose.words/row/) node.
 ### getNextSibling() {#getNextSibling}
@@ -1868,6 +1888,26 @@ Gets the previous [Row](../../com.aspose.words/row/) node.
  **Remarks:** 
 
 The method can be used when you need to have typed access to table rows. If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a table instead of a row, it is automatically traversed to get a row contained within.
+
+ **Examples:** 
+
+Shows how to enumerate through all table cells.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Enumerate through all cells of the table.
+ for (Row row = table.getFirstRow(); row != null; row = row.getNextRow())
+ {
+     for (Cell cell = row.getFirstCell(); cell != null; cell = cell.getNextCell())
+     {
+         System.out.println(cell.getText());
+     }
+ }
+ 
+```
 
 **Returns:**
 [Row](../../com.aspose.words/row/) - The previous [Row](../../com.aspose.words/row/) node.

@@ -33,16 +33,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -136,16 +136,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -427,16 +427,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -487,16 +487,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -622,16 +622,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -682,16 +682,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -742,16 +742,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -802,16 +802,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -899,16 +899,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1208,16 +1208,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1615,16 +1615,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1678,16 +1678,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1741,16 +1741,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1804,16 +1804,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1867,16 +1867,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1930,16 +1930,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -1993,16 +1993,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -2096,16 +2096,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +
@@ -2188,16 +2188,16 @@ Shows how to extract data from a database and insert it as a field into a docume
 
  // This DATABASE field will run a query on a database, and display the result in a table.
  FieldDatabase field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getDatabaseDir() + "Northwind.mdb");
+ field.setFileName(getDatabaseDir() + "Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT * FROM [Products]");
 
- Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.mdb"),
+ Assert.assertEquals(MessageFormat.format(" DATABASE  \\d {0} \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", getDatabaseDir().replace("\\", "\\\\") + "Northwind.accdb"),
          field.getFieldCode());
 
  // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
  field = (FieldDatabase) builder.insertField(FieldType.FIELD_DATABASE, true);
- field.setFileName(getMyDir() + "Database\\Northwind.mdb");
+ field.setFileName(getMyDir() + "Database\\Northwind.accdb");
  field.setConnection("DSN=MS Access Databases");
  field.setQuery("SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
          "FROM([Products] " +

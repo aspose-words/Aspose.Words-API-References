@@ -32,7 +32,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 
  Document doc = new Document(getMyDir() + "Document.docx");
 
- Assert.assertEquals(16222, doc.getBuiltInDocumentProperties().getBytes());
+ Assert.assertEquals(doc.getBuiltInDocumentProperties().getBytes(), 18105);
 
  DocumentBuilder builder = new DocumentBuilder(doc);
  builder.moveToDocumentEnd();
@@ -45,7 +45,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE ", field.getFieldCode());
- Assert.assertEquals("16222", field.getResult());
+ Assert.assertEquals("18105", field.getResult());
 
  // 2 -  Kilobytes:
  builder.insertParagraph();
@@ -54,7 +54,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE  \\k", field.getFieldCode());
- Assert.assertEquals("16", field.getResult());
+ Assert.assertEquals("18", field.getResult());
 
  // 3 -  Megabytes:
  builder.insertParagraph();
@@ -861,7 +861,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 
  Document doc = new Document(getMyDir() + "Document.docx");
 
- Assert.assertEquals(16222, doc.getBuiltInDocumentProperties().getBytes());
+ Assert.assertEquals(doc.getBuiltInDocumentProperties().getBytes(), 18105);
 
  DocumentBuilder builder = new DocumentBuilder(doc);
  builder.moveToDocumentEnd();
@@ -874,7 +874,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE ", field.getFieldCode());
- Assert.assertEquals("16222", field.getResult());
+ Assert.assertEquals("18105", field.getResult());
 
  // 2 -  Kilobytes:
  builder.insertParagraph();
@@ -883,7 +883,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE  \\k", field.getFieldCode());
- Assert.assertEquals("16", field.getResult());
+ Assert.assertEquals("18", field.getResult());
 
  // 3 -  Megabytes:
  builder.insertParagraph();
@@ -918,7 +918,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 
  Document doc = new Document(getMyDir() + "Document.docx");
 
- Assert.assertEquals(16222, doc.getBuiltInDocumentProperties().getBytes());
+ Assert.assertEquals(doc.getBuiltInDocumentProperties().getBytes(), 18105);
 
  DocumentBuilder builder = new DocumentBuilder(doc);
  builder.moveToDocumentEnd();
@@ -931,7 +931,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE ", field.getFieldCode());
- Assert.assertEquals("16222", field.getResult());
+ Assert.assertEquals("18105", field.getResult());
 
  // 2 -  Kilobytes:
  builder.insertParagraph();
@@ -940,7 +940,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE  \\k", field.getFieldCode());
- Assert.assertEquals("16", field.getResult());
+ Assert.assertEquals("18", field.getResult());
 
  // 3 -  Megabytes:
  builder.insertParagraph();
@@ -978,7 +978,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 
  Document doc = new Document(getMyDir() + "Document.docx");
 
- Assert.assertEquals(16222, doc.getBuiltInDocumentProperties().getBytes());
+ Assert.assertEquals(doc.getBuiltInDocumentProperties().getBytes(), 18105);
 
  DocumentBuilder builder = new DocumentBuilder(doc);
  builder.moveToDocumentEnd();
@@ -991,7 +991,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE ", field.getFieldCode());
- Assert.assertEquals("16222", field.getResult());
+ Assert.assertEquals("18105", field.getResult());
 
  // 2 -  Kilobytes:
  builder.insertParagraph();
@@ -1000,7 +1000,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE  \\k", field.getFieldCode());
- Assert.assertEquals("16", field.getResult());
+ Assert.assertEquals("18", field.getResult());
 
  // 3 -  Megabytes:
  builder.insertParagraph();
@@ -1035,7 +1035,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 
  Document doc = new Document(getMyDir() + "Document.docx");
 
- Assert.assertEquals(16222, doc.getBuiltInDocumentProperties().getBytes());
+ Assert.assertEquals(doc.getBuiltInDocumentProperties().getBytes(), 18105);
 
  DocumentBuilder builder = new DocumentBuilder(doc);
  builder.moveToDocumentEnd();
@@ -1048,7 +1048,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE ", field.getFieldCode());
- Assert.assertEquals("16222", field.getResult());
+ Assert.assertEquals("18105", field.getResult());
 
  // 2 -  Kilobytes:
  builder.insertParagraph();
@@ -1057,7 +1057,7 @@ Shows how to display the file size of a document with a FILESIZE field.
  field.update();
 
  Assert.assertEquals(" FILESIZE  \\k", field.getFieldCode());
- Assert.assertEquals("16", field.getResult());
+ Assert.assertEquals("18", field.getResult());
 
  // 3 -  Megabytes:
  builder.insertParagraph();

@@ -4,7 +4,7 @@ linktitle: IMailMergeCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to receive notifications while mail merge is performed in Java.
 type: docs
-weight: 677
+weight: 678
 url: /java/com.aspose.words/imailmergecallback/
 ---
 ```
@@ -19,7 +19,8 @@ Shows how to define custom logic for handling events during mail merge.
 
 ```
 
- Document document = new Document();
+ public void testTagsReplacedEventShouldRisedWithUseNonMergeFieldsOption() throws Exception {
+     Document document = new Document();
      document.getMailMerge().setUseNonMergeFields(true);
 
      MailMergeCallbackStub mailMergeCallbackStub = new MailMergeCallbackStub();
@@ -28,8 +29,7 @@ Shows how to define custom logic for handling events during mail merge.
      document.getMailMerge().execute(new String[0], new Object[0]);
 
      Assert.assertEquals(mailMergeCallbackStub.getTagsReplacedCounter(), 1);
- 
-```
+ }
 
  private static class MailMergeCallbackStub implements IMailMergeCallback {
      public void tagsReplaced() {
@@ -42,7 +42,7 @@ Shows how to define custom logic for handling events during mail merge.
 
      private int mTagsReplacedCounter;
  }
- }
+ 
 ```
 ## Methods
 
@@ -63,7 +63,8 @@ Shows how to define custom logic for handling events during mail merge.
 
 ```
 
- Document document = new Document();
+ public void testTagsReplacedEventShouldRisedWithUseNonMergeFieldsOption() throws Exception {
+     Document document = new Document();
      document.getMailMerge().setUseNonMergeFields(true);
 
      MailMergeCallbackStub mailMergeCallbackStub = new MailMergeCallbackStub();
@@ -72,8 +73,7 @@ Shows how to define custom logic for handling events during mail merge.
      document.getMailMerge().execute(new String[0], new Object[0]);
 
      Assert.assertEquals(mailMergeCallbackStub.getTagsReplacedCounter(), 1);
- 
-```
+ }
 
  private static class MailMergeCallbackStub implements IMailMergeCallback {
      public void tagsReplaced() {
@@ -86,6 +86,6 @@ Shows how to define custom logic for handling events during mail merge.
 
      private int mTagsReplacedCounter;
  }
- }
+ 
 ```
 

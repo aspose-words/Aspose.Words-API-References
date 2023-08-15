@@ -45,6 +45,19 @@ public boolean getColored()
 
 Returns  true  if the page contains colored content.
 
+ **Examples:** 
+
+Shows how to check whether the page is in color or not.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // Check that the first page of the document is not colored.
+ Assert.assertFalse(doc.getPageInfo(0).getColored());
+ 
+```
+
 **Returns:**
 boolean -  true  if the page contains colored content.
 ### getHeightInPoints() {#getHeightInPoints}

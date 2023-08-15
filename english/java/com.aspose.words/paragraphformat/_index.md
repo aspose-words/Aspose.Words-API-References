@@ -1975,6 +1975,47 @@ public boolean isHeading()
 
 True when the paragraph style is one of the built-in Heading styles.
 
+ **Examples:** 
+
+Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.PDF);
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "2" to exclude all headings whose levels are above 2 from the outline.
+ // The last two headings we have inserted above will not appear.
+ saveOptions.getOutlineOptions().setHeadingsOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isListItem() {#isListItem}

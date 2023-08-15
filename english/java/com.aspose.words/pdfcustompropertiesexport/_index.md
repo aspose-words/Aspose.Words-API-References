@@ -15,6 +15,32 @@ public class PdfCustomPropertiesExport
 ```
 
 Specifies the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file.
+
+ **Examples:** 
+
+Shows how to export custom properties while converting a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ doc.getCustomDocumentProperties().add("Company", "My value");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.None" to discard
+ // custom document properties as we save the document to .PDF.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Standard"
+ // to preserve custom properties within the output PDF document.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Metadata"
+ // to preserve custom properties in an XMP packet.
+ options.setCustomPropertiesExport(pdfCustomPropertiesExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
+ 
+```
 ## Fields
 
 | Field | Description |

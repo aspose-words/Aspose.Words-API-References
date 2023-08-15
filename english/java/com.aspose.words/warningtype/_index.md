@@ -35,6 +35,9 @@ Shows how to set the property for finding the closest match for a missing font f
      fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
      fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
 
+     // Original font metrics should be used after font substitution.
+     doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
      // We will get a font substitution warning if we save a document with a missing font.
      doc.setFontSettings(fontSettings);
      doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");

@@ -15,6 +15,36 @@ public class PdfDigitalSignatureHashAlgorithm
 ```
 
 Specifies a digital hash algorithm used by a digital signature.
+
+ **Examples:** 
+
+Shows how to sign a generated PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Date signingTime = new Date();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
 ## Fields
 
 | Field | Description |

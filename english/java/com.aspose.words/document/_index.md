@@ -4950,6 +4950,9 @@ Shows how to set the property for finding the closest match for a missing font f
      fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
      fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
 
+     // Original font metrics should be used after font substitution.
+     doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
      // We will get a font substitution warning if we save a document with a missing font.
      doc.setFontSettings(fontSettings);
      doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
@@ -6584,34 +6587,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
  
 ```
 
-Shows how to render every page of a document to a separate TIFF image.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Page 1.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 2.");
- builder.insertImage(getImageDir() + "Logo.jpg");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 3.");
-
- // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
- // to modify the way in which that method renders the document into an image.
- ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
-
- for (int i = 0; i < doc.getPageCount(); i++) {
-     // Set the "PageSet" property to the number of the first page from
-     // which to start rendering the document from.
-     options.setPageSet(new PageSet(i));
-
-     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
- }
- 
-```
-
 Shows how to render one page from a document to a JPEG image.
 
 ```
@@ -6638,6 +6613,37 @@ Shows how to render one page from a document to a JPEG image.
  // This image will contain one page starting from page two,
  // which will just be the second page of the original document.
  doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
+ 
+```
+
+Shows how to render every page of a document to a separate TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ for (int i = 0; i < doc.getPageCount(); i++) {
+     // Set the "PageSet" property to the number of the first page from
+     // which to start rendering the document from.
+     options.setPageSet(new PageSet(i));
+     // Export page at 2325x5325 pixels and 600 dpi.
+     options.setResolution(600f);
+     options.setImageSize(new Dimension(2325, 5325));
+
+     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
+ }
  
 ```
 
@@ -6668,6 +6674,62 @@ Shows how to configure compression while saving a document as a JPEG.
  doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 
  Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
+ 
+```
+
+Shows how to convert a whole document to PDF with three levels in the document outline.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings of levels 1 to 5.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_4);
+
+ builder.writeln("Heading 1.2.2.1");
+ builder.writeln("Heading 1.2.2.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_5);
+
+ builder.writeln("Heading 1.2.2.2.1");
+ builder.writeln("Heading 1.2.2.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "4" to exclude all headings whose levels are above 4 from the outline.
+ options.getOutlineOptions().setHeadingsOutlineLevels(4);
+
+ // If an outline entry has subsequent entries of a higher level inbetween itself and the next entry of the same or lower level,
+ // an arrow will appear to the left of the entry. This entry is the "owner" of several such "sub-entries".
+ // In our document, the outline entries from the 5th heading level are sub-entries of the second 4th level outline entry,
+ // the 4th and 5th heading level entries are sub-entries of the second 3rd level entry, and so on.
+ // In the outline, we can click on the arrow of the "owner" entry to collapse/expand all its sub-entries.
+ // Set the "ExpandedOutlineLevels" property to "2" to automatically expand all heading level 2 and lower outline entries
+ // and collapse all level and 3 and higher entries when we open the document.
+ options.getOutlineOptions().setExpandedOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
  
 ```
 
@@ -8132,6 +8194,9 @@ Shows how to set the property for finding the closest match for a missing font f
      FontSettings fontSettings = new FontSettings();
      fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
      fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+     // Original font metrics should be used after font substitution.
+     doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
 
      // We will get a font substitution warning if we save a document with a missing font.
      doc.setFontSettings(fontSettings);

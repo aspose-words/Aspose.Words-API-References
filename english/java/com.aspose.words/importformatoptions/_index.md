@@ -261,7 +261,7 @@ Shows how to import a document with numbered lists.
  Document srcDoc = new Document(getMyDir() + "List source.docx");
  Document dstDoc = new Document(getMyDir() + "List destination.docx");
 
- Assert.assertEquals(2, dstDoc.getLists().getCount());
+ Assert.assertEquals(dstDoc.getLists().getCount(), 4);
 
  ImportFormatOptions options = new ImportFormatOptions();
 
@@ -275,9 +275,9 @@ Shows how to import a document with numbered lists.
  dstDoc.updateListLabels();
 
  if (isKeepSourceNumbering)
-     Assert.assertEquals(3, dstDoc.getLists().getCount());
+     Assert.assertEquals(dstDoc.getLists().getCount(), 5);
  else
-     Assert.assertEquals(2, dstDoc.getLists().getCount());
+     Assert.assertEquals(dstDoc.getLists().getCount(), 4);
  
 ```
 
@@ -613,7 +613,7 @@ Shows how to import a document with numbered lists.
  Document srcDoc = new Document(getMyDir() + "List source.docx");
  Document dstDoc = new Document(getMyDir() + "List destination.docx");
 
- Assert.assertEquals(2, dstDoc.getLists().getCount());
+ Assert.assertEquals(dstDoc.getLists().getCount(), 4);
 
  ImportFormatOptions options = new ImportFormatOptions();
 
@@ -627,9 +627,9 @@ Shows how to import a document with numbered lists.
  dstDoc.updateListLabels();
 
  if (isKeepSourceNumbering)
-     Assert.assertEquals(3, dstDoc.getLists().getCount());
+     Assert.assertEquals(dstDoc.getLists().getCount(), 5);
  else
-     Assert.assertEquals(2, dstDoc.getLists().getCount());
+     Assert.assertEquals(dstDoc.getLists().getCount(), 4);
  
 ```
 

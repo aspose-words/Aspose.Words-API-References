@@ -85,11 +85,13 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFilterLanguageId()](#getFilterLanguageId) | Gets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language. |
 | [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getFormatLanguageId()](#getFormatLanguageId) | Gets the language ID that is used to format the bibliographic sources in the document. |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
+| [getSourceTag()](#getSourceTag) | Gets a value so that only the sources with matching Tag element value are displayed in the bibliography. |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
@@ -98,9 +100,11 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
 | [remove()](#remove) | Removes the field from the document. |
+| [setFilterLanguageId(String value)](#setFilterLanguageId-java.lang.String) | Sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language. |
 | [setFormatLanguageId(String value)](#setFormatLanguageId-java.lang.String) | Sets the language ID that is used to format the bibliographic sources in the document. |
 | [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
+| [setSourceTag(String value)](#setSourceTag-java.lang.String) | Sets a value so that only the sources with matching Tag element value are displayed in the bibliography. |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
@@ -335,6 +339,16 @@ Shows how to get a field's field code.
 
 **Returns:**
 java.lang.String
+### getFilterLanguageId() {#getFilterLanguageId}
+```
+public String getFilterLanguageId()
+```
+
+
+Gets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
+
+**Returns:**
+java.lang.String - The language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
 ### getFormat() {#getFormat}
 ```
 public FieldFormat getFormat()
@@ -640,6 +654,16 @@ Shows how to work with a collection of fields.
 
 **Returns:**
 [FieldSeparator](../../com.aspose.words/fieldseparator/) - The node that represents the field separator.
+### getSourceTag() {#getSourceTag}
+```
+public String getSourceTag()
+```
+
+
+Gets a value so that only the sources with matching Tag element value are displayed in the bibliography.
+
+**Returns:**
+java.lang.String - A value so that only the sources with matching Tag element value are displayed in the bibliography.
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -1106,6 +1130,19 @@ Shows how to process PRIVATE fields.
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
+### setFilterLanguageId(String value) {#setFilterLanguageId-java.lang.String}
+```
+public void setFilterLanguageId(String value)
+```
+
+
+Sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The language ID that is used to filter the bibliographic data to only the sources in the document that use that language. |
+
 ### setFormatLanguageId(String value) {#setFormatLanguageId-java.lang.String}
 ```
 public void setFormatLanguageId(String value)
@@ -1240,6 +1277,19 @@ Shows how to insert a field into a document using a field code.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
+
+### setSourceTag(String value) {#setSourceTag-java.lang.String}
+```
+public void setSourceTag(String value)
+```
+
+
+Sets a value so that only the sources with matching Tag element value are displayed in the bibliography.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A value so that only the sources with matching Tag element value are displayed in the bibliography. |
 
 ### unlink() {#unlink}
 ```

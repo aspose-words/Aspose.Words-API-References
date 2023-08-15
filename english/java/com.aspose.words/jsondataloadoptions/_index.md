@@ -35,9 +35,11 @@ An instance of this class can be passed into constructors of [JsonDataSource](..
 | --- | --- |
 | [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
 | [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats) | Gets exact formats for parsing JSON date-time values while loading JSON. |
+| [getPreserveSpaces()](#getPreserveSpaces) | Gets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data. |
 | [getSimpleValueParseMode()](#getSimpleValueParseMode) | Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
 | [setExactDateTimeParseFormats(Iterable value)](#setExactDateTimeParseFormats-java.lang.Iterable) | Sets exact formats for parsing JSON date-time values while loading JSON. |
+| [setPreserveSpaces(boolean value)](#setPreserveSpaces-boolean) | Sets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data. |
 | [setSimpleValueParseMode(int value)](#setSimpleValueParseMode-int) | Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 ### JsonDataLoadOptions() {#JsonDataLoadOptions}
 ```
@@ -79,6 +81,20 @@ Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224
 
 **Returns:**
 java.lang.Iterable - Exact formats for parsing JSON date-time values while loading JSON.
+### getPreserveSpaces() {#getPreserveSpaces}
+```
+public boolean getPreserveSpaces()
+```
+
+
+Gets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data.
+
+ **Remarks:** 
+
+The default value is  false .
+
+**Returns:**
+boolean - A flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data.
 ### getSimpleValueParseMode() {#getSimpleValueParseMode}
 ```
 public int getSimpleValueParseMode()
@@ -126,6 +142,23 @@ Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.Iterable | Exact formats for parsing JSON date-time values while loading JSON. |
+
+### setPreserveSpaces(boolean value) {#setPreserveSpaces-boolean}
+```
+public void setPreserveSpaces(boolean value)
+```
+
+
+Sets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data.
+
+ **Remarks:** 
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data. |
 
 ### setSimpleValueParseMode(int value) {#setSimpleValueParseMode-int}
 ```

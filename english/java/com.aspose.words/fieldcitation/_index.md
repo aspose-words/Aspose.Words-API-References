@@ -81,7 +81,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
 | Method | Description |
 | --- | --- |
-| [getAnotherSourceTag()](#getAnotherSourceTag) | Gets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [getAnotherSourceTag()](#getAnotherSourceTag) | Gets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
@@ -93,7 +93,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [getPrefix()](#getPrefix) | Gets a prefix that is prepended to the citation. |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
-| [getSourceTag()](#getSourceTag) | Gets a value that mathes the **Tag** element's value of the source to insert. |
+| [getSourceTag()](#getSourceTag) | Gets a value that matches the **Tag** element's value of the source to insert. |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSuffix()](#getSuffix) | Gets a suffix that is appended to the citation. |
 | [getSuppressAuthor()](#getSuppressAuthor) | Gets whether the author information is suppressed from the citation. |
@@ -107,13 +107,13 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
 | [remove()](#remove) | Removes the field from the document. |
-| [setAnotherSourceTag(String value)](#setAnotherSourceTag-java.lang.String) | Sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [setAnotherSourceTag(String value)](#setAnotherSourceTag-java.lang.String) | Sets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [setFormatLanguageId(String value)](#setFormatLanguageId-java.lang.String) | Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
 | [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
 | [setPageNumber(String value)](#setPageNumber-java.lang.String) | Sets a page number associated with the citation. |
 | [setPrefix(String value)](#setPrefix-java.lang.String) | Sets a prefix that is prepended to the citation. |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
-| [setSourceTag(String value)](#setSourceTag-java.lang.String) | Sets a value that mathes the **Tag** element's value of the source to insert. |
+| [setSourceTag(String value)](#setSourceTag-java.lang.String) | Sets a value that matches the **Tag** element's value of the source to insert. |
 | [setSuffix(String value)](#setSuffix-java.lang.String) | Sets a suffix that is appended to the citation. |
 | [setSuppressAuthor(boolean value)](#setSuppressAuthor-boolean) | Sets whether the author information is suppressed from the citation. |
 | [setSuppressTitle(boolean value)](#setSuppressTitle-boolean) | Sets whether the title information is suppressed from the citation. |
@@ -128,7 +128,7 @@ public String getAnotherSourceTag()
 ```
 
 
-Gets a value that mathes the **Tag** element's value of another source to be included in the citation.
+Gets a value that matches the **Tag** element's value of another source to be included in the citation.
 
  **Examples:** 
 
@@ -184,7 +184,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 ```
 
 **Returns:**
-java.lang.String - A value that mathes the **Tag** element's value of another source to be included in the citation.
+java.lang.String - A value that matches the **Tag** element's value of another source to be included in the citation.
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -853,7 +853,7 @@ public String getSourceTag()
 ```
 
 
-Gets a value that mathes the **Tag** element's value of the source to insert.
+Gets a value that matches the **Tag** element's value of the source to insert.
 
  **Examples:** 
 
@@ -909,7 +909,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 ```
 
 **Returns:**
-java.lang.String - A value that mathes the **Tag** element's value of the source to insert.
+java.lang.String - A value that matches the **Tag** element's value of the source to insert.
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -1697,7 +1697,7 @@ public void setAnotherSourceTag(String value)
 ```
 
 
-Sets a value that mathes the **Tag** element's value of another source to be included in the citation.
+Sets a value that matches the **Tag** element's value of another source to be included in the citation.
 
  **Examples:** 
 
@@ -1755,7 +1755,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | A value that mathes the **Tag** element's value of another source to be included in the citation. |
+| value | java.lang.String | A value that matches the **Tag** element's value of another source to be included in the citation. |
 
 ### setFormatLanguageId(String value) {#setFormatLanguageId-java.lang.String}
 ```
@@ -2030,7 +2030,7 @@ public void setSourceTag(String value)
 ```
 
 
-Sets a value that mathes the **Tag** element's value of the source to insert.
+Sets a value that matches the **Tag** element's value of the source to insert.
 
  **Examples:** 
 
@@ -2088,7 +2088,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | A value that mathes the **Tag** element's value of the source to insert. |
+| value | java.lang.String | A value that matches the **Tag** element's value of the source to insert. |
 
 ### setSuffix(String value) {#setSuffix-java.lang.String}
 ```

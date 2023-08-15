@@ -205,7 +205,7 @@ Shows how to split a document into parts and save them.
 | [getDocumentSplitCriteria()](#getDocumentSplitCriteria) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. |
 | [getDocumentSplitHeadingLevel()](#getDocumentSplitHeadingLevel) | Specifies the maximum level of headings at which to split the document. |
 | [getEncoding()](#getEncoding) |  |
-| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. |
+| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. |
 | [getExportCidUrlsForMhtmlResources()](#getExportCidUrlsForMhtmlResources) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [getExportDocumentProperties()](#getExportDocumentProperties) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [getExportDropDownFormFieldAsText()](#getExportDropDownFormFieldAsText) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -237,6 +237,7 @@ Shows how to split a document into parts and save them.
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getMetafileFormat()](#getMetafileFormat) | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. |
+| [getNavigationMapLevel()](#getNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. |
 | [getOfficeMathOutputMode()](#getOfficeMathOutputMode) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
@@ -251,7 +252,6 @@ Shows how to split a document into parts and save them.
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
@@ -268,7 +268,7 @@ Shows how to split a document into parts and save them.
 | [setDocumentSplitCriteria(int value)](#setDocumentSplitCriteria-int) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. |
 | [setDocumentSplitHeadingLevel(int value)](#setDocumentSplitHeadingLevel-int) | Specifies the maximum level of headings at which to split the document. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) |  |
-| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. |
+| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. |
 | [setExportCidUrlsForMhtmlResources(boolean value)](#setExportCidUrlsForMhtmlResources-boolean) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [setExportDropDownFormFieldAsText(boolean value)](#setExportDropDownFormFieldAsText-boolean) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -300,6 +300,7 @@ Shows how to split a document into parts and save them.
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setMetafileFormat(int value)](#setMetafileFormat-int) | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. |
+| [setNavigationMapLevel(int value)](#setNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. |
 | [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
@@ -314,7 +315,6 @@ Shows how to split a document into parts and save them.
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
 ### HtmlSaveOptions() {#HtmlSaveOptions}
@@ -814,6 +814,31 @@ The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Returns:**
 int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode/) constants.
 ### getDmlRenderingMode() {#getDmlRenderingMode}
@@ -829,6 +854,51 @@ Gets a value determining how DrawingML shapes are rendered.
 The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
 
 **Returns:**
 int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants.
@@ -1086,15 +1156,28 @@ public int getEpubNavigationMapLevel()
 ```
 
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is  3 .
 
  **Remarks:** 
 
-Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
+The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
 
-By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
 
  **Examples:** 
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
+ 
+```
 
 Shows how to generate table of contents for azw3 documents.
 
@@ -2901,6 +2984,27 @@ Gets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
 ### getMetafileFormat() {#getMetafileFormat}
@@ -2967,6 +3071,22 @@ Shows how to convert SVG objects to a different format when saving HTML document
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat/) constants.
+### getNavigationMapLevel() {#getNavigationMapLevel}
+```
+public int getNavigationMapLevel()
+```
+
+
+Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is  3 .
+
+ **Remarks:** 
+
+The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getNavigationMapLevel) / [setNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setNavigationMapLevel-int).
+
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
+
+**Returns:**
+int - The corresponding  int  value.
 ### getOfficeMathOutputMode() {#getOfficeMathOutputMode}
 ```
 public int getOfficeMathOutputMode()
@@ -3623,6 +3743,43 @@ Gets a value determining if fields of certain types should be updated before sav
 
 Allows to specify whether to mimic or not MS Word behavior.
 
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
+
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty}
@@ -3710,45 +3867,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
-### getUpdateSdtContent() {#getUpdateSdtContent}
-```
-public boolean getUpdateSdtContent()
-```
-
-
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
 ### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
@@ -4246,6 +4364,31 @@ The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -4264,6 +4407,51 @@ Sets a value determining how DrawingML shapes are rendered.
 The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4536,15 +4724,28 @@ public void setEpubNavigationMapLevel(int value)
 ```
 
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is  3 .
 
  **Remarks:** 
 
-Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
+The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
 
-By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
 
  **Examples:** 
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
+ 
+```
 
 Shows how to generate table of contents for azw3 documents.
 
@@ -6441,6 +6642,27 @@ Sets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -6512,6 +6734,25 @@ Shows how to convert SVG objects to a different format when saving HTML document
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat/) constants. |
+
+### setNavigationMapLevel(int value) {#setNavigationMapLevel-int}
+```
+public void setNavigationMapLevel(int value)
+```
+
+
+Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is  3 .
+
+ **Remarks:** 
+
+The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [getNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getNavigationMapLevel) / [setNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setNavigationMapLevel-int).
+
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
 
 ### setOfficeMathOutputMode(int value) {#setOfficeMathOutputMode-int}
 ```
@@ -7202,6 +7443,43 @@ Sets a value determining if fields of certain types should be updated before sav
 
 Allows to specify whether to mimic or not MS Word behavior.
 
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -7297,48 +7575,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-
-### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean}
-```
-public void setUpdateSdtContent(boolean value)
-```
-
-
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```
