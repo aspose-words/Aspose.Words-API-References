@@ -18,6 +18,56 @@ Allows to specify additional metafile rendering options.
 
 To learn more, visit the [ Handling Windows Metafiles ][Handling Windows Metafiles] documentation article.
 
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
 
 [Handling Windows Metafiles]: https://docs.aspose.com/words/java/handling-windows-metafiles/
 ## Methods
@@ -52,6 +102,35 @@ This option is used only when metafile is rendered as vector graphics. When meta
 
 The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode/\#EMF-PLUS-WITH-FALLBACK).
 
+ **Examples:** 
+
+Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "EMF.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
+ // to only render the EMF part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
+ // to render the EMF+ part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+ // to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
+ // Otherwise, Aspose.Words will render the EMF part.
+ saveOptions.getMetafileRenderingOptions().setEmfPlusDualRenderingMode(renderingMode);
+
+ // Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
+ // for metafiles that we can render as vector graphics.
+ saveOptions.getMetafileRenderingOptions().setUseEmfEmbeddedToWmf(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 int - A value determining how EMF+ Dual metafiles should be rendered. The returned value is one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode/) constants.
 ### getEmulateRasterOperations() {#getEmulateRasterOperations}
@@ -74,6 +153,56 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
 **Returns:**
 boolean - A value determining whether or not the raster operations should be emulated.
 ### getRenderingMode() {#getRenderingMode}
@@ -87,6 +216,56 @@ Gets a value determining how metafile images should be rendered.
  **Remarks:** 
 
 The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode/\#VECTOR-WITH-FALLBACK).
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Returns:**
 int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) constants.
@@ -110,6 +289,28 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows how to WMF fonts scaling according to metafile size on the page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "ScaleWmfFontsToMetafileSize" property to "true" to scale fonts
+ // that format text within WMF images according to the size of the metafile on the page.
+ // Set the "ScaleWmfFontsToMetafileSize" property to "false" to
+ // preserve the default scale of these fonts.
+ saveOptions.getMetafileRenderingOptions().setScaleWmfFontsToMetafileSize(scaleWmfFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
 ### getUseEmfEmbeddedToWmf() {#getUseEmfEmbeddedToWmf}
@@ -131,6 +332,35 @@ When this value is set to  false , Aspose.Words uses WMF data when rendering.
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "EMF.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
+ // to only render the EMF part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
+ // to render the EMF+ part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+ // to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
+ // Otherwise, Aspose.Words will render the EMF part.
+ saveOptions.getMetafileRenderingOptions().setEmfPlusDualRenderingMode(renderingMode);
+
+ // Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
+ // for metafiles that we can render as vector graphics.
+ saveOptions.getMetafileRenderingOptions().setUseEmfEmbeddedToWmf(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A value determining how WMF metafiles with embedded EMF metafiles should be rendered.
@@ -197,6 +427,35 @@ This option is used only when metafile is rendered as vector graphics. When meta
 
 The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode/\#EMF-PLUS-WITH-FALLBACK).
 
+ **Examples:** 
+
+Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "EMF.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
+ // to only render the EMF part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
+ // to render the EMF+ part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+ // to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
+ // Otherwise, Aspose.Words will render the EMF part.
+ saveOptions.getMetafileRenderingOptions().setEmfPlusDualRenderingMode(renderingMode);
+
+ // Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
+ // for metafiles that we can render as vector graphics.
+ saveOptions.getMetafileRenderingOptions().setUseEmfEmbeddedToWmf(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -222,6 +481,56 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -238,6 +547,56 @@ Sets a value determining how metafile images should be rendered.
  **Remarks:** 
 
 The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode/\#VECTOR-WITH-FALLBACK).
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,6 +623,28 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows how to WMF fonts scaling according to metafile size on the page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "ScaleWmfFontsToMetafileSize" property to "true" to scale fonts
+ // that format text within WMF images according to the size of the metafile on the page.
+ // Set the "ScaleWmfFontsToMetafileSize" property to "false" to
+ // preserve the default scale of these fonts.
+ saveOptions.getMetafileRenderingOptions().setScaleWmfFontsToMetafileSize(scaleWmfFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -288,6 +669,35 @@ When this value is set to  false , Aspose.Words uses WMF data when rendering.
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "EMF.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
+ // to only render the EMF part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
+ // to render the EMF+ part of an EMF+ dual metafile.
+ // Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+ // to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
+ // Otherwise, Aspose.Words will render the EMF part.
+ saveOptions.getMetafileRenderingOptions().setEmfPlusDualRenderingMode(renderingMode);
+
+ // Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
+ // for metafiles that we can render as vector graphics.
+ saveOptions.getMetafileRenderingOptions().setUseEmfEmbeddedToWmf(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

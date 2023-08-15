@@ -18,6 +18,33 @@ Contains details for encrypting and access permissions for a PDF document.
 
 To learn more, visit the [ Protect or Encrypt a Document ][Protect or Encrypt a Document] documentation article.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 
 [Protect or Encrypt a Document]: https://docs.aspose.com/words/java/protect-or-encrypt-a-document/
 ## Constructors
@@ -25,6 +52,7 @@ To learn more, visit the [ Protect or Encrypt a Document ][Protect or Encrypt a 
 | Constructor | Description |
 | --- | --- |
 | [PdfEncryptionDetails(String userPassword, String ownerPassword)](#PdfEncryptionDetails-java.lang.String-java.lang.String) | Initializes an instance of this class. |
+| [PdfEncryptionDetails(String userPassword, String ownerPassword, int permissions)](#PdfEncryptionDetails-java.lang.String-java.lang.String-int) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
@@ -49,6 +77,21 @@ Initializes an instance of this class.
 | userPassword | java.lang.String |  |
 | ownerPassword | java.lang.String |  |
 
+### PdfEncryptionDetails(String userPassword, String ownerPassword, int permissions) {#PdfEncryptionDetails-java.lang.String-java.lang.String-int}
+```
+public PdfEncryptionDetails(String userPassword, String ownerPassword, int permissions)
+```
+
+
+Initializes a new instance of this class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userPassword | java.lang.String |  |
+| ownerPassword | java.lang.String |  |
+| permissions | int |  |
+
 ### getOwnerPassword() {#getOwnerPassword}
 ```
 public String getOwnerPassword()
@@ -63,6 +106,33 @@ The owner password allows the user to open an encrypted PDF document without any
 
 The owner password cannot be the same as the user password.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getPermissions() {#getPermissions}
@@ -72,6 +142,33 @@ public int getPermissions()
 
 
 Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions/\#DISALLOW-ALL).
+
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is a bitwise combination of [PdfPermissions](../../com.aspose.words/pdfpermissions/) constants.
@@ -89,6 +186,33 @@ The user password will be required to open an encrypted PDF document for viewing
 
 The user password can be  null  or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### setOwnerPassword(String value) {#setOwnerPassword-java.lang.String}
@@ -105,6 +229,33 @@ The owner password allows the user to open an encrypted PDF document without any
 
 The owner password cannot be the same as the user password.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -117,6 +268,33 @@ public void setPermissions(int value)
 
 
 Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions/\#DISALLOW-ALL).
+
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -136,6 +314,33 @@ Specifies the user password required for opening the encrypted PDF document.
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int) will be enforced by the reader software.
 
 The user password can be  null  or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
+
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

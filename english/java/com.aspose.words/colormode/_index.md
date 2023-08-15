@@ -15,6 +15,28 @@ public class ColorMode
 ```
 
 Specifies how colors are rendered.
+
+ **Examples:** 
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

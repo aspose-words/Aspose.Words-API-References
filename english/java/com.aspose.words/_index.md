@@ -684,6 +684,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | Interface | Description |
 | --- | --- |
 | [IBarcodeGenerator](../com.aspose.words/ibarcodegenerator/) | Public interface for barcode custom generator. |
+| [IBibliographyStylesProvider](../com.aspose.words/ibibliographystylesprovider/) | Implement this interface to provide bibliography style for the [FieldBibliography](../com.aspose.words/fieldbibliography/) and [FieldCitation](../com.aspose.words/fieldcitation/) fields when they're updated. |
 | [IChartDataPoint](../com.aspose.words/ichartdatapoint/) | Contains properties of a single data point on the chart. |
 | [IComparisonExpressionEvaluator](../com.aspose.words/icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](../com.aspose.words/fieldif/) and [FieldCompare](../com.aspose.words/fieldcompare/) fields. |
 | [ICssSavingCallback](../com.aspose.words/icsssavingcallback/) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |

@@ -4,7 +4,7 @@ linktitle: IFieldMergingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in Java.
 type: docs
-weight: 668
+weight: 669
 url: /java/com.aspose.words/ifieldmergingcallback/
 ---
 ```
@@ -74,7 +74,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
@@ -185,7 +185,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
@@ -251,7 +251,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");

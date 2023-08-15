@@ -25,6 +25,7 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | Method | Description |
 | --- | --- |
 | [getBarcodeGenerator()](#getBarcodeGenerator) | Gets or set custom barcode generator. |
+| [getBibliographyStylesProvider()](#getBibliographyStylesProvider) | Gets a provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields. |
 | [getBuiltInTemplatesPaths()](#getBuiltInTemplatesPaths) | Gets paths of MS Word built-in templates. |
 | [getComparisonExpressionEvaluator()](#getComparisonExpressionEvaluator) | Gets the field comparison expressions evaluator. |
 | [getCurrentUser()](#getCurrentUser) | Gets the current user information. |
@@ -47,6 +48,7 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | [isBidiTextSupportedOnUpdate()](#isBidiTextSupportedOnUpdate) | Gets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [isBidiTextSupportedOnUpdate(boolean value)](#isBidiTextSupportedOnUpdate-boolean) | Sets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [setBarcodeGenerator(IBarcodeGenerator value)](#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator) | Gets or set custom barcode generator. |
+| [setBibliographyStylesProvider(IBibliographyStylesProvider value)](#setBibliographyStylesProvider-com.aspose.words.IBibliographyStylesProvider) | Sets a provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields. |
 | [setBuiltInTemplatesPaths(String[] value)](#setBuiltInTemplatesPaths-java.lang.String) | Sets paths of MS Word built-in templates. |
 | [setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value)](#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator) | Sets the field comparison expressions evaluator. |
 | [setCurrentUser(UserInformation value)](#setCurrentUser-com.aspose.words.UserInformation) | Sets the current user information. |
@@ -155,6 +157,42 @@ Shows how to use a barcode generator.
 
 **Returns:**
 [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/) - Or set custom barcode generator.
+### getBibliographyStylesProvider() {#getBibliographyStylesProvider}
+```
+public IBibliographyStylesProvider getBibliographyStylesProvider()
+```
+
+
+Gets a provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields.
+
+ **Examples:** 
+
+Shows how to override built-in styles or provide custom one.
+
+```
+
+ public void changeBibliographyStyles() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
+     doc.updateFields();
+
+     doc.save(getArtifactsDir() + "Field.ChangeBibliographyStyles.docx");
+ }
+
+ public static class BibliographyStylesProvider implements IBibliographyStylesProvider
+ {
+     public FileInputStream getStyle(String styleFileName) throws Exception
+     {
+         return new FileInputStream(getMyDir() + "Bibliography custom style.xsl");
+     }
+ }
+ 
+```
+
+**Returns:**
+[IBibliographyStylesProvider](../../com.aspose.words/ibibliographystylesprovider/) - A provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields.
 ### getBuiltInTemplatesPaths() {#getBuiltInTemplatesPaths}
 ```
 public String[] getBuiltInTemplatesPaths()
@@ -1380,6 +1418,45 @@ Shows how to use a barcode generator.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/) | Or set custom barcode generator. |
+
+### setBibliographyStylesProvider(IBibliographyStylesProvider value) {#setBibliographyStylesProvider-com.aspose.words.IBibliographyStylesProvider}
+```
+public void setBibliographyStylesProvider(IBibliographyStylesProvider value)
+```
+
+
+Sets a provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields.
+
+ **Examples:** 
+
+Shows how to override built-in styles or provide custom one.
+
+```
+
+ public void changeBibliographyStyles() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Bibliography.docx");
+
+     doc.getFieldOptions().setBibliographyStylesProvider(new BibliographyStylesProvider());
+     doc.updateFields();
+
+     doc.save(getArtifactsDir() + "Field.ChangeBibliographyStyles.docx");
+ }
+
+ public static class BibliographyStylesProvider implements IBibliographyStylesProvider
+ {
+     public FileInputStream getStyle(String styleFileName) throws Exception
+     {
+         return new FileInputStream(getMyDir() + "Bibliography custom style.xsl");
+     }
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IBibliographyStylesProvider](../../com.aspose.words/ibibliographystylesprovider/) | A provider that returns a bibliography style for the [FieldBibliography](../../com.aspose.words/fieldbibliography/) and [FieldCitation](../../com.aspose.words/fieldcitation/) fields. |
 
 ### setBuiltInTemplatesPaths(String[] value) {#setBuiltInTemplatesPaths-java.lang.String}
 ```

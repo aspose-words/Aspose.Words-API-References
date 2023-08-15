@@ -204,7 +204,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [getPreserveTabs()](#getPreserveTabs) | Gets whether to preserve tab entries within table entries. |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
-| [getSequenceSeparator()](#getSequenceSeparator) | Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [getSequenceSeparator()](#getSequenceSeparator) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getTableOfFiguresLabel()](#getTableOfFiguresLabel) | Gets the name of the sequence identifier used when building a table of figures. |
@@ -230,7 +230,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [setPreserveLineBreaks(boolean value)](#setPreserveLineBreaks-boolean) | Sets whether to preserve newline characters within table entries. |
 | [setPreserveTabs(boolean value)](#setPreserveTabs-boolean) | Sets whether to preserve tab entries within table entries. |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
-| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [setTableOfFiguresLabel(String value)](#setTableOfFiguresLabel-java.lang.String) | Sets the name of the sequence identifier used when building a table of figures. |
 | [setUseParagraphOutlineLevel(boolean value)](#setUseParagraphOutlineLevel-boolean) | Sets whether to use the applied paragraph outline level. |
 | [unlink()](#unlink) | Performs the field unlink. |
@@ -1757,7 +1757,7 @@ public String getSequenceSeparator()
 ```
 
 
-Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
+Gets the character sequence that is used to separate sequence numbers and page numbers.
 
  **Examples:** 
 
@@ -1835,7 +1835,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 ```
 
 **Returns:**
-java.lang.String -  null  if a valid bookmark can not be found.
+java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -3634,7 +3634,7 @@ public void setSequenceSeparator(String value)
 ```
 
 
-Makes a Bookmark object for a bookmark name in \\\\b switch argument.Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
+Sets the character sequence that is used to separate sequence numbers and page numbers.
 
  **Examples:** 
 
@@ -3714,7 +3714,7 @@ Shows how to populate a TOC field with entries using SEQ fields.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  null  if a valid bookmark can not be found. |
+| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
 
 ### setTableOfFiguresLabel(String value) {#setTableOfFiguresLabel-java.lang.String}
 ```

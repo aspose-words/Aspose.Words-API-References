@@ -42,7 +42,7 @@ Shows how to insert images stored in a database BLOB field into a report.
      Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 
      // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
 
      // DSN-less DB connection
      java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");

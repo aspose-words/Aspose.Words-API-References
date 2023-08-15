@@ -1374,6 +1374,26 @@ Gets the next [Cell](../../com.aspose.words/cell/) node.
 
 The method can be used when you need to have typed access to cells of a [Row](../../com.aspose.words/row/). If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a row instead of a cell, it is automatically traversed to get a cell contained within.
 
+ **Examples:** 
+
+Shows how to enumerate through all table cells.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Enumerate through all cells of the table.
+ for (Row row = table.getFirstRow(); row != null; row = row.getNextRow())
+ {
+     for (Cell cell = row.getFirstCell(); cell != null; cell = cell.getNextCell())
+     {
+         System.out.println(cell.getText());
+     }
+ }
+ 
+```
+
 **Returns:**
 [Cell](../../com.aspose.words/cell/) - The next [Cell](../../com.aspose.words/cell/) node.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
@@ -1649,6 +1669,26 @@ Gets the previous [Cell](../../com.aspose.words/cell/) node.
  **Remarks:** 
 
 The method can be used when you need to have typed access to cells of a [Row](../../com.aspose.words/row/). If a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) node is found in a row instead of a cell, it is automatically traversed to get a cell contained within.
+
+ **Examples:** 
+
+Shows how to enumerate through all table cells.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Enumerate through all cells of the table.
+ for (Row row = table.getFirstRow(); row != null; row = row.getNextRow())
+ {
+     for (Cell cell = row.getFirstCell(); cell != null; cell = cell.getNextCell())
+     {
+         System.out.println(cell.getText());
+     }
+ }
+ 
+```
 
 **Returns:**
 [Cell](../../com.aspose.words/cell/) - The previous [Cell](../../com.aspose.words/cell/) node.

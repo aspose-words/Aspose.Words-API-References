@@ -15,6 +15,49 @@ public class PdfFontEmbeddingMode
 ```
 
 Specifies how Aspose.Words should embed fonts.
+
+ **Examples:** 
+
+Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // "Arial" is a standard font, and "Courier New" is a nonstandard font.
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ options.setEmbedFullFonts(true);
+
+ // Set the "FontEmbeddingMode" property to "EmbedAll" to embed all fonts in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNonstandard" to only allow nonstandard fonts' embedding in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNone" to not embed any fonts in the output PDF.
+ options.setFontEmbeddingMode(pdfFontEmbeddingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
+
+ switch (pdfFontEmbeddingMode) {
+     case PdfFontEmbeddingMode.EMBED_ALL:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 1031200);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONSTANDARD:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

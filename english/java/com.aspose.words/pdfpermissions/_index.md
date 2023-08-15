@@ -15,6 +15,33 @@ public class PdfPermissions
 ```
 
 Specifies the operations that are allowed to a user on an encrypted PDF document.
+
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

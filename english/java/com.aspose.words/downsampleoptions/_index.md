@@ -18,6 +18,37 @@ Allows to specify downsample options.
 
 To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
+
 
 [Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Methods
@@ -42,6 +73,37 @@ Specifies whether images should be downsampled.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getResolution() {#getResolution}
@@ -55,6 +117,37 @@ Specifies the resolution in pixels per inch which the images should be downsampl
  **Remarks:** 
 
 The default value is 220 ppi.
+
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -70,6 +163,37 @@ Specifies the threshold resolution in pixels per inch. If resolution of an image
 
 The default value is 0.
 
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value.
 ### setDownsampleImages(boolean value) {#setDownsampleImages-boolean}
@@ -83,6 +207,37 @@ Specifies whether images should be downsampled.
  **Remarks:** 
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -101,6 +256,37 @@ Specifies the resolution in pixels per inch which the images should be downsampl
 
 The default value is 220 ppi.
 
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -117,6 +303,37 @@ Specifies the threshold resolution in pixels per inch. If resolution of an image
  **Remarks:** 
 
 The default value is 0.
+
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -25,44 +25,13 @@ The merging functionality supports over 35 different file formats.
 
 | Method | Description |
 | --- | --- |
-| [merge(InputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode)](#merge-java.io.InputStream-java.io.InputStream---com.aspose.words.SaveOptions-int) |  |
-| [merge(InputStream outputStream, InputStream[] inputStreams, int saveFormat)](#merge-java.io.InputStream-java.io.InputStream---int) |  |
 | [merge(InputStream[] inputStreams, int mergeFormatMode)](#merge-java.io.InputStream---int) |  |
+| [merge(OutputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode)](#merge-java.io.OutputStream-java.io.InputStream---com.aspose.words.SaveOptions-int) |  |
+| [merge(OutputStream outputStream, InputStream[] inputStreams, int saveFormat)](#merge-java.io.OutputStream-java.io.InputStream---int) |  |
 | [merge(String outputFile, String[] inputFiles)](#merge-java.lang.String-java.lang.String) | Merges the given input documents into a single output document using specified input and output file names. |
 | [merge(String outputFile, String[] inputFiles, SaveOptions saveOptions, int mergeFormatMode)](#merge-java.lang.String-java.lang.String---com.aspose.words.SaveOptions-int) |  |
 | [merge(String outputFile, String[] inputFiles, int saveFormat, int mergeFormatMode)](#merge-java.lang.String-java.lang.String---int-int) |  |
 | [merge(String[] inputFiles, int mergeFormatMode)](#merge-java.lang.String---int) |  |
-### merge(InputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode) {#merge-java.io.InputStream-java.io.InputStream---com.aspose.words.SaveOptions-int}
-```
-public static void merge(InputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outputStream | java.io.InputStream |  |
-| inputStreams | java.io.InputStream[] |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| mergeFormatMode | int |  |
-
-### merge(InputStream outputStream, InputStream[] inputStreams, int saveFormat) {#merge-java.io.InputStream-java.io.InputStream---int}
-```
-public static void merge(InputStream outputStream, InputStream[] inputStreams, int saveFormat)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outputStream | java.io.InputStream |  |
-| inputStreams | java.io.InputStream[] |  |
-| saveFormat | int |  |
-
 ### merge(InputStream[] inputStreams, int mergeFormatMode) {#merge-java.io.InputStream---int}
 ```
 public static Document merge(InputStream[] inputStreams, int mergeFormatMode)
@@ -79,6 +48,37 @@ public static Document merge(InputStream[] inputStreams, int mergeFormatMode)
 
 **Returns:**
 [Document](../../com.aspose.words/document/)
+### merge(OutputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode) {#merge-java.io.OutputStream-java.io.InputStream---com.aspose.words.SaveOptions-int}
+```
+public static void merge(OutputStream outputStream, InputStream[] inputStreams, SaveOptions saveOptions, int mergeFormatMode)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream |  |
+| inputStreams | java.io.InputStream[] |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
+| mergeFormatMode | int |  |
+
+### merge(OutputStream outputStream, InputStream[] inputStreams, int saveFormat) {#merge-java.io.OutputStream-java.io.InputStream---int}
+```
+public static void merge(OutputStream outputStream, InputStream[] inputStreams, int saveFormat)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream |  |
+| inputStreams | java.io.InputStream[] |  |
+| saveFormat | int |  |
+
 ### merge(String outputFile, String[] inputFiles) {#merge-java.lang.String-java.lang.String}
 ```
 public static void merge(String outputFile, String[] inputFiles)
@@ -90,6 +90,26 @@ Merges the given input documents into a single output document using specified i
  **Remarks:** 
 
 By default [MergeFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/mergeformatmode/\#KEEP-SOURCE-FORMATTING) is used.
+
+ **Examples:** 
+
+Shows how to merge documents into a single output document.
+
+```
+
+ //There is a several ways to merge documents:
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SimpleMerge.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" });
+
+ OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
+ ooxmlSaveOptions.setPassword("Aspose.Words");
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveOptions.docx", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, ooxmlSaveOptions, MergeFormatMode.KEEP_SOURCE_FORMATTING);
+
+ Merger.merge(getArtifactsDir() + "LowCode.MergeDocument.SaveFormat.pdf", new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, SaveFormat.PDF, MergeFormatMode.KEEP_SOURCE_LAYOUT);
+
+ Document doc = Merger.merge(new String[] { getMyDir() + "Big document.docx", getMyDir() + "Tables.docx" }, MergeFormatMode.MERGE_FORMATTING);
+ doc.save(getArtifactsDir() + "LowCode.MergeDocument.DocumentInstance.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

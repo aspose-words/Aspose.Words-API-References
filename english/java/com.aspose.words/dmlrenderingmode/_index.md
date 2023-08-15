@@ -15,6 +15,51 @@ public class DmlRenderingMode
 ```
 
 Specifies how DrawingML shapes are rendered to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
 ## Fields
 
 | Field | Description |

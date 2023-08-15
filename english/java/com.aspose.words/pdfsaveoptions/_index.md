@@ -21,6 +21,125 @@ Can be used to specify additional options when saving a document into the [SaveF
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
 
+ **Examples:** 
+
+Shows how to escape hyperlinks in the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertHyperlink("Testlink", uri, false);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EscapedUri.pdf", options);
+ 
+```
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
+
+Shows how to apply text compression when saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 100; i++)
+     builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+             "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+ // compression to text when we save the document to PDF.
+ // Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+ // to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+ options.setTextCompression(pdfTextCompression);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.TextCompression.pdf", options);
+ 
+```
+
+Shows how to convert a whole document to PDF with three levels in the document outline.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings of levels 1 to 5.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_4);
+
+ builder.writeln("Heading 1.2.2.1");
+ builder.writeln("Heading 1.2.2.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_5);
+
+ builder.writeln("Heading 1.2.2.2.1");
+ builder.writeln("Heading 1.2.2.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "4" to exclude all headings whose levels are above 4 from the outline.
+ options.getOutlineOptions().setHeadingsOutlineLevels(4);
+
+ // If an outline entry has subsequent entries of a higher level inbetween itself and the next entry of the same or lower level,
+ // an arrow will appear to the left of the entry. This entry is the "owner" of several such "sub-entries".
+ // In our document, the outline entries from the 5th heading level are sub-entries of the second 4th level outline entry,
+ // the 4th and 5th heading level entries are sub-entries of the second 3rd level entry, and so on.
+ // In the outline, we can click on the arrow of the "owner" entry to collapse/expand all its sub-entries.
+ // Set the "ExpandedOutlineLevels" property to "2" to automatically expand all heading level 2 and lower outline entries
+ // and collapse all level and 3 and higher entries when we open the document.
+ options.getOutlineOptions().setExpandedOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
+ 
+```
+
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
 ## Constructors
@@ -84,7 +203,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings) | Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [getUseCoreFonts()](#getUseCoreFonts) | Gets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
@@ -138,7 +256,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [setUseCoreFonts(boolean value)](#setUseCoreFonts-boolean) | Sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
@@ -152,6 +269,49 @@ public PdfSaveOptions()
 
 
 Initializes a new instance of this class that can be used to save a document in the [SaveFormat.PDF](../../com.aspose.words/saveformat/\#PDF) format.
+
+ **Examples:** 
+
+Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Arvo");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Configure our font sources to ensure that we have access to both the fonts in this document.
+ FontSourceBase[] originalFontsSources = FontSettings.getDefaultInstance().getFontsSources();
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+ FontSettings.getDefaultInstance().setFontsSources(new FontSourceBase[]{originalFontsSources[0], folderFontSource});
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Since our document contains a custom font, embedding in the output document may be desirable.
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ // The document's size may become very large, but we will have full use of all fonts if we edit the PDF.
+ // Set the "EmbedFullFonts" property to "false" to apply subsetting to fonts, saving only the glyphs
+ // that the document is using. The file will be considerably smaller,
+ // but we may need access to any custom fonts if we edit the document.
+ options.setEmbedFullFonts(embedFullFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf", options);
+
+ if (embedFullFonts)
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 571000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 25000);
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontsSources);
+ 
+```
 
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
@@ -214,6 +374,43 @@ public PdfSaveOptions deepClone()
 
 Creates a deep clone of this object.
 
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
+
 **Returns:**
 [PdfSaveOptions](../../com.aspose.words/pdfsaveoptions/)
 ### equals(Object obj) {#equals-java.lang.Object}
@@ -244,6 +441,28 @@ A flag specifying whether to write additional text positioning operators or not.
 If  true , additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
 The default value is  false .
+
+ **Examples:** 
+
+Show how to write additional text positioning operators.
+
+```
+
+ Document doc = new Document(getMyDir() + "Text positioning operators.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setTextCompression(PdfTextCompression.NONE);
+
+ // Set the "AdditionalTextPositioning" property to "true" to attempt to fix incorrect
+ // element positioning in the output PDF, should there be any, at the cost of increased file size.
+ // Set the "AdditionalTextPositioning" property to "false" to render the document as usual.
+ saveOptions.setAdditionalTextPositioning(applyAdditionalTextPositioning);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -324,6 +543,28 @@ Gets a value determining how colors are rendered.
 
 The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
+ **Examples:** 
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
+
 **Returns:**
 int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
 ### getCompliance() {#getCompliance}
@@ -338,6 +579,37 @@ Specifies the PDF standards compliance level for output documents.
 
 Default is [PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance/\#PDF-17).
 
+ **Examples:** 
+
+Shows how to set the PDF standards compliance level of saved PDF documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Note that some PdfSaveOptions are prohibited when saving to one of the standards and automatically fixed.
+ // Use IWarningCallback to know which options are automatically fixed.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "Compliance" property to "PdfCompliance.PdfA1b" to comply with the "PDF/A-1b" standard,
+ // which aims to preserve the visual appearance of the document as Aspose.Words convert it to PDF.
+ // Set the "Compliance" property to "PdfCompliance.Pdf17" to comply with the "1.7" standard.
+ // Set the "Compliance" property to "PdfCompliance.PdfA1a" to comply with the "PDF/A-1a" standard,
+ // which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
+ // Set the "Compliance" property to "PdfCompliance.PdfUa1" to comply with the "PDF/UA-1" (ISO 14289-1) standard,
+ // which aims to define represent electronic documents in PDF that allow the file to be accessible.
+ // Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
+ // Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
+ // which preserving document static visual appearance over time.
+ // This helps with making documents searchable but may significantly increase the size of already large documents.
+ saveOptions.setCompliance(pdfCompliance);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Compliance.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfCompliance](../../com.aspose.words/pdfcompliance/) constants.
 ### getCreateNoteHyperlinks() {#getCreateNoteHyperlinks}
@@ -347,6 +619,27 @@ public boolean getCreateNoteHyperlinks()
 
 
 Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is  false .
+
+ **Examples:** 
+
+Shows how to make footnotes and endnotes function as hyperlinks.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CreateNoteHyperlinks" property to "true" to turn all footnote/endnote symbols
+ // in the text act as links that, upon clicking, take us to their respective footnotes/endnotes.
+ // Set the "CreateNoteHyperlinks" property to "false" not to have footnote/endnote symbols link to anything.
+ options.setCreateNoteHyperlinks(createNoteHyperlinks);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.NoteHyperlinks.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -365,6 +658,32 @@ Default value is [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcust
 [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport/\#METADATA) value is not supported when saving to PDF/A. [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport/\#STANDARD) will be used instead for PDF/A-1 and PDF/A-2 and [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport/\#NONE) for PDF/A-4.
 
 [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport/\#STANDARD) value is not supported when saving to PDF 2.0. [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport/\#METADATA) will be used instead.
+
+ **Examples:** 
+
+Shows how to export custom properties while converting a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ doc.getCustomDocumentProperties().add("Company", "My value");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.None" to discard
+ // custom document properties as we save the document to .PDF.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Standard"
+ // to preserve custom properties within the output PDF document.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Metadata"
+ // to preserve custom properties in an XMP packet.
+ options.setCustomPropertiesExport(pdfCustomPropertiesExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
+ 
+```
 
 **Returns:**
 int - A value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. The returned value is one of [PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport/) constants.
@@ -417,6 +736,36 @@ Gets the details for signing the output PDF document.
 
 The default value is  null  and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 
+ **Examples:** 
+
+Shows how to sign a generated PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Date signingTime = new Date();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
+
 **Returns:**
 [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails/) - The details for signing the output PDF document.
 ### getDisplayDocTitle() {#getDisplayDocTitle}
@@ -434,6 +783,32 @@ If  false , the title bar should instead display the name of the PDF file contai
 This flag is required by PDF/UA compliance.  true  value will be used automatically when saving to PDF/UA.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to display the title of the document as the title bar.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getBuiltInDocumentProperties().setTitle("Windows bar pdf title");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "DisplayDocTitle" to "true" to get some PDF readers, such as Adobe Acrobat Pro,
+ // to display the value of the document's "Title" built-in property in the tab that belongs to this document.
+ // Set the "DisplayDocTitle" to "false" to get such readers to display the document's filename.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setDisplayDocTitle(displayDocTitle);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -467,6 +842,31 @@ This property is used when the document is exported to fixed page formats.
 
 If [getCompliance()](../../com.aspose.words/pdfsaveoptions/\#getCompliance) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions/\#setCompliance-int) is set to [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A) or [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B), property always returns [DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode/\#NONE).
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Returns:**
 int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode/) constants.
 ### getDmlRenderingMode() {#getDmlRenderingMode}
@@ -483,6 +883,51 @@ The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrende
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Returns:**
 int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants.
 ### getDownsampleOptions() {#getDownsampleOptions}
@@ -492,6 +937,37 @@ public DownsampleOptions getDownsampleOptions()
 
 
 Allows to specify downsample options.
+
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
 
 **Returns:**
 [DownsampleOptions](../../com.aspose.words/downsampleoptions/) - The corresponding [DownsampleOptions](../../com.aspose.words/downsampleoptions/) value.
@@ -531,6 +1007,49 @@ When this value is set to  true , a complete font file is embedded into PDF with
 
 Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
 
+ **Examples:** 
+
+Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Arvo");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Configure our font sources to ensure that we have access to both the fonts in this document.
+ FontSourceBase[] originalFontsSources = FontSettings.getDefaultInstance().getFontsSources();
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+ FontSettings.getDefaultInstance().setFontsSources(new FontSourceBase[]{originalFontsSources[0], folderFontSource});
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Since our document contains a custom font, embedding in the output document may be desirable.
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ // The document's size may become very large, but we will have full use of all fonts if we edit the PDF.
+ // Set the "EmbedFullFonts" property to "false" to apply subsetting to fonts, saving only the glyphs
+ // that the document is using. The file will be considerably smaller,
+ // but we may need access to any custom fonts if we edit the document.
+ options.setEmbedFullFonts(embedFullFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf", options);
+
+ if (embedFullFonts)
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 571000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 25000);
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontsSources);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getEncryptionDetails() {#getEncryptionDetails}
@@ -553,6 +1072,33 @@ Encryption is prohibited by PDF/A compliance. This option will be ignored when s
 
 [PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions/\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 [PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails/) - The details for encrypting the output PDF document.
 ### getExportDocumentStructure() {#getExportDocumentStructure}
@@ -568,6 +1114,37 @@ Gets a value determining whether or not to export document structure.
 This value is ignored when saving to PDF/A-1a, PDF/A-2a and PDF/UA-1 because document structure is required for this compliance.
 
 Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+
+ **Examples:** 
+
+Shows how to preserve document structure elements, which can assist in programmatically interpreting our document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.write(
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "ExportDocumentStructure" property to "true" to make the document structure, such tags, available via the
+ // "Content" navigation pane of Adobe Acrobat at the cost of increased file size.
+ // Set the "ExportDocumentStructure" property to "false" to not export the document structure.
+ options.setExportDocumentStructure(exportDocumentStructure);
+
+ // Suppose we export document structure while saving this document. In that case,
+ // we can open it using Adobe Acrobat and find tags for elements such as the heading
+ // and the next paragraph via "View" -> "Show/Hide" -> "Navigation panes" -> "Tags".
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to export document structure.
@@ -612,6 +1189,28 @@ When the value is  true  "Span" tag is created for the text with non-default lan
 
 This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
 
+ **Examples:** 
+
+Shows how to create a "Span" tag in the document structure to export the text language.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+ builder.writeln("Hola mundo!");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ {
+     // Note, when "ExportDocumentStructure" is false, "ExportLanguageToSpanTag" is ignored.
+     saveOptions.setExportDocumentStructure(true); saveOptions.setExportLanguageToSpanTag(true);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether or not to create a "Span" tag in the document structure to export the text language.
 ### getExportParagraphGraphicsToArtifact() {#getExportParagraphGraphicsToArtifact}
@@ -629,6 +1228,23 @@ Default value is  false  and paragraph graphics (underlines, text emphasis, etc.
 When the value is  true  the paragraph graphics will be marked as "Artifact".
 
 This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+ **Examples:** 
+
+Shows how to export paragraph graphics as artifact (underlines, text emphasis, etc.).
+
+```
+
+ Document doc = new Document(getMyDir() + "PDF artifacts.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setExportDocumentStructure(true);
+ saveOptions.setExportParagraphGraphicsToArtifact(true);
+ saveOptions.setTextCompression(PdfTextCompression.NONE);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether a paragraph graphic should be marked as an artifact.
@@ -648,6 +1264,49 @@ This setting works only for the text in ANSI (Windows-1252) encoding. If the doc
 
 PDF/A and PDF/UA compliance requires all fonts to be embedded. [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode/\#EMBED-ALL) value will be used automatically when saving to PDF/A and PDF/UA.
 
+ **Examples:** 
+
+Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // "Arial" is a standard font, and "Courier New" is a nonstandard font.
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ options.setEmbedFullFonts(true);
+
+ // Set the "FontEmbeddingMode" property to "EmbedAll" to embed all fonts in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNonstandard" to only allow nonstandard fonts' embedding in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNone" to not embed any fonts in the output PDF.
+ options.setFontEmbeddingMode(pdfFontEmbeddingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
+
+ switch (pdfFontEmbeddingMode) {
+     case PdfFontEmbeddingMode.EMBED_ALL:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 1031200);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONSTANDARD:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         break;
+ }
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode/) constants.
 ### getHeaderFooterBookmarksExportMode() {#getHeaderFooterBookmarksExportMode}
@@ -663,6 +1322,37 @@ Determines how bookmarks in headers/footers are exported.
 The default value is [HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode/\#ALL).
 
 This property is used in conjunction with the [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions/\#getOutlineOptions) option.
+
+ **Examples:** 
+
+Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bookmarks in headers and footers.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+ saveOptions.setPageMode(PdfPageMode.USE_OUTLINES);
+
+ // Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+ // bookmarks at the first level of the outline in the output PDF.
+ saveOptions.getOutlineOptions().setDefaultBookmarksOutlineLevel(1);
+
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+ // not export any bookmarks that are inside headers/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+ // only export bookmarks in the first section's header/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+ // export bookmarks that are in all headers/footers.
+ saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HeaderFooterBookmarksExportMode](../../com.aspose.words/headerfooterbookmarksexportmode/) constants.
@@ -681,6 +1371,37 @@ The default value is [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/
 If [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode/\#SIMPLE-CMYK) value is specified, [getImageCompression()](../../com.aspose.words/pdfsaveoptions/\#getImageCompression) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions/\#setImageCompression-int) option is ignored and Flate compression is used for all images in the document.
 
 [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode/\#SIMPLE-CMYK) value is not supported when saving to PDF/A. [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode/\#AUTO) value will be used instead.
+
+ **Examples:** 
+
+Shows how to set a different color space for images in a document as we export it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.Auto" to get Aspose.Words to
+ // automatically select the color space for images in the document that it converts to PDF.
+ // In most cases, the color space will be RGB.
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.SimpleCmyk"
+ // to use the CMYK color space for all images in the saved PDF.
+ // Aspose.Words will also apply Flate compression to all images and ignore the "ImageCompression" property's value.
+ pdfSaveOptions.setImageColorSpaceExportMode(pdfImageColorSpaceExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfImageColorSpaceExportMode](../../com.aspose.words/pdfimagecolorspaceexportmode/) constants.
@@ -701,6 +1422,38 @@ Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression/\#JP
 Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression/\#JPEG) provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
 
 Using [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression/\#AUTO) lets to control the quality of Jpeg in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions/\#getJpegQuality) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions/\#setJpegQuality-int) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
+
+ **Examples:** 
+
+Shows how to specify a compression type for all images in a document that we are converting to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfImageCompression](../../com.aspose.words/pdfimagecompression/) constants.
@@ -758,6 +1511,33 @@ The default value is  false .
 
 Interpolation flag is prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
 
+ **Examples:** 
+
+Shows how to perform interpolation on images while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage img = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
+ builder.insertImage(img);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "InterpolateImages" property to "true" to get the reader that opens this document to interpolate images.
+ // Their resolution should be lower than that of the device that is displaying the document.
+ // Set the "InterpolateImages" property to "false" to make it so that the reader does not apply any interpolation.
+ saveOptions.setInterpolateImages(interpolateImages);
+
+ // When we open this document with a reader such as Adobe Acrobat, we will need to zoom in on the image
+ // to see the interpolation effect if we saved the document with it enabled.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.InterpolateImages.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getJpegQuality() {#getJpegQuality}
@@ -778,6 +1558,38 @@ Has effect only when a document contains JPEG images.
 
 Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
 
+ **Examples:** 
+
+Shows how to specify a compression type for all images in a document that we are converting to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
+
 **Returns:**
 int - A value determining the quality of the JPEG images inside PDF document.
 ### getMemoryOptimization() {#getMemoryOptimization}
@@ -792,6 +1604,27 @@ Gets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
 ### getMetafileRenderingOptions() {#getMetafileRenderingOptions}
@@ -801,6 +1634,56 @@ public MetafileRenderingOptions getMetafileRenderingOptions()
 
 
 Allows to specify metafile rendering options.
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Returns:**
 [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) value.
@@ -815,6 +1698,36 @@ Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering o
  **Remarks:** 
 
 If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+
+ **Examples:** 
+
+Shows how to set the numeral format used when saving to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setLocaleId(1025);
+ builder.writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "NumeralFormat" property to "NumeralFormat.ArabicIndic" to
+ // use glyphs from the U+0660 to U+0669 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.Context" to
+ // look up the locale to determine what number of glyphs to use.
+ // Set the "NumeralFormat" property to "NumeralFormat.EasternArabicIndic" to
+ // use glyphs from the U+06F0 to U+06F9 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.European" to use european numerals.
+ // Set the "NumeralFormat" property to "NumeralFormat.System" to determine the symbol set from regional settings.
+ options.setNumeralFormat(numeralFormat);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SetNumeralFormat.pdf", options);
+ 
+```
 
 **Returns:**
 int - [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants.
@@ -833,6 +1746,29 @@ The default value is  false . When this value is set to  true  hyperlinks are sa
 Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
 JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+
+ **Examples:** 
+
+Shows how to save hyperlinks in a document we convert to PDF so that they open new pages when we click on them.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertHyperlink("Testlink", "https://www.google.com/search?q=%20aspose", false);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "OpenHyperlinksInNewWindow" property to "true" to save all hyperlinks using Javascript code
+ // that forces readers to open these links in new windows/browser tabs.
+ // Set the "OpenHyperlinksInNewWindow" property to "false" to save all hyperlinks normally.
+ options.setOpenHyperlinksInNewWindow(openHyperlinksInNewWindow);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
@@ -911,6 +1847,87 @@ For bookmarks outline level may be set in options as a default value for all boo
 
 Also, outlines can be exported to XPS format by using the same [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions/\#getOutlineOptions) class.
 
+ **Examples:** 
+
+Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.PDF);
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "2" to exclude all headings whose levels are above 2 from the outline.
+ // The last two headings we have inserted above will not appear.
+ saveOptions.getOutlineOptions().setHeadingsOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
+ 
+```
+
+Shows how to work with outline levels that do not contain any corresponding headings when saving a PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings that can serve as TOC entries of levels 1 and 5.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_5);
+
+ builder.writeln("Heading 1.1.1.1.1");
+ builder.writeln("Heading 1.1.1.1.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "5" to include all headings of levels 5 and below in the outline.
+ saveOptions.getOutlineOptions().setHeadingsOutlineLevels(5);
+
+ // This document contains headings of levels 1 and 5, and no headings with levels of 2, 3, and 4.
+ // The output PDF document will treat outline levels 2, 3, and 4 as "missing".
+ // Set the "CreateMissingOutlineLevels" property to "true" to include all missing levels in the outline,
+ // leaving blank outline entries since there are no usable headings.
+ // Set the "CreateMissingOutlineLevels" property to "false" to ignore missing outline levels,
+ // and treat the outline level 5 headings as level 2.
+ saveOptions.getOutlineOptions().setCreateMissingOutlineLevels(createMissingOutlineLevels);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 [OutlineOptions](../../com.aspose.words/outlineoptions/) - The corresponding [OutlineOptions](../../com.aspose.words/outlineoptions/) value.
 ### getPageMode() {#getPageMode}
@@ -924,6 +1941,65 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
  **Remarks:** 
 
 The default value is [PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode/\#USE-OUTLINES).
+
+ **Examples:** 
+
+Shows how to set instructions for some PDF readers to follow when opening an output document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.FullScreen" to get the PDF reader to open the saved
+ // document in full-screen mode, which takes over the monitor's display and has no controls visible.
+ // Set the "PageMode" property to "PdfPageMode.UseThumbs" to get the PDF reader to display a separate panel
+ // with a thumbnail for each page in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOC" to get the PDF reader to display a separate panel
+ // that allows us to work with any layers present in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
+ // also to display the outline, if possible.
+ // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
+ // Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
+ options.setPageMode(pageMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PageMode.pdf", options);
+ 
+```
+
+Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bookmarks in headers and footers.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+ saveOptions.setPageMode(PdfPageMode.USE_OUTLINES);
+
+ // Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+ // bookmarks at the first level of the outline in the output PDF.
+ saveOptions.getOutlineOptions().setDefaultBookmarksOutlineLevel(1);
+
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+ // not export any bookmarks that are inside headers/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+ // only export bookmarks in the first section's header/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+ // export bookmarks that are in all headers/footers.
+ saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfPageMode](../../com.aspose.words/pdfpagemode/) constants.
@@ -1026,6 +2102,67 @@ Shows how to extract pages based on exact page indices.
  
 ```
 
+Shows how to convert only some of the pages in a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
+ options.setPageSet(new PageSet(1));
+
+ // This document will contain one page starting from page two, which will only contain the second page.
+ doc.save(new FileOutputStream(getArtifactsDir() + "PdfSaveOptions.OnePage.pdf"), options);
+ 
+```
+
+Shows how to export Odd pages from the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 5; i++) {
+     builder.writeln(MessageFormat.format("Page {0} ({1})", i + 1, (i % 2 == 0 ? "odd" : "even")));
+     if (i < 4)
+         builder.insertBreak(BreakType.PAGE_BREAK);
+ }
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Below are three PageSet properties that we can use to filter out a set of pages from
+ // our document to save in an output PDF document based on the parity of their page numbers.
+ // 1 -  Save only the even-numbered pages:
+ options.setPageSet(PageSet.getEven());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
+
+ // 2 -  Save only the odd-numbered pages:
+ options.setPageSet(PageSet.getOdd());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
+
+ // 3 -  Save every page:
+ options.setPageSet(PageSet.getAll());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.All.pdf", options);
+ 
+```
+
 **Returns:**
 [PageSet](../../com.aspose.words/pageset/) - The pages to render.
 ### getPreblendImages() {#getPreblendImages}
@@ -1043,6 +2180,30 @@ Preblending images may improve PDF document visual appearance in Adobe Reader an
 In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary. Also preblending images may decrease PDF rendering performance.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to preblend images with transparent backgrounds while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PreblendImages" property to "true" to preblend transparent images
+ // with a background, which may reduce artifacts.
+ // Set the "PreblendImages" property to "false" to render transparent images normally.
+ options.setPreblendImages(preblendImages);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PreblendImages.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to preblend transparent images with black background color.
@@ -1067,6 +2228,33 @@ Also, the output size depends on the content size because editable forms in Micr
 Editable forms are prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
 
 Form fields are not supported when saving to PDF/UA.  false  value will be used automatically.
+
+ **Examples:** 
+
+Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfOptions = new PdfSaveOptions();
+
+ // Set the "PreserveFormFields" property to "true" to save form fields as interactive objects in the output PDF.
+ // Set the "PreserveFormFields" property to "false" to freeze all form fields in the document at
+ // their current values and display them as plain text in the output PDF.
+ pdfOptions.setPreserveFormFields(preserveFormFields);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1379,6 +2567,47 @@ public int getSaveFormat()
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../com.aspose.words/saveformat/\#PDF).
 
+ **Examples:** 
+
+Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.PDF);
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "2" to exclude all headings whose levels are above 2 from the outline.
+ // The last two headings we have inserted above will not appear.
+ saveOptions.getOutlineOptions().setHeadingsOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getTempFolder() {#getTempFolder}
@@ -1439,6 +2668,33 @@ Default is [PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression/
 
 Significantly increases output size when saving a document without compression.
 
+ **Examples:** 
+
+Shows how to apply text compression when saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 100; i++)
+     builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+             "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+ // compression to text when we save the document to PDF.
+ // Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+ // to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+ options.setTextCompression(pdfTextCompression);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.TextCompression.pdf", options);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfTextCompression](../../com.aspose.words/pdftextcompression/) constants.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
@@ -1462,6 +2718,43 @@ Gets a value determining if fields of certain types should be updated before sav
  **Remarks:** 
 
 Allows to specify whether to mimic or not MS Word behavior.
+
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
@@ -1550,45 +2843,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
-### getUpdateSdtContent() {#getUpdateSdtContent}
-```
-public boolean getUpdateSdtContent()
-```
-
-
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
 ### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
@@ -1639,6 +2893,36 @@ Gets a boolean value indicating whether the document should be saved using a boo
 
 If this option is specified, [FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions/\#getPageSet) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions/\#setPageSet-com.aspose.words.PageSet) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
 
+ **Examples:** 
+
+Shows how to save a document to the PDF format in the form of a book fold.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UseBookFoldPrintingSettings" property to "true" to arrange the contents
+ // in the output PDF in a way that helps us use it to make a booklet.
+ // Set the "UseBookFoldPrintingSettings" property to "false" to render the PDF normally.
+ options.setUseBookFoldPrintingSettings(renderTextAsBookfold);
+
+ // If we are rendering the document as a booklet, we must set the "MultiplePages"
+ // properties of the page setup objects of all sections to "MultiplePagesType.BookFoldPrinting".
+ if (renderTextAsBookfold)
+     for (Section s : doc.getSections()) {
+         s.getPageSetup().setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+     }
+
+ // Once we print this document on both sides of the pages, we can fold all the pages down the middle at once,
+ // and the contents will line up in a way that creates a booklet.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
+ 
+```
+
 **Returns:**
 boolean - A boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int).
 ### getUseCoreFonts() {#getUseCoreFonts}
@@ -1662,6 +2946,38 @@ PDF/A and PDF/UA compliance requires all fonts to be embedded.  false  value wil
 Core fonts are not supported when saving to PDF 2.0 format.  false  value will be used automatically when saving to PDF 2.0.
 
 This option has a higher priority then [getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions/\#getFontEmbeddingMode) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions/\#setFontEmbeddingMode-int) option.
+
+ **Examples:** 
+
+Shows how enable/disable PDF Type 1 font substitution.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UseCoreFonts" property to "true" to replace some fonts,
+ // including the two fonts in our document, with their PDF Type 1 equivalents.
+ // Set the "UseCoreFonts" property to "false" to not apply PDF Type 1 fonts.
+ options.setUseCoreFonts(useCoreFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf", options);
+
+ if (useCoreFonts)
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf").length() < 3000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf").length() < 33200);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
@@ -1715,6 +3031,32 @@ Gets a value determining what type of zoom should be applied when a document is 
 
 The default value is [PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior/\#NONE), i.e. no fit is applied.
 
+ **Examples:** 
+
+Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+ // apply a percentage-based zoom factor when we open the document with it.
+ // Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+ PdfSaveOptions options = new PdfSaveOptions();
+ {
+     options.setZoomBehavior(PdfZoomBehavior.ZOOM_FACTOR);
+     options.setZoomFactor(25);
+ }
+
+ // When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+ 
+```
+
 **Returns:**
 int - A value determining what type of zoom should be applied when a document is opened with a PDF viewer. The returned value is one of [PdfZoomBehavior](../../com.aspose.words/pdfzoombehavior/) constants.
 ### getZoomFactor() {#getZoomFactor}
@@ -1728,6 +3070,32 @@ Gets a value determining zoom factor (in percentages) for a document.
  **Remarks:** 
 
 This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveoptions/\#getZoomBehavior) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions/\#setZoomBehavior-int) is set to [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior/\#ZOOM-FACTOR).
+
+ **Examples:** 
+
+Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+ // apply a percentage-based zoom factor when we open the document with it.
+ // Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+ PdfSaveOptions options = new PdfSaveOptions();
+ {
+     options.setZoomBehavior(PdfZoomBehavior.ZOOM_FACTOR);
+     options.setZoomFactor(25);
+ }
+
+ // When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+ 
+```
 
 **Returns:**
 int - A value determining zoom factor (in percentages) for a document.
@@ -1744,6 +3112,28 @@ A flag specifying whether to write additional text positioning operators or not.
 If  true , additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
 The default value is  false .
+
+ **Examples:** 
+
+Show how to write additional text positioning operators.
+
+```
+
+ Document doc = new Document(getMyDir() + "Text positioning operators.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setTextCompression(PdfTextCompression.NONE);
+
+ // Set the "AdditionalTextPositioning" property to "true" to attempt to fix incorrect
+ // element positioning in the output PDF, should there be any, at the cost of increased file size.
+ // Set the "AdditionalTextPositioning" property to "false" to render the document as usual.
+ saveOptions.setAdditionalTextPositioning(applyAdditionalTextPositioning);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1833,6 +3223,28 @@ Sets a value determining how colors are rendered.
 
 The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
+ **Examples:** 
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1850,6 +3262,37 @@ Specifies the PDF standards compliance level for output documents.
 
 Default is [PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance/\#PDF-17).
 
+ **Examples:** 
+
+Shows how to set the PDF standards compliance level of saved PDF documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Note that some PdfSaveOptions are prohibited when saving to one of the standards and automatically fixed.
+ // Use IWarningCallback to know which options are automatically fixed.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "Compliance" property to "PdfCompliance.PdfA1b" to comply with the "PDF/A-1b" standard,
+ // which aims to preserve the visual appearance of the document as Aspose.Words convert it to PDF.
+ // Set the "Compliance" property to "PdfCompliance.Pdf17" to comply with the "1.7" standard.
+ // Set the "Compliance" property to "PdfCompliance.PdfA1a" to comply with the "PDF/A-1a" standard,
+ // which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
+ // Set the "Compliance" property to "PdfCompliance.PdfUa1" to comply with the "PDF/UA-1" (ISO 14289-1) standard,
+ // which aims to define represent electronic documents in PDF that allow the file to be accessible.
+ // Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
+ // Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
+ // which preserving document static visual appearance over time.
+ // This helps with making documents searchable but may significantly increase the size of already large documents.
+ saveOptions.setCompliance(pdfCompliance);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.Compliance.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1862,6 +3305,27 @@ public void setCreateNoteHyperlinks(boolean value)
 
 
 Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is  false .
+
+ **Examples:** 
+
+Shows how to make footnotes and endnotes function as hyperlinks.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CreateNoteHyperlinks" property to "true" to turn all footnote/endnote symbols
+ // in the text act as links that, upon clicking, take us to their respective footnotes/endnotes.
+ // Set the "CreateNoteHyperlinks" property to "false" not to have footnote/endnote symbols link to anything.
+ options.setCreateNoteHyperlinks(createNoteHyperlinks);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.NoteHyperlinks.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1883,6 +3347,32 @@ Default value is [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcust
 [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport/\#METADATA) value is not supported when saving to PDF/A. [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport/\#STANDARD) will be used instead for PDF/A-1 and PDF/A-2 and [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport/\#NONE) for PDF/A-4.
 
 [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport/\#STANDARD) value is not supported when saving to PDF 2.0. [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport/\#METADATA) will be used instead.
+
+ **Examples:** 
+
+Shows how to export custom properties while converting a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ doc.getCustomDocumentProperties().add("Company", "My value");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.None" to discard
+ // custom document properties as we save the document to .PDF.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Standard"
+ // to preserve custom properties within the output PDF document.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Metadata"
+ // to preserve custom properties in an XMP packet.
+ options.setCustomPropertiesExport(pdfCustomPropertiesExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1941,6 +3431,36 @@ Sets the details for signing the output PDF document.
 
 The default value is  null  and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 
+ **Examples:** 
+
+Shows how to sign a generated PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Date signingTime = new Date();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1961,6 +3481,32 @@ If  false , the title bar should instead display the name of the PDF file contai
 This flag is required by PDF/UA compliance.  true  value will be used automatically when saving to PDF/UA.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to display the title of the document as the title bar.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getBuiltInDocumentProperties().setTitle("Windows bar pdf title");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "DisplayDocTitle" to "true" to get some PDF readers, such as Adobe Acrobat Pro,
+ // to display the value of the document's "Title" built-in property in the tab that belongs to this document.
+ // Set the "DisplayDocTitle" to "false" to get such readers to display the document's filename.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setDisplayDocTitle(displayDocTitle);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2000,6 +3546,31 @@ This property is used when the document is exported to fixed page formats.
 
 If [getCompliance()](../../com.aspose.words/pdfsaveoptions/\#getCompliance) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions/\#setCompliance-int) is set to [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A) or [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B), property always returns [DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode/\#NONE).
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2019,6 +3590,51 @@ The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrende
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2031,6 +3647,37 @@ public void setDownsampleOptions(DownsampleOptions value)
 
 
 Allows to specify downsample options.
+
+ **Examples:** 
+
+Shows how to change the resolution of images in the PDF document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
+ Assert.assertTrue(options.getDownsampleOptions().getDownsampleImages());
+ Assert.assertEquals(220, options.getDownsampleOptions().getResolution());
+ Assert.assertEquals(0, options.getDownsampleOptions().getResolutionThreshold());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
+
+ // Set the "Resolution" property to "36" to downsample all images to 36 ppi.
+ options.getDownsampleOptions().setResolution(36);
+
+ // Set the "ResolutionThreshold" property to only apply the downsampling to
+ // images with a resolution that is above 128 ppi.
+ options.getDownsampleOptions().setResolutionThreshold(128);
+
+ // Only the first two images from the document will be downsampled at this stage.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2076,6 +3723,49 @@ When this value is set to  true , a complete font file is embedded into PDF with
 
 Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
 
+ **Examples:** 
+
+Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Arvo");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Configure our font sources to ensure that we have access to both the fonts in this document.
+ FontSourceBase[] originalFontsSources = FontSettings.getDefaultInstance().getFontsSources();
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+ FontSettings.getDefaultInstance().setFontsSources(new FontSourceBase[]{originalFontsSources[0], folderFontSource});
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Since our document contains a custom font, embedding in the output document may be desirable.
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ // The document's size may become very large, but we will have full use of all fonts if we edit the PDF.
+ // Set the "EmbedFullFonts" property to "false" to apply subsetting to fonts, saving only the glyphs
+ // that the document is using. The file will be considerably smaller,
+ // but we may need access to any custom fonts if we edit the document.
+ options.setEmbedFullFonts(embedFullFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf", options);
+
+ if (embedFullFonts)
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 571000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedFullFonts.pdf").length() < 25000);
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontsSources);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2101,6 +3791,33 @@ Encryption is prohibited by PDF/A compliance. This option will be ignored when s
 
 [PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions/\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
 
+ **Examples:** 
+
+Shows how to set permissions on a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ // Extend permissions to allow the editing of annotations.
+ PdfEncryptionDetails encryptionDetails =
+         new PdfEncryptionDetails("password", "", PdfPermissions.MODIFY_ANNOTATIONS | PdfPermissions.DOCUMENT_ASSEMBLY);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Enable encryption via the "EncryptionDetails" property.
+ saveOptions.setEncryptionDetails(encryptionDetails);
+
+ // When we open this document, we will need to provide the password before accessing its contents.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2119,6 +3836,37 @@ Sets a value determining whether or not to export document structure.
 This value is ignored when saving to PDF/A-1a, PDF/A-2a and PDF/UA-1 because document structure is required for this compliance.
 
 Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+
+ **Examples:** 
+
+Shows how to preserve document structure elements, which can assist in programmatically interpreting our document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.write(
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "ExportDocumentStructure" property to "true" to make the document structure, such tags, available via the
+ // "Content" navigation pane of Adobe Acrobat at the cost of increased file size.
+ // Set the "ExportDocumentStructure" property to "false" to not export the document structure.
+ options.setExportDocumentStructure(exportDocumentStructure);
+
+ // Suppose we export document structure while saving this document. In that case,
+ // we can open it using Adobe Acrobat and find tags for elements such as the heading
+ // and the next paragraph via "View" -> "Show/Hide" -> "Navigation panes" -> "Tags".
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2169,6 +3917,28 @@ When the value is  true  "Span" tag is created for the text with non-default lan
 
 This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
 
+ **Examples:** 
+
+Shows how to create a "Span" tag in the document structure to export the text language.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+ builder.writeln("Hola mundo!");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ {
+     // Note, when "ExportDocumentStructure" is false, "ExportLanguageToSpanTag" is ignored.
+     saveOptions.setExportDocumentStructure(true); saveOptions.setExportLanguageToSpanTag(true);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2189,6 +3959,23 @@ Default value is  false  and paragraph graphics (underlines, text emphasis, etc.
 When the value is  true  the paragraph graphics will be marked as "Artifact".
 
 This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+ **Examples:** 
+
+Shows how to export paragraph graphics as artifact (underlines, text emphasis, etc.).
+
+```
+
+ Document doc = new Document(getMyDir() + "PDF artifacts.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setExportDocumentStructure(true);
+ saveOptions.setExportParagraphGraphicsToArtifact(true);
+ saveOptions.setTextCompression(PdfTextCompression.NONE);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2211,6 +3998,49 @@ This setting works only for the text in ANSI (Windows-1252) encoding. If the doc
 
 PDF/A and PDF/UA compliance requires all fonts to be embedded. [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode/\#EMBED-ALL) value will be used automatically when saving to PDF/A and PDF/UA.
 
+ **Examples:** 
+
+Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // "Arial" is a standard font, and "Courier New" is a nonstandard font.
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
+ options.setEmbedFullFonts(true);
+
+ // Set the "FontEmbeddingMode" property to "EmbedAll" to embed all fonts in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNonstandard" to only allow nonstandard fonts' embedding in the output PDF.
+ // Set the "FontEmbeddingMode" property to "EmbedNone" to not embed any fonts in the output PDF.
+ options.setFontEmbeddingMode(pdfFontEmbeddingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
+
+ switch (pdfFontEmbeddingMode) {
+     case PdfFontEmbeddingMode.EMBED_ALL:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 1031200);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONSTANDARD:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() < 491800);
+         break;
+     case PdfFontEmbeddingMode.EMBED_NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedWindowsFonts.pdf").length() <= 4255);
+         break;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2229,6 +4059,37 @@ Determines how bookmarks in headers/footers are exported.
 The default value is [HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode/\#ALL).
 
 This property is used in conjunction with the [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions/\#getOutlineOptions) option.
+
+ **Examples:** 
+
+Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bookmarks in headers and footers.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+ saveOptions.setPageMode(PdfPageMode.USE_OUTLINES);
+
+ // Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+ // bookmarks at the first level of the outline in the output PDF.
+ saveOptions.getOutlineOptions().setDefaultBookmarksOutlineLevel(1);
+
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+ // not export any bookmarks that are inside headers/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+ // only export bookmarks in the first section's header/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+ // export bookmarks that are in all headers/footers.
+ saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2250,6 +4111,37 @@ The default value is [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/
 If [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode/\#SIMPLE-CMYK) value is specified, [getImageCompression()](../../com.aspose.words/pdfsaveoptions/\#getImageCompression) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions/\#setImageCompression-int) option is ignored and Flate compression is used for all images in the document.
 
 [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode/\#SIMPLE-CMYK) value is not supported when saving to PDF/A. [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode/\#AUTO) value will be used instead.
+
+ **Examples:** 
+
+Shows how to set a different color space for images in a document as we export it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.Auto" to get Aspose.Words to
+ // automatically select the color space for images in the document that it converts to PDF.
+ // In most cases, the color space will be RGB.
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.SimpleCmyk"
+ // to use the CMYK color space for all images in the saved PDF.
+ // Aspose.Words will also apply Flate compression to all images and ignore the "ImageCompression" property's value.
+ pdfSaveOptions.setImageColorSpaceExportMode(pdfImageColorSpaceExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2273,6 +4165,38 @@ Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression/\#JP
 Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression/\#JPEG) provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
 
 Using [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression/\#AUTO) lets to control the quality of Jpeg in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions/\#getJpegQuality) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions/\#setJpegQuality-int) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
+
+ **Examples:** 
+
+Shows how to specify a compression type for all images in a document that we are converting to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2336,6 +4260,33 @@ The default value is  false .
 
 Interpolation flag is prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
 
+ **Examples:** 
+
+Shows how to perform interpolation on images while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage img = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
+ builder.insertImage(img);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "InterpolateImages" property to "true" to get the reader that opens this document to interpolate images.
+ // Their resolution should be lower than that of the device that is displaying the document.
+ // Set the "InterpolateImages" property to "false" to make it so that the reader does not apply any interpolation.
+ saveOptions.setInterpolateImages(interpolateImages);
+
+ // When we open this document with a reader such as Adobe Acrobat, we will need to zoom in on the image
+ // to see the interpolation effect if we saved the document with it enabled.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.InterpolateImages.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2359,6 +4310,38 @@ Has effect only when a document contains JPEG images.
 
 Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
 
+ **Examples:** 
+
+Shows how to specify a compression type for all images in a document that we are converting to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2376,6 +4359,27 @@ Sets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2388,6 +4392,56 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 
 
 Allows to specify metafile rendering options.
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2405,6 +4459,36 @@ Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering o
  **Remarks:** 
 
 If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+
+ **Examples:** 
+
+Shows how to set the numeral format used when saving to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setLocaleId(1025);
+ builder.writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "NumeralFormat" property to "NumeralFormat.ArabicIndic" to
+ // use glyphs from the U+0660 to U+0669 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.Context" to
+ // look up the locale to determine what number of glyphs to use.
+ // Set the "NumeralFormat" property to "NumeralFormat.EasternArabicIndic" to
+ // use glyphs from the U+06F0 to U+06F9 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.European" to use european numerals.
+ // Set the "NumeralFormat" property to "NumeralFormat.System" to determine the symbol set from regional settings.
+ options.setNumeralFormat(numeralFormat);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SetNumeralFormat.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2426,6 +4510,29 @@ The default value is  false . When this value is set to  true  hyperlinks are sa
 Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
 JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+
+ **Examples:** 
+
+Shows how to save hyperlinks in a document we convert to PDF so that they open new pages when we click on them.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertHyperlink("Testlink", "https://www.google.com/search?q=%20aspose", false);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "OpenHyperlinksInNewWindow" property to "true" to save all hyperlinks using Javascript code
+ // that forces readers to open these links in new windows/browser tabs.
+ // Set the "OpenHyperlinksInNewWindow" property to "false" to save all hyperlinks normally.
+ options.setOpenHyperlinksInNewWindow(openHyperlinksInNewWindow);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2501,6 +4608,65 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
  **Remarks:** 
 
 The default value is [PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode/\#USE-OUTLINES).
+
+ **Examples:** 
+
+Shows how to set instructions for some PDF readers to follow when opening an output document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.FullScreen" to get the PDF reader to open the saved
+ // document in full-screen mode, which takes over the monitor's display and has no controls visible.
+ // Set the "PageMode" property to "PdfPageMode.UseThumbs" to get the PDF reader to display a separate panel
+ // with a thumbnail for each page in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOC" to get the PDF reader to display a separate panel
+ // that allows us to work with any layers present in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
+ // also to display the outline, if possible.
+ // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
+ // Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
+ options.setPageMode(pageMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PageMode.pdf", options);
+ 
+```
+
+Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bookmarks in headers and footers.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+ saveOptions.setPageMode(PdfPageMode.USE_OUTLINES);
+
+ // Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+ // bookmarks at the first level of the outline in the output PDF.
+ saveOptions.getOutlineOptions().setDefaultBookmarksOutlineLevel(1);
+
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+ // not export any bookmarks that are inside headers/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+ // only export bookmarks in the first section's header/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+ // export bookmarks that are in all headers/footers.
+ saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2609,6 +4775,67 @@ Shows how to extract pages based on exact page indices.
  
 ```
 
+Shows how to convert only some of the pages in a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
+ options.setPageSet(new PageSet(1));
+
+ // This document will contain one page starting from page two, which will only contain the second page.
+ doc.save(new FileOutputStream(getArtifactsDir() + "PdfSaveOptions.OnePage.pdf"), options);
+ 
+```
+
+Shows how to export Odd pages from the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 5; i++) {
+     builder.writeln(MessageFormat.format("Page {0} ({1})", i + 1, (i % 2 == 0 ? "odd" : "even")));
+     if (i < 4)
+         builder.insertBreak(BreakType.PAGE_BREAK);
+ }
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Below are three PageSet properties that we can use to filter out a set of pages from
+ // our document to save in an output PDF document based on the parity of their page numbers.
+ // 1 -  Save only the even-numbered pages:
+ options.setPageSet(PageSet.getEven());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
+
+ // 2 -  Save only the odd-numbered pages:
+ options.setPageSet(PageSet.getOdd());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
+
+ // 3 -  Save every page:
+ options.setPageSet(PageSet.getAll());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.All.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2629,6 +4856,30 @@ Preblending images may improve PDF document visual appearance in Adobe Reader an
 In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary. Also preblending images may decrease PDF rendering performance.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to preblend images with transparent backgrounds while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PreblendImages" property to "true" to preblend transparent images
+ // with a background, which may reduce artifacts.
+ // Set the "PreblendImages" property to "false" to render transparent images normally.
+ options.setPreblendImages(preblendImages);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PreblendImages.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2656,6 +4907,33 @@ Also, the output size depends on the content size because editable forms in Micr
 Editable forms are prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
 
 Form fields are not supported when saving to PDF/UA.  false  value will be used automatically.
+
+ **Examples:** 
+
+Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfOptions = new PdfSaveOptions();
+
+ // Set the "PreserveFormFields" property to "true" to save form fields as interactive objects in the output PDF.
+ // Set the "PreserveFormFields" property to "false" to freeze all form fields in the document at
+ // their current values and display them as plain text in the output PDF.
+ pdfOptions.setPreserveFormFields(preserveFormFields);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2977,6 +5255,47 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../com.aspose.words/saveformat/\#PDF).
 
+ **Examples:** 
+
+Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Assert.assertTrue(builder.getParagraphFormat().isHeading());
+
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+
+ builder.writeln("Heading 1.2.1");
+ builder.writeln("Heading 1.2.2");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.PDF);
+
+ // The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
+ // Clicking on an entry in this outline will take us to the location of its respective heading.
+ // Set the "HeadingsOutlineLevels" property to "2" to exclude all headings whose levels are above 2 from the outline.
+ // The last two headings we have inserted above will not appear.
+ saveOptions.getOutlineOptions().setHeadingsOutlineLevels(2);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3043,6 +5362,33 @@ Default is [PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression/
 
 Significantly increases output size when saving a document without compression.
 
+ **Examples:** 
+
+Shows how to apply text compression when saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 100; i++)
+     builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+             "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+ // compression to text when we save the document to PDF.
+ // Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+ // to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+ options.setTextCompression(pdfTextCompression);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.TextCompression.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3072,6 +5418,43 @@ Sets a value determining if fields of certain types should be updated before sav
  **Remarks:** 
 
 Allows to specify whether to mimic or not MS Word behavior.
+
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3169,48 +5552,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 | --- | --- | --- |
 | value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 
-### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean}
-```
-public void setUpdateSdtContent(boolean value)
-```
-
-
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
-
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```
 public void setUseAntiAliasing(boolean value)
@@ -3264,6 +5605,36 @@ Sets a boolean value indicating whether the document should be saved using a boo
 
 If this option is specified, [FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions/\#getPageSet) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions/\#setPageSet-com.aspose.words.PageSet) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
 
+ **Examples:** 
+
+Shows how to save a document to the PDF format in the form of a book fold.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UseBookFoldPrintingSettings" property to "true" to arrange the contents
+ // in the output PDF in a way that helps us use it to make a booklet.
+ // Set the "UseBookFoldPrintingSettings" property to "false" to render the PDF normally.
+ options.setUseBookFoldPrintingSettings(renderTextAsBookfold);
+
+ // If we are rendering the document as a booklet, we must set the "MultiplePages"
+ // properties of the page setup objects of all sections to "MultiplePagesType.BookFoldPrinting".
+ if (renderTextAsBookfold)
+     for (Section s : doc.getSections()) {
+         s.getPageSetup().setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+     }
+
+ // Once we print this document on both sides of the pages, we can fold all the pages down the middle at once,
+ // and the contents will line up in a way that creates a booklet.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3290,6 +5661,38 @@ PDF/A and PDF/UA compliance requires all fonts to be embedded.  false  value wil
 Core fonts are not supported when saving to PDF 2.0 format.  false  value will be used automatically when saving to PDF 2.0.
 
 This option has a higher priority then [getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions/\#getFontEmbeddingMode) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions/\#setFontEmbeddingMode-int) option.
+
+ **Examples:** 
+
+Shows how enable/disable PDF Type 1 font substitution.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UseCoreFonts" property to "true" to replace some fonts,
+ // including the two fonts in our document, with their PDF Type 1 equivalents.
+ // Set the "UseCoreFonts" property to "false" to not apply PDF Type 1 fonts.
+ options.setUseCoreFonts(useCoreFonts);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf", options);
+
+ if (useCoreFonts)
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf").length() < 3000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "PdfSaveOptions.EmbedCoreFonts.pdf").length() < 33200);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3349,6 +5752,32 @@ Sets a value determining what type of zoom should be applied when a document is 
 
 The default value is [PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior/\#NONE), i.e. no fit is applied.
 
+ **Examples:** 
+
+Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+ // apply a percentage-based zoom factor when we open the document with it.
+ // Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+ PdfSaveOptions options = new PdfSaveOptions();
+ {
+     options.setZoomBehavior(PdfZoomBehavior.ZOOM_FACTOR);
+     options.setZoomFactor(25);
+ }
+
+ // When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3365,6 +5794,32 @@ Sets a value determining zoom factor (in percentages) for a document.
  **Remarks:** 
 
 This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveoptions/\#getZoomBehavior) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions/\#setZoomBehavior-int) is set to [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior/\#ZOOM-FACTOR).
+
+ **Examples:** 
+
+Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+ // apply a percentage-based zoom factor when we open the document with it.
+ // Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+ PdfSaveOptions options = new PdfSaveOptions();
+ {
+     options.setZoomBehavior(PdfZoomBehavior.ZOOM_FACTOR);
+     options.setZoomFactor(25);
+ }
+
+ // When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

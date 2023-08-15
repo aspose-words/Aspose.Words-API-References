@@ -81,7 +81,6 @@ Shows how to save a document to the Postscript format in the form of a book fold
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings) | Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
@@ -108,7 +107,6 @@ Shows how to save a document to the Postscript format in the form of a book fold
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
@@ -237,6 +235,28 @@ Gets a value determining how colors are rendered.
 
 The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
+ **Examples:** 
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
+
 **Returns:**
 int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
 ### getDefaultTemplate() {#getDefaultTemplate}
@@ -304,6 +324,31 @@ The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Returns:**
 int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode/) constants.
 ### getDmlRenderingMode() {#getDmlRenderingMode}
@@ -319,6 +364,51 @@ Gets a value determining how DrawingML shapes are rendered.
 The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
 
 **Returns:**
 int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants.
@@ -445,6 +535,27 @@ Gets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
 ### getMetafileRenderingOptions() {#getMetafileRenderingOptions}
@@ -454,6 +565,56 @@ public MetafileRenderingOptions getMetafileRenderingOptions()
 
 
 Allows to specify metafile rendering options.
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Returns:**
 [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) value.
@@ -468,6 +629,36 @@ Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering o
  **Remarks:** 
 
 If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+
+ **Examples:** 
+
+Shows how to set the numeral format used when saving to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setLocaleId(1025);
+ builder.writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "NumeralFormat" property to "NumeralFormat.ArabicIndic" to
+ // use glyphs from the U+0660 to U+0669 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.Context" to
+ // look up the locale to determine what number of glyphs to use.
+ // Set the "NumeralFormat" property to "NumeralFormat.EasternArabicIndic" to
+ // use glyphs from the U+06F0 to U+06F9 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.European" to use european numerals.
+ // Set the "NumeralFormat" property to "NumeralFormat.System" to determine the symbol set from regional settings.
+ options.setNumeralFormat(numeralFormat);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SetNumeralFormat.pdf", options);
+ 
+```
 
 **Returns:**
 int - [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants.
@@ -622,6 +813,67 @@ Shows how to extract pages based on exact page indices.
  xpsOptions.setPageSet(new PageSet(0, 1, 3));
 
  doc.save(getArtifactsDir() + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
+ 
+```
+
+Shows how to convert only some of the pages in a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
+ options.setPageSet(new PageSet(1));
+
+ // This document will contain one page starting from page two, which will only contain the second page.
+ doc.save(new FileOutputStream(getArtifactsDir() + "PdfSaveOptions.OnePage.pdf"), options);
+ 
+```
+
+Shows how to export Odd pages from the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 5; i++) {
+     builder.writeln(MessageFormat.format("Page {0} ({1})", i + 1, (i % 2 == 0 ? "odd" : "even")));
+     if (i < 4)
+         builder.insertBreak(BreakType.PAGE_BREAK);
+ }
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Below are three PageSet properties that we can use to filter out a set of pages from
+ // our document to save in an output PDF document based on the parity of their page numbers.
+ // 1 -  Save only the even-numbered pages:
+ options.setPageSet(PageSet.getEven());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
+
+ // 2 -  Save only the odd-numbered pages:
+ options.setPageSet(PageSet.getOdd());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
+
+ // 3 -  Save every page:
+ options.setPageSet(PageSet.getAll());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.All.pdf", options);
  
 ```
 
@@ -1035,6 +1287,43 @@ Gets a value determining if fields of certain types should be updated before sav
 
 Allows to specify whether to mimic or not MS Word behavior.
 
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
+
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty}
@@ -1122,45 +1411,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
-### getUpdateSdtContent() {#getUpdateSdtContent}
-```
-public boolean getUpdateSdtContent()
-```
-
-
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
 ### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
@@ -1342,6 +1592,28 @@ Sets a value determining how colors are rendered.
 
 The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
+ **Examples:** 
+
+Shows how to change image color with saving options property.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1418,6 +1690,31 @@ The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words
 
 This property is used when the document is exported to fixed page formats.
 
+ **Examples:** 
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1436,6 +1733,51 @@ Sets a value determining how DrawingML shapes are rendered.
 The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
+ 
+```
+
+Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape effects.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.None" to discard all DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Simplified"
+ // to render a simplified version of DrawingML effects.
+ // Set the "DmlEffectsRenderingMode" property to "DmlEffectsRenderingMode.Fine" to
+ // render DrawingML effects with more accuracy and also with more processing cost.
+ options.setDmlEffectsRenderingMode(effectsRenderingMode);
+
+ Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1574,6 +1916,27 @@ Sets value determining if memory optimization should be performed before saving 
 
 Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
+ **Examples:** 
+
+Shows an option to optimize memory consumption when rendering large documents to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.PDF);
+
+ // Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
+ // at the cost of increasing the duration of the operation.
+ // Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
+ saveOptions.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1586,6 +1949,56 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 
 
 Allows to specify metafile rendering options.
+
+ **Examples:** 
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1603,6 +2016,36 @@ Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering o
  **Remarks:** 
 
 If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+
+ **Examples:** 
+
+Shows how to set the numeral format used when saving to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setLocaleId(1025);
+ builder.writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "NumeralFormat" property to "NumeralFormat.ArabicIndic" to
+ // use glyphs from the U+0660 to U+0669 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.Context" to
+ // look up the locale to determine what number of glyphs to use.
+ // Set the "NumeralFormat" property to "NumeralFormat.EasternArabicIndic" to
+ // use glyphs from the U+06F0 to U+06F9 range as numbers.
+ // Set the "NumeralFormat" property to "NumeralFormat.European" to use european numerals.
+ // Set the "NumeralFormat" property to "NumeralFormat.System" to determine the symbol set from regional settings.
+ options.setNumeralFormat(numeralFormat);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.SetNumeralFormat.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1766,6 +2209,67 @@ Shows how to extract pages based on exact page indices.
  xpsOptions.setPageSet(new PageSet(0, 1, 3));
 
  doc.save(getArtifactsDir() + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
+ 
+```
+
+Shows how to convert only some of the pages in a document to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
+ options.setPageSet(new PageSet(1));
+
+ // This document will contain one page starting from page two, which will only contain the second page.
+ doc.save(new FileOutputStream(getArtifactsDir() + "PdfSaveOptions.OnePage.pdf"), options);
+ 
+```
+
+Shows how to export Odd pages from the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 5; i++) {
+     builder.writeln(MessageFormat.format("Page {0} ({1})", i + 1, (i % 2 == 0 ? "odd" : "even")));
+     if (i < 4)
+         builder.insertBreak(BreakType.PAGE_BREAK);
+ }
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Below are three PageSet properties that we can use to filter out a set of pages from
+ // our document to save in an output PDF document based on the parity of their page numbers.
+ // 1 -  Save only the even-numbered pages:
+ options.setPageSet(PageSet.getEven());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
+
+ // 2 -  Save only the odd-numbered pages:
+ options.setPageSet(PageSet.getOdd());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
+
+ // 3 -  Save every page:
+ options.setPageSet(PageSet.getAll());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportPageSet.All.pdf", options);
  
 ```
 
@@ -2197,6 +2701,43 @@ Sets a value determining if fields of certain types should be updated before sav
 
 Allows to specify whether to mimic or not MS Word behavior.
 
+ **Examples:** 
+
+Shows how to update all the fields in a document immediately before saving it to PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert text with PAGE and NUMPAGES fields. These fields do not display the correct value in real time.
+ // We will need to manually update them using updating methods such as "Field.Update()", and "Document.UpdateFields()"
+ // each time we need them to display accurate values.
+ builder.write("Page ");
+ builder.insertField("PAGE", "");
+ builder.write(" of ");
+ builder.insertField("NUMPAGES", "");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Hello World!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "UpdateFields" property to "false" to not update all the fields in a document right before a save operation.
+ // This is the preferable option if we know that all our fields will be up to date before saving.
+ // Set the "UpdateFields" property to "true" to iterate through all the document
+ // fields and update them before we save it as a PDF. This will make sure that all the fields will display
+ // the most accurate values in the PDF.
+ options.setUpdateFields(updateFields);
+
+ // We can clone PdfSaveOptions objects.
+ Assert.assertNotSame(options, options.deepClone());
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.UpdateFields.pdf", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2292,48 +2833,6 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
-
-### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean}
-```
-public void setUpdateSdtContent(boolean value)
-```
-
-
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
-
- **Remarks:** 
-
-The default value is  false .
-
- **Examples:** 
-
-Shows how to update structured document tags while saving a document to PDF.
-
-```
-
- Document doc = new Document();
-
- // Insert a drop-down list structured document tag.
- StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
- tag.getListItems().add(new SdtListItem("Value 1"));
- tag.getListItems().add(new SdtListItem("Value 2"));
- tag.getListItems().add(new SdtListItem("Value 3"));
-
- // The drop-down list currently displays "Choose an item" as the default text.
- // Set the "SelectedValue" property to one of the list items to get the tag to
- // display that list item's value instead of the default text.
- tag.getListItems().setSelectedValue(tag.getListItems().get(1));
-
- doc.getFirstSection().getBody().appendChild(tag);
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```
