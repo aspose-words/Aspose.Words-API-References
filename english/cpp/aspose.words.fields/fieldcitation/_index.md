@@ -21,7 +21,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 
 | Method | Description |
 | --- | --- |
-| [get_AnotherSourceTag](./get_anothersourcetag/)() | Gets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [get_AnotherSourceTag](./get_anothersourcetag/)() | Gets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
@@ -35,7 +35,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [get_Prefix](./get_prefix/)() | Gets a prefix that is prepended to the citation. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
-| [get_SourceTag](./get_sourcetag/)() | Gets a value that mathes the **Tag** element's value of the source to insert. |
+| [get_SourceTag](./get_sourcetag/)() | Gets a value that matches the **Tag** element's value of the source to insert. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_Suffix](./get_suffix/)() | Gets a suffix that is appended to the citation. |
 | [get_SuppressAuthor](./get_suppressauthor/)() | Gets whether the author information is suppressed from the citation. |
@@ -48,7 +48,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_AnotherSourceTag](./set_anothersourcetag/)(const System::String\&) | Sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [set_AnotherSourceTag](./set_anothersourcetag/)(const System::String\&) | Sets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [set_FormatLanguageId](./set_formatlanguageid/)(const System::String\&) | Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
 | [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
@@ -56,7 +56,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [set_PageNumber](./set_pagenumber/)(const System::String\&) | Sets a page number associated with the citation. |
 | [set_Prefix](./set_prefix/)(const System::String\&) | Sets a prefix that is prepended to the citation. |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
-| [set_SourceTag](./set_sourcetag/)(const System::String\&) | Sets a value that mathes the **Tag** element's value of the source to insert. |
+| [set_SourceTag](./set_sourcetag/)(const System::String\&) | Sets a value that matches the **Tag** element's value of the source to insert. |
 | [set_Suffix](./set_suffix/)(const System::String\&) | Sets a suffix that is appended to the citation. |
 | [set_SuppressAuthor](./set_suppressauthor/)(bool) | Sets whether the author information is suppressed from the citation. |
 | [set_SuppressTitle](./set_suppresstitle/)(bool) | Sets whether the title information is suppressed from the citation. |

@@ -37,7 +37,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_DocumentSplitCriteria](./get_documentsplitcriteria/)() const | Specifies how the document should be split when saving to [Html](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/) format. Default is [None](../documentsplitcriteria/) for HTML and [HeadingParagraph](../documentsplitcriteria/) for EPUB and AZW3. |
 | [get_DocumentSplitHeadingLevel](./get_documentsplitheadinglevel/)() const | Specifies the maximum level of headings at which to split the document. Default value is **%2**. |
 | [get_Encoding](./get_encoding/)() const | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is **new UTF8Encoding(false)** (UTF-8 without BOM). |
-| [get_EpubNavigationMapLevel](./get_epubnavigationmaplevel/)() const | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is **%3**. |
+| [get_EpubNavigationMapLevel](./get_epubnavigationmaplevel/)() | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is **%3**. |
 | [get_ExportCidUrlsForMhtmlResources](./get_exportcidurlsformhtmlresources/)() const | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is **false**. |
 | [get_ExportDocumentProperties](./get_exportdocumentproperties/)() const | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is **false**. |
 | [get_ExportDropDownFormFieldAsText](./get_exportdropdownformfieldastext/)() const | Controls how drop-down form fields are saved to HTML or MHTML. Default value is **false**. |
@@ -69,6 +69,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_MetafileFormat](./get_metafileformat/)() const | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [Png](../htmlmetafileformat/), meaning that metafiles are rendered to raster PNG images. |
+| [get_NavigationMapLevel](./get_navigationmaplevel/)() const | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is **%3**. |
 | [get_OfficeMathOutputMode](./get_officemathoutputmode/)() const | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [Image](../htmlofficemathoutputmode/). |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
@@ -83,7 +84,6 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
 | [get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/)() const | Gets or sets a value determining whether the [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving. |
-| [get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/)() const | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [get_UseAntiAliasing](../saveoptions/get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 | [GetType](./gettype/)() const override |  |
@@ -137,6 +137,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_ImlRenderingMode](../saveoptions/set_imlrenderingmode/)(Aspose::Words::Saving::ImlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/). |
 | [set_MemoryOptimization](../saveoptions/set_memoryoptimization/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_MemoryOptimization](../saveoptions/get_memoryoptimization/). |
 | [set_MetafileFormat](./set_metafileformat/)(Aspose::Words::Saving::HtmlMetafileFormat) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_MetafileFormat](./get_metafileformat/). |
+| [set_NavigationMapLevel](./set_navigationmaplevel/)(int32_t) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_NavigationMapLevel](./get_navigationmaplevel/). |
 | [set_OfficeMathOutputMode](./set_officemathoutputmode/)(Aspose::Words::Saving::HtmlOfficeMathOutputMode) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_OfficeMathOutputMode](./get_officemathoutputmode/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
 | [set_ProgressCallback](../saveoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](../saveoptions/get_progresscallback/). |
@@ -151,7 +152,6 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_UpdateFields](../saveoptions/set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](../saveoptions/get_updatefields/). |
 | [set_UpdateLastPrintedProperty](../saveoptions/set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/). |
 | [set_UpdateLastSavedTimeProperty](../saveoptions/set_updatelastsavedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/). |
-| [set_UpdateSdtContent](../saveoptions/set_updatesdtcontent/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/). |
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
 | static [Type](./type/)() |  |

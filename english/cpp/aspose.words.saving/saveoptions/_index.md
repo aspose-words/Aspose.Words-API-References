@@ -39,7 +39,6 @@ class SaveOptions : public System::Object
 | [get_UpdateFields](./get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
 | [get_UpdateLastSavedTimeProperty](./get_updatelastsavedtimeproperty/)() const | Gets or sets a value determining whether the [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving. |
-| [get_UpdateSdtContent](./get_updatesdtcontent/)() const | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [get_UseAntiAliasing](./get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [get_UseHighQualityRendering](./get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 | [GetType](./gettype/)() const override |  |
@@ -61,7 +60,6 @@ class SaveOptions : public System::Object
 | [set_UpdateFields](./set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](./get_updatefields/). |
 | [set_UpdateLastPrintedProperty](./set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/). |
 | [set_UpdateLastSavedTimeProperty](./set_updatelastsavedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty](./get_updatelastsavedtimeproperty/). |
-| [set_UpdateSdtContent](./set_updatesdtcontent/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent](./get_updatesdtcontent/). |
 | [set_UseAntiAliasing](./set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](./get_useantialiasing/). |
 | [set_UseHighQualityRendering](./set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](./get_usehighqualityrendering/). |
 | static [Type](./type/)() |  |

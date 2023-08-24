@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel method
 linktitle: get_EpubNavigationMapLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel method. Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is %3 in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel method. Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is %3 in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_epubnavigationmaplevel/
@@ -10,18 +10,18 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_epubnavigationmaplevel/
 ## HtmlSaveOptions::get_EpubNavigationMapLevel method
 
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is **%3**.
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB, MOBI, or AZW3 formats. Default value is **%3**.
 
 ```cpp
-int32_t Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel() const
+int32_t Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel()
 ```
 
 ## Remarks
 
 
-Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [EpubNavigationMapLevel](./).
+The navigation map allows user agents to provide an easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. In order to populate headings up to level **N** assign this value to [EpubNavigationMapLevel](./).
 
-By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 in order to request the corresponding maximum level. Setting it to zero will reduce the navigation map to only the document root or roots of document parts.
 
 ## Examples
 
