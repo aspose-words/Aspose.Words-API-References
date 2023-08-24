@@ -21,6 +21,7 @@ class FieldOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_BarcodeGenerator](./get_barcodegenerator/)() const | Gets or set custom barcode generator. |
+| [get_BibliographyStylesProvider](./get_bibliographystylesprovider/)() const | Gets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [get_BuiltInTemplatesPaths](./get_builtintemplatespaths/)() const | Gets or sets paths of MS Word built-in templates. |
 | [get_ComparisonExpressionEvaluator](./get_comparisonexpressionevaluator/)() const | Gets or sets the field comparison expressions evaluator. |
 | [get_CurrentUser](./get_currentuser/)() const | Gets or sets the current user information. |
@@ -44,6 +45,7 @@ class FieldOptions : public System::Object
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BarcodeGenerator](./set_barcodegenerator/)(const System::SharedPtr\<Aspose::Words::Fields::IBarcodeGenerator\>\&) | Gets or set custom barcode generator. |
+| [set_BibliographyStylesProvider](./set_bibliographystylesprovider/)(const System::SharedPtr\<Aspose::Words::Fields::IBibliographyStylesProvider\>\&) | Sets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [set_BuiltInTemplatesPaths](./set_builtintemplatespaths/)(const System::ArrayPtr\<System::String\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths](./get_builtintemplatespaths/). |
 | [set_ComparisonExpressionEvaluator](./set_comparisonexpressionevaluator/)(const System::SharedPtr\<Aspose::Words::Fields::IComparisonExpressionEvaluator\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_ComparisonExpressionEvaluator](./get_comparisonexpressionevaluator/). |
 | [set_CurrentUser](./set_currentuser/)(const System::SharedPtr\<Aspose::Words::Fields::UserInformation\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_CurrentUser](./get_currentuser/). |
