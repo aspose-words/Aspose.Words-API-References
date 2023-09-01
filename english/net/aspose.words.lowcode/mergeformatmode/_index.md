@@ -5,7 +5,7 @@ articleTitle: MergeFormatMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.LowCode.MergeFormatMode enum. Specifies how formatting is merged when combining multiple documents in C#.
 type: docs
-weight: 3730
+weight: 3750
 url: /net/aspose.words.lowcode/mergeformatmode/
 ---
 ## MergeFormatMode enumeration

@@ -5,7 +5,7 @@ articleTitle: Glyph
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.Glyph class. Represents a glyph in C#.
 type: docs
-weight: 6020
+weight: 6040
 url: /net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
@@ -35,7 +35,7 @@ public class Glyph
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.words.shaping/glyph/clone/)() | Returns a clone of this instance. |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Returns a clone of this instance. |
 | virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Returns width (advance) of the glyph in points. |
 
 ### See Also

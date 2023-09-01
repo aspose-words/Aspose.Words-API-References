@@ -5,7 +5,7 @@ articleTitle: ChartAxisType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartAxisType enum. Specifies type of chart axis in C#.
 type: docs
-weight: 640
+weight: 660
 url: /net/aspose.words.drawing.charts/chartaxistype/
 ---
 ## ChartAxisType enumeration

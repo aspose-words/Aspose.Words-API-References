@@ -13,7 +13,7 @@ url: /net/aspose.words.shaping/glyph/clone/
 Returns a clone of this instance.
 
 ```csharp
-public Glyph Clone()
+public virtual Glyph Clone()
 ```
 
 ### See Also
