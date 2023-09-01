@@ -110,6 +110,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 
 | Enumeration | Description |
 | --- | --- |
+| [BaselineAlignment](./baselinealignment/) | Specifies fonts vertical position on a line. |
 | [BorderType](./bordertype/) | Specifies sides of a border. |
 | [BreakType](./breaktype/) | Specifies type of a break inside a document. |
 | [CalendarType](./calendartype/) | Specifies the type of a calendar. |

@@ -5,7 +5,7 @@ articleTitle: FieldNumChars
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldNumChars class. Implements the NUMCHARS field in C#.
 type: docs
-weight: 2190
+weight: 2210
 url: /net/aspose.words.fields/fieldnumchars/
 ---
 ## FieldNumChars class

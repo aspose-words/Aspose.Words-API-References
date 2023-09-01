@@ -5,7 +5,7 @@ articleTitle: PdfImageCompression
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfImageCompression enum. Specifies the type of compression applied to images in the PDF file in C#.
 type: docs
-weight: 5470
+weight: 5490
 url: /net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration

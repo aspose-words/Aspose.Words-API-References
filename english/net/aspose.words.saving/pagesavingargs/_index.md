@@ -5,7 +5,7 @@ articleTitle: PageSavingArgs
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PageSavingArgs class. Provides data for the PageSaving event in C#.
 type: docs
-weight: 5360
+weight: 5380
 url: /net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class

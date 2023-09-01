@@ -5,7 +5,7 @@ articleTitle: UseEmfEmbeddedToWmf
 second_title: Aspose.Words for .NET
 description: MetafileRenderingOptions UseEmfEmbeddedToWmf property. Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered in C#.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions.UseEmfEmbeddedToWmf property

@@ -5,7 +5,7 @@ articleTitle: ChartAxis
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart in C#.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
@@ -49,6 +49,7 @@ public class ChartAxis
 | [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Gets or sets the interval, at which tick labels are drawn. |
 | [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Gets or sets the interval, at which tick marks are drawn. |
+| [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Provides access to the axis title properties. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returns type of the axis. |
 
 ## Examples

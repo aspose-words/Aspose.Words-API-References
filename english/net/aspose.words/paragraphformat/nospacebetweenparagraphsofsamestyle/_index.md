@@ -5,7 +5,7 @@ articleTitle: NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words for .NET
 description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle property. When true SpaceBefore and SpaceAfter will be ignored between the paragraphs of the same style in C#.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property

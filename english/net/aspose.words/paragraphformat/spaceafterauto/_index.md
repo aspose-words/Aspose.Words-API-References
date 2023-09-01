@@ -5,7 +5,7 @@ articleTitle: SpaceAfterAuto
 second_title: Aspose.Words for .NET
 description: ParagraphFormat SpaceAfterAuto property. True if the amount of spacing after the paragraph is set automatically in C#.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.words/paragraphformat/spaceafterauto/
 ---
 ## ParagraphFormat.SpaceAfterAuto property
