@@ -47,7 +47,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Set the "HeadingsOutlineLevels" property to "5" to include all headings of levels 5 and below in the outline.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 5;
 
-// This document contains headings of levels 1 and 5, and no headings with levels of 2, 3, and 4. 
+// This document contains headings of levels 1 and 5, and no headings with levels of 2, 3, and 4.
 // The output PDF document will treat outline levels 2, 3, and 4 as "missing".
 // Set the "CreateMissingOutlineLevels" property to "true" to include all missing levels in the outline,
 // leaving blank outline entries since there are no usable headings.

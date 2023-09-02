@@ -28,6 +28,27 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is `true`.
 
+## Examples
+
+Shows how to display of the metafile according to the size on page.
+
+```csharp
+Document doc = new Document(MyDir + "WMF with text.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Set the "EmulateRenderingToSizeOnPage" property to "true"
+// to emulate rendering according to the metafile size on page.
+// Set the "EmulateRenderingToSizeOnPage" property to "false"
+// to emulate metafile rendering to its default size in pixels.
+saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPage = renderToSize;
+saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution = 50;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [MetafileRenderingOptions](../)

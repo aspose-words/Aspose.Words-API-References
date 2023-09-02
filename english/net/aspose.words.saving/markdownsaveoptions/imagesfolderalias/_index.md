@@ -26,6 +26,48 @@ If `ImagesFolderAlias` is an empty string, then the image URI written to Markdow
 
 If `ImagesFolderAlias` is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
 
+## Examples
+
+Shows how to specifies the name of the folder used to construct image URIs.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+builder.Writeln("Some image below:");
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+builder.InsertImage(image);
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+// Use the "ImagesFolder" property to assign a folder in the local file system into which
+// Aspose.Words will save all the document's linked images.
+saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// Use the "ImagesFolderAlias" property to use this folder
+// when constructing image URIs instead of the images folder's name.
+saveOptions.ImagesFolderAlias = "http://example.com/images";
+
+builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+```
+
+Shows how to specifies the name of the folder used to construct image URIs (.NetStandard 2.0).
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+builder.Writeln("Some image below:");
+using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+    builder.InsertImage(bitmap);
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+// Use the "ImagesFolder" property to assign a folder in the local file system into which
+// Aspose.Words will save all the document's linked images.
+saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// Use the "ImagesFolderAlias" property to use this folder
+// when constructing image URIs instead of the images folder's name.
+saveOptions.ImagesFolderAlias = "http://example.com/images";
+
+builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+```
+
 ### See Also
 
 * class [MarkdownSaveOptions](../)

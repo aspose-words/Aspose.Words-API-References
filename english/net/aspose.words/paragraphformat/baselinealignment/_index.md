@@ -16,6 +16,22 @@ Gets or sets fonts vertical position on a line.
 public BaselineAlignment BaselineAlignment { get; set; }
 ```
 
+## Examples
+
+Shows how to set fonts vertical position on a line.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+ParagraphFormat format = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat;
+if (format.BaselineAlignment == BaselineAlignment.Auto)
+{                
+    format.BaselineAlignment = BaselineAlignment.Top;
+}
+
+doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
+```
+
 ### See Also
 
 * enum [BaselineAlignment](../../baselinealignment/)
