@@ -5,7 +5,7 @@ articleTitle: License
 second_title: Aspose.Words for .NET
 description: Aspose.Words.License class. Provides methods to license the component in C#.
 type: docs
-weight: 3400
+weight: 3420
 url: /net/aspose.words/license/
 ---
 ## License class

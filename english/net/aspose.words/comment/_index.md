@@ -5,7 +5,7 @@ articleTitle: Comment
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Comment class. Represents a container for text of a comment in C#.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.words/comment/
 ---
 ## Comment class

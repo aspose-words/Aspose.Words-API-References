@@ -5,7 +5,7 @@ articleTitle: ParagraphFormat
 second_title: Aspose.Words for .NET
 description: Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph in C#.
 type: docs
-weight: 4400
+weight: 4420
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -25,6 +25,7 @@ public class ParagraphFormat
 | [AddSpaceBetweenFarEastAndAlpha](../../aspose.words/paragraphformat/addspacebetweenfareastandalpha/) { get; set; } | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [AddSpaceBetweenFarEastAndDigit](../../aspose.words/paragraphformat/addspacebetweenfareastanddigit/) { get; set; } | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [Alignment](../../aspose.words/paragraphformat/alignment/) { get; set; } | Gets or sets text alignment for the paragraph. |
+| [BaselineAlignment](../../aspose.words/paragraphformat/baselinealignment/) { get; set; } | Gets or sets fonts vertical position on a line. |
 | [Bidi](../../aspose.words/paragraphformat/bidi/) { get; set; } | Gets or sets whether this is a right-to-left paragraph. |
 | [Borders](../../aspose.words/paragraphformat/borders/) { get; } | Gets collection of borders of the paragraph. |
 | [CharacterUnitFirstLineIndent](../../aspose.words/paragraphformat/characterunitfirstlineindent/) { get; set; } | Gets or sets the value (in characters) for the first-line or hanging indent. |

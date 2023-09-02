@@ -7,13 +7,27 @@ type: docs
 weight: 2000
 url: /cpp/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails::PdfEncryptionDetails constructor
+## PdfEncryptionDetails::PdfEncryptionDetails(const System::String\&, const System::String\&) constructor
 
 
 Initializes an instance of this class.
 
 ```cpp
 Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails(const System::String &userPassword, const System::String &ownerPassword)
+```
+
+## See Also
+
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)
+## PdfEncryptionDetails::PdfEncryptionDetails(const System::String\&, const System::String\&, Aspose::Words::Saving::PdfPermissions) constructor
+
+
+Initializes an instance of this class.
+
+```cpp
+Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails(const System::String &userPassword, const System::String &ownerPassword, Aspose::Words::Saving::PdfPermissions permissions)
 ```
 
 
@@ -49,6 +63,7 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOption
 
 ## See Also
 
+* Enum [PdfPermissions](../../pdfpermissions/)
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

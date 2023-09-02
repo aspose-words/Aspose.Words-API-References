@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.MetafileRenderingOptions class. Allows to specify additional metafile rendering options in C#.
 type: docs
-weight: 5280
+weight: 5300
 url: /net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -30,8 +30,9 @@ public class MetafileRenderingOptions
 | --- | --- |
 | [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Gets or sets a value determining whether or not the raster operations should be emulated. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page. |
 | [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Gets or sets a value determining how metafile images should be rendered. |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 
@@ -65,7 +66,7 @@ public void HandleBinaryRasterWarnings()
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

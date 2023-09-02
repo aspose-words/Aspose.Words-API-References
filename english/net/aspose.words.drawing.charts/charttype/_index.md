@@ -5,7 +5,7 @@ articleTitle: ChartType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartType enum. Specifies type of a chart in C#.
 type: docs
-weight: 810
+weight: 830
 url: /net/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enumeration

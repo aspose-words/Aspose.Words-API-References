@@ -5,7 +5,7 @@ articleTitle: FootnoteNumberingRule
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Notes.FootnoteNumberingRule enum. Determines when automatic footnote or endnote numbering restarts in C#.
 type: docs
-weight: 4250
+weight: 4270
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration

@@ -5,7 +5,7 @@ articleTitle: ChartShapeType
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartShapeType enum. Specifies the shape type of chart elements in C#.
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.words.drawing.charts/chartshapetype/
 ---
 ## ChartShapeType enumeration
@@ -208,6 +208,44 @@ public enum ChartShapeType
 | ChartPlus | `185` | Chart plus. |
 | ChartStar | `186` | Chart star. |
 | ChartX | `187` | Chart X. |
+
+## Examples
+
+Shows how to set fill, stroke and callout formatting for chart data labels.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+
+// Delete default generated series.
+chart.Series.Clear();
+
+// Add new series.
+ChartSeries series = chart.Series.Add("AW Series 1",
+    new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" },
+    new double[] { 100, 200, 300, 400 });
+
+// Show data labels.
+series.HasDataLabels = true;
+series.DataLabels.ShowValue = true;
+
+// Format data labels as callouts.
+ChartFormat format = series.DataLabels.Format;
+format.ShapeType = ChartShapeType.WedgeRectCallout;
+format.Stroke.Color = Color.DarkGreen;
+format.Fill.Solid(Color.Green);
+series.DataLabels.Font.Color = Color.Yellow;
+
+// Change fill and stroke of an individual data label.
+ChartFormat labelFormat = series.DataLabels[0].Format;
+labelFormat.Stroke.Color = Color.DarkBlue;
+labelFormat.Fill.Solid(Color.Blue);
+
+doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
+```
 
 ### See Also
 

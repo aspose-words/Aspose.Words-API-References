@@ -5,7 +5,7 @@ articleTitle: IWarningCallback
 second_title: Aspose.Words for .NET
 description: Aspose.Words.IWarningCallback interface. Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving in C#.
 type: docs
-weight: 3190
+weight: 3210
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
@@ -100,7 +100,7 @@ public void HandleBinaryRasterWarnings()
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

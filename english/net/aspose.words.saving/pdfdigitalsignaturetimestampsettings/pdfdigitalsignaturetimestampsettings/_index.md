@@ -29,7 +29,7 @@ builder.Writeln("Signed PDF contents.");
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF. 
+// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
@@ -88,7 +88,7 @@ builder.Writeln("Signed PDF contents.");
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF. 
+// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
@@ -149,7 +149,7 @@ builder.Writeln("Signed PDF contents.");
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF. 
+// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 

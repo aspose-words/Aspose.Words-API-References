@@ -5,7 +5,7 @@ articleTitle: HorizontalAlignment
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.HorizontalAlignment enum. Specifies horizontal alignment of a floating shape text frame or floating table in C#.
 type: docs
-weight: 1010
+weight: 1030
 url: /net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

@@ -5,7 +5,7 @@ articleTitle: RenderingMode
 second_title: Aspose.Words for .NET
 description: MetafileRenderingOptions RenderingMode property. Gets or sets a value determining how metafile images should be rendered in C#.
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
@@ -50,7 +50,7 @@ public void HandleBinaryRasterWarnings()
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

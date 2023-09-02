@@ -26,6 +26,7 @@ class PdfEncryptionDetails : public System::Object
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [PdfEncryptionDetails](./pdfencryptiondetails/)(const System::String\&, const System::String\&) | Initializes an instance of this class. |
+| [PdfEncryptionDetails](./pdfencryptiondetails/)(const System::String\&, const System::String\&, Aspose::Words::Saving::PdfPermissions) | Initializes an instance of this class. |
 | [set_OwnerPassword](./set_ownerpassword/)(const System::String\&) | Setter for [Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword](./get_ownerpassword/). |
 | [set_Permissions](./set_permissions/)(Aspose::Words::Saving::PdfPermissions) | Setter for [Aspose::Words::Saving::PdfEncryptionDetails::get_Permissions](./get_permissions/). |
 | [set_UserPassword](./set_userpassword/)(const System::String\&) | Setter for [Aspose::Words::Saving::PdfEncryptionDetails::get_UserPassword](./get_userpassword/). |

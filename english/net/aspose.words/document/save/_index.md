@@ -284,10 +284,10 @@ options.OutlineOptions.HeadingsOutlineLevels = 4;
 // If an outline entry has subsequent entries of a higher level inbetween itself and the next entry of the same or lower level,
 // an arrow will appear to the left of the entry. This entry is the "owner" of several such "sub-entries".
 // In our document, the outline entries from the 5th heading level are sub-entries of the second 4th level outline entry,
-// the 4th and 5th heading level entries are sub-entries of the second 3rd level entry, and so on. 
+// the 4th and 5th heading level entries are sub-entries of the second 3rd level entry, and so on.
 // In the outline, we can click on the arrow of the "owner" entry to collapse/expand all its sub-entries.
 // Set the "ExpandedOutlineLevels" property to "2" to automatically expand all heading level 2 and lower outline entries
-// and collapse all level and 3 and higher entries when we open the document. 
+// and collapse all level and 3 and higher entries when we open the document.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);

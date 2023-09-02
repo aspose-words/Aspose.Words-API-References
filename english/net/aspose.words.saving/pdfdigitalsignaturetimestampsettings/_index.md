@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings class. Contains settings of the digital signature timestamp in C#.
 type: docs
-weight: 5430
+weight: 5450
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
@@ -48,7 +48,7 @@ builder.Writeln("Signed PDF contents.");
 // to modify how that method converts the document to .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF. 
+// Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 

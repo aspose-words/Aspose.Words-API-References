@@ -5,7 +5,7 @@ articleTitle: FarEastLineBreakControl
 second_title: Aspose.Words for .NET
 description: ParagraphFormat FarEastLineBreakControl property. Gets or sets a flag indicating whether East Asian linebreaking rules are applied to the current paragraph in C#.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property

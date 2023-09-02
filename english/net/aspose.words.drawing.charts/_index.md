@@ -21,6 +21,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [Chart](./chart/) | Provides access to the chart shape properties. |
 | [ChartAxis](./chartaxis/) | Represents the axis options of the chart. |
 | [ChartAxisCollection](./chartaxiscollection/) | Represents a collection of chart axes. |
+| [ChartAxisTitle](./chartaxistitle/) | Provides access to the axis title properties. |
 | [ChartDataLabel](./chartdatalabel/) | Represents data label on a chart point or trendline. |
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | Represents a collection of [`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/). |
 | [ChartDataPoint](./chartdatapoint/) | Allows to specify formatting of a single data point on the chart. |

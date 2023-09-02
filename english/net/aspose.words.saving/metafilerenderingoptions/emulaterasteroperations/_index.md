@@ -58,7 +58,7 @@ public void HandleBinaryRasterWarnings()
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
