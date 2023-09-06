@@ -5,7 +5,7 @@ articleTitle: remove_child method
 second_title: Aspose.Words for Python
 description: "CompositeNode.remove_child method. Removes the specified child node."
 type: docs
-weight: 160
+weight: 150
 url: /python-net/aspose.words/compositenode/remove_child/
 ---
 

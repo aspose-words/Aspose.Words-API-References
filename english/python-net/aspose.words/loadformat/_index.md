@@ -5,7 +5,7 @@ articleTitle: LoadFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.words/loadformat/
 ---
 
@@ -61,7 +61,6 @@ with io.BytesIO(urlopen(url).read()) as stream:
     doc = aw.Document(stream, options)
 
     # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    self.assertEqual("HYPERLINK \"https://products.aspose.com/words/family/\" \\o \"Aspose.Words\"",
 
     doc.save(ARTIFACTS_DIR + "Document.insert_html_from_web_page.docx")
 ```

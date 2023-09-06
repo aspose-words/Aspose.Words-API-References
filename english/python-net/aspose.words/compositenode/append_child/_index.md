@@ -5,7 +5,7 @@ articleTitle: append_child method
 second_title: Aspose.Words for Python
 description: "CompositeNode.append_child method. Adds the specified node to the end of the list of child nodes for this node."
 type: docs
-weight: 70
+weight: 60
 url: /python-net/aspose.words/compositenode/append_child/
 ---
 

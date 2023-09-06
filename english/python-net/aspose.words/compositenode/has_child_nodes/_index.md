@@ -5,7 +5,7 @@ articleTitle: has_child_nodes property
 second_title: Aspose.Words for Python
 description: "CompositeNode.has_child_nodes property. Returns ``True`` if this node has any child nodes."
 type: docs
-weight: 40
+weight: 30
 url: /python-net/aspose.words/compositenode/has_child_nodes/
 ---
 

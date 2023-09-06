@@ -5,7 +5,7 @@ articleTitle: Metered class
 second_title: Aspose.Words for Python
 description: "aspose.words.Metered class. Provides methods to set metered key"
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words/metered/
 ---
 

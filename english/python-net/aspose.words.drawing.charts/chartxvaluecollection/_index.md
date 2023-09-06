@@ -5,7 +5,7 @@ articleTitle: ChartXValueCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartXValueCollection class. Represents a collection of X values for a chart series."
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 

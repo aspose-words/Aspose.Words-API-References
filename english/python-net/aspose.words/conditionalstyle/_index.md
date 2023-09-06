@@ -5,7 +5,7 @@ articleTitle: ConditionalStyle class
 second_title: Aspose.Words for Python
 description: "aspose.words.ConditionalStyle class. Represents special formatting applied to some area of a table with assigned table style"
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words/conditionalstyle/
 ---
 

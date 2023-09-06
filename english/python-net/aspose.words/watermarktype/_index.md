@@ -5,7 +5,7 @@ articleTitle: WatermarkType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.WatermarkType enumeration. Specifies the watermark type."
 type: docs
-weight: 1380
+weight: 1390
 url: /python-net/aspose.words/watermarktype/
 ---
 

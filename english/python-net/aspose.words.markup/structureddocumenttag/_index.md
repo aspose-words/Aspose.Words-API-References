@@ -60,7 +60,6 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | [building_block_gallery](./building_block_gallery/) | Specifies type of building block for this **SDT**. Can not be ``None``. |
 | [calendar_type](./calendar_type/) | Specifies the type of calendar for this **SDT**. Default is [SdtCalendarType.DEFAULT](../sdtcalendartype/#DEFAULT) |
 | [checked](./checked/) | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is ``False``. |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [contents_font](./contents_font/) | Font formatting that will be applied to text entered into **SDT**. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

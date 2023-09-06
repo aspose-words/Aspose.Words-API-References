@@ -5,7 +5,7 @@ articleTitle: CompositeNode class
 second_title: Aspose.Words for Python
 description: "aspose.words.CompositeNode class. Base class for nodes that can contain other nodes"
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words/compositenode/
 ---
 
@@ -39,7 +39,6 @@ The [CompositeNode](./) class:
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](./child_nodes/) | Gets all immediate child nodes of this node. |
 | [count](./count/) | Gets the number of immediate children of this node. |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

@@ -47,7 +47,6 @@ A minimal valid table needs to have at least one [Row](../row/).
 | [bidi](./bidi/) | Gets or sets whether this is a right-to-left table. |
 | [bottom_padding](./bottom_padding/) | Gets or sets the amount of space (in points) to add below the contents of cells. |
 | [cell_spacing](./cell_spacing/) | Gets or sets the amount of space (in points) between the cells. |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [description](./description/) | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |

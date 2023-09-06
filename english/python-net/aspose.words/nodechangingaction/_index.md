@@ -5,7 +5,7 @@ articleTitle: NodeChangingAction enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeChangingAction enumeration. Specifies the type of node change."
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.words/nodechangingaction/
 ---
 

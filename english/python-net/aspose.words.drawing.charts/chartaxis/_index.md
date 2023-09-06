@@ -48,6 +48,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [tick_label_spacing](./tick_label_spacing/) | Gets or sets the interval, at which tick labels are drawn. |
 | [tick_label_spacing_is_auto](./tick_label_spacing_is_auto/) | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [tick_mark_spacing](./tick_mark_spacing/) | Gets or sets the interval, at which tick marks are drawn. |
+| [title](./title/) | Provides access to the axis title properties. |
 | [type](./type/) | Returns type of the axis. |
 
 ### Examples

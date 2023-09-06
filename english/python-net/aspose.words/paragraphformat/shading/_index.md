@@ -5,7 +5,7 @@ articleTitle: shading property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.shading property. Returns a [Shading](../../shading/) object that refers to the shading formatting for the paragraph."
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words/paragraphformat/shading/
 ---
 

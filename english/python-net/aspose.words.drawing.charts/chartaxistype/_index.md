@@ -5,7 +5,7 @@ articleTitle: ChartAxisType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartAxisType enumeration. Specifies type of chart axis."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.drawing.charts/chartaxistype/
 ---
 

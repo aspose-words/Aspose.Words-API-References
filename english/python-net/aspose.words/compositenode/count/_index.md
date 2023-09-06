@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "CompositeNode.count property. Gets the number of immediate children of this node."
 type: docs
-weight: 20
+weight: 10
 url: /python-net/aspose.words/compositenode/count/
 ---
 

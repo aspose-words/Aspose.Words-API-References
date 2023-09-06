@@ -143,6 +143,7 @@ The main classes in this module are:
 
 | Enumeration | Description |
 | --- | --- |
+| [BaselineAlignment](./baselinealignment/) | Specifies fonts vertical position on a line. |
 | [BorderType](./bordertype/) | Specifies sides of a border. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/python-net/programming-with-documents/) documentation article. |
 | [BreakType](./breaktype/) | Specifies type of a break inside a document. |
 | [CalendarType](./calendartype/) | Specifies the type of a calendar. |

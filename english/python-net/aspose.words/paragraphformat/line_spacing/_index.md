@@ -5,7 +5,7 @@ articleTitle: line_spacing property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.line_spacing property. Gets or sets the line spacing (in points) for the paragraph."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words/paragraphformat/line_spacing/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: PageBorderAppliesTo enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PageBorderAppliesTo enumeration. Specifies which pages the page border is printed on."
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words/pageborderappliesto/
 ---
 

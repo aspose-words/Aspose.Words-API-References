@@ -5,7 +5,7 @@ articleTitle: outline_level property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.outline_level property. Specifies the outline level of the paragraph in the document."
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words/paragraphformat/outline_level/
 ---
 

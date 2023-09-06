@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.clear_formatting method. Resets to default paragraph formatting."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words/paragraphformat/clear_formatting/
 ---
 

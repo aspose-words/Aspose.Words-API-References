@@ -5,7 +5,7 @@ articleTitle: bidi property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.bidi property. Gets or sets whether this is a right-to-left paragraph."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/paragraphformat/bidi/
 ---
 

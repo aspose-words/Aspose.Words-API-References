@@ -43,7 +43,6 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 | --- | --- |
 | [behavior](./behavior/) | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
 | [category](./category/) | Specifies the second-level categorization for the building block. |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [description](./description/) | Gets or sets the description associated with this building block. |

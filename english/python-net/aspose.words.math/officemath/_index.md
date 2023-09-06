@@ -33,7 +33,6 @@ and properties to create or modify a [OfficeMath](./) object. In this version yo
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [display_type](./display_type/) | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |

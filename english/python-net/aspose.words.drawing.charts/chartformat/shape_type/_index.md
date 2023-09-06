@@ -50,7 +50,7 @@ labelFormat = series.data_labels[0].format
 labelFormat.stroke.color = Color.dark_blue
 labelFormat.fill.solid(Color.blue)
 
-doc.save(ARTIFACTS_DIR + "Charts.FormatDataLables.docx")
+doc.save(ARTIFACTS_DIR + "Charts.FormatDataLabels.docx")
 ```
 
 ### See Also

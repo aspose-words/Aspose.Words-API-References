@@ -5,7 +5,7 @@ articleTitle: ImportFormatMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ImportFormatMode enumeration. Specifies how formatting is merged when importing content from another document."
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.words/importformatmode/
 ---
 

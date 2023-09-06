@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ConditionalStyleType enumeration. Represents possible table areas to which conditional formatting may be defined in a table style."
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words/conditionalstyletype/
 ---
 

@@ -40,6 +40,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [force_page_breaks](../txtsaveoptionsbase/force_page_breaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [image_saving_callback](./image_saving_callback/) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. |
 | [images_folder](./images_folder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. Default is an empty string. |
+| [images_folder_alias](./images_folder_alias/) | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [list_export_mode](./list_export_mode/) | Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN_SYNTAX](../markdownlistexportmode/#MARKDOWN_SYNTAX). |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
