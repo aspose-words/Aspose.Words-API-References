@@ -5,7 +5,7 @@ articleTitle: suppress_line_numbers property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.suppress_line_numbers property. Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/paragraphformat/suppress_line_numbers/
 ---
 

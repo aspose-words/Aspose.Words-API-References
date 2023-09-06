@@ -5,7 +5,7 @@ articleTitle: CleanupOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.CleanupOptions class. Allows to specify options for document cleaning"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words/cleanupoptions/
 ---
 

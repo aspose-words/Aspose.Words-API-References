@@ -5,7 +5,7 @@ articleTitle: ChartXValue class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartXValue class. Represents an X value for a chart series."
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words.drawing.charts/chartxvalue/
 ---
 

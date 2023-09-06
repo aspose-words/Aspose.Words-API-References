@@ -5,7 +5,7 @@ articleTitle: InlineStory class
 second_title: Aspose.Words for Python
 description: "aspose.words.InlineStory class. Base class for inline-level nodes that can contain paragraphs and tables"
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words/inlinestory/
 ---
 
@@ -32,7 +32,6 @@ and a [Footnote](../../aspose.words.notes/footnote/) contains text of a footnote
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

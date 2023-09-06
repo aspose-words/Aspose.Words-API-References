@@ -5,7 +5,7 @@ articleTitle: PaperSize enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PaperSize enumeration. Specifies paper size."
 type: docs
-weight: 840
+weight: 850
 url: /python-net/aspose.words/papersize/
 ---
 

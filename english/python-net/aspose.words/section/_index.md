@@ -5,7 +5,7 @@ articleTitle: Section class
 second_title: Aspose.Words for Python
 description: "aspose.words.Section class. Represents a single section in a document"
 type: docs
-weight: 1020
+weight: 1030
 url: /python-net/aspose.words/section/
 ---
 
@@ -49,7 +49,6 @@ and section properties use [Section.append_content()](./append_content/#section)
 | Name | Description |
 | --- | --- |
 | [body](./body/) | Returns the [Body](../body/) child node of the section. |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

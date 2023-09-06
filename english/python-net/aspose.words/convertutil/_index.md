@@ -5,7 +5,7 @@ articleTitle: ConvertUtil class
 second_title: Aspose.Words for Python
 description: "aspose.words.ConvertUtil class. Provides helper functions to convert between various measurement units"
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words/convertutil/
 ---
 

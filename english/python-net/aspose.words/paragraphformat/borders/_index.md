@@ -5,7 +5,7 @@ articleTitle: borders property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.borders property. Gets collection of borders of the paragraph."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/paragraphformat/borders/
 ---
 

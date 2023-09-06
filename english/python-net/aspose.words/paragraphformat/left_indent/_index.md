@@ -5,7 +5,7 @@ articleTitle: left_indent property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.left_indent property. Gets or sets the value (in points) that represents the left indent for paragraph."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words/paragraphformat/left_indent/
 ---
 

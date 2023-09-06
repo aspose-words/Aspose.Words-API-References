@@ -5,7 +5,7 @@ articleTitle: DropCapPosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.DropCapPosition enumeration. Specifies the position for a drop cap text."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words/dropcapposition/
 ---
 

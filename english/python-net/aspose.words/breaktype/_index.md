@@ -5,7 +5,7 @@ articleTitle: BreakType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.BreakType enumeration. Specifies type of a break inside a document."
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words/breaktype/
 ---
 

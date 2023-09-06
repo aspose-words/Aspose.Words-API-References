@@ -5,7 +5,7 @@ articleTitle: snap_to_grid property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.snap_to_grid property. Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph."
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.words/paragraphformat/snap_to_grid/
 ---
 

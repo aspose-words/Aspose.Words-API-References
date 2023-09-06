@@ -5,7 +5,7 @@ articleTitle: Paragraph class
 second_title: Aspose.Words for Python
 description: "aspose.words.Paragraph class. Represents a paragraph of text"
 type: docs
-weight: 850
+weight: 860
 url: /python-net/aspose.words/paragraph/
 ---
 
@@ -56,7 +56,6 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | Name | Description |
 | --- | --- |
 | [break_is_style_separator](./break_is_style_separator/) | True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles. |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

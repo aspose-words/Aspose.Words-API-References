@@ -5,7 +5,7 @@ articleTitle: Comment class
 second_title: Aspose.Words for Python
 description: "aspose.words.Comment class. Represents a container for text of a comment"
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words/comment/
 ---
 
@@ -48,7 +48,6 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | --- | --- |
 | [ancestor](./ancestor/) | Returns the parent [Comment](./) object. Returns ``None`` for top-level comments. |
 | [author](./author/) | Returns or sets the author name for a comment. |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [date_time](./date_time/) | Gets the date and time that the comment was made. |

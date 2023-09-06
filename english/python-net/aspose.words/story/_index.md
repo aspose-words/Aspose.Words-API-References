@@ -5,7 +5,7 @@ articleTitle: Story class
 second_title: Aspose.Words for Python
 description: "aspose.words.Story class. Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
-weight: 1090
+weight: 1100
 url: /python-net/aspose.words/story/
 ---
 
@@ -30,7 +30,6 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

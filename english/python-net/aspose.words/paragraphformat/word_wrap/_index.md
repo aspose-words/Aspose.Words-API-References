@@ -5,7 +5,7 @@ articleTitle: word_wrap property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.word_wrap property. If this property is ``False``, Latin text in the middle of a word can be wrapped for the current paragraph"
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words/paragraphformat/word_wrap/
 ---
 

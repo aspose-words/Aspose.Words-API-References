@@ -5,7 +5,7 @@ articleTitle: HeaderFooter class
 second_title: Aspose.Words for Python
 description: "aspose.words.HeaderFooter class. Represents a container for the header or footer text of a section"
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/headerfooter/
 ---
 
@@ -43,7 +43,6 @@ considered linked to previous in Microsoft Word.
 
 | Name | Description |
 | --- | --- |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |

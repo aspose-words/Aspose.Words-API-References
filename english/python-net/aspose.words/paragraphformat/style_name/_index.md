@@ -5,7 +5,7 @@ articleTitle: style_name property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.style_name property. Gets or sets the name of the paragraph style applied to this formatting."
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.words/paragraphformat/style_name/
 ---
 

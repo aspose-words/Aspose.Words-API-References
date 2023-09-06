@@ -5,7 +5,7 @@ articleTitle: HeaderFooterCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.HeaderFooterCollection class. Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/headerfootercollection/
 ---
 
