@@ -5,7 +5,7 @@ articleTitle: CommentCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.CommentCollection class. Provides typed access to a collection of [Comment](../comment/) nodes"
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words/commentcollection/
 ---
 

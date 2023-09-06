@@ -51,7 +51,6 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [bounds_with_effects](../shapebase/bounds_with_effects/) | Gets final extent that this shape object has after applying drawing effects. Value is measured in points.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [can_have_image](../shapebase/can_have_image/) | Returns ``True`` if the shape type allows the shape to have an image.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [chart](./chart/) | Provides access to the chart properties if this shape has a [Chart](../../aspose.words.drawing.charts/chart/). |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [coord_origin](../shapebase/coord_origin/) | The coordinates at the top-left corner of the containing block of this shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [coord_size](../shapebase/coord_size/) | The width and height of the coordinate space inside the containing block of this shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

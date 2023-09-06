@@ -5,7 +5,7 @@ articleTitle: hanging_punctuation property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.hanging_punctuation property. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words/paragraphformat/hanging_punctuation/
 ---
 

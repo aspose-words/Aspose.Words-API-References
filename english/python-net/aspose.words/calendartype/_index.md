@@ -5,7 +5,7 @@ articleTitle: CalendarType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.CalendarType enumeration. Specifies the type of a calendar."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words/calendartype/
 ---
 

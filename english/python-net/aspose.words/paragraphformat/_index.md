@@ -5,7 +5,7 @@ articleTitle: ParagraphFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.ParagraphFormat class. Represents all the formatting for a paragraph"
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words/paragraphformat/
 ---
 
@@ -24,6 +24,7 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 | [add_space_between_far_east_and_alpha](./add_space_between_far_east_and_alpha/) | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [add_space_between_far_east_and_digit](./add_space_between_far_east_and_digit/) | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [alignment](./alignment/) | Gets or sets text alignment for the paragraph. |
+| [baseline_alignment](./baseline_alignment/) | Gets or sets fonts vertical position on a line. |
 | [bidi](./bidi/) | Gets or sets whether this is a right-to-left paragraph. |
 | [borders](./borders/) | Gets collection of borders of the paragraph. |
 | [character_unit_first_line_indent](./character_unit_first_line_indent/) | Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |

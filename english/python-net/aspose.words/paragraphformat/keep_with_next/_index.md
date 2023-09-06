@@ -5,7 +5,7 @@ articleTitle: keep_with_next property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.keep_with_next property. True if the paragraph is to remains on the same page as the paragraph that follows it."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words/paragraphformat/keep_with_next/
 ---
 

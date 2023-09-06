@@ -5,7 +5,7 @@ articleTitle: Document class
 second_title: Aspose.Words for Python
 description: "aspose.words.Document class. Represents a Word document"
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words/document/
 ---
 
@@ -81,7 +81,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [automatically_update_styles](./automatically_update_styles/) | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [background_shape](../documentbase/background_shape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [built_in_document_properties](./built_in_document_properties/) | Returns a collection that represents all the built-in document properties of the document. |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [compatibility_options](./compatibility_options/) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [compliance](./compliance/) | Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents. |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |

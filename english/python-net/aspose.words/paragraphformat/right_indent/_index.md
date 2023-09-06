@@ -5,7 +5,7 @@ articleTitle: right_indent property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.right_indent property. Gets or sets the value (in points) that represents the right indent for paragraph."
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words/paragraphformat/right_indent/
 ---
 

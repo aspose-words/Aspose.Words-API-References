@@ -5,7 +5,7 @@ articleTitle: line_unit_after property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.line_unit_after property. Gets or sets the amount of spacing (in gridlines) after the paragraphs."
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words/paragraphformat/line_unit_after/
 ---
 

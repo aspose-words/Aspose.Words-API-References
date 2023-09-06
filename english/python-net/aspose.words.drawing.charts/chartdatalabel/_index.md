@@ -5,7 +5,7 @@ articleTitle: ChartDataLabel class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataLabel class. Represents data label on a chart point or trendline"
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/
 ---
 

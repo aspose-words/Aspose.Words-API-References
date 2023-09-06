@@ -5,7 +5,7 @@ articleTitle: index_of method
 second_title: Aspose.Words for Python
 description: "CompositeNode.index_of method. Returns the index of the specified child node in the child node array."
 type: docs
-weight: 110
+weight: 100
 url: /python-net/aspose.words/compositenode/index_of/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: BookmarkStart class
 second_title: Aspose.Words for Python
 description: "aspose.words.BookmarkStart class. Represents a start of a bookmark in a Word document"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/bookmarkstart/
 ---
 

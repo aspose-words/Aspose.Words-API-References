@@ -5,7 +5,7 @@ articleTitle: get_child method
 second_title: Aspose.Words for Python
 description: "CompositeNode.get_child method. Returns an Nth child node that matches the specified type."
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.words/compositenode/get_child/
 ---
 

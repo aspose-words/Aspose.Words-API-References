@@ -60,7 +60,6 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [bounds_in_points](./bounds_in_points/) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [bounds_with_effects](./bounds_with_effects/) | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
 | [can_have_image](./can_have_image/) | Returns ``True`` if the shape type allows the shape to have an image. |
-| [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [coord_origin](./coord_origin/) | The coordinates at the top-left corner of the containing block of this shape. |
 | [coord_size](./coord_size/) | The width and height of the coordinate space inside the containing block of this shape. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

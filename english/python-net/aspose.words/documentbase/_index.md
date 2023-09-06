@@ -5,7 +5,7 @@ articleTitle: DocumentBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document"
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.words/documentbase/
 ---
 
@@ -33,7 +33,6 @@ root node of the tree that contains all other nodes of the document.
 | Name | Description |
 | --- | --- |
 | [background_shape](./background_shape/) | Gets or sets the background shape of the document. Can be ``None``. |
-| [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](./document/) | Gets this instance. |

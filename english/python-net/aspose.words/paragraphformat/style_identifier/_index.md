@@ -5,7 +5,7 @@ articleTitle: style_identifier property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.style_identifier property. Gets or sets the locale independent style identifier of the paragraph style applied to this formatting."
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.words/paragraphformat/style_identifier/
 ---
 

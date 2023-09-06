@@ -5,7 +5,7 @@ articleTitle: character_unit_left_indent property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.character_unit_left_indent property. Gets or sets the left indent value (in characters) for the specified paragraphs."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words/paragraphformat/character_unit_left_indent/
 ---
 
