@@ -4,7 +4,7 @@ linktitle: BreakType
 second_title: Aspose.Words for Java
 description: Specifies type of a break inside a document in Java.
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.words/breaktype/
 ---
 

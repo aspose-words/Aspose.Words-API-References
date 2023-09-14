@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 405
+weight: 407
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -43,6 +43,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getForcePageBreaks()](#getForcePageBreaks) | Allows to specify whether the page breaks should be preserved during export. |
 | [getImageSavingCallback()](#getImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
+| [getImagesFolderAlias()](#getImagesFolderAlias) | Specifies the name of the folder used to construct image URIs written into a document. |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
 | [getListExportMode()](#getListExportMode) | Specifies how list items will be written to the output file. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
@@ -70,6 +71,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setForcePageBreaks(boolean value)](#setForcePageBreaks-boolean) | Allows to specify whether the page breaks should be preserved during export. |
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
+| [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into a document. |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setListExportMode(int value)](#setListExportMode-int) | Specifies how list items will be written to the output file. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
@@ -627,6 +629,77 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) property.
 
 If the folder specified by [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) doesn't exist, it will be created automatically.
+
+ **Examples:** 
+
+Shows how to specifies the name of the folder used to construct image URIs.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.writeln("Some image below:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ String imagesFolder = Paths.get(getArtifactsDir(), "ImagesDir").toString();
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ // Use the "ImagesFolder" property to assign a folder in the local file system into which
+ // Aspose.Words will save all the document's linked images.
+ saveOptions.setImagesFolder(imagesFolder);
+ // Use the "ImagesFolderAlias" property to use this folder
+ // when constructing image URIs instead of the images folder's name.
+ saveOptions.setImagesFolderAlias("http://example.com/images");
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+ 
+```
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getImagesFolderAlias() {#getImagesFolderAlias}
+```
+public String getImagesFolderAlias()
+```
+
+
+Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string.
+
+ **Remarks:** 
+
+When you save a [Document](../../com.aspose.words/document/) in [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to Markdown will be *ImagesFolderAlias + ![Image 1][]*.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is an empty string, then the image URI written to Markdown will be *ImagesFolder + ![Image 1][]*.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
+
+ **Examples:** 
+
+Shows how to specifies the name of the folder used to construct image URIs.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.writeln("Some image below:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ String imagesFolder = Paths.get(getArtifactsDir(), "ImagesDir").toString();
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ // Use the "ImagesFolder" property to assign a folder in the local file system into which
+ // Aspose.Words will save all the document's linked images.
+ saveOptions.setImagesFolder(imagesFolder);
+ // Use the "ImagesFolderAlias" property to use this folder
+ // when constructing image URIs instead of the images folder's name.
+ saveOptions.setImagesFolderAlias("http://example.com/images");
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+ 
+```
+
+
+[Image 1]: 
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -1878,6 +1951,80 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) property.
 
 If the folder specified by [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) doesn't exist, it will be created automatically.
+
+ **Examples:** 
+
+Shows how to specifies the name of the folder used to construct image URIs.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.writeln("Some image below:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ String imagesFolder = Paths.get(getArtifactsDir(), "ImagesDir").toString();
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ // Use the "ImagesFolder" property to assign a folder in the local file system into which
+ // Aspose.Words will save all the document's linked images.
+ saveOptions.setImagesFolder(imagesFolder);
+ // Use the "ImagesFolderAlias" property to use this folder
+ // when constructing image URIs instead of the images folder's name.
+ saveOptions.setImagesFolderAlias("http://example.com/images");
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
+### setImagesFolderAlias(String value) {#setImagesFolderAlias-java.lang.String}
+```
+public void setImagesFolderAlias(String value)
+```
+
+
+Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string.
+
+ **Remarks:** 
+
+When you save a [Document](../../com.aspose.words/document/) in [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to Markdown will be *ImagesFolderAlias + ![Image 1][]*.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is an empty string, then the image URI written to Markdown will be *ImagesFolder + ![Image 1][]*.
+
+If [getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
+
+ **Examples:** 
+
+Shows how to specifies the name of the folder used to construct image URIs.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.writeln("Some image below:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ String imagesFolder = Paths.get(getArtifactsDir(), "ImagesDir").toString();
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ // Use the "ImagesFolder" property to assign a folder in the local file system into which
+ // Aspose.Words will save all the document's linked images.
+ saveOptions.setImagesFolder(imagesFolder);
+ // Use the "ImagesFolderAlias" property to use this folder
+ // when constructing image URIs instead of the images folder's name.
+ saveOptions.setImagesFolderAlias("http://example.com/images");
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+ 
+```
+
+
+[Image 1]: 
 
 **Parameters:**
 | Parameter | Type | Description |

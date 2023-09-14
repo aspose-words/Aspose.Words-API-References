@@ -4,7 +4,7 @@ linktitle: DigitalSignatureCollection
 second_title: Aspose.Words for Java
 description: Provides a read-only collection of digital signatures attached to a document in Java.
 type: docs
-weight: 124
+weight: 126
 url: /java/com.aspose.words/digitalsignaturecollection/
 ---
 

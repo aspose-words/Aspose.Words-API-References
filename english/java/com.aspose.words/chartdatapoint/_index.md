@@ -4,7 +4,7 @@ linktitle: ChartDataPoint
 second_title: Aspose.Words for Java
 description: Allows to specify formatting of a single data point on the chart in Java.
 type: docs
-weight: 62
+weight: 64
 url: /java/com.aspose.words/chartdatapoint/
 ---
 

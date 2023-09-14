@@ -4,7 +4,7 @@ linktitle: ResourceLoadingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IResourceLoadingCallback.resourceLoadingcom.aspose.words.ResourceLoadingArgs method in Java.
 type: docs
-weight: 504
+weight: 506
 url: /java/com.aspose.words/resourceloadingargs/
 ---
 

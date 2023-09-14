@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for Java
 description: Contains details for signing a PDF document with a digital signature in Java.
 type: docs
-weight: 472
+weight: 474
 url: /java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 
@@ -42,13 +42,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -101,13 +103,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -139,13 +143,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -199,13 +205,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -243,13 +251,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -287,13 +297,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -333,13 +345,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -441,13 +455,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -488,13 +504,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -535,13 +553,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -584,13 +604,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  

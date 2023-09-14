@@ -4,7 +4,7 @@ linktitle: OfficeMath
 second_title: Aspose.Words for Java
 description: Represents an Office Math object such as function equation matrix or alike in Java.
 type: docs
-weight: 441
+weight: 443
 url: /java/com.aspose.words/officemath/
 ---
 
@@ -63,7 +63,6 @@ Shows how to set office math display formatting.
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
-| [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
@@ -486,65 +485,6 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
-### getChildNodes() {#getChildNodes}
-```
-public NodeCollection getChildNodes()
-```
-
-
-Gets all immediate child nodes of this node.
-
- **Remarks:** 
-
-Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
-
-If there are no child nodes, this property returns an empty collection.
-
- **Examples:** 
-
-Shows how to traverse through a composite node's collection of child nodes.
-
-```
-
- Document doc = new Document();
-
- // Add two runs and one shape as child nodes to the first paragraph of this document.
- Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
- paragraph.appendChild(new Run(doc, "Hello world! "));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- shape.setWidth(200.0);
- shape.setHeight(200.0);
- // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
- shape.setCustomNodeId(100);
- shape.setWrapType(WrapType.INLINE);
- paragraph.appendChild(shape);
-
- paragraph.appendChild(new Run(doc, "Hello again!"));
-
- // Iterate through the paragraph's collection of immediate children,
- // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
-
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
-
- for (Node child : (Iterable) children)
-     switch (child.getNodeType()) {
-         case NodeType.RUN:
-             System.out.println("Run contents:");
-             System.out.println("\t\"{child.GetText().Trim()}\"");
-             break;
-         case NodeType.SHAPE:
-             Shape childShape = (Shape) child;
-             System.out.println("Shape:");
-             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-             break;
-     }
- 
-```
-
-**Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -683,9 +623,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {
@@ -1526,7 +1466,7 @@ Shows how to get the index of a given child node from its parent.
  Body body = doc.getFirstSection().getBody();
 
  // Retrieve the index of the last paragraph in the body of the first section.
- Assert.assertEquals(24, body.getChildNodes().indexOf(body.getLastParagraph()));
+ Assert.assertEquals(24, body.getChildNodes(NodeType.ANY, false).indexOf(body.getLastParagraph()));
  
 ```
 
@@ -1815,9 +1755,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {
@@ -2517,9 +2457,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {

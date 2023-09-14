@@ -4,7 +4,7 @@ linktitle: ParagraphFormat
 second_title: Aspose.Words for Java
 description: Represents all the formatting for a paragraph in Java.
 type: docs
-weight: 467
+weight: 469
 url: /java/com.aspose.words/paragraphformat/
 ---
 
@@ -79,6 +79,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [getAddSpaceBetweenFarEastAndAlpha()](#getAddSpaceBetweenFarEastAndAlpha) | Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [getAddSpaceBetweenFarEastAndDigit()](#getAddSpaceBetweenFarEastAndDigit) | Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [getAlignment()](#getAlignment) | Gets text alignment for the paragraph. |
+| [getBaselineAlignment()](#getBaselineAlignment) | Gets fonts vertical position on a line. |
 | [getBidi()](#getBidi) | Gets whether this is a right-to-left paragraph. |
 | [getBorders()](#getBorders) | Gets collection of borders of the paragraph. |
 | [getCharacterUnitFirstLineIndent()](#getCharacterUnitFirstLineIndent) | Gets the value (in characters) for the first-line or hanging indent. |
@@ -120,6 +121,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [setAddSpaceBetweenFarEastAndAlpha(boolean value)](#setAddSpaceBetweenFarEastAndAlpha-boolean) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [setAddSpaceBetweenFarEastAndDigit(boolean value)](#setAddSpaceBetweenFarEastAndDigit-boolean) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [setAlignment(int value)](#setAlignment-int) | Sets text alignment for the paragraph. |
+| [setBaselineAlignment(int value)](#setBaselineAlignment-int) | Sets fonts vertical position on a line. |
 | [setBidi(boolean value)](#setBidi-boolean) | Sets whether this is a right-to-left paragraph. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
 | [setCharacterUnitFirstLineIndent(double value)](#setCharacterUnitFirstLineIndent-double) | Sets the value (in characters) for the first-line or hanging indent. |
@@ -418,6 +420,34 @@ Shows how to construct an Aspose.Words document by hand.
 
 **Returns:**
 int - Text alignment for the paragraph. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants.
+### getBaselineAlignment() {#getBaselineAlignment}
+```
+public int getBaselineAlignment()
+```
+
+
+Gets fonts vertical position on a line.
+
+ **Examples:** 
+
+Shows how to set fonts vertical position on a line.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ ParagraphFormat format = doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat();
+ if (format.getBaselineAlignment() == BaselineAlignment.AUTO)
+ {
+     format.setBaselineAlignment(BaselineAlignment.TOP);
+ }
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.ParagraphBaselineAlignment.docx");
+ 
+```
+
+**Returns:**
+int - Fonts vertical position on a line. The returned value is one of [BaselineAlignment](../../com.aspose.words/baselinealignment/) constants.
 ### getBidi() {#getBidi}
 ```
 public boolean getBidi()
@@ -2259,6 +2289,37 @@ Shows how to construct an Aspose.Words document by hand.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | Text alignment for the paragraph. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants. |
+
+### setBaselineAlignment(int value) {#setBaselineAlignment-int}
+```
+public void setBaselineAlignment(int value)
+```
+
+
+Sets fonts vertical position on a line.
+
+ **Examples:** 
+
+Shows how to set fonts vertical position on a line.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ ParagraphFormat format = doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat();
+ if (format.getBaselineAlignment() == BaselineAlignment.AUTO)
+ {
+     format.setBaselineAlignment(BaselineAlignment.TOP);
+ }
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.ParagraphBaselineAlignment.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | Fonts vertical position on a line. The value must be one of [BaselineAlignment](../../com.aspose.words/baselinealignment/) constants. |
 
 ### setBidi(boolean value) {#setBidi-boolean}
 ```

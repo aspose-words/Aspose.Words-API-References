@@ -4,17 +4,14 @@ linktitle: ChartTitle
 second_title: Aspose.Words for Java
 description: Provides access to the chart title properties in Java.
 type: docs
-weight: 75
+weight: 77
 url: /java/com.aspose.words/charttitle/
 ---
 
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-java.lang.Cloneable
 ```
-public class ChartTitle implements Cloneable
+public class ChartTitle
 ```
 
 Provides access to the chart title properties.
@@ -54,72 +51,12 @@ Shows how to insert a chart and set a title.
 
 | Method | Description |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
-| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap title. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for this chart. |
 | [getText()](#getText) | Gets the text of the chart title. |
-| [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap title. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setShow(boolean value)](#setShow-boolean) | Determines whether the title shall be shown for this chart. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the chart title. |
-### clearRunAttrs() {#clearRunAttrs}
-```
-public void clearRunAttrs()
-```
-
-
-
-
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
-```
-public Object fetchInheritedRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
-**Returns:**
-java.lang.Object
-### getDirectRunAttr(int key) {#getDirectRunAttr-int}
-```
-public Object getDirectRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
-**Returns:**
-java.lang.Object
-### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
-```
-public Object getDirectRunAttr(int key, int revisionsView)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-| revisionsView | int |  |
-
-**Returns:**
-java.lang.Object
 ### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
@@ -235,19 +172,6 @@ Shows how to insert a chart and set a title.
 
 **Returns:**
 java.lang.String - The text of the chart title.
-### removeRunAttr(int key) {#removeRunAttr-int}
-```
-public void removeRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
 ### setOverlay(boolean value) {#setOverlay-boolean}
 ```
 public void setOverlay(boolean value)
@@ -287,20 +211,6 @@ Shows how to insert a chart and set a title.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
-```
-public void setRunAttr(int key, Object value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
 
 ### setShow(boolean value) {#setShow-boolean}
 ```

@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 353
+weight: 355
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 
@@ -3162,7 +3162,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

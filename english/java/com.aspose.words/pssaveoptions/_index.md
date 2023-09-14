@@ -4,7 +4,7 @@ linktitle: PsSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PS format in Java.
 type: docs
-weight: 493
+weight: 495
 url: /java/com.aspose.words/pssaveoptions/
 ---
 
@@ -596,7 +596,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -1980,7 +1980,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

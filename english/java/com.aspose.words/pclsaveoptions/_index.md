@@ -4,7 +4,7 @@ linktitle: PclSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PCL format in Java.
 type: docs
-weight: 469
+weight: 471
 url: /java/com.aspose.words/pclsaveoptions/
 ---
 
@@ -658,7 +658,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -2050,7 +2050,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

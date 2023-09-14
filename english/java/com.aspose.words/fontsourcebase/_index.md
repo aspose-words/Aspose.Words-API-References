@@ -4,7 +4,7 @@ linktitle: FontSourceBase
 second_title: Aspose.Words for Java
 description: This is an abstract base class for the classes that allow the user to specify various font sources in Java.
 type: docs
-weight: 300
+weight: 302
 url: /java/com.aspose.words/fontsourcebase/
 ---
 

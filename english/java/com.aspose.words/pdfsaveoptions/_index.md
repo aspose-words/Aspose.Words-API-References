@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 482
+weight: 484
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -754,13 +754,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -1665,7 +1667,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -3449,13 +3451,15 @@ Shows how to sign a generated PDF document.
 
  // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
  // digitally sign the document as we render it with the "Save" method.
- Date signingTime = new Date();
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
  options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
  options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
 
  Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
  Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
- Assert.assertEquals(options.getDigitalSignatureDetails().getSignatureDate(), signingTime);
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
  
@@ -4423,7 +4427,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

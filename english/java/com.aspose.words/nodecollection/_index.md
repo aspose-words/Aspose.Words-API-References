@@ -4,7 +4,7 @@ linktitle: NodeCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of nodes of a specific type in Java.
 type: docs
-weight: 425
+weight: 427
 url: /java/com.aspose.words/nodecollection/
 ---
 
@@ -240,9 +240,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {
@@ -308,9 +308,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {

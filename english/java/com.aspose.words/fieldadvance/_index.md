@@ -4,7 +4,7 @@ linktitle: FieldAdvance
 second_title: Aspose.Words for Java
 description: Implements the ADVANCE field in Java.
 type: docs
-weight: 166
+weight: 168
 url: /java/com.aspose.words/fieldadvance/
 ---
 

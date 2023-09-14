@@ -4,7 +4,7 @@ linktitle: FieldSeq
 second_title: Aspose.Words for Java
 description: Implements the SEQ field in Java.
 type: docs
-weight: 253
+weight: 255
 url: /java/com.aspose.words/fieldseq/
 ---
 

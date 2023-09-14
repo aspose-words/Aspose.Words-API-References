@@ -4,7 +4,7 @@ linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional metafile rendering options in Java.
 type: docs
-weight: 416
+weight: 418
 url: /java/com.aspose.words/metafilerenderingoptions/
 ---
 
@@ -48,7 +48,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -76,14 +76,16 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
 | --- | --- |
 | [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode) | Gets a value determining how EMF+ Dual metafiles should be rendered. |
 | [getEmulateRasterOperations()](#getEmulateRasterOperations) | Gets a value determining whether or not the raster operations should be emulated. |
+| [getEmulateRenderingToSizeOnPage()](#getEmulateRenderingToSizeOnPage) | Gets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size. |
+| [getEmulateRenderingToSizeOnPageResolution()](#getEmulateRenderingToSizeOnPageResolution) | Gets the resolution in pixels per inch for the emulation of metafile rendering to the size on page. |
 | [getRenderingMode()](#getRenderingMode) | Gets a value determining how metafile images should be rendered. |
-| [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [getUseGdiRasterOperationsEmulation()](#getUseGdiRasterOperationsEmulation) | Gets a value determining whether or not to use the GDI+ for raster operations emulation. |
 | [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int) | Sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean) | Sets a value determining whether or not the raster operations should be emulated. |
+| [setEmulateRenderingToSizeOnPage(boolean value)](#setEmulateRenderingToSizeOnPage-boolean) | Sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size. |
+| [setEmulateRenderingToSizeOnPageResolution(int value)](#setEmulateRenderingToSizeOnPageResolution-int) | Sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page. |
 | [setRenderingMode(int value)](#setRenderingMode-int) | Sets a value determining how metafile images should be rendered. |
-| [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [setUseGdiRasterOperationsEmulation(boolean value)](#setUseGdiRasterOperationsEmulation-boolean) | Sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 ### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode}
@@ -183,7 +185,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -205,6 +207,90 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
 
 **Returns:**
 boolean - A value determining whether or not the raster operations should be emulated.
+### getEmulateRenderingToSizeOnPage() {#getEmulateRenderingToSizeOnPage}
+```
+public boolean getEmulateRenderingToSizeOnPage()
+```
+
+
+Gets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size.
+
+ **Remarks:** 
+
+When metafiles are displayed in MS Word, some graphics may be scaled according to the actual metafile size in pixels. I.e. even zooming may affect the metafile display.
+
+When this value is set to  true , Aspose.Words emulates rendering according to the metafile size on page. The size in pixels is calculated from the metafile size on the page and the specified [getEmulateRenderingToSizeOnPageResolution()](../../com.aspose.words/metafilerenderingoptions/\#getEmulateRenderingToSizeOnPageResolution) / [setEmulateRenderingToSizeOnPageResolution(int)](../../com.aspose.words/metafilerenderingoptions/\#setEmulateRenderingToSizeOnPageResolution-int).
+
+When this value is set to  false , Aspose.Words emulates metafile rendering to its default size in pixels.
+
+This option is used only when metafile is rendered as vector graphics.
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to display of the metafile according to the size on page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmulateRenderingToSizeOnPage" property to "true"
+ // to emulate rendering according to the metafile size on page.
+ // Set the "EmulateRenderingToSizeOnPage" property to "false"
+ // to emulate metafile rendering to its default size in pixels.
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPage(renderToSize);
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPageResolution(50);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - A value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size.
+### getEmulateRenderingToSizeOnPageResolution() {#getEmulateRenderingToSizeOnPageResolution}
+```
+public int getEmulateRenderingToSizeOnPageResolution()
+```
+
+
+Gets the resolution in pixels per inch for the emulation of metafile rendering to the size on page.
+
+ **Remarks:** 
+
+This option is used only when [getEmulateRenderingToSizeOnPage()](../../com.aspose.words/metafilerenderingoptions/\#getEmulateRenderingToSizeOnPage) / [setEmulateRenderingToSizeOnPage(boolean)](../../com.aspose.words/metafilerenderingoptions/\#setEmulateRenderingToSizeOnPage-boolean) is set to  true .
+
+The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of the metafile in MS Word with a 100% zoom factor.
+
+ **Examples:** 
+
+Shows how to display of the metafile according to the size on page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmulateRenderingToSizeOnPage" property to "true"
+ // to emulate rendering according to the metafile size on page.
+ // Set the "EmulateRenderingToSizeOnPage" property to "false"
+ // to emulate metafile rendering to its default size in pixels.
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPage(renderToSize);
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPageResolution(50);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+int - The resolution in pixels per inch for the emulation of metafile rendering to the size on page.
 ### getRenderingMode() {#getRenderingMode}
 ```
 public int getRenderingMode()
@@ -247,7 +333,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -269,50 +355,6 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
 
 **Returns:**
 int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) constants.
-### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize}
-```
-public boolean getScaleWmfFontsToMetafileSize()
-```
-
-
-Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
-
- **Remarks:** 
-
-When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
-
-When this value is set to  true , Aspose.Words emulates font scaling according to metafile size on the page.
-
-When this value is set to  false , Aspose.Words displays the fonts as metafile is rendered to its default size.
-
-This option is used only when metafile is rendered as vector graphics.
-
-The default value is  true .
-
- **Examples:** 
-
-Shows how to WMF fonts scaling according to metafile size on the page.
-
-```
-
- Document doc = new Document(getMyDir() + "WMF with text.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions saveOptions = new PdfSaveOptions();
-
- // Set the "ScaleWmfFontsToMetafileSize" property to "true" to scale fonts
- // that format text within WMF images according to the size of the metafile on the page.
- // Set the "ScaleWmfFontsToMetafileSize" property to "false" to
- // preserve the default scale of these fonts.
- saveOptions.getMetafileRenderingOptions().setScaleWmfFontsToMetafileSize(scaleWmfFonts);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOptions);
- 
-```
-
-**Returns:**
-boolean - A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
 ### getUseEmfEmbeddedToWmf() {#getUseEmfEmbeddedToWmf}
 ```
 public boolean getUseEmfEmbeddedToWmf()
@@ -511,7 +553,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -535,6 +577,96 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not the raster operations should be emulated. |
+
+### setEmulateRenderingToSizeOnPage(boolean value) {#setEmulateRenderingToSizeOnPage-boolean}
+```
+public void setEmulateRenderingToSizeOnPage(boolean value)
+```
+
+
+Sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size.
+
+ **Remarks:** 
+
+When metafiles are displayed in MS Word, some graphics may be scaled according to the actual metafile size in pixels. I.e. even zooming may affect the metafile display.
+
+When this value is set to  true , Aspose.Words emulates rendering according to the metafile size on page. The size in pixels is calculated from the metafile size on the page and the specified [getEmulateRenderingToSizeOnPageResolution()](../../com.aspose.words/metafilerenderingoptions/\#getEmulateRenderingToSizeOnPageResolution) / [setEmulateRenderingToSizeOnPageResolution(int)](../../com.aspose.words/metafilerenderingoptions/\#setEmulateRenderingToSizeOnPageResolution-int).
+
+When this value is set to  false , Aspose.Words emulates metafile rendering to its default size in pixels.
+
+This option is used only when metafile is rendered as vector graphics.
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to display of the metafile according to the size on page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmulateRenderingToSizeOnPage" property to "true"
+ // to emulate rendering according to the metafile size on page.
+ // Set the "EmulateRenderingToSizeOnPage" property to "false"
+ // to emulate metafile rendering to its default size in pixels.
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPage(renderToSize);
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPageResolution(50);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size. |
+
+### setEmulateRenderingToSizeOnPageResolution(int value) {#setEmulateRenderingToSizeOnPageResolution-int}
+```
+public void setEmulateRenderingToSizeOnPageResolution(int value)
+```
+
+
+Sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page.
+
+ **Remarks:** 
+
+This option is used only when [getEmulateRenderingToSizeOnPage()](../../com.aspose.words/metafilerenderingoptions/\#getEmulateRenderingToSizeOnPage) / [setEmulateRenderingToSizeOnPage(boolean)](../../com.aspose.words/metafilerenderingoptions/\#setEmulateRenderingToSizeOnPage-boolean) is set to  true .
+
+The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of the metafile in MS Word with a 100% zoom factor.
+
+ **Examples:** 
+
+Shows how to display of the metafile according to the size on page.
+
+```
+
+ Document doc = new Document(getMyDir() + "WMF with text.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "EmulateRenderingToSizeOnPage" property to "true"
+ // to emulate rendering according to the metafile size on page.
+ // Set the "EmulateRenderingToSizeOnPage" property to "false"
+ // to emulate metafile rendering to its default size in pixels.
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPage(renderToSize);
+ saveOptions.getMetafileRenderingOptions().setEmulateRenderingToSizeOnPageResolution(50);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The resolution in pixels per inch for the emulation of metafile rendering to the size on page. |
 
 ### setRenderingMode(int value) {#setRenderingMode-int}
 ```
@@ -578,7 +710,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -602,53 +734,6 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how metafile images should be rendered. The value must be one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) constants. |
-
-### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean}
-```
-public void setScaleWmfFontsToMetafileSize(boolean value)
-```
-
-
-Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
-
- **Remarks:** 
-
-When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
-
-When this value is set to  true , Aspose.Words emulates font scaling according to metafile size on the page.
-
-When this value is set to  false , Aspose.Words displays the fonts as metafile is rendered to its default size.
-
-This option is used only when metafile is rendered as vector graphics.
-
-The default value is  true .
-
- **Examples:** 
-
-Shows how to WMF fonts scaling according to metafile size on the page.
-
-```
-
- Document doc = new Document(getMyDir() + "WMF with text.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions saveOptions = new PdfSaveOptions();
-
- // Set the "ScaleWmfFontsToMetafileSize" property to "true" to scale fonts
- // that format text within WMF images according to the size of the metafile on the page.
- // Set the "ScaleWmfFontsToMetafileSize" property to "false" to
- // preserve the default scale of these fonts.
- saveOptions.getMetafileRenderingOptions().setScaleWmfFontsToMetafileSize(scaleWmfFonts);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOptions);
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 
 ### setUseEmfEmbeddedToWmf(boolean value) {#setUseEmfEmbeddedToWmf-boolean}
 ```

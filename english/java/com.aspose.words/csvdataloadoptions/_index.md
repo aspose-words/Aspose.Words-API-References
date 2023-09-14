@@ -4,7 +4,7 @@ linktitle: CsvDataLoadOptions
 second_title: Aspose.Words for Java
 description: Represents options for parsing CSV data in Java.
 type: docs
-weight: 110
+weight: 112
 url: /java/com.aspose.words/csvdataloadoptions/
 ---
 

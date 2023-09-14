@@ -4,7 +4,7 @@ linktitle: ShapeType
 second_title: Aspose.Words for Java
 description: Specifies the type of shape in a Microsoft Word document in Java.
 type: docs
-weight: 545
+weight: 547
 url: /java/com.aspose.words/shapetype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: OoxmlCompliance
 second_title: Aspose.Words for Java
 description: Allows to specify which OOXML specification will be used when saving in the DOCX format in Java.
 type: docs
-weight: 448
+weight: 450
 url: /java/com.aspose.words/ooxmlcompliance/
 ---
 

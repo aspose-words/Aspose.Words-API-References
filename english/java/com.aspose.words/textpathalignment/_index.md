@@ -4,7 +4,7 @@ linktitle: TextPathAlignment
 second_title: Aspose.Words for Java
 description: WordArt alignment in Java.
 type: docs
-weight: 592
+weight: 594
 url: /java/com.aspose.words/textpathalignment/
 ---
 

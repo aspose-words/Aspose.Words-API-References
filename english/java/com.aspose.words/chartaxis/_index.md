@@ -4,7 +4,7 @@ linktitle: ChartAxis
 second_title: Aspose.Words for Java
 description: Represents the axis options of the chart in Java.
 type: docs
-weight: 57
+weight: 58
 url: /java/com.aspose.words/chartaxis/
 ---
 
@@ -84,6 +84,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getCategoryType()](#getCategoryType) | Gets type of the category axis. |
 | [getCrosses()](#getCrosses) | Specifies how this axis crosses the perpendicular axis. |
 | [getCrossesAt()](#getCrossesAt) | Specifies where on the perpendicular axis the axis crosses. |
+| [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDisplayUnit()](#getDisplayUnit) | Specifies the scaling value of the display units for the value axis. |
 | [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
 | [getHidden()](#getHidden) | Gets a flag indicating whether this axis is hidden or not. |
@@ -104,7 +105,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getTickLabelSpacing()](#getTickLabelSpacing) | Gets the interval, at which tick labels are drawn. |
 | [getTickLabelSpacingIsAuto()](#getTickLabelSpacingIsAuto) | Gets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [getTickMarkSpacing()](#getTickMarkSpacing) | Gets the interval, at which tick marks are drawn. |
-| [getTitle()](#getTitle) |  |
+| [getTitle()](#getTitle) | Provides access to the axis title properties. |
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getType()](#getType) | Returns type of the axis. |
@@ -135,7 +136,6 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [setTickLabelSpacing(int value)](#setTickLabelSpacing-int) | Sets the interval, at which tick labels are drawn. |
 | [setTickLabelSpacingIsAuto(boolean value)](#setTickLabelSpacingIsAuto-boolean) | Sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [setTickMarkSpacing(int value)](#setTickMarkSpacing-int) | Sets the interval, at which tick marks are drawn. |
-| [setTitle(ChartTitle value)](#setTitle-com.aspose.words.ChartTitle) |  |
 | [setTitleDeleted(boolean value)](#setTitleDeleted-boolean) |  |
 ### getAxisBetweenCategories() {#getAxisBetweenCategories}
 ```
@@ -426,6 +426,16 @@ Shows how to get a graph axis to cross at a custom location.
 
 **Returns:**
 double - The corresponding  double  value.
+### getDefaultTitleText() {#getDefaultTitleText}
+```
+public String getDefaultTitleText()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### getDisplayUnit() {#getDisplayUnit}
 ```
 public AxisDisplayUnit getDisplayUnit()
@@ -1685,14 +1695,14 @@ Shows how to insert a chart and modify the appearance of its axes.
 int - The interval, at which tick marks are drawn.
 ### getTitle() {#getTitle}
 ```
-public ChartTitle getTitle()
+public ChartAxisTitle getTitle()
 ```
 
 
-
+Provides access to the axis title properties.
 
 **Returns:**
-[ChartTitle](../../com.aspose.words/charttitle/)
+[ChartAxisTitle](../../com.aspose.words/chartaxistitle/) - The corresponding [ChartAxisTitle](../../com.aspose.words/chartaxistitle/) value.
 ### getTitleDeleted() {#getTitleDeleted}
 ```
 public boolean getTitleDeleted()
@@ -3510,19 +3520,6 @@ Shows how to insert a chart and modify the appearance of its axes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The interval, at which tick marks are drawn. |
-
-### setTitle(ChartTitle value) {#setTitle-com.aspose.words.ChartTitle}
-```
-public void setTitle(ChartTitle value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ChartTitle](../../com.aspose.words/charttitle/) |  |
 
 ### setTitleDeleted(boolean value) {#setTitleDeleted-boolean}
 ```
