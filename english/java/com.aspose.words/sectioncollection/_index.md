@@ -4,7 +4,7 @@ linktitle: SectionCollection
 second_title: Aspose.Words for Java
 description: A collection of Section objects in the document in Java.
 type: docs
-weight: 534
+weight: 536
 url: /java/com.aspose.words/sectioncollection/
 ---
 
@@ -292,9 +292,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {

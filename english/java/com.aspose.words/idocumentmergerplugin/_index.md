@@ -4,7 +4,7 @@ linktitle: IDocumentMergerPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external merger plugin that can merge Pdf documents in Java.
 type: docs
-weight: 664
+weight: 666
 url: /java/com.aspose.words/idocumentmergerplugin/
 ---
 ```

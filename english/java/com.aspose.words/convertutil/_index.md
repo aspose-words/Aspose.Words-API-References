@@ -4,7 +4,7 @@ linktitle: ConvertUtil
 second_title: Aspose.Words for Java
 description: Provides helper functions to convert between various measurement units in Java.
 type: docs
-weight: 107
+weight: 109
 url: /java/com.aspose.words/convertutil/
 ---
 

@@ -4,7 +4,7 @@ linktitle: TabLeader
 second_title: Aspose.Words for Java
 description: Specifies the type of the leader line displayed under the tab character in Java.
 type: docs
-weight: 569
+weight: 571
 url: /java/com.aspose.words/tableader/
 ---
 

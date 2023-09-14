@@ -4,7 +4,7 @@ linktitle: ChartSeriesType
 second_title: Aspose.Words for Java
 description: Specifies a type of a chart series in Java.
 type: docs
-weight: 73
+weight: 75
 url: /java/com.aspose.words/chartseriestype/
 ---
 

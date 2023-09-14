@@ -4,7 +4,7 @@ linktitle: ChartYValueType
 second_title: Aspose.Words for Java
 description: Allows to specify type of an Y value of a chart series in Java.
 type: docs
-weight: 82
+weight: 84
 url: /java/com.aspose.words/chartyvaluetype/
 ---
 

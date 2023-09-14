@@ -4,7 +4,7 @@ linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for Java
 description: A typed collection of OdsoRecipientData in Java.
 type: docs
-weight: 438
+weight: 440
 url: /java/com.aspose.words/odsorecipientdatacollection/
 ---
 

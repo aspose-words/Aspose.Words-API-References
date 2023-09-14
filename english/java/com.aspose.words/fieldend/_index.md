@@ -4,7 +4,7 @@ linktitle: FieldEnd
 second_title: Aspose.Words for Java
 description: Represents an end of a Word field in a document in Java.
 type: docs
-weight: 198
+weight: 200
 url: /java/com.aspose.words/fieldend/
 ---
 
@@ -504,9 +504,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {
@@ -1201,7 +1201,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (144810,6)
+Returns  true  if this node can contain other nodes. (145110,6)
 
  **Examples:** 
 
@@ -1998,9 +1998,9 @@ Shows how to traverse through a composite node's collection of child nodes.
 
  // Iterate through the paragraph's collection of immediate children,
  // and print any runs or shapes that we find within.
- NodeCollection children = paragraph.getChildNodes();
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
 
- Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
 
  for (Node child : (Iterable) children)
      switch (child.getNodeType()) {

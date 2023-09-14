@@ -4,7 +4,7 @@ linktitle: IWarningCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving in Java.
 type: docs
-weight: 690
+weight: 692
 url: /java/com.aspose.words/iwarningcallback/
 ---
 ```
@@ -89,7 +89,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

@@ -4,7 +4,7 @@ linktitle: SectionLayoutMode
 second_title: Aspose.Words for Java
 description: Specifies the layout mode for a section allowing to define the document grid behavior in Java.
 type: docs
-weight: 535
+weight: 537
 url: /java/com.aspose.words/sectionlayoutmode/
 ---
 

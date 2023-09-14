@@ -4,7 +4,7 @@ linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 687
+weight: 689
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```

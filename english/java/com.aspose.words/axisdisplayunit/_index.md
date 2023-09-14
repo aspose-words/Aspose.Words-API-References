@@ -85,14 +85,13 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | Method | Description |
 | --- | --- |
 | [getCustomUnit()](#getCustomUnit) | Gets a user-defined divisor to scale display units on the value axis. |
+| [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
-| [getTitle()](#getTitle) |  |
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getUnit()](#getUnit) | Gets the scaling value of the display units as one of the predefined values. |
 | [isVisible()](#isVisible) |  |
 | [setCustomUnit(double value)](#setCustomUnit-double) | Sets a user-defined divisor to scale display units on the value axis. |
-| [setTitle(ChartTitle value)](#setTitle-com.aspose.words.ChartTitle) |  |
 | [setTitleDeleted(boolean value)](#setTitleDeleted-boolean) |  |
 | [setUnit(int value)](#setUnit-int) | Sets the scaling value of the display units as one of the predefined values. |
 ### getCustomUnit() {#getCustomUnit}
@@ -168,6 +167,16 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 
 **Returns:**
 double - A user-defined divisor to scale display units on the value axis.
+### getDefaultTitleText() {#getDefaultTitleText}
+```
+public String getDefaultTitleText()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
@@ -178,16 +187,6 @@ Returns the Document the title holder belongs.
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - The Document the title holder belongs.
-### getTitle() {#getTitle}
-```
-public ChartTitle getTitle()
-```
-
-
-
-
-**Returns:**
-[ChartTitle](../../com.aspose.words/charttitle/)
 ### getTitleDeleted() {#getTitleDeleted}
 ```
 public boolean getTitleDeleted()
@@ -364,19 +363,6 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | A user-defined divisor to scale display units on the value axis. |
-
-### setTitle(ChartTitle value) {#setTitle-com.aspose.words.ChartTitle}
-```
-public void setTitle(ChartTitle value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ChartTitle](../../com.aspose.words/charttitle/) |  |
 
 ### setTitleDeleted(boolean value) {#setTitleDeleted-boolean}
 ```

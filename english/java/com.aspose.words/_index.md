@@ -49,6 +49,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [AxisTimeUnit](../com.aspose.words/axistimeunit/) | Specifies the unit of time for axes. |
 | [BarcodeParameters](../com.aspose.words/barcodeparameters/) | Container class for barcode parameters to pass-through to BarcodeGenerator. |
 | [BaseWebExtensionCollection](../com.aspose.words/basewebextensioncollection/) | Base class for [TaskPaneCollection](../com.aspose.words/taskpanecollection/), [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection/), [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection/) and [WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection/) collections. |
+| [BaselineAlignment](../com.aspose.words/baselinealignment/) | Specifies fonts vertical position on a line. |
 | [BasicTextShaperCache](../com.aspose.words/basictextshapercache/) | Implements basic cache for [ITextShaper](../com.aspose.words/itextshaper/) instances. |
 | [BlockImportMode](../com.aspose.words/blockimportmode/) | Specifies how properties of block-level elements are imported from HTML-based documents. |
 | [Body](../com.aspose.words/body/) | Represents a container for the main text of a section. |
@@ -80,6 +81,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Chart](../com.aspose.words/chart/) | Provides access to the chart shape properties. |
 | [ChartAxis](../com.aspose.words/chartaxis/) | Represents the axis options of the chart. |
 | [ChartAxisCollection](../com.aspose.words/chartaxiscollection/) | Represents a collection of chart axes. |
+| [ChartAxisTitle](../com.aspose.words/chartaxistitle/) | Provides access to the axis title properties. |
 | [ChartAxisType](../com.aspose.words/chartaxistype/) | Specifies type of chart axis. |
 | [ChartDataLabel](../com.aspose.words/chartdatalabel/) | Represents data label on a chart point or trendline. |
 | [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](../com.aspose.words/chartdatalabel/). |

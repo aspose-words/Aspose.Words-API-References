@@ -4,7 +4,7 @@ linktitle: FieldAuthor
 second_title: Aspose.Words for Java
 description: Implements the AUTHOR field in Java.
 type: docs
-weight: 169
+weight: 171
 url: /java/com.aspose.words/fieldauthor/
 ---
 

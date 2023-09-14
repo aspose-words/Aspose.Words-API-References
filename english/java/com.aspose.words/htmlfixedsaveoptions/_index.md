@@ -4,7 +4,7 @@ linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML_FIXED format in Java.
 type: docs
-weight: 339
+weight: 341
 url: /java/com.aspose.words/htmlfixedsaveoptions/
 ---
 
@@ -979,7 +979,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 
@@ -3190,7 +3190,7 @@ Shows added a fallback to bitmap rendering and changing type of warnings about u
      doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
      Assert.assertEquals(1, callback.mWarnings.getCount());
-     Assert.assertEquals("'R2_XORPEN' binary raster operation is partly supported.",
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
              callback.mWarnings.get(0).getDescription());
  }
 

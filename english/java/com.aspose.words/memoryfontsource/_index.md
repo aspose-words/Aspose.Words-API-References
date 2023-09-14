@@ -4,7 +4,7 @@ linktitle: MemoryFontSource
 second_title: Aspose.Words for Java
 description: Represents the single TrueType font file stored in memory in Java.
 type: docs
-weight: 410
+weight: 412
 url: /java/com.aspose.words/memoryfontsource/
 ---
 

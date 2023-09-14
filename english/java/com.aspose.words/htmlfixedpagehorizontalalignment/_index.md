@@ -4,7 +4,7 @@ linktitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for Java
 description: Specifies the horizontal alignment for pages in output HTML document in Java.
 type: docs
-weight: 338
+weight: 340
 url: /java/com.aspose.words/htmlfixedpagehorizontalalignment/
 ---
 

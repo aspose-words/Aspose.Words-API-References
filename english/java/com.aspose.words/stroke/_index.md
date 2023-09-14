@@ -4,7 +4,7 @@ linktitle: Stroke
 second_title: Aspose.Words for Java
 description: Defines a stroke for a shape in Java.
 type: docs
-weight: 555
+weight: 557
 url: /java/com.aspose.words/stroke/
 ---
 

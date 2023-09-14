@@ -4,7 +4,7 @@ linktitle: SdtType
 second_title: Aspose.Words for Java
 description: Specifies the type of a structured document tag SDT node in Java.
 type: docs
-weight: 532
+weight: 534
 url: /java/com.aspose.words/sdttype/
 ---
 
