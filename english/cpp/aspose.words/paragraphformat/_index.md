@@ -25,6 +25,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment for the paragraph. |
+| [get_BaselineAlignment](./get_baselinealignment/)() |  |
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a right-to-left paragraph. |
 | [get_Borders](./get_borders/)() | Gets collection of borders of the paragraph. |
 | [get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/)() | Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
@@ -67,6 +68,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [set_AddSpaceBetweenFarEastAndAlpha](./set_addspacebetweenfareastandalpha/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/). |
 | [set_AddSpaceBetweenFarEastAndDigit](./set_addspacebetweenfareastanddigit/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/). |
 | [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_Alignment](./get_alignment/). |
+| [set_BaselineAlignment](./set_baselinealignment/)(Aspose::Words::BaselineAlignment) |  |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_Bidi](./get_bidi/). |
 | [set_CharacterUnitFirstLineIndent](./set_characterunitfirstlineindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/). |
 | [set_CharacterUnitLeftIndent](./set_characterunitleftindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitLeftIndent](./get_characterunitleftindent/). |

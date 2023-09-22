@@ -24,7 +24,6 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [AppendChild](../compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_BackgroundShape](./get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_Document](./get_document/)() const override | Gets this instance. |

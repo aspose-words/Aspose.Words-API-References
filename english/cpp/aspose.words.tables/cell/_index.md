@@ -28,7 +28,6 @@ class Cell : public Aspose::Words::CompositeNode,
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [EnsureMinimum](./ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [get_CellFormat](./get_cellformat/)() | Provides access to the formatting properties of the cell. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |

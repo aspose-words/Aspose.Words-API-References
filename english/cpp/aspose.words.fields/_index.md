@@ -152,6 +152,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldDatabaseTableFormat](./fielddatabasetableformat/) | FieldDatabaseTableFormat enumeration. |
 | [FieldIfComparisonResult](./fieldifcomparisonresult/) | Specifies the result of the IF field condition evaluation. |
 | [FieldIndexFormat](./fieldindexformat/) | Specifies the formatting for the [FieldIndex](./fieldindex/) fields in a document. |
+| [FieldSwitchType](./fieldswitchtype/) | FieldSwitchType enumeration. |
 | [FieldType](./fieldtype/) | Specifies Microsoft Word field types. |
 | [FieldUpdateCultureSource](./fieldupdateculturesource/) | Indicates what culture to use during field update. |
 | [GeneralFormat](./generalformat/) | Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats. |

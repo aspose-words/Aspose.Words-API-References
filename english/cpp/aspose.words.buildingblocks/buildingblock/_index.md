@@ -26,7 +26,6 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_Behavior](./get_behavior/)() const | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
 | [get_Category](./get_category/)() const | Specifies the second-level categorization for the building block. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_Description](./get_description/)() const | Gets or sets the description associated with this building block. |

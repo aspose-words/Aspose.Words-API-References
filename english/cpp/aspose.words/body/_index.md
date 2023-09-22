@@ -27,7 +27,6 @@ class Body : public Aspose::Words::Story
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [DeleteShapes](../story/deleteshapes/)() | Deletes all shapes from the text of this story. |
 | [EnsureMinimum](./ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |

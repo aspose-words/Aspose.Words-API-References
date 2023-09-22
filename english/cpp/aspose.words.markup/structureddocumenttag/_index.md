@@ -33,7 +33,6 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [get_BuildingBlockGallery](./get_buildingblockgallery/)() | Specifies type of building block for this **SDT**. Can not be **null**. |
 | [get_CalendarType](./get_calendartype/)() | Specifies the type of calendar for this **SDT**. Default is [Default](../sdtcalendartype/) |
 | [get_Checked](./get_checked/)() | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is **false**. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_ContentsFont](./get_contentsfont/)() | [Font](../../aspose.words/font/) formatting that will be applied to text entered into **SDT**. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |

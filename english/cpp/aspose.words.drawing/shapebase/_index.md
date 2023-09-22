@@ -39,7 +39,6 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_BoundsInPoints](./get_boundsinpoints/)() | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [get_BoundsWithEffects](./get_boundswitheffects/)() | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
 | [get_CanHaveImage](./get_canhaveimage/)() | Returns **true** if the shape type allows the shape to have an image. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_CoordOrigin](./get_coordorigin/)() | The coordinates at the top-left corner of the containing block of this shape. |
 | [get_CoordSize](./get_coordsize/)() | The width and height of the coordinate space inside the containing block of this shape. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |

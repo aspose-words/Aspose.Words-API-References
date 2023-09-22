@@ -27,7 +27,6 @@ class Row : public Aspose::Words::CompositeNode,
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [EnsureMinimum](./ensureminimum/)() | If the [Row](./) has no cells, creates and appends one [Cell](../cell/). |
 | [get_Cells](./get_cells/)() | Provides typed access to the [Cell](../cell/) child nodes of the row. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
