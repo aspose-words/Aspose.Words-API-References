@@ -25,7 +25,6 @@ class Story : public Aspose::Words::CompositeNode
 | [AppendParagraph](./appendparagraph/)(const System::String\&) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [DeleteShapes](./deleteshapes/)() | Deletes all shapes from the text of this story. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |

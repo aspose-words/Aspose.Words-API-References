@@ -37,7 +37,6 @@ class Table : public Aspose::Words::CompositeNode
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a right-to-left table. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of cells. |
 | [get_CellSpacing](./get_cellspacing/)() | Gets or sets the amount of space (in points) between the cells. |
-| [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_Description](./get_description/)() | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |

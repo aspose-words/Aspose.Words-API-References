@@ -25,7 +25,6 @@ class InlineStory : public Aspose::Words::CompositeNode,
 | [AppendChild](../compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [EnsureMinimum](./ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
