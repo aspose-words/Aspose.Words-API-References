@@ -39,6 +39,19 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
+Shows how to create simple document.
+
+```csharp
+Document doc = new Document();
+
+// New Document objects by default come with the minimal set of nodes
+// required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+doc.AppendChild(new Section(doc))
+    .AppendChild(new Body(doc))
+    .AppendChild(new Paragraph(doc))
+    .AppendChild(new Run(doc, "Hello world!"));
+```
+
 Shows how to create and load documents.
 
 ```csharp

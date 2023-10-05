@@ -73,13 +73,13 @@ Assert.AreEqual(167, rectangleFOut.Y);
 
 // The effects have also affected the visible dimensions of the shape.
 Assert.AreEqual(1045, rectangleFOut.Width);
-Assert.AreEqual(1132, rectangleFOut.Height);
+Assert.AreEqual(1133.5, rectangleFOut.Height);
 
 // The effects have also affected the visible bounds of the shape.
 Assert.AreEqual(-28.5, shape.BoundsWithEffects.X);
 Assert.AreEqual(-33, shape.BoundsWithEffects.Y);
 Assert.AreEqual(192, shape.BoundsWithEffects.Width);
-Assert.AreEqual(279, shape.BoundsWithEffects.Height);
+Assert.AreEqual(280.5, shape.BoundsWithEffects.Height);
 ```
 
 ### See Also

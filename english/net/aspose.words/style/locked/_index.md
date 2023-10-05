@@ -16,6 +16,20 @@ Specifies whether this style is locked.
 public bool Locked { get; set; }
 ```
 
+## Examples
+
+Shows how to lock style.
+
+```csharp
+Document doc = new Document();
+
+Style styleHeading1 = doc.Styles[StyleIdentifier.Heading1];
+if (!styleHeading1.Locked)            
+    styleHeading1.Locked = true;
+
+doc.Save(ArtifactsDir + "Styles.LockStyle.docx");
+```
+
 ### See Also
 
 * class [Style](../)

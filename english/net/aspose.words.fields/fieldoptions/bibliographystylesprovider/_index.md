@@ -22,13 +22,14 @@ Shows how to override built-in styles or provide custom one.
 
 ```csharp
 public void ChangeBibliographyStyles()
-{            
+{
     Document doc = new Document(MyDir + "Bibliography.docx");
 
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 
     doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
 }
 
 public class BibliographyStylesProvider : IBibliographyStylesProvider

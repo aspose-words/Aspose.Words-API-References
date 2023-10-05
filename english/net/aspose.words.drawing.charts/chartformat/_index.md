@@ -23,7 +23,7 @@ public class ChartFormat
 | Name | Description |
 | --- | --- |
 | [Fill](../../aspose.words.drawing.charts/chartformat/fill/) { get; } | Gets fill formatting for the parent chart element. |
-| [IsDefined](../../aspose.words.drawing.charts/chartformat/isdefined/) { get; } |  |
+| [IsDefined](../../aspose.words.drawing.charts/chartformat/isdefined/) { get; } | Gets a flag indicating whether any format is defined. |
 | [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } | Gets or sets the shape type of the parent chart element. |
 | [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | Gets line formatting for the parent chart element. |
 
@@ -31,7 +31,7 @@ public class ChartFormat
 
 | Name | Description |
 | --- | --- |
-| [SetDefaultFill](../../aspose.words.drawing.charts/chartformat/setdefaultfill/)() |  |
+| [SetDefaultFill](../../aspose.words.drawing.charts/chartformat/setdefaultfill/)() | Resets the fill of the chart element to have the default value. |
 
 ### See Also
 

@@ -37,8 +37,8 @@ chart.Title.Text = "Monthly sales report";
 
 // Insert a custom chart series with months as categories for the X-axis,
 // and respective decimal amounts for the Y-axis.
-ChartSeries series = chart.Series.Add("Revenue", 
-    new[] { "January", "February", "March" }, 
+ChartSeries series = chart.Series.Add("Revenue",
+    new[] { "January", "February", "March" },
     new[] { 25.611d, 21.439d, 33.750d });
 
 // Enable data labels, and then apply a custom number format for values displayed in the data labels.
@@ -47,7 +47,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
-dataLabels.Font.Size = 12;            
+dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

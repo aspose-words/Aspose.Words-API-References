@@ -40,7 +40,7 @@ public sealed class Comment : InlineStory
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Gets the first paragraph in the story. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Provides access to the font formatting of the anchor character of this object. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
-| [Id](../../aspose.words/comment/id/) { get; set; } | Gets the comment identifier. |
+| [Id](../../aspose.words/comment/id/) { get; set; } | Gets or sets the comment identifier. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Returns or sets the initials of the user associated with a specific comment. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
@@ -52,7 +52,7 @@ public sealed class Comment : InlineStory
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words/comment/nodetype/) { get; } | Returns Comment. |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
-| [ParentId](../../aspose.words/comment/parentid/) { get; set; } |  |
+| [ParentId](../../aspose.words/comment/parentid/) { get; set; } | Gets or sets the parent comment ID. A value of `-1` means the comment has no parent. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |

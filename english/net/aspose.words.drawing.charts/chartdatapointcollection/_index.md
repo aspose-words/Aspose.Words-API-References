@@ -30,9 +30,9 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | Name | Description |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Clears format of all [`ChartDataPoint`](../chartdatapoint/) in this collection. |
-| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) |  |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | Copies format from the source data point to the destination data point. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returns an enumerator object. |
-| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) |  |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | Gets a flag indicating whether the data point at the specified index has default format. |
 
 ## Examples
 
@@ -53,7 +53,7 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Emphasize the chart's data points by making them appear as diamond shapes.
-    foreach (ChartSeries series in chart.Series) 
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Smooth out the line that represents the first data series.

@@ -16,6 +16,32 @@ Specifies either to detect hyperlinks in text. The default value is `false`.
 public bool DetectHyperlinks { get; set; }
 ```
 
+## Examples
+
+Shows how to read and display hyperlinks.
+
+```csharp
+const string inputText = "Some links in TXT:\n" +
+        "https://www.aspose.com/\n" +
+        "https://docs.aspose.com/words/net/\n";
+
+using (Stream stream = new MemoryStream())
+{
+    byte[] buf = Encoding.ASCII.GetBytes(inputText);
+    stream.Write(buf, 0, buf.Length);
+
+    // Load document with hyperlinks.
+    Document doc = new Document(stream, new TxtLoadOptions() { DetectHyperlinks = true });
+
+    // Print hyperlinks text.
+    foreach (Field field in doc.Range.Fields)
+        Console.WriteLine(field.Result);
+
+    Assert.AreEqual(doc.Range.Fields[0].Result.Trim(), "https://www.aspose.com/");
+    Assert.AreEqual(doc.Range.Fields[1].Result.Trim(), "https://docs.aspose.com/words/net/");
+}
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)
