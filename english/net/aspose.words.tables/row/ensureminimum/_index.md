@@ -5,7 +5,7 @@ articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET
 description: Row EnsureMinimum method. If the Row has no cells creates and appends one Cell in C#.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method

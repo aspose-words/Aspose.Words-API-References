@@ -5,7 +5,7 @@ articleTitle: Overlay
 second_title: Aspose.Words for .NET
 description: ChartAxisTitle Overlay property. Determines whether other chart elements shall be allowed to overlap the title. The default value is false in C#.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property

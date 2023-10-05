@@ -5,7 +5,7 @@ articleTitle: TwoColorGradient
 second_title: Aspose.Words for .NET
 description: Fill TwoColorGradient method. Sets the specified fill to a twocolor gradient in C#.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}

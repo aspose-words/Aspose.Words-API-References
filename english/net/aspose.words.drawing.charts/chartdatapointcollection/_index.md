@@ -30,7 +30,9 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | Name | Description |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Clears format of all [`ChartDataPoint`](../chartdatapoint/) in this collection. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returns an enumerator object. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) |  |
 
 ## Examples
 

@@ -5,7 +5,7 @@ articleTitle: GetBuildingBlock
 second_title: Aspose.Words for .NET
 description: GlossaryDocument GetBuildingBlock method. Finds a building block using the specified gallery category and name in C#.
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method

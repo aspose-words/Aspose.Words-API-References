@@ -45,6 +45,7 @@ public class ImageData
 
 | Name | Description |
 | --- | --- |
+| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
 | [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Saves the image into the specified stream. |
 | [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Saves the image into a file. |
 | [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Sets the image that the shape displays. |

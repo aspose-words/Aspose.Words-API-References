@@ -68,6 +68,7 @@ public class DocumentBuilder
 | [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox/)(*string, string[], int*) | Inserts a combobox form field at the current position. |
 | [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)(*[Document](../document/), [ImportFormatMode](../importformatmode/)*) | Inserts a document at the cursor position. |
 | [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)(*[Document](../document/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Inserts a document at the cursor position. |
+| [InsertDocumentInline](../../aspose.words/documentbuilder/insertdocumentinline/)(*[Document](../document/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) |  |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(*string*) | Inserts a Word field into a document and updates the field result. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | Inserts a Word field into a document and optionally updates the field result. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(*string, string*) | Inserts a Word field into a document without updating the field result. |

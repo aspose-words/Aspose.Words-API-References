@@ -5,7 +5,7 @@ articleTitle: Print
 second_title: Aspose.Words for .NET
 description: Document Print method. Prints the whole document to the default printer in C#.
 type: docs
-weight: 640
+weight: 660
 url: /net/aspose.words/document/print/
 ---
 ## Print() {#print}

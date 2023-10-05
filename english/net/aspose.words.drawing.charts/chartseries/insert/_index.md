@@ -5,7 +5,7 @@ articleTitle: Insert
 second_title: Aspose.Words for .NET
 description: ChartSeries Insert method. Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes they will be empty for the X value in C#.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.drawing.charts/chartseries/insert/
 ---
 ## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}

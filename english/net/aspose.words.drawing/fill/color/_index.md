@@ -5,7 +5,7 @@ articleTitle: Color
 second_title: Aspose.Words for .NET
 description: Fill Color property. Gets or sets a Color object that represents the foreground color for the fill in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property

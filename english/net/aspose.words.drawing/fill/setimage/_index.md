@@ -5,7 +5,7 @@ articleTitle: SetImage
 second_title: Aspose.Words for .NET
 description: Fill SetImage method. Changes the fill type to single image in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(*string*) {#setimage_2}

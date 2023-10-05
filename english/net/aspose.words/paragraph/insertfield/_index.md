@@ -5,7 +5,7 @@ articleTitle: InsertField
 second_title: Aspose.Words for .NET
 description: Paragraph InsertField method. Inserts a field into this paragraph in C#.
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}

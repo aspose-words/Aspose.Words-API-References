@@ -66,7 +66,9 @@ public class Paragraph : CompositeNode
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Adds the specified node to the end of the list of child nodes for this node. |
+| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) |  |
 | [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | Appends a field to this paragraph. |
 | [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | Appends a field to this paragraph. |
 | [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | Appends a field to this paragraph. |
@@ -80,18 +82,18 @@ public class Paragraph : CompositeNode
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Provides support for the for each style iteration over the child nodes of this node. |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | Gets the text of this paragraph including the end of paragraph character. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately before the specified reference node. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) |  |
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | Inserts a field into this paragraph. |
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | Inserts a field into this paragraph. |
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | Inserts a field into this paragraph. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | Joins runs with the same formatting in the paragraph. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Removes the specified child node. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) |  |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selects the first [`Node`](../node/) that matches the XPath expression. |
@@ -109,53 +111,6 @@ The complete list of child nodes that can occur inside a paragraph consists of [
 A valid paragraph in Microsoft Word always ends with a paragraph break character and a minimal valid paragraph consists just of a paragraph break. The `Paragraph` class automatically appends the appropriate paragraph break character at the end and this character is not part of the child nodes of the `Paragraph`, therefore a `Paragraph` can be empty.
 
 Do not include the end of paragraph [`ParagraphBreak`](../controlchar/paragraphbreak/) or end of cell [`Cell`](../controlchar/cell/) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
-
-## Examples
-
-Shows how to construct an Aspose.Words document by hand.
-
-```csharp
-Document doc = new Document();
-
-// A blank document contains one section, one body and one paragraph.
-// Call the "RemoveAllChildren" method to remove all those nodes,
-// and end up with a document node with no children.
-doc.RemoveAllChildren();
-
-// This document now has no composite child nodes that we can add content to.
-// If we wish to edit it, we will need to repopulate its node collection.
-// First, create a new section, and then append it as a child to the root document node.
-Section section = new Section(doc);
-doc.AppendChild(section);
-
-// Set some page setup properties for the section.
-section.PageSetup.SectionStart = SectionStart.NewPage;
-section.PageSetup.PaperSize = PaperSize.Letter;
-
-// A section needs a body, which will contain and display all its contents
-// on the page between the section's header and footer.
-Body body = new Body(doc);
-section.AppendChild(body);
-
-// Create a paragraph, set some formatting properties, and then append it as a child to the body.
-Paragraph para = new Paragraph(doc);
-
-para.ParagraphFormat.StyleName = "Heading 1";
-para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-body.AppendChild(para);
-
-// Finally, add some content to do the document. Create a run,
-// set its appearance and contents, and then append it as a child to the paragraph.
-Run run = new Run(doc);
-run.Text = "Hello World!";
-run.Font.Color = Color.Red;
-para.AppendChild(run);
-
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
-
-doc.Save(ArtifactsDir + "Section.CreateManually.docx");
-```
 
 ### See Also
 

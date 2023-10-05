@@ -5,7 +5,7 @@ articleTitle: InsertFootnote
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertFootnote method. Inserts a footnote or endnote into the document in C#.
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}

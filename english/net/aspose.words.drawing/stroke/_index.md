@@ -23,6 +23,7 @@ public class Stroke
 | Name | Description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Gets or sets the background color of the stroke. |
+| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } | Gets the base foreground color of the stroke without any modifiers. |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Defines the color of a stroke. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Defines a second color for a stroke. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Specifies the dot and dash pattern for a stroke. |

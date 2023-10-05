@@ -13,7 +13,7 @@ url: /net/aspose.words/comment/id/
 Gets the comment identifier.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ## Remarks

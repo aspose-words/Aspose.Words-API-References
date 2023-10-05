@@ -5,7 +5,7 @@ articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
 description: ChartDataPointCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method

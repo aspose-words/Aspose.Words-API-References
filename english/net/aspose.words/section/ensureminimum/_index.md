@@ -5,7 +5,7 @@ articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET
 description: Section EnsureMinimum method. Ensures that the section has Body with one Paragraph in C#.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method

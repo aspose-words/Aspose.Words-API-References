@@ -5,7 +5,7 @@ articleTitle: Save
 second_title: Aspose.Words for .NET
 description: ImageData Save method. Saves the image into the specified stream in C#.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}

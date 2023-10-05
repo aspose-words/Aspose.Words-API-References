@@ -5,7 +5,7 @@ articleTitle: RightPadding
 second_title: Aspose.Words for .NET
 description: CellFormat RightPadding property. Returns or sets the amount of space in points to add to the right of the contents of cell in C#.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property

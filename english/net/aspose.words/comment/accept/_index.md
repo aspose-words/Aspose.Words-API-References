@@ -5,7 +5,7 @@ articleTitle: Accept
 second_title: Aspose.Words for .NET
 description: Comment Accept method. Accepts a visitor in C#.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
