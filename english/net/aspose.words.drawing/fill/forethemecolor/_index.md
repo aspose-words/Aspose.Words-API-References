@@ -5,7 +5,7 @@ articleTitle: ForeThemeColor
 second_title: Aspose.Words for .NET
 description: Fill ForeThemeColor property. Gets or sets a ThemeColor object that represents the foreground color for the fill in C#.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property

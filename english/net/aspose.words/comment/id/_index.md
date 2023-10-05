@@ -3,17 +3,17 @@ title: Comment.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words for .NET
-description: Comment Id property. Gets the comment identifier in C#.
+description: Comment Id property. Gets or sets the comment identifier in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/comment/id/
 ---
 ## Comment.Id property
 
-Gets the comment identifier.
+Gets or sets the comment identifier.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ## Remarks

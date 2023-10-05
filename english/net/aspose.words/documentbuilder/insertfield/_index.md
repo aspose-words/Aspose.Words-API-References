@@ -5,7 +5,7 @@ articleTitle: InsertField
 second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertField method. Inserts a Word field into a document and optionally updates the field result in C#.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}

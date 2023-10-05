@@ -5,7 +5,7 @@ articleTitle: SelectSingleNode
 second_title: Aspose.Words for .NET
 description: CompositeNode SelectSingleNode method. Selects the first Node that matches the XPath expression in C#.
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method

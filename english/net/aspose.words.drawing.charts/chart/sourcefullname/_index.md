@@ -23,7 +23,7 @@ Shows how to get/set the full name of the external xls/xlsx document if the char
 ```csharp
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
 
-Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);            
 
 var sourceFullName = shape.Chart.SourceFullName;
 Assert.True(sourceFullName.Contains("Examples\\Data\\Spreadsheet.xlsx"));

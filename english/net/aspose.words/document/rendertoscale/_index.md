@@ -5,7 +5,7 @@ articleTitle: RenderToScale
 second_title: Aspose.Words for .NET
 description: Document RenderToScale method. Renders a document page into a Graphics object to a specified scale in C#.
 type: docs
-weight: 680
+weight: 700
 url: /net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method

@@ -5,7 +5,7 @@ articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET
 description: ChartDataPointCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -35,7 +35,7 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Emphasize the chart's data points by making them appear as diamond shapes.
-    foreach (ChartSeries series in chart.Series) 
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Smooth out the line that represents the first data series.

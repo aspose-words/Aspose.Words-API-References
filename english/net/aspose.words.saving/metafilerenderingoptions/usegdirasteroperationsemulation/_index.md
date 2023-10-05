@@ -36,7 +36,7 @@ Shows how to set the rendering mode when saving documents with Windows Metafile 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(Image.FromFile(ImageDir + "Windows MetaFile.wmf"));
+builder.InsertImage(ImageDir + "Windows MetaFile.wmf");
 
 // When we save the document as an image, we can pass a SaveOptions object to
 // determine how the saving operation will process Windows Metafiles in the document.

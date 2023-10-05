@@ -47,6 +47,7 @@ public class ChartSeries : IChartDataPoint
 | [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Adds the specified X value, Y value and bubble size to the chart series. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Removes all data values from the chart series. Format of all individual data points and data labels is cleared. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Removes all data values from the chart series with preserving the format of the data points and data labels. |
+| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(*int*) | Copies default data point format from the data point with the specified index. |
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |

@@ -5,7 +5,7 @@ articleTitle: GetChild
 second_title: Aspose.Words for .NET
 description: CompositeNode GetChild method. Returns an Nth child node that matches the specified type in C#.
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method

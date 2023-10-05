@@ -37,7 +37,7 @@ chart.Series.Clear();
 // Add a custom series to the chart with categories for the X-axis,
 // and large respective numeric values for the Y-axis. 
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
 // Set the number format of the Y-axis tick labels to not group digits with commas. 

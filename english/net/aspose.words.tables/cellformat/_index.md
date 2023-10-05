@@ -25,6 +25,7 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Gets collection of borders of the cell. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returns or sets the amount of space (in points) to add below the contents of cell. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | If `true`, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } | Returns or sets visibility of cell mark. |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Specifies how the cell is merged horizontally with other cells in the row. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returns or sets the orientation of text in a table cell. |

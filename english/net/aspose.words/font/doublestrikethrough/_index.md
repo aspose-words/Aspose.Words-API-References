@@ -28,7 +28,7 @@ Run run = new Run(doc, "Text with a single-line strikethrough.");
 run.Font.StrikeThrough = true;
 para.AppendChild(run);
 
-para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
+para = para.ParentNode.AppendChild(new Paragraph(doc));
 
 run = new Run(doc, "Text with a double-line strikethrough.");
 run.Font.DoubleStrikeThrough = true;

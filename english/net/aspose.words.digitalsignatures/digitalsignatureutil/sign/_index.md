@@ -12,7 +12,7 @@ url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination stream.
 
-Document should be either Doc or Docx.
+Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
@@ -68,7 +68,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination file.
 
-Document should be either Doc or Docx.
+Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -209,7 +209,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination stream.
 
-Document should be either Doc or Docx.
+Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
@@ -276,7 +276,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination file.
 
-Document should be either Doc or Docx.
+Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)

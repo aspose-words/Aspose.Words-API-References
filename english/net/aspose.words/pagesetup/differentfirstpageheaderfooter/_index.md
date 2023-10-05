@@ -89,50 +89,43 @@ Shows how to track the order in which a text replacement operation traverses nod
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
 
-            Section firstPageSection = doc.FirstSection;
+    Section firstPageSection = doc.FirstSection;
 
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
 
-            // Using a different header/footer for the first page will affect the search order.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
+    // Using a different header/footer for the first page will affect the search order.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
 
-        /// <summary>
-        /// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
-        /// in the state it is in before the replacement takes place.
-        /// This will display the order in which the text replacement operation traverses nodes.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
+/// <summary>
+/// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
+/// in the state it is in before the replacement takes place.
+/// This will display the order in which the text replacement operation traverses nodes.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
 
-            internal string Text => mTextBuilder.ToString();
+    internal string Text => mTextBuilder.ToString();
 
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
 ```
 
 ### See Also

@@ -26,205 +26,205 @@ public enum ShapeType
 | OleObject | `-2` | The shape is an OLE object. |
 | OleControl | `201` | The shape is an ActiveX control. |
 | NonPrimitive | `0` | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). |
-| Rectangle | `1` |  |
-| RoundRectangle | `2` |  |
-| Ellipse | `3` |  |
-| Diamond | `4` |  |
-| Triangle | `5` |  |
-| RightTriangle | `6` |  |
-| Parallelogram | `7` |  |
-| Trapezoid | `8` |  |
-| Hexagon | `9` |  |
-| Octagon | `10` |  |
-| Plus | `11` |  |
-| Star | `12` |  |
-| Arrow | `13` |  |
-| ThickArrow | `14` |  |
-| HomePlate | `15` |  |
-| Cube | `16` |  |
-| Balloon | `17` |  |
-| Seal | `18` |  |
-| Arc | `19` |  |
-| Line | `20` |  |
-| Plaque | `21` |  |
-| Can | `22` |  |
-| Donut | `23` |  |
-| TextSimple | `24` |  |
-| TextOctagon | `25` |  |
-| TextHexagon | `26` |  |
-| TextCurve | `27` |  |
-| TextWave | `28` |  |
-| TextRing | `29` |  |
-| TextOnCurve | `30` |  |
-| TextOnRing | `31` |  |
-| StraightConnector1 | `32` |  |
-| BentConnector2 | `33` |  |
-| BentConnector3 | `34` |  |
-| BentConnector4 | `35` |  |
-| BentConnector5 | `36` |  |
-| CurvedConnector2 | `37` |  |
-| CurvedConnector3 | `38` |  |
-| CurvedConnector4 | `39` |  |
-| CurvedConnector5 | `40` |  |
-| Callout1 | `41` |  |
-| Callout2 | `42` |  |
-| Callout3 | `43` |  |
-| AccentCallout1 | `44` |  |
-| AccentCallout2 | `45` |  |
-| AccentCallout3 | `46` |  |
-| BorderCallout1 | `47` |  |
-| BorderCallout2 | `48` |  |
-| BorderCallout3 | `49` |  |
-| AccentBorderCallout1 | `50` |  |
-| AccentBorderCallout2 | `51` |  |
-| AccentBorderCallout3 | `52` |  |
-| Ribbon | `53` |  |
-| Ribbon2 | `54` |  |
-| Chevron | `55` |  |
-| Pentagon | `56` |  |
-| NoSmoking | `57` |  |
-| Seal8 | `58` |  |
-| Seal16 | `59` |  |
-| Seal32 | `60` |  |
-| WedgeRectCallout | `61` |  |
-| WedgeRRectCallout | `62` |  |
-| WedgeEllipseCallout | `63` |  |
-| Wave | `64` |  |
-| FoldedCorner | `65` |  |
-| LeftArrow | `66` |  |
-| DownArrow | `67` |  |
-| UpArrow | `68` |  |
-| LeftRightArrow | `69` |  |
-| UpDownArrow | `70` |  |
-| IrregularSeal1 | `71` |  |
-| IrregularSeal2 | `72` |  |
-| LightningBolt | `73` |  |
-| Heart | `74` |  |
-| QuadArrow | `76` |  |
-| LeftArrowCallout | `77` |  |
-| RightArrowCallout | `78` |  |
-| UpArrowCallout | `79` |  |
-| DownArrowCallout | `80` |  |
-| LeftRightArrowCallout | `81` |  |
-| UpDownArrowCallout | `82` |  |
-| QuadArrowCallout | `83` |  |
-| Bevel | `84` |  |
-| LeftBracket | `85` |  |
-| RightBracket | `86` |  |
-| LeftBrace | `87` |  |
-| RightBrace | `88` |  |
-| LeftUpArrow | `89` |  |
-| BentUpArrow | `90` |  |
-| BentArrow | `91` |  |
-| Seal24 | `92` |  |
-| StripedRightArrow | `93` |  |
-| NotchedRightArrow | `94` |  |
-| BlockArc | `95` |  |
-| SmileyFace | `96` |  |
-| VerticalScroll | `97` |  |
-| HorizontalScroll | `98` |  |
-| CircularArrow | `99` |  |
+| Rectangle | `1` | Rectangle. |
+| RoundRectangle | `2` | Round rectangle. |
+| Ellipse | `3` | Ellipse. |
+| Diamond | `4` | Diamond. |
+| Triangle | `5` | Triangle. |
+| RightTriangle | `6` | Right triangle. |
+| Parallelogram | `7` | Parallelogram. |
+| Trapezoid | `8` | Trapezoid. |
+| Hexagon | `9` | Hexagon. |
+| Octagon | `10` | Octagon. |
+| Plus | `11` | Plus. |
+| Star | `12` | Star. |
+| Arrow | `13` | Arrow. |
+| ThickArrow | `14` | Thick arrow. |
+| HomePlate | `15` | Home plate. |
+| Cube | `16` | Cube. |
+| Balloon | `17` | Balloon. |
+| Seal | `18` | Seal. |
+| Arc | `19` | Arc. |
+| Line | `20` | Line. |
+| Plaque | `21` | Plaque. |
+| Can | `22` | Can. |
+| Donut | `23` | Donut. |
+| TextSimple | `24` | Text simple. |
+| TextOctagon | `25` | Text octagon. |
+| TextHexagon | `26` | Text hexagon. |
+| TextCurve | `27` | Text curve. |
+| TextWave | `28` | Text wave. |
+| TextRing | `29` | Text ring. |
+| TextOnCurve | `30` | Text on curve. |
+| TextOnRing | `31` | Text on ring. |
+| StraightConnector1 | `32` | A straight connector shape. |
+| BentConnector2 | `33` | A bent connector shape with two segments. |
+| BentConnector3 | `34` | A bent connector shape with three segments. |
+| BentConnector4 | `35` | A bent connector shape with four segments. |
+| BentConnector5 | `36` | A bent connector shape with five segments. |
+| CurvedConnector2 | `37` | A curved connector shape with two segments. |
+| CurvedConnector3 | `38` | A curved connector shape with three segments. |
+| CurvedConnector4 | `39` | A curved connector shape with four segments. |
+| CurvedConnector5 | `40` | A curved connector shape with five segments. |
+| Callout1 | `41` | A callout shape with one arrow. |
+| Callout2 | `42` | A callout shape with two arrows. |
+| Callout3 | `43` | A callout shape with three arrows. |
+| AccentCallout1 | `44` | An accent callout shape with one arrow. |
+| AccentCallout2 | `45` | An accent callout shape with two arrows. |
+| AccentCallout3 | `46` | An accent callout shape with three arrows. |
+| BorderCallout1 | `47` | Border callout 1. |
+| BorderCallout2 | `48` | Border callout 2. |
+| BorderCallout3 | `49` | Border callout 3. |
+| AccentBorderCallout1 | `50` | Accent border callout 1. |
+| AccentBorderCallout2 | `51` | Accent border callout 2. |
+| AccentBorderCallout3 | `52` | Accent border callout 3. |
+| Ribbon | `53` | Ribbon. |
+| Ribbon2 | `54` | Ribbon 2. |
+| Chevron | `55` | Chevron. |
+| Pentagon | `56` | Pentagon. |
+| NoSmoking | `57` | NoSmoking. |
+| Seal8 | `58` | Eight-pointed star. |
+| Seal16 | `59` | 16-pointed star. |
+| Seal32 | `60` | 32-pointed star. |
+| WedgeRectCallout | `61` | Wedge rect callout. |
+| WedgeRRectCallout | `62` | Wedge R rect callout. |
+| WedgeEllipseCallout | `63` | Wedge ellipse callout. |
+| Wave | `64` | Wave. |
+| FoldedCorner | `65` | Folded corner. |
+| LeftArrow | `66` | Left arrow. |
+| DownArrow | `67` | Down arrow. |
+| UpArrow | `68` | Up arrow. |
+| LeftRightArrow | `69` | Left right arrow. |
+| UpDownArrow | `70` | Up down arrow. |
+| IrregularSeal1 | `71` | Irregular seal 1. |
+| IrregularSeal2 | `72` | Irregular seal 2. |
+| LightningBolt | `73` | Lightning bolt. |
+| Heart | `74` | Heart. |
+| QuadArrow | `76` | Quad arrow. |
+| LeftArrowCallout | `77` | Left arrow callout. |
+| RightArrowCallout | `78` | Right arrow callout |
+| UpArrowCallout | `79` | Up arrow callout. |
+| DownArrowCallout | `80` | Down arrow callout. |
+| LeftRightArrowCallout | `81` | Left right arrow callout. |
+| UpDownArrowCallout | `82` | Up down arrow callout. |
+| QuadArrowCallout | `83` | Quad arrow callout. |
+| Bevel | `84` | Bevel. |
+| LeftBracket | `85` | Left bracket. |
+| RightBracket | `86` | Right bracket. |
+| LeftBrace | `87` | Left brace. |
+| RightBrace | `88` | Right brace. |
+| LeftUpArrow | `89` | Left up arrow. |
+| BentUpArrow | `90` | Bent up arrow. |
+| BentArrow | `91` | Bent arrow. |
+| Seal24 | `92` | 24-pointed star. |
+| StripedRightArrow | `93` | Striped right arrow. |
+| NotchedRightArrow | `94` | Notched right arrow. |
+| BlockArc | `95` | Block arc. |
+| SmileyFace | `96` | Smiley face. |
+| VerticalScroll | `97` | Vertical scroll. |
+| HorizontalScroll | `98` | Horizontal scroll. |
+| CircularArrow | `99` | Circular arrow. |
 | CustomShape | `100` | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. For example, if you insert a new auto shape from ClipArt. |
-| UturnArrow | `101` |  |
-| CurvedRightArrow | `102` |  |
-| CurvedLeftArrow | `103` |  |
-| CurvedUpArrow | `104` |  |
-| CurvedDownArrow | `105` |  |
-| CloudCallout | `106` |  |
-| EllipseRibbon | `107` |  |
-| EllipseRibbon2 | `108` |  |
-| FlowChartProcess | `109` |  |
-| FlowChartDecision | `110` |  |
-| FlowChartInputOutput | `111` |  |
-| FlowChartPredefinedProcess | `112` |  |
-| FlowChartInternalStorage | `113` |  |
-| FlowChartDocument | `114` |  |
-| FlowChartMultidocument | `115` |  |
-| FlowChartTerminator | `116` |  |
-| FlowChartPreparation | `117` |  |
-| FlowChartManualInput | `118` |  |
-| FlowChartManualOperation | `119` |  |
-| FlowChartConnector | `120` |  |
-| FlowChartPunchedCard | `121` |  |
-| FlowChartPunchedTape | `122` |  |
-| FlowChartSummingJunction | `123` |  |
-| FlowChartOr | `124` |  |
-| FlowChartCollate | `125` |  |
-| FlowChartSort | `126` |  |
-| FlowChartExtract | `127` |  |
-| FlowChartMerge | `128` |  |
-| FlowChartOfflineStorage | `129` |  |
-| FlowChartOnlineStorage | `130` |  |
-| FlowChartMagneticTape | `131` |  |
-| FlowChartMagneticDisk | `132` |  |
-| FlowChartMagneticDrum | `133` |  |
-| FlowChartDisplay | `134` |  |
-| FlowChartDelay | `135` |  |
-| TextPlainText | `136` | WordArt object. |
-| TextStop | `137` | WordArt object. |
-| TextTriangle | `138` | WordArt object. |
-| TextTriangleInverted | `139` | WordArt object. |
-| TextChevron | `140` | WordArt object. |
-| TextChevronInverted | `141` | WordArt object. |
-| TextRingInside | `142` | WordArt object. |
-| TextRingOutside | `143` | WordArt object. |
-| TextArchUpCurve | `144` | WordArt object. |
-| TextArchDownCurve | `145` | WordArt object. |
-| TextCircleCurve | `146` | WordArt object. |
-| TextButtonCurve | `147` | WordArt object. |
-| TextArchUpPour | `148` | WordArt object. |
-| TextArchDownPour | `149` | WordArt object. |
-| TextCirclePour | `150` | WordArt object. |
-| TextButtonPour | `151` | WordArt object. |
-| TextCurveUp | `152` | WordArt object. |
-| TextCurveDown | `153` | WordArt object. |
-| TextCascadeUp | `154` | WordArt object. |
-| TextCascadeDown | `155` | WordArt object. |
-| TextWave1 | `156` | WordArt object. |
-| TextWave2 | `157` | WordArt object. |
-| TextWave3 | `158` | WordArt object. |
-| TextWave4 | `159` | WordArt object. |
-| TextInflate | `160` | WordArt object. |
-| TextDeflate | `161` | WordArt object. |
-| TextInflateBottom | `162` | WordArt object. |
-| TextDeflateBottom | `163` | WordArt object. |
-| TextInflateTop | `164` | WordArt object. |
-| TextDeflateTop | `165` | WordArt object. |
-| TextDeflateInflate | `166` | WordArt object. |
-| TextDeflateInflateDeflate | `167` | WordArt object. |
-| TextFadeRight | `168` | WordArt object. |
-| TextFadeLeft | `169` | WordArt object. |
-| TextFadeUp | `170` | WordArt object. |
-| TextFadeDown | `171` | WordArt object. |
-| TextSlantUp | `172` | WordArt object. |
-| TextSlantDown | `173` | WordArt object. |
-| TextCanUp | `174` | WordArt object. |
-| TextCanDown | `175` | WordArt object. |
-| FlowChartAlternateProcess | `176` |  |
-| FlowChartOffpageConnector | `177` |  |
-| Callout90 | `178` |  |
-| AccentCallout90 | `179` |  |
-| BorderCallout90 | `180` |  |
-| AccentBorderCallout90 | `181` |  |
-| LeftRightUpArrow | `182` |  |
-| Sun | `183` |  |
-| Moon | `184` |  |
-| BracketPair | `185` |  |
-| BracePair | `186` |  |
-| Seal4 | `187` |  |
-| DoubleWave | `188` |  |
-| ActionButtonBlank | `189` |  |
-| ActionButtonHome | `190` |  |
-| ActionButtonHelp | `191` |  |
-| ActionButtonInformation | `192` |  |
-| ActionButtonForwardNext | `193` |  |
-| ActionButtonBackPrevious | `194` |  |
-| ActionButtonEnd | `195` |  |
-| ActionButtonBeginning | `196` |  |
-| ActionButtonReturn | `197` |  |
-| ActionButtonDocument | `198` |  |
-| ActionButtonSound | `199` |  |
-| ActionButtonMovie | `200` |  |
+| UturnArrow | `101` | Uturn arrow. |
+| CurvedRightArrow | `102` | Curved right arrow. |
+| CurvedLeftArrow | `103` | Curved left arrow. |
+| CurvedUpArrow | `104` | Curved up arrow |
+| CurvedDownArrow | `105` | Curved down arrow. |
+| CloudCallout | `106` | Cloud callout. |
+| EllipseRibbon | `107` | Ellipse ribbon. |
+| EllipseRibbon2 | `108` | Ellipse ribbon 2. |
+| FlowChartProcess | `109` | Flow chart process. |
+| FlowChartDecision | `110` | Flow chart decision. |
+| FlowChartInputOutput | `111` | Flow chart input output. |
+| FlowChartPredefinedProcess | `112` | Flow chart predefined process |
+| FlowChartInternalStorage | `113` | Flow chart internal storage. |
+| FlowChartDocument | `114` | Flow chart document. |
+| FlowChartMultidocument | `115` | Flow chart multi document. |
+| FlowChartTerminator | `116` | Flow chart terminator. |
+| FlowChartPreparation | `117` | Flow chart preparation. |
+| FlowChartManualInput | `118` | Flow chart manual input. |
+| FlowChartManualOperation | `119` | Flow chart manual operation. |
+| FlowChartConnector | `120` | Flow chart connector. |
+| FlowChartPunchedCard | `121` | Flow chart punched card. |
+| FlowChartPunchedTape | `122` | Flow chart punched tape. |
+| FlowChartSummingJunction | `123` | Flow chart summing junction. |
+| FlowChartOr | `124` | Flow chart or. |
+| FlowChartCollate | `125` | Flow chart collate. |
+| FlowChartSort | `126` | Flow chart sort. |
+| FlowChartExtract | `127` | Flow chart extract. |
+| FlowChartMerge | `128` | Flow chart merge. |
+| FlowChartOfflineStorage | `129` | Flow chart off-line storage. |
+| FlowChartOnlineStorage | `130` | Flow chart on-line storage. |
+| FlowChartMagneticTape | `131` | Flow char magnetic tape. |
+| FlowChartMagneticDisk | `132` | Flow chart magnetic disk. |
+| FlowChartMagneticDrum | `133` | Flow chart magnetic drum. |
+| FlowChartDisplay | `134` | Flow chart display. |
+| FlowChartDelay | `135` | Flow chart delay. |
+| TextPlainText | `136` | Plain-text, WordArt object. |
+| TextStop | `137` | Stop, WordArt object. |
+| TextTriangle | `138` | Triangle, WordArt object. |
+| TextTriangleInverted | `139` | Triangle inverted, WordArt object. |
+| TextChevron | `140` | Chevron, WordArt object. |
+| TextChevronInverted | `141` | Chevron inverted, WordArt object. |
+| TextRingInside | `142` | Ring inside, WordArt object. |
+| TextRingOutside | `143` | Ring outside, WordArt object. |
+| TextArchUpCurve | `144` | Arch up curve, WordArt object. |
+| TextArchDownCurve | `145` | Arch down curve, WordArt object. |
+| TextCircleCurve | `146` | Circle curve, WordArt object. |
+| TextButtonCurve | `147` | Button curve, WordArt object. |
+| TextArchUpPour | `148` | Arch up pour, WordArt object. |
+| TextArchDownPour | `149` | Arch down pour, WordArt object. |
+| TextCirclePour | `150` | Circle pour, WordArt object. |
+| TextButtonPour | `151` | Button pour, WordArt object. |
+| TextCurveUp | `152` | Curve up, WordArt object. |
+| TextCurveDown | `153` | Curve down, WordArt object. |
+| TextCascadeUp | `154` | Cascade up, WordArt object. |
+| TextCascadeDown | `155` | Cascade down, WordArt object. |
+| TextWave1 | `156` | Wave 1, WordArt object. |
+| TextWave2 | `157` | Wave 2, WordArt object. |
+| TextWave3 | `158` | Wave 3, WordArt object. |
+| TextWave4 | `159` | Wave 4, WordArt object. |
+| TextInflate | `160` | Inflate, WordArt object. |
+| TextDeflate | `161` | Deflate, WordArt object. |
+| TextInflateBottom | `162` | Inflate bottom, WordArt object. |
+| TextDeflateBottom | `163` | Deflate bottom, WordArt object. |
+| TextInflateTop | `164` | Inflate top, WordArt object. |
+| TextDeflateTop | `165` | Deflate top, WordArt object. |
+| TextDeflateInflate | `166` | Deflate inflate, WordArt object. |
+| TextDeflateInflateDeflate | `167` | Deflate inflate deflate, WordArt object. |
+| TextFadeRight | `168` | Fade right, WordArt object. |
+| TextFadeLeft | `169` | Fade left, WordArt object. |
+| TextFadeUp | `170` | Fade up, WordArt object. |
+| TextFadeDown | `171` | Fade down, WordArt object. |
+| TextSlantUp | `172` | Slant up, WordArt object. |
+| TextSlantDown | `173` | Slant down, WordArt object. |
+| TextCanUp | `174` | Can up, WordArt object. |
+| TextCanDown | `175` | Can down, WordArt object. |
+| FlowChartAlternateProcess | `176` | Flow chart alternate process. |
+| FlowChartOffpageConnector | `177` | Flow chart off page connector. |
+| Callout90 | `178` | Callout 90. |
+| AccentCallout90 | `179` | Accent callout 90. |
+| BorderCallout90 | `180` | Border callout 90. |
+| AccentBorderCallout90 | `181` | Accent border callout 90. |
+| LeftRightUpArrow | `182` | Left right up arrow. |
+| Sun | `183` | Sun. |
+| Moon | `184` | Moon. |
+| BracketPair | `185` | Bracket pair. |
+| BracePair | `186` | Brace pair |
+| Seal4 | `187` | Four-pointed star. |
+| DoubleWave | `188` | Double wave. |
+| ActionButtonBlank | `189` | Action button blank. |
+| ActionButtonHome | `190` | Action button home. |
+| ActionButtonHelp | `191` | Action button help. |
+| ActionButtonInformation | `192` | Action button information. |
+| ActionButtonForwardNext | `193` | Action button forward next. |
+| ActionButtonBackPrevious | `194` | Action button back previous. |
+| ActionButtonEnd | `195` | Action button end. |
+| ActionButtonBeginning | `196` | Action button beginning. |
+| ActionButtonReturn | `197` | Action button return. |
+| ActionButtonDocument | `198` | Action button document. |
+| ActionButtonSound | `199` | Action button sound. |
+| ActionButtonMovie | `200` | Action button movie. |
 | SingleCornerSnipped | `203` | Snip single corner rectangle object. |
 | TopCornersSnipped | `204` | Snip same side corner rectangle. |
 | DiagonalCornersSnipped | `205` | Snip diagonal corner rectangle. |

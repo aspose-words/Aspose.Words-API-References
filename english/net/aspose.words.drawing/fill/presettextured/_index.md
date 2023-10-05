@@ -5,7 +5,7 @@ articleTitle: PresetTextured
 second_title: Aspose.Words for .NET
 description: Fill PresetTextured method. Sets the fill to a preset texture in C#.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method

@@ -107,7 +107,9 @@ public class Document : DocumentBase
 | --- | --- |
 | override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Accepts all tracked changes in the document. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Adds the specified node to the end of the list of child nodes for this node. |
+| override [AcceptEnd](../../aspose.words/document/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| override [AcceptStart](../../aspose.words/document/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) |  |
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Appends the specified document to the end of this document. |
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Appends the specified document to the end of this document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Cleans unused styles and lists from the document. |
@@ -132,12 +134,12 @@ public class Document : DocumentBase
 | [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Imports a node from another document to the current document. |
 | [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Imports a node from another document to the current document with an option to control formatting. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately before the specified reference node. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) |  |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) of [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Print](../../aspose.words/document/print/#print)() | Prints the whole document to the default printer. |
 | [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller. |
@@ -147,7 +149,7 @@ public class Document : DocumentBase
 | [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Protects the document from changes and optionally sets a protection password. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Removes the specified child node. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) |  |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |

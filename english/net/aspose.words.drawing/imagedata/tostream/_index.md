@@ -5,7 +5,7 @@ articleTitle: ToStream
 second_title: Aspose.Words for .NET
 description: ImageData ToStream method. Creates and returns a stream that contains the image bytes in C#.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method

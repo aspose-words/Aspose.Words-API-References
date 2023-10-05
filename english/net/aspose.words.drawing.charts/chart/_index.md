@@ -46,6 +46,8 @@ Chart chart = chartShape.Chart;
 // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
 // Set the "Show" property to "true" to make the title visible. 
 title.Show = true;

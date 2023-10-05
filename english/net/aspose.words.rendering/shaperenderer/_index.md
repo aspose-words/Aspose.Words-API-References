@@ -22,7 +22,7 @@ public class ShapeRenderer : NodeRendererBase
 
 | Name | Description |
 | --- | --- |
-| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) | Initializes a new instance of this class. |
+| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) |  |
 
 ## Properties
 

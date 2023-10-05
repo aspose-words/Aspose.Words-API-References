@@ -5,7 +5,7 @@ articleTitle: GetEffectiveTabStops
 second_title: Aspose.Words for .NET
 description: Paragraph GetEffectiveTabStops method. Returns array of all tab stops applied to this paragraph including applied indirectly by styles or lists in C#.
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method

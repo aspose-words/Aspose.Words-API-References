@@ -32,8 +32,8 @@ chart.Series.Clear();
 
 // Add a series with two decimal arrays. The first array contains the X-values,
 // and the second contains corresponding Y-values for points in the scatter chart.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // By default, default scaling is applied to the graph's X and Y-axes,

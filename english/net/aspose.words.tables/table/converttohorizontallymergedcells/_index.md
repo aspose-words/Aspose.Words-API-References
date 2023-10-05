@@ -5,7 +5,7 @@ articleTitle: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words for .NET
 description: Table ConvertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by HorizontalMerge in C#.
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
