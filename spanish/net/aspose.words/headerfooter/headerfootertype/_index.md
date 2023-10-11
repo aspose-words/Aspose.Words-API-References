@@ -21,7 +21,7 @@ Muestra cómo crear un encabezado y un pie de página.
 ```csharp
 Document doc = new Document();
 
-// Crear un encabezado y agregarle un párrafo. El texto de ese párrafo
+// Crea un encabezado y añádele un párrafo. El texto de ese párrafo
 // aparecerá en la parte superior de cada página de esta sección, encima del texto del cuerpo principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);

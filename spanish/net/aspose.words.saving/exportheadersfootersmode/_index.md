@@ -3,7 +3,7 @@ title: Enum ExportHeadersFootersMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.ExportHeadersFootersMode enumeración. Especifica cómo se exportan los encabezados y pies de página a HTML MHTML o EPUB.
 type: docs
-weight: 4740
+weight: 5000
 url: /es/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
@@ -33,16 +33,16 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 // Este documento contiene encabezados y pies de página. Podemos acceder a ellos a través de la colección "HeadersFooters".
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// Los formatos como .html no dividen el documento en páginas, por lo que los encabezados/pies de página no funcionarán de la misma manera
+// Los formatos como .html no dividen el documento en páginas, por lo que los encabezados y pies de página no funcionarán de la misma manera
 // lo harían cuando abrimos el documento como .docx usando Microsoft Word.
-// Si convertimos un documento con encabezados/pies de página a html, la conversión asimilará los encabezados/pies de página en el cuerpo del texto.
-// Podemos usar un objeto SaveOptions para omitir encabezados/pies de página al convertir a html.
+// Si convertimos un documento con encabezados/pies de página a html, la conversión asimilará los encabezados/pies de página al cuerpo del texto.
+// Podemos usar un objeto SaveOptions para omitir encabezados/pies de página durante la conversión a html.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 
 doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 
-// Abrimos nuestro documento guardado y verificamos que no contenga el texto del encabezado
+//Abrimos nuestro documento guardado y verificamos que no contenga el texto del encabezado
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
 Assert.IsFalse(doc.Range.Text.Contains("First header"));

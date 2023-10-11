@@ -19,6 +19,7 @@ public string Replacement { get; set; }
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,10 +27,10 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establezca una devolución de llamada que realice un seguimiento de los reemplazos que realizará el método "Reemplazar".
+    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -43,7 +44,7 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado por una operación de buscar y reemplazar
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
 /// y anota el valor del texto coincidente original.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

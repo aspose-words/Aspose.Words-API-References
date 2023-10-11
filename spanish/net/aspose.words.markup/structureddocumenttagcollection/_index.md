@@ -3,12 +3,14 @@ title: Class StructuredDocumentTagCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Markup.StructuredDocumentTagCollection clase. Una colección deIStructuredDocumentTag instancias que representan las etiquetas de documentos estructurados en el rango especificado.
 type: docs
-weight: 3830
+weight: 4070
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
 Una colección de[`IStructuredDocumentTag`](../istructureddocumenttag/) instancias que representan las etiquetas de documentos estructurados en el rango especificado.
+
+Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>

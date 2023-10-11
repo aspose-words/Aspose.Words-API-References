@@ -3,7 +3,7 @@ title: Enum TextureIndex
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.TextureIndex enumeración. Especifica la textura de sombreado.
 type: docs
-weight: 6150
+weight: 6450
 url: /es/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -71,7 +71,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Especifica que no se utilizará ningún patrón en la región sombreada actual (es decir, el patrón será un relleno completo con el color de fondo). |
+| TextureNil | `65535` | Especifica que no se utilizará ningún patrón en la región sombreada actual (es decir, el patrón deberá ser un relleno completo con el color de fondo). |
 
 ### Ejemplos
 
@@ -103,10 +103,10 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla al centro de la página.
+// Alinea la tabla con el centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Limpia cualquier borde existente y sombreado de la tabla.
+// Borra los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 

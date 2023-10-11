@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter propiedad. Devoluciones NodeType.HeaderFooter .
+description: HeaderFooter propiedad. DevolucionesHeaderFooter .
 type: docs
 weight: 50
 url: /es/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-Devoluciones **NodeType.HeaderFooter** .
+DevolucionesHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Ejemplos
 
-Muestra cómo iterar a través de los elementos secundarios de un nodo compuesto.
+Muestra cómo iterar a través de los hijos de un nodo compuesto.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una Sección es un nodo compuesto y puede contener nodos secundarios,
-// pero solo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
+// Una sección es un nodo compuesto y puede contener nodos secundarios.
+// pero sólo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Referencia de API de Aspose.Words para .NET
-description: List propiedad. Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es falso .
+description: List propiedad. Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado esFALSO .
 type: docs
 weight: 50
 url: /es/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es **falso** .
+Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -16,9 +16,9 @@ public bool IsRestartAtEachSection { get; set; }
 
 ### Observaciones
 
-Esta opción solo se admite en los formatos de documento RTF, DOC y DOCX.
+Esta opción sólo se admite en formatos de documentos RTF, DOC y DOCX.
 
-Esta opción se escribirá en DOCX solo si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) es mas alto entoncesEcma376_2006.
+Esta opción se escribirá en DOCX sólo si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) es mayor entoncesEcma376_2006.
 
 ### Ejemplos
 
@@ -33,8 +33,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// La propiedad "IsRestartAtEachSection" solo será aplicable cuando
-// el nivel de cumplimiento de OOXML del documento corresponde a un estándar más nuevo que "OoxmlComplianceCore.Ecma376".
+// La propiedad "IsRestartAtEachSection" sólo será aplicable cuando
+// el nivel de cumplimiento OOXML del documento es un estándar más reciente que "OoxmlComplianceCore.Ecma376".
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

@@ -3,7 +3,7 @@ title: Comment.AddReply
 second_title: Referencia de API de Aspose.Words para .NET
 description: Comment método. Agrega una respuesta a este comentario.
 type: docs
-weight: 120
+weight: 150
 url: /es/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -17,13 +17,13 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | author | String | El nombre del autor de la respuesta. |
-| initial | String | Iniciales del autor para la respuesta. |
+| initial | String | El autor pone sus iniciales en la respuesta. |
 | dateTime | DateTime | La fecha y hora de la respuesta. |
 | text | String | El texto de respuesta. |
 
 ### Valor_devuelto
 
-lo creado[`Comment`](../) nodo para la respuesta.
+el creado[`Comment`](../) nodo para la respuesta.
 
 ### Observaciones
 
@@ -40,12 +40,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
-// Coloque el comentario en un nodo en el cuerpo del documento.
-// Este comentario se mostrará en la ubicación de su párrafo,
-// fuera del margen derecho de la página y con una línea punteada que lo conecta con su párrafo.
+// Coloca el comentario en un nodo del cuerpo del documento.
+// Este comentario aparecerá en la ubicación de su párrafo,
+// fuera del margen derecho de la página y con una línea de puntos que la conecta con su párrafo.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Agregue una respuesta, que aparecerá debajo de su comentario principal.
+// Agrega una respuesta, que aparecerá debajo del comentario principal.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // Los comentarios y las respuestas son ambos nodos de comentarios.
@@ -54,7 +54,7 @@ Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 // Los comentarios que no responden a otros comentarios son de "nivel superior". No tienen comentarios de antepasados.
 Assert.Null(comment.Ancestor);
 
-// Las respuestas tienen un comentario de nivel superior antepasado.
+// Las respuestas tienen un comentario de nivel superior antecesor.
 Assert.AreEqual(comment, comment.Replies[0].Ancestor);
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");

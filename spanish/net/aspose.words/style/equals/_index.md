@@ -1,14 +1,14 @@
 ---
 title: Style.Equals
 second_title: Referencia de API de Aspose.Words para .NET
-description: Style método. Compara con el estilo especificado. Las listas de estilos se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente.
+description: Style método. Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente.
 type: docs
-weight: 170
+weight: 190
 url: /es/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-Compara con el estilo especificado. Las listas de estilos se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente.
+Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente.
 
 ```csharp
 public bool Equals(Style style)
@@ -16,7 +16,7 @@ public bool Equals(Style style)
 
 ### Ejemplos
 
-Muestra cómo usar alias de estilo.
+Muestra cómo utilizar alias de estilo.
 
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
@@ -28,7 +28,7 @@ Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Podemos hacer referencia a un estilo utilizando su alias, así como su nombre.
+// Podemos hacer referencia a un estilo usando su alias, así como su nombre.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

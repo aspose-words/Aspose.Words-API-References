@@ -28,7 +28,7 @@ Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Use el método "ClearFormatting" en cada párrafo para eliminar todos los bordes.
+// Utilice el método "ClearFormatting" en cada párrafo para eliminar todos los bordes.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

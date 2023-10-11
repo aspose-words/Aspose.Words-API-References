@@ -1,14 +1,14 @@
 ---
 title: Document.ShadeFormData
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Especifica si se debe activar el sombreado gris en los campos de formulario.
+description: Document propiedad. Especifica si se activa el sombreado gris en los campos del formulario.
 type: docs
-weight: 360
+weight: 380
 url: /es/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Especifica si se debe activar el sombreado gris en los campos de formulario.
+Especifica si se activa el sombreado gris en los campos del formulario.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -25,7 +25,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Podemos desactivar el sombreado gris, por lo que el texto marcado se mezclará con el otro texto.
+// Podemos desactivar el sombreado gris, para que el texto marcado se mezcle con el otro texto.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

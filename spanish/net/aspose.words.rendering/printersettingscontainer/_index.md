@@ -3,12 +3,14 @@ title: Class PrinterSettingsContainer
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Rendering.PrinterSettingsContainer clase. Representa un almacenamiento para algunos parámetros dePrinterSettings objeto.
 type: docs
-weight: 4320
+weight: 4580
 url: /es/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
 Representa un almacenamiento para algunos parámetros dePrinterSettings objeto.
+
+Para obtener más información, visite el[Imprimir un documento mediante programación o mediante cuadros de diálogo](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) artículo de documentación.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -34,7 +36,7 @@ Acceso a datos dePrinterSettings lleva mucho tiempo. `PrinterSettingsContainer` 
 
 ### Ejemplos
 
-Muestra cómo acceder y enumerar las fuentes y tamaños de papel de su impresora.
+Muestra cómo acceder y enumerar los orígenes y tamaños del papel de su impresora.
 
 ```csharp
 // El "PrinterSettingsContainer" contiene un objeto "PrinterSettings",
@@ -49,12 +51,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// La propiedad "PaperSizes" contiene la lista de tamaños de papel para indicarle a la impresora que los use.
+// La propiedad "PaperSizes" contiene la lista de tamaños de papel que se deben indicar a la impresora.
 // Tanto PrinterSource como PrinterSize contienen una propiedad "RawKind",
-// lo que equivale a un tipo de papel que figura en la enumeración PaperSourceKind.
+// que equivale a un tipo de papel que figura en la enumeración PaperSourceKind.
 // Si hay una fuente de papel con el mismo valor "RawKind" que el de la página de impresión,
-// la impresora imprimirá la página utilizando la fuente y el tamaño de papel proporcionados.
-// De lo contrario, la impresora utilizará de forma predeterminada el origen designado por la propiedad "DefaultPageSettingsPaperSource".
+// la impresora imprimirá la página utilizando la fuente y el tamaño del papel proporcionados.
+// De lo contrario, la impresora utilizará de forma predeterminada la fuente designada por la propiedad "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

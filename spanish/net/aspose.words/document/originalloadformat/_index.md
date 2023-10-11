@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Obtiene el formato del documento original que se cargó en este objeto.
 type: docs
-weight: 280
+weight: 300
 url: /es/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

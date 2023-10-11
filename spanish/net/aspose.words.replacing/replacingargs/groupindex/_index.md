@@ -16,15 +16,16 @@ public int GroupIndex { get; set; }
 
 ### Observaciones
 
-`GroupIndex` sólo tiene efecto cuando[`GroupName`](../groupname/) es nulo.
+`GroupIndex`tiene efecto sólo cuando[`GroupName`](../groupname/) es`nulo`.
 
 El valor predeterminado es cero.
 
 ### Ejemplos
 
-Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,10 +34,10 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establecer la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -54,7 +55,7 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
 }
 
 /// <summary>
-/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

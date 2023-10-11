@@ -25,11 +25,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agrega una serie con dos arreglos decimales. La primera matriz contiene los valores de X,
-// y el segundo contiene valores Y correspondientes para puntos en el gráfico de dispersión.
+// Agrega una serie con dos matrices decimales. La primera matriz contiene los valores X,
+// y el segundo contiene los valores Y correspondientes a los puntos del gráfico de dispersión.
 chart.Series.Add("Series 1", 
     new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
@@ -62,7 +62,7 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// También podemos establecer límites de eje en forma de fechas, limitando el gráfico a un período.
+// También podemos establecer límites de ejes en forma de fechas, limitando el gráfico a un período.
 // Establecer el rango en 1980-1990 omitirá los dos valores de la serie
 // que están fuera del rango del gráfico.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));

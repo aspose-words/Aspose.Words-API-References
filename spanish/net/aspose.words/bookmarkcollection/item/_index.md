@@ -20,11 +20,11 @@ public Bookmark this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
@@ -35,17 +35,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores, luego use una implementación de visitante de documentos personalizada para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores de nuevo para ver los valores actualizados.
+    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -72,13 +71,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Use un iterador y un visitante para imprimir información de cada marcador en la colección.
+/// Utilice un iterador y un visitante para imprimir información de cada marcador de la colección.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtenga cada marcador en la colección para aceptar un visitante que imprimirá su contenido.
+    // Obtenga cada marcador de la colección para aceptar un visitante que imprimirá su contenido.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -138,7 +137,7 @@ public Bookmark this[string bookmarkName] { get; }
 
 ### Observaciones
 
-Devuelve nulo si no se puede encontrar el marcador con el nombre especificado.
+Devoluciones`nulo`si no se puede encontrar el marcador con el nombre especificado.
 
 ### Ejemplos
 
@@ -147,17 +146,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores, luego use una implementación de visitante de documentos personalizada para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores de nuevo para ver los valores actualizados.
+    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -184,13 +182,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Use un iterador y un visitante para imprimir información de cada marcador en la colección.
+/// Utilice un iterador y un visitante para imprimir información de cada marcador de la colección.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtenga cada marcador en la colección para aceptar un visitante que imprimirá su contenido.
+    // Obtenga cada marcador de la colección para aceptar un visitante que imprimirá su contenido.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

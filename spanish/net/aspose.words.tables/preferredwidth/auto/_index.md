@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Auto
 second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth campo. Devuelve una instancia que representa el valor no se especifica el ancho preferido.
+description: PreferredWidth campo. Devuelve una instancia que representa el valor el ancho preferido no está especificado.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/preferredwidth/auto/
 ---
 ## PreferredWidth.Auto field
 
-Devuelve una instancia que representa el valor "no se especifica el ancho preferido".
+Devuelve una instancia que representa el valor "el ancho preferido no está especificado".
 
 ```csharp
 public static readonly PreferredWidth Auto;
@@ -24,13 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

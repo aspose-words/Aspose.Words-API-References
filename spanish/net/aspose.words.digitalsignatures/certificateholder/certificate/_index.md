@@ -1,14 +1,14 @@
 ---
 title: CertificateHolder.Certificate
 second_title: Referencia de API de Aspose.Words para .NET
-description: CertificateHolder propiedad. Devuelve la instancia de X509Certificado2 que contiene claves públicas y privadas y cadena de certificados.
+description: CertificateHolder propiedad. Devuelve la instancia de Certificado X5092 que contiene claves públicas y privadas y cadena de certificados.
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Devuelve la instancia de **X509Certificado2** que contiene claves públicas y privadas y cadena de certificados.
+Devuelve la instancia de **Certificado X5092** que contiene claves públicas y privadas y cadena de certificados.
 
 ```csharp
 public X509Certificate2 Certificate { get; }

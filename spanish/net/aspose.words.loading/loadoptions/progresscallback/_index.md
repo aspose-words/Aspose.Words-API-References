@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ProgressCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Llamado durante la carga de un documento y acepta datos sobre el progreso de la carga.
+description: LoadOptions propiedad. Se llama durante la carga de un documento y acepta datos sobre el progreso de la carga.
 type: docs
 weight: 130
 url: /es/net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
 
-Llamado durante la carga de un documento y acepta datos sobre el progreso de la carga.
+Se llama durante la carga de un documento y acepta datos sobre el progreso de la carga.
 
 ```csharp
 public IDocumentLoadingCallback ProgressCallback { get; set; }
@@ -16,14 +16,13 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ### Observaciones
 
-Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott formatos compatibles.
+Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott formatos soportados.
 
 ### Ejemplos
 
 Muestra cómo notificar al usuario si la carga del documento excedió el tiempo de carga esperado.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -38,17 +37,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Manejar el problema de la duración de la carga.
+        // Manejar el problema de duración de la carga.
     }
 }
 
 /// <summary>
-/// Cancelar la carga de un documento después de los segundos "MaxDuration".
+/// Cancelar la carga de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public LoadingProgressCallback()
     {

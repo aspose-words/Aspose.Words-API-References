@@ -25,7 +25,7 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Crear una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
+// Crea una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 

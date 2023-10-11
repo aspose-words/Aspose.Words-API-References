@@ -3,7 +3,7 @@ title: Document.NormalizeFieldTypes
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document método. Cambia los valores del tipo de campoFieldType deFieldStart FieldSeparator FieldEnd en todo el documento para que correspondan a los tipos de campo contenidos en los códigos de campo.
 type: docs
-weight: 610
+weight: 650
 url: /es/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -16,13 +16,13 @@ public void NormalizeFieldTypes()
 
 ### Observaciones
 
-Utilice este método después de cambios en el documento que afecten a los tipos de campo.
+Utilice este método después de cambios en el documento que afecten a los tipos de campos.
 
-Para cambiar los valores de tipo de campo en una parte específica del documento, use[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
+Para cambiar los valores de tipo de campo en una parte específica del uso del documento[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
 ### Ejemplos
 
-Muestra cómo mantener actualizado el tipo de un campo con su código de campo.
+Muestra cómo mantener actualizado el tipo de campo con su código de campo.
 
 ```csharp
 Document doc = new Document();
@@ -30,11 +30,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE", null);
 
-// Aspose.Words detecta automáticamente los tipos de campo en función de los códigos de campo.
+// Aspose.Words detecta automáticamente los tipos de campos según los códigos de campo.
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 
-// Cambiar manualmente el texto sin formato del campo, que determina el código de campo.
+// Cambia manualmente el texto sin formato del campo, lo que determina el código del campo.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
 // Cambiar el código de campo ha cambiado este campo a uno de un tipo diferente,
 // pero las propiedades de tipo del campo aún muestran el tipo anterior.

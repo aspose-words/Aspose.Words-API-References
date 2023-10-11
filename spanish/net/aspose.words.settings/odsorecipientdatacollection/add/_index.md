@@ -16,11 +16,11 @@ public int Add(OdsoRecipientData value)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| value | OdsoRecipientData | El objeto a agregar. No puede ser nulo. |
+| value | OdsoRecipientData | El objeto a agregar. No puede ser`nulo`. |
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos combinados excluirá una combinación de correspondencia.
+Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

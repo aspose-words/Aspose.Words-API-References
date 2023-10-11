@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-True si se visitaron todos los nodos; false si DocumentVisitor detuvo la operación antes de visitar todos los nodos.
+Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
 ### Observaciones
 
-Enumera sobre este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en DocumentVisitor.
+Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-Llama a DocumentVisitor.VisitSectionStart, luego llama a Accept para todos los nodos secundarios de la sección y llama a DocumentVisitor.VisitSectionEnd al final.
+llamadas[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , luego llama[`Accept`](../../node/accept/) para todos los nodos secundarios de la sección y llamadas[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) al final.
 
 ### Ver también
 

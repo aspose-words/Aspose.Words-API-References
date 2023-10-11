@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.SelectSingleNode
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Selecciona el primer nodo que coincide con la expresión XPath.
+description: CompositeNode método. Selecciona el primeroNode que coincide con la expresión XPath.
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
 
-Selecciona el primer nodo que coincide con la expresión XPath.
+Selecciona el primero[`Node`](../../node/) que coincide con la expresión XPath.
 
 ```csharp
 public Node SelectSingleNode(string xpath)
@@ -20,15 +20,15 @@ public Node SelectSingleNode(string xpath)
 
 ### Valor_devuelto
 
-El primer nodo que coincide con la consulta XPath o nulo si no se encuentra ningún nodo coincidente.
+La primera[`Node`](../../node/) que coincida con la consulta XPath o`nulo` si no se encuentra ningún nodo coincidente.
 
 ### Observaciones
 
-Por el momento, solo se admiten expresiones con nombres de elementos. No se admiten las expresiones que usan nombres de atributos.
+Por el momento, solo se admiten expresiones con nombres de elementos. No se admiten expresiones que utilizan nombres de atributos.
 
 ### Ejemplos
 
-Muestra cómo seleccionar determinados nodos mediante una expresión XPath.
+Muestra cómo seleccionar ciertos nodos mediante una expresión XPath.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 // que son descendientes de cualquier nodo de tabla en el documento.
 NodeList nodeList = doc.SelectNodes("//Tabla//Párrafo");
 
-// Iterar a través de la lista con un enumerador e imprimir el contenido de cada párrafo en cada celda de la tabla.
+// Recorre la lista con un enumerador e imprime el contenido de cada párrafo en cada celda de la tabla.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
@@ -50,7 +50,7 @@ nodeList = doc.SelectNodes("//Cuerpo del párrafo");
 // Podemos tratar la lista como una matriz.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Use SelectSingleNode para seleccionar el primer resultado de la misma expresión anterior.
+// Utilice SelectSingleNode para seleccionar el primer resultado de la misma expresión anterior.
 Node node = doc.SelectSingleNode("//Cuerpo del párrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

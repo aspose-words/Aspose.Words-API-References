@@ -60,12 +60,12 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar sobre la colección de variables.
+// Enumerar la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documentos de una colección.
+// A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 

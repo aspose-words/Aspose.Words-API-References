@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextColumnCollection propiedad. Obtiene el número de columnas de la sección de un documento.
+description: TextColumnCollection propiedad. Obtiene el número de columnas en la sección de un documento.
 type: docs
 weight: 10
 url: /es/net/aspose.words/textcolumncollection/count/
 ---
 ## TextColumnCollection.Count property
 
-Obtiene el número de columnas de la sección de un documento.
+Obtiene el número de columnas en la sección de un documento.
 
 ```csharp
 public int Count { get; }

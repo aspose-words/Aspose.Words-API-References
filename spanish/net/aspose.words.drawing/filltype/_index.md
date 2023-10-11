@@ -3,7 +3,7 @@ title: Enum FillType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.FillType enumeración. Especifica el tipo de relleno para un objeto rellenable.
 type: docs
-weight: 830
+weight: 960
 url: /es/net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration

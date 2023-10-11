@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece rutas de plantillas integradas de MS Word.
+description: FieldOptions propiedad. Obtiene o establece rutas de las plantillas integradas de MS Word.
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
 
-Obtiene o establece rutas de plantillas integradas de MS Word.
+Obtiene o establece rutas de las plantillas integradas de MS Word.
 
 ```csharp
 public string[] BuiltInTemplatesPaths { get; set; }
@@ -16,13 +16,13 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Observaciones
 
-Esta propiedad es utilizada por el[`FieldAutoText`](../../fieldautotext/) y[`FieldGlossary`](../../fieldglossary/) campos, si la entrada de texto automático referenciada no se encuentra en el[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) modelo.
+Esta propiedad es utilizada por el[`FieldAutoText`](../../fieldautotext/) y[`FieldGlossary`](../../fieldglossary/) campos, si la entrada de texto automático referenciada no se encuentra en el[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) plantilla.
 
-De forma predeterminada, MS Word almacena las plantillas integradas en c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ Archivos AppData\Roaming\Microsoft\Templates\Normal.dotm.
+De forma predeterminada, MS Word almacena las plantillas integradas en c:\Users\&lt;nombre de usuario&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;nombre de usuario&gt;\ Archivos AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
 ### Ejemplos
 
-Muestra cómo mostrar un bloque de creación con campos de AUTOTEXTO y GLOSARIO.
+Muestra cómo mostrar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Cree una fuente y agréguela como texto a nuestro bloque de construcción.
+// Crea una fuente y agrégala como texto a nuestro bloque de construcción.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -45,13 +45,13 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Establecer un archivo que contenga partes que nuestro documento o su plantilla adjunta no puedan contener.
+// Establece un archivo que contiene partes que nuestro documento o su plantilla adjunta pueden no contener.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay dos formas de usar campos para mostrar el contenido de nuestro bloque de construcción.
-// 1 - Usando un campo de AUTOTEXTO:
+// A continuación se muestran dos formas de utilizar campos para mostrar el contenido de nuestro bloque de construcción.
+// 1 - Usando un campo AUTOTEXTO:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 

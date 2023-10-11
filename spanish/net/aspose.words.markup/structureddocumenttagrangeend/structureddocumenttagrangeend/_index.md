@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeEnd constructor. Inicializa una nueva instancia del Fin de rango de etiqueta de documento estructurado clase.
+description: StructuredDocumentTagRangeEnd constructor. Inicializa una nueva instancia del Fin del rango de etiquetas de documentos estructurados clase.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Inicializa una nueva instancia del **Fin de rango de etiqueta de documento estructurado** clase.
+Inicializa una nueva instancia del **Fin del rango de etiquetas de documentos estructurados** clase.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -17,13 +17,14 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
-| id | Int32 | Identificador del comienzo del rango de etiquetas del documento estructurado correspondiente. |
+| id | Int32 | Identificador del inicio del rango de etiquetas del documento estructurado correspondiente. |
 
 ### Ejemplos
 
-Muestra cómo crear/eliminar una etiqueta de documento estructurado y su contenido.
+Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -50,7 +51,7 @@ Muestra cómo crear/eliminar una etiqueta de documento estructurado y su conteni
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Elimina la etiqueta del documento estructurado por rangos y el contenido interno.
+    // Elimina la etiqueta del documento estructurado por rangos y el contenido del interior.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

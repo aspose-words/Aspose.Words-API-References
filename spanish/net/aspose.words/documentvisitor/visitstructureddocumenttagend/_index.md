@@ -32,8 +32,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un documento visitante, el visitante visita el nodo de aceptación,
-    // y luego atraviesa todos los elementos secundarios del nodo en profundidad.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
+    // y luego atraviesa todos los hijos del nodo en profundidad.
     // El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
@@ -53,7 +53,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo StructuredDocumentTag en el documento.
+    /// Se llama cuando se encuentra un nodo StructuredDocumentTag en el documento.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
     {
@@ -82,7 +82,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo StructuredDocumentTag.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo StructuredDocumentTag.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
     {
@@ -93,9 +93,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agregue una línea al StringBuilder y sangre dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
     /// </summary>
-    /// <parámetro nombre="texto"></parámetro>
+    /// <param nombre="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

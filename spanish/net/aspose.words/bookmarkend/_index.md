@@ -3,12 +3,14 @@ title: Class BookmarkEnd
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.BookmarkEnd clase. Representa el final de un marcador en un documento de Word.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
 
 Representa el final de un marcador en un documento de Word.
+
+Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) artículo de documentación.
 
 ```csharp
 public class BookmarkEnd : Node
@@ -26,13 +28,13 @@ public class BookmarkEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Obtiene o establece el nombre del marcador. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
 | override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | DevolucionesBookmarkEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/) objeto que representa la parte de un documento contenido en este nodo. |
 
 ## Métodos
 
@@ -41,21 +43,21 @@ public class BookmarkEnd : Node
 | override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
 ### Observaciones
 
 Un marcador completo en un documento de Word consta de un[`BookmarkStart`](../bookmarkstart/) y una coincidencia`BookmarkEnd` con el mismo nombre de marcador.
 
-[`BookmarkStart`](../bookmarkstart/) y`BookmarkEnd` son solo marcadores dentro de un documento que especifican dónde comienza y termina el marcador.
+[`BookmarkStart`](../bookmarkstart/) y`BookmarkEnd` son solo marcadores dentro de un document que especifican dónde comienza y termina el marcador.
 
-Utilizar el[`Bookmark`](../bookmark/) class como una "fachada" para trabajar con un marcador como un solo objeto.
+Utilizar el[`Bookmark`](../bookmark/) clase como "fachada" para trabajar con un bookmark como un solo objeto.
 
 ### Ejemplos
 
@@ -64,17 +66,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores, luego use una implementación de visitante de documentos personalizada para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores de nuevo para ver los valores actualizados.
+    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -101,13 +102,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Use un iterador y un visitante para imprimir información de cada marcador en la colección.
+/// Utilice un iterador y un visitante para imprimir información de cada marcador de la colección.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtenga cada marcador en la colección para aceptar un visitante que imprimirá su contenido.
+    // Obtenga cada marcador de la colección para aceptar un visitante que imprimirá su contenido.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

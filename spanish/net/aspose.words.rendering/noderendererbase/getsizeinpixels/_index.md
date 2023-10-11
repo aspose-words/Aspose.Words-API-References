@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
 second_title: Referencia de API de Aspose.Words para .NET
-description: NodeRendererBase método. Calcula el tamaño de la forma en píxeles para un factor de zoom y resolución especificados.
+description: NodeRendererBase método. Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
 
-Calcula el tamaño de la forma en píxeles para un factor de zoom y resolución especificados.
+Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
 
 ```csharp
 public Size GetSizeInPixels(float scale, float dpi)
@@ -16,7 +16,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | dpi | Single | La resolución (horizontal y vertical) para convertir de puntos a píxeles (puntos por pulgada). |
 
 ### Valor_devuelto
@@ -25,7 +25,7 @@ El tamaño de la forma en píxeles.
 
 ### Observaciones
 
-Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma de forma ordenada en el mapa de bits.
+Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma claramente en el mapa de bits.
 
 ### Ejemplos
 
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
-Calcula el tamaño de la forma en píxeles para un factor de zoom y resolución especificados.
+Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
 
 ```csharp
 public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -89,7 +89,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | horizontalDpi | Single | La resolución horizontal para convertir de puntos a píxeles (puntos por pulgada). |
 | verticalDpi | Single | La resolución vertical para convertir de puntos a píxeles (puntos por pulgada). |
 
@@ -99,7 +99,7 @@ El tamaño de la forma en píxeles.
 
 ### Observaciones
 
-Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma de forma ordenada en el mapa de bits.
+Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma claramente en el mapa de bits.
 
 ### Ejemplos
 
@@ -111,7 +111,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -122,7 +122,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

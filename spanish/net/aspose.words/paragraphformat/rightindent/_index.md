@@ -3,7 +3,7 @@ title: ParagraphFormat.RightIndent
 second_title: Referencia de API de Aspose.Words para .NET
 description: ParagraphFormat propiedad. Obtiene o establece el valor en puntos que representa la sangría derecha del párrafo.
 type: docs
-weight: 260
+weight: 270
 url: /es/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
@@ -22,8 +22,8 @@ Muestra cómo configurar el formato de párrafo para crear texto descentrado.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Centre todo el texto que escribe el generador de documentos y configure las sangrías.
-// La siguiente configuración de sangría creará un cuerpo de texto que se asentará asimétricamente en la página.
+// Centrar todo el texto que escribe el creador de documentos y configurar sangrías.
+// La siguiente configuración de sangría creará un cuerpo de texto que se ubicará asimétricamente en la página.
 // El "centro" al que alineamos el texto será la mitad del cuerpo del texto, no la mitad de la página.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;

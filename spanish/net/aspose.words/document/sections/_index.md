@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Devuelve una colección que representa todas las secciones del documento.
 type: docs
-weight: 350
+weight: 370
 url: /es/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -28,12 +28,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Eliminar la primera sección del documento.
+// Elimina la primera sección del documento.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Agregue una copia de lo que ahora es la primera sección al final del documento.
+// Adjunte una copia de lo que ahora es la primera sección al final del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -41,40 +41,40 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-Muestra cómo especificar cómo una nueva sección se separa de la anterior.
+Muestra cómo especificar cómo se separa una nueva sección de la anterior.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Los tipos de salto de sección determinan cómo una nueva sección se separa de la sección anterior.
+// Los tipos de salto de sección determinan cómo se separa una nueva sección de la sección anterior.
 // A continuación se muestran cinco tipos de saltos de sección.
-// 1 - Comienza la siguiente sección en una nueva página:
+// 1 - Inicia la siguiente sección en una nueva página:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Comienza la siguiente sección en la página actual:
+// 2 - Inicia la siguiente sección en la página actual:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Comienza la siguiente sección en una nueva página par:
+// 3 - Inicia la siguiente sección en una nueva página par:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Comienza la siguiente sección en una nueva página impar:
+// 4 - Inicia la siguiente sección en una nueva página impar:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Comienza la siguiente sección en una nueva columna:
+// 5 - Inicia la siguiente sección en una nueva columna:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

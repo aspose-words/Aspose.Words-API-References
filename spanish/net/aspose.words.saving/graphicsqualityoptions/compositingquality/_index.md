@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
 second_title: Referencia de API de Aspose.Words para .NET
-description: GraphicsQualityOptions propiedad. Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Graphics.
+description: GraphicsQualityOptions propiedad. Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Gráficos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Graphics.
+Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Gráficos.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -16,7 +16,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de calidad de procesamiento al convertir documentos a formatos de imagen.
+Muestra cómo configurar las opciones de calidad de renderizado al convertir documentos a formatos de imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

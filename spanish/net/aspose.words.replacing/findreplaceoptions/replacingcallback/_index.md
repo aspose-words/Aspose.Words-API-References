@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. El método definido por el usuario que se llama antes de cada reemplazo.
+description: FindReplaceOptions propiedad. El método definido por el usuario que se llama antes de cada sustitución.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-El método definido por el usuario que se llama antes de cada reemplazo.
+El método definido por el usuario que se llama antes de cada sustitución.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -19,6 +19,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,10 +27,10 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establezca una devolución de llamada que realice un seguimiento de los reemplazos que realizará el método "Reemplazar".
+    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -43,7 +44,7 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado por una operación de buscar y reemplazar
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
 /// y anota el valor del texto coincidente original.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -66,9 +67,10 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -77,10 +79,10 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establecer la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -98,7 +100,7 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
 }
 
 /// <summary>
-/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

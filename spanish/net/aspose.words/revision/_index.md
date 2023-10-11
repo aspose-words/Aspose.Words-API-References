@@ -1,14 +1,16 @@
 ---
 title: Class Revision
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Revision clase. Representa una revisión cambio registrado en un estilo o nodo de documento. UsarRevisionType para comprobar el tipo de esta revisión.
+description: Aspose.Words.Revision clase. Representa una revisión cambio rastreado en un nodo o estilo de documento. UsarRevisionType para comprobar el tipo de esta revisión.
 type: docs
-weight: 4500
+weight: 4760
 url: /es/net/aspose.words/revision/
 ---
 ## Revision class
 
-Representa una revisión (cambio registrado) en un estilo o nodo de documento. Usar[`RevisionType`](./revisiontype/) para comprobar el tipo de esta revisión.
+Representa una revisión (cambio rastreado) en un nodo o estilo de documento. Usar[`RevisionType`](./revisiontype/) para comprobar el tipo de esta revisión.
+
+Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) artículo de documentación.
 
 ```csharp
 public class Revision
@@ -18,11 +20,11 @@ public class Revision
 
 | Nombre | Descripción |
 | --- | --- |
-| [Author](../../aspose.words/revision/author/) { get; set; } | Obtiene o establece el autor de esta revisión. No puede ser una cadena vacía o nula. |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Obtiene o establece el autor de esta revisión. No puede ser una cadena vacía o`nulo` . |
 | [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Obtiene o establece la fecha/hora de esta revisión. |
-| [Group](../../aspose.words/revision/group/) { get; } | Obtiene el grupo de revisión. Devuelve nulo si la revisión no pertenece a ningún grupo. |
+| [Group](../../aspose.words/revision/group/) { get; } | Obtiene el grupo de revisión. Devoluciones`nulo` si la revisión no pertenece a ningún grupo. |
 | [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Obtiene el nodo principal inmediato (propietario) de esta revisión. Esta propiedad funcionará para cualquier tipo de revisión que no seaStyleDefinitionChange . |
-| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Obtiene el estilo primario inmediato (propietario) de esta revisión. Esta propiedad funcionará solo para elStyleDefinitionChange tipo de revisión. |
+| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Obtiene el estilo principal inmediato (propietario) de esta revisión. Esta propiedad funcionará solo para laStyleDefinitionChange tipo de revisión. |
 | [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Obtiene el tipo de esta revisión. |
 
 ## Métodos
@@ -53,13 +55,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Esta bandera corresponde a la "Revisión" -> "Seguimiento" -> Opción "Control de cambios" en Microsoft Word.
+// Esta bandera corresponde a la "Revisión" -> "Seguimiento" -> Opción "Seguimiento de cambios" en Microsoft Word.
 // El método "StartTrackRevisions" no afecta su valor,
 // y el documento realiza un seguimiento de las revisiones mediante programación a pesar de tener un valor de "falso".
-// Si abrimos este documento usando Microsoft Word, no estará rastreando las revisiones.
+// Si abrimos este documento usando Microsoft Word, no realizará un seguimiento de las revisiones.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Hemos agregado texto utilizando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
+// Hemos agregado texto usando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -70,17 +72,17 @@ Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 // Eliminar una ejecución para crear una revisión de tipo eliminación.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// Agregar una nueva revisión la coloca al principio de la colección de revisiones.
+// Agregar una nueva revisión la coloca al comienzo de la colección de revisiones.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
 // Las revisiones de inserción aparecen en el cuerpo del documento incluso antes de que aceptemos/rechacemos la revisión.
-// Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que componen eliminar revisiones
-// también permanecen en el documento hasta que aceptemos la revisión.
+// Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que componen eliminan revisiones.
+// también permanece en el documento hasta que aceptemos la revisión.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Aceptar la revisión de eliminación eliminará su nodo principal del texto del párrafo
-// y luego elimine la revisión de la colección en sí.
+// Al aceptar la revisión eliminada se eliminará su nodo principal del texto del párrafo
+// y luego eliminar la revisión de la colección.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);

@@ -16,11 +16,11 @@ public bool RestartListsAtEachSection { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **verdadero** .
+El valor predeterminado es`verdadero` .
 
 ### Ejemplos
 
-Muestra cómo controlar si la numeración de listas se reinicia o no en cada sección cuando se realiza la combinación de correspondencia.
+Muestra cómo controlar si se reinicia o no la numeración de listas en cada sección cuando se realiza la combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

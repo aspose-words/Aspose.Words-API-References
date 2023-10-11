@@ -1,14 +1,14 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: FixedPageSaveOptions propiedad. Permite especificar las opciones de representación del metarchivo.
+description: FixedPageSaveOptions propiedad. Permite especificar opciones de representación de metarchivos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 ---
 ## FixedPageSaveOptions.MetafileRenderingOptions property
 
-Permite especificar las opciones de representación del metarchivo.
+Permite especificar opciones de representación de metarchivos.
 
 ```csharp
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
@@ -16,24 +16,25 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 
 ### Ejemplos
 
-Los espectáculos agregaron una alternativa a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no admitidos.
+Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Establezca la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
-    // encuentra un metarchivo, que requerirá operaciones de trama para representar en el PDF de salida.
+    // Establece la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
+    // encuentra un metarchivo que requerirá operaciones de trama para representar el PDF de salida.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Establezca la propiedad "RenderingMode" en "VectorWithFallback" para intentar representar cada metarchivo utilizando gráficos vectoriales.
+    // Establece la propiedad "RenderingMode" en "VectorWithFallback" para intentar renderizar cada metarchivo usando gráficos vectoriales.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
     // para modificar cómo ese método convierte el documento a .PDF y aplica la configuración
-    // en nuestro objeto MetafileRenderingOptions para la operación de guardado.
+    // en nuestro objeto MetafileRenderingOptions para la operación de guardar.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -43,12 +44,12 @@ Los espectáculos agregaron una alternativa a la representación de mapas de bit
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Imprime y recopila advertencias relacionadas con la pérdida de formato que se producen al guardar un documento.
+/// Imprime y recopila advertencias relacionadas con la pérdida de formato que ocurren al guardar un documento.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

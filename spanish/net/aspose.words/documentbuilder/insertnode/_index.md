@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un nodo de nivel de texto dentro del párrafo actual antes del cursor.
+description: DocumentBuilder método. Inserta un nodo antes del cursor.
 type: docs
-weight: 360
+weight: 390
 url: /es/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Inserta un nodo de nivel de texto dentro del párrafo actual antes del cursor.
+Inserta un nodo antes del cursor.
 
 ```csharp
 public void InsertNode(Node node)
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// A continuación hay dos formas de aplicar una imagen a una forma para que pueda mostrarla.
-// 1 - Establecer la forma para contener la imagen.
+// A continuación se muestran dos formas de aplicar una imagen a una forma para que pueda mostrarla.
+// 1 - Establece la forma para contener la imagen.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -39,7 +39,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Configure la forma para que se vincule a un archivo de imagen en el sistema de archivos local.
+// 2 - Establece la forma para vincular a un archivo de imagen en el sistema de archivos local.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -47,8 +47,8 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Vincular imágenes ahorrará espacio y dará como resultado un documento más pequeño.
-// Sin embargo, el documento solo puede mostrar la imagen correctamente mientras
+// Vincular a imágenes ahorrará espacio y dará como resultado un documento más pequeño.
+// Sin embargo, el documento sólo puede mostrar la imagen correctamente mientras
 // el archivo de imagen está presente en la ubicación a la que apunta la propiedad "SourceFullName" de la forma.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```

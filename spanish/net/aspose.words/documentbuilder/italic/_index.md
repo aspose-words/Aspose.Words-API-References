@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Italic
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Verdadero si la fuente tiene formato de cursiva.
+description: DocumentBuilder propiedad. Verdadero si la fuente tiene el formato de cursiva.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property
 
-Verdadero si la fuente tiene formato de cursiva.
+Verdadero si la fuente tiene el formato de cursiva.
 
 ```csharp
 public bool Italic { get; set; }
@@ -22,7 +22,7 @@ Muestra cómo llenar MERGEFIELD con datos con un generador de documentos en luga
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte algunos MERGEFIELDS, que aceptan datos de columnas del mismo nombre en una fuente de datos durante una combinación de correspondencia,
+// Insertar algunos MERGEFIELDS, que aceptan datos de columnas del mismo nombre en una fuente de datos durante una combinación de correspondencia,
 // y luego llenarlos manualmente.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

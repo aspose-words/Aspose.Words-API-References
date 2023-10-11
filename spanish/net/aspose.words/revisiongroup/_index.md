@@ -3,12 +3,14 @@ title: Class RevisionGroup
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.RevisionGroup clase. Representa un grupo de secuencialesRevision objetos.
 type: docs
-weight: 4520
+weight: 4780
 url: /es/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
 Representa un grupo de secuenciales[`Revision`](../revision/) objetos.
+
+Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) artículo de documentación.
 
 ```csharp
 public class RevisionGroup

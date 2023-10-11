@@ -3,7 +3,7 @@ title: Document.UpdateWordCount
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document método. Actualiza las propiedades de recuento de palabras del documento.
 type: docs
-weight: 770
+weight: 810
 url: /es/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -16,9 +16,9 @@ public void UpdateWordCount()
 
 ### Observaciones
 
-**Actualizar número de palabras** recalcula y actualiza las propiedades Caracteres, Palabras y Párrafos en el[`BuiltInDocumentProperties`](../builtindocumentproperties/) colección de la **Documento**.
+`UpdateWordCount` recalcula y actualiza las propiedades Caracteres, Palabras y Párrafos en el[`BuiltInDocumentProperties`](../builtindocumentproperties/) colección de la[`Document`](../).
 
-Tenga en cuenta que **Actualizar número de palabras** no actualiza las propiedades de número de líneas y páginas. Use el`UpdateWordCount` sobrecargar y pasar el valor verdadero como un parámetro para hacer eso.
+Tenga en cuenta que`UpdateWordCount`no actualiza el número de líneas y propiedades de páginas. Utilice el`UpdateWordCount` sobrecargar y pasar`verdadero` value como parámetro para hacer eso.
 
 Cuando utilice una versión de evaluación, la marca de agua de evaluación también se incluirá en el recuento de palabras.
 
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-Actualiza las propiedades de recuento de palabras del documento, opcionalmente actualiza[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propiedad.
+Actualiza las propiedades de recuento de palabras del documento y, opcionalmente, actualiza[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propiedad.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -74,7 +74,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| updateLinesCount | Boolean | Verdadero si se debe calcular el número de líneas del documento. |
+| updateLinesCount | Boolean | `verdadero` si se calculará el número de líneas del documento. |
 
 ### Observaciones
 

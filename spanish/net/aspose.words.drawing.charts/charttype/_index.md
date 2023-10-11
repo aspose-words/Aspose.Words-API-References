@@ -3,7 +3,7 @@ title: Enum ChartType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.Charts.ChartType enumeración. Especifica el tipo de gráfico.
 type: docs
-weight: 760
+weight: 830
 url: /es/net/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enumeration
@@ -21,12 +21,12 @@ public enum ChartType
 | Area | `0` | Gráfico de áreas. |
 | AreaStacked | `1` | Gráfico de áreas apiladas. |
 | AreaPercentStacked | `2` | Gráfico de áreas apiladas al 100 %. |
-| Area3D | `3` | Gráfico de área 3D. |
+| Area3D | `3` | Gráfico de áreas 3D. |
 | Area3DStacked | `4` | Gráfico de áreas apiladas 3D. |
-| Area3DPercentStacked | `5` | Gráfico 3D 100 % de áreas apiladas. |
+| Area3DPercentStacked | `5` | Gráfico 3D de áreas apiladas 100%. |
 | Bar | `6` | Gráfico de barras. |
 | BarStacked | `7` | Gráfico de barras apiladas. |
-| BarPercentStacked | `8` | Gráfico de barras apiladas al 100 %. |
+| BarPercentStacked | `8` | Gráfico de barras apiladas 100 %. |
 | Bar3D | `9` | Gráfico de barras 3D. |
 | Bar3DStacked | `10` | Gráfico de barras apiladas 3D. |
 | Bar3DPercentStacked | `11` | Gráfico de barras 3D 100% apiladas. |
@@ -34,23 +34,23 @@ public enum ChartType
 | Bubble3D | `13` | Gráfico de burbujas 3D. |
 | Column | `14` | Gráfico de columnas. |
 | ColumnStacked | `15` | Gráfico de columnas apiladas. |
-| ColumnPercentStacked | `16` | Gráfico de columnas apiladas al 100 %. |
+| ColumnPercentStacked | `16` | Gráfico de columnas 100% apiladas. |
 | Column3D | `17` | Gráfico de columnas 3D. |
-| Column3DStacked | `18` | Gráfico de columnas apiladas en 3D. |
-| Column3DPercentStacked | `19` | Gráfico de columnas 3D 100 % apiladas. |
+| Column3DStacked | `18` | Gráfico de columnas apiladas 3D. |
+| Column3DPercentStacked | `19` | Gráfico de columnas 3D 100% apiladas. |
 | Column3DClustered | `20` | Gráfico de columnas agrupadas en 3D. |
 | Doughnut | `21` | Gráfico de anillos. |
 | Line | `22` | Gráfico de líneas. |
 | LineStacked | `23` | Gráfico de líneas apiladas. |
-| LinePercentStacked | `24` | 100% gráfico de líneas apiladas. |
+| LinePercentStacked | `24` | Gráfico de líneas apiladas 100%. |
 | Line3D | `25` | Gráfico de líneas 3D. |
 | Pie | `26` | Gráfico circular. |
 | Pie3D | `27` | Gráfico circular 3D. |
 | PieOfBar | `28` | Gráfico circular de barras. |
-| PieOfPie | `29` | Gráfico circular de circular. |
-| Radar | `30` | Gráfico radial. |
+| PieOfPie | `29` | Gráfico circular. |
+| Radar | `30` | Gráfico radar. |
 | Scatter | `31` | Gráfico de dispersión. |
-| Stock | `32` | Gráfico de acciones. |
+| Stock | `32` | Gráfico de cotizaciones. |
 | Surface | `33` | Gráfico de superficie. |
 | Surface3D | `34` | Gráfico de superficie 3D. |
 
@@ -59,18 +59,19 @@ public enum ChartType
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Hay varias formas de completar la colección de series de un gráfico.
-    // Diferentes esquemas de series están pensados para diferentes tipos de gráficos.
+    // Los diferentes esquemas de series están destinados a diferentes tipos de gráficos.
     // 1 - Gráfico de columnas con columnas agrupadas y agrupadas a lo largo del eje X por categoría:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Insertar dos series de valores decimales que contengan un valor para cada categoría respectiva.
+    // Inserta dos series de valores decimales que contengan un valor para cada categoría respectiva.
     // Este gráfico de columnas tendrá tres grupos, cada uno con dos columnas.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
@@ -89,7 +90,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
         new DateTime(2020, 9, 7)
     };
 
-    // Inserta una serie con un valor decimal para cada fecha respectiva.
+    // Insertar una serie con un valor decimal para cada fecha respectiva.
     // Las fechas se distribuirán a lo largo de un eje X lineal,
     // y los valores agregados a esta serie crearán puntos de datos.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
@@ -101,8 +102,8 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // Cada serie necesitará dos matrices decimales de igual longitud.
-    // La primera matriz contiene valores X, y la segunda contiene valores Y correspondientes
-    // de puntos de datos en el gráfico del gráfico.
+    // La primera matriz contiene valores X y la segunda contiene los valores Y correspondientes
+    // de puntos de datos en el gráfico del cuadro.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -117,7 +118,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Cada serie necesitará tres matrices decimales de igual longitud.
-    // La primera matriz contiene valores X, y la segunda contiene valores Y correspondientes，
+    // La primera matriz contiene valores X, la segunda contiene los valores Y correspondientes,
     // y el tercero contiene diámetros para cada uno de los puntos de datos del gráfico.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -128,7 +129,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
 }
 
 /// <summary>
-/// Inserte un gráfico utilizando un generador de documentos de un ChartType, ancho y alto especificados, y elimine sus datos de demostración.
+/// Inserte un gráfico utilizando un generador de documentos de un tipo de gráfico, ancho y alto específicos, y elimine sus datos de demostración.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

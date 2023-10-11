@@ -3,7 +3,7 @@ title: Document.ViewOptions
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Proporciona opciones para controlar cómo se muestra el documento en Microsoft Word.
 type: docs
-weight: 450
+weight: 470
 url: /es/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
@@ -16,7 +16,7 @@ public ViewOptions ViewOptions { get; }
 
 ### Ejemplos
 
-Muestra cómo establecer un factor de zoom personalizado, que las versiones anteriores de Microsoft Word aplicarán a un documento al cargarlo.
+Muestra cómo configurar un factor de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
 
 ```csharp
 Document doc = new Document();
@@ -32,19 +32,19 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Muestra cómo establecer un tipo de zoom personalizado, que las versiones anteriores de Microsoft Word aplicarán a un documento al cargarlo.
+Muestra cómo configurar un tipo de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Establecer la propiedad "ZoomType" en "ZoomType.PageWidth" para obtener Microsoft Word
-// para hacer zoom automáticamente en el documento para que se ajuste al ancho de la página.
-// Establezca la propiedad "ZoomType" en "ZoomType.FullPage" para obtener Microsoft Word
+// Establece la propiedad "ZoomType" en "ZoomType.PageWidth" para obtener Microsoft Word
+// para ampliar automáticamente el documento para que se ajuste al ancho de la página.
+// Establece la propiedad "ZoomType" en "ZoomType.FullPage" para obtener Microsoft Word
 // para ampliar automáticamente el documento y hacer visible toda la primera página.
-// Establezca la propiedad "ZoomType" en "ZoomType.TextFit" para obtener Microsoft Word
-// para hacer zoom automáticamente en el documento para que se ajuste a los márgenes de texto internos de la primera página.
+// Establece la propiedad "ZoomType" en "ZoomType.TextFit" para obtener Microsoft Word
+// para ampliar automáticamente el documento para que se ajuste a los márgenes internos del texto de la primera página.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

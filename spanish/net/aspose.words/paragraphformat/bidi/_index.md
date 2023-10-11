@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Bidi
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece si se trata de un párrafo de derecha a izquierda.
+description: ParagraphFormat propiedad. Obtiene o establece si se trata de un párrafo que se escribe de derecha a izquierda.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words/paragraphformat/bidi/
 ---
 ## ParagraphFormat.Bidi property
 
-Obtiene o establece si se trata de un párrafo de derecha a izquierda.
+Obtiene o establece si se trata de un párrafo que se escribe de derecha a izquierda.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,41 +16,41 @@ public bool Bidi { get; set; }
 
 ### Observaciones
 
-Cuando es verdadero, las carreras y otros objetos en línea en este párrafo se presentan de derecha a izquierda.
+Cuando`verdadero`, los tramos y otros objetos en línea en este párrafo están dispuestos de derecha a izquierda.
 
 ### Ejemplos
 
-Muestra cómo detectar la dirección del texto del documento de texto sin formato.
+Muestra cómo detectar la dirección del texto de un documento sin formato.
 
 ```csharp
-// Crear un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento
-// para modificar cómo cargamos un documento de texto sin formato.
+// Crea un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento.
+// para modificar cómo cargamos un documento de texto plano.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Establecer la propiedad "DocumentDirection" en "DocumentDirection.Auto" detecta automáticamente
+// Establece la propiedad "DocumentDirection" en "DocumentDirection.Auto" detecta automáticamente
 // la dirección de cada párrafo de texto que Aspose.Words carga desde texto sin formato.
 // La propiedad "Bidi" de cada párrafo almacenará su dirección.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// Detectar texto hebreo como de derecha a izquierda.
+// Detecta texto hebreo de derecha a izquierda.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Detectar texto en inglés como de derecha a izquierda.
+// Detecta texto en inglés de derecha a izquierda.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 ```
 
-Muestra cómo crear listas compatibles con el idioma de derecha a izquierda con campos BIDIOUTLINE.
+Muestra cómo crear listas compatibles con idiomas de derecha a izquierda con campos BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// El campo BIDIOUTLINE numera párrafos como los campos AUTONUM/LISTNUM,
-// pero solo es visible cuando está habilitado un idioma de edición de derecha a izquierda, como el hebreo o el árabe.
+// El campo BIDIOUTLINE numera los párrafos como los campos AUTONUM/LISTNUM,
+// pero solo es visible cuando está habilitado un idioma de edición de derecha a izquierda, como hebreo o árabe.
 // El siguiente campo mostrará ".1", el equivalente RTL del número de lista "1".
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
@@ -63,7 +63,7 @@ builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// Establecer la alineación de texto horizontal para cada párrafo del documento en RTL.
+// Establece la alineación horizontal del texto para cada párrafo del documento en RTL.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;

@@ -1,14 +1,14 @@
 ---
 title: Style.BuiltIn
 second_title: Referencia de API de Aspose.Words para .NET
-description: Style propiedad. Verdadero si este estilo es uno de los estilos incorporados en MS Word.
+description: Style propiedad. Verdadero si este estilo es uno de los estilos integrados en MS Word.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words/style/builtin/
 ---
 ## Style.BuiltIn property
 
-Verdadero si este estilo es uno de los estilos incorporados en MS Word.
+Verdadero si este estilo es uno de los estilos integrados en MS Word.
 
 ```csharp
 public bool BuiltIn { get; }
@@ -21,16 +21,16 @@ Muestra cómo diferenciar los estilos personalizados de los estilos integrados.
 ```csharp
 Document doc = new Document();
 
-// Cuando creamos un documento usando Microsoft Word, o programáticamente usando Aspose.Words,
+// Cuando creamos un documento usando Microsoft Word, o mediante programación usando Aspose.Words,
 // el documento vendrá con una colección de estilos para aplicar a su texto para modificar su apariencia.
 // Podemos acceder a estos estilos integrados a través de la colección "Estilos" del documento.
-// Todos estos estilos tendrán el indicador "BuiltIn" establecido en "true".
+// Todos estos estilos tendrán el indicador "BuiltIn" establecido en "verdadero".
 Style style = doc.Styles["Emphasis"];
 
 Assert.True(style.BuiltIn);
 
-// Crea un estilo personalizado y añádelo a la colección.
-  // Los estilos personalizados como este tendrán el indicador "BuiltIn" establecido en "falso".
+// Crea un estilo personalizado y agrégalo a la colección.
+// Los estilos personalizados como este tendrán el indicador "BuiltIn" establecido en "falso".
 style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Navy;
 style.Font.Name = "Courier New";

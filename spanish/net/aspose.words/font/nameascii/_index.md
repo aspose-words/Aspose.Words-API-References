@@ -1,14 +1,14 @@
 ---
 title: Font.NameAscii
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve o establece la fuente utilizada para el texto en latín caracteres con códigos de caracteres del 0 cero al 127.
+description: Font propiedad. Devuelve o establece la fuente utilizada para el texto latino caracteres con códigos de caracteres del 0 cero al 127.
 type: docs
 weight: 240
 url: /es/net/aspose.words/font/nameascii/
 ---
 ## Font.NameAscii property
 
-Devuelve o establece la fuente utilizada para el texto en latín (caracteres con códigos de caracteres del 0 (cero) al 127).
+Devuelve o establece la fuente utilizada para el texto latino (caracteres con códigos de caracteres del 0 (cero) al 127).
 
 ```csharp
 public string NameAscii { get; set; }
@@ -34,7 +34,7 @@ Assert.AreEqual("Calibri", builder.Font.Name);
 // Idealmente, esta fuente debería tener un glifo para cada código de carácter no ASCII requerido.
 builder.Font.NameOther = "Courier New";
 
-// Inserta una secuencia con una palabra que consta de caracteres ASCII y una palabra con todos los caracteres fuera de ese rango.
+// Inserte una ejecución con una palabra que consta de caracteres ASCII y una palabra con todos los caracteres fuera de ese rango.
 // Cada carácter se mostrará usando cualquiera de las fuentes, dependiendo de.
 builder.Writeln("Hello, Привет");
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado esfalso .
+description: HtmlSaveOptions propiedad. Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado esFALSO .
 type: docs
-weight: 140
+weight: 130
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado es`falso` .
+Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -16,26 +16,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ### Observaciones
 
-cuando se establece en`verdadero` , exporta campos de formulario desplegables como texto normal. Cuando`falso`, exporta campos de formulario desplegables como elemento SELECT en HTML.
+Cuando se establece en`verdadero` , exporta los campos del formulario desplegable como texto normal. Cuando`FALSO`, exporta campos de formulario desplegables como elemento SELECT en HTML.
 
-Al exportar a EPUB, los campos de formulario desplegables de texto siempre se guardan como texto debido a los requisitos de este formato .
+Al exportar a EPUB, los campos de texto del formulario desplegable siempre se guardan como texto debido a los requisitos de este formato.
 
 ### Ejemplos
 
-Muestra cómo obtener campos de formulario de cuadro combinado desplegable para combinar con el texto del párrafo al guardar en html.
+Muestra cómo hacer que los campos del formulario del cuadro combinado desplegable se mezclen con el texto del párrafo al guardar en HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un cuadro combinado con el valor "Dos" seleccionado.
+// Utilice un generador de documentos para insertar un cuadro combinado con el valor "Dos" seleccionado.
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
 // El indicador "ExportDropDownFormFieldAsText" de este objeto SaveOptions nos permite
-// controla cómo guardar el documento en HTML trata los cuadros combinados desplegables.
+// controla cómo se tratan los cuadros combinados desplegables al guardar el documento en HTML.
 // Establecerlo en "verdadero" convertirá cada cuadro combinado en texto simple
 // que muestra el valor seleccionado actualmente del cuadro combinado, congelándolo efectivamente.
-// Establecerlo en "false" preservará la funcionalidad del cuadro combinado usando <select> y <opción> etiquetas
+// Establecerlo en "falso" preservará la funcionalidad del cuadro combinado usando <select> y <opción> etiquetas.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageWatermarkOptions propiedad. Obtiene o establece un valor booleano que es responsable del efecto de lavado de la marca de agua. El valor predeterminado es Verdadero.
+description: ImageWatermarkOptions propiedad. Obtiene o establece un valor booleano que es responsable del efecto de eliminación de la marca de agua. El valor predeterminado esverdadero .
 type: docs
 weight: 20
 url: /es/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Obtiene o establece un valor booleano que es responsable del efecto de lavado de la marca de agua. El valor predeterminado es Verdadero.
+Obtiene o establece un valor booleano que es responsable del efecto de eliminación de la marca de agua. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -21,8 +21,8 @@ Muestra cómo crear una marca de agua a partir de una imagen en el sistema de ar
 ```csharp
 Document doc = new Document();
 
-            // Modificar la apariencia de la marca de agua de la imagen con un objeto ImageWatermarkOptions,
-            // luego páselo mientras crea una marca de agua a partir de un archivo de imagen.
+            // Modifica la apariencia de la marca de agua de la imagen con un objeto ImageWatermarkOptions,
+            // luego pásalo mientras creas una marca de agua a partir de un archivo de imagen.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

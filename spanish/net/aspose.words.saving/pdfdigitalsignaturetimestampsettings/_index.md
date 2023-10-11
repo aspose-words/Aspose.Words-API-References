@@ -3,12 +3,14 @@ title: Class PdfDigitalSignatureTimestampSettings
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings clase. Contiene la configuración de la marca de tiempo de la firma digital.
 type: docs
-weight: 5170
+weight: 5450
 url: /es/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
 
 Contiene la configuración de la marca de tiempo de la firma digital.
+
+Para obtener más información, visite el[Trabajar con firmas digitales](https://docs.aspose.com/words/net/working-with-digital-signatures/) artículo de documentación.
 
 ```csharp
 public class PdfDigitalSignatureTimestampSettings
@@ -33,7 +35,7 @@ public class PdfDigitalSignatureTimestampSettings
 
 ### Ejemplos
 
-Muestra cómo firmar digitalmente un documento PDF guardado y colocarle una marca de tiempo.
+Muestra cómo firmar digitalmente un documento PDF guardado y ponerle una marca de tiempo.
 
 ```csharp
 Document doc = new Document();
@@ -44,23 +46,23 @@ builder.Writeln("Signed PDF contents.");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-  // Crear una firma digital y asignarla a nuestro objeto SaveOptions para firmar el documento cuando lo guardemos en PDF.
+// Crea una firma digital y asígnala a nuestro objeto SaveOptions para firmar el documento cuando lo guardemos en PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crear una marca de tiempo verificada por la autoridad de marca de tiempo.
+// Crea una marca de tiempo verificada por la autoridad.
 options.DigitalSignatureDetails.TimestampSettings =
-    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mi contraseña");
+    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MiContraseña");
 
 // La vida útil predeterminada de la marca de tiempo es de 100 segundos.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Podemos establecer nuestro período de tiempo de espera a través del constructor.
+// Podemos establecer nuestro período de tiempo de espera mediante el constructor.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mi contraseña", TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
+Assert.AreEqual("https://freetsa.org/tsr", opciones.DigitalSignatureDetails.TimestampSettings.ServerUrl);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 

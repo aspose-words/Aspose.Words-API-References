@@ -16,7 +16,7 @@ public bool BorderSurroundsHeader { get; set; }
 
 ### Observaciones
 
-Tenga en cuenta que cambiar esta propiedad afecta a todas las secciones del documento.
+Nota: cambiar esta propiedad afecta a todas las secciones del documento.
 
 ### Ejemplos
 
@@ -38,10 +38,10 @@ PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// El objeto PageSetup de una sección tiene banderas "BorderSurroundsHeader" y "BorderSurroundsFooter" que determinan
-// si un borde de página rodea el texto del cuerpo principal, también incluye el encabezado o el pie de página, respectivamente.
-// Establecer el indicador "BorderSurroundsHeader" en "true" para rodear el encabezado con nuestro borde,
-// y luego configure el indicador "BorderSurroundsFooter" para dejar el pie de página fuera del borde.
+// El objeto PageSetup de una sección tiene los indicadores "BorderSurroundsHeader" y "BorderSurroundsFooter" que determinan
+// si un borde de página rodea el texto del cuerpo principal, también incluye el encabezado o pie de página, respectivamente.
+// Establece el indicador "BorderSurroundsHeader" en "true" para rodear el encabezado con nuestro borde,
+// y luego configura el indicador "BorderSurroundsFooter" para dejar el pie de página fuera del borde.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

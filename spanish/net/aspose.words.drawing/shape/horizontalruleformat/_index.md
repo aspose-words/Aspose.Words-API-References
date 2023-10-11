@@ -1,14 +1,14 @@
 ---
 title: Shape.HorizontalRuleFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal devuelve nulo.
+description: Shape propiedad. Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal devuelvenulo .
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal, devuelve nulo.
+Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal, devuelve`nulo` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }

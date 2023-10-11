@@ -3,12 +3,14 @@ title: Class FontSourceBase
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fonts.FontSourceBase clase. Esta es una clase base abstracta para las clases que permiten al usuario especificar varias fuentes de fuentes.
 type: docs
-weight: 2800
+weight: 2980
 url: /es/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
 Esta es una clase base abstracta para las clases que permiten al usuario especificar varias fuentes de fuentes.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public abstract class FontSourceBase
@@ -18,15 +20,15 @@ public abstract class FontSourceBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Devuelve la prioridad de origen de la fuente. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Devuelve la prioridad de fuente de fuente. |
 | abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Devuelve el tipo de fuente fuente. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Llamado durante el procesamiento del origen de la fuente cuando se detecta un problema que podría resultar en la pérdida de fidelidad del formato. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve la lista de fuentes disponibles a través de esta fuente. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 
 ### Ejemplos
 

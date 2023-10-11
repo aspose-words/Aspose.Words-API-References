@@ -3,7 +3,7 @@ title: PageSetup.PageWidth
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageSetup propiedad. Devuelve o establece el ancho de la página en puntos.
 type: docs
-weight: 330
+weight: 340
 url: /es/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property
@@ -16,7 +16,7 @@ public double PageWidth { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();
@@ -73,18 +73,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Configure la propiedad "RelativeHorizontalPosition" de la forma para tratar el valor de la propiedad "Left"
+// Configura la propiedad "RelativeHorizontalPosition" de la forma para tratar el valor de la propiedad "Left"
  // como la distancia horizontal de la forma, en puntos, desde el lado izquierdo de la página.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Establecer la distancia horizontal de la forma desde el lado izquierdo de la página a 100.
+// Establece la distancia horizontal de la forma desde el lado izquierdo de la página a 100.
 shape.Left = 100;
 
-// Use la propiedad "RelativeVerticalPosition" de manera similar para colocar la forma 80 puntos debajo de la parte superior de la página.
+// Utilice la propiedad "RelativeVerticalPosition" de manera similar para colocar la forma 80 puntos debajo de la parte superior de la página.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Establecer la altura de la forma, que escalará automáticamente el ancho para conservar las dimensiones.
+// Establece la altura de la forma, que escalará automáticamente el ancho para preservar las dimensiones.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);

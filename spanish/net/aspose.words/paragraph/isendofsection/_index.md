@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero si este párrafo es el último párrafo del Cuerpo historia del texto principal de un Sección  falso en caso contrario.
+description: Paragraph propiedad. Verdadero si este párrafo es el último párrafo delBody historia del texto principal de unSection  falso en caso contrario.
 type: docs
 weight: 80
 url: /es/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Verdadero si este párrafo es el último párrafo del **Cuerpo** (historia del texto principal) de un **Sección** ; falso en caso contrario.
+Verdadero si este párrafo es el último párrafo del[`Body`](../../body/) (historia del texto principal) de un[`Section`](../../section/) ; falso en caso contrario.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -19,7 +19,6 @@ public bool IsEndOfSection { get; }
 Muestra cómo insertar el contenido de un documento en un marcador de otro documento.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -55,8 +54,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Recorre todos los nodos a nivel de bloque en el cuerpo de la sección,
-        // luego clone e inserte cada nodo que no sea el último párrafo vacío de una sección.
+        // recorre todos los nodos a nivel de bloque en el cuerpo de la sección,
+        // luego clona e inserta cada nodo que no sea el último párrafo vacío de una sección.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

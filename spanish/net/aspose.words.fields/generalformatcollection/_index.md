@@ -3,12 +3,14 @@ title: Class GeneralFormatCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.GeneralFormatCollection clase. Representa una colección escrita de formatos generales.
 type: docs
-weight: 2490
+weight: 2650
 url: /es/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Representa una colección escrita de formatos generales.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -28,7 +30,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Agrega un formato general a la colección. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Devuelve un objeto enumerador. |
 | [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Elimina todas las apariciones del formato general especificado de la colección. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Elimina una ocurrencia de formato general en el índice especificado. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Elimina una aparición de formato general en el índice especificado. |
 
 ### Ejemplos
 
@@ -38,7 +40,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

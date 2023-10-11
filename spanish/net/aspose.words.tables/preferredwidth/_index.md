@@ -3,12 +3,14 @@ title: Class PreferredWidth
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.PreferredWidth clase. Representa un valor y su unidad de medida que se utiliza para especificar el ancho preferido de una tabla o celda.
 type: docs
-weight: 5990
+weight: 6290
 url: /es/net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
 
 Representa un valor y su unidad de medida que se utiliza para especificar el ancho preferido de una tabla o celda.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public sealed class PreferredWidth
@@ -25,10 +27,10 @@ public sealed class PreferredWidth
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado como un porcentaje. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado mediante una cantidad de puntos. |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado como porcentaje. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado usando una cantidad de puntos. |
 | override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Determina si el PreferredWidth especificado tiene el mismo valor que el PreferredWidth actual. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Determina si el especificado`PreferredWidth` es igual en valor a la corriente`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Sirve como función hash para este tipo. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Devuelve una cadena fácil de usar que muestra el valor de este objeto. |
 
@@ -36,17 +38,17 @@ public sealed class PreferredWidth
 
 | Nombre | Descripción |
 | --- | --- |
-| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Devuelve una instancia que representa el valor "no se especifica el ancho preferido". |
+| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Devuelve una instancia que representa el valor "el ancho preferido no está especificado". |
 
 ### Observaciones
 
-El ancho preferido se puede especificar como un porcentaje, número de puntos o un valor especial "ninguno/automático".
+El ancho preferido se puede especificar como porcentaje, número de puntos o un valor especial "ninguno/automático".
 
 Las instancias de esta clase son inmutables.
 
 ### Ejemplos
 
-Muestra cómo configurar una tabla para que se ajuste automáticamente al 50 % del ancho de la página.
+Muestra cómo configurar una tabla para que se ajuste automáticamente al 50% del ancho de la página.
 
 ```csharp
 Document doc = new Document();
@@ -73,13 +75,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

@@ -16,23 +16,23 @@ public double Kerning { get; set; }
 
 ### Ejemplos
 
-Muestra cómo especificar el tamaño de fuente en el que el interletraje comienza a tener efecto.
+Muestra cómo especificar el tamaño de fuente a partir del cual el interletraje comienza a surtir efecto.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial Black";
 
-// Establecer el tamaño de fuente del constructor y el tamaño mínimo en el que tendrá efecto el interletraje.
-// El tamaño de fuente cae por debajo del umbral de interletraje, por lo que la siguiente ejecución no tendrá interletraje.
+// Establece el tamaño de fuente del constructor y el tamaño mínimo en el que el kerning tendrá efecto.
+// El tamaño de fuente cae por debajo del umbral de kerning, por lo que la siguiente ejecución no tendrá kerning.
 builder.Font.Size = 18;
 builder.Font.Kerning = 24;
 
 builder.Writeln("TALLY. (Kerning not applied)");
 
-// Establecer el umbral de interletraje para que el tamaño de fuente actual del constructor esté por encima de él.
-// Cualquier texto que agreguemos desde este punto tendrá aplicado kerning. Los espacios entre caracteres
-// se ajustará, lo que normalmente dará como resultado una ejecución de texto ligeramente más agradable estéticamente.
+// Establece el umbral de kerning para que el tamaño de fuente actual del constructor esté por encima de él.
+// A cualquier texto que agreguemos desde este punto se le aplicará el kerning. Los espacios entre personajes.
+// se ajustará, lo que normalmente dará como resultado una ejecución de texto ligeramente más agradable desde el punto de vista estético.
 builder.Font.Kerning = 12;
 
 builder.Writeln("TALLY. (Kerning applied)");

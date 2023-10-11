@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.Target
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldHyperlink propiedad. Obtiene o establece el destino al que debe redirigirse el enlace.
+description: FieldHyperlink propiedad. Obtiene o establece el destino al que se debe redirigir el enlace.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldhyperlink/target/
 ---
 ## FieldHyperlink.Target property
 
-Obtiene o establece el destino al que debe redirigirse el enlace.
+Obtiene o establece el destino al que se debe redirigir el enlace.
 
 ```csharp
 public string Target { get; set; }
@@ -16,7 +16,7 @@ public string Target { get; set; }
 
 ### Ejemplos
 
-Muestra cómo utilizar los campos de HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
+Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document();

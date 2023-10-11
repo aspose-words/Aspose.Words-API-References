@@ -16,7 +16,7 @@ public double LineWidth { get; set; }
 
 ### Observaciones
 
-Si establece un ancho de línea mayor que cero cuando el estilo de línea es ninguno, el estilo de línea is cambiará automáticamente a una sola línea.
+Si establece un ancho de línea mayor que cero cuando el estilo de línea es ninguno, el estilo de línea is cambia automáticamente a una sola línea.
 
 ### Ejemplos
 

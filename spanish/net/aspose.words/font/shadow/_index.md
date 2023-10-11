@@ -1,14 +1,14 @@
 ---
 title: Font.Shadow
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente está formateada como sombreada.
+description: Font propiedad. Verdadero si la fuente tiene el formato sombreado.
 type: docs
 weight: 330
 url: /es/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
 
-Verdadero si la fuente está formateada como sombreada.
+Verdadero si la fuente tiene el formato sombreado.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -16,13 +16,13 @@ public bool Shadow { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear una tirada de texto formateado con una sombra.
+Muestra cómo crear una serie de texto formateado con una sombra.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establecer la bandera Sombra para aplicar un efecto de sombra desplazada,
+// Establece la bandera Sombra para aplicar un efecto de sombra desplazada,
 // haciendo que parezca que las letras flotan sobre la página.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;

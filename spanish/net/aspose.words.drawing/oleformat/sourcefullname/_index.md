@@ -1,14 +1,14 @@
 ---
 title: OleFormat.SourceFullName
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene o establece la ruta y el nombre del archivo de origen del objeto OLE vinculado.
+description: OleFormat propiedad. Obtiene o establece la ruta y el nombre del archivo fuente para el objeto OLE vinculado.
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
 
-Obtiene o establece la ruta y el nombre del archivo de origen del objeto OLE vinculado.
+Obtiene o establece la ruta y el nombre del archivo fuente para el objeto OLE vinculado.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -28,7 +28,7 @@ Muestra cómo insertar objetos OLE vinculados y no vinculados.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Incruste un dibujo de Microsoft Visio en el documento como un objeto OLE.
+// Incrustar un dibujo de Microsoft Visio en el documento como un objeto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // Inserte un enlace al archivo en el sistema de archivos local y muéstrelo como un icono.
@@ -59,7 +59,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si el objeto contiene datos OLE, podemos acceder a él usando una secuencia.
+// Si el objeto contiene datos OLE, podemos acceder a él mediante una secuencia.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

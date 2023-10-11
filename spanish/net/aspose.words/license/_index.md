@@ -3,12 +3,14 @@ title: Class License
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.License clase. Proporciona métodos para licenciar el componente.
 type: docs
-weight: 3220
+weight: 3420
 url: /es/net/aspose.words/license/
 ---
 ## License class
 
 Proporciona métodos para licenciar el componente.
+
+Para obtener más información, visite el[Licencia y suscripción](https://docs.aspose.com/words/net/licensing/) artículo de documentación.
 
 ```csharp
 public class License
@@ -38,7 +40,7 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Crear una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
+// Crea una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 

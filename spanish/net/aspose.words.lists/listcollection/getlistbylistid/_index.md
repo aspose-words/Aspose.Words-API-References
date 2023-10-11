@@ -1,14 +1,14 @@
 ---
 title: ListCollection.GetListByListId
 second_title: Referencia de API de Aspose.Words para .NET
-description: ListCollection método. Obtiene una lista por un identificador de lista.
+description: ListCollection método. Obtiene una lista mediante un identificador de lista.
 type: docs
 weight: 70
 url: /es/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
 
-Obtiene una lista por un identificador de lista.
+Obtiene una lista mediante un identificador de lista.
 
 ```csharp
 public List GetListByListId(int listId)
@@ -20,25 +20,23 @@ public List GetListByListId(int listId)
 
 ### Valor_devuelto
 
-Devuelve el objeto de la lista. Devuelve nulo si no se encuentra una lista con el identificador especificado.
+Devuelve el objeto de lista. Devoluciones`nulo` si no se encontró una lista con el identificador especificado.
 
 ### Observaciones
 
-Normalmente no es necesario utilizar este método. La mayoría de las veces aplica el formato de lista a los párrafos simplemente configurando el[`List`](../../listformat/list/) propiedad de la[`ListFormat`](../../listformat/) objeto.
+Normalmente no es necesario utilizar este método. La mayoría de las veces aplica el formato de lista a los párrafos simplemente configurando el[`List`](../../listformat/list/) propiedad del[`ListFormat`](../../listformat/) objeto.
 
 ### Ejemplos
 
-Muestra cómo verificar las propiedades del documento de propietario de las listas.
+Muestra cómo verificar las propiedades del documento del propietario de las listas.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

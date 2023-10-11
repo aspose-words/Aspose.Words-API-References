@@ -22,7 +22,7 @@ Muestra cómo crear texto marcado con un campo SET y luego mostrarlo en el docum
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-  // Nombre el texto marcado con un campo SET.
+ // Nombra el texto marcado como favorito con un campo SET.
 // Este campo se refiere al "marcador", no a una estructura de marcador que aparece dentro del texto, sino a una variable con nombre.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Hacer referencia al marcador por su nombre en un campo REF y mostrar su contenido.
+// Consulte el marcador por nombre en un campo REF y muestre su contenido.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
@@ -42,7 +42,7 @@ Assert.AreEqual("Hello world!", fieldRef.Result);
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```
 
-Muestra cómo insertar campos REF en marcadores de referencia.
+Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
 ```csharp
 public void FieldRef()
@@ -57,11 +57,11 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Aplicaremos un formato de lista personalizado, donde la cantidad de paréntesis angulares indica el nivel de lista en el que nos encontramos actualmente.
+    // Aplicaremos un formato de lista personalizado, donde la cantidad de corchetes angulares indica el nivel de lista en el que nos encontramos actualmente.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Inserte un campo REF que contendrá el texto dentro de nuestro marcador, actuará como un hipervínculo y clonará las notas al pie del marcador.
+    // Inserta un campo REF que contendrá el texto dentro de nuestro marcador, actuará como un hipervínculo y clonará las notas al pie del marcador.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
@@ -80,7 +80,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Mostrar el número de lista del marcador, pero con caracteres no delimitadores, como los corchetes angulares, omitidos.
+    // Muestra el número de lista del marcador, pero se omiten los caracteres no delimitadores, como los corchetes angulares.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
@@ -91,7 +91,7 @@ public void FieldRef()
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Mostrar el número de lista del marcador y los números de todos los niveles de lista por encima de él.
+    // Muestra el número de lista del marcador y los números de todos los niveles de lista encima de él.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -99,22 +99,23 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Mostrar los números de nivel de lista entre este campo REF y el marcador al que hace referencia.
+    // Muestra los números de nivel de lista entre este campo REF y el marcador al que hace referencia.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // Al final del documento, el marcador aparecerá aquí como un elemento de la lista.
+    // Al final del documento, el marcador aparecerá aquí como un elemento de lista.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// Obtener el generador de documentos para insertar un campo REF, hacer referencia a un marcador con él y agregar texto antes y después.
+/// Haga que el creador de documentos inserte un campo REF, haga referencia a un marcador con él y agregue texto antes y después.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

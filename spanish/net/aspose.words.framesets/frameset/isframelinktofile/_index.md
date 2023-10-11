@@ -1,14 +1,14 @@
 ---
 title: Frameset.IsFrameLinkToFile
 second_title: Referencia de API de Aspose.Words para .NET
-description: Frameset propiedad. Obtiene o establece un valor que indica si la página web o el nombre de archivo del documento especificado en el FrameDefaultUrl La propiedad es un recurso externo con el que está vinculado el marco.
+description: Frameset propiedad. Obtiene o establece un valor que indica si la página web o el nombre del archivo del documento especificado en FrameDefaultUrl La propiedad es un recurso externo con el que el marco está vinculado.
 type: docs
 weight: 40
 url: /es/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-Obtiene o establece un valor que indica si la página web o el nombre de archivo del documento especificado en el [`FrameDefaultUrl`](../framedefaulturl/) La propiedad es un recurso externo con el que está vinculado el marco.
+Obtiene o establece un valor que indica si la página web o el nombre del archivo del documento especificado en [`FrameDefaultUrl`](../framedefaulturl/) La propiedad es un recurso externo con el que el marco está vinculado.
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }
@@ -22,7 +22,7 @@ Muestra cómo acceder a los marcos en la página.
 // El documento contiene varios marcos con enlaces a otros documentos.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Podemos verificar la URL predeterminada (una URL de página web o un documento local) o si el marco es un recurso externo.
+// Podemos verificar la URL predeterminada (la URL de una página web o un documento local) o si el marco es un recurso externo.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

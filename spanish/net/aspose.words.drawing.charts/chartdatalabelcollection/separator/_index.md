@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.Separator
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Obtiene o establece el separador de cadenas utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje en los que se debe usar un salto de línea en su lugar.
+description: ChartDataLabelCollection propiedad. Obtiene o establece el separador de cadena utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje cuando en su lugar se utilizará un salto de línea .
 type: docs
-weight: 40
+weight: 60
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 ## ChartDataLabelCollection.Separator property
 
-Obtiene o establece el separador de cadenas utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma, excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje, en los que se debe usar un salto de línea en su lugar.
+Obtiene o establece el separador de cadena utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma, excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje, cuando en su lugar se utilizará un salto de línea .
 
 ```csharp
 public string Separator { get; set; }
@@ -16,7 +16,7 @@ public string Separator { get; set; }
 
 ### Observaciones
 
-El valor definido para esta propiedad se puede anular para una etiqueta de datos individual con el uso de [`Separator`](../../chartdatalabel/separator/) propiedad.
+El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`Separator`](../../chartdatalabel/separator/) propiedad.
 
 ### Ejemplos
 
@@ -28,10 +28,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-  // Agregue una serie personalizada con las coordenadas X/Y y el diámetro de cada una de las burbujas.
+// Agrega una serie personalizada con coordenadas X/Y y diámetro de cada una de las burbujas.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
@@ -56,15 +56,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Inserte una serie de gráficos personalizados con un nombre de categoría para cada uno de los sectores y su tabla de frecuencia.
+// Inserta una serie de gráficos personalizados con un nombre de categoría para cada uno de los sectores y su tabla de frecuencia.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Habilite las etiquetas de datos que mostrarán tanto el porcentaje como la frecuencia de cada sector, y modifique su apariencia.
+// Habilita etiquetas de datos que mostrarán tanto el porcentaje como la frecuencia de cada sector, y modificarán su apariencia.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

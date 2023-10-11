@@ -3,12 +3,14 @@ title: Class NodeChangingArgs
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.NodeChangingArgs clase. Proporciona datos para los métodos delINodeChangingCallback interfaz.
 type: docs
-weight: 3950
+weight: 4190
 url: /es/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
 Proporciona datos para los métodos del[`INodeChangingCallback`](../inodechangingcallback/) interfaz.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class NodeChangingArgs
@@ -28,12 +30,13 @@ public class NodeChangingArgs
 Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Establecer la devolución de llamada de cambio de nodo a la implementación personalizada,
-    // luego agregue/elimine nodos para que genere un registro.
+    // Establece la devolución de llamada de cambio de nodo para una implementación personalizada,
+    // luego agrega/elimina nodos para que genere un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +48,11 @@ Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Registra la fecha y la hora de inserción y eliminación de cada nodo.
-/// Establece un nombre/tamaño de fuente personalizado para el contenido de texto de los nodos de ejecución.
+/// Registra la fecha y hora de cada inserción y eliminación de nodos.
+/// Establece un nombre/tamaño de fuente personalizado para el contenido del texto de los nodos Ejecutar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

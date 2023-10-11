@@ -1,14 +1,14 @@
 ---
 title: CellFormat.FitText
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Si es verdadero ajusta el texto en la celda comprimiendo cada párrafo al ancho de la celda.
+description: CellFormat propiedad. siverdadero  ajusta el texto en la celda comprimiendo cada párrafo al ancho de la celda.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-Si es verdadero, ajusta el texto en la celda, comprimiendo cada párrafo al ancho de la celda.
+si`verdadero` , ajusta el texto en la celda, comprimiendo cada párrafo al ancho de la celda.
 
 ```csharp
 public bool FitText { get; set; }
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Establecer opciones de formato de tabla para un generador de documentos
-// los aplicará a cada fila y celda que agreguemos con él.
+// Configurar opciones de formato de tabla para un creador de documentos
+// los aplicará a cada fila y celda que agreguemos con ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // Cambiar el formato lo aplicará a la celda actual,
-// y cualquier celda nueva que creemos con el constructor después.
-// Esto no afectará a las celdas que hemos agregado previamente.
+// y cualquier celda nueva que creemos con el constructor posteriormente.
+// Esto no afectará a las celdas que hayamos añadido anteriormente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

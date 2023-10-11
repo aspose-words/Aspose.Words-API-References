@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyle.BottomPadding
 second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se debe agregar debajo del contenido de las celdas de la tabla.
+description: ConditionalStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará debajo del contenido de las celdas de la tabla.
 type: docs
 weight: 20
 url: /es/net/aspose.words/conditionalstyle/bottompadding/
 ---
 ## ConditionalStyle.BottomPadding property
 
-Obtiene o establece la cantidad de espacio (en puntos) que se debe agregar debajo del contenido de las celdas de la tabla.
+Obtiene o establece la cantidad de espacio (en puntos) que se agregará debajo del contenido de las celdas de la tabla.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -16,7 +16,7 @@ public double BottomPadding { get; set; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con determinados estilos de área de una tabla.
+Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.EndTable();
 // Crea un estilo de tabla personalizado.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Los estilos condicionales son cambios de formato que afectan solo a algunas de las celdas de la tabla
+// Los estilos condicionales son cambios de formato que afectan sólo a algunas de las celdas de la tabla.
 // basado en un predicado, como que las celdas estén en la última fila.
 // A continuación se muestran tres formas de acceder a los estilos condicionales de un estilo de tabla desde la colección "ConditionalStyles".
 // 1 - Por tipo de estilo:
@@ -58,7 +58,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Lista todas las condiciones de estilo posibles.
+// Enumere todas las condiciones de estilo posibles.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -71,11 +71,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Aplicar el estilo personalizado, que contiene todos los estilos condicionales, a la tabla.
 table.Style = tableStyle;
 
-// Nuestro estilo aplica algunos estilos condicionales por defecto.
+// Nuestro estilo aplica algunos estilos condicionales de forma predeterminada.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Tendremos que habilitar todos los demás estilos nosotros mismos a través de la propiedad "StyleOptions".
+// Necesitaremos habilitar todos los demás estilos nosotros mismos a través de la propiedad "StyleOptions".
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

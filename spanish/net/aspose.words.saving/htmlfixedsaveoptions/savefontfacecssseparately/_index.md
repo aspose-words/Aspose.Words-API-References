@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. El indicador indica si las reglas CSS fontface deben colocarse en un archivo separado fontFaces.css cuando se guarda un documento con una hoja de estilo externa es decir cuandoExportEmbeddedCss esfalso . El valor predeterminado esfalso  todas las reglas CSS se escriben en un solo archivo styles.css.
+description: HtmlFixedSaveOptions propiedad. El indicador indica si las reglas CSS fontface deben colocarse en un archivo separado fontFaces.css cuando un documento se guarda con una hoja de estilo externa es decir cuandoExportEmbeddedCss esFALSO . El valor predeterminado esFALSO  todas las reglas CSS se escriben en un único archivo styles.css.
 type: docs
 weight: 160
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-El indicador indica si las reglas CSS "@font-face" deben colocarse en un archivo separado "fontFaces.css" cuando se guarda un documento con una hoja de estilo externa (es decir, cuando[`ExportEmbeddedCss`](../exportembeddedcss/) es`falso` ). El valor predeterminado es`falso` , todas las reglas CSS se escriben en un solo archivo "styles.css".
+El indicador indica si las reglas CSS "@font-face" deben colocarse en un archivo separado "fontFaces.css" cuando un documento se guarda con una hoja de estilo externa (es decir, cuando[`ExportEmbeddedCss`](../exportembeddedcss/) es`FALSO` ). El valor predeterminado es`FALSO` , todas las reglas CSS se escriben en un único archivo "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -20,7 +20,7 @@ Establecer esta propiedad en`verdadero` restaura el comportamiento anterior (arc
 
 ### Ejemplos
 
-Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clase CSS.
+Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clases CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

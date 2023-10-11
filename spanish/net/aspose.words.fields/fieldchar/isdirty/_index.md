@@ -32,13 +32,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Recuperar el objeto de fachada que representa el campo en el documento.
+// Recupera el objeto de fachada que representa el campo en el documento.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Actualizar el campo para mostrar la fecha actual.
+// Actualiza el campo para mostrar la fecha actual.
 field.Update();
 ```
 

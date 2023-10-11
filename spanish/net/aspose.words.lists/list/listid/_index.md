@@ -16,21 +16,19 @@ public int ListId { get; }
 
 ### Observaciones
 
-Normalmente no es necesario utilizar esta propiedad. Pero si lo usa, normalmente lo hace junto con el[`GetListByListId`](../../listcollection/getlistbylistid/) método para encontrar una lista a por su identificador.
+Normalmente no es necesario utilizar esta propiedad. Pero si lo usas, normalmente lo haces junto con el[`GetListByListId`](../../listcollection/getlistbylistid/) Método para encontrar una lista por su identificador.
 
 ### Ejemplos
 
-Muestra cómo verificar las propiedades del documento de propietario de las listas.
+Muestra cómo verificar las propiedades del documento del propietario de las listas.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

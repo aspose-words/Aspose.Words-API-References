@@ -1,14 +1,14 @@
 ---
 title: TextBox.InternalMarginRight
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Especifica el margen interior derecho en puntos para una forma.
+description: TextBox propiedad. Especifica el margen interior derecho en puntos de una forma.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-Especifica el margen interior derecho en puntos para una forma.
+Especifica el margen interior derecho en puntos de una forma.
 
 ```csharp
 public double InternalMarginRight { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SpacingInWholePoints
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Solo expandir/condensar texto por puntos enteros.
+description: CompatibilityOptions propiedad. Sólo expandir/condensar texto en puntos enteros.
 type: docs
 weight: 450
 url: /es/net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
 ---
 ## CompatibilityOptions.SpacingInWholePoints property
 
-Solo expandir/condensar texto por puntos enteros.
+Sólo expandir/condensar texto en puntos enteros.
 
 ```csharp
 public bool SpacingInWholePoints { get; set; }

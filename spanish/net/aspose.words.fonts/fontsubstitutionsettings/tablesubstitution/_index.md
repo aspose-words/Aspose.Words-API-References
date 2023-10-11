@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuración relacionada con la regla de sustitución de tablas.
+description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de tablas.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 ---
 ## FontSubstitutionSettings.TableSubstitution property
 
-Configuración relacionada con la regla de sustitución de tablas.
+Configuraciones relacionadas con la regla de sustitución de tablas.
 
 ```csharp
 public TableSubstitutionRule TableSubstitution { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Cree una nueva regla de sustitución de tablas y cargue la tabla de sustitución de fuentes predeterminada de Windows.
+// Crea una nueva regla de sustitución de tablas y carga la tabla de sustitución de fuentes predeterminada de Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
 // Si seleccionamos fuentes exclusivamente de nuestra carpeta, necesitaremos una tabla de sustitución personalizada.
@@ -33,7 +33,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // A continuación se muestran dos formas de cargar una tabla de sustitución desde un archivo en el sistema de archivos local.
-// 1 - De un flujo:
+// 1 - Desde una secuencia:
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
@@ -46,12 +46,12 @@ tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 // No tenemos esta fuente, por lo que pasará al siguiente sustituto, "Kreon", que se encuentra en la carpeta "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Podemos expandir esta tabla programáticamente. Añadiremos una entrada que sustituya "Times New Roman" por "Arvo"
+// Podemos expandir esta tabla mediante programación. Agregaremos una entrada que sustituya "Times New Roman" por "Arvo"
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Podemos agregar un sustituto alternativo secundario para una entrada de fuente existente con AddSubstitutes().
+// Podemos agregar un sustituto secundario para una entrada de fuente existente con AddSubstitutes().
 // En caso de que "Arvo" no esté disponible, nuestra tabla buscará "M+ 2m" como segunda opción sustituta.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());

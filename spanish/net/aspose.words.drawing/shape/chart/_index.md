@@ -1,14 +1,14 @@
 ---
 title: Shape.Chart
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Proporciona acceso a las propiedades del gráfico si esta forma tiene un Gráfico.
+description: Shape propiedad. Proporciona acceso a las propiedades del gráfico si esta forma tiene unChart .
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Proporciona acceso a las propiedades del gráfico si esta forma tiene un Gráfico.
+Proporciona acceso a las propiedades del gráfico si esta forma tiene un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -16,13 +16,14 @@ public Chart Chart { get; }
 
 ### Observaciones
 
-Esta propiedad devolverá la`Chart` objeto sólo si[`HasChart`](../haschart/) La propiedad es verdadera para esta forma y, de lo contrario, generará una excepción.
+Esta propiedad devolverá el[`Chart`](../../../aspose.words.drawing.charts/chart/) objeto sólo si[`HasChart`](../haschart/) propiedad es`verdadero` para esto[`Shape`](../)y, de lo contrario, generará una excepción.
 
 ### Ejemplos
 
-Muestra cómo iterar sobre todas las formas en un documento.
+Muestra cómo iterar sobre todas las formas de un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -44,7 +45,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea a StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
+    /// Agrega una línea al StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -54,7 +55,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devolver todo el texto que ha acumulado el StringBuilder.
+    /// Devuelve todo el texto que ha acumulado StringBuilder.
     /// </summary>
     public string GetText()
     {
@@ -62,7 +63,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo Shape.
+    /// Se llama cuando este visitante visita el inicio de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -98,7 +99,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo Shape.
+    /// Se llama cuando este visitante visita el final de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -110,7 +111,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el inicio de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -121,7 +122,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el final de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

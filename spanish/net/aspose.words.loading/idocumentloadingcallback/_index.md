@@ -3,7 +3,7 @@ title: Interface IDocumentLoadingCallback
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Loading.IDocumentLoadingCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante la carga de un documento.
 type: docs
-weight: 3430
+weight: 3630
 url: /es/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -18,14 +18,13 @@ public interface IDocumentLoadingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Se llama para notificar el progreso de la carga del documento. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Esto se llama para notificar el progreso de la carga del documento. |
 
 ### Ejemplos
 
 Muestra cómo notificar al usuario si la carga del documento excedió el tiempo de carga esperado.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -40,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Manejar el problema de la duración de la carga.
+        // Manejar el problema de duración de la carga.
     }
 }
 
 /// <summary>
-/// Cancelar la carga de un documento después de los segundos "MaxDuration".
+/// Cancelar la carga de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public LoadingProgressCallback()
     {

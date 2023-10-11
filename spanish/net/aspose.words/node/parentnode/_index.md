@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ### Observaciones
 
-Si se acaba de crear un nodo y aún no se agregó al árbol, o si se eliminó del árbol, el padre es nulo.
+Si se acaba de crear un nodo y aún no se ha agregado al árbol, o si se ha eliminado del árbol, el padre es`nulo`.
 
 ### Ejemplos
 
@@ -26,36 +26,36 @@ Muestra cómo acceder al nodo principal de un nodo.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Agregar un nodo Ejecutar secundario al primer párrafo del documento.
+// Agrega un nodo Ejecutar secundario al primer párrafo del documento.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// El párrafo es el nodo principal del nodo de ejecución. Podemos rastrear este linaje
-// hasta el nodo del documento, que es la raíz del árbol de nodos del documento.
+// El párrafo es el nodo padre del nodo de ejecución. Podemos rastrear este linaje.
+// hasta llegar al nodo del documento, que es la raíz del árbol de nodos del documento.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
 Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
 Assert.AreEqual(doc, doc.FirstSection.ParentNode);
 ```
 
-Muestra cómo crear un nodo y establecer su documento propietario.
+Muestra cómo crear un nodo y configurar su documento propietario.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Todavía no hemos agregado este párrafo como elemento secundario a ningún nodo compuesto.
+// Todavía no hemos agregado este párrafo como hijo a ningún nodo compuesto.
 Assert.IsNull(para.ParentNode);
 
-// Si un nodo es un tipo de nodo hijo apropiado de otro nodo compuesto,
+// Si un nodo es un tipo de nodo secundario apropiado de otro nodo compuesto,
 // podemos adjuntarlo como hijo solo si ambos nodos tienen el mismo documento de propietario.
-// El documento propietario es el documento que le pasamos al constructor del nodo.
+// El documento propietario es el documento que pasamos al constructor del nodo.
 // No hemos adjuntado este párrafo al documento, por lo que el documento no contiene su texto.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Dado que el documento posee este párrafo, podemos aplicar uno de sus estilos al contenido del párrafo.
+// Dado que el documento es propietario de este párrafo, podemos aplicar uno de sus estilos al contenido del párrafo.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Agregue este nodo al documento y luego verifique su contenido.

@@ -16,8 +16,8 @@ public void Add(string name, string value)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| name | String | El nombre que no distingue entre mayúsculas y minúsculas de la variable que se va a agregar. |
-| value | String | El valor de la variable. El valor no puede ser nulo, si el valor es nulo, se usará una cadena vacía en su lugar. |
+| name | String | El nombre de la variable que se va a agregar, que no distingue entre mayúsculas y minúsculas. |
+| value | String | El valor de la variable. El valor no puede ser`nulo`, si el valor es nulo, se utilizará una cadena vacía en su lugar. |
 
 ### Ejemplos
 
@@ -61,12 +61,12 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar sobre la colección de variables.
+// Enumerar la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documentos de una colección.
+// A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 

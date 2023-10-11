@@ -18,9 +18,9 @@ public string ResourceFileUri { get; set; }
 
 Esta propiedad le permite cambiar los URI de los archivos de recursos exportados a documentos HTML o SVG de página fija.
 
-Aspose.Words genera automáticamente un URI para cada archivo de recursos durante la exportación a formato HTML o SVG de página fija. Los URI generados hacen referencia a los archivos de recursos guardados por Aspose.Words. Sin embargo, los URI pueden ser incorrectos si los archivos de recursos se van a mover a otra ubicación o si los archivos de recursos se guardan en secuencias. Esta propiedad permite corregir los URI en estos casos.
+Aspose.Words genera automáticamente un URI para cada archivo de recursos durante la exportación a formato HTML de página fija o SVG. Los URI generados hacen referencia a archivos de recursos guardados por Aspose.Words. Sin embargo, los URI pueden ser incorrectos si los archivos de recursos se van a mover a otra ubicación o si los archivos de recursos se guardan en secuencias. Esta propiedad permite corregir los URI en estos casos.
 
-Cuando se activa el evento, esta propiedad contiene el URI que Aspose.Words generó . Puede cambiar el valor de esta propiedad para proporcionar un URI personalizado para el archivo de recursos.
+Cuando se activa el evento, esta propiedad contiene el URI generado por Aspose.Words. Puede cambiar el valor de esta propiedad para proporcionar un URI personalizado para el archivo de recursos.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Llamado cuando Aspose.Words guarda un recurso externo en una página fija HTML o SVG.
+    /// Se llama cuando Aspose.Words guarda un recurso externo en una página fija HTML o SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### Observaciones
 
-No puede ser nulo.
+No puede ser`nulo`.
 
 ### Ejemplos
 
@@ -29,14 +29,14 @@ Document doc = new Document(MyDir + "Properties.docx");
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // El documento también almacena metadatos en sus propiedades integradas.
-// Cada propiedad incorporada es un miembro del objeto "BuiltInDocumentProperties" del documento.
+// Cada propiedad integrada es miembro del objeto "BuiltInDocumentProperties" del documento.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // Algunas propiedades pueden almacenar varios valores.
+    // Algunas propiedades pueden almacenar múltiples valores.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

@@ -32,13 +32,13 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations solo está disponible en los formatos Pdf1.7 y Pdf1.5.
-// En otros formatos, funcionará de manera similar a Hide.
+// ShowInAnnotations solo está disponible en formatos Pdf1.7 y Pdf1.5.
+// En otros formatos, funcionará de manera similar a Ocultar.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (a través del método Document.UpdatePageLayout())
+// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (mediante el método Document.UpdatePageLayout())
 // después de cambiar los valores de Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

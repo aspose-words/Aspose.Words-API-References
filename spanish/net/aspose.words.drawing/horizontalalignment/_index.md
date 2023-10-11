@@ -1,14 +1,14 @@
 ---
 title: Enum HorizontalAlignment
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.HorizontalAlignment enumeración. Especifica la alineación horizontal de una forma flotante marco de texto o tabla flotante.
+description: Aspose.Words.Drawing.HorizontalAlignment enumeración. Especifica la alineación horizontal de una forma flotante un marco de texto o una tabla flotante.
 type: docs
-weight: 900
+weight: 1030
 url: /es/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Especifica la alineación horizontal de una forma flotante, marco de texto o tabla flotante.
+Especifica la alineación horizontal de una forma flotante, un marco de texto o una tabla flotante.
 
 ```csharp
 public enum HorizontalAlignment
@@ -20,9 +20,9 @@ public enum HorizontalAlignment
 | --- | --- | --- |
 | None | `0` | El objeto se posiciona explícitamente, generalmente usando su **Izquierda** propiedad. |
 | Default | `0` | Igual queNone . |
-| Left | `1` | Especifica que el objeto se alineará a la izquierda con respecto a la base de alineación horizontal. |
-| Center | `2` | Especifica que el objeto debe estar centrado con respecto a la base de alineación horizontal. |
-| Right | `3` | Especifica que el objeto se alineará a la derecha con respecto a la base de alineación horizontal. |
+| Left | `1` | Especifica que el objeto se alineará a la izquierda con la base de alineación horizontal. |
+| Center | `2` | Especifica que el objeto estará centrado con respecto a la base de alineación horizontal. |
+| Right | `3` | Especifica que el objeto estará alineado a la derecha con la base de alineación horizontal. |
 | Inside | `4` | Especifica que el objeto estará dentro de la base de alineación horizontal. |
 | Outside | `5` | Especifica que el objeto estará fuera de la base de alineación horizontal. |
 

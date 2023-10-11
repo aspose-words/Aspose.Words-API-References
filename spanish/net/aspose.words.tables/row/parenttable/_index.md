@@ -3,7 +3,7 @@ title: Row.ParentTable
 second_title: Referencia de API de Aspose.Words para .NET
 description: Row propiedad. Devuelve la tabla principal inmediata de la fila.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.tables/row/parenttable/
 ---
 ## Row.ParentTable property
@@ -16,7 +16,7 @@ public Table ParentTable { get; }
 
 ### Observaciones
 
-Equivalente a`(Tabla) First NonMarkup Parent Node`.
+Equivalente aFirstNonMarkupParentNode lanzado a[`Table`](../../table/).
 
 ### Ejemplos
 
@@ -28,8 +28,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un documento visitante, el visitante visita el nodo de aceptación,
-    // y luego atraviesa todos los elementos secundarios del nodo en profundidad.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
+    // y luego atraviesa todos los hijos del nodo en profundidad.
     // El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
@@ -38,7 +38,7 @@ public void TableToText()
 
 /// <summary>
 /// Atraviesa el árbol no binario de nodos secundarios de un nodo.
-/// Crea un mapa en forma de cadena de todos los nodos Table encontrados y sus hijos.
+/// Crea un mapa en forma de cadena de todos los nodos de tabla encontrados y sus hijos.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -54,7 +54,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// Las ejecuciones que no están dentro de las tablas no se registran.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
@@ -65,7 +65,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra una Tabla en el documento.
+    /// Se llama cuando se encuentra una tabla en el documento.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -86,7 +86,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo Table.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de tabla.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -98,7 +98,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Fila en el documento.
+    /// Se llama cuando se encuentra un nodo Fila en el documento.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -118,7 +118,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo Fila.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de fila.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -129,7 +129,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Cell en el documento.
+    /// Se llama cuando se encuentra un nodo Cell en el documento.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -158,10 +158,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
     /// en el árbol de nodos secundarios de la tabla actual.
     /// </summary>
-    /// <parámetro nombre="texto"></parámetro>
+    /// <param nombre="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

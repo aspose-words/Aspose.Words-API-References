@@ -3,7 +3,7 @@ title: Border.Equals
 second_title: Referencia de API de Aspose.Words para .NET
 description: Border método. Determina si el borde especificado tiene el mismo valor que el borde actual.
 type: docs
-weight: 80
+weight: 100
 url: /es/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
@@ -16,7 +16,7 @@ public bool Equals(Border rhs)
 
 ### Ejemplos
 
-Muestra cómo las colecciones de borde pueden compartir elementos.
+Muestra cómo las colecciones de bordes pueden compartir elementos.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // estos párrafos, sus colecciones de bordes comparten los mismos elementos.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -40,7 +39,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Después de cambiar el estilo de línea de los bordes solo en el segundo párrafo,
+// Después de cambiar el estilo de línea de los bordes sólo en el segundo párrafo,
 // las colecciones fronterizas ya no comparten los mismos elementos.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
@@ -72,7 +71,7 @@ public override bool Equals(object obj)
 
 ### Ejemplos
 
-Muestra cómo las colecciones de borde pueden compartir elementos.
+Muestra cómo las colecciones de bordes pueden compartir elementos.
 
 ```csharp
 Document doc = new Document();
@@ -85,7 +84,6 @@ builder.Write("Paragraph 2.");
 // estos párrafos, sus colecciones de bordes comparten los mismos elementos.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -96,7 +94,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Después de cambiar el estilo de línea de los bordes solo en el segundo párrafo,
+// Después de cambiar el estilo de línea de los bordes sólo en el segundo párrafo,
 // las colecciones fronterizas ya no comparten los mismos elementos.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

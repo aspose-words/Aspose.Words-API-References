@@ -3,7 +3,7 @@ title: Comment.Replies
 second_title: Referencia de API de Aspose.Words para .NET
 description: Comment propiedad. Devuelve una colección deComment objetos que son hijos inmediatos del comentario especificado.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -22,8 +22,7 @@ Muestra cómo imprimir todos los comentarios de un documento y sus respuestas.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Si un comentario no tiene un antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
+// Si un comentario no tiene antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
 // Imprime todos los comentarios de nivel superior junto con las respuestas que puedan tener.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {

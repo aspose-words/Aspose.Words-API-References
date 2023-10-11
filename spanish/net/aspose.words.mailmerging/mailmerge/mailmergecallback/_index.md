@@ -24,21 +24,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insertar dos etiquetas de combinación de correspondencia que hagan referencia a dos columnas en una fuente de datos.
+    // Inserte dos etiquetas de combinación de correspondencia que hagan referencia a dos columnas en una fuente de datos.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // Cree una fuente de datos que solo contenga una de las columnas a las que hacen referencia nuestras etiquetas de fusión.
+    // Cree una fuente de datos que solo contenga una de las columnas a las que hacen referencia nuestras etiquetas de combinación.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Configure nuestra combinación de correspondencia para usar etiquetas de combinación de correspondencia alternativas.
+    // Configurar nuestra combinación de correspondencia para utilizar etiquetas de combinación de correspondencia alternativas.
     doc.MailMerge.UseNonMergeFields = true;
 
     // Luego, asegúrese de que la combinación de correspondencia convierta etiquetas, como nuestra etiqueta "Apellido",
-    // en MERGEFIELDs en los documentos combinados.
+    // en MERGEFIELD en los documentos de combinación.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -49,7 +49,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Cuenta el número de veces que una combinación de correspondencia reemplaza etiquetas de combinación de correspondencia que no pudo llenar con datos con MERGEFIELDs.
+/// Cuenta el número de veces que una combinación de correspondencia reemplaza etiquetas de combinación de correspondencia que no pudo llenar con datos con MERGEFIELD.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

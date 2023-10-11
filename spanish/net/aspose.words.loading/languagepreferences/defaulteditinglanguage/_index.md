@@ -18,7 +18,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ### Ejemplos
 
-Muestra cómo establecer un idioma predeterminado al cargar un documento.
+Muestra cómo configurar un idioma predeterminado al cargar un documento.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

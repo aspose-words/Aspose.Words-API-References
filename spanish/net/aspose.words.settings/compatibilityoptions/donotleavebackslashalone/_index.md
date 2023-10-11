@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Convertir barra invertida a signo de yen cuando se ingresa.
+description: CompatibilityOptions propiedad. Convertir barra invertida al signo del yen cuando se ingresa.
 type: docs
 weight: 160
 url: /es/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
 ---
 ## CompatibilityOptions.DoNotLeaveBackslashAlone property
 
-Convertir barra invertida a signo de yen cuando se ingresa.
+Convertir barra invertida al signo del yen cuando se ingresa.
 
 ```csharp
 public bool DoNotLeaveBackslashAlone { get; set; }

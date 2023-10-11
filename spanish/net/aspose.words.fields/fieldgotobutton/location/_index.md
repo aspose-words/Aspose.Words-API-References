@@ -16,21 +16,21 @@ public string Location { get; set; }
 
 ### Ejemplos
 
-Muestra para insertar un campo GOTOBUTTON.
+Muestra cómo insertar un campo GOTOBUTTON.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Agrega un campo GOTOBUTTON. Cuando hacemos doble clic en este campo en Microsoft Word,
-// llevará el cursor de texto al marcador cuyo nombre hace referencia la propiedad Ubicación.
+// llevará el cursor de texto al marcador a cuyo nombre hace referencia la propiedad Ubicación.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Inserta un marcador válido para el campo al que se hace referencia.
+// Inserta un marcador válido para el campo al que hacer referencia.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

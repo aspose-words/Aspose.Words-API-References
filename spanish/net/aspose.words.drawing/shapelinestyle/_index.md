@@ -3,7 +3,7 @@ title: Enum ShapeLineStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.ShapeLineStyle enumeración. Especifica el estilo de línea compuesta de unShape .
 type: docs
-weight: 1120
+weight: 1270
 url: /es/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -20,9 +20,9 @@ public enum ShapeLineStyle
 | --- | --- | --- |
 | Single | `0` | Línea única. |
 | Double | `1` | Líneas dobles de igual ancho. |
-| ThickThin | `2` | Líneas dobles, una gruesa, una delgada. |
-| ThinThick | `3` | Trazos dobles, uno fino, otro grueso. |
-| Triple | `4` | Tres líneas, delgada, gruesa, delgada. |
+| ThickThin | `2` | Líneas dobles, una gruesa y otra fina. |
+| ThinThick | `3` | Líneas dobles, una fina y otra gruesa. |
+| Triple | `4` | Tres líneas, fina, gruesa, fina. |
 | Default | `0` | El valor predeterminado esSingle . |
 
 ### Ejemplos
@@ -50,6 +50,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

@@ -16,13 +16,13 @@ public double LineSpacing { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener el espacio entre líneas de una fuente, en puntos.
+Muestra cómo obtener el interlineado de una fuente, en puntos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Configure diferentes fuentes para DocumentBuilder y verifique su interlineado.
+// Establece diferentes fuentes para DocumentBuilder y verifica su interlineado.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

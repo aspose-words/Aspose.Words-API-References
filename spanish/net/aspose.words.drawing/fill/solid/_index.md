@@ -3,7 +3,7 @@ title: Fill.Solid
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill método. Establece el relleno en un color uniforme.
 type: docs
-weight: 200
+weight: 260
 url: /es/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -16,7 +16,7 @@ public void Solid()
 
 ### Observaciones
 
-Utilice este método para volver a convertir cualquiera de los rellenos en relleno sólido.
+Utilice este método para convertir cualquiera de los rellenos a relleno sólido.
 
 ### Ver también
 
@@ -36,19 +36,19 @@ public void Solid(Color color)
 
 ### Observaciones
 
-Utilice este método para volver a convertir cualquiera de los rellenos en relleno sólido.
+Utilice este método para convertir cualquiera de los rellenos a relleno sólido.
 
 ### Ejemplos
 
-Muestra cómo volver a convertir cualquiera de los rellenos en relleno sólido.
+Muestra cómo convertir cualquiera de los rellenos a relleno sólido.
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// Obtenga el objeto de relleno para la fuente de la primera ejecución.
+// Obtiene el objeto de relleno para la fuente de la primera ejecución.
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
-// Comprobar las propiedades de relleno de la fuente.
+// Verifique las propiedades de relleno de la fuente.
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);

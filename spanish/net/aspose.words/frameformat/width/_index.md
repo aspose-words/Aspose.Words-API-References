@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

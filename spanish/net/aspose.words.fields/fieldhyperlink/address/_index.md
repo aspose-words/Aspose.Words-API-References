@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.Address
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldHyperlink propiedad. Obtiene o establece una ubicación donde salta este hipervínculo.
+description: FieldHyperlink propiedad. Obtiene o establece una ubicación a la que salta este hipervínculo.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldhyperlink/address/
 ---
 ## FieldHyperlink.Address property
 
-Obtiene o establece una ubicación donde salta este hipervínculo.
+Obtiene o establece una ubicación a la que salta este hipervínculo.
 
 ```csharp
 public string Address { get; set; }
@@ -16,7 +16,7 @@ public string Address { get; set; }
 
 ### Ejemplos
 
-Muestra cómo utilizar los campos de HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
+Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document();

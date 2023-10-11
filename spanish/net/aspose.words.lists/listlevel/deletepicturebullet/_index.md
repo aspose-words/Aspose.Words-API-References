@@ -20,15 +20,15 @@ La viñeta predeterminada se mostrará después de eliminar.
 
 ### Ejemplos
 
-Muestra cómo configurar un icono de imagen personalizado para las etiquetas de los elementos de la lista.
+Muestra cómo configurar un ícono de imagen personalizado para las etiquetas de elementos de la lista.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Crear una viñeta de imagen para el nivel de lista actual y establecer una imagen desde un sistema de archivos local
-// como el icono que mostrarán las viñetas para este nivel de lista.
+// Crea una viñeta de imagen para el nivel de lista actual y establece una imagen desde un sistema de archivos local
+// como el icono que mostrarán las viñetas de este nivel de lista.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

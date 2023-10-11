@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece una marca que indica si el espaciado entre caracteres se ajusta automáticamente entre regiones de texto latino y regiones de texto de Asia oriental en el párrafo actual.
+description: ParagraphFormat propiedad. Obtiene o establece una marca que indica si el espacio entre caracteres se ajusta automáticamente entre las regiones de texto latino y las regiones de texto de Asia oriental en el párrafo actual.
 type: docs
 weight: 10
 url: /es/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-Obtiene o establece una marca que indica si el espaciado entre caracteres se ajusta automáticamente entre regiones de texto latino y regiones de texto de Asia oriental en el párrafo actual.
+Obtiene o establece una marca que indica si el espacio entre caracteres se ajusta automáticamente entre las regiones de texto latino y las regiones de texto de Asia oriental en el párrafo actual.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }

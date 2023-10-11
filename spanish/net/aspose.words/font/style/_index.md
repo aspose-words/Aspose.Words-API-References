@@ -16,13 +16,13 @@ public Style Style { get; set; }
 
 ### Ejemplos
 
-Aplica un subrayado doble a todas las ejecuciones de un documento que tienen estilos de caracteres personalizados.
+Aplica un subrayado doble a todas las ejecuciones de un documento formateadas con estilos de caracteres personalizados.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte un estilo personalizado y aplíquelo al texto creado con un generador de documentos.
+// Inserta un estilo personalizado y aplícalo al texto creado con un generador de documentos.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Iterar sobre cada ejecución y agregar un subrayado doble a cada estilo personalizado.
+// Iterar sobre cada ejecución y agregar un doble subrayado a cada estilo personalizado.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

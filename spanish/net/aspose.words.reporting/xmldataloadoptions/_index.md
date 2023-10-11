@@ -3,12 +3,14 @@ title: Class XmlDataLoadOptions
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Reporting.XmlDataLoadOptions clase. Representa opciones para la carga de datos XML.
 type: docs
-weight: 4480
+weight: 4740
 url: /es/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
 Representa opciones para la carga de datos XML.
+
+Para obtener más información, visite el[Motor de informes LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) artículo de documentación.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -24,7 +26,7 @@ public class XmlDataLoadOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Obtiene o establece un indicador que indica si un origen de datos generado siempre contendrá un objeto para un elemento raíz XML . Si un elemento raíz XML no tiene atributos y todos sus elementos secundarios tienen los mismos nombres, dicho objeto no se crea de manera predeterminada. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Obtiene o establece un indicador que indica si una fuente de datos generada siempre contendrá un objeto para un elemento raíz XML . Si un elemento raíz XML no tiene atributos y todos sus elementos secundarios tienen los mismos nombres, dicho objeto no se crea de forma predeterminada. |
 
 ### Observaciones
 

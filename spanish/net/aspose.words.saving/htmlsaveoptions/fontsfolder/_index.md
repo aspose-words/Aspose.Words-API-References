@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolder
 second_title: Referencia de API de Aspose.Words para .NET
 description: HtmlSaveOptions propiedad. Especifica la carpeta física donde se guardan las fuentes al exportar un documento a HTML. El valor predeterminado es una cadena vacía.
 type: docs
-weight: 320
+weight: 310
 url: /es/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property
@@ -16,7 +16,7 @@ public string FontsFolder { get; set; }
 
 ### Observaciones
 
-Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) se establece en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. `FontsFolder` le permite especificar dónde se guardarán las fuentes y [`FontsFolderAlias`](../fontsfolderalias/) permite especificar cómo se construirán los URI de fuente.
+Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) está configurado en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. `FontsFolder` le permite especificar dónde se guardarán las fuentes y [`FontsFolderAlias`](../fontsfolderalias/) permite especificar cómo se construirán los URI de fuente.
 
 Si guarda un documento en un archivo y proporciona un nombre de archivo, Aspose.Words, de forma predeterminada, guarda las fuentes en la misma carpeta donde se guarda el archivo del documento. Usar`FontsFolder` para anular este comportamiento.
 
@@ -42,7 +42,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://ejemplo.com/fuentes",
+    FontsFolderAlias = "http://ejemplo.com/fonts",
     ImagesFolderAlias = "http://ejemplo.com/imagenes",
     ResourceFolderAlias = "http://ejemplo.com/recursos",
     ExportOriginalUrlForLinkedImages = true

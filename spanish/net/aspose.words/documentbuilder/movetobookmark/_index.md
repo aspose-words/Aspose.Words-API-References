@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToBookmark
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Mueve el cursor a un marcador.
 type: docs
-weight: 470
+weight: 500
 url: /es/net/aspose.words/documentbuilder/movetobookmark/
 ---
 ## MoveToBookmark(string) {#movetobookmark}
@@ -20,50 +20,50 @@ public bool MoveToBookmark(string bookmarkName)
 
 ### Valor_devuelto
 
-True si se encontró el marcador; falso en caso contrario.
+`verdadero` si se encontró el marcador;`FALSO` de lo contrario.
 
 ### Observaciones
 
 Mueve el cursor a una posición justo después del inicio del marcador con el nombre especificado .
 
-La comparación no distingue entre mayúsculas y minúsculas. Si no se encontró el marcador, se devuelve false is y el cursor no se mueve.
+La comparación no distingue entre mayúsculas y minúsculas. Si no se encontró el marcador,`FALSO` is devuelto y el cursor no se mueve.
 
-Insertar texto nuevo no reemplaza el texto existente del marcador.
+La inserción de texto nuevo no reemplaza el texto existente del marcador.
 
-Tenga en cuenta que algunos marcadores en el documento están asignados a campos de formulario. Al moverse a dicho marcador e insertar texto allí, se inserta el texto en el código de campo de formulario . Aunque esto no invalidará el campo del formulario, el texto insertado no será visible porque se convierte en parte del código de campo.
+Tenga en cuenta que algunos marcadores en el documento están asignados a campos de formulario. Moverse a dicho marcador e insertar texto allí inserta el texto en el código de campo de formulario . Aunque esto no invalidará el campo del formulario, el texto insertado no será visible porque pasa a formar parte del código de campo.
 
 ### Ejemplos
 
-Muestra cómo mover el cursor de un generador de documentos a diferentes nodos en un documento.
+Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crear un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio de marcador,
-  // y un nodo final de marcador.
+// Crea un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio del marcador,
+ // y un nodo final de marcador.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// El cursor del generador de documentos siempre está delante del último nodo que agregamos con él.
+// El cursor del generador de documentos siempre está delante del nodo que agregamos por última vez.
 // Si el cursor del constructor está al final del documento, su nodo actual será nulo.
 // El nodo anterior es el nodo final del marcador que agregamos por última vez.
 // Agregar nuevos nodos con el constructor los agregará al último nodo.
 Assert.Null(builder.CurrentNode);
 
 // Si deseamos editar una parte diferente del documento con el constructor,
-// necesitaremos llevar su cursor al nodo que deseamos editar.
+// necesitaremos llevar el cursor al nodo que deseamos editar.
 builder.MoveToBookmark("MyBookmark");
 
-// Moverlo a un marcador lo moverá al primer nodo dentro de los nodos de inicio y final del marcador, la ejecución adjunta.
+// Al moverlo a un marcador, se moverá al primer nodo dentro de los nodos de inicio y fin del marcador, la ejecución adjunta.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // También podemos mover el cursor a un nodo individual como este.
@@ -102,20 +102,20 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | bookmarkName | String | El nombre del marcador al que mover el cursor. |
-| isStart | Boolean | Cuando es verdadero, mueve el cursor al principio del marcador. Cuando es falso, mueve el cursor al final del marcador. |
-| isAfter | Boolean | Cuando es verdadero, mueve el cursor para colocarlo después de la posición inicial o final de bookmark . Cuando es falso, mueve el cursor antes de la posición inicial o final de bookmark . |
+| isStart | Boolean | Cuando`verdadero` , mueve el cursor al principio del marcador. Cuando`FALSO`, mueve el cursor al final del marcador. |
+| isAfter | Boolean | Cuando`verdadero` , mueve el cursor para que esté después de la posición inicial o final bookmark . Cuando`FALSO`, mueve el cursor para que esté antes de la posición inicial o final bookmark . |
 
 ### Valor_devuelto
 
-True si se encontró el marcador; falso en caso contrario.
+`verdadero` si se encontró el marcador;`FALSO` de lo contrario.
 
 ### Observaciones
 
-Mueve el cursor a una posición antes o después del inicio o final del marcador.
+Mueve el cursor a una posición antes o después del inicio o fin del marcador.
 
 Si la posición deseada no está en el nivel en línea, pasa al siguiente párrafo.
 
-La comparación no distingue entre mayúsculas y minúsculas. Si no se encontró el marcador, se devuelve false is y el cursor no se mueve.
+La comparación no distingue entre mayúsculas y minúsculas. Si no se encontró el marcador,`FALSO` is devuelto y el cursor no se mueve.
 
 ### Ejemplos
 
@@ -126,14 +126,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Un marcador válido consta de un nodo BookmarkStart, un nodo BookmarkEnd con un
-// el nombre del marcador coincidente en algún lugar posterior y el contenido encerrado por esos nodos.
+// coincide con el nombre del marcador en algún lugar posterior y el contenido encerrado por esos nodos.
 builder.StartBookmark("MyBookmark");
 builder.Write("Hello world! ");
 builder.EndBookmark("MyBookmark");
 
 // Hay 4 formas de mover el cursor de un generador de documentos a un marcador.
 // Si estamos entre los nodos BookmarkStart y BookmarkEnd, el cursor estará dentro del marcador.
-// Esto significa que cualquier texto agregado por el constructor se convertirá en parte del marcador.
+// Esto significa que cualquier texto agregado por el constructor pasará a formar parte del marcador.
 // 1 - Fuera del marcador, delante del nodo BookmarkStart:
 Assert.True(builder.MoveToBookmark("MyBookmark", true, false));
 builder.Write("1. ");

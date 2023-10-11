@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### Ejemplos
 
-Muestra cómo crear un borde de página verde ondulado con una sombra.
+Muestra cómo crear un borde de página ondulado verde con una sombra.
 
 ```csharp
 Document doc = new Document();

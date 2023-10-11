@@ -1,14 +1,14 @@
 ---
 title: Enum SdtDateStorageFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtDateStorageFormat enumeración. Especifica cómo se almacena/recupera la fecha de una SDT de fecha cuando la SDT está vinculada a un nodo XML en el almacén de datos del documento.
+description: Aspose.Words.Markup.SdtDateStorageFormat enumeración. Especifica cómo se almacena/recupera la fecha de un SDT de fecha cuando el SDT está vinculado a un nodo XML en el almacén de datos del documento.
 type: docs
-weight: 3770
+weight: 4010
 url: /es/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
 
-Especifica cómo se almacena/recupera la fecha de una SDT de fecha cuando la SDT está vinculada a un nodo XML en el almacén de datos del documento.
+Especifica cómo se almacena/recupera la fecha de un SDT de fecha cuando el SDT está vinculado a un nodo XML en el almacén de datos del documento.
 
 ```csharp
 public enum SdtDateStorageFormat
@@ -19,9 +19,9 @@ public enum SdtDateStorageFormat
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Date | `0` | El valor de fecha para una fecha SDT se almacena como una fecha en el formato de fecha de esquema XML estándar. |
-| DateTime | `1` | El valor de fecha para una fecha SDT se almacena como una fecha en el formato XML Schema DateTime estándar. |
+| DateTime | `1` | El valor de fecha para una fecha SDT se almacena como una fecha en el formato estándar XML Schema DateTime. |
 | Text | `2` | El valor de fecha para una fecha SDT se almacena como texto. |
-| Default | `1` | Predeterminado aDateTime |
+| Default | `1` | El valor predeterminado esDateTime |
 
 ### Ver también
 

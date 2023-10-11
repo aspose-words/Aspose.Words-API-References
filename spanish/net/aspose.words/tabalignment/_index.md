@@ -3,7 +3,7 @@ title: Enum TabAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.TabAlignment enumeración. Especifica la alineación/tipo de una tabulación.
 type: docs
-weight: 5880
+weight: 6180
 url: /es/net/aspose.words/tabalignment/
 ---
 ## TabAlignment enumeration
@@ -23,7 +23,7 @@ public enum TabAlignment
 | Right | `2` | Alinea a la derecha el texto en la tabulación. |
 | Decimal | `3` | Alinea el texto en el punto decimal. |
 | Bar | `4` | Dibuja una barra vertical en la posición de tabulación. |
-| List | `6` | La pestaña es un delimitador entre el número/viñeta y el texto en un elemento de lista. |
+| List | `6` | La pestaña es un delimitador entre el número/viñeta y el texto en un elemento de la lista. |
 | Clear | `7` | Borra cualquier tabulación en esta posición. |
 
 ### Ver también

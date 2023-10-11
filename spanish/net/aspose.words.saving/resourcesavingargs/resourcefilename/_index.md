@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
 second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceSavingArgs propiedad. Obtiene o establece el nombre del archivo sin la ruta donde se guardará el recurso.
+description: ResourceSavingArgs propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará el recurso.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 ---
 ## ResourceSavingArgs.ResourceFileName property
 
-Obtiene o establece el nombre del archivo (sin la ruta) donde se guardará el recurso.
+Obtiene o establece el nombre del archivo (sin ruta) donde se guardará el recurso.
 
 ```csharp
 public string ResourceFileName { get; set; }
@@ -18,15 +18,15 @@ public string ResourceFileName { get; set; }
 
 Esta propiedad le permite redefinir cómo se generan los nombres de los archivos de recursos durante la exportación a una página fija HTML o SVG.
 
-Cuando se activa el evento, esta propiedad contiene el nombre de archivo que Aspose.Words generó . Puede cambiar el valor de esta propiedad para guardar el recurso en un archivo diferente. Tenga en cuenta que los nombres de los archivos deben ser únicos.
+Cuando se activa el evento, esta propiedad contiene el nombre del archivo generado por Aspose.Words. Puede cambiar el valor de esta propiedad para guardar el recurso en un archivo diferente. Tenga en cuenta que los nombres de los archivos deben ser únicos.
 
 Aspose.Words genera automáticamente un nombre de archivo único para cada recurso cuando exporta a formato HTML o SVG de página fija. La forma en que se genera el nombre del archivo de recursos depende de si guarda el documento en un archivo o en una secuencia.
 
-Al guardar un documento en un archivo, el nombre del archivo de recursos generado se parece a &lt;nombre de archivo base del documento&gt;.&lt;número de imagen&gt;.&lt;extensión&gt;.
+Al guardar un documento en un archivo, el nombre del archivo de recursos generado se parece a &lt;nombre del archivo base del documento&gt;.&lt;número de imagen&gt;.&lt;extensión&gt;.
 
 Al guardar un documento en una secuencia, el nombre del archivo de recursos generado se parece a Aspose.Words.&lt;guid del documento&gt;.&lt;número de imagen&gt;.&lt;extensión&gt;.
 
-`ResourceFileName` debe contener solo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar y el valor de la`origen` atributo para escribir en una página fija HTML o SVG utilizando el nombre de archivo del documento, el[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) o[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) y[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) o[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) propiedades.
+`ResourceFileName` debe contener solo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar y el valor del`src` atributo para escribir en una página fija HTML o SVG usando el nombre del archivo del documento, el[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) o[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) y[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) o[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) propiedades.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
@@ -54,7 +54,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Llamado cuando Aspose.Words guarda un recurso externo en una página fija HTML o SVG.
+    /// Se llama cuando Aspose.Words guarda un recurso externo en una página fija HTML o SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

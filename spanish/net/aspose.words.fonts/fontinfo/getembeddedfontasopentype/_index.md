@@ -16,7 +16,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| style | EmbeddedFontStyle | Especifica el estilo de fuente a recuperar. |
+| style | EmbeddedFontStyle | Especifica el estilo de fuente que se recuperará. |
 
 ### Valor_devuelto
 
@@ -33,7 +33,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
 // Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.HasChildNodes
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode propiedad. Devuelve verdadero si este nodo tiene nodos secundarios.
+description: CompositeNode propiedad. Devolucionesverdadero si este nodo tiene nodos secundarios.
 type: docs
-weight: 40
+weight: 30
 url: /es/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Devuelve verdadero si este nodo tiene nodos secundarios.
+Devoluciones`verdadero` si este nodo tiene nodos secundarios.
 
 ```csharp
 public bool HasChildNodes { get; }
@@ -21,8 +21,8 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación hay dos formas de obtener una tabla de un documento.
-// 1 - De la colección "Tables" de un nodo Body:
+// A continuación se muestran dos formas de obtener una tabla de un documento.
+// 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Usando el método "GetChild":

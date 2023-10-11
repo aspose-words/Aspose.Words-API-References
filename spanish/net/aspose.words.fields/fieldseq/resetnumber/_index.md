@@ -16,16 +16,16 @@ public string ResetNumber { get; set; }
 
 ### Ejemplos
 
-Muestra crear numeración usando campos SEQ.
+Muestra la numeración creada utilizando campos SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Los campos SEQ muestran un recuento que se incrementa en cada campo SEQ.
-// Estos campos también mantienen cuentas separadas para cada secuencia nombrada única
+// Estos campos también mantienen recuentos separados para cada secuencia con nombre única
 // identificado por la propiedad "SequenceIdentifier" del campo SEQ.
-// Inserte un campo SEQ que mostrará el valor de conteo actual de "MySequence",
+// Inserta un campo SEQ que mostrará el valor de recuento actual de "MySequence",
 // después de usar la propiedad "ResetNumber" para establecerlo en 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -36,7 +36,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Muestra el siguiente número en esta secuencia con otro campo SEQ.
+// Muestra el siguiente número de esta secuencia con otro campo SEQ.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -50,7 +50,7 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserte otro campo SEQ de la misma secuencia y configúrelo para restablecer el conteo en cada encabezado con 1.
+// Inserta otro campo SEQ de la misma secuencia y configúralo para restablecer el recuento en cada encabezado con 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -61,7 +61,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// Mover al siguiente número de esta secuencia.
+// Pasar al siguiente número de esta secuencia.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";

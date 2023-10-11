@@ -20,17 +20,15 @@ Una lista siempre tiene un documento principal y solo es válida en el contexto 
 
 ### Ejemplos
 
-Muestra cómo verificar las propiedades del documento de propietario de las listas.
+Muestra cómo verificar las propiedades del documento del propietario de las listas.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

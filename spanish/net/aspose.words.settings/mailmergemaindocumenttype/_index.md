@@ -3,7 +3,7 @@ title: Enum MailMergeMainDocumentType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Settings.MailMergeMainDocumentType enumeración. Especifica los tipos posibles para un documento de origen de combinación de correspondencia.
 type: docs
-weight: 5540
+weight: 5840
 url: /es/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -19,17 +19,17 @@ public enum MailMergeMainDocumentType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | NotAMergeDocument | `0` | Este documento no es un documento de combinación de correspondencia. |
-| FormLetters | `1` | Especifica que el documento de origen de combinación de correspondencia es del tipo de carta modelo. |
-| MailingLabels | `2` | Especifica que el documento de origen de combinación de correspondencia es del tipo de etiqueta postal. |
-| Envelopes | `4` | Especifica que el documento de origen de combinación de correspondencia es del tipo de sobre. |
-| Catalog | `8` | Especifica que el documento de origen de combinación de correspondencia es del tipo de catálogo. |
+| FormLetters | `1` | Especifica que el documento de origen de combinación de correspondencia es del tipo carta modelo. |
+| MailingLabels | `2` | Especifica que el documento de origen de combinación de correspondencia es del tipo etiqueta de correo. |
+| Envelopes | `4` | Especifica que el documento de origen de combinación de correspondencia es del tipo sobre. |
+| Catalog | `8` | Especifica que el documento de origen de combinación de correspondencia es del tipo catálogo. |
 | Email | `16` | Especifica que el documento de origen de combinación de correspondencia es del tipo de mensaje de correo electrónico. |
-| Fax | `32` | Especifica que el documento de origen de combinación de correspondencia es del tipo de fax. |
+| Fax | `32` | Especifica que el documento de origen de combinación de correspondencia es del tipo fax. |
 | Default | `0` | Igual aNotAMergeDocument |
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correo con datos de un objeto de origen de datos de Office.
+Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
 ```csharp
 Document doc = new Document();
@@ -42,8 +42,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crear una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como el delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
+// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Al abrir este documento en Microsoft Word, se ejecutará la combinación de correspondencia antes de mostrar el contenido. 
+ // Al abrir este documento en Microsoft Word se ejecutará la combinación de correspondencia antes de mostrar el contenido.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

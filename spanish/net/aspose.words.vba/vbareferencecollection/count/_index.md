@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: VbaReferenceCollection propiedad. Devuelve el número de referencias VBA en la colección.
+description: VbaReferenceCollection propiedad. Devuelve el número de referencias de VBA en la colección.
 type: docs
 weight: 10
 url: /es/net/aspose.words.vba/vbareferencecollection/count/
 ---
 ## VbaReferenceCollection.Count property
 
-Devuelve el número de referencias VBA en la colección.
+Devuelve el número de referencias de VBA en la colección.
 
 ```csharp
 public int Count { get; }
@@ -19,7 +19,6 @@ public int Count { get; }
 Muestra cómo obtener/eliminar un elemento de la colección de referencia de VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Devuelve una cadena que representa la ruta LibId de una referencia especificada. 
+ /// Devuelve una cadena que representa la ruta LibId de una referencia especificada.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +62,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +77,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

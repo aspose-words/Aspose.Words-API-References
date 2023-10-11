@@ -18,7 +18,7 @@ public string ProgId { get; set; }
 
 La propiedad ProgID no siempre está presente en los documentos de Microsoft Word y no se puede confiar en ella.
 
-No puede ser nulo.
+No puede ser`nulo`.
 
 El valor predeterminado es una cadena vacía.
 
@@ -35,7 +35,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nuestro objeto no se actualiza automáticamente ni está bloqueado para actualizaciones.
+// Nuestro objeto no se actualiza automáticamente ni está bloqueado para recibir actualizaciones.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -44,13 +44,13 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // A continuación se muestran dos formas de guardar un objeto OLE en un archivo en el sistema de archivos local.
-// 1 - Guárdelo a través de una transmisión:
+// 1 - Guárdalo a través de una secuencia:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - Guardarlo directamente en un nombre de archivo:
+// 2 - Guárdalo directamente en un nombre de archivo:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

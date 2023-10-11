@@ -3,7 +3,7 @@ title: Enum VisitorAction
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.VisitorAction enumeración. Permite al visitante controlar la enumeración de nodos.
 type: docs
-weight: 6310
+weight: 6620
 url: /es/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration
@@ -18,9 +18,9 @@ public enum VisitorAction
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Continue | `0` | El visitante solicita continuar la enumeración. |
+| Continue | `0` | El visitante solicita que la enumeración continúe. |
 | SkipThisNode | `1` | El visitante solicita omitir el nodo actual y continuar con la enumeración. |
-| Stop | `2` | El visitante solicita la enumeración de nodos a detener. |
+| Stop | `2` | El visitante solicita que se detenga la enumeración de nodos. |
 
 ### Ver también
 

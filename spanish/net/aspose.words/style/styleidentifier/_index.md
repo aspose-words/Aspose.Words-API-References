@@ -3,7 +3,7 @@ title: Style.StyleIdentifier
 second_title: Referencia de API de Aspose.Words para .NET
 description: Style propiedad. Obtiene el identificador de estilo independiente de la configuración regional para un estilo integrado.
 type: docs
-weight: 140
+weight: 160
 url: /es/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -20,12 +20,12 @@ Para estilos definidos por el usuario (personalizados), esta propiedad devuelveU
 
 ### Ejemplos
 
-Muestra cómo modificar la posición de la tabulación derecha en los párrafos relacionados con la TOC.
+Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Iterar a través de todos los párrafos con estilos basados en resultados de TOC; este es cualquier estilo entre TOC y TOC9.
+// Iterar a través de todos los párrafos con estilos basados en resultados TOC; este es cualquier estilo entre TOC y TOC9.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)

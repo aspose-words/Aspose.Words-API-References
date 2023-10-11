@@ -3,15 +3,17 @@ title: Class Forms2OleControlCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection clase. Representa la colección deForms2OleControl objetos.
 type: docs
-weight: 990
+weight: 1120
 url: /es/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
 Representa la colección de[`Forms2OleControl`](../forms2olecontrol/) objetos.
 
+Para obtener más información, visite el[Trabajar con objetos antiguos](https://docs.aspose.com/words/net/working-with-ole-objects/) artículo de documentación.
+
 ```csharp
-public class Forms2OleControlCollection
+public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```
 
 ## Constructores
@@ -24,8 +26,14 @@ public class Forms2OleControlCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Obtiene el conteo de objetos en la colección. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Obtiene[`Forms2OleControl`](../forms2olecontrol/)objeto en el índice especificado. |
+| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Obtiene el recuento de objetos de la colección. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Obtiene[`Forms2OleControl`](../forms2olecontrol/) objeto en un índice especificado. |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Obtiene el enumerador. |
 
 ### Ejemplos
 
@@ -58,6 +66,7 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 ### Ver también
 
+* class [Forms2OleControl](../forms2olecontrol/)
 * espacio de nombres [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * asamblea [Aspose.Words](../../)
 

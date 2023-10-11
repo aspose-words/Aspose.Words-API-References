@@ -3,12 +3,14 @@ title: Class FontSettings
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fonts.FontSettings clase. Especifica la configuración de fuente para un documento.
 type: docs
-weight: 2790
+weight: 2970
 url: /es/net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
 
 Especifica la configuración de fuente para un documento.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class FontSettings
@@ -25,8 +27,8 @@ public class FontSettings
 | Nombre | Descripción |
 | --- | --- |
 | static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Configuración de fuente predeterminada estática. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Ajustes relacionados con el mecanismo de reserva de fuentes. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Ajustes relacionados con el mecanismo de sustitución de fuentes. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Configuraciones relacionadas con el mecanismo de reserva de fuentes. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Configuraciones relacionadas con el mecanismo de sustitución de fuentes. |
 
 ## Métodos
 
@@ -34,23 +36,23 @@ public class FontSettings
 | --- | --- |
 | [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Obtiene una copia de la matriz que contiene la lista de fuentes donde Aspose.Words busca fuentes TrueType. |
 | [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Restablece las fuentes de fuentes a los valores predeterminados del sistema. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Guarda la caché de búsqueda de fuentes en la secuencia. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Guarda el caché de búsqueda de fuentes en la secuencia. |
 | [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Establece la carpeta donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. Este es un acceso directo a[`SetFontsFolders`](./setfontsfolders/) para configurar solo un directorio de fuentes. |
 | [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Establece las carpetas donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
 | [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Establece las fuentes en las que Aspose.Words busca las fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Establece las fuentes donde Aspose.Words busca fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada . |
 
 ### Observaciones
 
-Aspose.Words usa la configuración de fuente para resolver las fuentes en el documento. Las fuentes se resuelven principalmente al crear el diseño del documento o al renderizar a formatos de página fijos. Pero al cargar algunos formatos, Aspose.Words también puede requerir resolver las fuentes. Por ejemplo, when cargar documentos HTML, Aspose.Words puede resolver las fuentes para realizar una reserva de fuentes. Por lo tanto, se recomienda que establezca la configuración de fuente en [`LoadOptions`](../../aspose.words.loading/loadoptions/) al cargar el documento. O al menos antes de crear el diseño o representar el documento en el formato de página fija.
+Aspose.Words utiliza la configuración de fuente para resolver las fuentes del documento. Las fuentes se resuelven principalmente al crear el diseño del documento o al renderizarlo en formatos de página fijos. Pero al cargar algunos formatos, Aspose.Words también puede requerir resolver las fuentes. Por ejemplo, cuando carga documentos HTML, Aspose.Words puede resolver las fuentes para realizar la reserva de fuentes. Por lo tanto, se recomienda configurar la configuración de fuente en [`LoadOptions`](../../aspose.words.loading/loadoptions/) al cargar el documento. O al menos antes de crear el diseño o renderizar el documento al formato de página fija.
 
-De forma predeterminada, todos los documentos utilizan una sola instancia de configuración de fuente estática. Se puede acceder por [`DefaultInstance`](./defaultinstance/) propiedad.
+De forma predeterminada, todos los documentos utilizan una única instancia de configuración de fuente estática. Podría ser accedido por [`DefaultInstance`](./defaultinstance/) propiedad.
 
-Cambiar la configuración de la fuente es seguro en cualquier momento desde cualquier hilo. Pero se recomienda que no cambie la configuración de la fuente mientras procesa algunos documentos que utilizan esta configuración. Esto puede llevar al hecho de que la misma fuente se resuelva de manera diferente en diferentes partes del documento.
+Cambiar la configuración de fuente es seguro en cualquier momento y desde cualquier hilo. Pero se recomienda que no cambie la configuración de fuente mientras procesa algunos documentos que utilizan esta configuración. Esto puede llevar al hecho de que la misma fuente se resuelva de manera diferente en diferentes partes del documento.
 
 ### Ejemplos
 
-Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuente existentes.
+Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuentes existentes.
 
 ```csharp
 Document doc = new Document();
@@ -74,14 +76,14 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Cree una fuente de fuentes a partir de una carpeta que contenga fuentes.
+// Crea una fuente de fuente desde una carpeta que contiene fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Aplicar una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
+// Aplique una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de convertir el documento en PDF.
+// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de procesar el documento en PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
-Muestra cómo configurar un directorio fuente de fuentes.
+Muestra cómo configurar un directorio de origen de fuentes.
 
 ```csharp
 Document doc = new Document();
@@ -105,8 +107,8 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nuestras fuentes de fuentes no contienen la fuente que hemos usado para el texto en este documento.
-// Si usamos esta configuración de fuente mientras renderizamos este documento,
+// Nuestras fuentes de fuentes no contienen la fuente que hemos utilizado para el texto de este documento.
+// Si utilizamos esta configuración de fuente al renderizar este documento,
 // Aspose.Words aplicará una fuente alternativa al texto que tenga una fuente que Aspose.Words no pueda localizar.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -117,10 +119,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Use el método "SetFontsFolder" para establecer un directorio que actuará como una nueva fuente de fuente.
-// Pase "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en el directorio
-// que estamos pasando en el primer argumento, pero sin incluir ninguna fuente en ninguna de las subcarpetas de ese directorio.
-// Pasar "verdadero" como argumento "recursivo" para incluir todos los archivos de fuentes en el directorio que estamos pasando
+// Utilice el método "SetFontsFolder" para establecer un directorio que actuará como una nueva fuente de fuente.
+// Pasa "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en el directorio
+// que estamos pasando el primer argumento, pero no incluimos ninguna fuente en ninguna de las subcarpetas de ese directorio.
+// Pasa "true" como argumento "recursivo" para incluir todos los archivos de fuentes en el directorio que estamos pasando
 // en el primer argumento, así como todas las fuentes en sus subdirectorios.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
@@ -148,7 +150,7 @@ doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
-Muestra cómo establecer varios directorios de fuentes de fuentes.
+Muestra cómo configurar múltiples directorios de fuentes de fuentes.
 
 ```csharp
 Document doc = new Document();
@@ -159,8 +161,8 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nuestras fuentes de fuentes no contienen la fuente que hemos usado para el texto en este documento.
-// Si usamos esta configuración de fuente mientras renderizamos este documento,
+// Nuestras fuentes de fuentes no contienen la fuente que hemos utilizado para el texto de este documento.
+// Si utilizamos esta configuración de fuente al renderizar este documento,
 // Aspose.Words aplicará una fuente alternativa al texto que tenga una fuente que Aspose.Words no pueda localizar.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -171,10 +173,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Use el método "SetFontsFolders" para crear una fuente de fuente de cada directorio de fuentes que pasemos como primer argumento.
-// Pase "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en los directorios
-// que estamos pasando en el primer argumento, pero sin incluir ninguna fuente de ninguna de las subcarpetas de los directorios.
-// Pasar "verdadero" como argumento "recursivo" para incluir todos los archivos de fuentes en los directorios que estamos pasando
+// Utilice el método "SetFontsFolders" para crear una fuente de fuente a partir de cada directorio de fuentes que pasemos como primer argumento.
+// Pasa "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en los directorios
+// que estamos pasando el primer argumento, pero no incluimos ninguna fuente de ninguna de las subcarpetas de los directorios.
+// Pasa "true" como argumento "recursivo" para incluir todos los archivos de fuentes en los directorios que estamos pasando
 // en el primer argumento, así como todas las fuentes en sus subdirectorios.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
@@ -186,7 +188,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// La carpeta "Junction" en sí no contiene archivos de fuentes, pero tiene subcarpetas que sí.
+// La carpeta "Junction" en sí no contiene archivos de fuentes, pero tiene subcarpetas que sí los contienen.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

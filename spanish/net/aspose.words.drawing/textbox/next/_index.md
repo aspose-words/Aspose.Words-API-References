@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Devuelve o establece un TextBox que representa el siguiente TextBox en una secuencia de formas.
+description: TextBox propiedad. Devuelve o establece unTextBox que representa el siguienteTextBox en una secuencia de formas.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Devuelve o establece un TextBox que representa el siguiente TextBox en una secuencia de formas.
+Devuelve o establece un[`TextBox`](../) que representa el siguiente[`TextBox`](../) en una secuencia de formas.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -37,14 +37,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crear enlaces entre algunos de los cuadros de texto.
+// Crea enlaces entre algunos de los cuadros de texto.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Solo un cuadro de texto vacío puede tener un enlace.
+// Sólo un cuadro de texto vacío puede tener un enlace.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Rompe el vínculo directo entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
+    // Rompe el vínculo de reenvío entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

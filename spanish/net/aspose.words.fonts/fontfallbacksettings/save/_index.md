@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.Save
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontFallbackSettings método. Guarda la configuración de respaldo actual en la transmisión.
+description: FontFallbackSettings método. Guarda la configuración alternativa actual en la transmisión.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(Stream) {#save}
 
-Guarda la configuración de respaldo actual en la transmisión.
+Guarda la configuración alternativa actual en la transmisión.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -16,16 +16,16 @@ public void Save(Stream outputStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| outputStream | Stream | Salida de corriente. |
+| outputStream | Stream | Flujo de salida. |
 
 ### Ejemplos
 
-Muestra cómo cargar y guardar la configuración de reserva de fuentes en/desde una transmisión.
+Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde una secuencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Cargue un documento XML que defina un conjunto de configuraciones de respaldo de fuentes.
+// Carga un documento XML que define un conjunto de configuraciones de reserva de fuentes.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -36,7 +36,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Usar una secuencia para guardar la configuración de reserva de fuente actual de nuestro documento como un documento XML.
+// Utilice una secuencia para guardar la configuración de reserva de fuente actual de nuestro documento como un documento XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {
@@ -54,7 +54,7 @@ using (FileStream fontFallbackStream =
 
 ## Save(string) {#save_1}
 
-Guarda la configuración de respaldo actual en el archivo.
+Guarda la configuración alternativa actual en un archivo.
 
 ```csharp
 public void Save(string fileName)
@@ -66,19 +66,19 @@ public void Save(string fileName)
 
 ### Ejemplos
 
-Muestra cómo cargar y guardar la configuración de reserva de fuentes a/desde un documento XML en el sistema de archivos local.
+Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde un documento XML en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Cargue un documento XML que defina un conjunto de configuraciones de respaldo de fuentes.
+// Carga un documento XML que define un conjunto de configuraciones de reserva de fuentes.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Guardar la configuración de reserva de fuente actual de nuestro documento como un documento XML.
+// Guarde la configuración de reserva de fuente actual de nuestro documento como un documento XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 

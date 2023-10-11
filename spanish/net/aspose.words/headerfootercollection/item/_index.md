@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.Item
 second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooterCollection propiedad. Recupera un EncabezadoPie de página en el índice dado.
+description: HeaderFooterCollection propiedad. Recupera unHeaderFooter en el índice dado.
 type: docs
 weight: 10
 url: /es/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Recupera un **EncabezadoPie de página** en el índice dado.
+Recupera un[`HeaderFooter`](../../headerfooter/) en el índice dado.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -20,11 +20,11 @@ public HeaderFooter this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
@@ -42,7 +42,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Vaya a la primera sección y cree un encabezado y un pie de página. Por defecto,
+// Pasa a la primera sección y crea un encabezado y un pie de página. Por defecto,
 // el encabezado y el pie de página solo aparecerán en las páginas de la sección que los contiene.
 builder.MoveToSection(0);
 
@@ -56,25 +56,25 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // para permitir que la sección de enlace muestre los encabezados/pies de página de la sección enlazada.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Cada sección aún tendrá sus propios objetos de encabezado/pie de página. Cuando vinculamos secciones,
-// la sección de enlace mostrará el encabezado/pie de página de la sección enlazada manteniendo el suyo propio.
+// Cada sección seguirá teniendo sus propios objetos de encabezado/pie de página. Cuando vinculamos secciones,
+// la sección de enlace mostrará el encabezado/pie de página de la sección enlazada manteniendo los suyos propios.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Vincular los encabezados/pies de página de la tercera sección a los encabezados/pies de página de la segunda sección.
+// Vincula los encabezados/pies de página de la tercera sección a los encabezados/pies de página de la segunda sección.
 // La segunda sección ya enlaza con el encabezado/pie de página de la primera sección,
-// por lo que vincular a la segunda sección creará una cadena de enlaces.
-// La primera, la segunda y ahora la tercera sección mostrarán los encabezados de la primera sección.
+// por lo que vincular a la segunda sección creará una cadena de vínculos.
+// La primera, segunda y ahora tercera sección mostrarán los encabezados de la primera sección.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Podemos desvincular el encabezado/pie de página de una sección anterior pasando "falso" al llamar al método LinkToPrevious.
+// Podemos desvincular el encabezado/pie de página de una sección anterior pasando "false" al llamar al método LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // También podemos seleccionar solo un tipo específico de encabezado/pie de página para vincular usando este método.
 // La tercera sección ahora tendrá el mismo pie de página que la segunda y la primera sección, pero no el encabezado.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Los encabezados/pies de página de la primera sección no pueden vincularse a nada porque no hay una sección anterior.
+// El encabezado/pie de página de la primera sección no puede vincularse a nada porque no existe una sección anterior.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Recupera un **EncabezadoPie de página** del tipo especificado.
+Recupera un[`HeaderFooter`](../../headerfooter/) del tipo especificado.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -109,11 +109,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) value que especifica el tipo de encabezado/pie de página a recuperar. |
+| headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) value que especifica el tipo de encabezado/pie de página que se recuperará. |
 
 ### Observaciones
 
-Devuelve nulo si no se encuentra el encabezado/pie de página del tipo especificado.
+Devoluciones`nulo` si no se encuentra el encabezado/pie de página del tipo especificado.
 
 ### Ejemplos
 
@@ -142,11 +142,11 @@ Muestra cómo eliminar todos los pies de página de un documento.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Iterar a través de cada sección y eliminar pies de página de todo tipo.
+// Recorre cada sección y elimina pies de página de todo tipo.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Hay tres tipos de tipos de encabezado y pie de página.
-    // 1 - El encabezado/pie de página "Primero", que solo aparece en la primera página de una sección.
+    // Hay tres tipos de pie de página y encabezado.
+    // 1 - El "primer" encabezado/pie de página, que solo aparece en la primera página de una sección.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
@@ -154,7 +154,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-      // 3 - El encabezado/pie de página "Even", que aparece en las páginas pares.
+     // 3 - El encabezado/pie de página "Par", que aparece en páginas pares.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

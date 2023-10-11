@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeHorizontalPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.RelativeHorizontalPosition enumeración. Especifica a qué es relativa la posición horizontal de una forma o marco de texto.
+description: Aspose.Words.Drawing.RelativeHorizontalPosition enumeración. Especifica con qué es relativa la posición horizontal de una forma o marco de texto.
 type: docs
-weight: 1060
+weight: 1190
 url: /es/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
 
-Especifica a qué es relativa la posición horizontal de una forma o marco de texto.
+Especifica con qué es relativa la posición horizontal de una forma o marco de texto.
 
 ```csharp
 public enum RelativeHorizontalPosition
@@ -18,14 +18,14 @@ public enum RelativeHorizontalPosition
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Margin | `0` | Especifica que el posicionamiento horizontal será relativo a los márgenes de la página. |
-| Page | `1` | El objeto se coloca en relación con el borde izquierdo de la página. |
-| Column | `2` | El objeto se coloca en relación con el lado izquierdo de la columna. |
-| Character | `3` | El objeto se coloca en relación con el lado izquierdo del párrafo. |
-| LeftMargin | `4` | Especifica que el posicionamiento horizontal será relativo al margen izquierdo de la página. |
-| RightMargin | `5` | Especifica que el posicionamiento horizontal será relativo al margen derecho de la página. |
-| InsideMargin | `6` | Especifica que el posicionamiento horizontal será relativo al margen interior de la página actual (el margen izquierdo en las páginas impares, el derecho en las páginas pares). |
-| OutsideMargin | `7` | Especifica que el posicionamiento horizontal será relativo al margen exterior de la página actual (el margen derecho en las páginas impares, el izquierdo en las páginas pares). |
+| Margin | `0` | Especifica que la posición horizontal será relativa a los márgenes de la página. |
+| Page | `1` | El objeto está colocado en relación con el borde izquierdo de la página. |
+| Column | `2` | El objeto está ubicado en relación con el lado izquierdo de la columna. |
+| Character | `3` | El objeto está ubicado en relación con el lado izquierdo del párrafo. |
+| LeftMargin | `4` | Especifica que la posición horizontal será relativa al margen izquierdo de la página. |
+| RightMargin | `5` | Especifica que la posición horizontal será relativa al margen derecho de la página. |
+| InsideMargin | `6` | Especifica que la posición horizontal será relativa al margen interior de la página actual (el margen izquierdo en páginas impares, el derecho en páginas pares). |
+| OutsideMargin | `7` | Especifica que la posición horizontal será relativa al margen exterior de la página actual (el margen derecho en páginas impares, el izquierdo en páginas pares). |
 | Default | `2` | El valor predeterminado esColumn . |
 
 ### Ejemplos
@@ -48,7 +48,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();

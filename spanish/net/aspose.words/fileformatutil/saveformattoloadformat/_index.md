@@ -22,13 +22,13 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 ### Ejemplos
 
-Muestra cómo convertir un formato guardado a su formato de carga correspondiente.
+Muestra cómo convertir un formato de guardado a su formato de carga correspondiente.
 
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Algunos tipos de archivos pueden tener documentos guardados, pero no cargados con Aspose.Words.
-// Si intentamos convertir un formato guardado de este tipo a un formato de carga, se lanzará una excepción.
+// Algunos tipos de archivos pueden tener documentos guardados, pero no cargados usando Aspose.Words.
+// Si intentamos convertir un formato de guardado de dicho tipo a un formato de carga, se generará una excepción.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

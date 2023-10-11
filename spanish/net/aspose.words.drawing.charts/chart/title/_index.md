@@ -3,7 +3,7 @@ title: Chart.Title
 second_title: Referencia de API de Aspose.Words para .NET
 description: Chart propiedad. Proporciona acceso a las propiedades del título del gráfico.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.drawing.charts/chart/title/
 ---
 ## Chart.Title property
@@ -22,18 +22,18 @@ Muestra cómo insertar un gráfico y establecer un título.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte una forma de gráfico con un generador de documentos y obtenga su gráfico.
+// Inserta una forma de gráfico con un generador de documentos y obtén su gráfico.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Use la propiedad "Título" para darle un título a nuestro gráfico, que aparece en la parte superior central del área del gráfico.
+// Utilice la propiedad "Título" para darle un título a nuestro gráfico, que aparece en la parte superior central del área del gráfico.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Establezca la propiedad "Mostrar" en "verdadero" para que el título sea visible.
+ // Establece la propiedad "Mostrar" en "verdadero" para que el título sea visible.
 title.Show = true;
 
-// Establezca la propiedad "Superposición" en "verdadero" Dé más espacio a otros elementos del gráfico permitiéndoles superponerse al título
+// Establece la propiedad "Superposición" en "verdadero" Da más espacio a otros elementos del gráfico permitiéndoles superponerse al título
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

@@ -26,11 +26,11 @@ metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opera usando Aspose.Words, y luego imprime nuestras estadísticas medidas nuevamente para ver cuánto gastamos.
+// Opere usando Aspose.Words y luego imprima nuestras estadísticas medidas nuevamente para ver cuánto gastamos.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// El mecanismo de licencias medidas de Aspose no envía los datos de uso al servidor de compras cada vez,
+// El mecanismo de licencia medida de Aspose no envía los datos de uso al servidor de compra cada vez,
 // necesitas usar la espera.
 System.Threading.Thread.Sleep(10000);
 

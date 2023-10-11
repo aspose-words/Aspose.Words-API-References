@@ -3,12 +3,14 @@ title: Class PageSet
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PageSet clase. Describe un conjunto aleatorio de páginas.
 type: docs
-weight: 5110
+weight: 5390
 url: /es/net/aspose.words.saving/pageset/
 ---
 ## PageSet class
 
 Describe un conjunto aleatorio de páginas.
+
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
 
 ```csharp
 public sealed class PageSet

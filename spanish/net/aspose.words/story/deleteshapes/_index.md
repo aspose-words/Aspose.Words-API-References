@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Usa un DocumentBuilder para insertar una forma. Esta es una forma en línea,
-// que tiene un Párrafo principal, que es un nodo secundario del Cuerpo de la primera sección.
+// que tiene un párrafo principal, que es un nodo secundario del cuerpo de la primera sección.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// Podemos eliminar todas las formas de los párrafos secundarios de este Cuerpo.
+// Podemos eliminar todas las formas de los párrafos secundarios de este cuerpo.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

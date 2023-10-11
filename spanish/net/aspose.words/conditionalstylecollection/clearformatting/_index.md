@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Ejemplos
 
-Muestra cómo restablecer estilos de tabla condicionales.
+Muestra cómo restablecer estilos de tablas condicionales.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Establecer el estilo de la tabla para colorear los bordes de la primera fila de la tabla en rojo.
+// Establece el estilo de la tabla para colorear los bordes de la primera fila de la tabla en rojo.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Establecer el estilo de la tabla para colorear los bordes de la última fila de la tabla en azul.
+// Establece el estilo de la tabla para colorear los bordes de la última fila de la tabla en azul.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// A continuación se muestran dos formas de usar el método "ClearFormatting" para borrar los estilos condicionales.
-// 1 - Limpiar los estilos condicionales para una parte específica de una tabla:
+// A continuación se muestran dos formas de utilizar el método "ClearFormatting" para borrar los estilos condicionales.
+// 1 - Borrar los estilos condicionales para una parte específica de una tabla:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);

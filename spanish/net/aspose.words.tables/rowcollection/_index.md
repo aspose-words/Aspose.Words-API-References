@@ -3,12 +3,14 @@ title: Class RowCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.RowCollection clase. Proporciona acceso escrito a una colección deRow nodos.
 type: docs
-weight: 6020
+weight: 6320
 url: /es/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
 Proporciona acceso escrito a una colección de[`Row`](../row/) nodos.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,7 +21,7 @@ public class RowCollection : NodeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Recupera un **Fila** en el índice dado. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Recupera un[`Row`](../row/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -33,7 +35,7 @@ public class RowCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Copia todas las filas de la colección a una nueva matriz de filas. (2 methods) |
+| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Copia todas las filas de la colección en una nueva matriz de filas. (2 methods) |
 
 ### Ejemplos
 

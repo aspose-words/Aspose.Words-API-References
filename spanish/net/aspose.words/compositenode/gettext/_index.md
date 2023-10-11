@@ -3,7 +3,7 @@ title: CompositeNode.GetText
 second_title: Referencia de API de Aspose.Words para .NET
 description: CompositeNode método. Obtiene el texto de este nodo y de todos sus hijos.
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Observaciones
 
-La cadena devuelta incluye todos los caracteres especiales y de control como se describe en[`ControlChar`](../../controlchar/).
+La cadena devuelta incluye todos los caracteres de control y especiales como se describe en[`ControlChar`](../../controlchar/).
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText recuperará el texto visible, así como los códigos de campo y los caracteres especiales.
+// GetText recuperará el texto visible así como códigos de campo y caracteres especiales.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
 // ToString nos dará la apariencia del documento si se guarda en un formato de guardado aprobado.

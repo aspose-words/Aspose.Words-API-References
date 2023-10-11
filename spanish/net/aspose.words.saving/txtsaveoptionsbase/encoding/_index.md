@@ -22,14 +22,14 @@ Muestra cómo configurar la codificación para un documento de salida .txt.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue algo de texto con caracteres fuera del juego de caracteres ASCII.
+// Agregue texto con caracteres fuera del conjunto de caracteres ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Crear un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
-// para modificar cómo guardamos el documento en texto sin formato.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
+// para modificar cómo guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Verificar que la propiedad "Codificación" contiene la codificación apropiada para el contenido de nuestro documento.
+// Verificamos que la propiedad "Codificación" contenga la codificación adecuada para el contenido de nuestro documento.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

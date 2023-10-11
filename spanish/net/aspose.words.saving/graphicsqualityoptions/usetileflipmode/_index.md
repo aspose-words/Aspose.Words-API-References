@@ -16,11 +16,11 @@ public bool UseTileFlipMode { get; set; }
 
 ### Observaciones
 
-losWrapMode especifica cómo se organiza una textura o un degradado cuando es más pequeño que el área que se está rellenando.
+ElWrapMode especifica cómo se mosaico una textura o un degradado cuando es menor que el área que se está rellenando.
 
-Por defecto utilizaTile (especifica mosaico sin voltear). Esto provoca una representación imprecisa de la imagen escalada (con alta resolución).
+Por defecto utilizaTile (especifica mosaico sin voltear). Esto provoca una representación inexacta de la imagen escalada (con alta resolución).
 
-Esta propiedad permite cambiar WrapMode aTileFlipXY (especifica que los mosaicos se voltean horizontalmente a medida que avanza por una fila y verticalmente a medida que avanza por una columna).
+Esta propiedad permite cambiar WrapMode aTileFlipXY (especifica que los mosaicos se voltean horizontalmente a medida que se mueve a lo largo de una fila y se voltean verticalmente a medida que se mueve a lo largo de una columna).
 
 ### Ejemplos
 

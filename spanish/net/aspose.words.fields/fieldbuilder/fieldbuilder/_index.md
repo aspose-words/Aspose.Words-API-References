@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
 // Los campos tienen su constructor, que podemos usar para construir un código de campo pieza por pieza.
-// En este caso, construiremos un campo BARCODE que representa un código postal de EE. UU.,
+// En este caso, construiremos un campo CÓDIGO DE BARRAS que representa un código postal de EE. UU.,
 // y luego insértelo delante de Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");

@@ -16,13 +16,13 @@ public int ZoomPercent { get; set; }
 
 ### Observaciones
 
-Si el valor es 0, esta propiedad usa 100 en su lugar; de lo contrario, si el valor es menor que 10 o mayor que 500, esta propiedad genera .
+Si el valor es 0, entonces esta propiedad usa 100; de lo contrario, si el valor es menor que 10 o mayor que 500, esta propiedad arroja.
 
 Aunque Aspose.Words puede leer y escribir esta opción, su uso es específico de la aplicación. Por ejemplo MS Word 2013 no respeta el valor de esta opción.
 
 ### Ejemplos
 
-Muestra cómo establecer un factor de zoom personalizado, que las versiones anteriores de Microsoft Word aplicarán a un documento al cargarlo.
+Muestra cómo configurar un factor de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
 
 ```csharp
 Document doc = new Document();

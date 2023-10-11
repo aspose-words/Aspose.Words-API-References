@@ -1,14 +1,14 @@
 ---
 title: Enum CellMerge
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.CellMerge enumeración. Especifica cómo se fusiona una celda de una tabla con otras celdas.
+description: Aspose.Words.Tables.CellMerge enumeración. Especifica cómo se combina una celda de una tabla con otras celdas.
 type: docs
-weight: 5970
+weight: 6270
 url: /es/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
 
-Especifica cómo se fusiona una celda de una tabla con otras celdas.
+Especifica cómo se combina una celda de una tabla con otras celdas.
 
 ```csharp
 public enum CellMerge
@@ -19,24 +19,24 @@ public enum CellMerge
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | La celda no está fusionada. |
-| First | `1` | La celda es la primera celda en un rango de celdas combinadas. |
+| First | `1` | La celda es la primera celda de un rango de celdas combinadas. |
 | Previous | `2` | La celda se fusiona con la celda anterior horizontal o verticalmente. |
 
 ### Ejemplos
 
-Muestra cómo fusionar celdas de tabla horizontalmente.
+Muestra cómo fusionar celdas de tablas horizontalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserta una celda en la primera columna de la primera fila.
-// Esta celda será la primera en un rango de celdas combinadas horizontalmente.
+// Esta celda será la primera de un rango de celdas fusionadas horizontalmente.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserta una celda en la segunda columna de la primera fila. En lugar de agregar contenido de texto,
+// Inserta una celda en la segunda columna de la primera fila. En lugar de agregar contenidos de texto,
 // fusionaremos esta celda con la primera celda que agregamos directamente a la izquierda.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
@@ -83,14 +83,14 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Muestra cómo fusionar celdas de tabla verticalmente.
+Muestra cómo fusionar celdas de tablas verticalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserta una celda en la primera columna de la primera fila.
-// Esta celda será la primera en un rango de celdas combinadas verticalmente.
+// Esta celda será la primera de un rango de celdas fusionadas verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -102,7 +102,7 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Inserta una celda en la primera columna de la segunda fila. 
+ // Inserta una celda en la primera columna de la segunda fila.
 // En lugar de agregar contenido de texto, fusionaremos esta celda con la primera celda que agregamos directamente arriba.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;

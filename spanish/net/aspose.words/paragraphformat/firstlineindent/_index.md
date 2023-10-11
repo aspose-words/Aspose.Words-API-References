@@ -1,16 +1,16 @@
 ---
 title: ParagraphFormat.FirstLineIndent
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el valor en puntos de una primera línea o sangría francesa.
+description: ParagraphFormat propiedad. Obtiene o establece el valor en puntos para una primera línea o sangría francesa.
 type: docs
-weight: 110
+weight: 120
 url: /es/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-Obtiene o establece el valor (en puntos) de una primera línea o sangría francesa.
+Obtiene o establece el valor (en puntos) para una primera línea o sangría francesa.
 
-Utilice valores positivos para establecer la sangría de la primera línea y valores negativos para establecer la sangría francesa.
+Utilice valores positivos para establecer la sangría de primera línea y valores negativos para establecer la sangría francesa.
 
 ```csharp
 public double FirstLineIndent { get; set; }

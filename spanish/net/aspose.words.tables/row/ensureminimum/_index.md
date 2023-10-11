@@ -1,14 +1,14 @@
 ---
 title: Row.EnsureMinimum
 second_title: Referencia de API de Aspose.Words para .NET
-description: Row método. Si el Fila no tiene celdas crea y agrega una Célula .
+description: Row método. Si elRow no tiene celdas crea y agrega unaCell .
 type: docs
-weight: 110
+weight: 150
 url: /es/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Si el **Fila** no tiene celdas, crea y agrega una **Célula** .
+Si el[`Row`](../) no tiene celdas, crea y agrega una[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -25,11 +25,11 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Las filas contienen celdas, que contienen párrafos con elementos típicos como corridas, formas e incluso otras tablas.
-// Nuestra nueva fila no tiene ninguno de estos nodos, y no podemos agregarle contenido hasta que lo tenga.
+// Las filas contienen celdas que contienen párrafos con elementos típicos como ejecuciones, formas e incluso otras tablas.
+// Nuestra nueva fila no tiene ninguno de estos nodos y no podemos agregarle contenido hasta que los tenga.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Llamar al método "EnsureMinimum" en una tabla asegurará que
+// Llamar al método "EnsureMinimum" en una tabla garantizará que
 // la tabla tiene al menos una celda con un párrafo vacío.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

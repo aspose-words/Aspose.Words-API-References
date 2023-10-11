@@ -1,14 +1,14 @@
 ---
 title: Field.GetFieldCode
 second_title: Referencia de API de Aspose.Words para .NET
-description: Field método. Devuelve el texto entre el inicio del campo y el separador de campo o el final del campo si no hay separador. Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios.
+description: Field método. Devuelve texto entre el inicio del campo y el separador de campo o el final del campo si no hay separador. Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios.
+Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios.
 
 ```csharp
 public string GetFieldCode()
@@ -16,7 +16,7 @@ public string GetFieldCode()
 
 ### Ejemplos
 
-Muestra cómo insertar un campo en un documento utilizando un código de campo.
+Muestra cómo insertar un campo en un documento usando un código de campo.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// De forma predeterminada, el método GetFieldCode muestra los campos internos.
+// De forma predeterminada, el método GetFieldCode muestra campos internos.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 
@@ -60,7 +60,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ## GetFieldCode(bool) {#getfieldcode_1}
 
-Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador).
+Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador).
 
 ```csharp
 public string GetFieldCode(bool includeChildFieldCodes)
@@ -68,7 +68,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `Verdadero` si se deben incluir códigos de campo secundarios. |
+| includeChildFieldCodes | Boolean | `verdadero` si se deben incluir códigos de campo secundarios. |
 
 ### Ejemplos
 
@@ -87,7 +87,7 @@ Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// De forma predeterminada, el método GetFieldCode muestra los campos internos.
+// De forma predeterminada, el método GetFieldCode muestra campos internos.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: FieldDocVariable.VariableName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDocVariable propiedad. Obtiene o establece el nombre de la variable del documento a recuperar.
+description: FieldDocVariable propiedad. Obtiene o establece el nombre de la variable del documento que se va a recuperar.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddocvariable/variablename/
 ---
 ## FieldDocVariable.VariableName property
 
-Obtiene o establece el nombre de la variable del documento a recuperar.
+Obtiene o establece el nombre de la variable del documento que se va a recuperar.
 
 ```csharp
 public string VariableName { get; set; }
@@ -16,7 +16,7 @@ public string VariableName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar los campos DOCPROPERTY para mostrar las propiedades y variables del documento.
+Muestra cómo utilizar los campos DOCPROPERTY para mostrar propiedades y variables del documento.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // A continuación se muestran dos formas de utilizar los campos DOCPROPERTY.
 // 1 - Mostrar una propiedad incorporada:
-// Establezca un valor personalizado para la propiedad integrada "Categoría", luego inserte un campo DOCPROPERTY que lo haga referencia.
+// Establezca un valor personalizado para la propiedad integrada "Categoría" y luego inserte un campo DOCPROPERTY que haga referencia a ella.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -36,7 +36,7 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 builder.InsertParagraph();
 
 // 2 - Mostrar una variable de documento personalizada:
-// Defina una variable personalizada, luego haga referencia a esa variable con un campo DOCPROPERTY.
+// Defina una variable personalizada y luego haga referencia a esa variable con un campo DOCPROPERTY.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");
 

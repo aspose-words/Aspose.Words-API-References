@@ -3,12 +3,14 @@ title: Class FieldInfo
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.FieldInfo clase. Implementa el campo INFO.
 type: docs
-weight: 1930
+weight: 2080
 url: /es/net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class
 
 Implementa el campo INFO.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldInfo : Field
@@ -27,13 +29,13 @@ public class FieldInfo : Field
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
-| [InfoType](../../aspose.words.fields/fieldinfo/infotype/) { get; set; } | Obtiene o establece el tipo de propiedad del documento a insertar. |
+| [InfoType](../../aspose.words.fields/fieldinfo/infotype/) { get; set; } | Obtiene o establece el tipo de propiedad del documento que se va a insertar. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
 | [NewValue](../../aspose.words.fields/fieldinfo/newvalue/) { get; set; } | Obtiene o establece un valor opcional que actualiza la propiedad. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -41,12 +43,12 @@ public class FieldInfo : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -60,7 +62,7 @@ Muestra cómo trabajar con campos INFO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establezca un valor para la propiedad integrada "Comentarios" y luego inserte un campo INFO para mostrar el valor de esa propiedad.
+// Establezca un valor para la propiedad incorporada "Comentarios" y luego inserte un campo INFORMACIÓN para mostrar el valor de esa propiedad.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

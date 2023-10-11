@@ -3,7 +3,7 @@ title: Enum ReplaceAction
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Replacing.ReplaceAction enumeración. Permite al usuario especificar qué sucede con la coincidencia actual durante una operación de reemplazo.
 type: docs
-weight: 4380
+weight: 4640
 url: /es/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -19,23 +19,26 @@ public enum ReplaceAction
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Replace | `0` | Reemplazar la coincidencia actual. |
-| Skip | `1` | Saltar la coincidencia actual. |
-| Stop | `2` | Terminar la operación de reemplazo. |
+| Skip | `1` | Saltar la partida actual. |
+| Stop | `2` | Finalice la operación de reemplazo. |
 
 ### Ejemplos
 
-Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -47,7 +50,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eliminar el párrafo con el texto coincidente.
+        // Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -69,7 +72,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Omite el nodo si es el último párrafo vacío en una sección.
+                // Omite el nodo si es el último párrafo vacío de una sección.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

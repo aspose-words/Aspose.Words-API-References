@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### Observaciones
 
-Valores deCenter yInside no están permitidos y provocaránArgumentOutOfRangeException.
+Valores deCenter yInside no están permitidos y causaránArgumentOutOfRangeException.
 
 ### Ver también
 

@@ -3,12 +3,14 @@ title: Class ParagraphCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.ParagraphCollection clase. Proporciona acceso escrito a una colección deParagraph nodos.
 type: docs
-weight: 4170
+weight: 4410
 url: /es/net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
 
 Proporciona acceso escrito a una colección de[`Paragraph`](../paragraph/) nodos.
+
+Para obtener más información, visite el[Trabajar con párrafos](https://docs.aspose.com/words/net/working-with-paragraphs/) artículo de documentación.
 
 ```csharp
 public class ParagraphCollection : NodeCollection
@@ -19,7 +21,7 @@ public class ParagraphCollection : NodeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Recupera un **Párrafo** en el índice dado. (2 indexers) |
+| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Recupera un[`Paragraph`](../paragraph/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -33,27 +35,27 @@ public class ParagraphCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Copia todos los párrafos de la colección a una nueva matriz de párrafos. (2 methods) |
+| [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Copia todos los párrafos de la colección en una nueva matriz de párrafos. (2 methods) |
 
 ### Ejemplos
 
-Muestra cómo verificar si un párrafo es una revisión de movimiento.
+Muestra cómo comprobar si un párrafo es una revisión movida.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
 // Este documento contiene revisiones "Mover", que aparecen cuando resaltamos texto con el cursor,
 // y luego arrástrelo para moverlo a otra ubicación
-// mientras realiza un seguimiento de las revisiones en Microsoft Word a través de "Revisar" -> "Cambio de camino".
+// mientras realizamos el seguimiento de las revisiones en Microsoft Word mediante "Revisar" -> "Cambio de camino".
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Las revisiones de movimiento consisten en pares de revisiones "Mover desde" y "Mover a". 
+ // Las revisiones de movimiento constan de pares de revisiones "Mover desde" y "Mover a".
 // Estas revisiones son cambios potenciales al documento que podemos aceptar o rechazar.
-// Antes de que aceptemos/rechacemos una revisión de movimiento, el documento
+// Antes de aceptar/rechazar una revisión de movimiento, el documento
 // debe realizar un seguimiento de los destinos de salida y llegada del texto.
-// El segundo y el cuarto párrafo definen una de esas revisiones y, por lo tanto, ambos tienen el mismo contenido.
+// El segundo y cuarto párrafo definen una de esas revisiones y, por lo tanto, ambos tienen el mismo contenido.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
 // La revisión "Mover desde" es el párrafo desde donde arrastramos el texto.
@@ -61,7 +63,7 @@ Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 // y el otro permanecerá y ya no será una revisión.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
-// La revisión "Mover a" es el párrafo al que arrastramos el texto.
+// La revisión "Mover a" es el párrafo donde arrastramos el texto.
 // Si rechazamos la revisión, este párrafo desaparecerá y el otro permanecerá.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```

@@ -16,7 +16,7 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 
 ### Observaciones
 
-Esta opción está disponible en .Net Framework a partir de la versión 3.5 o .Net Standard.
+Esta opción está disponible en .Net framework a partir de la versión 3.5 o .Net Standard.
 
 De forma predeterminada, Aspose.Words usa la zona horaria local del sistema cuando escribe campos de fecha/hora, esta opción permite establecer un valor personalizado.
 

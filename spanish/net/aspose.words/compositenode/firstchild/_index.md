@@ -3,7 +3,7 @@ title: CompositeNode.FirstChild
 second_title: Referencia de API de Aspose.Words para .NET
 description: CompositeNode propiedad. Obtiene el primer hijo del nodo.
 type: docs
-weight: 30
+weight: 20
 url: /es/net/aspose.words/compositenode/firstchild/
 ---
 ## CompositeNode.FirstChild property
@@ -16,11 +16,11 @@ public Node FirstChild { get; }
 
 ### Observaciones
 
-Si no hay un primer nodo secundario, se devuelve un valor nulo.
+Si no hay un primer nodo secundario, se`nulo` se devuelve.
 
 ### Ejemplos
 
-Muestra cómo usar la propiedad NextSibling de un nodo para enumerar a través de sus elementos secundarios inmediatos.
+Muestra cómo utilizar la propiedad NextSibling de un nodo para enumerar sus hijos inmediatos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -38,19 +38,20 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoque la función recursiva que pasará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad, así como del contenido de todos los nodos en línea.
+/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {

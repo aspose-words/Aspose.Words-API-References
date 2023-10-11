@@ -1,14 +1,14 @@
 ---
 title: Document.AcceptAllRevisions
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Acepta todos los cambios registrados en el documento.
+description: Document método. Acepta todos los cambios rastreados en el documento.
 type: docs
-weight: 500
+weight: 520
 url: /es/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method
 
-Acepta todos los cambios registrados en el documento.
+Acepta todos los cambios rastreados en el documento.
 
 ```csharp
 public void AcceptAllRevisions()
@@ -36,7 +36,7 @@ doc.StopTrackRevisions();
 Assert.AreEqual(3, doc.Revisions.Count);
 
 // Podemos iterar a través de cada revisión y aceptarla/rechazarla como parte de nuestro documento.
-// Si sabemos que deseamos aceptar todas las revisiones, podemos hacerlo de forma más sencilla llamando a este método.
+// Si sabemos que deseamos aceptar cada revisión, podemos hacerlo de manera más sencilla llamando a este método.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(0, doc.Revisions.Count);

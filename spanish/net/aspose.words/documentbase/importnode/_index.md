@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcNode | Node | El nodo que se está importando. |
-| isImportChildren | Boolean | True para importar todos los nodos secundarios de forma recursiva; en caso contrario, falso. |
+| isImportChildren | Boolean | `verdadero` importar todos los nodos secundarios de forma recursiva; de lo contrario,`FALSO`. |
 
 ### Valor_devuelto
 
@@ -25,13 +25,13 @@ El nodo clonado que pertenece al documento actual.
 
 ### Observaciones
 
-Este método utiliza elUseDestinationStyles opción para resolver el formateo.
+Este método utiliza elUseDestinationStyles opción para resolver el formato.
 
 La importación de un nodo crea una copia del nodo de origen que pertenece al documento de importación. El nodo devuelto no tiene padre. El nodo de origen no se modifica ni se elimina del documento original.
 
-Antes de poder insertar un nodo de otro documento en este documento, debe importarse. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
+Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usandoNode) o Node).
 
-Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un deep clone del nodo de origen.
+Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un clone profundo del nodo de origen.
 
 ### Ejemplos
 
@@ -84,8 +84,8 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcNode | Node | El nodo a importar. |
-| isImportChildren | Boolean | True para importar todos los nodos secundarios de forma recursiva; en caso contrario, falso. |
-| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que entra en conflicto. |
+| isImportChildren | Boolean | `verdadero` importar todos los nodos secundarios de forma recursiva; de lo contrario,`FALSO`. |
+| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
 
 ### Valor_devuelto
 
@@ -97,17 +97,17 @@ Esta sobrecarga es útil para controlar cómo se importan los estilos y el forma
 
 La importación de un nodo crea una copia del nodo de origen que pertenece al documento de importación. El nodo devuelto no tiene padre. El nodo de origen no se modifica ni se elimina del documento original.
 
-Antes de poder insertar un nodo de otro documento en este documento, debe importarse. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
+Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usandoNode) o Node).
 
-Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un deep clone del nodo de origen.
+Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un clone profundo del nodo de origen.
 
 ### Ejemplos
 
-Muestra cómo importar un nodo del documento de origen al documento de destino con opciones específicas.
+Muestra cómo importar nodos desde el documento de origen al documento de destino con opciones específicas.
 
 ```csharp
-// Cree dos documentos y agregue un estilo de carácter a cada documento.
-// Configure los estilos para que tengan el mismo nombre, pero un formato de texto diferente.
+// Crea dos documentos y agrega un estilo de carácter a cada documento.
+// Configura los estilos para que tengan el mismo nombre, pero un formato de texto diferente.
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
 srcStyle.Font.Name = "Courier New";
@@ -122,14 +122,14 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// Importar la Sección del documento de destino al documento de origen, provocando una colisión de nombres de estilos.
+// Importa la sección del documento de destino al documento de origen, lo que provoca una colisión de nombres de estilo.
 // Si usamos estilos de destino, entonces el texto fuente importado con el mismo nombre de estilo
 // como texto de destino adoptará el estilo de destino.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// Si usamos ImportFormatMode.KeepDifferentStyles, se conserva el estilo de origen,
+// Si usamos ImportFormatMode.KeepDifferentStyles, se conserva el estilo fuente,
 // y el conflicto de nombres se resuelve agregando un sufijo.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);

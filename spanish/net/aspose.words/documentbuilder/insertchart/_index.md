@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertChart
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta un objeto de gráfico en el documento y lo escala al tamaño especificado.
 type: docs
-weight: 260
+weight: 280
 url: /es/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
@@ -16,7 +16,7 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| chartType | ChartType | El tipo de gráfico para insertar en el documento. |
+| chartType | ChartType | El tipo de gráfico que se insertará en el documento. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 
@@ -26,7 +26,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -66,11 +67,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| chartType | ChartType | El tipo de gráfico para insertar en el documento. |
+| chartType | ChartType | El tipo de gráfico que se insertará en el documento. |
 | horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la imagen. |
 | left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la imagen. |
 | vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la imagen. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la imagen. |
+| top | Double | Distancia en puntos desde el origen hasta la parte superior de la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la imagen. |
@@ -81,7 +82,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 

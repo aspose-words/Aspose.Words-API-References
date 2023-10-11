@@ -16,9 +16,9 @@ public int CharactersPerLine { get; set; }
 
 ### Observaciones
 
-El valor mínimo de la propiedad es 1. El valor máximo depende del ancho de página y el tamaño de fuente del estilo Normal . El paso mínimo de caracteres es el 90 por ciento del tamaño de la fuente. Por ejemplo, el número máximo de caracteres por línea de una página Carta con márgenes de una pulgada es 43.
+El valor mínimo de la propiedad es 1. El valor máximo depende del ancho de la página y del tamaño de fuente del estilo Normal . El paso mínimo de los caracteres es el 90 por ciento del tamaño de fuente. Por ejemplo, el número máximo de caracteres por línea de una página Carta con márgenes de una pulgada es 43.
 
-De forma predeterminada, la propiedad tiene un valor en el que el paso de caracteres es igual al tamaño de fuente del estilo Normal .
+De forma predeterminada, la propiedad tiene un valor en el que el paso de los caracteres es igual al tamaño de fuente del estilo Normal .
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo especificar un para el número de caracteres que puede tener cada 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Habilite el lanzamiento y luego utilícelo para establecer la cantidad de caracteres por línea en esta sección.
+// Habilite el paso y luego utilícelo para establecer el número de caracteres por línea en esta sección.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 

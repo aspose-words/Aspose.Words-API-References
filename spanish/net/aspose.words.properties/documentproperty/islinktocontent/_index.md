@@ -26,7 +26,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Vincular una nueva propiedad personalizada a un marcador. El valor de esta propiedad
+// Vincular una nueva propiedad personalizada a un marcador. El valor de esta propiedad.
 // será el contenido del marcador al que hace referencia en el miembro "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

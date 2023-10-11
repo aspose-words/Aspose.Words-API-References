@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Usar conjunto alternativo de reglas de salto de línea de Asia oriental.
+description: CompatibilityOptions propiedad. Utilice un conjunto alternativo de reglas de ruptura de línea del este de Asia.
 type: docs
 weight: 600
 url: /es/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions.UseAltKinsokuLineBreakRules property
 
-Usar conjunto alternativo de reglas de salto de línea de Asia oriental.
+Utilice un conjunto alternativo de reglas de ruptura de línea del este de Asia.
 
 ```csharp
 public bool UseAltKinsokuLineBreakRules { get; set; }

@@ -16,11 +16,11 @@ public RectangleF Bounds { get; set; }
 
 ### Observaciones
 
-Ignora el bloqueo de la relación de aspecto al configurarlo.
+Ignora el bloqueo de la relación de aspecto al realizar la configuración.
 
-Para una forma de nivel superior, el valor está en puntos y en relación con el ancla de la forma.
+Para una forma de nivel superior, el valor está en puntos y es relativo al anclaje de la forma.
 
-Para formas en un grupo, el valor está en el espacio de coordenadas y unidades del grupo principal.
+Para formas en un grupo, el valor está en el espacio de coordenadas y las unidades del grupo principal.
 
 ### Ejemplos
 
@@ -35,17 +35,17 @@ Shape shape = builder.InsertShape(ShapeType.Line, RelativeHorizontalPosition.Lef
 shape.StrokeColor = Color.Orange;
 
 // Aunque la línea en sí ocupa poco espacio en la página del documento,
-// ocupa un bloque contenedor rectangular, cuyo tamaño podemos determinar utilizando las propiedades "Límites".
+// ocupa un bloque contenedor rectangular, cuyo tamaño podemos determinar usando las propiedades "Límites".
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.Bounds);
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.BoundsInPoints);
 
-// Cree una forma de grupo y luego establezca el tamaño del bloque que lo contiene usando la propiedad "Límites".
+// Crea una forma de grupo y luego establece el tamaño del bloque que lo contiene usando la propiedad "Límites".
 GroupShape group = new GroupShape(doc);
 group.Bounds = new RectangleF(0, 100, 250, 250);
 
 Assert.AreEqual(new RectangleF(0, 100, 250, 250), group.BoundsInPoints);
 
-// Cree un rectángulo, verifique el tamaño de su bloque delimitador y luego agréguelo a la forma del grupo.
+// Crea un rectángulo, verifica el tamaño de su bloque delimitador y luego agrégalo a la forma del grupo.
 shape = new Shape(doc, ShapeType.Rectangle)
 {
     Width = 100,
@@ -59,10 +59,10 @@ Assert.AreEqual(new RectangleF(700, 700, 100, 100), shape.BoundsInPoints);
 group.AppendChild(shape);
 
 // El plano de coordenadas de la forma del grupo tiene su origen en la esquina superior izquierda del bloque que lo contiene,
-// y las coordenadas x e y de (1000, 1000) en la esquina inferior derecha.
+// y las coordenadas xey de (1000, 1000) en la esquina inferior derecha.
 // La forma de nuestro grupo tiene un tamaño de 250x250 puntos, por lo que cada 4 puntos en el plano de coordenadas de la forma del grupo
-// se traduce a 1pt en el plano de coordenadas del cuerpo del documento.
-// Cada forma que insertemos también se reducirá en tamaño por un factor de 4.
+// se traduce en 1 punto en el plano de coordenadas del cuerpo del documento.
+// Cada forma que insertemos también reducirá su tamaño en un factor de 4.
 // El cambio en la propiedad "BoundsInPoints" de la forma reflejará esto.
 Assert.AreEqual(new RectangleF(175, 275, 25, 25), shape.BoundsInPoints);
 
@@ -92,8 +92,8 @@ Muestra cómo crear y rellenar una forma de grupo.
 Document doc = new Document();
 
 // Crea una forma de grupo. Una forma de grupo puede mostrar una colección de nodos de formas secundarias.
-// En Microsoft Word, al hacer clic dentro de los límites de la forma del grupo o en una de las formas secundarias de la forma del grupo, se
-// selecciona todas las otras formas secundarias dentro de este grupo y nos permite escalar y mover todas las formas a la vez.
+// En Microsoft Word, al hacer clic dentro de los límites de la forma del grupo o en una de las formas secundarias de la forma del grupo,
+// selecciona todas las demás formas secundarias dentro de este grupo y nos permite escalar y mover todas las formas a la vez.
 GroupShape group = new GroupShape(doc);
 
 Assert.AreEqual(WrapType.None, group.WrapType);
@@ -101,17 +101,17 @@ Assert.AreEqual(WrapType.None, group.WrapType);
 // Cree una forma de grupo de 400 pt x 400 pt y colóquela en el origen de coordenadas de la forma flotante del documento.
 group.Bounds = new RectangleF(0, 0, 400, 400);
 
-  // Establezca el tamaño del plano de coordenadas internas del grupo en 500 x 500 puntos.
-// La esquina superior izquierda del grupo tendrá una coordenada x e y de (0, 0),
-// y la esquina inferior derecha tendrá una coordenada x e y de (500, 500).
+// Establece el tamaño del plano de coordenadas interno del grupo en 500 x 500 puntos. 
+// La esquina superior izquierda del grupo tendrá una coordenada xey de (0, 0),
+// y la esquina inferior derecha tendrá una coordenada xey de (500, 500).
 group.CoordSize = new Size(500, 500);
 
-  // Establecer las coordenadas de la esquina superior izquierda del grupo en (-250, -250).
-// El centro del grupo ahora tendrá un valor de coordenadas x e y de (0, 0),
+// Establece las coordenadas de la esquina superior izquierda del grupo en (-250, -250). 
+// El centro del grupo ahora tendrá un valor de coordenadas xey de (0, 0),
 // y la esquina inferior derecha estará en (250, 250).
 group.CoordOrigin = new Point(-250, -250);
 
-// Cree un rectángulo que muestre el límite de esta forma de grupo y agréguelo al grupo.
+// Crea un rectángulo que mostrará el límite de esta forma de grupo y agrégalo al grupo.
 group.AppendChild(new Shape(doc, ShapeType.Rectangle)
 {
     Width = group.CoordSize.Width,
@@ -120,7 +120,7 @@ group.AppendChild(new Shape(doc, ShapeType.Rectangle)
     Top = group.CoordOrigin.Y
 });
 
-// Una vez que una forma es parte de una forma de grupo, podemos acceder a ella como un nodo secundario y luego modificarla.
+// Una vez que una forma forma parte de una forma de grupo, podemos acceder a ella como un nodo secundario y luego modificarla.
 ((Shape)group.GetChild(NodeType.Shape, 0, true)).Stroke.DashStyle = DashStyle.Dash;
 
 // Crea una pequeña estrella roja e insértala en el grupo.
@@ -134,10 +134,10 @@ group.AppendChild(new Shape(doc, ShapeType.Star)
     FillColor = Color.Red
 });
 
-  // Inserta un rectángulo y luego inserta un rectángulo un poco más pequeño en el mismo lugar con una imagen.
+// Inserta un rectángulo y luego inserta un rectángulo un poco más pequeño en el mismo lugar con una imagen. 
 // Las formas más nuevas que agregamos al grupo se superponen a las formas más antiguas. El rectángulo azul claro se superpondrá parcialmente a la estrella roja,
 // y luego la forma con la imagen se superpondrá al rectángulo azul claro, usándolo como marco.
-  // No podemos usar las propiedades "ZOrder" de las formas para manipular su disposición dentro de una forma de grupo.
+// No podemos usar las propiedades "ZOrder" de las formas para manipular su disposición dentro de una forma de grupo. 
 group.AppendChild(new Shape(doc, ShapeType.Rectangle)
 {
     Width = 250,

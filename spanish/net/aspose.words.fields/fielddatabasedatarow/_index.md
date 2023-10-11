@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataRow
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow clase. Proporciona datos para elFieldDatabase campo resultado.
+description: Aspose.Words.Fields.FieldDatabaseDataRow clase. Proporciona datos para elFieldDatabase resultado de campo. Por favor miraDataRow instancia.
 type: docs
-weight: 1600
+weight: 1750
 url: /es/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Proporciona datos para el[`FieldDatabase`](../fielddatabase/) campo resultado.
+Proporciona datos para el[`FieldDatabase`](../fielddatabase/) resultado de campo. Por favor miraDataRow instancia.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -24,13 +26,13 @@ public class FieldDatabaseDataRow
 
 | Nombre | Descripción |
 | --- | --- |
-| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | Obtiene los valores que pertenecen a esta fila. |
+| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | Obtiene valores que pertenecen a esta fila. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Inicializa una nueva instancia del`FieldDatabaseDataRow` class de laDataRow instancia. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Inicializa una nueva instancia del`FieldDatabaseDataRow` class delDataRow instancia. |
 
 ### Ver también
 

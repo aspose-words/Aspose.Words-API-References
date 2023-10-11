@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientDataCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+description: OdsoRecipientDataCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<OdsoRecipientData> GetEnumerator()
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos combinados excluirá una combinación de correspondencia.
+Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

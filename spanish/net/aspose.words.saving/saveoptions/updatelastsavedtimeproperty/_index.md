@@ -3,7 +3,7 @@ title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Referencia de API de Aspose.Words para .NET
 description: SaveOptions propiedad. Obtiene o establece un valor que determina si elLastSavedTime la propiedad se actualiza antes de guardar.
 type: docs
-weight: 190
+weight: 180
 url: /es/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
@@ -16,7 +16,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ### Ejemplos
 
-Muestra cómo determinar si se debe conservar la propiedad "Última vez que se guardó" del documento al guardarlo.
+Muestra cómo determinar si se conserva la propiedad "Última hora guardada" del documento al guardarlo.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,10 +26,10 @@ Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0),
 
 // Cuando guardamos el documento en formato OOXML, podemos crear un objeto OoxmlSaveOptions
 // y luego pasarlo al método de guardado del documento para modificar cómo guardamos el documento.
-// Establecer la propiedad "UpdateLastSavedTimeProperty" en "true" para
-// establezca la propiedad integrada "Última hora guardada" del documento de salida en la fecha/hora actual.
-// Establecer la propiedad "UpdateLastSavedTimeProperty" en "falso" para
-// conservar el valor original de la propiedad integrada "Última hora guardada" del documento de entrada.
+// Establece la propiedad "UpdateLastSavedTimeProperty" en "true" para
+// establece la propiedad incorporada "Última hora guardada" del documento de salida en la fecha/hora actual.
+// Establece la propiedad "UpdateLastSavedTimeProperty" en "false" para
+// conserva el valor original de la propiedad incorporada "Última hora guardada" del documento de entrada.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 

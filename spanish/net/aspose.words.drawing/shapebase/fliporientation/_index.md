@@ -37,7 +37,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Establezca la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la segunda forma en el eje y,
+// Establece la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la segunda forma en el eje y,
 // convirtiéndolo en una imagen especular horizontal de la primera forma.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
@@ -45,15 +45,15 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Establezca la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la tercera forma en el eje x,
-// convirtiéndolo en una imagen de espejo vertical de la primera forma.
+// Establece la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la tercera forma en el eje x,
+// convirtiéndolo en una imagen especular vertical de la primera forma.
 shape.FlipOrientation = FlipOrientation.Vertical;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Establezca la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la cuarta forma en los ejes x e y,
+// Establece la propiedad "FlipOrientation" en "FlipOrientation.Horizontal" para voltear la cuarta forma en los ejes x e y,
 // convirtiéndolo en una imagen especular horizontal y vertical de la primera forma.
 shape.FlipOrientation = FlipOrientation.Both;
 

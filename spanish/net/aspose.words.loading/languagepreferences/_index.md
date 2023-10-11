@@ -3,12 +3,14 @@ title: Class LanguagePreferences
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Loading.LanguagePreferences clase. Permite configurar preferencias de idioma.
 type: docs
-weight: 3450
+weight: 3650
 url: /es/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Permite configurar preferencias de idioma.
+
+Para obtener más información, visite el[Especificar opciones de carga](https://docs.aspose.com/words/net/specify-load-options/) artículo de documentación.
 
 ```csharp
 public class LanguagePreferences
@@ -30,7 +32,7 @@ public class LanguagePreferences
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Añade idioma de edición adicional. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Agrega idioma de edición adicional. |
 | [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Agrega idiomas de edición adicionales. |
 
 ### Observaciones

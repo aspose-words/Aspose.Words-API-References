@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSuppressParagraphBorders
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No suprimir los bordes de párrafo al lado de los marcos.
+description: CompatibilityOptions propiedad. No suprimir los bordes de los párrafos junto a los marcos.
 type: docs
 weight: 190
 url: /es/net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
 ---
 ## CompatibilityOptions.DoNotSuppressParagraphBorders property
 
-No suprimir los bordes de párrafo al lado de los marcos.
+No suprimir los bordes de los párrafos junto a los marcos.
 
 ```csharp
 public bool DoNotSuppressParagraphBorders { get; set; }

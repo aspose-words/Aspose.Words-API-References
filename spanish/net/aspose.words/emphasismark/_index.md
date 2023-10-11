@@ -1,14 +1,14 @@
 ---
 title: Enum EmphasisMark
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.EmphasisMark enumeración. Especifica los posibles tipos de marcas de énfasis.
+description: Aspose.Words.EmphasisMark enumeración. Especifica posibles tipos de marca de énfasis.
 type: docs
-weight: 1310
+weight: 1460
 url: /es/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Especifica los posibles tipos de marcas de énfasis.
+Especifica posibles tipos de marca de énfasis.
 
 ```csharp
 public enum EmphasisMark
@@ -19,14 +19,14 @@ public enum EmphasisMark
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Sin marca de énfasis. |
-| OverSolidCircle | `1` | La marca de énfasis es un círculo negro sólido que se muestra sobre el texto. |
+| OverSolidCircle | `1` | La marca de énfasis es un círculo negro sólido que se muestra encima del texto. |
 | OverComma | `2` | La marca de énfasis es un carácter de coma que se muestra encima del texto. |
-| OverWhiteCircle | `3` | La marca de énfasis es un círculo blanco vacío que se muestra sobre el texto. |
+| OverWhiteCircle | `3` | La marca de énfasis es un círculo blanco vacío que se muestra encima del texto. |
 | UnderSolidCircle | `4` | La marca de énfasis es un círculo negro sólido que se muestra debajo del texto. |
 
 ### Ejemplos
 
-Muestra cómo agregar caracteres adicionales representados arriba/abajo del carácter de glifo.
+Muestra cómo agregar caracteres adicionales representados encima/debajo del carácter de glifo.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

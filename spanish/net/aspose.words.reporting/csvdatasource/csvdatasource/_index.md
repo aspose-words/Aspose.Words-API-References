@@ -28,7 +28,7 @@ public CsvDataSource(string csvPath)
 
 ## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
 
-Crea una nueva fuente de datos con datos de un archivo CSV usando las opciones especificadas para analizar datos CSV.
+Crea una nueva fuente de datos con datos de un archivo CSV utilizando las opciones especificadas para analizar datos CSV.
 
 ```csharp
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
@@ -50,7 +50,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(Stream) {#constructor}
 
-Crea una nueva fuente de datos con datos de un flujo CSV usando opciones predeterminadas para analizar datos CSV.
+Crea una nueva fuente de datos con datos de una secuencia CSV usando opciones predeterminadas para analizar datos CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -58,7 +58,7 @@ public CsvDataSource(Stream csvStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| csvStream | Stream | El flujo de datos CSV que se usará como fuente de datos. |
+| csvStream | Stream | El flujo de datos CSV que se utilizará como fuente de datos. |
 
 ### Ver también
 
@@ -70,7 +70,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
 
-Crea una nueva fuente de datos con datos de un flujo CSV usando las opciones especificadas para analizar datos CSV.
+Crea una nueva fuente de datos con datos de una secuencia CSV utilizando las opciones especificadas para analizar datos CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
@@ -78,7 +78,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| csvStream | Stream | El flujo de datos CSV que se usará como fuente de datos. |
+| csvStream | Stream | El flujo de datos CSV que se utilizará como fuente de datos. |
 | options | CsvDataLoadOptions | Opciones para analizar los datos CSV. |
 
 ### Ver también

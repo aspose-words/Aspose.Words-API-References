@@ -37,15 +37,15 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 }
 
 // Cada ejecución a la que afecta una revisión obtiene un objeto de revisión correspondiente.
-// La colección de revisiones es considerablemente más grande que la forma condensada que imprimimos arriba,
-// dependiendo de cuántas Ejecuciones hayamos segmentado el documento durante la edición de Microsoft Word.
+// La colección de revisiones es considerablemente mayor que el formulario condensado que imprimimos arriba.
+// dependiendo de en cuántas Ejecuciones hayamos segmentado el documento durante la edición de Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // Un StyleDefinitionChange afecta estrictamente a los estilos y no a los nodos del documento. Esto significa el "ParentStyle"
+        // Un StyleDefinitionChange afecta estrictamente a los estilos y no a los nodos de documentos. Esto significa "ParentStyle"
         // la propiedad siempre estará en uso, mientras que ParentNode siempre será nulo.
         // Dado que todos los demás cambios afectan a los nodos, ParentNode estará en uso y ParentStyle será nulo.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
@@ -61,7 +61,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Rechazar todas las revisiones a través de la colección, volviendo el documento a su forma original.
+// Rechaza todas las revisiones a través de la colección, revirtiendo el documento a su forma original.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

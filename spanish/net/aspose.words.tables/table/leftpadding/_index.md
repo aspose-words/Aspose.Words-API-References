@@ -1,14 +1,14 @@
 ---
 title: Table.LeftPadding
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece la cantidad de espacio en puntos que se agrega a la izquierda del contenido de las celdas.
+description: Table propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de las celdas.
 type: docs
 weight: 200
 url: /es/net/aspose.words.tables/table/leftpadding/
 ---
 ## Table.LeftPadding property
 
-Obtiene o establece la cantidad de espacio (en puntos) que se agrega a la izquierda del contenido de las celdas.
+Obtiene o establece la cantidad de espacio (en puntos) que se agregará a la izquierda del contenido de las celdas.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Para cada celda de la tabla, establezca la distancia entre su contenido y cada uno de sus bordes. 
-// Esta tabla mantendrá la distancia de relleno mínima al envolver el texto.
+ // Para cada celda de la tabla, establece la distancia entre su contenido y cada uno de sus bordes.
+// Esta tabla mantendrá la distancia mínima de relleno ajustando el texto.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

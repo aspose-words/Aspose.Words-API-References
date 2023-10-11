@@ -1,14 +1,14 @@
 ---
 title: Section.ProtectedForForms
 second_title: Referencia de API de Aspose.Words para .NET
-description: Section propiedad. Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios los usuarios pueden seleccionar y modificar texto solo en campos de formulario en Microsoft Word.
+description: Section propiedad. Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios los usuarios pueden seleccionar y modificar texto solo en los campos de formulario en Microsoft Word.
 type: docs
 weight: 60
 url: /es/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios, los usuarios pueden seleccionar y modificar texto solo en campos de formulario en Microsoft Word.
+Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios, los usuarios pueden seleccionar y modificar texto solo en los campos de formulario en Microsoft Word.
 
 ```csharp
 public bool ProtectedForForms { get; set; }

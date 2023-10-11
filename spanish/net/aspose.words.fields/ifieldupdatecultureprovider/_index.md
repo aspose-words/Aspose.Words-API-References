@@ -3,7 +3,7 @@ title: Interface IFieldUpdateCultureProvider
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.IFieldUpdateCultureProvider interfaz. Cuando se implementa proporciona unaCultureInfo objeto que debe usarse durante la actualización de un campo en particular.
 type: docs
-weight: 2540
+weight: 2710
 url: /es/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
@@ -18,14 +18,13 @@ public interface IFieldUpdateCultureProvider
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Devuelve unCultureInfo objeto a utilizar durante la actualización del campo. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Devuelve unCultureInfoobjeto que se utilizará durante la actualización del campo. |
 
 ### Ejemplos
 
-Muestra cómo especificar una referencia cultural que analiza el formato de fecha/hora para cada campo.
+Muestra cómo especificar una cultura que analiza el formato de fecha/hora para cada campo.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Establecer un proveedor que devuelva un objeto cultural específico para cada campo.
+    // Establece un proveedor que devuelve un objeto cultural específico para cada campo.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -51,7 +50,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Devuelve un objeto CultureInfo para ser utilizado durante la actualización del campo.
+    /// Devuelve un objeto CultureInfo que se utilizará durante la actualización del campo.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

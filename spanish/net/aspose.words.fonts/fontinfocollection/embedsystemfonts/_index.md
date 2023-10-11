@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Especifica si se incrustan o no las fuentes del sistema en el documento. El valor predeterminado para esta propiedad es falso.
+description: FontInfoCollection propiedad. Especifica si se incrustan o no fuentes del sistema en el documento. El valor predeterminado para esta propiedad esFALSO.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Especifica si se incrustan o no las fuentes del sistema en el documento. El valor predeterminado para esta propiedad es **falso**.
+Especifica si se incrustan o no fuentes del sistema en el documento. El valor predeterminado para esta propiedad es`FALSO`.
 
-Esta opción solo funciona cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) la opción está configurada para **verdadero**.
+Esta opción funciona sólo cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) La opción está configurada en`verdadero`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -18,9 +18,9 @@ public bool EmbedSystemFonts { get; set; }
 
 ### Observaciones
 
-Establecer esta propiedad en`Verdadero`es útil si el usuario está en un sistema de Asia oriental y desea crear un documento que puedan leer otras personas que no tienen fuentes para ese idioma en su sistema. Por ejemplo, un usuario en un sistema japonés podría elegir incrustar las fuentes en un documento para que el documento japonés sea legible en todos los sistemas.
+Establecer esta propiedad en`verdadero`es útil si el usuario está en un sistema del este de Asia y desea crear un documento que sea legible por otras personas que no tienen fuentes para ese idioma en su sistema. Por ejemplo, un usuario de un sistema japonés podría optar por incrustar las fuentes en un documento para que el documento japonés sea legible en todos los sistemas.
 
-Esta opción funciona solo para los formatos DOC, DOCX y RTF.
+Esta opción sólo funciona con formatos DOC, DOCX y RTF.
 
 ### Ejemplos
 

@@ -1,14 +1,16 @@
 ---
 title: Class BuildVersionInfo
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BuildVersionInfo clase. Proporciona información sobre el nombre y la versión del producto actual.
+description: Aspose.Words.BuildVersionInfo clase. Proporciona información sobre el nombre y la versión actuales del producto.
 type: docs
-weight: 110
+weight: 120
 url: /es/net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class
 
-Proporciona información sobre el nombre y la versión del producto actual.
+Proporciona información sobre el nombre y la versión actuales del producto.
+
+Para obtener más información, visite el[Nombre del generador o productor incluido en los documentos de salida](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) artículo de documentación.
 
 ```csharp
 public static class BuildVersionInfo

@@ -3,7 +3,7 @@ title: Range.Text
 second_title: Referencia de API de Aspose.Words para .NET
 description: Range propiedad. Obtiene el texto del rango.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words/range/text/
 ---
 ## Range.Text property
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Observaciones
 
-La cadena devuelta incluye todos los caracteres especiales y de control como se describe en[`ControlChar`](../../controlchar/).
+La cadena devuelta incluye todos los caracteres de control y especiales como se describe en[`ControlChar`](../../controlchar/).
 
 ### Ejemplos
 

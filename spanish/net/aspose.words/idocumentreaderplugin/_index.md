@@ -3,7 +3,7 @@ title: Interface IDocumentReaderPlugin
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.IDocumentReaderPlugin interfaz. Define una interfaz para complementos de lectores externos que pueden leer un archivo en un documento.
 type: docs
-weight: 2980
+weight: 3180
 url: /es/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
@@ -18,7 +18,7 @@ public interface IDocumentReaderPlugin
 
 | Nombre | Descripción |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(Stream, LoadOptions, Document) | Lee los datos del flujo especificado en el[`Document`](../document/) instancia. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(Stream, LoadOptions, Document) | Lee los datos de la secuencia especificada en el[`Document`](../document/) instancia. |
 
 ### Ver también
 

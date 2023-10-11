@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.Document
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSavingArgs propiedad. Obtiene el objeto de documento que se está guardando actualmente.
+description: ImageSavingArgs propiedad. Obtiene el objeto del documento que se está guardando actualmente.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-Obtiene el objeto de documento que se está guardando actualmente.
+Obtiene el objeto del documento que se está guardando actualmente.
 
 ```csharp
 public Document Document { get; }
@@ -16,9 +16,10 @@ public Document Document { get; }
 
 ### Ejemplos
 
-Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión de HTML.
+Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

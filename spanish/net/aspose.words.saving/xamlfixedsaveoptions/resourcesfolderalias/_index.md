@@ -16,7 +16,7 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Observaciones
 
-Cuando guardas un[`Document`](../../../aspose.words/document/) en formato Xaml de página fija, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán las URI de la imagen.
+Cuando guardas un[`Document`](../../../aspose.words/document/) en formato Xaml de página fija, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán los URI de la imagen.
 
 ### Ejemplos
 
@@ -28,24 +28,24 @@ public void ResourceFolder()
     Document doc = new Document(MyDir + "Rendering.docx");
     ResourceUriPrinter callback = new ResourceUriPrinter();
 
-    // Crear un objeto "XamlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "XamlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
     // para modificar cómo guardamos el documento en el formato de guardado XAML.
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
-    // Use la propiedad "ResourcesFolder" para asignar una carpeta en el sistema de archivos local en la que
+    // Utilice la propiedad "ResourcesFolder" para asignar una carpeta en el sistema de archivos local en la que
     // Aspose.Words guardará todos los recursos vinculados del documento, como imágenes y fuentes.
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
     // Usa la propiedad "ResourcesFolderAlias" para usar esta carpeta
-    // al construir URI de imagen en lugar del nombre de la carpeta de recursos.
+    // al construir URI de imágenes en lugar del nombre de la carpeta de recursos.
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
     // Una carpeta especificada por "ResourcesFolderAlias" deberá contener los recursos en lugar de "ResourcesFolder".
-    // Debemos asegurarnos de que la carpeta exista antes de que los flujos de devolución de llamada puedan poner sus recursos en ella.
+    // Debemos asegurarnos de que la carpeta exista antes de que las transmisiones de la devolución de llamada puedan poner sus recursos en ella.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFixedSaveOptions.ResourceFolder.xaml", options);
@@ -55,7 +55,7 @@ public void ResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime URI de recursos creados durante la conversión a .xaml fijo.
+/// Cuenta e imprime los URI de los recursos creados durante la conversión a .xaml fijo.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -69,7 +69,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
         // Si especificamos un alias de carpeta de recursos, también necesitaríamos
-        // para redirigir cada flujo para poner su recurso en la carpeta de alias.
+        // para redirigir cada secuencia para colocar su recurso en la carpeta de alias.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

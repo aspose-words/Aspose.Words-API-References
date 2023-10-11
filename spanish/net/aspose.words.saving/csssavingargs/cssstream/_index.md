@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs.CssStream
 second_title: Referencia de API de Aspose.Words para .NET
-description: CssSavingArgs propiedad. Permite especificar el flujo donde se guardará la información CSS.
+description: CssSavingArgs propiedad. Permite especificar la secuencia donde se guardará la información CSS.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/csssavingargs/cssstream/
 ---
 ## CssSavingArgs.CssStream property
 
-Permite especificar el flujo donde se guardará la información CSS.
+Permite especificar la secuencia donde se guardará la información CSS.
 
 ```csharp
 public Stream CssStream { get; set; }
@@ -18,9 +18,9 @@ public Stream CssStream { get; set; }
 
 Esta propiedad le permite guardar información CSS en una secuencia.
 
-El valor predeterminado es`nulo` Esta propiedad no suprime guardar información CSS en un archivo o incrustar en un documento HTML. Para suprimir la exportación de CSS, use el[`IsExportNeeded`](../isexportneeded/) propiedad.
+El valor predeterminado es`nulo` . Esta propiedad no impide guardar información CSS en un archivo ni incrustarla en un documento HTML. Para suprimir la exportación de CSS utilice el[`IsExportNeeded`](../isexportneeded/) propiedad.
 
-Usando[`ICssSavingCallback`](../../icsssavingcallback/) no puede sustituir CSS con otro. Está diseñado solo para guardar CSS en una transmisión.
+Usando[`ICssSavingCallback`](../../icsssavingcallback/) no puedes sustituir CSS por otro. Está destinado únicamente a guardar CSS en una secuencia.
 
 ### Ejemplos
 
@@ -31,19 +31,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crear un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
     // para modificar cómo convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Establecer la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
-    // acompañar un documento HTML guardado con un archivo de hoja de estilo CSS externo.
+    // Establece la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
+    // acompaña un documento HTML guardado con un archivo de hoja de estilo CSS externo.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // A continuación se muestran dos formas de especificar directorios y nombres de archivo para las hojas de estilo CSS de salida.
+    // A continuación se muestran dos formas de especificar directorios y nombres de archivos para las hojas de estilo CSS de salida.
     // 1 - Usa la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Use una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
+    // 2 - Usa una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Podemos acceder a todo el documento de origen a través de la propiedad "Documento".
+        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

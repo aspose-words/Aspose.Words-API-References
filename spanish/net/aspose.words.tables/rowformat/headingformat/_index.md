@@ -16,7 +16,7 @@ public bool HeadingFormat { get; set; }
 
 ### Ejemplos
 
-Muestra cómo construir una tabla con filas que se repiten en cada página.
+Muestra cómo crear una tabla con filas que se repiten en cada página.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Cualquier fila insertada mientras el indicador "HeadingFormat" está establecido en "true"
+// Cualquier fila insertada mientras el indicador "HeadingFormat" esté establecido en "true"
 // aparecerá en la parte superior de la tabla en cada página que abarque.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -40,7 +40,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Agregue suficientes filas para que la tabla abarque dos páginas.
+// Agregue suficientes filas para que la tabla ocupe dos páginas.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

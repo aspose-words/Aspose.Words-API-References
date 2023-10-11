@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Obtiene o establece la indicación de si los campos de formulario se exportan como elementos interactivos como etiqueta de entrada en lugar de convertirlos en texto o gráficos.
+description: HtmlFixedSaveOptions propiedad. Obtiene o establece una indicación de si los campos del formulario se exportan como elementos interactivos como etiqueta de entrada en lugar de convertirse a texto o gráficos.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Obtiene o establece la indicación de si los campos de formulario se exportan como elementos interactivos (como etiqueta de "entrada") en lugar de convertirlos en texto o gráficos.
+Obtiene o establece una indicación de si los campos del formulario se exportan como elementos interactivos (como etiqueta de "entrada") en lugar de convertirse a texto o gráficos.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Ejemplos
 
-Muestra cómo exportar campos de formulario a Html.
+Muestra cómo exportar campos de formulario a HTML.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ builder.InsertCheckBox("CheckBox", false, 15);
 
 // Cuando exportamos un documento con campos de formulario a .html,
 // hay dos formas en que Aspose.Words puede exportar campos de formulario.
-// Establecer el indicador "ExportFormFields" en "true" los exportará como objetos interactivos.
-// Establecer este indicador en "falso" mostrará los campos de formulario como texto sin formato.
+// Establecer el indicador "ExportFormFields" en "verdadero" los exportará como objetos interactivos.
+// Establecer esta bandera en "falso" mostrará los campos del formulario como texto sin formato.
 // Esto los congelará en su valor actual y evitará que el lector de nuestro documento HTML
 // de poder interactuar con ellos.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions

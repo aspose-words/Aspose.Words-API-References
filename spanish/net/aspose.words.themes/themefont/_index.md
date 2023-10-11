@@ -1,14 +1,14 @@
 ---
 title: Enum ThemeFont
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Themes.ThemeFont enumeración. Especifica los tipos de nombres de fuentes de tema para temas de documentos.
+description: Aspose.Words.Themes.ThemeFont enumeración. Especifica los tipos de nombres de fuentes de temas para temas de documentos.
 type: docs
-weight: 6190
+weight: 6490
 url: /es/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
 
-Especifica los tipos de nombres de fuentes de tema para temas de documentos.
+Especifica los tipos de nombres de fuentes de temas para temas de documentos.
 
 ```csharp
 public enum ThemeFont
@@ -20,15 +20,15 @@ public enum ThemeFont
 | --- | --- | --- |
 | None | `0` | Sin fuente de tema. |
 | Major | `1` | Fuente del tema principal. |
-| Minor | `2` | Fuente de tema menor. |
+| Minor | `2` | Fuente del tema menor. |
 
 ### Observaciones
 
-Especifica un tipo de fuente de tema al que se puede hacer referencia como fuente de tema dentro de las propiedades del objeto principal. Esta fuente de tema es una referencia a una de las fuentes de tema predefinidas, ubicadas en la parte Tema del documento , que permite que la información de fuente establecerse centralmente en el documento.
+Especifica un tipo de fuente de tema al que se puede hacer referencia como fuente de tema dentro de las propiedades del objeto principal. Esta fuente de tema es una referencia a una de las fuentes de tema predefinidas, ubicada en la parte Tema del documento , que permite que la información de fuente configurarse centralmente en el documento.
 
 ### Ejemplos
 
-Muestra cómo crear y utilizar un estilo temático.
+Muestra cómo crear y utilizar estilos temáticos.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea un estilo con las propiedades de la fuente del tema.
+// Crea algún estilo con las propiedades de fuente del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -46,12 +46,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Muestra cómo trabajar con fuentes y colores temáticos.
+Muestra cómo trabajar con fuentes y colores de temas.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para usos de idiomas por defecto.
+// Definir fuentes para los idiomas utilizados de forma predeterminada.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -104,7 +104,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Al establecer nombres de fuentes/colores que no sean del tema:
+// 2 - Configurando nombres de fuentes/colores que no sean temas:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

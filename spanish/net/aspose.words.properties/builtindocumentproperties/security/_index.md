@@ -16,22 +16,22 @@ public DocumentSecurity Security { get; set; }
 
 ### Observaciones
 
-Utilice esta propiedad solo con fines informativos porque Microsoft Word no siempre establece esta propiedad. Esta propiedad está disponible solo en documentos DOC y OOXML.
+Utilice esta propiedad sólo con fines informativos porque Microsoft Word no siempre establece esta propiedad. Esta propiedad solo está disponible en documentos DOC y OOXML.
 
-Para proteger o desproteger un documento use the [`Protect`](../../../aspose.words/document/protect/) y[`Unprotect`](../../../aspose.words/document/unprotect/)métodos.
+Para proteger o desproteger un documento utilice the [`Protect`](../../../aspose.words/document/protect/) y[`Unprotect`](../../../aspose.words/document/unprotect/) métodos.
 
 Aspose.Words actualiza esta propiedad a un valor correcto antes de guardar un documento.
 
 ### Ejemplos
 
-Muestra cómo usar las propiedades del documento para mostrar el nivel de seguridad de un documento.
+Muestra cómo utilizar las propiedades del documento para mostrar el nivel de seguridad de un documento.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Si configuramos un documento para que sea de solo lectura, mostrará este estado utilizando la propiedad integrada "Seguridad".
+// Si configuramos un documento para que sea de solo lectura, mostrará este estado usando la propiedad incorporada "Seguridad".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

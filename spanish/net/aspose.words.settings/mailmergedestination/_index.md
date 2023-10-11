@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDestination
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeDestination enumeración. Especifica los posibles resultados que se pueden generar cuando se realiza una fusión de correspondencia sobre un documento.
+description: Aspose.Words.Settings.MailMergeDestination enumeración. Especifica los posibles resultados que se pueden generar cuando se realiza una combinación de correspondencia en un documento.
 type: docs
-weight: 5530
+weight: 5830
 url: /es/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
 
-Especifica los posibles resultados que se pueden generar cuando se realiza una fusión de correspondencia sobre un documento.
+Especifica los posibles resultados que se pueden generar cuando se realiza una combinación de correspondencia en un documento.
 
 ```csharp
 public enum MailMergeDestination
@@ -18,15 +18,15 @@ public enum MailMergeDestination
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NewDocument | `0` | Especifica que las aplicaciones de hospedaje conformes generarán nuevos documentos llenando los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
-| Printer | `1` | Especifica que las aplicaciones de hospedaje conformes deben imprimir los documentos que resultan de completar los campos dentro de un documento determinado con datos externos de la fuente de datos externa especificada. |
-| Email | `2` | Especifica que las aplicaciones de hospedaje conformes generarán correos electrónicos usando los documentos que resultan de llenando los campos dentro de un documento dado con datos de la fuente de datos externa especificada. |
-| Fax | `4` | Especifica que las aplicaciones de hospedaje conformes deben generar faxes utilizando los documentos que resultan de al completar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| NewDocument | `0` | Especifica que las aplicaciones de alojamiento conformes generarán nuevos documentos completando los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| Printer | `1` | Especifica que las aplicaciones de alojamiento conformes imprimirán los documentos resultantes de completar los campos dentro de un documento determinado con datos externos de la fuente de datos externa especificada. |
+| Email | `2` | Especifica que las aplicaciones de alojamiento conformes generarán correos electrónicos utilizando los documentos que resulten de completar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| Fax | `4` | Especifica que las aplicaciones de alojamiento conformes generarán faxes utilizando los documentos resultantes de completar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
 | Default | `0` | Igual a laNewDocument valor. |
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correo con datos de un objeto de origen de datos de Office.
+Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
 ```csharp
 Document doc = new Document();
@@ -39,8 +39,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crear una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como el delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
+// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -69,7 +69,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Al abrir este documento en Microsoft Word, se ejecutará la combinación de correspondencia antes de mostrar el contenido. 
+ // Al abrir este documento en Microsoft Word se ejecutará la combinación de correspondencia antes de mostrar el contenido.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

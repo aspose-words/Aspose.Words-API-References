@@ -20,13 +20,13 @@ public GroupShape(DocumentBase doc)
 
 ### Observaciones
 
-De forma predeterminada, la forma es flotante y tiene una ubicación y un tamaño predeterminados.
+De forma predeterminada, la forma flota y tiene una ubicación y tamaño predeterminados.
 
 Debe especificar las propiedades de forma deseadas después de crear una forma.
 
 ### Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,7 +34,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)

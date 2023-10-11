@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox método. Determina si este cuadro de texto se puede vincular al cuadro de texto de destino.
+description: TextBox método. Determina si estoTextBox se puede vincular al objetivoTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /es/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Determina si este cuadro de texto se puede vincular al cuadro de texto de destino.
+Determina si esto[`TextBox`](../) se puede vincular al objetivo[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -37,14 +37,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crear enlaces entre algunos de los cuadros de texto.
+// Crea enlaces entre algunos de los cuadros de texto.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Solo un cuadro de texto vacío puede tener un enlace.
+// Sólo un cuadro de texto vacío puede tener un enlace.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Rompe el vínculo directo entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
+    // Rompe el vínculo de reenvío entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

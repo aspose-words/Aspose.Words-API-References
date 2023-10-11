@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataRow.Values
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabaseDataRow propiedad. Obtiene los valores que pertenecen a esta fila.
+description: FieldDatabaseDataRow propiedad. Obtiene valores que pertenecen a esta fila.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fielddatabasedatarow/values/
 ---
 ## FieldDatabaseDataRow.Values property
 
-Obtiene los valores que pertenecen a esta fila.
+Obtiene valores que pertenecen a esta fila.
 
 ```csharp
 public string[] Values { get; }

@@ -16,9 +16,9 @@ public bool ExportImagesForOldReaders { get; set; }
 
 ### Observaciones
 
-Los "lectores antiguos" son aplicaciones anteriores a Microsoft Word 97 y también WordPad. Cuando esta opción está`verdadero` Aspose.Words escribe palabras clave RTF adicionales. Estas palabras clave permiten que el documento se muestre correctamente cuando se abre en una aplicación de "lector antiguo" , pero pueden aumentar significativamente el tamaño del documento.
+Los "lectores antiguos" son aplicaciones anteriores a Microsoft Word 97 y también WordPad. Cuando esta opción está activada`verdadero` Aspose.Words escribe palabras clave RTF adicionales. Estas palabras clave permiten que el documento se muestre correctamente cuando se abre en una aplicación "lector antiguo", pero pueden aumentar significativamente el tamaño del documento.
 
-Si establece esta opción en`falso`, solo se mostrarán imágenes en formatos WMF, EMF y BMP en "lectores antiguos".
+Si configura esta opción en`FALSO`, entonces sólo se mostrarán imágenes en formatos WMF, EMF y BMP en los "lectores antiguos".
 
 ### Ejemplos
 
@@ -27,19 +27,19 @@ Muestra cómo guardar un documento en .rtf con opciones personalizadas.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Crear un objeto "RtfSaveOptions" para pasar al método "Guardar" del documento para modificar cómo lo guardamos en un RTF.
+// Crea un objeto "RtfSaveOptions" para pasarlo al método "Guardar" del documento para modificar cómo lo guardamos en un RTF.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// Establecer la propiedad "Exportar tamaño compacto" en "verdadero" para
-// reducir el tamaño del documento guardado a costa de la compatibilidad de texto de derecha a izquierda.
+// Establece la propiedad "ExportCompactSize" en "true" para
+// reduce el tamaño del documento guardado a costa de la compatibilidad del texto de derecha a izquierda.
 options.ExportCompactSize = true;
 
-// Establezca la propiedad "ExportImagesFotOldReaders" en "true" para usar palabras clave adicionales para garantizar que nuestro documento sea
+// Establece la propiedad "ExportImagesFotOldReaders" en "true" para usar palabras clave adicionales para garantizar que nuestro documento sea
 // compatible con lectores anteriores a Microsoft Word 97 y WordPad.
-// Establecer la propiedad "ExportImagesFotOldReaders" en "falso" para reducir el tamaño del documento,
-// pero evita que los lectores antiguos puedan leer cualquier imagen que no sea un metarchivo o BMP que pueda contener el documento.
+// Establece la propiedad "ExportImagesFotOldReaders" en "false" para reducir el tamaño del documento,
+// pero evita que los lectores antiguos puedan leer cualquier imagen BMP o que no sea un metarchivo que pueda contener el documento.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

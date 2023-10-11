@@ -3,7 +3,7 @@ title: DocumentBuilder.StartBookmark
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Marca la posición actual en el documento como inicio de marcador.
 type: docs
-weight: 580
+weight: 620
 url: /es/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -24,9 +24,9 @@ El nodo de inicio del marcador que se acaba de crear.
 
 ### Observaciones
 
-Los marcadores en un documento pueden superponerse y abarcar cualquier rango. Para crear un marcador válido necesita llamar a ambos`StartBookmark` y[`EndBookmark`](../endbookmark/) con el mismo **marcadorNombre** parámetro .
+Los marcadores de un documento pueden superponerse y abarcar cualquier rango. Para crear un marcador válido necesita llamar a ambos`StartBookmark` y[`EndBookmark`](../endbookmark/) con el mismo*bookmarkName* parámetro.
 
-Los marcadores mal formados o los marcadores con nombres duplicados se ignorarán cuando se guarde el documento.
+Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
 ### Ejemplos
 
@@ -36,7 +36,7 @@ Muestra cómo crear un marcador.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un marcador válido debe tener el texto del cuerpo del documento encerrado entre
+// Un marcador válido debe tener el texto del cuerpo del documento encerrado por
 // Nodos BookmarkStart y BookmarkEnd creados con un nombre de marcador coincidente.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
@@ -47,7 +47,7 @@ Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
 Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-Muestra cómo insertar un hipervínculo que hace referencia a un marcador local.
+Muestra cómo insertar un hipervínculo que haga referencia a un marcador local.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Inserta un campo de HIPERVÍNCULO que se vincule al marcador. Podemos pasar interruptores de campo
+// Inserta un campo HIPERVÍNCULO que enlace al marcador. Podemos pasar interruptores de campo.
 // al método "InsertHyperlink" como parte del argumento que contiene el nombre del marcador al que se hace referencia.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

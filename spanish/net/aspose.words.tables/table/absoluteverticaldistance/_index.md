@@ -1,14 +1,14 @@
 ---
 title: Table.AbsoluteVerticalDistance
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece la posición de la tabla flotante vertical absoluta especificada por las propiedades de la tabla en puntos. El valor predeterminado es 0.
+description: Table propiedad. Obtiene o establece la posición absoluta de la tabla flotante vertical especificada por las propiedades de la tabla en puntos. El valor predeterminado es 0.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/table/absoluteverticaldistance/
 ---
 ## Table.AbsoluteVerticalDistance property
 
-Obtiene o establece la posición de la tabla flotante vertical absoluta especificada por las propiedades de la tabla, en puntos. El valor predeterminado es 0.
+Obtiene o establece la posición absoluta de la tabla flotante vertical especificada por las propiedades de la tabla, en puntos. El valor predeterminado es 0.
 
 ```csharp
 public double AbsoluteVerticalDistance { get; set; }
@@ -16,7 +16,7 @@ public double AbsoluteVerticalDistance { get; set; }
 
 ### Ejemplos
 
-Muestra cómo establecer la ubicación de las tablas flotantes.
+Muestra cómo configurar la ubicación de las tablas flotantes.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Establecer la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
+// Establece la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// También podemos establecer un desplazamiento horizontal y vertical en puntos desde la ubicación del párrafo donde insertamos la tabla. 
+ // También podemos establecer un desplazamiento horizontal y vertical en puntos desde la ubicación del párrafo donde insertamos la tabla.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

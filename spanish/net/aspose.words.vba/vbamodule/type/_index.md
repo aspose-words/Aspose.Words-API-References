@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Crear un nuevo módulo y especificar un código fuente de macro.
+// Crea un nuevo módulo y especifica un código fuente de macro.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Agregue el módulo al proyecto VBA.
+// Agrega el módulo al proyecto VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

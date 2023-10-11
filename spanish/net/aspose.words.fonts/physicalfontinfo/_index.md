@@ -1,14 +1,16 @@
 ---
 title: Class PhysicalFontInfo
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo clase. Especifica información sobre la fuente física disponible para el motor de fuente Aspose.Words.
+description: Aspose.Words.Fonts.PhysicalFontInfo clase. Especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words.
 type: docs
-weight: 2850
+weight: 3030
 url: /es/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Especifica información sobre la fuente física disponible para el motor de fuente Aspose.Words.
+Especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class PhysicalFontInfo
@@ -18,8 +20,8 @@ public class PhysicalFontInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Ruta al archivo de fuente si lo hay. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Nombre de familia de la fuente. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Ruta al archivo de fuente, si corresponde. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Apellido de la fuente. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nombre completo de la fuente. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Cadena de versión de la fuente. |
 

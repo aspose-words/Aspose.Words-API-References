@@ -16,7 +16,7 @@ public abstract string LibId { get; }
 
 ### Observaciones
 
-Según el tipo de referencia, el valor de esta propiedad puede ser:
+Dependiendo del tipo de referencia, el valor de esta propiedad puede ser:
 
 * una LibidReference especificada en 2.1.1.8 LibidReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * una ProjectReference especificada en 2.1.1.12 ProjectReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
@@ -26,7 +26,6 @@ Según el tipo de referencia, el valor de esta propiedad puede ser:
 Muestra cómo obtener/eliminar un elemento de la colección de referencia de VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Devuelve una cadena que representa la ruta LibId de una referencia especificada. 
+ /// Devuelve una cadena que representa la ruta LibId de una referencia especificada.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +69,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +84,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

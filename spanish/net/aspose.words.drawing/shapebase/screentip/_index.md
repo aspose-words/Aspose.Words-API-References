@@ -3,7 +3,7 @@ title: ShapeBase.ScreenTip
 second_title: Referencia de API de Aspose.Words para .NET
 description: ShapeBase propiedad. Define el texto que se muestra cuando el puntero del mouse se mueve sobre la forma.
 type: docs
-weight: 440
+weight: 480
 url: /es/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://foro.aspose.com/";
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 

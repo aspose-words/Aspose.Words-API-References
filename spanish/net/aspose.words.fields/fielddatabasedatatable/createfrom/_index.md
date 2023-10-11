@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable.CreateFrom
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabaseDataTable método. Inicializa una nueva instancia delFieldDatabaseDataTable class de laDataTable instancia.
+description: FieldDatabaseDataTable método. Inicializa una nueva instancia delFieldDatabaseDataTable class delDataTable instancia.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddatabasedatatable/createfrom/
 ---
 ## FieldDatabaseDataTable.CreateFrom method
 
-Inicializa una nueva instancia del[`FieldDatabaseDataTable`](../) class de laDataTable instancia.
+Inicializa una nueva instancia del[`FieldDatabaseDataTable`](../) class delDataTable instancia.
 
 ```csharp
 public static FieldDatabaseDataTable CreateFrom(DataTable dataTable)

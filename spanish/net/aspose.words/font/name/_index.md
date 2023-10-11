@@ -16,13 +16,13 @@ public string Name { get; set; }
 
 ### Observaciones
 
-Al conseguir, devuelve[`NameAscii`](../nameascii/).
+Al llegar, regresa[`NameAscii`](../nameascii/).
 
 Al configurar, establece[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) y[`NameOther`](../nameother/) al valor especificado.
 
 ### Ejemplos
 
-Muestra cómo dar formato a una tirada de texto utilizando su propiedad de fuente.
+Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
 ```csharp
 Document doc = new Document();
@@ -37,13 +37,13 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Muestra cómo insertar texto con formato utilizando DocumentBuilder.
+Muestra cómo insertar texto formateado usando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifique el formato de fuente, luego agregue texto.
+// Especifique el formato de fuente y luego agregue texto.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Verdaderosi el documento tiene encabezados y pies de página diferentes para las páginas pares e impares.
+description: PageSetup propiedad. Verdadero si el documento tiene diferentes encabezados y pies de página para páginas pares e impares.
 type: docs
-weight: 270
+weight: 280
 url: /es/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Verdadero**si el documento tiene encabezados y pies de página diferentes para las páginas pares e impares.
+Verdadero si el documento tiene diferentes encabezados y pies de página para páginas pares e impares.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### Observaciones
 
-Tenga en cuenta que cambiar esta propiedad afecta a todas las secciones del documento.
+Nota: cambiar esta propiedad afecta a todas las secciones del documento.
 
 ### Ejemplos
 
@@ -26,7 +26,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -48,22 +48,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Muestra cómo habilitar o deshabilitar encabezados/pies de página pares.
+Muestra cómo habilitar o deshabilitar incluso encabezados/pies de página.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // A continuación se muestran dos tipos de encabezados/pies de página.
-// 1 - El encabezado/pie de página "Principal", que aparece en todas las páginas de la sección.
-// Podemos anular el encabezado/pie de página principal por un primer encabezado/pie de página y un encabezado/pie de página par.
+// 1 - El encabezado/pie de página "Principal", que aparece en cada página de la sección.
+ // Podemos anular el encabezado/pie de página principal por un encabezado/pie de página primero y par.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("Primary footer.");
 
-// 2 - El encabezado/pie de página "Even", que aparece en todas las páginas pares de esta sección.
+// 2 - El encabezado/pie de página "Par", que aparece en cada página par de esta sección.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
 builder.Writeln("Even page header.");
 
@@ -78,11 +78,11 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
 // Cada sección tiene un objeto "PageSetup" que especifica las propiedades relacionadas con la apariencia de la página
-// como la orientación, el tamaño y los bordes.
-// Establecer la propiedad "OddAndEvenPagesHeaderFooter" en "true"
-// para mostrar el encabezado/pie de página de la página par en las páginas pares.
-// Establecer la propiedad "OddAndEvenPagesHeaderFooter" en "falso"
-// para mostrar el encabezado/pie de página principal en las páginas pares.
+// como orientación, tamaño y bordes.
+// Establece la propiedad "OddAndEvenPagesHeaderFooter" en "verdadero"
+// para mostrar el encabezado/pie de página de las páginas pares.
+// Establece la propiedad "OddAndEvenPagesHeaderFooter" en "falso"
+// para mostrar el encabezado/pie de página principal en páginas pares.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");

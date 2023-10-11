@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControl.Enabled
 second_title: Referencia de API de Aspose.Words para .NET
-description: Forms2OleControl propiedad. Devuelve verdadero si el control está en estado habilitado.
+description: Forms2OleControl propiedad. Devolucionesverdadero si el control está en estado habilitado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 ## Forms2OleControl.Enabled property
 
-Devuelve verdadero si el control está en estado habilitado.
+Devoluciones`verdadero` si el control está en estado habilitado.
 
 ```csharp
 public bool Enabled { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Tenga en cuenta que no puede configurar GroupName para un marco.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

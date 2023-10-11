@@ -3,7 +3,7 @@ title: ChartFormat.Stroke
 second_title: Referencia de API de Aspose.Words para .NET
 description: ChartFormat propiedad. Obtiene el formato de línea para el elemento del gráfico principal.
 type: docs
-weight: 20
+weight: 40
 url: /es/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -16,7 +16,7 @@ public Stroke Stroke { get; }
 
 ### Ejemplos
 
-Muestre cómo configurar el formato de marcador.
+Muestre cómo configurar el formato del marcador.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina la serie generada por defecto.
+// Eliminar la serie generada por defecto.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

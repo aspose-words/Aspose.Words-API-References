@@ -1,14 +1,14 @@
 ---
 title: Document.PackageCustomParts
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece la colección de piezas personalizadas contenido arbitrario que están vinculadas al paquete OOXML mediante relaciones desconocidas.
+description: Document propiedad. Obtiene o establece la colección de partes personalizadas contenido arbitrario que están vinculadas al paquete OOXML mediante relaciones desconocidas.
 type: docs
-weight: 290
+weight: 310
 url: /es/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Obtiene o establece la colección de piezas personalizadas (contenido arbitrario) que están vinculadas al paquete OOXML mediante "relaciones desconocidas".
+Obtiene o establece la colección de partes personalizadas (contenido arbitrario) que están vinculadas al paquete OOXML mediante "relaciones desconocidas".
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -16,11 +16,11 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ### Observaciones
 
-No confunda estas partes personalizadas con datos XML personalizados. Si necesita acceder a elementos XML personalizados, use el[`CustomXmlParts`](../customxmlparts/) propiedad.
+No confunda estas partes personalizadas con datos XML personalizados. Si necesita acceder a partes XML personalizadas, utilice el[`CustomXmlParts`](../customxmlparts/) propiedad.
 
-Esta colección contiene partes OOXML cuyo principal es el paquete OOXML y sus objetivos son de una "relación desconocida". Para obtener más información, consulte[`CustomPart`](../../../aspose.words.markup/custompart/).
+Esta colección contiene partes OOXML cuyo padre es el paquete OOXML y sus destinos tienen una "relación desconocida". Para obtener más información, consulte[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words carga y guarda partes personalizadas solo en documentos OOXML.
+Aspose.Words carga y guarda partes personalizadas únicamente en documentos OOXML.
 
 Esta propiedad no puede ser`nulo`.
 
@@ -33,12 +33,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

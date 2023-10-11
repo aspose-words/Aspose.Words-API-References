@@ -3,7 +3,7 @@ title: Paragraph.JoinRunsWithSameFormatting
 second_title: Referencia de API de Aspose.Words para .NET
 description: Paragraph método. Une ejecuciones con el mismo formato en el párrafo.
 type: docs
-weight: 280
+weight: 300
 url: /es/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,23 +16,23 @@ public int JoinRunsWithSameFormatting()
 
 ### Valor_devuelto
 
-Número de uniones realizadas. Cuando **norte** se están uniendo tramos adyacentes, cuentan como **n-1** Uniones.
+Número de uniones realizadas. Cuando **norte** se unen tramos adyacentes, cuentan como **norte-1** Uniones.
 
 ### Ejemplos
 
-Muestra cómo simplificar párrafos fusionando tiradas superfluas.
+Muestra cómo simplificar párrafos fusionando ejecuciones superfluas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta cuatro tiradas de texto en el párrafo.
+// Inserta cuatro corridas de texto en el párrafo.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 builder.Write("Run 3. ");
 builder.Write("Run 4. ");
 
-// Si abrimos este documento en Microsoft Word, el párrafo se verá como un cuerpo de texto continuo.
+// Si abrimos este documento en Microsoft Word, el párrafo se verá como un cuerpo de texto sin interrupciones.
 // Sin embargo, constará de cuatro ejecuciones separadas con el mismo formato. Párrafos fragmentados como este
 // puede ocurrir cuando editamos manualmente partes de un párrafo muchas veces en Microsoft Word.
 Paragraph para = builder.CurrentParagraph;
@@ -45,8 +45,8 @@ para.Runs[3].Font.StyleIdentifier = StyleIdentifier.Emphasis;
 // Podemos ejecutar el método "JoinRunsWithSameFormatting" para optimizar el contenido del documento
 // fusionando ejecuciones similares en una, reduciendo su recuento general.
 // Este método también devuelve el número de ejecuciones que este método fusionó.
-// Estas dos fusiones se produjeron para combinar las Ejecuciones n.° 1, n.° 2 y n.° 3,
-// mientras omite la Ejecución #4 porque tiene un estilo incompatible.
+// Estas dos fusiones ocurrieron para combinar las Ejecuciones #1, #2 y #3,
+// y omite la ejecución n.° 4 porque tiene un estilo incompatible.
 Assert.AreEqual(2, para.JoinRunsWithSameFormatting());
 
 // El número de ejecuciones restantes será igual al recuento original

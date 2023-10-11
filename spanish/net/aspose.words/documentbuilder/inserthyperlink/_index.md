@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta un hipervínculo en el documento.
 type: docs
-weight: 340
+weight: 370
 url: /es/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -17,8 +17,8 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | displayText | String | Texto del enlace que se mostrará en el documento. |
-| urlOrBookmark | String | Enlace de destino. Puede ser una url o el nombre de un marcador dentro del documento. Este método siempre agrega apóstrofes al principio y al final de la url. |
-| isBookmark | Boolean | True si el parámetro anterior es el nombre de un marcador dentro del documento; false si el parámetro anterior es una URL. |
+| urlOrBookmark | String | Destino del enlace. Puede ser una URL o el nombre de un marcador dentro del documento. Este método siempre agrega apóstrofos al principio y al final de la URL. |
+| isBookmark | Boolean | `verdadero` si el parámetro anterior es el nombre de un marcador dentro del documento; `FALSO` es el parámetro anterior es una URL. |
 
 ### Valor_devuelto
 
@@ -26,13 +26,13 @@ A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo i
 
 ### Observaciones
 
-Tenga en cuenta que debe especificar el formato de fuente para el texto de visualización del hipervínculo explícitamente utilizando el[`Font`](../font/) propiedad.
+Tenga en cuenta que debe especificar el formato de fuente para el texto mostrado del hipervínculo explícitamente usando el[`Font`](../font/) propiedad.
 
-Este método llama internamente[`InsertField`](../insertfield/) para insertar un HIPERVINCULO de MS Word field en el documento.
+Este método llama internamente[`InsertField`](../insertfield/) para insertar un HIPERVÍNCULO de MS Word field en el documento.
 
 ### Ejemplos
 
-Muestra cómo insertar un hipervínculo que hace referencia a un marcador local.
+Muestra cómo insertar un hipervínculo que haga referencia a un marcador local.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Inserta un campo de HIPERVÍNCULO que se vincule al marcador. Podemos pasar interruptores de campo
+// Inserta un campo HIPERVÍNCULO que enlace al marcador. Podemos pasar interruptores de campo.
 // al método "InsertHyperlink" como parte del argumento que contiene el nombre del marcador al que se hace referencia.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
@@ -60,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserte un hipervínculo y enfatícelo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con un formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
@@ -72,28 +72,28 @@ builder.Writeln(".");
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
-Muestra cómo utilizar la pila de formato de un generador de documentos.
+Muestra cómo utilizar la pila de formato del generador de documentos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Configure el formato de fuente, luego escriba el texto que va antes del hipervínculo.
+// Configure el formato de fuente y luego escriba el texto que va antes del hipervínculo.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Conservar nuestra configuración de formato actual en la pila.
+// Preserva nuestra configuración de formato actual en la pila.
 builder.PushFont();
 
-// Altere el formato actual del constructor aplicando un nuevo estilo.
+// Modificar el formato actual del constructor aplicando un nuevo estilo.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", falso);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Restaure el formato de fuente que guardamos anteriormente y elimine el elemento de la pila.
+// Restaura el formato de fuente que guardamos anteriormente y elimina el elemento de la pila.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

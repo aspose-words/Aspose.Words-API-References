@@ -3,12 +3,14 @@ title: Class PageInfo
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Rendering.PageInfo clase. Representa información sobre una página de documento en particular.
 type: docs
-weight: 4310
+weight: 4570
 url: /es/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
 Representa información sobre una página de documento en particular.
+
+Para obtener más información, visite el[Representación](https://docs.aspose.com/words/net/rendering/) artículo de documentación.
 
 ```csharp
 public class PageInfo
@@ -18,10 +20,11 @@ public class PageInfo
 
 | Nombre | Descripción |
 | --- | --- |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Devoluciones`verdadero` si la página contiene contenido en color. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Obtiene la altura de la página en puntos. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Devuelve verdadero si la orientación de la página especificada en el documento para esta página es horizontal. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Devoluciones`verdadero` si la orientación de la página especificada en el documento para esta página es horizontal. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Obtiene el tamaño del papel como enumeración. |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Obtiene la bandeja de papel (bin) para esta página como se especifica en el documento. El valor es específico de la implementación (impresora). |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Obtiene la bandeja de papel (bandeja) para esta página tal como se especifica en el documento. El valor es específico de la implementación (impresora). |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Obtiene el tamaño de la página en puntos. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Obtiene el ancho de la página en puntos. |
 
@@ -36,16 +39,16 @@ public class PageInfo
 
 ### Observaciones
 
-El ancho y la altura de la página devueltos por este objeto representan el tamaño "final" de la página, por ejemplo, ya están girados a la orientación correcta.
+El ancho y alto de la página devueltos por este objeto representan el tamaño "final" de la página, por ejemplo, ya están girados a la orientación correcta.
 
 ### Ejemplos
 
-Muestra cómo imprimir información sobre el tamaño y la orientación de la página para cada página de un documento de Word.
+Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La primera sección tiene 2 páginas. Asignaremos una bandeja de papel de impresora diferente a cada uno,
+// La primera sección tiene 2 páginas. A cada una le asignaremos una bandeja de papel de impresora diferente,
 // cuyo número coincidirá con un tipo de fuente de papel. Estas fuentes y sus tipos variarán
 // dependiendo del controlador de impresora instalado.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
@@ -70,7 +73,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Imprimir la información de la bandeja de origen.
+    // Imprime la información de la bandeja de origen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Shading
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve un objeto Shading que hace referencia al formato de sombreado de la celda.
+description: CellFormat propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado de la celda.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Devuelve un objeto Shading que hace referencia al formato de sombreado de la celda.
+Devuelve un[`Shading`](../../../aspose.words/shading/) objeto que hace referencia al formato de sombreado de la celda.
 
 ```csharp
 public Shading Shading { get; }
@@ -40,7 +40,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Use la propiedad "CellFormat" de la primera celda en la última fila para modificar el formato del contenido de esa celda.
+// Utilice la propiedad "CellFormat" de la primera celda de la última fila para modificar el formato del contenido de esa celda.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -56,8 +56,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Establecer opciones de formato de tabla para un generador de documentos
-// los aplicará a cada fila y celda que agreguemos con él.
+// Configurar opciones de formato de tabla para un creador de documentos
+// los aplicará a cada fila y celda que agreguemos con ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -81,8 +81,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // Cambiar el formato lo aplicará a la celda actual,
-// y cualquier celda nueva que creemos con el constructor después.
-// Esto no afectará a las celdas que hemos agregado previamente.
+// y cualquier celda nueva que creemos con el constructor posteriormente.
+// Esto no afectará a las celdas que hayamos añadido anteriormente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.GeneralFormats
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldFormat propiedad. Obtiene una colección de formatos generales que se aplican a un resultado numérico de texto o de cualquier campo. Corresponde a los  modificadores.
+description: FieldFormat propiedad. Obtiene una colección de formatos generales que se aplican a un resultado numérico de texto o de cualquier campo. Corresponde a los modificadores .
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los \* modificadores.
+Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los modificadores \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -22,7 +22,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

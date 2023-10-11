@@ -3,7 +3,7 @@ title: Enum ListTemplate
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Lists.ListTemplate enumeración. Especifica uno de los formatos de lista predefinidos disponibles en Microsoft Word.
 type: docs
-weight: 3330
+weight: 3530
 url: /es/net/aspose.words.lists/listtemplate/
 ---
 ## ListTemplate enumeration
@@ -18,23 +18,23 @@ public enum ListTemplate
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| BulletDefault | `0` | Lista con viñetas predeterminada con 9 niveles. La viñeta del primer nivel es un disco, la viñeta del segundo nivel es un círculo, la viñeta del tercer nivel es un cuadrado. Luego se repite el formato para los niveles restantes. |
-| BulletDisk | `0` | Igual que BulletDefault. |
-| BulletCircle | `1` | La viñeta del primer nivel es un círculo. Los niveles restantes son los mismos que en BulletDefault. |
-| BulletSquare | `2` | La viñeta del primer nivel es un cuadrado. Los niveles restantes son los mismos que en BulletDefault. |
-| BulletDiamonds | `3` | La viñeta del primer nivel es un personaje Wingding de 4 diamantes. Los niveles restantes son los mismos que en BulletDefault. |
-| BulletArrowHead | `4` | La viñeta del primer nivel es un carácter Wingding con punta de flecha. Los niveles restantes son los mismos que en BulletDefault. |
-| BulletTick | `5` | La viñeta del primer nivel es un personaje Wingding. Los niveles restantes son los mismos que en BulletDefault. |
-| NumberDefault | `6` | Lista numerada por defecto con 9 niveles. Numeración arábiga (1., 2., 3., ...) para el primer nivel, numeración en minúsculas (a., b., c., ...) para el segundo nivel, numeración romana en minúsculas (i ., ii., iii., ...) para el tercer nivel. Luego se repite el formateo para los niveles restantes. |
-| NumberArabicDot | `6` | Igual que Número predeterminado. |
-| NumberArabicParenthesis | `7` | El número del primer nivel es "1)". Los niveles restantes son los mismos que en NumberDefault. |
-| NumberUppercaseRomanDot | `8` | El número del primer nivel es "I". Los niveles restantes son los mismos que en NumberDefault. |
-| NumberUppercaseLetterDot | `9` | El número del primer nivel es "A". Los niveles restantes son los mismos que en NumberDefault. |
-| NumberLowercaseLetterParenthesis | `10` | El número del primer nivel es "a)". Los niveles restantes son los mismos que en NumberDefault. |
-| NumberLowercaseLetterDot | `11` | El número del primer nivel es "a". Los niveles restantes son los mismos que en NumberDefault. |
-| NumberLowercaseRomanDot | `12` | El número del primer nivel es "i.". Los niveles restantes son los mismos que en NumberDefault. |
-| OutlineNumbers | `13` | Una lista de esquema con niveles numerados "1), a), i), (1), (a), (i), 1., a., i.". |
-| OutlineLegal | `14` | Una lista de esquema con niveles está numerada "1., 1.1., 1.1.1, ...". |
+| BulletDefault | `0` | Lista con viñetas predeterminada con 9 niveles. La viñeta del primer nivel es un disco, la viñeta del segundo nivel es un círculo, la viñeta del tercer nivel es un cuadrado. Luego, el formato se repite para los niveles restantes. |
+| BulletDisk | `0` | Igual queBulletDefault. |
+| BulletCircle | `1` | La bala del primer nivel es un círculo. Los niveles restantes son los mismos que enBulletDefault. |
+| BulletSquare | `2` | La bala del primer nivel es un cuadrado. Los niveles restantes son los mismos que enBulletDefault. |
+| BulletDiamonds | `3` | La bala del primer nivel es un personaje Wingding de 4 diamantes. Los niveles restantes son los mismos que enBulletDefault. |
+| BulletArrowHead | `4` | La bala del primer nivel es un personaje volador con punta de flecha. Los niveles restantes son los mismos que enBulletDefault. |
+| BulletTick | `5` | La bala del primer nivel es un personaje Wingding. Los niveles restantes son los mismos que enBulletDefault. |
+| NumberDefault | `6` | Lista numerada predeterminada con 9 niveles. Numeración arábiga (1., 2., 3., ...) para el primer nivel, numeración de letras minúsculas (a., b., c., ...) para el segundo nivel, numeración romana minúsculas (i ., ii., iii., ...) para el tercer nivel. Luego, el formato se repite para los niveles restantes. |
+| NumberArabicDot | `6` | Igual queNumberDefault. |
+| NumberArabicParenthesis | `7` | El número del primer nivel es "1)". Los niveles restantes son los mismos que enNumberDefault. |
+| NumberUppercaseRomanDot | `8` | El número del primer nivel es "I". Los niveles restantes son los mismos que enNumberDefault. |
+| NumberUppercaseLetterDot | `9` | El número del primer nivel es "A". Los niveles restantes son los mismos que enNumberDefault. |
+| NumberLowercaseLetterParenthesis | `10` | El número del primer nivel es "a)". Los niveles restantes son los mismos que enNumberDefault. |
+| NumberLowercaseLetterDot | `11` | El número del primer nivel es "a.". Los niveles restantes son los mismos que enNumberDefault. |
+| NumberLowercaseRomanDot | `12` | El número del primer nivel es "i". Los niveles restantes son los mismos que enNumberDefault. |
+| OutlineNumbers | `13` | Una lista esquemática con los niveles numerados "1), a), i), (1), (a), (i), 1., a., i.". |
+| OutlineLegal | `14` | Una lista general con niveles está numerada como "1., 1.1., 1.1.1, ...". |
 | OutlineBullets | `15` | Un esquema enumera varias viñetas para diferentes niveles. |
 | OutlineHeadingsArticleSection | `16` | Una lista de esquema con niveles vinculados a estilos de título. |
 | OutlineHeadingsLegal | `17` | Una lista de esquema con niveles vinculados a estilos de título. |
@@ -43,7 +43,7 @@ public enum ListTemplate
 
 ### Observaciones
 
-Se utiliza un valor de plantilla de lista como parámetro en the [`Add`](../listcollection/add/) método.
+Un valor de plantilla de lista se utiliza como parámetro en the [`Add`](../listcollection/add/) método.
 
 Las plantillas de lista Aspose.Words corresponden a las 21 plantillas de lista disponibles en el cuadro de diálogo Numeración y viñetas en Microsoft Word 2003.
 
@@ -99,8 +99,8 @@ Muestra cómo reiniciar la numeración en una lista copiando una lista.
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
-// Podemos crear listas anidadas aumentando el nivel de sangría. 
-// Podemos comenzar y finalizar una lista usando la propiedad "ListFormat" del generador de documentos. 
+ // Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
 // Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
 // Cree una lista a partir de una plantilla de Microsoft Word y personalice su primer nivel de lista.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
@@ -141,10 +141,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
-// Podemos crear listas anidadas aumentando el nivel de sangría. 
-// Podemos comenzar y finalizar una lista usando la propiedad "ListFormat" del generador de documentos. 
+ // Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
 // Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación hay dos tipos de listas que podemos crear usando un generador de documentos.
+// A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
 // 1 - Una lista numerada:
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -152,9 +152,9 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 Assert.True(builder.ListFormat.IsListItem);
 
 // Al establecer la propiedad "ListLevelNumber", podemos aumentar el nivel de la lista
-// para comenzar una sublista independiente en el elemento de la lista actual.
+// para comenzar una sublista autónoma en el elemento de la lista actual.
 // La plantilla de lista de Microsoft Word llamada "NumberDefault" usa números para crear niveles de lista para el primer nivel de lista.
-// Los niveles de lista más profundos usan letras y números romanos en minúsculas. 
+ // Los niveles de lista más profundos utilizan letras y números romanos en minúscula.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -163,7 +163,7 @@ for (int i = 0; i < 9; i++)
 
 // 2 - Una lista con viñetas:
 // Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
-// Los niveles más profundos de esta lista usarán diferentes símbolos, como "■" y "○".
+// Los niveles más profundos de esta lista utilizarán diferentes símbolos, como "■" y "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -172,7 +172,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Podemos deshabilitar el formato de la lista para no formatear los párrafos posteriores como listas al deshabilitar el indicador "Lista".
+// Podemos deshabilitar el formato de la lista para no formatear ningún párrafo posterior como lista al desactivar el indicador "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

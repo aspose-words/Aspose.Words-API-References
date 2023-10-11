@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
 second_title: Referencia de API de Aspose.Words para .NET
-description: SystemFontSource método. Devuelve las carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas.
+description: SystemFontSource método. Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource.GetSystemFontFolders method
 
-Devuelve las carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas.
+Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas.
 
 ```csharp
 public static string[] GetSystemFontFolders()
@@ -16,11 +16,11 @@ public static string[] GetSystemFontFolders()
 
 ### Observaciones
 
-En algunas plataformas, Aspose.Words podría buscar fuentes del sistema no solo a través de carpetas sino también en otras fuentes. Por ejemplo, en la plataforma Windows Aspose.Words busca fuentes también en el registro.
+En algunas plataformas, Aspose.Words podía buscar fuentes del sistema no solo en carpetas sino también en otras fuentes. Por ejemplo, en la plataforma Windows Aspose.Words busca fuentes también en el registro.
 
 ### Ejemplos
 
-Muestra cómo acceder a la fuente de fuentes del sistema de un documento y establecer fuentes sustitutas.
+Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Establecer una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
+// Establece una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -57,12 +57,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativamente, podríamos agregar una fuente de fuente de carpeta en la que la carpeta correspondiente contenga la fuente.
+// Alternativamente, podríamos agregar una carpeta de fuente de fuente en la que la carpeta correspondiente contenga la fuente.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Restablecer las fuentes de fuente aún nos deja con la fuente de fuente del sistema, así como con nuestros sustitutos.
+// Restablecer las fuentes de fuentes aún nos deja con la fuente de fuentes del sistema, así como con nuestros sustitutos.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

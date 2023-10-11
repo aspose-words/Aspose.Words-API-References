@@ -3,7 +3,7 @@ title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment enumeración. Especifica la alineación horizontal de las páginas en el documento HTML de salida.
 type: docs
-weight: 4810
+weight: 5070
 url: /es/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration

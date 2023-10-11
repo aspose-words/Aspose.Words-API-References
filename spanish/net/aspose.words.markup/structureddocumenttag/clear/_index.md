@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Clear
 second_title: Referencia de API de Aspose.Words para .NET
 description: StructuredDocumentTag método. Borra el contenido de esta etiqueta de documento estructurado y muestra un marcador de posición si está definido.
 type: docs
-weight: 330
+weight: 360
 url: /es/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -18,11 +18,11 @@ public void Clear()
 
 No es posible borrar el contenido de una etiqueta de documento estructurado si tiene revisiones.
 
-Si esta etiqueta de documento estructurado se asigna a XML personalizado (con el uso de[`XmlMapping`](../xmlmapping/) property), el nodo XML al que se hace referencia se borra.
+Si esta etiqueta de documento estructurado se asigna a XML personalizado (con el uso del[`XmlMapping`](../xmlmapping/) propiedad), se borra el nodo XML al que se hace referencia.
 
 ### Ejemplos
 
-Muestra cómo eliminar contenidos de elementos de etiquetas de documentos estructurados.
+Muestra cómo eliminar el contenido de elementos de etiquetas de documentos estructurados.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ doc.FirstSection.Body.AppendChild(tag);
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// Crear un bloque de construcción con contenido de texto.
+// Crea un bloque de construcción con contenido de texto.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
 substituteBlock.Name = "My placeholder";
@@ -44,7 +44,7 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// Establezca la propiedad "PlaceholderName" de la etiqueta del documento estructurado en el nombre de nuestro bloque de creación para obtener
+// Establece la propiedad "PlaceholderName" de la etiqueta del documento estructurado en el nombre de nuestro bloque de construcción para obtener
 // la etiqueta del documento estructurado para mostrar el contenido del bloque de creación en lugar del texto predeterminado original.
 tag.PlaceholderName = "My placeholder";
 
@@ -58,7 +58,7 @@ tag.IsShowingPlaceholderText = false;
 
 Assert.AreEqual("New text.", tag.GetText().Trim());
 
-// Use el método "Borrar" para borrar el contenido de esta etiqueta de documento estructurado y mostrar el marcador de posición nuevamente.
+// Utilice el método "Borrar" para borrar el contenido de esta etiqueta de documento estructurado y mostrar el marcador de posición nuevamente.
 tag.Clear();
 
 Assert.True(tag.IsShowingPlaceholderText);

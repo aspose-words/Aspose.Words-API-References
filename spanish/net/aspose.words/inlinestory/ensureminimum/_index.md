@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
-// Los nodos de la tabla tienen un método "EnsureMinimum()" que asegura que la tabla tenga al menos una celda.
+// Los nodos de la tabla tienen un método "EnsureMinimum()" que garantiza que la tabla tenga al menos una celda.
 Table table = new Table(doc);
 table.EnsureMinimum();
 
@@ -39,7 +39,7 @@ Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
-// Edita la apariencia del ancla, que es el pequeño número en superíndice
+// Edita la apariencia del ancla, que es el número pequeño en superíndice
 // en el texto principal que apunta a la nota al pie.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
@@ -54,8 +54,8 @@ Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc,
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
 // Sin embargo, el último párrafo es el del contenido del texto del comentario,
-// que estará fuera del cuerpo del documento principal en una burbuja de diálogo.
-// Un comentario no tendrá ningún nodo secundario por defecto,
+// que estará fuera del cuerpo principal del documento en un bocadillo.
+// Un comentario no tendrá nodos secundarios de forma predeterminada,
 // para que podamos aplicar el método GuaranteeMinimum() para colocar un párrafo aquí también.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();

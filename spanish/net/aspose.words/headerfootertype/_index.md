@@ -3,7 +3,7 @@ title: Enum HeaderFooterType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.HeaderFooterType enumeración. Identifica el tipo de encabezado o pie de página que se encuentra en un archivo de Word.
 type: docs
-weight: 2940
+weight: 3120
 url: /es/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -19,9 +19,9 @@ public enum HeaderFooterType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | HeaderEven | `0` | Encabezado para páginas pares. |
-| HeaderPrimary | `1` | Encabezado principal, también se usa para páginas impares. |
+| HeaderPrimary | `1` | Encabezado principal, también utilizado para páginas impares. |
 | FooterEven | `2` | Pie de página para páginas pares. |
-| FooterPrimary | `3` | Pie de página principal, también se usa para páginas impares. |
+| FooterPrimary | `3` | Pie de página principal, también utilizado para páginas impares. |
 | HeaderFirst | `4` | Encabezado de la primera página de la sección. |
 | FooterFirst | `5` | Pie de página de la primera página de la sección. |
 
@@ -33,7 +33,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAddressBlock propiedad. Obtiene o establece el nombre del país/región excluido.
+description: FieldAddressBlock propiedad. Obtiene o establece el nombre del país o región excluidos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 ---
 ## FieldAddressBlock.ExcludedCountryOrRegionName property
 
-Obtiene o establece el nombre del país/región excluido.
+Obtiene o establece el nombre del país o región excluidos.
 
 ```csharp
 public string ExcludedCountryOrRegionName { get; set; }
@@ -16,7 +16,7 @@ public string ExcludedCountryOrRegionName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar un campo DIRECCIÓN.
+Muestra cómo insertar un campo ADDRESSBLOCK.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // De forma predeterminada, esta propiedad contendrá el ID de idioma del primer carácter del documento.
-// Podemos establecer una cultura diferente para que el campo formatee el resultado de esta manera.
+// Podemos establecer una cultura diferente para el campo para formatear el resultado de esta manera.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

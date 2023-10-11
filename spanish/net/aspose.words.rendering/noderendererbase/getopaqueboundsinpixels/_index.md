@@ -16,7 +16,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | dpi | Single | La resolución para convertir de puntos a píxeles (puntos por pulgada). |
 
 ### Valor_devuelto
@@ -25,7 +25,7 @@ El rectángulo opaco de la forma en píxeles.
 
 ### Observaciones
 
-Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
+Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en un rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
 
 ### Ejemplos
 
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -89,7 +89,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | horizontalDpi | Single | La resolución horizontal para convertir de puntos a píxeles (puntos por pulgada). |
 | verticalDpi | Single | La resolución vertical para convertir de puntos a píxeles (puntos por pulgada). |
 
@@ -99,7 +99,7 @@ El rectángulo opaco de la forma en píxeles.
 
 ### Observaciones
 
-Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
+Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en un rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
 
 ### Ejemplos
 
@@ -111,7 +111,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -122,7 +122,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

@@ -16,14 +16,14 @@ public string SourceFullName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar imágenes usando los campos IMPORT e INCLUDEPICTURE.
+Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay dos tipos de campos similares que podemos usar para mostrar imágenes vinculadas desde el sistema de archivos local.
-// 1 - El campo INCLUYE IMAGEN:
+// A continuación se muestran dos tipos de campos similares que podemos usar para mostrar imágenes vinculadas desde el sistema de archivos local.
+// 1 - El campo INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

@@ -19,7 +19,7 @@ public override FontSourceType Type { get; }
 Muestra cómo utilizar una carpeta del sistema local que contiene fuentes como fuente de fuentes.
 
 ```csharp
-// Cree una fuente de fuentes a partir de una carpeta que contenga archivos de fuentes.
+// Crea una fuente de fuente desde una carpeta que contiene archivos de fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: IDocumentSavingCallback.Notify
 second_title: Referencia de API de Aspose.Words para .NET
-description: IDocumentSavingCallback método. Se llama para notificar el progreso de guardado del documento.
+description: IDocumentSavingCallback método. Esto se llama para notificar el progreso de guardado del documento.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Se llama para notificar el progreso de guardado del documento.
+Esto se llama para notificar el progreso de guardado del documento.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -20,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 
 ### Observaciones
 
-Los usos principales de esta interfaz son permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de guardado.
+El uso principal de esta interfaz es permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de guardado.
 
-Debe lanzarse una excepción desde la devolución de llamada de progreso para el aborto y debe capturarse en el código del consumidor.
+Se debe generar una excepción desde la devolución de llamada de progreso para el aborto y se debe incluir en el código del consumidor.
 
 ### Ejemplos
 
-Muestra cómo administrar un documento mientras se guarda en html.
+Muestra cómo administrar un documento mientras se guarda en HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -45,12 +45,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -100,12 +100,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -155,12 +155,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {

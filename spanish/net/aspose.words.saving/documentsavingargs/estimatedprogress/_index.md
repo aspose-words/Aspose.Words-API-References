@@ -16,7 +16,7 @@ public double EstimatedProgress { get; }
 
 ### Ejemplos
 
-Muestra cómo administrar un documento mientras se guarda en html.
+Muestra cómo administrar un documento mientras se guarda en HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -35,12 +35,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -90,12 +90,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -145,12 +145,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos "MaxDuration".
+/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public SavingProgressCallback()
     {

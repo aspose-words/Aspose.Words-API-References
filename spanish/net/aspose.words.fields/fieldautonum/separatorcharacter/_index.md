@@ -16,15 +16,15 @@ public string SeparatorCharacter { get; set; }
 
 ### Ejemplos
 
-Muestra cómo numerar párrafos usando campos de numeración automática.
+Muestra cómo numerar párrafos utilizando campos autónomos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cada campo AUTONUM muestra el valor actual de un conteo continuo de campos AUTONUM,
+// Cada campo AUTONUM muestra el valor actual de un recuento continuo de campos AUTONUM,
 // permitiéndonos numerar elementos automáticamente como una lista numerada.
-// Este campo mostrará un número "1.".
+// Este campo mostrará un número "1".
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
@@ -34,10 +34,10 @@ field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
 // El carácter separador, que aparece en el resultado del campo inmediatamente después del número, es un punto por defecto.
-// Si dejamos esta propiedad nula, nuestro segundo campo AUTONUM mostrará "2". en el documento
+// Si dejamos esta propiedad nula, nuestro segundo campo AUTONUM mostrará "2". en el documento.
 Assert.IsNull(field.SeparatorCharacter);
 
-// Podemos establecer esta propiedad para aplicar el primer carácter de su cadena como el nuevo carácter separador.
+// Podemos configurar esta propiedad para aplicar el primer carácter de su cadena como nuevo carácter separador.
 // En este caso, nuestro campo AUTONUM ahora mostrará "2:".
 field.SeparatorCharacter = ":";
 

@@ -16,11 +16,11 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### Observaciones
 
-Tenga en cuenta que establecer esta propiedad no garantiza que todos los controles importados sean del tipo especificado. Si un control HTML no se puede representar con nodos de documentos del tipo preferido, Aspose.Words usará un control compatible[`HtmlControlType`](../../htmlcontroltype/) para ese control.
+Tenga en cuenta que establecer esta propiedad no garantiza que todos los controles importados sean del tipo especificado. Si un control HTML no se puede representar con nodos de documento del tipo preferido, Aspose.Words usará un control compatible[`HtmlControlType`](../../htmlcontroltype/) para ese control.
 
 ### Ejemplos
 
-Muestra cómo establecer el tipo preferido de nodos de documentos que representarán los elementos &lt;input&gt; y &lt;select&gt; importados.
+Muestra cómo configurar el tipo preferido de nodos de documento que representarán los elementos &lt;input&gt; y &lt;select&gt; importados.
 
 ```csharp
 const string html = @"

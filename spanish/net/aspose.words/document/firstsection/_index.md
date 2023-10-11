@@ -16,7 +16,7 @@ public Section FirstSection { get; }
 
 ### Observaciones
 
-Devoluciones`nulo` si no hay tramos.
+Devoluciones`nulo` si no hay secciones.
 
 ### Ejemplos
 
@@ -49,7 +49,7 @@ Document doc = new Document();
 // que contiene nodos secundarios que podemos editar.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Use un generador de documentos para agregar texto a la primera sección.
+// Utilice un generador de documentos para agregar texto a la primera sección.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
@@ -72,7 +72,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-Muestra cómo iterar a través de los elementos secundarios de un nodo compuesto.
+Muestra cómo iterar a través de los hijos de un nodo compuesto.
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una Sección es un nodo compuesto y puede contener nodos secundarios,
-// pero solo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
+// Una sección es un nodo compuesto y puede contener nodos secundarios.
+// pero sólo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

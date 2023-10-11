@@ -16,26 +16,24 @@ public void Insert(int index, Node node)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice de base cero del nodo. Los índices negativos están permitidos e indican el acceso desde el final de la lista. Por ejemplo, -1 significa el último nodo, -2 significa el penúltimo y así sucesivamente. |
+| index | Int32 | El índice de base cero del nodo. Se permiten índices negativos e indican el acceso desde el final de la lista. Por ejemplo, -1 significa el último nodo, -2 significa el penúltimo y así sucesivamente. |
 | node | Node | El nodo a insertar. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| NotSupportedException | los **Colección de nodos** es una colección "profunda". |
+| NotSupportedException | El[`NodeCollection`](../) Es una colección "profunda". |
 
 ### Observaciones
 
-El nodo se inserta como elemento secundario en el objeto de nodo a partir del cual se creó la colección.
+El nodo se inserta como hijo en el objeto de nodo a partir del cual se creó la colección.
 
-Si el índice es igual o mayor que Count, el nodo se agrega al final de la colección.
+Si el índice es igual o mayor que[`Count`](../count/), el nodo se agrega al final de la colección.
 
-Si el índice es negativo y su valor absoluto es mayor que Count, el nodo se agrega al final de la colección.
+Si el índice es negativo y su valor absoluto es mayor que[`Count`](../count/), el nodo se agrega al final de la colección.
 
-Si newChild ya está en el árbol, primero se elimina.
-
-Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado se puede insertar en el documento actual.
+Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado luego se puede insertar en el documento actual.
 
 ### Ejemplos
 
@@ -45,11 +43,11 @@ Muestra cómo trabajar con NodeCollection.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue texto al documento insertando Se ejecuta usando un DocumentBuilder.
+// Agrega texto al documento insertando Ejecuciones usando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Cada invocación del método "Write" crea una nueva ejecución,
+// Cada invocación del método "Write" crea una nueva Ejecución,
 // que luego aparece en RunCollection del párrafo principal.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 

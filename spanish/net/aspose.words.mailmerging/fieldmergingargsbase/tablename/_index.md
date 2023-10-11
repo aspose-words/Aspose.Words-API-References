@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.TableName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el nombre de la tabla de datos para la operación de fusión actual o una cadena vacía si el nombre no está disponible.
+description: FieldMergingArgsBase propiedad. Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
 ## FieldMergingArgsBase.TableName property
 
-Obtiene el nombre de la tabla de datos para la operación de fusión actual o una cadena vacía si el nombre no está disponible.
+Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible.
 
 ```csharp
 public string TableName { get; }
@@ -19,12 +19,13 @@ public string TableName { get; }
 Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usar MERGEFIELDs con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
-    // que pertenece a una fuente de datos denominada "CursoEstudiante" y tiene un MERGEFIELD que acepta datos de una columna denominada "NombreCurso".
+    // Utilice MERGEFIELD con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
+    // que pertenece a una fuente de datos denominada "StudentCourse" y tiene un MERGEFIELD que acepta datos de una columna denominada "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -40,14 +41,15 @@ Muestra cómo insertar campos de formulario de casilla de verificación en MERGE
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de combinar texto de datos.
+/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de fusionar texto de datos.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Llamado cuando una combinación de correo combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {

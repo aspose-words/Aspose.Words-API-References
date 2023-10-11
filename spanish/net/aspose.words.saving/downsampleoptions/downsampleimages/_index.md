@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Images.docx");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Por defecto, Aspose.Words reduce la resolución de todas las imágenes en un documento que guardamos en PDF a 220 ppp.
+// De forma predeterminada, Aspose.Words reduce la resolución de todas las imágenes de un documento que guardamos en PDF a 220 ppp.
 Assert.True(options.DownsampleOptions.DownsampleImages);
 Assert.AreEqual(220, options.DownsampleOptions.Resolution);
 Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
@@ -39,11 +39,11 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options)
 // Establezca la propiedad "Resolución" en "36" para reducir la resolución de todas las imágenes a 36 ppp.
 options.DownsampleOptions.Resolution = 36;
 
-// Establecer la propiedad "ResolutionThreshold" para aplicar solo la reducción de resolución a
-// imágenes con una resolución superior a 128 ppi.
+// Establece la propiedad "ResolutionThreshold" para aplicar la reducción de resolución solo a
+// imágenes con una resolución superior a 128 ppp.
 options.DownsampleOptions.ResolutionThreshold = 128;
 
-// Solo las dos primeras imágenes del documento se reducirán en esta etapa.
+// En esta etapa, solo se reducirán la resolución de las dos primeras imágenes del documento.
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 

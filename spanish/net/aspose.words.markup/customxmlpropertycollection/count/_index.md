@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPropertyCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection propiedad. Obtiene el número de elementos que contiene la colección.
+description: CustomXmlPropertyCollection propiedad. Obtiene el número de elementos contenidos en la colección.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/customxmlpropertycollection/count/
 ---
 ## CustomXmlPropertyCollection.Count property
 
-Obtiene el número de elementos que contiene la colección.
+Obtiene el número de elementos contenidos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -16,16 +16,16 @@ public int Count { get; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con las propiedades de las etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
+Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Aparece una etiqueta inteligente en un documento con Microsoft Word que reconoce una parte de su texto como algún tipo de datos,
-// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
+// Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
+// como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
 // En Word 2003, podemos habilitar etiquetas inteligentes a través de "Herramientas" -> "Opciones de Autocorrección..." -> "Etiquetas inteligentes".
 // En nuestro documento de entrada, hay tres objetos que Microsoft Word registró como etiquetas inteligentes.
-// Las etiquetas inteligentes se pueden anidar, por lo que esta colección contiene más.
+// Las etiquetas inteligentes pueden estar anidadas, por lo que esta colección contiene más.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
@@ -45,7 +45,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// También podemos acceder a las propiedades de varias formas, como un par clave-valor.
+// También podemos acceder a las propiedades de varias formas, como por ejemplo mediante un par clave-valor.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -62,7 +62,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Borrar toda la colección de una sola vez:
+// 3 - Borrar toda la colección de una vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

@@ -16,7 +16,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Valor_devuelto
 
-UnIEnumerator objeto para iterar sobre los elementos del conjunto.
+UnIEnumerator objeto para iterar sobre elementos del conjunto.
 
 ### Ver también
 

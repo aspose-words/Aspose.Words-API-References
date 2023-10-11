@@ -3,7 +3,7 @@ title: Enum PdfDigitalSignatureHashAlgorithm
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm enumeración. Especifica un algoritmo hash digital utilizado por una firma digital.
 type: docs
-weight: 5160
+weight: 5440
 url: /es/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration
@@ -38,16 +38,16 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Configure el objeto "DigitalSignatureDetails" del objeto "SaveOptions" para
-// firma digitalmente el documento a medida que lo renderizamos con el método "Guardar".
-DateTime signingTime = DateTime.Now;
+// Configurar el objeto "DigitalSignatureDetails" del objeto "SaveOptions" para
+// firmar digitalmente el documento a medida que lo renderizamos con el método "Guardar".
+DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

@@ -10,6 +10,8 @@ url: /es/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 
 Elimina todas las firmas digitales del archivo de origen y escribe el archivo sin firmar en el archivo de destino.
 
+Los siguientes formatos son compatibles para la eliminación de firmas digitales: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
@@ -19,13 +21,13 @@ public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 Muestra cómo eliminar firmas digitales de un documento firmado digitalmente.
 
 ```csharp
-// Hay dos formas de usar la clase DigitalSignatureUtil para eliminar firmas digitales
-// de un documento firmado guardando una copia sin firmar en otro lugar del sistema de archivos local.
-// 1 - Determine las ubicaciones tanto del documento firmado como de la copia sin firmar mediante cadenas de nombre de archivo:
+// Hay dos formas de utilizar la clase DigitalSignatureUtil para eliminar firmas digitales
+// de un documento firmado guardando una copia sin firmar en algún otro lugar del sistema de archivos local.
+// 1 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar mediante cadenas de nombre de archivo:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar por secuencias de archivos:
+// 2 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar mediante flujos de archivos:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -49,9 +51,11 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
 
-Elimina todas las firmas digitales del documento en el flujo de origen y escribe el documento sin firmar en el flujo de destino.
+Elimina todas las firmas digitales del documento en la secuencia de origen y escribe el documento sin firmar en la secuencia de destino.
 
-**La salida se escribirá al comienzo de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
+**La salida se escribirá al inicio de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
+
+Los siguientes formatos son compatibles para la eliminación de firmas digitales: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
@@ -62,13 +66,13 @@ public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 Muestra cómo eliminar firmas digitales de un documento firmado digitalmente.
 
 ```csharp
-// Hay dos formas de usar la clase DigitalSignatureUtil para eliminar firmas digitales
-// de un documento firmado guardando una copia sin firmar en otro lugar del sistema de archivos local.
-// 1 - Determine las ubicaciones tanto del documento firmado como de la copia sin firmar mediante cadenas de nombre de archivo:
+// Hay dos formas de utilizar la clase DigitalSignatureUtil para eliminar firmas digitales
+// de un documento firmado guardando una copia sin firmar en algún otro lugar del sistema de archivos local.
+// 1 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar mediante cadenas de nombre de archivo:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar por secuencias de archivos:
+// 2 - Determinar las ubicaciones tanto del documento firmado como de la copia sin firmar mediante flujos de archivos:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))

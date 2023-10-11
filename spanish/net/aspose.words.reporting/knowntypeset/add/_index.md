@@ -10,7 +10,7 @@ url: /es/net/aspose.words.reporting/knowntypeset/add/
 
 Agrega lo especificadoType objeto al conjunto. LanzaArgumentException en los siguientes casos:
 
--*type* es nulo.
+-*type* es`nulo`.
 
 -*type* representa un tipo vacío.
 

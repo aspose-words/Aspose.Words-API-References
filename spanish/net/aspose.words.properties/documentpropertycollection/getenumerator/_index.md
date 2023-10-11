@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+description: DocumentPropertyCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 type: docs
 weight: 50
 url: /es/net/aspose.words.properties/documentpropertycollection/getenumerator/
 ---
 ## DocumentPropertyCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 
 ```csharp
 public IEnumerator<DocumentProperty> GetEnumerator()
@@ -35,7 +35,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime cada propiedad personalizada en el documento.
+// Imprime todas las propiedades personalizadas del documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -49,7 +49,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Disfraz".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
@@ -65,7 +65,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vaciar toda la colección a la vez:
+// 3 - Vaciar toda la colección de una vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

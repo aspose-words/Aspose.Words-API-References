@@ -16,7 +16,7 @@ public string ComparisonOperator { get; set; }
 
 ### Ejemplos
 
-Muestra cómo comparar expresiones utilizando un campo COMPARE.
+Muestra cómo comparar expresiones usando un campo COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// El campo COMPARE muestra un "0" o un "1", dependiendo de la veracidad de su declaración.
-// El resultado de esta declaración es falso, por lo que este campo mostrará un "0".
+// El campo COMPARAR muestra un "0" o un "1", dependiendo de la veracidad de su declaración.
+// El resultado de esta declaración es falso por lo que este campo mostrará un "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 

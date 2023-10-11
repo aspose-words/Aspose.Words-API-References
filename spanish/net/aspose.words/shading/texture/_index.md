@@ -3,7 +3,7 @@ title: Shading.Texture
 second_title: Referencia de API de Aspose.Words para .NET
 description: Shading propiedad. Obtiene o establece la textura de sombreado.
 type: docs
-weight: 30
+weight: 70
 url: /es/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property

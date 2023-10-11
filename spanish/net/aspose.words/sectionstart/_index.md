@@ -1,14 +1,14 @@
 ---
 title: Enum SectionStart
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.SectionStart enumeración. El tipo de corte al principio de la sección.
+description: Aspose.Words.SectionStart enumeración. El tipo de ruptura al comienzo de la sección.
 type: docs
-weight: 5470
+weight: 5760
 url: /es/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
 
-El tipo de corte al principio de la sección.
+El tipo de ruptura al comienzo de la sección.
 
 ```csharp
 public enum SectionStart
@@ -19,30 +19,30 @@ public enum SectionStart
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Continuous | `0` | La nueva sección comienza en la misma página que la sección anterior. |
-| NewColumn | `1` | La sección parte de una nueva columna. |
+| NewColumn | `1` | La sección comienza desde una nueva columna. |
 | NewPage | `2` | La sección comienza desde una nueva página. |
 | EvenPage | `3` | La sección comienza en una nueva página par. |
 | OddPage | `4` | La sección comienza en una nueva página impar. |
 
 ### Ejemplos
 
-Muestra cómo construir un documento de Aspose.Words a mano.
+Muestra cómo construir un documento Aspose.Words a mano.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento en blanco contiene una sección, un cuerpo y un párrafo.
-// Llame al método "RemoveAllChildren" para eliminar todos esos nodos,
+// Llama al método "RemoveAllChildren" para eliminar todos esos nodos,
 // y terminar con un nodo de documento sin hijos.
 doc.RemoveAllChildren();
 
 // Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
 // Si deseamos editarlo, necesitaremos volver a llenar su colección de nodos.
-// Primero, cree una nueva sección y luego agréguela como elemento secundario al nodo del documento raíz.
+// Primero, crea una nueva sección y luego agrégala como secundaria al nodo del documento raíz.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Establecer algunas propiedades de configuración de página para la sección.
+// Establece algunas propiedades de configuración de página para la sección.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -51,7 +51,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Cree un párrafo, establezca algunas propiedades de formato y luego agréguelo como elemento secundario al cuerpo.
+// Crea un párrafo, establece algunas propiedades de formato y luego añádelo como elemento secundario al cuerpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,7 +59,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Finalmente, agregue algo de contenido para hacer el documento. Crear una carrera,
+// Finalmente, agrega algo de contenido para hacer el documento. Crea una carrera,
 // establece su apariencia y contenido, y luego lo agrega como elemento secundario al párrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";
@@ -71,40 +71,40 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-Muestra cómo especificar cómo una nueva sección se separa de la anterior.
+Muestra cómo especificar cómo se separa una nueva sección de la anterior.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Los tipos de salto de sección determinan cómo una nueva sección se separa de la sección anterior.
+// Los tipos de salto de sección determinan cómo se separa una nueva sección de la sección anterior.
 // A continuación se muestran cinco tipos de saltos de sección.
-// 1 - Comienza la siguiente sección en una nueva página:
+// 1 - Inicia la siguiente sección en una nueva página:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Comienza la siguiente sección en la página actual:
+// 2 - Inicia la siguiente sección en la página actual:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Comienza la siguiente sección en una nueva página par:
+// 3 - Inicia la siguiente sección en una nueva página par:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Comienza la siguiente sección en una nueva página impar:
+// 4 - Inicia la siguiente sección en una nueva página impar:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Comienza la siguiente sección en una nueva columna:
+// 5 - Inicia la siguiente sección en una nueva columna:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

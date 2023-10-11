@@ -1,14 +1,14 @@
 ---
 title: Enum WrapSide
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.WrapSide enumeración. Especifica qué lados de la forma o imagen envuelve el texto.
+description: Aspose.Words.Drawing.WrapSide enumeración. Especifica qué lados de la forma o imagen rodea el texto.
 type: docs
-weight: 1240
+weight: 1390
 url: /es/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Especifica qué lado(s) de la forma o imagen envuelve el texto.
+Especifica qué lado(s) de la forma o imagen rodea el texto.
 
 ```csharp
 public enum WrapSide
@@ -19,14 +19,14 @@ public enum WrapSide
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Both | `0` | El texto del documento se ajusta a ambos lados de la forma. |
-| Left | `1` | El texto del documento se ajusta solo en el lado izquierdo de la forma. Hay un área libre de texto a la derecha de la forma. |
-| Right | `2` | El texto del documento se ajusta solo en el lado derecho de la forma. Hay un área libre de texto en el lado izquierdo de la forma. |
-| Largest | `3` | El texto del documento se ajusta al lado de la forma más alejado del margen de la página, dejando un área libre de texto en el otro lado de la forma. |
+| Left | `1` | El texto del documento se ajusta únicamente en el lado izquierdo de la forma. Hay un área libre de texto a la derecha de la forma. |
+| Right | `2` | El texto del documento se ajusta únicamente en el lado derecho de la forma. Hay un área libre de texto en el lado izquierdo de la forma. |
+| Largest | `3` | El texto del documento se ajusta en el lado de la forma que está más alejado del margen de la página, dejando un área libre de texto en el otro lado de la forma. |
 | Default | `0` | El valor predeterminado esBoth . |
 
 ### Ejemplos
 
-Muestra cómo reemplazar todas las formas de cuadro de texto con formas de imagen.
+Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

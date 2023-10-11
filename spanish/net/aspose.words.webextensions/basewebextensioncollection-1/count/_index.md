@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: BaseWebExtensionCollection propiedad. Obtiene el número de elementos que contiene la colección.
+description: BaseWebExtensionCollection propiedad. Obtiene el número de elementos contenidos en la colección.
 type: docs
 weight: 10
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Count property
 
-Obtiene el número de elementos que contiene la colección.
+Obtiene el número de elementos contenidos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -34,7 +34,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Eliminar la extensión web.
+// Elimina la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

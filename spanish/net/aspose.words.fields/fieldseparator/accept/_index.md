@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-**Falso** si el visitante pidió que se detuviera la enumeración.
+**FALSO** si el visitante solicitó que se detuviera la enumeración.
 
 ### Observaciones
 
-Llamadas[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
+llamadas[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
@@ -33,6 +33,7 @@ Para obtener más información, consulte el patrón de diseño Visitante.
 Muestra cómo trabajar con una colección de campos.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -49,8 +50,8 @@ Muestra cómo trabajar con una colección de campos.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenido y escribir
-    // de cada campo usando una implementación de visitante personalizada.
+    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -71,6 +72,7 @@ Muestra cómo trabajar con una colección de campos.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Implementación del visitante del documento que imprime la información del campo.
@@ -83,7 +85,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -91,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldStart en el documento.
+    /// Se llama cuando se encuentra un nodo FieldStart en el documento.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -103,7 +105,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldSeparator en el documento.
+    /// Se llama cuando se encuentra un nodo FieldSeparator en el documento.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -113,7 +115,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldEnd en el documento.
+    /// Se llama cuando se encuentra un nodo FieldEnd en el documento.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

@@ -1,14 +1,14 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIndex propiedad. Obtiene un valor que indica si un separador de número de página se anula a través del código del campo.
+description: FieldIndex propiedad. Obtiene un valor que indica si un separador de número de página se anula mediante el código del campo.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldindex/haspagenumberseparator/
 ---
 ## FieldIndex.HasPageNumberSeparator property
 
-Obtiene un valor que indica si un separador de número de página se anula a través del código del campo.
+Obtiene un valor que indica si un separador de número de página se anula mediante el código del campo.
 
 ```csharp
 public bool HasPageNumberSeparator { get; }
@@ -22,7 +22,7 @@ Muestra cómo editar el separador de número de página en un campo ÍNDICE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE encontrado en el documento.
+// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE que se encuentra en el documento.
 // Cada entrada mostrará el valor de la propiedad Texto del campo XE en el lado izquierdo,
 // y el número de la página que contiene el campo XE a la derecha.
 // La entrada ÍNDICE agrupará los campos XE con valores coincidentes en la propiedad "Texto"
@@ -53,6 +53,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ```

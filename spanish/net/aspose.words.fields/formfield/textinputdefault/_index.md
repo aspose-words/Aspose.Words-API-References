@@ -18,15 +18,15 @@ public string TextInputDefault { get; set; }
 
 El significado de esta propiedad depende del valor de la[`TextInputType`](../textinputtype/) propiedad.
 
-Cuando[`TextInputType`](../textinputtype/) esRegular or Number, esta cadena especifica la cadena predeterminada para el campo de formulario de texto. Esta cadena es el contenido que Microsoft Word mostrará en el documento cuando el campo de formulario esté vacío.
+Cuando[`TextInputType`](../textinputtype/) esRegular o Number, esta cadena especifica la cadena predeterminada para el campo del formulario de texto. Esta cadena es el contenido que Microsoft Word mostrará en el documento cuando el campo del formulario esté vacío.
 
-Cuando[`TextInputType`](../textinputtype/) esCalculated, entonces esta cadena contiene la expresión que se va a calcular. La expresión debe ser una fórmula válida de acuerdo con los requisitos de campo de fórmula de Microsoft Word. Cuando establece una nueva expresión usando esta propiedad, Aspose.Words calcula la fórmula result automáticamente y la inserta en el campo de formulario.
+Cuando[`TextInputType`](../textinputtype/) esCalculated, entonces esta cadena contiene la expresión que se va a calcular. La expresión debe ser una fórmula válida según los requisitos del campo de fórmula de Microsoft Word . Cuando establece una nueva expresión usando esta propiedad, Aspose.Words calcula la fórmula result automáticamente y la inserta en el campo del formulario.
 
 Microsoft Word permite cadenas con un máximo de 255 caracteres.
 
 ### Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos con una implementación de visitante de documentos.
+Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Use un generador de documentos para insertar un cuadro combinado.
+    // Utilice un generador de documentos para insertar un cuadro combinado.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar una casilla de verificación.
+    // Utilice un generador de documentos para insertar una casilla de verificación.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -58,7 +58,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar un campo de formulario de entrada de texto.
+    // Utilice un generador de documentos para insertar un campo de formulario de entrada de texto.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -73,7 +73,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento
+    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
     // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -81,7 +81,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo de formulario acepte un visitante del documento.
+    // Permitir que cada campo del formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -95,7 +95,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementación de visitante que imprime detalles de los campos de formulario que visita. 
+ /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -105,7 +105,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FormField en el documento.
+    /// Se llama cuando se encuentra un nodo FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -144,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

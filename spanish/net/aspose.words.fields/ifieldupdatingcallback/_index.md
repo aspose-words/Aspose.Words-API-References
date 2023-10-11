@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUpdatingCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.IFieldUpdatingCallback interfaz. Implemente esta interfaz si desea que se llamen sus propios métodos personalizados durante una actualización de campo.
+description: Aspose.Words.Fields.IFieldUpdatingCallback interfaz. Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
 type: docs
-weight: 2550
+weight: 2720
 url: /es/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
 
-Implemente esta interfaz si desea que se llamen sus propios métodos personalizados durante una actualización de campo.
+Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
 
 ```csharp
 public interface IFieldUpdatingCallback
@@ -23,9 +23,10 @@ public interface IFieldUpdatingCallback
 
 ### Ejemplos
 
-Muestra cómo usar métodos de devolución de llamada durante una actualización de campo.
+Muestra cómo utilizar métodos de devolución de llamada durante una actualización de campo.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,9 +47,9 @@ Muestra cómo usar métodos de devolución de llamada durante una actualización
 }
 
 /// <summary>
-/// Implemente esta interfaz si desea tener sus propios métodos personalizados llamados durante una actualización de campo.
+/// Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -73,6 +74,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

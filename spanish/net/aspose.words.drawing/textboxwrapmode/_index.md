@@ -3,7 +3,7 @@ title: Enum TextBoxWrapMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.TextBoxWrapMode enumeración. Especifica cómo se ajusta el texto dentro de una forma.
 type: docs
-weight: 1190
+weight: 1340
 url: /es/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// Establecer la propiedad "TextBoxWrapMode" en "TextBoxWrapMode.None" para aumentar el ancho del cuadro de texto
-// para acomodar el texto, en caso de que sea lo suficientemente grande.
-// Establecer la propiedad "TextBoxWrapMode" en "TextBoxWrapMode.Square" para
-// envuelve todo el texto dentro del cuadro de texto, conservando sus dimensiones.
+// Establece la propiedad "TextBoxWrapMode" en "TextBoxWrapMode.None" para aumentar el ancho del cuadro de texto
+// para dar cabida al texto, en caso de que sea lo suficientemente grande.
+// Establece la propiedad "TextBoxWrapMode" en "TextBoxWrapMode.Square" para
+// ajusta todo el texto dentro del cuadro de texto, conservando sus dimensiones.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

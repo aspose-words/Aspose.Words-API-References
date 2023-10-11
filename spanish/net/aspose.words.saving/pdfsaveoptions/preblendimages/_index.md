@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.PreblendImages
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se combinan o no las imágenes transparentes con el color de fondo negro.
+description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se deben precombinar imágenes transparentes con color de fondo negro.
 type: docs
-weight: 230
+weight: 260
 url: /es/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property
 
-Obtiene o establece un valor que determina si se combinan o no las imágenes transparentes con el color de fondo negro.
+Obtiene o establece un valor que determina si se deben precombinar imágenes transparentes con color de fondo negro.
 
 ```csharp
 public bool PreblendImages { get; set; }
@@ -16,15 +16,15 @@ public bool PreblendImages { get; set; }
 
 ### Observaciones
 
-La mezcla previa de imágenes puede mejorar la apariencia visual del documento PDF en Adobe Reader y eliminar los artefactos de suavizado.
+La combinación previa de imágenes puede mejorar la apariencia visual del documento PDF en Adobe Reader y eliminar artefactos de suavizado.
 
-Para mostrar correctamente las imágenes premezcladas, la aplicación de visor de PDF debe admitir la entrada /Mate en el diccionario de imágenes de máscara suave. Además, la premezcla de imágenes puede disminuir el rendimiento de la representación de PDF.
+Para mostrar correctamente las imágenes precombinadas, la aplicación de visualización de PDF debe admitir la entrada /Matte en el diccionario de imágenes de máscara suave. Además, la precombinación de imágenes puede disminuir el rendimiento de procesamiento de PDF.
 
-El valor predeterminado es`falso`.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 
-Muestra cómo combinar previamente imágenes con fondos transparentes al guardar un documento en PDF.
+Muestra cómo precombinar imágenes con fondos transparentes mientras se guarda un documento en PDF.
 
 ```csharp
 Document doc = new Document();
@@ -37,15 +37,15 @@ builder.InsertImage(img);
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "PreblendImages" en "true" para premezclar imágenes transparentes
-// con un fondo, lo que puede reducir los artefactos.
-// Establezca la propiedad "PreblendImages" en "falso" para representar imágenes transparentes normalmente.
+// Establece la propiedad "PreblendImages" en "true" para precombinar imágenes transparentes
+// con un fondo, que puede reducir los artefactos.
+// Establece la propiedad "PreblendImages" en "false" para representar imágenes transparentes normalmente.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
 ```
 
-Muestra cómo combinar previamente imágenes con fondos transparentes (.NetStandard 2.0).
+Muestra cómo precombinar imágenes con fondos transparentes (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -58,9 +58,9 @@ using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "PreblendImages" en "true" para premezclar imágenes transparentes
-// con un fondo, lo que puede reducir los artefactos.
-// Establezca la propiedad "PreblendImages" en "falso" para representar imágenes transparentes normalmente.
+// Establece la propiedad "PreblendImages" en "true" para precombinar imágenes transparentes
+// con un fondo, que puede reducir los artefactos.
+// Establece la propiedad "PreblendImages" en "false" para representar imágenes transparentes normalmente.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);

@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Observaciones
 
-Para guardar el documento sin encriptar, esta propiedad debe ser una cadena nula o vacía.
+Para guardar el documento sin cifrar, esta propiedad debe ser`nulo` o cadena vacía.
 
 ### Ejemplos
 

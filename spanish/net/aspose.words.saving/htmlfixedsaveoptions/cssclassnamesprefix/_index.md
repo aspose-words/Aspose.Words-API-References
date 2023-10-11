@@ -16,7 +16,7 @@ public string CssClassNamesPrefix { get; set; }
 
 ### Ejemplos
 
-Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clase CSS.
+Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clases CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene formato de cursiva.
+description: Font propiedad. Verdadero si la fuente tiene el formato de cursiva.
 type: docs
 weight: 160
 url: /es/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Verdadero si la fuente tiene formato de cursiva.
+Verdadero si la fuente tiene el formato de cursiva.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Ejemplos
 
-Muestra cómo escribir texto en cursiva usando un generador de documentos.
+Muestra cómo escribir texto en cursiva utilizando un generador de documentos.
 
 ```csharp
 Document doc = new Document();

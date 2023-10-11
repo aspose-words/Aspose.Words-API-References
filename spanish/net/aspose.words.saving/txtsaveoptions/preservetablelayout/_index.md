@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
 second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptions propiedad. Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado es falso .
+description: TxtSaveOptions propiedad. Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado esFALSO .
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado es **falso** .
+Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool PreserveTableLayout { get; set; }
@@ -16,7 +16,7 @@ public bool PreserveTableLayout { get; set; }
 
 ### Ejemplos
 
-Muestra cómo conservar el diseño de las tablas al convertir a texto sin formato.
+Muestra cómo conservar el diseño de las tablas al convertirlas a texto sin formato.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2");
 builder.EndTable();
 
-// Crear un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
-// para modificar cómo guardamos el documento en texto sin formato.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
+// para modificar cómo guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Establecer la propiedad "PreserveTableLayout" en "true" para aplicar el relleno de espacios en blanco al contenido
-// del documento de texto sin formato de salida para conservar la mayor parte posible del diseño de la tabla.
-// Establecer la propiedad "PreserveTableLayout" en "falso" para guardar el contenido de todas las tablas
+// Establece la propiedad "PreserveTableLayout" en "true" para aplicar relleno de espacios en blanco al contenido
+// del documento de texto sin formato de salida para preservar la mayor cantidad posible del diseño de la tabla.
+// Establece la propiedad "PreserveTableLayout" en "false" para guardar el contenido de todas las tablas
 // como un cuerpo de texto continuo, con solo una nueva línea para cada fila.
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;
 

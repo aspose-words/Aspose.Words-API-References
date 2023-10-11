@@ -3,7 +3,7 @@ title: DigitalSignature.SubjectName
 second_title: Referencia de API de Aspose.Words para .NET
 description: DigitalSignature propiedad. Devuelve el nombre distinguido del sujeto del certificado que se utilizó para firmar el documento.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property
@@ -19,20 +19,20 @@ public string SubjectName { get; }
 Muestra cómo firmar documentos con certificados X.509.
 
 ```csharp
-// Verifica que un documento no esté firmado.
+// Verificar que un documento no esté firmado.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crear un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
+// Crea un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1 - Designar un documento por un nombre de archivo del sistema local y guardar una copia firmada en una ubicación especificada por otro nombre de archivo.
+// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Tome un documento de un flujo y guarde una copia firmada en otro flujo.
+// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

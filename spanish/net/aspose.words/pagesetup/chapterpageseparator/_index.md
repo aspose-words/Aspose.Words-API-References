@@ -16,7 +16,21 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 ### Observaciones
 
-Antes de que pueda crear números de página que incluyan números de capítulo, los encabezados del documento deben tener aplicado un formato de esquema numerado.
+Antes de poder crear números de página que incluyan números de capítulo, los encabezados del documento deben tener aplicado un formato de esquema numerado.
+
+### Ejemplos
+
+Muestra cómo trabajar con capítulos de página.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Ver también
 

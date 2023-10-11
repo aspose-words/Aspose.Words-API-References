@@ -1,14 +1,14 @@
 ---
 title: Document.ShowGrammaticalErrors
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Especifica si mostrar errores gramaticales en este documento.
+description: Document propiedad. Especifica si se muestran errores gramaticales en este documento.
 type: docs
-weight: 370
+weight: 390
 url: /es/net/aspose.words/document/showgrammaticalerrors/
 ---
 ## Document.ShowGrammaticalErrors property
 
-Especifica si mostrar errores gramaticales en este documento.
+Especifica si se muestran errores gramaticales en este documento.
 
 ```csharp
 public bool ShowGrammaticalErrors { get; set; }
@@ -22,13 +22,13 @@ Muestra cómo mostrar/ocultar errores en el documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta dos oraciones con errores que serían recogidos
-// por los correctores ortográficos y gramaticales en Microsoft Word.
+// Inserta dos oraciones con errores que se detectarían
+// por los correctores ortográficos y gramaticales de Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
-// Si estas opciones están habilitadas, los errores ortográficos aparecerán subrayados
-// en el documento de salida por una línea roja irregular y una línea azul doble resaltará los errores gramaticales.
+// Si estas opciones están habilitadas, los errores ortográficos se subrayarán
+// en el documento de salida por una línea roja irregular, y una doble línea azul resaltará los errores gramaticales.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

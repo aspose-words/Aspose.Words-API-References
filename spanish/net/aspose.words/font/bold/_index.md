@@ -1,14 +1,14 @@
 ---
 title: Font.Bold
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente está en negrita.
+description: Font propiedad. Verdadero si la fuente tiene el formato negrita.
 type: docs
 weight: 40
 url: /es/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-Verdadero si la fuente está en negrita.
+Verdadero si la fuente tiene el formato negrita.
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,13 +16,13 @@ public bool Bold { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar texto con formato utilizando DocumentBuilder.
+Muestra cómo insertar texto formateado usando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifique el formato de fuente, luego agregue texto.
+// Especifique el formato de fuente y luego agregue texto.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

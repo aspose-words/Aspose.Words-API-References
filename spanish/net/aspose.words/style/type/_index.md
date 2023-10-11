@@ -3,7 +3,7 @@ title: Style.Type
 second_title: Referencia de API de Aspose.Words para .NET
 description: Style propiedad. Obtiene el tipo de estilo párrafo o carácter.
 type: docs
-weight: 160
+weight: 180
 url: /es/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumerar y listar todos los estilos que un documento creado usando Aspose.Words contiene por defecto.
+// Enumerar y enumerar todos los estilos que contiene de forma predeterminada un documento creado con Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

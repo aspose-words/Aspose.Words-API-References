@@ -3,7 +3,7 @@ title: PageSetup.PaperSize
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageSetup propiedad. Devuelve o establece el tamaño del papel.
 type: docs
-weight: 340
+weight: 350
 url: /es/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
@@ -16,7 +16,7 @@ public PaperSize PaperSize { get; set; }
 
 ### Observaciones
 
-Establecer actualizaciones de esta propiedad[`PageWidth`](../pagewidth/) y[`PageHeight`](../pageheight/) valores. Establecer este valor enCustom no cambia los valores existentes.
+Establecer actualizaciones de esta propiedad[`PageWidth`](../pagewidth/) y[`PageHeight`](../pageheight/) value. Establecer este valor enCustom no cambia los valores existentes.
 
 ### Ejemplos
 
@@ -47,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Podemos cambiar el tamaño de la página actual a un tamaño predefinido
-// usando la propiedad "PaperSize" del objeto PageSetup de esta sección.
+// utilizando la propiedad "PaperSize" del objeto PageSetup de esta sección.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -55,7 +55,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Cada sección tiene su propio objeto PageSetup. Cuando usamos un generador de documentos para crear una nueva sección,
+// Cada sección tiene su propio objeto PageSetup. Cuando utilizamos un generador de documentos para crear una nueva sección,
 // el objeto PageSetup de esa sección hereda todos los valores del objeto PageSetup de la sección anterior.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -69,7 +69,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Establecer un tamaño personalizado para las páginas de esta sección.
+// Establece un tamaño personalizado para las páginas de esta sección.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -80,23 +80,23 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Muestra cómo construir un documento de Aspose.Words a mano.
+Muestra cómo construir un documento Aspose.Words a mano.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento en blanco contiene una sección, un cuerpo y un párrafo.
-// Llame al método "RemoveAllChildren" para eliminar todos esos nodos,
+// Llama al método "RemoveAllChildren" para eliminar todos esos nodos,
 // y terminar con un nodo de documento sin hijos.
 doc.RemoveAllChildren();
 
 // Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
 // Si deseamos editarlo, necesitaremos volver a llenar su colección de nodos.
-// Primero, cree una nueva sección y luego agréguela como elemento secundario al nodo del documento raíz.
+// Primero, crea una nueva sección y luego agrégala como secundaria al nodo del documento raíz.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Establecer algunas propiedades de configuración de página para la sección.
+// Establece algunas propiedades de configuración de página para la sección.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -105,7 +105,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Cree un párrafo, establezca algunas propiedades de formato y luego agréguelo como elemento secundario al cuerpo.
+// Crea un párrafo, establece algunas propiedades de formato y luego añádelo como elemento secundario al cuerpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -113,7 +113,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Finalmente, agregue algo de contenido para hacer el documento. Crear una carrera,
+// Finalmente, agrega algo de contenido para hacer el documento. Crea una carrera,
 // establece su apariencia y contenido, y luego lo agrega como elemento secundario al párrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";

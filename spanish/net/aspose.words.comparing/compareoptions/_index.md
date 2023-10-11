@@ -3,12 +3,14 @@ title: Class CompareOptions
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Comparing.CompareOptions clase. Permite elegir opciones avanzadas para la operación de comparación de documentos.
 type: docs
-weight: 260
+weight: 270
 url: /es/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
 Permite elegir opciones avanzadas para la operación de comparación de documentos.
+
+Para obtener más información, visite el[Comparar documentos](https://docs.aspose.com/words/net/compare-documents/) artículo de documentación.
 
 ```csharp
 public class CompareOptions
@@ -24,28 +26,29 @@ public class CompareOptions
 
 | Nombre | Descripción |
 | --- | --- |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Especifica si se comparan las diferencias enMoveRevision entre los dos documentos. Por defecto, no se producen revisiones de movimiento. |
 | [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Especifica si los cambios se rastrean por carácter o por palabra. El valor predeterminado esWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indica que la comparación de documentos no distingue entre mayúsculas y minúsculas. Por defecto, la comparación distingue entre mayúsculas y minúsculas. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Especifica si comparar las diferencias en los comentarios. Por defecto no se ignoran los comentarios. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Especifica si se ignorará la diferencia en el ID único de DrawingML. El valor predeterminado es **falso** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Especifica si comparar las diferencias en los campos. Por defecto los campos no se ignoran. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Especifica si se comparan las diferencias en las notas al pie y al final. Por defecto no se ignoran las notas al pie. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indica que se ignora el formato. Por defecto, no se ignora el formato del documento. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indica que se ignora el contenido de los encabezados y pies de página. Por defecto, los encabezados y pies de página no se ignoran. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Especifica si comparar las diferencias en los datos contenidos en las tablas. Por defecto no se ignoran las tablas. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Especifica si se comparan las diferencias en los datos contenidos en los cuadros de texto. Por defecto, los cuadros de texto no se ignoran. |
-| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Especifica qué documento se utilizará como destino durante la comparación. |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | Verdadero indica que la comparación de documentos no distingue entre mayúsculas y minúsculas. De forma predeterminada, la comparación distingue entre mayúsculas y minúsculas. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Especifica si se comparan las diferencias en los comentarios. De forma predeterminada, los comentarios no se ignoran. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Especifica si se ignora la diferencia en el ID único de DrawingML. El valor predeterminado es`FALSO` . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Especifica si se comparan las diferencias en los campos. De forma predeterminada, los campos no se ignoran. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Especifica si se comparan las diferencias en las notas al pie y al final. De forma predeterminada, las notas al pie no se ignoran. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | Verdadero indica que se ignora el formato. De forma predeterminada, el formato del documento no se ignora. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | Verdadero indica que el contenido de los encabezados y pies de página se ignora. De forma predeterminada, los encabezados y pies de página no se ignoran. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Especifica si se comparan las diferencias en los datos contenidos en las tablas. De forma predeterminada, las tablas no se ignoran. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Especifica si se comparan las diferencias en los datos contenidos en los cuadros de texto. De forma predeterminada, los cuadros de texto no se ignoran. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Especifica qué documento se utilizará como objetivo durante la comparación. |
 
 ### Ejemplos
 
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
 ```csharp
-// Cree el documento original y rellénelo con varios tipos de elementos.
+// Crea el documento original y complétalo con varios tipos de elementos.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Texto de párrafo referenciado con una nota al final:
+// Texto del párrafo al que se hace referencia con una nota al final:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -71,7 +74,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Encabezado:
+// encabezado:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -90,7 +93,7 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // La comparación de documentos crea una revisión para cada edición en el documento editado.
-// Un objeto CompareOptions tiene una serie de banderas que pueden suprimir las revisiones
+// Un objeto CompareOptions tiene una serie de indicadores que pueden suprimir revisiones
 // en cada tipo respectivo de elemento, ignorando efectivamente su cambio.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

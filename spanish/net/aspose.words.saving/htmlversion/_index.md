@@ -3,7 +3,7 @@ title: Enum HtmlVersion
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.HtmlVersion enumeración. Indica la versión de HTML que se utiliza al guardar el documento enHtml y Mhtml formatos.
 type: docs
-weight: 4860
+weight: 5120
 url: /es/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
@@ -18,7 +18,7 @@ public enum HtmlVersion
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Xhtml | `0` | Guarda el documento de acuerdo con el estándar XHTML 1.0 Transitional. |
+| Xhtml | `0` | Guarda el documento de conformidad con el estándar XHTML 1.0 Transitional. |
 | Html5 | `1` | Guarda el documento de acuerdo con el estándar HTML 5. |
 
 ### Ejemplos
@@ -40,13 +40,13 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Nuestro documento solo contendrá un encabezado de declaración DOCTYPE si hemos establecido el indicador "ExportXhtmlTransitional" en "true".
+// Nuestro documento sólo contendrá un encabezado de declaración DOCTYPE si hemos configurado el indicador "ExportXhtmlTransitional" en "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transicional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transicional.dtd\">\r\n" +
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transicional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));

@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de guardado para formatos de Microsoft Word más antiguos.
+Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -25,11 +25,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establecer una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
 // Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de enrutamiento, podemos conservarlo mientras se guarda configurando este indicador en verdadero.
+// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

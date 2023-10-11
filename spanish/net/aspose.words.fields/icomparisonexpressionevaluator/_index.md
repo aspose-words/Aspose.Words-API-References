@@ -3,7 +3,7 @@ title: Interface IComparisonExpressionEvaluator
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.IComparisonExpressionEvaluator interfaz. Cuando se implementa permite anular la evaluación de expresiones de comparación predeterminadas para elFieldIf yFieldCompare campos.
 type: docs
-weight: 2510
+weight: 2680
 url: /es/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface

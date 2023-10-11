@@ -3,12 +3,14 @@ title: Class NodeCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.NodeCollection clase. Representa una colección de nodos de un tipo específico.
 type: docs
-weight: 3960
+weight: 4200
 url: /es/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Representa una colección de nodos de un tipo específico.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -33,23 +35,23 @@ public class NodeCollection : IEnumerable<Node>
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia todos los nodos de la colección a una nueva matriz de nodos. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
 
 ### Observaciones
 
-**Colección de nodos** no posee los nodos que contiene, sino que es solo una selección de nodes del tipo especificado, pero los nodos se almacenan en el árbol bajo sus respectivos nodos principales.
+`NodeCollection` no es propietario de los nodos que contiene, sino que es solo una selección de nodes del tipo especificado, pero los nodos se almacenan en el árbol debajo de sus respectivos nodos principales.
 
-**Colección de nodos**admite el acceso indexado, la iteración y proporciona métodos para agregar y eliminar.
+`NodeCollection`admite acceso indexado, iteración y proporciona métodos para agregar y eliminar.
 
-los **Colección de nodos** la colección está "viva", es decir, los cambios en los elementos secundarios del nodo object a partir del cual se creó se reflejan inmediatamente en los nodos devueltos por el **Colección de nodos** propiedades y métodos.
+El`NodeCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los nodos devueltos por el`NodeCollection` propiedades y métodos.
 
-**Colección de nodos** es devuelto por[`GetChildNodes`](../compositenode/getchildnodes/) y también sirve como clase base para colecciones de nodos tipificados como[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` es devuelto por[`GetChildNodes`](../compositenode/getchildnodes/) y también sirve como clase base para colecciones de nodos escritos como[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 
-**Colección de nodos** puede ser "plano" y contener solo elementos secundarios inmediatos del nodo desde el que se creó , o puede ser "profundo" y contener todos los elementos secundarios descendientes.
+`NodeCollection` puede ser "plano" y contener sólo hijos inmediatos del nodo desde el que se creó , o puede ser "profundo" y contener todos los hijos descendientes.
 
 ### Ejemplos
 
-Muestra cómo reemplazar todas las formas de cuadro de texto con formas de imagen.
+Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

@@ -16,7 +16,7 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### Ejemplos
 
-Muestra cómo construir una nueva tabla mientras se aplica un estilo.
+Muestra cómo crear una nueva tabla mientras se aplica un estilo.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ Table table = builder.StartTable();
 // Debemos insertar al menos una fila antes de configurar cualquier formato de tabla.
 builder.InsertCell();
 
-// Establezca el estilo de tabla utilizado en función del identificador de estilo.
+// Establece el estilo de tabla utilizado según el identificador de estilo.
 // Tenga en cuenta que no todos los estilos de tabla están disponibles al guardar en formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Aplique parcialmente el estilo a las características de la tabla en función de los predicados, luego construya la tabla.
+// Aplique parcialmente el estilo a las características de la tabla según los predicados y luego cree la tabla.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

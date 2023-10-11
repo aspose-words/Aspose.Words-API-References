@@ -1,14 +1,14 @@
 ---
 title: ImageData.SourceFullName
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Obtiene o establece la ruta y el nombre del archivo de origen de la imagen vinculada.
+description: ImageData propiedad. Obtiene o establece la ruta y el nombre del archivo fuente de la imagen vinculada.
 type: docs
 weight: 170
 url: /es/net/aspose.words.drawing/imagedata/sourcefullname/
 ---
 ## ImageData.SourceFullName property
 
-Obtiene o establece la ruta y el nombre del archivo de origen de la imagen vinculada.
+Obtiene o establece la ruta y el nombre del archivo fuente de la imagen vinculada.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -30,8 +30,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// A continuación hay dos formas de aplicar una imagen a una forma para que pueda mostrarla.
-// 1 - Establecer la forma para contener la imagen.
+// A continuación se muestran dos formas de aplicar una imagen a una forma para que pueda mostrarla.
+// 1 - Establece la forma para contener la imagen.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -45,7 +45,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Configure la forma para que se vincule a un archivo de imagen en el sistema de archivos local.
+// 2 - Establece la forma para vincular a un archivo de imagen en el sistema de archivos local.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -53,8 +53,8 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Vincular imágenes ahorrará espacio y dará como resultado un documento más pequeño.
-// Sin embargo, el documento solo puede mostrar la imagen correctamente mientras
+// Vincular a imágenes ahorrará espacio y dará como resultado un documento más pequeño.
+// Sin embargo, el documento sólo puede mostrar la imagen correctamente mientras
 // el archivo de imagen está presente en la ubicación a la que apunta la propiedad "SourceFullName" de la forma.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```

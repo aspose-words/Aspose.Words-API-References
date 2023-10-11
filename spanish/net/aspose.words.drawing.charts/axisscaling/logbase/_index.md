@@ -18,9 +18,9 @@ public double LogBase { get; set; }
 
 La propiedad no es compatible con los nuevos gráficos de MS Office 2016.
 
-El rango válido de un valor de punto flotante es mayor o igual a 2 y menor o igual a 1000. La propiedad tiene efecto solo si[`Type`](../type/) se establece en Logarithmic.
+El rango válido de un valor de punto flotante es mayor o igual a 2 y menor o igual a 1000. La propiedad tiene efecto solo si[`Type`](../type/) está establecido en Logarithmic.
 
-Al establecer esta propiedad, se establece el[`Type`](../type/) propiedad aLogarithmic .
+Establecer esta propiedad establece el[`Type`](../type/) propiedad aLogarithmic .
 
 ### Ejemplos
 
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
 // Inserta una serie con coordenadas X/Y para cinco puntos.
@@ -42,11 +42,11 @@ chart.Series.Add("Series 1",
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
 // La escala del eje X es lineal por defecto,
-// mostrando valores que se incrementan uniformemente que cubren nuestro rango de valores X (0, 1, 2, 3...).
+// mostrando valores que se incrementan uniformemente y que cubren nuestro rango de valores X (0, 1, 2, 3...).
 // Un eje lineal no es ideal para nuestros valores Y
-// ya que los puntos con los valores Y más pequeños serán más difíciles de leer.
-// Una escala logarítmica con una base de 20 (1, 20, 400, 8000...)
-// distribuirá los puntos graficados, permitiéndonos leer sus valores en el gráfico más fácilmente.
+// ya que los puntos con valores Y más pequeños serán más difíciles de leer.
+// Una escala logarítmica con base 20 (1, 20, 400, 8000...)
+// distribuirá los puntos trazados, permitiéndonos leer sus valores en el gráfico más fácilmente.
 chart.AxisY.Scaling.Type = AxisScaleType.Logarithmic;
 chart.AxisY.Scaling.LogBase = 20;
 

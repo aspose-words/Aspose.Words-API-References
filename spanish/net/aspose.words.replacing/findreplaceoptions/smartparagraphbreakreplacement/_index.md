@@ -1,16 +1,16 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
 second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se permite reemplazar el párrafo break cuando no hay un siguiente párrafo relacionado.
+description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se permite reemplazar el párrafo break cuando no hay un siguiente párrafo hermano.
 type: docs
-weight: 140
+weight: 160
 url: /es/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-Obtiene o establece un valor booleano que indica que se permite reemplazar el párrafo break cuando no hay un siguiente párrafo relacionado.
+Obtiene o establece un valor booleano que indica que se permite reemplazar el párrafo break cuando no hay un siguiente párrafo hermano.
 
-El valor predeterminado es`falso`.
+El valor predeterminado es`FALSO`.
 
 ```csharp
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -18,17 +18,17 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ### Observaciones
 
-Esta opción permite reemplazar el salto de párrafo cuando no hay un párrafo hermano siguiente al que se puedan mover todos los nodos child , encontrando cualquier párrafo siguiente (no necesariamente hermano) después del párrafo que se está reemplazando.
+Esta opción permite reemplazar el salto de párrafo cuando no hay un siguiente párrafo hermano al que se puedan mover todos los nodos child , al encontrar cualquier párrafo siguiente (no necesariamente hermano) después del párrafo que se reemplaza.
 
 ### Ejemplos
 
-Muestra cómo eliminar un párrafo de una celda de tabla con una tabla anidada.
+Muestra cómo eliminar un párrafo de una celda de una tabla con una tabla anidada.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crear tabla con párrafo y tabla interna en la primera celda.
+// Crea una tabla con un párrafo y una tabla interna en la primera celda.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT1");
@@ -39,8 +39,8 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
-// Cuando la siguiente opción se establece en 'verdadero', Aspose.Words eliminará el texto del párrafo
-// completamente con su marca de párrafo. De lo contrario, Aspose.Words imitará Word y eliminará
+// Cuando la siguiente opción se establece en "verdadero", Aspose.Words eliminará el texto del párrafo
+// completamente con su marca de párrafo. De lo contrario, Aspose.Words imitará a Word y eliminará
 // solo el texto del párrafo y deja la marca de párrafo intacta (cuando una tabla sigue al texto).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);

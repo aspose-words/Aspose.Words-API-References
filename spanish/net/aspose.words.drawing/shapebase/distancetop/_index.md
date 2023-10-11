@@ -18,7 +18,7 @@ public double DistanceTop { get; set; }
 
 El valor predeterminado es 0.
 
-Solo tiene efecto para las formas de nivel superior.
+Tiene efecto sólo para formas de nivel superior.
 
 ### Ejemplos
 
@@ -28,22 +28,22 @@ Muestra cómo establecer la distancia de ajuste para un texto que rodea una form
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta un rectángulo y haz que el texto se ajuste bien alrededor de sus límites.
+// Inserta un rectángulo y consigue que el texto se ajuste firmemente alrededor de sus límites.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 150, 150);
 shape.WrapType = WrapType.Tight;
 
-// Establezca la distancia mínima entre la forma y el texto circundante en 40 puntos desde todos los lados.
+// Establece la distancia mínima entre la forma y el texto circundante en 40 puntos desde todos los lados.
 shape.DistanceTop = 40;
 shape.DistanceBottom = 40;
 shape.DistanceLeft = 40;
 shape.DistanceRight = 40;
 
-// Mueva la forma más cerca del centro de la página y luego gire la forma 60 grados en el sentido de las agujas del reloj.
+// Mueve la forma más cerca del centro de la página y luego gira la forma 60 grados en el sentido de las agujas del reloj.
 shape.Top = 75;
 shape.Left = 150; 
 shape.Rotation = 60;
 
-// Agrega texto que envolverá la forma.
+// Agrega texto que rodeará la forma.
 builder.Font.Size = 24;
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
               "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");

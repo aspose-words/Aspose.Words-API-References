@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.WrapType
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Define si la forma es en línea o flotante. Para formas flotantes define el modo de ajuste para el texto alrededor de la forma.
+description: ShapeBase propiedad. Define si la forma está en línea o flotante. Para formas flotantes define el modo de ajuste del texto alrededor de la forma.
 type: docs
-weight: 540
+weight: 600
 url: /es/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Define si la forma es en línea o flotante. Para formas flotantes define el modo de ajuste para el texto alrededor de la forma.
+Define si la forma está en línea o flotante. Para formas flotantes, define el modo de ajuste del texto alrededor de la forma.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -18,7 +18,7 @@ public WrapType WrapType { get; set; }
 
 El valor predeterminado esNone.
 
-Solo tiene efecto para las formas de nivel superior.
+Tiene efecto sólo para formas de nivel superior.
 
 ### Ejemplos
 
@@ -51,11 +51,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Establecer la alineación horizontal y vertical del texto dentro de la forma.
+// Establece la alineación horizontal y vertical del texto dentro de la forma.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Agregue un párrafo al cuadro de texto y agregue una secuencia de texto que se mostrará en el cuadro de texto.
+// Agregue un párrafo al cuadro de texto y agregue una serie de texto que mostrará el cuadro de texto.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

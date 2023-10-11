@@ -16,27 +16,27 @@ public void SetLicense(string licenseName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| licenseName | String | Puede ser un nombre de archivo completo o corto o el nombre de un recurso incrustado. Use una cadena vacía para cambiar al modo de evaluación. |
+| licenseName | String | Puede ser un nombre de archivo completo o breve o el nombre de un recurso incrustado. Utilice una cadena vacía para cambiar al modo de evaluación. |
 
 ### Observaciones
 
 Intenta encontrar la licencia en las siguientes ubicaciones:
 
-1. Ruta explícita.
+1. Camino explícito.
 
 2. La carpeta que contiene el ensamblaje del componente Aspose.
 
 3. La carpeta que contiene el ensamblado de llamada del cliente.
 
-4. La carpeta que contiene el ensamblado de entrada (inicio).
+4. La carpeta que contiene el ensamblaje de entrada (inicio).
 
-5. Un recurso incrustado en el ensamblado de llamadas del cliente.
+5. Un recurso integrado en el ensamblado de llamada del cliente.
 
 **Nota:**En .NET Compact Framework, intenta encontrar la licencia solo en estas ubicaciones:
 
-1. Ruta explícita.
+1. Camino explícito.
 
-2. Un recurso incrustado en el ensamblado de llamada del cliente.
+2. Un recurso integrado en el ensamblado de llamada del cliente.
 
 ### Ejemplos
 
@@ -49,7 +49,7 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Crear una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
+// Crea una copia de nuestro archivo de licencia en la carpeta de binarios de nuestra aplicación.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
@@ -77,7 +77,7 @@ public void SetLicense(Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | Un flujo que contiene la licencia. |
+| stream | Stream | Una secuencia que contiene la licencia. |
 
 ### Observaciones
 

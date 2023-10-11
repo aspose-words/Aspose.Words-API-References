@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado es falso.
+description: ChartDataLabel propiedad. Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado esFALSO .
 type: docs
-weight: 90
+weight: 110
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado es falso.
+Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -16,13 +16,14 @@ public bool ShowLeaderLines { get; set; }
 
 ### Observaciones
 
-Se aplica solo a gráficos circulares. Las líneas guía crean una conexión visual entre una etiqueta de datos y su punto de datos correspondiente.
+Se aplica únicamente a gráficos circulares. Las líneas guía crean una conexión visual entre una etiqueta de datos y su punto de datos correspondiente.
 
 ### Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,7 +36,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Aplicar etiquetas de datos a cada serie en el gráfico.
+    // Aplicar etiquetas de datos a cada serie del gráfico.
     // Estas etiquetas aparecerán junto a cada punto de datos en el gráfico y mostrarán su valor.
     foreach (ChartSeries series in chart.Series)
     {
@@ -43,7 +44,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Cambia la cadena separadora para cada etiqueta de datos en una serie.
+    // Cambia la cadena separadora para cada etiqueta de datos de una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -53,7 +54,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
         }
     }
 
-    // Para un gráfico de aspecto más limpio, podemos eliminar las etiquetas de datos de forma individual.
+    // Para obtener un gráfico más limpio, podemos eliminar las etiquetas de datos individualmente.
     chart.Series[1].DataLabels[2].ClearFormat();
 
     // También podemos eliminar una serie completa de sus etiquetas de datos a la vez.

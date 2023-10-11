@@ -1,14 +1,16 @@
 ---
 title: Class KnownTypeSet
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.KnownTypeSet clase. Representa un conjunto desordenado es decir una colección de elementos únicos que contieneType objetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informe para invocar los miembros estáticos de los tipos correspondientes realizar conversiones de tipo etc.
+description: Aspose.Words.Reporting.KnownTypeSet clase. Representa un conjunto desordenado es decir una colección de elementos únicos que contieneType objetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informes para invocar los miembros estáticos de los tipos correspondientes realizar conversiones de tipos etc.
 type: docs
-weight: 4450
+weight: 4710
 url: /es/net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
 
-Representa un conjunto desordenado (es decir, una colección de elementos únicos) que contieneType objetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informe para invocar los miembros estáticos de los tipos correspondientes, realizar conversiones de tipo, etc.
+Representa un conjunto desordenado (es decir, una colección de elementos únicos) que contieneType objetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informes para invocar los miembros estáticos de los tipos correspondientes, realizar conversiones de tipos, etc.
+
+Para obtener más información, visite el[Motor de informes LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) artículo de documentación.
 
 ```csharp
 public class KnownTypeSet : IEnumerable<Type>
@@ -27,7 +29,7 @@ public class KnownTypeSet : IEnumerable<Type>
 | [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | Agrega lo especificadoType objeto al conjunto. LanzaArgumentException en los siguientes casos: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Elimina todos los elementos del conjunto. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | Devuelve unIEnumerator objeto para iterar sobre elementos del conjunto. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Elimina el especificadoTypeobjeto del conjunto. LanzaArgumentException si *type* es nulo. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Elimina lo especificadoTypeobjeto del conjunto. LanzaArgumentException si *type* es`nulo` . |
 
 ### Ver también
 

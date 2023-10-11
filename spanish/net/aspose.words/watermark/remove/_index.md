@@ -21,7 +21,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

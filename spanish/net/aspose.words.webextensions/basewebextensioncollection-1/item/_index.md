@@ -16,7 +16,7 @@ public T this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del elemento. |
+| index | Índice de base cero del artículo. |
 
 ### Ejemplos
 
@@ -38,7 +38,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Eliminar la extensión web.
+// Elimina la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

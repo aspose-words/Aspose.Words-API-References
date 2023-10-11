@@ -3,12 +3,14 @@ title: Class SignatureLine
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.SignatureLine clase. Proporciona acceso a las propiedades de la línea de firma.
 type: docs
-weight: 1150
+weight: 1300
 url: /es/net/aspose.words.drawing/signatureline/
 ---
 ## SignatureLine class
 
 Proporciona acceso a las propiedades de la línea de firma.
+
+Para obtener más información, visite el[Trabajar con firmas digitales](https://docs.aspose.com/words/net/working-with-digital-signatures/) artículo de documentación.
 
 ```csharp
 public class SignatureLine
@@ -18,17 +20,17 @@ public class SignatureLine
 
 | Nombre | Descripción |
 | --- | --- |
-| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **falso** . |
-| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **verdadero** . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Obtiene o establece la dirección de correo electrónico del firmante sugerido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es`FALSO` . |
+| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es`verdadero` . |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Obtiene o establece el identificador para esta línea de firma. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](./defaultinstructions/) is set. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
-| [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indica que la línea de firma está firmada por firma digital. |
-| [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indica que la línea de firma está firmada por firma digital y esta firma digital es válida. |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](./defaultinstructions/)está establecido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
+| [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indica que la línea de firma está firmada mediante firma digital. |
+| [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indica que la línea de firma está firmada mediante firma digital y esta firma digital es válida. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Obtiene o establece el identificador del proveedor de firmas para esta línea de firma. El valor predeterminado es "{00000000-0000-0000-0000-000000000000}". |
-| [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Obtiene o establece un valor que indica que la fecha de firma se muestra en la línea de firma. El valor predeterminado para esta propiedad es **verdadero** . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Obtiene o establece el título del firmante sugerido (por ejemplo, Gerente). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de la firma. El valor predeterminado para esta propiedad es`verdadero` . |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Obtiene o establece el título del firmante sugerido (por ejemplo, Gerente). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
 
 ### Ejemplos
 
@@ -49,10 +51,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia vamos a
-// personalizar utilizando el objeto "SignatureLineOptions" que hemos creado anteriormente.
+// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
+// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas x e y negativas para mostrar la forma.
+// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

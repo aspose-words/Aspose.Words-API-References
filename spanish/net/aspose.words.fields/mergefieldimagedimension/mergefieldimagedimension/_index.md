@@ -24,36 +24,38 @@ Debe utilizar un valor negativo para indicar que se debe aplicar el valor origin
 
 ### Ejemplos
 
-Muestra cómo establecer las dimensiones de las imágenes tal como las acepta MERGEFIELDS durante una combinación de correspondencia.
+Muestra cómo configurar las dimensiones de las imágenes según las acepta MERGEFIELDS durante una combinación de correspondencia.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Inserte un MERGEFIELD que aceptará imágenes de una fuente durante una combinación de correspondencia. Use el código de campo para hacer referencia
-    // una columna en la fuente de datos que contiene los nombres de archivo del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
+    // Inserte un MERGEFIELD que acepte imágenes de una fuente durante una combinación de correspondencia. Utilice el código de campo para hacer referencia
+    // una columna en la fuente de datos que contiene los nombres de archivos del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La fuente de datos debe tener una columna de este tipo denominada "ImageColumn".
+    // La fuente de datos debe tener una columna llamada "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crear una fuente de datos adecuada.
+    // Crea una fuente de datos adecuada.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configure una devolución de llamada para modificar los tamaños de las imágenes en el momento de la combinación, luego ejecute la combinación de correspondencia.
+    // Configure una devolución de llamada para modificar los tamaños de las imágenes en el momento de la combinación y luego ejecute la combinación de correspondencia.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Establece el tamaño de todas las imágenes combinadas de correo a un ancho y alto definidos.
+/// Establece el tamaño de todas las imágenes combinadas por correo en un ancho y alto definidos.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -97,7 +99,7 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
 
-Crea una instancia de dimensión de imagen con el valor dado y la unidad dada.
+Crea una instancia de dimensión de imagen con el valor y la unidad dados.
 
 ```csharp
 public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
@@ -114,36 +116,38 @@ Debe utilizar un valor negativo para indicar que se debe aplicar el valor origin
 
 ### Ejemplos
 
-Muestra cómo establecer las dimensiones de las imágenes tal como las acepta MERGEFIELDS durante una combinación de correspondencia.
+Muestra cómo configurar las dimensiones de las imágenes según las acepta MERGEFIELDS durante una combinación de correspondencia.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Inserte un MERGEFIELD que aceptará imágenes de una fuente durante una combinación de correspondencia. Use el código de campo para hacer referencia
-    // una columna en la fuente de datos que contiene los nombres de archivo del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
+    // Inserte un MERGEFIELD que acepte imágenes de una fuente durante una combinación de correspondencia. Utilice el código de campo para hacer referencia
+    // una columna en la fuente de datos que contiene los nombres de archivos del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La fuente de datos debe tener una columna de este tipo denominada "ImageColumn".
+    // La fuente de datos debe tener una columna llamada "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crear una fuente de datos adecuada.
+    // Crea una fuente de datos adecuada.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configure una devolución de llamada para modificar los tamaños de las imágenes en el momento de la combinación, luego ejecute la combinación de correspondencia.
+    // Configure una devolución de llamada para modificar los tamaños de las imágenes en el momento de la combinación y luego ejecute la combinación de correspondencia.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Establece el tamaño de todas las imágenes combinadas de correo a un ancho y alto definidos.
+/// Establece el tamaño de todas las imágenes combinadas por correo en un ancho y alto definidos.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

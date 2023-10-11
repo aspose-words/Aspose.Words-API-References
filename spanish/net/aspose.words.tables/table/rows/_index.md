@@ -21,8 +21,8 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación hay dos formas de obtener una tabla de un documento.
-// 1 - De la colección "Tables" de un nodo Body:
+// A continuación se muestran dos formas de obtener una tabla de un documento.
+// 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Usando el método "GetChild":

@@ -3,7 +3,7 @@ title: Fill.TwoColorGradient
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill método. Establece el relleno especificado en un degradado de dos colores.
 type: docs
-weight: 210
+weight: 270
 url: /es/net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
@@ -17,7 +17,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
-| variant | GradientVariant | La variante degradada[`GradientVariant`](../../gradientvariant/) |
+| variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
 
 ### Ejemplos
 
@@ -42,7 +42,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -50,7 +50,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
@@ -81,7 +81,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | color1 | Color | El primer color para construir el degradado. |
 | color2 | Color | El segundo color para construir el degradado. |
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
-| variant | GradientVariant | La variante degradada[`GradientVariant`](../../gradientvariant/) |
+| variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
 
 ### Ejemplos
 
@@ -106,7 +106,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -114,7 +114,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

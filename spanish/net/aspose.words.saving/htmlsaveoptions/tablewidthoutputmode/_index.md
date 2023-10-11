@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se exportan los anchos de tabla fila y celda a HTML MHTML o EPUB. El valor predeterminado esAll .
+description: HtmlSaveOptions propiedad. Controla cómo se exportan los anchos de tablas filas y celdas a HTML MHTML o EPUB. El valor predeterminado esAll .
 type: docs
 weight: 460
 url: /es/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-Controla cómo se exportan los anchos de tabla, fila y celda a HTML, MHTML o EPUB. El valor predeterminado esAll .
+Controla cómo se exportan los anchos de tablas, filas y celdas a HTML, MHTML o EPUB. El valor predeterminado esAll .
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -16,15 +16,15 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ### Observaciones
 
-En el formato HTML, los elementos de tabla, fila y celda ( **&lt;tabla&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) pueden tener sus anchos especificados en unidades relativas (porcentaje) o absolutas. En un documento en Aspose.Words, tablas, filas y celdas pueden tener sus anchos especificados usando unidades relativas o absolutas también.
+En el formato HTML, elementos de tabla, fila y celda ( **&lt;tabla&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) pueden tener sus anchos especificados en unidades relativas (porcentaje) o absolutas. En un documento en Aspose.Words, las tablas, filas y celdas pueden tener sus anchos especificados usando unidades relativas o absolutas también.
 
-Cuando convierte un documento a HTML usando Aspose.Words, es posible que desee controlar cómo se exportan los anchos de tabla, fila y celda para afectar cómo se muestra el documento resultante en el agente visual (por ejemplo, un navegador o visor).
+Cuando convierte un documento a HTML usando Aspose.Words, es posible que desee controlar cómo se exportan los anchos de tabla, fila y celda para afectar la forma en que se muestra el documento resultante en el agente visual (por ejemplo, un navegador o visor).
 
-Utilice esta propiedad como filtro para especificar qué valores de ancho de tabla se exportan al documento de destino. Por ejemplo, si está convirtiendo un documento a EPUB y tiene la intención de verlo en un dispositivo de lectura móvil, , entonces probablemente desee evitar exportar valores de ancho absolutos. Para hacer esto, debe especificar el modo de salidaRelativeOnly oNone para que el espectador en el dispositivo móvil pueda diseñar la tabla para que se ajuste al ancho de la pantalla lo mejor que pueda.
+Utilice esta propiedad como filtro para especificar qué valores de ancho de tabla se exportan al documento de destino. Por ejemplo, si está convirtiendo un documento a EPUB y tiene intención de verlo en un dispositivo de lectura móvil, entonces probablemente desee evitarlo. exportar valores de ancho absoluto. Para hacer esto necesita especificar el modo de salidaRelativeOnly oNone para que el espectador en el dispositivo móvil pueda diseñar la tabla para que se ajuste al ancho de la pantalla lo mejor posible.
 
 ### Ejemplos
 
-Muestra cómo conservar las sangrías negativas en el .html de salida.
+Muestra cómo conservar sangrías negativas en el archivo .html de salida.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Cuando guardamos un documento en HTML, Aspose.Words solo conservará las sangrías negativas
-// como el que hemos aplicado a la primera tabla si ponemos el flag "AllowNegativeIndent"
+// como el que hemos aplicado a la primera tabla si configuramos el indicador "AllowNegativeIndent"
 // en un objeto SaveOptions que pasaremos a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

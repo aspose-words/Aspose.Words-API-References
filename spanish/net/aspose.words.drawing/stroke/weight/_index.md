@@ -1,14 +1,14 @@
 ---
 title: Stroke.Weight
 second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define el grosor del pincel que traza el camino de una forma en puntos.
+description: Stroke propiedad. Define el grosor del pincel que traza el trazado de una forma en puntos.
 type: docs
-weight: 200
+weight: 220
 url: /es/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
 
-Define el grosor del pincel que traza el camino de una forma en puntos.
+Define el grosor del pincel que traza el trazado de una forma en puntos.
 
 ```csharp
 public double Weight { get; set; }
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

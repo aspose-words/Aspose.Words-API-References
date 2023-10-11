@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ClearFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel método. Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección de etiquetas principal data .
+description: ChartDataLabel método. Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección principal de etiquetas data .
 type: docs
-weight: 140
+weight: 160
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method
 
-Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección de etiquetas principal data .
+Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección principal de etiquetas data .
 
 ```csharp
 public void ClearFormat()

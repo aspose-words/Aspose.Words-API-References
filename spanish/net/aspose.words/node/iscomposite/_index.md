@@ -1,14 +1,14 @@
 ---
 title: Node.IsComposite
 second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Devuelve verdadero si este nodo puede contener otros nodos.
+description: Node propiedad. Devolucionesverdadero si este nodo puede contener otros nodos.
 type: docs
 weight: 30
 url: /es/net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-Devuelve verdadero si este nodo puede contener otros nodos.
+Devoluciones`verdadero` si este nodo puede contener otros nodos.
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -16,26 +16,27 @@ public virtual bool IsComposite { get; }
 
 ### El valor de la propiedad
 
-Este método devuelve falso ya que el nodo no puede tener nodos secundarios.
+Este método regresa`FALSO` como[`Node`](../) no puede tener nodos secundarios.
 
 ### Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoque la función recursiva que pasará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad, así como del contenido de todos los nodos en línea.
+/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {

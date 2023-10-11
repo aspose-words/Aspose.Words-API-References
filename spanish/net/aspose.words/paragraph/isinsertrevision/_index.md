@@ -28,7 +28,7 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Los párrafos anteriores no son revisiones.
-// Los párrafos que agreguemos después de iniciar el seguimiento de revisiones se registrarán como revisiones de "Insertar".
+// Los párrafos que agreguemos después de iniciar el seguimiento de revisiones se registrarán como revisiones "Insertar".
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
@@ -43,9 +43,9 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Dichos párrafos permanecerán hasta que aceptemos o rechacemos la revisión de eliminación.
+// Dichos párrafos permanecerán hasta que aceptemos o rechacemos la revisión eliminada.
 // Aceptar la revisión eliminará el párrafo para siempre,
-// y rechazar la revisión la dejará en el documento como si nunca la hubiéramos borrado.
+// y rechazar la revisión la dejará en el documento como si nunca la hubiéramos eliminado.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 

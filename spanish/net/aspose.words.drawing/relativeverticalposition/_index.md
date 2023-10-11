@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeVerticalPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.RelativeVerticalPosition enumeración. Especifica a qué es relativa la posición vertical de una forma o marco de texto.
+description: Aspose.Words.Drawing.RelativeVerticalPosition enumeración. Especifica con qué es relativa la posición vertical de una forma o marco de texto.
 type: docs
-weight: 1070
+weight: 1210
 url: /es/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-Especifica a qué es relativa la posición vertical de una forma o marco de texto.
+Especifica con qué es relativa la posición vertical de una forma o marco de texto.
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -18,14 +18,14 @@ public enum RelativeVerticalPosition
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Margin | `0` | Especifica que el posicionamiento vertical será relativo a los márgenes de la página. |
-| Page | `1` | El objeto se coloca en relación con el borde superior de la página. |
-| Paragraph | `2` | El objeto se coloca en relación con la parte superior del párrafo que contiene el ancla. |
-| Line | `3` | Sin documentar. |
-| TopMargin | `4` | Especifica que el posicionamiento vertical será relativo al margen superior de la página actual. |
-| BottomMargin | `5` | Especifica que el posicionamiento vertical será relativo al margen inferior de la página actual. |
-| InsideMargin | `6` | Especifica que el posicionamiento vertical será relativo al margen interior de la página actual. |
-| OutsideMargin | `7` | Especifica que el posicionamiento vertical será relativo al margen exterior de la página actual. |
+| Margin | `0` | Especifica que la posición vertical será relativa a los márgenes de la página. |
+| Page | `1` | El objeto está colocado en relación con el borde superior de la página. |
+| Paragraph | `2` | El objeto está ubicado en relación con la parte superior del párrafo que contiene el ancla. |
+| Line | `3` | Indocumentado. |
+| TopMargin | `4` | Especifica que la posición vertical será relativa al margen superior de la página actual. |
+| BottomMargin | `5` | Especifica que la posición vertical será relativa al margen inferior de la página actual. |
+| InsideMargin | `6` | Especifica que la posición vertical será relativa al margen interior de la página actual. |
+| OutsideMargin | `7` | Especifica que la posición vertical será relativa al margen exterior de la página actual. |
 | TableDefault | `0` | El valor predeterminado esMargin . |
 | TextFrameDefault | `2` | El valor predeterminado esParagraph . |
 
@@ -49,7 +49,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();

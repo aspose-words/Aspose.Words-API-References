@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Ejemplos
 
-Muestra para insertar un campo de PALABRAS CLAVE.
+Muestra para insertar un campo PALABRAS CLAVE.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Establecer un valor para la propiedad Texto del campo,
-// y luego actualizar el campo también sobrescribirá la propiedad integrada correspondiente con el nuevo valor.
+// Estableciendo un valor para la propiedad Texto del campo,
+// y luego actualizar el campo también sobrescribirá la propiedad incorporada correspondiente con el nuevo valor.
 field.Text = "OverridingKeyword";
 field.Update();
 

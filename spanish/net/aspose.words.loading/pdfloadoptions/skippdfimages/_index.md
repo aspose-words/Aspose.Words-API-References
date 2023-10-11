@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfLoadOptions propiedad. Obtiene o establece el indicador que indica si las imágenes deben omitirse al cargar un documento PDF. El valor predeterminado es Falso.
+description: PdfLoadOptions propiedad. Obtiene o establece el indicador que indica si se deben omitir las imágenes al cargar el documento PDF. El valor predeterminado esFALSO .
 type: docs
 weight: 40
 url: /es/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Obtiene o establece el indicador que indica si las imágenes deben omitirse al cargar un documento PDF. El valor predeterminado es Falso.
+Obtiene o establece el indicador que indica si se deben omitir las imágenes al cargar el documento PDF. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }

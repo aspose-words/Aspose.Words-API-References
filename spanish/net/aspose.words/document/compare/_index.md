@@ -1,14 +1,14 @@
 ---
 title: Document.Compare
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Compara este documento con otro documento produciendo cambios como número de ediciones y revisiones de formatoRevision .
+description: Document método. Compara este documento con otro documento que produce cambios como número de ediciones y revisiones de formato.Revision .
 type: docs
-weight: 540
+weight: 580
 url: /es/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-Compara este documento con otro documento produciendo cambios como número de ediciones y revisiones de formato[`Revision`](../../revision/) .
+Compara este documento con otro documento que produce cambios como número de ediciones y revisiones de formato.[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -17,15 +17,10 @@ public void Compare(Document document, string author, DateTime dateTime)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | document | Document | Documento para comparar. |
-| author | String | Iniciales del autor a utilizar para las revisiones. |
-| dateTime | DateTime | La fecha y la hora que se usarán para las revisiones. |
+| author | String | Iniciales del autor a utilizar en las revisiones. |
+| dateTime | DateTime | La fecha y hora que se utilizarán para las revisiones. |
 
 ### Observaciones
-
-Los siguientes nodos de documentos no se comparan en este momento:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* artículo3
 
 Los documentos no deben tener revisiones antes de la comparación.
 
@@ -42,12 +37,13 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// La comparación de documentos con revisiones generará una excepción.
+// Comparar documentos con revisiones generará una excepción.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
 // Después de la comparación, el documento original obtendrá una nueva revisión
-// por cada elemento que sea diferente en el documento editado.
+// para cada elemento que sea diferente en el documento editado.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Compara este documento con otro documento produciendo cambios como una serie de revisiones de edición y formato[`Revision`](../../revision/) . Permite especificar opciones de comparación mediante[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Compara este documento con otro documento que produce cambios como una serie de revisiones de edición y formato.[`Revision`](../../revision/) . Permite especificar opciones de comparación usando[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -80,11 +76,11 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
 ```csharp
-// Cree el documento original y rellénelo con varios tipos de elementos.
+// Crea el documento original y complétalo con varios tipos de elementos.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Texto de párrafo referenciado con una nota al final:
+// Texto del párrafo al que se hace referencia con una nota al final:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -110,7 +106,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Encabezado:
+// encabezado:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -129,7 +125,7 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // La comparación de documentos crea una revisión para cada edición en el documento editado.
-// Un objeto CompareOptions tiene una serie de banderas que pueden suprimir las revisiones
+// Un objeto CompareOptions tiene una serie de indicadores que pueden suprimir revisiones
 // en cada tipo respectivo de elemento, ignorando efectivamente su cambio.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

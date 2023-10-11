@@ -1,14 +1,14 @@
 ---
 title: PageInfo.PaperTray
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Obtiene la bandeja de papel bin para esta página como se especifica en el documento. El valor es específico de la implementación impresora.
+description: PageInfo propiedad. Obtiene la bandeja de papel bandeja para esta página tal como se especifica en el documento. El valor es específico de la implementación impresora.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property
 
-Obtiene la bandeja de papel (bin) para esta página como se especifica en el documento. El valor es específico de la implementación (impresora).
+Obtiene la bandeja de papel (bandeja) para esta página tal como se especifica en el documento. El valor es específico de la implementación (impresora).
 
 ```csharp
 public int PaperTray { get; }
@@ -16,12 +16,12 @@ public int PaperTray { get; }
 
 ### Ejemplos
 
-Muestra cómo imprimir información sobre el tamaño y la orientación de la página para cada página de un documento de Word.
+Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La primera sección tiene 2 páginas. Asignaremos una bandeja de papel de impresora diferente a cada uno,
+// La primera sección tiene 2 páginas. A cada una le asignaremos una bandeja de papel de impresora diferente,
 // cuyo número coincidirá con un tipo de fuente de papel. Estas fuentes y sus tipos variarán
 // dependiendo del controlador de impresora instalado.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
@@ -46,7 +46,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Imprimir la información de la bandeja de origen.
+    // Imprime la información de la bandeja de origen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

@@ -16,11 +16,11 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| saveFormat | SaveFormat | El formato de guardado para el que se va a crear un objeto de opciones de guardado. |
+| saveFormat | SaveFormat | El formato de guardado para el cual crear un objeto de opciones de guardado. |
 
 ### Valor_devuelto
 
-Un objeto de una clase que se deriva de[`SaveOptions`](../).
+Un objeto de una clase que deriva de[`SaveOptions`](../).
 
 ### Ejemplos
 
@@ -33,7 +33,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // para modificar cómo ese método convierte el documento a .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Establezca la propiedad "MemoryOptimization" en "true" para reducir la huella de memoria de las operaciones de guardado de documentos grandes
+// Establece la propiedad "MemoryOptimization" en "true" para reducir el consumo de memoria de las operaciones de guardado de documentos grandes
 // a costa de aumentar la duración de la operación.
 // Establezca la propiedad "MemoryOptimization" en "false" para guardar el documento como PDF normalmente.
 saveOptions.MemoryOptimization = memoryOptimization;
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ## CreateSaveOptions(string) {#createsaveoptions_1}
 
-Crea un objeto de opciones de guardado de una clase adecuada para la extensión de archivo especificada en el nombre de archivo proporcionado.
+Crea un objeto de opciones de guardado de una clase adecuada para la extensión de archivo especificada en el nombre de archivo dado.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(string fileName)
@@ -60,11 +60,11 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fileName | String | La extensión de este nombre de archivo determina la clase del objeto de opciones de guardado que se va a crear. |
+| fileName | String | La extensión de este nombre de archivo determina la clase del objeto de opciones de guardado que se creará. |
 
 ### Valor_devuelto
 
-Un objeto de una clase que se deriva de[`SaveOptions`](../).
+Un objeto de una clase que deriva de[`SaveOptions`](../).
 
 ### Ejemplos
 
@@ -78,8 +78,8 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Dado que no hay un documento de plantilla, el documento no tenía dónde rastrear los cambios de estilo.
-// Usar un objeto SaveOptions para configurar automáticamente una plantilla
+// Como no hay un documento de plantilla, el documento no tenía ningún lugar para realizar un seguimiento de los cambios de estilo.
+// Usa un objeto SaveOptions para configurar automáticamente una plantilla
 // si un documento que estamos guardando no lo tiene.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";

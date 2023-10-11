@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Ejemplos
 
-Muestra cómo establecer qué codificación usar al exportar un documento a HTML.
+Muestra cómo configurar qué codificación usar al exportar un documento a HTML.
 
 ```csharp
 Document doc = new Document();

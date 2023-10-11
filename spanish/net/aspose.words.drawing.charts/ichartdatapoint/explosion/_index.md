@@ -28,13 +28,13 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// Las "rebanadas" de un gráfico circular se pueden alejar del centro una distancia a través del atributo Explosión del punto de datos respectivo.
+// Las "porciones" de un gráfico circular se pueden alejar una distancia del centro mediante el atributo Explosión del punto de datos respectivo.
 // Agregue un punto de datos a la primera parte del gráfico circular y aléjelo del centro 10 puntos.
 // Aspose.Words crea puntos de datos automáticamente si no existen.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 
-// Desplazar la segunda porción una distancia mayor.
+// Desplaza la segunda porción a una distancia mayor.
 dataPoint = chart.Series[0].DataPoints[1];
 dataPoint.Explosion = 40;
 

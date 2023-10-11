@@ -16,28 +16,27 @@ public bool IsPathRelative { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar el campo RD para crear una tabla de entradas de contenido a partir de encabezados en otros documentos.
+Muestra cómo utilizar el campo RD para crear una tabla de contenido a partir de encabezados de otros documentos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Usar un generador de documentos para insertar una tabla de contenido,
+// Utiliza un generador de documentos para insertar una tabla de contenido,
 // y luego agregue una entrada para la tabla de contenido en la página siguiente.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Insertar un campo RD, que hace referencia a otro documento del sistema de archivos local en su propiedad FileName.
-// El TOC ahora también aceptará todos los encabezados del documento al que se hace referencia como entradas para su tabla.
+// Inserte un campo RD, que haga referencia a otro documento del sistema de archivos local en su propiedad FileName.
+// El TOC ahora también aceptará todos los títulos del documento al que se hace referencia como entradas para su tabla.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
-field.FileName = "ReferencedDocument.docx";
-field.IsPathRelative = true;
+field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual(" RD  ReferencedDocument.docx \\f", field.GetFieldCode());
+Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
-  // Cree el documento al que hace referencia el campo RD e inserte un encabezado.
+ // Crea el documento al que hace referencia el campo RD e inserta un encabezado.
 // Este encabezado aparecerá como una entrada en el campo TOC en nuestro primer documento.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);

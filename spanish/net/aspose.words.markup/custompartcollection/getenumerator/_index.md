@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPartCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+description: CustomPartCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -23,12 +23,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

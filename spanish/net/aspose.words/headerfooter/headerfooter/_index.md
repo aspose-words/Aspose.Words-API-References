@@ -17,13 +17,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/)value que especifica el tipo de encabezado o pie de página. |
+| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) value que especifica el tipo de encabezado o pie de página. |
 
 ### Observaciones
 
-Cuando **EncabezadoPie de página** se crea, pertenece al documento especificado, pero aún no es parte del documento y **Nodo principal** es nulo.
+Cuando[`HeaderFooter`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar **EncabezadoPie de página** a un **Sección** use Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add o HeadersFooters.Insert.
+Para anexar[`HeaderFooter`](../) un[`Section`](../../section/) usarNode) ,Node) , o[`HeadersFooters`](../../section/headersfooters/) propiedades y métodos[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Ejemplos
 
@@ -32,7 +32,7 @@ Muestra cómo crear un encabezado y un pie de página.
 ```csharp
 Document doc = new Document();
 
-// Crear un encabezado y agregarle un párrafo. El texto de ese párrafo
+// Crea un encabezado y añádele un párrafo. El texto de ese párrafo
 // aparecerá en la parte superior de cada página de esta sección, encima del texto del cuerpo principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);

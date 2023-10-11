@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Referencia de API de Aspose.Words para .NET
-description: VbaReferenceCollection método. Elimina la primera aparición de un elemento VbaReference especificado de la colección.
+description: VbaReferenceCollection método. Elimina la primera aparición de un determinadoVbaReference artículo de la colección.
 type: docs
 weight: 30
 url: /es/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Elimina la primera aparición de un elemento VbaReference especificado de la colección.
+Elimina la primera aparición de un determinado[`VbaReference`](../../vbareference/) artículo de la colección.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -19,7 +19,6 @@ public void Remove(VbaReference item)
 Muestra cómo obtener/eliminar un elemento de la colección de referencia de VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Devuelve una cadena que representa la ruta LibId de una referencia especificada. 
+ /// Devuelve una cadena que representa la ruta LibId de una referencia especificada.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +62,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +77,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

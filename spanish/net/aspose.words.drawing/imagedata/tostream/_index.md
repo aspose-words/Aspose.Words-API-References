@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToStream
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData método. Crea y devuelve un flujo que contiene los bytes de la imagen.
+description: ImageData método. Crea y devuelve una secuencia que contiene los bytes de la imagen.
 type: docs
-weight: 230
+weight: 240
 url: /es/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
 
-Crea y devuelve un flujo que contiene los bytes de la imagen.
+Crea y devuelve una secuencia que contiene los bytes de la imagen.
 
 ```csharp
 public Stream ToStream()
@@ -30,7 +30,6 @@ Muestra cómo crear un archivo de imagen a partir de los datos de imagen sin pro
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

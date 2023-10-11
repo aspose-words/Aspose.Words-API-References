@@ -1,14 +1,14 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldStyleRef propiedad. Obtiene o establece si insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
+description: FieldStyleRef propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInFullContext property
 
-Obtiene o establece si insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
+Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }
@@ -16,17 +16,17 @@ public bool InsertParagraphNumberInFullContext { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar los campos STYLEREF.
+Muestra cómo utilizar los campos STYLEREF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree una lista basada en una plantilla de lista de Microsoft Word.
+// Crea una lista basada en una plantilla de lista de Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Esta lista generada mostrará "1.a )".
-  // El espacio antes del corchete es un carácter no delimitador, que podemos suprimir.
+// Esta lista generada mostrará "1.a)".
+ // El espacio antes del corchete es un carácter no delimitador, que podemos suprimir.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -42,7 +42,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Coloque un campo STYLEREF en el encabezado y muestre el primer texto con estilo "List Paragraph" en el documento.
+// Coloque un campo STYLEREF en el encabezado y muestre el primer texto con estilo "Párrafo de lista" en el documento.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// También podemos usar campos STYLEREF para hacer referencia a los números de lista de las listas.
+// También podemos usar campos STYLEREF para hacer referencia a los números de lista de listas.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

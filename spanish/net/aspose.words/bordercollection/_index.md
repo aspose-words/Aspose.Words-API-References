@@ -1,14 +1,16 @@
 ---
 title: Class BorderCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BorderCollection clase. Una colección de objetos Border.
+description: Aspose.Words.BorderCollection clase. Una colección deBorder objetos.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
 
-Una colección de objetos Border.
+Una colección de[`Border`](../border/) objetos.
+
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
 
 ```csharp
 public sealed class BorderCollection : IEnumerable<Border>
@@ -22,15 +24,15 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Color](../../aspose.words/bordercollection/color/) { get; set; } | Obtiene o establece el color del borde. |
 | [Count](../../aspose.words/bordercollection/count/) { get; } | Obtiene el número de bordes de la colección. |
 | [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Obtiene o establece la distancia del borde al texto en puntos. |
-| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Obtiene el borde horizontal que se usa entre celdas o párrafos conformes. |
-| [Item](../../aspose.words/bordercollection/item/) { get; } | Recupera un objeto Borde por tipo de borde. (2 indexers) |
+| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes. |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | Recupera un[`Border`](../border/) objeto por tipo de borde. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left/) { get; } | Obtiene el borde izquierdo. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Obtiene o establece el estilo del borde. |
 | [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Obtiene o establece el ancho del borde en puntos. |
 | [Right](../../aspose.words/bordercollection/right/) { get; } | Obtiene el borde derecho. |
-| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Obtiene o establece un valor que indica si el borde tiene sombra. |
+| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Obtiene o establece un valor que indica si el borde tiene una sombra. |
 | [Top](../../aspose.words/bordercollection/top/) { get; } | Obtiene el borde superior. |
-| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Obtiene el borde vertical que se usa entre celdas. |
+| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Obtiene el borde vertical que se utiliza entre las celdas. |
 
 ## Métodos
 
@@ -38,11 +40,11 @@ public sealed class BorderCollection : IEnumerable<Border>
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Elimina todos los bordes de un objeto. |
 | [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Compara colecciones de bordes. |
-| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los bordes de la colección. |
+| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los bordes de la colección. |
 
 ### Observaciones
 
-Los diferentes elementos del documento tienen bordes diferentes. Por ejemplo, ParagraphFormat tiene bordes inferior, izquierdo, derecho y superior. Puede especificar un formato diferente para cada borde de forma independiente o enumerar todos los bordes y aplicar el mismo formato.
+Diferentes elementos del documento tienen bordes diferentes. Por ejemplo,[`ParagraphFormat`](../paragraphformat/)tiene[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) y[`Top`](./top/) borders. Puede especificar un formato diferente para cada borde de forma independiente o enumerar todos los bordes y aplicar el mismo formato.
 
 ### Ejemplos
 
@@ -52,12 +54,14 @@ Muestra cómo insertar un párrafo con un borde superior.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// Establece ThemeColor solo cuando LineWidth o LineStyle están configurados.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.GetEffectiveTabStops
 second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo incluidas las aplicadas indirectamente por estilos o listas.
+description: Paragraph método. Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo incluidas las aplicadas indirectamente mediante estilos o listas.
 type: docs
-weight: 250
+weight: 270
 url: /es/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
 
-Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo, incluidas las aplicadas indirectamente por estilos o listas.
+Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo, incluidas las aplicadas indirectamente mediante estilos o listas.
 
 ```csharp
 public TabStop[] GetEffectiveTabStops()
@@ -16,7 +16,7 @@ public TabStop[] GetEffectiveTabStops()
 
 ### Ejemplos
 
-Muestra cómo establecer tabulaciones personalizadas para un párrafo.
+Muestra cómo configurar tabulaciones personalizadas para un párrafo.
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ Assert.AreEqual(0, doc.FirstSection.Body.FirstParagraph.GetEffectiveTabStops().L
 
 // Podemos agregar tabulaciones personalizadas en Microsoft Word si habilitamos la regla a través de la pestaña "Ver".
 // Cada unidad en esta regla son dos tabulaciones predeterminadas, que son 72 puntos.
-// Podemos agregar tabulaciones personalizadas programáticamente como esta.
+// Podemos agregar tabulaciones personalizadas mediante programación de esta manera.
 TabStopCollection tabStops = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.TabStops;
 tabStops.Add(72, TabAlignment.Left, TabLeader.Dots);
 tabStops.Add(216, TabAlignment.Center, TabLeader.Dashes);
 tabStops.Add(360, TabAlignment.Right, TabLeader.Line);
 
-// Podemos ver estas tabulaciones en Microsoft Word activando la regla a través de "Ver" -> "Mostrar" -> "Gobernante".
+// Podemos ver estas tabulaciones en Microsoft Word habilitando la regla a través de "Ver" -> "Mostrar" -> "Gobernante".
 Assert.AreEqual(3, para.GetEffectiveTabStops().Length);
 
 // Cualquier carácter de tabulación que agreguemos hará uso de las tabulaciones en la regla y puede,

@@ -16,15 +16,15 @@ public override DocumentProperty this[string name] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| name | El nombre que no distingue entre mayúsculas y minúsculas de la propiedad que se va a recuperar. |
+| name | El nombre de la propiedad que se va a recuperar, sin distinguir entre mayúsculas y minúsculas. |
 
 ### Observaciones
 
 Los nombres de cadena de las propiedades corresponden a los nombres de las propiedades typed disponibles en[`BuiltInDocumentProperties`](../).
 
-Si solicita una propiedad que no está presente en el documento, pero el nombre de la propiedad se reconoce como un nombre incorporado válido, un nuevo[`DocumentProperty`](../../documentproperty/)Se crea , se agrega a la colección y se devuelve. A la propiedad recién creada se le asigna un valor predeterminado (cadena vacía, cero, falso o DateTime.MinValue según el tipo de la propiedad integrada).
+Si solicita una propiedad que no está presente en el documento, pero el nombre de la propiedad se reconoce como un nombre integrado válido, se creará una nueva[`DocumentProperty`](../../documentproperty/) se crea, se agrega a la colección y se devuelve. A la propiedad recién creada se le asigna un valor predeterminado (cadena vacía, cero,`FALSO` o DateTime.MinValue dependiendo del type de la propiedad incorporada).
 
-Si solicita una propiedad que no está presente en el documento y el nombre no se reconoce como un nombre incorporado, se devuelve un valor nulo.
+Si solicita una propiedad que no está presente en el documento y el nombre no se reconoce como un nombre incorporado, un`nulo` es regresado.
 
 ### Ejemplos
 
@@ -34,7 +34,7 @@ Muestra cómo trabajar con propiedades de documentos personalizados.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Cada documento contiene una colección de propiedades personalizadas que, al igual que las propiedades integradas, son pares clave-valor.
-// El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas. 
+ // El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

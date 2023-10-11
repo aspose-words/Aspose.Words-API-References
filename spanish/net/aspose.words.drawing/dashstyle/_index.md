@@ -3,7 +3,7 @@ title: Enum DashStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.DashStyle enumeración. Estilo de línea discontinua.
 type: docs
-weight: 800
+weight: 930
 url: /es/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -18,13 +18,13 @@ public enum DashStyle
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Solid | `0` | Sólido (continuo) pen. |
+| Solid | `0` | Pluma sólida (continua). |
 | ShortDash | `1` | Estilo de guión del sistema. |
 | ShortDot | `2` | Estilo de guión del sistema. |
 | ShortDashDot | `3` | Estilo de guión del sistema. |
 | ShortDashDotDot | `4` | Estilo de guión del sistema. |
-| Dot | `5` | Estilo punto cuadrado. |
-| Dash | `6` | Estilo de guión. |
+| Dot | `5` | Estilo de punto cuadrado. |
+| Dash | `6` | Estilo guión. |
 | LongDash | `7` | Estilo de guión largo. |
 | DashDot | `8` | Guión guión corto. |
 | LongDashDot | `9` | Guión largo guión corto. |
@@ -39,8 +39,8 @@ Muestra para crear una variedad de formas.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay cuatro ejemplos de formas que podemos insertar en nuestros documentos.
-// 1 - Línea roja punteada, horizontal, semitransparente
+// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+// 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -78,7 +78,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flecha con una orientación invertida rellena con el logotipo de Aspose:
+// 4 - Flecha con orientación invertida rellena con el logotipo de Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -90,8 +90,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
-    // Voltea la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
+    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

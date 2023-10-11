@@ -3,7 +3,7 @@ title: Enum OutlineLevel
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.OutlineLevel enumeración. Especifica el nivel de esquema de un párrafo en el documento.
 type: docs
-weight: 4090
+weight: 4330
 url: /es/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

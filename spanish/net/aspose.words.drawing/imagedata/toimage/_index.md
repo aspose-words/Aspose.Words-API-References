@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToImage
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData método. Obtiene la imagen almacenada en la forma como unImage objeto.
+description: ImageData método. Obtiene la imagen almacenada en la forma comoImage objeto.
 type: docs
-weight: 220
+weight: 230
 url: /es/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Obtiene la imagen almacenada en la forma como unImage objeto.
+Obtiene la imagen almacenada en la forma comoImage objeto.
 
 ```csharp
 public Image ToImage()
@@ -18,7 +18,7 @@ public Image ToImage()
 
 un nuevoImage El objeto se crea cada vez que se llama a este método.
 
-Es responsabilidad de la persona que llama deshacerse del objeto de imagen.
+Es responsabilidad de la persona que llama disponer del objeto de imagen.
 
 ### Ejemplos
 

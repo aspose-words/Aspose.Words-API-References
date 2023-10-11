@@ -16,7 +16,7 @@ public bool FormsDesign { get; set; }
 
 ### Observaciones
 
-Actualmente solo funciona para documentos en formato WordML.
+Actualmente sólo funciona con documentos en formato WordML.
 
 ### Ejemplos
 
@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Establezca la propiedad "FormsDesign" en "falso" para mantener el modo de diseño de formularios deshabilitado.
-// Establezca la propiedad "FormsDesign" en "true" para habilitar el modo de diseño de formularios.
+// Establece la propiedad "FormsDesign" en "false" para mantener el modo de diseño de formularios deshabilitado.
+// Establece la propiedad "FormsDesign" en "true" para habilitar el modo de diseño de formularios.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

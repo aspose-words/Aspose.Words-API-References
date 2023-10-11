@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.AddressFieldName
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica la columna dentro del origen de datos que contiene las direcciones de correo electrónico. El valor predeterminado es una cadena vacía.
+description: MailMergeSettings propiedad. Especifica la columna dentro de la fuente de datos que contiene direcciones de correo electrónico. El valor predeterminado es una cadena vacía.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-Especifica la columna dentro del origen de datos que contiene las direcciones de correo electrónico. El valor predeterminado es una cadena vacía.
+Especifica la columna dentro de la fuente de datos que contiene direcciones de correo electrónico. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string AddressFieldName { get; set; }
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correo cuando lo usemos para cargar el documento.
+// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

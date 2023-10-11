@@ -3,7 +3,7 @@ title: Enum ShapeMarkupLanguage
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.ShapeMarkupLanguage enumeración. Especifica el lenguaje de marcado utilizado para la forma.
 type: docs
-weight: 1130
+weight: 1280
 url: /es/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -18,8 +18,8 @@ public enum ShapeMarkupLanguage : byte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Dml | `0` | Drawing Markup Language se utiliza para definir la forma. |
-| Vml | `1` | Vector Markup Language se utiliza para definir la forma. |
+| Dml | `0` | El lenguaje de marcado de dibujo se utiliza para definir la forma. |
+| Vml | `1` | El lenguaje de marcado vectorial se utiliza para definir la forma. |
 
 ### Ejemplos
 
@@ -37,8 +37,8 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // El estándar OOXML "ISO/IEC 29500:2008" no admite formas VML.
-// Si establecemos la propiedad "Compliance" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
-  // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
+// Si configuramos la propiedad "Cumplimiento" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
+ // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,

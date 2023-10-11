@@ -3,7 +3,7 @@ title: SaveOptions.UpdateLastPrintedProperty
 second_title: Referencia de API de Aspose.Words para .NET
 description: SaveOptions propiedad. Obtiene o establece un valor que determina si elLastPrinted la propiedad se actualiza antes de guardar.
 type: docs
-weight: 180
+weight: 170
 url: /es/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
@@ -16,15 +16,15 @@ public bool UpdateLastPrintedProperty { get; set; }
 
 ### Ejemplos
 
-Muestra cómo actualizar la propiedad "CreatedTime" de un documento al guardar.
+Muestra cómo actualizar la propiedad "CreatedTime" de un documento al guardarlo.
 
 ```csharp
 Document doc = new Document();
 doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
 
-// Este indicador determina si se actualiza la hora de creación, que es una propiedad integrada.
-// Si es así, entonces la fecha de la operación de guardado más reciente del documento
-// con este objeto SaveOptions pasado como parámetro se usa como la hora de creación.
+// Este indicador determina si se actualiza la hora creada, que es una propiedad incorporada.
+// Si es así, entonces la fecha de la operación de guardado más reciente del documento.
+// con este objeto SaveOptions pasado como parámetro se utiliza como hora de creación.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
 
@@ -42,14 +42,14 @@ Muestra cómo actualizar la propiedad "Última impresión" de un documento al gu
 Document doc = new Document();
 doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
 
-// Este indicador determina si se actualiza la última fecha impresa, que es una propiedad integrada.
-// Si es así, entonces la fecha de la operación de guardado más reciente del documento
+// Este indicador determina si se actualiza la última fecha impresa, que es una propiedad incorporada.
+// Si es así, entonces la fecha de la operación de guardado más reciente del documento.
 // con este objeto SaveOptions pasado como parámetro se utiliza como fecha de impresión.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
 
-// En Microsoft Word 2003, esta propiedad se puede encontrar mediante Archivo -> Propiedades -> Estadísticas -> Impreso.
-// También se puede mostrar en el cuerpo del documento usando un campo PRINTDATE.
+// En Microsoft Word 2003, esta propiedad se puede encontrar en Archivo -> Propiedades -> Estadísticas -> Impreso.
+// También se puede mostrar en el cuerpo del documento utilizando un campo PRINTDATE.
 doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
 
 // Abra el documento guardado, luego verifique el valor de la propiedad.

@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevel método. Reporta la representación de cadena delListLevel objeto para el índice especificado del elemento de la lista. Los parámetros especifican elNumberStyle y un formato opcional string utilizado cuandoCustom se especifica.
+description: ListLevel método. Informa la representación de cadena delListLevelobjeto para el index especificado del elemento de la lista. Los parámetros especifican elNumberStyle y un formato opcional string usado cuandoCustom está especificado.
 type: docs
 weight: 190
 url: /es/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Reporta la representación de cadena del[`ListLevel`](../) objeto para el índice especificado del elemento de la lista. Los parámetros especifican el[`NumberStyle`](../../../aspose.words/numberstyle/) y un formato opcional string utilizado cuandoCustom se especifica.
+Informa la representación de cadena del[`ListLevel`](../)objeto para el index especificado del elemento de la lista. Los parámetros especifican el[`NumberStyle`](../../../aspose.words/numberstyle/) y un formato opcional string usado cuandoCustom está especificado.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,18 +19,18 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | El índice del elemento de la lista (debe estar en el rango de 1 a 32767). |
 | numberStyle | NumberStyle | El[`NumberStyle`](../../../aspose.words/numberstyle/) del[`ListLevel`](../) objeto. |
-| customNumberStyleFormat | String | La cadena de formato opcional utilizada cuandoCustom se especifica (por ejemplo, "a, ç, ĝ, ..."). En otros casos, este parámetro debe ser nulo o vacío. |
+| customNumberStyleFormat | String | La cadena de formato opcional utilizada cuandoCustom se especifica (por ejemplo, "a, ç, ĝ, ..."). En otros casos, este parámetro debe ser`nulo` o vacío. |
 
 ### Valor_devuelto
 
-La representación de cadena del[`ListLevel`](../) objeto, descrito por el parámetro numberStyle y el parámetro customNumberStyleFormat, en el elemento de la lista en la posición determinada por el parámetro index.
+La representación de cadena del[`ListLevel`](../) objeto, descrito por el*numberStyle* parámetro y el*customNumberStyleFormat* parámetro, en el elemento de la lista en la posición determinada por el*index* parámetro.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat es nulo o está vacío cuando numberStyle es personalizado.-o- customNumberStyleFormat no es nulo o está vacío cuando numberStyle no es personalizado.-o- customNumberStyleFormat no es válido. |
-| ArgumentOutOfRangeException | el índice está fuera de rango. |
+| ArgumentException | *customNumberStyleFormat* es`nulo` o vacío cuando el*numberStyle* es personalizado.-o- *customNumberStyleFormat* no es`nulo` o vacío cuando el*numberStyle* no es personalizado.-o- *customNumberStyleFormat* no es válido. |
+| ArgumentOutOfRangeException | El índice está fuera de rango. |
 
 ### Ejemplos
 
@@ -48,7 +48,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Podemos obtener valor para el índice especificado del elemento de la lista.
+// Podemos obtener el valor para el índice especificado del elemento de la lista.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

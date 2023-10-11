@@ -3,7 +3,7 @@ title: Interface INodeChangingCallback
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.INodeChangingCallback interfaz. Implemente esta interfaz si desea recibir notificaciones cuando se inserten o eliminen nodos en el documento.
 type: docs
-weight: 3000
+weight: 3200
 url: /es/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -18,22 +18,23 @@ public interface INodeChangingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Llamado cuando un nodo perteneciente a este documento ha sido insertado en otro nodo. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Llamado justo antes de que un nodo perteneciente a este documento esté a punto de insertarse en otro nodo. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Llamado cuando un nodo perteneciente a este documento ha sido eliminado de su padre. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Llamado justo antes de que un nodo perteneciente a este documento esté a punto de ser eliminado del documento. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Se llama cuando un nodo perteneciente a este documento se ha insertado en otro nodo. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Se llama justo antes de que un nodo que pertenece a este documento esté a punto de insertarse en otro nodo. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Se llama cuando un nodo que pertenece a este documento se ha eliminado de su padre. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Se llama justo antes de que un nodo que pertenece a este documento esté a punto de eliminarse del documento. |
 
 ### Ejemplos
 
 Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Establecer la devolución de llamada de cambio de nodo a la implementación personalizada,
-    // luego agregue/elimine nodos para que genere un registro.
+    // Establece la devolución de llamada de cambio de nodo para una implementación personalizada,
+    // luego agrega/elimina nodos para que genere un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +46,11 @@ Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Registra la fecha y la hora de inserción y eliminación de cada nodo.
-/// Establece un nombre/tamaño de fuente personalizado para el contenido de texto de los nodos de ejecución.
+/// Registra la fecha y hora de cada inserción y eliminación de nodos.
+/// Establece un nombre/tamaño de fuente personalizado para el contenido del texto de los nodos Ejecutar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

@@ -16,7 +16,7 @@ public char CommentChar { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es '#' (signo de número).
+El valor predeterminado es '#' (signo numérico).
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: Document.LastSection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Obtiene la última sección del documento.
 type: docs
-weight: 220
+weight: 240
 url: /es/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -16,7 +16,7 @@ public Section LastSection { get; }
 
 ### Observaciones
 
-Devoluciones`nulo` si no hay tramos.
+Devoluciones`nulo` si no hay secciones.
 
 ### Ejemplos
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 // que contiene nodos secundarios que podemos editar.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Use un generador de documentos para agregar texto a la primera sección.
+// Utilice un generador de documentos para agregar texto a la primera sección.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 

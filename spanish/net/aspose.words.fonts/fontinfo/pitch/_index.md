@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Pitch
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. El paso indica si la fuente es de paso fijo espaciada proporcionalmente o se basa en una configuración predeterminada.
+description: FontInfo propiedad. El paso indica si la fuente tiene un paso fijo un espaciado proporcional o se basa en una configuración predeterminada.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-El paso indica si la fuente es de paso fijo, espaciada proporcionalmente o se basa en una configuración predeterminada.
+El paso indica si la fuente tiene un paso fijo, un espaciado proporcional o se basa en una configuración predeterminada.
 
 ```csharp
 public FontPitch Pitch { get; set; }

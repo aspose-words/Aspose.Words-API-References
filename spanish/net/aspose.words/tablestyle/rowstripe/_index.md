@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RowStripe
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece un número de filas para incluir en las bandas cuando el estilo especifica bandas de filas pares/impares.
+description: TableStyle propiedad. Obtiene o establece un número de filas para incluir en las bandas cuando el estilo especifica bandas de filas pares o impares.
 type: docs
 weight: 120
 url: /es/net/aspose.words/tablestyle/rowstripe/
 ---
 ## TableStyle.RowStripe property
 
-Obtiene o establece un número de filas para incluir en las bandas cuando el estilo especifica bandas de filas pares/impares.
+Obtiene o establece un número de filas para incluir en las bandas cuando el estilo especifica bandas de filas pares o impares.
 
 ```csharp
 public int RowStripe { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // basado en si la fila/columna es par o impar, creando un patrón de color alterno.
 // También podemos aplicar un número n a las bandas de fila/columna,
 // lo que significa que el color se alterna después de cada n filas/columnas en lugar de una.
-// Cree una tabla en la que las columnas y filas individuales se agrupen, las columnas se agrupen en grupos de tres.
+// Cree una tabla donde las columnas y filas individuales se agruparán en bandas y las columnas se agruparán en grupos de tres.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -45,22 +45,22 @@ TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyl
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Establezca los dos colores, que se alternarán cada 3 filas.
+// Establece los dos colores, que se alternarán cada 3 filas.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Establezca un color para aplicar a cada columna par, que anulará cualquier color de fila personalizado.
+// Establece un color para aplicar a cada columna par, lo que anulará cualquier color de fila personalizado.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// La propiedad "StyleOptions" habilita la agrupación de filas de forma predeterminada.
+// La propiedad "StyleOptions" habilita las bandas de filas de forma predeterminada.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Use la propiedad "StyleOptions" también para habilitar la agrupación de columnas.
+// Utilice la propiedad "StyleOptions" también para habilitar las bandas de columnas.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

@@ -1,14 +1,16 @@
 ---
 title: Class NodeList
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.NodeList clase. Representa una colección de nodos que coinciden con una consulta XPath ejecutada mediante elSelectNodes método.
+description: Aspose.Words.NodeList clase. Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando elSelectNodes método.
 type: docs
-weight: 3980
+weight: 4220
 url: /es/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-Representa una colección de nodos que coinciden con una consulta XPath ejecutada mediante el[`SelectNodes`](../compositenode/selectnodes/) método.
+Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando el[`SelectNodes`](../compositenode/selectnodes/) método.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -18,7 +20,7 @@ public class NodeList : IEnumerable<Node>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/nodelist/count/) { get; } | Obtiene el número de nodos de la lista. |
+| [Count](../../aspose.words/nodelist/count/) { get; } | Obtiene el número de nodos en la lista. |
 | [Item](../../aspose.words/nodelist/item/) { get; } | Recupera un nodo en el índice dado. |
 
 ## Métodos
@@ -26,19 +28,19 @@ public class NodeList : IEnumerable<Node>
 | Nombre | Descripción |
 | --- | --- |
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [ToArray](../../aspose.words/nodelist/toarray/)() | Copia todos los nodos de la colección a una nueva matriz de nodos. |
+| [ToArray](../../aspose.words/nodelist/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
 
 ### Observaciones
 
-**lista de nodos** es devuelto por[`SelectNodes`](../compositenode/selectnodes/) y contiene una colección de nodos que coinciden con la consulta XPath.
+`NodeList` es devuelto por[`SelectNodes`](../compositenode/selectnodes/) y contiene una colección de nodos que coinciden con la consulta XPath.
 
-**lista de nodos** admite el acceso indexado y la iteración.
+`NodeList` admite acceso indexado e iteración.
 
-tratar el **lista de nodos** colección como una colección "instantánea". **lista de nodos**comienza como una colección "viva" porque los nodos no se recuperan realmente cuando se ejecuta la consulta XPath. Los nodos solo se recuperan al acceder y, en este momento, el nodo y todos los nodos que lo preceden se almacenan en caché para formar una colección "instantánea".
+Tratar el`NodeList` colección como una colección "instantánea".`NodeList`comienza como una colección "activa" porque los nodos en realidad no se recuperan cuando se ejecuta la consulta XPath. Los nodos sólo se recuperan al acceder y en este momento el nodo y todos los nodos que lo preceden se almacenan en caché formando una colección "instantánea".
 
 ### Ejemplos
 
-Muestra cómo encontrar todos los hipervínculos en un documento de Word y luego cambiar sus direcciones URL y nombres para mostrar.
+Muestra cómo encontrar todos los hipervínculos en un documento de Word y luego cambiar sus URL y nombres para mostrar.
 
 ```csharp
 using System;
@@ -57,9 +59,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Los hipervínculos en un documento de Word son campos. Para comenzar a buscar hipervínculos, primero debemos encontrar todos los campos.
-            // Use el método "SelectNodes" para encontrar todos los campos en el documento a través de un XPath.
-            NodeList fieldStarts = doc.SelectNodes("//InicioCampo");
+            // Los hipervínculos en documentos de Word son campos. Para comenzar a buscar hipervínculos, primero debemos encontrar todos los campos.
+            // Utilice el método "SelectNodes" para buscar todos los campos del documento mediante un XPath.
+            NodeList fieldStarts = doc.SelectNodes("//Inicio de campo");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,7 +73,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Asigne a cada hipervínculo de URL una nueva URL y un nombre.
+                    // Asigne a cada hipervínculo URL una nueva URL y nombre.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -84,21 +86,21 @@ namespace ApiExamples
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
-    /// <summary>
-    /// Los campos HYPERLINK contienen y muestran hipervínculos en el cuerpo del documento. Un campo en Aspose.Words 
-    /// consta de varios nodos, y puede ser difícil trabajar con todos esos nodos directamente. 
-    /// Esta implementación funcionará solo si el código y el nombre del hipervínculo constan cada uno de un solo nodo Ejecutar.
+     ///<summary>
+      ///Los campos HIPERVÍNCULO contienen y muestran hipervínculos en el cuerpo del documento. Un campo en Aspose.Words
+      ///consta de varios nodos y puede resultar difícil trabajar con todos esos nodos directamente.
+     ///Esta implementación funcionará solo si el código del hipervínculo y el nombre constan cada uno de un solo nodo Ejecutar.
     ///
-    /// La estructura de nodos para los campos es la siguiente:
-    /// 
-    /// [FieldStart][Ejecutar - código de campo][FieldSeparator][Ejecutar - resultado del campo][FieldEnd]
-    /// 
-    /// A continuación se muestran dos códigos de campo de ejemplo de campos de HIPERVÍNCULO:
-    /// HIPERVÍNCULO "url"
-    /// HIPERVÍNCULO \l "nombre del marcador"
-    /// 
-    /// La propiedad "Resultado" de un campo contiene texto que el campo muestra en el cuerpo del documento al usuario.
-    /// </summary>
+     ///La estructura de nodos para los campos es la siguiente:
+     ///
+     ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+     ///
+     ///Below are two example field codes of HYPERLINK fields:
+     ///HYPERLINK "url"
+     ///HYPERLINK \l "bookmark name"
+     ///
+     ///A field's "Result" property contains text that the field displays in the document body to the user.
+     ///</summary>
     internal class Hyperlink
     {
         internal Hyperlink(FieldStart fieldStart)
@@ -115,13 +117,13 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-            // Normalmente, siempre podemos encontrar el nodo final del campo, pero el documento de ejemplo 
-            // contiene un salto de párrafo dentro de un hipervínculo, que pone el final del campo 
-            // en el siguiente párrafo. Será mucho más complicado manejar campos que abarquen varios 
-            // párrafos correctamente. En este caso, permitir que el fin del campo sea nulo es suficiente.
+             // Normalmente, siempre podemos encontrar el nodo final del campo, pero el documento de ejemplo
+             // contiene un salto de párrafo dentro de un hipervínculo, que coloca el campo al final
+            // en el siguiente párrafo. Será mucho más complicado manejar campos que abarquen varios
+            // párrafos correctamente. En este caso, basta con permitir que el final del campo sea nulo.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // El código de campo se parece a "HIPERVINCULO "http:\\www.myurl.com"", pero puede constar de varias ejecuciones.
+            // El código de campo se parece a "HIPERVÍNCULO "http:\\www.myurl.com"", pero puede constar de varias ejecuciones.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -130,15 +132,15 @@ namespace ApiExamples
             mTarget = match.Groups[2].Value;
         }
 
-        /// <summary>
-        /// Obtiene o establece el nombre para mostrar del hipervínculo.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the display name of the hyperlink.
+         ///</summary>
         internal string Name
         {
             get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
             set
             {
-                // El nombre para mostrar del hipervínculo se almacena en el resultado del campo, que es Ejecutar 
+                 // El nombre para mostrar del hipervínculo se almacena en el resultado del campo, que es una ejecución
                 // nodo entre el separador de campo y el final del campo.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
@@ -148,9 +150,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Obtiene o establece la URL de destino o el nombre del marcador del hipervínculo.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the target URL or bookmark name of the hyperlink.
+         ///</summary>
         internal string Target
         {
             get => mTarget;
@@ -161,9 +163,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Verdadero si el objetivo de los hipervínculos es un marcador dentro del documento. Falso si el hipervínculo es una URL.
-        /// </summary>
+         ///<summary>
+         ///True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+         ///</summary>
         internal bool IsLocal
         {
             get => mIsLocal; 
@@ -184,9 +186,9 @@ namespace ApiExamples
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
-        /// <summary>
-        /// Pasa por los hermanos a partir del nodo de inicio hasta que encuentra un nodo del tipo especificado o nulo.
-        /// </summary>
+         ///<summary>
+         ///Goes through siblings starting from the start node until it finds a node of the specified type or null.
+         ///</summary>
         private static Node FindNextSibling(Node startNode, NodeType nodeType)
         {
             for (Node node = startNode; node != null; node = node.NextSibling)
@@ -198,9 +200,9 @@ namespace ApiExamples
             return null;
         }
 
-        /// <summary>
-        /// Recupera texto desde el inicio hasta el nodo final, pero sin incluirlo.
-        /// </summary>
+         ///<summary>
+         ///Retrieves text from start up to but not including the end node.
+         ///</summary>
         private static string GetTextSameParent(Node startNode, Node endNode)
         {
             if ((endNode != null) && (startNode.ParentNode != endNode.ParentNode))
@@ -213,10 +215,10 @@ namespace ApiExamples
             return builder.ToString();
         }
 
-        /// <summary>
-        /// Elimina nodos desde el inicio hasta el nodo final, pero sin incluirlo.
-        /// Supone que los nodos inicial y final tienen el mismo padre.
-        /// </summary>
+         ///<summary>
+         ///Removes nodes from start up to but not including the end node.
+         ///Assumes that the start and end nodes have the same parent.
+         ///</summary>
         private static void RemoveSameParent(Node startNode, Node endNode)
         {
             if (endNode != null && startNode.ParentNode != endNode.ParentNode)
@@ -240,10 +242,10 @@ namespace ApiExamples
         private static readonly Regex gRegex = new Regex(
             "\\S+" + // Uno o más HIPERVÍNCULOS sin espacios u otra palabra en otros idiomas.
             "\\s+" + // Uno o más espacios.
-            "(?:\"\"\\s+)?" + // No captura opcional "" y uno o más espacios.
+            "(?:\"\"\\s+)?" + // Opcional "" sin captura y uno o más espacios.
             "(\\\\l\\s+)?" + // Indicador \l opcional seguido de uno o más espacios.
-            "\"" + // Un apóstrofe.    
-            "([^\"]+)" + // Uno o más caracteres, excluyendo el apóstrofo (objetivo del hipervínculo).
+            "\"" +  // Un apóstrofe.
+            "([^\"]+)" + // Uno o más caracteres, excluyendo el apóstrofe (destino del hipervínculo).
             "\"" // Un apóstrofe de cierre.
         );
     }

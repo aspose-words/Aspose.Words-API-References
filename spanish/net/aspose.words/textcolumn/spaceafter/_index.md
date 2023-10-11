@@ -1,14 +1,14 @@
 ---
 title: TextColumn.SpaceAfter
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextColumn propiedad. Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No se requiere para la última columna.
+description: TextColumn propiedad. Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No es necesario para la última columna.
 type: docs
 weight: 10
 url: /es/net/aspose.words/textcolumn/spaceafter/
 ---
 ## TextColumn.SpaceAfter property
 
-Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No se requiere para la última columna.
+Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No es necesario para la última columna.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -16,7 +16,7 @@ public double SpaceAfter { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear columnas espaciadas irregularmente.
+Muestra cómo crear columnas espaciadas de manera desigual.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Determinar la cantidad de espacio que tenemos disponible para organizar columnas.
+// Determinar la cantidad de espacio que tenemos disponible para organizar las columnas.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Establecer la primera columna para que sea estrecha.
+// Establece la primera columna para que sea estrecha.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Establecer la segunda columna para ocupar el resto del espacio disponible dentro de los márgenes de la página.
+// Establece la segunda columna para que ocupe el resto del espacio disponible dentro de los márgenes de la página.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

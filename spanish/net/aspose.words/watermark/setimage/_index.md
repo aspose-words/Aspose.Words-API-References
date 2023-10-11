@@ -1,14 +1,14 @@
 ---
 title: Watermark.SetImage
 second_title: Referencia de API de Aspose.Words para .NET
-description: Watermark método. Agrega una marca de agua de imagen en el documento.
+description: Watermark método. Agrega una marca de agua de imagen al documento.
 type: docs
 weight: 30
 url: /es/net/aspose.words/watermark/setimage/
 ---
 ## SetImage(Image) {#setimage}
 
-Agrega una marca de agua de imagen en el documento.
+Agrega una marca de agua de imagen al documento.
 
 ```csharp
 public void SetImage(Image image)
@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza cuando la imagen es nula. |
+| ArgumentNullException | Se lanza cuando la imagen es`nulo` . |
 
 ### Ver también
 
@@ -34,7 +34,7 @@ public void SetImage(Image image)
 
 ## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
 
-Agrega una marca de agua de imagen en el documento.
+Agrega una marca de agua de imagen al documento.
 
 ```csharp
 public void SetImage(Image image, ImageWatermarkOptions options)
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza cuando la imagen es nula. |
+| ArgumentNullException | Se lanza cuando la imagen es`nulo` . |
 
 ### Observaciones
 
-Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es nulo, la marca de agua se establecerá con las opciones predeterminadas.
+Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
 
 ### Ejemplos
 
@@ -62,8 +62,8 @@ Muestra cómo crear una marca de agua a partir de una imagen en el sistema de ar
 ```csharp
 Document doc = new Document();
 
-            // Modificar la apariencia de la marca de agua de la imagen con un objeto ImageWatermarkOptions,
-            // luego páselo mientras crea una marca de agua a partir de un archivo de imagen.
+            // Modifica la apariencia de la marca de agua de la imagen con un objeto ImageWatermarkOptions,
+            // luego pásalo mientras creas una marca de agua a partir de un archivo de imagen.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -91,7 +91,7 @@ Document doc = new Document();
 
 ## SetImage(string, ImageWatermarkOptions) {#setimage_2}
 
-Agrega una marca de agua de imagen en el documento.
+Agrega una marca de agua de imagen al documento.
 
 ```csharp
 public void SetImage(string imagePath, ImageWatermarkOptions options)
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza cuando la ruta es nula. |
+| ArgumentNullException | Lanza cuando la ruta es`nulo` . |
 
 ### Observaciones
 
-Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es nulo, la marca de agua se establecerá con las opciones predeterminadas.
+Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
 
 ### Ver también
 

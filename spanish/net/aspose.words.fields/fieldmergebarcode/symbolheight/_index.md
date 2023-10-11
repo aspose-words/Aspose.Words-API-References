@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgadas.
+description: FieldMergeBarcode propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgada.
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 ---
 ## FieldMergeBarcode.SymbolHeight property
 
-Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgadas).
+Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgada).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyQRCode" de una fuente de datos combinados en códigos QR.
+// Este campo convertirá todos los valores de la columna "MyQRCode" de una fuente de datos combinada en códigos QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -41,7 +41,7 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crear un DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
 // La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
 // que mostrará un código QR con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
