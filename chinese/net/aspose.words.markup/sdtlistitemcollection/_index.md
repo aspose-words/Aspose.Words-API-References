@@ -3,12 +3,14 @@ title: Class SdtListItemCollection
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Markup.SdtListItemCollection 班级. 提供对SdtListItem结构化文档标签的元素
 type: docs
-weight: 3790
+weight: 4030
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
 提供对[`SdtListItem`](../sdtlistitem/)结构化文档标签的元素。
+
+要了解更多信息，请访问[结构化文档标签或内容控制](https://docs.aspose.com/words/net/working-with-content-control-sdt/)文档文章。
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -19,16 +21,16 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | 返回一个[`SdtListItem`](../sdtlistitem/)给定集合中从零开始的索引的对象。 |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | 指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目与此列表项集合没有关联。 |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | 返回一个[`SdtListItem`](../sdtlistitem/)对象在集合中给出从零开始的索引。 |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | 指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目没有与此列表项集合关联。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | 将一个项目添加到此集合中。 |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | 将项目添加到此集合。 |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | 清除此集合中的所有项目。 |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | 删除指定索引处的列表项。 |
 
 ### 例子
@@ -48,7 +50,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 再添加 3 个列表项。使用与第一项不同的构造函数初始化这些项
+// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -74,12 +76,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 因为我们的下拉控件默认设置为显示被移除的项，所以给它一个要显示的项，它存在。
+// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// 使用“清除”方法一次清空整个下拉项集合。
+// 使用“Clear”方法一次性清空整个下拉项集合。
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

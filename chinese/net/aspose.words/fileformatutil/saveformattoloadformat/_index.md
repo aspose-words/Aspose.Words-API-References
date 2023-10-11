@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.SaveFormatToLoadFormat
 second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 转换一个SaveFormat价值LoadFormat如果可能的话价值
+description: FileFormatUtil 方法. 转换SaveFormat值对一个LoadFormat如果可能的话值
 type: docs
 weight: 90
 url: /zh/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-转换一个[`SaveFormat`](../../saveformat/)价值[`LoadFormat`](../../loadformat/)如果可能的话，价值。
+转换[`SaveFormat`](../../saveformat/)值对一个[`LoadFormat`](../../loadformat/)如果可能的话值。
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -22,12 +22,12 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 ### 例子
 
-显示如何将保存格式转换为其相应的加载格式。
+演示如何将保存格式转换为其相应的加载格式。
 
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// 某些文件类型可以保存文档，但不能使用 Aspose.Words 加载。
+// 某些文件类型可以保存文档，但不能使用 Aspose.Words 加载文档。
 // 如果我们尝试将这种类型的保存格式转换为加载格式，则会抛出异常。
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```

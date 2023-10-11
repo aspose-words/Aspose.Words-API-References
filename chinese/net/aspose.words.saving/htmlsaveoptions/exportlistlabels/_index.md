@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
 second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 控制列表标签如何输出到 HTMLMHTML 或 EPUB 默认值为Auto.
+description: HtmlSaveOptions 财产. 控制列表标签如何输出为 HTMLMHTML 或 EPUB 默认值为Auto.
 type: docs
-weight: 200
+weight: 190
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-控制列表标签如何输出到 HTML、MHTML 或 EPUB。 默认值为Auto.
+控制列表标签如何输出为 HTML、MHTML 或 EPUB。 默认值为Auto.
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }
@@ -16,7 +16,7 @@ public ExportListLabels ExportListLabels { get; set; }
 
 ### 例子
 
-显示如何配置列表导出到 HTML。
+显示如何配置列表导出为 HTML。
 
 ```csharp
 Document doc = new Document();
@@ -47,11 +47,11 @@ builder.ListFormat.RemoveNumbers();
 // 将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象
 // 决定文档将使用哪些 HTML 元素来表示列表。
 // 将“ExportListLabels”属性设置为“ExportListLabels.AsInlineText”
-// 将通过格式化 span 创建列表。
+// 将通过格式化跨度来创建列表。
 // 将“ExportListLabels”属性设置为“ExportListLabels.Auto”将使用 <p>标签
-// 在使用 <ol> 的情况下构建列表和<li>标签可能会导致格式丢失。
+// 在使用 <ol> 的情况下构建列表<li>和<li>标签可能会导致格式丢失。
 // 将“ExportListLabels”属性设置为“ExportListLabels.ByHtmlTags”
-// 将使用 <ol>和<li>标签来构建所有列表。
+// 将使用 <ol>; <li>和<li>标签来构建所有列表。
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);
@@ -85,31 +85,12 @@ switch (exportListLabels)
                     "<span>Default numbered list item 3.</span>" +
                 "</li>" +
             "</ol>"));
-
-        Assert.True(outDocContents.Contains(
-            "<p style=\"margin-top:0pt; margin-left:43.2pt; margin-bottom:0pt; text-indent:-43.2pt; -aw-import:list-item; -aw-list-level-number:3; " +
-            "-aw-list-number-format:'%0.%1.%2.%3'; -aw-list-number-styles:'decimal decimal decimal decimal'; " +
-            "-aw-list-number-values:'2 1 1 1'; -aw-list-padding-sml:10.2pt\">" +
-                "<span style=\"-aw-import:ignore\">" +
-                    "<span>2.1.1.1</span>" +
-                    "<span style=\"width:10.2pt; font:7pt 'Times New Roman'; display:inline-block; -aw-import:spaces\">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>" +
-                "</span>" +
-                "<span>Outline legal heading list item 5.</span>" +
-            "</p>"));
         break;
     case ExportListLabels.ByHtmlTags:
         Assert.True(outDocContents.Contains(
             "<ol type=\"a\" style=\"margin-right:0pt; margin-left:0pt; padding-left:0pt\">" +
                 "<li style=\"margin-left:31.33pt; padding-left:4.67pt\">" +
                     "<span>Default numbered list item 3.</span>" +
-                "</li>" +
-            "</ol>"));
-
-        Assert.True(outDocContents.Contains(
-            "<ol type=\"1\" class=\"awlist3\" style=\"margin-right:0pt; margin-left:0pt; padding-left:0pt\">" +
-                "<li style=\"margin-left:7.2pt; text-indent:-43.2pt; -aw-list-padding-sml:10.2pt\">" +
-                    "<span style=\"width:10.2pt; font:7pt 'Times New Roman'; display:inline-block; -aw-import:ignore\">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>" +
-                    "<span>Outline legal heading list item 5.</span>" +
                 "</li>" +
             "</ol>"));
         break;

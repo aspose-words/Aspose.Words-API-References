@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 使用东亚换行规则的备用集
+description: CompatibilityOptions 财产. 使用东亚断线规则的备用集
 type: docs
 weight: 600
 url: /zh/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions.UseAltKinsokuLineBreakRules property
 
-使用东亚换行规则的备用集。
+使用东亚断线规则的备用集。
 
 ```csharp
 public bool UseAltKinsokuLineBreakRules { get; set; }

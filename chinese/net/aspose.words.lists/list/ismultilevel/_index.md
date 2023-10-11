@@ -1,14 +1,14 @@
 ---
 title: List.IsMultiLevel
 second_title: Aspose.Words for .NET API 参考
-description: List 财产. 当列表包含 9 个级别时返回 true 1 级时为假
+description: List 财产. 返回真的当列表包含 9 级时错误的当 1 级时.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.lists/list/ismultilevel/
 ---
 ## List.IsMultiLevel property
 
-当列表包含 9 个级别时返回 true； 1 级时为假。
+返回`真的`当列表包含 9 级时；`错误的`当 1 级时.
 
 ```csharp
 public bool IsMultiLevel { get; }
@@ -18,20 +18,20 @@ public bool IsMultiLevel { get; }
 
 您使用 Aspose.Words 创建的列表始终是多级列表，包含 9 个级别。
 
-Microsoft Word 2003 及更高版本始终创建具有 9 级的多级列表。 但在某些使用 Microsoft Word 早期版本创建的文档中，您可能会遇到仅具有 1 级的 列表。
+Microsoft Word 2003 及更高版本始终创建具有 9 个级别的多级列表。 但在使用早期版本的 Microsoft Word 创建的某些文档中，您可能会遇到 仅具有 1 个级别的列表。
 
 ### 例子
 
-展示如何创建列表样式并在文档中使用它。
+演示如何创建列表样式并在文档中使用它。
 
 ```csharp
 Document doc = new Document();
 
-// 列表允许我们用前缀符号和缩进组织和装饰段落集。
-// 我们可以通过增加缩进级别来创建嵌套列表。 
-// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 我们可以在一个样式中包含一个完整的 List 对象。
+// 我们可以在样式中包含整个 List 对象。
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -53,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// 从样式中的列表创建另一个列表。
+// 从样式内的列表创建另一个列表。
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);

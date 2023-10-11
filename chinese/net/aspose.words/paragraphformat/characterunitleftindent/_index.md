@@ -3,7 +3,7 @@ title: ParagraphFormat.CharacterUnitLeftIndent
 second_title: Aspose.Words for .NET API 参考
 description: ParagraphFormat 财产. 获取或设置指定段落的左缩进值以字符为单位
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words/paragraphformat/characterunitleftindent/
 ---
 ## ParagraphFormat.CharacterUnitLeftIndent property
@@ -16,7 +16,7 @@ public double CharacterUnitLeftIndent { get; set; }
 
 ### 例子
 
-显示如何更改段落间距和缩进。
+演示如何更改段落间距和缩进。
 
 ```csharp
 Document doc = new Document();
@@ -45,14 +45,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - 段落前的行距：
+// 4 - 段落前的行间距：
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - 段落后的行距：
+// 5 - 段落后的行间距：
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

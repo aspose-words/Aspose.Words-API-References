@@ -3,7 +3,7 @@ title: ShapeBase.ShapeType
 second_title: Aspose.Words for .NET API 参考
 description: ShapeBase 财产. 获取形状类型
 type: docs
-weight: 460
+weight: 500
 url: /zh/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -25,7 +25,7 @@ public void GroupOfShapes()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// 将访问的形状组的内容打印到控制台。
+/// 将访问过的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

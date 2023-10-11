@@ -1,14 +1,14 @@
 ---
 title: FormField.Default
 second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置复选框表单域的默认值 该属性的默认值为 错误的.
+description: FormField 财产. 获取或设置复选框表单字段的默认值 此属性的默认值为错误的.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/formfield/default/
 ---
 ## FormField.Default property
 
-获取或设置复选框表单域的默认值。 该属性的默认值为 **错误的**.
+获取或设置复选框表单字段的默认值。 此属性的默认值为`错误的`.
 
 ```csharp
 public bool Default { get; set; }
@@ -20,7 +20,7 @@ public bool Default { get; set; }
 
 ### 例子
 
-展示了如何将不同类型的表单域插入到文档中，并使用文档访问者实现来处理它们。
+展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -28,7 +28,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 使用文档构建器插入组合框。
+    // 使用文档生成器插入组合框。
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -52,7 +52,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // 使用文档构建器插入文本输入表单字段。
+    // 使用文档生成器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -63,11 +63,11 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // 这个集合包含我们所有的表单字段。
+    // 该集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // 字段显示我们的表单字段。我们可以通过打开这个文档看到他们的域代码
+    // 字段显示我们的表单字段。我们打开这个文档就可以看到他们的域代码
     // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
     // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -75,7 +75,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // 允许每个表单域接受一个文档访问者。
+    // 允许每个表单字段接受文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 打印访问的表单字段详细信息的访问者实现。 
+ /// 访问者实现，打印其访问的表单字段的详细信息。
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -130,7 +130,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 将换行符终止的文本添加到当前输出。
+    /// 将换行符结尾的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {

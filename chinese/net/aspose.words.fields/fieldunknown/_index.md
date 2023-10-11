@@ -3,12 +3,14 @@ title: Class FieldUnknown
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Fields.FieldUnknown 班级. 实现未知或无法识别的字段
 type: docs
-weight: 2400
+weight: 2550
 url: /zh/net/aspose.words.fields/fieldunknown/
 ---
 ## FieldUnknown class
 
 实现未知或无法识别的字段。
+
+要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
 ```csharp
 public class FieldUnknown : Field
@@ -24,14 +26,14 @@ public class FieldUnknown : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段end的节点。 |
-| [Format](../../aspose.words.fields/field/format/) { get; } | 得到一个[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的LCID。 |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以为空。 |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的 LCID。 |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
 
@@ -39,25 +41,25 @@ public class FieldUnknown : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出。 |
-| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
 
 ### 例子
 
-展示如何使用文档中的“FieldNone”字段。
+演示如何使用文档中的“FieldNone”字段。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 在其字段代码中插入一个不表示目标字段类型的字段。
-Field field = builder.InsertField(" NOTAREALFIELD //一个”）;
+Field field = builder.InsertField(" NOTAREALFIELD //A”）;
 
-// “FieldNone”字段类型是为这些字段保留的。
+// “FieldNone”字段类型是为此类字段保留的。
 Assert.AreEqual(FieldType.FieldNone, field.Type);
 
 // 我们仍然可以使用这些字段并将它们分配为 FieldUnknown 类的实例。

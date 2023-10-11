@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
 second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 指定程序在以纯文本格式保存时是否应尝试保留表格布局 默认值为 错误的.
+description: TxtSaveOptions 财产. 指定程序在以纯文本格式保存时是否应尝试保留表的布局 默认值为错误的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-指定程序在以纯文本格式保存时是否应尝试保留表格布局。 默认值为 **错误的**.
+指定程序在以纯文本格式保存时是否应尝试保留表的布局。 默认值为`错误的`.
 
 ```csharp
 public bool PreserveTableLayout { get; set; }
@@ -16,7 +16,7 @@ public bool PreserveTableLayout { get; set; }
 
 ### 例子
 
-显示在转换为纯文本时如何保留表格的布局。
+演示如何在转换为纯文本时保留表的布局。
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2");
 builder.EndTable();
 
-// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-// 修改我们如何将文档保存为纯文本。
+// 创建一个“TxtSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改我们将文档保存为纯文本的方式。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // 将“PreserveTableLayout”属性设置为“true”以将空白填充应用于内容
-// 输出纯文本文档，以尽可能多地保留表格的布局。
+// 输出纯文本文档以保留尽可能多的表格布局。
 // 将“PreserveTableLayout”属性设置为“false”以保存所有表格的内容
 // 作为连续的文本体，每行只有一个新行。
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;

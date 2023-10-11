@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.StructuredDocumentTag
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 构造函数. 初始化 结构化文档标签类.
+description: StructuredDocumentTag 构造函数. 初始化一个新实例 结构化文档标签类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-初始化 **结构化文档标签**类.
+初始化一个新实例 **结构化文档标签**类.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)

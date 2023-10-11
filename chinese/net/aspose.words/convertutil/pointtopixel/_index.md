@@ -24,15 +24,15 @@ public static double PointToPixel(double points)
 
 ### 例子
 
-显示如何以像素为单位指定页面属性。
+展示如何指定页面属性（以像素为单位）。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 一个部分的“页面设置”定义了页边距的大小，以磅为单位。
-// 我们也可以使用“ConvertUtil”类来使用不同的测量单位，
-// 比如定义边界时的像素。
+// 部分的“页面设置”定义页边距的大小（以磅为单位）。
+// 我们还可以使用“ConvertUtil”类来使用不同的测量单位，
+// 例如定义边界时的像素。
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
@@ -82,7 +82,7 @@ public static double PointToPixel(double points, double resolution)
 
 ### 例子
 
-展示如何使用默认和自定义分辨率将点转换为像素。
+演示如何使用默认和自定义分辨率将点转换为像素。
 
 ```csharp
 Document doc = new Document();
@@ -102,7 +102,7 @@ Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// 设置一个新的 DPI 并相应地调整上边距值。
+// 设置新的 DPI 并相应调整上边距值。
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

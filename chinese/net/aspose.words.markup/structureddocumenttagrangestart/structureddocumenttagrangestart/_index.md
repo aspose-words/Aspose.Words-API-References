@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 构造函数. 初始化 结构化文档标签范围开始类.
+description: StructuredDocumentTagRangeStart 构造函数. 初始化一个新实例 结构化文档标记范围开始类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-初始化 **结构化文档标签范围开始**类.
+初始化一个新实例 **结构化文档标记范围开始**类.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -38,6 +38,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 展示如何创建/删除结构化文档标签及其内容。
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,7 +47,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // 删除范围结构化文档标签，但保留内容。
+    // 删除范围结构化文档标签，但保留内部内容。
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -64,7 +65,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // 移除范围内的结构化文档标签和内容。
+    // 删除范围内的结构化文档标签和内容。
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

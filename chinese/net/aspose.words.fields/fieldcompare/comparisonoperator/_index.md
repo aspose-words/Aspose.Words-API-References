@@ -16,7 +16,7 @@ public string ComparisonOperator { get; set; }
 
 ### 例子
 
-显示如何使用 COMPARE 字段比较表达式。
+演示如何使用 COMPARE 字段比较表达式。
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// COMPARE 字段显示“0”或“1”，取决于其陈述的真实性。
-// 此语句的结果为假，因此该字段将显示“0”。
+// COMPARE 字段显示“0”或“1”，具体取决于其陈述的真实性。
+// 该语句的结果为 false，因此该字段将显示“0”。
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -41,7 +41,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// 该字段显示“1”，因为该语句为真。
+// 该字段显示“1”，因为该语句为 true。
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.SdtType
 second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag 财产. 获取 this 的类型 结构化文档标签.
+description: IStructuredDocumentTag 财产. 获取此类型 结构化文档标签.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/istructureddocumenttag/sdttype/
 ---
 ## IStructuredDocumentTag.SdtType property
 
-获取 this 的类型 **结构化文档标签**.
+获取此类型 **结构化文档标签**.
 
 ```csharp
 public SdtType SdtType { get; }

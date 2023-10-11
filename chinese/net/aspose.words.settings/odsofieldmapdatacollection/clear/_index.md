@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
 second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 方法. 删除此集合中的所有元素
+description: OdsoFieldMapDataCollection 方法. 从此集合中删除所有元素
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/clear/
 ---
 ## OdsoFieldMapDataCollection.Clear method
 
-删除此集合中的所有元素。
+从此集合中删除所有元素。
 
 ```csharp
 public void Clear()
@@ -21,8 +21,8 @@ public void Clear()
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 此集合定义邮件合并如何映射来自数据源的列
-// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 该集合定义邮件合并如何映射数据源中的列
+// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,7 +48,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次清除整个集合。
+// 使用“Clear”方法一次性清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,7 +3,7 @@ title: Enum TextEffect
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.TextEffect 枚举. 文本运行的动画效果
 type: docs
-weight: 6120
+weight: 6420
 url: /zh/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

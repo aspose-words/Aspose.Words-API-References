@@ -16,11 +16,11 @@ public Section FirstSection { get; }
 
 ### 评论
 
-返回`无效的`如果没有部分。
+返回`无效的`如果没有部分.
 
 ### 例子
 
-显示如何替换文档页脚中的文本。
+演示如何替换文档页脚中的文本。
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -40,27 +40,27 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-显示如何使用文档构建器创建新部分。
+演示如何使用文档生成器创建新部分。
 
 ```csharp
 Document doc = new Document();
 
-// 一个空白文档默认包含一个部分，
+// 空白文档默认包含一个部分，
 // 其中包含我们可以编辑的子节点。
 Assert.AreEqual(1, doc.Sections.Count);
 
-// 使用文档构建器将文本添加到第一部分。
+// 使用文档生成器将文本添加到第一部分。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// 通过插入分节符创建第二个节。
+// 通过插入分节符创建第二部分。
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// 每个部分都有自己的页面设置设置。
-// 我们可以将第二部分的文本分成两列。
-// 这不会影响第一部分的文本。
+// 每个部分都有自己的页面设置。
+// 我们可以将第二部分中的文本分成两列。
+// 这不会影响第一部分中的文本。
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);
@@ -72,7 +72,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-展示如何遍历复合节点的子节点。
+演示如何迭代复合节点的子节点。
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// 一个Section是一个复合节点，可以包含子节点，
-// 但前提是这些子节点是“Body”或“HeaderFooter”节点类型。
+// 一个Section是一个复合节点并且可以包含子节点，
+// 但前提是这些子节点属于“Body”或“HeaderFooter”节点类型。
 foreach (Node node in section)
 {
     switch (node.NodeType)

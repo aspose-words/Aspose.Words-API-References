@@ -33,7 +33,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// 将 "TextWrapping" 属性设置为 "TextWrapping.Around" 以使表格环绕它的文本，
+// 将“TextWrapping”属性设置为“TextWrapping.Around”以使表格将文本环绕在其周围，
 // 并通过设置位置将其推入下面的段落。
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;

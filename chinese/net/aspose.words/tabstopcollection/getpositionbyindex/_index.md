@@ -24,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 ### 例子
 
-显示如何查找选项卡、按其索引停止并验证其位置。
+演示如何查找选项卡、按其索引停止并验证其位置。
 
 ```csharp
 Document doc = new Document();

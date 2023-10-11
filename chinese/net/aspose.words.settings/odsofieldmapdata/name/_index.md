@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapData.Name
 second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 财产. 指定外部数据源中 索引由Columnproperty. 默认值为空字符串
+description: OdsoFieldMapData 财产. 指定外部数据源中 索引由Column属性 默认值为空字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsofieldmapdata/name/
 ---
 ## OdsoFieldMapData.Name property
 
-指定外部数据源中 索引由[`Column`](../column/)property. 默认值为空字符串。
+指定外部数据源中 索引由[`Column`](../column/)属性。 默认值为空字符串。
 
 ```csharp
 public string Name { get; set; }
@@ -21,8 +21,8 @@ public string Name { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 此集合定义邮件合并如何映射来自数据源的列
-// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 该集合定义邮件合并如何映射数据源中的列
+// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,7 +48,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次清除整个集合。
+// 使用“Clear”方法一次性清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

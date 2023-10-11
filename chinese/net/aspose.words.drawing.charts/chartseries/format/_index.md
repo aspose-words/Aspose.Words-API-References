@@ -3,7 +3,7 @@ title: ChartSeries.Format
 second_title: Aspose.Words for .NET API 参考
 description: ChartSeries 财产. 提供对系列的填充和线条格式的访问
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property

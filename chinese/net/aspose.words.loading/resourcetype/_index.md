@@ -3,7 +3,7 @@ title: Enum ResourceType
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Loading.ResourceType 枚举. 加载资源的类型
 type: docs
-weight: 3500
+weight: 3700
 url: /zh/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -19,22 +19,23 @@ public enum ResourceType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Image | `0` | 图片. |
-| CssStyleSheet | `1` | CSS 样式表。 |
+| CssStyleSheet | `1` | CSS 样式表. |
 | Document | `2` | 文档. |
 
 ### 例子
 
-展示如何自定义将外部资源加载到文档中的过程。
+演示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 通常使用 URI 或字节数组插入图像。
-    // 每个资源加载实例都会调用我们回调的 ResourceLoading 方法。
+    // 图像通常使用 URI 或字节数组插入。
+    // 资源加载的每个实例都会调用回调的 ResourceLoading 方法。
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -42,17 +43,18 @@ public enum ResourceType
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// 允许我们使用预定义的速记而不是 URI 将图像加载到文档中。
-/// 这会将图像加载逻辑与文档构建的其余部分分开。
+/// 允许我们使用预定义的速记方式（而不是 URI）将图像加载到文档中。
+/// 这会将图像加载逻辑与文档构造的其余部分分开。
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // 如果此回调在加载图像时遇到图像速记之一，
-        // 它将为每个定义的速记应用唯一的逻辑，而不是将其视为 URI。
+        // 如果此回调在加载图像时遇到图像简写之一，
+        // 它将为每个定义的简写应用独特的逻辑，而不是将其视为 URI。
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

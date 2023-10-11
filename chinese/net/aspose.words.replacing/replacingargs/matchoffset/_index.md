@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.MatchOffset
 second_title: Aspose.Words for .NET API 参考
-description: ReplacingArgs 财产. 从包含匹配开头的 节点的开头获取匹配的从零开始的位置
+description: ReplacingArgs 财产. 从包含匹配开始的节点的 开始处获取匹配的从零开始的起始位置
 type: docs
 weight: 50
 url: /zh/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-从包含匹配开头的 节点的开头获取匹配的从零开始的位置。
+从包含匹配开始的节点的 开始处获取匹配的从零开始的起始位置。
 
 ```csharp
 public int MatchOffset { get; }
@@ -16,9 +16,10 @@ public int MatchOffset { get; }
 
 ### 例子
 
-展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

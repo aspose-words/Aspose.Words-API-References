@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.GetEnumerator
 second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 方法. 返回一个可用于迭代集合中所有项目的枚举器对象
+description: FontInfoCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
 ## FontInfoCollection.GetEnumerator method
 
-返回一个可用于迭代集合中所有项目的枚举器对象。
+返回一个枚举器对象，可用于迭代集合中的所有项目。
 
 ```csharp
 public IEnumerator<FontInfo> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<FontInfo> GetEnumerator()
 
 ### 例子
 
-显示如何访问和打印文档中每种字体的详细信息。
+演示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

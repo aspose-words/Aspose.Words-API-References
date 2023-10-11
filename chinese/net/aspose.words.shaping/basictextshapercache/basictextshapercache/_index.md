@@ -1,12 +1,14 @@
 ---
 title: BasicTextShaperCache.BasicTextShaperCache
 second_title: Aspose.Words for .NET API 参考
-description: BasicTextShaperCache 构造函数. 
+description: BasicTextShaperCache 构造函数. 包裹factory和缓存GetTextShaper结果.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/basictextshapercache/basictextshapercache/
 ---
 ## BasicTextShaperCache constructor
+
+包裹*factory*和缓存[`GetTextShaper`](../../itextshaperfactory/gettextshaper/)结果.
 
 ```csharp
 public BasicTextShaperCache(ITextShaperFactory factory)

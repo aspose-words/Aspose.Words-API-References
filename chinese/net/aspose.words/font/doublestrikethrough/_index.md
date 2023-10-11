@@ -1,14 +1,14 @@
 ---
 title: Font.DoubleStrikeThrough
 second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为双删除线文本则为真
+description: Font 财产. 如果字体格式为双删除线文本则为 True
 type: docs
 weight: 90
 url: /zh/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-如果字体格式为双删除线文本，则为真。
+如果字体格式为双删除线文本，则为 True。
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }
@@ -16,7 +16,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ### 例子
 
-演示如何在文本中添加删除线。
+演示如何向文本添加行删除线。
 
 ```csharp
 Document doc = new Document();

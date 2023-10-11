@@ -3,7 +3,7 @@ title: Enum ThemeFont
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Themes.ThemeFont 枚举. 指定文档主题的主题字体名称类型
 type: docs
-weight: 6190
+weight: 6490
 url: /zh/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
@@ -18,17 +18,17 @@ public enum ThemeFont
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 没有主题字体。 |
-| Major | `1` | 主要主题字体。 |
-| Minor | `2` | 次要主题字体. |
+| None | `0` | 无主题字体。 |
+| Major | `1` | 主要主题字体. |
+| Minor | `2` | 次要主题字体。 |
 
 ### 评论
 
-指定可以在父对象属性中作为主题字体引用的主题字体类型。 此主题字体是对位于文档的 主题部分中的预定义主题字体之一的引用，它允许字体信息在文档中集中设置。
+指定可在父对象属性中作为主题字体引用的主题字体类型。 此主题字体是对预定义主题字体之一的引用，位于文档的 主题部分，它允许将字体信息在文档中集中设置。
 
 ### 例子
 
-展示如何创建和使用主题风格。
+展示如何创建和使用主题样式。
 
 ```csharp
 Document doc = new Document();
@@ -51,7 +51,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// 默认情况下定义语言使用的字体。
+// 定义默认使用的语言的字体。
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -81,7 +81,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有几种方法可以重置它们的字体和颜色。
+// 有多种方法可以重置它们的字体和颜色。
 // 1 - 通过设置 ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;

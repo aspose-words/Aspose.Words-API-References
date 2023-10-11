@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Contains
 second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 确定集合是否包含具有给定名称的文档变量
+description: VariableCollection 方法. 确定集合中是否包含具有给定名称的文档变量
 type: docs
 weight: 50
 url: /zh/net/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection.Contains method
 
-确定集合是否包含具有给定名称的文档变量。
+确定集合中是否包含具有给定名称的文档变量。
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要定位的文档变量的不区分大小写的名称。 |
+| name | String | 要查找的文档变量的名称（不区分大小写）。 |
 
 ### 返回值
 
-如果在集合中找到项目，则为真；否则为假。
+`真的`如果在集合中找到项目；否则，`错误的`。
 
 ### 例子
 
@@ -45,10 +45,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// 为现有键赋值将更新它们。
+// 为现有键分配值将更新它们。
 variables.Add("Home address", "456 Queen St.");
 
-// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新的值。
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -59,12 +59,12 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// 变量集合自动按名称的字母顺序对变量进行排序。
+// 变量集合自动按名称字母顺序对变量进行排序。
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// 枚举变量的集合。
+// 枚举变量集合。
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
@@ -80,7 +80,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - 一次清除整个集合：
+// 3 - 立即清除整个集合：
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

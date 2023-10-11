@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### 评论
 
-的价值观Center和Inside 是不允许的，会导致ArgumentOutOfRangeException.
+的价值观Center和Inside 是不允许的，会导致ArgumentOutOfRangeException。
 
 ### 也可以看看
 

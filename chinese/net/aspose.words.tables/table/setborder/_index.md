@@ -1,14 +1,14 @@
 ---
 title: Table.SetBorder
 second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 将指定的表格边框设置为指定的线型宽度和颜色
+description: Table 方法. 将指定的表格边框设置为指定的线条样式宽度和颜色
 type: docs
-weight: 410
+weight: 430
 url: /zh/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-将指定的表格边框设置为指定的线型、宽度和颜色。
+将指定的表格边框设置为指定的线条样式、宽度和颜色。
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -21,11 +21,11 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | lineStyle | LineStyle | 要应用的线条样式。 |
 | lineWidth | Double | 要设置的线宽（以磅为单位）。 |
 | color | Color | 用于边框的颜色。 |
-| isOverrideCellBorders | Boolean | 什么时候`真的`, 导致所有现有的显式单元格边框被删除。 |
+| isOverrideCellBorders | Boolean | 什么时候`真的`，导致所有现有的显式单元格边框被删除。 |
 
 ### 例子
 
-显示如何将轮廓边框应用于表格。
+演示如何将轮廓边框应用到表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -38,7 +38,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 为表格的轮廓添加绿色边框。
+// 将绿色边框添加到表格的轮廓。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

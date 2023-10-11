@@ -1,14 +1,14 @@
 ---
 title: Cell.Tables
 second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取作为单元格的直接子级的表的集合
+description: Cell 财产. 获取单元格直接子代的表的集合
 type: docs
-weight: 100
+weight: 120
 url: /zh/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-获取作为单元格的直接子级的表的集合。
+获取单元格直接子代的表的集合。
 
 ```csharp
 public TableCollection Tables { get; }
@@ -16,23 +16,22 @@ public TableCollection Tables { get; }
 
 ### 例子
 
-显示如何确定表是否嵌套。
+演示如何查明表是否嵌套。
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // 找出表格中的任何单元格是否有其他表格作为子表格。
+        // 查明表中的任何单元格是否有其他表作为子项。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // 找出表是否嵌套在另一个表中，如果是，嵌套在什么深度。
+        // 查明该表是否嵌套在另一个表内，如果是，嵌套深度是多少。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -64,12 +63,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// 确定一个表是否在其单元格中包含任何直接子表。
-/// 不要递归遍历这些表来检查更多的表。
+/// 确定表的单元格中是否包含任何直接子表。
+/// 不要递归遍历这些表来检查其他表。
 /// </summary>
 /// <returns>
-/// 如果至少有一个子单元格包含表格，则返回 true。
-/// 如果表格中没有单元格包含表格，则返回 false。
+/// 如果至少一个子单元格包含表格，则返回 true。
+/// 如果表中没有单元格包含表，则返回 false。
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

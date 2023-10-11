@@ -1,12 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.NodeType
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeEnd 财产. 
+description: StructuredDocumentTagRangeEnd 财产. 返回StructuredDocumentTagRangeEnd.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
 ---
 ## StructuredDocumentTagRangeEnd.NodeType property
+
+返回StructuredDocumentTagRangeEnd.
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutFlow
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.LayoutFlow 枚举. 确定文本框中文本布局的流向
+description: Aspose.Words.Drawing.LayoutFlow 枚举. 确定文本框中文本布局的流程
 type: docs
-weight: 970
+weight: 1100
 url: /zh/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-确定文本框中文本布局的流向。
+确定文本框中文本布局的流程。
 
 ```csharp
 public enum LayoutFlow

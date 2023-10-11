@@ -1,14 +1,14 @@
 ---
 title: FieldRef.BookmarkName
 second_title: Aspose.Words for .NET API 参考
-description: FieldRef 财产. 获取或设置引用书签的名称
+description: FieldRef 财产. 获取或设置引用的书签的名称
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldref/bookmarkname/
 ---
 ## FieldRef.BookmarkName property
 
-获取或设置引用书签的名称。
+获取或设置引用的书签的名称。
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### 例子
 
-演示如何使用 SET 字段创建带有书签的文本，然后使用 REF 字段将其显示在文档中。
+演示如何使用 SET 字段创建带书签的文本，然后使用 REF 字段将其显示在文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 使用 SET 字段命名书签文本。
-// 这个字段引用的“书签”不是出现在文本中的书签结构，而是一个命名变量。
+ // 使用 SET 字段命名已添加书签的文本。
+// 该字段指的是“书签”，不是出现在文本中的书签结构，而是一个命名变量。
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -42,7 +42,7 @@ Assert.AreEqual("Hello world!", fieldRef.Result);
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```
 
-显示如何插入 REF 字段以引用书签。
+演示如何将 REF 字段插入到参考书签。
 
 ```csharp
 public void FieldRef()
@@ -61,14 +61,14 @@ public void FieldRef()
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // 插入一个 REF 字段，该字段将包含我们书签中的文本，充当超链接，并复制书签的脚注。
+    // 插入一个 REF 字段，该字段将包含书签中的文本，充当超链接，并克隆书签的脚注。
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // 插入一个 REF 字段，并显示引用的书签是在它上面还是下面。
+    // 插入一个 REF 字段，并显示引用的书签是在其上方还是下方。
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -80,7 +80,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // 显示书签的列表编号，但省略非分隔符，如尖括号。
+    // 显示书签的列表编号，但省略非分隔符（例如尖括号）。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
@@ -91,7 +91,7 @@ public void FieldRef()
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // 显示书签的列表编号和它上面的所有列表级别的编号。
+    // 显示书签的列表编号及其上方所有列表级别的编号。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -99,7 +99,7 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 显示此 REF 字段和它所引用的书签之间的列表级别编号。
+    // 显示此 REF 字段与其引用的书签之间的列表级别编号。
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
@@ -112,9 +112,10 @@ public void FieldRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// 让文档生成器插入一个 REF 字段，用它引用一个书签，并在它之前和之后添加文本。
+/// 让文档构建器插入 REF 字段，用它引用书签，并在其前后添加文本。
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

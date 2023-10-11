@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDouble
 second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 方法. 以 double 形式返回属性值
+description: DocumentProperty 方法. 以双精度形式返回属性值
 type: docs
 weight: 90
 url: /zh/net/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty.ToDouble method
 
-以 double 形式返回属性值。
+以双精度形式返回属性值。
 
 ```csharp
 public double ToDouble()
@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### 评论
 
-如果属性类型不是则抛出异常Number.
+如果属性类型不是，则抛出异常Number.
 
 ### 例子
 

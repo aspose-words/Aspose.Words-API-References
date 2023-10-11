@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问节点的访问者。 |
+| visitor | DocumentVisitor | 将访问该节点的访问者。 |
 
 ### 返回值
 
-如果访问者请求停止枚举，则为 False。
+`错误的`如果访问者请求停止枚举。
 
 ### 评论
 
-调用 DocumentVisitor.VisitSpecialChar。
+通话[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
 ### 也可以看看
 

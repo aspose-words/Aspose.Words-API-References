@@ -1,14 +1,14 @@
 ---
 title: Section.PageSetup
 second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 返回一个表示页面设置和部分属性的对象
+description: Section 财产. 返回一个表示页面设置和节属性的对象
 type: docs
 weight: 50
 url: /zh/net/aspose.words/section/pagesetup/
 ---
 ## Section.PageSetup property
 
-返回一个表示页面设置和部分属性的对象。
+返回一个表示页面设置和节属性的对象。
 
 ```csharp
 public PageSetup PageSetup { get; }
@@ -16,7 +16,7 @@ public PageSetup PageSetup { get; }
 
 ### 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();
@@ -40,27 +40,27 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ```csharp
 Document doc = new Document();
 
-// 一个空白文档包含一个部分、一个正文和一个段落。
-// 调用“RemoveAllChildren”方法来移除所有这些节点，
-// 最后得到一个没有子节点的文档节点。
+// 一份空白文档包含一个部分、一个正文和一个段落。
+// 调用“RemoveAllChildren”方法删除所有这些节点，
+// 最终得到一个没有子节点的文档节点。
 doc.RemoveAllChildren();
 
-// 这个文档现在没有我们可以添加内容的复合子节点。
-// 如果我们想编辑它，我们需要重新填充它的节点集合。
-// 首先，创建一个新部分，然后将其作为子节点附加到根文档节点。
+// 该文档现在没有可以添加内容的复合子节点。
+// 如果我们希望编辑它，我们将需要重新填充它的节点集合。
+// 首先，创建一个新节，然后将其作为子节点附加到根文档节点。
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// 为该部分设置一些页面设置属性。
+// 设置该部分的一些页面设置属性。
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// 一个section需要一个body，它将包含并显示它的所有内容
-// 在节的页眉和页脚之间的页面上。
+// 一个部分需要一个主体，它将包含并显示其所有内容
+// 在该部分的页眉和页脚之间的页面上。
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文中。
+// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文。
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -68,7 +68,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// 最后，添加一些内容来做文档。创建运行，
+// 最后添加一些做文档的内容。创建一个运行，
 // 设置其外观和内容，然后将其作为子项附加到段落中。
 Run run = new Run(doc);
 run.Text = "Hello World!";

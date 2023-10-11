@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.AutoHyphenation
 second_title: Aspose.Words for .NET API 参考
-description: HyphenationOptions 财产. 获取或设置确定是否为文档打开自动断字的值 此属性的默认值为 错误的.
+description: HyphenationOptions 财产. 获取或设置确定是否为文档打开自动连字符的值 此属性的默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-获取或设置确定是否为文档打开自动断字的值。 此属性的默认值为 **错误的**.
+获取或设置确定是否为文档打开自动连字符的值。 此属性的默认值为`错误的`.
 
 ```csharp
 public bool AutoHyphenation { get; set; }
@@ -16,7 +16,7 @@ public bool AutoHyphenation { get; set; }
 
 ### 例子
 
-显示如何配置自动断字。
+展示如何配置自动连字。
 
 ```csharp
 Document doc = new Document();

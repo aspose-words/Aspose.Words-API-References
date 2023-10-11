@@ -20,11 +20,11 @@ public bool AllowOverlap { get; set; }
 
 此属性仅适用于顶级形状。
 
-默认值为 **真的**.
+默认值为`真的`。
 
 ### 例子
 
-显示如何使用浮动表属性。
+展示如何使用浮动表属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -37,12 +37,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // 对于 HorizontalAnchor 设置器，RelativeHorizontalPosition 中只有 Margin、Page、Column 可用。
-    // 对于任何其他值，都会抛出 ArgumentException。
+    // 只有 Margin、Page、Column 在 HorizontalAnchor setter 的relativehorizontalposition 中可用。
+    // 对于任何其他值，都将引发 ArgumentException。
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // 对于 VerticalAnchor 设置器，RelativeVerticalPosition 中只有 Margin、Page、Paragraph 可用。
-    // 对于任何其他值，都会抛出 ArgumentException。
+    // 仅边距、页面、段落可用于 VerticalAnchor setter 的relativeverticalposition。
+    // 对于任何其他值，都将引发 ArgumentException。
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

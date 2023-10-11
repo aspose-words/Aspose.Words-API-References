@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 // 我们可以通过以下方式找到这些集合的组合值
 //“文件”-> “属性”-> “高级属性”-> “内容”选项卡。
 // HeadingPairs 属性是 <string, int> 的集合配对
-// 确定一个标题跨越多少个文档部分。
+// 确定标题跨越多少个文档部分。
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
 // TitlesOfParts 属性包含属于上述标题的部分的名称。

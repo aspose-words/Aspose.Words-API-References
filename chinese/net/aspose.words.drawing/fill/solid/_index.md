@@ -3,7 +3,7 @@ title: Fill.Solid
 second_title: Aspose.Words for .NET API 参考
 description: Fill 方法. 将填充设置为统一颜色
 type: docs
-weight: 200
+weight: 260
 url: /zh/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -16,7 +16,7 @@ public void Solid()
 
 ### 评论
 
-使用此方法将任何填充转换回实体填充。
+使用此方法将任何填充转换回实心填充。
 
 ### 也可以看看
 
@@ -36,16 +36,16 @@ public void Solid(Color color)
 
 ### 评论
 
-使用此方法将任何填充转换回实体填充。
+使用此方法将任何填充转换回实心填充。
 
 ### 例子
 
-显示如何将任何填充转换回实体填充。
+演示如何将任何填充转换回实体填充。
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// 获取第一个 Run 的 Font 的 Fill 对象。
+// 获取第一次运行的字体的填充对象。
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
 // 检查字体的填充属性。

@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Aspose.Words for .NET API 参考
 description: Fill 方法. 将填充类型更改为单个图像
 type: docs
-weight: 190
+weight: 250
 url: /zh/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
@@ -20,13 +20,13 @@ public void SetImage(string fileName)
 
 ### 例子
 
-显示如何将形状填充类型设置为图像。
+演示如何将形状填充类型设置为图像。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 有几种设置图像的方法。
+// 设置图像有多种方法。
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 1 - 使用本地系统文件名：
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
@@ -36,7 +36,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - 从流中：
+// 3 - 来自流：
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");

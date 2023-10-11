@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Italic
 second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 如果字体格式为斜体则为真
+description: DocumentBuilder 财产. 如果字体格式为斜体则为 True
 type: docs
-weight: 120
+weight: 140
 url: /zh/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property
 
-如果字体格式为斜体则为真。
+如果字体格式为斜体，则为 True。
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,13 +16,13 @@ public bool Italic { get; set; }
 
 ### 例子
 
-演示如何使用文档构建器而不是邮件合并来填充 MERGEFIELD。
+演示如何使用文档生成器而不是邮件合并来填充数据MERGEFIELD。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一些 MERGEFIELDS，它们在邮件合并期间接受来自数据源中同名列的数据，
+// 插入一些 MERGEFIELDS，它们在邮件合并期间接受数据源中同名列的数据，
 // 然后手动填充它们。
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

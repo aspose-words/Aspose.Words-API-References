@@ -20,11 +20,11 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### 返回值
 
-OLE 数据流或 null。
+OLE 数据流或`无效的`。
 
 ### 例子
 
-显示如何插入链接和未链接的 OLE 对象。
+演示如何插入链接和未链接的 OLE 对象。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将 Microsoft Visio 绘图作为 OLE 对象嵌入到文档中。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// 在本地文件系统中插入文件的链接，并显示为图标。
+// 插入本地文件系统中文件的链接并将其显示为图标。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // 插入 OLE 对象会创建存储这些对象的形状。
@@ -42,7 +42,7 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// 如果一个形状包含一个 OLE 对象，它将有一个有效的“OleFormat”属性，
+// 如果形状包含 OLE 对象，它将具有有效的“OleFormat”属性，
 // 我们可以用它来验证形状的某些方面。
 OleFormat oleFormat = shapes[0].OleFormat;
 

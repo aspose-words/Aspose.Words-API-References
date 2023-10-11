@@ -1,14 +1,16 @@
 ---
 title: Class MergeFieldImageDimension
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.MergeFieldImageDimension 班级. 表示在邮件合并过程中使用的图像尺寸即宽度或高度
+description: Aspose.Words.Fields.MergeFieldImageDimension 班级. 表示邮件合并过程中使用的图像尺寸即宽度或高度
 type: docs
-weight: 2570
+weight: 2750
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
-表示在邮件合并过程中使用的图像尺寸（即宽度或高度）。
+表示邮件合并过程中使用的图像尺寸（即宽度或高度）。
+
+要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
 ```csharp
 public class MergeFieldImageDimension
@@ -18,8 +20,8 @@ public class MergeFieldImageDimension
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | 使用给定的点值创建图像维度实例。 |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | 使用给定值和给定单位创建图像维度实例。 |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | 使用给定的点值创建图像尺寸实例。 |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | 使用给定值和给定单位创建图像尺寸实例。 |
 
 ## 特性
 
@@ -30,22 +32,23 @@ public class MergeFieldImageDimension
 
 ### 评论
 
-要指示在邮件合并期间应使用其原始尺寸插入图像， 您应该为[`Value`](./value/)属性.
+要指示在邮件合并期间应以其原始尺寸插入图像， 您应该为[`Value`](./value/)属性.
 
 ### 例子
 
-显示如何设置图像的尺寸，因为 MERGEFIELDS 在邮件合并期间接受它们。
+展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用域代码来引用
+    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
     // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // 数据源应该有这样一个名为“ImageColumn”的列。
+    // 数据源应该有一个名为“ImageColumn”的列。
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // 创建合适的数据源。
@@ -55,12 +58,13 @@ public class MergeFieldImageDimension
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // 配置回调，在合并时修改图片大小，然后执行邮件合并。
+    // 配置回调以在合并时修改图像的大小，然后执行邮件合并。
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// 将所有邮件合并图像的大小设置为一个定义的宽度和高度。

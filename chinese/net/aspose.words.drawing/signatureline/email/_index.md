@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Email
 second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 获取或设置建议的签名者的电子邮件地址 此属性的默认值为 空字符串Empty .
+description: SignatureLine 财产. 获取或设置建议签名者的电子邮件地址 此属性的默认值为 空字符串Empty.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-获取或设置建议的签名者的电子邮件地址。 此属性的默认值为 **空字符串**(Empty ).
+获取或设置建议签名者的电子邮件地址。 此属性的默认值为 **空字符串**（Empty).
 
 ```csharp
 public string Email { get; set; }
@@ -16,7 +16,7 @@ public string Email { get; set; }
 
 ### 例子
 
-演示如何为签名创建一行并将其插入到文档中。
+演示如何创建签名行并将其插入文档中。
 
 ```csharp
 Document doc = new Document();
@@ -33,16 +33,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// 插入一个包含签名线的形状，我们将看到它的外观
-// 使用我们在上面创建的“SignatureLineOptions”对象进行自定义。
-// 如果我们插入一个坐标起源于页面右下角的形状，
-// 我们需要提供负的 x 和 y 坐标才能将形状显示在视图中。
+// 插入一个包含签名线的形状，我们将其外观
+// 使用我们上面创建的“SignatureLineOptions”对象进行自定义。
+// 如果我们插入一个坐标源自页面右下角的形状，
+// 我们需要提供负的 x 和 y 坐标才能将形状带入视图。
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// 通过其 Shape 对象验证我们的签名线的属性。
+// 通过 Shape 对象验证签名线的属性。
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

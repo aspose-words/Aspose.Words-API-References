@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 返回一个文本框它表示形状序列中的前一个文本框
+description: TextBox 财产. 返回一个TextBox代表之前的TextBox以一系列形状.
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-返回一个文本框，它表示形状序列中的前一个文本框。
+返回一个[`TextBox`](../)代表之前的[`TextBox`](../)以一系列形状.
 
 ```csharp
 public TextBox Previous { get; }
@@ -16,7 +16,7 @@ public TextBox Previous { get; }
 
 ### 例子
 
-显示如何链接文本框。
+展示如何链接文本框。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// 只有空文本框可以有链接。
+// 只有空文本框才可以有链接。
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // 断开 textBox2 和 textBox3 之间的正向链接，然后验证它们不再链接。
+    // 断开textBox2和textBox3之间的前向链接，然后验证它们不再链接。
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

@@ -1,14 +1,14 @@
 ---
 title: CustomPart.ContentType
 second_title: Aspose.Words for .NET API 参考
-description: CustomPart 财产. 指定此自定义部件的内容类型
+description: CustomPart 财产. 指定此自定义部分的内容类型
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-指定此自定义部件的内容类型。
+指定此自定义部分的内容类型。
 
 ```csharp
 public string ContentType { get; set; }
@@ -16,13 +16,13 @@ public string ContentType { get; set; }
 
 ### 评论
 
-此属性仅适用于[`IsExternal`](../isexternal/)是`错误的`.
+该属性仅适用于[`IsExternal`](../isexternal/)是`错误的`。
 
 默认值为空字符串。有效值必须是非空字符串。
 
 ### 例子
 
-显示如何访问文档的任意自定义部件集合。
+演示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
+// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在脚注或尾注文本的枚举结束时调用
+description: DocumentVisitor 方法. 当脚注或尾注文本的枚举结束时调用
 type: docs
 weight: 210
 url: /zh/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-在脚注或尾注文本的枚举结束时调用。
+当脚注或尾注文本的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -20,11 +20,11 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 ### 返回值
 
-一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ### 例子
 
-显示如何打印文档中每个脚注的节点结构。
+演示如何打印文档中每个脚注的节点结构。
 
 ```csharp
 public void FootnoteToText()
@@ -32,16 +32,16 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历所有节点的子节点。
-    // 访问者可以读取和修改每个访问的节点。
+    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历该节点的所有子节点。
+    // 访问者可以读取和修改每个访问过的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历一个节点的子节点的非二叉树。
+/// 遍历节点的子节点的非二叉树。
 /// 以所有遇到的脚注节点及其子节点的字符串形式创建一个映射。
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问脚注节点的所有子节点后调用。
+    /// 在访问 Footnote 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -95,9 +95,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="text"></param>;
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

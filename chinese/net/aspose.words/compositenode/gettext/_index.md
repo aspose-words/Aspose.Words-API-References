@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetText
 second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 获取该节点及其所有子节点的文本
+description: CompositeNode 方法. 获取此节点及其所有子节点的文本
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
 
-获取该节点及其所有子节点的文本。
+获取此节点及其所有子节点的文本。
 
 ```csharp
 public override string GetText()
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### 评论
 
-返回的字符串包括所有控制和特殊字符，如[`ControlChar`](../../controlchar/).
+返回的字符串包括所有控制字符和特殊字符，如中所述[`ControlChar`](../../controlchar/)。
 
 ### 例子
 
@@ -28,14 +28,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText 将检索可见文本以及域代码和特殊字符。
+// GetText 将检索可见文本以及字段代码和特殊字符。
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
 // 如果保存为传递的保存格式，ToString 将为我们提供文档的外观。
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-显示如何输出文档中作为列表项的所有段落。
+演示如何输出文档中作为列表项的所有段落。
 
 ```csharp
 Document doc = new Document();

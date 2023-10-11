@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SplitPgBreakAndParaMark
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 总是在分页后将段落标记移动到页面
+description: CompatibilityOptions 财产. 始终将段落标记移至分页符后的页面
 type: docs
 weight: 460
 url: /zh/net/aspose.words.settings/compatibilityoptions/splitpgbreakandparamark/
 ---
 ## CompatibilityOptions.SplitPgBreakAndParaMark property
 
-总是在分页后将段落标记移动到页面。
+始终将段落标记移至分页符后的页面。
 
 ```csharp
 public bool SplitPgBreakAndParaMark { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Node.Remove
 second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 从父级中移除自身
+description: Node 方法. 将自身从父级中删除
 type: docs
 weight: 150
 url: /zh/net/aspose.words/node/remove/
 ---
 ## Node.Remove method
 
-从父级中移除自身。
+将自身从父级中删除。
 
 ```csharp
 public void Remove()
@@ -31,7 +31,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-显示如何从复合节点中删除特定类型的所有子节点。
+演示如何从复合节点中删除特定类型的所有子节点。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,11 +42,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // 将下一个兄弟节点保存为变量，以防我们在删除该节点后想要移动到它。
+    // 将下一个兄弟节点保存为变量，以防我们在删除该节点后想要移动到该节点。
     Node nextNode = curNode.NextSibling;
 
-    // 一个section body可以包含Paragraph和Table节点。
-    // 如果节点是表，则将其从父节点中移除。
+    // 节体可以包含段落和表格节点。
+    // 如果节点是表，则将其从父节点中删除。
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

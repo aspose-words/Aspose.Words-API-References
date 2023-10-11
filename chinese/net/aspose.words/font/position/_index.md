@@ -1,14 +1,14 @@
 ---
 title: Font.Position
 second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置文本相对于基线的位置以磅为单位 正数提高文本负数降低文本
+description: Font 财产. 获取或设置文本相对于基线的位置以磅为单位 正数会升高文本负数会降低文本
 type: docs
 weight: 300
 url: /zh/net/aspose.words/font/position/
 ---
 ## Font.Position property
 
-获取或设置文本相对于基线的位置（以磅为单位）。 正数提高文本，负数降低文本。
+获取或设置文本相对于基线的位置（以磅为单位）。 正数会升高文本，负数会降低文本。
 
 ```csharp
 public double Position { get; set; }
@@ -16,18 +16,18 @@ public double Position { get; set; }
 
 ### 例子
 
-显示如何格式化文本以偏移其位置。
+演示如何设置文本格式以偏移其位置。
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// 将此行文本提高到基线以上 5 点。
+// 将这行文本提高到基线以上 5 点。
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// 将此行文本降低到基线以下 10 个点。
+// 将这行文本降低到基线以下 10 点。
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
@@ -36,12 +36,12 @@ para.AppendChild(run);
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// 添加一系列显示为下标的文本。
+// 添加一串显示为下标的文本。
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// 添加一系列显示为上标的文本。
+// 添加一串显示为上标的文本。
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

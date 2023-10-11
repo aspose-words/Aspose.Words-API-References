@@ -16,21 +16,22 @@ public Image Image { get; set; }
 
 ### 例子
 
-展示如何使用回调来自定义图像合并逻辑。
+演示如何使用回调来自定义图像合并逻辑。
 
 ```csharp
+public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用域代码来引用
+    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
     // 数据源中的一列，其中包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // 在这种情况下，字段期望数据源有这样一个名为“ImageColumn”的列。
+    // 在本例中，该字段期望数据源具有这样一个名为“ImageColumn”的列。
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // 文件名可能很长，如果我们能找到避免将它们存储在数据源中的方法，
+    // 文件名可能很长，如果我们能找到一种方法来避免将它们存储在数据源中，
     // 我们可以大大减小它的大小。
     // 创建一个使用短名称引用图像的数据源。
     DataTable dataTable = new DataTable("Images");
@@ -44,11 +45,12 @@ public Image Image { get; set; }
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+}
 
 /// <summary>
-/// 包含将图像名称映射到包含这些图像的本地系统文件名的字典。
+/// 包含一个字典，将图像名称映射到包含这些图像的本地系统文件名。
 /// 如果邮件合并数据源使用字典的名称之一来引用图像，
-/// 此回调会将相应的文件名传递给合并目标。
+/// 此回调会将相应的文件名传递到合并目标。
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback
 {

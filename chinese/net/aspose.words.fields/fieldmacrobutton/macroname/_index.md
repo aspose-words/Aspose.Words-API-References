@@ -16,7 +16,7 @@ public string MacroName { get; set; }
 
 ### 例子
 
-展示如何使用 MACROBUTTON 字段来允许我们通过单击来运行文档的宏。
+演示如何使用 MACROBUTTON 字段来允许我们通过单击来运行文档的宏。
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -24,18 +24,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// 插入一个 MACROBUTTON 字段，并在 MacroName 属性中按名称引用文档的宏之一。
+// 插入 MACROBUTTON 字段，并按 MacroName 属性中的名称引用文档的宏之一。
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// 使用该属性来引用 Microsoft Word 附带的宏“ViewZoom200”。
-// 我们可以通过 View -> 找到所有其他宏宏（下拉）->查看宏。
-// 在该菜单中，从“Macros in:”下拉菜单中选择“Word Commands”。
-// 如果我们的文档包含与股票宏同名的自定义宏，
-// 我们的宏将是 MACROBUTTON 字段运行的那个。
+// 使用该属性引用“ViewZoom200”，这是 Microsoft Word 附带的宏。
+// 我们可以通过 View -> 找到所有其他宏宏（下拉菜单）->查看宏。
+// 在该菜单中，从“宏位于：”下拉列表中选择“Word 命令”。
+// 如果我们的文档包含与库存宏同名的自定义宏，
+// 我们的宏将是 MACROBUTTON 字段运行的宏。
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

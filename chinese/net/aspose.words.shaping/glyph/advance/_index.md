@@ -1,12 +1,14 @@
 ---
 title: Glyph.Advance
 second_title: Aspose.Words for .NET API 参考
-description: Glyph 财产. 
+description: Glyph 财产. 前进宽度指示后续字形的位置
 type: docs
 weight: 20
 url: /zh/net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
+
+前进宽度，指示后续字形的位置。
 
 ```csharp
 public short Advance { get; set; }

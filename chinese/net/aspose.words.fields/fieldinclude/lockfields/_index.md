@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.LockFields
 second_title: Aspose.Words for .NET API 参考
-description: FieldInclude 财产. 获取或设置是否禁止更新包含文档中的字段
+description: FieldInclude 财产. 获取或设置是否阻止更新所包含文档中的字段
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldinclude/lockfields/
 ---
 ## FieldInclude.LockFields property
 
-获取或设置是否禁止更新包含文档中的字段
+获取或设置是否阻止更新所包含文档中的字段。
 
 ```csharp
 public bool LockFields { get; set; }
@@ -22,8 +22,8 @@ public bool LockFields { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 我们可以使用 INCLUDE 字段在本地文件系统中导入另一个文档的一部分。
-// 我们使用此字段引用的其他文档的书签包含此导入部分。
+// 我们可以使用 INCLUDE 字段导入本地文件系统中另一个文档的一部分。
+// 我们使用此字段引用的其他文档中的书签包含此导入的部分。
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

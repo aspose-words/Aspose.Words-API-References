@@ -16,14 +16,14 @@ public string BookmarkText { get; set; }
 
 ### 例子
 
-演示如何使用 SET 字段创建带有书签的文本，然后使用 REF 字段将其显示在文档中。
+演示如何使用 SET 字段创建带书签的文本，然后使用 REF 字段将其显示在文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 使用 SET 字段命名书签文本。
-// 这个字段引用的“书签”不是出现在文本中的书签结构，而是一个命名变量。
+ // 使用 SET 字段命名已添加书签的文本。
+// 该字段指的是“书签”，不是出现在文本中的书签结构，而是一个命名变量。
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";

@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldMergingCallback
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.IFieldMergingCallback 界面. 如果您想控制在邮件合并操作期间如何将数据插入到合并字段中请实施此接口
+description: Aspose.Words.MailMerging.IFieldMergingCallback 界面. 如果您想控制在邮件合并操作期间如何将数据插入合并字段请实现此接口
 type: docs
-weight: 3570
+weight: 3790
 url: /zh/net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
 
-如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实施此接口。
+如果您想控制在邮件合并操作期间如何将数据插入合并字段，请实现此接口。
 
 ```csharp
 public interface IFieldMergingCallback
@@ -18,7 +18,7 @@ public interface IFieldMergingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | 当 Aspose.Words 邮件合并引擎即将向文档中的合并字段插入数据时调用。 |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | 当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用。 |
 | [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | 当 Aspose.Words 邮件合并引擎即将将图像插入合并字段时调用。 |
 
 ### 例子
@@ -32,14 +32,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // 打开数据读取器，它需要处于一次读取所有记录的模式。
+        // 打开数据读取器，需要处于一次读取所有记录的模式。
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -47,6 +47,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -56,7 +57,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
+    /// 当邮件合并在文档中遇到名称中包含“Image:”标记的 MERGEFIELD 时，将调用此函数。
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -66,9 +67,10 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-演示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
+演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -110,13 +112,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // 将解析的 HTML 数据添加到文档的正文中。
+            // 将解析后的 HTML 数据添加到文档正文中。
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // 因为我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应这个事件。
+            // 由于我们已经手动插入了合并的内容，
+             // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }

@@ -16,13 +16,13 @@ public string ResourcesFolder { get; set; }
 
 ### 评论
 
-仅在以下情况下有效[`ExportEmbeddedImages`](../exportembeddedimages/)属性为假。
+仅当以下情况时才有效[`ExportEmbeddedImages`](../exportembeddedimages/)财产是`错误的`。
 
-当你保存一个[`Document`](../../../aspose.words/document/)在 Html 格式中，Aspose.Words 需要将文档中嵌入的 all 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置和[`ResourcesFolderAlias`](../resourcesfolderalias/) 允许指定如何构建图像 URI。
+当您保存一个[`Document`](../../../aspose.words/document/)在 Html 格式中，Aspose.Words 需要将文档中嵌入的 all 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置[`ResourcesFolderAlias`](../resourcesfolderalias/) 允许指定如何构建图像 URI。
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将 the 图像保存在保存文档文件的同一文件夹中。利用`ResourcesFolder` 覆盖此行为。
+如果将文档保存到文件中并提供文件名，默认情况下，Aspose.Words 会将 图像保存在保存文档文件的同一文件夹中。使用`ResourcesFolder` 覆盖此行为。
 
-如果您将文档保存到流中，Aspose.Words 没有保存图像的文件夹， 但仍需要将图像保存在某处。在这种情况下，您需要使用`ResourcesFolder`财产
+如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要使用以下命令指定可访问的文件夹 `ResourcesFolder`财产
 
 ### 例子
 
@@ -45,8 +45,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
-    // 我们必须确保文件夹存在，然后流才能将其资源放入其中。
+    // 由 ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
+    // 我们必须确保该文件夹存在，然后流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -60,7 +60,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// 在转换为固定 HTML 时计算并打印包含的资源的 URI。
+/// 计算并打印 包含的资源的 URI，因为它们被转换为固定的 HTML。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -75,8 +75,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // 默认情况下，'ResourceFileUri' 使用系统文件夹来存放字体。
-                // 为了避免在其他平台上出现问题，您必须明确指定字体的路径。
+                // 默认情况下，“ResourceFileUri”使用系统文件夹来存储字体。
+                // 为了避免在其他平台上出现问题，您必须显式指定字体的路径。
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // 如果我们在“ResourcesFolderAlias”属性中指定了一个文件夹，
-        // 我们还需要重定向每个流以将其资源放在该文件夹中。
+        // 我们还需要重定向每个流以将其资源放入该文件夹中。
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

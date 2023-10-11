@@ -3,7 +3,7 @@ title: FieldOptions.FieldUpdatingCallback
 second_title: Aspose.Words for .NET API 参考
 description: FieldOptions 财产. 获取或设置IFieldUpdatingCallback实施
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property

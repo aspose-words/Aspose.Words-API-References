@@ -1,14 +1,16 @@
 ---
 title: Class ComparisonExpression
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.ComparisonExpression 班级. 比较表达式
+description: Aspose.Words.Fields.ComparisonExpression 班级. 比较表达式.
 type: docs
-weight: 1340
+weight: 1490
 url: /zh/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
-比较表达式。
+比较表达式.
+
+要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
 ```csharp
 public sealed class ComparisonExpression
@@ -20,11 +22,11 @@ public sealed class ComparisonExpression
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | 获取比较运算符。 |
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | 获取左侧表达式。 |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | 获取正确的表达式。 |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | 获得正确的表达式。 |
 
 ### 例子
 
-显示如何为 IF 和 COMPARE 字段实施自定义评估。
+展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -37,11 +39,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1. " IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较 {0} {1} {2}”。
+    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较{0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果 "comparisonResult" 未定义，我们用字符串而不是 bool 创建 "ComparisonEvaluationResult"。
+    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -56,7 +58,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf 和 FieldCompare 的比较表达式计算。
+/// FieldIf 和 FieldCompare 的比较表达式评估。
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {

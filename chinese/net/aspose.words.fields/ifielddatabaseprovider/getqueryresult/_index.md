@@ -19,12 +19,12 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 | --- | --- | --- |
 | fileName | String | \d 字段开关中指定的数据库的完整路径和文件名。 |
 | connection | String | 与 \c 字段开关中指定的数据的连接。 |
-| query | String | 查询 \s 字段开关中指定的数据库的一组 SQL 指令。 |
-| field | FieldDatabase | 正在更新的字段。 |
+| query | String | 查询 \s 字段开关中指定的数据库的 SQL 指令集。 |
+| field | FieldDatabase | 该字段正在更新。 |
 
 ### 返回值
 
-这[`FieldDatabaseDataTable`](../../fielddatabasedatatable/)应该用于字段更新的实例。
+这[`FieldDatabaseDataTable`](../../fielddatabasedatatable/)应用于字段更新的实例。
 
 ### 也可以看看
 

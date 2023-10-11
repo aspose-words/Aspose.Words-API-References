@@ -1,14 +1,14 @@
 ---
 title: Enum PageBorderAppliesTo
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PageBorderAppliesTo 枚举. 指定打印页面边框的页面
+description: Aspose.Words.PageBorderAppliesTo 枚举. 指定在哪些页面上打印页面边框
 type: docs
-weight: 4100
+weight: 4340
 url: /zh/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
 
-指定打印页面边框的页面。
+指定在哪些页面上打印页面边框。
 
 ```csharp
 public enum PageBorderAppliesTo
@@ -24,7 +24,7 @@ public enum PageBorderAppliesTo
 
 ### 例子
 
-展示如何在第一页的顶部创建一个宽的蓝色边框。
+演示如何在第一页顶部创建宽蓝色带边框。
 
 ```csharp
 Document doc = new Document();

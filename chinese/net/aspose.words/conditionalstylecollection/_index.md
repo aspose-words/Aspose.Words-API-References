@@ -1,14 +1,16 @@
 ---
 title: Class ConditionalStyleCollection
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConditionalStyleCollection 班级. 代表一个集合ConditionalStyle对象.
+description: Aspose.Words.ConditionalStyleCollection 班级. 代表集合ConditionalStyle对象.
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-代表一个集合[`ConditionalStyle`](../conditionalstyle/)对象.
+代表集合[`ConditionalStyle`](../conditionalstyle/)对象.
+
+要了解更多信息，请访问[使用表格](https://docs.aspose.com/words/net/working-with-tables/)文档文章。
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,35 +20,35 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | 获取左下角单元格样式。 |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | 获取右下角单元格样式。 |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | 获取左下单元格样式。 |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | 获取右下单元格样式。 |
 | [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | 获取集合中条件样式的数量。 |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | 获取偶数列带状样式。 |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | 获取偶数列条带样式。 |
 | [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | 获取偶数行条带样式。 |
 | [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | 获取第一列样式。 |
 | [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | 获取第一行样式。 |
-| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | 检索一个[`ConditionalStyle`](../conditionalstyle/)按条件样式类型的对象。 (2 indexers) |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | 检索[`ConditionalStyle`](../conditionalstyle/)按条件样式类型的对象. (2 indexers) |
 | [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | 获取最后一列样式。 |
 | [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | 获取最后一行样式。 |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | 获取奇数列带状样式。 |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | 获取奇数行带状样式。 |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | 获取奇数列条带样式。 |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | 获取奇数行条带样式。 |
 | [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | 获取左上角单元格样式。 |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | 获取右上角的单元格样式。 |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | 获取右上角单元格样式。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | 清除表格样式的所有条件样式。 |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | 返回一个可用于迭代集合中所有条件样式的枚举器对象。 |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有条件样式。 |
 
 ### 评论
 
-无法在此集合中添加或删除项目。它包含一组永久的项目：一个项目 for 的每个值[`ConditionalStyleType`](../conditionalstyletype/)枚举类型.
+无法在此集合中添加或删除项目。它包含一组永久的项目： 的每个值都有一个项目[`ConditionalStyleType`](../conditionalstyletype/)枚举类型.
 
 ### 例子
 
-显示如何使用表格的某些区域样式。
+展示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -67,9 +69,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是只影响部分表格单元格的格式更改
-// 基于谓词，例如最后一行的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
+// 条件样式是仅影响某些表格单元格的格式更改
+// 基于谓词，例如最后一行中的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -105,7 +107,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

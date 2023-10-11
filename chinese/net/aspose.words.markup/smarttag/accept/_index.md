@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ### 评论
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
-来电[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于智能标签的所有 子节点并调用[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/)最后.
+通话[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于智能标记的 all 子节点并调用[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/)最后.
 
 ### 例子
 
@@ -39,30 +39,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // 智能标记出现在文档中，Microsoft Word 将其文本的一部分识别为某种形式的数据，
-    // 例如姓名、日期或地址，并将其转换为显示紫色虚线下划线的超链接。
+    // 智能标签出现在 Microsoft Word 文档中，将其文本的一部分识别为某种形式的数据，
+    // 例如名称、日期或地址，并将其转换为显示紫色点状下划线的超链接。
     SmartTag smartTag = new SmartTag(doc);
 
-    // 智能标签是包含其识别文本的完整的复合节点。
-    // 手动添加内容到这个智能标签。
+    // 智能标签是复合节点，包含完整的已识别文本。
+    // 手动将内容添加到此智能标签。
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word 可能会将上述内容识别为日期。
-    // 智能标签使用“元素”属性来反映它们包含的数据类型。
+    // 智能标签使用“Element”属性来反映它们包含的数据类型。
     smartTag.Element = "date";
 
-    // 一些智能标记类型将其内容进一步处理为自定义 XML 属性。
+    // 某些智能标记类型将其内容进一步处理为自定义 XML 属性。
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // 将智能标签的 URI 设置为默认值。
+    // 将智能标记的 URI 设置为默认值。
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // 为股票代码创建另一个智能标签。
+    // 为股票行情创建另一个智能标签。
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -72,10 +72,10 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // 使用文档访问者打印我们文档中的所有智能标签。
+    // 使用文档访问者打印文档中的所有智能标签。
     doc.Accept(new SmartTagPrinter());
 
-    // 旧版本的 Microsoft Word 支持智能标记。
+    // 旧版本的 Microsoft Word 支持智能标签。
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // 使用“RemoveSmartTags”方法从文档中删除所有智能标签。
@@ -101,7 +101,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// SmartTag节点访问结束时调用。
+    /// 当SmartTag节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

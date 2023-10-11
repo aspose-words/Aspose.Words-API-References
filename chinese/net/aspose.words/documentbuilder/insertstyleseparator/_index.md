@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
 second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在文档中插入样式分隔符
+description: DocumentBuilder 方法. 将样式分隔符插入文档中
 type: docs
-weight: 430
+weight: 460
 url: /zh/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
 
-在文档中插入样式分隔符。
+将样式分隔符插入文档中。
 
 ```csharp
 public void InsertStyleSeparator()
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 每个段落只能有一种样式。
-// InsertStyleSeparator 方法允许我们绕过这个限制。
+// InsertStyleSeparator 方法允许我们解决这个限制。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("This text is in a Heading style. ");
 builder.InsertStyleSeparator();
@@ -41,8 +41,8 @@ builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
 // 调用 InsertStyleSeparator 方法创建另一个段落，
-// 它可以有与以前不同的样式。段落之间不会有中断。
-// 输出文档中的文本看起来像一个有两种样式的段落。
+// 它可以有与之前不同的样式。段落之间不会有中断。
+// 输出文档中的文本看起来像是具有两种样式的一个段落。
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);
 Assert.AreEqual("MyParaStyle", doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style.Name);

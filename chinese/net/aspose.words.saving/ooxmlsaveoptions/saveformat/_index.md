@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 财产. 指定使用此保存选项对象时将保存文档的格式 可以是DocxDocm  DotxDotm或者FlatOpc.
+description: OoxmlSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 可以DocxDocm DotxDotm或者FlatOpc.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时将保存文档的格式。 可以是Docx,Docm , Dotx,Dotm或者FlatOpc.
+指定使用此保存选项对象时保存文档的格式。 可以Docx,Docm, Dotx,Dotm或者FlatOpc.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
+演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

@@ -16,11 +16,11 @@ public string AltName { get; set; }
 
 ### 评论
 
-不可能是`无效的`.可以是空字符串。
+不可能是`无效的`。可以是空字符串。
 
 ### 例子
 
-显示如何访问和打印文档中每种字体的详细信息。
+演示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

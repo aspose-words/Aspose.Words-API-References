@@ -1,14 +1,14 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words for .NET API 参考
-description: Shading 财产. 获取或设置应用于 Shading 对象前景的颜色
+description: Shading 财产. 获取或设置应用于前景的颜色Shading对象.
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-获取或设置应用于 Shading 对象前景的颜色。
+获取或设置应用于前景的颜色[`Shading`](../)对象.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }

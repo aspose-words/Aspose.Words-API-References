@@ -3,7 +3,7 @@ title: Style.ParagraphFormat
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 获取样式的段落格式
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -16,11 +16,11 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ### 评论
 
-对于字符和列表样式，此属性返回 null。
+对于字符和列表样式，此属性返回`无效的`。
 
 ### 例子
 
-展示如何使用列表格式创建和使用段落样式。
+演示如何创建和使用具有列表格式的段落样式。
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// 将段落样式应用到文档构建器的当前段落，然后添加一些文本。
+// 将段落样式应用到文档生成器的当前段落，然后添加一些文本。
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// 将文档构建器的样式更改为没有列表格式的样式并编写另一个段落。
+// 将文档生成器的样式更改为没有列表格式的样式并编写另一段。
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

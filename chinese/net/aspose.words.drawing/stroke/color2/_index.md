@@ -1,14 +1,14 @@
 ---
 title: Stroke.Color2
 second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔画的第二种颜色
+description: Stroke 财产. 定义笔划的第二种颜色
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
 
-定义笔画的第二种颜色。
+定义笔划的第二种颜色。
 
 ```csharp
 public Color Color2 { get; set; }
@@ -16,11 +16,11 @@ public Color Color2 { get; set; }
 
 ### 评论
 
-的默认值[`Shape`](../../shape/)是 White.
+的默认值[`Shape`](../../shape/)is White。
 
 ### 例子
 
-显示如何处理形状笔划特征。
+展示如何处理形状笔划特征。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

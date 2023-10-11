@@ -27,7 +27,7 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// InsertField 方法的这个重载会自动更新插入的字段。
+// InsertField 方法的此重载会自动更新插入的字段。
 Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 

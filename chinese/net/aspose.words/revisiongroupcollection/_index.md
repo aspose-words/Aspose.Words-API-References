@@ -1,14 +1,16 @@
 ---
 title: Class RevisionGroupCollection
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionGroupCollection 班级. 集合RevisionGroup代表文档中修订组的对象
+description: Aspose.Words.RevisionGroupCollection 班级. 的集合RevisionGroup代表文档中修订组的对象
 type: docs
-weight: 4530
+weight: 4790
 url: /zh/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-集合[`RevisionGroup`](../revisiongroup/)代表文档中修订组的对象。
+的集合[`RevisionGroup`](../revisiongroup/)代表文档中修订组的对象。
+
+要了解更多信息，请访问[跟踪文档中的更改](https://docs.aspose.com/words/net/track-changes-in-a-document/)文档文章。
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -18,7 +20,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | 返回集合中的修订组数。 |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | 返回集合中修订组的数量。 |
 | [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | 返回指定索引处的修订组。 |
 
 ## 方法
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ### 评论
 
-您不直接创建此类的实例。使用[`Groups`](../revisioncollection/groups/) 属性以获取文档中存在的修订组。
+您不直接创建此类的实例。使用[`Groups`](../revisioncollection/groups/) 属性来获取文档中存在的修订组。
 
 ### 例子
 
-显示如何在文档中获取一组修订。
+演示如何获取文档中的一组修订。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -41,7 +43,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 ```
 
-显示如何在文档中打印有关一组修订的信息。
+演示如何打印有关文档中一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

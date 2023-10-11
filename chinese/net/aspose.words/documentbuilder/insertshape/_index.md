@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
 second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 插入具有指定类型和大小的内联形状
+description: DocumentBuilder 方法. 插入指定类型和大小的内联形状
 type: docs
-weight: 410
+weight: 440
 url: /zh/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(ShapeType, double, double) {#insertshape_1}
 
-插入具有指定类型和大小的内联形状。
+插入指定类型和大小的内联形状。
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, double width, double height)
@@ -32,7 +32,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是形状可能具有的两种包装类型。
+// 下面是形状可能具有的两种环绕类型。
 // 1 - 浮动：
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -40,8 +40,8 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - 内联：
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
 // 然后以“严格”或“过渡”合规性保存文档，这允许将形状保存为 DML。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
 
-插入具有指定位置、大小和文本环绕类型的自由浮动形状。
+插入具有指定位置、大小和文本换行类型的自由浮动形状。
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, 
@@ -70,14 +70,14 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | 要插入文档的形状类型 |
+| shapeType | ShapeType | 要插入到文档中的形状类型 |
 | horzPos | RelativeHorizontalPosition | 指定从何处测量到形状的水平距离。 |
-| left | Double | 从原点到形状左侧的距离（以点为单位）。 |
+| left | Double | 从原点到形状左侧的距离（以磅为单位）。 |
 | vertPos | RelativeVerticalPosition | 指定从何处测量到形状的垂直距离。 |
-| top | Double | 从原点到形状顶部的距离（以点为单位）。 |
+| top | Double | 从原点到形状顶边的距离（以磅为单位）。 |
 | width | Double | 形状的宽度（以磅为单位）。 |
 | height | Double | 形状的宽度（以磅为单位）。 |
-| wrapType | WrapType | 指定如何在形状周围环绕文本。 |
+| wrapType | WrapType | 指定如何将文本环绕在形状周围。 |
 
 ### 返回值
 
@@ -91,7 +91,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是形状可能具有的两种包装类型。
+// 下面是形状可能具有的两种环绕类型。
 // 1 - 浮动：
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -99,8 +99,8 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - 内联：
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
 // 然后以“严格”或“过渡”合规性保存文档，这允许将形状保存为 DML。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;

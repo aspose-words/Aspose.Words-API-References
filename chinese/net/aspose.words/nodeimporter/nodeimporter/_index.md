@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.NodeImporter
 second_title: Aspose.Words for .NET API 参考
-description: NodeImporter 构造函数. 初始化NodeImporter类.
+description: NodeImporter 构造函数. 初始化一个新实例NodeImporter类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
 
-初始化[`NodeImporter`](../)类.
+初始化一个新实例[`NodeImporter`](../)类.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -18,14 +18,13 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | 源文档。 |
 | dstDoc | DocumentBase | 将成为导入节点所有者的目标文档。 |
-| importFormatMode | ImportFormatMode | 指定如何合并有冲突的样式格式。 |
+| importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 
 ### 例子
 
-演示如何将一个文档的内容插入到另一个文档的书签中。
+演示如何将一个文档的内容插入到另一文档的书签中。
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,7 +60,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // 循环遍历部分主体中的所有块级节点，
+        // 循环节体中的所有块级节点，
         // 然后克隆并插入不是节的最后一个空段落的每个节点。
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
@@ -98,7 +97,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
 
-初始化[`NodeImporter`](../)类.
+初始化一个新实例[`NodeImporter`](../)类.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 
@@ -109,40 +108,40 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | 源文档。 |
 | dstDoc | DocumentBase | 将成为导入节点所有者的目标文档。 |
-| importFormatMode | ImportFormatMode | 指定如何合并有冲突的样式格式。 |
+| importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 | importFormatOptions | ImportFormatOptions | 指定格式化导入节点的各种选项。 |
 
 ### 例子
 
-显示在导入具有相同列表定义标识符的列表的文档时如何解决冲突。
+显示导入具有相同列表定义标识符的列表的文档时如何解决冲突。
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // 将“KeepSourceNumbering”属性设置为“true”以应用不同的列表定义 ID
-// 以与 Aspose.Words 相同的样式将它们导入目标文档。
+// 与 Aspose.Words 将它们导入到目标文档中的样式相同。
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
 dstDoc.UpdateListLabels();
 ```
 
-显示如何解决源文档和目标文档中的列表编号冲突。
+演示如何解决源文档和目标文档中的列表编号冲突。
 
 ```csharp
-// 打开具有自定义列表编号方案的文档，然后克隆它。
-// 由于两者具有相同的编号格式，如果我们将一个文档导入另一个文档，格式将发生冲突。
+// 使用自定义列表编号方案打开文档，然后克隆它。
+// 由于两者具有相同的编号格式，如果我们将一个文档导入到另一个文档中，格式会发生冲突。
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// 当我们将文档的克隆导入到原始文件中然后附加它时，
-// 那么两个具有相同列表格式的列表将加入。
-// 如果我们将“KeepSourceNumbering”标志设置为“false”，则从文档中克隆列表
-// 我们附加到原始的将继续我们附加到的列表的编号。
+// 当我们将文档的克隆导入到原始文档中然后追加它时，
+// 然后具有相同列表格式的两个列表将连接。
+// 如果我们将“KeepSourceNumbering”标志设置为“false”，则列表会从文档克隆
+// 我们附加到原始列表中的内容将继续我们附加到的列表的编号。
 // 这将有效地将两个列表合并为一个。
-// 如果我们将“KeepSourceNumbering”标志设置为“true”，那么文档克隆
-// 列表将保留其原始编号，使两个列表显示为单独的列表。 
+// 如果我们将“KeepSourceNumbering”标志设置为“true”，则文档克隆
+// list 将保留其原始编号，使两个列表显示为单独的列表。
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

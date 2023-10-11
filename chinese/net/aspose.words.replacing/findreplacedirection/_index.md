@@ -3,7 +3,7 @@ title: Enum FindReplaceDirection
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Replacing.FindReplaceDirection 枚举. 指定替换操作的方向
 type: docs
-weight: 4350
+weight: 4610
 url: /zh/net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration
@@ -18,12 +18,12 @@ public enum FindReplaceDirection
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Forward | `0` | 匹配的项目从第一个到最后一个替换。 |
-| Backward | `1` | 匹配的项目从最后一个替换为第一个。 |
+| Forward | `0` | 匹配的项目从第一个到最后一个被替换。 |
+| Backward | `1` | 匹配项从最后到第一个替换。 |
 
 ### 例子
 
-显示如何确定查找和替换操作遍历文档的方向。
+演示如何确定查找和替换操作遍历文档的方向。
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -31,7 +31,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入三个运行，我们可以使用正则表达式模式搜索它们。
+    // 插入我们可以使用正则表达式模式搜索的三个运行。
     // 将其中一个运行放在文本框中。
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
@@ -46,9 +46,9 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     options.ReplacingCallback = callback;
 
     // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
-    // 操作从范围的末尾开始，然后遍历回到开头。
+    // 操作从范围末尾开始，并遍历回开头。
     // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
-    // 操作从范围的开头开始，并遍历到结尾。
+    // 操作从范围的开头开始，遍历到结尾。
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
@@ -70,7 +70,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// 按照发生的顺序记录在查找和替换操作期间发生的所有匹配。
+/// 按照发生的顺序记录查找和替换操作期间发生的所有匹配项。
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

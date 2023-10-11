@@ -16,7 +16,7 @@ public string ContentType { get; }
 
 ### 例子
 
-显示如何访问文档保存操作的输出参数。
+演示如何访问文档保存操作的输出参数。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputPa
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// 此属性根据保存格式而变化。
+// 该属性根据保存格式而变化。
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

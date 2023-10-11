@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 如果此数字签名有效且文档未被篡改则返回 true
+description: DigitalSignature 财产. 返回真的如果此数字签名有效且文档未被篡改
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-如果此数字签名有效且文档未被篡改，则返回 true。
+返回`真的`如果此数字签名有效且文档未被篡改。
 
 ```csharp
 public bool IsValid { get; }

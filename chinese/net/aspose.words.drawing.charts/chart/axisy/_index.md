@@ -3,7 +3,7 @@ title: Chart.AxisY
 second_title: Aspose.Words for .NET API 参考
 description: Chart 财产. 提供对图表 Y 轴属性的访问
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chart/axisy/
 ---
 ## Chart.AxisY property
@@ -16,7 +16,7 @@ public ChartAxis AxisY { get; }
 
 ### 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });

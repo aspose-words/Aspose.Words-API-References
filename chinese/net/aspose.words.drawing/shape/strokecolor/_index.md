@@ -1,14 +1,14 @@
 ---
 title: Shape.StrokeColor
 second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义笔画的颜色
+description: Shape 财产. 定义描边的颜色
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
 
-定义笔画的颜色。
+定义描边的颜色。
 
 ```csharp
 public Color StrokeColor { get; set; }
@@ -18,17 +18,17 @@ public Color StrokeColor { get; set; }
 
 这是一个快捷方式[`Color`](../../stroke/color/)财产。
 
-默认值为 Black.
+默认值为 Black。
 
 ### 例子
 
-显示如何用纯色填充形状。
+演示如何用纯色填充形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 写一些文字，然后用浮动形状覆盖它。
+// 写一些文本，然后用浮动形状覆盖它。
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -43,18 +43,19 @@ shape.FillColor = Color.LightBlue;
 
 // “Opacity”属性决定颜色在 0-1 范围内的透明度，
 // 1 表示完全不透明，0 表示不可见。
-// 默认情况下，形状填充是完全不透明的，所以我们看不到这个形状上面的文本。
+// 默认情况下，形状填充是完全不透明的，因此我们看不到该形状上方的文本。
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// 将形状填充颜色的不透明度设置为较低的值，以便我们可以看到它下面的文本。
+// 将形状填充颜色的不透明度设置为较低的值，以便我们可以看到其下方的文本。
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ```
 
-演示如何遍历文档中的所有形状。
+演示如何迭代文档中的所有形状。
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -64,7 +65,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 }
 
 /// <summary>
-/// 记录有关访问形状的外观相关信息。
+/// 记录有关所访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行添加到 StringBuilder，每个缩进级别都带有一个前置制表符。
+    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -94,7 +95,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 Shape 节点的开头时调用。
+    /// 当访问者访问 Shape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -142,7 +143,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的开头时调用。
+    /// 当访问者访问 GroupShape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -153,7 +154,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的末尾时调用。
+    /// 当访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置一个标志该标志指示是否在当前段落中东亚文本的数字和区域之间自动调整字符间距 
+description: ParagraphFormat 财产. 获取或设置一个标志指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-获取或设置一个标志，该标志指示是否在当前段落中东亚文本的数字和区域之间自动调整字符间距 。
+获取或设置一个标志，指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整。
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在追加文本后结束段落
+// “Writeln”方法在附加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

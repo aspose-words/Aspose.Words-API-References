@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置字段更新时是否完全支持双向文本的值
+description: FieldOptions 财产. 获取或设置指示字段更新期间是否完全支持双向文本的值
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 ---
 ## FieldOptions.IsBidiTextSupportedOnUpdate property
 
-获取或设置字段更新时是否完全支持双向文本的值。
+获取或设置指示字段更新期间是否完全支持双向文本的值。
 
 ```csharp
 public bool IsBidiTextSupportedOnUpdate { get; set; }
@@ -16,11 +16,11 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 ### 评论
 
-当此属性设置为 **真的**，执行附加步骤以在更新期间生成从右到左的 language （即阿拉伯语或希伯来语）兼容的字段结果。
+当该属性设置为`真的`，在更新期间执行附加步骤以生成从右到左的 language （即阿拉伯语或希伯来语）兼容的字段结果。
 
-当此属性设置为 **错误的**并且使用了从右到左的语言，不保证更新后字段 result 的正确性。
+当该属性设置为`错误的`并且使用从右到左的语言，不保证字段result 更新后的正确性。
 
-默认值为 **错误的**.
+默认值为`错误的`。
 
 ### 例子
 
@@ -30,10 +30,10 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 确保任何涉及从右到左文本的字段操作都按预期执行。 
+ // 确保涉及从右到左文本的任何字段操作均按预期执行。
 doc.FieldOptions.IsBidiTextSupportedOnUpdate = true;
 
-// 使用文档构建器插入包含从右到左文本的字段。
+// 使用文档生成器插入包含从右到左文本的字段。
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "עֶשְׂרִים", "שְׁלוֹשִׁים", "אַרְבָּעִים", "חֲמִשִּׁים", "שִׁשִּׁים" }, 0);
 comboBox.CalculateOnExit = true;
 

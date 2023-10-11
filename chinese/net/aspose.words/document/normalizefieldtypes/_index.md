@@ -3,7 +3,7 @@ title: Document.NormalizeFieldTypes
 second_title: Aspose.Words for .NET API 参考
 description: Document 方法. 更改字段类型值FieldType的FieldStartFieldSeparatorFieldEnd 在整个文档中以便它们对应于字段代码中包含的字段类型
 type: docs
-weight: 610
+weight: 650
 url: /zh/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -18,11 +18,11 @@ public void NormalizeFieldTypes()
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
+要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes/)。
 
 ### 例子
 
-显示如何使用其字段代码使字段的类型保持最新。
+演示如何使字段类型与其字段代码保持最新。
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,10 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 
 // 手动更改字段的原始文本，这决定了字段代码。
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
 // 更改字段代码已将此字段更改为不同类型之一，
-// 但该字段的类型属性仍显示旧类型。
+// 但字段的类型属性仍然显示旧类型。
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual(FieldType.FieldDate, field.Start.FieldType);

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoColumnBalance
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不平衡节内的文本列
+description: CompatibilityOptions 财产. 不要平衡节内的文本列
 type: docs
 weight: 330
 url: /zh/net/aspose.words.settings/compatibilityoptions/nocolumnbalance/
 ---
 ## CompatibilityOptions.NoColumnBalance property
 
-不平衡节内的文本列。
+不要平衡节内的文本列。
 
 ```csharp
 public bool NoColumnBalance { get; set; }

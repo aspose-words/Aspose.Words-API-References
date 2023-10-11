@@ -3,7 +3,7 @@ title: Fill.PresetTextured
 second_title: Aspose.Words for .NET API 参考
 description: Fill 方法. 将填充设置为预设纹理
 type: docs
-weight: 180
+weight: 240
 url: /zh/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method

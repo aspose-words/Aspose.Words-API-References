@@ -16,7 +16,7 @@ public int ToInt()
 
 ### 评论
 
-如果属性类型不是则抛出异常Number.
+如果属性类型不是，则抛出异常Number.
 
 ### 例子
 

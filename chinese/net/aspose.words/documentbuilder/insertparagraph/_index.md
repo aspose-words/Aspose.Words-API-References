@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertParagraph
 second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在文档中插入一个段落分隔符
+description: DocumentBuilder 方法. 在文档中插入段落分隔符
 type: docs
-weight: 400
+weight: 430
 url: /zh/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
 
-在文档中插入一个段落分隔符。
+在文档中插入段落分隔符。
 
 ```csharp
 public Paragraph InsertParagraph()
@@ -16,13 +16,15 @@ public Paragraph InsertParagraph()
 
 ### 返回值
 
-刚刚插入的段落节点。它是同一个节点[`CurrentParagraph`](../currentparagraph/).
+刚刚插入的段落节点。它是同一个节点[`CurrentParagraph`](../currentparagraph/)。
 
 ### 评论
 
-指定的当前段落格式[`ParagraphFormat`](../paragraphformat/)使用属性。
+当前段落格式由[`ParagraphFormat`](../paragraphformat/)财产被使用。
 
-将当前段落一分为二。插入段落后，光标位于新段落的开头。
+将当前段落分成两部分。插入段落后，光标将放置在新段落的开头。
+
+如果无法在当前光标位置插入段落分隔符，则会引发异常。
 
 ### 例子
 
@@ -46,7 +48,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在追加文本后结束段落
+// “Writeln”方法在附加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

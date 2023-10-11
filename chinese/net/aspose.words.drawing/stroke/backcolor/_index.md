@@ -1,14 +1,14 @@
 ---
 title: Stroke.BackColor
 second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 获取或设置描边的背景颜色
+description: Stroke 财产. 获取或设置笔划的背景颜色
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/stroke/backcolor/
 ---
 ## Stroke.BackColor property
 
-获取或设置描边的背景颜色。
+获取或设置笔划的背景颜色。
 
 ```csharp
 public Color BackColor { get; set; }
@@ -16,7 +16,7 @@ public Color BackColor { get; set; }
 
 ### 评论
 
-的默认值[`Shape`](../../shape/)是 White.
+a 的默认值[`Shape`](../../shape/)is White。
 
 ### 例子
 

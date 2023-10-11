@@ -20,7 +20,7 @@ public Node AppendChild(Node newChild)
 
 ### 返回值
 
-添加的节点。
+节点已添加。
 
 ### 也可以看看
 

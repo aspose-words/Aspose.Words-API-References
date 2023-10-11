@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words for .NET API 参考
-description: PdfLoadOptions 财产. 获取或设置指示在加载 PDF 文档时是否必须跳过图像的标志默认为 False.
+description: PdfLoadOptions 财产. 获取或设置指示加载 PDF 文档时是否必须跳过图像的标志默认为错误的.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-获取或设置指示在加载 PDF 文档时是否必须跳过图像的标志。默认为 False.
+获取或设置指示加载 PDF 文档时是否必须跳过图像的标志。默认为`错误的`.
 
 ```csharp
 public bool SkipPdfImages { get; set; }
@@ -16,7 +16,7 @@ public bool SkipPdfImages { get; set; }
 
 ### 例子
 
-显示如何在加载 PDF 文件期间跳过图像。
+演示如何在加载 PDF 文件期间跳过图像。
 
 ```csharp
 PdfLoadOptions options = new PdfLoadOptions();

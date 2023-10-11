@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 允许表格中段落的上下文间距
+description: CompatibilityOptions 财产. 允许表中段落的上下文间距
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
 ---
 ## CompatibilityOptions.AllowSpaceOfSameStyleInTable property
 
-允许表格中段落的上下文间距。
+允许表中段落的上下文间距。
 
 ```csharp
 public bool AllowSpaceOfSameStyleInTable { get; set; }

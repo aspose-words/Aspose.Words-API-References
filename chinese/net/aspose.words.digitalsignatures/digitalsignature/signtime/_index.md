@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignTime
 second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 获取文档签署的时间
+description: DigitalSignature 财产. 获取文档的签名时间
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-获取文档签署的时间。
+获取文档的签名时间。
 
 ```csharp
 public DateTime SignTime { get; }

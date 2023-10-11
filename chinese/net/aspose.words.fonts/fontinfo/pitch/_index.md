@@ -16,7 +16,7 @@ public FontPitch Pitch { get; set; }
 
 ### 例子
 
-显示如何访问和打印文档中每种字体的详细信息。
+演示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

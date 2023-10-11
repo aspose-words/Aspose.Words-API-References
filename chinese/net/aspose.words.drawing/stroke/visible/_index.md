@@ -3,7 +3,7 @@ title: Stroke.Visible
 second_title: Aspose.Words for .NET API 参考
 description: Stroke 财产. 获取或设置指示笔划是否可见的标志
 type: docs
-weight: 190
+weight: 210
 url: /zh/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -16,7 +16,7 @@ public bool Visible { get; set; }
 
 ### 评论
 
-的默认值[`Shape`](../../shape/)是 **真的**.
+a 的默认值[`Shape`](../../shape/)是`真的`.
 
 ### 例子
 

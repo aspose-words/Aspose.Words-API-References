@@ -1,14 +1,14 @@
 ---
 title: Document.RenderToScale
 second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将文档页面呈现为Graphics对象到指定的比例
+description: Document 方法. 将文档页面呈现为Graphics指定比例的对象
 type: docs
-weight: 660
+weight: 700
 url: /zh/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-将文档页面呈现为Graphics对象到指定的比例。
+将文档页面呈现为Graphics指定比例的对象。
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -16,19 +16,19 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 基于 0 的页面索引。 |
+| pageIndex | Int32 | 从 0 开始的页面索引。 |
 | graphics | Graphics | 渲染到的对象。 |
-| x | Single | 渲染页面左上角的 X 坐标（以世界单位为单位）。 |
-| y | Single | 渲染页面左上角的 Y 坐标（以世界单位为单位）。 |
+| x | Single | 渲染页面左上角的 X 坐标（以世界单位表示）。 |
+| y | Single | 渲染页面左上角的 Y 坐标（以世界单位表示）。 |
 | scale | Single | 渲染页面的比例（1.0 为 100%）。 |
 
 ### 返回值
 
-呈现页面的宽度和高度（以世界单位为单位）。
+渲染页面的宽度和高度（以世界单位表示）。
 
 ### 例子
 
-演示如何将文档的各个页面转换为图形以创建一个包含所有页面缩略图的图像。
+演示如何将文档的各个页面转换为图形，以创建带有所有页面缩略图的一张图像。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -61,7 +61,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
         {
             int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
 
-            // 指定我们希望缩略图出现的位置。
+            // 指定缩略图出现的位置。
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
@@ -75,7 +75,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-将单个页面渲染为图形以创建一个包含所有页面缩略图的图像 (.NetStandard 2.0)。
+将各个页面呈现为图形，以创建带有所有页面缩略图的一张图像 (.NetStandard 2.0)。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -106,7 +106,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
         {
             int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
 
-            // 指定我们希望缩略图出现的位置。
+            // 指定缩略图出现的位置。
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 

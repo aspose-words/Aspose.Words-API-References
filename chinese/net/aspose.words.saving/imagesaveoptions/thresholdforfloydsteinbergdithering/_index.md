@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置确定 FloydSteinberg 方法中二值化误差的 value 的阈值 当ImageBinarizationMethod是 ImageBinarizationMethod.FloydSteinbergDithering.
+description: ImageSaveOptions 财产. 获取或设置阈值该阈值确定 FloydSteinberg 方法中二值化误差的值  当ImageBinarizationMethod是FloydSteinbergDithering.
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-获取或设置确定 Floyd-Steinberg 方法中二值化误差的 value 的阈值。 当[`ImageBinarizationMethod`](../../imagebinarizationmethod/)是 ImageBinarizationMethod.FloydSteinbergDithering.
+获取或设置阈值，该阈值确定 Floyd-Steinberg 方法中二值化误差的值 。 当[`ImageBinarizationMethod`](../../imagebinarizationmethod/)是FloydSteinbergDithering.
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -20,7 +20,7 @@ public byte ThresholdForFloydSteinbergDithering { get; set; }
 
 ### 例子
 
-演示在使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
+演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();

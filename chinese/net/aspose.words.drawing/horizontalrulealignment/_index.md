@@ -3,7 +3,7 @@ title: Enum HorizontalRuleAlignment
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Drawing.HorizontalRuleAlignment 枚举. 表示指定水平线的对齐方式
 type: docs
-weight: 910
+weight: 1040
 url: /zh/net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration
@@ -18,9 +18,9 @@ public enum HorizontalRuleAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 向左对齐。 |
+| Left | `0` | 左对齐。 |
 | Center | `1` | 与中心对齐。 |
-| Right | `2` | 向右对齐。 |
+| Right | `2` | 右对齐。 |
 
 ### 也可以看看
 

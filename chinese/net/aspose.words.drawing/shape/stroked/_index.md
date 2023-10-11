@@ -1,14 +1,14 @@
 ---
 title: Shape.Stroked
 second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义路径是否会被描边
+description: Shape 财产. 定义是否对路径进行描边
 type: docs
 weight: 200
 url: /zh/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-定义路径是否会被描边。
+定义是否对路径进行描边。
 
 ```csharp
 public bool Stroked { get; set; }
@@ -18,13 +18,14 @@ public bool Stroked { get; set; }
 
 这是一个快捷方式[`On`](../../stroke/on/)财产。
 
-默认值为 **真的**.
+默认值为`真的`。
 
 ### 例子
 
-演示如何遍历文档中的所有形状。
+演示如何迭代文档中的所有形状。
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ public bool Stroked { get; set; }
 }
 
 /// <summary>
-/// 记录有关访问形状的外观相关信息。
+/// 记录有关所访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行添加到 StringBuilder，每个缩进级别都带有一个前置制表符。
+    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -64,7 +65,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 Shape 节点的开头时调用。
+    /// 当访问者访问 Shape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -112,7 +113,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的开头时调用。
+    /// 当访问者访问 GroupShape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -123,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当此访问者访问 GroupShape 节点的末尾时调用。
+    /// 当访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SpacingInWholePoints
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 仅按整点扩展/压缩文本
+description: CompatibilityOptions 财产. 仅按整点展开/压缩文本
 type: docs
 weight: 450
 url: /zh/net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
 ---
 ## CompatibilityOptions.SpacingInWholePoints property
 
-仅按整点扩展/压缩文本。
+仅按整点展开/压缩文本。
 
 ```csharp
 public bool SpacingInWholePoints { get; set; }

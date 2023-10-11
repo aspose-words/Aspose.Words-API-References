@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.RevisionType
 second_title: Aspose.Words for .NET API 参考
-description: RevisionGroup 财产. 获取该组中包含的修订类型
+description: RevisionGroup 财产. 获取此组中包含的修订类型
 type: docs
 weight: 20
 url: /zh/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-获取该组中包含的修订类型。
+获取此组中包含的修订类型。
 
 ```csharp
 public RevisionType RevisionType { get; }
@@ -16,7 +16,7 @@ public RevisionType RevisionType { get; }
 
 ### 例子
 
-显示如何在文档中打印有关一组修订的信息。
+演示如何打印有关文档中一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

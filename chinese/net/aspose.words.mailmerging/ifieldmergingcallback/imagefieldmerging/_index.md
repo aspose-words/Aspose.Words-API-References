@@ -25,14 +25,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // 打开数据读取器，它需要处于一次读取所有记录的模式。
+        // 打开数据读取器，需要处于一次读取所有记录的模式。
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -49,7 +50,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
+    /// 当邮件合并在文档中遇到名称中包含“Image:”标记的 MERGEFIELD 时，将调用此函数。
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection.Count
 second_title: Aspose.Words for .NET API 参考
-description: FramesetCollection 财产. 获取集合中包含的框架或框架页面的数量
+description: FramesetCollection 财产. 获取集合中包含的帧或帧页的数量
 type: docs
 weight: 20
 url: /zh/net/aspose.words.framesets/framesetcollection/count/
 ---
 ## FramesetCollection.Count property
 
-获取集合中包含的框架或框架页面的数量。
+获取集合中包含的帧或帧页的数量。
 
 ```csharp
 public int Count { get; }

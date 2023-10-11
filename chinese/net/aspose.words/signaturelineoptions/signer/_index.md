@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Signer
 second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置签名行的建议签名者 此属性的默认值为 空字符串Empty .
+description: SignatureLineOptions 财产. 获取或设置签名行的建议签名者 此属性的默认值为 空字符串Empty.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串**(Empty ).
+获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串**（Empty).
 
 ```csharp
 public string Signer { get; set; }
@@ -16,10 +16,11 @@ public string Signer { get; set; }
 
 ### 例子
 
-演示如何将签名行添加到文档，然后使用数字证书对其进行签名。
+演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -46,7 +47,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // 配置并插入一个签名行，文档中的一个对象，它将显示我们用来签名的签名。
+            // 配置并插入签名行，这是文档中的一个对象，将显示我们用来签名的签名。
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 

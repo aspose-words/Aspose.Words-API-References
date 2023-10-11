@@ -20,7 +20,7 @@ public static string Version { get; }
 
 ### 例子
 
-显示如何显示有关已安装的 Aspose.Words 版本的信息。
+演示如何显示有关已安装的 Aspose.Words 版本的信息。
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

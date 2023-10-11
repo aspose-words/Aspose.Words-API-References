@@ -3,7 +3,7 @@ title: Section.Clone
 second_title: Aspose.Words for .NET API 参考
 description: Section 方法. 创建此部分的副本
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -16,7 +16,7 @@ public Section Clone()
 
 ### 例子
 
-显示如何在文档中添加和删除部分。
+演示如何在文档中添加和删除部分。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// 将现在第一部分的副本附加到文档的末尾。
+// 将当前第一部分的副本附加到文档末尾。
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

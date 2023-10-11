@@ -3,7 +3,7 @@ title: Style.Document
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 获取所有者文档
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/style/document/
 ---
 ## Style.Document property
@@ -16,7 +16,7 @@ public DocumentBase Document { get; }
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

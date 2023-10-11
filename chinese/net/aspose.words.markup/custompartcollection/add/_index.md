@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection.Add
 second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 方法. 将一个项目添加到集合中
+description: CustomPartCollection 方法. 将项目添加到集合中
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompartcollection/add/
 ---
 ## CustomPartCollection.Add method
 
-将一个项目添加到集合中。
+将项目添加到集合中。
 
 ```csharp
 public void Add(CustomPart part)
@@ -20,7 +20,7 @@ public void Add(CustomPart part)
 
 ### 例子
 
-显示如何访问文档的任意自定义部件集合。
+演示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
+// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### 例子
 
-显示如何配置文本下划线的样式和颜色。
+演示如何配置文本下划线的样式和颜色。
 
 ```csharp
 Document doc = new Document();

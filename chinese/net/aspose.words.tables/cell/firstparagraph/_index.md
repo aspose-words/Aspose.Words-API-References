@@ -1,14 +1,14 @@
 ---
 title: Cell.FirstParagraph
 second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取直接子级中的第一段
+description: Cell 财产. 获取直接子级中的第一个段落
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/cell/firstparagraph/
 ---
 ## Cell.FirstParagraph property
 
-获取直接子级中的第一段。
+获取直接子级中的第一个段落。
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### 例子
 
-展示如何使用文档构建器创建嵌套表。
+演示如何使用文档生成器创建嵌套表。
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// 移动到外部表格的第一个单元格，在单元格内构建另一个表格。
+// 移动到外部表格的第一个单元格，在该单元格内构建另一个表格。
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -40,18 +40,18 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
-展示如何在不使用文档构建器的情况下构建嵌套表。
+演示如何在不使用文档生成器的情况下构建嵌套表。
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // 创建三行四列的外部表，然后将其添加到文档中。
+    // 创建三行四列的外表，然后将其添加到文档中。
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // 创建另一个包含两行两列的表，然后将其插入到第一个表的第一个单元格中。
+    // 创建另一个包含两行和两列的表格，然后将其插入到第一个表格的第一个单元格中。
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -80,10 +80,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // 您可以使用“标题”和“描述”属性分别为表格添加标题和描述。
-    // 在我们可以使用这些属性之前，表格必须至少有一行。
-    // 这些属性对于符合 ISO/IEC 29500 的 .docx 文档有意义（请参阅 OoxmlCompliance 类）。
-    // 如果我们将文档保存为 pre-ISO/IEC 29500 格式，Microsoft Word 会忽略这些属性。
+    // 您可以使用“标题”和“描述”属性分别向表格添加标题和描述。
+    // 在我们可以使用这些属性之前，表必须至少有一行。
+    // 这些属性对于符合 ISO / IEC 29500 的 .docx 文档有意义（请参阅 OoxmlCompliance 类）。
+    // 如果我们将文档保存为 ISO/IEC 29500 之前的格式，Microsoft Word 将忽略这些属性。
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.HtmlVersion
 second_title: Aspose.Words for .NET API 参考
 description: HtmlSaveOptions 财产. 指定将文档保存为 HTML 或 MHTML 时应使用的 HTML 标准版本 默认值为Xhtml.
 type: docs
-weight: 340
+weight: 330
 url: /zh/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
@@ -16,7 +16,7 @@ public HtmlVersion HtmlVersion { get; set; }
 
 ### 例子
 
-显示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
+演示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// 我们的 HTML 文档会有细微的差异以兼容不同的 HTML 版本。
+// 我们的 HTML 文档会有细微的差别，以兼容不同的 HTML 版本。
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

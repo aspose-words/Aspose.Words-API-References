@@ -3,12 +3,14 @@ title: Class FolderFontSource
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Fonts.FolderFontSource 班级. 表示包含 TrueType 字体文件的文件夹
 type: docs
-weight: 2700
+weight: 2880
 url: /zh/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
 表示包含 TrueType 字体文件的文件夹。
+
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
 
 ```csharp
 public class FolderFontSource : FontSourceBase
@@ -18,8 +20,8 @@ public class FolderFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | 克托尔. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | 克托尔. |
+| [FolderFontSource](folderfontsource/#constructor)(string, bool) | 向量. |
+| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | 向量. |
 
 ## 特性
 
@@ -29,7 +31,7 @@ public class FolderFontSource : FontSourceBase
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | 返回字体源优先级。 |
 | [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | 确定是否扫描子文件夹。 |
 | override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | 返回字体源的类型。 |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 在处理字体源期间检测到可能导致格式保真度损失的问题时调用。 |
 
 ## 方法
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 
 ### 例子
 
-展示如何使用包含字体的本地系统文件夹作为字体源。
+演示如何使用包含字体的本地系统文件夹作为字体源。
 
 ```csharp
 // 从包含字体文件的文件夹创建字体源。

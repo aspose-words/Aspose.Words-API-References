@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldDatabaseProvider 界面. 实现此接口为FieldDatabase更新时的字段
+description: Aspose.Words.Fields.IFieldDatabaseProvider 界面. 实现该接口为FieldDatabase更新时的字段
 type: docs
-weight: 2520
+weight: 2690
 url: /zh/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
 
-实现此接口为[`FieldDatabase`](../fielddatabase/)更新时的字段。
+实现该接口，为[`FieldDatabase`](../fielddatabase/)更新时的字段。
 
 ```csharp
 public interface IFieldDatabaseProvider

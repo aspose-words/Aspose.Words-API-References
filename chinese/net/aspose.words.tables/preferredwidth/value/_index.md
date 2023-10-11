@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Value
 second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 财产. 获取首选宽度值计量单位在Type属性.
+description: PreferredWidth 财产. 获取首选宽度值测量单位在中指定Type属性.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-获取首选宽度值。计量单位在[`Type`](../type/)属性.
+获取首选宽度值。测量单位在中指定[`Type`](../type/)属性.
 
 ```csharp
 public double Value { get; }
@@ -16,7 +16,7 @@ public double Value { get; }
 
 ### 例子
 
-显示如何验证表格单元格的首选宽度类型和值。
+演示如何验证表格单元格的首选宽度类型和值。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -3,7 +3,7 @@ title: FieldOptions.TemplateName
 second_title: Aspose.Words for .NET API 参考
 description: FieldOptions 财产. 获取或设置文档使用的模板的文件名
 type: docs
-weight: 170
+weight: 190
 url: /zh/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -16,7 +16,7 @@ public string TemplateName { get; set; }
 
 ### 评论
 
-该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)属性为空。
+该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)财产是空的。
 
 如果该属性为空，则默认模板文件名`正常.dotm`用来。
 

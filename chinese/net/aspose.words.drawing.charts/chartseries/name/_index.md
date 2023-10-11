@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.Name
 second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 获取或设置系列的名称如果未明确设置名称则使用索引生成 默认情况下返回系列加一个基于索引
+description: ChartSeries 财产. 获取或设置系列的名称如果未显式设置名称则使用索引生成 默认情况下返回系列加一的索引
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.words.drawing.charts/chartseries/name/
 ---
 ## ChartSeries.Name property
 
-获取或设置系列的名称，如果未明确设置名称，则使用索引生成。 默认情况下返回系列加一个基于索引。
+获取或设置系列的名称，如果未显式设置名称，则使用索引生成。 默认情况下返回系列加一的索引。
 
 ```csharp
 public string Name { get; set; }
@@ -16,9 +16,10 @@ public string Name { get; set; }
 
 ### 例子
 
-显示如何将标签应用于折线图中的数据点。
+展示如何将标签应用到折线图中的数据点。
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -32,7 +33,7 @@ public string Name { get; set; }
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 将数据标签应用于图表中的每个系列。
-    // 这些标签将出现在图表中每个数据点的旁边并显示其值。
+    // 这些标签将出现在图表中每个数据点旁边并显示其值。
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -49,17 +50,17 @@ public string Name { get; set; }
         }
     }
 
-    // 为了更清晰的图表，我们可以单独删除数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据标签。
+    // 我们还可以一次剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// 将具有自定义数字格式和分隔符的数据标签应用于系列中的多个数据点。
+/// 将具有自定义数字格式和分隔符的数据标签应用于一系列中的多个数据点。
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

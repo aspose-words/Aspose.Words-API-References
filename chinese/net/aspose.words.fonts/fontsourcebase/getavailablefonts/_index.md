@@ -16,10 +16,10 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 
 ### 例子
 
-显示如何列出可用字体。
+演示如何列出可用字体。
 
 ```csharp
-// 将 Aspose.Words 配置为从自定义文件夹获取字体，然后打印所有可用字体。
+// 将 Aspose.Words 配置为从自定义文件夹获取字体，然后打印每种可用字体。
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

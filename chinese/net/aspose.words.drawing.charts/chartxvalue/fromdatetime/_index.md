@@ -1,0 +1,23 @@
+---
+title: ChartXValue.FromDateTime
+second_title: Aspose.Words for .NET API 参考
+description: ChartXValue 方法. 创建一个ChartXValue的实例DateTime类型.
+type: docs
+weight: 10
+url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromdatetime/
+---
+## ChartXValue.FromDateTime method
+
+创建一个[`ChartXValue`](../)的实例DateTime类型.
+
+```csharp
+public static ChartXValue FromDateTime(DateTime value)
+```
+
+### 也可以看看
+
+* class [ChartXValue](../)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* 部件 [Aspose.Words](../../../)
+
+

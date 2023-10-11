@@ -3,7 +3,7 @@ title: Enum EditingLanguage
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Loading.EditingLanguage 枚举. 指定编辑语言
 type: docs
-weight: 3400
+weight: 3600
 url: /zh/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration
@@ -248,7 +248,7 @@ public enum EditingLanguage
 
 ### 例子
 
-显示如何在加载文档时应用语言首选项。
+演示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

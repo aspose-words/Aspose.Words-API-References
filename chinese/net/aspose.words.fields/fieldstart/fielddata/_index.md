@@ -16,7 +16,7 @@ public byte[] FieldData { get; }
 
 ### 例子
 
-显示如何获取与字段关联的数据。
+展示如何获取与字段关联的数据。
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - Field with data.docx");

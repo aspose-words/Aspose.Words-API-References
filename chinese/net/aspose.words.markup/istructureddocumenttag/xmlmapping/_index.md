@@ -16,7 +16,7 @@ public XmlMapping XmlMapping { get; }
 
 ### 评论
 
-你可以使用[`SetMapping`](../../xmlmapping/setmapping/)此对象的方法将 结构化文档标记映射到 XML 数据。
+您可以使用[`SetMapping`](../../xmlmapping/setmapping/)该对象的方法将 结构化文档标记映射到 XML 数据。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Aspose.Words for .NET API 参考
 description: Document 财产. 返回表示任务窗格加载项列表的集合
 type: docs
-weight: 470
+weight: 490
 url: /zh/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

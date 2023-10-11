@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 方法. 从集合中删除指定 VbaReference 项的第一个匹配项
+description: VbaReferenceCollection 方法. 删除第一次出现的指定VbaReference集合中的项目
 type: docs
 weight: 30
 url: /zh/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-从集合中删除指定 VbaReference 项的第一个匹配项。
+删除第一次出现的指定[`VbaReference`](../../vbareference/)集合中的项目。
 
 ```csharp
 public void Remove(VbaReference item)
@@ -16,10 +16,9 @@ public void Remove(VbaReference item)
 
 ### 例子
 
-显示如何从 VBA 引用集合中获取/删除元素。
+演示如何从 VBA 参考集合中获取/删除元素。
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// 返回表示指定引用的 LibId 路径的字符串。 
+ /// 返回表示指定引用的 LibId 路径的字符串。
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentStart
 second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举词汇表文档时调用
+description: DocumentVisitor 方法. 在词汇表文档枚举开始时调用
 type: docs
 weight: 250
 url: /zh/net/aspose.words/documentvisitor/visitglossarydocumentstart/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentStart method
 
-在开始枚举词汇表文档时调用。
+在词汇表文档枚举开始时调用。
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossary)
@@ -20,15 +20,15 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 ### 返回值
 
-一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ### 评论
 
-注意：当您执行 a Visitor over a 时，不会访问词汇表文档节点及其子节点[`Document`](../../document/).如果要在 a 词汇表文档上执行访问者，则需要调用[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/).
+注意：当您在 a Visitor 上执行 a Visitor 时，不会访问词汇表文档节点及其子节点。[`Document`](../../document/) 。如果你想对a 词汇表文档执行Visitor，你需要调用[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/).
 
 ### 例子
 
-显示访问词汇表文档中构建块的方法。
+显示访问术语表文档中的构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -46,7 +46,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 有多种访问构建块的方法。
+    // 访问构建块的方式有多种。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -63,15 +63,14 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

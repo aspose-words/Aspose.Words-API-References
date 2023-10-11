@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItem
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtListItem 班级. 此元素指定父项中的单个列表项ComboBox或者DropDownList结构化文档标签
+description: Aspose.Words.Markup.SdtListItem 班级. 该元素指定父级中的单个列表项ComboBox或者DropDownList结构化文档标签.
 type: docs
-weight: 3780
+weight: 4020
 url: /zh/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-此元素指定父项中的单个列表项ComboBox或者DropDownList结构化文档标签。
+该元素指定父级中的单个列表项ComboBox或者DropDownList结构化文档标签.
+
+要了解更多信息，请访问[结构化文档标签或内容控制](https://docs.aspose.com/words/net/working-with-content-control-sdt/)文档文章。
 
 ```csharp
 public class SdtListItem
@@ -18,8 +20,8 @@ public class SdtListItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | 初始化这个类的一个新实例。 |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | 初始化这个类的一个新实例。 |
+| [SdtListItem](sdtlistitem/#constructor)(string) | 初始化此类的新实例。 |
+| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -45,7 +47,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 再添加 3 个列表项。使用与第一项不同的构造函数初始化这些项
+// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -71,12 +73,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 因为我们的下拉控件默认设置为显示被移除的项，所以给它一个要显示的项，它存在。
+// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// 使用“清除”方法一次清空整个下拉项集合。
+// 使用“Clear”方法一次性清空整个下拉项集合。
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

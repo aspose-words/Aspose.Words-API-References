@@ -3,12 +3,14 @@ title: Class Chart
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Drawing.Charts.Chart 班级. 提供对图表形状属性的访问
 type: docs
-weight: 600
+weight: 620
 url: /zh/net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
 
 提供对图表形状属性的访问。
+
+要了解更多信息，请访问[使用图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
 
 ```csharp
 public class Chart
@@ -18,6 +20,7 @@ public class Chart
 
 | 姓名 | 描述 |
 | --- | --- |
+| [Axes](../../aspose.words.drawing.charts/chart/axes/) { get; } | 获取此图表所有轴的集合。 |
 | [AxisX](../../aspose.words.drawing.charts/chart/axisx/) { get; } | 提供对图表 X 轴属性的访问。 |
 | [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | 提供对图表 Y 轴属性的访问。 |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | 提供对图表 Z 轴属性的访问。 |
@@ -28,17 +31,17 @@ public class Chart
 
 ### 例子
 
-显示如何插入图表和设置标题。
+演示如何插入图表并设置标题。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入图表形状并获取其图表。
+// 使用文档生成器插入图表形状并获取其图表。
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性给我们的图表一个标题，它出现在图表区域的顶部中心。
+// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 

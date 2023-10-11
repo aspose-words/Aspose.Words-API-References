@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
 second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定 HTML 文档中页面的水平对齐方式 默认值为HtmlFixedHorizontalPageAlignment.Center.
+description: HtmlFixedSaveOptions 财产. 指定 HTML 文档中页面的水平对齐方式 默认值为Center.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-指定 HTML 文档中页面的水平对齐方式。 默认值为`HtmlFixedHorizontalPageAlignment.Center`.
+指定 HTML 文档中页面的水平对齐方式。 默认值为Center.
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ### 例子
 
-演示如何在将文档保存为 HTML 时设置页面的水平对齐方式。
+演示将文档保存为 HTML 时如何设置页面的水平对齐方式。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

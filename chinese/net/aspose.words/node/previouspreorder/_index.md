@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousPreOrder
 second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 根据前序树遍历算法获取上一个节点
+description: Node 方法. 根据先序树遍历算法获取前一个节点
 type: docs
 weight: 140
 url: /zh/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-根据前序树遍历算法获取上一个节点。
+根据先序树遍历算法获取前一个节点。
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -16,15 +16,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | Node | 遍历的顶部节点（极限）。 |
+| rootNode | Node | 遍历的顶节点（极限）。 |
 
 ### 返回值
 
-预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+预订顺序中的前一个节点。如果达到则为空*rootNode*。
 
 ### 例子
 
-展示如何使用前序遍历算法遍历文档的节点树，并使用图像删除任何遇到的形状。
+演示如何使用前序遍历算法遍历文档的节点树，并删除遇到的任何图像形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

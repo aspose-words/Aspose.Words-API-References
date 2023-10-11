@@ -16,7 +16,7 @@ public bool AllowCellSpacing { get; set; }
 
 ### 例子
 
-显示如何在表格中的各个单元格之间启用间距。
+演示如何启用表格中各个单元格之间的间距。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.EndTable();
 table.CellSpacing = 3;
 
 // 将“AllowCellSpacing”属性设置为“true”以启用单元格之间的间距
-// 大小等于“CellSpacing”属性的值，以磅为单位。
+// 其大小等于“CellSpacing”属性的值（以磅为单位）。
 // 将“AllowCellSpacing”属性设置为“false”以禁用单元格间距
 // 并忽略“CellSpacing”属性的值。
 table.AllowCellSpacing = allowCellSpacing;

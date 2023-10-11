@@ -1,14 +1,16 @@
 ---
 title: Class ShapeRenderer
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering.ShapeRenderer 班级. 提供渲染个体的方法Shape或者GroupShape 到光栅或矢量图像或图形对象
+description: Aspose.Words.Rendering.ShapeRenderer 班级. 提供渲染个体的方法Shape或者GroupShape 到光栅或矢量图像或 Graphics 对象
 type: docs
-weight: 4330
+weight: 4590
 url: /zh/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-提供渲染个体的方法[`Shape`](../../aspose.words.drawing/shape/)或者[`GroupShape`](../../aspose.words.drawing/groupshape/) 到光栅或矢量图像或图形对象。
+提供渲染个体的方法[`Shape`](../../aspose.words.drawing/shape/)或者[`GroupShape`](../../aspose.words.drawing/groupshape/) 到光栅或矢量图像或 Graphics 对象。
+
+要了解更多信息，请访问[使用形状](https://docs.aspose.com/words/net/working-with-shapes/)文档文章。
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -18,36 +20,37 @@ public class ShapeRenderer : NodeRendererBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ShapeRenderer](shaperenderer/)(ShapeBase) | 初始化这个类的一个新实例。 |
+| [ShapeRenderer](shaperenderer/)(ShapeBase) | 初始化此类的新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | 以点为单位获取形状的实际边界。 |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | 以点为单位获取形状的不透明边界。 |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | 以点为单位获取形状的实际大小。 |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | 获取形状的实际边界（以点为单位）。 |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | 获取形状的不透明边界（以点为单位）。 |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | 获取形状的实际大小（以磅为单位）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | 计算指定缩放因子和分辨率的形状边界（以像素为单位）。 |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | 计算指定缩放因子和分辨率的形状边界（以像素为单位）。 |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | 计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。 |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | 计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。 |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | 计算指定缩放因子和分辨率的形状大小（以像素为单位）。 |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | 计算指定缩放因子和分辨率的形状大小（以像素为单位）。 |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | 将形状渲染为Graphics 对象到指定的比例。 |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | 将形状渲染为Graphics 对象到指定的大小。 |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | 将形状渲染成图像并保存到流中。 |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | 将形状渲染成图像并保存到文件中。 |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | 计算指定缩放系数和分辨率的形状边界（以像素为单位）。 |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | 计算指定缩放系数和分辨率的形状边界（以像素为单位）。 |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | 计算指定缩放系数和分辨率的形状的不透明边界（以像素为单位）。 |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | 计算指定缩放系数和分辨率的形状的不透明边界（以像素为单位）。 |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | 计算指定缩放系数和分辨率下形状的大小（以像素为单位）。 |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | 计算指定缩放系数和分辨率下形状的大小（以像素为单位）。 |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | 将形状渲染为Graphics 对象达到指定比例。 |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | 将形状渲染为Graphics 对象到指定大小。 |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | 将形状渲染为图像并保存到流中。 |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | 将形状渲染为图像并保存到文件中。 |
 
 ### 例子
 
-演示如何使用 Graphics 对象呈现形状并使用 Windows 窗体显示它。
+演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -145,6 +148,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

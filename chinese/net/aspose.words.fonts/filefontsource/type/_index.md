@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 
 ### 例子
 
-展示如何使用本地文件系统中的字体文件作为字体源。
+演示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

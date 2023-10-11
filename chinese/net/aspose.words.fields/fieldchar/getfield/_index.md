@@ -1,14 +1,14 @@
 ---
 title: FieldChar.GetField
 second_title: Aspose.Words for .NET API 参考
-description: FieldChar 方法. 为字段 char 返回一个字段
+description: FieldChar 方法. 返回字段 char. 的字段
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldchar/getfield/
 ---
 ## FieldChar.GetField method
 
-为字段 char 返回一个字段。
+返回字段 char. 的字段
 
 ```csharp
 public Field GetField()
@@ -16,15 +16,15 @@ public Field GetField()
 
 ### 返回值
 
-字段 char 的字段。
+字段字符的字段。
 
 ### 评论
 
-一个新的[`Field`](../../field/)每次调用该方法时都会创建对象。
+一个新的[`Field`](../../field/)每次调用方法时都会创建对象。
 
 ### 例子
 
-显示如何使用 FieldStart 节点。
+展示如何使用 FieldStart 节点。
 
 ```csharp
 Document doc = new Document();

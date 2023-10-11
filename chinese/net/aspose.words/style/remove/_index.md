@@ -3,7 +3,7 @@ title: Style.Remove
 second_title: Aspose.Words for .NET API 参考
 description: Style 方法. 从文档中删除指定的样式
 type: docs
-weight: 180
+weight: 200
 url: /zh/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -16,11 +16,11 @@ public void Remove()
 
 ### 评论
 
-样式移除对文档模型有以下影响：
+样式删除对文档模型有以下影响：
 
-* 从相应的段落、运行和表格中删除对样式的所有引用。
-* 如果删除基本样式，则其格式将移至子样式。
-* 如果要删除的样式具有链接样式，则这两个样式都将被删除。
+* 所有对该样式的引用都将从相应的段落、运行和表格中删除。
+* 如果删除基本样式，其格式将移至子样式。
+* 如果要删除的样式具有链接样式，则这两个样式都会被删除。
 
 ### 例子
 
@@ -33,10 +33,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// 自动重新定义样式。
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将文档中的一种样式应用于文档构建器正在创建的段落。
+// 将文档中的一种样式应用到文档生成器正在创建的段落。
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -49,7 +51,7 @@ doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// 任何使用已删除样式的文本都将恢复为默认格式。
+// 使用已删除样式的任何文本都会恢复为默认格式。
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果段落中的所有行都保留在同一页上则为真
+description: ParagraphFormat 财产. 如果段落中的所有行都保留在同一页上则为 True
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-如果段落中的所有行都保留在同一页上，则为真。
+如果段落中的所有行都保留在同一页上，则为 True。
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在追加文本后结束段落
+// “Writeln”方法在附加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

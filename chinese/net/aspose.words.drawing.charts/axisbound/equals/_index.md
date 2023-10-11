@@ -1,14 +1,14 @@
 ---
 title: AxisBound.Equals
 second_title: Aspose.Words for .NET API 参考
-description: AxisBound 方法. 确定指定对象的值是否与当前对象相等
+description: AxisBound 方法. 确定指定对象的值是否等于当前对象
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/axisbound/equals/
 ---
 ## AxisBound.Equals method
 
-确定指定对象的值是否与当前对象相等。
+确定指定对象的值是否等于当前对象。
 
 ```csharp
 public override bool Equals(object obj)

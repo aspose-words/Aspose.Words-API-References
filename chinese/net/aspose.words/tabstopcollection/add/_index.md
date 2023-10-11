@@ -24,13 +24,13 @@ public void Add(TabStop tabStop)
 
 ### 例子
 
-显示如何将自定义制表位添加到文档。
+演示如何向文档添加自定义制表位。
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// 下面是通过“ParagraphFormat”属性将制表位添加到段落的制表位集合的两种方法。
+// 下面是通过“ParagraphFormat”属性将制表位添加到段落制表位集合的两种方法。
 // 1 - 创建一个“TabStop”对象，然后将其添加到集合中：
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
@@ -46,7 +46,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Pa
         TabLeader.Dashes);
 }
 
-// 每个“制表符”字符将构建器的光标带到下一个制表位的位置。
+// 每个“制表符”字符都会将构建器的光标移动到下一个制表位的位置。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -73,8 +73,8 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | position | Double | 添加制表位的位置（以磅为单位）。 |
-| alignment | TabAlignment | 一个[`TabAlignment`](../../tabalignment/)值 that 指定制表位处的文本对齐方式。 |
-| leader | TabLeader | 一个[`TabLeader`](../../tableader/)值 that 指定在制表符下显示的引导线的类型。 |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/)值 that 指定制表位处的文本对齐方式。 |
+| leader | TabLeader | A[`TabLeader`](../../tableader/) value that 指定制表符下显示的引导线的类型。 |
 
 ### 评论
 
@@ -82,13 +82,13 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 ### 例子
 
-显示如何将自定义制表位添加到文档。
+演示如何向文档添加自定义制表位。
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// 下面是通过“ParagraphFormat”属性将制表位添加到段落的制表位集合的两种方法。
+// 下面是通过“ParagraphFormat”属性将制表位添加到段落制表位集合的两种方法。
 // 1 - 创建一个“TabStop”对象，然后将其添加到集合中：
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
@@ -104,7 +104,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Pa
         TabLeader.Dashes);
 }
 
-// 每个“制表符”字符将构建器的光标带到下一个制表位的位置。
+// 每个“制表符”字符都会将构建器的光标移动到下一个制表位的位置。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

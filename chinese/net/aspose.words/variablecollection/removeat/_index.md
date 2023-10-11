@@ -41,10 +41,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// 为现有键赋值将更新它们。
+// 为现有键分配值将更新它们。
 variables.Add("Home address", "456 Queen St.");
 
-// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新的值。
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -55,12 +55,12 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// 变量集合自动按名称的字母顺序对变量进行排序。
+// 变量集合自动按名称字母顺序对变量进行排序。
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// 枚举变量的集合。
+// 枚举变量集合。
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
@@ -76,7 +76,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - 一次清除整个集合：
+// 3 - 立即清除整个集合：
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

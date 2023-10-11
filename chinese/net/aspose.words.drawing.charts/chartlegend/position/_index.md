@@ -16,7 +16,7 @@ public LegendPosition Position { get; set; }
 
 ### 例子
 
-显示如何编辑图表图例的外观。
+演示如何编辑图表图例的外观。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// 通过允许它们与图例重叠，为其他图表元素（例如图形）提供更多空间。
+// 通过允许其他图表元素（例如图表）与图例重叠，为它们提供更多空间。
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

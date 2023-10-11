@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 
 ### 例子
 
-演示如何将字节数组与字体文件中的数据一起用作字体源。
+演示如何使用字节数组和字体文件中的数据作为字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 如果这是一个组形状则返回 true
+description: ShapeBase 财产. 返回真的如果这是一个团体形状.
 type: docs
-weight: 250
+weight: 260
 url: /zh/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-如果这是一个组形状，则返回 true。
+返回`真的`如果这是一个团体形状.
 
 ```csharp
 public bool IsGroup { get; }
@@ -25,7 +25,7 @@ public void GroupOfShapes()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// 将访问的形状组的内容打印到控制台。
+/// 将访问过的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

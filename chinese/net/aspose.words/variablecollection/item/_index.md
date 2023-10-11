@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Item
 second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 财产. 通过不区分大小写的名称获取或设置文档变量 不允许将空值作为赋值的右侧并将替换为空字符串
+description: VariableCollection 财产. 通过不区分大小写的名称获取或设置文档变量 无效的值不允许作为赋值的右侧并将被空字符串替换
 type: docs
 weight: 20
 url: /zh/net/aspose.words/variablecollection/item/
 ---
 ## VariableCollection indexer (1 of 2)
 
-通过不区分大小写的名称获取或设置文档变量。 不允许将空值作为赋值的右侧，并将替换为空字符串。
+通过不区分大小写的名称获取或设置文档变量。 `无效的`值不允许作为赋值的右侧，并将被空字符串替换。
 
 ```csharp
 public string this[string name] { get; set; }
@@ -24,7 +24,7 @@ public string this[string name] { get; set; }
 
 ## VariableCollection indexer (2 of 2)
 
-获取或设置指定索引处的文档变量。 不允许空值作为赋值的右侧，将被空字符串替换。
+获取或设置指定索引处的文档变量。 `无效的`值不允许作为赋值的右侧，并将被空字符串替换。
 
 ```csharp
 public string this[int index] { get; set; }

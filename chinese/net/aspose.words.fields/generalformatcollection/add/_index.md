@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.Add
 second_title: Aspose.Words for .NET API 参考
-description: GeneralFormatCollection 方法. 向集合添加通用格式
+description: GeneralFormatCollection 方法. 将通用格式添加到集合中
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/generalformatcollection/add/
 ---
 ## GeneralFormatCollection.Add method
 
-向集合添加通用格式。
+将通用格式添加到集合中。
 
 ```csharp
 public void Add(GeneralFormat item)
@@ -16,17 +16,17 @@ public void Add(GeneralFormat item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | GeneralFormat | 一种通用格式。 |
+| item | GeneralFormat | 通用格式。 |
 
 ### 例子
 
-显示如何格式化字段结果。
+展示如何设置字段结果的格式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入一个显示未应用格式的结果的字段。
+// 使用文档生成器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -68,7 +68,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为原始形式。
+// 我们可以删除格式以将字段的结果恢复为其原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
