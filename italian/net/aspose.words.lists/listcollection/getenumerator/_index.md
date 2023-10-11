@@ -1,14 +1,14 @@
 ---
 title: ListCollection.GetEnumerator
 second_title: Aspose.Words per .NET API Reference
-description: ListCollection metodo. Ottiene loggetto enumeratore che enumera gli elenchi nel documento.
+description: ListCollection metodo. Ottiene loggetto enumeratore che enumererà gli elenchi nel documento.
 type: docs
 weight: 60
 url: /it/net/aspose.words.lists/listcollection/getenumerator/
 ---
 ## ListCollection.GetEnumerator method
 
-Ottiene l'oggetto enumeratore che enumera gli elenchi nel documento.
+Ottiene l'oggetto enumeratore che enumererà gli elenchi nel documento.
 
 ```csharp
 public IEnumerator<List> GetEnumerator()

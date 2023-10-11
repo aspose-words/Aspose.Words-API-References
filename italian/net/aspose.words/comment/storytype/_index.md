@@ -1,14 +1,14 @@
 ---
 title: Comment.StoryType
 second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. Restituisce StoryType.Commenti .
+description: Comment proprietà. RestituisceComments .
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
 
-Restituisce **StoryType.Commenti** .
+RestituisceComments .
 
 ```csharp
 public override StoryType StoryType { get; }
@@ -33,9 +33,9 @@ footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// Anche una InlineStory ha un metodo "EnsureMinimum()", ma in questo caso,
+// Anche una InlineStory ha un metodo "EnsureMinimum()", ma in questo caso
 // si assicura che l'ultimo figlio del nodo sia un paragrafo,
-// per consentirci di fare clic e scrivere testo facilmente in Microsoft Word.
+// per poter fare clic e scrivere facilmente testo in Microsoft Word.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
@@ -54,9 +54,9 @@ Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc,
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
 // Tuttavia, l'ultimo paragrafo è quello del contenuto del testo del commento,
-// che sarà al di fuori del corpo del documento principale in un fumetto.
-// Un commento non avrà alcun nodo figlio per impostazione predefinita,
-// così possiamo applicare il metodo GuaranteeMinimum() anche per inserire un paragrafo qui.
+// che sarà all'esterno del corpo principale del documento in un fumetto.
+// Un commento non avrà nodi figli per impostazione predefinita,
+// così possiamo applicare il metodo GuaranteeMinimum() per inserire un paragrafo anche qui.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);

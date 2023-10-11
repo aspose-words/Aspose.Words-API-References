@@ -20,7 +20,7 @@ X509Certificate2 esempio
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

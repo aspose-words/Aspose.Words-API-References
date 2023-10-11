@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
 second_title: Aspose.Words per .NET API Reference
-description: GraphicsQualityOptions proprietà. Ottiene o imposta la qualità di rendering delle immagini composte disegnate su questa grafica.
+description: GraphicsQualityOptions proprietà. Ottiene o imposta la qualità di rendering delle immagini composte disegnate in questo Graphics.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Ottiene o imposta la qualità di rendering delle immagini composte disegnate su questa grafica.
+Ottiene o imposta la qualità di rendering delle immagini composte disegnate in questo Graphics.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }

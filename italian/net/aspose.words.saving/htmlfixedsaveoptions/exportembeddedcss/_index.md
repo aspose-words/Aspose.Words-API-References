@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se il CSS Cascading Style Sheet deve essere incorporato nel documento HTML.
+description: HtmlFixedSaveOptions proprietà. Specifica se il CSS Cascading Style Sheet deve essere incorporato nel documento Html.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-Specifica se il CSS (Cascading Style Sheet) deve essere incorporato nel documento HTML.
+Specifica se il CSS (Cascading Style Sheet) deve essere incorporato nel documento Html.
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -16,15 +16,15 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### Esempi
 
-Mostra come determinare dove archiviare i fogli di stile CSS durante l'esportazione di un documento in Html.
+Mostra come determinare dove archiviare i fogli di stile CSS durante l'esportazione di un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Quando esportiamo un documento in html, Aspose.Words creerà anche un foglio di stile CSS con cui formattare il documento.
 // Impostando il flag "ExportEmbeddedCss" su "true" salva il foglio di stile CSS in un file .css,
-// e collega al file dal documento html utilizzando un <link> elemento.
-// L'impostazione del flag su "false" incorporerà il foglio di stile CSS all'interno del documento Html,
+// e collegarsi al file dal documento html utilizzando un <link> elemento.
+// Impostando il flag su "false" incorporerà il foglio di stile CSS all'interno del documento Html,
 // che creerà un solo file invece di due.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

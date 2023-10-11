@@ -3,12 +3,14 @@ title: Class ChartLegend
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartLegend classe. Rappresenta le proprietà della legenda del grafico.
 type: docs
-weight: 680
+weight: 720
 url: /it/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
 Rappresenta le proprietà della legenda del grafico.
+
+Per saperne di più, visita il[Lavorare con i grafici](https://docs.aspose.com/words/net/working-with-charts/) articolo di documentazione.
 
 ```csharp
 public class ChartLegend
@@ -18,8 +20,8 @@ public class ChartLegend
 
 | Nome | Descrizione |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Restituisce una raccolta di voci di legenda per tutte le serie e le linee di tendenza del grafico principale. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina se altri elementi del grafico devono sovrapporsi alla legenda. Il valore predefinito è false. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Restituisce una raccolta di voci della legenda per tutte le serie e linee di tendenza del grafico principale. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina se altri elementi del grafico possono sovrapporsi alla legenda. Il valore predefinito è`falso` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifica la posizione della legenda su un grafico. Il valore predefinito èRight . |
 
 ### Esempi
@@ -42,7 +44,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Concedi più spazio ad altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
+// Concede più spazio agli altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

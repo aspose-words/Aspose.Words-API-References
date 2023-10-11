@@ -3,12 +3,14 @@ title: Class DropDownItemCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.DropDownItemCollection classe. Una raccolta di stringhe che rappresentano tutti gli elementi in un campo modulo a discesa.
 type: docs
-weight: 1350
+weight: 1500
 url: /it/net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
 
 Una raccolta di stringhe che rappresentano tutti gli elementi in un campo modulo a discesa.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class DropDownItemCollection : IEnumerable<string>
@@ -19,7 +21,7 @@ public class DropDownItemCollection : IEnumerable<string>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.fields/dropdownitemcollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.fields/dropdownitemcollection/item/) { get; set; } | Ottiene o imposta l'elemento in corrispondenza dell'indice specificato. |
+| [Item](../../aspose.words.fields/dropdownitemcollection/item/) { get; set; } | Ottiene o imposta l'elemento nell'indice specificato. |
 
 ## Metodi
 
@@ -32,19 +34,19 @@ public class DropDownItemCollection : IEnumerable<string>
 | [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Restituisce l'indice in base zero del valore specificato nella raccolta. |
 | [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Inserisce una stringa nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Rimuove il valore specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Rimuove un valore in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Rimuove un valore nell'indice specificato. |
 
 ### Esempi
 
-Mostra come inserire un campo casella combinata e modificare gli elementi nella sua raccolta di elementi.
+Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una casella combinata, quindi verifica la sua raccolta di elementi a discesa.
+// Inserisci una casella combinata, quindi verifica la raccolta di elementi a discesa.
 // In Microsoft Word, l'utente farà clic sulla casella combinata,
-// e quindi scegli uno degli elementi di testo nella raccolta da visualizzare.
+// quindi scegli uno degli elementi di testo nella raccolta da visualizzare.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -63,7 +65,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Scorri la raccolta e stampa ogni elemento.
+// Itera sulla raccolta e stampa ogni elemento.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -72,7 +74,7 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
 // 1 - Rimuove un elemento con contenuto uguale alla stringa passata:
 dropDownItems.Remove("Four");
 
-// 2 - Rimuovere un elemento in un indice:
+// 2 - Rimuovi un elemento in un indice:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);

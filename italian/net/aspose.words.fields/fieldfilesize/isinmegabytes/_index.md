@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Di seguito sono elencate tre diverse unità di misura
-// con cui i campi FILESIZE possono visualizzare la dimensione del file del documento.
+// Di seguito sono riportate tre diverse unità di misura
+// con quali campi FILESIZE possono visualizzare la dimensione del file del documento.
 // 1 - Byte:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -55,7 +55,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Per aggiornare i valori di questi campi durante la modifica in Microsoft Word,
-// dobbiamo prima salvare le modifiche, quindi aggiornare manualmente questi campi.
+// dobbiamo prima salvare le modifiche e poi aggiornare manualmente questi campi.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

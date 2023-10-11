@@ -1,14 +1,14 @@
 ---
 title: OleFormat.SuggestedFileName
 second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Ottiene il nome file suggerito per loggetto incorporato corrente se si desidera salvarlo in un file.
+description: OleFormat proprietà. Ottiene il nome file suggerito per loggetto incorporato corrente se desideri salvarlo in un file.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing/oleformat/suggestedfilename/
 ---
 ## OleFormat.SuggestedFileName property
 
-Ottiene il nome file suggerito per l'oggetto incorporato corrente se si desidera salvarlo in un file.
+Ottiene il nome file suggerito per l'oggetto incorporato corrente se desideri salvarlo in un file.
 
 ```csharp
 public string SuggestedFileName { get; }

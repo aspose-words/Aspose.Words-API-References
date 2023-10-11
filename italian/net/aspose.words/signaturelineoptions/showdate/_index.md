@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.ShowDate
 second_title: Aspose.Words per .NET API Reference
-description: SignatureLineOptions proprietà. Ottiene o imposta un valore che indica che la data del segno è mostrata nella riga della firma. Il valore predefinito per questa proprietà è VERO .
+description: SignatureLineOptions proprietà. Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà èVERO .
 type: docs
 weight: 60
 url: /it/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-Ottiene o imposta un valore che indica che la data del segno è mostrata nella riga della firma. Il valore predefinito per questa proprietà è **VERO** .
+Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -16,7 +16,7 @@ public bool ShowDate { get; set; }
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +54,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

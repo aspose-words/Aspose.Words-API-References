@@ -16,9 +16,9 @@ public FontSettings FontSettings { get; set; }
 
 ### Osservazioni
 
-Questa proprietà consente di specificare le impostazioni dei caratteri per documento. Se impostato su null, font statico predefinito settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sarà usato.
+Questa proprietà consente di specificare le impostazioni dei caratteri per documento. Se impostato su`nullo` , impostazioni predefinite dei caratteri statici [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sarà usato.
 
-Il valore predefinito è null.
+Il valore predefinito è`nullo`.
 
 ### Esempi
 
@@ -39,7 +39,7 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Il secondo font, "Amethysta", non è disponibile.
+// Il secondo carattere, "Amethysta", non è disponibile.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
 // Possiamo configurare una tabella di sostituzione dei caratteri che determina
@@ -50,7 +50,7 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // "Amethysta" non è disponibile e la regola di sostituzione afferma che il primo font da utilizzare come sostituto è "Arvo".
+ // "Amethysta" non è disponibile e la regola di sostituzione afferma che il primo carattere da utilizzare come sostituto è "Arvo".
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
  // Anche "Arvo" non è disponibile, ma "Courier New" lo è.

@@ -1,14 +1,14 @@
 ---
 title: Enum ShapeType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ShapeType enum. Specifica il tipo di forma in un documento di Microsoft Word.
+description: Aspose.Words.Drawing.ShapeType enum. Specifica il tipo di forma in un documento Microsoft Word.
 type: docs
-weight: 1140
+weight: 1290
 url: /it/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
 
-Specifica il tipo di forma in un documento di Microsoft Word.
+Specifica il tipo di forma in un documento Microsoft Word.
 
 ```csharp
 public enum ShapeType
@@ -19,11 +19,11 @@ public enum ShapeType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Image | `75` | La forma è un'immagine. |
-| TextBox | `202` | La forma è una casella di testo. Nota che anche le forme di molti altri tipi possono contenere del testo. Una forma non deve avere questo tipo per contenere del testo. |
+| TextBox | `202` | La forma è una casella di testo. Tieni presente che anche forme di molti altri tipi possono contenere testo al loro interno. Una forma non deve necessariamente avere questo tipo per contenere testo. |
 | Group | `-1` | La forma è una forma di gruppo. |
 | OleObject | `-2` | La forma è un oggetto OLE. |
 | OleControl | `201` | La forma è un controllo ActiveX. |
-| NonPrimitive | `0` | Una forma disegnata dall'utente e costituita da più segmenti e/o vertici (curva, forma libera o scarabocchio). |
+| NonPrimitive | `0` | Una forma disegnata dall'utente e composta da più segmenti e/o vertici (curva, forma libera o scarabocchio). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | Questo tipo di forma sembra essere impostato per le forme che non fanno parte dell'insieme standard delle forme automatiche in Microsoft Word. Ad esempio, se inserisci una nuova forma automatica da ClipArt. |
+| CustomShape | `100` | Questo tipo di forma sembra essere impostato per forme che non fanno parte del set standard delle forme automatiche in Microsoft Word. Ad esempio, se inserisci una nuova forma automatica da ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -223,27 +223,27 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | Snip oggetto rettangolo ad angolo singolo. |
-| TopCornersSnipped | `204` | Taglia lo stesso rettangolo dell'angolo laterale. |
+| SingleCornerSnipped | `203` | Taglia oggetto rettangolo con angolo singolo. |
+| TopCornersSnipped | `204` | Taglia il rettangolo dell'angolo dello stesso lato. |
 | DiagonalCornersSnipped | `205` | Taglia il rettangolo dell'angolo diagonale. |
-| TopCornersOneRoundedOneSnipped | `206` | Taglia e arrotonda il rettangolo ad angolo singolo. |
-| SingleCornerRounded | `207` | Rettangolo arrotondato ad angolo singolo. |
-| TopCornersRounded | `208` | Arrotonda lo stesso rettangolo dell'angolo laterale. |
-| DiagonalCornersRounded | `209` | Rettangolo angolo diagonale rotondo. |
+| TopCornersOneRoundedOneSnipped | `206` | Taglia e arrotonda un rettangolo con angolo singolo. |
+| SingleCornerRounded | `207` | Rettangolo con angolo singolo arrotondato. |
+| TopCornersRounded | `208` | Rettangolo con angolo arrotondato sullo stesso lato. |
+| DiagonalCornersRounded | `209` | Rettangolo con angolo diagonale arrotondato. |
 | Heptagon | `210` | Ettagono. |
-| Cloud | `211` | Nube. |
+| Cloud | `211` | Nuvola. |
 | Seal6 | `212` | Stella a sei punte. |
 | Seal7 | `213` | Stella a sette punte. |
 | Seal10 | `214` | Stella a dieci punte. |
 | Seal12 | `215` | Stella a dodici punte. |
-| SwooshArrow | `216` | Freccia swoosh. |
+| SwooshArrow | `216` | Freccia Swoosh. |
 | Teardrop | `217` | Lacrima. |
 | SquareTabs | `218` | Schede quadrate. |
-| PlaqueTabs | `219` | Schede della placca. |
+| PlaqueTabs | `219` | Linguette della placca. |
 | Pie | `220` | Torta. |
-| WedgePie | `221` | Torta a spicchi. |
+| WedgePie | `221` | Torta con zeppe. |
 | InverseLine | `222` | Linea inversa. |
-| MathPlus | `223` | Più matematica. |
+| MathPlus | `223` | Matematica più. |
 | MathMinus | `224` | Matematica meno. |
 | MathMultiply | `225` | Moltiplicazione matematica. |
 | MathDivide | `226` | Divisione matematica. |
@@ -251,7 +251,7 @@ public enum ShapeType
 | MathNotEqual | `228` | Matematica non uguale. |
 | NonIsoscelesTrapezoid | `229` | Trapezio non isoscele. |
 | LeftRightCircularArrow | `230` | Freccia circolare sinistra-destra. |
-| LeftRightRibbon | `231` | Nastro sinistro-destro. |
+| LeftRightRibbon | `231` | Barra multifunzione sinistra-destra. |
 | LeftCircularArrow | `232` | Freccia circolare sinistra. |
 | Frame | `233` | Cornice. |
 | HalfFrame | `234` | Mezza cornice. |
@@ -260,14 +260,14 @@ public enum ShapeType
 | Gear9 | `237` | Ingranaggio a nove denti. |
 | Decagon | `238` | Decagono. |
 | Dodecagon | `239` | Dodecagono. |
-| DiagonalStripe | `240` | Riga diagonale. |
+| DiagonalStripe | `240` | Striscia diagonale. |
 | Corner | `241` | Angolo. |
 | CornerTabs | `242` | Schede angolari. |
 | Chord | `243` | Accordo. |
 | ChartPlus | `244` | Grafico più. |
-| ChartStar | `245` | Stella del grafico. |
+| ChartStar | `245` | Stella della carta. |
 | ChartX | `246` | Grafico X. |
-| MinValue | `-2` | Riservato all'uso del sistema. |
+| MinValue | `-2` | Riservato all'utilizzo del sistema. |
 
 ### Esempi
 
@@ -277,9 +277,9 @@ Mostra come inserire una forma con un'immagine dal file system locale in un docu
 Document doc = new Document();
 
 // Il costruttore pubblico della classe "Shape" creerà una forma con il tipo di markup "ShapeMarkupLanguage.Vml".
-// Se devi creare una forma di tipo non primitivo, come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, or DiagonalCornersRounded,
-// usa DocumentBuilder.InsertShape.
+// Se è necessario creare una forma di tipo non primitivo, come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
+// utilizzare DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -305,7 +305,7 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// Per identificare correttamente i tipi di forma devi lavorare con le forme come DML.
+// Per correggere l'identificazione dei tipi di forma è necessario lavorare con le forme come DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     // La conformità "rigorosa" o "transitoria" consente di salvare la forma come DML.

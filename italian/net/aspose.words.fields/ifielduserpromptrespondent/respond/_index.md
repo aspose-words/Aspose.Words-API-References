@@ -1,14 +1,14 @@
 ---
 title: IFieldUserPromptRespondent.Respond
 second_title: Aspose.Words per .NET API Reference
-description: IFieldUserPromptRespondent metodo. Quando implementato restituisce una risposta dellutente su richiesta. La tua implementazione dovrebbe restituire nullo per indicare che lutente non ha risposto al prompt cioè lutente ha premuto il pulsante Annulla nella finestra del prompt.
+description: IFieldUserPromptRespondent metodo. Una volta implementato restituisce una risposta dallutente al prompt. La tua implementazione dovrebbe restituirenullo per indicare che lutente non ha risposto al prompt ovvero lutente ha premuto il pulsante Annulla nella finestra del prompt.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Quando implementato, restituisce una risposta dell'utente su richiesta. La tua implementazione dovrebbe restituire **nullo** per indicare che l'utente non ha risposto al prompt (cioè l'utente ha premuto il pulsante Annulla nella finestra del prompt).
+Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -16,32 +16,31 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| promptText | String | Testo del prompt (es. titolo della finestra del prompt). |
-| defaultResponse | String | Risposta dell'utente predefinita (vale a dire valore iniziale contenuto nella finestra del prompt). |
+| promptText | String | Testo del prompt (ovvero il titolo della finestra del prompt). |
+| defaultResponse | String | Risposta utente predefinita (ovvero il valore iniziale contenuto nella finestra del prompt). |
 
 ### Valore di ritorno
 
-Risposta dell'utente (vale a dire valore confermato contenuto nella finestra del prompt).
+Risposta dell'utente (vale a dire il valore confermato contenuto nella finestra del prompt).
 
 ### Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF in base al nome del segnalibro.
+    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF tramite il nome del segnalibro.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -69,6 +68,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.

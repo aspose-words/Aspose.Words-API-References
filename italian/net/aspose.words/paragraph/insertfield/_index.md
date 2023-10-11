@@ -3,7 +3,7 @@ title: Paragraph.InsertField
 second_title: Aspose.Words per .NET API Reference
 description: Paragraph metodo. Inserisce un campo in questo paragrafo.
 type: docs
-weight: 270
+weight: 290
 url: /it/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(FieldType, bool, Node, bool) {#insertfield}
@@ -17,8 +17,8 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fieldType | FieldType | Il tipo di campo da inserire. |
-| updateField | Boolean | Specifica se aggiornare il campo immediatamente. |
-| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se refNode è null, viene aggiunto alla fine del paragrafo). |
+| updateField | Boolean | Specifica se aggiornare immediatamente il campo. |
+| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se*refNode* È`nullo`, quindi si aggiunge alla fine del paragrafo). |
 | isAfter | Boolean | Se inserire il campo dopo o prima del nodo di riferimento. |
 
 ### Valore di ritorno
@@ -34,26 +34,26 @@ Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per inserire un campo in un paragrafo.
-// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figlio del paragrafo:
+// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figli del paragrafo:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserisci un campo QUOTE dopo uno dei nodi figlio del paragrafo:
+// 2 - Inserisci un campo QUOTE dopo uno dei nodi figli del paragrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserisci un campo QUOTE prima di uno dei nodi figlio del paragrafo,
-// e fallo visualizzare un valore segnaposto:
+// 3 - Inserisci un campo QUOTE prima di uno dei nodi figli del paragrafo,
+// e faccio in modo che visualizzi un valore segnaposto:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -82,8 +82,8 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldCode | String | Il codice del campo da inserire (senza parentesi graffe). |
-| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se refNode è null, viene aggiunto alla fine del paragrafo). |
+| fieldCode | String | Il codice di campo da inserire (senza parentesi graffe). |
+| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se*refNode* È`nullo`, quindi si aggiunge alla fine del paragrafo). |
 | isAfter | Boolean | Se inserire il campo dopo o prima del nodo di riferimento. |
 
 ### Valore di ritorno
@@ -99,26 +99,26 @@ Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per inserire un campo in un paragrafo.
-// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figlio del paragrafo:
+// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figli del paragrafo:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserisci un campo QUOTE dopo uno dei nodi figlio del paragrafo:
+// 2 - Inserisci un campo QUOTE dopo uno dei nodi figli del paragrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserisci un campo QUOTE prima di uno dei nodi figlio del paragrafo,
-// e fallo visualizzare un valore segnaposto:
+// 3 - Inserisci un campo QUOTE prima di uno dei nodi figli del paragrafo,
+// e faccio in modo che visualizzi un valore segnaposto:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -146,9 +146,9 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldCode | String | Il codice del campo da inserire (senza parentesi graffe). |
-| fieldValue | String | Il valore del campo da inserire. Passa null per i campi che non hanno un valore. |
-| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se refNode è null, viene aggiunto alla fine del paragrafo). |
+| fieldCode | String | Il codice di campo da inserire (senza parentesi graffe). |
+| fieldValue | String | Il valore del campo da inserire. Passaggio`nullo` per i campi che non hanno un valore. |
+| refNode | Node | Nodo di riferimento all'interno di questo paragrafo (se*refNode* È`nullo`, quindi si aggiunge alla fine del paragrafo). |
 | isAfter | Boolean | Se inserire il campo dopo o prima del nodo di riferimento. |
 
 ### Valore di ritorno
@@ -164,26 +164,26 @@ Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per inserire un campo in un paragrafo.
-// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figlio del paragrafo:
+// 1 - Inserisci un campo AUTORE in un paragrafo dopo uno dei nodi figli del paragrafo:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
 
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserisci un campo QUOTE dopo uno dei nodi figlio del paragrafo:
+// 2 - Inserisci un campo QUOTE dopo uno dei nodi figli del paragrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserisci un campo QUOTE prima di uno dei nodi figlio del paragrafo,
-// e fallo visualizzare un valore segnaposto:
+// 3 - Inserisci un campo QUOTE prima di uno dei nodi figli del paragrafo,
+// e faccio in modo che visualizzi un valore segnaposto:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);

@@ -23,14 +23,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Aggiunge un campo GOTOBUTTON. Quando facciamo doppio clic su questo campo in Microsoft Word,
-// porterà il cursore di testo sul segnalibro il cui nome fa riferimento alla proprietà Location.
+// porterà il cursore del testo sul segnalibro il cui nome fa riferimento alla proprietà Location.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Inserisce un segnalibro valido per il campo a cui fare riferimento.
+// Inserisci un segnalibro valido per il campo a cui fare riferimento.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

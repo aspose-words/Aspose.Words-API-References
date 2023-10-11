@@ -29,12 +29,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Sposta il generatore di documenti all'interno del TextBox e aggiungi del testo.
+// Sposta il generatore di documenti all'interno del TextBox e aggiungi testo.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto del testo di questa casella di testo.
+// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto di testo di questa casella di testo.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

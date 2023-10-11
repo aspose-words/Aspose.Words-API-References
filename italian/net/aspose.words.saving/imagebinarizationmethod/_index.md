@@ -3,7 +3,7 @@ title: Enum ImageBinarizationMethod
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.ImageBinarizationMethod enum. Specifica il metodo utilizzato per binarizzare limmagine.
 type: docs
-weight: 4940
+weight: 5200
 url: /it/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -18,8 +18,8 @@ public enum ImageBinarizationMethod
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Threshold | `0` | Specifica il metodo di soglia. |
-| FloydSteinbergDithering | `1` | Specifica il dithering utilizzando il metodo di diffusione degli errori di Floyd-Steinberg. |
+| Threshold | `0` | Specifica il metodo della soglia. |
+| FloydSteinbergDithering | `1` | Specifica il dithering utilizzando il metodo di diffusione degli errori Floyd-Steinberg. |
 
 ### Esempi
 

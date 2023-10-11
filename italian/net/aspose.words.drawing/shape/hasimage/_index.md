@@ -1,14 +1,14 @@
 ---
 title: Shape.HasImage
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Restituisce vero se la forma ha byte di immagine o collega unimmagine.
+description: Shape proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Restituisce vero se la forma ha byte di immagine o collega un'immagine.
+Restituisce`VERO` se la forma ha byte di immagine o collega un'immagine.
 
 ```csharp
 public bool HasImage { get; }
@@ -47,8 +47,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine. 
-        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
+        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se i rientri sinistro e destro negativi dei paragrafi vengono normalizzati durante il salvataggio in HTML MHTML o EPUB. Il valore predefinito èfalso .
+description: HtmlSaveOptions proprietà. Specifica se i rientri negativi sinistro e destro dei paragrafi vengono normalizzati durante il salvataggio in HTML MHTML o EPUB. Il valore predefinito èfalso .
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 ---
 ## HtmlSaveOptions.AllowNegativeIndent property
 
-Specifica se i rientri sinistro e destro negativi dei paragrafi vengono normalizzati durante il salvataggio in HTML, MHTML o EPUB. Il valore predefinito è`falso` .
+Specifica se i rientri negativi sinistro e destro dei paragrafi vengono normalizzati durante il salvataggio in HTML, MHTML o EPUB. Il valore predefinito è`falso` .
 
 ```csharp
 public bool AllowNegativeIndent { get; set; }
@@ -16,7 +16,7 @@ public bool AllowNegativeIndent { get; set; }
 
 ### Osservazioni
 
-Quando il rientro negativo non è consentito, viene esportato come margine zero in HTML. Quando è consentito il rientro negativo, un paragrafo potrebbe apparire parzialmente al di fuori della finestra del browser .
+Quando il rientro negativo non è consentito, viene esportato come margine zero in HTML. Quando è consentito il rientro negativo, un paragrafo potrebbe essere visualizzato parzialmente all'esterno della finestra del browser.
 
 ### Esempi
 
@@ -26,7 +26,7 @@ Mostra come preservare i rientri negativi nell'output .html.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite sinistro della pagina.
+// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite della pagina sinistra.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -38,7 +38,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Inserisce una tabella con un rientro positivo, che spingerà la tabella a destra.
+// Inserisce una tabella con un rientro positivo, che sposterà la tabella a destra.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");

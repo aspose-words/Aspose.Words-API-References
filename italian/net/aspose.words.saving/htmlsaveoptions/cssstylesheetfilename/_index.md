@@ -16,13 +16,13 @@ public string CssStyleSheetFileName { get; set; }
 
 ### Osservazioni
 
-Questa proprietà ha effetto solo quando si salva un documento in formato HTML e viene richiesto un foglio di stile CSS esterno utilizzando[`CssStyleSheetType`](../cssstylesheettype/).
+Questa proprietà ha effetto solo quando viene richiesto il salvataggio di un documento nel formato HTML e viene richiesto un foglio di stile CSS esterno utilizzando[`CssStyleSheetType`](../cssstylesheettype/).
 
 Se questa proprietà è vuota, il file CSS verrà salvato nella stessa cartella e con lo stesso nome del documento HTML ma con estensione ".css".
 
-Se in questa proprietà viene specificato solo il percorso ma nessun nome file, il file CSS verrà salvato nella cartella specificata e avrà lo stesso nome del documento HTML ma con estensione ".css".
+Se in questa proprietà viene specificato solo il percorso ma nessun nome file, il file CSS verrà salvato nella cartella specificata e avrà lo stesso nome del documento HTML ma con l'estensione ".css".
 
-Se la cartella specificata da questa proprietà non esiste, verrà creata automaticamente prima del salvataggio del file CSS .
+Se la cartella specificata da questa proprietà non esiste, verrà creata automaticamente prima che il file CSS venga salvato.
 
 Un altro modo per specificare una cartella in cui viene salvato il file CSS esterno è utilizzare[`ResourceFolder`](../resourcefolder/) .
 
@@ -44,7 +44,7 @@ public void ExternalCssFilenames()
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Usa la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
@@ -68,7 +68,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

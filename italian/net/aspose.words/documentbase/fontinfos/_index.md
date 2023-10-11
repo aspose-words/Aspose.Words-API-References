@@ -16,19 +16,19 @@ public FontInfoCollection FontInfos { get; }
 
 ### Osservazioni
 
-Questa raccolta di definizioni di caratteri viene caricata così com'è dal documento. Le definizioni dei caratteri potrebbero essere facoltative, mancanti o incomplete in alcuni documenti.
+Questa raccolta di definizioni di caratteri viene caricata così com'è dal documento. Le definizioni di caratteri potrebbero essere facoltative, mancanti o incomplete in alcuni documenti.
 
-Non fare affidamento su questa raccolta per accertare che un particolare tipo di carattere sia utilizzato nel documento. Dovresti usare questa raccolta solo per ottenere informazioni sui caratteri che potrebbero essere utilizzati nel documento.
+Non fare affidamento su questa raccolta per accertarti che un particolare carattere sia utilizzato nel documento. Dovresti utilizzare questa raccolta solo per ottenere informazioni sui caratteri che potrebbero essere utilizzati nel documento.
 
 ### Esempi
 
-Mostra come stampare i dettagli di quali font sono presenti in un documento.
+Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Stampa tutti i caratteri usati e non utilizzati nel documento.
+// Stampa tutti i font usati e non utilizzati nel documento.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");
@@ -37,7 +37,7 @@ for (int i = 0; i < allFonts.Count; i++)
 }
 ```
 
-Mostra come salvare un documento con i caratteri TrueType incorporati.
+Mostra come salvare un documento con caratteri TrueType incorporati.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

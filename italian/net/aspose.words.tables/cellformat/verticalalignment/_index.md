@@ -3,7 +3,7 @@ title: CellFormat.VerticalAlignment
 second_title: Aspose.Words per .NET API Reference
 description: CellFormat proprietà. Restituisce o imposta lallineamento verticale del testo nella cella.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

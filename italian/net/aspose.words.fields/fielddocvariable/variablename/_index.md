@@ -22,9 +22,9 @@ Mostra come utilizzare i campi DOCPROPERTY per visualizzare le proprietà e le v
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due modi per utilizzare i campi DOCPROPERTY.
-// 1 - Visualizza una proprietà incorporata:
-// Imposta un valore personalizzato per la proprietà incorporata "Categoria", quindi inserisci un campo DOCPROPERTY che vi faccia riferimento.
+// Di seguito sono riportati due modi di utilizzare i campi DOCPROPERTY.
+// 1 - Visualizza una proprietà integrata:
+// Imposta un valore personalizzato per la proprietà incorporata "Categoria", quindi inserisci un campo DOCPROPERTY che faccia riferimento ad essa.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -35,8 +35,8 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Visualizza una variabile del documento personalizzata:
-// Definisci una variabile personalizzata, quindi fai riferimento a tale variabile con un campo DOCPROPERTY.
+// 2 - Visualizza una variabile di documento personalizzata:
+// Definisce una variabile personalizzata, quindi fa riferimento a tale variabile con un campo DOCPROPERTY.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");
 

@@ -21,7 +21,7 @@ Mostra come verificare se un paragrafo è una revisione del formato.
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
-// Questo paragrafo è una revisione "Formato", che si verifica quando cambiamo la formattazione del testo esistente
+// Questo paragrafo è una revisione del "Formato", che si verifica quando modifichiamo la formattazione del testo esistente
 // durante il monitoraggio delle revisioni in Microsoft Word tramite "Revisione" -> "Tenere traccia delle modifiche".
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```

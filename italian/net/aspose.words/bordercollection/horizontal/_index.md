@@ -22,17 +22,17 @@ Mostra come applicare le impostazioni ai bordi orizzontali al formato di un para
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un bordo orizzontale rosso per il paragrafo. Tutti i paragrafi creati in seguito erediteranno queste impostazioni del bordo.
+// Crea un bordo orizzontale rosso per il paragrafo. Tutti i paragrafi creati successivamente erediteranno queste impostazioni dei bordi.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// Scrivi testo nel documento senza creare un nuovo paragrafo in seguito.
-// Poiché non ci sono paragrafi sotto, il bordo orizzontale non sarà visibile.
+// Scrive il testo nel documento senza creare successivamente un nuovo paragrafo.
+// Poiché non c'è alcun paragrafo sottostante, il bordo orizzontale non sarà visibile.
 builder.Write("Paragraph above horizontal border.");
 
-// Dopo aver aggiunto un secondo paragrafo, il bordo del primo paragrafo diventerà visibile.
+// Una volta aggiunto un secondo paragrafo, il bordo del primo paragrafo diventerà visibile.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
@@ -69,7 +69,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Un formato riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
+// Il formato di una riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

@@ -1,14 +1,14 @@
 ---
 title: Font.Border
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce un oggetto Border che specifica il bordo per il font.
+description: Font proprietà. Restituisce aBorder oggetto che specifica il bordo per il font.
 type: docs
 weight: 60
 url: /it/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Restituisce un oggetto Border che specifica il bordo per il font.
+Restituisce a[`Border`](../../border/) oggetto che specifica il bordo per il font.
 
 ```csharp
 public Border Border { get; }
@@ -16,7 +16,7 @@ public Border Border { get; }
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();

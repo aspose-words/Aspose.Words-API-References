@@ -1,14 +1,14 @@
 ---
 title: SignOptions.ProviderId
 second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. Specifica lID classe del provider di firma. Il valore predefinito è Vuoto tutti zeri Guid .
+description: SignOptions proprietà. Specifica lID classe del provider della firma. Il valore predefinito è Guida vuota tutti zeri. .
 type: docs
 weight: 40
 url: /it/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Specifica l'ID classe del provider di firma. Il valore predefinito è **Vuoto (tutti zeri) Guid** .
+Specifica l'ID classe del provider della firma. Il valore predefinito è **Guida vuota (tutti zeri).** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -16,15 +16,15 @@ public Guid ProviderId { get; set; }
 
 ### Osservazioni
 
-Il provider di servizi di crittografia (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il provider di firma predefinito.
+Il fornitore di servizi di crittografia (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia x000d per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il suo fornitore di firma predefinito.
 
 Il GUID del provider installato in aggiunta deve essere ottenuto dalla documentazione fornita con il provider.
 
-Inoltre, tutti i provider di crittografia installati sono enumerati nel registro di Windows. Può essere trovato nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. C'è un nome chiave "CP Service UUID" che corrisponde a un GUID del provider di firma.
+Inoltre, tutti i provider di crittografia installati sono enumerati nel registro di Windows. Può essere trovato nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Esiste un nome chiave "CP Service UUID" che corrisponde a un GUID del provider della firma.
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -62,8 +62,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

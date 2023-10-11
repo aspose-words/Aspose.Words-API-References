@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfDocument
 second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo nellultima sezione del documento.
+description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo dellultima sezione del documento.
 type: docs
 weight: 60
 url: /it/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-Vero se questo paragrafo è l'ultimo paragrafo nell'ultima sezione del documento.
+Vero se questo paragrafo è l'ultimo paragrafo dell'ultima sezione del documento.
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -37,7 +37,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Il metodo "Writeln" termina il paragrafo dopo aver aggiunto il testo
-// e quindi inizia una nuova riga, aggiungendo un nuovo paragrafo.
+// e poi inizia una nuova riga, aggiungendo un nuovo paragrafo.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Esempi
 
-Mostra come lavorare con la raccolta di estensioni Web di un documento.
+Mostra come lavorare con la raccolta di estensioni web di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
@@ -34,7 +34,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Rimuovere l'estensione web.
+// Rimuove l'estensione web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

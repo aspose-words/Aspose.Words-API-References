@@ -16,7 +16,7 @@ public bool BorderSurroundsFooter { get; set; }
 
 ### Osservazioni
 
-Nota, la modifica di questa proprietà ha effetto su tutte le sezioni del documento.
+Nota: la modifica di questa proprietà influisce su tutte le sezioni del documento.
 
 ### Esempi
 
@@ -39,9 +39,9 @@ pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
 // L'oggetto PageSetup di una sezione ha i flag "BorderSurroundsHeader" e "BorderSurroundsFooter" che determinano
-// se un bordo della pagina circonda il testo principale, include anche l'intestazione o il piè di pagina, rispettivamente.
+// se il bordo di una pagina circonda il corpo principale del testo, include rispettivamente anche l'intestazione o il piè di pagina.
 // Imposta il flag "BorderSurroundsHeader" su "true" per circondare l'intestazione con il nostro bordo,
-// e quindi imposta il flag "BorderSurroundsFooter" per lasciare il piè di pagina al di fuori del bordo.
+// quindi imposta il flag "BorderSurroundsFooter" per lasciare il piè di pagina fuori dal bordo.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

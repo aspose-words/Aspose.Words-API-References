@@ -1,14 +1,14 @@
 ---
 title: Shading.BackgroundPatternColor
 second_title: Aspose.Words per .NET API Reference
-description: Shading proprietà. Ottiene o imposta il colore applicato allo sfondo delloggetto Shading.
+description: Shading proprietà. Ottiene o imposta il colore applicato allo sfondo del fileShading oggetto.
 type: docs
 weight: 10
 url: /it/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-Ottiene o imposta il colore applicato allo sfondo dell'oggetto Shading.
+Ottiene o imposta il colore applicato allo sfondo del file[`Shading`](../) oggetto.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }

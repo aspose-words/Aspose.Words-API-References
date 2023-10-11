@@ -46,7 +46,7 @@ else
 
 ## HtmlLoadOptions(string) {#constructor_2}
 
-Un collegamento per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato.
+Una scorciatoia per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato.
 
 ```csharp
 public HtmlLoadOptions(string password)
@@ -54,14 +54,14 @@ public HtmlLoadOptions(string password)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| password | String | La password per aprire un documento crittografato. Può essere una stringa nulla o vuota. |
+| password | String | La password per aprire un documento crittografato. Può essere`nullo` o stringa vuota. |
 
 ### Esempi
 
 Mostra come crittografare un documento HTML e quindi aprirlo utilizzando una password.
 
 ```csharp
-// Crea e firma un documento HTML crittografato da un .docx crittografato.
+// Crea e firma un documento HTML crittografato da un file .docx crittografato.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 SignOptions signOptions = new SignOptions
@@ -75,7 +75,7 @@ string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "HtmlLoadOptions.EncryptedHtml.html";
 DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
-// Per caricare e leggere questo documento, dovremo passare la sua decrittazione
+// Per caricare e leggere questo documento, dovremo passarne la decrittazione
 // password utilizzando un oggetto HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
 
@@ -96,7 +96,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
 
-Un collegamento per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati.
+Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati.
 
 ```csharp
 public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -105,28 +105,28 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | loadFormat | LoadFormat | Il formato del documento da caricare. |
-| password | String | La password per aprire un documento crittografato. Può essere una stringa nulla o vuota. |
-| baseUri | String | La stringa che verrà utilizzata per risolvere gli URI relativi in assoluto. Può essere una stringa nulla o vuota. |
+| password | String | La password per aprire un documento crittografato. Può essere`nullo` o stringa vuota. |
+| baseUri | String | La stringa che verrà utilizzata per risolvere gli URI relativi in assoluti. Può essere`nullo` o stringa vuota. |
 
 ### Esempi
 
-Mostra come specificare un URI di base quando si apre un documento html.
+Mostra come specificare un URI di base all'apertura di un documento html.
 
 ```csharp
 // Supponiamo di voler caricare un documento .html che contiene un'immagine collegata da un relativo URI
 // mentre l'immagine si trova in una posizione diversa. In tal caso, dovremo risolvere l'URI relativo in uno assoluto.
- // Possiamo fornire un URI di base usando un oggetto HtmlLoadOptions.
+ // Possiamo fornire un URI di base utilizzando un oggetto HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Mentre l'immagine era interrotta nell'input .html, il nostro URI di base personalizzato ci ha aiutato a riparare il collegamento.
+// Sebbene l'immagine fosse danneggiata nell'input .html, il nostro URI di base personalizzato ci ha aiutato a riparare il collegamento.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Questo documento di output mostrerà l'immagine mancante.
+// Questo documento di output visualizzerà l'immagine mancante.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

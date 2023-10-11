@@ -22,11 +22,9 @@ Mostra come verificare le proprietà del documento proprietario degli elenchi.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -35,7 +33,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Mostra come applicare la formattazione dell'elenco di un elenco esistente a una raccolta di paragrafi.
+Mostra come applicare la formattazione di un elenco esistente a una raccolta di paragrafi.
 
 ```csharp
 Document doc = new Document();

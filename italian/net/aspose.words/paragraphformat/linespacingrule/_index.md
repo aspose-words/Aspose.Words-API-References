@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacingRule
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Ottiene o imposta linterlinea per il paragrafo.
 type: docs
-weight: 190
+weight: 200
 url: /it/net/aspose.words/paragraphformat/linespacingrule/
 ---
 ## ParagraphFormat.LineSpacingRule property
@@ -22,11 +22,11 @@ Mostra come lavorare con l'interlinea.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportate tre regole di interlinea che possiamo definire utilizzando il
-// Proprietà "LineSpacingRule" del paragrafo per configurare la spaziatura tra i paragrafi.
+// Di seguito sono riportate tre regole di interlinea che possiamo definire utilizzando il file
+// la proprietà "LineSpacingRule" del paragrafo per configurare la spaziatura tra i paragrafi.
 // 1 - Imposta una quantità minima di spaziatura.
-// Questo darà il riempimento verticale alle righe di testo di qualsiasi dimensione
-// che è troppo piccolo per mantenere l'altezza di riga minima.
+// Ciò darà un riempimento verticale alle righe di testo di qualsiasi dimensione
+// è troppo piccolo per mantenere l'altezza minima della riga.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 
@@ -34,15 +34,15 @@ builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
 // 2 - Imposta la spaziatura esatta.
-// L'uso di caratteri di dimensioni troppo grandi per la spaziatura troncherà il testo.
+// L'utilizzo di dimensioni dei caratteri troppo grandi per la spaziatura troncherà il testo.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 - Imposta l'interlinea come multiplo dell'interlinea predefinita, che è di 12 punti per impostazione predefinita.
-// Questo tipo di spaziatura verrà ridimensionata in base a diverse dimensioni dei caratteri.
+// 3 - Imposta la spaziatura come multiplo dell'interlinea predefinita, che per impostazione predefinita è 12 punti.
+// Questo tipo di spaziatura verrà adattato alle diverse dimensioni dei caratteri.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;
 

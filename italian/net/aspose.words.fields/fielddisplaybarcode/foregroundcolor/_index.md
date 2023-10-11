@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.ForegroundColor
 second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono compresi nellintervallo 0 0xFFFFFF
+description: FieldDisplayBarcode proprietà. Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono nellintervallo 0 0xFFFFFF
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
 ---
 ## FieldDisplayBarcode.ForegroundColor property
 
-Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono compresi nell'intervallo [0, 0xFFFFFF]
+Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono nell'intervallo [0, 0xFFFFFF]
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -16,7 +16,7 @@ public string ForegroundColor { get; set; }
 
 ### Esempi
 
-Mostra come inserire un campo DISPLAYBarCODE e impostarne le proprietà.
+Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Aspose.Words per .NET API Reference
 description: Row proprietà. Fornisce laccesso alle proprietà di formattazione della riga.
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
@@ -16,13 +16,13 @@ public RowFormat RowFormat { get; }
 
 ### Esempi
 
-Mostra come modificare la formattazione di una riga di tabella.
+Mostra come modificare la formattazione di una riga della tabella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Usa la proprietà "RowFormat" della prima riga per impostare la formattazione che modifica l'aspetto dell'intera riga.
+// Utilizza la proprietà "RowFormat" della prima riga per impostare la formattazione che modifica l'aspetto dell'intera riga.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -49,13 +49,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la proprietà "RowFormat" della prima riga per modificare la formattazione
-// del contenuto di tutte le celle in questa riga.
+// Utilizza la proprietà "RowFormat" della prima riga per modificare la formattazione
+// del contenuto di tutte le celle di questa riga.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Usa la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
+// Utilizza la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

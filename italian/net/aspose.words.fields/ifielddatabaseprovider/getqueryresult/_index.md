@@ -17,14 +17,14 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Il percorso completo e il nome file del database specificato nell'opzione del campo \d. |
-| connection | String | La connessione ai dati specificati nell'opzione del campo \c. |
-| query | String | Il set di istruzioni SQL che interrogano il database specificato nell'opzione del campo \s. |
-| field | FieldDatabase | Il campo in fase di aggiornamento. |
+| fileName | String | Il percorso completo e il nome file del database specificato nel campo \d. |
+| connection | String | La connessione ai dati specificati nell'opzione di campo \c. |
+| query | String | L'insieme di istruzioni SQL che interrogano il database specificato nell'opzione del campo \s. |
+| field | FieldDatabase | Il campo è in fase di aggiornamento. |
 
 ### Valore di ritorno
 
-Il[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) istanza che dovrebbe essere utilizzata per l'aggiornamento del campo.
+IL[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) istanza che dovrebbe essere utilizzata per l'aggiornamento del campo.
 
 ### Guarda anche
 

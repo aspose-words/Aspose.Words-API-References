@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnitIsAuto
 second_title: Aspose.Words per .NET API Reference
 description: ChartAxis proprietà. Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra i segni di graduazione principali.
 type: docs
-weight: 110
+weight: 130
 url: /it/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
 ---
 ## ChartAxis.MajorUnitIsAuto property
@@ -16,7 +16,7 @@ public bool MajorUnitIsAuto { get; set; }
 
 ### Osservazioni
 
-La proprietà ha effetto per la categoria temporale e gli assi dei valori.
+La proprietà ha effetto per le categorie temporali e gli assi dei valori.
 
 ### Esempi
 
@@ -33,12 +33,12 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
 // Imposta i segni di graduazione minori dell'asse Y in modo che puntino lontano dall'area del tracciato,
-// e i segni di graduazione principali per attraversare l'asse.
+// e i principali segni di spunta per attraversare l'asse.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Imposta l'asse Y in modo che mostri un tick maggiore ogni 10 unità e un tick minore ogni 1 unità.
+// Imposta l'asse Y in modo che mostri un segno di spunta maggiore ogni 10 unità e un segno di spunta minore ogni 1 unità.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
@@ -53,21 +53,21 @@ axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Configura entrambi i tipi di segni di graduazione in modo che appaiano all'interno dell'area del grafico.
+// Configura entrambi i tipi di segni di graduazione in modo che vengano visualizzati all'interno dell'area del tracciato del grafico.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Imposta i limiti dell'asse X in modo che l'asse X copra 5 segni di graduazione principali e 12 segni di graduazione minori.
+// Imposta i limiti dell'asse X in modo che l'asse X si estenda su 5 segni di graduazione principali e 12 segni di graduazione minori.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// Imposta le etichette di spunta per visualizzare il loro valore in milioni.
+// Imposta le etichette dei segni di spunta per visualizzarne il valore in milioni.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Possiamo impostare un valore più specifico in base al quale le etichette di spunta visualizzeranno i loro valori.
+// Possiamo impostare un valore più specifico in base al quale le etichette dei segni di spunta mostreranno i loro valori.
 // Questa affermazione è equivalente a quella sopra.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");

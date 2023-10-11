@@ -1,14 +1,14 @@
 ---
 title: Enum CellMerge
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.CellMerge enum. Specifica come una cella in una tabella viene unita ad altre celle.
+description: Aspose.Words.Tables.CellMerge enum. Specifica il modo in cui una cella in una tabella viene unita ad altre celle.
 type: docs
-weight: 5970
+weight: 6270
 url: /it/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
 
-Specifica come una cella in una tabella viene unita ad altre celle.
+Specifica il modo in cui una cella in una tabella viene unita ad altre celle.
 
 ```csharp
 public enum CellMerge
@@ -24,25 +24,25 @@ public enum CellMerge
 
 ### Esempi
 
-Mostra come unire le celle di una tabella orizzontalmente.
+Mostra come unire le celle della tabella orizzontalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una cella nella prima colonna della prima riga.
-// Questa cella sarà la prima in un intervallo di celle unite orizzontalmente.
+// Inserisci una cella nella prima colonna della prima riga.
+// Questa cella sarà la prima di un intervallo di celle unite orizzontalmente.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserisce una cella nella seconda colonna della prima riga. Invece di aggiungere contenuti di testo,
+// Inserisci una cella nella seconda colonna della prima riga. Invece di aggiungere contenuti di testo,
 // uniremo questa cella con la prima cella che abbiamo aggiunto direttamente a sinistra.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Inserisce altre due celle non unite nella seconda riga.
+// Inserisci altre due celle non unite nella seconda riga.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -83,14 +83,14 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Mostra come unire le celle di una tabella verticalmente.
+Mostra come unire verticalmente le celle della tabella.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una cella nella prima colonna della prima riga.
-// Questa cella sarà la prima in un intervallo di celle unite verticalmente.
+// Inserisci una cella nella prima colonna della prima riga.
+// Questa cella sarà la prima di un intervallo di celle unite verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -102,12 +102,12 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Inserisce una cella nella prima colonna della seconda riga. 
+ // Inserisci una cella nella prima colonna della seconda riga.
 // Invece di aggiungere contenuti di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Inserisce un'altra cella indipendente nella seconda colonna della seconda riga.
+// Inserisci un'altra cella indipendente nella seconda colonna della seconda riga.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

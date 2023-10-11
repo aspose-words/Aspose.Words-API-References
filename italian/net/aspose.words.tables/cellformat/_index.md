@@ -3,12 +3,14 @@ title: Class CellFormat
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Tables.CellFormat classe. Rappresenta tutta la formattazione per una cella di tabella.
 type: docs
-weight: 5960
+weight: 6260
 url: /it/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
 
 Rappresenta tutta la formattazione per una cella di tabella.
+
+Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
 ```csharp
 public class CellFormat
@@ -19,25 +21,26 @@ public class CellFormat
 | Nome | Descrizione |
 | --- | --- |
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Ottiene la raccolta dei bordi della cella. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sotto il contenuto della cella. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Se true, adatta il testo alla cella, comprimendo ogni paragrafo alla larghezza della cella. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Specifica come la cella viene unita orizzontalmente con altre celle nella riga. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto della cella. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sotto il contenuto di cell. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Se`VERO` , adatta il testo nella cella, comprimendo ogni paragrafo alla larghezza della cella. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Specifica come la cella viene unita orizzontalmente con le altre celle nella riga. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto di cell. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Restituisce o imposta l'orientamento del testo in una cella di tabella. |
 | [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Restituisce o imposta la larghezza preferita della cella. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a destra del contenuto della cella. |
-| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Restituisce un oggetto Shading che fa riferimento alla formattazione dell'ombreggiatura per la cella. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto della cella. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a destra del contenuto di cell. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Restituisce a[`Shading`](../../aspose.words/shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per la cella. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto di cell. |
 | [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Restituisce o imposta l'allineamento verticale del testo nella cella. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Specifica come la cella viene unita alle altre celle verticalmente. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Specifica come la cella viene unita verticalmente con le altre celle. |
 | [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Ottiene la larghezza della cella in punti. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Se vero, manda a capo il testo per la cella. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Se`VERO` , manda a capo il testo per la cella. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Ripristina la formattazione della cella predefinita. Non cambia la larghezza della cella. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Ripristina la formattazione predefinita della cella. Non modifica la larghezza della cella. |
 | [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Imposta la quantità di spazio (in punti) da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella. |
 
 ### Esempi
@@ -49,7 +52,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Usa la proprietà "CellFormat" di una cella per impostare la formattazione che modifica l'aspetto di quella cella.
+// Utilizza la proprietà "CellFormat" di una cella per impostare la formattazione che modifica l'aspetto di quella cella.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -75,13 +78,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la proprietà "RowFormat" della prima riga per modificare la formattazione
-// del contenuto di tutte le celle in questa riga.
+// Utilizza la proprietà "RowFormat" della prima riga per modificare la formattazione
+// del contenuto di tutte le celle di questa riga.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Usa la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
+// Utilizza la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -122,8 +125,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

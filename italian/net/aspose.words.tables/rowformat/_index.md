@@ -3,12 +3,14 @@ title: Class RowFormat
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Tables.RowFormat classe. Rappresenta tutta la formattazione per una riga di tabella.
 type: docs
-weight: 6030
+weight: 6330
 url: /it/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
 Rappresenta tutta la formattazione per una riga di tabella.
+
+Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
 ```csharp
 public class RowFormat
@@ -19,8 +21,8 @@ public class RowFormat
 | Nome | Descrizione |
 | --- | --- |
 | [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | Vero se il testo in una riga di tabella può essere suddiviso in un'interruzione di pagina. |
-| [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Ottiene la raccolta dei bordi di cella predefiniti per la riga. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella occupa più di una pagina. |
+| [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Ottiene la raccolta dei bordi delle celle predefiniti per la riga. |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina. |
 | [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Ottiene o imposta l'altezza della riga della tabella in punti. |
 | [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Ottiene o imposta la regola per determinare l'altezza della riga della tabella. |
 
@@ -28,17 +30,17 @@ public class RowFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Ripristina la formattazione di riga predefinita. |
+| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Ripristina la formattazione predefinita delle righe. |
 
 ### Esempi
 
-Mostra come modificare la formattazione di una riga di tabella.
+Mostra come modificare la formattazione di una riga della tabella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Usa la proprietà "RowFormat" della prima riga per impostare la formattazione che modifica l'aspetto dell'intera riga.
+// Utilizza la proprietà "RowFormat" della prima riga per impostare la formattazione che modifica l'aspetto dell'intera riga.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -65,13 +67,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la proprietà "RowFormat" della prima riga per modificare la formattazione
-// del contenuto di tutte le celle in questa riga.
+// Utilizza la proprietà "RowFormat" della prima riga per modificare la formattazione
+// del contenuto di tutte le celle di questa riga.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Usa la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
+// Utilizza la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -112,8 +114,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

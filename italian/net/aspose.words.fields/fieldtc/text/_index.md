@@ -19,14 +19,15 @@ public string Text { get; set; }
 Mostra come inserire un campo TOC e filtrare quali campi TC finiscono come voci.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisce un campo TOC, che compilerà tutti i campi TC in un sommario.
+    // Inserisci un campo TOC, che compilerà tutti i campi TC in un sommario.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configura il campo solo per raccogliere voci TC di tipo "A" e un livello di ingresso compreso tra 1 e 3.
+    // Configura il campo solo per raccogliere le voci TC del tipo "A" e un livello di ingresso compreso tra 1 e 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -39,14 +40,15 @@ Mostra come inserire un campo TOC e filtrare quali campi TC finiscono come voci.
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Questa voce verrà omessa dalla tabella perché ha un tipo diverso da "A".
+    // Questa voce verrà omessa dalla tabella perché è di tipo diverso da "A".
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Questa voce verrà omessa dalla tabella perché ha un livello di ingresso al di fuori dell'intervallo 1-3.
+    // Questa voce verrà omessa dalla tabella perché ha un livello di voce esterno all'intervallo 1-3.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Utilizza un generatore di documenti per inserire un campo TC.

@@ -3,7 +3,7 @@ title: LayoutOptions.TextShaperFactory
 second_title: Aspose.Words per .NET API Reference
 description: LayoutOptions proprietà. Ottiene o impostaITextShaperFactory implementazione utilizzata per le funzionalità di rendering di tipografia avanzata.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property
@@ -21,14 +21,14 @@ Mostra come supportare le funzionalità OpenType utilizzando il motore di modell
 ```csharp
 Document doc = new Document(MyDir + "OpenType text shaping.docx");
 
-// Aspose.Words può utilizzare oggetti di forma del testo forniti esternamente,
-// che rappresentano i caratteri e calcolano le informazioni sulla forma del testo.
-// Per i documenti che utilizzano più font è necessaria una fabbrica di formattazione del testo.
-// Quando lo shaper del testo è impostato in fabbrica, il layout utilizza le funzionalità OpenType.
+// Aspose.Words può utilizzare oggetti modellatori di testo forniti esternamente,
+// che rappresentano i caratteri e calcolano le informazioni sulla modellazione del testo.
+// Una factory di modellazione del testo è necessaria per i documenti che utilizzano più font.
+// Quando il modellatore di testo è impostato in fabbrica, il layout utilizza le funzionalità OpenType.
 // Una proprietà Instance restituisce un oggetto statico BasicTextShaperCache che racchiude HarfBuzzTextShaperFactory.
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
 
-// Attualmente, la forma del testo viene eseguita durante l'esportazione nei formati PDF o XPS.
+// Attualmente, la modellazione del testo viene eseguita durante l'esportazione nei formati PDF o XPS.
 doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 ```
 

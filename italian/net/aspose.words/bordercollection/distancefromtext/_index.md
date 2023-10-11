@@ -20,11 +20,11 @@ Ottiene la distanza dal testo per il primo bordo.
 
 Imposta la distanza dal testo per tutti i bordi della raccolta esclusi i bordi diagonali.
 
-Non ha effetto e verrà automaticamente reimpostato su zero per i bordi delle celle della tabella.
+Non ha alcun effetto e verrà automaticamente reimpostato su zero per i bordi delle celle della tabella.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

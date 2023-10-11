@@ -3,7 +3,7 @@ title: Enum TabLeader
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.TabLeader enum. Specifica il tipo di linea guida visualizzata sotto il carattere di tabulazione.
 type: docs
-weight: 5890
+weight: 6190
 url: /it/net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

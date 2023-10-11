@@ -16,7 +16,7 @@ public PdfDigitalSignatureTimestampSettings()
 
 ### Esempi
 
-Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con un timestamp.
+Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
 
 ```csharp
 Document doc = new Document();
@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
+// Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea un timestamp con autorizzazione verificata.
+// Crea un timestamp verificato dall'autorità di timestamp.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
@@ -69,13 +69,13 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| serverUrl | String | URL del server timestamp. |
+| serverUrl | String | URL del server di marcatura temporale. |
 | userName | String | Nome utente del server timestamp. |
-| password | String | Password del server timestamp. |
+| password | String | Password del server con timestamp. |
 
 ### Esempi
 
-Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con un timestamp.
+Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
 
 ```csharp
 Document doc = new Document();
@@ -83,14 +83,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
+// Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea un timestamp con autorizzazione verificata.
+// Crea un timestamp verificato dall'autorità di timestamp.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
@@ -129,14 +129,14 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| serverUrl | String | URL del server timestamp. |
+| serverUrl | String | URL del server di marcatura temporale. |
 | userName | String | Nome utente del server timestamp. |
-| password | String | Password del server timestamp. |
+| password | String | Password del server con timestamp. |
 | timeout | TimeSpan | Valore di timeout per l'accesso al server timestamp. |
 
 ### Esempi
 
-Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con un timestamp.
+Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
 
 ```csharp
 Document doc = new Document();
@@ -144,14 +144,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
+// Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea un timestamp con autorizzazione verificata.
+// Crea un timestamp verificato dall'autorità di timestamp.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 

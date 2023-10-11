@@ -1,14 +1,14 @@
 ---
 title: ChartNumberFormat.FormatCode
 second_title: Aspose.Words per .NET API Reference
-description: ChartNumberFormat proprietà. Ottiene o imposta il codice del formato applicato a unetichetta dati.
+description: ChartNumberFormat proprietà. Ottiene o imposta il codice di formato applicato a unetichetta dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
 ---
 ## ChartNumberFormat.FormatCode property
 
-Ottiene o imposta il codice del formato applicato a un'etichetta dati.
+Ottiene o imposta il codice di formato applicato a un'etichetta dati.
 
 ```csharp
 public string FormatCode { get; set; }
@@ -16,9 +16,9 @@ public string FormatCode { get; set; }
 
 ### Osservazioni
 
-La formattazione dei numeri viene utilizzata per modificare il modo in cui un valore appare nell'etichetta dei dati e può essere utilizzata in modi molto creativi. Gli esempi di formati numerici:
+La formattazione dei numeri viene utilizzata per modificare il modo in cui un valore viene visualizzato nell'etichetta dati e può essere utilizzata in modi molto creativi. Esempi di formati numerici:
 
-Numero - "#,##0.00"
+Numero: "#,##0.00"
 
 Valuta - "\"$\"#,##0.00"
 
@@ -36,7 +36,7 @@ Testo - "@"
 
 Contabilità - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-"
 
-Personalizzato con colore - "[Rosso]-#,##0.0"
+Personalizzato con colore: "[Rosso]-#,##0.0"
 
 ### Esempi
 
@@ -49,19 +49,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Aggiungi una serie personalizzata al grafico con le categorie per l'asse X,
- // e valori numerici grandi rispettivi per l'asse Y.
+// Aggiungi una serie personalizzata al grafico con categorie per l'asse X,
+ // e rispettivi valori numerici grandi per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Imposta il formato numerico delle etichette di graduazione dell'asse Y in modo da non raggruppare le cifre con le virgole.
+ // Imposta il formato numerico delle etichette dei segni di spunta dell'asse Y per non raggruppare le cifre con virgole.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Questo flag può sovrascrivere il valore sopra e disegnare il formato numerico dalla cella di origine.
+// Questo flag può sovrascrivere il valore precedente e ricavare il formato numerico dalla cella di origine.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
@@ -73,14 +73,14 @@ Mostra come abilitare e configurare le etichette dati per una serie di grafici.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi un grafico a linee, quindi cancella le sue serie di dati demo per iniziare con un grafico pulito,
+// Aggiungi un grafico a linee, quindi cancella le serie di dati dimostrativi per iniziare con un grafico pulito,
 // e quindi imposta un titolo.
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 chart.Series.Clear();
 chart.Title.Text = "Monthly sales report";
 
-// Inserisci una serie di grafici personalizzata con i mesi come categorie per l'asse X,
+// Inserisci una serie di grafici personalizzati con i mesi come categorie per l'asse X,
 // e rispettivi importi decimali per l'asse Y.
 ChartSeries series = chart.Series.Add("Revenue", 
     new[] { "January", "February", "March" }, 
@@ -92,6 +92,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
+dataLabels.Font.Size = 12;            
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

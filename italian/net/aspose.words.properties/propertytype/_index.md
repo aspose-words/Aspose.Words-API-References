@@ -3,7 +3,7 @@ title: Enum PropertyType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Properties.PropertyType enum. Specifica il tipo di dati di una proprietà del documento.
 type: docs
-weight: 4250
+weight: 4500
 url: /it/net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration
@@ -26,11 +26,11 @@ public enum PropertyType
 | StringArray | `5` | La proprietà è un array di stringhe. |
 | ObjectArray | `6` | La proprietà è un array di oggetti. |
 | ByteArray | `7` | La proprietà è un array di byte. |
-| Other | `8` | La proprietà è di un altro tipo. |
+| Other | `8` | La proprietà è di altro tipo. |
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -79,7 +79,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

@@ -3,7 +3,7 @@ title: CompareOptions.Granularity
 second_title: Aspose.Words per .NET API Reference
 description: CompareOptions proprietà. Specifica se le modifiche vengono tracciate per carattere o per parola. Il valore predefinito èWordLevel .
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
@@ -27,8 +27,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Specifica se le modifiche stanno tenendo traccia
-// per carattere ("Granularity.CharLevel") o per parola ("Granularity.WordLevel").
+// Specifica se le modifiche vengono monitorate
+// per carattere ('Granularity.CharLevel') o per parola ('Granularity.WordLevel').
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 

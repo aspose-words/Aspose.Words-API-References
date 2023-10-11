@@ -1,14 +1,14 @@
 ---
 title: Interface IFontSavingCallback
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IFontSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri durante lesportazione di un documento in formato HTML.
+description: Aspose.Words.Saving.IFontSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri quando esporta un documento in formato HTML.
 type: docs
-weight: 4900
+weight: 5160
 url: /it/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri durante l'esportazione di un documento in formato HTML.
+Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri quando esporta un documento in formato HTML.
 
 ```csharp
 public interface IFontSavingCallback
@@ -18,18 +18,19 @@ public interface IFontSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Chiamato quando Aspose.Words sta per salvare una risorsa font. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Chiamato quando Aspose.Words sta per salvare una risorsa di carattere. |
 
 ### Esempi
 
-Mostra come definire una logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
+Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Configura un oggetto SaveOptions per esportare i caratteri in file separati.
-    // Imposta una richiamata che gestirà il salvataggio dei caratteri in modo personalizzato.
+    // Imposta un callback che gestirà il salvataggio dei caratteri in modo personalizzato.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,8 +45,10 @@ Mostra come definire una logica personalizzata per l'esportazione dei caratteri 
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Stampa le informazioni sui caratteri esportati e li salva nella stessa cartella di sistema locale del file .html di output.
+/// Stampa le informazioni sui caratteri esportati e le salva nella stessa cartella di sistema locale del file .html di output.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,11 +65,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Esistono due modi per salvare un font esportato.
+        // Esistono due modi per salvare un carattere esportato.
         // 1 - Salvalo in una posizione del file system locale:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Salvalo in un flusso:
+        // 2 - Salvalo in uno stream:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

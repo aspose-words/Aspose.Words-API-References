@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando viene rilevato linizio di un intervallo modificabile nel documento.
+description: DocumentVisitor metodo. Chiamato quando nel documento viene rilevato linizio di un intervallo modificabile.
 type: docs
 weight: 170
 url: /it/net/aspose.words/documentvisitor/visiteditablerangestart/
 ---
 ## DocumentVisitor.VisitEditableRangeStart method
 
-Chiamato quando viene rilevato l'inizio di un intervallo modificabile nel documento.
+Chiamato quando nel documento viene rilevato l'inizio di un intervallo modificabile.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
@@ -24,7 +24,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni intervallo modificabile in un documento.
+Mostra come stampare la struttura dei nodi di ogni intervallo modificabile in un documento.
 
 ```csharp
 public void EditableRangeToText()
@@ -32,8 +32,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -41,8 +41,8 @@ public void EditableRangeToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi EditableRange incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi EditableRange incontrati e dei relativi figli.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -61,18 +61,18 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Vogliamo stampare il contenuto delle esecuzioni, ma solo se sono all'interno di forme, come nel caso delle caselle di testo
+        // Vogliamo stampare il contenuto delle sequenze, ma solo se sono all'interno di forme, come nel caso delle caselle di testo
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo EditableRange nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -85,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo EditableRange è terminata.
+    /// Chiamato al termine della visita di un nodo EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -97,9 +97,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e la indenta in base alla profondità del visitatore nell'albero del documento.
+    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

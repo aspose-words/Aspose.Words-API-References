@@ -3,7 +3,7 @@ title: Cell.Tables
 second_title: Aspose.Words per .NET API Reference
 description: Cell proprietà. Ottiene una raccolta di tabelle che sono figli immediati della cella.
 type: docs
-weight: 100
+weight: 120
 url: /it/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
@@ -16,23 +16,22 @@ public TableCollection Tables { get; }
 
 ### Esempi
 
-Mostra come scoprire se una tabella è nidificata.
+Mostra come scoprire se le tabelle sono nidificate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Scopri se alcune celle nella tabella hanno altre tabelle come figli.
+        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Scopri se la tabella è nidificata all'interno di un'altra tabella e, in tal caso, a quale profondità.
+        // Scopri se la tabella è annidata all'interno di un'altra tabella e, in tal caso, a quale profondità.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -64,11 +63,11 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Determina se una tabella contiene una tabella figlio immediata all'interno delle sue celle.
-/// Non attraversare in modo ricorsivo queste tabelle per cercare altre tabelle.
+/// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
+/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce true se almeno una cella figlio contiene una tabella.
+/// Restituisce vero se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)

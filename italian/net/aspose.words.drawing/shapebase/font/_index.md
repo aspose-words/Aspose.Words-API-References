@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Font
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Fornisce laccesso alla formattazione del carattere di questo oggetto.
+description: ShapeBase proprietà. Fornisce laccesso alla formattazione dei caratteri di questo oggetto.
 type: docs
 weight: 190
 url: /it/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-Fornisce l'accesso alla formattazione del carattere di questo oggetto.
+Fornisce l'accesso alla formattazione dei caratteri di questo oggetto.
 
 ```csharp
 public Font Font { get; }
@@ -28,9 +28,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "true" per nascondere alla vista la casella di testo
+// Imposta la proprietà "Hidden" dell'oggetto "Font" della forma su "true" per nascondere la casella di testo alla vista
 // e comprime lo spazio che normalmente occuperebbe.
-// Imposta la proprietà "Nascosto" dell'oggetto "Carattere" della forma su "falso" per lasciare visibile la casella di testo.
+// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "false" per lasciare visibile la casella di testo.
 shape.Font.Hidden = hideShape;
 
 // Se la forma è visibile, ne modificheremo l'aspetto tramite l'oggetto font.
@@ -41,7 +41,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Sposta il builder fuori dalla casella di testo nel documento principale.
+// Sposta il builder fuori dalla casella di testo e riportalo nel documento principale.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

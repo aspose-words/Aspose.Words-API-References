@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
 second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Stile di un codice caso per codice a barre tipo ITF14. I valori validi sono STDEXTADD
+description: BarcodeParameters proprietà. Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono STDEXTADD
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/barcodeparameters/casecodestyle/
 ---
 ## BarcodeParameters.CaseCodeStyle property
 
-Stile di un codice caso per codice a barre tipo ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
+Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -21,14 +21,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
-// e quindi inserirli nel documento come immagini.
+// e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente, possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

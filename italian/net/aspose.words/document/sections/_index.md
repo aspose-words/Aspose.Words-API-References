@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Aspose.Words per .NET API Reference
 description: Document proprietà. Restituisce una raccolta che rappresenta tutte le sezioni del documento.
 type: docs
-weight: 350
+weight: 370
 url: /it/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Aggiungi una copia di quella che ora è la prima sezione alla fine del documento.
+// Aggiunge una copia di quella che ora è la prima sezione alla fine del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -41,22 +41,22 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-Mostra come specificare come una nuova sezione si separa dalla precedente.
+Mostra come specificare il modo in cui una nuova sezione si separa dalla precedente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// I tipi di interruzione di sezione determinano come una nuova sezione si separa dalla sezione precedente.
+// I tipi di interruzione di sezione determinano il modo in cui una nuova sezione si separa dalla sezione precedente.
 // Di seguito sono riportati cinque tipi di interruzioni di sezione.
-// 1 - Inizia la sezione successiva in una nuova pagina:
+// 1 - Inizia la sezione successiva su una nuova pagina:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Inizia la sezione successiva nella pagina corrente:
+// 2 - Avvia la sezione successiva nella pagina corrente:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 

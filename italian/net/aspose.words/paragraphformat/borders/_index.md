@@ -3,7 +3,7 @@ title: ParagraphFormat.Borders
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Ottiene la raccolta dei bordi del paragrafo.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property
@@ -22,12 +22,14 @@ Mostra come inserire un paragrafo con un bordo superiore.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// Imposta ThemeColor solo quando è impostato LineWidth o LineStyle.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

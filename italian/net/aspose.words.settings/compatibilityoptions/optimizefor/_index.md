@@ -1,16 +1,16 @@
 ---
 title: CompatibilityOptions.OptimizeFor
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions metodo. Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words in una particolare versione di MS Word.
+description: CompatibilityOptions metodo. Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word.
 type: docs
 weight: 720
 url: /it/net/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions.OptimizeFor method
 
-Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words in una particolare versione di MS Word.
+Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word.
 
-Utilizzare questo metodo per impedire a MS Word di visualizzare la barra multifunzione "Modalità compatibilità" al caricamento del documento. (Si noti che potrebbe essere necessario anche impostare il[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) proprietà a Iso29500_2008_Transitional o superiore.)
+Utilizza questo metodo per impedire a MS Word di visualizzare la barra multifunzione "Modalità compatibilità" al caricamento del documento. (nota che potrebbe essere necessario anche impostare il[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) proprietà su Iso29500_2008_Transitional o superiore.)
 
 ```csharp
 public void OptimizeFor(MsWordVersion version)
@@ -48,8 +48,8 @@ Mostra come impostare una specifica di conformità OOXML a cui aderire un docume
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se configuriamo le opzioni di compatibilità per essere conformi a Microsoft Word 2003,
-// l'inserimento di un'immagine ne definirà la forma usando VML.
+// Se configuriamo le opzioni di compatibilità per conformarsi a Microsoft Word 2003,
+// l'inserimento di un'immagine ne definirà la forma utilizzando VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -79,7 +79,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Questo oggetto contiene un ampio elenco di flag univoci per ogni documento
+    // Questo oggetto contiene un elenco completo di flag univoci per ciascun documento
     // che ci consentono di facilitare la compatibilità con le versioni precedenti di Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -90,7 +90,7 @@ public void OptimizeFor()
     // Possiamo accedere a queste impostazioni in Microsoft Word tramite "File" -> "Opzioni" -> "Avanzate" -> "Opzioni di compatibilità per...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una specifica versione di Microsoft Word.
+    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una versione specifica di Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -101,7 +101,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Raggruppa tutti i flag nelle opzioni di compatibilità di un documento oggetto per stato, quindi stampa ogni gruppo.
+/// Raggruppa tutti i flag nell'oggetto delle opzioni di compatibilità di un documento in base allo stato, quindi stampa ciascun gruppo.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

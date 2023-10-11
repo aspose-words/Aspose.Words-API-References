@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.IsHidden
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Ottiene/imposta un flag che indica se questa etichetta è nascosta. Il valore predefinito è falso .
+description: ChartDataLabel proprietà. Ottiene/imposta un flag che indica se questa etichetta è nascosta. Il valore predefinito èfalso .
 type: docs
-weight: 20
+weight: 40
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
 ## ChartDataLabel.IsHidden property
 
-Ottiene/imposta un flag che indica se questa etichetta è nascosta. Il valore predefinito è **falso** .
+Ottiene/imposta un flag che indica se questa etichetta è nascosta. Il valore predefinito è`falso` .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -19,6 +19,7 @@ public bool IsHidden { get; set; }
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,7 +40,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Modifica la stringa di separazione per ogni etichetta di dati in una serie.
+    // Modifica la stringa di separazione per ogni etichetta dati in una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -59,7 +60,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati di una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

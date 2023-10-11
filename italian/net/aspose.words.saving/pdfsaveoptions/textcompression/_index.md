@@ -3,7 +3,7 @@ title: PdfSaveOptions.TextCompression
 second_title: Aspose.Words per .NET API Reference
 description: PdfSaveOptions proprietà. Specifica il tipo di compressione da utilizzare per tutto il contenuto testuale nel documento.
 type: docs
-weight: 260
+weight: 290
 url: /it/net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
@@ -18,11 +18,11 @@ public PdfTextCompression TextCompression { get; set; }
 
 L'impostazione predefinita èFlate.
 
-Aumenta significativamente la dimensione dell'output quando si salva un documento senza compressione.
+Aumenta significativamente le dimensioni dell'output quando si salva un documento senza compressione.
 
 ### Esempi
 
-Mostra come applicare la compressione del testo durante il salvataggio di un documento in PDF.
+Mostra come applicare la compressione del testo quando si salva un documento in PDF.
 
 ```csharp
 Document doc = new Document();
@@ -33,13 +33,13 @@ for (int i = 0; i < 100; i++)
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "TextCompression" su "PdfTextCompression.None" per non applicarne
+// Imposta la proprietà "TextCompression" su "PdfTextCompression.None" per non applicarne alcuna
 // compressione in testo quando salviamo il documento in PDF.
 // Imposta la proprietà "TextCompression" su "PdfTextCompression.Flate" per applicare la compressione ZIP
-// in testo quando salviamo il documento in PDF. Più grande è il documento, maggiore sarà l'impatto che questo avrà.
+// in testo quando salviamo il documento in PDF. Più grande è il documento, maggiore sarà l’impatto che ciò avrà.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

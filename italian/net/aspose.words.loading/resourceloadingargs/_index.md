@@ -3,7 +3,7 @@ title: Class ResourceLoadingArgs
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Loading.ResourceLoadingArgs classe. Fornisce i dati per ilResourceLoading metodo.
 type: docs
-weight: 3490
+weight: 3690
 url: /it/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -20,27 +20,28 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | URI originale della risorsa come specificato nel documento importato. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Tipo di risorsa. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI della risorsa utilizzata per scaricare if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) restituisceDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI della risorsa utilizzata per downloading if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) ritornaDefault. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Imposta i dati forniti dall'utente della risorsa che viene utilizzata se[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) restituisceUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Imposta i dati forniti dall'utente della risorsa utilizzata se[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) ritornaUserProvided . |
 
 ### Esempi
 
-Mostra come personalizzare il processo di caricamento di risorse esterne in un documento.
+Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Le immagini di solito vengono inserite utilizzando un URI o un array di byte.
-    // Ogni istanza di un carico di risorse chiamerà il metodo ResourceLoading del nostro callback.
+    // Le immagini solitamente vengono inserite utilizzando un URI o un array di byte.
+    // Ogni istanza di caricamento di una risorsa chiamerà il metodo ResourceLoading del nostro callback.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -48,16 +49,17 @@ Mostra come personalizzare il processo di caricamento di risorse esterne in un d
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, al contrario degli URI.
-/// Questo separerà la logica di caricamento delle immagini dal resto della costruzione del documento.
+/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
+/// Ciò separerà la logica di caricamento dell'immagine dal resto della costruzione del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Se questa richiamata incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
+        // Se questo callback incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
         // applicherà una logica univoca per ogni abbreviazione definita invece di trattarla come un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

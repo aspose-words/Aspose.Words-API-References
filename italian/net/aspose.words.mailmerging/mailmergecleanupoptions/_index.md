@@ -3,7 +3,7 @@ title: Enum MailMergeCleanupOptions
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.MailMerging.MailMergeCleanupOptions enum. Specifica le opzioni che determinano quali elementi vengono rimossi durante la stampa unione.
 type: docs
-weight: 3630
+weight: 3850
 url: /it/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
@@ -20,11 +20,11 @@ public enum MailMergeCleanupOptions
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Specifica un valore predefinito. |
-| RemoveEmptyParagraphs | `1` | Specifica se i paragrafi che contenevano campi di stampa unione senza dati devono essere rimossi dal documento. Quando questa opzione è impostata, vengono rimossi anche i paragrafi che contengono campi di inizio e fine area di unione che altrimenti sarebbero vuoti . |
-| RemoveUnusedRegions | `2` | Specifica se le aree di stampa unione non utilizzate devono essere rimosse dal documento. |
+| RemoveEmptyParagraphs | `1` | Specifica se i paragrafi che contenevano campi di stampa unione senza dati devono essere rimossi dal documento. Quando questa opzione è impostata, vengono rimossi anche i paragrafi che contengono campi di inizio e fine regione che altrimenti sarebbero vuoti . |
+| RemoveUnusedRegions | `2` | Specifica se le aree di stampa unione inutilizzate devono essere rimosse dal documento. |
 | RemoveUnusedFields | `4` | Specifica se i campi di unione inutilizzati devono essere rimossi dal documento. |
-| RemoveContainingFields | `8` | Specifica se i campi che contengono campi di unione (ad esempio, IF) devono essere rimossi dal documento se i campi di unione nidificati vengono rimossi. |
-| RemoveStaticFields | `10` | Specifica se i campi statici devono essere rimossi dal documento. I campi statici sono campi i cui risultati rimangono gli stessi a qualsiasi modifica del documento. I campi, che non memorizzano i risultati in un documento e vengono calcolati al volo (comeFieldListNum , FieldSymbol , ecc.) non sono considerati statici. |
+| RemoveContainingFields | `8` | Specifica se i campi che contengono campi di unione (ad esempio IF) devono essere rimossi dal documento se i campi di unione nidificati vengono rimossi. |
+| RemoveStaticFields | `10` | Specifica se i campi statici devono essere rimossi dal documento. I campi statici sono campi i cui risultati rimangono gli stessi dopo qualsiasi modifica del documento. I campi che non memorizzano i risultati in un document e vengono calcolati al volo (comeFieldListNum , FieldSymbol , ecc.) non sono considerati statici. |
 | RemoveEmptyTableRows | `20` | Specifica se le righe vuote che contengono aree di stampa unione devono essere rimosse dal documento. |
 
 ### Esempi
@@ -62,13 +62,13 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Mostra come rimuovere automaticamente i MERGEFIELD che restano inutilizzati durante la stampa unione.
+Mostra come rimuovere automaticamente i MERGEFIELD che rimangono inutilizzati durante la stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un documento con MERGEFIELD per tre colonne di una tabella di origine dati stampa unione,
+// Crea un documento con MERGEFIELD per tre colonne di una tabella di origini dati di stampa unione,
 // e quindi crea una tabella con solo due colonne i cui nomi corrispondono ai nostri MERGEFIELD.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
@@ -83,9 +83,9 @@ dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
 // Il nostro terzo MERGEFIELD fa riferimento a una colonna "Città", che non esiste nella nostra origine dati.
-// La stampa unione lascerà intatti campi come questo nel loro stato precedente all'unione.
-// L'impostazione della proprietà "CleanupOptions" su "RemoveUnusedFields" rimuoverà tutti i MERGEFIELD
-// che non vengono utilizzati durante una stampa unione per ripulire i documenti di unione.
+// La stampa unione lascerà campi come questo intatti nello stato precedente all'unione.
+// Impostando la proprietà "CleanupOptions" su "RemoveUnusedFields" verranno rimossi tutti i MERGEFIELD
+// che rimangono inutilizzati durante una stampa unione per ripulire i documenti uniti.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

@@ -1,14 +1,14 @@
 ---
 title: Style.IsQuickStyle
 second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Specifica se questo stile viene visualizzato nella raccolta Stili rapidi allinterno dellinterfaccia utente di MS Word.
+description: Style proprietà. Specifica se questo stile viene mostrato nella raccolta Stile veloce allinterno dellinterfaccia utente di MS Word.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
 
-Specifica se questo stile viene visualizzato nella raccolta Stili rapidi all'interno dell'interfaccia utente di MS Word.
+Specifica se questo stile viene mostrato nella raccolta Stile veloce all'interno dell'interfaccia utente di MS Word.
 
 ```csharp
 public bool IsQuickStyle { get; set; }

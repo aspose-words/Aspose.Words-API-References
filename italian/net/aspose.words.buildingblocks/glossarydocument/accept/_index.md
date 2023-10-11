@@ -20,21 +20,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valore di ritorno
 
-Vero se tutti i nodi sono stati visitati; false se DocumentVisitor ha interrotto l'operazione prima di visitare tutti i nodi.
+Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
 ### Osservazioni
 
-Enumera su questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su DocumentVisitor.
+Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
-Chiamate[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio di questo nodo e quindi chiama[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) alla fine.
+Chiamate[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio di questo nodo e quindi chiama[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) alla fine.
 
-Nota: un nodo del documento del glossario e i suoi figli non vengono visitati quando si esegue a Visitor su un[`Document`](../../../aspose.words/document/) . Se vuoi eseguire un Visitor su un documento di glossario , devi chiamare`Accept` .
+Nota: un nodo del documento glossario e i suoi figli non vengono visitati quando si esegue un Visitor su un[`Document`](../../../aspose.words/document/) . Se vuoi eseguire un Visitatore su un documento di glossario , devi chiamare`Accept` .
 
 ### Esempi
 
-Mostra le modalità di accesso ai blocchi predefiniti in un documento di glossario.
+Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
 ```csharp
 public void GlossaryDocument()
@@ -53,32 +53,31 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Esistono vari modi per accedere ai blocchi predefiniti.
-    // 1 - Ottieni i primi/ultimi blocchi di costruzione della collezione:
+    // 1 - Ottieni il primo/ultimo elemento costitutivo della raccolta:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Ottieni un building block per indice:
+    // 2 - Ottieni un elemento costitutivo per indice:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Ottieni il primo building block che corrisponde a una galleria, un nome e una categoria:
+    // 3 - Ottieni il primo elemento costitutivo che corrisponde a una galleria, un nome e una categoria:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Lo faremo utilizzando un visitatore personalizzato,
-    // che darà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
+    // che assegnerà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word, possiamo accedere ai blocchi predefiniti tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione".
+    // In Microsoft Word possiamo accedere agli elementi costitutivi tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione" .
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Fornisce a ciascun elemento costitutivo in un documento del glossario visitato un GUID univoco.
-/// Memorizza le coppie di blocchi GUID in un dizionario.
+/// Assegna a ogni elemento costitutivo in un documento di glossario visitato un GUID univoco.
+/// Memorizza le coppie di blocchi predefiniti GUID in un dizionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

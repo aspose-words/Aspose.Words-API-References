@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.StartEditableRange
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio intervallo modificabile.
+description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio di un intervallo modificabile.
 type: docs
-weight: 600
+weight: 640
 url: /it/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
 
-Contrassegna la posizione corrente nel documento come inizio intervallo modificabile.
+Contrassegna la posizione corrente nel documento come inizio di un intervallo modificabile.
 
 ```csharp
 public EditableRangeStart StartEditableRange()
@@ -16,11 +16,11 @@ public EditableRangeStart StartEditableRange()
 
 ### Valore di ritorno
 
-Il nodo di inizio dell'intervallo modificabile che è stato appena creato.
+Il nodo iniziale dell'intervallo modificabile appena creato.
 
 ### Osservazioni
 
-L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamare entrambi`StartEditableRange` e[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/)metodi.
+L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamarli entrambi`StartEditableRange` E[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/) metodi.
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 
@@ -45,7 +45,7 @@ builder.Writeln("This paragraph inside both the outer and inner editable ranges 
 
 // Attualmente, il cursore di inserimento del nodo del generatore di documenti si trova in più di un intervallo modificabile in corso.
 // Quando vogliamo terminare un intervallo modificabile in questa situazione,
-// dobbiamo specificare quale degli intervalli vogliamo terminare passando il suo nodo EditableRangeStart.
+// dobbiamo specificare quale degli intervalli desideriamo terminare passando il relativo nodo EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -55,7 +55,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
 // Se un'area di testo ha due intervalli modificabili sovrapposti con gruppi specificati,
-// al gruppo combinato di utenti esclusi da entrambi i gruppi viene impedito di modificarlo.
+// al gruppo combinato di utenti esclusi da entrambi i gruppi non è consentito modificarlo.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
@@ -84,14 +84,14 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diverse parti dell'intervallo modificabile si collegano tra loro.
+// Parti diverse dell'intervallo modificabile si collegano tra loro.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile stesso non è un nodo,
-// ma un'entità che consiste in un inizio, una fine e il loro contenuto racchiuso.
+// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile in sé non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e il contenuto racchiuso.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

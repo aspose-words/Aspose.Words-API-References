@@ -16,16 +16,16 @@ public bool ExportCompactSize { get; set; }
 
 ### Osservazioni
 
-Se il documento che vuoi convertire in RTF usando Aspose.Words non contiene testo da destra a sinistra in lingue come l'arabo, puoi impostare questa opzione su`VERO` per ridurre la dimensione dell'RTF risultante.
+Se il documento che desideri convertire in RTF utilizzando Aspose.Words non contiene testo da destra a sinistra in lingue come l'arabo, puoi impostare questa opzione su`VERO` per ridurre la dimensione dell'RTF risultante.
 
 ### Esempi
 
-Mostra come salvare un documento in .rtf con opzioni personalizzate.
+Mostra come salvare un documento in formato .rtf con opzioni personalizzate.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Crea un oggetto "RtfSaveOptions" da passare al metodo "Salva" del documento per modificare il modo in cui lo salviamo in un RTF.
+// Crea un oggetto "RtfSaveOptions" da passare al metodo "Save" del documento per modificare il modo in cui lo salviamo in un RTF.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
@@ -35,8 +35,8 @@ Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 options.ExportCompactSize = true;
 
 // Imposta la proprietà "ExportImagesFotOldReaders" su "true" per utilizzare parole chiave aggiuntive per garantire che il nostro documento sia
-// compatibile con lettori Word 97 precedenti a Microsoft e WordPad.
-// Imposta la proprietà "ExportImagesFotOldReaders" su "false" per ridurre le dimensioni del documento,
+// compatibile con lettori di versioni precedenti a Microsoft Word 97 e WordPad.
+// Imposta la proprietà "ExportImagesFotOldReaders" su "false" per ridurre la dimensione del documento,
 // ma impedisce ai vecchi lettori di leggere qualsiasi immagine non metafile o BMP che il documento potrebbe contenere.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 

@@ -1,14 +1,14 @@
 ---
 title: PageInfo.Landscape
 second_title: Aspose.Words per .NET API Reference
-description: PageInfo proprietà. Restituisce true se lorientamento della pagina specificato nel documento per questa pagina è orizzontale.
+description: PageInfo proprietà. RestituisceVERO se lorientamento della pagina specificato nel documento per questa pagina è orizzontale.
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Restituisce true se l'orientamento della pagina specificato nel documento per questa pagina è orizzontale.
+Restituisce`VERO` se l'orientamento della pagina specificato nel documento per questa pagina è orizzontale.
 
 ```csharp
 public bool Landscape { get; }
@@ -16,13 +16,13 @@ public bool Landscape { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni sulle dimensioni della pagina e sull'orientamento per ogni pagina di un documento di Word.
+Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta per stampante diverso,
-// il cui numero corrisponderà a un tipo di origine carta. Queste fonti e i loro tipi varieranno
+// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
+// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -67,7 +67,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Seleziona un formato carta, un orientamento e un vassoio carta appropriati durante la stampa.
+/// Seleziona il formato carta, l'orientamento e il vassoio carta appropriati durante la stampa.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -99,33 +99,33 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Chiamato prima della stampa di ogni pagina. 
+     /// Chiamato prima che ogni pagina venga stampata.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Un singolo documento di Microsoft Word può avere più sezioni che specificano pagine con dimensioni diverse, 
-        // orientamenti e vassoi carta. Il framework di stampa .NET chiama questo codice prima 
-        // viene stampata ogni pagina, il che ci dà la possibilità di specificare come stampare la pagina corrente.
+         // Un singolo documento Microsoft Word può avere più sezioni che specificano pagine con dimensioni diverse,
+         // orientamenti e vassoi della carta. Il framework di stampa .NET chiama questo codice prima
+        // ogni pagina viene stampata, il che ci dà la possibilità di specificare come stampare la pagina corrente.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word memorizza l'origine carta (vassoio stampante) per ciascuna sezione come valore specifico della stampante.
+        // Microsoft Word memorizza l'origine della carta (vassoio della stampante) per ciascuna sezione come valore specifico della stampante.
         // Per ottenere il valore corretto del vassoio, dovrai utilizzare la proprietà "RawKind", che la tua stampante dovrebbe restituire.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Chiamato per ogni pagina per renderla per la stampa. 
+     /// Richiesto per ogni pagina di renderizzarla per la stampa.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
         // Il motore di rendering Aspose.Words crea una pagina disegnata dall'origine (x = 0, y = 0) del foglio.
-        // Ci sarà un margine rigido nella stampante, che eseguirà il rendering di ogni pagina. Dobbiamo compensare con quel margine duro.
+        // Ci sarà un margine fisso nella stampante, che renderà ogni pagina. Dobbiamo compensare con quel margine rigido.
         float hardOffsetX, hardOffsetY;
 
         // Di seguito sono riportati due modi per impostare un margine rigido.

@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
 second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0 ovvero nessun limite.
+description: TxtSaveOptions proprietà. Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0 ciò significa nessun limite.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
 ---
 ## TxtSaveOptions.MaxCharactersPerLine property
 
-Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0, ovvero nessun limite.
+Ottiene o imposta un valore intero che specifica il numero massimo di caratteri per riga. Il valore predefinito è 0, ciò significa nessun limite.
 
 ```csharp
 public int MaxCharactersPerLine { get; set; }

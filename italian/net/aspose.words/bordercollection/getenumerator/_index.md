@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.GetEnumerator
 second_title: Aspose.Words per .NET API Reference
-description: BorderCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per eseguire iterazioni su tutti i bordi della raccolta.
+description: BorderCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti i bordi della raccolta.
 type: docs
 weight: 160
 url: /it/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Restituisce un oggetto enumeratore che può essere utilizzato per eseguire iterazioni su tutti i bordi della raccolta.
+Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti i bordi della raccolta.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -16,13 +16,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ### Esempi
 
-Mostra come scorrere e modificare tutti i bordi in un oggetto formato paragrafo.
+Mostra come scorrere e modificare tutti i bordi in un oggetto in formato paragrafo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Configura le impostazioni del formato del paragrafo del builder per creare un bordo ondulato verde su tutti i lati.
+// Configura le impostazioni del formato paragrafo del builder per creare un bordo ondulato verde su tutti i lati.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -36,7 +36,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
-// Inserisce un paragrafo. Le nostre impostazioni di confine determineranno l'aspetto del suo confine.
+// Inserisci un paragrafo. Le nostre impostazioni del bordo determineranno l'aspetto del suo bordo.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

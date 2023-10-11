@@ -1,14 +1,14 @@
 ---
 title: CellFormat.FitText
 second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Se true adatta il testo alla cella comprimendo ogni paragrafo alla larghezza della cella.
+description: CellFormat proprietà. SeVERO  adatta il testo nella cella comprimendo ogni paragrafo alla larghezza della cella.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-Se true, adatta il testo alla cella, comprimendo ogni paragrafo alla larghezza della cella.
+Se`VERO` , adatta il testo nella cella, comprimendo ogni paragrafo alla larghezza della cella.
 
 ```csharp
 public bool FitText { get; set; }
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

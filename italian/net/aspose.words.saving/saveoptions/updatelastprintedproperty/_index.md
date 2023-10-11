@@ -3,7 +3,7 @@ title: SaveOptions.UpdateLastPrintedProperty
 second_title: Aspose.Words per .NET API Reference
 description: SaveOptions proprietà. Ottiene o imposta un valore che determina se ilLastPrinted la proprietà viene aggiornata prima del salvataggio.
 type: docs
-weight: 180
+weight: 170
 url: /it/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
@@ -24,7 +24,7 @@ doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
 
 // Questo flag determina se l'ora creata, che è una proprietà incorporata, viene aggiornata.
 // In tal caso, la data dell'operazione di salvataggio più recente del documento
-// con questo oggetto SaveOptions passato come parametro viene utilizzato come ora creata.
+// con questo oggetto SaveOptions passato come parametro viene utilizzato come orario creato.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
 
@@ -36,7 +36,7 @@ doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx
 Assert.AreNotEqual(isUpdateCreatedTimeProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.CreatedTime);
 ```
 
-Mostra come aggiornare la proprietà "Ultimo stampato" di un documento durante il salvataggio.
+Mostra come aggiornare la proprietà "Ultima stampa" di un documento durante il salvataggio.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
 
 // Questo flag determina se l'ultima data stampata, che è una proprietà incorporata, viene aggiornata.
 // In tal caso, la data dell'operazione di salvataggio più recente del documento
-// con questo oggetto SaveOptions passato come parametro viene utilizzato come data di stampa.
+// con questo oggetto SaveOptions passato come parametro viene utilizzata come data di stampa.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
 

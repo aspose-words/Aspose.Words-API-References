@@ -1,14 +1,14 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 second_title: Aspose.Words per .NET API Reference
-description: WordML2003SaveOptions proprietà. Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereWordML .
+description: WordML2003SaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereWordML .
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereWordML .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereWordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un oggetto "WordML2003SaveOptions" da passare al metodo "Save" del documento
-// per modificare il modo in cui salviamo il documento nel formato di salvataggio di WordML.
+// per modificare il modo in cui salviamo il documento nel formato di salvataggio WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
 // Imposta la proprietà "PrettyFormat" su "true" per applicare il rientro dei caratteri di tabulazione e
-// nuove righe per rendere più facile la lettura del contenuto grezzo del documento di output.
-// Imposta la proprietà "PrettyFormat" su "false" per salvare il contenuto non elaborato del documento in un corpo continuo del testo.
+// ritorni a capo per rendere più semplice la lettura del contenuto grezzo del documento di output.
+// Imposta la proprietà "PrettyFormat" su "false" per salvare il contenuto grezzo del documento in un unico corpo di testo continuo.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

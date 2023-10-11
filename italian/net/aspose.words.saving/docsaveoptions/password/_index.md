@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Osservazioni
 
-Per salvare il documento senza crittografia questa proprietà dovrebbe essere una stringa nulla o vuota.
+Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
 
 ### Esempi
 
@@ -33,7 +33,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo conservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
 second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection proprietà. Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà è falso.
+description: FontInfoCollection proprietà. Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà èfalso.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà è **falso**.
+Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà è`falso`.
 
-Questa opzione funziona solo quando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) l'opzione è impostata su **VERO**.
+Questa opzione funziona solo quando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) l'opzione è impostata su`VERO`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -18,13 +18,13 @@ public bool EmbedSystemFonts { get; set; }
 
 ### Osservazioni
 
-Impostazione di questa proprietà su`Vero`è utile se l'utente si trova su un sistema dell'Asia orientale e desidera creare un documento leggibile da altri che non dispongono di caratteri per quella lingua sul proprio sistema. Ad esempio, un utente su un sistema giapponese potrebbe scegliere di incorporare i caratteri in un documento in modo che il documento giapponese sia leggibile su tutti i sistemi.
+Impostazione di questa proprietà su`VERO`è utile se l'utente utilizza un sistema dell'Asia orientale e desidera creare un documento leggibile da altri che non dispongono di caratteri per quella lingua sul proprio sistema. Ad esempio, un utente su un sistema giapponese potrebbe scegliere di incorporare i caratteri in un documento in modo che il documento giapponese sia leggibile su tutti i sistemi.
 
 Questa opzione funziona solo per i formati DOC, DOCX e RTF.
 
 ### Esempi
 
-Mostra come salvare un documento con i caratteri TrueType incorporati.
+Mostra come salvare un documento con caratteri TrueType incorporati.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

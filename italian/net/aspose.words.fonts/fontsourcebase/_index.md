@@ -1,14 +1,16 @@
 ---
 title: Class FontSourceBase
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontSourceBase classe. Questa è una classe base astratta per le classi che consentono allutente di specificare varie fonti di font.
+description: Aspose.Words.Fonts.FontSourceBase classe. Questa è una classe base astratta per le classi che consentono allutente di specificare varie origini di caratteri.
 type: docs
-weight: 2800
+weight: 2980
 url: /it/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
-Questa è una classe base astratta per le classi che consentono all'utente di specificare varie fonti di font.
+Questa è una classe base astratta per le classi che consentono all'utente di specificare varie origini di caratteri.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public abstract class FontSourceBase
@@ -18,15 +20,15 @@ public abstract class FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità dell'origine del carattere. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Restituisce il tipo di origine del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Restituisce il tipo di fonte del carattere. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa fonte. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 
 ### Esempi
 

@@ -1,14 +1,14 @@
 ---
 title: Document.RemoveExternalSchemaReferences
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Rimuove i riferimenti a schemi XML esterni da questo documento.
+description: Document metodo. Rimuove i riferimenti allo schema XML esterno da questo documento.
 type: docs
-weight: 640
+weight: 680
 url: /it/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method
 
-Rimuove i riferimenti a schemi XML esterni da questo documento.
+Rimuove i riferimenti allo schema XML esterno da questo documento.
 
 ```csharp
 public void RemoveExternalSchemaReferences()
@@ -16,7 +16,7 @@ public void RemoveExternalSchemaReferences()
 
 ### Esempi
 
-Mostra come rimuovere tutti i riferimenti a schemi XML esterni da un documento.
+Mostra come rimuovere tutti i riferimenti allo schema XML esterno da un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "External XML schema.docx");

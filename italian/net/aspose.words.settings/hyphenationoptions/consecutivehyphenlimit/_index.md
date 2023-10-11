@@ -18,7 +18,7 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 Se il valore di questa proprietà è impostato su 0, qualsiasi numero di righe consecutive può terminare con trattini.
 
-La proprietà non ha effetto durante il salvataggio in formati di pagina fissi, ad es. PDF.
+La proprietà non ha effetto quando si salva in formati di pagina fissi, ad esempio PDF.
 
 ### Esempi
 

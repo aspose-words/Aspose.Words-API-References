@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta un valore booleano che indica se consentire lincorporamento di caratteri con contorni PostScript quando lincorporamento di caratteri TrueType in un documento viene salvato. Il valore predefinito è falso .
+description: SaveOptions proprietà. Ottiene o imposta un valore booleano che indica se consentire lincorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito èfalso .
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando l'incorporamento di caratteri TrueType in un documento viene salvato. Il valore predefinito è **falso** .
+Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -16,7 +16,7 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ### Osservazioni
 
-Nota, Word non incorpora i caratteri PostScript, ma può aprire documenti con caratteri incorporati di questo tipo.
+Tieni presente che Word non incorpora caratteri PostScript, ma può aprire documenti con caratteri incorporati di questo tipo.
 
 Questa opzione funziona solo quando[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) del [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la proprietà è impostata su`VERO`.
 
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "PostScriptFont";
 builder.Writeln("Some text with PostScript font.");
 
-// Carica il font con PostScript da utilizzare nel documento.
+// Carica il carattere con PostScript da utilizzare nel documento.
 MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
@@ -40,7 +40,7 @@ doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
 // Consenti l'incorporamento di caratteri PostScript durante l'incorporamento di caratteri TrueType.
-// Microsoft Word non incorpora font PostScript, ma può aprire documenti con font incorporati di questo tipo.
+// Microsoft Word non incorpora i caratteri PostScript, ma può aprire documenti con caratteri incorporati di questo tipo.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

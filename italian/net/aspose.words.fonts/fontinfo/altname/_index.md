@@ -20,7 +20,7 @@ Non può essere`nullo`. Può essere una stringa vuota.
 
 ### Esempi
 
-Mostra come accedere e stampare i dettagli di ogni font in un documento.
+Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -33,7 +33,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi di solito sono vuoti.
+        // I nomi alternativi sono generalmente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

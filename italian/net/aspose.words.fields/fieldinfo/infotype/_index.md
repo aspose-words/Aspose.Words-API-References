@@ -1,14 +1,14 @@
 ---
 title: FieldInfo.InfoType
 second_title: Aspose.Words per .NET API Reference
-description: FieldInfo proprietà. Ottiene o imposta il tipo di proprietà del documento da inserire.
+description: FieldInfo proprietà. Ottiene o imposta il tipo della proprietà del documento da inserire.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldinfo/infotype/
 ---
 ## FieldInfo.InfoType property
 
-Ottiene o imposta il tipo di proprietà del documento da inserire.
+Ottiene o imposta il tipo della proprietà del documento da inserire.
 
 ```csharp
 public string InfoType { get; set; }
@@ -22,7 +22,7 @@ Mostra come lavorare con i campi INFO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta un valore per la proprietà incorporata "Commenti", quindi inserisci un campo INFO per visualizzare il valore di quella proprietà.
+// Imposta un valore per la proprietà incorporata "Commenti" e quindi inserisce un campo INFO per visualizzare il valore di quella proprietà.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

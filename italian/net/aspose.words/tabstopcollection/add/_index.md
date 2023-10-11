@@ -16,11 +16,11 @@ public void Add(TabStop tabStop)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| tabStop | TabStop | Un oggetto di tabulazione da aggiungere. |
+| tabStop | TabStop | Un oggetto tabulazione da aggiungere. |
 
 ### Osservazioni
 
-Se esiste già una tabulazione nella posizione specificata, viene sostituita.
+Se nella posizione specificata esiste già un punto di tabulazione, verrà sostituito.
 
 ### Esempi
 
@@ -39,14 +39,14 @@ paragraph.ParagraphFormat.TabStops.Add(tabStop);
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// Aggiungi tabulazioni a 5 cm a tutti i paragrafi.
+// Aggiunge tabulazioni a 5 cm a tutti i paragrafi.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// Ogni carattere "tab" porta il cursore del builder nella posizione del successivo punto di tabulazione.
+// Ogni carattere "tab" porta il cursore del builder nella posizione del punto di tabulazione successivo.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -72,13 +72,13 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| position | Double | Una posizione (in punti) in cui aggiungere il punto di tabulazione. |
-| alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/)value that specifica l'allineamento del testo al punto di tabulazione. |
-| leader | TabLeader | UN[`TabLeader`](../../tableader/) value that specifica il tipo di linea guida visualizzata sotto il carattere di tabulazione. |
+| position | Double | Una posizione (in punti) in cui aggiungere la tabulazione. |
+| alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/) valore that specifica l'allineamento del testo alla tabulazione. |
+| leader | TabLeader | UN[`TabLeader`](../../tableader/) valore that specifica il tipo di linea guida visualizzata sotto il carattere di tabulazione. |
 
 ### Osservazioni
 
-Se esiste già una tabulazione nella posizione specificata, viene sostituita.
+Se nella posizione specificata esiste già un punto di tabulazione, verrà sostituito.
 
 ### Esempi
 
@@ -97,14 +97,14 @@ paragraph.ParagraphFormat.TabStops.Add(tabStop);
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// Aggiungi tabulazioni a 5 cm a tutti i paragrafi.
+// Aggiunge tabulazioni a 5 cm a tutti i paragrafi.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// Ogni carattere "tab" porta il cursore del builder nella posizione del successivo punto di tabulazione.
+// Ogni carattere "tab" porta il cursore del builder nella posizione del punto di tabulazione successivo.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

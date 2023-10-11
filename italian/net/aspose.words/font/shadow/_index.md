@@ -16,14 +16,14 @@ public bool Shadow { get; set; }
 
 ### Esempi
 
-Mostra come creare una sequenza di testo formattato con un'ombreggiatura.
+Mostra come creare una sequenza di testo formattata con un'ombra.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta il flag Ombra per applicare un effetto ombra offset,
-// facendo sembrare che le lettere stiano fluttuando sopra la pagina.
+// Imposta il flag Shadow per applicare un effetto ombra offset,
+// facendo sembrare che le lettere fluttuano sopra la pagina.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

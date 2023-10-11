@@ -23,18 +23,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Di seguito sono elencate quattro proprietà del documento integrate che dispongono di campi che possono visualizzare i relativi valori nel corpo del documento.
+// Di seguito sono riportate quattro proprietà del documento integrate che dispongono di campi che possono visualizzare i relativi valori nel corpo del documento.
 // 1 - Proprietà "Autore", che possiamo visualizzare utilizzando un campo AUTORE:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - Proprietà "Titolo", che possiamo visualizzare utilizzando un campo TITLE:
+// 2 - Proprietà "Titolo", che possiamo visualizzare utilizzando un campo TITOLO:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - Proprietà "Subject", che possiamo visualizzare utilizzando un campo SUBJECT:
+// 3 - Proprietà "Oggetto", che possiamo visualizzare utilizzando un campo OGGETTO:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
@@ -45,14 +45,14 @@ builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// La proprietà incorporata "Categoria" non ha un campo che può visualizzarne il valore.
+// La proprietà incorporata "Categoria" non dispone di un campo in grado di visualizzarne il valore.
 properties.Category = "My category";
 
-// Possiamo impostare più parole chiave per un documento separando il valore della stringa della proprietà "Parole chiave" con punti e virgola.
+// Possiamo impostare più parole chiave per un documento separando il valore della stringa della proprietà "Keywords" con punto e virgola.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Possiamo fare clic con il pulsante destro del mouse su questo documento in Esplora risorse e trovare queste proprietà in "Proprietà" -> "Particolari".
-// La proprietà incorporata "Autore" si trova nel gruppo "Origine" e le altre nel gruppo "Descrizione".
+// Possiamo fare clic con il pulsante destro del mouse su questo documento in Esplora risorse e trovare queste proprietà in "Proprietà" -> "Dettagli".
+// La proprietà integrata "Autore" è nel gruppo "Origine" e le altre sono nel gruppo "Descrizione".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

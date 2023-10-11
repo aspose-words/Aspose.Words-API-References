@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Width
 second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. Quando le colonne sono equidistanti ottiene la larghezza delle colonne.
+description: TextColumnCollection proprietà. Quando le colonne sono spaziate uniformemente ottiene la larghezza delle colonne.
 type: docs
 weight: 60
 url: /it/net/aspose.words/textcolumncollection/width/
 ---
 ## TextColumnCollection.Width property
 
-Quando le colonne sono equidistanti, ottiene la larghezza delle colonne.
+Quando le colonne sono spaziate uniformemente, ottiene la larghezza delle colonne.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Osservazioni
 
-Ha effetto solo quando[`EvenlySpaced`](../evenlyspaced/) è impostato per **VERO**.
+Ha effetto solo quando[`EvenlySpaced`](../evenlyspaced/) è impostato per`VERO`.
 
 ### Guarda anche
 

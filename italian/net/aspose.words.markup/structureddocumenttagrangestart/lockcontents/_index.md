@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Se impostata su true questa proprietà vieterà a un utente di modificare il contenuto di questo tag del documento strutturato.
+description: StructuredDocumentTagRangeStart proprietà. Quando impostato suVERO  questa proprietà impedirà a un utente di modificare il contenuto di questo tag di documento strutturato.
 type: docs
 weight: 90
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-Se impostata su true, questa proprietà vieterà a un utente di modificare il contenuto di questo tag del documento strutturato.
+Quando impostato su`VERO` , questa proprietà impedirà a un utente di modificare il contenuto di questo tag di documento strutturato.
 
 ```csharp
 public bool LockContents { get; set; }

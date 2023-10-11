@@ -16,11 +16,11 @@ public double DistanceFromText { get; set; }
 
 ### Osservazioni
 
-Non ha effetto e verrà automaticamente reimpostato su zero per i bordi delle celle della tabella.
+Non ha alcun effetto e verrà automaticamente reimpostato su zero per i bordi delle celle della tabella.
 
 ### Esempi
 
-Mostra come creare un ampio bordo a banda blu nella parte superiore della prima pagina.
+Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

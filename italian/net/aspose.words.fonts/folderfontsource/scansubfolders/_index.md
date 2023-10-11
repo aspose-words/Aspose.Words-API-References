@@ -19,7 +19,7 @@ public bool ScanSubfolders { get; }
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
 ```csharp
-// Crea una fonte di font da una cartella che contiene file di font.
+// Crea un'origine carattere da una cartella che contiene file di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

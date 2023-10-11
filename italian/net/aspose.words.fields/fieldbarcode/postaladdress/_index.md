@@ -1,14 +1,14 @@
 ---
 title: FieldBarcode.PostalAddress
 second_title: Aspose.Words per .NET API Reference
-description: FieldBarcode proprietà. Ottiene o imposta lindirizzo postale utilizzato per la generazione di un codice a barre o il nome del segnalibro che fa riferimento ad esso.
+description: FieldBarcode proprietà. Ottiene o imposta lindirizzo postale utilizzato per generare un codice a barre o il nome del segnalibro che fa riferimento ad esso.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldbarcode/postaladdress/
 ---
 ## FieldBarcode.PostalAddress property
 
-Ottiene o imposta l'indirizzo postale utilizzato per la generazione di un codice a barre o il nome del segnalibro che fa riferimento ad esso.
+Ottiene o imposta l'indirizzo postale utilizzato per generare un codice a barre o il nome del segnalibro che fa riferimento ad esso.
 
 ```csharp
 public string PostalAddress { get; set; }
@@ -16,7 +16,7 @@ public string PostalAddress { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare il campo CODICE A BARRE per visualizzare i codici postali statunitensi sotto forma di codice a barre.
+Mostra come utilizzare il campo BARCODE per visualizzare i codici postali statunitensi sotto forma di codice a barre.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Di seguito sono riportati due modi per utilizzare i campi CODICE A BARRE per visualizzare valori personalizzati come codici a barre.
+// Di seguito sono riportati due modi per utilizzare i campi BARCODE per visualizzare valori personalizzati come codici a barre.
 // 1 - Memorizza il valore che il codice a barre visualizzerà nella proprietà PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
@@ -37,7 +37,7 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Fare riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
+// 2 - Fa riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;

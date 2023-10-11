@@ -1,14 +1,16 @@
 ---
 title: Class ImageWatermarkOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ImageWatermarkOptions classe. Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con unimmagine.
+description: Aspose.Words.ImageWatermarkOptions classe. Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con limmagine.
 type: docs
-weight: 3020
+weight: 3220
 url: /it/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
 
-Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con un'immagine.
+Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con l'immagine.
+
+Per saperne di più, visita il[Lavorare con la filigrana](https://docs.aspose.com/words/net/working-with-watermark/) articolo di documentazione.
 
 ```csharp
 public class ImageWatermarkOptions
@@ -24,7 +26,7 @@ public class ImageWatermarkOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Ottiene o imposta un valore booleano responsabile dell'effetto di sbiadimento della filigrana. Il valore predefinito è True. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Ottiene o imposta un valore booleano responsabile dell'effetto sbiadito della filigrana. Il valore predefinito è`VERO` . |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Ottiene o imposta il fattore di scala espresso come frazione dell'immagine. Il valore predefinito è 0 - auto. |
 
 ### Guarda anche

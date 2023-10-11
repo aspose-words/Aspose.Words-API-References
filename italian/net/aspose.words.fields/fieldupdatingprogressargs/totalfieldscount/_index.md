@@ -1,0 +1,92 @@
+---
+title: FieldUpdatingProgressArgs.TotalFieldsCount
+second_title: Aspose.Words per .NET API Reference
+description: FieldUpdatingProgressArgs proprietà. Ottiene il conteggio totale dei campi da aggiornare.
+type: docs
+weight: 10
+url: /it/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
+---
+## FieldUpdatingProgressArgs.TotalFieldsCount property
+
+Ottiene il conteggio totale dei campi da aggiornare.
+
+```csharp
+public int TotalFieldsCount { get; }
+```
+
+### Osservazioni
+
+Il valore non è costante e può essere aumentato durante il processo di aggiornamento.
+
+### Esempi
+
+Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+
+```csharp
+public void FieldUpdatingCallbackTest()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+    builder.InsertField(" TIME ");
+    builder.InsertField(" REVNUM ");
+    builder.InsertField(" AUTHOR  \"John Doe\" ");
+    builder.InsertField(" SUBJECT \"My Subject\" ");
+    builder.InsertField(" QUOTE \"Hello world!\" ");
+
+    FieldUpdatingCallback callback = new FieldUpdatingCallback();
+    doc.FieldOptions.FieldUpdatingCallback = callback;
+
+    doc.UpdateFields();
+
+    Assert.True(callback.FieldUpdatedCalls.Contains("Updating John Doe"));
+}
+
+/// <summary>
+/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// </summary>
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
+{
+    public FieldUpdatingCallback()
+    {
+        FieldUpdatedCalls = new List<string>();
+    }
+
+    /// <summary>
+    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// </summary>
+    void IFieldUpdatingCallback.FieldUpdating(Field field)
+    {
+        if (field.Type == FieldType.FieldAuthor)
+        {
+            FieldAuthor fieldAuthor = (FieldAuthor) field;
+            fieldAuthor.AuthorName = "Updating John Doe";
+        }
+    }
+
+    /// <summary>
+    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// </summary>
+    void IFieldUpdatingCallback.FieldUpdated(Field field)
+    {
+        FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
+    }
+
+    public IList<string> FieldUpdatedCalls { get; }
+}
+```
+
+### Guarda anche
+
+* class [FieldUpdatingProgressArgs](../)
+* spazio dei nomi [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* assemblea [Aspose.Words](../../../)
+
+

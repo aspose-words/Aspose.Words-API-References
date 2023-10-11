@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.Author
 second_title: Aspose.Words per .NET API Reference
-description: RevisionGroup proprietà. Ottiene lautore di questo gruppo di revisioni.
+description: RevisionGroup proprietà. Ottiene lautore di questo gruppo di revisione.
 type: docs
 weight: 10
 url: /it/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Ottiene l'autore di questo gruppo di revisioni.
+Ottiene l'autore di questo gruppo di revisione.
 
 ```csharp
 public string Author { get; }
@@ -16,7 +16,7 @@ public string Author { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni su un gruppo di revisioni in un documento.
+Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

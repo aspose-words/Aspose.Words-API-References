@@ -38,7 +38,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come tutte le nuove celle e righe create usando quel builder.
+// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");

@@ -1,14 +1,16 @@
 ---
 title: Class RowCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.RowCollection classe. Fornisce laccesso tipizzato a una raccolta diRow nodi.
+description: Aspose.Words.Tables.RowCollection classe. Fornisce laccesso digitato a una raccolta diRow nodi.
 type: docs
-weight: 6020
+weight: 6320
 url: /it/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
-Fornisce l'accesso tipizzato a una raccolta di[`Row`](../row/) nodi.
+Fornisce l'accesso digitato a una raccolta di[`Row`](../row/) nodi.
+
+Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,7 +21,7 @@ public class RowCollection : NodeCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Recupera a **Riga** all'indice dato. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Recupera a[`Row`](../row/) all'indice indicato. (2 indexers) |
 
 ## Metodi
 
@@ -32,12 +34,12 @@ public class RowCollection : NodeCollection
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento. |
-| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Copia tutte le righe dalla raccolta in una nuova matrice di righe. (2 methods) |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
+| [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Copia tutte le righe dalla raccolta in un nuovo array di righe. (2 methods) |
 
 ### Esempi
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -61,7 +63,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

@@ -20,14 +20,15 @@ Questa proprietà contiene un valore che è stato appena selezionato dall'origin
 
 ### Esempi
 
-Mostra come modificare i valori ricevuti da MERGEFIELD quando viene eseguita una stampa unione.
+Mostra come modificare i valori ricevuti dai MERGEFIELD durante la stampa unione.
 
 ```csharp
+public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisce alcuni MERGEFIELD con opzioni di formato che modificheranno i valori che riceveranno durante una stampa unione.
+    // Inserisci alcuni MERGEFIELD con opzioni di formato che modificheranno i valori che riceveranno durante una stampa unione.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -44,7 +45,7 @@ Mostra come modificare i valori ricevuti da MERGEFIELD quando viene eseguita una
 }
 
 /// <summary>
-/// Modifica i valori ricevuti da MERGEFIELD durante una stampa unione.
+/// Modifica i valori che MERGEFIELD ricevono durante una stampa unione.
 /// Il nome di un MERGEFIELD deve avere un prefisso affinché questo callback abbia effetto sul suo valore.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback

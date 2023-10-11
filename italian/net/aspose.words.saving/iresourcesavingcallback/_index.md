@@ -1,14 +1,14 @@
 ---
 title: Interface IResourceSavingCallback
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IResourceSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva le risorse esterne immagini font e CSS quando salva un documento in HTML o SVG a pagina fissa.
+description: Aspose.Words.Saving.IResourceSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne immagini caratteri e CSS quando salva un documento in una pagina fissa HTML o SVG.
 type: docs
-weight: 4930
+weight: 5190
 url: /it/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-Implementa questa interfaccia se vuoi controllare come Aspose.Words salva le risorse esterne (immagini, font e CSS) quando salva un documento in HTML o SVG a pagina fissa.
+Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne (immagini, caratteri e CSS) quando salva un documento in una pagina fissa HTML o SVG.
 
 ```csharp
 public interface IResourceSavingCallback
@@ -18,11 +18,11 @@ public interface IResourceSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Chiamato quando Aspose.Words salva una risorsa esterna in formati HTML o SVG a pagina fissa. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa. |
 
 ### Esempi
 
-Mostra come utilizzare una richiamata per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
+Mostra come utilizzare un callback per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -44,7 +44,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -62,7 +62,7 @@ private class FontSavingCallback : IResourceSavingCallback
 }
 ```
 
-Mostra come utilizzare un callback per stampare gli URI di risorse esterne create durante la conversione di un documento in HTML.
+Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -81,8 +81,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // Una cartella specificata da ResourcesFolderAlias conterrà le risorse invece di ResourcesFolder.
-    // Dobbiamo assicurarci che la cartella esista prima che gli stream possano inserirvi le proprie risorse.
+    // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
+    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -96,13 +96,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Conta e stampa gli URI delle risorse contenute in quando vengono convertiti in HTML fisso.
+/// Conta e stampa gli URI delle risorse contenute da mentre vengono convertiti in HTML fisso.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Se impostiamo un alias di cartella nell'oggetto SaveOptions, saremo in grado di stamparlo da qui.
+        // Se impostiamo un alias di cartella nell'oggetto SaveOptions, potremo stamparlo da qui.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -111,8 +111,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare in modo esplicito il percorso dei caratteri.
+                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -121,7 +121,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

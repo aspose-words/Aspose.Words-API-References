@@ -25,8 +25,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Inizia a tenere traccia delle revisioni e rimuovi il secondo paragrafo, che creerà una revisione di eliminazione.
-// Quel paragrafo persisterà nel documento fino a quando non accettiamo la revisione dell'eliminazione.
+// Inizia a tenere traccia delle revisioni e rimuove il secondo paragrafo, che creerà una revisione di eliminazione.
+// Quel paragrafo persisterà nel documento finché non accetteremo la revisione di eliminazione.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
 doc.StopTrackRevisions();
@@ -36,9 +36,9 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "IgnoreDeleted" su "true" per ottenere il trova e sostituisci
+// Imposta il flag "IgnoreDeleted" su "true" per ottenere la ricerca e sostituzione
 // operazione per ignorare i paragrafi che eliminano le revisioni.
-// Imposta il flag "IgnoreDeleted" su "false" per ottenere il trova e sostituisci
+// Imposta il flag "IgnoreDeleted" su "false" per ottenere la ricerca e sostituzione
 // operazione per cercare anche il testo all'interno delle revisioni di eliminazione.
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 

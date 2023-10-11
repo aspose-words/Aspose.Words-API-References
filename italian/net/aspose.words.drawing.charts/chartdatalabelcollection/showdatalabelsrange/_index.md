@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowDataLabelsRange
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Consente di specificare se i valori dellintervallo etichette dati devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito è falso .
+description: ChartDataLabelCollection proprietà. Permette di specificare se i valori delle etichette dati devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito èfalso .
 type: docs
-weight: 70
+weight: 90
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
 ---
 ## ChartDataLabelCollection.ShowDataLabelsRange property
 
-Consente di specificare se i valori dell'intervallo etichette dati devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è **falso** .
+Permette di specificare se i valori delle etichette dati devono essere visualizzati nelle etichette dati dell'intera serie. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ShowDataLabelsRange { get; set; }

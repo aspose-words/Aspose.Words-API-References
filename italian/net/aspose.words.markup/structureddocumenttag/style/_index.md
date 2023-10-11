@@ -16,11 +16,11 @@ public Style Style { get; set; }
 
 ### Osservazioni
 
-Solo Character stile oParagraph è possibile impostare uno stile con uno stile di carattere collegato.
+SoloCharacter stile oParagraph è possibile impostare uno stile con uno stile di carattere collegato.
 
 ### Esempi
 
-Mostra come lavorare con gli stili per gli elementi di controllo del contenuto.
+Mostra come utilizzare gli stili per gli elementi di controllo del contenuto.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Fai riferimento a uno stile nel documento per nome:
+// 2 - Fa riferimento a uno stile nel documento per nome:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -46,6 +46,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource.FolderFontSource
 second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource costruttore. Tor.
+description: FolderFontSource costruttore. Ctor.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource(string, bool) {#constructor}
 
-Tor.
+Ctor.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders)
@@ -17,14 +17,14 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | folderPath | String | Percorso della cartella. |
-| scanSubfolders | Boolean | Determina se scansionare o meno le sottocartelle. |
+| scanSubfolders | Boolean | Determina se eseguire o meno la scansione delle sottocartelle. |
 
 ### Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
 ```csharp
-// Crea una fonte di font da una cartella che contiene file di font.
+// Crea un'origine carattere da una cartella che contiene file di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
@@ -47,7 +47,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ## FolderFontSource(string, bool, int) {#constructor_1}
 
-Tor.
+Ctor.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
@@ -56,15 +56,15 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | folderPath | String | Percorso della cartella. |
-| scanSubfolders | Boolean | Determina se scansionare o meno le sottocartelle. |
-| priority | Int32 | Priorità origine carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della struttura per ulteriori informazioni. |
+| scanSubfolders | Boolean | Determina se eseguire o meno la scansione delle sottocartelle. |
+| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
 ### Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
 ```csharp
-// Crea una fonte di font da una cartella che contiene file di font.
+// Crea un'origine carattere da una cartella che contiene file di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

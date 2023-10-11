@@ -1,14 +1,14 @@
 ---
 title: Enum LegendPosition
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.LegendPosition enum. Specifica le possibili posizioni per una legenda del grafico.
+description: Aspose.Words.Drawing.Charts.LegendPosition enum. Specifica le possibili posizioni per la legenda di un grafico.
 type: docs
-weight: 780
+weight: 910
 url: /it/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Specifica le possibili posizioni per una legenda del grafico.
+Specifica le possibili posizioni per la legenda di un grafico.
 
 ```csharp
 public enum LegendPosition
@@ -19,11 +19,11 @@ public enum LegendPosition
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Non verrà mostrata alcuna legenda per il grafico. |
-| Bottom | `1` | Specifica che la legenda deve essere disegnata nella parte inferiore del grafico. |
-| Left | `2` | Specifica che la legenda deve essere disegnata a sinistra del grafico. |
-| Right | `3` | Specifica che la legenda deve essere disegnata a destra del grafico. |
-| Top | `4` | Specifica che la legenda deve essere disegnata nella parte superiore del grafico. |
-| TopRight | `5` | Specifica che la legenda deve essere disegnata in alto a destra nel grafico. |
+| Bottom | `1` | Specifica che la legenda verrà disegnata nella parte inferiore del grafico. |
+| Left | `2` | Specifica che la legenda sarà disegnata a sinistra del grafico. |
+| Right | `3` | Specifica che la legenda sarà disegnata a destra del grafico. |
+| Top | `4` | Specifica che la legenda verrà disegnata nella parte superiore del grafico. |
+| TopRight | `5` | Specifica che la legenda verrà disegnata in alto a destra del grafico. |
 
 ### Esempi
 
@@ -45,7 +45,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Concedi più spazio ad altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
+// Concede più spazio agli altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

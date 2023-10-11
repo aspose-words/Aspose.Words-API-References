@@ -3,7 +3,7 @@ title: Enum HeightRule
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.HeightRule enum. Specifica la regola per determinare laltezza di un oggetto.
 type: docs
-weight: 2950
+weight: 3130
 url: /it/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
@@ -18,8 +18,8 @@ public enum HeightRule
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AtLeast | `0` | L'altezza sarà almeno l'altezza in punti specificata. Crescerà, se necessario, per ospitare tutto il testo all'interno di un oggetto. |
-| Exactly | `1` | L'altezza è specificata esattamente in punti. Tieni presente che se il testo non può rientrare nell'oggetto di questa altezza, apparirà troncato. |
+| AtLeast | `0` | L'altezza sarà almeno pari all'altezza specificata in punti. Crescerà, se necessario, per accogliere tutto il testo all'interno di un oggetto. |
+| Exactly | `1` | L'altezza è specificata esattamente in punti. Tieni presente che se il testo non riesce a entrare nell'oggetto di questa altezza, apparirà troncato. |
 | Auto | `2` | L'altezza aumenterà automaticamente per accogliere tutto il testo all'interno di un oggetto. |
 
 ### Esempi
@@ -34,8 +34,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Avvia una seconda riga, quindi configura la sua altezza. Il builder applicherà queste impostazioni a
-// la sua riga corrente, così come tutte le nuove righe che crea in seguito.
+// Inizia una seconda riga e quindi configura la sua altezza. Il builder applicherà queste impostazioni a
+// la riga corrente, nonché le eventuali nuove righe create in seguito.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;

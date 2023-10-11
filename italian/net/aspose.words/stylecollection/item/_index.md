@@ -16,9 +16,9 @@ public Style this[string name] { get; }
 
 ### Osservazioni
 
-Con distinzione tra maiuscole e minuscole, restituisce null se lo stile con il nome specificato non viene trovato.
+Maiuscole/minuscole, ritorna`nullo` se lo stile con il nome indicato non viene trovato.
 
-Se questo è il nome inglese di uno stile predefinito che non esiste ancora, lo crea automaticamente.
+Se questo è il nome inglese di uno stile integrato che non esiste ancora, lo crea automaticamente.
 
 ### Esempi
 
@@ -34,9 +34,10 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 // Modifica il documento in qualche modo.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
  // Nella versione corrente di Aspose.Words, la modifica del documento non viene ricostruita automaticamente
-// il layout di pagina memorizzato nella cache. Se desideriamo il layout memorizzato nella cache
+// il layout della pagina memorizzata nella cache. Se desideriamo il layout memorizzato nella cache
 // per rimanere aggiornati, dovremo aggiornarlo manualmente.
 doc.UpdatePageLayout();
 
@@ -54,7 +55,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ## StyleCollection indexer (2 of 3)
 
-Ottiene uno stile integrato in base al suo identificatore indipendente dalla locale.
+Ottiene uno stile integrato in base al relativo identificatore indipendente dalla locale.
 
 ```csharp
 public Style this[StyleIdentifier sti] { get; }
@@ -66,7 +67,7 @@ public Style this[StyleIdentifier sti] { get; }
 
 ### Osservazioni
 
-Quando si accede a uno stile che non esiste ancora, lo crea automaticamente.
+Quando si accede ad uno stile che non esiste ancora, lo crea automaticamente.
 
 ### Esempi
 
@@ -74,15 +75,13 @@ Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Imposta i parametri predefiniti per i nuovi stili che potremmo aggiungere in seguito a questa raccolta.
 styles.DefaultFont.Name = "Courier New";
-
 // Se aggiungiamo uno stile di "StyleType.Paragraph", la raccolta applicherà i valori di
-// la sua proprietà "DefaultParagraphFormat" alla proprietà "ParagraphFormat" dello stile.
+// la sua proprietà "DefaultParagraphFormat" nella proprietà "ParagraphFormat" dello stile.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Aggiungi uno stile, quindi verifica che abbia le impostazioni predefinite.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
@@ -114,15 +113,13 @@ Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Imposta i parametri predefiniti per i nuovi stili che potremmo aggiungere in seguito a questa raccolta.
 styles.DefaultFont.Name = "Courier New";
-
 // Se aggiungiamo uno stile di "StyleType.Paragraph", la raccolta applicherà i valori di
-// la sua proprietà "DefaultParagraphFormat" alla proprietà "ParagraphFormat" dello stile.
+// la sua proprietà "DefaultParagraphFormat" nella proprietà "ParagraphFormat" dello stile.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Aggiungi uno stile, quindi verifica che abbia le impostazioni predefinite.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

@@ -3,12 +3,12 @@ title: CompareOptions.IgnoreHeadersAndFooters
 second_title: Aspose.Words per .NET API Reference
 description: CompareOptions proprietà. True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita intestazioni e piè di pagina non vengono ignorati.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
 ---
 ## CompareOptions.IgnoreHeadersAndFooters property
 
-True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita, intestazioni e piè di pagina non vengono ignorati.
+True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita intestazioni e piè di pagina non vengono ignorati.
 
 ```csharp
 public bool IgnoreHeadersAndFooters { get; set; }
@@ -23,7 +23,7 @@ Mostra come filtrare tipi specifici di elementi del documento quando si effettua
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Testo del paragrafo a cui si fa riferimento con una nota di chiusura:
+// Testo del paragrafo referenziato con una nota finale:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -68,8 +68,8 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // Il confronto dei documenti crea una revisione per ogni modifica nel documento modificato.
-// Un oggetto CompareOptions ha una serie di flag che possono sopprimere le revisioni
-// su ogni rispettivo tipo di elemento, ignorando di fatto la loro modifica.
+// Un oggetto CompareOptions dispone di una serie di flag che possono eliminare le revisioni
+// su ciascun rispettivo tipo di elemento, ignorando di fatto la loro modifica.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

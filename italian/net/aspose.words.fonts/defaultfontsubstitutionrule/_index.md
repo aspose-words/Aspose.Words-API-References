@@ -1,14 +1,16 @@
 ---
 title: Class DefaultFontSubstitutionRule
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Regola predefinita per la sostituzione dei caratteri.
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Regola di sostituzione dei caratteri predefinita.
 type: docs
-weight: 2660
+weight: 2840
 url: /it/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
-Regola predefinita per la sostituzione dei caratteri.
+Regola di sostituzione dei caratteri predefinita.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -23,7 +25,7 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ### Osservazioni
 
-Questa regola definisce un singolo nome di carattere predefinito da utilizzare per la sostituzione se il carattere originale non è disponibile.
+Questa regola definisce il nome del carattere predefinito singolo da utilizzare per la sostituzione se il carattere originale non è disponibile.
 
 ### Esempi
 
@@ -34,7 +36,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Ottieni la regola di sostituzione predefinita all'interno di FontSettings.
+// Ottieni la regola di sostituzione predefinita in FontSettings.
 // Questa regola sostituirà tutti i caratteri mancanti con "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
@@ -44,8 +46,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // Imposta il carattere sostitutivo predefinito su "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Usando un generatore di documenti, aggiungi del testo in un font di cui non dobbiamo vedere la sostituzione,
-// e quindi renderizza il risultato in un PDF.
+// Usando un generatore di documenti, aggiungi del testo in un carattere che non è necessario per vedere avvenire la sostituzione,
+// e quindi visualizzare il risultato in un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

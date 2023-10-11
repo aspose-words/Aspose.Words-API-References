@@ -16,11 +16,11 @@ public bool MoveNext()
 
 ### Valore di ritorno
 
-Vero se spostato correttamente al record successivo. Falso se è stata raggiunta la fine dell'origine dati.
+`VERO` se spostato al record successivo con successo;`falso` se raggiunta la fine dell'origine dati.
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con un'origine dati sotto forma di un oggetto personalizzato.
+Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
 ```csharp
 public void CustomDataSource()
@@ -31,11 +31,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Per utilizzare un oggetto personalizzato come origine dati, è necessario implementare l'interfaccia IMailMergeDataSource. 
+     // Per utilizzare un oggetto personalizzato come origine dati, è necessario implementare l'interfaccia IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -44,7 +46,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un esempio di una classe "entità dati" nell'applicazione.
+/// Un esempio di classe "entità dati" nella tua applicazione.
 /// </summary>
 public class Customer
 {
@@ -59,8 +61,8 @@ public class Customer
 }
 
 /// <summary>
-/// Un'origine dati di stampa unione personalizzata che implementi per consentire Aspose.Words 
-/// per inviare i dati dalla stampa unione dagli oggetti Cliente ai documenti di Microsoft Word.
+ /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
+/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -68,12 +70,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando si inizializza l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con aree ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
     /// </summary>
     public string TableName
     {
@@ -81,7 +83,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo di dati.
+    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo dati.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -94,7 +96,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Restituisce "false" al motore di stampa unione di Aspose.Words per indicare
+                // Restituisce "false" al motore di stampa unione Aspose.Words per indicare
                 // che non siamo riusciti a trovare un campo con questo nome.
                 fieldValue = null;
                 return false;
@@ -102,7 +104,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Un'implementazione standard per passare a un record successivo in una raccolta.
+    /// Un'implementazione standard per passare al record successivo in una raccolta.
     /// </summary>
     public bool MoveNext()
     {

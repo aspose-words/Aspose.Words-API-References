@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionBars
 second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Consente di specificare se le barre di revisione devono essere visualizzate vicino a righe contenenti contenuto rivisto. Il valore predefinito è True.
+description: RevisionOptions proprietà. Permette di specificare se le barre di revisione devono essere visualizzate vicino alle righe contenenti contenuto rivisto. Il valore predefinito èVERO .
 type: docs
 weight: 180
 url: /it/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Consente di specificare se le barre di revisione devono essere visualizzate vicino a righe contenenti contenuto rivisto. Il valore predefinito è True.
+Permette di specificare se le barre di revisione devono essere visualizzate vicino alle righe contenenti contenuto rivisto. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }

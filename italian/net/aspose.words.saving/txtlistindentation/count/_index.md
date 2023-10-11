@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation.Count
 second_title: Aspose.Words per .NET API Reference
-description: TxtListIndentation proprietà. Ottiene o imposta quantiCharacter da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0 che significa nessun rientro.
+description: TxtListIndentation proprietà. Ottiene o imposta il numeroCharacter da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0 ciò significa nessun rientro.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-Ottiene o imposta quanti[`Character`](../character/) da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0, che significa nessun rientro.
+Ottiene o imposta il numero[`Character`](../character/) da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0, ciò significa nessun rientro.
 
 ```csharp
 public int Count { get; set; }
@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### Esempi
 
-Mostra come configurare il rientro dell'elenco quando si salva un documento come testo normale.
+Mostra come configurare il rientro dell'elenco quando si salva un documento in testo normale.
 
 ```csharp
 Document doc = new Document();
@@ -31,15 +31,15 @@ builder.ListFormat.ListIndent();
 builder.Write("Item 3");
 
 // Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui salviamo il documento come testo normale.
+// per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Imposta la proprietà "Carattere" per assegnare un carattere da usare
-// per il riempimento che simula il rientro dell'elenco in testo normale.
+// Imposta la proprietà "Carattere" per assegnare un carattere da utilizzare
+// per il riempimento che simula il rientro dell'elenco nel testo normale.
 txtSaveOptions.ListIndentation.Character = ' ';
 
 // Imposta la proprietà "Count" per specificare il numero di volte
-// per posizionare il carattere di riempimento per ogni livello di rientro dell'elenco.
+// per posizionare il carattere di riempimento per ciascun livello di rientro dell'elenco.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

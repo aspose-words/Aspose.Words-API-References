@@ -1,14 +1,14 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
 second_title: Aspose.Words per .NET API Reference
-description: FieldAutoNumLgl proprietà. Ottiene o imposta se visualizzare il numero senza un punto finale.
+description: FieldAutoNumLgl proprietà. Ottiene o imposta se visualizzare il numero senza punto finale.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 ---
 ## FieldAutoNumLgl.RemoveTrailingPeriod property
 
-Ottiene o imposta se visualizzare il numero senza un punto finale.
+Ottiene o imposta se visualizzare il numero senza punto finale.
 
 ```csharp
 public bool RemoveTrailingPeriod { get; set; }
@@ -19,6 +19,7 @@ public bool RemoveTrailingPeriod { get; set; }
 Mostra come organizzare un documento utilizzando i campi AUTONUMLGL.
 
 ```csharp
+public void FieldAutoNumLgl()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,36 +27,36 @@ Mostra come organizzare un documento utilizzando i campi AUTONUMLGL.
     const string fillerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
                               "\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
 
-    // I campi AUTONUMLGL visualizzano un numero che aumenta ad ogni campo AUTONUMLGL all'interno del livello di intestazione corrente.
-    // Questi campi mantengono un conteggio separato per ogni livello di intestazione,
-     // e ogni campo visualizza anche i conteggi del campo AUTONUMLGL per tutti i livelli di intestazione al di sotto del proprio.
-    // La modifica del conteggio per qualsiasi livello di intestazione reimposta i conteggi per tutti i livelli al di sopra di quel livello a 1.
-    // Questo ci permette di organizzare il nostro documento sotto forma di un elenco di bozze.
-    // Questo è il primo campo AUTONUMLGL a un livello di intestazione di 1, che mostra "1". nel documento.
+    // I campi AUTONUMLGL visualizzano un numero che aumenta in ciascun campo AUTONUMLGL all'interno del livello di intestazione corrente.
+    // Questi campi mantengono un conteggio separato per ciascun livello di intestazione,
+     // e ciascun campo visualizza anche i conteggi del campo AUTONUMLGL per tutti i livelli di intestazione inferiori al proprio.
+    // La modifica del conteggio per qualsiasi livello di intestazione reimposta su 1 i conteggi per tutti i livelli superiori a quel livello.
+    // Questo ci consente di organizzare il nostro documento sotto forma di un elenco schematico.
+    // Questo è il primo campo AUTONUMLGL al livello di intestazione 1, che visualizza "1." nel documento.
     InsertNumberedClause(builder, "\tHeading 1", fillerText, StyleIdentifier.Heading1);
 
-    // Questo è il secondo campo AUTONUMLGL a livello di intestazione 1, quindi visualizzerà "2.".
+    // Questo è il secondo campo AUTONUMLGL al livello di intestazione 1, quindi verrà visualizzato "2.".
     InsertNumberedClause(builder, "\tHeading 2", fillerText, StyleIdentifier.Heading1);
 
-    // Questo è il primo campo AUTONUMLGL a livello di intestazione 2,
-    // e il conteggio AUTONUMLGL per il livello di intestazione sottostante è "2", quindi visualizzerà "2.1.".
+    // Questo è il primo campo AUTONUMLGL al livello di intestazione 2,
+    // e il conteggio AUTONUMLGL per il livello di intestazione sottostante è "2", quindi verrà visualizzato "2.1.".
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-     // Questo è il primo campo AUTONUMLGL a livello di intestazione 3.
-    // Funzionando allo stesso modo del campo sopra, visualizzerà "2.1.1.".
+     // Questo è il primo campo AUTONUMLGL al livello di intestazione 3.
+    // Funzionando allo stesso modo del campo precedente, verrà visualizzato "2.1.1.".
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
-    // Questo campo è a un livello di intestazione di 2 e il rispettivo conteggio AUTONUMLGL è a 2, quindi il campo visualizzerà "2.2.".
+    // Questo campo è al livello di intestazione 2 e il suo rispettivo conteggio AUTONUMLGL è 2, quindi il campo visualizzerà "2.2.".
     InsertNumberedClause(builder, "\tHeading 5", fillerText, StyleIdentifier.Heading2);
 
     // Incremento del conteggio AUTONUMLGL per un livello di intestazione inferiore a questo
-    // ha azzerato il conteggio per questo livello in modo che questo campo visualizzi "2.2.1.".
+    // ha reimpostato il conteggio per questo livello in modo che questo campo visualizzi "2.2.1.".
     InsertNumberedClause(builder, "\tHeading 6", fillerText, StyleIdentifier.Heading3);
 
     foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal))
     {
-        // Il carattere separatore, che appare nel campo risultato subito dopo il numero,
-        // è un punto fermo per impostazione predefinita. Se lasciamo questa proprietà nulla,
+        // Il carattere separatore, che appare nel campo risultato immediatamente dopo il numero,
+        // è un punto per impostazione predefinita. Se lasciamo questa proprietà nulla,
         // il nostro ultimo campo AUTONUMLGL visualizzerà "2.2.1." nel documento.
         Assert.IsNull(field.SeparatorCharacter);
 
@@ -68,6 +69,7 @@ Mostra come organizzare un documento utilizzando i campi AUTONUMLGL.
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");
+}
 
 /// <summary>
 /// Utilizza un generatore di documenti per inserire una clausola numerata da un campo AUTONUMLGL.
@@ -79,7 +81,7 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
     builder.Writeln(heading);
 
     // Questo testo apparterrà al campo legale auto num sopra di esso.
-    // Si comprimerà quando si fa clic sulla freccia accanto al campo AUTONUMLGL corrispondente in Microsoft Word.
+    // Collasserà quando si fa clic sulla freccia accanto al campo AUTONUMLGL corrispondente in Microsoft Word.
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = StyleIdentifier.BodyText;
     builder.Writeln(contents);
 }

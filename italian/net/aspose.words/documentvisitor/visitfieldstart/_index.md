@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFieldStart
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando un campo inizia nel documento.
+description: DocumentVisitor metodo. Chiamato quando inizia un campo nel documento.
 type: docs
 weight: 200
 url: /it/net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
 
-Chiamato quando un campo inizia nel documento.
+Chiamato quando inizia un campo nel documento.
 
 ```csharp
 public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
@@ -28,15 +28,15 @@ Un campo in un documento di Word è costituito da un codice di campo e da un val
 
 Ad esempio, un campo che visualizza un numero di pagina può essere rappresentato come segue:
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[Inizio Campo]PAGINA[Separatore Campo]98[Fine Campo]
 
-Il separatore di campo separa il codice di campo dal valore di campo nel documento. Si noti che alcuni campi hanno solo codice campo e non hanno separatore di campo e valore di campo.
+Il separatore di campo separa il codice di campo dal valore di campo nel documento. Tieni presente che alcuni campi hanno solo codice di campo e non hanno separatore di campo e valore di campo.
 
 I campi possono essere nidificati.
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni campo in un documento.
+Mostra come stampare la struttura dei nodi di ogni campo in un documento.
 
 ```csharp
 public void FieldToText()
@@ -44,8 +44,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -53,8 +53,8 @@ public void FieldToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi Field incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi Campo incontrati e dei loro figli.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -70,7 +70,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -80,7 +80,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldStart nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -92,7 +92,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldEnd nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -104,7 +104,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldSeparator nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -114,10 +114,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e indentala a seconda della profondità del visitatore
-    /// nell'albero dei nodi figlio del campo.
+    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
+    /// nell'albero dei nodi secondari del campo.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Charset
 second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Ottiene o imposta il set di caratteri per il font.
+description: FontInfo proprietà. Ottiene o imposta il set di caratteri per il carattere.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontinfo/charset/
 ---
 ## FontInfo.Charset property
 
-Ottiene o imposta il set di caratteri per il font.
+Ottiene o imposta il set di caratteri per il carattere.
 
 ```csharp
 public int Charset { get; set; }
@@ -16,7 +16,7 @@ public int Charset { get; set; }
 
 ### Esempi
 
-Mostra come accedere e stampare i dettagli di ogni font in un documento.
+Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -29,7 +29,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi di solito sono vuoti.
+        // I nomi alternativi sono generalmente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

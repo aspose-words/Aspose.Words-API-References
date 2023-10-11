@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacingWP
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Emula linterlinea di WordPerfect 5.x.
+description: CompatibilityOptions proprietà. Emula interlinea WordPerfect 5.x.
 type: docs
 weight: 520
 url: /it/net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/
 ---
 ## CompatibilityOptions.SuppressTopSpacingWP property
 
-Emula l'interlinea di WordPerfect 5.x.
+Emula interlinea WordPerfect 5.x.
 
 ```csharp
 public bool SuppressTopSpacingWP { get; set; }

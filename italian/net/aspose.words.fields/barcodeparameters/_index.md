@@ -1,14 +1,16 @@
 ---
 title: Class BarcodeParameters
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.BarcodeParameters classe. Classe contenitore per parametri codici a barre da trasmettere a BarcodeGenerator.
+description: Aspose.Words.Fields.BarcodeParameters classe. Classe contenitore per i parametri del codice a barre da trasferire a BarcodeGenerator.
 type: docs
-weight: 1320
+weight: 1470
 url: /it/net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
 
-Classe contenitore per parametri codici a barre da trasmettere a BarcodeGenerator.
+Classe contenitore per i parametri del codice a barre da trasferire a BarcodeGenerator.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class BarcodeParameters
@@ -24,27 +26,27 @@ public class BarcodeParameters
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | Se aggiungere i caratteri Start/Stop per i tipi di codici a barre NW7 e CODE39. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | Se aggiungere caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39. |
 | [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Colore sfondo codice a barre (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Tipo di codice a barre. |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Tipo codice a barre. |
 | [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Dati da codificare. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Stile di un codice caso per codice a barre tipo ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD] |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD] |
 | [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Indica se visualizzare i dati del codice a barre (testo) insieme all'immagine. |
 | [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | Livello di correzione degli errori del codice QR. I valori validi sono [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Tipo di contrassegno di identificazione di fronte (FIM). |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Se correggere la cifra di controllo se non è valida. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Tipo di segno di identificazione del fronte (FIM). |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Indica se correggere la cifra di controllo se non è valida. |
 | [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Colore di primo piano del codice a barre (0x000000 - 0xFFFFFF) |
 | [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | Se[`PostalAddress`](./postaladdress/) è il nome di un segnalibro. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | Se[`PostalAddress`](./postaladdress/) è un indirizzo postale statunitense. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Stile di un codice a barre del punto vendita (tipi di codici a barre UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). I valori validi (senza distinzione tra maiuscole e minuscole) sono [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Indirizzo postale codice a barre. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | Se[`PostalAddress`](./postaladdress/) è un indirizzo postale degli Stati Uniti. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Stile del codice a barre del punto vendita (tipi di codice a barre UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). I valori validi (senza distinzione tra maiuscole e minuscole) sono [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Indirizzo postale con codice a barre. |
 | [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono [10, 1000]. |
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Altezza immagine codice a barre (in twip - 1/1440 pollici) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Rotazione del simbolo del codice a barre. I valori validi sono [0, 3]. |
 
 ### Osservazioni
 
-Il set di parametri è conforme alle opzioni del campo DISPLAYBARCCODE. Vedere l'elenco esatto in[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
+Il set di parametri dipende dalle opzioni del campo DISPLAYBARCODE. Vedi l'elenco esatto su[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
 ### Esempi
 
@@ -53,14 +55,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
-// e quindi inserirli nel documento come immagini.
+// e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente, possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

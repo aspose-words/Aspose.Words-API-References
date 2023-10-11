@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
 
 ### Valore di ritorno
 
-Falso se il visitatore ha richiesto l'interruzione dell'enumerazione.
+`falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
 ### Osservazioni
 
-Chiama DocumentVisitor.VisitSpecialChar.
+Chiamate[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 ### Guarda anche
 

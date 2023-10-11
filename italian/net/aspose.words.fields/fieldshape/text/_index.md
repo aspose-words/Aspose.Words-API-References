@@ -42,36 +42,36 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     para.ParagraphFormat.Bidi = true;
 }
 
-// Se abilitiamo una lingua di modifica da destra a sinistra in Microsoft Word, i nostri campi visualizzeranno dei numeri.
-// Altrimenti visualizzeranno "###".
+// Se abilitiamo una lingua di modifica da destra a sinistra in Microsoft Word, i nostri campi visualizzeranno numeri.
+// Altrimenti, verrà visualizzato "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
-Mostra come vengono gestiti alcuni vecchi campi di Microsoft Word come SHAPE ed EMBED durante il caricamento.
+Mostra come vengono gestiti alcuni campi di Microsoft Word meno recenti come SHAPE e EMBED durante il caricamento.
 
 ```csharp
 // Apre un documento creato in Microsoft Word 2003.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// Se apriamo il documento di Word e premiamo Alt+F9, vedremo un campo SHAPE e un campo EMBED.
-// Un campo SHAPE è l'ancora/canvas per un oggetto AutoShape con lo stile di wrapping "In linea con il testo" abilitato.
+// Se apriamo il documento Word e premiamo Alt+F9, vedremo un campo SHAPE e un campo EMBED.
+// Un campo SHAPE è l'ancora/tela per un oggetto AutoShape con lo stile di disposizione "In linea con il testo" abilitato.
 // Un campo EMBED ha la stessa funzione, ma per un oggetto incorporato,
 // come un foglio di calcolo da un documento Excel esterno.
-// Tuttavia, questi campi non verranno visualizzati nella raccolta Campi del documento.
+// Tuttavia, questi campi non verranno visualizzati nella raccolta Fields del documento.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
-// Questi campi sono supportati solo dalle vecchie versioni di Microsoft Word.
+// Questi campi sono supportati solo dalle versioni precedenti di Microsoft Word.
 // Il processo di caricamento del documento convertirà questi campi in oggetti Shape,
-// a cui possiamo accedere nella raccolta di nodi del documento.
+// a cui possiamo accedere nella raccolta dei nodi del documento.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 Assert.AreEqual(3, shapes.Count);
 
 // Il primo nodo Shape corrisponde al campo SHAPE nel documento di input,
-// che è la tela inline per la forma.
+// che è l'area di disegno incorporata per AutoShape.
 Shape shape = (Shape)shapes[0];
 Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 
-// Il secondo nodo Shape è la forma stessa.
+// Il secondo nodo Forma è la forma stessa.
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 

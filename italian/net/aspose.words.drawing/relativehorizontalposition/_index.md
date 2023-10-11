@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeHorizontalPosition
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifica a quale posizione orizzontale di una forma o di una cornice di testo è relativa.
+description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifica a cosa è relativa la posizione orizzontale di una forma o di una cornice di testo.
 type: docs
-weight: 1060
+weight: 1190
 url: /it/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
 
-Specifica a quale posizione orizzontale di una forma o di una cornice di testo è relativa.
+Specifica a cosa è relativa la posizione orizzontale di una forma o di una cornice di testo.
 
 ```csharp
 public enum RelativeHorizontalPosition
@@ -18,14 +18,14 @@ public enum RelativeHorizontalPosition
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Margin | `0` | Specifica che il posizionamento orizzontale deve essere relativo ai margini della pagina. |
+| Margin | `0` | Specifica che il posizionamento orizzontale sarà relativo ai margini della pagina. |
 | Page | `1` | L'oggetto è posizionato rispetto al bordo sinistro della pagina. |
 | Column | `2` | L'oggetto è posizionato rispetto al lato sinistro della colonna. |
 | Character | `3` | L'oggetto è posizionato rispetto al lato sinistro del paragrafo. |
-| LeftMargin | `4` | Specifica che il posizionamento orizzontale deve essere relativo al margine sinistro della pagina. |
-| RightMargin | `5` | Specifica che il posizionamento orizzontale deve essere relativo al margine destro della pagina. |
-| InsideMargin | `6` | Specifica che il posizionamento orizzontale deve essere relativo al margine interno della pagina corrente (il margine sinistro sulle pagine dispari, destro sulle pagine pari). |
-| OutsideMargin | `7` | Specifica che il posizionamento orizzontale deve essere relativo al margine esterno della pagina corrente (il margine destro sulle pagine dispari, sinistro sulle pagine pari). |
+| LeftMargin | `4` | Specifica che il posizionamento orizzontale sarà relativo al margine sinistro della pagina. |
+| RightMargin | `5` | Specifica che il posizionamento orizzontale sarà relativo al margine destro della pagina. |
+| InsideMargin | `6` | Specifica che il posizionamento orizzontale sarà relativo al margine interno della pagina corrente (il margine sinistro sulle pagine dispari, destro sulle pagine pari). |
+| OutsideMargin | `7` | Specifica che il posizionamento orizzontale sarà relativo al margine esterno della pagina corrente (il margine destro sulle pagine dispari, sinistro sulle pagine pari). |
 | Default | `2` | Il valore predefinito èColumn . |
 
 ### Esempi
@@ -48,7 +48,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana.
+Mostra come inserire un'immagine e utilizzarla come filigrana.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana (.NetStandard 2.0).
+Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

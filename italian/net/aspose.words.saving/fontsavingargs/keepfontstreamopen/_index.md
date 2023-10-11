@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
 second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato un font.
+description: FontSavingArgs proprietà. Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un font.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 ---
 ## FontSavingArgs.KeepFontStreamOpen property
 
-Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato un font.
+Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un font.
 
 ```csharp
 public bool KeepFontStreamOpen { get; set; }
@@ -16,18 +16,19 @@ public bool KeepFontStreamOpen { get; set; }
 
 ### Osservazioni
 
-L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`FontStream`](../fontstream/) dopo aver scritto un carattere al suo interno. Specificare`VERO` per mantenere il flusso aperto.
+L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`FontStream`](../fontstream/) proprietà dopo aver scritto un carattere al suo interno. Specificare`VERO` per mantenere aperto il flusso.
 
 ### Esempi
 
-Mostra come definire una logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
+Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Configura un oggetto SaveOptions per esportare i caratteri in file separati.
-    // Imposta una richiamata che gestirà il salvataggio dei caratteri in modo personalizzato.
+    // Imposta un callback che gestirà il salvataggio dei caratteri in modo personalizzato.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -42,8 +43,10 @@ Mostra come definire una logica personalizzata per l'esportazione dei caratteri 
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Stampa le informazioni sui caratteri esportati e li salva nella stessa cartella di sistema locale del file .html di output.
+/// Stampa le informazioni sui caratteri esportati e le salva nella stessa cartella di sistema locale del file .html di output.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -60,11 +63,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Esistono due modi per salvare un font esportato.
+        // Esistono due modi per salvare un carattere esportato.
         // 1 - Salvalo in una posizione del file system locale:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Salvalo in un flusso:
+        // 2 - Salvalo in uno stream:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

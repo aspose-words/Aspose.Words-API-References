@@ -3,7 +3,7 @@ title: Cell.EnsureMinimum
 second_title: Aspose.Words per .NET API Reference
 description: Cell metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto.
 type: docs
-weight: 120
+weight: 160
 url: /it/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -28,11 +28,11 @@ Cell cell = new Cell(doc);
 row.AppendChild(cell);
 
 // Le celle possono contenere paragrafi con elementi tipici come sequenze, forme e persino altre tabelle.
-// La nostra nuova cella non ha paragrafi e non possiamo aggiungere contenuti come nodi run and shape finché non lo fa.
+// La nostra nuova cella non ha paragrafi e non possiamo aggiungere contenuti come nodi di esecuzione e forma finché non lo fa.
 Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
 
 // La chiamata al metodo "EnsureMinimum" su una cella lo garantirà
-// la cella ha almeno un paragrafo vuoto, a cui possiamo quindi aggiungere contenuti.
+// la cella ha almeno un paragrafo vuoto, al quale possiamo poi aggiungere contenuti.
 cell.EnsureMinimum();
 cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

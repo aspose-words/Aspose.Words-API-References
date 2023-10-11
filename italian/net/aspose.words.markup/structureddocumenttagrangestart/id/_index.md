@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica un ID numerico persistente di sola lettura univoco per questo tag del documento strutturato.
+description: StructuredDocumentTagRangeStart proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo tag di documento strutturato.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 ## StructuredDocumentTagRangeStart.Id property
 
-Specifica un ID numerico persistente di sola lettura univoco per questo tag del documento strutturato.
+Specifica un ID numerico persistente univoco di sola lettura per questo tag di documento strutturato.
 
 ```csharp
 public int Id { get; }
@@ -18,11 +18,11 @@ public int Id { get; }
 
 L'attributo ID deve seguire queste regole:
 
-* Il documento conserverà gli ID tag del documento strutturato solo se l'intero documento viene clonato[`Clone`](../../../aspose.words/document/clone/).
-* In occasione[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'ID deve essere mantenuto se l'importazione non causa conflitti con altri ID tag del documento strutturato in il documento di destinazione.
-* Se più nodi di tag del documento strutturato specificano lo stesso valore numerico decimale per l'attributo Id, il primo tag del documento strutturato nel documento deve mantenere questo Id originale, e tutti i successivi nodi di tag del documento strutturato devono avere nuovi identificatori assegnati quando il documento è caricato.
-* Durante tag documento strutturato autonomoINodeCloningListener) operazione nuovo ID univoco verrà generato per il nodo tag del documento strutturato clonato.
-* Se Id non è specificato nel documento di origine, al nodo del tag del documento strutturato sarà assegnato un nuovo identificatore univoco quando il documento viene caricato.
+* Il documento manterrà gli ID dei tag del documento strutturato solo se l'intero document viene clonato[`Clone`](../../../aspose.words/document/clone/).
+* Durante[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'ID deve essere mantenuto se l'importazione non causa conflitti con altri ID tag di documento strutturato nel documento di destinazione .
+* Se più nodi tag di documento strutturato specificano lo stesso valore del numero decimale per l'attributo Id, allora il primo tag di documento strutturato nel documento manterrà questo Id originale, e tutti i successivi nodi di tag di documento strutturato avranno nuovi identificatori assegnati quando il documento viene caricato.
+* Durante il tag del documento strutturato autonomoINodeCloningListener)operazione, il nuovo ID univoco verrà generato per il nodo tag del documento strutturato clonato.
+* Se Id non è specificato nel documento di origine, al nodo tag del documento strutturato verrà assegnato un nuovo identificatore univoco quando il documento viene caricato.
 
 ### Esempi
 

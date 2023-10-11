@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce un collegamento ipertestuale nel documento.
 type: docs
-weight: 340
+weight: 370
 url: /it/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -18,7 +18,7 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | --- | --- | --- |
 | displayText | String | Testo del collegamento da visualizzare nel documento. |
 | urlOrBookmark | String | Destinazione del collegamento. Può essere un URL o il nome di un segnalibro all'interno del documento. Questo metodo aggiunge sempre apostrofi all'inizio e alla fine dell'URL. |
-| isBookmark | Boolean | True se il parametro precedente è il nome di un segnalibro all'interno del documento; false è il parametro precedente è un URL. |
+| isBookmark | Boolean | `VERO` se il parametro precedente è il nome di un segnalibro all'interno del documento; `falso` è il parametro precedente è un URL. |
 
 ### Valore di ritorno
 
@@ -26,9 +26,9 @@ UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il camp
 
 ### Osservazioni
 
-Si noti che è necessario specificare la formattazione del carattere per il testo visualizzato del collegamento ipertestuale in modo esplicito utilizzando l'estensione[`Font`](../font/) proprietà.
+Tieni presente che devi specificare la formattazione del carattere per il testo visualizzato del collegamento ipertestuale esplicitamente utilizzando il file[`Font`](../font/) proprietà.
 
-Questo metodo chiama internamente[`InsertField`](../insertfield/) per inserire un campo MS Word HYPERLINK nel documento.
+Questo metodo chiama internamente[`InsertField`](../insertfield/) per inserire un campo HYPERLINK di MS Word nel documento.
 
 ### Esempi
 
@@ -43,7 +43,7 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Inserisce un campo HYPERLINK che si collega al segnalibro. Possiamo passare gli interruttori di campo
+// Inserisci un campo HYPERLINK che si collega al segnalibro. Possiamo passare gli scambi di campo
 // al metodo "InsertHyperlink" come parte dell'argomento contenente il nome del segnalibro di riferimento.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
@@ -64,11 +64,11 @@ builder.Write("For more information, please visit the ");
 // Il collegamento ipertestuale sarà un pezzo di testo cliccabile che ci porterà alla posizione specificata nell'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falso);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + clic sinistro sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
+// Ctrl + clic con il pulsante sinistro del mouse sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
@@ -78,22 +78,22 @@ Mostra come utilizzare lo stack di formattazione di un generatore di documenti.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta la formattazione del carattere, quindi scrivi il testo che precede il collegamento ipertestuale.
+// Imposta la formattazione dei caratteri, quindi scrive il testo che precede il collegamento ipertestuale.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Conserva la nostra attuale configurazione di formattazione nello stack.
+// Preserva la nostra attuale configurazione di formattazione nello stack.
 builder.PushFont();
 
 // Modifica la formattazione corrente del builder applicando un nuovo stile.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", false);
+builder.InsertHyperlink("here", "http://www.google.com", falso);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Ripristina la formattazione del carattere che abbiamo salvato in precedenza e rimuovi l'elemento dallo stack.
+// Ripristina la formattazione del carattere salvata in precedenza e rimuove l'elemento dallo stack.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

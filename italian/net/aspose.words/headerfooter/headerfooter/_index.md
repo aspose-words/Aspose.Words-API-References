@@ -17,13 +17,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
-| headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../headerfootertype/)value che specifica il tipo di intestazione o piè di pagina. |
+| headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../headerfootertype/) value che specifica il tipo di intestazione o piè di pagina. |
 
 ### Osservazioni
 
-quando **HeaderFooter** viene creato, appartiene al documento specificato, ma non fa ancora parte del documento e **ParentNode** è zero.
+Quando[`HeaderFooter`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
 
-Aggiungere **HeaderFooter** ad un **Sezione** utilizzare Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add o HeadersFooters.Insert.
+Per aggiungere[`HeaderFooter`](../)ad a[`Section`](../../section/) utilizzoNode) ,Node) , o[`HeadersFooters`](../../section/headersfooters/) proprietà e metodi[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Esempi
 
@@ -32,7 +32,7 @@ Mostra come creare un'intestazione e un piè di pagina.
 ```csharp
 Document doc = new Document();
 
-// Crea un'intestazione e aggiungi un paragrafo ad essa. Il testo in quel paragrafo
+// Crea un'intestazione e aggiungici un paragrafo. Il testo in quel paragrafo
 // apparirà nella parte superiore di ogni pagina di questa sezione, sopra il corpo del testo principale.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -42,7 +42,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crea un piè di pagina e aggiungi un paragrafo. Il testo in quel paragrafo
+// Crea un piè di pagina e aggiungivi un paragrafo. Il testo in quel paragrafo
 // apparirà in fondo a ogni pagina di questa sezione, sotto il corpo del testo principale.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

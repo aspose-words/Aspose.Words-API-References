@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Color
 second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta il colore del carattere. Il valore predefinito è Colore.Argento.
+description: TextWatermarkOptions proprietà. Ottiene o imposta il colore del carattere. Il valore predefinito èSilver .
 type: docs
 weight: 20
 url: /it/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Ottiene o imposta il colore del carattere. Il valore predefinito è Colore.Argento.
+Ottiene o imposta il colore del carattere. Il valore predefinito èSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -21,10 +21,10 @@ Mostra come creare una filigrana di testo.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi una filigrana di testo normale.
+// Aggiunge una filigrana di testo semplice.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Se desideriamo modificare la formattazione del testo usandola come filigrana,
+// Se desideriamo modificare la formattazione del testo utilizzandolo come filigrana,
 // possiamo farlo passando un oggetto TextWatermarkOptions durante la creazione della filigrana.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

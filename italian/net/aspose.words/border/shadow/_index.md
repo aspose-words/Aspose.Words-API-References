@@ -16,11 +16,11 @@ public bool Shadow { get; set; }
 
 ### Osservazioni
 
-In Microsoft Word, affinché un bordo abbia un'ombra, i bordi su tutti e quattro i lati (sinistro, superiore, destro e inferiore) devono essere dello stesso tipo, larghezza, colore e tutti devono avere la proprietà Ombra impostata su true.
+In Microsoft Word, affinché un bordo abbia un'ombra, i bordi su tutti e quattro i lati (sinistro, superiore, destro e inferiore) dovrebbero essere dello stesso tipo, larghezza, colore e tutti dovrebbero avere la proprietà Ombra impostata su`VERO`.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

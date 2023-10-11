@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se lURL originale deve essere utilizzato come URL delle immagini collegate. Il valore predefinito èfalso .
 type: docs
-weight: 210
+weight: 200
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
@@ -16,9 +16,9 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### Osservazioni
 
-Se il valore è impostato su`VERO`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) viene utilizzato il valore poiché l'URL delle immagini collegate e le immagini collegate non vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/).
+Se il valore è impostato su`VERO`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) il valore viene utilizzato poiché l'URL delle immagini collegate e le immagini collegate non vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/).
 
-Se il valore è impostato su`falso` le immagini collegate vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/) e l'URL di ciascuna immagine collegata è costruito in base a sulla cartella del documento,[`ImagesFolder`](../imagesfolder/) e[`ImagesFolderAlias`](../imagesfolderalias/) proprietà.
+Se il valore è impostato su`falso`le immagini collegate vengono caricate nella cartella del documento o[`ImagesFolder`](../imagesfolder/) e l'URL di ciascuna immagine collegata viene costruito in base alla cartella del documento,[`ImagesFolder`](../imagesfolder/) e[`ImagesFolderAlias`](../imagesfolderalias/) proprietà.
 
 ### Esempi
 
@@ -36,8 +36,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    FontsFolderAlias = "http://esempio.com/fonts",
+    ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true
 };

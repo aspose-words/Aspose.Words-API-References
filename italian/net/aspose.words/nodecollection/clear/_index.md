@@ -21,12 +21,12 @@ Mostra come rimuovere tutte le sezioni da un documento.
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Questo documento ha una sezione con alcuni nodi figli che contengono e mostrano tutto il contenuto del documento.
+// Questo documento ha una sezione con alcuni nodi figli che contengono e visualizzano tutti i contenuti del documento.
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Cancella la raccolta di sezioni, che rimuoverà tutti i figli del documento.
+// Cancella la raccolta di sezioni, rimuovendo così tutti i figli del documento.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

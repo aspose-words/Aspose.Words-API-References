@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words per .NET API Reference
-description: SvgSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento SVG. Limpostazione predefinita ènullo .
+description: SvgSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento SVG. Limpostazione predefinita ènullo .
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento SVG. L'impostazione predefinita è`nullo` .
+Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento SVG. L'impostazione predefinita è`nullo` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,7 +16,7 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/)in formato SVG, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file standalone.[`ResourcesFolder`](../resourcesfolder/) consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` permette di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un file[`Document`](../../../aspose.words/document/) nel formato SVG, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) ti consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
 ### Esempi
 
@@ -44,7 +44,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Conta e stampa gli URI delle risorse contenute in quando vengono convertite in .svg.
+/// Conta e stampa gli URI delle risorse contenute da quando vengono convertiti in .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

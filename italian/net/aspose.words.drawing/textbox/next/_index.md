@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Restituisce o imposta un TextBox che rappresenta il successivo TextBox in una sequenza di forme.
+description: TextBox proprietà. Restituisce o imposta aTextBox che rappresenta il successivoTextBox in una sequenza di forme.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Restituisce o imposta un TextBox che rappresenta il successivo TextBox in una sequenza di forme.
+Restituisce o imposta a[`TextBox`](../) che rappresenta il successivo[`TextBox`](../) in una sequenza di forme.
 
 ```csharp
 public TextBox Next { get; set; }

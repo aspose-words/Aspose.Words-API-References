@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection proprietà. Ottiene un font con il nome specificato.
+description: FontInfoCollection proprietà. Ottiene un carattere con il nome specificato.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontinfocollection/item/
 ---
 ## FontInfoCollection indexer (1 of 2)
 
-Ottiene un font con il nome specificato.
+Ottiene un carattere con il nome specificato.
 
 ```csharp
 public FontInfo this[string name] { get; }
@@ -16,11 +16,11 @@ public FontInfo this[string name] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| name | Nome senza distinzione tra maiuscole e minuscole del carattere da individuare. |
+| name | Nome del carattere da individuare senza distinzione tra maiuscole e minuscole. |
 
 ### Esempi
 
-Mostra come estrarre un font incorporato da un documento e salvarlo nel file system locale.
+Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -29,7 +29,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// I formati dei caratteri incorporati possono essere diversi in altri formati come .doc.
+// I formati dei caratteri incorporati potrebbero essere diversi in altri formati come .doc.
 // Dobbiamo conoscere il formato corretto prima di poter estrarre il carattere.
 doc = new Document(MyDir + "Embedded font.doc");
 
@@ -61,11 +61,11 @@ public FontInfo this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice del carattere in base zero. |
+| index | Indice in base zero del carattere. |
 
 ### Esempi
 
-Mostra come estrarre un font incorporato da un documento e salvarlo nel file system locale.
+Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -74,7 +74,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// I formati dei caratteri incorporati possono essere diversi in altri formati come .doc.
+// I formati dei caratteri incorporati potrebbero essere diversi in altri formati come .doc.
 // Dobbiamo conoscere il formato corretto prima di poter estrarre il carattere.
 doc = new Document(MyDir + "Embedded font.doc");
 

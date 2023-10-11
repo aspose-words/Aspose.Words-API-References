@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Imposta la proprietà "FormsDesign" su "false" per mantenere la modalità di progettazione dei moduli disabilitata.
+// Imposta la proprietà "FormsDesign" su "false" per mantenere disabilitata la modalità di progettazione dei moduli.
 // Imposta la proprietà "FormsDesign" su "true" per abilitare la modalità di progettazione dei moduli.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 

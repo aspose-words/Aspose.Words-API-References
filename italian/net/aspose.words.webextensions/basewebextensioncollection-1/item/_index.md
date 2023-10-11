@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Item
 second_title: Aspose.Words per .NET API Reference
-description: BaseWebExtensionCollection proprietà. Ottiene o imposta un elemento allindice specificato.
+description: BaseWebExtensionCollection proprietà. Ottiene o imposta un elemento nellindice specificato.
 type: docs
 weight: 20
 url: /it/net/aspose.words.webextensions/basewebextensioncollection-1/item/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; indexer
 
-Ottiene o imposta un elemento all'indice specificato.
+Ottiene o imposta un elemento nell'indice specificato.
 
 ```csharp
 public T this[int index] { get; set; }
@@ -16,11 +16,11 @@ public T this[int index] { get; set; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice a base zero dell'articolo. |
+| index | Indice in base zero dell'elemento. |
 
 ### Esempi
 
-Mostra come lavorare con la raccolta di estensioni Web di un documento.
+Mostra come lavorare con la raccolta di estensioni web di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
@@ -38,7 +38,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Rimuovere l'estensione web.
+// Rimuove l'estensione web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

@@ -1,14 +1,14 @@
 ---
 title: Document.UnlinkFields
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Scollega i campi nellintero documento.
+description: Document metodo. Scollega i campi dellintero documento.
 type: docs
-weight: 710
+weight: 750
 url: /it/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Scollega i campi nell'intero documento.
+Scollega i campi dell'intero documento.
 
 ```csharp
 public void UnlinkFields()

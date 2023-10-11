@@ -16,11 +16,11 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una matrice di sorgenti che contengono caratteri TrueType. |
+| sources | FontSourceBase[] | Un array di origini che contengono caratteri TrueType. |
 
 ### Osservazioni
 
-Per impostazione predefinita, Aspose.Words cerca i font installati nel sistema.
+Per impostazione predefinita, Aspose.Words cerca i caratteri installati nel sistema.
 
 L'impostazione di questa proprietà reimposta la cache di tutti i caratteri caricati in precedenza.
 
@@ -45,15 +45,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// L'origine dei caratteri predefinita manca di due dei caratteri che stiamo utilizzando nel nostro documento.
+// Nella fonte di carattere predefinita mancano due dei caratteri che stiamo utilizzando nel nostro documento.
 // Quando salviamo questo documento, Aspose.Words applicherà i caratteri di fallback a tutto il testo formattato con caratteri inaccessibili.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Crea una fonte di font da una cartella che contiene font.
+// Crea un'origine dei caratteri da una cartella che contiene i caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Applica una nuova matrice di fonti di carattere che contiene le fonti di carattere originali, oltre ai nostri caratteri personalizzati.
+// Applica una nuova serie di fonti di caratteri che contiene le fonti di caratteri originali, nonché i nostri caratteri personalizzati.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
@@ -81,7 +81,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
 
-Imposta le origini in cui Aspose.Words cerca i caratteri TrueType e carica inoltre la cache di ricerca dei caratteri precedentemente salvata .
+Imposta le origini in cui Aspose.Words cerca i caratteri TrueType e inoltre carica la cache di ricerca dei caratteri precedentemente salvata .
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -89,23 +89,22 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una matrice di sorgenti che contengono caratteri TrueType. |
-| cacheInputStream | Stream | Flusso di input con la cache di ricerca dei caratteri salvata. |
+| sources | FontSourceBase[] | Un array di origini che contengono caratteri TrueType. |
+| cacheInputStream | Stream | Flusso di input con cache di ricerca dei caratteri salvata. |
 
 ### Osservazioni
 
-Il caricamento della cache di ricerca dei font salvata in precedenza accelererà il processo di inizializzazione della cache dei font. È particolarmente utile quando l'accesso alle fonti dei caratteri è complicato (ad esempio quando i caratteri vengono caricati tramite rete).
+Il caricamento della cache di ricerca dei caratteri salvata in precedenza accelererà il processo di inizializzazione della cache dei caratteri. È particolarmente utile quando l'accesso alle fonti dei caratteri è complicato (ad esempio quando i caratteri vengono caricati tramite rete).
 
-Quando si salva e si carica la cache di ricerca dei caratteri, i caratteri nelle fonti fornite vengono identificati tramite la chiave della cache. Per i caratteri nella[`SystemFontSource`](../../systemfontsource/) e[`FolderFontSource`](../../folderfontsource/) la chiave della cache è il percorso del file del carattere. Per[`MemoryFontSource`](../../memoryfontsource/) e[`StreamFontSource`](../../streamfontsource/) la chiave della cache è definita nel file[`CacheKey`](../../memoryfontsource/cachekey/) e[`CacheKey`](../../streamfontsource/cachekey/) properties rispettivamente. Per il[`FileFontSource`](../../filefontsource/) la chiave della cache è sia[`CacheKey`](../../filefontsource/cachekey/) o un percorso di file se il[`CacheKey`](../../filefontsource/cachekey/) è **nullo**.
+Durante il salvataggio e il caricamento della cache di ricerca dei caratteri, i caratteri nelle origini fornite vengono identificati tramite la chiave cache. Per i caratteri nella[`SystemFontSource`](../../systemfontsource/) E[`FolderFontSource`](../../folderfontsource/) la chiave della cache è il percorso del file del carattere. Per[`MemoryFontSource`](../../memoryfontsource/) E[`StreamFontSource`](../../streamfontsource/) la chiave della cache è definita nel file[`CacheKey`](../../memoryfontsource/cachekey/) E[`CacheKey`](../../streamfontsource/cachekey/) proprietà rispettivamente. Per il[`FileFontSource`](../../filefontsource/) la chiave della cache è uno dei due[`CacheKey`](../../filefontsource/cachekey/) o un percorso file se il file[`CacheKey`](../../filefontsource/cachekey/) È`nullo`.
 
-Si consiglia vivamente di fornire le stesse origini dei caratteri durante il caricamento della cache del momento in cui la cache è stata salvata. Eventuali modifiche alle origini dei caratteri (ad esempio l'aggiunta di nuovi caratteri, lo spostamento di file di caratteri o la modifica della chiave della cache) possono comportare un carattere impreciso del risoluzione di Aspose.Words.
+Si consiglia vivamente di fornire le stesse origini dei caratteri durante il caricamento della cache come al momento del salvataggio della cache. Eventuali modifiche alle origini dei caratteri (ad esempio l'aggiunta di nuovi caratteri, lo spostamento di file di caratteri o la modifica della chiave della cache) possono portare a caratteri imprecisi risolvendo da Aspose.Words.
 
 ### Esempi
 
-Mostra come accelerare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -133,7 +132,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati del font solo quando richiesto invece di salvarli in memoria
+/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

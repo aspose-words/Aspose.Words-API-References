@@ -17,7 +17,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | pixels | Double | Il valore da convertire. |
-| oldDpi | Double | L'attuale risoluzione dpi (punti per pollice). |
+| oldDpi | Double | La risoluzione dpi (punti per pollice) corrente. |
 | newDpi | Double | La nuova risoluzione dpi (punti per pollice). |
 
 ### Esempi
@@ -36,7 +36,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Al valore DPI predefinito di 96, un pixel corrisponde a 0,75 punti.
+// Al DPI predefinito di 96, un pixel equivale a 0,75 punti.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

@@ -1,14 +1,14 @@
 ---
 title: Fill.Transparency
 second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene o imposta il grado di trasparenza del riempimento specificato come un valore compreso tra 00 opaco e 10 trasparente.
+description: Fill proprietà. Ottiene o imposta il grado di trasparenza del riempimento specificato come valore compreso tra 00 opaco e 10 chiaro.
 type: docs
-weight: 140
+weight: 200
 url: /it/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
 
-Ottiene o imposta il grado di trasparenza del riempimento specificato come un valore compreso tra 0,0 (opaco) e 1,0 (trasparente).
+Ottiene o imposta il grado di trasparenza del riempimento specificato come valore compreso tra 0,0 (opaco) e 1,0 (chiaro).
 
 ```csharp
 public double Transparency { get; set; }

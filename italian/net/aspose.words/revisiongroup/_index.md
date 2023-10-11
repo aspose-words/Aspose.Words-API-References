@@ -3,12 +3,14 @@ title: Class RevisionGroup
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.RevisionGroup classe. Rappresenta un gruppo di sequenzialiRevision oggetti.
 type: docs
-weight: 4520
+weight: 4780
 url: /it/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
 Rappresenta un gruppo di sequenziali[`Revision`](../revision/) oggetti.
+
+Per saperne di più, visita il[Tieni traccia delle modifiche in un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) articolo di documentazione.
 
 ```csharp
 public class RevisionGroup
@@ -18,13 +20,13 @@ public class RevisionGroup
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../aspose.words/revisiongroup/author/) { get; } | Ottiene l'autore di questo gruppo di revisioni. |
+| [Author](../../aspose.words/revisiongroup/author/) { get; } | Ottiene l'autore di questo gruppo di revisione. |
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Ottiene il tipo di revisioni incluse in questo gruppo. |
-| [Text](../../aspose.words/revisiongroup/text/) { get; } | Restituisce il testo inserito/cancellato/spostato o la descrizione del cambio formato. |
+| [Text](../../aspose.words/revisiongroup/text/) { get; } | Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato. |
 
 ### Esempi
 
-Mostra come stampare le informazioni su un gruppo di revisioni in un documento.
+Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

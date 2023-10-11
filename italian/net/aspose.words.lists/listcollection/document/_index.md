@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Document
 second_title: Aspose.Words per .NET API Reference
-description: ListCollection proprietà. Ottiene il documento proprietario.
+description: ListCollection proprietà. Ottiene il documento del proprietario.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listcollection/document/
 ---
 ## ListCollection.Document property
 
-Ottiene il documento proprietario.
+Ottiene il documento del proprietario.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -22,11 +22,9 @@ Mostra come verificare le proprietà del documento proprietario degli elenchi.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

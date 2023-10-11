@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Clear
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings metodo. Cancella le impostazioni della stampa unione in modo tale che quando il documento viene salvato non verrà salvata alcuna impostazione della stampa unione e diventerà un documento normale.
+description: MailMergeSettings metodo. Cancella le impostazioni di stampa unione in modo tale che quando il documento viene salvato nessuna impostazione di stampa unione verrà salvata e diventerà un documento normale.
 type: docs
 weight: 180
 url: /it/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Cancella le impostazioni della stampa unione in modo tale che quando il documento viene salvato, non verrà salvata alcuna impostazione della stampa unione e diventerà un documento normale.
+Cancella le impostazioni di stampa unione in modo tale che quando il documento viene salvato, nessuna impostazione di stampa unione verrà salvata e diventerà un documento normale.
 
 ```csharp
 public void Clear()
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Dopo averlo fatto e salvato il documento,
-// Microsoft Word non eseguirà più una stampa unione quando la utilizziamo per caricare il documento.
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

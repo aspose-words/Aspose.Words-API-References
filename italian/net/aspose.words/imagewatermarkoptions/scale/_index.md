@@ -18,13 +18,13 @@ public double Scale { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientrava nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ### Osservazioni
 
-I valori validi sono compresi tra 0 e 65,5 inclusi.
+I valori validi vanno da 0 a 65,5 inclusi.
 
-Scala automatica significa che la filigrana verrà ridimensionata alla sua larghezza massima e altezza massima rispetto a i margini della pagina.
+La scala automatica significa che la filigrana verrà ridimensionata alla larghezza massima e all'altezza massima rispetto a i margini della pagina.
 
 ### Esempi
 
@@ -34,7 +34,7 @@ Mostra come creare una filigrana da un'immagine nel file system locale.
 Document doc = new Document();
 
             // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
-            // quindi passalo durante la creazione di una filigrana da un file immagine.
+            // quindi lo passa durante la creazione di una filigrana da un file immagine.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

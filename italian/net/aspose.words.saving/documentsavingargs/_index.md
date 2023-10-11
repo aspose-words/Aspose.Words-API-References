@@ -3,12 +3,14 @@ title: Class DocumentSavingArgs
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.DocumentSavingArgs classe. Un argomento passatoNotify .
 type: docs
-weight: 4690
+weight: 4950
 url: /it/net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
 
 Un argomento passato[`Notify`](../idocumentsavingcallback/notify/) .
+
+Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
 ```csharp
 public sealed class DocumentSavingArgs

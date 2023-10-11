@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlPropertyCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.CustomXmlPropertyCollection classe. Rappresenta una raccolta di attributi XML personalizzati o proprietà di smart tag.
+description: Aspose.Words.Markup.CustomXmlPropertyCollection classe. Rappresenta una raccolta di attributi XML personalizzati o proprietà smart tag.
 type: docs
-weight: 3710
+weight: 3950
 url: /it/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
 
-Rappresenta una raccolta di attributi XML personalizzati o proprietà di smart tag.
+Rappresenta una raccolta di attributi XML personalizzati o proprietà smart tag.
+
+Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
@@ -31,7 +33,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
 | [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Restituisce l'indice in base zero della proprietà specificata nella raccolta. |
 | [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Rimuove una proprietà con il nome specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Rimuove una proprietà in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Rimuove una proprietà all'indice specificato. |
 
 ### Osservazioni
 
@@ -39,15 +41,15 @@ Gli articoli sono[`CustomXmlProperty`](../customxmlproperty/) oggetti.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
+Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una forma di dati,
+// Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
 // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
-// In Word 2003, possiamo abilitare gli smart tag tramite "Strumenti" -> "Opzioni di correzione automatica..." -> "SmartTag".
-// Nel nostro documento di input, ci sono tre oggetti che Microsoft Word ha registrato come smart tag.
+// In Word 2003, possiamo abilitare gli smart tag tramite "Strumenti" -> "Opzioni di correzione automatica..." -> "Smart Tag".
+// Nel nostro documento di input sono presenti tre oggetti che Microsoft Word ha registrato come smart tag.
 // Gli smart tag possono essere nidificati, quindi questa raccolta ne contiene di più.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
@@ -68,7 +70,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Possiamo anche accedere alle proprietà in vari modi, ad esempio una coppia chiave-valore.
+// Possiamo anche accedere alle proprietà in vari modi, ad esempio tramite una coppia chiave-valore.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -85,7 +87,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Cancella l'intera collezione in una volta:
+// 3 - Cancella l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

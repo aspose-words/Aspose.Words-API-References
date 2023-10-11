@@ -3,7 +3,7 @@ title: Enum TextBoxAnchor
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.TextBoxAnchor enum. Specifica i valori utilizzati per lallineamento verticale del testo della forma.
 type: docs
-weight: 1180
+weight: 1330
 url: /it/net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration

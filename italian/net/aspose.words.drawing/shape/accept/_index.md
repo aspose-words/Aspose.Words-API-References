@@ -20,21 +20,22 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valore di ritorno
 
-Vero se tutti i nodi sono stati visitati; false se DocumentVisitor ha interrotto l'operazione prima di visitare tutti i nodi.
+Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
 ### Osservazioni
 
-Enumera su questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su DocumentVisitor.
+Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
-Chiamate[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della forma e delle chiamate[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) alla fine.
+Chiamate[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della forma e delle chiamate[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) alla fine.
 
 ### Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

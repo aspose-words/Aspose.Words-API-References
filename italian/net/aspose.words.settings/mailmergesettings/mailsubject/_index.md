@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il testo che deve apparire nella riga delloggetto delle email o dei fax prodotti durante la stampa unione. Il valore predefinito è una stringa vuota.
+description: MailMergeSettings proprietà. Specifica il testo che dovrà apparire nella riga delloggetto delle email o dei fax prodotti durante la stampa in serie. Il valore predefinito è una stringa vuota.
 type: docs
 weight: 130
 url: /it/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Specifica il testo che deve apparire nella riga dell'oggetto delle e-mail o dei fax prodotti durante la stampa unione. Il valore predefinito è una stringa vuota.
+Specifica il testo che dovrà apparire nella riga dell'oggetto delle e-mail o dei fax prodotti durante la stampa in serie. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string MailSubject { get; set; }
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Dopo averlo fatto e salvato il documento,
-// Microsoft Word non eseguirà più una stampa unione quando la utilizziamo per caricare il documento.
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

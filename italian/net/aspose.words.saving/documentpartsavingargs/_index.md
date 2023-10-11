@@ -3,12 +3,14 @@ title: Class DocumentPartSavingArgs
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.DocumentPartSavingArgs classe. Fornisce i dati per ilDocumentPartSaving richiamata.
 type: docs
-weight: 4680
+weight: 4940
 url: /it/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
 Fornisce i dati per il[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) richiamata.
+
+Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
 ```csharp
 public class DocumentPartSavingArgs
@@ -18,18 +20,18 @@ public class DocumentPartSavingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | Ottiene l'oggetto del documento che viene salvato. |
+| [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | Ottiene l'oggetto documento che viene salvato. |
 | [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename/) { get; set; } | Ottiene o imposta il nome del file (senza percorso) in cui verrà salvata la parte del documento. |
-| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Consente di specificare il flusso in cui verrà salvata la parte del documento. |
-| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato una parte del documento. |
+| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Permette di specificare il flusso in cui verrà salvata la parte del documento. |
+| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato una parte del documento. |
 
 ### Osservazioni
 
-Quando Aspose.Words salva un documento in HTML o formati correlati e[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) è specificato, il documento è suddiviso in parti e, per impostazione predefinita, ogni parte del documento viene salvata in un file separato.
+Quando Aspose.Words salva un documento in HTML o formati correlati e[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)Viene specificato , il documento viene suddiviso in parti e, per impostazione predefinita, ciascuna parte del documento viene salvata in un file separato.
 
-Classe`DocumentPartSavingArgs` consente di controllare come verrà salvata ogni parte del documento. Consente di ridefinire come vengono generati i nomi dei file o di aggirare completamente il salvataggio di parti di documenti in file fornendo i propri oggetti flusso.
+Classe`DocumentPartSavingArgs` ti consente di controllare come verrà salvata ciascuna parte del documento. Permette di ridefinire il modo in cui vengono generati i nomi dei file o di eludere completamente il salvataggio di parti del documento in file fornendo i propri oggetti stream.
 
-Per salvare parti del documento in flussi anziché in file, utilizzare il file[`DocumentPartStream`](./documentpartstream/) proprietà.
+Per salvare parti del documento in flussi anziché in file, utilizzare il formato[`DocumentPartStream`](./documentpartstream/) proprietà.
 
 ### Esempi
 
@@ -45,8 +47,8 @@ public void DocumentPartsFileNames()
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Se salviamo il documento normalmente, ci sarà un HTML di output
-    // documento con tutti i contenuti del documento sorgente.
+    // Se salviamo il documento normalmente, ci sarà un output HTML
+    // documento con tutto il contenuto del documento sorgente.
     // Imposta la proprietà "DocumentSplitCriteria" su "DocumentSplitCriteria.SectionBreak" su
     // salva il nostro documento in più file HTML: uno per ogni sezione.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
@@ -54,9 +56,9 @@ public void DocumentPartsFileNames()
     // Assegna un callback personalizzato alla proprietà "DocumentPartSavingCallback" per modificare la logica di salvataggio della parte del documento.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che si collega a più immagini.
+    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che collega a diverse immagini.
     // Ogni immagine avrà la forma di un file nel file system locale.
-    // C'è anche un callback che può personalizzare il nome e la posizione del file system di ogni immagine.
+    // Esiste anche un callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -75,7 +77,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -98,7 +100,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file della parte di output:
         args.DocumentPartFileName = partFileName;
 
@@ -128,7 +130,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file immagine di output:
         args.ImageFileName = imageFileName;
 

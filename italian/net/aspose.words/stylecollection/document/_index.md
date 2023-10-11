@@ -1,14 +1,14 @@
 ---
 title: StyleCollection.Document
 second_title: Aspose.Words per .NET API Reference
-description: StyleCollection proprietà. Ottiene il documento proprietario.
+description: StyleCollection proprietà. Ottiene il documento del proprietario.
 type: docs
 weight: 40
 url: /it/net/aspose.words/stylecollection/document/
 ---
 ## StyleCollection.Document property
 
-Ottiene il documento proprietario.
+Ottiene il documento del proprietario.
 
 ```csharp
 public DocumentBase Document { get; }

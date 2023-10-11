@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Recupera un oggetto Border in base al tipo di bordo.
+description: BorderCollection proprietà. Recupera aBorder oggetto per tipo di bordo.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Recupera un oggetto Border in base al tipo di bordo.
+Recupera a[`Border`](../../border/) oggetto per tipo di bordo.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -20,7 +20,7 @@ public Border this[BorderType borderType] { get; }
 
 ### Osservazioni
 
-Nota che non tutti i bordi sono presenti per diversi elementi del documento. Questo metodo genera un'eccezione se richiedi un bordo non applicabile all'oggetto corrente.
+Tieni presente che non tutti i bordi sono presenti per i diversi elementi del documento. Questo metodo genera un'eccezione se richiedi un bordo non applicabile all'oggetto corrente.
 
 ### Esempi
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Recupera un oggetto Border per indice.
+Recupera a[`Border`](../../border/) oggetto per indice.
 
 ```csharp
 public Border this[int index] { get; }
@@ -83,7 +83,6 @@ builder.Write("Paragraph 2.");
 // questi paragrafi, le loro raccolte di bordi condividono gli stessi elementi.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -95,13 +94,13 @@ foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
 // Dopo aver modificato lo stile della linea dei bordi solo nel secondo paragrafo,
-// le raccolte di bordi non condividono più gli stessi elementi.
+// le raccolte border non condividono più gli stessi elementi.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // La modifica dell'aspetto di un bordo vuoto lo rende visibile.
+    // Cambiare l'aspetto di un bordo vuoto lo rende visibile.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

@@ -25,13 +25,13 @@ Mostra come creare e inserire un campo utilizzando un generatore di campi.
 ```csharp
 Document doc = new Document();
 
-// Un modo conveniente per aggiungere contenuto di testo a un documento è con un generatore di documenti.
+// Un modo conveniente per aggiungere contenuto testuale a un documento è utilizzare un generatore di documenti.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// I campi hanno il loro builder, che possiamo usare per costruire un codice di campo pezzo per pezzo.
-// In questo caso, costruiremo un campo CODICE A BARRE che rappresenta un codice postale statunitense,
-// e quindi inserirlo davanti a un Run.
+// I campi hanno il loro costruttore, che possiamo usare per costruire un codice di campo pezzo per pezzo.
+// In questo caso, costruiremo un campo BARCODE che rappresenta un codice postale degli Stati Uniti,
+// e poi inserirlo davanti a Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");

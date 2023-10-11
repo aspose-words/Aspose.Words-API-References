@@ -1,14 +1,14 @@
 ---
 title: Enum ReplaceAction
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Replacing.ReplaceAction enum. Consente allutente di specificare cosa accade alla corrispondenza corrente durante unoperazione di sostituzione.
+description: Aspose.Words.Replacing.ReplaceAction enum. Consente allutente di specificare cosa succede alla corrispondenza corrente durante unoperazione di sostituzione.
 type: docs
-weight: 4380
+weight: 4640
 url: /it/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Consente all'utente di specificare cosa accade alla corrispondenza corrente durante un'operazione di sostituzione.
+Consente all'utente di specificare cosa succede alla corrispondenza corrente durante un'operazione di sostituzione.
 
 ```csharp
 public enum ReplaceAction
@@ -19,7 +19,7 @@ public enum ReplaceAction
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Replace | `0` | Sostituisci la corrispondenza corrente. |
-| Skip | `1` | Salta la corrispondenza corrente. |
+| Skip | `1` | Salta la partita corrente. |
 | Stop | `2` | Termina l'operazione di sostituzione. |
 
 ### Esempi
@@ -27,15 +27,18 @@ public enum ReplaceAction
 Mostra come inserire il contenuto di un intero documento in sostituzione di una corrispondenza in un'operazione di ricerca e sostituzione.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+    // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -47,7 +50,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuovi il paragrafo con il testo corrispondente.
+        // Rimuove il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

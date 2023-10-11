@@ -1,14 +1,14 @@
 ---
 title: Range.Delete
 second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Elimina tutti i caratteri dellintervallo.
+description: Range metodo. Cancella tutti i caratteri dellintervallo.
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words/range/delete/
 ---
 ## Range.Delete method
 
-Elimina tutti i caratteri dell'intervallo.
+Cancella tutti i caratteri dell'intervallo.
 
 ```csharp
 public void Delete()
@@ -22,14 +22,14 @@ Mostra come eliminare tutti i nodi da un intervallo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi testo alla prima sezione del documento, quindi aggiungi un'altra sezione.
+// Aggiunge testo alla prima sezione del documento, quindi aggiunge un'altra sezione.
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Rimuovi completamente la prima sezione rimuovendo tutti i nodi
+// Rimuove completamente la prima sezione rimuovendo tutti i nodi
 // all'interno del suo intervallo, inclusa la sezione stessa.
 doc.Sections[0].Range.Delete();
 

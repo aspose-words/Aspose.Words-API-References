@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitGroupShapeEnd
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando lenumerazione di una forma di gruppo è terminata.
+description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di una forma di gruppo.
 type: docs
 weight: 260
 url: /it/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-Chiamato quando l'enumerazione di una forma di gruppo è terminata.
+Chiamato al termine dell'enumerazione di una forma di gruppo.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -32,9 +32,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se devi creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, DiagonaleCornersRounded
-    // usa i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Stampa il contenuto di un gruppo di forme visitato sulla console.
+/// Stampa sulla console il contenuto di un gruppo di forme visitato.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

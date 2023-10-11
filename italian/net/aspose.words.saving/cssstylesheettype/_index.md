@@ -3,7 +3,7 @@ title: Enum CssStyleSheetType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.CssStyleSheetType enum. Specifica come gli stili CSS Cascading Style Sheet vengono esportati in HTML.
 type: docs
-weight: 4630
+weight: 4890
 url: /it/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -19,7 +19,7 @@ public enum CssStyleSheetType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Inline | `0` | Gli stili CSS sono scritti in linea (come valore del file **stile** attributo su ogni elemento). |
-| Embedded | `1` | Gli stili CSS sono scritti separatamente dal contenuto in un foglio di stile incorporato nel file HTML. |
+| Embedded | `1` | Gli stili CSS vengono scritti separatamente dal contenuto in un foglio di stile incorporato nel file HTML. |
 | External | `2` | Gli stili CSS vengono scritti separatamente dal contenuto di un foglio di stile in un file esterno. Il file HTML collega il foglio di stile. |
 
 ### Esempi
@@ -40,7 +40,7 @@ public void ExternalCssFilenames()
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Usa la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

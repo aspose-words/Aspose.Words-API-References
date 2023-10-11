@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.RightOffset
 second_title: Aspose.Words per .NET API Reference
-description: FieldAdvance proprietà. Ottiene o imposta il numero di punti di cui il testo che segue il campo deve essere spostato a destra.
+description: FieldAdvance proprietà. Ottiene o imposta il numero di punti di cui deve essere spostato a destra il testo che segue il campo.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldadvance/rightoffset/
 ---
 ## FieldAdvance.RightOffset property
 
-Ottiene o imposta il numero di punti di cui il testo che segue il campo deve essere spostato a destra.
+Ottiene o imposta il numero di punti di cui deve essere spostato a destra il testo che segue il campo.
 
 ```csharp
 public string RightOffset { get; set; }
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Di seguito sono riportati due modi per utilizzare il campo AVANZAMENTO per regolare la posizione del testo che lo segue.
+// Di seguito sono riportati due modi di utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
 // Gli effetti di un campo ADVANCE continuano ad essere applicati fino alla fine del paragrafo,
 // o un altro campo ADVANCE aggiorna i valori di offset/coordinate.
-// 1 - Specificare un offset direzionale:
+// 1 - Specifica un offset direzionale:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

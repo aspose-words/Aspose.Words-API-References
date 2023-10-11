@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Aspose.Words per .NET API Reference
-description: DocumentPropertyCollection metodo. Restituisce true se nella raccolta esiste una proprietà con il nome specificato.
+description: DocumentPropertyCollection metodo. RestituisceVERO se nella raccolta esiste una proprietà con il nome specificato.
 type: docs
 weight: 40
 url: /it/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Restituisce true se nella raccolta esiste una proprietà con il nome specificato.
+Restituisce`VERO` se nella raccolta esiste una proprietà con il nome specificato.
 
 ```csharp
 public bool Contains(string name)
@@ -16,15 +16,15 @@ public bool Contains(string name)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome senza distinzione tra maiuscole e minuscole della proprietà. |
+| name | String | Il nome della proprietà senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-True se la proprietà esiste nella raccolta; falso altrimenti.
+`VERO` se la proprietà esiste nella collezione;`falso` Altrimenti.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -73,7 +73,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

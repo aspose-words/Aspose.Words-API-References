@@ -22,10 +22,10 @@ Mostra come specificare il livello di compressione da utilizzare durante il salv
 Document doc = new Document(MyDir + "Big document.docx");
 
 // Quando salviamo il documento in un formato OOXML, possiamo creare un oggetto OoxmlSaveOptions
-// e quindi passalo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
+// e poi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
 // Imposta la proprietà "CompressionLevel" su "CompressionLevel.Maximum" per applicare la compressione più forte e più lenta.
 // Imposta la proprietà "CompressionLevel" su "CompressionLevel.Normal" da applicare
-// la compressione predefinita utilizzata da Aspose.Words durante il salvataggio di documenti OOXML.
+// la compressione predefinita utilizzata da Aspose.Words durante il salvataggio dei documenti OOXML.
 // Imposta la proprietà "CompressionLevel" su "CompressionLevel.Fast" per applicare una compressione più veloce e più debole.
 // Imposta la proprietà "CompressionLevel" su "CompressionLevel.SuperFast" da applicare
 // la compressione predefinita utilizzata da Microsoft Word.

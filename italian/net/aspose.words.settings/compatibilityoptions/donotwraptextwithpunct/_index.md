@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non consentire la punteggiatura in sospeso con la griglia dei caratteri.
+description: CompatibilityOptions proprietà. Non consentire la punteggiatura sporgente con la griglia dei caratteri.
 type: docs
 weight: 250
 url: /it/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property
 
-Non consentire la punteggiatura in sospeso con la griglia dei caratteri.
+Non consentire la punteggiatura sporgente con la griglia dei caratteri.
 
 ```csharp
 public bool DoNotWrapTextWithPunct { get; set; }

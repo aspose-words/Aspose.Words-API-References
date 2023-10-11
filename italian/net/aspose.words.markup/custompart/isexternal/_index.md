@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Aspose.Words per .NET API Reference
-description: CustomPart proprietà. Falso se questa parte personalizzata è memorizzata allinterno del pacchetto OOXML.Vero se questa parte personalizzata è una destinazione esterna.
+description: CustomPart proprietà. False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se questa parte personalizzata è una destinazione esterna.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`Falso` se questa parte personalizzata è memorizzata all'interno del pacchetto OOXML.`Vero` se questa parte personalizzata è una destinazione esterna.
+False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se questa parte personalizzata è una destinazione esterna.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta singolarmente o tutti in una volta.
+// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

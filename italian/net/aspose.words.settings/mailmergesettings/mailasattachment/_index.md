@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailAsAttachment
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica che i documenti prodotti durante unoperazione di stampa unione devono essere inviati tramite email come allegato anziché rispetto al corpo dellemail effettiva. Il valore predefinito èfalso .
+description: MailMergeSettings proprietà. Specifica che i documenti prodotti durante unoperazione di stampa unione devono essere inviati tramite posta elettronica come allegato anziché anziché come corpo del messaggio di posta elettronica vero e proprio. Il valore predefinito èfalso .
 type: docs
 weight: 120
 url: /it/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-Specifica che i documenti prodotti durante un'operazione di stampa unione devono essere inviati tramite e-mail come allegato anziché rispetto al corpo dell'e-mail effettiva. Il valore predefinito è`falso` .
+Specifica che i documenti prodotti durante un'operazione di stampa unione devono essere inviati tramite posta elettronica come allegato anziché anziché come corpo del messaggio di posta elettronica vero e proprio. Il valore predefinito è`falso` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Dopo averlo fatto e salvato il documento,
-// Microsoft Word non eseguirà più una stampa unione quando la utilizziamo per caricare il documento.
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

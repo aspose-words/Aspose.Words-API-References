@@ -16,7 +16,7 @@ public abstract NodeType NodeType { get; }
 
 ### Esempi
 
-Mostra come usare la proprietà NextSibling di un nodo per enumerare i suoi figli immediati.
+Mostra come utilizzare la proprietà NextSibling di un nodo per enumerare i relativi figli immediati.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -42,10 +42,10 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Salva il prossimo nodo di pari livello come variabile nel caso in cui desideriamo spostarci su di esso dopo aver eliminato questo nodo.
+    // Salva il nodo fratello successivo come variabile nel caso in cui vogliamo spostarci su di esso dopo aver eliminato questo nodo.
     Node nextNode = curNode.NextSibling;
 
-    // Un corpo di sezione può contenere nodi Paragrafo e Tabella.
+    // Il corpo di una sezione può contenere nodi Paragrafo e Tabella.
     // Se il nodo è una tabella, rimuoverlo dal genitore.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
@@ -59,19 +59,20 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Qualsiasi nodo che può contenere nodi figlio, come il documento stesso, è composto.
+    // Qualsiasi nodo che può contenere nodi secondari, come il documento stesso, è composito.
     Assert.True(doc.IsComposite);
 
-    // Richiama la funzione ricorsiva che passerà attraverso e stamperà tutti i nodi figlio di un nodo composito.
+    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figli di un nodo composito.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Attraversa ricorsivamente un albero di nodi durante la stampa del tipo di ciascun nodo
-/// con un rientro a seconda della profondità e del contenuto di tutti i nodi inline.
+/// con un rientro che dipende dalla profondità e dal contenuto di tutti i nodi in linea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -79,7 +80,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Ricorre nel nodo se si tratta di un nodo composito. In caso contrario, stampa il suo contenuto se si tratta di un nodo inline.
+        // Ricorsione nel nodo se è un nodo composito. Altrimenti, stampa il suo contenuto se è un nodo in linea.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

@@ -1,14 +1,14 @@
 ---
 title: TextBox.FitShapeToText
 second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Determina se Microsoft Word aumenterà la forma per adattarla al testo.
+description: TextBox proprietà. Determina se Microsoft Word ingrandirà la forma per adattarla al testo.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/textbox/fitshapetotext/
 ---
 ## TextBox.FitShapeToText property
 
-Determina se Microsoft Word aumenterà la forma per adattarla al testo.
+Determina se Microsoft Word ingrandirà la forma per adattarla al testo.
 
 ```csharp
 public bool FitShapeToText { get; set; }
@@ -16,7 +16,7 @@ public bool FitShapeToText { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
 ### Esempi
 
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Applica questi valori a entrambi questi membri per adattare la forma padre
+// Applica questi valori a entrambi i membri per far sì che la forma principale si adatti
 // strettamente attorno al contenuto del testo, ignorando le dimensioni che abbiamo impostato.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;

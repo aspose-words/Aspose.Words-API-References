@@ -3,7 +3,7 @@ title: Document.ShowGrammaticalErrors
 second_title: Aspose.Words per .NET API Reference
 description: Document proprietà. Specifica se visualizzare gli errori grammaticali in questo documento.
 type: docs
-weight: 370
+weight: 390
 url: /it/net/aspose.words/document/showgrammaticalerrors/
 ---
 ## Document.ShowGrammaticalErrors property

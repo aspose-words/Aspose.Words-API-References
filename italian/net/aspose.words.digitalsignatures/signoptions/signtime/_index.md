@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignTime
 second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. La data di firma. Il valore predefinito è ora attuale Now .
+description: SignOptions proprietà. La data della firma. Il valore predefinito è ora attuale Now.
 type: docs
 weight: 70
 url: /it/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-La data di firma. Il valore predefinito è **ora attuale** (Now ).
+La data della firma. Il valore predefinito è **ora attuale** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -29,8 +29,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Prendi un documento non firmato dal file system locale tramite un flusso di file,
-// quindi creane una copia firmata determinata dal nome del file del flusso di file di output.
+// Preleva un documento non firmato dal file system locale tramite un flusso di file,
+// quindi crea una copia firmata determinata dal nome file del flusso di file di output.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

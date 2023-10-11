@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce una stringa HTML nel documento.
 type: docs
-weight: 330
+weight: 360
 url: /it/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -20,11 +20,11 @@ public void InsertHtml(string html)
 
 ### Osservazioni
 
-Puoi usare questo metodo per inserire un frammento HTML o un intero documento HTML.
+Puoi utilizzare questo metodo per inserire un frammento HTML o un intero documento HTML.
 
 ### Esempi
 
-Mostra come utilizzare un generatore di documenti per inserire contenuto html in un documento.
+Mostra come utilizzare un generatore di documenti per inserire contenuto HTML in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// L'inserimento del codice HTML analizza la formattazione di ciascun elemento nella formattazione del testo del documento equivalente.
+// L'inserimento del codice HTML analizza la formattazione di ciascun elemento nella formattazione equivalente del testo del documento.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -56,9 +56,10 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Mostra come eseguire una stampa unione con una richiamata personalizzata che gestisce i dati di unione sotto forma di documenti HTML.
+Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +107,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Testo".
+             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
@@ -141,11 +142,11 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 ### Osservazioni
 
-Puoi usare questo metodo per inserire un frammento HTML o un intero documento HTML.
+Puoi utilizzare questo metodo per inserire un frammento HTML o un intero documento HTML.
 
-Quando*useBuilderFormatting* è`falso` , [`DocumentBuilder`](../) la formattazione viene ignorata e la formattazione del testo inserito si basa sulla formattazione HTML predefinita. Di conseguenza, il testo appare come viene visualizzato nei browser.
+Quando*useBuilderFormatting* È`falso` , [`DocumentBuilder`](../)la formattazione viene ignorata e la formattazione del testo inserito si basa sulla formattazione HTML predefinita. Di conseguenza, il testo appare così come viene visualizzato nei browser.
 
-Quando*useBuilderFormatting* è`VERO` , si basa sulla formattazione del testo inserito[`DocumentBuilder`](../) formattazione, e il testo appare come se fosse stato inserito con[`Write`](../write/) .
+Quando*useBuilderFormatting* È`VERO` , si basa la formattazione del testo inserito[`DocumentBuilder`](../) formattazione, e il testo sembra come se fosse stato inserito con[`Write`](../write/) .
 
 ### Esempi
 
@@ -155,7 +156,7 @@ Mostra come applicare la formattazione di un generatore di documenti durante l'i
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta un allineamento del testo per il builder, inserisci un paragrafo HTML con un allineamento specificato e uno senza.
+// Imposta un allineamento del testo per il builder, inserisce un paragrafo HTML con un allineamento specificato e uno senza.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -163,13 +164,13 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Il primo paragrafo ha un allineamento specificato. Quando InsertHtml analizza il codice HTML,
+// Per il primo paragrafo è specificato un allineamento. Quando InsertHtml analizza il codice HTML,
 // il valore di allineamento del paragrafo trovato nel codice HTML sostituisce sempre il valore del generatore di documenti.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// Il secondo paragrafo non ha un allineamento specificato. Può avere il suo valore di allineamento compilato
-// dal valore del builder a seconda del flag che abbiamo passato al metodo InsertHtml.
+// Per il secondo paragrafo non è specificato alcun allineamento. È possibile compilare il valore di allineamento
+// in base al valore del builder a seconda del flag che abbiamo passato al metodo InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -187,7 +188,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
 
-Inserisce una stringa HTML nel documento. Consente di specificare opzioni aggiuntive.
+Inserisce una stringa HTML nel documento. Permette di specificare opzioni aggiuntive.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -200,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 
 ### Osservazioni
 
-Puoi usare questo metodo per inserire un frammento HTML o un intero documento HTML.
+Puoi utilizzare questo metodo per inserire un frammento HTML o un intero documento HTML.
 
 ### Esempi
 
-Mostra come utilizzare le opzioni durante l'inserimento di html.
+Mostra come utilizzare le opzioni durante l'inserimento di codice HTML.
 
 ```csharp
 Document doc = new Document();
@@ -216,9 +217,9 @@ builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
 // Per impostazione predefinita "DocumentBuilder.InsertHtml" inserisce un frammento HTML che termina con un elemento HTML a livello di blocco,
-// normalmente chiude quell'elemento a livello di blocco e inserisce un'interruzione di paragrafo.
-// Di conseguenza, viene visualizzato un nuovo paragrafo vuoto dopo il documento inserito.
-// Se specifichiamo "HtmlInsertOptions.RemoveLastEmptyParagraph", quei paragrafi vuoti extra verranno rimossi.
+// normalmente chiude l'elemento a livello di blocco e inserisce un'interruzione di paragrafo.
+// Di conseguenza, dopo il documento inserito viene visualizzato un nuovo paragrafo vuoto.
+// Se specifichiamo "HtmlInsertOptions.RemoveLastEmptyParagraph", i paragrafi vuoti in eccesso verranno rimossi.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

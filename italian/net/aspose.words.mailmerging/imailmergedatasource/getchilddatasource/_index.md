@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSource metodo. Il motore di stampa unione di Aspose.Words richiama questo metodo quando incontra linizio di una regione di stampa unione nidificata.
+description: IMailMergeDataSource metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di una regione di stampa unione nidificata.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-Il motore di stampa unione di Aspose.Words richiama questo metodo quando incontra l'inizio di una regione di stampa unione nidificata.
+Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di una regione di stampa unione nidificata.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -16,7 +16,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| tableName | String | Il nome dell'area della stampa unione come specificato nel documento modello. Senza distinzione tra maiuscole e minuscole. |
+| tableName | String | Il nome dell'area di stampa unione come specificato nel documento modello. Senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
@@ -24,19 +24,19 @@ Un oggetto origine dati che fornirà l'accesso ai record di dati della tabella s
 
 ### Osservazioni
 
-Quando i motori di stampa unione di Aspose.Words popolano un'area di stampa unione con i dati e incontrano l'inizio di un'area di stampa unione annidata sotto forma di MERGEFIELD TableStart:TableName, richiama`GetChildDataSource` sull'oggetto origine dati corrente . L'implementazione deve restituire un nuovo oggetto origine dati che fornirà l'accesso ai record child del record padre corrente. Aspose.Words utilizzerà l'origine dati restituita per popolare la regione di stampa unione nidificata.
+Quando i motori di stampa unione Aspose.Words popolano un'area di stampa unione con dati e incontrano l'inizio di una regione di stampa unione nidificata sotto forma di MERGEFIELD TableStart:TableName, richiama`GetChildDataSource` sull'oggetto origine dati current . La tua implementazione deve restituire un nuovo oggetto origine dati che fornirà l'accesso ai record child del record padre corrente. Aspose.Words utilizzerà l'origine dati restituita per popolare la regione di stampa unione nidificata.
 
-Di seguito sono riportate le regole di implementazione`GetChildDataSource` deve seguire.
+Di seguito sono riportate le regole che ne prevedono l'implementazione`GetChildDataSource` deve seguire.
 
-Se la tabella rappresentata da questo oggetto origine dati ha una tabella figlio (dettaglio) correlata con il nome specificato, la tua implementazione deve restituire una nuova[`IMailMergeDataSource`](../) oggetto che fornirà l'accesso ai record figlio del record corrente. Un esempio di ciò è la relazione Orders / OrderDetails. Assumiamo che la corrente[`IMailMergeDataSource`](../) object rappresenta la tabella Ordini e ha un record dell'ordine corrente. Successivamente, Aspose.Words incontra "MERGEFIELD TableStart: OrderDetails" nel documento e invoca`GetChildDataSource` . Devi creare e restituire a[`IMailMergeDataSource`](../) oggetto che consentirà ad Aspose.Words di accedere al record OrderDetails per l'ordine corrente.
+Se la tabella rappresentata da questo oggetto origine dati ha una tabella secondaria correlata (dettagli) con il nome specificato, , l'implementazione deve restituire un nuovo[`IMailMergeDataSource`](../)oggetto che fornirà access ai record secondari del record corrente. Un esempio di ciò è la relazione Orders / OrderDetails. Supponiamo che la corrente[`IMailMergeDataSource`](../) object rappresenta la tabella Ordini e ha un record dell'ordine corrente. Successivamente, Aspose.Words incontra "MERGEFIELD TableStart:OrderDetails" nel documento e invoca`GetChildDataSource` . È necessario creare e restituire a[`IMailMergeDataSource`](../) Oggetto che consentirà ad Aspose.Words di accedere al record OrderDetails per l'ordine corrente.
 
-Se questo oggetto origine dati non ha una relazione con la tabella con il nome specificato, è necessario restituire a[`IMailMergeDataSource`](../)oggetto che fornirà l'accesso a tutti i record della tabella specificata.
+Se questo oggetto origine dati non ha una relazione con la tabella con il nome specificato, è necessario restituire a[`IMailMergeDataSource`](../) oggetto che fornirà l'accesso a tutti i record della tabella specificata.
 
-Se non esiste una tabella con il nome specificato, l'implementazione dovrebbe restituire`nullo` .
+Se una tabella con il nome specificato non esiste, l'implementazione dovrebbe restituire`nullo` .
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con un'origine dati sotto forma di un oggetto personalizzato.
+Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
 ```csharp
 public void CustomDataSource()
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Per utilizzare un oggetto personalizzato come origine dati, è necessario implementare l'interfaccia IMailMergeDataSource. 
+     // Per utilizzare un oggetto personalizzato come origine dati, è necessario implementare l'interfaccia IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -60,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un esempio di una classe "entità dati" nell'applicazione.
+/// Un esempio di classe "entità dati" nella tua applicazione.
 /// </summary>
 public class Customer
 {
@@ -75,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
-/// Un'origine dati di stampa unione personalizzata che implementi per consentire Aspose.Words 
-/// per inviare i dati dalla stampa unione dagli oggetti Cliente ai documenti di Microsoft Word.
+ /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
+/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -84,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando si inizializza l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con aree ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
     /// </summary>
     public string TableName
     {
@@ -97,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo di dati.
+    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo dati.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -110,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Restituisce "false" al motore di stampa unione di Aspose.Words per indicare
+                // Restituisce "false" al motore di stampa unione Aspose.Words per indicare
                 // che non siamo riusciti a trovare un campo con questo nome.
                 fieldValue = null;
                 return false;
@@ -118,7 +120,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Un'implementazione standard per passare a un record successivo in una raccolta.
+    /// Un'implementazione standard per passare al record successivo in una raccolta.
     /// </summary>
     public bool MoveNext()
     {

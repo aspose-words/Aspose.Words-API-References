@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BoundsWithEffects
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene lestensione finale di questo oggetto forma dopo lapplicazione degli effetti di disegno. Il valore viene misurato in punti.
+description: ShapeBase proprietà. Ottiene lestensione finale delloggetto forma dopo lapplicazione degli effetti di disegno. Il valore è misurato in punti.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing/shapebase/boundswitheffects/
 ---
 ## ShapeBase.BoundsWithEffects property
 
-Ottiene l'estensione finale di questo oggetto forma dopo l'applicazione degli effetti di disegno. Il valore viene misurato in punti.
+Ottiene l'estensione finale dell'oggetto forma dopo l'applicazione degli effetti di disegno. Il valore è misurato in punti.
 
 ```csharp
 public RectangleF BoundsWithEffects { get; }
@@ -16,7 +16,7 @@ public RectangleF BoundsWithEffects { get; }
 
 ### Esempi
 
-Mostra come controllare in che modo i limiti di una forma sono influenzati dagli effetti della forma.
+Mostra come verificare in che modo i limiti di una forma vengono influenzati dagli effetti della forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape shadow effect.docx");
@@ -31,10 +31,10 @@ Assert.AreEqual(shapes[0].Height, shapes[1].Height);
 Assert.AreEqual(shapes[0].ShapeType, shapes[1].ShapeType);
 
 // La prima forma non ha effetti e la seconda ha un'ombra e un contorno spesso.
-// Questi effetti rendono la dimensione della sagoma della seconda forma più grande di quella della prima.
-// Anche se le dimensioni del rettangolo vengono visualizzate quando facciamo clic su queste forme in Microsoft Word,
+// Questi effetti rendono la dimensione della silhouette della seconda forma più grande di quella della prima.
+// Anche se la dimensione del rettangolo viene visualizzata quando si fa clic su queste forme in Microsoft Word,
 // i limiti esterni visibili della seconda forma sono influenzati dall'ombra e dal contorno e quindi sono più grandi.
-// Possiamo usare il metodo "AdjustWithEffects" per vedere la vera dimensione della forma.
+// Possiamo usare il metodo "AdjustWithEffects" per vedere la dimensione reale della forma.
 Assert.AreEqual(0.0, shapes[0].StrokeWeight);
 Assert.AreEqual(20.0, shapes[1].StrokeWeight);
 Assert.False(shapes[0].ShadowEnabled);
@@ -49,7 +49,7 @@ RectangleF rectangleF = new RectangleF(200, 200, 1000, 1000);
 // Esegui questo metodo per regolare la dimensione del rettangolo per tutti i nostri effetti di forma.
 RectangleF rectangleFOut = shape.AdjustWithEffects(rectangleF);
 
-// Poiché la forma non ha effetti di modifica del bordo, le sue dimensioni del contorno non vengono modificate.
+// Poiché la forma non ha effetti di modifica dei bordi, le sue dimensioni dei confini non vengono influenzate.
 Assert.AreEqual(200, rectangleFOut.X);
 Assert.AreEqual(200, rectangleFOut.Y);
 Assert.AreEqual(1000, rectangleFOut.Width);
@@ -73,7 +73,7 @@ Assert.AreEqual(167, rectangleFOut.Y);
 Assert.AreEqual(1045, rectangleFOut.Width);
 Assert.AreEqual(1132, rectangleFOut.Height);
 
-// Gli effetti hanno influenzato anche i limiti visibili della forma.
+// Gli effetti hanno interessato anche i limiti visibili della forma.
 Assert.AreEqual(-28.5, shape.BoundsWithEffects.X);
 Assert.AreEqual(-33, shape.BoundsWithEffects.Y);
 Assert.AreEqual(192, shape.BoundsWithEffects.Width);

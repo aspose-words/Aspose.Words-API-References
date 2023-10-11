@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene o imposta il nome delBuildingBlock contenente testo segnaposto.
+description: StructuredDocumentTagRangeStart proprietà. Ottiene o imposta il nome diBuildingBlock contenente testo segnaposto.
 type: docs
 weight: 120
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Ottiene o imposta il nome del[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenente testo segnaposto.
+Ottiene o imposta il nome di[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenente testo segnaposto.
 
-BuildingBlock con questo nome[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) deve essere presente nel[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) altrimentiInvalidOperationException si verificherà.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) con questo nome[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) deve essere presente in[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) altrimentiInvalidOperationException si verificherà.
 
 ```csharp
 public string PlaceholderName { get; set; }

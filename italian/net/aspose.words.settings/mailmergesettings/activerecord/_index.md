@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ActiveRecord
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica lindice a base uno del record dallorigine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1.
+description: MailMergeSettings proprietà. Specifica lindice in base uno del record dallorigine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Specifica l'indice a base uno del record dall'origine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1.
+Specifica l'indice in base uno del record dall'origine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1.
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Dopo averlo fatto e salvato il documento,
-// Microsoft Word non eseguirà più una stampa unione quando la utilizziamo per caricare il documento.
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

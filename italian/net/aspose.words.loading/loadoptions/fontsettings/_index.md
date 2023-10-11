@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.FontSettings
 second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Consente di specificare le impostazioni del carattere del documento.
+description: LoadOptions proprietà. Permette di specificare le impostazioni dei caratteri del documento.
 type: docs
-weight: 70
+weight: 60
 url: /it/net/aspose.words.loading/loadoptions/fontsettings/
 ---
 ## LoadOptions.FontSettings property
 
-Consente di specificare le impostazioni del carattere del documento.
+Permette di specificare le impostazioni dei caratteri del documento.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -16,11 +16,11 @@ public FontSettings FontSettings { get; set; }
 
 ### Osservazioni
 
-Durante il caricamento di alcuni formati, Aspose.Words potrebbe richiedere la risoluzione dei caratteri. Ad esempio, durante il caricamento di documenti HTML, Aspose.Words può risolvere i caratteri per eseguire il fallback dei caratteri.
+Durante il caricamento di alcuni formati, Aspose.Words potrebbe richiedere la risoluzione dei caratteri. Ad esempio, durante il caricamento di documenti HTML Aspose.Words può risolvere i caratteri per eseguire il fallback dei caratteri.
 
-Se impostato su null, le impostazioni dei caratteri statici predefiniti[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sarà usato.
+Se impostato su`nullo` , impostazioni predefinite dei caratteri statici[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sarà usato.
 
-Il valore predefinito è null.
+Il valore predefinito è`nullo`.
 
 ### Esempi
 
@@ -33,17 +33,17 @@ FontSettings fontSettings = new FontSettings();
 fontSettings.SetFontsFolder(FontsDir, false);
 fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
 
-// Imposta quell'oggetto FontSettings come proprietà di un oggetto LoadOptions appena creato.
+// Imposta l'oggetto FontSettings come proprietà di un oggetto LoadOptions appena creato.
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.FontSettings = fontSettings;
 
-// Carica il documento, quindi esegui il rendering come PDF con la sostituzione del carattere.
+// Carica il documento, quindi visualizzalo come PDF con la sostituzione del carattere.
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
 doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
-Mostra come designare i caratteri sostitutivi durante il caricamento.
+Mostra come designare i sostituti dei caratteri durante il caricamento.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
@@ -58,8 +58,8 @@ substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
 
 Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 
-// A questo punto tale testo sarà ancora in "MissingFont".
-// La sostituzione dei caratteri avverrà durante il rendering del documento.
+// A questo punto il testo sarà ancora in "MissingFont".
+// La sostituzione del carattere avverrà quando visualizzeremo il documento.
 Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
 
 doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");

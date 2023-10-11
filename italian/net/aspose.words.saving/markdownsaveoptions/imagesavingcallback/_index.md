@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
 second_title: Aspose.Words per .NET API Reference
-description: MarkdownSaveOptions proprietà. Consente di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato.
+description: MarkdownSaveOptions proprietà. Permette di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Consente di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato.
+Permette di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -19,14 +19,15 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 Mostra come rinominare il nome dell'immagine durante il salvataggio nel documento Markdown.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // Se convertiamo un documento che contiene immagini in Markdown, ci ritroveremo con un file Markdown che si collega a più immagini.
+    // Se convertiamo un documento che contiene immagini in Markdown, ci ritroveremo con un file Markdown che si collega a diverse immagini.
     // Ogni immagine avrà la forma di un file nel file system locale.
-    // C'è anche un callback che può personalizzare il nome e la posizione del file system di ogni immagine.
+    // Esiste anche un callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
     // Il metodo ImageSaving() del nostro callback verrà eseguito in questo momento.
@@ -43,7 +44,7 @@ Mostra come rinominare il nome dell'immagine durante il salvataggio nel document
 }
 
 /// <summary>
-/// Rinomina le immagini salvate che vengono prodotte quando viene salvato un documento Markdown.
+/// Rinomina le immagini salvate prodotte quando viene salvato un documento Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
 second_title: Aspose.Words per .NET API Reference
-description: GraphicsQualityOptions proprietà. Ottiene o imposta la modalità di interpolazione associata a questa grafica.
+description: GraphicsQualityOptions proprietà. Ottiene o imposta la modalità di interpolazione associata a questo Graphics.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Ottiene o imposta la modalità di interpolazione associata a questa grafica.
+Ottiene o imposta la modalità di interpolazione associata a questo Graphics.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }

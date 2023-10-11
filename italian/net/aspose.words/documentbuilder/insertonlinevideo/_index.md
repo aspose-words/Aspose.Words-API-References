@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertOnlineVideo
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce un oggetto video online nel documento e lo ridimensiona alla dimensione specificata.
 type: docs
-weight: 390
+weight: 420
 url: /it/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
 ## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
@@ -22,20 +22,20 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 È supportato l'inserimento di video online dalle seguenti risorse:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice HTML incorporato personalizzato.
 
-Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
+Il codice per l'incorporamento del video può variare tra i fornitori, consulta il fornitore corrispondente di tua scelta per i dettagli.
 
 ### Esempi
 
@@ -78,24 +78,24 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 | top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
 | width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| wrapType | WrapType | Specifica come avvolgere il testo attorno all'immagine. |
+| wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 È supportato l'inserimento di video online dalle seguenti risorse:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice HTML incorporato personalizzato.
 
-Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
+Il codice per l'incorporamento del video può variare tra i fornitori, consulta il fornitore corrispondente di tua scelta per i dettagli.
 
 ### Esempi
 
@@ -107,9 +107,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 
-// Inserisce una forma che riproduce un video dal Web quando si fa clic in Microsoft Word.
+// Inserisci una forma che riproduce un video dal Web quando viene fatto clic in Microsoft Word.
 // Questa forma rettangolare conterrà un'immagine basata sul primo fotogramma del video collegato
-// e un prompt visivo del "pulsante di riproduzione". Il video ha una proporzione di 16:9.
+// e un messaggio visivo "pulsante di riproduzione". Il video ha un formato 16:9.
 // Imposteremo la dimensione della forma su quel rapporto, in modo che l'immagine non appaia allungata.
 builder.InsertOnlineVideo(videoUrl, RelativeHorizontalPosition.LeftMargin, 0,
     RelativeVerticalPosition.TopMargin, 0, 320, 180, WrapType.Square);
@@ -148,11 +148,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
@@ -164,7 +164,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" larghezza=\"640\" altezza=\"360\" frameborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -173,7 +173,7 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Di seguito sono riportati due modi per creare una forma con una miniatura personalizzata, che si collega a un video online
+        // Di seguito sono riportati due modi per creare una forma con una miniatura personalizzata, che collega a un video online
         // che verrà riprodotto quando si fa clic sulla forma in Microsoft Word.
         // 1 - Inserisci una forma in linea nel cursore di inserimento del nodo del builder:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
@@ -223,15 +223,15 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
 | width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| wrapType | WrapType | Specifica come avvolgere il testo attorno all'immagine. |
+| wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
@@ -243,7 +243,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" larghezza=\"640\" altezza=\"360\" frameborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -252,7 +252,7 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Di seguito sono riportati due modi per creare una forma con una miniatura personalizzata, che si collega a un video online
+        // Di seguito sono riportati due modi per creare una forma con una miniatura personalizzata, che collega a un video online
         // che verrà riprodotto quando si fa clic sulla forma in Microsoft Word.
         // 1 - Inserisci una forma in linea nel cursore di inserimento del nodo del builder:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);

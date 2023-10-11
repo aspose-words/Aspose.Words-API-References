@@ -1,14 +1,14 @@
 ---
 title: Table.Rows
 second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Fornisce laccesso tipizzato alle righe della tabella.
+description: Table proprietà. Fornisce laccesso digitato alle righe della tabella.
 type: docs
 weight: 260
 url: /it/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Fornisce l'accesso tipizzato alle righe della tabella.
+Fornisce l'accesso digitato alle righe della tabella.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -28,17 +28,17 @@ Table firstTable = doc.FirstSection.Body.Tables[0];
 // 2 - Utilizzando il metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe dalla tabella corrente alla successiva.
+// Aggiunge tutte le righe della tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Rimuove il contenitore della tabella vuoto.
+// Rimuove il contenitore della tabella vuota.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -62,7 +62,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

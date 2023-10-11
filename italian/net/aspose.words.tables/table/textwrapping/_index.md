@@ -1,14 +1,14 @@
 ---
 title: Table.TextWrapping
 second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o impostaTextWrapping per la tavola.
+description: Table proprietà. Ottiene o impostaTextWrapping per tavolo.
 type: docs
 weight: 310
 url: /it/net/aspose.words.tables/table/textwrapping/
 ---
 ## Table.TextWrapping property
 
-Ottiene o imposta`TextWrapping` per la tavola.
+Ottiene o imposta`TextWrapping` per tavolo.
 
 ```csharp
 public TextWrapping TextWrapping { get; set; }
@@ -16,7 +16,7 @@ public TextWrapping TextWrapping { get; set; }
 
 ### Esempi
 
-Mostra come lavorare con il ritorno a capo del testo della tabella.
+Mostra come utilizzare la disposizione del testo della tabella.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Imposta la proprietà "TextWrapping" su "TextWrapping.Around" per fare in modo che la tabella disponga del testo attorno ad essa,
-// e spingilo verso il basso nel paragrafo sottostante impostando la posizione.
+// Imposta la proprietà "TextWrapping" su "TextWrapping.Around" per fare in modo che la tabella avvolga il testo attorno ad essa,
+// e spingilo nel paragrafo seguente impostando la posizione.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

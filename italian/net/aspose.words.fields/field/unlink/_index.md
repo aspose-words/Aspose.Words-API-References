@@ -16,13 +16,13 @@ public bool Unlink()
 
 ### Valore di ritorno
 
-`Vero` se il campo è stato scollegato, altrimenti`falso` .
+`VERO` se il campo è stato scollegato, altrimenti`falso` .
 
 ### Osservazioni
 
 Sostituisce il campo con il risultato più recente.
 
-Alcuni campi, come i campi XE (Index Entry) e SEQ (Sequence), non possono essere scollegati.
+Alcuni campi, come i campi XE (voce indice) e i campi SEQ (sequenza), non possono essere scollegati.
 
 ### Esempi
 

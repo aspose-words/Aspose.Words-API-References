@@ -37,7 +37,7 @@ builder.EndTable();
 table.CellSpacing = 3;
 
 // Imposta la proprietà "AllowCellSpacing" su "true" per abilitare la spaziatura tra le celle
-// con una grandezza uguale al valore della proprietà "CellSpacing", in punti.
+// con una grandezza pari al valore della proprietà "CellSpacing", in punti.
 // Imposta la proprietà "AllowCellSpacing" su "false" per disabilitare la spaziatura delle celle
 // e ignora il valore della proprietà "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;

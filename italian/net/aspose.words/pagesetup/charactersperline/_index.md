@@ -16,13 +16,13 @@ public int CharactersPerLine { get; set; }
 
 ### Osservazioni
 
-Il valore minimo della proprietà è 1. Il valore massimo dipende dalla larghezza della pagina e dalla dimensione del carattere dello stile Normal . Il passo minimo dei caratteri è il 90 percento della dimensione del carattere. Ad esempio, il numero massimo di caratteri per riga di una pagina Lettera con margini di un pollice è 43.
+Il valore minimo della proprietà è 1. Il valore massimo dipende dalla larghezza della pagina e dalla dimensione del carattere dello stile Normal . La spaziatura minima del carattere è pari al 90% della dimensione del carattere. Ad esempio, il numero massimo di caratteri per riga di una pagina di lettere con margini di un pollice è 43.
 
-Per impostazione predefinita, la proprietà ha un valore, in cui il passo dei caratteri è uguale alla dimensione del carattere dello stile Normal .
+Per impostazione predefinita, la proprietà ha un valore in base al quale la spaziatura del carattere è uguale alla dimensione del carattere dello stile Normal .
 
 ### Esempi
 
-Mostra come specificare a per il numero di caratteri che ciascuna riga può avere.
+Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
 
 ```csharp
 Document doc = new Document();

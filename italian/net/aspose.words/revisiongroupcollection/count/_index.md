@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni su un gruppo di revisioni in un documento.
+Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

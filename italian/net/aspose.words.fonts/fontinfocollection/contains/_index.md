@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.Contains
 second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection metodo. Determina se la raccolta contiene un font con il nome specificato.
+description: FontInfoCollection metodo. Determina se la raccolta contiene un carattere con il nome specificato.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fonts/fontinfocollection/contains/
 ---
 ## FontInfoCollection.Contains method
 
-Determina se la raccolta contiene un font con il nome specificato.
+Determina se la raccolta contiene un carattere con il nome specificato.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Nome senza distinzione tra maiuscole e minuscole del carattere da individuare. |
+| name | String | Nome del carattere da individuare senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-Vero se l'articolo si trova nella collezione; altrimenti falso.
+`VERO` se l'oggetto si trova nella collezione; Altrimenti,`falso`.
 
 ### Esempi
 
@@ -30,7 +30,7 @@ Mostra informazioni sui caratteri presenti nel documento vuoto.
 Document doc = new Document();
 
 // Un documento vuoto contiene 3 caratteri predefiniti. Ogni carattere nel documento
-// avrà un oggetto FontInfo corrispondente che contiene i dettagli su quel font.
+// avrà un oggetto FontInfo corrispondente che contiene dettagli su quel carattere.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

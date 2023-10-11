@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataRow
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldDatabaseDataRow classe. Fornisce i dati per ilFieldDatabase risultato campo.
+description: Aspose.Words.Fields.FieldDatabaseDataRow classe. Fornisce i dati per ilFieldDatabase risultato sul campo. Perfavore guardaDataRow istanza.
 type: docs
-weight: 1600
+weight: 1750
 url: /it/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Fornisce i dati per il[`FieldDatabase`](../fielddatabase/) risultato campo.
+Fornisce i dati per il[`FieldDatabase`](../fielddatabase/) risultato sul campo. Perfavore guardaDataRow istanza.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class FieldDatabaseDataRow

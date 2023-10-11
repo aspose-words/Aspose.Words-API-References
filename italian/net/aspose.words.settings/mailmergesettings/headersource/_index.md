@@ -19,7 +19,7 @@ public string HeaderSource { get; set; }
 Mostra come costruire un'origine dati per una stampa unione da un'origine intestazione e un'origine dati.
 
 ```csharp
-// Crea un file di intestazione di unione delle etichette postali, che sarà costituito da una tabella con una riga.
+// Crea un file di intestazione di unione delle etichette postali, che consisterà in una tabella con una riga.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -33,7 +33,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
 // Crea un file di dati di unione di etichette postali costituito da una tabella con una riga
-// e lo stesso numero di colonne della tabella del documento di intestazione. 
+ // e lo stesso numero di colonne della tabella dell'intestazione del documento.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -46,8 +46,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Crea un documento di destinazione di unione con MERGEFIELDS con nomi che
-// abbina i nomi delle colonne nella tabella dei file di intestazione di unione.
+// Crea un documento di destinazione dell'unione con MERGEFIELDS con i nomi that
+// abbina i nomi delle colonne nella tabella del file di intestazione dell'unione.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -58,15 +58,15 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Costruisci un'origine dati per la nostra stampa unione specificando due nomi di file di documenti.
+// Costruisce un'origine dati per la nostra stampa unione specificando due nomi di file di documento.
 // L'origine dell'intestazione nominerà le colonne della tabella dell'origine dati.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// L'origine dati fornirà righe di dati per tutte le colonne nella tabella del documento di intestazione.
+// L'origine dati fornirà righe di dati per tutte le colonne nella tabella dei documenti dell'intestazione.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Configura un tipo di etichetta postale per la stampa unione, che verrà eseguita da Microsoft Word
-// non appena lo usiamo per caricare il documento di output.
+// Configura una stampa unione di tipo etichetta postale, che verrà eseguita da Microsoft Word
+// non appena lo utilizziamo per caricare il documento di output.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;
 settings.DataType = MailMergeDataType.TextFile;

@@ -16,18 +16,18 @@ public int LocaleId { get; set; }
 
 ### Osservazioni
 
-Per l'elenco degli identificatori di locale, vedere https://msdn.microsoft.com/en-us/library/cc233965.aspx
+Per l'elenco degli identificatori locali vedere https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### Esempi
 
-Mostra come impostare la localizzazione del testo che stiamo aggiungendo con un generatore di documenti.
+Mostra come impostare la lingua del testo che stiamo aggiungendo con un generatore di documenti.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se impostiamo la lingua del carattere su inglese e inseriamo del testo russo,
-// il correttore ortografico della lingua inglese non riconoscerà il testo e lo rileverà come un errore di ortografia.
+// Se impostiamo la locale del carattere su inglese e inseriamo del testo in russo,
+// il controllo ortografico locale inglese non riconoscerà il testo e lo rileverà come un errore di ortografia.
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 builder.Writeln("Привет!");
 

@@ -16,7 +16,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ### Osservazioni
 
-Se il valore di questa proprietà viene modificato e il layout di pagina è già creato, allora [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) viene richiamato automaticamente per aggiornare eventuali modifiche.
+Se il valore di questa proprietà viene modificato e il layout della pagina è già creato, allora [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) viene richiamato automaticamente per aggiornare eventuali modifiche.
 
 ### Esempi
 
@@ -30,17 +30,17 @@ builder.Font.LocaleId = new CultureInfo("ar-AR").LCID;
 builder.Writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "NumeralFormat" su "NmeralFormat.ArabicIndic" su
-// usa i glifi dall'intervallo U+0660 a U+0669 come numeri.
-// Imposta la proprietà "NmeralFormat" su "NmeralFormat.Context" su
-// cerca la localizzazione per determinare il numero di glifi da usare.
+// Imposta la proprietà "NumeralFormat" su "NumeralFormat.ArabicIndic" su
+// usa i glifi dall'intervallo da U+0660 a U+0669 come numeri.
+// Imposta la proprietà "NumeralFormat" su "NumeralFormat.Context" su
+// cerca la locale per determinare quale numero di glifi utilizzare.
 // Imposta la proprietà "NumeralFormat" su "NumeralFormat.EasternArabicIndic" su
-// usa i glifi dall'intervallo U+06F0 a U+06F9 come numeri.
-// Imposta la proprietà "NumeralFormat" su "NmeralFormat.European" per utilizzare i numeri europei.
-// Impostare la proprietà "NmeralFormat" su "NmeralFormat.System" per determinare il set di simboli dalle impostazioni internazionali.
+// usa i glifi dall'intervallo da U+06F0 a U+06F9 come numeri.
+// Imposta la proprietà "NumeralFormat" su "NumeralFormat.European" per utilizzare i numeri europei.
+// Imposta la proprietà "NumeralFormat" su "NumeralFormat.System" per determinare il set di simboli dalle impostazioni regionali.
 options.NumeralFormat = numeralFormat;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);

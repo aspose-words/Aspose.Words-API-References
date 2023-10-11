@@ -3,7 +3,7 @@ title: Document.UpdateWordCount
 second_title: Aspose.Words per .NET API Reference
 description: Document metodo. Aggiorna le proprietà del conteggio delle parole del documento.
 type: docs
-weight: 770
+weight: 810
 url: /it/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -16,15 +16,15 @@ public void UpdateWordCount()
 
 ### Osservazioni
 
-**Aggiorna Conteggio parole** ricalcola e aggiorna le proprietà di caratteri, parole e paragrafi nel file[`BuiltInDocumentProperties`](../builtindocumentproperties/) raccolta del **Documento**.
+`UpdateWordCount` ricalcola e aggiorna le proprietà Caratteri, Parole e Paragrafi nel file[`BuiltInDocumentProperties`](../builtindocumentproperties/) raccolta del[`Document`](../).
 
-Notare che **Aggiorna Conteggio parole** non aggiorna le proprietà del numero di righe e pagine. Utilizzare il`UpdateWordCount` sovraccaricare e passare il valore True come parametro per farlo.
+Notare che`UpdateWordCount`non aggiorna le proprietà del numero di righe e pagine. Utilizzare il`UpdateWordCount` sovraccaricare e passare`VERO` value come parametro per farlo.
 
 Quando utilizzi una versione di valutazione, anche la filigrana di valutazione verrà inclusa nel conteggio delle parole.
 
 ### Esempi
 
-Mostra come aggiornare tutte le etichette degli elenchi in un documento.
+Mostra come aggiornare tutte le etichette dell'elenco in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-Aggiorna le proprietà di conteggio delle parole del documento, facoltativamente aggiorna[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) proprietà.
+Aggiorna le proprietà del conteggio delle parole del documento, facoltativamente aggiornamenti[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) proprietà.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -74,15 +74,15 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| updateLinesCount | Boolean | Vero se deve essere calcolato il numero di righe nel documento. |
+| updateLinesCount | Boolean | `VERO` se deve essere calcolato il numero di righe del documento. |
 
 ### Osservazioni
 
-Questo metodo ricostruirà il layout di pagina del documento.
+Questo metodo ricostruirà il layout della pagina del documento.
 
 ### Esempi
 
-Mostra come aggiornare tutte le etichette degli elenchi in un documento.
+Mostra come aggiornare tutte le etichette dell'elenco in un documento.
 
 ```csharp
 Document doc = new Document();

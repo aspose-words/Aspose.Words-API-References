@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.GetShapeRenderer
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase metodo. Crea e restituisce un oggetto che può essere utilizzato per rendere questa forma in unimmagine.
+description: ShapeBase metodo. Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in unimmagine.
 type: docs
-weight: 600
+weight: 660
 url: /it/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
 
-Crea e restituisce un oggetto che può essere utilizzato per rendere questa forma in un'immagine.
+Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in un'immagine.
 
 ```csharp
 public ShapeRenderer GetShapeRenderer()
@@ -20,7 +20,7 @@ L'oggetto renderer per questa forma.
 
 ### Osservazioni
 
-Questo metodo invoca semplicemente il[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) costruttore e passa questo oggetto come parametro.
+Questo metodo invoca semplicemente il file[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) costruttore e passa questo oggetto come parametro.
 
 ### Esempi
 
@@ -32,10 +32,10 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// Ci sono 7 forme nel documento, inclusa una forma di gruppo con 2 forme figlio.
-// Rendering di ogni forma in un file immagine nel file system locale
-// ignorando le forme di gruppo poiché non hanno aspetto.
-// Questo produrrà 6 file immagine.
+// Sono presenti 7 forme nel documento, inclusa una forma di gruppo con 2 forme secondarie.
+// Renderemo ogni forma in un file immagine nel file system locale
+// ignorando le forme del gruppo poiché non hanno aspetto.
+// Questo produrrà 6 file di immagine.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {
     ShapeRenderer renderer = shape.GetShapeRenderer();

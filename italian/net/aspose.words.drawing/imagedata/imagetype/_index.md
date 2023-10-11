@@ -1,14 +1,14 @@
 ---
 title: ImageData.ImageType
 second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Ottiene il tipo dellimmagine.
+description: ImageData proprietà. Ottiene il tipo di immagine.
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing/imagedata/imagetype/
 ---
 ## ImageData.ImageType property
 
-Ottiene il tipo dell'immagine.
+Ottiene il tipo di immagine.
 
 ```csharp
 public ImageType ImageType { get; }
@@ -32,8 +32,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine. 
-        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
+        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -16,20 +16,20 @@ public IEnumerator<Node> GetEnumerator()
 
 ### Valore di ritorno
 
-Un IEnumeratore.
+Un IEnumerator.
 
 ### Esempi
 
-Mostra come selezionare determinati nodi usando un'espressione XPath.
+Mostra come selezionare determinati nodi utilizzando un'espressione XPath.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Questa espressione estrarrà tutti i nodi di paragrafo,
+// Questa espressione estrarrà tutti i nodi del paragrafo,
 // che sono discendenti di qualsiasi nodo della tabella nel documento.
 NodeList nodeList = doc.SelectNodes("//Tabella//Paragrafo");
 
-// Scorri l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
+// Scorre l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
@@ -39,10 +39,10 @@ using (IEnumerator<Node> e = nodeList.GetEnumerator())
 // Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Body nel documento.
 nodeList = doc.SelectNodes("//Corpo/Paragrafo");
 
-// Possiamo trattare l'elenco come un array.
+// Possiamo trattare la lista come un array.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Usa SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
+// Utilizza SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
 Node node = doc.SelectSingleNode("//Corpo/Paragrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

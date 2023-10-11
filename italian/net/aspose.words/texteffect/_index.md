@@ -1,14 +1,14 @@
 ---
 title: Enum TextEffect
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TextEffect enum. Effetto animazione per esecuzioni di testo.
+description: Aspose.Words.TextEffect enum. Effetto di animazione per le sequenze di testo.
 type: docs
-weight: 6120
+weight: 6420
 url: /it/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
 
-Effetto animazione per esecuzioni di testo.
+Effetto di animazione per le sequenze di testo.
 
 ```csharp
 public enum TextEffect

@@ -1,14 +1,14 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
 second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Ottiene il formato dello stile numerico personalizzato per questo livello di elenco. Ad esempio a ç ĝ ....
+description: ListLevel proprietà. Ottiene il formato di stile numero personalizzato per questo livello di elenco. Ad esempio a ç ĝ ....
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-Ottiene il formato dello stile numerico personalizzato per questo livello di elenco. Ad esempio: "a, ç, ĝ, ...".
+Ottiene il formato di stile numero personalizzato per questo livello di elenco. Ad esempio: "a, ç, ĝ, ...".
 
 ```csharp
 public string CustomNumberStyleFormat { get; }
@@ -16,7 +16,7 @@ public string CustomNumberStyleFormat { get; }
 
 ### Esempi
 
-Mostra come ottenere il formato per un elenco con lo stile numerico personalizzato.
+Mostra come ottenere il formato di un elenco con lo stile numero personalizzato.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");

@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Aspose.Words per .NET API Reference
-description: HorizontalRuleFormat proprietà. Indica la presenza dellombreggiatura 3D per la riga orizzontale. Se true la riga orizzontale è priva di ombreggiatura 3D e viene utilizzata la tinta unita.
+description: HorizontalRuleFormat proprietà. Indica la presenza di ombreggiatura 3D per il filetto orizzontale. SeVERO il filetto orizzontale è privo di ombreggiatura 3D e viene utilizzato il colore a tinta unita.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Indica la presenza dell'ombreggiatura 3D per la riga orizzontale. Se true, la riga orizzontale è priva di ombreggiatura 3D e viene utilizzata la tinta unita.
+Indica la presenza di ombreggiatura 3D per il filetto orizzontale. Se`VERO` il filetto orizzontale è privo di ombreggiatura 3D e viene utilizzato il colore a tinta unita.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,7 +16,7 @@ public bool NoShade { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è falso.
+Il valore predefinito è`falso`.
 
 ### Esempi
 

@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Esempi
 
-Mostra come impostare la formattazione individuale per le categorie di un istogramma.
+Mostra come impostare la formattazione individuale per le categorie di un grafico a colonne.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina le serie generate di default.
+// Elimina le serie generate predefinite.
 chart.Series.Clear();
 
 // Aggiunta di nuove serie.
@@ -33,7 +33,7 @@ ChartSeries series = chart.Series.Add("Series 1",
     new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
     new double[] { 1, 2, 3, 4 });
 
-// Imposta la formattazione delle colonne.
+// Imposta la formattazione della colonna.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[0].Format.Fill.PresetTextured(PresetTexture.Denim);
 dataPoints[1].Format.Fill.ForeColor = Color.Red;

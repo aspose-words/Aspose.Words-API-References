@@ -1,14 +1,14 @@
 ---
 title: Enum MetafileRenderingMode
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.MetafileRenderingMode enum. Specifica come Aspose.Words deve eseguire il rendering dei metafile WMF ed EMF.
+description: Aspose.Words.Saving.MetafileRenderingMode enum. Specifica come Aspose.Words dovrebbe eseguire il rendering dei metafile WMF ed EMF.
 type: docs
-weight: 5010
+weight: 5290
 url: /it/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
 
-Specifica come Aspose.Words deve eseguire il rendering dei metafile WMF ed EMF.
+Specifica come Aspose.Words dovrebbe eseguire il rendering dei metafile WMF ed EMF.
 
 ```csharp
 public enum MetafileRenderingMode
@@ -18,15 +18,16 @@ public enum MetafileRenderingMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words tenta di eseguire il rendering di un metafile come grafica vettoriale. Se Aspose.Words non può eseguire correttamente il rendering di alcuni dei record del metafile in grafica vettoriale, Aspose.Words esegue il rendering di questo metafile in una bitmap. |
+| VectorWithFallback | `0` | Aspose.Words tenta di eseguire il rendering di un metafile come grafica vettoriale. Se Aspose.Words non riesce a eseguire correttamente il rendering di alcuni dei record del metafile in grafica vettoriale, Aspose.Words esegue il rendering di questo metafile in una bitmap. |
 | Vector | `1` | Aspose.Words esegue il rendering di un metafile come grafica vettoriale. |
-| Bitmap | `2` | Aspose.Words richiama GDI+ per eseguire il rendering di un metafile in una bitmap e quindi salva la bitmap nel documento di output. |
+| Bitmap | `2` | Aspose.Words invoca GDI+ per eseguire il rendering di un metafile in una bitmap e quindi salva la bitmap nel documento di output. |
 
 ### Esempi
 
-Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo di avvisi sui record di metafile non supportati.
+Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -40,7 +41,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-    // per modificare il modo in cui quel metodo converte il documento in .PDF e applica la configurazione
+    // per modificare il modo in cui il metodo converte il documento in .PDF e applica la configurazione
     // nel nostro oggetto MetafileRenderingOptions all'operazione di salvataggio.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -51,7 +52,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

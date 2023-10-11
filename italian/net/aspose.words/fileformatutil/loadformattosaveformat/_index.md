@@ -18,14 +18,14 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | Lancia quando non può convertire. |
+| ArgumentException | Lancia quando non è possibile convertire. |
 
 ### Esempi
 
 Mostra come utilizzare i metodi FileFormatUtil per rilevare il formato di un documento.
 
 ```csharp
-// Carica un documento da un file a cui manca un'estensione, quindi rileva il formato del file.
+// Carica un documento da un file a cui manca un'estensione di file, quindi rileva il formato del file.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -34,14 +34,14 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
     // Di seguito sono riportati due metodi per convertire un LoadFormat nel corrispondente SaveFormat.
-    // 1 - Ottieni la stringa di estensione del file per LoadFormat, quindi ottieni il corrispondente SaveFormat da quella stringa:
+    // 1 - Ottieni la stringa dell'estensione del file per LoadFormat, quindi ottieni il corrispondente SaveFormat da quella stringa:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - Converti LoadFormat direttamente nel suo SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Carica un documento dallo stream, quindi salvalo con l'estensione file rilevata automaticamente.
+    // Carica un documento dallo stream, quindi salvalo nell'estensione di file rilevata automaticamente.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

@@ -1,14 +1,14 @@
 ---
 title: Shape.TextBox
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Definisce gli attributi che specificano come viene visualizzato il testo in una forma.
+description: Shape proprietà. Definisce gli attributi che specificano come il testo viene visualizzato in una forma.
 type: docs
 weight: 220
 url: /it/net/aspose.words.drawing/shape/textbox/
 ---
 ## Shape.TextBox property
 
-Definisce gli attributi che specificano come viene visualizzato il testo in una forma.
+Definisce gli attributi che specificano come il testo viene visualizzato in una forma.
 
 ```csharp
 public TextBox TextBox { get; }
@@ -25,12 +25,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Sposta il generatore di documenti all'interno del TextBox e aggiungi del testo.
+// Sposta il generatore di documenti all'interno del TextBox e aggiungi testo.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto del testo di questa casella di testo.
+// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto di testo di questa casella di testo.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

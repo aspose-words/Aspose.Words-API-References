@@ -3,7 +3,7 @@ title: ShapeBase.HRef
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene o imposta lindirizzo completo del collegamento ipertestuale per una forma.
 type: docs
-weight: 220
+weight: 230
 url: /it/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -22,15 +22,15 @@ Di seguito sono riportati esempi di valori validi per questa proprietà:
 
 URI completo:`https://www.aspose.com/`.
 
-Nome file completo:`C:\\Documenti\\SalesReport.doc`.
+Nome completo del file:`C:\\Documenti\\RapportoVendite.doc`.
 
 URI relativo:`../../../risorsa.txt`
 
-Nome file relativo:`..\\Documenti\\SalesReport.doc`.
+Nome file relativo:`..\\Documenti\\RapportoVendite.doc`.
 
 Segnalibro all'interno di un altro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Segnalibro all'interno di questo documento:`#NomeSegnalibro`.
+Segnalibro all'interno di questo documento:`#NomeLibro`.
 
 ### Esempi
 
@@ -45,7 +45,7 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + clic sinistro sulla forma in Microsoft Word aprirà una nuova finestra del browser web
+// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
 // e portaci al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```

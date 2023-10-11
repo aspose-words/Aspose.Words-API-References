@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
 second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Consente di controllare come vengono caricate le risorse esterne immagini fogli di stile quando un documento viene importato da HTML MHTML.
+description: LoadOptions proprietà. Permette di controllare come vengono caricate le risorse esterne immagini fogli di stile quando un documento viene importato da HTML MHTML.
 type: docs
 weight: 140
 url: /it/net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-Consente di controllare come vengono caricate le risorse esterne (immagini, fogli di stile) quando un documento viene importato da HTML, MHTML.
+Permette di controllare come vengono caricate le risorse esterne (immagini, fogli di stile) quando un documento viene importato da HTML, MHTML.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -19,11 +19,12 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 Mostra come gestire le risorse esterne durante il caricamento di documenti HTML.
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // Quando carichiamo il documento, il nostro callback gestirà le risorse collegate come fogli di stile CSS e immagini.
+    // Quando carichiamo il documento, la nostra callback gestirà le risorse collegate come fogli di stile CSS e immagini.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }

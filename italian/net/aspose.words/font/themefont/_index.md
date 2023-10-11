@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFont
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il font del tema nello schema di font applicato associato a questo oggetto Font.
+description: Font proprietà. Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questoFont oggetto.
 type: docs
 weight: 470
 url: /it/net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
 
-Ottiene o imposta il font del tema nello schema di font applicato associato a questo oggetto Font.
+Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questo[`Font`](../) oggetto.
 
 ```csharp
 public ThemeFont ThemeFont { get; set; }
@@ -16,7 +16,7 @@ public ThemeFont ThemeFont { get; set; }
 
 ### Esempi
 
-Mostra come creare e utilizzare uno stile a tema.
+Mostra come creare e utilizzare lo stile a tema.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Mostra come lavorare con i caratteri e i colori del tema.
 ```csharp
 Document doc = new Document();
 
-// Definisci i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -69,7 +69,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarli font e colore.
+// Esistono diversi modi per reimpostarne il carattere e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -92,7 +92,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di caratteri/colori non tematici:
+// 2 - Impostando nomi di font/colori non legati al tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

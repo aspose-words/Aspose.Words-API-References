@@ -1,14 +1,14 @@
 ---
 title: Border.Equals
 second_title: Aspose.Words per .NET API Reference
-description: Border metodo. Determina se il bordo specificato è uguale in valore al bordo corrente.
+description: Border metodo. Determina se il bordo specificato ha un valore uguale al bordo corrente.
 type: docs
-weight: 80
+weight: 100
 url: /it/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
 
-Determina se il bordo specificato è uguale in valore al bordo corrente.
+Determina se il bordo specificato ha un valore uguale al bordo corrente.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // questi paragrafi, le loro raccolte di bordi condividono gli stessi elementi.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -41,13 +40,13 @@ foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
 // Dopo aver modificato lo stile della linea dei bordi solo nel secondo paragrafo,
-// le raccolte di bordi non condividono più gli stessi elementi.
+// le raccolte border non condividono più gli stessi elementi.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // La modifica dell'aspetto di un bordo vuoto lo rende visibile.
+    // Cambiare l'aspetto di un bordo vuoto lo rende visibile.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -64,7 +63,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(object) {#equals_1}
 
-Determina se l'oggetto specificato è uguale in valore all'oggetto corrente.
+Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente.
 
 ```csharp
 public override bool Equals(object obj)
@@ -85,7 +84,6 @@ builder.Write("Paragraph 2.");
 // questi paragrafi, le loro raccolte di bordi condividono gli stessi elementi.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -97,13 +95,13 @@ foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
 // Dopo aver modificato lo stile della linea dei bordi solo nel secondo paragrafo,
-// le raccolte di bordi non condividono più gli stessi elementi.
+// le raccolte border non condividono più gli stessi elementi.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // La modifica dell'aspetto di un bordo vuoto lo rende visibile.
+    // Cambiare l'aspetto di un bordo vuoto lo rende visibile.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

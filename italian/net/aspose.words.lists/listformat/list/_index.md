@@ -1,14 +1,14 @@
 ---
 title: ListFormat.List
 second_title: Aspose.Words per .NET API Reference
-description: ListFormat proprietà. Ottiene o imposta lelenco di cui è membro questo paragrafo.
+description: ListFormat proprietà. Ottiene o imposta lelenco di cui questo paragrafo è membro.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listformat/list/
 ---
 ## ListFormat.List property
 
-Ottiene o imposta l'elenco di cui è membro questo paragrafo.
+Ottiene o imposta l'elenco di cui questo paragrafo è membro.
 
 ```csharp
 public List List { get; set; }
@@ -16,25 +16,25 @@ public List List { get; set; }
 
 ### Osservazioni
 
-L'elenco assegnato a questa proprietà deve appartenere al documento corrente.
+L'elenco che viene assegnato a questa proprietà deve appartenere al documento corrente.
 
-L'elenco assegnato a questa proprietà non deve essere una definizione di stile elenco.
+L'elenco assegnato a questa proprietà non deve essere una definizione di stile di elenco.
 
-L'impostazione di questa proprietà su null rimuove i punti elenco e la numerazione dal paragrafo e imposta il numero a livello di elenco su zero. L'impostazione di questa proprietà su null equivale alla chiamata[`RemoveNumbers`](../removenumbers/).
+Impostando questa proprietà su`nullo` rimuove i punti elenco e la numerazione dal paragrafo e imposta il numero del livello di elenco su zero. Impostando questa proprietà su`nullo` equivale a chiamare[`RemoveNumbers`](../removenumbers/).
 
 ### Esempi
 
-Mostra come annidare un elenco all'interno di un altro elenco.
+Mostra come nidificare un elenco all'interno di un altro elenco.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco di struttura per le intestazioni.
+// Crea un elenco struttura per le intestazioni.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -58,12 +58,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Torna all'elenco numerato.
+// Ripristina l'elenco numerato.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Torna all'elenco di struttura.
+// Ripristina l'elenco delle strutture.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");
@@ -81,21 +81,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
 // Di seguito sono riportati due tipi di elenchi che possiamo creare utilizzando un generatore di documenti.
 // 1 - Un elenco numerato:
-// Gli elenchi numerati creano un ordine logico per i loro paragrafi numerando ogni elemento.
+// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ciascun elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello dell'elenco
-// per iniziare un sottoelenco autonomo all'elemento dell'elenco corrente.
-// Il modello di elenco di Microsoft Word chiamato "NumberDefault" utilizza i numeri per creare livelli di elenco per il primo livello di elenco.
-// I livelli di elenco più profondi utilizzano lettere e numeri romani minuscoli. 
+// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello della lista
+// per iniziare un sottoelenco autonomo dall'elemento dell'elenco corrente.
+// Il modello di elenco di Microsoft Word denominato "NumberDefault" utilizza i numeri per creare livelli di elenco per il primo livello di elenco.
+ // I livelli di elenco più profondi utilizzano lettere e numeri romani minuscoli.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -103,8 +103,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Un elenco puntato:
-// Questo elenco applicherà un trattino e un simbolo di punto elenco ("•") prima di ogni paragrafo.
-// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "■" e "○".
+// Questo elenco applicherà un rientro e un simbolo di punto elenco ("•") prima di ogni paragrafo.
+// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "***" e "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -113,7 +113,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Possiamo disabilitare la formattazione degli elenchi per non formattare i paragrafi successivi come elenchi deselezionando il flag "Elenco".
+// Possiamo disabilitare la formattazione dell'elenco per non formattare i paragrafi successivi come elenchi deselezionando il flag "Elenco".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

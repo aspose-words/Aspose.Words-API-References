@@ -3,7 +3,7 @@ title: PageSetup.PageWidth
 second_title: Aspose.Words per .NET API Reference
 description: PageSetup proprietà. Restituisce o imposta la larghezza della pagina in punti.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property
@@ -16,7 +16,7 @@ public double PageWidth { get; set; }
 
 ### Esempi
 
-Mostra come inserire un'immagine e usarla come filigrana.
+Mostra come inserire un'immagine e utilizzarla come filigrana.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana (.NetStandard 2.0).
+Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -74,13 +74,13 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configura la proprietà "RelativeHorizontalPosition" della forma per trattare il valore della proprietà "Left"
- // come distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+ // come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Imposta la distanza orizzontale della forma dal lato sinistro della pagina su 100.
 shape.Left = 100;
 
-// Usa la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+// Utilizza la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 

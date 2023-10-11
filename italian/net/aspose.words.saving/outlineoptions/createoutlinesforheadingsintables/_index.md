@@ -1,14 +1,14 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Specifica se creare o meno profili per le intestazioni paragrafi formattati con gli stili di intestazione allinterno delle tabelle.
+description: OutlineOptions proprietà. Specifica se creare o meno i contorni delle intestazioni paragrafi formattati con gli stili Intestazione allinterno delle tabelle.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
 ---
 ## OutlineOptions.CreateOutlinesForHeadingsInTables property
 
-Specifica se creare o meno profili per le intestazioni (paragrafi formattati con gli stili di intestazione) all'interno delle tabelle.
+Specifica se creare o meno i contorni delle intestazioni (paragrafi formattati con gli stili Intestazione) all'interno delle tabelle.
 
 ```csharp
 public bool CreateOutlinesForHeadingsInTables { get; set; }
@@ -16,7 +16,7 @@ public bool CreateOutlinesForHeadingsInTables { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
 ### Esempi
 
@@ -42,19 +42,19 @@ builder.Write("Jane Doe");
 builder.EndTable();
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Il documento PDF di output conterrà uno schema, ovvero un sommario che elenca le intestazioni nel corpo del documento.
-// Cliccando su una voce in questo schema ci porterà alla posizione della rispettiva intestazione.
+// Il documento PDF di output conterrà una struttura, ovvero un sommario che elenca le intestazioni nel corpo del documento.
+// Facendo clic su una voce in questo schema ci porterà alla posizione della rispettiva intestazione.
 // Imposta la proprietà "HeadingsOutlineLevels" su "1" per ottenere la struttura
-// per registrare solo le intestazioni con livelli di intestazione non maggiori di 1.
+// per registrare solo le intestazioni con livelli di intestazione non superiori a 1.
 pdfSaveOptions.OutlineOptions.HeadingsOutlineLevels = 1;
 
 // Imposta la proprietà "CreateOutlinesForHeadingsInTables" su "false" per escludere tutte le intestazioni all'interno delle tabelle,
 // come quello che abbiamo creato sopra dallo schema.
 // Imposta la proprietà "CreateOutlinesForHeadingsInTables" su "true" per includere tutte le intestazioni all'interno delle tabelle
-// nella struttura, a condizione che dispongano di un livello di intestazione non maggiore del valore della proprietà "HeadingsOutlineLevels".
+// nella struttura, a condizione che abbiano un livello di intestazione non maggiore del valore della proprietà "HeadingsOutlineLevels".
 pdfSaveOptions.OutlineOptions.CreateOutlinesForHeadingsInTables = createOutlinesForHeadingsInTables;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOptions);

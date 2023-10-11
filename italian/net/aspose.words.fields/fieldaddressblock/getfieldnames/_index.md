@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.GetFieldNames
 second_title: Aspose.Words per .NET API Reference
-description: FieldAddressBlock metodo. Restituisce una raccolta di nomi di campi stampa unione utilizzati dal campo.
+description: FieldAddressBlock metodo. Restituisce una raccolta di nomi di campi di stampa unione utilizzati dal campo.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
 ## FieldAddressBlock.GetFieldNames method
 
-Restituisce una raccolta di nomi di campi stampa unione utilizzati dal campo.
+Restituisce una raccolta di nomi di campi di stampa unione utilizzati dal campo.
 
 ```csharp
 public string[] GetFieldNames()

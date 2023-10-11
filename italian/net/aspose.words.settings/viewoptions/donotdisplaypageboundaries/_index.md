@@ -35,8 +35,8 @@ builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// Questo documento contiene una piccola quantità di contenuto che occupa poche pagine intere di spazio.
-// Imposta il flag "DoNotDisplayPageBoundaries" su "true" per far sì che le versioni precedenti di Microsoft Word omettano le intestazioni,
+// Questo documento contiene una piccola quantità di contenuto che occupa alcune pagine intere di spazio.
+// Imposta il flag "DoNotDisplayPageBoundaries" su "true" per fare in modo che le versioni precedenti di Microsoft Word omettano le intestazioni,
 // piè di pagina e gran parte dello spazio bianco verticale durante la visualizzazione del nostro documento.
 // Imposta il flag "DoNotDisplayPageBoundaries" su "false" per ottenere versioni precedenti di Microsoft Word
 // per visualizzare normalmente il nostro documento.

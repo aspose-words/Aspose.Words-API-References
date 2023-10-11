@@ -3,7 +3,7 @@ title: Interface IChartDataPoint
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaccia. Contiene le proprietà di un singolo punto dati sul grafico.
 type: docs
-weight: 770
+weight: 900
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -18,17 +18,16 @@ public interface IChartDataPoint
 
 | Nome | Descrizione |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Specifica se alle bolle nel Grafico a bolle deve essere applicato un effetto 3D. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Specifica la quantità di spostamento del punto dati dal centro della torta. Può essere negativo, negativo significa che la proprietà non è impostata e non deve essere applicata alcuna esplosione. Si applica solo ai grafici a torta. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Specifica se l'elemento padre deve invertire i suoi colori se il valore è negativo. |
-| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Specifica un indicatore di dati. Il marker viene creato automaticamente quando richiesto. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Specifica di quanto il punto dati deve essere spostato dal centro della torta. Può essere negativo, negativo significa che la proprietà non è impostata e non deve essere applicata alcuna esplosione. Si applica solo ai grafici a torta. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Specifica se l'elemento genitore deve invertire i suoi colori se il valore è negativo. |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto. |
 
 ### Esempi
 
-Mostra come lavorare con i punti dati su un grafico a linee.
+Mostra come utilizzare i punti dati su un grafico a linee.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -46,10 +45,10 @@ public void ChartDataPoint()
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appiana la linea che rappresenta la prima serie di dati.
+    // Appianare la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
+    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -61,7 +60,7 @@ public void ChartDataPoint()
     // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Possiamo anche rimuovere un'intera serie di punti dati contemporaneamente.
+    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

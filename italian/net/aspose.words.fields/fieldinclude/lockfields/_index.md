@@ -22,7 +22,7 @@ Mostra come creare un campo INCLUDE e impostarne le proprietà.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Possiamo usare un campo INCLUDE per importare una parte di un altro documento nel file system locale.
+// Possiamo utilizzare un campo INCLUDE per importare una porzione di un altro documento nel file system locale.
 // Il segnalibro dell'altro documento a cui facciamo riferimento con questo campo contiene questa parte importata.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";

@@ -16,7 +16,7 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ### Esempi
 
-Mostra come specificare a per il numero di caratteri che ciascuna riga può avere.
+Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Mostra come specificare un limite per il numero di righe che ciascuna pagina può avere.
+Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Abilita il pitching, quindi utilizzalo per impostare il numero di righe per pagina in questa sezione.
-// Una dimensione del carattere sufficientemente grande spingerà alcune righe nella pagina successiva per evitare la sovrapposizione dei caratteri.
+// Una dimensione del carattere sufficientemente grande spingerà alcune righe verso il basso nella pagina successiva per evitare la sovrapposizione dei caratteri.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

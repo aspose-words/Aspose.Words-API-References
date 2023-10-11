@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Placeholder
 second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag proprietà. Ottiene ilBuildingBlock contenente testo segnaposto che dovrebbe essere visualizzato quando il contenuto di questa esecuzione SDT è vuoto lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText elemento è vero.
+description: IStructuredDocumentTag proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che deve essere visualizzato quando i contenuti dellesecuzione di questo SDT sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText lelemento è vero.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/istructureddocumenttag/placeholder/
 ---
 ## IStructuredDocumentTag.Placeholder property
 
-Ottiene il[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenente testo segnaposto che dovrebbe essere visualizzato quando il contenuto di questa esecuzione SDT è vuoto, l'elemento XML mappato associato è vuoto come specificato tramite[`XmlMapping`](../xmlmapping/) element o il[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) elemento è vero.
+Ottiene il file[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)contenente testo segnaposto che deve essere visualizzato quando i contenuti dell'esecuzione di questo SDT sono vuoti, l'elemento XML mappato associato è vuoto come specificato tramite[`XmlMapping`](../xmlmapping/) element o il[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) l'elemento è vero.
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### Osservazioni
 
-Può essere nullo, il che significa che il segnaposto non è applicabile a questo Sdt.
+Può essere nullo, il che significa che il segnaposto non è applicabile per questo Sdt.
 
 ### Guarda anche
 

@@ -3,7 +3,7 @@ title: Section.DeleteHeaderFooterShapes
 second_title: Aspose.Words per .NET API Reference
 description: Section metodo. Elimina tutte le forme oggetti di disegno dalle intestazioni e dai piè di pagina di questa sezione.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -33,7 +33,7 @@ builder.InsertImage(ImageDir + "Logo Icon.ico");
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// Rimuovi tutte le forme dalle intestazioni e dai piè di pagina nella prima sezione.
+// Rimuove tutte le forme dalle intestazioni e dai piè di pagina nella prima sezione.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

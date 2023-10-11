@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.DeletedTextEffect
 second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Consente di specificare leffetto da applicare al contenuto eliminatoDeletion . Il valore predefinito èStrikeThrough
+description: RevisionOptions proprietà. Permette di specificare leffetto da applicare al contenuto eliminatoDeletion . Il valore predefinito èStrikeThrough
 type: docs
 weight: 30
 url: /it/net/aspose.words.layout/revisionoptions/deletedtexteffect/
 ---
 ## RevisionOptions.DeletedTextEffect property
 
-Consente di specificare l'effetto da applicare al contenuto eliminatoDeletion . Il valore predefinito èStrikeThrough
+Permette di specificare l'effetto da applicare al contenuto eliminatoDeletion . Il valore predefinito èStrikeThrough
 
 ```csharp
 public RevisionTextEffect DeletedTextEffect { get; set; }
@@ -21,27 +21,27 @@ Mostra come modificare l'aspetto delle revisioni.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Ottieni l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
+// Ottiene l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Rendi le revisioni dell'inserimento in verde e corsivo.
+// Visualizza le revisioni dell'inserimento in verde e corsivo.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Visualizza le revisioni dell'eliminazione in rosso e in grassetto.
+// Visualizza le revisioni di eliminazione in rosso e in grassetto.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Lo stesso testo apparirà due volte in una revisione del movimento:
 // una volta al punto di partenza e una volta alla destinazione di arrivo.
-// Rende giallo il testo della revisione da cui è stato spostato con un doppio barrato
-// e doppia sottolineatura blu alla revisione spostata.
+// Rende il testo della revisione spostata in giallo con un doppio barrato
+// e doppia sottolineatura in blu nella revisione spostata.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Rendering delle revisioni del formato in rosso scuro e grassetto.
+// Rende le revisioni del formato in rosso scuro e grassetto.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
@@ -49,11 +49,11 @@ revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Mostra segni di revisione e testo originale.
+// Mostra i segni di revisione e il testo originale.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Ottieni movimenti, eliminazioni, revisioni di formattazione e commenti da visualizzare in fumetti verdi
+// Ottieni movimento, eliminazione, revisioni di formattazione e commenti da visualizzare in fumetti verdi
 // sul lato destro della pagina.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

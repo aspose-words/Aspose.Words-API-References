@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToParagraph
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un paragrafo nella sezione corrente.
+description: DocumentBuilder metodo. Sposta il cursore su un paragrafo della sezione corrente.
 type: docs
-weight: 540
+weight: 570
 url: /it/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
 
-Sposta il cursore su un paragrafo nella sezione corrente.
+Sposta il cursore su un paragrafo della sezione corrente.
 
 ```csharp
 public void MoveToParagraph(int paragraphIndex, int characterIndex)
@@ -16,18 +16,18 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| paragraphIndex | Int32 | Indice del paragrafo in cui spostarsi. |
-| characterIndex | Int32 | L'indice del carattere all'interno del paragrafo. Un valore negativo consente di specificare una posizione dalla fine del paragrafo. Utilizzare -1 per spostarsi alla fine di il paragrafo. |
+| paragraphIndex | Int32 | L'indice del paragrafo a cui spostarsi. |
+| characterIndex | Int32 | L'indice del carattere all'interno del paragrafo. Un valore negativo consente di specificare una posizione dalla fine del paragrafo. Usa -1 per spostarti alla fine di il paragrafo. |
 
 ### Osservazioni
 
-La navigazione viene eseguita all'interno della storia corrente della sezione corrente. Cioè, se hai spostato il cursore sull'intestazione principale della prima sezione, allora paragrafoIndice ha specificato l'indice del paragrafo all'interno di quell'intestazione di quella sezione.
+La navigazione viene eseguita all'interno della storia corrente della sezione corrente. Cioè, se hai spostato il cursore sull'intestazione principale della prima sezione, allora*paragraphIndex*ha specificato l'indice del paragrafo all'interno dell'intestazione di quella sezione.
 
-Quando index è maggiore o uguale a 0, specifica un indice da all'inizio della sezione con 0 come primo paragrafo. Quando l'indice del paragrafo è inferiore a 0, , ha specificato un indice dalla fine della sezione con -1 come ultimo paragrafo.
+Quando*paragraphIndex* è maggiore o uguale a 0, specifica un indice da all'inizio della sezione dove 0 è il primo paragrafo. Quando*paragraphIndex* è inferiore a 0, ha specificato un indice dalla fine della sezione dove -1 è l'ultimo paragrafo.
 
 ### Esempi
 
-Mostra come spostare la posizione del cursore di un builder su un paragrafo specifico.
+Mostra come spostare la posizione del cursore di un generatore su un paragrafo specifico.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -36,7 +36,7 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(22, paragraphs.Count);
 
 // Crea un generatore di documenti per modificare il documento. Il cursore del costruttore,
-// che è il punto in cui inserirà nuovi nodi quando chiamiamo i suoi metodi di costruzione del documento,
+// qual è il punto in cui inserirà i nuovi nodi quando chiameremo i suoi metodi di costruzione del documento,
 // è attualmente all'inizio del documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
 

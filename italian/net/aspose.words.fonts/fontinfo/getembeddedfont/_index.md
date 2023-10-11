@@ -1,14 +1,14 @@
 ---
 title: FontInfo.GetEmbeddedFont
 second_title: Aspose.Words per .NET API Reference
-description: FontInfo metodo. Ottiene un file di font incorporato specifico.
+description: FontInfo metodo. Ottiene un file di caratteri incorporato specifico.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
 ## FontInfo.GetEmbeddedFont method
 
-Ottiene un file di font incorporato specifico.
+Ottiene un file di caratteri incorporato specifico.
 
 ```csharp
 public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style)
@@ -25,7 +25,7 @@ ritorna`nullo`se il carattere specificato non è incorporato.
 
 ### Esempi
 
-Mostra come estrarre un font incorporato da un documento e salvarlo nel file system locale.
+Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -34,7 +34,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// I formati dei caratteri incorporati possono essere diversi in altri formati come .doc.
+// I formati dei caratteri incorporati potrebbero essere diversi in altri formati come .doc.
 // Dobbiamo conoscere il formato corretto prima di poter estrarre il carattere.
 doc = new Document(MyDir + "Embedded font.doc");
 

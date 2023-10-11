@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.LinkSource
 second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty proprietà. Ottiene lorigine di una proprietà di un documento personalizzato collegato.
+description: DocumentProperty proprietà. Ottiene lorigine di una proprietà del documento personalizzato collegato.
 type: docs
 weight: 20
 url: /it/net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property
 
-Ottiene l'origine di una proprietà di un documento personalizzato collegato.
+Ottiene l'origine di una proprietà del documento personalizzato collegato.
 
 ```csharp
 public string LinkSource { get; }

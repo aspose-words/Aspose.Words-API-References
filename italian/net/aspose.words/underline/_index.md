@@ -3,7 +3,7 @@ title: Enum Underline
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Underline enum. Indica il tipo di sottolineatura applicata a un font.
 type: docs
-weight: 6210
+weight: 6510
 url: /it/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -51,11 +51,11 @@ builder.Write("For more information, please visit the ");
 // Il collegamento ipertestuale sarà un pezzo di testo cliccabile che ci porterà alla posizione specificata nell'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falso);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + clic sinistro sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
+// Ctrl + clic con il pulsante sinistro del mouse sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

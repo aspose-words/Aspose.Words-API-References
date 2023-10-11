@@ -21,19 +21,19 @@ Mostra come utilizzare il campo USERADDRESS.
 ```csharp
 Document doc = new Document();
 
-// Crea un oggetto UserInformation e impostalo come fonte di informazioni sull'utente per tutti i campi che creiamo.
+// Crea un oggetto UserInformation e impostalo come origine delle informazioni sull'utente per tutti i campi che creiamo.
 UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Crea un campo USERADDRESS per visualizzare l'indirizzo dell'utente corrente,
-// preso dall'oggetto UserInformation che abbiamo creato sopra.
+// tratto dall'oggetto UserInformation che abbiamo creato sopra.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // Possiamo impostare questa proprietà per fare in modo che il nostro campo sostituisca il valore attualmente memorizzato nell'oggetto UserInformation.
+ // Possiamo impostare questa proprietà per fare in modo che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

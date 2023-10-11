@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertChart
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce un oggetto grafico nel documento e lo ridimensiona alla dimensione specificata.
 type: docs
-weight: 260
+weight: 280
 url: /it/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
@@ -22,11 +22,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -73,19 +74,19 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 | top | Double | Distanza in punti dall'origine al lato superiore dell'immagine. |
 | width | Double | La larghezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
 | height | Double | L'altezza dell'immagine in punti. Può essere un valore negativo o zero per richiedere una scala del 100%. |
-| wrapType | WrapType | Specifica come avvolgere il testo attorno all'immagine. |
+| wrapType | WrapType | Specifica come disporre il testo attorno all'immagine. |
 
 ### Valore di ritorno
 
-Il nodo dell'immagine che è stato appena inserito.
+Il nodo immagine appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
-Mostra come specificare la posizione e l'avvolgimento durante l'inserimento di un grafico.
+Mostra come specificare la posizione e il ritorno a capo durante l'inserimento di un grafico.
 
 ```csharp
 Document doc = new Document();

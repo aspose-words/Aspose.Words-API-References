@@ -3,7 +3,7 @@ title: ShapeBase.Name
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene o imposta il nome della forma opzionale.
 type: docs
-weight: 380
+weight: 400
 url: /it/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 L'impostazione predefinita è una stringa vuota.
 
-Non può essere null, ma può essere una stringa vuota.
+Non può essere`nullo`, ma può essere una stringa vuota.
 
 ### Esempi
 
@@ -32,12 +32,13 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Possiamo accedere al testo alternativo di una forma facendo clic con il pulsante destro del mouse e quindi tramite "Formatta forma" -> "Testo alternativo".
+// Possiamo accedere al testo alternativo di una forma facendo clic con il pulsante destro del mouse su di esso, quindi tramite "Formatta forma automatica" -> "Testo alternativo".
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
 // Salva il documento in HTML, quindi elimina l'immagine collegata che appartiene alla nostra forma.
 // Il browser che sta leggendo il nostro HTML visualizzerà il testo alternativo al posto dell'immagine mancante.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
+File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```
 
 ### Guarda anche

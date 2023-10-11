@@ -16,7 +16,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ### Osservazioni
 
-Questa opzione ha effetto solo sui codici di campo (non ignora i nodi tra FieldSeparator eFieldEnd).
+Questa opzione influisce solo sui codici di campo (non ignora i nodi tra FieldSeparator EFieldEnd).
 
 Per ignorare l'intero campo, utilizzare l'opzione corrispondente[`IgnoreFields`](../ignorefields/).
 
@@ -32,7 +32,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// Sostituisci 'T' nel documento ignorando o meno il testo all'interno del codice campo.
+// Sostituisci 'T' nel documento ignorando o meno il testo all'interno del codice di campo.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

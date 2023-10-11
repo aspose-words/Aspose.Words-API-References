@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo del Corpo testo principale racconto di a Sezione  falso altrimenti.
+description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo delBody storia del testo principale di aSection  falso altrimenti.
 type: docs
 weight: 80
 url: /it/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Vero se questo paragrafo è l'ultimo paragrafo del **Corpo** (testo principale racconto) di a **Sezione** ; falso altrimenti.
+Vero se questo paragrafo è l'ultimo paragrafo del[`Body`](../../body/) (storia del testo principale) di a[`Section`](../../section/) ; falso altrimenti.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -19,7 +19,6 @@ public bool IsEndOfSection { get; }
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -56,7 +55,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Passa attraverso tutti i nodi a livello di blocco nel corpo della sezione,
-        // quindi clona e inserisci ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
+        // quindi clona e inserisce ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

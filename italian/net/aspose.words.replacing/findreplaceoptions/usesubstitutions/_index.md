@@ -3,7 +3,7 @@ title: FindReplaceOptions.UseSubstitutions
 second_title: Aspose.Words per .NET API Reference
 description: FindReplaceOptions proprietà. Ottiene o imposta un valore booleano che indica se riconoscere e utilizzare le sostituzioni allinterno dei modelli di sostituzione. Il valore predefinito èfalso .
 type: docs
-weight: 160
+weight: 180
 url: /it/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
@@ -16,7 +16,7 @@ public bool UseSubstitutions { get; set; }
 
 ### Osservazioni
 
-Per i dettagli sugli elementi di sostituzione, fare riferimento a: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+Per i dettagli sugli elementi di sostituzione fare riferimento a: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ### Esempi
 
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// L'utilizzo della modalità legacy non supporta molte funzionalità avanzate, quindi è necessario impostarlo su 'false'.
+// L'utilizzo della modalità legacy non supporta molte funzionalità avanzate, quindi è necessario impostarla su "false".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -41,7 +41,7 @@ doc.Range.Replace(regex, @"$2 took money from $1", options);
 Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ```
 
-Mostra come sostituire il testo con le sostituzioni.
+Mostra come sostituire il testo con sostituzioni.
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("John sold a car to Paul.");
 builder.Writeln("Jane sold a house to Joe.");
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta la proprietà "UseSubstitutions" su "true" per ottenere
-// l'operazione trova e sostituisci per riconoscere gli elementi di sostituzione.
+// l'operazione di ricerca e sostituzione per riconoscere gli elementi di sostituzione.
 // Imposta la proprietà "UseSubstitutions" su "false" per ignorare gli elementi di sostituzione.
 options.UseSubstitutions = useSubstitutions;
 

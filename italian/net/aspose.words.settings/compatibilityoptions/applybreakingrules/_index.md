@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Usa le regole di interruzione delle linee legacy etiope e amarico.
+description: CompatibilityOptions proprietà. Utilizza le regole di interruzione della riga legacy in etiope e amarico.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-Usa le regole di interruzione delle linee legacy etiope e amarico.
+Utilizza le regole di interruzione della riga legacy in etiope e amarico.
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

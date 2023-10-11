@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
 second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta se aggiungere i caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39.
+description: FieldDisplayBarcode proprietà. Ottiene o imposta se aggiungere caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 ---
 ## FieldDisplayBarcode.AddStartStopChar property
 
-Ottiene o imposta se aggiungere i caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39.
+Ottiene o imposta se aggiungere caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -16,7 +16,7 @@ public bool AddStartStopChar { get; set; }
 
 ### Esempi
 
-Mostra come inserire un campo DISPLAYBarCODE e impostarne le proprietà.
+Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
 ```csharp
 Document doc = new Document();

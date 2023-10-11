@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ### Osservazioni
 
-Quando è vero, le colonne in questa sezione sono disposte da destra a sinistra.
+Quando`VERO`le colonne di questa sezione sono disposte da destra a sinistra.
 
 ### Esempi
 
@@ -35,9 +35,9 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Imposta la proprietà "Bidi" su "true" per disporre le colonne a partire dal lato destro della pagina.
+// Imposta la proprietà "Bidi" su "true" per disporre le colonne partendo dal lato destro della pagina.
 // L'ordine delle colonne corrisponderà alla direzione del testo da destra a sinistra.
-// Imposta la proprietà "Bidi" su "false" per disporre le colonne a partire dal lato sinistro della pagina.
+// Imposta la proprietà "Bidi" su "false" per disporre le colonne partendo dal lato sinistro della pagina.
 // L'ordine delle colonne corrisponderà alla direzione del testo da sinistra a destra.
 pageSetup.Bidi = reverseColumns;
 

@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: VariableCollection proprietà. Ottiene o imposta una variabile del documento in base al nome senza distinzione tra maiuscole e minuscole. i valori null non sono consentiti come lato destro dellassegnazione e verranno sostituiti da una stringa vuota.
+description: VariableCollection proprietà. Ottiene o imposta una variabile del documento con il nome senza distinzione tra maiuscole e minuscole. nullo i valori non sono consentiti come lato destro dellassegnazione e verranno sostituiti da una stringa vuota.
 type: docs
 weight: 20
 url: /it/net/aspose.words/variablecollection/item/
 ---
 ## VariableCollection indexer (1 of 2)
 
-Ottiene o imposta una variabile del documento in base al nome senza distinzione tra maiuscole e minuscole. i valori null non sono consentiti come lato destro dell'assegnazione e verranno sostituiti da una stringa vuota.
+Ottiene o imposta una variabile del documento con il nome senza distinzione tra maiuscole e minuscole. `nullo` i valori non sono consentiti come lato destro dell'assegnazione e verranno sostituiti da una stringa vuota.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -24,7 +24,7 @@ public string this[string name] { get; set; }
 
 ## VariableCollection indexer (2 of 2)
 
-Ottiene o imposta una variabile del documento in corrispondenza dell'indice specificato. i valori null non sono consentiti come lato destro dell'assegnazione e verranno sostituiti da una stringa vuota.
+Ottiene o imposta una variabile del documento nell'indice specificato. `nullo` i valori non sono consentiti come lato destro dell'assegnazione e verranno sostituiti da una stringa vuota.
 
 ```csharp
 public string this[int index] { get; set; }

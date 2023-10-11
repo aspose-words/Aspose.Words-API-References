@@ -3,7 +3,7 @@ title: Enum MailMergeDestination
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Settings.MailMergeDestination enum. Specifica i possibili risultati che possono essere generati quando viene eseguita una stampa unione su un documento.
 type: docs
-weight: 5530
+weight: 5830
 url: /it/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
@@ -18,10 +18,10 @@ public enum MailMergeDestination
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| NewDocument | `0` | Specifica che le applicazioni di hosting conformi generano nuovi documenti popolando i campi all'interno di un determinato documento con i dati dell'origine dati esterna specificata. |
-| Printer | `1` | Specifica che le applicazioni di hosting conformi devono stampare i documenti risultanti dalla compilazione dei campi all'interno di un determinato documento con dati esterni dall'origine dati esterna specificata. |
-| Email | `2` | Specifica che le applicazioni di hosting conformi devono generare e-mail utilizzando i documenti risultanti da popolando i campi all'interno di un determinato documento con i dati dell'origine dati esterna specificata. |
-| Fax | `4` | Specifica che le applicazioni di hosting conformi devono generare fax utilizzando i documenti risultanti da popolando i campi all'interno di un determinato documento con i dati dell'origine dati esterna specificata. |
+| NewDocument | `0` | Specifica che le applicazioni hosting conformi genereranno nuovi documenti popolando i campi all'interno di un dato documento con i dati provenienti dall'origine dati esterna specificata. |
+| Printer | `1` | Specifica che le applicazioni hosting conformi stamperanno i documenti risultanti dal popolamento dei campi all'interno di un dato documento con dati esterni dall'origine dati esterna specificata. |
+| Email | `2` | Specifica che le applicazioni hosting conformi genereranno email utilizzando i documenti risultanti dal compilando i campi all'interno di un determinato documento con i dati provenienti dall'origine dati esterna specificata. |
+| Fax | `4` | Specifica che le applicazioni hosting conformi genereranno fax utilizzando i documenti risultanti dal compilando i campi all'interno di un determinato documento con i dati provenienti dall'origine dati esterna specificata. |
 | Default | `0` | Uguale aNewDocument valore. |
 
 ### Esempi
@@ -69,7 +69,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

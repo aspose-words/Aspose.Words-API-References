@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
 second_title: Aspose.Words per .NET API Reference
-description: FieldBuilder metodo. Crea e inserisce un campo nel documento prima del nodo inline specificato.
+description: FieldBuilder metodo. Costruisce e inserisce un campo nel documento prima del nodo in linea specificato.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
 ## BuildAndInsert(Inline) {#buildandinsert}
 
-Crea e inserisce un campo nel documento prima del nodo inline specificato.
+Costruisce e inserisce un campo nel documento prima del nodo in linea specificato.
 
 ```csharp
 public Field BuildAndInsert(Inline refNode)
@@ -25,13 +25,13 @@ Mostra come creare e inserire un campo utilizzando un generatore di campi.
 ```csharp
 Document doc = new Document();
 
-// Un modo conveniente per aggiungere contenuto di testo a un documento è con un generatore di documenti.
+// Un modo conveniente per aggiungere contenuto testuale a un documento è utilizzare un generatore di documenti.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// I campi hanno il loro builder, che possiamo usare per costruire un codice di campo pezzo per pezzo.
-// In questo caso, costruiremo un campo CODICE A BARRE che rappresenta un codice postale statunitense,
-// e quindi inserirlo davanti a un Run.
+// I campi hanno il loro costruttore, che possiamo usare per costruire un codice di campo pezzo per pezzo.
+// In questo caso, costruiremo un campo BARCODE che rappresenta un codice postale degli Stati Uniti,
+// e poi inserirlo davanti a Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");
@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 ## BuildAndInsert(Paragraph) {#buildandinsert_1}
 
-Crea e inserisce un campo nel documento fino alla fine del paragrafo specificato.
+Costruisce e inserisce un campo nel documento alla fine del paragrafo specificato.
 
 ```csharp
 public Field BuildAndInsert(Paragraph refNode)
@@ -72,9 +72,9 @@ Mostra come costruire campi utilizzando un generatore di campi e quindi inserirl
 ```csharp
 Document doc = new Document();
 
-// Di seguito sono riportati tre esempi di costruzione di campi eseguiti utilizzando un generatore di campi.
+// Di seguito sono riportati tre esempi di costruzione di campi eseguita utilizzando un generatore di campi.
 // 1 - Campo singolo:
-// Usa un generatore di campi per aggiungere un campo SYMBOL che visualizzi il simbolo ƒ (Florin).
+// Utilizzare un generatore di campi per aggiungere un campo SIMBOLO che visualizzi il simbolo ƒ (Fiorino).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -91,21 +91,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crea un altro builder per un altro campo SYMBOL e inserisci il campo formula
- // che abbiamo creato sopra nel campo SYMBOL come argomento.
+// Crea un altro generatore per un altro campo SIMBOLO e inserisce il campo formula
+ // che abbiamo creato sopra nel campo SIMBOLO come argomento.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Il campo SYMBOL esterno utilizzerà il risultato del campo formula, 174, come argomento,
-// che farà sì che il campo visualizzi il simbolo ® (segno registrato) poiché il suo numero di caratteri è 174.
+// Il campo SIMBOLO esterno utilizzerà il risultato del campo formula, 174, come argomento,
+// che farà sì che il campo visualizzi il simbolo ® (segno registrato) poiché il suo numero di carattere è 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Più campi e argomenti nidificati:
-// Ora useremo un builder per creare un campo IF, che mostra uno dei due valori di stringa personalizzati,
+// 3 - Campi e argomenti multipli nidificati:
+// Ora utilizzeremo un generatore per creare un campo IF, che visualizza uno dei due valori di stringa personalizzati,
 // a seconda del valore vero/falso della sua espressione. Per ottenere un valore vero/falso
-// che determina quale stringa viene visualizzata dal campo SE, il campo SE verificherà l'uguaglianza di due espressioni numeriche.
-// Forniremo le due espressioni sotto forma di campi formula, che annideremo all'interno del campo SE.
+// che determina quale stringa viene visualizzata dal campo IF, il campo IF verificherà l'uguaglianza di due espressioni numeriche.
+// Forniremo le due espressioni sotto forma di campi formula, che annideremo all'interno del campo IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -116,7 +116,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Successivamente, creeremo due argomenti di campo, che fungeranno da stringhe di output vero/falso per il campo SE.
+// Successivamente, creeremo due argomenti di campo, che serviranno come stringhe di output true/false per il campo IF.
 // Questi argomenti riutilizzeranno i valori di output delle nostre espressioni numeriche.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");

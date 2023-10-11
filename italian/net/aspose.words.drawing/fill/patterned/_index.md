@@ -3,7 +3,7 @@ title: Fill.Patterned
 second_title: Aspose.Words per .NET API Reference
 description: Fill metodo. Imposta il riempimento specificato su un motivo.
 type: docs
-weight: 170
+weight: 230
 url: /it/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
@@ -20,7 +20,7 @@ public void Patterned(PatternType patternType)
 
 ### Esempi
 
-Mostra come impostare il motivo per una forma.
+Mostra come impostare il modello per una forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Esistono diversi modi per specificare il riempimento di un motivo.
+// Esistono diversi modi per specificare il riempimento di un pattern.
 // 1 - Applica il motivo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick);
 
@@ -65,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 
 ### Esempi
 
-Mostra come impostare il motivo per una forma.
+Mostra come impostare il modello per una forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -75,7 +75,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Esistono diversi modi per specificare il riempimento di un motivo.
+// Esistono diversi modi per specificare il riempimento di un pattern.
 // 1 - Applica il motivo al riempimento della forma:
 fill.Patterned(PatternType.DiagonalBrick);
 

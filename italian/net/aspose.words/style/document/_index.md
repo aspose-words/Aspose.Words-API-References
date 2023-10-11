@@ -1,14 +1,14 @@
 ---
 title: Style.Document
 second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene il documento proprietario.
+description: Style proprietà. Ottiene il documento del proprietario.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words/style/document/
 ---
 ## Style.Document property
 
-Ottiene il documento proprietario.
+Ottiene il documento del proprietario.
 
 ```csharp
 public DocumentBase Document { get; }

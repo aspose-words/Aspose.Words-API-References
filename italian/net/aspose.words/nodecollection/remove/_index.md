@@ -26,17 +26,17 @@ Mostra come lavorare con una NodeCollection.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi testo al documento inserendo le esecuzioni utilizzando un DocumentBuilder.
+// Aggiungi testo al documento inserendo Runs utilizzando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Ogni chiamata del metodo "Write" crea un nuovo Run,
-// che viene quindi visualizzato nella RunCollection del paragrafo padre.
+// Ogni invocazione del metodo "Write" crea una nuova Run,
+// che verrà quindi visualizzato nella RunCollection del paragrafo principale.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Possiamo anche inserire manualmente un nodo in RunCollection.
+// Possiamo anche inserire manualmente un nodo nella RunCollection.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 

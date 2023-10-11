@@ -1,14 +1,14 @@
 ---
 title: Document.PackageCustomParts
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta la raccolta di parti personalizzate contenuto arbitrario che sono collegate al pacchetto OOXML utilizzando relazioni sconosciute.
+description: Document proprietà. Ottiene o imposta la raccolta di parti personalizzate contenuto arbitrario collegate al pacchetto OOXML utilizzando relazioni sconosciute.
 type: docs
-weight: 290
+weight: 310
 url: /it/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Ottiene o imposta la raccolta di parti personalizzate (contenuto arbitrario) che sono collegate al pacchetto OOXML utilizzando "relazioni sconosciute".
+Ottiene o imposta la raccolta di parti personalizzate (contenuto arbitrario) collegate al pacchetto OOXML utilizzando "relazioni sconosciute".
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -16,11 +16,11 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ### Osservazioni
 
-Non confondere queste parti personalizzate con i dati XML personalizzati. Se devi accedere a parti XML personalizzate, usa il file[`CustomXmlParts`](../customxmlparts/) proprietà.
+Non confondere queste parti personalizzate con i dati XML personalizzati. Se devi accedere a parti XML personalizzate, utilizza il file[`CustomXmlParts`](../customxmlparts/) proprietà.
 
-Questa raccolta contiene parti OOXML il cui genitore è il pacchetto OOXML e le cui destinazioni sono di una "relazione sconosciuta". Per ulteriori informazioni, vedere[`CustomPart`](../../../aspose.words.markup/custompart/).
+Questa raccolta contiene parti OOXML il cui genitore è il pacchetto OOXML e i cui target hanno una "relazione sconosciuta". Per ulteriori informazioni vedere[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words carica e salva le parti personalizzate solo nei documenti OOXML.
+Aspose.Words carica e salva parti personalizzate solo in documenti OOXML.
 
 Questa proprietà non può essere`nullo`.
 
@@ -55,7 +55,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta singolarmente o tutti in una volta.
+// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

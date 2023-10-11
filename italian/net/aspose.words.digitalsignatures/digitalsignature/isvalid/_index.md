@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Aspose.Words per .NET API Reference
-description: DigitalSignature proprietà. Restituisce vero se questa firma digitale è valida e il documento non è stato manomesso.
+description: DigitalSignature proprietà. RestituisceVERO se questa firma digitale è valida e il documento non è stato manomesso.
 type: docs
 weight: 40
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Restituisce vero se questa firma digitale è valida e il documento non è stato manomesso.
+Restituisce`VERO` se questa firma digitale è valida e il documento non è stato manomesso.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart metodo. Rimuove questo intervallo iniziale e i nodi finali dellintervallo appropriato del tag del documento strutturato ma ne mantiene il contenuto allinterno dellalbero del documento.
+description: StructuredDocumentTagRangeStart metodo. Rimuove questo inizio intervallo e i nodi finali dellintervallo appropriati del tag del documento strutturato ma ne mantiene il contenuto allinterno dellalbero del documento.
 type: docs
 weight: 240
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Rimuove questo intervallo iniziale e i nodi finali dell'intervallo appropriato del tag del documento strutturato, ma ne mantiene il contenuto all'interno dell'albero del documento.
+Rimuove questo inizio intervallo e i nodi finali dell'intervallo appropriati del tag del documento strutturato, ma ne mantiene il contenuto all'interno dell'albero del documento.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -16,9 +16,10 @@ public void RemoveSelfOnly()
 
 ### Esempi
 
-Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenuto.
+Mostra come creare/rimuovere il tag del documento strutturato e il suo contenuto.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenut
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Rimuove il tag del documento strutturato a intervalli, ma mantiene il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervalli, ma mantiene il contenuto all'interno.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenut
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Rimuove il tag del documento strutturato a intervalli e il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervalli e il contenuto all'interno.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

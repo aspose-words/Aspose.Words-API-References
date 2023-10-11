@@ -3,7 +3,7 @@ title: DigitalSignature.SubjectName
 second_title: Aspose.Words per .NET API Reference
 description: DigitalSignature proprietà. Restituisce il nome distinto delloggetto del certificato utilizzato per firmare il documento.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property
@@ -22,7 +22,7 @@ Mostra come firmare documenti con certificati X.509.
 // Verifica che un documento non sia firmato.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crea un oggetto CertificateHolder da un file PKCS12, che useremo per firmare il documento.
+// Crea un oggetto CertificateHolder da un file PKCS12, che utilizzeremo per firmare il documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:

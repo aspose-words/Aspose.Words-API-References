@@ -1,14 +1,14 @@
 ---
 title: VbaModule.Type
 second_title: Aspose.Words per .NET API Reference
-description: VbaModule proprietà. Specifica se il modulo è un modulo procedurale un modulo documento un modulo di classe o un modulo designer.
+description: VbaModule proprietà. Specifica se il modulo è un modulo procedurale un modulo di documento un modulo di classe o un modulo di progettazione.
 type: docs
 weight: 40
 url: /it/net/aspose.words.vba/vbamodule/type/
 ---
 ## VbaModule.Type property
 
-Specifica se il modulo è un modulo procedurale, un modulo documento, un modulo di classe o un modulo designer.
+Specifica se il modulo è un modulo procedurale, un modulo di documento, un modulo di classe o un modulo di progettazione.
 
 ```csharp
 public VbaModuleType Type { get; set; }
@@ -26,7 +26,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Crea un nuovo modulo e specifica un codice sorgente della macro.
+// Crea un nuovo modulo e specifica un codice sorgente macro.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

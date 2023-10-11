@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.Text
 second_title: Aspose.Words per .NET API Reference
-description: RevisionGroup proprietà. Restituisce il testo inserito/cancellato/spostato o la descrizione del cambio formato.
+description: RevisionGroup proprietà. Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato.
 type: docs
 weight: 30
 url: /it/net/aspose.words/revisiongroup/text/
 ---
 ## RevisionGroup.Text property
 
-Restituisce il testo inserito/cancellato/spostato o la descrizione del cambio formato.
+Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato.
 
 ```csharp
 public string Text { get; }
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni su un gruppo di revisioni in un documento.
+Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

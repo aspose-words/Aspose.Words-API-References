@@ -1,14 +1,14 @@
 ---
 title: Document.Compare
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Confronta questo documento con un altro documento che produce modifiche come numero di modifiche e revisioni del formatoRevision .
+description: Document metodo. Confronta questo documento con un altro documento producendo modifiche come numero di modifiche e revisioni del formatoRevision .
 type: docs
-weight: 540
+weight: 580
 url: /it/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-Confronta questo documento con un altro documento che produce modifiche come numero di modifiche e revisioni del formato[`Revision`](../../revision/) .
+Confronta questo documento con un altro documento producendo modifiche come numero di modifiche e revisioni del formato[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -21,11 +21,6 @@ public void Compare(Document document, string author, DateTime dateTime)
 | dateTime | DateTime | La data e l'ora da utilizzare per le revisioni. |
 
 ### Osservazioni
-
-I seguenti nodi del documento non vengono confrontati al momento:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Articolo 3
 
 I documenti non devono avere revisioni prima del confronto.
 
@@ -46,14 +41,15 @@ builder.Writeln("This is the edited document.");
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// Dopo il confronto, il documento originale otterrà una nuova revisione
+// Dopo il confronto, il documento originale riceverà una nuova revisione
 // per ogni elemento diverso nel documento modificato.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// L'accettazione di queste revisioni trasformerà il documento originale nel documento modificato.
+// Accettare queste revisioni trasformerà il documento originale nel documento modificato.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Confronta questo documento con un altro documento che produce modifiche come un numero di revisioni di modifica e formato[`Revision`](../../revision/) . Consente di specificare le opzioni di confronto utilizzando[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Confronta questo documento con un altro documento producendo modifiche come una serie di modifiche e revisioni del formato[`Revision`](../../revision/) . Permette di specificare le opzioni di confronto utilizzando[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -84,7 +80,7 @@ Mostra come filtrare tipi specifici di elementi del documento quando si effettua
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Testo del paragrafo a cui si fa riferimento con una nota di chiusura:
+// Testo del paragrafo referenziato con una nota finale:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -129,8 +125,8 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // Il confronto dei documenti crea una revisione per ogni modifica nel documento modificato.
-// Un oggetto CompareOptions ha una serie di flag che possono sopprimere le revisioni
-// su ogni rispettivo tipo di elemento, ignorando di fatto la loro modifica.
+// Un oggetto CompareOptions dispone di una serie di flag che possono eliminare le revisioni
+// su ciascun rispettivo tipo di elemento, ignorando di fatto la loro modifica.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

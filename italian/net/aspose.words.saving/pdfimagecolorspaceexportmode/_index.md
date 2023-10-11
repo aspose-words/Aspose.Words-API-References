@@ -3,7 +3,7 @@ title: Enum PdfImageColorSpaceExportMode
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.PdfImageColorSpaceExportMode enum. Specifica come verrà selezionato lo spazio colore per le immagini nel documento PDF.
 type: docs
-weight: 5200
+weight: 5480
 url: /it/net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
@@ -18,8 +18,8 @@ public enum PdfImageColorSpaceExportMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Aspose.Words seleziona automaticamente lo spazio colore più appropriato per ogni immagine. |
-| SimpleCmyk | `1` | Aspose.Words converte le immagini RGB nello spazio colore CMYK utilizzando una semplice formula. |
+| Auto | `0` | Aspose.Words seleziona automaticamente lo spazio colore più appropriato per ciascuna immagine. |
+| SimpleCmyk | `1` | Aspose.Words converte le immagini RGB nello spazio colore CMYK utilizzando una formula semplice. |
 
 ### Esempi
 
@@ -36,7 +36,7 @@ builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "ImageColorSpaceExportMode" su "PdfImageColorSpaceExportMode.Auto" per ottenere Aspose.Words su

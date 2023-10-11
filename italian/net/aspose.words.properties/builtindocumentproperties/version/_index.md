@@ -16,14 +16,14 @@ public int Version { get; set; }
 
 ### Osservazioni
 
-Quando un documento è stato creato da Microsoft Word, 16 bit alti rappresentano la versione principale e 16 bit bassi rappresentano il numero di build.
+Quando un documento è stato creato da Microsoft Word, i 16 bit alti rappresentano la versione principale e i 16 bit bassi rappresentano il numero di build.
 
 ### Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

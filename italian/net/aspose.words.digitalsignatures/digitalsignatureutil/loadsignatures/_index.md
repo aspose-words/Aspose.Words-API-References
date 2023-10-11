@@ -20,7 +20,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 ### Valore di ritorno
 
-Raccolta di firme digitali. Restituisce una raccolta vuota se il file non è firmato.
+Raccolta delle firme digitali. Restituisce una raccolta vuota se il file non è firmato.
 
 ### Esempi
 
@@ -28,7 +28,7 @@ Mostra come caricare le firme da un documento firmato digitalmente.
 
 ```csharp
 // Esistono due modi per caricare la raccolta di firme digitali di un documento firmato utilizzando la classe DigitalSignatureUtil.
-// 1 - Carica da un documento da un file system locale nome file:
+// 1 - Carica da un documento da un nome file di file system locale:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
@@ -48,7 +48,7 @@ Mostra come rimuovere le firme digitali da un documento firmato digitalmente.
 ```csharp
 // Esistono due modi per utilizzare la classe DigitalSignatureUtil per rimuovere le firme digitali
 // da un documento firmato salvandone una copia non firmata da qualche altra parte nel file system locale.
-// 1 - Determina le posizioni sia del documento firmato che della copia non firmata in base alle stringhe del nome del file:
+// 1 - Determina le posizioni sia del documento firmato che della copia non firmata in base alle stringhe del nome file:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
@@ -89,7 +89,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 ### Valore di ritorno
 
-Raccolta di firme digitali. Restituisce una raccolta vuota se il file non è firmato.
+Raccolta delle firme digitali. Restituisce una raccolta vuota se il file non è firmato.
 
 ### Esempi
 
@@ -97,7 +97,7 @@ Mostra come caricare le firme da un documento firmato digitalmente.
 
 ```csharp
 // Esistono due modi per caricare la raccolta di firme digitali di un documento firmato utilizzando la classe DigitalSignatureUtil.
-// 1 - Carica da un documento da un file system locale nome file:
+// 1 - Carica da un documento da un nome file di file system locale:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 

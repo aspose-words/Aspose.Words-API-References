@@ -1,14 +1,14 @@
 ---
 title: Document.RenderToScale
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Rendering di una pagina del documento in aGraphics oggetto su una scala specificata.
+description: Document metodo. Rende una pagina del documento in un fileGraphics oggetto su una scala specificata.
 type: docs
-weight: 660
+weight: 700
 url: /it/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-Rendering di una pagina del documento in aGraphics oggetto su una scala specificata.
+Rende una pagina del documento in un fileGraphics oggetto su una scala specificata.
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -16,31 +16,31 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageIndex | Int32 | L'indice della pagina in base 0. |
+| pageIndex | Int32 | L'indice di pagina in base 0. |
 | graphics | Graphics | L'oggetto su cui eseguire il rendering. |
-| x | Single | La coordinata X (in unità mondiali) dell'angolo in alto a sinistra della pagina sottoposta a rendering. |
-| y | Single | La coordinata Y (in unità mondiali) dell'angolo superiore sinistro della pagina sottoposta a rendering. |
-| scale | Single | La scala per il rendering della pagina (1,0 è 100%). |
+| x | Single | La coordinata X (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
+| y | Single | La coordinata Y (in unità mondiali) dell'angolo superiore sinistro della pagina renderizzata. |
+| scale | Single | La scala per il rendering della pagina (1.0 è 100%). |
 
 ### Valore di ritorno
 
-La larghezza e l'altezza (in unità mondiali) della pagina sottoposta a rendering.
+La larghezza e l'altezza (in unità mondiali) della pagina renderizzata.
 
 ### Esempi
 
-Mostra come le singole pagine di un documento alla grafica per creare un'immagine con le miniature di tutte le pagine.
+Mostra come creare graficamente le singole pagine di un documento per creare un'immagine con le miniature di tutte le pagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcola il numero di righe e colonne che andremo a riempire con le miniature.
+// Calcola il numero di righe e colonne che riempiremo con le miniature.
 const int thumbColumns = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
 
 if (remainder > 0)
     thumbRows++;
 
-// Ridimensiona le miniature rispetto alle dimensioni della prima pagina.
+// Ridimensiona le miniature rispetto alla dimensione della prima pagina.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -54,7 +54,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Riempi lo sfondo, che è trasparente per impostazione predefinita, in bianco.
+        // Riempi lo sfondo, che per impostazione predefinita è trasparente, di bianco.
         gr.FillRectangle(new SolidBrush(Color.White), 0, 0, imgWidth, imgHeight);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
@@ -75,19 +75,19 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Rendering di singole pagine in grafica per creare un'immagine con le miniature di tutte le pagine (.NetStandard 2.0).
+Trasforma le singole pagine in grafica per creare un'immagine con le miniature di tutte le pagine (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcola il numero di righe e colonne che andremo a riempire con le miniature.
+// Calcola il numero di righe e colonne che riempiremo con le miniature.
 const int thumbnailColumnsNum = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
 
 if (remainder > 0)
     thumbRows++;
 
- // Ridimensiona le miniature rispetto alle dimensioni della prima pagina.
+ // Ridimensiona le miniature rispetto alla dimensione della prima pagina.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -99,7 +99,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Riempi lo sfondo, che è trasparente per impostazione predefinita, in bianco.
+        // Riempi lo sfondo, che per impostazione predefinita è trasparente, di bianco.
         canvas.Clear(SKColors.White);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)

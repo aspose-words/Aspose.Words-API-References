@@ -3,7 +3,7 @@ title: Fill.OneColorGradient
 second_title: Aspose.Words per .NET API Reference
 description: Fill metodo. Imposta il riempimento specificato su una sfumatura di un colore.
 type: docs
-weight: 160
+weight: 220
 url: /it/net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
@@ -18,18 +18,18 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | --- | --- | --- |
 | style | GradientStyle | Lo stile sfumato[`GradientStyle`](../../gradientstyle/) |
 | variant | GradientVariant | La variante sfumata[`GradientVariant`](../../gradientvariant/) |
-| degree | Double | Il grado di pendenza. Può essere un valore compreso tra 0,0 (scuro) e 1,0 (chiaro). |
+| degree | Double | Il grado del gradiente. Può essere un valore compreso tra 0,0 (scuro) e 1,0 (chiaro). |
 
 ### Esempi
 
-Mostra come riempire una forma con una sfumatura.
+Mostra come riempire una forma con sfumature.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applica il riempimento sfumato di un colore alla forma con ForeColor del riempimento sfumato.
+// Applica il riempimento sfumato monocolore alla forma con ForeColor del riempimento sfumato.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -38,7 +38,7 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applica un riempimento sfumato a due colori alla forma.
+// Applica il riempimento sfumato a due colori alla forma.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia BackColor del riempimento sfumato.
 shape.Fill.BackColor = Color.Yellow;
@@ -51,7 +51,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Usa l'opzione di conformità per definire la forma usando DML se vuoi ottenere "GradientStyle",
+// Utilizza l'opzione di conformità per definire la forma utilizzando DML se desideri ottenere "GradientStyle",
 // Proprietà "GradientVariant" e "GradientAngle" dopo il salvataggio del documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
@@ -79,21 +79,21 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| color | Color | Il colore per costruire il gradiente. |
+| color | Color | Il colore per creare il gradiente. |
 | style | GradientStyle | Lo stile sfumato[`GradientStyle`](../../gradientstyle/) |
 | variant | GradientVariant | La variante sfumata[`GradientVariant`](../../gradientvariant/) |
-| degree | Double | Il grado di pendenza. Può essere un valore compreso tra 0,0 (scuro) e 1,0 (chiaro). |
+| degree | Double | Il grado del gradiente. Può essere un valore compreso tra 0,0 (scuro) e 1,0 (chiaro). |
 
 ### Esempi
 
-Mostra come riempire una forma con una sfumatura.
+Mostra come riempire una forma con sfumature.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applica il riempimento sfumato di un colore alla forma con ForeColor del riempimento sfumato.
+// Applica il riempimento sfumato monocolore alla forma con ForeColor del riempimento sfumato.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -102,7 +102,7 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Applica un riempimento sfumato a due colori alla forma.
+// Applica il riempimento sfumato a due colori alla forma.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia BackColor del riempimento sfumato.
 shape.Fill.BackColor = Color.Yellow;
@@ -115,7 +115,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Usa l'opzione di conformità per definire la forma usando DML se vuoi ottenere "GradientStyle",
+// Utilizza l'opzione di conformità per definire la forma utilizzando DML se desideri ottenere "GradientStyle",
 // Proprietà "GradientVariant" e "GradientAngle" dopo il salvataggio del documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

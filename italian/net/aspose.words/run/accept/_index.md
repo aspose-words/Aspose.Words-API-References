@@ -3,7 +3,7 @@ title: Run.Accept
 second_title: Aspose.Words per .NET API Reference
 description: Run metodo. Accetta un visitatore.
 type: docs
-weight: 40
+weight: 60
 url: /it/net/aspose.words/run/accept/
 ---
 ## Run.Accept method
@@ -16,21 +16,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
 
 ### Valore di ritorno
 
-Falso se il visitatore ha richiesto l'interruzione dell'enumerazione.
+`falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
 ### Osservazioni
 
-Chiama DocumentVisitor.VisitRun.
+Chiamate[`VisitRun`](../../documentvisitor/visitrun/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni intestazione e piè di pagina in un documento.
+Mostra come stampare la struttura dei nodi di ogni intestazione e piè di pagina in un documento.
 
 ```csharp
 public void HeaderFooterToText()
@@ -38,21 +38,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Un modo alternativo per accedere all'intestazione/piè di pagina di un documento sezione per sezione consiste nell'accedere alla raccolta.
+    // Un modo alternativo per accedere all'intestazione/piè di pagina di un documento sezione per sezione è accedere alla raccolta.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi HeaderFooter incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi HeaderFooter incontrati e dei relativi figli.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -68,7 +68,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -78,7 +78,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo HeaderFooter nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -90,7 +90,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo HeaderFooter sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo HeaderFooter sono stati visitati.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -102,9 +102,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la indenta in base alla profondità del visitatore nell'albero del documento.
+    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

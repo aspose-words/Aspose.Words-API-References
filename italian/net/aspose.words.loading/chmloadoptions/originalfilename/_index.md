@@ -16,9 +16,9 @@ public string OriginalFileName { get; set; }
 
 ### Osservazioni
 
-I documenti CHM possono contenere collegamenti che fanno riferimento allo stesso documento in base al nome del file. Aspose.Words supporta tali link e normalmente utilizza[`OriginalFileName`](../../../aspose.words/document/originalfilename/) per verificare se il file a cui fa riferimento un link è il file che viene caricato. Se un documento viene caricato da uno stream, il suo nome file originale deve essere specificato in modo esplicito tramite questa proprietà, poiché non può essere determinato automaticamente.
+I documenti CHM possono contenere collegamenti che fanno riferimento allo stesso documento tramite il nome del file. Aspose.Words supporta tali links e normalmente utilizza[`OriginalFileName`](../../../aspose.words/document/originalfilename/) per verificare se il file a cui fa riferimento un link è il file che viene caricato. Se un documento viene caricato da uno stream, il nome del file originale deve essere specificato esplicitamente tramite questa proprietà, poiché non può essere determinato automaticamente.
 
-Se un documento CHM viene caricato da un file e viene specificato un valore non nullo per questa proprietà, il valore avrà la priorità di sul nome effettivo del file memorizzato in[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
+Se un documento CHM viene caricato da un file e viene specificato un valore non nullo per questa proprietà, il valore avrà priorità rispetto al nome effettivo del file archiviato in[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
 
 ### Esempi
 
@@ -27,7 +27,7 @@ Mostra come risolvere URL come "ms-its:myfile.chm::/index.htm".
 ```csharp
 // Il nostro documento contiene URL come "ms-its:amhelp.chm::....htm", ma ha un nome diverso,
 // quindi i collegamenti ai file non funzionano dopo averlo salvato in HTML.
-// Dobbiamo definire il nome del file originale in 'ChmLoadOptions' per evitare questo comportamento.
+// Dobbiamo definire il nome file originale in 'ChmLoadOptions' per evitare questo comportamento.
 ChmLoadOptions loadOptions = new ChmLoadOptions { OriginalFileName = "amhelp.chm" };
 
 Document doc = new Document(new MemoryStream(File.ReadAllBytes(MyDir + "Document with ms-its links.chm")),

@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUserPromptRespondent
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaccia. Rappresenta il rispondente alle richieste dellutente durante laggiornamento del campo.
+description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaccia. Rappresenta lintervistato alle richieste dellutente durante laggiornamento del campo.
 type: docs
-weight: 2560
+weight: 2740
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
 
-Rappresenta il rispondente alle richieste dell'utente durante l'aggiornamento del campo.
+Rappresenta l'intervistato alle richieste dell'utente durante l'aggiornamento del campo.
 
 ```csharp
 public interface IFieldUserPromptRespondent
@@ -18,31 +18,30 @@ public interface IFieldUserPromptRespondent
 
 | Nome | Descrizione |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Quando implementato, restituisce una risposta dell'utente su richiesta. La tua implementazione dovrebbe restituire **nullo** per indicare che l'utente non ha risposto al prompt (cioè l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
 
 ### Osservazioni
 
-I campi ASK e FILLIN sono esempi di campi che richiedono all'utente una risposta. Implementare questa interfaccia e assegnarla a[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) proprietà per stabilire l'interazione tra il campo update e l'utente.
+I campi ASK e FILLIN sono esempi di campi che richiedono all'utente una risposta. Implementa questa interfaccia e assegnala a[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) proprietà per stabilire l'interazione tra il campo update e l'utente.
 
 ### Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF in base al nome del segnalibro.
+    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF tramite il nome del segnalibro.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -70,6 +69,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.

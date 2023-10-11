@@ -3,7 +3,7 @@ title: CompositeNode.GetText
 second_title: Aspose.Words per .NET API Reference
 description: CompositeNode metodo. Ottiene il testo di questo nodo e di tutti i suoi figli.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -20,7 +20,7 @@ La stringa restituita include tutti i caratteri di controllo e speciali come des
 
 ### Esempi
 
-Mostra la differenza tra la chiamata dei metodi GetText e ToString su un nodo.
+Mostra la differenza tra la chiamata ai metodi GetText e ToString su un nodo.
 
 ```csharp
 Document doc = new Document();
@@ -28,14 +28,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText recupererà il testo visibile, codici di campo e caratteri speciali.
+// GetText recupererà il testo visibile, nonché i codici di campo e i caratteri speciali.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// ToString ci darà l'aspetto del documento se salvato in un formato di salvataggio passato.
+// ToString ci darà l'aspetto del documento se salvato in un formato di salvataggio superato.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-Mostra come generare in output tutti i paragrafi di un documento che sono voci di elenco.
+Mostra come restituire tutti i paragrafi in un documento che sono elementi di elenco.
 
 ```csharp
 Document doc = new Document();

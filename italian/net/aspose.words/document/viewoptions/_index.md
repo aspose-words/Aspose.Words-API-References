@@ -1,14 +1,14 @@
 ---
 title: Document.ViewOptions
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Fornisce le opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word.
+description: Document proprietà. Fornisce opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word.
 type: docs
-weight: 450
+weight: 470
 url: /it/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
 
-Fornisce le opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word.
+Fornisce opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word.
 
 ```csharp
 public ViewOptions ViewOptions { get; }
@@ -44,7 +44,7 @@ builder.Writeln("Hello world!");
 // Imposta la proprietà "ZoomType" su "ZoomType.FullPage" per ottenere Microsoft Word
 // per ingrandire automaticamente il documento per rendere visibile l'intera prima pagina.
 // Imposta la proprietà "ZoomType" su "ZoomType.TextFit" per ottenere Microsoft Word
-// per ingrandire automaticamente il documento per adattarlo ai margini interni del testo della prima pagina.
+// per ingrandire automaticamente il documento per adattarlo ai margini di testo interni della prima pagina.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

@@ -1,14 +1,16 @@
 ---
 title: Class DocumentPropertyCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Properties.DocumentPropertyCollection classe. Classe base perBuiltInDocumentProperties eCustomDocumentProperties raccolte.
+description: Aspose.Words.Properties.DocumentPropertyCollection classe. Classe base perBuiltInDocumentProperties ECustomDocumentProperties collezioni.
 type: docs
-weight: 4230
+weight: 4480
 url: /it/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-Classe base per[`BuiltInDocumentProperties`](../builtindocumentproperties/) e[`CustomDocumentProperties`](../customdocumentproperties/) raccolte.
+Classe base per[`BuiltInDocumentProperties`](../builtindocumentproperties/) E[`CustomDocumentProperties`](../customdocumentproperties/) collezioni.
+
+Per saperne di più, visita il[Lavora con le proprietà del documento](https://docs.aspose.com/words/net/work-with-document-properties/) articolo di documentazione.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -20,18 +22,18 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Ottiene il numero di elementi nella raccolta. |
 | [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Restituisce a[`DocumentProperty`](../documentproperty/) oggetto per indice. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Restituisce a[`DocumentProperty`](../documentproperty/) oggetto dal nome della proprietà. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Restituisce a[`DocumentProperty`](../documentproperty/) oggetto con il nome della proprietà. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Rimuove tutte le proprietà dalla raccolta. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Restituisce true se nella raccolta esiste una proprietà con il nome specificato. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Restituisce`VERO` se nella raccolta esiste una proprietà con il nome specificato. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Ottiene l'indice di una proprietà per nome. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Rimuove una proprietà con il nome specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Rimuove una proprietà in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Rimuove una proprietà all'indice specificato. |
 
 ### Osservazioni
 
@@ -41,7 +43,7 @@ Le proprietà nella raccolta sono ordinate alfabeticamente per nome.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +51,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -90,7 +92,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

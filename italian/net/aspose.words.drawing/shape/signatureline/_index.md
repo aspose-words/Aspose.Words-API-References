@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. OttieneSignatureLine oggetto se la forma è una linea di firma. ritorna nullo altrimenti.
+description: Shape proprietà. OttieneSignatureLine oggetto se la forma è una linea di firma. ritornanullo altrimenti.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Ottiene`SignatureLine` oggetto se la forma è una linea di firma. ritorna **nullo** altrimenti.
+Ottiene[`SignatureLine`](../../signatureline/) oggetto se la forma è una linea di firma. ritorna`nullo` altrimenti.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Osservazioni
 
-Puoi inserire nuove SignatureLines nel documento usando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) e
+Puoi inserirne di nuovi[`SignatureLine`](../../signatureline/) nel documento utilizzando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) e
 
 ### Esempi
 
@@ -37,16 +37,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserisci una forma che conterrà una linea di firma, il cui aspetto sarà
-// personalizza usando l'oggetto "SignatureLineOptions" che abbiamo creato sopra.
+// Inserisci una forma che conterrà una riga della firma, di cui modificheremo l'aspetto
+// personalizza utilizzando l'oggetto "SignatureLineOptions" che abbiamo creato sopra.
 // Se inseriamo una forma le cui coordinate hanno origine nell'angolo in basso a destra della pagina,
-// dovremo fornire coordinate xey negative per visualizzare la forma.
+// dovremo fornire le coordinate xey negative per visualizzare la forma.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica le proprietà della nostra linea di firma tramite il suo oggetto Shape.
+// Verifica le proprietà della nostra riga della firma tramite il suo oggetto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.LanguageId
 second_title: Aspose.Words per .NET API Reference
-description: FieldAddressBlock proprietà. Ottiene o imposta lID lingua utilizzato per formattare lindirizzo.
+description: FieldAddressBlock proprietà. Ottiene o imposta lID della lingua utilizzato per formattare lindirizzo.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-Ottiene o imposta l'ID lingua utilizzato per formattare l'indirizzo.
+Ottiene o imposta l'ID della lingua utilizzato per formattare l'indirizzo.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -26,15 +26,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// L'impostazione su "2" includerà tutti i paesi e le regioni,
+// Impostandolo su "2" includerà tutti i paesi e le regioni,
 // a meno che non sia quello specificato nella proprietà ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Per impostazione predefinita, questa proprietà conterrà l'ID lingua del primo carattere del documento.
-// Possiamo impostare una cultura diversa per il campo per formattare il risultato in questo modo.
+// Per impostazione predefinita, questa proprietà conterrà l'ID della lingua del primo carattere del documento.
+// Possiamo impostare una cultura diversa per il campo con cui formattare il risultato in questo modo.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

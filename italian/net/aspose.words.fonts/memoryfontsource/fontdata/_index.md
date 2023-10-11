@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.FontData
 second_title: Aspose.Words per .NET API Reference
-description: MemoryFontSource proprietà. Dati font binari.
+description: MemoryFontSource proprietà. Dati carattere binario.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Dati font binari.
+Dati carattere binario.
 
 ```csharp
 public byte[] FontData { get; }
@@ -16,7 +16,7 @@ public byte[] FontData { get; }
 
 ### Esempi
 
-Mostra come utilizzare una matrice di byte con i dati di un file di font come origine di font.
+Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

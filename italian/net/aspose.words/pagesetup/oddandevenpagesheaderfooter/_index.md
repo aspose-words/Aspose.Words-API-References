@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Verose il documento ha intestazioni e piè di pagina diversi per le pagine dispari e pari.
+description: PageSetup proprietà. Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari.
 type: docs
-weight: 270
+weight: 280
 url: /it/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Vero**se il documento ha intestazioni e piè di pagina diversi per le pagine dispari e pari.
+Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### Osservazioni
 
-Nota, la modifica di questa proprietà ha effetto su tutte le sezioni del documento.
+Nota: la modifica di questa proprietà influisce su tutte le sezioni del documento.
 
 ### Esempi
 
@@ -26,11 +26,11 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime, pari e dispari.
+// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ogni tipo di intestazione.
+// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ciascun tipo di intestazione.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -48,15 +48,15 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Mostra come abilitare o disabilitare anche le intestazioni/piè di pagina di pagina.
+Mostra come abilitare o disabilitare anche le intestazioni/piè di pagina.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati due tipi di intestazione/piè di pagina.
-// 1 - L'intestazione/piè di pagina "Principale", che appare in ogni pagina della sezione.
-// Possiamo sostituire l'intestazione/piè di pagina principale con un'intestazione/piè di pagina prima e pari.
+// 1 - L'intestazione/piè di pagina "Principale", che appare su ogni pagina della sezione.
+ // Possiamo sovrascrivere l'intestazione/piè di pagina principale con un'intestazione/piè di pagina pari e la prima.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -78,11 +78,11 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
 // Ogni sezione ha un oggetto "PageSetup" che specifica le proprietà relative all'aspetto della pagina
-// come orientamento, dimensioni e bordi.
+// come orientamento, dimensione e bordi.
 // Imposta la proprietà "OddAndEvenPagesHeaderFooter" su "true"
-// per visualizzare l'intestazione/il piè di pagina della pagina pari sulle pagine pari.
+// per visualizzare l'intestazione/piè di pagina pari sulle pagine pari.
 // Imposta la proprietà "OddAndEvenPagesHeaderFooter" su "false"
-// per visualizzare l'intestazione/piè di pagina principale su pagine pari.
+// per visualizzare l'intestazione/piè di pagina principale sulle pagine pari.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");

@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Assegna un nome al testo con segnalibro con un campo SET.
-// Questo campo fa riferimento al "segnalibro" non a una struttura di segnalibri che appare all'interno del testo, ma a una variabile denominata.
+// Questo campo si riferisce al "segnalibro", non a una struttura di segnalibri che appare nel testo, ma a una variabile denominata.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica la categoria del building block per questo SDT node. Non può essere null.
+description: StructuredDocumentTag proprietà. Specifica la categoria del blocco predefinito per questo SDT node. Non può esserenullo .
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Specifica la categoria del building block per questo **SDT** node. Non può essere null.
+Specifica la categoria del blocco predefinito per questo **SDT** node. Non può essere`nullo` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -16,13 +16,13 @@ public string BuildingBlockCategory { get; set; }
 
 ### Osservazioni
 
-L'accesso a questa proprietà funzionerà solo perBuildingBlockGallery e DocPartObj Tipi di SDT. È di sola lettura per **SDT**del tipo di parte del documento.
+L'accesso a questa proprietà funzionerà solo perBuildingBlockGallery e DocPartObj Tipi SDT. È di sola lettura per **SDT** del tipo di parte del documento.
 
 Per tutti gli altri tipi di SDT si verificherà un'eccezione.
 
 ### Esempi
 
-Mostra come inserire un tag di documento strutturato come blocco predefinito e impostarne la categoria e la galleria.
+Mostra come inserire un tag di documento strutturato come elemento costitutivo e impostarne la categoria e la raccolta.
 
 ```csharp
 Document doc = new Document();

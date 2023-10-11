@@ -24,18 +24,18 @@ L'elenco delle regioni.
 
 ### Esempi
 
-Mostra come creare, elencare e leggere le regioni di stampa unione.
+Mostra come creare, elencare e leggere le aree di stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tag "TableStart" e "TableEnd", che vanno all'interno di MERGEFIELD,
-// indica le stringhe che indicano l'inizio e la fine delle regioni di stampa unione.
+// I tag "TableStart" e "TableEnd", che vanno all'interno dei MERGEFIELD,
+// denota le stringhe che indicano l'inizio e la fine delle regioni di stampa unione.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Usa questi tag per avviare e terminare una regione di stampa unione denominata "MailMergeRegion1",
+// Utilizza questi tag per avviare e terminare una regione di stampa unione denominata "MailMergeRegion1",
 // che conterrà MERGEFIELD per due colonne.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
@@ -54,19 +54,19 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// Inserisce una regione con lo stesso nome all'interno della regione esistente, che la renderà padre.
-// Ora un campo "Colonna2" sarà all'interno di una nuova regione.
+// Inserisci una regione con lo stesso nome all'interno della regione esistente, che la renderà genitore.
+// Ora un campo "Column2" sarà all'interno di una nuova regione.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Se cerchiamo il nome delle regioni duplicate usando il metodo "GetRegionsByName",
+// Se cerchiamo il nome delle regioni duplicate utilizzando il metodo "GetRegionsByName",
 // restituirà tutte queste regioni in una raccolta.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// Verifica che la seconda regione abbia ora una regione padre.
+// Controlla che la seconda regione ora abbia una regione principale.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

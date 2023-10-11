@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Per ogni cella della tabella, imposta la distanza tra il suo contenuto e ciascuno dei suoi bordi. 
-// Questa tabella manterrà la distanza di riempimento minima spostando il testo a capo.
+ // Per ogni cella della tabella, imposta la distanza tra il suo contenuto e ciascuno dei suoi bordi.
+// Questa tabella manterrà la distanza minima di riempimento mandando a capo il testo.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

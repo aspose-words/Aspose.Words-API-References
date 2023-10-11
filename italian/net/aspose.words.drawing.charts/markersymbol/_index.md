@@ -1,14 +1,14 @@
 ---
 title: Enum MarkerSymbol
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifica lo stile del simbolo dellindicatore.
+description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifica lo stile del simbolo del contrassegno.
 type: docs
-weight: 790
+weight: 920
 url: /it/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-Specifica lo stile del simbolo dell'indicatore.
+Specifica lo stile del simbolo del contrassegno.
 
 ```csharp
 public enum MarkerSymbol
@@ -18,25 +18,24 @@ public enum MarkerSymbol
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica un simbolo di indicatore predefinito da disegnare in ogni punto dati. |
-| Circle | `1` | Specifica un cerchio da disegnare in ogni punto dati. |
-| Dash | `2` | Specifica un trattino da disegnare in ogni punto dati. |
-| Diamond | `3` | Specifica un diamante da disegnare in ogni punto dati. |
-| Dot | `4` | Specifica un punto da disegnare in ogni punto dati. |
+| Default | `0` | Specifica che un simbolo indicatore predefinito deve essere disegnato in ciascun punto dati. |
+| Circle | `1` | Specifica che verrà disegnato un cerchio in corrispondenza di ciascun punto dati. |
+| Dash | `2` | Specifica che deve essere tracciato un trattino in corrispondenza di ciascun punto dati. |
+| Diamond | `3` | Specifica che deve essere disegnato un diamante in ogni punto dati. |
+| Dot | `4` | Specifica che deve essere disegnato un punto in ogni punto dati. |
 | None | `5` | Specifica che non deve essere disegnato nulla in ogni punto dati. |
-| Picture | `6` | Specifica che deve essere disegnata un'immagine in ogni punto dati. |
-| Plus | `7` | Specifica un segno più da disegnare in ogni punto dati. |
-| Square | `8` | Specifica un quadrato da disegnare in ogni punto dati. |
+| Picture | `6` | Specifica che verrà disegnata un'immagine in corrispondenza di ciascun punto dati. |
+| Plus | `7` | Specifica che deve essere tracciato un segno più in ogni punto dati. |
+| Square | `8` | Specifica che verrà disegnato un quadrato in corrispondenza di ciascun punto dati. |
 | Star | `9` | Specifica che deve essere disegnata una stella in ogni punto dati. |
-| Triangle | `10` | Specifica un triangolo da disegnare in ogni punto dati. |
-| X | `11` | Specifica che deve essere disegnata una X in ogni punto dati. |
+| Triangle | `10` | Specifica che verrà disegnato un triangolo in corrispondenza di ciascun punto dati. |
+| X | `11` | Specifica che deve essere disegnata una X in corrispondenza di ciascun punto dati. |
 
 ### Esempi
 
-Mostra come lavorare con i punti dati su un grafico a linee.
+Mostra come utilizzare i punti dati su un grafico a linee.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -54,10 +53,10 @@ public void ChartDataPoint()
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appiana la linea che rappresenta la prima serie di dati.
+    // Appianare la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
+    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -69,7 +68,7 @@ public void ChartDataPoint()
     // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Possiamo anche rimuovere un'intera serie di punti dati contemporaneamente.
+    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.NumericFormat
 second_title: Aspose.Words per .NET API Reference
-description: FieldFormat proprietà. Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde allo switch .
+description: FieldFormat proprietà. Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde allopzione .
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde allo switch \#.
+Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde all'opzione \#.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -22,13 +22,13 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizza un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Possiamo applicare un formato al risultato di un campo usando le proprietà del campo.
+// Possiamo applicare un formato al risultato di un campo utilizzando le proprietà del campo.
 // Di seguito sono riportati tre tipi di formati che possiamo applicare al risultato di un campo.
 // 1 - Formato numerico:
 FieldFormat format = field.Format;
@@ -64,7 +64,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per riportare il risultato del campo alla sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

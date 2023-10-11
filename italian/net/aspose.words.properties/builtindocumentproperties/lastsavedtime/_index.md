@@ -25,7 +25,7 @@ Aspose.Words non aggiorna questa proprietà.
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
@@ -61,9 +61,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
-// Possiamo usare il campo SAVEDATE per visualizzare la data e l'ora dell'ultima operazione di salvataggio sul documento.
-// L'operazione di salvataggio a cui si riferiscono questi campi è il salvataggio manuale in un'applicazione come Microsoft Word,
-// non è il metodo Save del documento.
+// Possiamo utilizzare il campo SAVEDATE per visualizzare la data e l'ora dell'ultima operazione di salvataggio sul documento.
+// L'operazione di salvataggio a cui fanno riferimento questi campi è il salvataggio manuale in un'applicazione come Microsoft Word,
+// non il metodo Save del documento.
 // Di seguito sono riportati tre diversi tipi di calendario in base ai quali il campo SAVEDATE può visualizzare la data/ora.
 // 1 - Calendario lunare islamico:
 builder.Write("According to the Lunar Calendar - ");
@@ -86,7 +86,7 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// I campi SAVEDATE traggono i loro valori di data/ora dalla proprietà incorporata LastSavedTime.
+// I campi SAVEDATE ricavano i valori di data/ora dalla proprietà incorporata LastSavedTime.
 // Il metodo Save del documento non aggiornerà questo valore, ma possiamo comunque aggiornarlo manualmente.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 

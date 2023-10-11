@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Restituisce NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag proprietà. RestituisceStructuredDocumentTag .
 type: docs
 weight: 220
 url: /it/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Restituisce **NodeType.StructuredDocumentTag** .
+RestituisceStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Esempi
 
-Mostra come lavorare con gli stili per gli elementi di controllo del contenuto.
+Mostra come utilizzare gli stili per gli elementi di controllo del contenuto.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Fai riferimento a uno stile nel documento per nome:
+// 2 - Fa riferimento a uno stile nel documento per nome:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

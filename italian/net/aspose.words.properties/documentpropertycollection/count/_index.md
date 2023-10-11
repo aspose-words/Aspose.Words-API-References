@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Esempi
 
-Mostra come lavorare con le proprietà del documento personalizzate.
+Mostra come lavorare con le proprietà personalizzate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Ogni documento contiene una raccolta di proprietà personalizzate che, come le proprietà integrate, sono coppie chiave-valore.
-// Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate. 
+ // Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

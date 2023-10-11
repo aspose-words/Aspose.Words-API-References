@@ -1,14 +1,14 @@
 ---
 title: Fill.Opacity
 second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene o imposta il grado di opacità del riempimento specificato come un valore compreso tra 00 trasparente e 10 opaco.
+description: Fill proprietà. Ottiene o imposta il grado di opacità del riempimento specificato come valore compreso tra 00 trasparente e 10 opaco.
 type: docs
-weight: 90
+weight: 150
 url: /it/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
 
-Ottiene o imposta il grado di opacità del riempimento specificato come un valore compreso tra 0,0 (trasparente) e 1,0 (opaco).
+Ottiene o imposta il grado di opacità del riempimento specificato come valore compreso tra 0,0 (trasparente) e 1,0 (opaco).
 
 ```csharp
 public double Opacity { get; set; }
@@ -20,7 +20,7 @@ Questa proprietà è l'opposto della proprietà[`Transparency`](../transparency/
 
 ### Esempi
 
-Mostra come riempire una forma con un colore solido.
+Mostra come riempire una forma con un colore a tinta unita.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Usa la proprietà "StrokeColor" per impostare il colore del contorno della forma.
+// Utilizza la proprietà "StrokeColor" per impostare il colore del contorno della forma.
 shape.StrokeColor = Color.CadetBlue;
 
-// Usa la proprietà "FillColor" per impostare il colore dell'area interna della forma.
+// Utilizza la proprietà "FillColor" per impostare il colore dell'area interna della forma.
 shape.FillColor = Color.LightBlue;
 
-// La proprietà "Opacità" determina la trasparenza del colore su una scala 0-1,
-// con 1 completamente opaco e 0 invisibile.
+// La proprietà "Opacità" determina quanto trasparente è il colore su una scala 0-1,
+// dove 1 è completamente opaco e 0 è invisibile.
 // Il riempimento della forma per impostazione predefinita è completamente opaco, quindi non possiamo vedere il testo su cui si trova questa forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 

@@ -1,14 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection proprietà. Ottiene o imposta lelemento in corrispondenza dellindice specificato.
+description: CustomXmlSchemaCollection proprietà. Ottiene o imposta lelemento nellindice specificato.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/customxmlschemacollection/item/
 ---
 ## CustomXmlSchemaCollection indexer
 
-Ottiene o imposta l'elemento in corrispondenza dell'indice specificato.
+Ottiene o imposta l'elemento nell'indice specificato.
 
 ```csharp
 public string this[int index] { get; set; }
@@ -25,13 +25,13 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Aggiunge un'associazione dello schema XML.
+// Aggiunge un'associazione allo schema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clona la raccolta di associazioni dello schema XML della parte XML personalizzata,
-// e quindi aggiungi un paio di nuovi schemi al clone.
+// Clona la raccolta di associazioni di schemi XML della parte XML personalizzata,
+// e poi aggiungi un paio di nuovi schemi al clone.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
-schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
+schemas.Add("http://www.w3.org/2001/XMLSchema-istanza");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
 Assert.AreEqual(3, schemas.Count);
@@ -45,13 +45,13 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 }
 
 // Di seguito sono riportati tre modi per rimuovere gli schemi dalla raccolta.
-// 1 - Rimuove uno schema per indice:
+// 1 - Rimuovi uno schema per indice:
 schemas.RemoveAt(2);
 
-// 2 - Rimuove uno schema per valore:
+// 2 - Rimuovi uno schema per valore:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Usa il metodo "Cancella" per svuotare la raccolta in una volta.
+// 3 - Utilizza il metodo "Clear" per svuotare immediatamente la raccolta.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

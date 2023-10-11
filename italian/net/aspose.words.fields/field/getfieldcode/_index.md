@@ -1,14 +1,14 @@
 ---
 title: Field.GetFieldCode
 second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Restituisce il testo tra linizio del campo e il separatore di campo o la fine del campo se non è presente alcun separatore. Sono inclusi sia il codice campo che il risultato campo dei campi figlio.
+description: Field metodo. Restituisce il testo compreso tra linizio del campo e il separatore di campo o la fine del campo se non è presente alcun separatore. Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio.
+Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari.
 
 ```csharp
 public string GetFieldCode()
@@ -16,7 +16,7 @@ public string GetFieldCode()
 
 ### Esempi
 
-Mostra come inserire un campo in un documento utilizzando un codice campo.
+Mostra come inserire un campo in un documento utilizzando un codice di campo.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ## GetFieldCode(bool) {#getfieldcode_1}
 
-Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore).
+Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore).
 
 ```csharp
 public string GetFieldCode(bool includeChildFieldCodes)
@@ -68,7 +68,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `Vero` se devono essere inclusi i codici di campo figlio. |
+| includeChildFieldCodes | Boolean | `VERO` se i codici di campo secondari devono essere inclusi. |
 
 ### Esempi
 

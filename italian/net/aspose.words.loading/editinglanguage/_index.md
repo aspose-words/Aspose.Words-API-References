@@ -3,7 +3,7 @@ title: Enum EditingLanguage
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Loading.EditingLanguage enum. Specifica la lingua di modifica.
 type: docs
-weight: 3400
+weight: 3600
 url: /it/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration

@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Dopo aver salvato un documento, possiamo accedere al tipo di supporto Internet (tipo MIME) del documento di output appena creato.
+// Dopo aver salvato un documento, possiamo accedere all'Internet Media Type (tipo MIME) del documento di output appena creato.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);

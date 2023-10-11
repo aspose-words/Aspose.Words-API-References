@@ -3,7 +3,7 @@ title: Stroke.On
 second_title: Aspose.Words per .NET API Reference
 description: Stroke proprietà. Definisce se il percorso verrà tracciato.
 type: docs
-weight: 130
+weight: 150
 url: /it/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito per a[`Shape`](../../shape/) è **VERO**.
+Il valore predefinito per a[`Shape`](../../shape/) È`VERO`.
 
 ### Esempi
 
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

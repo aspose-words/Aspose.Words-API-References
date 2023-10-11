@@ -1,14 +1,14 @@
 ---
 title: FontSettings.GetFontsSources
 second_title: Aspose.Words per .NET API Reference
-description: FontSettings metodo. Ottiene una copia dellarray che contiene lelenco delle origini in cui Aspose.Words cerca i caratteri TrueType.
+description: FontSettings metodo. Ottiene una copia dellarray che contiene lelenco delle fonti in cui Aspose.Words cerca i caratteri TrueType.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fonts/fontsettings/getfontssources/
 ---
 ## FontSettings.GetFontsSources method
 
-Ottiene una copia dell'array che contiene l'elenco delle origini in cui Aspose.Words cerca i caratteri TrueType.
+Ottiene una copia dell'array che contiene l'elenco delle fonti in cui Aspose.Words cerca i caratteri TrueType.
 
 ```csharp
 public FontSourceBase[] GetFontsSources()
@@ -16,11 +16,11 @@ public FontSourceBase[] GetFontsSources()
 
 ### Valore di ritorno
 
-Una copia delle sorgenti dei font correnti.
+Una copia delle origini dei caratteri correnti.
 
 ### Osservazioni
 
-Il valore restituito è una copia dei dati utilizzati da Aspose.Words. Se modifichi le voci nell'array restituito, non avrà alcun effetto sul rendering del documento. Per specificare il nuovo font source usa il file[`SetFontsSources`](../setfontssources/) metodo.
+Il valore restituito è una copia dei dati utilizzati da Aspose.Words. Se modifichi le voci nell'array restituito, ciò non avrà alcun effetto sul rendering del documento. Per specificare il nuovo font source utilizzare il file[`SetFontsSources`](../setfontssources/) metodo.
 
 ### Esempi
 
@@ -43,15 +43,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// L'origine dei caratteri predefinita manca di due dei caratteri che stiamo utilizzando nel nostro documento.
+// Nella fonte di carattere predefinita mancano due dei caratteri che stiamo utilizzando nel nostro documento.
 // Quando salviamo questo documento, Aspose.Words applicherà i caratteri di fallback a tutto il testo formattato con caratteri inaccessibili.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Crea una fonte di font da una cartella che contiene font.
+// Crea un'origine dei caratteri da una cartella che contiene i caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Applica una nuova matrice di fonti di carattere che contiene le fonti di carattere originali, oltre ai nostri caratteri personalizzati.
+// Applica una nuova serie di fonti di caratteri che contiene le fonti di caratteri originali, nonché i nostri caratteri personalizzati.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 

@@ -16,23 +16,23 @@ public bool Contains(string name)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Nome con distinzione tra maiuscole e minuscole della proprietà da individuare. |
+| name | String | Nome della proprietà da individuare con distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-Vero se l'articolo si trova nella collezione; altrimenti falso.
+`VERO` se l'oggetto si trova nella collezione; Altrimenti,`falso`.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
+Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una forma di dati,
+// Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
 // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
-// In Word 2003, possiamo abilitare gli smart tag tramite "Strumenti" -> "Opzioni di correzione automatica..." -> "SmartTag".
-// Nel nostro documento di input, ci sono tre oggetti che Microsoft Word ha registrato come smart tag.
+// In Word 2003, possiamo abilitare gli smart tag tramite "Strumenti" -> "Opzioni di correzione automatica..." -> "Smart Tag".
+// Nel nostro documento di input sono presenti tre oggetti che Microsoft Word ha registrato come smart tag.
 // Gli smart tag possono essere nidificati, quindi questa raccolta ne contiene di più.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
@@ -53,7 +53,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Possiamo anche accedere alle proprietà in vari modi, ad esempio una coppia chiave-valore.
+// Possiamo anche accedere alle proprietà in vari modi, ad esempio tramite una coppia chiave-valore.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -70,7 +70,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Cancella l'intera collezione in una volta:
+// 3 - Cancella l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

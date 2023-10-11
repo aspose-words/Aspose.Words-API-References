@@ -1,14 +1,14 @@
 ---
 title: Section.EnsureMinimum
 second_title: Aspose.Words per .NET API Reference
-description: Section metodo. Assicura che la sezione abbia Corpo con un paragrafo.
+description: Section metodo. Garantisce che la sezione abbiaBody con unoParagraph .
 type: docs
-weight: 130
+weight: 150
 url: /it/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Assicura che la sezione abbia Corpo con un paragrafo.
+Garantisce che la sezione abbia[`Body`](../body/) con uno[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()

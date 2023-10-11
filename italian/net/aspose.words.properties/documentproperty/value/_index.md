@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### Osservazioni
 
-Non può essere nullo.
+Non può essere`nullo`.
 
 ### Esempi
 

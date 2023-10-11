@@ -1,14 +1,16 @@
 ---
 title: Class TableCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.TableCollection classe. Fornisce laccesso tipizzato a una raccolta diTable nodi.
+description: Aspose.Words.Tables.TableCollection classe. Fornisce laccesso digitato a una raccolta diTable nodi.
 type: docs
-weight: 6060
+weight: 6360
 url: /it/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-Fornisce l'accesso tipizzato a una raccolta di[`Table`](../table/) nodi.
+Fornisce l'accesso digitato a una raccolta di[`Table`](../table/) nodi.
+
+Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,7 +21,7 @@ public class TableCollection : NodeCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera a **Tavolo** all'indice dato. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera a[`Table`](../table/) all'indice indicato. (2 indexers) |
 
 ## Metodi
 
@@ -32,7 +34,7 @@ public class TableCollection : NodeCollection
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia tutte le tabelle dalla raccolta in un nuovo array di tabelle. (2 methods) |
 
 ### Esempi
@@ -57,23 +59,22 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Mostra come scoprire se una tabella è nidificata.
+Mostra come scoprire se le tabelle sono nidificate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Scopri se alcune celle nella tabella hanno altre tabelle come figli.
+        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Scopri se la tabella è nidificata all'interno di un'altra tabella e, in tal caso, a quale profondità.
+        // Scopri se la tabella è annidata all'interno di un'altra tabella e, in tal caso, a quale profondità.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -105,11 +106,11 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Determina se una tabella contiene una tabella figlio immediata all'interno delle sue celle.
-/// Non attraversare in modo ricorsivo queste tabelle per cercare altre tabelle.
+/// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
+/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce true se almeno una cella figlio contiene una tabella.
+/// Restituisce vero se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)

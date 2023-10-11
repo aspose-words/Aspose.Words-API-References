@@ -18,7 +18,7 @@ public void DeleteFields()
 
 Questo metodo rimuove i campi MERGEFIELD e NEXT dal documento.
 
-Questo metodo potrebbe essere utile se la tua operazione di stampa unione non ha sempre bisogno di per popolare tutti i campi del documento. Utilizzare questo metodo per rimuovere tutti i campi di stampa unione rimanenti .
+Questo metodo potrebbe essere utile se l'operazione di stampa unione non richiede sempre di compilare tutti i campi del documento. Utilizza questo metodo per rimuovere tutti i campi di stampa unione rimanenti .
 
 ### Esempi
 

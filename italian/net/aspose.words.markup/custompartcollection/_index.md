@@ -3,12 +3,14 @@ title: Class CustomPartCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Markup.CustomPartCollection classe. Rappresenta una raccolta diCustomPart oggetti.
 type: docs
-weight: 3670
+weight: 3910
 url: /it/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
 Rappresenta una raccolta di[`CustomPart`](../custompart/) oggetti.
+
+Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -25,7 +27,7 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.markup/custompartcollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Ottiene o imposta un elemento all'indice specificato. |
+| [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Ottiene o imposta un elemento nell'indice specificato. |
 
 ## Metodi
 
@@ -39,7 +41,7 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 ### Osservazioni
 
-Normalmente non è necessario creare istanze di questa classe. Accedi alle parti personalizzate relative al pacchetto OOXML tramite il[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) proprietà.
+Normalmente non è necessario creare istanze di questa classe. Puoi accedere alle parti personalizzate relative al pacchetto OOXML tramite il file[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) proprietà.
 
 ### Esempi
 
@@ -72,7 +74,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta singolarmente o tutti in una volta.
+// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

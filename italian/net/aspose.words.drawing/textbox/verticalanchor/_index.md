@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 second_title: Aspose.Words per .NET API Reference
 description: TextBox proprietà. Specifica lallineamento verticale del testo allinterno di una forma.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words.drawing/textbox/verticalanchor/
 ---
 ## TextBox.VerticalAnchor property

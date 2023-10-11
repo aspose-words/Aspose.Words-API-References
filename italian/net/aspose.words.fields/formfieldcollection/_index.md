@@ -1,14 +1,16 @@
 ---
 title: Class FormFieldCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FormFieldCollection classe. Una raccolta di campo modulo oggetti che rappresentano tutti i campi modulo in un intervallo.
+description: Aspose.Words.Fields.FormFieldCollection classe. Una raccolta diFormField oggetti che rappresentano tutti i campi del modulo in un intervallo.
 type: docs
-weight: 2470
+weight: 2630
 url: /it/net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
-Una raccolta di **campo modulo** oggetti che rappresentano tutti i campi modulo in un intervallo.
+Una raccolta di[`FormField`](../formfield/) oggetti che rappresentano tutti i campi del modulo in un intervallo.
+
+Per saperne di più, visita il[Lavorare con i campi del modulo](https://docs.aspose.com/words/net/working-with-form-fields/) articolo di documentazione.
 
 ```csharp
 public class FormFieldCollection : IEnumerable<FormField>
@@ -19,7 +21,7 @@ public class FormFieldCollection : IEnumerable<FormField>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.fields/formfieldcollection/count/) { get; } | Restituisce il numero di campi modulo nella raccolta. |
-| [Item](../../aspose.words.fields/formfieldcollection/item/) { get; } | Restituisce un campo modulo in corrispondenza dell'indice specificato. (2 indexers) |
+| [Item](../../aspose.words.fields/formfieldcollection/item/) { get; } | Restituisce un campo modulo all'indice specificato. (2 indexers) |
 
 ## Metodi
 
@@ -28,7 +30,7 @@ public class FormFieldCollection : IEnumerable<FormField>
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Rimuove tutti i campi modulo da questa raccolta e dal documento. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 | [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Rimuove un campo modulo con il nome specificato. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Rimuove un campo modulo in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Rimuove un campo modulo nell'indice specificato. |
 
 ### Esempi
 
@@ -40,7 +42,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usa un generatore di documenti per inserire una casella combinata.
+    // Utilizza un generatore di documenti per inserire una casella combinata.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -50,7 +52,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilizza un generatore di documenti per inserire una casella di controllo.
+    // Utilizzare un generatore di documenti per inserire una casella di controllo.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -64,7 +66,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Usa un generatore di documenti per inserire il campo del modulo di immissione del testo.
+    // Utilizza un generatore di documenti per inserire il campo del modulo di input del testo.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -75,13 +77,13 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Questa raccolta contiene tutti i nostri campi modulo.
+    // Questa raccolta contiene tutti i nostri campi del modulo.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // I campi mostrano i nostri campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
+    // I campi mostrano i campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
     // in Microsoft e premendo Alt + F9. Questi campi non hanno interruttori,
-    // e i membri dell'oggetto FormField governano completamente il contenuto dei loro campi modulo.
+    // e i membri dell'oggetto FormField governano completamente il contenuto dei campi del modulo.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -101,7 +103,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementazione del visitatore che stampa i dettagli dei campi del modulo che visita. 
+ /// Implementazione del visitatore che stampa i dettagli dei campi del modulo visitati.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -111,7 +113,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FormField nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -137,12 +139,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Consenti al visitatore di continuare a visitare altri nodi.
+        // Lascia che il visitatore continui a visitare altri nodi.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Aggiunge testo con caratteri di nuova riga all'output corrente.
+    /// Aggiunge testo di nuova riga con terminazione di caratteri all'output corrente.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -150,7 +152,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

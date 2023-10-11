@@ -3,7 +3,7 @@ title: PdfSaveOptions.PageMode
 second_title: Aspose.Words per .NET API Reference
 description: PdfSaveOptions proprietà. Specifica come deve essere visualizzato il documento PDF quando viene aperto nel lettore PDF.
 type: docs
-weight: 220
+weight: 250
 url: /it/net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property
@@ -20,7 +20,7 @@ Il valore predefinito èUseOutlines .
 
 ### Esempi
 
-Mostra come impostare le istruzioni che alcuni lettori PDF devono seguire quando si apre un documento di output.
+Mostra come impostare le istruzioni da seguire per alcuni lettori PDF quando si apre un documento di output.
 
 ```csharp
 Document doc = new Document();
@@ -28,17 +28,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Imposta la proprietà "PageMode" su "PdfPageMode.FullScreen" per fare in modo che il lettore PDF apra il file salvato
-// documento in modalità a schermo intero, che occupa la visualizzazione del monitor e non ha controlli visibili.
+// documento in modalità a schermo intero, che assume il controllo della visualizzazione del monitor e non ha controlli visibili.
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseThumbs" per fare in modo che il lettore PDF visualizzi un pannello separato
 // con una miniatura per ogni pagina del documento.
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseOC" per fare in modo che il lettore PDF visualizzi un pannello separato
-// che ci consente di lavorare con qualsiasi livello presente nel documento.
+// che ci permette di lavorare con tutti i livelli presenti nel documento.
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseOutlines" per ottenere il lettore PDF
-// anche per visualizzare il contorno, se possibile.
+// anche per visualizzare la struttura, se possibile.
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseNone" per fare in modo che il lettore PDF visualizzi solo il documento stesso.
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseAttachments" per rendere visibile il pannello degli allegati.
 options.PageMode = pageMode;
@@ -46,13 +46,13 @@ options.PageMode = pageMode;
 doc.Save(ArtifactsDir + "PdfSaveOptions.PageMode.pdf", options);
 ```
 
-Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento di cui stiamo effettuando il rendering in PDF.
+Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseOutlines" per visualizzare il riquadro di navigazione della struttura nel PDF di output.
@@ -63,7 +63,7 @@ saveOptions.PageMode = PdfPageMode.UseOutlines;
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.None" su
-// non esporta i segnalibri che si trovano all'interno di intestazioni/piè di pagina.
+// non esporta alcun segnalibro che si trova all'interno di intestazioni/piè di pagina.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.First" su
 // esporta solo i segnalibri nell'intestazione/piè di pagina della prima sezione.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.All" su

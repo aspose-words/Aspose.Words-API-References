@@ -16,11 +16,11 @@ public Document OpenIStream(IStream stream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | IStream | Oggetto .NET IStream che contiene il documento da caricare. |
+| stream | IStream | Un oggetto .NET IStream che contiene il documento da caricare. |
 
 ### Valore di ritorno
 
-UN[`Document`](../../document/) oggetto che rappresenta un documento di Word.
+UN[`Document`](../../document/)oggetto che rappresenta un documento di Word.
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: Enum NumberStyle
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.NumberStyle enum. Specifica lo stile numerico per un elenco note a piè di pagina e note di chiusura numeri di pagina.
+description: Aspose.Words.NumberStyle enum. Specifica lo stile dei numeri per un elenco note a piè di pagina e note di chiusura numeri di pagina.
 type: docs
-weight: 4070
+weight: 4310
 url: /it/net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration
 
-Specifica lo stile numerico per un elenco, note a piè di pagina e note di chiusura, numeri di pagina.
+Specifica lo stile dei numeri per un elenco, note a piè di pagina e note di chiusura, numeri di pagina.
 
 ```csharp
 public enum NumberStyle
@@ -19,15 +19,15 @@ public enum NumberStyle
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Arabic | `0` | Numerazione araba (1, 2, 3, ...) |
-| UppercaseRoman | `1` | Lettera maiuscola romana (I, II, III, ...) |
-| LowercaseRoman | `2` | Roman minuscolo (i, ii, iii, ...) |
+| UppercaseRoman | `1` | Maiuscolo Romano (I, II, III, ...) |
+| LowercaseRoman | `2` | Minuscolo romano (i, ii, iii, ...) |
 | UppercaseLetter | `3` | Lettera maiuscola (A, B, C, ...) |
 | LowercaseLetter | `4` | Lettera minuscola (a, b, c, ...) |
 | Ordinal | `5` | Ordinale (1°, 2°, 3°, ...) |
 | Number | `6` | Numerato (Uno, Due, Tre, ...) |
 | OrdinalText | `7` | Ordinale (testo) (Primo, Secondo, Terzo, ...) |
 | Hex | `8` | Esadecimale: 8, 9, A, B, C, D, E, F, 10, 11, 12 |
-| ChicagoManual | `9` | Manuale di stile di Chicago: *, †, † |
+| ChicagoManual | `9` | Manuale dello stile di Chicago: *, †, † |
 | Kanji | `10` | Ideografo-digitale |
 | KanjiDigit | `11` | Conteggio giapponese |
 | AiueoHalfWidth | `12` | Aiueo |
@@ -35,42 +35,42 @@ public enum NumberStyle
 | ArabicFullWidth | `14` | Arabo a larghezza intera: 1, 2, 3, 4 |
 | ArabicHalfWidth | `15` | Arabo a mezza larghezza: 1, 2, 3, 4 |
 | KanjiTraditional | `16` | Legale giapponese |
-| KanjiTraditional2 | `17` | digitale giapponese diecimila |
+| KanjiTraditional2 | `17` | Diecimila digitali giapponesi |
 | NumberInCircle | `18` | Cerchi chiusi |
 | DecimalFullWidth | `19` | Larghezza intera decimale: 1, 2, 3, 4 |
 | Aiueo | `20` | Aiueo a tutta larghezza |
 | Iroha | `21` | Iroha a tutta larghezza |
 | LeadingZero | `22` | Zero iniziale (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
-| Bullet | `23` | Punto elenco (controlla il codice del carattere nel testo) |
+| Bullet | `23` | Punto elenco (controlla il codice carattere nel testo) |
 | Ganada | `24` | Ganada coreano |
 | Chosung | `25` | Corea Chosung |
 | GB1 | `26` | Punto chiuso |
-| GB2 | `27` | Parentesi racchiusa |
+| GB2 | `27` | Parentesi chiusa |
 | GB3 | `28` | Cerchio chiuso Cinese |
-| GB4 | `29` | Cerchio racchiuso ideogramma |
+| GB4 | `29` | Ideogramma cerchio racchiuso |
 | Zodiac1 | `30` | Ideogramma tradizionale |
 | Zodiac2 | `31` | Ideogramma Zodiaco |
 | Zodiac3 | `32` | Ideogramma Zodiaco tradizionale |
 | TradChinNum1 | `33` | Conteggio taiwanese |
 | TradChinNum2 | `34` | Ideogramma legale tradizionale |
-| TradChinNum3 | `35` | Conteggio taiwanesi di migliaia |
+| TradChinNum3 | `35` | I taiwanesi contano mille |
 | TradChinNum4 | `36` | Digitale taiwanese |
 | SimpChinNum1 | `37` | Conteggio cinese |
-| SimpChinNum2 | `38` | Cinese semplificato legale |
-| SimpChinNum3 | `39` | Il cinese conta migliaia |
+| SimpChinNum2 | `38` | Legale cinese semplificato |
+| SimpChinNum3 | `39` | I cinesi contano mille |
 | SimpChinNum4 | `40` | Cinese (non implementato) |
-| HanjaRead | `41` | Digitale coreano |
+| HanjaRead | `41` | digitale coreano |
 | HanjaReadDigit | `42` | Conteggio coreano |
-| Hangul | `43` | Legale Corea |
+| Hangul | `43` | Legale in Corea |
 | Hanja | `44` | Corea digitale2 |
 | Hebrew1 | `45` | Ebraico-1 |
 | Arabic1 | `46` | Alfabeto arabo |
 | Hebrew2 | `47` | Ebraico-2 |
 | Arabic2 | `48` | Arabo abjad |
-| HindiLetter1 | `49` | vocali hindi |
-| HindiLetter2 | `50` | consonanti hindi |
+| HindiLetter1 | `49` | Vocali hindi |
+| HindiLetter2 | `50` | Consonanti hindi |
 | HindiArabic | `51` | Numeri hindi |
-| HindiCardinalText | `52` | Descrittivo hindi (cardinali) |
+| HindiCardinalText | `52` | Hindi descrittivo (cardinali) |
 | ThaiLetter | `53` | Lettere tailandesi |
 | ThaiArabic | `54` | Numeri tailandesi |
 | ThaiCardinalText | `55` | Descrittivo tailandese (cardinali) |
@@ -83,16 +83,16 @@ public enum NumberStyle
 
 ### Esempi
 
-Mostra come applicare la formattazione personalizzata dell'elenco ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli di elenco.
+// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -118,7 +118,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Crea paragrafi e applica loro entrambi i livelli di elenco della nostra formattazione personalizzata.
+// Crea paragrafi e applica loro entrambi i livelli di elenco della nostra formattazione di elenco personalizzata.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

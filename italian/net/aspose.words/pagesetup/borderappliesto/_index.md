@@ -16,7 +16,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ### Esempi
 
-Mostra come creare un ampio bordo a banda blu nella parte superiore della prima pagina.
+Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

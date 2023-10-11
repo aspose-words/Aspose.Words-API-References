@@ -1,14 +1,14 @@
 ---
 title: Document.LayoutOptions
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene a Opzioni di layout oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento.
+description: Document proprietà. Ottiene aLayoutOptions oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento.
 type: docs
-weight: 230
+weight: 250
 url: /it/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Ottiene a **Opzioni di layout** oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento.
+Ottiene a[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -31,13 +31,13 @@ doc.LayoutOptions.ShowHiddenText = showHiddenText;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```
 
-Mostra come mostrare i segni di paragrafo in un documento di output sottoposto a rendering.
+Mostra come visualizzare i segni di paragrafo in un documento di output sottoposto a rendering.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Aggiungi alcuni paragrafi, quindi attiva i segni di paragrafo per mostrare le estremità dei paragrafi
-// con il simbolo di una crocetta (¶) quando eseguiamo il rendering del documento.
+// Aggiungi alcuni paragrafi, quindi abilita i segni di paragrafo per mostrare la fine dei paragrafi
+// con il simbolo pilcrow (¶) quando eseguiamo il rendering del documento.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

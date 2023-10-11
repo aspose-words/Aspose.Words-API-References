@@ -1,14 +1,14 @@
 ---
 title: Enum EmphasisMark
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.EmphasisMark enum. Specifica i possibili tipi di segno di enfasi.
+description: Aspose.Words.EmphasisMark enum. Specifica i possibili tipi di enfasi.
 type: docs
-weight: 1310
+weight: 1460
 url: /it/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Specifica i possibili tipi di segno di enfasi.
+Specifica i possibili tipi di enfasi.
 
 ```csharp
 public enum EmphasisMark
@@ -26,12 +26,12 @@ public enum EmphasisMark
 
 ### Esempi
 
-Mostra come aggiungere un carattere aggiuntivo visualizzato sopra/sotto il carattere glifo.
+Mostra come aggiungere ulteriori caratteri visualizzati sopra/sotto il carattere glifo.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Possibili tipi di enfasi:
+// Possibili tipi di segni di enfasi:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.FootnoteLayoutLikeWW8
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Emula Word 6.x/95/97 Posizionamento note a piè di pagina.
+description: CompatibilityOptions proprietà. Emula Word 6.x/95/97 Posizionamento delle note a piè di pagina.
 type: docs
 weight: 260
 url: /it/net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
 ## CompatibilityOptions.FootnoteLayoutLikeWW8 property
 
-Emula Word 6.x/95/97 Posizionamento note a piè di pagina.
+Emula Word 6.x/95/97 Posizionamento delle note a piè di pagina.
 
 ```csharp
 public bool FootnoteLayoutLikeWW8 { get; set; }

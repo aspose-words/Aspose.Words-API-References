@@ -1,14 +1,14 @@
 ---
 title: Style.NextParagraphStyleName
 second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene/imposta il nome dello stile da applicare automaticamente a un nuovo paragrafo inserito dopo un paragrafo formattato con lo stile specificato.
+description: Style proprietà. Ottiene/imposta il nome dello stile da applicare automaticamente ad un nuovo paragrafo inserito dopo un paragrafo formattato con lo stile specificato.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-Ottiene/imposta il nome dello stile da applicare automaticamente a un nuovo paragrafo inserito dopo un paragrafo formattato con lo stile specificato.
+Ottiene/imposta il nome dello stile da applicare automaticamente ad un nuovo paragrafo inserito dopo un paragrafo formattato con lo stile specificato.
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
