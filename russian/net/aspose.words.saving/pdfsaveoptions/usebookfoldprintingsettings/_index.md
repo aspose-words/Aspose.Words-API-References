@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseBookFoldPrintingSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета печати брошюры  если он указан черезMultiplePages .
+description: PdfSaveOptions свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages .
 type: docs
-weight: 270
+weight: 300
 url: /ru/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property
 
-Получает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета печати брошюры, , если он указан через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
+Получает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета для печати буклета, , если оно указано через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -16,34 +16,34 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ### Примечания
 
-Если указан этот параметр,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если в параметрах страницы не указаны параметры печати сгибом книги, этот параметр не будет действовать.
+Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если параметры печати сгиба книги не указаны в настройках страницы, этот параметр не будет иметь никакого эффекта.
 
 ### Примеры
 
-Показывает, как сохранить документ в формате PDF в виде книжной складки.
+Показывает, как сохранить документ в формате PDF в виде книжного сгиба.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства «UseBookFoldPrintingSettings» значение «true», чтобы упорядочить содержимое
-// в выходном PDF-файле таким образом, чтобы мы могли использовать его для создания буклета.
-// Задайте для свойства UseBookFoldPrintingSettings значение false, чтобы PDF отображался нормально.
+// Установите для свойства UseBookFoldPrintingSettings значение «true», чтобы упорядочить содержимое
+// в выходном PDF-файле таким образом, чтобы его можно было использовать для создания буклета.
+// Установите для свойства UseBookFoldPrintingSettings значение «false», чтобы нормально отобразить PDF-файл.
 options.UseBookFoldPrintingSettings = renderTextAsBookfold;
 
-// Если мы визуализируем документ как буклет, мы должны установить «Несколько страниц»
-// свойства объектов настройки страницы всех разделов на "MultiplePagesType.BookFoldPrinting".
+// Если мы отображаем документ как буклет, мы должны установить «MultiplePages»
+// свойства объектов настройки страницы всех разделов равны "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookfold)
     foreach (Section s in doc.Sections)
     {
         s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
     }
 
-// Как только мы напечатаем этот документ на обеих сторонах страниц, мы можем согнуть все страницы посередине одновременно,
-// и содержимое выстроится таким образом, что получится буклет.
+// Как только мы напечатаем этот документ на обеих сторонах страниц, мы сможем сразу сложить все страницы посередине,
+// и содержимое выстроится в линию, образующую буклет.
 doc.Save(ArtifactsDir + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 ```
 

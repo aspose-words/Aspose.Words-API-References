@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
-// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
+// Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

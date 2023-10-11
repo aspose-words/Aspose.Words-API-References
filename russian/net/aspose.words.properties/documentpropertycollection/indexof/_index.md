@@ -16,15 +16,15 @@ public int IndexOf(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Нечувствительное к регистру имя свойства. |
+| name | String | Имя свойства без учета регистра. |
 
 ### Возвращаемое значение
 
-Индекс с отсчетом от нуля. Отрицательное значение, если не найдено.
+Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
 ### Примеры
 
-Показывает, как работать с пользовательскими свойствами документа.
+Показывает, как работать с настраиваемыми свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -43,21 +43,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатать каждое пользовательское свойство в документе.
+// Распечатываем все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Обычай".
+// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.

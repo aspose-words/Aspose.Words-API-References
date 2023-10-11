@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageWatermarkOptions свойство. Получает или задает логическое значение отвечающее за размытие водяного знака. Значение по умолчанию  True.
+description: ImageWatermarkOptions свойство. Получает или задает логическое значение отвечающее за эффект размытия водяного знака. Значение по умолчаниюистинный .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Получает или задает логическое значение, отвечающее за размытие водяного знака. Значение по умолчанию — True.
+Получает или задает логическое значение, отвечающее за эффект размытия водяного знака. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -21,8 +21,8 @@ public bool IsWashout { get; set; }
 ```csharp
 Document doc = new Document();
 
-            // Изменяем внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
-            // затем передать его при создании водяного знака из файла изображения.
+            // Измените внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
+            // затем передаем его при создании водяного знака из файла изображения.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

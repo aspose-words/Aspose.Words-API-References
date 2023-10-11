@@ -8,7 +8,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-Выбирает направление замены. Значение по умолчаниюForward .
+Выбирает направление замены. Значение по умолчанию:Forward .
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -16,7 +16,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ### Примеры
 
-Показывает, как определить, в каком направлении операция поиска и замены проходит по документу.
+Показывает, как определить, в каком направлении проходит операция поиска и замены по документу.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -31,17 +31,17 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     builder.Writeln("Match 3.");
     builder.Writeln("Match 4.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Назначаем пользовательский обратный вызов свойству «ReplacingCallback».
+    // Назначаем собственный обратный вызов свойству «ReplacingCallback».
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // Установите для свойства "Направление" значение "FindReplaceDirection.Backward", чтобы получить функцию поиска и замены.
-    // операция, чтобы начать с конца диапазона и вернуться к началу.
-    // Установите для свойства "Направление" значение "FindReplaceDirection.Backward", чтобы получить функцию поиска и замены.
-    // операция, чтобы начать с начала диапазона и пройти до конца.
+    // Установите для свойства Direction значение FindReplaceDirection.Backward, чтобы получить функцию поиска и замены.
+    // операция, которая начинается с конца диапазона и возвращается к началу.
+    // Установите для свойства Direction значение FindReplaceDirection.Backward, чтобы получить функцию поиска и замены.
+    // операция, которая начинается с начала диапазона и проходит до конца.
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
@@ -63,7 +63,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// Записывает все совпадения, возникающие во время операции поиска и замены, в порядке их возникновения.
+/// Записывает все совпадения, возникающие во время операции поиска и замены, в том порядке, в котором они происходили.
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

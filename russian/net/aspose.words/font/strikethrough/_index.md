@@ -1,14 +1,14 @@
 ---
 title: Font.StrikeThrough
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как зачеркнутый текст.
+description: Font свойство. True если шрифт отформатирован как зачеркнутый текст.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-Истинно, если шрифт отформатирован как зачеркнутый текст.
+True, если шрифт отформатирован как зачеркнутый текст.
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -16,7 +16,7 @@ public bool StrikeThrough { get; set; }
 
 ### Примеры
 
-Показывает, как добавить зачеркивание строки к тексту.
+Показывает, как добавить зачеркивание строки в текст.
 
 ```csharp
 Document doc = new Document();

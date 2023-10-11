@@ -3,7 +3,7 @@ title: Document.GetPageInfo
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Получает размер страницы ориентацию и другую информацию о странице которая может быть полезна для печати или рендеринга.
 type: docs
-weight: 590
+weight: 630
 url: /ru/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -16,7 +16,7 @@ public PageInfo GetPageInfo(int pageIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageIndex | Int32 | Индекс страницы, начинающийся с 0. |
+| pageIndex | Int32 | Индекс страницы, отсчитываемый от 0. |
 
 ### Смотрите также
 

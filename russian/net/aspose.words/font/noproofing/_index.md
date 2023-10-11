@@ -1,14 +1,14 @@
 ---
 title: Font.NoProofing
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истина если отформатированные символы не должны проверяться на орфографию.
+description: Font свойство. Истинно если форматированные символы не подлежат проверке орфографии.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/font/noproofing/
 ---
 ## Font.NoProofing property
 
-Истина, если отформатированные символы не должны проверяться на орфографию.
+Истинно, если форматированные символы не подлежат проверке орфографии.
 
 ```csharp
 public bool NoProofing { get; set; }
@@ -16,14 +16,14 @@ public bool NoProofing { get; set; }
 
 ### Примеры
 
-Показывает, как предотвратить проверку орфографии текста программой Microsoft Word.
+Показывает, как предотвратить проверку орфографии текста в Microsoft Word.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Обычно Microsoft Word подчеркивает орфографические ошибки неровным красным подчеркиванием.
-// Мы можем снять флаг "NoProofing", чтобы создать часть текста,
+// Мы можем снять флаг «Без проверки», чтобы создать часть текста, которая
 // обходит проверку орфографии, полностью отключая ее.
 builder.Font.NoProofing = true;
 

@@ -3,12 +3,14 @@ title: Class FieldDisplayBarcode
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.FieldDisplayBarcode сорт. Реализует поле DISPLAYBARCODE.
 type: docs
-weight: 1650
+weight: 1800
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class
 
 Реализует поле DISPLAYBARCODE.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldDisplayBarcode : Field
@@ -24,28 +26,28 @@ public class FieldDisplayBarcode : Field
 
 | Имя | Описание |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/fielddisplaybarcode/addstartstopchar/) { get; set; } | Получает или задает, следует ли добавлять символы Start/Stop для типов штрих-кодов NW7 и CODE39. |
-| [BackgroundColor](../../aspose.words.fields/fielddisplaybarcode/backgroundcolor/) { get; set; } | Получает или задает цвет фона символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] |
+| [AddStartStopChar](../../aspose.words.fields/fielddisplaybarcode/addstartstopchar/) { get; set; } | Получает или задает необходимость добавления символов начала/остановки для типов штрих-кодов NW7 и CODE39. . |
+| [BackgroundColor](../../aspose.words.fields/fielddisplaybarcode/backgroundcolor/) { get; set; } | Получает или задает цвет фона символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] . |
 | [BarcodeType](../../aspose.words.fields/fielddisplaybarcode/barcodetype/) { get; set; } | Получает или задает тип штрих-кода (QR и т. д.) |
 | [BarcodeValue](../../aspose.words.fields/fielddisplaybarcode/barcodevalue/) { get; set; } | Получает или задает значение штрих-кода. |
-| [CaseCodeStyle](../../aspose.words.fields/fielddisplaybarcode/casecodestyle/) { get; set; } | Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] |
+| [CaseCodeStyle](../../aspose.words.fields/fielddisplaybarcode/casecodestyle/) { get; set; } | Получает или задает стиль Case-кода для типа штрих-кода ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] . |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [DisplayText](../../aspose.words.fields/fielddisplaybarcode/displaytext/) { get; set; } | Получает или задает, отображать ли данные штрих-кода (текст) вместе с изображением. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/) { get; set; } | Получает или задает уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. |
-| [FixCheckDigit](../../aspose.words.fields/fielddisplaybarcode/fixcheckdigit/) { get; set; } | Получает или задает, следует ли исправить контрольную цифру, если она недействительна. |
-| [ForegroundColor](../../aspose.words.fields/fielddisplaybarcode/foregroundcolor/) { get; set; } | Получает или задает основной цвет символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [ErrorCorrectionLevel](../../aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/) { get; set; } | Получает или задает уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. . |
+| [FixCheckDigit](../../aspose.words.fields/fielddisplaybarcode/fixcheckdigit/) { get; set; } | Получает или задает, следует ли исправлять контрольную цифру, если она недействительна. |
+| [ForegroundColor](../../aspose.words.fields/fielddisplaybarcode/foregroundcolor/) { get; set; } | Получает или задает цвет переднего плана символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [PosCodeStyle](../../aspose.words.fields/fielddisplaybarcode/poscodestyle/) { get; set; } | Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [ScalingFactor](../../aspose.words.fields/fielddisplaybarcode/scalingfactor/) { get; set; } | Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, допустимые значения: [10, 1000] . |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [PosCodeStyle](../../aspose.words.fields/fielddisplaybarcode/poscodestyle/) { get; set; } | Получает или задает стиль штрих-кода торговой точки (типы штрих-кодов UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
+| [ScalingFactor](../../aspose.words.fields/fielddisplaybarcode/scalingfactor/) { get; set; } | Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах, допустимые значения: [10, 1000] . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
-| [SymbolHeight](../../aspose.words.fields/fielddisplaybarcode/symbolheight/) { get; set; } | Получает или задает высоту символа. Единицы указаны в TWIPS (1/1440 дюйма). |
-| [SymbolRotation](../../aspose.words.fields/fielddisplaybarcode/symbolrotation/) { get; set; } | Получает или задает поворот символа штрих-кода. Допустимые значения: [0, 3] |
+| [SymbolHeight](../../aspose.words.fields/fielddisplaybarcode/symbolheight/) { get; set; } | Получает или задает высоту символа. Единицы измерения — TWIPS (1/1440 дюйма). |
+| [SymbolRotation](../../aspose.words.fields/fielddisplaybarcode/symbolrotation/) { get; set; } | Получает или задает поворот символа штрих-кода. Допустимые значения: [0, 3] . |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
 ## Методы
@@ -54,8 +56,8 @@ public class FieldDisplayBarcode : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
@@ -65,19 +67,19 @@ public class FieldDisplayBarcode : Field
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами QR.
+Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применение пользовательских цветов и масштабирования.
+// Применяем собственные цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -110,7 +112,7 @@ Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ```
 
-Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
 ```csharp
 Document doc = new Document();
@@ -118,8 +120,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Ниже приведены четыре типа штрих-кодов, оформленных по-разному, которые может отображать поле DISPLAYBARCODE.
-// 1 - QR-код с пользовательскими цветами:
+// Ниже приведены четыре типа штрих-кодов, оформленных по-разному, которые могут отображаться в поле DISPLAYBARCODE.
+// 1 - QR-код с произвольными цветами:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -132,7 +134,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - штрих-код EAN13 с цифрами, отображаемыми под штрихами:
+// 2 - штрих-код EAN13, цифры которого отображаются под полосками:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -152,7 +154,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - штрих-код ITF4, с указанным кодом случая:
+// 4 - штрих-код ITF4, с указанным регистром:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

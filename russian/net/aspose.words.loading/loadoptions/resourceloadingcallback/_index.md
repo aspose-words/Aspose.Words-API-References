@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Позволяет управлять загрузкой внешних ресурсов изображений таблиц стилей при импорте документа из HTML MHTML.
+description: LoadOptions свойство. Позволяет контролировать загрузку внешних ресурсов изображений таблиц стилей при импорте документа из HTML MHTML.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML.
+Позволяет контролировать загрузку внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -16,9 +16,10 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### Примеры
 
-Показывает, как обращаться с внешними ресурсами при загрузке HTML-документов.
+Показывает, как обращаться с внешними ресурсами при загрузке документов Html.
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();

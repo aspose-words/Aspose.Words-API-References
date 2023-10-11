@@ -18,7 +18,7 @@ public double WidthPercent { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда аргумент находится вне диапазона допустимых значений. |
+| ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
 ### Примечания
 

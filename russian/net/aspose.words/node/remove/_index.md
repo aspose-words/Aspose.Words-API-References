@@ -1,14 +1,14 @@
 ---
 title: Node.Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Удаляет себя из родителя.
+description: Node метод. Удаляет себя от родителя.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/node/remove/
 ---
 ## Node.Remove method
 
-Удаляет себя из родителя.
+Удаляет себя от родителя.
 
 ```csharp
 public void Remove()
@@ -42,11 +42,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Сохраняем следующий родственный узел как переменную на случай, если мы захотим перейти к нему после удаления этого узла.
+    // Сохраняем следующий одноуровневый узел как переменную на случай, если мы захотим перейти к нему после удаления этого узла.
     Node nextNode = curNode.NextSibling;
 
     // Тело раздела может содержать узлы «Абзац» и «Таблица».
-    // Если узел является таблицей, удалите его из родителя.
+    // Если узел является таблицей, удалите его из родительского узла.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

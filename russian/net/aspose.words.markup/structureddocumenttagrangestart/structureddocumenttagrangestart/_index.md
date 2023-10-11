@@ -35,9 +35,10 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 ### Примеры
 
-Показывает, как создать/удалить структурированный тег документа и его содержимое.
+Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,7 +47,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Удаляет ранжированный структурированный тег документа, но сохраняет содержимое внутри.
+    // Удаляет тег структурированного документа, но сохраняет содержимое внутри.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -64,7 +65,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Удаляет ранжированный структурированный тег документа и содержимое внутри.
+    // Удаляет тег структурированного документа и содержимое внутри него.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

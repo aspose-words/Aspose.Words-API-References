@@ -1,14 +1,14 @@
 ---
 title: FieldGlossary.EntryName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldGlossary свойство. Получает или задает имя записи глоссария для вставки.
+description: FieldGlossary свойство. Получает или задает имя вставляемой записи глоссария.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldglossary/entryname/
 ---
 ## FieldGlossary.EntryName property
 
-Получает или задает имя записи глоссария для вставки.
+Получает или задает имя вставляемой записи глоссария.
 
 ```csharp
 public string EntryName { get; set; }
@@ -21,7 +21,7 @@ public string EntryName { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создайте глоссарий и добавьте в него стандартный блок автотекста.
+// Создаем документ глоссария и добавляем в него стандартный блок автотекста.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -31,7 +31,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Создадим источник и добавим его как текст в наш строительный блок.
+// Создаем источник и добавляем его в виде текста в наш строительный блок.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -39,19 +39,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Установить файл, который содержит части, которые наш документ или прикрепленный к нему шаблон могут не содержать.
+// Устанавливаем файл, содержащий части, которые не могут содержаться в нашем документе или прикрепленном к нему шаблоне.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа использования полей для отображения содержимого нашего стандартного блока.
+// Ниже приведены два способа использования полей для отображения содержимого нашего строительного блока.
 // 1 - Использование поля АВТОТЕКСТ:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Использование поля ГЛОССАРИЙ:
+// 2 – Использование поля ГЛОССАРИЙ:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

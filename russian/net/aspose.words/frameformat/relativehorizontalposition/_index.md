@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает относительное положение кадра по горизонтали.
+description: FrameFormat свойство. Получает относительное горизонтальное положение кадра.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/frameformat/relativehorizontalposition/
 ---
 ## FrameFormat.RelativeHorizontalPosition property
 
-Получает относительное положение кадра по горизонтали.
+Получает относительное горизонтальное положение кадра.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }

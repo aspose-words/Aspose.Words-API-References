@@ -1,14 +1,16 @@
 ---
 title: Class XmlDataLoadOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.XmlDataLoadOptions сорт. Представляет параметры для загрузки данных XML.
+description: Aspose.Words.Reporting.XmlDataLoadOptions сорт. Представляет параметры загрузки XMLданных.
 type: docs
-weight: 4480
+weight: 4740
 url: /ru/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
-Представляет параметры для загрузки данных XML.
+Представляет параметры загрузки XML-данных.
+
+Чтобы узнать больше, посетите[Механизм отчетов LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) статья документации.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -28,7 +30,7 @@ public class XmlDataLoadOptions
 
 ### Примечания
 
-Экземпляр этого класса может быть передан в конструкторы[`XmlDataSource`](../xmldatasource/) .
+Экземпляр этого класса можно передать в конструкторы[`XmlDataSource`](../xmldatasource/) .
 
 ### Смотрите также
 

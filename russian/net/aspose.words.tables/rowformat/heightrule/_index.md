@@ -16,7 +16,7 @@ public HeightRule HeightRule { get; set; }
 
 ### Примеры
 
-Показывает, как форматировать строки с помощью конструктора документов.
+Показывает, как форматировать строки с помощью построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Начнем вторую строку, а затем настроим ее высоту. Конструктор применит эти настройки к
-// его текущая строка, а также любые новые строки, которые она создает впоследствии.
+// Начинаем вторую строку, а затем настраиваем ее высоту. Разработчик применит эти настройки к
+// его текущая строка, а также любые новые строки, которые он создаст впоследствии.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// На первую строку не повлияла реконфигурация заполнения, и она по-прежнему содержит значения по умолчанию.
+// Первая строка не была затронута реконфигурацией заполнения и по-прежнему содержит значения по умолчанию.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -58,7 +58,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Установите некоторые параметры форматирования для текста и внешнего вида таблицы.
+// Установите некоторые параметры форматирования текста и внешнего вида таблицы.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -69,7 +69,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // Настройка параметров форматирования в конструкторе документов применит их
-// в текущую ячейку/строку, в которой находится курсор,
+// к текущей ячейке/строке, в которой находится курсор,
 // а также любые новые ячейки и строки, созданные с помощью этого построителя.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();

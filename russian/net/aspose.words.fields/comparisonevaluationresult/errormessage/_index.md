@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult.ErrorMessage
 second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonEvaluationResult свойство. Получает сообщение об ошибке неудачного результата оценки сравнения.
+description: ComparisonEvaluationResult свойство. Получает сообщение об ошибке результата неудачной оценки сравнения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/errormessage/
 ---
 ## ComparisonEvaluationResult.ErrorMessage property
 
-Получает сообщение об ошибке неудачного результата оценки сравнения.
+Получает сообщение об ошибке результата неудачной оценки сравнения.
 
 ```csharp
 public string ErrorMessage { get; }

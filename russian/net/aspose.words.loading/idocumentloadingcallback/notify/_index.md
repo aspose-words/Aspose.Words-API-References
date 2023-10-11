@@ -20,16 +20,15 @@ public void Notify(DocumentLoadingArgs args)
 
 ### Примечания
 
-Основное использование этого интерфейса — разрешить коду приложения получать статус выполнения и прерывать процесс загрузки.
+Основное использование этого интерфейса — предоставить коду приложения возможность получить статус выполнения и прервать процесс загрузки.
 
-Исключение должно быть выброшено из обратного вызова прогресса для аборта и должно быть перехвачено в коде потребителя.
+Должно быть выдано исключение из обратного вызова прогресса для прерывания, и оно должно быть перехвачено в потребительском коде.
 
 ### Примеры
 
 Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время загрузки.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -44,17 +43,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Обработка проблемы продолжительности загрузки.
+        // Обработка проблемы с продолжительностью загрузки.
     }
 }
 
 /// <summary>
-/// Отменить загрузку документа по истечении "MaxDuration" секунд.
+/// Отменить загрузку документа по истечении секунд "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -62,7 +61,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается при загрузке документа.
+    /// Метод обратного вызова, который вызывается во время загрузки документа.
     /// </summary>
     /// <param name="args">Загрузка аргументов.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -80,7 +79,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

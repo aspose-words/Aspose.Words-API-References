@@ -1,14 +1,14 @@
 ---
 title: Document.Frameset
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ВозвращаетFramesetinstance если этот документ представляет собой страницу фреймов.
+description: Document свойство. ВозвращаетFramesetэкземпляр если этот документ представляет собой страницу фреймов.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Возвращает`Frameset`instance, если этот документ представляет собой страницу фреймов.
+Возвращает`Frameset`экземпляр, если этот документ представляет собой страницу фреймов.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ### Примечания
 
-Если документ не оформлен, свойство имеет значение **нулевой** значение.
+Если документ не заключен в рамку, свойство имеет`нулевой` значение.
 
 ### Примеры
 
@@ -26,7 +26,7 @@ public Frameset Frameset { get; }
 // Документ содержит несколько фреймов со ссылками на другие документы.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Мы можем проверить URL-адрес по умолчанию (URL-адрес веб-страницы или локальный документ) или является ли фрейм внешним ресурсом.
+// Мы можем проверить URL-адрес по умолчанию (URL-адрес веб-страницы или локального документа) или является ли фрейм внешним ресурсом.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

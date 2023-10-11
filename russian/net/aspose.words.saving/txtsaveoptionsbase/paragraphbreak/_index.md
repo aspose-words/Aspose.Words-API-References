@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
 second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Указывает строку используемую в качестве разрыва абзаца при экспорте в текстовые форматы.
+description: TxtSaveOptionsBase свойство. Указывает строку которая будет использоваться в качестве разрыва абзаца при экспорте в текстовые форматы.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 ---
 ## TxtSaveOptionsBase.ParagraphBreak property
 
-Указывает строку, используемую в качестве разрыва абзаца при экспорте в текстовые форматы.
+Указывает строку, которая будет использоваться в качестве разрыва абзаца при экспорте в текстовые форматы.
 
 ```csharp
 public string ParagraphBreak { get; set; }
@@ -16,7 +16,7 @@ public string ParagraphBreak { get; set; }
 
 ### Примечания
 
-Значение по умолчанию[`CrLf`](../../../aspose.words/controlchar/crlf/).
+Значение по умолчанию:[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
 ### Примеры
 
@@ -30,13 +30,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
 // чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Установите для «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конце каждого абзаца.
+// Установите для параметра «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конец каждого абзаца.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

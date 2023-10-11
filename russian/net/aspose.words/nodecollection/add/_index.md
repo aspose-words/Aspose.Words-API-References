@@ -22,15 +22,13 @@ public void Add(Node node)
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | **NodeCollection** представляет собой «глубокую» коллекцию. |
+| NotSupportedException | [`NodeCollection`](../) это «глубокая» коллекция. |
 
 ### Примечания
 
 Узел вставляется как дочерний в объект узла, из которого была создана коллекция.
 
-Если новый дочерний элемент уже находится в дереве, он сначала удаляется.
-
-Если вставляемый узел был создан из другого документа, следует использовать [`ImportNode`](../../documentbase/importnode/) чтобы импортировать узел в текущий документ. Затем импортированный узел можно вставить в текущий документ.
+Если вставляемый узел был создан из другого документа, вам следует использовать [`ImportNode`](../../documentbase/importnode/) для импорта узла в текущий документ. Импортированный узел можно затем вставить в текущий документ.
 
 ### Примеры
 
@@ -39,18 +37,18 @@ public void Add(Node node)
 ```csharp
 Document doc = new Document();
 
-// Пустой документ состоит из раздела, в котором есть тело, а в нем, в свою очередь, есть абзац.
+// Пустой документ имеет раздел, в котором есть тело, которое, в свою очередь, имеет абзац.
 // Мы можем добавить содержимое в этот документ, добавив в этот абзац такие элементы, как текстовые фрагменты, фигуры или таблицы.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Если мы добавим новый раздел, подобный этому, у него не будет ни тела, ни каких-либо других дочерних узлов.
+// Если мы добавим новый раздел таким образом, у него не будет тела или других дочерних узлов.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Запустите метод "EnsureMinimum", чтобы добавить текст и абзац в этот раздел, чтобы начать его редактирование.
+// Запускаем метод EnsureMinimum, чтобы добавить тело и абзац в этот раздел и начать его редактирование.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

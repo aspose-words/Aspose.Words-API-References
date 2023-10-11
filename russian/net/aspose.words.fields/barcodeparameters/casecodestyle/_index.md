@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Стиль кода случая для штрихкода типа ITF14. Допустимые значения STDEXTADD
+description: BarcodeParameters свойство. Стиль регистрового кода для типа штрихкода ITF14. Допустимые значения STDEXTADD .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/barcodeparameters/casecodestyle/
 ---
 ## BarcodeParameters.CaseCodeStyle property
 
-Стиль кода случая для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD]
+Стиль регистрового кода для типа штрих-кода ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] .
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -21,9 +21,8 @@ public string CaseCodeStyle { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не сжимайте сжимаемые символы при использовании сетки документа.
+description: CompatibilityOptions свойство. Не сжимать сжимаемые символы при использовании сетки документа.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions.DoNotUseEastAsianBreakRules property
 
-Не сжимайте сжимаемые символы при использовании сетки документа.
+Не сжимать сжимаемые символы при использовании сетки документа.
 
 ```csharp
 public bool DoNotUseEastAsianBreakRules { get; set; }

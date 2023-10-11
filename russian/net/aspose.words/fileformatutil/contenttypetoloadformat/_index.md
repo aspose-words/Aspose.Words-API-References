@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Преобразует тип контента IANA в перечислимое значение формата загрузки.
+description: FileFormatUtil метод. Преобразует тип контента IANA в перечисляемое значение формата загрузки.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-Преобразует тип контента IANA в перечислимое значение формата загрузки.
+Преобразует тип контента IANA в перечисляемое значение формата загрузки.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -18,17 +18,17 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выбрасывает, когда не может преобразовать. |
+| ArgumentException | Выдает, когда невозможно преобразовать. |
 
 ### Примеры
 
 Показывает, как найти соответствующий формат загрузки/сохранения Aspose из каждой строки типа мультимедиа.
 
 ```csharp
-// Методы ContentTypeToSaveFormat/ContentTypeToLoadFormat принимают только официальные имена типов мультимедиа IANA, также известные как типы MIME. 
-// Здесь перечислены все допустимые типы мультимедиа: https://www.iana.org/assignments/media-types/media-types.xhtml.
+ // Методы ContentTypeToSaveFormat/ContentTypeToLoadFormat принимают только официальные имена типов мультимедиа IANA, также известные как типы MIME.
+// Все допустимые типы мультимедиа перечислены здесь: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Попытка связать SaveFormat с частичной строкой типа мультимедиа не сработает.
+// Попытка связать SaveFormat с частичной строкой медиа-типа не сработает.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
 // Если Aspose.Words не имеет соответствующего формата сохранения/загрузки для типа контента, также будет выдано исключение.

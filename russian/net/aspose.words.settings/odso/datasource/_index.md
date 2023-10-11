@@ -1,14 +1,14 @@
 ---
 title: Odso.DataSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает расположение внешнего источника данных который необходимо подключить к документу для выполнения слияния почты. Значение по умолчанию  пустая строка.
+description: Odso свойство. Указывает расположение внешнего источника данных который будет подключен к документу для выполнения слияния почты. Значение по умолчанию  пустая строка.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odso/datasource/
 ---
 ## Odso.DataSource property
 
-Указывает расположение внешнего источника данных, который необходимо подключить к документу для выполнения слияния почты. Значение по умолчанию — пустая строка.
+Указывает расположение внешнего источника данных, который будет подключен к документу для выполнения слияния почты. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string DataSource { get; set; }
@@ -29,7 +29,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

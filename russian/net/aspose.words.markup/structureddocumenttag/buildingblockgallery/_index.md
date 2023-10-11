@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockGallery
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Определяет тип стандартного блока для этого СДТ . Не может быть нулевым.
+description: StructuredDocumentTag свойство. Указывает тип строительного блока для этого СДТ . Не может бытьнулевой .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Определяет тип стандартного блока для этого **СДТ** . Не может быть нулевым.
+Указывает тип строительного блока для этого **СДТ** . Не может быть`нулевой` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -16,13 +16,13 @@ public string BuildingBlockGallery { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляBuildingBlockGallery и DocPartObj Типы СДТ. Он доступен только для чтения **СДТ**типа части документа.
+Доступ к этому ресурсу будет работать только дляBuildingBlockGallery and DocPartObj Типы СДТ. Он доступен только для чтения для **СДТ** типа части документа.
 
-Для всех других типов SDT будет иметь место исключение.
+Для всех остальных типов SDT возникнет исключение.
 
 ### Примеры
 
-Показывает, как вставить тег структурированного документа в качестве стандартного блока и задать его категорию и галерею.
+Показывает, как вставить тег структурированного документа в качестве стандартного блока и установить его категорию и галерею.
 
 ```csharp
 Document doc = new Document();

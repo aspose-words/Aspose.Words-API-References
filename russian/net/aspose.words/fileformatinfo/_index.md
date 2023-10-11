@@ -1,14 +1,16 @@
 ---
 title: Class FileFormatInfo
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.FileFormatInfo сорт. Содержит данные возвращенныеFileFormatUtil методы определения формата документа.
+description: Aspose.Words.FileFormatInfo сорт. Содержит данные возвращаемыеFileFormatUtil методы определения формата документа.
 type: docs
-weight: 2630
+weight: 2810
 url: /ru/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
-Содержит данные, возвращенные[`FileFormatUtil`](../fileformatutil/) методы определения формата документа.
+Содержит данные, возвращаемые[`FileFormatUtil`](../fileformatutil/) методы определения формата документа.
+
+Чтобы узнать больше, посетите[Определить формат файла и проверить совместимость форматов](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) статья документации.
 
 ```csharp
 public class FileFormatInfo
@@ -19,13 +21,13 @@ public class FileFormatInfo
 | Имя | Описание |
 | --- | --- |
 | [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Получает обнаруженную кодировку, если она применима к текущему формату документа. На данный момент определяет кодировку только для документов HTML. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Возвращает true, если этот документ содержит цифровую подпись. Это свойство просто информирует о наличии цифровой подписи в документе, , но не указывает, является ли подпись действительной или нет. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Возвращает значение true, если документ зашифрован и для его открытия требуется пароль. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Возвращает`истинный`если этот документ содержит цифровую подпись. Это свойство просто сообщает, что в документе присутствует цифровая подпись, , но не указывает, действительна ли подпись или нет. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Возвращает`истинный` если документ зашифрован и для открытия требуется пароль. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Получает обнаруженный формат документа. |
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Объекты этого класса возвращаются [`DetectFileFormat`](../fileformatutil/detectfileformat/)методы.
+Вы не создаете экземпляры этого класса напрямую. Объекты этого класса возвращаются [`DetectFileFormat`](../fileformatutil/detectfileformat/) методы.
 
 ### Примеры
 
@@ -34,14 +36,14 @@ public class FileFormatInfo
 ```csharp
 Document doc = new Document();
 
-// Настроить объект SaveOptions для шифрования документа
+// Настраиваем объект SaveOptions для шифрования документа
 // с паролем, когда мы его сохраняем, а затем сохраняем документ.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// Проверяем тип файла нашего документа и его статус шифрования.
+// Проверяем тип файла нашего документа и статус его шифрования.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));

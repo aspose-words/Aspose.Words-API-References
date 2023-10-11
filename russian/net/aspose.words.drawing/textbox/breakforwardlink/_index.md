@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Справочник по API Aspose.Words для .NET
-description: TextBox метод. Разрывает ссылку на следующее TextBox.
+description: TextBox метод. Разрывает ссылку на следующийTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Разрывает ссылку на следующее TextBox.
+Разрывает ссылку на следующий[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Примечания
 
-BreakForwardLink() не разрывает все остальные ссылки в текущей последовательности фигур. Например: последовательность 1-2-3-4 и BreakForwardLink во втором текстовом поле создадут две последовательности 1-2, 3-4.
+`BreakForwardLink`не разрывает все остальные связи в текущей последовательности фигур. Например: последовательность 1-2-3-4 и`BreakForwardLink` во 2-м текстовом поле создадим две последовательности 1-2, 3-4.
 
 ### Примеры
 
@@ -41,7 +41,7 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Создать ссылки между некоторыми текстовыми полями.
+// Создаем ссылки между некоторыми текстовыми полями.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
@@ -66,7 +66,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Разорвите прямую связь между textBox2 и textBox3, а затем убедитесь, что они больше не связаны.
+    // Разрыв прямой ссылки между textBox2 и textBox3, а затем проверяем, что они больше не связаны.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

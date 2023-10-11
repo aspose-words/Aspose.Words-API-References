@@ -1,12 +1,14 @@
 ---
 title: Cluster.Codepoints
 second_title: Справочник по API Aspose.Words для .NET
-description: Cluster свойство. 
+description: Cluster свойство. Получает коды кластера.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.shaping/cluster/codepoints/
 ---
 ## Cluster.Codepoints property
+
+Получает коды кластера.
 
 ```csharp
 public int[] Codepoints { get; }

@@ -3,7 +3,7 @@ title: Fill.PresetTexture
 second_title: Справочник по API Aspose.Words для .NET
 description: Fill свойство. ПолучаетPresetTexture для заливки.
 type: docs
-weight: 110
+weight: 170
 url: /ru/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property

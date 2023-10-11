@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Определяет как экспортируются закладки в верхних/нижних колонтитулах.
+description: PdfSaveOptions свойство. Определяет как экспортируются закладки в верхних и нижних колонтитулах.
 type: docs
-weight: 150
+weight: 180
 url: /ru/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-Определяет, как экспортируются закладки в верхних/нижних колонтитулах.
+Определяет, как экспортируются закладки в верхних и нижних колонтитулах.
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -16,34 +16,34 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 ### Примечания
 
-Значение по умолчаниюAll.
+Значение по умолчанию:All.
 
 Это свойство используется совместно с[`OutlineOptions`](../outlineoptions/) вариант.
 
 ### Примеры
 
-Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы преобразуем в PDF.
+Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Установите для свойства "PageMode" значение "PdfPageMode.UseOutlines", чтобы отобразить панель навигации схемы в выходном PDF-файле.
+// Установите для свойства «PageMode» значение «PdfPageMode.UseOutlines», чтобы отобразить контурную панель навигации в выходном PDF-файле.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Установите для свойства "DefaultBookmarksOutlineLevel" значение "1", чтобы отобразить все
-// закладки на первом уровне схемы в выходном PDF.
+// Установите для свойства «DefaultBookmarksOutlineLevel» значение «1», чтобы отобразить все
+// закладки на первом уровне структуры в выходном PDF.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Установите для свойства "HeaderFooterBookmarksExportMode" значение "HeaderFooterBookmarksExportMode.None", чтобы
-// не экспортировать закладки внутри верхних/нижних колонтитулов.
+// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.None», чтобы
+// не экспортировать закладки, находящиеся внутри верхних/нижних колонтитулов.
 // Установите для свойства "HeaderFooterBookmarksExportMode" значение "HeaderFooterBookmarksExportMode.First", чтобы
-// экспортировать закладки только в верхний/нижний колонтитулы первого раздела.
-// Установите для свойства "HeaderFooterBookmarksExportMode" значение "HeaderFooterBookmarksExportMode.All", чтобы
-// экспортировать закладки, которые есть во всех верхних/нижних колонтитулах.
+// экспортируем только закладки в верхнем/нижнем колонтитуле первого раздела.
+// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.All», чтобы
+// экспортируем закладки, которые есть во всех верхних/нижних колонтитулах.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

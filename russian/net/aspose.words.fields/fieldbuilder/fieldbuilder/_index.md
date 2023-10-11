@@ -25,13 +25,13 @@ public FieldBuilder(FieldType fieldType)
 ```csharp
 Document doc = new Document();
 
-// Удобный способ добавления текстового содержимого в документ — с помощью конструктора документов.
+// Удобный способ добавления текстового содержимого в документ — использование конструктора документов.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
 // У полей есть свой конструктор, который мы можем использовать для построения кода поля по частям.
 // В этом случае мы создадим поле BARCODE, представляющее почтовый индекс США,
-// а затем вставьте его перед Run.
+// и затем вставляем его перед Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");

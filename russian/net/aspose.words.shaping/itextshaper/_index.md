@@ -1,12 +1,14 @@
 ---
 title: Interface ITextShaper
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.ITextShaper интерфейс. 
+description: Aspose.Words.Shaping.ITextShaper интерфейс. Предоставляет методы для формирования текста.
 type: docs
-weight: 5750
+weight: 6050
 url: /ru/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
+
+Предоставляет методы для формирования текста.
 
 ```csharp
 public interface ITextShaper : IDisposable
@@ -16,7 +18,7 @@ public interface ITextShaper : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(string[], Direction, UnicodeScript, params FontFeature[]) |  |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(string[], Direction, UnicodeScript, params FontFeature[]) | Возвращает[`Cluster`](../cluster/)объекты, сгенерированные из последовательности текстовых фрагментов. Длина возвращаемого массива равна длине*runs* . Если запуск по индексу имеет соответствующие кластеры, то результат по тому же индексу будет записан. |
 
 ### Смотрите также
 

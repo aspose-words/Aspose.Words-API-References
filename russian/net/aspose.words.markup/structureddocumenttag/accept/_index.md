@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Accept
 second_title: Справочник по API Aspose.Words для .NET
 description: StructuredDocumentTag метод. Принимает посетителя.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/aspose.words.markup/structureddocumenttag/accept/
 ---
 ## StructuredDocumentTag.Accept method
@@ -16,23 +16,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-звонки[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/)для всех дочерних узлов смарт-тега и вызовов[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) в конце.
+Звонки[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для all дочерних узлов смарт-тега и вызовов[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) в конце.
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого тега структурированного документа в документе.
+Показывает, как распечатать структуру узла каждого тега структурированного документа в документе.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -40,17 +40,17 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
-/// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их потомков.
+/// Обходит недвоичное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их дочерних элементов.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -101,7 +101,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

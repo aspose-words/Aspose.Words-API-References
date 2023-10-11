@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Флаг указывает должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение trueFontFormat а такжеExportEmbeddedFontsсвойства не действуют такжеResourceSavingCallback не срабатывает для шрифтов. Значение по умолчанию  false.
+description: HtmlFixedSaveOptions свойство. Флаг указывает необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значениеистинный FontFormat иExportEmbeddedFonts свойства не имеют эффекта такжеResourceSavingCallback не запускается для шрифтов. По умолчаниюЛОЖЬ .
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Флаг указывает, должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение true,[`FontFormat`](../fontformat/) а также[`ExportEmbeddedFonts`](../exportembeddedfonts/)свойства не действуют, также[`ResourceSavingCallback`](../resourcesavingcallback/) не срабатывает для шрифтов. Значение по умолчанию — false.
+Флаг указывает, необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значение`истинный` ,[`FontFormat`](../fontformat/) и[`ExportEmbeddedFonts`](../exportembeddedfonts/) свойства не имеют эффекта, также[`ResourceSavingCallback`](../resourcesavingcallback/) не запускается для шрифтов. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### Примеры
 
-Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

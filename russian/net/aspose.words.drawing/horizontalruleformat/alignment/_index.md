@@ -16,7 +16,7 @@ public HorizontalRuleAlignment Alignment { get; set; }
 
 ### Примечания
 
-Значение по умолчаниюLeft.
+Значение по умолчанию:Left.
 
 ### Примеры
 

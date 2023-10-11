@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.MergePastedLists
 second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчаниюЛОЖЬ .
+description: ImportFormatOptions свойство. Получает или задает логическое значение определяющее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-Получает или задает логическое значение, указывающее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:`ЛОЖЬ` .
+Получает или задает логическое значение, определяющее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool MergePastedLists { get; set; }

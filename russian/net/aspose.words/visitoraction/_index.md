@@ -3,7 +3,7 @@ title: Enum VisitorAction
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.VisitorAction перечисление. Позволяет посетителю управлять перечислением узлов.
 type: docs
-weight: 6310
+weight: 6620
 url: /ru/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd свойство. Указывает уникальный постоянный числовой идентификатор только для чтения для этого СтруктурированныйДокументтегдиапазон node. СоответствующийStructuredDocumentTagRangeStart узел такой жеId .
+description: StructuredDocumentTagRangeEnd свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения. Структурированный документTagRange node. СоответствующийStructuredDocumentTagRangeStart узел имеет то же самоеId .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Указывает уникальный постоянный числовой идентификатор только для чтения для этого **СтруктурированныйДокументтегдиапазон** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел такой же[`Id`](../../structureddocumenttagrangestart/id/) .
+Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -16,7 +16,7 @@ public int Id { get; }
 
 ### Примеры
 
-Показывает, как получить свойства тегов структурированного документа, состоящего из нескольких разделов.
+Показывает, как получить свойства тегов многосекционного структурированного документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

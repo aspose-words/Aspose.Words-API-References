@@ -1,14 +1,14 @@
 ---
 title: Font.DoubleStrikeThrough
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как двойной зачеркнутый текст.
+description: Font свойство. True если шрифт отформатирован как текст с двойным зачеркиванием.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-Истинно, если шрифт отформатирован как двойной зачеркнутый текст.
+True, если шрифт отформатирован как текст с двойным зачеркиванием.
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }
@@ -16,7 +16,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ### Примеры
 
-Показывает, как добавить зачеркивание строки к тексту.
+Показывает, как добавить зачеркивание строки в текст.
 
 ```csharp
 Document doc = new Document();

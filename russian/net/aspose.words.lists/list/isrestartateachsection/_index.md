@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Указывает следует ли перезапускать список в каждом разделе. Значение по умолчанию ЛОЖЬ .
+description: List свойство. Указывает следует ли перезапускать список в каждом разделе. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию: **ЛОЖЬ** .
+Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -18,11 +18,11 @@ public bool IsRestartAtEachSection { get; set; }
 
 Эта опция поддерживается только в форматах документов RTF, DOC и DOCX.
 
-Эта опция будет записана в DOCX, только если[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) выше, чемEcma376_2006.
+Эта опция будет записана в DOCX только в том случае, если[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) тогда вышеEcma376_2006.
 
 ### Примеры
 
-Показывает, как настроить список для перезапуска нумерации в каждом разделе.
+Показывает, как настроить список для возобновления нумерации в каждом разделе.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// Свойство "IsRestartAtEachSection" будет применяться только тогда, когда
-// уровень соответствия документа OOXML соответствует более новому стандарту, чем "OoxmlComplianceCore.Ecma376".
+// Свойство IsRestartAtEachSection будет применимо только тогда, когда
+// Уровень соответствия документа OOXML соответствует более новому стандарту, чем «OoxmlComplianceCore.Ecma376».
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

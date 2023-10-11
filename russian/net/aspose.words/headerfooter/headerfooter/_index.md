@@ -17,13 +17,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
-| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype/)value , указывающий тип верхнего или нижнего колонтитула. |
+| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype/) value , указывающее тип верхнего или нижнего колонтитула. |
 
 ### Примечания
 
-Когда **Верхний колонтитул** создан, он принадлежит указанному документу, но не является частью документа и **Родительский узел** нулевой.
+Когда[`HeaderFooter`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить **Верхний колонтитул** к **Раздел** используйте Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add или HeadersFooters.Insert.
+Чтобы добавить[`HeaderFooter`](../)к[`Section`](../../section/) использоватьNode) ,Node) , или[`HeadersFooters`](../../section/headersfooters/) свойство и методы[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Примеры
 
@@ -33,7 +33,7 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintBodyTextBeforeHeader
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Печатать основной текст перед содержимым верхнего/нижнего колонтитула.
+description: CompatibilityOptions свойство. Печатать основной текст перед содержимым верхнего или нижнего колонтитула.
 type: docs
 weight: 390
 url: /ru/net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
 ---
 ## CompatibilityOptions.PrintBodyTextBeforeHeader property
 
-Печатать основной текст перед содержимым верхнего/нижнего колонтитула.
+Печатать основной текст перед содержимым верхнего или нижнего колонтитула.
 
 ```csharp
 public bool PrintBodyTextBeforeHeader { get; set; }

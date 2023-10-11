@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataTable
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldDatabaseDataTable сорт. Предоставляет данные дляFieldDatabase результат поля.
+description: Aspose.Words.Fields.FieldDatabaseDataTable сорт. Предоставляет данные дляFieldDatabase результат поля. Пожалуйста посмотриDataTable экземпляр.
 type: docs
-weight: 1610
+weight: 1760
 url: /ru/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-Предоставляет данные для[`FieldDatabase`](../fielddatabase/) результат поля.
+Предоставляет данные для[`FieldDatabase`](../fielddatabase/) результат поля. Пожалуйста, посмотриDataTable экземпляр.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldDatabaseDataTable

@@ -1,14 +1,14 @@
 ---
 title: RevisionCollection.Groups
 second_title: Справочник по API Aspose.Words для .NET
-description: RevisionCollection свойство. Коллекция групп ревизий.
+description: RevisionCollection свойство. Коллекция групп редакций.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisioncollection/groups/
 ---
 ## RevisionCollection.Groups property
 
-Коллекция групп ревизий.
+Коллекция групп редакций.
 
 ```csharp
 public RevisionGroupCollection Groups { get; }
@@ -16,17 +16,17 @@ public RevisionGroupCollection Groups { get; }
 
 ### Примеры
 
-Показывает, как работать с набором редакций документа.
+Показывает, как работать с коллекцией редакций документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Сама эта коллекция имеет коллекцию групп ревизий.
-// Каждая группа представляет собой последовательность смежных ревизий.
+// Эта коллекция сама содержит набор групп ревизий.
+// Каждая группа представляет собой последовательность соседних ревизий.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Перебираем набор групп и печатаем текст, к которому относится ревизия.
+// Перебираем коллекцию групп и печатаем текст, к которому относится редакция.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -37,7 +37,7 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 }
 
 // Каждый запуск, на который влияет ревизия, получает соответствующий объект ревизии.
-// Коллекция ревизий значительно больше, чем сжатая форма, которую мы напечатали выше,
+// Коллекция редакций значительно больше, чем в сокращенной форме, которую мы напечатали выше,
 // в зависимости от того, на сколько прогонов мы сегментировали документ во время редактирования Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
@@ -45,9 +45,9 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange строго влияет на стили, а не на узлы документа. Это означает "ParentStyle"
-        // свойство всегда будет использоваться, а ParentNode всегда будет нулевым.
-        // Поскольку все остальные изменения влияют на узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет иметь значение null.
+        // StyleDefinitionChange влияет исключительно на стили, а не на узлы документа. Это означает «Родительский стиль».
+        // Свойство всегда будет использоваться, а ParentNode всегда будет иметь значение null.
+        // Поскольку все остальные изменения затрагивают узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет иметь значение null.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -61,7 +61,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Отклоняем все ревизии через коллекцию, возвращая документу его первоначальную форму.
+// Отклоняем все изменения через коллекцию, возвращая документ в исходную форму.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

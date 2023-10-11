@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.ParentParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath свойство. Извлекает родителяParagraph этого узла.
+description: OfficeMath свойство. Получает родительский элементParagraph этого узла.
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/aspose.words.math/officemath/parentparagraph/
 ---
 ## OfficeMath.ParentParagraph property
 
-Извлекает родителя[`Paragraph`](../../../aspose.words/paragraph/) этого узла.
+Получает родительский элемент[`Paragraph`](../../../aspose.words/paragraph/) этого узла.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -16,23 +16,20 @@ public Paragraph ParentParagraph { get; }
 
 ### Примеры
 
-Показывает, как настроить формат отображения математических данных в офисе.
+Показывает, как настроить форматирование отображения математических функций Office.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Узлы OfficeMath, являющиеся потомками других узлов OfficeMath, всегда являются встроенными.
+// Узлы OfficeMath, являющиеся дочерними по отношению к другим узлам OfficeMath, всегда являются встроенными.
 // Узел, с которым мы работаем, является базовым узлом для изменения его местоположения и типа отображения.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Форматы OOXML и WML используют свойство "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Измените расположение и тип отображения узла OfficeMath.
+// Изменяем расположение и тип отображения узла OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

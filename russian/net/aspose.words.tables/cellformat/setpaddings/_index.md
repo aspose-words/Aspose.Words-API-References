@@ -1,14 +1,14 @@
 ---
 title: CellFormat.SetPaddings
 second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat метод. Устанавливает количество места в пунктах для добавления слева/сверху/справа/снизу содержимого ячейки.
+description: CellFormat метод. Устанавливает количество места в пунктах добавляемое слева/сверху/справа/снизу содержимого ячейки.
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Устанавливает количество места (в пунктах) для добавления слева/сверху/справа/снизу содержимого ячейки.
+Устанавливает количество места (в пунктах), добавляемое слева/сверху/справа/снизу содержимого ячейки.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -23,8 +23,8 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Устанавливаем отступ (в пунктах) между границей и текстовым содержимым
-// каждой ячейки таблицы, которую мы создаем с помощью конструктора документов. 
+// Устанавливаем расстояние отступа (в пунктах) между границей и текстовым содержимым
+ // каждой ячейки таблицы, которую мы создаем с помощью построителя документов.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
 // Создаем таблицу с одной ячейкой, содержимое которой будет заполнено пробелами.

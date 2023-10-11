@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.Styles
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Возвращает набор стилей определенных в документе.
+description: DocumentBase свойство. Возвращает коллекцию стилей определенных в документе.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
 
-Возвращает набор стилей, определенных в документе.
+Возвращает коллекцию стилей, определенных в документе.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -16,7 +16,7 @@ public StyleCollection Styles { get; }
 
 ### Примечания
 
-Для получения дополнительной информации см. описание[`StyleCollection`](../../stylecollection/) учебный класс.
+Более подробную информацию смотрите в описании[`StyleCollection`](../../stylecollection/) сорт.
 
 ### Примеры
 
@@ -27,7 +27,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечислить и перечислить все стили, которые документ, созданный с помощью Aspose.Words, содержит по умолчанию.
+// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -49,7 +49,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать собственный стиль абзаца.
+// Создаем собственный стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -59,11 +59,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Применяем стиль абзаца к текущему абзацу конструктора документов, а затем добавляем текст.
+// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль построителя документа на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

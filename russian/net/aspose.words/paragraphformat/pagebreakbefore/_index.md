@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.PageBreakBefore
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если разрыв страницы принудительно ставится перед абзацем.
+description: ParagraphFormat свойство. Истинно если перед абзацем принудительно устанавливается разрыв страницы.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
 
-Истинно, если разрыв страницы принудительно ставится перед абзацем.
+Истинно, если перед абзацем принудительно устанавливается разрыв страницы.
 
 ```csharp
 public bool PageBreakBefore { get; set; }
@@ -22,11 +22,11 @@ public bool PageBreakBefore { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите для этого флага значение «true», чтобы применить разрыв страницы к началу каждого абзаца
-// который создаст документ в соответствии с этой конфигурацией ParagraphFormat.
+// Установите этот флаг в значение «истина», чтобы применить разрыв страницы к началу каждого абзаца.
+// который создатель документа создаст в этой конфигурации ParagraphFormat.
 // Первый абзац не получит разрыв страницы.
-// Оставьте для этого флага значение «false», чтобы каждый новый абзац начинался на той же странице
-// как и предыдущее, при условии, что места достаточно.
+// Оставьте этот флаг равным «false», чтобы каждый новый абзац начинался на той же странице.
+// как и предыдущий, при условии, что достаточно места.
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;
 
 builder.Writeln("Paragraph 1.");

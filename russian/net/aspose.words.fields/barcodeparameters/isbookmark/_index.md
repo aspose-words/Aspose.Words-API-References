@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.IsBookmark
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Будь тоPostalAddress имя закладки.
+description: BarcodeParameters свойство. ЛиPostalAddress это имя закладки.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/barcodeparameters/isbookmark/
 ---
 ## BarcodeParameters.IsBookmark property
 
-Будь то[`PostalAddress`](../postaladdress/) имя закладки.
+Ли[`PostalAddress`](../postaladdress/) это имя закладки.
 
 ```csharp
 public bool IsBookmark { get; set; }
@@ -21,9 +21,8 @@ public bool IsBookmark { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

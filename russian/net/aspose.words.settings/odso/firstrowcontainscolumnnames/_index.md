@@ -1,14 +1,14 @@
 ---
 title: Odso.FirstRowContainsColumnNames
 second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает что хостприложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка содержащую имена каждого столбца в источнике данных. Значение по умолчаниюЛОЖЬ .
+description: Odso свойство. Указывает что ведущее приложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка содержащую имена каждого столбца в источнике данных. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Указывает, что хост-приложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка, содержащую имена каждого столбца в источнике данных. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, что ведущее приложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка, содержащую имена каждого столбца в источнике данных. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -16,7 +16,7 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ### Примечания
 
-РК Я никогда не видел это в использовании.
+РК: Я никогда не видел, чтобы это использовалось.
 
 ### Примеры
 
@@ -33,7 +33,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

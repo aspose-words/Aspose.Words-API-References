@@ -3,7 +3,7 @@ title: Enum VbaReferenceType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Vba.VbaReferenceType перечисление. Позволяет указать типVbaReference объект.
 type: docs
-weight: 6300
+weight: 6610
 url: /ru/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
@@ -19,16 +19,15 @@ public enum VbaReferenceType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Registered | `13` | Указывает тип ссылки на библиотеку типов автоматизации. |
-| Project | `14` | Указывает тип ссылки на внешний проект VBA. |
-| Original | `51` | Указывает исходный тип ссылки на библиотеку типов автоматизации. |
-| Control | `47` | Определяет ссылочный тип библиотеки типов. |
+| Project | `14` | Указан тип ссылки на внешний проект VBA. |
+| Original | `51` | Указывает исходный ссылочный тип библиотеки типов автоматизации. |
+| Control | `47` | Указывает измененный ссылочный тип библиотеки типов. |
 
 ### Примеры
 
-Показывает, как получить/удалить элемент из коллекции ссылок VBA.
+Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Возвращает строку, представляющую путь LibId указанной ссылки. 
+ /// Возвращает строку, представляющую путь LibId указанной ссылки.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -72,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -87,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

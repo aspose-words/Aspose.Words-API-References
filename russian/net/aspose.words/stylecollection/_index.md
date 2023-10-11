@@ -1,14 +1,16 @@
 ---
 title: Class StyleCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.StyleCollection сорт. Коллекция объектов Style представляющих как встроенные так и определяемые пользователем стили в документе.
+description: Aspose.Words.StyleCollection сорт. КоллекцияStyle объекты которые представляют как встроенные так и пользовательские стили в документе.
 type: docs
-weight: 5840
+weight: 6140
 url: /ru/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Коллекция объектов Style, представляющих как встроенные, так и определяемые пользователем стили в документе.
+Коллекция[`Style`](../style/) объекты, которые представляют как встроенные, так и пользовательские стили в документе.
+
+Чтобы узнать больше, посетите[Работа со стилями и темами](https://docs.aspose.com/words/net/working-with-styles-and-themes/) статья документации.
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -30,7 +32,7 @@ public class StyleCollection : IEnumerable<Style>
 | --- | --- |
 | [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Создает новый пользовательский стиль и добавляет его в коллекцию. |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Копирует стиль в эту коллекцию. |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Удаляет все стили из панели галереи быстрых стилей. |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Удаляет все стили с панели «Галерея экспресс-стилей». |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Получает объект перечислителя, который будет перечислять стили в алфавитном порядке их имен. |
 
 ### Примеры
@@ -41,7 +43,7 @@ public class StyleCollection : IEnumerable<Style>
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать собственный стиль абзаца.
+// Создаем собственный стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -51,11 +53,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Применяем стиль абзаца к текущему абзацу конструктора документов, а затем добавляем текст.
+// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль построителя документа на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

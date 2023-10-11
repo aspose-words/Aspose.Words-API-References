@@ -3,7 +3,7 @@ title: Document.Save
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Сохраняет документ в файл. Автоматически определяет формат сохранения из расширения.
 type: docs
-weight: 680
+weight: 720
 url: /ru/net/aspose.words/document/save/
 ---
 ## Save(string) {#save_2}
@@ -16,7 +16,7 @@ public SaveOutputParameters Save(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя для документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
+| fileName | String | Имя документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// Загрузите документ PDF, который мы только что сохранили, и преобразуйте его в .docx.
+// Загрузите PDF-документ, который мы только что сохранили, и преобразуйте его в .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -59,7 +59,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ## Save(string, SaveFormat) {#save_3}
 
-Сохраняет документ в файл в указанном формате.
+Сохраняет документ в файл указанного формата.
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
@@ -67,8 +67,8 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя для документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
-| saveFormat | SaveFormat | Формат, в котором нужно сохранить документ. |
+| fileName | String | Имя документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
+| saveFormat | SaveFormat | Формат сохранения документа. |
 
 ### Возвращаемое значение
 
@@ -76,7 +76,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 ### Примеры
 
-Показывает, как конвертировать из формата DOCX в формат HTML.
+Показывает, как конвертировать формат DOCX в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -104,8 +104,8 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя для документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
-| saveOptions | SaveOptions | Указывает параметры, управляющие способом сохранения документа. Может быть нулевым. |
+| fileName | String | Имя документа. Если документ с указанным именем файла уже существует, существующий документ перезаписывается. |
+| saveOptions | SaveOptions | Указывает параметры, управляющие сохранением документа. Возможно`нулевой`. |
 
 ### Возвращаемое значение
 
@@ -123,7 +123,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;
@@ -132,7 +131,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-Показывает, как преобразовать PDF в .docx и настроить процесс сохранения с помощью объекта SaveOptions.
+Показывает, как преобразовать PDF-файл в .docx и настроить процесс сохранения с помощью объекта SaveOptions.
 
 ```csharp
 Document doc = new Document();
@@ -142,7 +141,7 @@ builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
-// Загрузите документ PDF, который мы только что сохранили, и преобразуйте его в .docx.
+// Загрузите PDF-документ, который мы только что сохранили, и преобразуйте его в .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
@@ -166,21 +165,24 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
 // чтобы изменить способ, которым этот метод преобразует документ в изображение.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Устанавливаем в свойство "PageSet" номер первой страницы из
-    // с которого начать рендеринг документа.
+    // Устанавливаем для свойства "PageSet" номер первой страницы из
+    // с чего начать рендеринг документа.
     options.PageSet = new PageSet(i);
+    // Экспортируем страницу с разрешением 2325x5325 пикселей и разрешением 600 точек на дюйм.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
 ```
 
-Показывает, как преобразовать одну страницу из документа в изображение JPEG.
+Показывает, как преобразовать одну страницу документа в изображение JPEG.
 
 ```csharp
 Document doc = new Document();
@@ -193,17 +195,17 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
 // чтобы изменить способ, которым этот метод преобразует документ в изображение.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Установите для "PageSet" значение "1", чтобы выбрать вторую страницу через
-// отсчитываемый от нуля индекс, с которого начинается рендеринг документа.
+// Установите для «PageSet» значение «1», чтобы выбрать вторую страницу через
+// индекс, отсчитываемый от нуля, с которого следует начать рендеринг документа.
 options.PageSet = new PageSet(1);
 
 // Когда мы сохраняем документ в формате JPEG, Aspose.Words отображает только одну страницу.
-// Это изображение будет содержать одну страницу, начиная со второй страницы,
-// которая будет просто второй страницей исходного документа.
+// Это изображение будет содержать одну страницу, начиная со второй,
+// это будет всего лишь вторая страница исходного документа.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
@@ -214,11 +216,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
 // чтобы изменить способ, которым этот метод преобразует документ в изображение.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Установите для свойства "JpegQuality" значение "10", чтобы использовать более сильное сжатие при рендеринге документа.
+// Установите для свойства «JpegQuality» значение «10», чтобы использовать более сильное сжатие при рендеринге документа.
 // Это уменьшит размер файла документа, но изображение будет отображать более заметные артефакты сжатия.
 imageOptions.JpegQuality = 10;
 
@@ -226,7 +228,7 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imag
 
 Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
-// Установите для свойства "JpegQuality" значение "100", чтобы использовать более слабое сжатие при преобразовании документа.
+// Установите для свойства «JpegQuality» значение «100», чтобы использовать более слабое сжатие при рендеринге документа.
 // Это улучшит качество изображения за счет увеличения размера файла.
 imageOptions.JpegQuality = 100;
 
@@ -268,22 +270,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Выходной PDF-документ будет содержать структуру, которая представляет собой оглавление, в котором перечислены заголовки в теле документа.
-// Нажав на запись в этой схеме, мы перейдем к расположению соответствующего заголовка.
-// Установите для свойства "HeadingsOutlineLevels" значение "4", чтобы исключить из структуры все заголовки, уровни которых выше 4.
+// Выходной PDF-документ будет содержать структуру, представляющую собой оглавление со списком заголовков в теле документа.
+// Нажатие на запись в этом контуре приведет нас к местоположению соответствующего заголовка.
+// Установите для свойства «HeadingsOutlineLevels» значение «4», чтобы исключить из структуры все заголовки, уровни которых выше 4.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Если запись схемы имеет последующие записи более высокого уровня между собой и следующей записью того же или более низкого уровня,
+// Если запись структуры имеет последующие записи более высокого уровня между собой и следующей записью того же или более низкого уровня,
 // слева от записи появится стрелка. Эта запись является «владельцем» нескольких таких «подзаписей».
-// В нашем документе элементы структуры с 5-го уровня заголовка являются подстатьями второго элемента структуры 4-го уровня,
- // статьи 4-го и 5-го уровня заголовков являются подстатьями второй записи 3-го уровня и т.д.
-// В схеме мы можем щелкнуть стрелку записи «владелец», чтобы свернуть/развернуть все ее подзаписи.
-// Установите для свойства «ExpandedOutlineLevels» значение «2», чтобы автоматически расширять все элементы уровня заголовка 2 и нижнего уровня структуры
- // и свернуть все записи уровня и 3 и выше при открытии документа.
+// В нашем документе записи схемы 5-го уровня заголовка являются подзаписями второй записи структуры 4-го уровня,
+// записи 4-го и 5-го уровня заголовка являются подзаписями второй записи 3-го уровня и так далее.
+// В структуре мы можем щелкнуть стрелку записи «владелец», чтобы свернуть/развернуть все ее подзаписи.
+// Установите для свойства "ExpandedOutlineLevels" значение "2", чтобы автоматически развернуть все заголовки уровня 2 и нижних записей структуры.
+// и свернуть все записи уровня 3 и выше, когда мы открываем документ.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -310,7 +312,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, где сохранить документ. |
-| saveFormat | SaveFormat | Формат, в котором нужно сохранить документ. |
+| saveFormat | SaveFormat | Формат сохранения документа. |
 
 ### Возвращаемое значение
 
@@ -318,7 +320,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 ### Примеры
 
-Показывает, как сохранить документ в поток.
+Показывает, как сохранить документ в потоке.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -351,7 +353,7 @@ Document doc = new Document();
 
                 stream.Position = 0;
 
-                // Читаем поток обратно в изображение.
+                // Считаем поток обратно в изображение.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -402,7 +404,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, где сохранить документ. |
-| saveOptions | SaveOptions | Указывает параметры, управляющие способом сохранения документа. Может быть null. Если это значение null, документ будет сохранен в двоичном формате DOC. |
+| saveOptions | SaveOptions | Указывает параметры, управляющие сохранением документа. Возможно`нулевой` . Если это`нулевой`, документ будет сохранен в двоичном формате DOC. |
 
 ### Возвращаемое значение
 
@@ -424,11 +426,11 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-    // для изменения того, как этот метод преобразует документ в .PDF.
+    // Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+    // чтобы изменить способ преобразования этого метода в .PDF.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Установите для "PageIndex" значение "1", чтобы отображать часть документа, начиная со второй страницы.
+    // Установите для «PageIndex» значение «1», чтобы отобразить часть документа, начиная со второй страницы.
     options.PageSet = new PageSet(1);
 
     // Этот документ будет содержать одну страницу, начиная со второй страницы, которая будет содержать только вторую страницу.
@@ -458,9 +460,9 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | response | HttpResponse | Объект ответа, где сохранить документ. |
-| fileName | String | Имя документа, которое появится в браузере клиента. Имя не должно содержать путь. |
-| contentDisposition | ContentDisposition | А[`ContentDisposition`](../../contentdisposition/) значение that указывает, как документ представлен в клиентском браузере. |
-| saveOptions | SaveOptions | Указывает параметры, управляющие способом сохранения документа. Может быть нулевым. |
+| fileName | String | Имя документа, которое будет отображаться в браузере клиента. Имя не должно содержать путь. |
+| contentDisposition | ContentDisposition | А[`ContentDisposition`](../../contentdisposition/)значение that указывает, как документ отображается в клиентском браузере. |
+| saveOptions | SaveOptions | Указывает параметры, управляющие сохранением документа. Возможно`нулевой`. |
 
 ### Возвращаемое значение
 
@@ -468,11 +470,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 ### Примечания
 
-Внутри этот метод сначала сохраняет в поток памяти, а затем копирует в поток ответа , поскольку поток ответа не поддерживает поиск.
+На внутреннем уровне этот метод сначала сохраняет в поток памяти, а затем копирует в поток ответаstream , поскольку поток ответа не поддерживает поиск.
 
 ### Примеры
 
-Показывает, как выполнить слияние почты, а затем сохранить документ в браузере клиента.
+Показывает, как выполнить слияние почты, а затем сохранить документ в клиентском браузере.
 
 ```csharp
 Document doc = new Document();
@@ -491,9 +493,9 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
 
 // Отправляем документ в клиентский браузер.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // Выброшено, потому что HttpResponse имеет значение null в тесте.
+    Throws.TypeOf<ArgumentNullException>()); //Выбрасывается, потому что HttpResponse в тесте имеет значение null.
 
-// Нам нужно будет закрыть этот ответ вручную, чтобы гарантировать, что мы не добавим лишний контент в документ после сохранения.
+// Нам нужно будет закрыть этот ответ вручную, чтобы гарантировать, что мы не добавим в документ лишний контент после сохранения.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 

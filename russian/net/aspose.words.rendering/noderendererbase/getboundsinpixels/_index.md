@@ -17,15 +17,15 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scale | Single | Коэффициент масштабирования (1,0 соответствует 100%). |
-| dpi | Single | Разрешение (горизонтальное и вертикальное) для преобразования точек в пиксели (точек на дюйм). |
+| dpi | Single | Разрешение (по горизонтали и вертикали) для преобразования точек в пиксели (точек на дюйм). |
 
 ### Возвращаемое значение
 
-Фактический (отображаемый на странице) ограничивающий прямоугольник фигуры в пикселях.
+Фактическая (отображаемая на странице) ограничивающая рамка фигуры в пикселях.
 
 ### Примечания
 
-Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/) в прямоугольник в пикселях.
+Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/)в прямоугольник в пикселях.
 
 ### Примеры
 
@@ -44,11 +44,11 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Формы с прозрачными частями могут содержать разные значения в свойствах "OpaqueBoundsInPoints".
+// Фигуры с прозрачными частями могут содержать разные значения в свойствах OpaqueBoundsInPoints.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Получить размер фигуры в пикселях с линейным масштабированием до определенного DPI.
+// Получаем размер фигуры в пикселях с линейным масштабированием до определенного разрешения.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -59,7 +59,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Непрозрачные границы здесь тоже могут быть разными.
+// Здесь также непрозрачные границы могут различаться.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -95,11 +95,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 ### Возвращаемое значение
 
-Фактический (отображаемый на странице) ограничивающий прямоугольник фигуры в пикселях.
+Фактическая (отображаемая на странице) ограничивающая рамка фигуры в пикселях.
 
 ### Примечания
 
-Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/) в прямоугольник в пикселях.
+Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/)в прямоугольник в пикселях.
 
 ### Примеры
 
@@ -118,11 +118,11 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Формы с прозрачными частями могут содержать разные значения в свойствах "OpaqueBoundsInPoints".
+// Фигуры с прозрачными частями могут содержать разные значения в свойствах OpaqueBoundsInPoints.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Получить размер фигуры в пикселях с линейным масштабированием до определенного DPI.
+// Получаем размер фигуры в пикселях с линейным масштабированием до определенного разрешения.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -133,7 +133,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Непрозрачные границы здесь тоже могут быть разными.
+// Здесь также непрозрачные границы могут различаться.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.HtmlVersion
 second_title: Справочник по API Aspose.Words для .NET
 description: HtmlSaveOptions свойство. Указывает версию стандарта HTML которую следует использовать при сохранении документа в формате HTML или MHTML. Значение по умолчаниюXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
@@ -33,7 +33,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Наш документ будет содержать заголовок объявления DOCTYPE, только если мы установили флаг "ExportXhtmlTransitional" в значение "true".
+// Наш документ будет содержать заголовок объявления DOCTYPE только в том случае, если мы установили флаг «ExportXhtmlTransitional» в значение «true».
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
@@ -58,7 +58,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Наши HTML-документы будут иметь незначительные отличия, чтобы быть совместимыми с разными версиями HTML.
+// Наши HTML-документы будут иметь незначительные различия, чтобы быть совместимыми с разными версиями HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

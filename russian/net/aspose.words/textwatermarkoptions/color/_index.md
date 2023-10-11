@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Color
 second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или устанавливает цвет шрифта. Значение по умолчанию  Color.Silver. .
+description: TextWatermarkOptions свойство. Получает или задает цвет шрифта. Значение по умолчаниюSilver .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Получает или устанавливает цвет шрифта. Значение по умолчанию — Color.Silver. .
+Получает или задает цвет шрифта. Значение по умолчанию:Silver .
 
 ```csharp
 public Color Color { get; set; }
@@ -24,7 +24,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -37,7 +37,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -1,14 +1,14 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrintDate свойство. Получает или задает следует ли использовать календарь Эры Сака.
+description: FieldPrintDate свойство. Получает или задает следует ли использовать календарь эпохи Сака.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
 ---
 ## FieldPrintDate.UseSakaEraCalendar property
 
-Получает или задает, следует ли использовать календарь Эры Сака.
+Получает или задает, следует ли использовать календарь эпохи Сака.
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }
@@ -21,9 +21,9 @@ public bool UseSakaEraCalendar { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Когда документ распечатывается на принтере или распечатывается в формате PDF (но не экспортируется в PDF),
+// Когда документ распечатывается на принтере или печатается в формате PDF (но не экспортируется в PDF),
 // Поля PRINTDATE будут отображать дату/время операции печати.
-// Если печать не производилась, в этих полях будет отображаться "0/0/0000".
+// Если печать не выполнялась, в этих полях будет отображаться «0/0/0000».
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);

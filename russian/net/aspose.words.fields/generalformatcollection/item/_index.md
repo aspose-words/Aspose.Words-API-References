@@ -16,7 +16,7 @@ public GeneralFormat this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Указатель общего формата. |
+| index | Индекс общего формата. |
 
 ### Возвращаемое значение
 
@@ -24,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

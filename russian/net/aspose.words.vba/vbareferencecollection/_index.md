@@ -1,14 +1,16 @@
 ---
 title: Class VbaReferenceCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReferenceCollection сорт. Представляет наборVbaReference объекты.
+description: Aspose.Words.Vba.VbaReferenceCollection сорт. Представляет коллекциюVbaReference объекты.
 type: docs
-weight: 6290
+weight: 6600
 url: /ru/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Представляет набор[`VbaReference`](../vbareference/) объекты.
+Представляет коллекцию[`VbaReference`](../vbareference/) объекты.
+
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -19,21 +21,20 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | Возвращает количество ссылок VBA в коллекции. |
-| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | получает[`VbaReference`](../vbareference/) объект по указанному индексу. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | Получает[`VbaReference`](../vbareference/) объект по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Удаляет первое вхождение указанного элемента VbaReference из коллекции. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Удаляет элемент VbaReference по указанному индексу коллекции. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Удаляет первое вхождение указанного[`VbaReference`](../vbareference/) предмет из коллекции. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Удаляет[`VbaReference`](../vbareference/) элемент по указанному индексу коллекции. |
 
 ### Примеры
 
-Показывает, как получить/удалить элемент из коллекции ссылок VBA.
+Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Возвращает строку, представляющую путь LibId указанной ссылки. 
+ /// Возвращает строку, представляющую путь LibId указанной ссылки.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -77,7 +78,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -92,7 +93,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

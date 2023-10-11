@@ -16,7 +16,7 @@ public string Target { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля HYPERLINK для ссылок на документы в локальной файловой системе.
+Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Когда мы щелкаем по этому полю ГИПЕРССЫЛКИ в Microsoft Word,
+// Когда мы щелкаем это поле ГИПЕРССЫЛКИ в Microsoft Word,
 // он откроет связанный документ, а затем поместит курсор на указанную закладку.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -32,7 +32,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Когда мы щелкаем по этому полю ГИПЕРССЫЛКИ в Microsoft Word,
+// Когда мы щелкаем это поле ГИПЕРССЫЛКИ в Microsoft Word,
 // он откроет связанный документ и автоматически прокрутит вниз до указанного iframe.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

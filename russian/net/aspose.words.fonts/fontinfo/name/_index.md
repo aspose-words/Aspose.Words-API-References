@@ -20,13 +20,13 @@ public string Name { get; }
 
 ### Примеры
 
-Показывает, как напечатать сведения о том, какие шрифты присутствуют в документе.
+Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Печатаем все используемые и неиспользуемые шрифты в документе.
+// Распечатываем все использованные и неиспользуемые шрифты в документе.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

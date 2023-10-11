@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions.SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: OdtSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьOdt или жеOtt .
+description: OdtSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьOdt илиOtt .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/odtsaveoptions/saveformat/
 ---
 ## OdtSaveOptions.SaveFormat property
 
-Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может бытьOdt или жеOtt .
+Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может бытьOdt илиOtt .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -23,8 +23,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Создать новый OdtSaveOptions и передать либо "SaveFormat.Odt",
-// или "SaveFormat.Ott" в качестве формата для сохранения документа. 
+// Создайте новый OdtSaveOptions и передайте либо "SaveFormat.Odt",
+ // или «SaveFormat.Ott» в качестве формата сохранения документа.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
@@ -38,8 +38,8 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 
 Assert.IsTrue(docInfo.IsEncrypted);
 
-// Если мы хотим снова открыть или отредактировать этот документ, используя Aspose.Words,
-// мы должны предоставить объект LoadOptions с правильным паролем конструктору загрузки.
+// Если мы хотим снова открыть или отредактировать этот документ с помощью Aspose.Words,
+// нам нужно будет предоставить объект LoadOptions с правильным паролем конструктору загрузки.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

@@ -1,14 +1,14 @@
 ---
 title: GroupShape.GroupShape
 second_title: Справочник по API Aspose.Words для .NET
-description: GroupShape строитель. Создает новую форму группы.
+description: GroupShape строитель. Создает новую фигуру группы.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape constructor
 
-Создает новую форму группы.
+Создает новую фигуру группы.
 
 ```csharp
 public GroupShape(DocumentBase doc)
@@ -20,9 +20,9 @@ public GroupShape(DocumentBase doc)
 
 ### Примечания
 
-По умолчанию фигура является плавающей и имеет положение и размер по умолчанию.
+По умолчанию фигура является плавающей и имеет местоположение и размер по умолчанию.
 
-Вы должны указать желаемые свойства формы после того, как вы создали фигуру.
+Вам следует указать желаемые свойства фигуры после ее создания.
 
 ### Примеры
 
@@ -34,7 +34,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит на консоль содержимое посещенной группы фигур.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

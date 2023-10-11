@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.XPath
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает XPath для нужной части файла XML.
+description: FieldIncludeText свойство. Получает или задает XPath для нужной части XMLфайла.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldincludetext/xpath/
 ---
 ## FieldIncludeText.XPath property
 
-Получает или задает XPath для нужной части файла XML.
+Получает или задает XPath для нужной части XML-файла.
 
 ```csharp
 public string XPath { get; set; }
@@ -16,7 +16,7 @@ public string XPath { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDETEXT и задать его свойства.
+Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
 ```csharp
 public void FieldIncludeText()
@@ -25,21 +25,23 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены два способа использования полей INCLUDETEXT для отображения содержимого XML-файла в локальной файловой системе.
-    // 1 - Выполните XSL-преобразование XML-документа:
+    // 1 — выполнить XSL-преобразование XML-документа:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Используйте XPath для получения определенных элементов из XML-документа:
+    // 2. Используйте XPath для получения определенных элементов из XML-документа:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле INCLUDETEXT с пользовательскими свойствами.
+/// Используйте конструктор документов, чтобы вставить поле INCLUDETEXT с настраиваемыми свойствами.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

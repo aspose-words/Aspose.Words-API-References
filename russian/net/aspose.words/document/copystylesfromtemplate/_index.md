@@ -3,7 +3,7 @@ title: Document.CopyStylesFromTemplate
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Копирует стили из указанного шаблона в документ.
 type: docs
-weight: 550
+weight: 590
 url: /ru/net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
@@ -16,14 +16,14 @@ public void CopyStylesFromTemplate(string template)
 
 ### Примечания
 
-Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются, чтобы соответствовать описаниям стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются без изменений.
+Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются в соответствии с описаниями стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются неизменными.
 
 ### Примеры
 
 Показывает, как копировать стили из одного документа в другой.
 
 ```csharp
-// Создадим документ, а затем добавим стили, которые будем копировать в другой документ.
+// Создаем документ, а затем добавляем стили, которые будем копировать в другой документ.
 Document template = new Document();
 
 Style style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle1");
@@ -43,25 +43,25 @@ Assert.AreEqual(7, template.Styles.Count);
 // Создаем документ, в который будем копировать стили.
 Document target = new Document();
 
-// Создать стиль с тем же именем, что и у стиля из документа-шаблона, и добавить его в целевой документ.
+// Создайте стиль с тем же именем, что и стиль из документа-шаблона, и добавьте его в целевой документ.
 style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
 Assert.AreEqual(5, target.Styles.Count);
 
-// Есть два способа вызова метода для копирования всех стилей из одного документа в другой.
-// 1 - Передача объекта шаблона документа:
+// Существует два способа вызова метода для копирования всех стилей из одного документа в другой.
+// 1 - Передача объекта документа шаблона:
 target.CopyStylesFromTemplate(template);
 
-// При копировании стилей все стили из документа-шаблона добавляются в целевой
+// При копировании стилей все стили из документа-шаблона добавляются в целевой объект.
 // и перезаписывает существующие стили с тем же именем.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Передача локального системного имени файла шаблона документа:
+// 2 – Передача локального системного имени файла шаблонного документа:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);
@@ -85,11 +85,11 @@ public void CopyStylesFromTemplate(Document template)
 
 ### Примечания
 
-Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются, чтобы соответствовать описаниям стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются без изменений.
+Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются в соответствии с описаниями стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются неизменными.
 
 ### Примеры
 
-Показывает, как копировать стили из шаблона в документ через Document.
+Показывает, как копировать стили из шаблона в документ с помощью Document.
 
 ```csharp
 Document template = new Document(MyDir + "Rendering.docx");
@@ -101,7 +101,7 @@ target.CopyStylesFromTemplate(template);
 Показывает, как копировать стили из одного документа в другой.
 
 ```csharp
-// Создадим документ, а затем добавим стили, которые будем копировать в другой документ.
+// Создаем документ, а затем добавляем стили, которые будем копировать в другой документ.
 Document template = new Document();
 
 Style style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle1");
@@ -121,25 +121,25 @@ Assert.AreEqual(7, template.Styles.Count);
 // Создаем документ, в который будем копировать стили.
 Document target = new Document();
 
-// Создать стиль с тем же именем, что и у стиля из документа-шаблона, и добавить его в целевой документ.
+// Создайте стиль с тем же именем, что и стиль из документа-шаблона, и добавьте его в целевой документ.
 style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
 Assert.AreEqual(5, target.Styles.Count);
 
-// Есть два способа вызова метода для копирования всех стилей из одного документа в другой.
-// 1 - Передача объекта шаблона документа:
+// Существует два способа вызова метода для копирования всех стилей из одного документа в другой.
+// 1 - Передача объекта документа шаблона:
 target.CopyStylesFromTemplate(template);
 
-// При копировании стилей все стили из документа-шаблона добавляются в целевой
+// При копировании стилей все стили из документа-шаблона добавляются в целевой объект.
 // и перезаписывает существующие стили с тем же именем.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Передача локального системного имени файла шаблона документа:
+// 2 – Передача локального системного имени файла шаблонного документа:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);

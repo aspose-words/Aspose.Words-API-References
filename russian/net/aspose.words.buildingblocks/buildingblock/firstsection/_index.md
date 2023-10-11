@@ -20,17 +20,17 @@ public Section FirstSection { get; }
 
 ### Примеры
 
-Показывает, как добавить пользовательский стандартный блок в документ.
+Показывает, как добавить в документ пользовательский стандартный блок.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Глоссарий документа хранит строительные блоки.
+    // Глоссарий документа. В документе хранятся строительные блоки.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Создайте стандартный блок, назовите его, а затем добавьте в глоссарий.
+    // Создайте строительный блок, назовите его, а затем добавьте в документ глоссария.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -38,40 +38,39 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Все новые GUID строительных блоков по умолчанию имеют одно и то же нулевое значение, и мы можем присвоить им новое уникальное значение.
+    // Все новые GUID строительных блоков по умолчанию имеют одинаковое нулевое значение, и мы можем присвоить им новое уникальное значение.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Следующие свойства классифицируют строительные блоки
-    // в меню мы можем получить доступ в Microsoft Word через «Вставить» -> "Быстрые детали" -> «Организатор строительных блоков».
+    // Следующие свойства классифицируют стандартные блоки
+    // в меню, к которому мы можем получить доступ в Microsoft Word через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно дать ему некоторое содержимое,
-    // что мы и сделаем с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
+    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно будет добавить в него некоторое содержимое,
+    // что мы будем делать с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
-    // Мы можем получить доступ к только что созданному блоку из глоссария.
+    // Мы можем получить доступ к только что созданному блоку из документа глоссария.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Сам блок представляет собой раздел, содержащий текст.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Теперь мы можем вставить его в документ как новый раздел.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Мы также можем найти его в Организаторе строительных блоков Microsoft Word и разместить вручную.
+    // Мы также можем найти его в органайзере строительных блоков Microsoft Word и разместить вручную.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Настраивает посещенный стандартный блок для вставки в документ в качестве быстрой части и добавляет текст к его содержимому.
+/// Устанавливает посещенный строительный блок для вставки в документ как быструю часть и добавляет текст к его содержимому.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -83,7 +82,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Настройте стандартный блок как быструю часть и добавьте свойства, используемые Организатором стандартных блоков.
+        // Настройте строительный блок как быструю часть и добавьте свойства, используемые Организатором строительных блоков.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
@@ -91,7 +90,7 @@ public class BuildingBlockVisitor : DocumentVisitor
         block.Gallery = BuildingBlockGallery.QuickParts;
 
         // Добавляем раздел с текстом.
-        // Вставка блока в документ добавит этот раздел с его дочерними узлами в этом месте.
+        // Вставка блока в документ добавит этот раздел с его дочерними узлами в указанном месте.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

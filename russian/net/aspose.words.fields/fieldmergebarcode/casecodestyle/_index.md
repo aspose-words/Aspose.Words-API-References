@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает стиль Case Code для штрихкода типа ITF14. Допустимые значения STDEXTADD
+description: FieldMergeBarcode свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD]
+Получает или задает стиль Case-кода для типа штрих-кода ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] .
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -16,13 +16,13 @@ public string CaseCodeStyle { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами ITF14.
+Показывает, как выполнить слияние почты со штрих-кодами ITF14.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyITF14Barcode» источника данных слияния в штрих-коды ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";

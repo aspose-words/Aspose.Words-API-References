@@ -1,14 +1,16 @@
 ---
 title: Class HorizontalRuleFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat сорт. Представляет форматирование горизонтальной линейки.
+description: Aspose.Words.Drawing.HorizontalRuleFormat сорт. Представляет горизонтальное форматирование правил.
 type: docs
-weight: 920
+weight: 1050
 url: /ru/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-Представляет форматирование горизонтальной линейки.
+Представляет горизонтальное форматирование правил.
+
+Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) статья документации.
 
 ```csharp
 public class HorizontalRuleFormat
@@ -19,9 +21,9 @@ public class HorizontalRuleFormat
 | Имя | Описание |
 | --- | --- |
 | [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Получает или задает выравнивание горизонтальной линейки. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Получает или задает цвет кисти, заполняющий горизонтальную линейку. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Получает или задает цвет кисти, заполняющий горизонтальное правило. |
 | [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Получает или задает высоту горизонтальной линейки. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Указывает на наличие трехмерного затенения для горизонтальной линейки. Если true, то горизонтальная линейка не имеет трехмерного затенения и используется сплошной цвет. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Указывает наличие 3D-затенения для горизонтальной линейки. Если`истинный` то горизонтальная линейка без 3D-затенения и используется сплошной цвет. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Получает или задает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна. |
 
 ### Примеры

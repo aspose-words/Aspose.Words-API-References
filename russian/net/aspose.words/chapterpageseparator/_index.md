@@ -3,7 +3,7 @@ title: Enum ChapterPageSeparator
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.ChapterPageSeparator перечисление. Определяет символразделитель который появляется между главой и номером страницы.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
@@ -22,7 +22,21 @@ public enum ChapterPageSeparator
 | Period | `1` | Точка. |
 | Colon | `2` | Двоеточие. |
 | EmDash | `3` | Подчеркнутое тире. |
-| EnDash | `4` | Стандартный тире. |
+| EnDash | `4` | Стандартное тире. |
+
+### Примеры
+
+Показывает, как работать с главами страниц.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Смотрите также
 

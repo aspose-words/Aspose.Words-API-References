@@ -1,14 +1,14 @@
 ---
 title: FieldToc.CaptionlessTableOfFiguresLabel
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает имя идентификатора последовательности используемого при построении таблицы рисунков которая не включает метку и номер заголовка .
+description: FieldToc свойство. Получает или задает имя идентификатора последовательности используемого при построении таблицы рисунков которая не включает метку и номер caption .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/
 ---
 ## FieldToc.CaptionlessTableOfFiguresLabel property
 
-Получает или задает имя идентификатора последовательности, используемого при построении таблицы рисунков, которая не включает метку и номер заголовка .
+Получает или задает имя идентификатора последовательности, используемого при построении таблицы рисунков, которая не включает метку и номер caption .
 
 ```csharp
 public string CaptionlessTableOfFiguresLabel { get; set; }

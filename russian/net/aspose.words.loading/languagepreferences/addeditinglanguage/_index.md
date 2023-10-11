@@ -16,7 +16,7 @@ public void AddEditingLanguage(EditingLanguage language)
 
 ### Примеры
 
-Показывает, как применять языковые настройки при загрузке документа.
+Показывает, как применить языковые настройки при загрузке документа.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

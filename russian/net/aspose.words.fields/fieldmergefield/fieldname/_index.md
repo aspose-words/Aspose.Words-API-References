@@ -16,13 +16,13 @@ public string FieldName { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля MERGEFIELD для выполнения слияния.
+Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте таблицу данных, которая будет использоваться в качестве источника данных слияния.
+// Создайте таблицу данных, которая будет использоваться в качестве источника данных для слияния почты.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -30,7 +30,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Вставьте MERGEFIELD со свойством FieldName, для которого задано имя столбца в источнике данных.
+// Вставляем MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
@@ -42,7 +42,7 @@ fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
 
-// Вставить еще одно поле MERGEFIELD для другого столбца в источнике данных.
+// Вставляем еще одно MERGEFIELD для другого столбца в источнике данных.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

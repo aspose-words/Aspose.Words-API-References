@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.Encoding
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает кодировку используемую при экспорте в HTML MHTML или EPUB. Значение по умолчаниюновое кодирование UTF8 ложь UTF8 без спецификации.
+description: HtmlSaveOptions свойство. Указывает кодировку которая будет использоваться при экспорте в HTML MHTML или EPUB. Значение по умолчаниюновая кодировка UTF8ложь UTF8 без спецификации.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-Указывает кодировку, используемую при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:`новое кодирование UTF8 (ложь)` (UTF-8 без спецификации).
+Указывает кодировку, которая будет использоваться при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:`новая кодировка UTF8(ложь)` (UTF-8 без спецификации).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -21,15 +21,15 @@ public Encoding Encoding { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Используйте объект SaveOptions для указания кодировки сохраняемого документа.
+// Используйте объект SaveOptions, чтобы указать кодировку документа, который мы сохраним.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// По умолчанию выходной документ .epub будет иметь все свое содержимое в одной HTML-части.
-// Критерий разделения позволяет нам разделить документ на несколько частей HTML.
+// По умолчанию выходной документ .epub будет содержать все свое содержимое в одной HTML-части.
+// Критерий разделения позволяет нам сегментировать документ на несколько частей HTML.
 // Мы установим критерии для разделения документа на абзацы заголовков.
-// Это полезно для читателей, которые не могут читать файлы HTML, размер которых превышает определенный.
+// Это полезно для читателей, которые не могут читать HTML-файлы, размер которых превышает определенный размер.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Указываем, что хотим экспортировать свойства документа.

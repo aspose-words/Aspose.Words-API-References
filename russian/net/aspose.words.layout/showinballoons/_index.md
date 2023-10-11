@@ -1,14 +1,14 @@
 ---
 title: Enum ShowInBalloons
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.ShowInBalloons перечисление. Указывает какие ревизии отображаются во всплывающих подсказках.
+description: Aspose.Words.Layout.ShowInBalloons перечисление. Указывает какие версии отображаются в выносках.
 type: docs
-weight: 3210
+weight: 3410
 url: /ru/net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
 
-Указывает, какие ревизии отображаются во всплывающих подсказках.
+Указывает, какие версии отображаются в выносках.
 
 ```csharp
 public enum ShowInBalloons
@@ -18,13 +18,13 @@ public enum ShowInBalloons
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Визуализирует встроенные вставки, удаления и форматирование ревизий. |
-| Format | `1` | Отображает встроенные вставки и удаления ревизий, форматирует ревизии во всплывающих подсказках. |
-| FormatAndDelete | `2` | Визуализирует встроенные исправления, удаляя и форматируя их во всплывающих подсказках. |
+| None | `0` | Вставляет, удаляет и форматирует ревизии в режиме реального времени. |
+| Format | `1` | Отображает вставку и удаление редакций встроенными, форматирует ревизии в выносках. |
+| FormatAndDelete | `2` | Отображает вставку редакций встроенными, удаление и форматирование редакций в выносках. |
 
 ### Примечания
 
-Обратите внимание, что ревизии не отображаются во всплывающих подсказках дляShowInAnnotations .
+Обратите внимание, что изменения не отображаются в выносках дляShowInAnnotations .
 
 ### Примеры
 
@@ -33,39 +33,39 @@ public enum ShowInBalloons
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Получить объект RevisionOptions, управляющий внешним видом ревизий.
+// Получаем объект RevisionOptions, который управляет внешним видом редакций.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Отображение ревизий вставки зеленым цветом и курсивом.
+// Отображение изменений вставки зеленым и курсивом.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Отображение удаленных ревизий красным и полужирным шрифтом.
+// Отобразить удаленные версии красным и жирным шрифтом.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Один и тот же текст появится дважды в ревизии движения:
-// один раз в пункте отправления и один раз в пункте прибытия.
-// Визуализируем текст перемещенной версии желтым цветом с двойным перечеркиванием
-// и дважды подчеркнутый синим цветом ревизию, к которой был перемещен.
+// Один и тот же текст появится дважды в версии движения:
+// один раз в пункте отправления и один раз в пункте назначения.
+// Отобразить текст в перенесенной из редакции желтого цвета с двойным перечеркиванием
+// и двойное подчеркивание синим цветом в перенесенной версии.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Редактирование формата темно-красным и полужирным шрифтом.
+// Редакции формата отображаются темно-красным и жирным шрифтом.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Поместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми изменениями.
+// Размещаем толстую темно-синюю полосу в левой части страницы рядом со строками, на которые внесены изменения.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Показать метки исправления и исходный текст.
+// Показать отметки редакции и исходный текст.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Получить перемещение, удаление, исправления форматирования и комментарии для отображения в зеленых выносках
+// Получение перемещения, удаления, изменений форматирования и комментариев, которые будут отображаться в зеленых выносках
 // в правой части страницы.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

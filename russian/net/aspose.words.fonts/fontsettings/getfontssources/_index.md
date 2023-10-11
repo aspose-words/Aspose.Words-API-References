@@ -20,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 ### Примечания
 
-Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените entry в возвращаемом массиве, это не повлияет на визуализацию документа. Чтобы указать новый шрифт sources , используйте[`SetFontsSources`](../setfontssources/) метод.
+Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените elements в возвращаемом массиве, это не повлияет на рендеринг документа. Чтобы указать новый шрифт source , используйте команду[`SetFontsSources`](../setfontssources/) метод.
 
 ### Примеры
 
-Показывает, как добавить источник шрифта к нашим существующим источникам шрифтов.
+Показывает, как добавить источник шрифта к существующим источникам шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -43,15 +43,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// В источнике шрифта по умолчанию отсутствуют два шрифта, которые мы используем в нашем документе.
+// В источнике шрифтов по умолчанию отсутствуют два шрифта, которые мы используем в нашем документе.
 // Когда мы сохраним этот документ, Aspose.Words применит резервные шрифты ко всему тексту, отформатированному с использованием недоступных шрифтов.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Создаем источник шрифта из папки, содержащей шрифты.
+// Создаем источник шрифтов из папки, содержащей шрифты.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Применить новый массив источников шрифтов, который содержит исходные источники шрифтов, а также наши пользовательские шрифты.
+// Применяем новый массив источников шрифтов, содержащий исходные источники шрифтов, а также наши пользовательские шрифты.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
@@ -64,7 +64,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Восстановить исходные источники шрифтов.
+// Восстанавливаем исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

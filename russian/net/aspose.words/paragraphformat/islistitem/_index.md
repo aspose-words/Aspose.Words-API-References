@@ -3,7 +3,7 @@ title: ParagraphFormat.IsListItem
 second_title: Справочник по API Aspose.Words для .NET
 description: ParagraphFormat свойство. Истинно если абзац является элементом маркированного или нумерованного списка.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.words/paragraphformat/islistitem/
 ---
 ## ParagraphFormat.IsListItem property
@@ -22,11 +22,11 @@ public bool IsListItem { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
-// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
-// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+ // Мы можем создавать вложенные списки, увеличивая уровень отступа.
+ // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
 // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Создаем список структуры для заголовков.
+// Создаем структурный список заголовков.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -50,12 +50,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Возврат к нумерованному списку.
+// Вернемся к нумерованному списку.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Возврат к списку контуров.
+// Вернемся к структурному списку.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

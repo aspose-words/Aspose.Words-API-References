@@ -1,14 +1,14 @@
 ---
 title: Table.Rows
 second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Предоставляет типизированный доступ к строкам таблицы.
+description: Table свойство. Обеспечивает типизированный доступ к строкам таблицы.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Предоставляет типизированный доступ к строкам таблицы.
+Обеспечивает типизированный доступ к строкам таблицы.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -22,23 +22,23 @@ public RowCollection Rows { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
-// 1 - Из коллекции "Таблицы" узла Body:
+// 1 — Из коллекции «Таблицы» узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Используя метод "GetChild":
+// 2 - Использование метода "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Добавляем все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Удалить пустой контейнер таблицы.
+// Удаляем пустой контейнер таблицы.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
+Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -52,7 +52,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
+    // Мы можем использовать метод ToArray для коллекции строк, чтобы клонировать ее в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -62,7 +62,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
+        // Мы можем использовать метод ToArray для коллекции ячеек, чтобы клонировать ее в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

@@ -1,14 +1,14 @@
 ---
 title: Enum TextFormFieldType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.TextFormFieldType перечисление. Определяет тип поля текстовой формы.
+description: Aspose.Words.Fields.TextFormFieldType перечисление. Указывает тип поля текстовой формы.
 type: docs
-weight: 2590
+weight: 2770
 url: /ru/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
 
-Определяет тип поля текстовой формы.
+Указывает тип поля текстовой формы.
 
 ```csharp
 public enum TextFormFieldType
@@ -19,11 +19,11 @@ public enum TextFormFieldType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Regular | `0` | Поле текстовой формы может содержать любой текст. |
-| Number | `1` | Поле текстовой формы может содержать только числа. |
-| Date | `2` | Поле текстовой формы может содержать только действительное значение даты. |
+| Number | `1` | Поле текстовой формы может содержать только цифры. |
+| Date | `2` | Поле текстовой формы может содержать только допустимое значение даты. |
 | CurrentDate | `3` | Значением поля текстовой формы является текущая дата обновления поля. |
-| CurrentTime | `4` | Значением поля текстовой формы является текущее время, когда поле обновляется. |
-| Calculated | `5` | Значение поля текстовой формы вычисляется из выражения, указанного в [`TextInputDefault`](../formfield/textinputdefault/) свойство. |
+| CurrentTime | `4` | Значение поля текстовой формы — это текущее время обновления поля. |
+| Calculated | `5` | Значение поля текстовой формы вычисляется на основе выражения, указанного в [`TextInputDefault`](../formfield/textinputdefault/) свойство. |
 
 ### Примеры
 
@@ -33,12 +33,12 @@ public enum TextFormFieldType
 DocumentBuilder builder = new DocumentBuilder();
 
 // Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запрос на ввод значений.
-// Мы можем создать их с помощью конструктора документов, и ниже приведены два способа сделать это.
+// Мы можем создать их с помощью построителя документов, и ниже приведены два способа сделать это.
 // 1 - Основной ввод текста:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - Поле со списком с текстом подсказки и диапазоном возможных значений:
+// 2 — Поле со списком с текстом подсказки и диапазоном возможных значений:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

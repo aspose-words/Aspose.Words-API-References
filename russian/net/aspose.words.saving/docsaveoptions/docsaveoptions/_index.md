@@ -16,7 +16,7 @@ public DocSaveOptions()
 
 ### Примеры
 
-Показывает, как установить параметры сохранения для старых форматов Microsoft Word.
+Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ builder.Write("Hello world!");
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
 // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
-// Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -62,11 +62,11 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьDoc или жеDot. |
+| saveFormat | SaveFormat | ВозможноDoc илиDot. |
 
 ### Примеры
 
-Показывает, как установить параметры сохранения для старых форматов Microsoft Word.
+Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -76,10 +76,10 @@ builder.Write("Hello world!");
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
 // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
-// Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

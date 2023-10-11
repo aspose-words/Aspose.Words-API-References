@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.MajorTickMark
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает основные деления.
+description: ChartAxis свойство. Возвращает или устанавливает основные деления.
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 ---
 ## ChartAxis.MajorTickMark property
 
-Возвращает или задает основные деления.
+Возвращает или устанавливает основные деления.
 
 ```csharp
 public AxisTickMark MajorTickMark { get; set; }
@@ -25,16 +25,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

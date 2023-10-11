@@ -22,8 +22,8 @@ public void Update()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем два поля, передавая флаг, который определяет, обновлять ли их при вставке компоновщиком.
-// В некоторых случаях обновление полей может потребовать значительных вычислительных ресурсов, и может быть хорошей идеей отложить обновление.
+// Вставляем два поля, передавая флаг, определяющий, следует ли обновлять их при вставке компоновщиком.
+// В некоторых случаях обновление полей может потребовать больших вычислительных затрат, и может быть хорошей идеей отложить обновление.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -56,7 +56,7 @@ else
 }
 ```
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();
@@ -133,7 +133,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Если`истинный` то прямое форматирование результата поля отменяется, независимо от переключателя MERGEFORMAT, в противном случае выполняется обычное обновление. |
+| ignoreMergeFormat | Boolean | Если`истинный` тогда прямое форматирование результата поля прекращается, независимо от переключателя MERGEFORMAT, в противном случае выполняется обычное обновление. |
 
 ### Примеры
 
@@ -151,8 +151,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли преобразовывать все поля INCLUDEPICTURE
-    // в формы изображений при загрузке документа, который их содержит.
+    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли конвертировать все поля INCLUDEPICTURE
+    // в фигуры изображений при загрузке документа, который их содержит.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

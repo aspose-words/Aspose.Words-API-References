@@ -3,12 +3,14 @@ title: Class StructuredDocumentTagCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Markup.StructuredDocumentTagCollection сорт. КоллекцияIStructuredDocumentTag экземпляры представляющие теги структурированного документа в указанном диапазоне.
 type: docs
-weight: 3830
+weight: 4070
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
 Коллекция[`IStructuredDocumentTag`](../istructureddocumenttag/) экземпляры, представляющие теги структурированного документа в указанном диапазоне.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>

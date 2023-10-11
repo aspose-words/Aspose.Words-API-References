@@ -1,14 +1,14 @@
 ---
 title: Cell.FirstParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает первый абзац среди непосредственных дочерних элементов.
+description: Cell свойство. Получает первый абзац среди ближайших дочерних элементов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/cell/firstparagraph/
 ---
 ## Cell.FirstParagraph property
 
-Получает первый абзац среди непосредственных дочерних элементов.
+Получает первый абзац среди ближайших дочерних элементов.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -22,14 +22,14 @@ public Paragraph FirstParagraph { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Строим внешнюю таблицу.
+// Создаем внешнюю таблицу.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Переход к первой ячейке внешней таблицы, построение другой таблицы внутри ячейки.
+// Переход к первой ячейке внешней таблицы, построение еще одной таблицы внутри ячейки.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -47,7 +47,7 @@ public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Создадим внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавим ее в документ.
+    // Создаем внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавляем ее в документ.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
@@ -59,7 +59,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
+/// Создает в документе новую таблицу с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -80,10 +80,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание соответственно к вашей таблице.
+    // Вы можете использовать свойства «Название» и «Описание», чтобы добавить в таблицу заголовок и описание соответственно.
     // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-    // Эти свойства имеют значение для документов .docx, совместимых с ISO/IEC 29500 (см. класс OoxmlCompliance).
-    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // Эти свойства имеют смысл для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраним документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

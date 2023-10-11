@@ -1,14 +1,14 @@
 ---
 title: ChartFormat.Fill
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartFormat свойство. Получает форматирование заполнения для родительского элемента диаграммы.
+description: ChartFormat свойство. Получает форматирование заливки для родительского элемента диаграммы.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartformat/fill/
 ---
 ## ChartFormat.Fill property
 
-Получает форматирование заполнения для родительского элемента диаграммы.
+Получает форматирование заливки для родительского элемента диаграммы.
 
 ```csharp
 public Fill Fill { get; }
@@ -16,7 +16,7 @@ public Fill Fill { get; }
 
 ### Примеры
 
-Покажите, как настроить форматирование маркера.
+Покажите, как установить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Установить форматирование маркера.
+// Устанавливаем форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

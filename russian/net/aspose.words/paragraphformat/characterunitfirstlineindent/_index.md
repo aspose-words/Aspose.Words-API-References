@@ -1,16 +1,16 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в символах для первой строки или висячего отступа.
+description: ParagraphFormat свойство. Получает или задает значение в символах для первой строки или выступающего отступа.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Получает или задает значение (в символах) для первой строки или висячего отступа.
+Получает или задает значение (в символах) для первой строки или выступающего отступа.
 
-Используйте положительные значения, чтобы установить отступ первой строки, и отрицательные значения, чтобы установить выступ.
+Используйте положительные значения, чтобы установить отступ первой строки, и отрицательные значения, чтобы установить выступающий отступ.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -18,7 +18,7 @@ public double CharacterUnitFirstLineIndent { get; set; }
 
 ### Примеры
 
-Показывает, как изменить расстояние между абзацами и отступы.
+Показывает, как изменить интервал между абзацами и отступы.
 
 ```csharp
 Document doc = new Document();
@@ -47,14 +47,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - Междустрочный интервал перед абзацами:
+// 4 - Межстрочный интервал перед абзацами:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Межстрочный интервал после абзаца:
+// 5 - Межстрочный интервал после абзацев:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

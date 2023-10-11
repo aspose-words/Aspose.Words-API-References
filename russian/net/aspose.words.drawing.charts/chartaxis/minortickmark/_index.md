@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.MinorTickMark
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает второстепенные деления для оси.
+description: ChartAxis свойство. Возвращает или устанавливает второстепенные деления для оси.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartaxis/minortickmark/
 ---
 ## ChartAxis.MinorTickMark property
 
-Возвращает или задает второстепенные деления для оси.
+Возвращает или устанавливает второстепенные деления для оси.
 
 ```csharp
 public AxisTickMark MinorTickMark { get; set; }
@@ -25,16 +25,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

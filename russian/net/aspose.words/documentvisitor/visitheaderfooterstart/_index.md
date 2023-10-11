@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterStart
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление верхнего или нижнего колонтитула в разделе.
+description: DocumentVisitor метод. Вызывается когда началось перечисление верхнего или нижнего колонтитула в разделе.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
 ## DocumentVisitor.VisitHeaderFooterStart method
 
-Вызывается, когда начинается перечисление верхнего или нижнего колонтитула в разделе.
+Вызывается, когда началось перечисление верхнего или нижнего колонтитула в разделе.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого верхнего и нижнего колонтитула в документе.
+Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
 ```csharp
 public void HeaderFooterToText()
@@ -32,20 +32,20 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Альтернативный способ доступа к верхнему/нижнему колонтитулу документа по разделам — доступ к коллекции.
+    // Альтернативный способ доступа к верхнему и нижнему колонтитулу документа по разделам — обращение к коллекции.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов HeaderFooter и их дочерних элементов.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
@@ -96,7 +96,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

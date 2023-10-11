@@ -1,14 +1,14 @@
 ---
 title: VbaProject.VbaProject
 second_title: Справочник по API Aspose.Words для .NET
-description: VbaProject строитель. Создает пустой VbaProject.
+description: VbaProject строитель. Создает пробелVbaProject .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Создает пустой VbaProject.
+Создает пробел[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()

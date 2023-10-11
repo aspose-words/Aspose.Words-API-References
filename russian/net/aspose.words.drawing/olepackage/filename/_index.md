@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Объекты OLE позволяют нам открывать другие файлы в локальной файловой системе с помощью другого установленного приложения
 // в нашей операционной системе, дважды щелкнув фигуру, содержащую объект OLE в теле документа.
-// В этом случае наш внешний файл будет ZIP-архивом.
+// В данном случае наш внешний файл будет ZIP-архивом.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

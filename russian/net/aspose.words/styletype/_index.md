@@ -3,7 +3,7 @@ title: Enum StyleType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.StyleType перечисление. Представляет тип стиля.
 type: docs
-weight: 5860
+weight: 6160
 url: /ru/net/aspose.words/styletype/
 ---
 ## StyleType enumeration
@@ -18,8 +18,8 @@ public enum StyleType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Paragraph | `1` | Стиль представляет собой стиль абзаца. |
-| Character | `2` | Стиль представляет собой стиль персонажа. |
+| Paragraph | `1` | Стиль является стилем абзаца. |
+| Character | `2` | Стиль является стилем символов. |
 | Table | `3` | Стиль представляет собой стиль таблицы. |
 | List | `4` | Стиль представляет собой стиль списка. |
 
@@ -30,11 +30,11 @@ public enum StyleType
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
-// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
-// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+ // Мы можем создавать вложенные списки, увеличивая уровень отступа.
+ // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
 // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Мы можем содержать весь объект List в стиле.
+// Мы можем содержать целый объект List внутри стиля.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -56,14 +56,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Создать другой список из списка в стиле.
+// Создать еще один список из списка внутри стиля.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Добавляем несколько элементов списка, которые будут отформатированы в нашем списке.
+// Добавляем несколько элементов списка, которые наш список будет форматировать.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних форм этой групповой формы и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) в конце.
+Звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних фигур этой группы и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) в конце.
 
 ### Примеры
 
@@ -40,7 +40,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит на консоль содержимое посещенной группы фигур.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

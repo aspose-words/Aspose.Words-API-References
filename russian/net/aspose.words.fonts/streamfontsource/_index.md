@@ -1,14 +1,16 @@
 ---
 title: Class StreamFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.StreamFontSource сорт. Базовый класс для определяемого пользователем источника потокового шрифта.
+description: Aspose.Words.Fonts.StreamFontSource сорт. Базовый класс для пользовательского источника шрифтов потока.
 type: docs
-weight: 2860
+weight: 3040
 url: /ru/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
-Базовый класс для определяемого пользователем источника потокового шрифта.
+Базовый класс для пользовательского источника шрифтов потока.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public abstract class StreamFontSource : FontSourceBase
@@ -32,9 +34,9 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Примечания
 
-Чтобы использовать источник шрифта потока, вы должны создать производный класс от`StreamFontSource` и обеспечить реализацию[`OpenFontDataStream`](./openfontdatastream/) метод.
+Чтобы использовать источник потокового шрифта, вам следует создать производный класс из`StreamFontSource` и обеспечить реализацию[`OpenFontDataStream`](./openfontdatastream/) метод.
 
-[`OpenFontDataStream`](./openfontdatastream/)метод может вызываться несколько раз. Впервые он будет называться , когда Aspose.Words просканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже он может быть вызван, если шрифт используется в документе для анализа данных шрифта и внедрения данных шрифта в некоторые форматы вывода.
+[`OpenFontDataStream`](./openfontdatastream/)метод можно вызывать несколько раз. Впервые он будет называться , когда Aspose.Words сканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже его можно вызвать, если шрифт используется в документе для анализа данных шрифта и встраивания данных шрифта в некоторые выходные форматы.
 
 `StreamFontSource` может быть полезным, поскольку позволяет загружать данные шрифта только тогда, когда это требуется , а не хранить их в памяти для[`FontSettings`](../fontsettings/) продолжительность жизни.
 
@@ -43,6 +45,7 @@ public abstract class StreamFontSource : FontSourceBase
 Показывает, как загружать шрифты из потока.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -57,7 +60,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 /// <summary>
 /// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время жизни объекта FontSettings.
+/// на все время существования объекта FontSettings.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

@@ -3,12 +3,14 @@ title: Class MemoryFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fonts.MemoryFontSource сорт. Представляет один файл шрифта TrueType хранящийся в памяти.
 type: docs
-weight: 2840
+weight: 3020
 url: /ru/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
 Представляет один файл шрифта TrueType, хранящийся в памяти.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -18,16 +20,16 @@ public class MemoryFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Стор. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Стор. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Стор. |
+| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Cтор. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Ключ этого источника в кеше. |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Данные двоичного шрифта. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Двоичные данные шрифта. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Возвращает приоритет источника шрифта. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Возвращает тип источника шрифта. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования. |

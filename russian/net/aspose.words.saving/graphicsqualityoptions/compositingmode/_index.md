@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
 second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает значение указывающее как составные изображения рисуются в этом объекте Graphics.
+description: GraphicsQualityOptions свойство. Получает или задает значение определяющее способ отрисовки составных изображений в этом объекте Graphics. .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
 ## GraphicsQualityOptions.CompositingMode property
 
-Получает или задает значение, указывающее, как составные изображения рисуются в этом объекте Graphics.
+Получает или задает значение, определяющее способ отрисовки составных изображений в этом объекте Graphics. .
 
 ```csharp
 public CompositingMode? CompositingMode { get; set; }
@@ -16,7 +16,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ### Примеры
 
-Показывает, как установить параметры качества рендеринга при преобразовании документов в форматы изображений.
+Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

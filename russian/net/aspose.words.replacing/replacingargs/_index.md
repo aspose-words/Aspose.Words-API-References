@@ -3,12 +3,14 @@ title: Class ReplacingArgs
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Replacing.ReplacingArgs сорт. Предоставляет данные для пользовательской операции замены.
 type: docs
-weight: 4390
+weight: 4650
 url: /ru/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Предоставляет данные для пользовательской операции замены.
+
+Чтобы узнать больше, посетите[Найти и заменить](https://docs.aspose.com/words/net/find-and-replace/) статья документации.
 
 ```csharp
 public class ReplacingArgs
@@ -20,16 +22,17 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Идентифицирует по индексу захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Идентифицирует по имени захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате совпадения одного выражения Regular во время **Заменять** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате одного совпадения выражения Regular во время **Заменять** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Получает узел, содержащий начало совпадения. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Получает отсчитываемую от нуля начальную позицию совпадения от начала узла, содержащего начало совпадения. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Получает начальную позицию совпадения с отсчетом от нуля от начала узла, содержащего начало совпадения. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Получает или задает строку замены. |
 
 ### Примеры
 
-Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая все такие замены.
+Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,7 +40,7 @@ public class ReplacingArgs
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
@@ -54,7 +57,7 @@ public class ReplacingArgs
 }
 
 /// <summary>
-/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -77,18 +80,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Показывает, как вставить все содержимое документа в качестве замены совпадения в операции поиска и замены.
+Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -96,7 +102,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставить документ после абзаца, содержащего совпадающий текст.
+        // Вставляем документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -122,7 +128,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропустить узел, если это последний пустой абзац в разделе.
+                // Пропускаем узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

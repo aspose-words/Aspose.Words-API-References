@@ -3,7 +3,7 @@ title: ImageSaveOptions.Resolution
 second_title: Справочник по API Aspose.Words для .NET
 description: ImageSaveOptions свойство. Устанавливает горизонтальное и вертикальное разрешение для сгенерированных изображений в точках на дюйм.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
@@ -16,11 +16,11 @@ public float Resolution { set; }
 
 ### Примечания
 
-Это свойство действует только при сохранении в форматы растровых изображений.
+Это свойство действует только при сохранении в форматах растровых изображений.
 
 ### Примеры
 
-Показывает, как указать разрешение при рендеринге документа в формате PNG.
+Показывает, как указать разрешение при рендеринге документа в PNG.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+            // Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
             // чтобы изменить способ, которым этот метод преобразует документ в изображение.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
-            // Установите для свойства «Разрешение» значение «72», чтобы отображать документ с разрешением 72 dpi.
+            // Установите для свойства «Разрешение» значение «72», чтобы отобразить документ с разрешением 72 точки на дюйм.
             options.Resolution = 72;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
@@ -55,7 +55,7 @@ Document doc = new Document();
                 Assert.AreEqual(792, image.Height);
             }
 #endif
-            // Установите для свойства «Разрешение» значение «300», чтобы отображать документ с разрешением 300 dpi.
+            // Установите для свойства «Разрешение» значение «300», чтобы отобразить документ с разрешением 300 точек на дюйм.
             options.Resolution = 300;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);

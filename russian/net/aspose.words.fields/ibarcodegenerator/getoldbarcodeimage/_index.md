@@ -1,14 +1,14 @@
 ---
 title: IBarcodeGenerator.GetOldBarcodeImage
 second_title: Справочник по API Aspose.Words для .NET
-description: IBarcodeGenerator метод. Генерировать изображение штрихкода используя набор параметров для поля старого штрихкода.
+description: IBarcodeGenerator метод. Создать изображение штрихкода используя набор параметров для поля старомодный штрихкод.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 ---
 ## IBarcodeGenerator.GetOldBarcodeImage method
 
-Генерировать изображение штрих-кода, используя набор параметров (для поля старого штрих-кода).
+Создать изображение штрих-кода, используя набор параметров (для поля «старомодный штрих-код»).
 
 ```csharp
 public Image GetOldBarcodeImage(BarcodeParameters parameters)
@@ -29,9 +29,8 @@ public Image GetOldBarcodeImage(BarcodeParameters parameters)
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

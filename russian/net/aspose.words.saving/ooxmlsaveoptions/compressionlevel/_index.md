@@ -16,18 +16,18 @@ public CompressionLevel CompressionLevel { get; set; }
 
 ### Примеры
 
-Показывает, как указать уровень сжатия для использования при сохранении документа OOXML.
+Показывает, как указать уровень сжатия, который будет использоваться при сохранении документа OOXML.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
 // Когда мы сохраняем документ в формате OOXML, мы можем создать объект OoxmlSaveOptions
-// и затем передаем его в метод сохранения документа, чтобы изменить способ сохранения документа.
-// Установите для свойства "CompressionLevel" значение "CompressionLevel.Maximum", чтобы применить самое сильное и самое медленное сжатие.
-// Установите для свойства "CompressionLevel" значение "CompressionLevel.Normal" для применения
+// а затем передаем его методу сохранения документа, чтобы изменить способ сохранения документа.
+// Установите для свойства CompressionLevel значение CompressionLevel.Maximum, чтобы применить самое сильное и самое медленное сжатие.
+// Установите для свойства CompressionLevel значение CompressionLevel.Normal, чтобы применить его.
 // сжатие по умолчанию, которое Aspose.Words использует при сохранении документов OOXML.
-// Установите для свойства "CompressionLevel" значение "CompressionLevel.Fast", чтобы применить более быстрое и слабое сжатие.
-// Установите для свойства "CompressionLevel" значение "CompressionLevel.SuperFast" для применения
+// Установите для свойства CompressionLevel значение CompressionLevel.Fast, чтобы применить более быстрое и более слабое сжатие.
+// Установите для свойства CompressionLevel значение CompressionLevel.SuperFast, чтобы применить его.
 // сжатие по умолчанию, которое использует Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;

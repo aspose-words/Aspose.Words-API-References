@@ -8,7 +8,7 @@ url: /ru/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-Получает или задает макет водяного знака. Значение по умолчаниюDiagonal .
+Получает или задает макет водяного знака. Значение по умолчанию:Diagonal .
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -24,7 +24,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -37,7 +37,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

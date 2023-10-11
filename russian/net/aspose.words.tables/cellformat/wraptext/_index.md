@@ -1,14 +1,14 @@
 ---
 title: CellFormat.WrapText
 second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Если true перенос текста для ячейки.
+description: CellFormat свойство. Еслиистинный  перенесите текст ячейки.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Если true, перенос текста для ячейки.
+Если`истинный` , перенесите текст ячейки.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -16,7 +16,7 @@ public bool WrapText { get; set; }
 
 ### Примеры
 
-Показывает, как построить таблицу с пользовательскими границами.
+Показывает, как создать таблицу с настраиваемыми границами.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для конструктора документов
-// применит их к каждой строке и ячейке, которые мы добавляем вместе с ней.
+// Установка параметров форматирования таблицы для построителя документов
+// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Изменение форматирования применит его к текущей ячейке,
-// и любые новые ячейки, которые мы впоследствии создадим с помощью конструктора.
+// При изменении форматирования оно будет применено к текущей ячейке,
+// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 

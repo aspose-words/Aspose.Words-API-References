@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.ParentParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает ближайший родительский абзац.
+description: ShapeBase свойство. Возвращает непосредственный родительский абзац.
 type: docs
-weight: 390
+weight: 410
 url: /ru/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
 
-Возвращает ближайший родительский абзац.
+Возвращает непосредственный родительский абзац.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph ParentParagraph { get; }
 
 ### Примечания
 
-Для дочерних фигур групповой фигуры и дочерних фигур объекта Office Math всегда возвращается значение null.
+Для дочерних фигур фигуры группы и дочерних фигур объекта Office Math всегда возвращается`нулевой`.
 
 ### Примеры
 
@@ -32,9 +32,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «true», чтобы скрыть текстовое поле из поля зрения
+// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «истина», чтобы скрыть текстовое поле из поля зрения.
 // и свернуть пространство, которое он обычно занимает.
-// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «false», чтобы оставить текстовое поле видимым.
+// Установите для свойства «Скрытый» объекта «Шрифт» фигуры значение «false», чтобы текстовое поле оставалось видимым.
 shape.Font.Hidden = hideShape;
 
 // Если фигура видна, мы изменим ее внешний вид с помощью объекта шрифта.
@@ -45,7 +45,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Переместите построитель из текстового поля обратно в основной документ.
+// Перемещаем конструктор из текстового поля обратно в основной документ.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

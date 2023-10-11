@@ -1,14 +1,14 @@
 ---
 title: FontInfo.GetEmbeddedFont
 second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo метод. Получает определенный встроенный файл шрифта.
+description: FontInfo метод. Получает определенный файл встроенного шрифта.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
 ## FontInfo.GetEmbeddedFont method
 
-Получает определенный встроенный файл шрифта.
+Получает определенный файл встроенного шрифта.
 
 ```csharp
 public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style)
@@ -16,12 +16,12 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | EmbeddedFontFormat | Задает формат шрифта для получения. |
-| style | EmbeddedFontStyle | Задает стиль шрифта для получения. |
+| format | EmbeddedFontFormat | Указывает формат шрифта для получения. |
+| style | EmbeddedFontStyle | Указывает стиль шрифта для получения. |
 
 ### Возвращаемое значение
 
-Возвращает`нулевой`если указанный шрифт не встроен.
+Возврат`нулевой`если указанный шрифт не встроен.
 
 ### Примеры
 
@@ -41,7 +41,7 @@ doc = new Document(MyDir + "Embedded font.doc");
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Кроме того, мы можем преобразовать встроенный формат OpenType, полученный из документов .doc, в OpenType.
+// Кроме того, мы можем преобразовать встроенный формат OpenType, который поступает из документов .doc, в OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

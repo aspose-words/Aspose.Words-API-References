@@ -16,7 +16,7 @@ public int Version { get; set; }
 
 ### Примечания
 
-Когда документ был создан в Microsoft Word, старшие 16 бит представляют собой основную версию, а младшие 16 бит представляют номер сборки.
+Когда документ был создан в Microsoft Word, старшие 16 бит представляют основную версию, а младшие 16 бит представляют номер сборки.
 
 ### Примеры
 
@@ -28,8 +28,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Следующие встроенные свойства содержат информацию о создании и редактировании этого документа.
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти
-// эти свойства через "Свойства" -> "Подробности" -> Категория «Происхождение».
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти
+// эти свойства через "Свойства" -> «Подробности» -> Категория «Происхождение».
 // Такие поля, как PRINTDATE и EDITTIME, могут отображать эти значения в теле документа.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -43,11 +43,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word автоматически обновляет следующие свойства при сохранении документа.
-// Чтобы использовать эти свойства с Aspose.Words, нам нужно установить для них значения вручную.
+// Чтобы использовать эти свойства с Aspose.Words, нам нужно будет установить для них значения вручную.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

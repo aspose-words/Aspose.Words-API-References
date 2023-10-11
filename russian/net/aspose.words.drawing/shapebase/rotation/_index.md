@@ -3,7 +3,7 @@ title: ShapeBase.Rotation
 second_title: Справочник по API Aspose.Words для .NET
 description: ShapeBase свойство. Определяет угол в градусах на который поворачивается фигура. Положительное значение соответствует углу поворота по часовой стрелке.
 type: docs
-weight: 430
+weight: 470
 url: /ru/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
@@ -20,7 +20,7 @@ public double Rotation { get; set; }
 
 ### Примеры
 
-Показывает, как вставить и повернуть изображение.
+Показывает, как вставлять и поворачивать изображение.
 
 ```csharp
 Document doc = new Document();

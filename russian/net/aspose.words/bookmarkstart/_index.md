@@ -3,12 +3,14 @@ title: Class BookmarkStart
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.BookmarkStart сорт. Представляет начало закладки в документе Word.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
 
 Представляет начало закладки в документе Word.
+
+Чтобы узнать больше, посетите[Работа с закладками](https://docs.aspose.com/words/net/working-with-bookmarks/) статья документации.
 
 ```csharp
 public class BookmarkStart : Node
@@ -25,15 +27,15 @@ public class BookmarkStart : Node
 | Имя | Описание |
 | --- | --- |
 | [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Получает объект фасада, который инкапсулирует начало и конец этой закладки. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает`истинный` если этот узел может содержать другие узлы. |
 | [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Получает или задает имя закладки. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | ВозвращаетBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../range/) объект, представляющий часть документа, содержащуюся в этом узле. |
 
 ## Методы
 
@@ -44,19 +46,19 @@ public class BookmarkStart : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Возвращает пустую строку. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-Полная закладка в документе Word состоит из`BookmarkStart` и соответствующий[`BookmarkEnd`](../bookmarkend/) с тем же названием закладки.
+Полная закладка в документе Word состоит из`BookmarkStart` и соответствие[`BookmarkEnd`](../bookmarkend/) с тем же именем закладки.
 
-`BookmarkStart` а также[`BookmarkEnd`](../bookmarkend/) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
+`BookmarkStart` и[`BookmarkEnd`](../bookmarkend/) это просто маркеры внутри document , которые определяют, где начинается и заканчивается закладка.
 
-Использовать[`Bookmark`](./bookmark/) class как «фасад» для работы с bookmark как с единым объектом.
+Использовать[`Bookmark`](./bookmark/) класс как «фасад» для работы с bookmark как с одним объектом.
 
 ### Примеры
 
@@ -65,22 +67,21 @@ public class BookmarkStart : Node
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
+    // Создайте документ с тремя закладками, затем используйте специальную реализацию посетителя документа для печати его содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, и их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Распечатываем все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Создать документ с заданным количеством закладок.
+/// Создаем документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -127,7 +128,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Выводит содержимое каждой посещенной закладки на консоль.
+/// Выводит на консоль содержимое каждой посещенной закладки.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

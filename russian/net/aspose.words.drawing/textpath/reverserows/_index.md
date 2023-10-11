@@ -1,14 +1,14 @@
 ---
 title: TextPath.ReverseRows
 second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет является ли порядок расположения строк обратным.
+description: TextPath свойство. Определяет обратный ли порядок расположения строк.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/textpath/reverserows/
 ---
 ## TextPath.ReverseRows property
 
-Определяет, является ли порядок расположения строк обратным.
+Определяет, обратный ли порядок расположения строк.
 
 ```csharp
 public bool ReverseRows { get; set; }
@@ -16,24 +16,25 @@ public bool ReverseRows { get; set; }
 
 ### Примечания
 
-Значение по умолчанию **ЛОЖЬ**.
+Значение по умолчанию:`ЛОЖЬ`.
 
-Если **истинный**, порядок расположения строк обратный. Этот атрибут используется для вертикального расположения текста.
+Если`истинный`, порядок расположения строк меняется на обратный. Этот атрибут используется для вертикального расположения текста.
 
 ### Примеры
 
 Показывает, как работать с WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // Вставьте объект WordArt, чтобы отобразить текст в форме, размер которой можно изменять и перемещать с помощью мыши в Microsoft Word.
-    // Укажите "ShapeType" в качестве аргумента, чтобы установить форму для WordArt.
+    // Вставьте объект WordArt для отображения текста в форме, размер которой можно изменять и перемещать с помощью мыши в Microsoft Word.
+    // Укажите «ShapeType» в качестве аргумента, чтобы задать форму для WordArt.
     Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // Применяем к тексту настройки форматирования "Жирный" и "Курсив" с помощью соответствующих свойств.
+    // Примените к тексту параметры форматирования «Жирный» и «Курсив», используя соответствующие свойства.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
@@ -50,7 +51,7 @@ public bool ReverseRows { get; set; }
     Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
     Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
 
-    // Используйте свойство «Вкл.», чтобы показать/скрыть текст.
+    // Используйте свойство «Вкл», чтобы показать/скрыть текст.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.On = true;
 
@@ -64,42 +65,43 @@ public bool ReverseRows { get; set; }
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // Используйте свойство «Интервал», чтобы установить пользовательский интервал между символами по шкале от 0,0 (нет) до 1,0 (по умолчанию).
+    // Используйте свойство «Интервал», чтобы установить собственный интервал между символами по шкале от 0,0 (нет) до 1,0 (по умолчанию).
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
-    // Установите для свойства "RotateLetters" значение "true", чтобы повернуть каждый символ на 90 градусов против часовой стрелки.
+    // Установите для свойства RotateLetters значение true, чтобы повернуть каждый символ на 90 градусов против часовой стрелки.
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // Установите для свойства «SameLetterHeights» значение «true», чтобы получить высоту x каждого символа, равную высоте прописной буквы.
+    // Установите для свойства SameLetterHeights значение «true», чтобы высота x каждого символа была равна высоте верхнего предела.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // По умолчанию размер текста всегда будет масштабироваться в соответствии с размером содержащей его фигуры, переопределяя настройку размера текста.
+    // По умолчанию размер текста всегда масштабируется в соответствии с размером содержащейся фигуры, переопределяя настройку размера текста.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // Если мы установим для свойства "FitShape:" значение "false", текст сохранит размер
-    // который указывает свойство "Размер" независимо от размера фигуры.
-    // Используйте свойство "TextPathAlignment" также для выравнивания текста по стороне фигуры.
+    // Если мы установим для свойства FitShape: значение «false», текст сохранит размер
+    // которое задает свойство "Размер" независимо от размера фигуры.
+    // Используйте свойство TextPathAlignment также для выравнивания текста по сторонам фигуры.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
     shape.TextPath.Size = 24.0;
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Вставьте новый абзац с фигурой WordArt внутри него.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // Создайте встроенную фигуру, которая будет служить контейнером для нашего WordArt.
-    // Фигура может быть допустимой фигурой WordArt только в том случае, если мы назначаем ей ShapeType, назначенный WordArt.
-    // Эти типы будут иметь в описании "объект WordArt",
-    // и все их имена констант перечислителя будут начинаться с "Text".
+    // Создаем встроенную фигуру, которая будет служить контейнером для нашего WordArt.
+    // Фигура может быть допустимой фигурой WordArt только в том случае, если мы присвоим ей ShapeType, назначенный WordArt.
+    // Эти типы будут иметь в описании «объект WordArt»,
+    // и имена констант их перечислителей будут начинаться с «Текст».
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

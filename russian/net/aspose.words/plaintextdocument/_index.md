@@ -3,12 +3,14 @@ title: Class PlainTextDocument
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.PlainTextDocument сорт. Позволяет извлекать текстовое представление содержимого документа.
 type: docs
-weight: 4190
+weight: 4440
 url: /ru/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
 Позволяет извлекать текстовое представление содержимого документа.
+
+Чтобы узнать больше, посетите[Работа с текстовым документом](https://docs.aspose.com/words/net/working-with-text-document/) статья документации.
 
 ```csharp
 public class PlainTextDocument
@@ -27,13 +29,13 @@ public class PlainTextDocument
 
 | Имя | Описание |
 | --- | --- |
-| [BuiltInDocumentProperties](../../aspose.words/plaintextdocument/builtindocumentproperties/) { get; } | получает[`BuiltInDocumentProperties`](./builtindocumentproperties/) документа. |
-| [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | получает[`CustomDocumentProperties`](./customdocumentproperties/) документа. |
-| [Text](../../aspose.words/plaintextdocument/text/) { get; } | Получает текстовое содержимое документа, объединенного в виде строки. |
+| [BuiltInDocumentProperties](../../aspose.words/plaintextdocument/builtindocumentproperties/) { get; } | Получает[`BuiltInDocumentProperties`](./builtindocumentproperties/) документа. |
+| [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Получает[`CustomDocumentProperties`](./customdocumentproperties/) документа. |
+| [Text](../../aspose.words/plaintextdocument/text/) { get; } | Получает текстовое содержимое документа, объединенное в строку. |
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
 
 ```csharp
 Document doc = new Document(); 

@@ -16,11 +16,11 @@ public TableAlignment Alignment { get; set; }
 
 ### Примечания
 
-Значение по умолчаниюLeft.
+Значение по умолчанию:Left.
 
 ### Примеры
 
-Показывает, как применить границу контура к таблице.
+Показывает, как применить контурную рамку к таблице.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -29,7 +29,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Выравниваем таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистить все существующие границы и затенение из таблицы.
+// Очистим все существующие границы и затенение таблицы.
 table.ClearBorders();
 table.ClearShading();
 
@@ -39,7 +39,7 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заливаем ячейки светло-зеленым сплошным цветом.
+// Заполняем ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

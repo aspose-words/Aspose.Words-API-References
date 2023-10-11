@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает стиль штрихкода торговой точки типы штрихкода UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
+description: FieldMergeBarcode свойство. Получает или задает стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 ---
 ## FieldMergeBarcode.PosCodeStyle property
 
-Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Получает или задает стиль штрих-кода торговой точки (типы штрих-кодов UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,13 +16,13 @@ public string PosCodeStyle { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами EAN13.
+Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";

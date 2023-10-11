@@ -19,6 +19,7 @@ public FieldEnd End { get; }
 Показывает, как работать с коллекцией полей.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,7 +36,7 @@ public FieldEnd End { get; }
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей и печатаем содержимое и тип
+    // Перебираем коллекцию полей, выводим содержимое и печатаем
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -57,9 +58,10 @@ public FieldEnd End { get; }
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Реализация посетителя документа, которая печатает информацию о поле.
+/// Реализация посетителя документа, который печатает информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -69,7 +71,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

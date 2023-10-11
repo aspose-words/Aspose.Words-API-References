@@ -1,14 +1,14 @@
 ---
 title: Shape.ExtrusionEnabled
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращает true если включен эффект выдавливания.
+description: Shape свойство. Возвращаетистинный если эффект выдавливания включен.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Возвращает true, если включен эффект выдавливания.
+Возвращает`истинный` если эффект выдавливания включен.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -19,6 +19,7 @@ public bool ExtrusionEnabled { get; }
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ public bool ExtrusionEnabled { get; }
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -40,7 +41,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

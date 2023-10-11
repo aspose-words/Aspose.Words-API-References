@@ -20,7 +20,7 @@ public double Position { get; set; }
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Поднимите этот фрагмент текста на 5 пунктов выше базовой линии.
 Run run = new Run(doc, "Raised text. ");
@@ -36,12 +36,12 @@ para.AppendChild(run);
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как нижний индекс.
+// Добавляем фрагмент текста, который отображается в виде нижнего индекса.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как верхний индекс.
+// Добавляем фрагмент текста, который отображается как надстрочный индекс.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

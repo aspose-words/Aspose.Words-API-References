@@ -20,11 +20,11 @@ public bool Contains(Node node)
 
 ### Возвращаемое значение
 
-Истинно, если элемент найден в коллекции; в противном случае ложно.
+`истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
 ### Примечания
 
-Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально Count.
+Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально[`Count`](../count/).
 
 ### Примеры
 
@@ -34,12 +34,12 @@ public bool Contains(Node node)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавляем текст в документ, вставляя Runs с помощью DocumentBuilder.
+// Добавьте текст в документ, вставив прогоны с помощью DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Каждый вызов метода «Запись» создает новый запуск,
-// который затем появляется в коллекции RunCollection родительского абзаца.
+// Каждый вызов метода Write создает новый Run,
+// который затем появляется в RunCollection родительского абзаца.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
@@ -51,7 +51,7 @@ runs.Insert(3, newRun);
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Получите доступ к отдельным прогонам и удалите их, чтобы удалить их текст из документа.
+// Доступ к отдельным запускам и удаление их, чтобы удалить их текст из документа.
 Run run = runs[1];
 runs.Remove(run);
 

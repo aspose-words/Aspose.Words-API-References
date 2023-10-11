@@ -16,21 +16,19 @@ public int ListId { get; }
 
 ### Примечания
 
-Обычно вам не нужно использовать это свойство. Но если вы используете его, вы обычно делаете так в сочетании с[`GetListByListId`](../../listcollection/getlistbylistid/) метод поиска списка a по его идентификатору.
+Обычно вам не нужно использовать это свойство. Но если вы его используете, вы обычно делаете so в сочетании с[`GetListByListId`](../../listcollection/getlistbylistid/) метод для поиска списка a по его идентификатору.
 
 ### Примеры
 
-Показывает, как проверить свойства документа владельца списков.
+Показывает, как проверить свойства документов владельцев списков.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Показывает, как вывести все абзацы в документе, которые являются элементами списка.
+Показывает, как вывести все абзацы документа, являющиеся элементами списка.
 
 ```csharp
 Document doc = new Document();

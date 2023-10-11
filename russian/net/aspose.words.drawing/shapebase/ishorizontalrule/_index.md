@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsHorizontalRule
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает true если эта фигура является горизонтальной линейкой.
+description: ShapeBase свойство. Возвращаетистинный если эта фигура является горизонтальной линейкой.
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Возвращает true, если эта фигура является горизонтальной линейкой.
+Возвращает`истинный` если эта фигура является горизонтальной линейкой.
 
 ```csharp
 public bool IsHorizontalRule { get; }

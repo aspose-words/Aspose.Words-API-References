@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.PageColor
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Получает или задает цвет страницы документа. Это свойство является упрощенной версиейBackgroundShape .
+description: DocumentBase свойство. Получает или задает цвет страницы документа. Это свойство представляет собой более простую версиюBackgroundShape .
 type: docs
 weight: 60
 url: /ru/net/aspose.words/documentbase/pagecolor/
 ---
 ## DocumentBase.PageColor property
 
-Получает или задает цвет страницы документа. Это свойство является упрощенной версией[`BackgroundShape`](../backgroundshape/) .
+Получает или задает цвет страницы документа. Это свойство представляет собой более простую версию[`BackgroundShape`](../backgroundshape/) .
 
 ```csharp
 public Color PageColor { get; set; }
@@ -18,7 +18,7 @@ public Color PageColor { get; set; }
 
 Это свойство обеспечивает простой способ указать сплошной цвет страницы для документа. Установка этого свойства создает и устанавливает соответствующий[`BackgroundShape`](../backgroundshape/).
 
-Если цвет страницы не задан (например, в документе нет формы фона), возвращается Empty.
+Если цвет страницы не установлен (например, в документе нет фоновой фигуры), return Empty.
 
 ### Примеры
 

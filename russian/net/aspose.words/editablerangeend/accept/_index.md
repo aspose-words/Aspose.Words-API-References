@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-False, если посетитель запросил остановку перечисления.
+`ЛОЖЬ` если посетитель запросил остановку перечисления.
 
 ### Примечания
 
@@ -42,7 +42,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые могут редактировать пользователи.
+    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые пользователи могут редактировать.
     // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
     // 1 - Указываем пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Указываем группу, с которой связаны разрешенные пользователи:
+    // 2 - Укажите группу, с которой связаны разрешенные пользователи:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Печатаем детали и содержимое каждого редактируемого диапазона в документе.
+    // Распечатываем детали и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только те пробеги, которые находятся в редактируемых диапазонах.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только прогоны, находящиеся в пределах редактируемых диапазонов.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Count
 second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroupCollection свойство. Возвращает количество групп ревизий в коллекции.
+description: RevisionGroupCollection свойство. Возвращает количество групп редакций в коллекции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-Возвращает количество групп ревизий в коллекции.
+Возвращает количество групп редакций в коллекции.
 
 ```csharp
 public int Count { get; }

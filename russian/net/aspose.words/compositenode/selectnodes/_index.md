@@ -3,7 +3,7 @@ title: CompositeNode.SelectNodes
 second_title: Справочник по API Aspose.Words для .NET
 description: CompositeNode метод. Выбирает список узлов соответствующих выражению XPath.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -33,7 +33,7 @@ public NodeList SelectNodes(string xpath)
 ```csharp
 Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
 
-// NodeList, полученный из этого выражения XPath, будет содержать все узлы, которые мы находим внутри поля.
+// NodeList, полученный в результате этого выражения XPath, будет содержать все узлы, которые мы найдем внутри поля.
 // Однако узлы FieldStart и FieldEnd могут быть в списке, если в пути есть вложенные поля.
 // В настоящее время не находит редкие поля, в которых FieldCode или FieldResult охватывают несколько абзацев.
 NodeList resultList =
@@ -52,7 +52,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 // которые являются потомками любого узла таблицы в документе.
 NodeList nodeList = doc.SelectNodes("//Таблица//Абзац");
 
-// Проходим по списку с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
+// Перебираем список с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())

@@ -1,14 +1,14 @@
 ---
 title: Enum DmlEffectsRenderingMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DmlEffectsRenderingMode перечисление. Указывает как эффекты DrawingML визуализируются для фиксированных форматов страниц.
+description: Aspose.Words.Saving.DmlEffectsRenderingMode перечисление. Указывает как эффекты DrawingML отображаются в фиксированных форматах страниц.
 type: docs
-weight: 4650
+weight: 4910
 url: /ru/net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration
 
-Указывает, как эффекты DrawingML визуализируются для фиксированных форматов страниц.
+Указывает, как эффекты DrawingML отображаются в фиксированных форматах страниц.
 
 ```csharp
 public enum DmlEffectsRenderingMode
@@ -19,8 +19,8 @@ public enum DmlEffectsRenderingMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Simplified | `0` | Упрощен рендеринг эффектов DrawingML. |
-| None | `1` | Эффекты DrawingML не визуализируются. |
-| Fine | `2` | Эффекты DrawingML визуализируются в точном режиме, который включает расширенную обработку. В этом режиме визуализация эффектов дает лучшие результаты, но требует более высокой производительности, чемSimplified режим. |
+| None | `1` | Эффекты DrawingML не отображаются. |
+| Fine | `2` | Эффекты DrawingML визуализируются в тонком режиме, который включает расширенную обработку. В этом режиме рендеринг эффектов дает лучшие результаты, но с более высокими затратами производительности, чемSimplified режим. |
 
 ### Примеры
 
@@ -29,15 +29,15 @@ public enum DmlEffectsRenderingMode
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.None", чтобы отменить все эффекты DrawingML.
+// Установите для свойства «DmlEffectsRenderingMode» значение «DmlEffectsRenderingMode.None», чтобы отменить все эффекты DrawingML.
 // Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Simplified"
-// для визуализации упрощенной версии эффектов DrawingML.
+// для рендеринга упрощенной версии эффектов DrawingML.
 // Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Fine", чтобы
-// визуализировать эффекты DrawingML с большей точностью, а также с большей стоимостью обработки.
+// визуализируем эффекты DrawingML с большей точностью, а также с большими затратами на обработку.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

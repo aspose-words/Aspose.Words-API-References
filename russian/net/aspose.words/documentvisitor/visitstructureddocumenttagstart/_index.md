@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление тега структурированного документа.
+description: DocumentVisitor метод. Вызывается когда началось перечисление тега структурированного документа.
 type: docs
 weight: 470
 url: /ru/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagStart method
 
-Вызывается, когда начинается перечисление тега структурированного документа.
+Вызывается, когда началось перечисление тега структурированного документа.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого тега структурированного документа в документе.
+Показывает, как распечатать структуру узла каждого тега структурированного документа в документе.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -32,17 +32,17 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
-/// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их потомков.
+/// Обходит недвоичное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их дочерних элементов.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -93,7 +93,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

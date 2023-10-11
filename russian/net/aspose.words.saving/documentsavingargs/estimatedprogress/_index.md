@@ -16,7 +16,7 @@ public double EstimatedProgress { get; }
 
 ### Примеры
 
-Показывает, как управлять документом при сохранении в формате html.
+Показывает, как управлять документом при сохранении в HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -35,12 +35,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -65,7 +65,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
@@ -90,12 +90,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -120,7 +120,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
@@ -145,12 +145,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -175,7 +175,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

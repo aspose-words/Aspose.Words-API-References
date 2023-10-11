@@ -3,12 +3,14 @@ title: Class AxisBound
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.Charts.AxisBound сорт. Представляет минимальную или максимальную границу значений оси.
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
 
 Представляет минимальную или максимальную границу значений оси.
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public sealed class AxisBound
@@ -18,35 +20,35 @@ public sealed class AxisBound
 
 | Имя | Описание |
 | --- | --- |
-| [AxisBound](axisbound/#constructor)() | Создает новый экземпляр, указывающий, что привязка оси должна определяться автоматически приложением обработки текста . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Создает привязку оси, представленную как значение даты и времени. |
+| [AxisBound](axisbound/#constructor)() | Создает новый экземпляр, указывающий, что граница оси должна определяться автоматически текстовым приложением . |
+| [AxisBound](axisbound/#constructor_2)(DateTime) | Создает границу оси, представленную как значение даты и времени. |
 | [AxisBound](axisbound/#constructor_1)(double) | Создает границу оси, представленную в виде числа. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Возвращает флаг, указывающий, что привязка оси должна быть определена автоматически. |
-| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Возвращает числовое значение связанной оси. |
-| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Возвращает значение привязки оси, представленное как datetime. |
+| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Возвращает флаг, указывающий, что граница оси должна определяться автоматически. |
+| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Возвращает числовое значение границы оси. |
+| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Возвращает значение границы оси, представленное как datetime. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Служит хэш-функцией для этого типа. |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Служит хеш-функцией для этого типа. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
 ### Примечания
 
-Привязка может быть указана как числовое значение, дата-время или специальное значение "auto".
+Привязка может быть указана как числовое значение, значение даты и времени или специальное «автоматическое» значение.
 
 Экземпляры этого класса неизменяемы.
 
 ### Примеры
 
-Показывает, как вставить диаграмму со значениями даты/времени.
+Показывает, как вставить диаграмму со значениями даты и времени.
 
 ```csharp
 Document doc = new Document();
@@ -55,10 +57,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавьте пользовательский ряд, содержащий значения даты/времени для оси X и соответствующие десятичные значения для оси Y.
+// Добавляем пользовательскую серию, содержащую значения даты и времени для оси X и соответствующие десятичные значения для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -67,17 +69,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Установите нижнюю и верхнюю границы для оси X.
+// Устанавливаем нижнюю и верхнюю границы оси X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Установите основные единицы оси X на неделю, а второстепенные единицы на день.
+// Установите основные единицы оси X на неделю, а второстепенные — на день.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Определить свойства оси Y для десятичных значений.
 ChartAxis yAxis = chart.AxisY;
@@ -87,6 +91,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

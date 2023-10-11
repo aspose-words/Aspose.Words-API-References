@@ -28,8 +28,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// В поле СРАВНЕНИЕ отображается «0» или «1», в зависимости от истинности утверждения.
-// Результат этого утверждения ложный, поэтому в этом поле будет отображаться «0».
+// Поле COMPARE отображает «0» или «1», в зависимости от истинности его утверждения.
+// Результат этого оператора является ложным, поэтому в этом поле будет отображаться «0».
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -41,7 +41,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// В этом поле отображается «1», так как утверждение верно.
+// В этом поле отображается «1», поскольку утверждение истинно.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

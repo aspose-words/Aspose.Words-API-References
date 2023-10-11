@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
 second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает номер редакции документа.
+description: BuiltInDocumentProperties свойство. Получает или задает номер версии документа.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 ---
 ## BuiltInDocumentProperties.RevisionNumber property
 
-Получает или задает номер редакции документа.
+Получает или задает номер версии документа.
 
 ```csharp
 public int RevisionNumber { get; set; }
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Current revision #");
 
-// Вставьте поле REVNUM, которое отображает свойство текущего номера редакции документа.
+// Вставляем поле REVNUM, которое отображает свойство номера текущей редакции документа.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
 Assert.AreEqual(" REVNUM ", field.GetFieldCode());
@@ -36,9 +36,10 @@ Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
 // Это свойство подсчитывает, сколько раз документ был сохранен в Microsoft Word,
-// и не имеет отношения к отслеживаемым ревизиям. Мы можем найти его, щелкнув правой кнопкой мыши документ в проводнике Windows.
+// и не имеет отношения к отслеживаемым версиям. Мы можем найти его, щелкнув документ правой кнопкой мыши в проводнике Windows.
 // через Свойства -> Подробности. Мы можем обновить это свойство вручную.
 doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```
@@ -51,8 +52,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Следующие встроенные свойства содержат информацию о создании и редактировании этого документа.
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти
-// эти свойства через "Свойства" -> "Подробности" -> Категория «Происхождение».
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти
+// эти свойства через "Свойства" -> «Подробности» -> Категория «Происхождение».
 // Такие поля, как PRINTDATE и EDITTIME, могут отображать эти значения в теле документа.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -66,11 +67,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word автоматически обновляет следующие свойства при сохранении документа.
-// Чтобы использовать эти свойства с Aspose.Words, нам нужно установить для них значения вручную.
+// Чтобы использовать эти свойства с Aspose.Words, нам нужно будет установить для них значения вручную.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

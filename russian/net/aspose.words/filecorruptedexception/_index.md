@@ -1,14 +1,16 @@
 ---
 title: Class FileCorruptedException
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.FileCorruptedException сорт. Возникает во время загрузки документа когда документ кажется поврежденным и его невозможно загрузить.
+description: Aspose.Words.FileCorruptedException сорт. Выдается во время загрузки документа когда документ кажется поврежденным и его невозможно загрузить.
 type: docs
-weight: 2620
+weight: 2800
 url: /ru/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Возникает во время загрузки документа, когда документ кажется поврежденным и его невозможно загрузить.
+Выдается во время загрузки документа, когда документ кажется поврежденным и его невозможно загрузить.
+
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
 
 ```csharp
 public class FileCorruptedException : Exception
@@ -16,12 +18,12 @@ public class FileCorruptedException : Exception
 
 ### Примеры
 
-Показывает, как перехватывать исключение FileCorruptedException.
+Показывает, как перехватить FileCorruptedException.
 
 ```csharp
 try
 {
-    // Если мы получаем сообщение об ошибке «Нечитаемое содержимое» при попытке открыть документ с помощью Microsoft Word,
+    // Если мы получим сообщение об ошибке «Нечитаемое содержимое» при попытке открыть документ с помощью Microsoft Word,
     // есть вероятность, что мы получим исключение при попытке загрузить этот документ с помощью Aspose.Words.
     Document doc = new Document(MyDir + "Corrupted document.docx");
 }

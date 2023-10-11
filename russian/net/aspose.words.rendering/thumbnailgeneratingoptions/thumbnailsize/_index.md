@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
 second_title: Справочник по API Aspose.Words для .NET
-description: ThumbnailGeneratingOptions свойство. Размер сгенерированного эскиза в пикселях. По умолчанию 600x900.
+description: ThumbnailGeneratingOptions свойство. Размер созданного эскиза в пикселях. Значение по умолчанию 600x900.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-Размер сгенерированного эскиза в пикселях. По умолчанию 600x900.
+Размер созданного эскиза в пикселях. Значение по умолчанию: 600x900.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -25,12 +25,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Существует два способа установки миниатюры при сохранении документа в формате .epub.
+// Существует два способа установки миниатюры изображения при сохранении документа в формате .epub.
 // 1 - Использовать первую страницу документа:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Использовать первое изображение, найденное в документе:
+// 2 — Использовать первое изображение, найденное в документе:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

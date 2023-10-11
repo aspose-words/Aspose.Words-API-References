@@ -3,7 +3,7 @@ title: ImportFormatOptions.IgnoreTextBoxes
 second_title: Справочник по API Aspose.Words для .NET
 description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого текстовых полей игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
@@ -19,13 +19,13 @@ public bool IgnoreTextBoxes { get; set; }
 Показывает, как управлять форматированием текстового поля при добавлении документа.
 
 ```csharp
-// Создаем документ, в который будут вставлены узлы из другого документа.
+// Создайте документ, в который будут вставлены узлы из другого документа.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
 builder.Writeln("Hello world!");
 
-// Создадим еще один документ с текстовым полем, которое мы импортируем в первый документ.
+// Создаем еще один документ с текстовым полем, которое импортируем в первый документ.
 Document srcDoc = new Document();
 builder = new DocumentBuilder(srcDoc);
 
@@ -35,13 +35,13 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Установите флаг, чтобы указать, очищать или сохранять форматирование текстового поля
+// Установите флаг, чтобы указать, следует ли очистить или сохранить форматирование текстового поля
 // при импорте их в другие документы.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
 // Импортируем текстовое поле из исходного документа в целевой документ,
-// и затем проверяем, сохранили ли мы стиль его текстового содержимого.
+// а затем проверяем, сохранили ли мы стиль его текстового содержимого.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

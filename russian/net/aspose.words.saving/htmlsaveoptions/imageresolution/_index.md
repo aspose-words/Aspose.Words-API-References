@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImageResolution
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Определяет выходное разрешение для изображений при экспорте в HTML MHTML или EPUB. Значение по умолчанию96 точек на дюйм .
+description: HtmlSaveOptions свойство. Указывает выходное разрешение изображений при экспорте в HTML MHTML или EPUB. Значение по умолчанию96 точек на дюйм .
 type: docs
-weight: 350
+weight: 340
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-Определяет выходное разрешение для изображений при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:`96 точек на дюйм` .
+Указывает выходное разрешение изображений при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:`96 точек на дюйм` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -16,7 +16,7 @@ public int ImageResolution { get; set; }
 
 ### Примечания
 
-Это свойство влияет на растровые изображения, когда[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) это`истинный` метафайлы эффектов экспортируются как растровые изображения. Некоторые свойства изображения, такие как обрезка или поворот, требуют сохранения преобразованных изображений, и в этом случае преобразованные изображения создаются с разрешением заданное .
+Это свойство влияет на растровые изображения, когда[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) это`истинный` метафайлы и эффекты, экспортированные в виде растровых изображений. Некоторые свойства изображения, такие как обрезка или вращение, требуют сохранения преобразованных изображений, и в этом случае преобразованные изображения создаются с заданным разрешением .
 
 ### Примеры
 
@@ -34,7 +34,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/шрифты",
+    FontsFolderAlias = "http://example.com/fonts",
     ImagesFolderAlias = "http://example.com/images",
     ResourceFolderAlias = "http://example.com/resources",
     ExportOriginalUrlForLinkedImages = true

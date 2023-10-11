@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Notes
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes namespace предоставляет классы для работы с концевыми и сносками Microsoft Word.
+description: Aspose.Words.Notesпространство имен предоставляет классы для работы с концевыми и сносками Microsoft Word.
 type: docs
-weight: 170
+weight: 180
 url: /ru/net/aspose.words.notes/
 ---
-**Aspose.Words.Notes** namespace предоставляет классы для работы с концевыми и сносками Microsoft Word.
+**Aspose.Words.Notes**пространство имен предоставляет классы для работы с концевыми и сносками Microsoft Word.
 
 ## Классы
 

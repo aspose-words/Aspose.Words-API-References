@@ -3,12 +3,14 @@ title: Class UserInformation
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.UserInformation сорт. Указывает информацию о пользователе.
 type: docs
-weight: 2610
+weight: 2790
 url: /ru/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Указывает информацию о пользователе.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class UserInformation
@@ -31,7 +33,7 @@ public class UserInformation
 
 ### Примеры
 
-Показывает, как установить сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +49,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
-// соответствующие свойства объекта UserInformation, который мы создали выше. 
+ // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
 second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Каждая строка в массиве указывает имя части в документе.
+description: BuiltInDocumentProperties свойство. Каждая строка в массиве определяет имя части документа.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
 
-Каждая строка в массиве указывает имя части в документе.
+Каждая строка в массиве определяет имя части документа.
 
 ```csharp
 public string[] TitlesOfParts { get; set; }
@@ -20,18 +20,18 @@ Aspose.Words не обновляет это свойство.
 
 ### Примеры
 
-Показывает взаимосвязь между свойствами "HeadingPairs" и "TitlesOfParts".
+Показывает связь между свойствами "HeadingPairs" и "TitlesOfParts".
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Мы можем найти объединенные значения этих коллекций через
-// "Файл" -> "Свойства" -> "Дополнительные свойства" -> Вкладка «Содержание».
-// Свойство HeadingPairs представляет собой набор <string, int> пары, которые
+// "Файл" -> «Свойства» -> «Дополнительные свойства» -> Вкладка «Содержание».
+// Свойство HeadingPairs представляет собой коллекцию <string, int> пары, которые
 // определяет, сколько частей документа охватывает заголовок.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// Свойство TitlesOfParts содержит имена частей, принадлежащих вышеуказанным заголовкам.
+// Свойство TitlesOfParts содержит названия частей, принадлежащих к указанным выше заголовкам.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

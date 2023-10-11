@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Вставьте поле со списком, которое позволит пользователю выбрать вариант из набора строк.
+// Вставляем поле со списком, которое позволит пользователю выбрать вариант из коллекции строк.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);

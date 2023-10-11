@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImagesFolderAlias
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает имя папки используемой для построения URI изображений записываемых в документ HTML. По умолчанию  пустая строка.
+description: HtmlSaveOptions свойство. Указывает имя папки используемой для создания URI изображений записанных в HTMLдокумент. По умолчанию  пустая строка.
 type: docs
-weight: 380
+weight: 370
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-Указывает имя папки, используемой для построения URI изображений, записываемых в документ HTML. По умолчанию — пустая строка.
+Указывает имя папки, используемой для создания URI изображений, записанных в HTML-документ. По умолчанию — пустая строка.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -16,15 +16,15 @@ public string ImagesFolderAlias { get; set; }
 
 ### Примечания
 
-Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.[`ImagesFolder`](../imagesfolder/) позволяет указать, где изображения будут сохранены и`ImagesFolderAlias` позволяет указать, как будут создаваться URI изображения.
+Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.[`ImagesFolder`](../imagesfolder/) позволяет указать, где будут сохраняться изображения и`ImagesFolderAlias` позволяет указать, как будут создаваться URI изображения.
 
-Если`ImagesFolderAlias`не является пустой строкой, тогда URI изображения, написанный в HTML, будетImagesFolderAlias + &lt;имя файла изображения&gt;.
+Если`ImagesFolderAlias` не пустая строка, то URI изображения, записанный в HTML, будет иметь видImagesFolderAlias + &lt;имя файла изображения&gt;.
 
-Если`ImagesFolderAlias` является пустой строкой, тогда URI изображения, записанный в HTML, будетПапка изображений + &lt;имя файла изображения&gt;.
+Если`ImagesFolderAlias` является пустой строкой, то URI изображения, записанный в HTML, будет иметь видImagesFolder + &lt;имя файла изображения&gt;.
 
-Если`ImagesFolderAlias` установлен в '.' (точка), то имя файла изображения будет записано в HTML без указания пути независимо от других параметров.
+Если`ImagesFolderAlias`установлено значение '.' (точка), то имя файла изображения будет записано в HTML без пути независимо от других параметров.
 
-Альтернативный способ указать имя папки для построения образа URIs — использовать[`ResourceFolderAlias`](../resourcefolderalias/).
+Альтернативный способ указать имя папки для создания URIs изображения — использовать[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ### Примеры
 
@@ -42,7 +42,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/шрифты",
+    FontsFolderAlias = "http://example.com/fonts",
     ImagesFolderAlias = "http://example.com/images",
     ResourceFolderAlias = "http://example.com/resources",
     ExportOriginalUrlForLinkedImages = true

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentStory
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает историю выбранную в данный момент в этом DocumentBuilder.
+description: DocumentBuilder свойство. Получает историю выбранную в данный момент в этомDocumentBuilder .
 type: docs
 weight: 70
 url: /ru/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Получает историю, выбранную в данный момент в этом DocumentBuilder.
+Получает историю, выбранную в данный момент в этом[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -22,7 +22,7 @@ public Story CurrentStory { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// История — это тип узла, который имеет дочерние узлы абзаца, такие как тело.
+// История — это тип узла, у которого есть дочерние узлы «Абзац», например «Тело».
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);

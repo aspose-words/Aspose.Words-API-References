@@ -1,14 +1,16 @@
 ---
 title: Enum ThemeColor
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeColor перечисление. Определяет цвета темы для тем документа.
+description: Aspose.Words.Themes.ThemeColor перечисление. Определяет цвета темы для тем документов.
 type: docs
-weight: 6170
+weight: 6470
 url: /ru/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
-Определяет цвета темы для тем документа.
+Определяет цвета темы для тем документов.
+
+Чтобы узнать больше, посетите[Работа со стилями и темами](https://docs.aspose.com/words/net/working-with-styles-and-themes/) статья документации.
 
 ```csharp
 public enum ThemeColor
@@ -20,9 +22,9 @@ public enum ThemeColor
 | --- | --- | --- |
 | None | `-1` | Нет цвета. |
 | Dark1 | `0` | Темный основной цвет 1. |
-| Light1 | `1` | Светлый основной цвет 1. |
+| Light1 | `1` | Основной цвет света 1. |
 | Dark2 | `2` | Темный основной цвет 2. |
-| Light2 | `3` | Светлый основной цвет 2. |
+| Light2 | `3` | Основной цвет света 2. |
 | Accent1 | `4` | Акцентный цвет 1. |
 | Accent2 | `5` | Акцентный цвет 2. |
 | Accent3 | `6` | Акцентный цвет 3. |
@@ -38,7 +40,7 @@ public enum ThemeColor
 
 ### Примечания
 
-Указанный цвет темы является ссылкой на один из предопределенных цветов темы, расположенных в разделе темы документа , что позволяет централизованно задавать информацию о цвете в документе.
+Указанный цвет темы является ссылкой на один из предопределенных цветов темы, расположенный в разделе «Тема» документа the , что позволяет централизованно задавать информацию о цвете в документе.
 
 ### Примеры
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Создадим какой-нибудь стиль со свойствами шрифта темы.
+// Создайте стиль с помощью свойств шрифта темы.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -65,7 +67,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// Определяем шрифты для языков, используемых по умолчанию.
+// Определить шрифты для языков, используемых по умолчанию.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -95,8 +97,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов изменить их шрифт и цвет.
-// 1 - Установив ThemeFont.None/ThemeColor.None:
+// Есть несколько способов сбросить шрифт и цвет.
+// 1 — установив ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -118,7 +120,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Установив имена шрифта/цвета, не относящиеся к теме:
+// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

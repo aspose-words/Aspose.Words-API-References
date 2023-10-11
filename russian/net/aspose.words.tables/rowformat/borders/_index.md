@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Borders
 second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Получает набор границ ячеек по умолчанию для строки.
+description: RowFormat свойство. Получает коллекцию границ ячеек по умолчанию для строки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/rowformat/borders/
 ---
 ## RowFormat.Borders property
 
-Получает набор границ ячеек по умолчанию для строки.
+Получает коллекцию границ ячеек по умолчанию для строки.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### Примеры
 
-Показывает, как построить таблицу с пользовательскими границами.
+Показывает, как создать таблицу с настраиваемыми границами.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для конструктора документов
-// применит их к каждой строке и ячейке, которые мы добавляем вместе с ней.
+// Установка параметров форматирования таблицы для построителя документов
+// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Изменение форматирования применит его к текущей ячейке,
-// и любые новые ячейки, которые мы впоследствии создадим с помощью конструктора.
+// При изменении форматирования оно будет применено к текущей ячейке,
+// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 

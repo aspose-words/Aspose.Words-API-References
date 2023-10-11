@@ -3,12 +3,14 @@ title: Class Revision
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Revision сорт. Представляет редакцию отслеживаемое изменение в узле документа или стиле. ИспользованиеRevisionType чтобы проверить тип этой ревизии.
 type: docs
-weight: 4500
+weight: 4760
 url: /ru/net/aspose.words/revision/
 ---
 ## Revision class
 
 Представляет редакцию (отслеживаемое изменение) в узле документа или стиле. Использование[`RevisionType`](./revisiontype/) чтобы проверить тип этой ревизии.
+
+Чтобы узнать больше, посетите[Отслеживать изменения в документе](https://docs.aspose.com/words/net/track-changes-in-a-document/) статья документации.
 
 ```csharp
 public class Revision
@@ -18,12 +20,12 @@ public class Revision
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.words/revision/author/) { get; set; } | Получает или задает автора этой версии. Не может быть пустой строкой или нулевым значением. |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Получает или задает автора этой редакции. Не может быть пустой строкой или`нулевой` . |
 | [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Получает или задает дату/время этой версии. |
-| [Group](../../aspose.words/revision/group/) { get; } | Получает группу ревизий. Возвращает null, если ревизия не принадлежит ни к одной группе. |
+| [Group](../../aspose.words/revision/group/) { get; } | Получает группу редакций. Возврат`нулевой` если ревизия не принадлежит ни одной группе. |
 | [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Получает непосредственный родительский узел (владелец) этой ревизии. Это свойство будет работать для любого типа ревизии, кромеStyleDefinitionChange . |
-| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Получает непосредственно родительский стиль (владелец) этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип ревизии. |
-| [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Получает тип этой версии. |
+| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Получает непосредственный родительский стиль (владелец) этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип редакции. |
+| [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Получает тип этой ревизии. |
 
 ## Методы
 
@@ -34,18 +36,18 @@ public class Revision
 
 ### Примеры
 
-Показывает, как работать с исправлениями в документе.
+Показывает, как работать с изменениями в документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Обычное редактирование документа не считается правкой.
+// Обычное редактирование документа не считается ревизией.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Чтобы зарегистрировать наши правки как ревизии, нам нужно объявить автора, а затем начать их отслеживать.
+// Чтобы зарегистрировать наши правки как версии, нам нужно объявить автора, а затем начать их отслеживать.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -53,13 +55,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Этот флаг соответствует "Обзору" -> "Отслеживание" -> Опция «Отслеживать изменения» в Microsoft Word.
-// Метод StartTrackRevisions не влияет на его значение,
-// и документ отслеживает версии программно, несмотря на то, что имеет значение "false".
-// Если мы откроем этот документ с помощью Microsoft Word, он не будет отслеживать редакции.
+// Этот флаг соответствует «Обзору» -> «Отслеживание» -> Опция «Отслеживать изменения» в Microsoft Word.
+// Метод "StartTrackRevisions" не влияет на его значение,
+// и документ отслеживает изменения программно, несмотря на то, что он имеет значение «false».
+// Если мы откроем этот документ с помощью Microsoft Word, он не будет отслеживать изменения.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Мы добавили текст с помощью конструктора документов, поэтому первая ревизия является ревизией типа вставки.
+// Мы добавили текст с помощью построителя документов, поэтому первая редакция является ревизией типа вставки.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -74,12 +76,12 @@ doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Вставляемые ревизии отображаются в теле документа даже до того, как мы принимаем/отклоняем ревизию.
-// Отклонение ревизии удалит ее узлы из тела. И наоборот, узлы, из которых состоят ревизии удаления
-// также задерживаемся в документе, пока не примем исправление.
+// Вставленные версии отображаются в теле документа еще до того, как мы примем/отклоним редакцию.
+// Отклонение ревизии приведет к удалению ее узлов из тела. И наоборот, узлы, составляющие ревизию, удаляют.
+// также задерживаемся в документе, пока не примем редакцию.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Принятие удаления ревизии удалит ее родительский узел из текста абзаца
+// Принятие удаления ревизии приведет к удалению родительского узла из текста абзаца
 // а затем удалить саму ревизию коллекции.
 doc.Revisions[0].Accept();
 
@@ -89,7 +91,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// Теперь переместите узел, чтобы создать перемещаемый тип ревизии.
+// Теперь переместим узел, чтобы создать движущийся тип ревизии.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];

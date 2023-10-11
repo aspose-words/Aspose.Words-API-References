@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.Comments
 second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Получает комментарий к цели подписания.
+description: DigitalSignature свойство. Получает комментарий цели подписи.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property
 
-Получает комментарий к цели подписания.
+Получает комментарий цели подписи.
 
 ```csharp
 public string Comments { get; }

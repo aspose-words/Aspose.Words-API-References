@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.MatchOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Получает отсчитываемую от нуля начальную позицию совпадения от начала узла содержащего начало совпадения.
+description: ReplacingArgs свойство. Получает начальную позицию совпадения с отсчетом от нуля от начала узла содержащего начало совпадения.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Получает отсчитываемую от нуля начальную позицию совпадения от начала узла, содержащего начало совпадения.
+Получает начальную позицию совпадения с отсчетом от нуля от начала узла, содержащего начало совпадения.
 
 ```csharp
 public int MatchOffset { get; }
@@ -19,6 +19,7 @@ public int MatchOffset { get; }
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public int MatchOffset { get; }
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
@@ -49,7 +50,7 @@ public int MatchOffset { get; }
 
 /// <summary>
 /// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведет журнал каждой замены.
+/// Ведёт журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

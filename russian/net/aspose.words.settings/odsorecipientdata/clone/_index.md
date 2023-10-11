@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientData метод. Возвращает глубокий клон этого объекта.
+description: OdsoRecipientData метод. Возвращает глубокую копию этого объекта.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsorecipientdata/clone/
 ---
 ## OdsoRecipientData.Clone method
 
-Возвращает глубокий клон этого объекта.
+Возвращает глубокую копию этого объекта.
 
 ```csharp
 public OdsoRecipientData Clone()
@@ -16,7 +16,7 @@ public OdsoRecipientData Clone()
 
 ### Примеры
 
-Показывает, как получить доступ к набору данных, который указывает, какие записи источника данных слияния будут исключены при слиянии.
+Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

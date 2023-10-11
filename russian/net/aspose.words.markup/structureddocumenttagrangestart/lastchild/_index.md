@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает последний дочерний элемент в диапазоне stdContent.
+description: StructuredDocumentTagRangeStart свойство. Получает последнего дочернего элемента в диапазоне stdContent.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 ---
 ## StructuredDocumentTagRangeStart.LastChild property
 
-Получает последний дочерний элемент в диапазоне stdContent.
+Получает последнего дочернего элемента в диапазоне stdContent.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Примечания
 
-Если нет последнего дочернего узла, возвращается null.
+Если последнего дочернего узла нет,`нулевой` возвращается.
 
 ### Смотрите также
 

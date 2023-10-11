@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.StartEditableRange
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Помечает текущую позицию в документе как начало редактируемого диапазона.
+description: DocumentBuilder метод. Отмечает текущую позицию в документе как начало редактируемого диапазона.
 type: docs
-weight: 600
+weight: 640
 url: /ru/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
 
-Помечает текущую позицию в документе как начало редактируемого диапазона.
+Отмечает текущую позицию в документе как начало редактируемого диапазона.
 
 ```csharp
 public EditableRangeStart StartEditableRange()
@@ -20,9 +20,9 @@ public EditableRangeStart StartEditableRange()
 
 ### Примечания
 
-Редактируемый диапазон в документе может перекрываться и охватывать любой диапазон. Чтобы создать действительный редактируемый диапазон, вам нужно вызвать оба`StartEditableRange` а также[`EndEditableRange`](../endeditablerange/) или[`EndEditableRange`](../endeditablerange/)методы.
+Редактируемый диапазон в документе может перекрываться и охватывать любой диапазон. Чтобы создать действительный редактируемый диапазон, вам нужно вызвать оба`StartEditableRange` и[`EndEditableRange`](../endeditablerange/) или[`EndEditableRange`](../endeditablerange/) методы.
 
-Неправильно сформированный редактируемый диапазон будет проигнорирован при сохранении документа.
+Плохо сформированный редактируемый диапазон будет игнорироваться при сохранении документа.
 
 ### Примеры
 
@@ -43,9 +43,9 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// В настоящее время курсор вставки узла компоновщика документов находится более чем в одном редактируемом диапазоне.
-// Когда мы хотим закончить редактируемый диапазон в этой ситуации,
-// нам нужно указать, какой из диапазонов мы хотим закончить, передав его узел EditableRangeStart.
+// В настоящее время курсор вставки узла компоновщика документов находится более чем в одном постоянно редактируемом диапазоне.
+// Когда в этой ситуации мы хотим завершить редактируемый диапазон,
+// нам нужно указать, какой из диапазонов мы хотим завершить, передав его узел EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -55,7 +55,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
 // Если область текста имеет два перекрывающихся редактируемых диапазона с указанными группами,
-// объединенная группа пользователей, исключенных обеими группами, не может редактировать его.
+// объединенная группа пользователей, исключенная обеими группами, не может редактировать его.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
@@ -77,8 +77,8 @@ EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// Правильно сформированный редактируемый диапазон имеет начальный узел и конечный узел.
-// Эти узлы имеют совпадающие идентификаторы и охватывают редактируемые узлы.
+// Правильно сформированный редактируемый диапазон имеет начальный и конечный узлы.
+// Эти узлы имеют совпадающие идентификаторы и включают в себя редактируемые узлы.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -90,8 +90,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом,
-// но объект, который состоит из начала, конца и заключенного в них содержимого.
+// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом.
+// но сущность, состоящая из начала, конца и их содержимого.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -99,7 +99,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Удалить редактируемый диапазон. Все узлы, которые были внутри диапазона, останутся нетронутыми.
+// Удалить редактируемый диапазон. Все узлы, находившиеся внутри диапазона, останутся нетронутыми.
 editableRange.Remove();
 ```
 

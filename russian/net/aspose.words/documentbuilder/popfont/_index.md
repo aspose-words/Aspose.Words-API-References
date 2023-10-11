@@ -3,7 +3,7 @@ title: DocumentBuilder.PopFont
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Извлекает форматирование символов ранее сохраненное в стеке.
 type: docs
-weight: 560
+weight: 600
 url: /ru/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -16,7 +16,7 @@ public void PopFont()
 
 ### Примеры
 
-Показывает, как использовать стек форматирования конструктора документов.
+Показывает, как использовать стек форматирования построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Сохраняем нашу текущую конфигурацию форматирования в стеке.
+// Сохраняем текущую конфигурацию форматирования в стеке.
 builder.PushFont();
 
-// Изменить текущее форматирование построителя, применив новый стиль.
+// Измените текущее форматирование компоновщика, применив новый стиль.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", false);
 

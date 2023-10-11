@@ -22,49 +22,50 @@ public string BookmarkName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
-// Каждая запись будет отображать значение свойства Text поля XE с левой стороны
+// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
+// Каждая запись будет отображать значение свойства Text поля XE слева.
 // и страница, содержащая поле XE справа.
 // Если поля XE имеют одинаковое значение в свойстве «Текст»,
 // поле ИНДЕКС сгруппирует их в одну запись.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Настройте поле INDEX только для отображения полей XE, которые находятся в пределах границ
-// закладки с именем "MainBookmark", чьи свойства "EntryType" имеют значение "A".
-// Для полей INDEX и XE свойство EntryType использует только первый символ своего строкового значения.
+// Настройте поле INDEX только для отображения полей XE, находящихся в пределах границ
+// закладки с именем "MainBookmark", свойства которой "EntryType" имеют значение "A".
+// Для полей INDEX и XE свойство «EntryType» использует только первый символ своего строкового значения.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// На новой странице запускаем закладку с именем, совпадающим со значением
-// свойства "ИмяЗакладки" поля ИНДЕКС.
+// На новой странице начинаем закладку с именем, соответствующим значению
+// свойства BookmarkName поля INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// Поле ИНДЕКС выберет эту запись, потому что она находится внутри закладки,
-// и его тип записи также соответствует типу записи поля INDEX.
+// Поле ИНДЕКС выберет эту запись, поскольку она находится внутри закладки,
+// и его тип записи также соответствует типу записи поля ИНДЕКС.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// Вставьте поле XE, которое не будет отображаться в ИНДЕКСЕ, поскольку типы записей не совпадают.
+// Вставляем поле XE, которое не появится в INDEX, поскольку типы записей не совпадают.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// Завершить закладку и затем вставить поле XE.
-// Оно того же типа, что и поле ИНДЕКС, но не будет отображаться
-// так как он находится за пределами закладки.
+// Завершаем закладку и вставляем после нее поле XE.
+// Оно того же типа, что и поле ИНДЕКС, но не появится
+// так как оно находится за пределами закладки.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 3";
 indexEntry.EntryType = "A";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ```

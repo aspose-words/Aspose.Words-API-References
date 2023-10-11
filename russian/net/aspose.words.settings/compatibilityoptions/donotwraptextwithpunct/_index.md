@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не разрешать висячую пунктуацию с сеткой символов.
+description: CompatibilityOptions свойство. Не допускать висящих знаков препинания в сетке символов.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property
 
-Не разрешать висячую пунктуацию с сеткой символов.
+Не допускать висящих знаков препинания в сетке символов.
 
 ```csharp
 public bool DoNotWrapTextWithPunct { get; set; }

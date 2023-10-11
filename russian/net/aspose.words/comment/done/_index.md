@@ -23,13 +23,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Вставляем комментарий, чтобы указать на ошибку. 
+ // Вставляем комментарий, указывающий на ошибку.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Комментарии имеют флаг «Готово», который по умолчанию установлен на «ложь». 
-// Если в комментарии предлагается внести изменения в документ,
+ // Комментарии имеют флаг «Готово», для которого по умолчанию установлено значение «false».
+// Если комментарий предлагает внести изменения в документ,
 // мы можем применить изменение, а затем также установить флаг «Готово», чтобы указать на исправление.
 Assert.False(comment.Done);
 
@@ -37,7 +37,7 @@ doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
 // Комментарии, которые «готовы», будут отличаться друг от друга
-// из тех, которые не "готовы" с блеклым цветом текста.
+// из тех, которые еще не «готовы» с блеклым цветом текста.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);
@@ -45,7 +45,7 @@ builder.CurrentParagraph.AppendChild(comment);
 doc.Save(ArtifactsDir + "Comment.Done.docx");
 ```
 
-Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документа.
+Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -76,7 +76,7 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
+/// Проходит по каждому комментарию верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
@@ -85,17 +85,17 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     // Перебираем все комментарии верхнего уровня. В отличие от комментариев типа ответа, комментарии верхнего уровня не имеют предка.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // Во-первых, посетите начало диапазона комментариев.
+        // Сначала посещаем начало диапазона комментариев.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Затем перейдите к комментарию и любым возможным ответам на него.
+        // Затем просмотрите комментарий и все ответы, которые он может иметь.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Наконец, перейдите в конец диапазона комментариев, а затем распечатайте текстовое содержимое посетителя.
+        // Наконец, переходим к концу диапазона комментариев и затем печатаем текстовое содержимое посетителя.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -104,7 +104,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
+/// Печатает информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -115,7 +115,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -157,7 +157,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел комментариев.
+    /// Вызывается, когда в документе встречается узел комментария.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -182,7 +182,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,12 +3,14 @@ title: Class DocumentProperty
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Properties.DocumentProperty сорт. Представляет пользовательское или встроенное свойство документа.
 type: docs
-weight: 4220
+weight: 4470
 url: /ru/net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
 
 Представляет пользовательское или встроенное свойство документа.
+
+Чтобы узнать больше, посетите[Работа со свойствами документа](https://docs.aspose.com/words/net/work-with-document-properties/) статья документации.
 
 ```csharp
 public class DocumentProperty
@@ -18,8 +20,8 @@ public class DocumentProperty
 
 | Имя | Описание |
 | --- | --- |
-| [IsLinkToContent](../../aspose.words.properties/documentproperty/islinktocontent/) { get; } | Показывает, связано ли это свойство с контентом или нет. |
-| [LinkSource](../../aspose.words.properties/documentproperty/linksource/) { get; } | Получает источник связанного пользовательского свойства документа. |
+| [IsLinkToContent](../../aspose.words.properties/documentproperty/islinktocontent/) { get; } | Показывает, связано ли это свойство с содержимым или нет. |
+| [LinkSource](../../aspose.words.properties/documentproperty/linksource/) { get; } | Получает источник связанного свойства пользовательского документа. |
 | [Name](../../aspose.words.properties/documentproperty/name/) { get; } | Возвращает имя свойства. |
 | [Type](../../aspose.words.properties/documentproperty/type/) { get; } | Получает тип данных свойства. |
 | [Value](../../aspose.words.properties/documentproperty/value/) { get; set; } | Получает или задает значение свойства. |
@@ -30,10 +32,10 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Возвращает значение свойства как bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Возвращает значение свойства в виде массива байтов. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Возвращает значение свойства в формате DateTime в формате UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Возвращает значение свойства как **ДатаВремя** в формате UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Возвращает значение свойства как двойное. |
-| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Возвращает значение свойства в виде целого числа. |
-| override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Возвращает значение свойства в виде строки, отформатированной в соответствии с текущей локалью. |
+| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Возвращает значение свойства как целое число. |
+| override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Возвращает значение свойства в виде строки, отформатированной в соответствии с текущим языковым стандартом. |
 
 ### Примеры
 
@@ -42,7 +44,7 @@ public class DocumentProperty
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит в своих членах некоторые метаданные.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Документ также хранит метаданные в своих встроенных свойствах.

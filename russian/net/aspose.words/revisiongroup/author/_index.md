@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.Author
 second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroup свойство. Получает автора этой группы ревизий.
+description: RevisionGroup свойство. Получает автора этой группы редакций.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Получает автора этой группы ревизий.
+Получает автора этой группы редакций.
 
 ```csharp
 public string Author { get; }

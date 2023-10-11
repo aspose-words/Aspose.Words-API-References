@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Справочник по API Aspose.Words для .NET
 description: Document свойство. Возвращает коллекцию представляющую все разделы документа.
 type: docs
-weight: 350
+weight: 370
 url: /ru/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Добавляем копию того, что сейчас является первым разделом, в конец документа.
+// Добавляем копию того, что теперь является первым разделом, в конец документа.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -48,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Типы разрыва раздела определяют, как новый раздел отделяется от предыдущего раздела.
+// Типы разрывов разделов определяют, как новый раздел отделяется от предыдущего.
 // Ниже приведены пять типов разрывов разделов.
 // 1 - Начинает следующий раздел на новой странице:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -68,13 +68,13 @@ builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Начинает следующий раздел на новой нечетной странице:
+// 4 — Начинает следующий раздел на новой нечетной странице:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Начинает следующий раздел в новом столбце:
+// 5 — Начинает следующий раздел с нового столбца:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

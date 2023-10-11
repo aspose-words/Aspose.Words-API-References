@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает следует ли добавлять символы Start/Stop для типов штрихкодов NW7 и CODE39.
+description: FieldMergeBarcode свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39. .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Получает или задает, следует ли добавлять символы Start/Stop для типов штрих-кодов NW7 и CODE39.
+Получает или задает необходимость добавления символов начала/остановки для типов штрих-кодов NW7 и CODE39. .
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -16,19 +16,19 @@ public bool AddStartStopChar { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами CODE39.
+Показывает, как выполнить слияние почты со штрих-кодами CODE39.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyCODE39Barcode» источника данных слияния в штрих-коды CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Измените его внешний вид, чтобы отображались начальные/конечные символы.
+// Редактируем его внешний вид, чтобы отображались символы начала/остановки.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);

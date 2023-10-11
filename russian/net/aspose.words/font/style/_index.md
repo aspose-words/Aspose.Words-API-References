@@ -16,13 +16,13 @@ public Style Style { get; set; }
 
 ### Примеры
 
-Применяет двойное подчеркивание ко всем прогонам в документе, отформатированным с использованием пользовательских стилей символов.
+Применяет двойное подчеркивание ко всем фрагментам документа, отформатированным с использованием пользовательских стилей символов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте пользовательский стиль и примените его к тексту, созданному с помощью конструктора документов.
+// Вставляем собственный стиль и применяем его к тексту, созданному с помощью конструктора документов.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Повторяем каждый запуск и добавляем двойное подчеркивание к каждому пользовательскому стилю.
+// Перебираем каждый запуск и добавляем двойное подчеркивание к каждому пользовательскому стилю.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Match
 second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Match в результате совпадения одного выражения Regular во время Заменять .
+description: ReplacingArgs свойство. Match в результате одного совпадения выражения Regular во время Заменять .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match в результате совпадения одного выражения Regular во время **Заменять** .
+Match в результате одного совпадения выражения Regular во время **Заменять** .
 
 ```csharp
 public Match Match { get; }
@@ -16,13 +16,14 @@ public Match Match { get; }
 
 ### Примечания
 
-**Match.Index"** получает отсчитываемую от нуля позицию start совпадения от начала диапазона поиска и замены.
+**Матч.Индекс"** получает отсчитываемую от нуля позицию start совпадения от начала диапазона поиска и замены.
 
 ### Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ public Match Match { get; }
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
@@ -53,7 +54,7 @@ public Match Match { get; }
 
 /// <summary>
 /// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведет журнал каждой замены.
+/// Ведёт журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

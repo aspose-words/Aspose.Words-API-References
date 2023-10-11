@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Выполняет слияние из пользовательского источника данных с областями слияния.
+description: MailMerge метод. Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-Выполняет слияние из пользовательского источника данных с областями слияния.
+Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -16,17 +16,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Объект, реализующий настраиваемый интерфейс источника данных для слияния почты. |
+| dataSource | IMailMergeDataSource | Объект, реализующий пользовательский интерфейс источника данных слияния почты. |
 
 ### Примечания
 
-Используйте этот метод, чтобы заполнить поля слияния в документе значениями from из любого пользовательского источника данных, такого как файл XML или коллекции бизнес-объектов. Вам нужно написать собственный класс your , реализующий[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейс.
+Используйте этот метод для заполнения полей слияния почты в документе значениями из любого пользовательского источника данных, такого как XML-файл или коллекции бизнес-объектов. Вам нужно написать собственный класс your , реализующий[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейс.
 
-Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)ложно, то есть вам не нужна совместимость с языками с письмом справа налево (такими как арабский или иврит).
+Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) является`ЛОЖЬ`, то есть вам не нужна совместимость с языками с письмом справа налево (например, арабским или ивритом).
 
 ### Примеры
 
-Показывает, как использовать области слияния для выполнения вложенного слияния.
+Показывает, как использовать регионы слияния почты для выполнения вложенного слияния почты.
 
 ```csharp
 public void CustomDataSource()
@@ -34,20 +34,20 @@ public void CustomDataSource()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Обычно поля MERGEFIELD содержат имя столбца источника данных слияния.
-    // Вместо этого мы можем использовать префиксы "TableStart:" и "TableEnd:" для начала/завершения области слияния.
+    // Обычно поля MERGEFIELD содержат имя столбца источника данных слияния почты.
+    // Вместо этого мы можем использовать префиксы «TableStart:» и «TableEnd:» для начала/окончания региона слияния почты.
     // Каждый регион будет принадлежать таблице с именем, которое соответствует строке сразу после двоеточия префикса.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Эти поля MERGEFIELD находятся внутри области слияния почты таблицы «Клиенты».
-    // Когда мы выполним слияние, это поле будет получать данные из строк в источнике данных с именем «Клиенты».
+    // Когда мы выполняем слияние почты, это поле будет получать данные из строк в источнике данных с именем «Клиенты».
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
     builder.Write("\nAddress:\t");
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // Создайте вторую область слияния внутри внешней области для источника данных с именем «Заказы».
+    // Создайте вторую область слияния почты внутри внешней области для источника данных с именем «Заказы».
     // Записи данных «Заказы» имеют отношение «многие к одному» с источником данных «Клиенты».
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
@@ -60,7 +60,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Создать связанные данные с именами, соответствующими именам наших регионов слияния.
+    // Создаем связанные данные с именами, соответствующими именам наших регионов слияния почты.
     CustomerList customers = new CustomerList();
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Чтобы слить почту из вашего источника данных, мы должны обернуть его в объект, который реализует интерфейс IMailMergeDataSource.
+    // Чтобы слить почту из вашего источника данных, мы должны обернуть ее в объект, реализующий интерфейс IMailMergeDataSource.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -78,7 +78,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Пример класса "объект данных" в вашем приложении.
+/// Пример класса «объект данных» в вашем приложении.
 /// </summary>
 public class Customer
 {
@@ -95,7 +95,7 @@ public class Customer
 }
 
 /// <summary>
-/// Пример типизированной коллекции, содержащей ваши объекты "данные".
+/// Пример типизированной коллекции, содержащей ваши объекты "данных".
 /// </summary>
 public class CustomerList : ArrayList
 {
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
-/// Пример дочернего класса "сущности данных" в вашем приложении.
+/// Пример дочернего класса объекта данных в вашем приложении.
 /// </summary>
 public class Order
 {
@@ -122,7 +122,7 @@ public class Order
 }
 
 /// <summary>
-/// Пользовательский источник данных слияния, который вы реализуете, чтобы позволить Aspose.Words 
+ /// Пользовательский источник данных слияния почты, который вы реализуете, чтобы разрешить Aspose.Words
 /// для отправки данных слияния из ваших объектов Customer в документы Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -131,12 +131,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна находиться перед первой записью.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяющимися регионами.
     /// </summary>
     public string TableName
     {
@@ -160,7 +160,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Получить дочерний источник данных, имя которого соответствует области слияния, в которой используются его столбцы.
+            // Получаем дочерний источник данных, имя которого соответствует региону слияния почты, использующему его столбцы.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -205,12 +205,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     {
         mOrders = orders;
 
-        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна находиться перед первой записью.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяющимися регионами.
     /// </summary>
     public string TableName
     {
@@ -231,7 +231,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Возвращаем null, потому что у нас нет дочерних элементов для объектов такого типа.
+    /// Возвращаем значение null, поскольку у нас нет дочерних элементов для объектов такого типа.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-Выполняет слияние из пользовательского источника данных с областями слияния.
+Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -286,13 +286,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Объект, реализующий настраиваемый корневой интерфейс источника данных слияния. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Объект, реализующий корневой интерфейс пользовательского источника данных слияния почты. |
 
 ### Примечания
 
-Используйте этот метод, чтобы заполнить поля слияния в документе значениями from из любого пользовательского источника данных, такого как файл XML или коллекции бизнес-объектов. Вам нужно написать свои собственные классы , которые реализуют[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) а также[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейсы.
+Используйте этот метод для заполнения полей слияния почты в документе значениями из любого пользовательского источника данных, такого как XML-файл или коллекции бизнес-объектов. Вам нужно написать свои собственные классы , реализующие[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) и[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейсы.
 
-Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)ложно, то есть вам не нужна совместимость с языками с письмом справа налево (такими как арабский или иврит).
+Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) является`ЛОЖЬ`, то есть вам не нужна совместимость с языками с письмом справа налево (например, арабским или ивритом).
 
 ### Примеры
 
@@ -301,11 +301,11 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Создайте документ с двумя областями слияния с именами «Вашингтон» и «Сиэтл».
+    // Создайте документ с двумя регионами слияния почты с именами «Вашингтон» и «Сиэтл».
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Создадим два источника данных для слияния.
+    // Создаем два источника данных для слияния почты.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -315,14 +315,14 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
     // Регистрируем наши источники данных по имени в корне источника данных.
-    // Если мы собираемся использовать этот корень источника данных в почтовом слиянии с регионами,
-    // зарегистрированное имя каждого источника должно совпадать с именем существующей области слияния в исходном документе слияния.
+    // Если мы собираемся использовать этот корень источника данных при слиянии почты с регионами,
+    // зарегистрированное имя каждого источника должно совпадать с именем существующего региона слияния почты в исходном документе слияния почты.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Так как у нас есть последовательные регионы слияния, обычно нам приходится выполнять два слияния.
-    // Однако один источник слияния с корнем данных может заполнять несколько регионов
+    // Поскольку у нас есть последовательные регионы слияния почты, обычно нам приходится выполнять два слияния почты.
+    // Однако один источник слияния почты с корнем данных может заполнять несколько регионов
     // если в корне есть таблицы с соответствующими именами/именами столбцов.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
@@ -330,7 +330,7 @@ public void CustomDataSourceRoot()
 }
 
 /// <summary>
-/// Создать документ, содержащий последовательные области слияния с именами, указанными во входном массиве,
+/// Создайте документ, содержащий последовательные регионы слияния почты с именами, указанными во входном массиве,
 /// для таблицы данных сотрудников.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -352,7 +352,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// Пример класса "объект данных" в вашем приложении.
+/// Пример класса «объект данных» в вашем приложении.
 /// </summary>
 private class Employee
 {
@@ -367,7 +367,7 @@ private class Employee
 }
 
 /// <summary>
-/// Пример типизированной коллекции, содержащей ваши объекты "данные".
+/// Пример типизированной коллекции, содержащей ваши объекты "данных".
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -379,9 +379,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Корень источника данных, который можно передать непосредственно в слияние, которое может регистрироваться и содержать множество дочерних источников данных.
-/// Все эти источники должны реализовывать IMailMergeDataSource, они зарегистрированы и различаются по имени
-/// что соответствует области слияния почты, которая будет считывать соответствующие данные.
+/// Корень источника данных, который можно передать непосредственно в слияние почты, которое может регистрироваться и содержать множество дочерних источников данных.
+/// Все эти источники должны реализовывать IMailMergeDataSource, регистрироваться и различаться по имени.
+/// который соответствует региону слияния почты, который будет читать соответствующие данные.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяющимися регионами.
     /// </summary>
     public string TableName
     {
@@ -454,7 +454,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Выполняет слияние из набора данных в документ с областями слияния.
+Выполняет слияние почты из **Набор данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,50 +493,49 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSet | DataSet | Набор данных, содержащий данные для вставки в поля слияния. |
+| dataSet | DataSet | **Набор данных** который содержит данные для вставки в поля слияния почты. |
 
 ### Примечания
 
-Используйте этот метод для выполнения слияния почты из одной или нескольких таблиц в повторяющиеся области слияния mail в документе. Области слияния внутри документа будут динамически увеличиваться для размещения записей в соответствующих таблицах.
+Используйте этот метод для выполнения слияния почты из одной или нескольких таблиц в повторяющиеся области слияния mail в документе. Области слияния почты внутри документа будут динамически увеличиваться, чтобы разместить записи в соответствующих таблицах.
 
-Каждая таблица в наборе данных должна иметь имя.
+Каждый стол в **Набор данных** должно иметь имя.
 
-В документе должны быть определены области слияния с именами, которые ссылаются на таблицы в наборе данных.
+В документе должны быть определены области слияния почты с именами, которые ссылаются на table в **Набор данных**.
 
-Чтобы указать область слияния в документе, вам нужно вставить два поля слияния , чтобы отметить начало и конец области слияния.
+Чтобы указать в документе регион слияния почты, вам необходимо вставить два поля слияния почты , чтобы отметить начало и конец региона слияния почты.
 
-Все содержимое документа, включенного в область слияния, будет автоматически повторяться для каждой записи в DataTable.
+Все содержимое документа, включенное в область слияния почты, будет автоматически повторяться для каждой записи в **Таблица данных**.
 
-Чтобы отметить начало области слияния, вставьте MERGEFIELD с именем TableStart:MyTable, , где MyTable соответствует одному из имен таблиц в вашем наборе данных.
+Чтобы отметить начало региона слияния почты, вставьте MERGEFIELD с именем TableStart:MyTable, , где MyTable соответствует одному из имен таблиц в вашем **Набор данных**.
 
-Чтобы отметить конец области слияния, вставьте еще одно поле MERGEFIELD с именем TableEnd:MyTable.
+Чтобы отметить конец региона слияния почты, вставьте еще одно поле MERGEFIELD с именем TableEnd:MyTable.
 
-Чтобы вставить MERGEFIELD в Word, используйте команду Insert/Field и выберите MergeField, затем введите имя поля .
+Чтобы вставить MERGEFIELD в Word, используйте команду Insert/Field и выберите MergeField, затем введите имя поля.
 
-Поля TableStart и TableEnd должны находиться в одном и том же разделе документа.
+**ТаблеСтарт** и **Конец таблицы** поля должны находиться в одном разделе вашего документа.
 
-При использовании внутри таблицы TableStart и TableEnd должны находиться в одной и той же строке таблицы.
+Если используется внутри таблицы, **ТаблеСтарт** и **Конец таблицы** должно находиться внутри одной строки таблицы.
 
-Области слияния в документе должны быть правильно сформированы (всегда должна быть пара совпадающих полей слияния TableStart и TableEnd с одинаковым именем таблицы).
+Области слияния почты в документе должны быть правильно сформированы (всегда должна быть пара match  **ТаблеСтарт** и **Конец таблицы** объединить поля с одинаковым именем таблицы).
 
 ### Примеры
 
 Показывает, как выполнить вложенное слияние почты с двумя областями слияния и двумя таблицами данных.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Обычно поля MERGEFIELD содержат имя столбца источника данных слияния.
-    // Вместо этого мы можем использовать префиксы "TableStart:" и "TableEnd:" для начала/завершения области слияния.
+    // Обычно поля MERGEFIELD содержат имя столбца источника данных слияния почты.
+    // Вместо этого мы можем использовать префиксы «TableStart:» и «TableEnd:» для начала/окончания региона слияния почты.
     // Каждый регион будет принадлежать таблице с именем, которое соответствует строке сразу после двоеточия префикса.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Это поле MERGEFIELD находится внутри области слияния почты таблицы «Клиенты».
-    // Когда мы выполним слияние, это поле будет получать данные из строк в источнике данных с именем «Клиенты».
+    // Когда мы выполняем слияние почты, это поле будет получать данные из строк в источнике данных с именем «Клиенты».
     builder.Write("Orders for ");
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
@@ -549,24 +548,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // Создайте вторую область слияния внутри внешней области для таблицы с именем «Заказы».
-    // Таблица «Заказы» имеет связь «многие к одному» с таблицей «Клиенты» в столбце «Код клиента».
+    // Создайте вторую область слияния почты внутри внешней области для таблицы с именем «Заказы».
+    // Таблица «Заказы» имеет отношение «многие к одному» с таблицей «Клиенты» в столбце «CustomerID».
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // Конец внутренней области, а затем конец внешней области. Открытие и закрытие области слияния должно
-    // происходят в той же строке таблицы.
+    // Завершаем внутреннюю область, а затем завершаем внешнюю область. Открытие и закрытие региона слияния почты должно
+    // происходит в той же строке таблицы.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Создайте набор данных, содержащий две таблицы с требуемыми именами и отношениями.
-    // Каждый документ слияния для каждой строки таблицы «Клиенты» внешней области слияния будет выполнять слияние почты в таблице «Заказы».
-    // Каждый документ слияния будет отображать все строки последней таблицы, значения столбца «CustomerID» которых соответствуют текущей строке таблицы «Customers».
+    // Создайте набор данных, содержащий две таблицы с необходимыми именами и связями.
+    // Каждый документ слияния для каждой строки таблицы «Клиенты» внешнего региона слияния будет выполнять слияние почты в таблице «Заказы».
+    // В каждом документе слияния будут отображаться все строки последней таблицы, значения столбца «CustomerID» которых соответствуют текущей строке таблицы «Клиенты».
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// Генерирует набор данных, содержащий две таблицы данных с именами «Клиенты» и «Заказы» с отношением «один ко многим» в столбце «CustomerID».
+/// Создает набор данных, который имеет две таблицы данных с именами «Клиенты» и «Заказы» с отношением «один ко многим» в столбце «КлиентКод».
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Выполняет слияние из DataTable в документ с областями слияния.
+Выполняет слияние почты из **Таблица данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataTable | DataTable | Источник данных для операции слияния почты. Таблица должна иметь свой **ИмяТаблицы** набор свойств. |
+| dataTable | DataTable | Источник данных для операции слияния почты. Таблица must имеет свойTableName набор свойств. |
 
 ### Примечания
 
-В документе должна быть определена область слияния с именем, соответствующим  **DataTable.TableName**.
+В документе должен быть определен регион слияния почты с именем, соответствующим .TableName.
 
-Если в документе определены другие области слияния, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния.
+Если в документе определены другие регионы слияния почты, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния почты.
 
 ### Примеры
 
-Демонстрирует, как форматировать ячейки во время слияния.
+Демонстрирует, как форматировать ячейки во время слияния почты.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,9 +641,10 @@ public void ExecuteWithRegions(DataTable dataTable)
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// Форматирует строки таблицы по мере того, как происходит слияние почты, чтобы чередовать два цвета в нечетных/четных строках.
+/// Форматирует строки таблицы во время слияния почты, чтобы чередовать два цвета в нечетных/четных строках.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
@@ -713,25 +714,25 @@ private static DataTable GetSuppliersDataTable()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Если мы хотим выполнить два последовательных слияния почты в одном документе, взяв данные из двух таблиц
-// связаны друг с другом каким-либо образом, мы можем разделить почтовые слияния с регионами.
-// Обычно поля MERGEFIELD содержат имя столбца источника данных слияния.
-// Вместо этого мы можем использовать префиксы "TableStart:" и "TableEnd:" для начала/завершения области слияния.
+// Если мы хотим выполнить два последовательных слияния почты в одном документе, беря данные из двух таблиц
+// связаны друг с другом каким-либо образом, мы можем разделить почтовые слияния по регионам.
+// Обычно поля MERGEFIELD содержат имя столбца источника данных слияния почты.
+// Вместо этого мы можем использовать префиксы «TableStart:» и «TableEnd:» для начала/окончания региона слияния почты.
 // Каждый регион будет принадлежать таблице с именем, которое соответствует строке сразу после двоеточия префикса.
-// Эти области являются отдельными для несвязанных данных, а для иерархических данных они могут быть вложены друг в друга.
+// Эти регионы являются отдельными для несвязанных данных, но могут быть вложенными для иерархических данных.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Оба MERGEFIELD относятся к одному и тому же имени столбца, но значения для каждого из них будут поступать из разных таблиц данных.
+// Оба поля MERGEFIELD относятся к одному и тому же имени столбца, но значения для каждого будут взяты из разных таблиц данных.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Создадим две несвязанные таблицы данных.
+// Создаем две несвязанные таблицы данных.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -745,12 +746,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Нам нужно будет выполнить одно слияние почты для каждой таблицы. Первое слияние почты заполнит поля MERGEFIELD.
-// в диапазоне "Города", оставив поля диапазона "Фрукты" незаполненными.
+// Нам нужно будет запустить одно слияние почты для каждой таблицы. Первое слияние почты заполнит поля MERGEFIELD.
+// в диапазоне «Города», оставляя поля диапазона «Фрукты» незаполненными.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Запускаем второе слияние для таблицы Fruit, используя представление данных
-// для сортировки строк по возрастанию в столбце "Имя" перед слиянием.
+// Запускаем второе слияние для таблицы "Fruit", используя представление данных
+// для сортировки строк в порядке возрастания в столбце «Имя» перед объединением.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Выполняет слияние почты из DataView в документ с областями слияния.
+Выполняет слияние почты из **Просмотр данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,15 +777,15 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataView | DataView | Источник данных для операции слияния почты. Исходная таблица файла **Просмотр данных** должен иметь свой **ИмяТаблицы** набор свойств. |
+| dataView | DataView | Источник данных для операции слияния почты. Исходная таблица  **Просмотр данных** должен иметь свое **ИмяТаблицы** набор свойств. |
 
 ### Примечания
 
-Этот метод полезен, если вы извлекаете данные в **Таблица данных** но тогда нужно применять фильтр или сортировать перед слиянием почты.
+Этот метод полезен, если вы извлекаете данные в **Таблица данных** но тогда необходимо применить фильтр или сортировку перед слиянием почты.
 
-В документе должна быть определена область слияния с именем, соответствующим  **DataView.Table.TableName**.
+В документе должен быть определен регион слияния почты с именем, соответствующим . **DataView.Table.TableName**.
 
-Если в документе определены другие области слияния, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния.
+Если в документе определены другие регионы слияния почты, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния почты.
 
 ### Примеры
 
@@ -794,25 +795,25 @@ public void ExecuteWithRegions(DataView dataView)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Если мы хотим выполнить два последовательных слияния почты в одном документе, взяв данные из двух таблиц
-// связаны друг с другом каким-либо образом, мы можем разделить почтовые слияния с регионами.
-// Обычно поля MERGEFIELD содержат имя столбца источника данных слияния.
-// Вместо этого мы можем использовать префиксы "TableStart:" и "TableEnd:" для начала/завершения области слияния.
+// Если мы хотим выполнить два последовательных слияния почты в одном документе, беря данные из двух таблиц
+// связаны друг с другом каким-либо образом, мы можем разделить почтовые слияния по регионам.
+// Обычно поля MERGEFIELD содержат имя столбца источника данных слияния почты.
+// Вместо этого мы можем использовать префиксы «TableStart:» и «TableEnd:» для начала/окончания региона слияния почты.
 // Каждый регион будет принадлежать таблице с именем, которое соответствует строке сразу после двоеточия префикса.
-// Эти области являются отдельными для несвязанных данных, а для иерархических данных они могут быть вложены друг в друга.
+// Эти регионы являются отдельными для несвязанных данных, но могут быть вложенными для иерархических данных.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Оба MERGEFIELD относятся к одному и тому же имени столбца, но значения для каждого из них будут поступать из разных таблиц данных.
+// Оба поля MERGEFIELD относятся к одному и тому же имени столбца, но значения для каждого будут взяты из разных таблиц данных.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Создадим две несвязанные таблицы данных.
+// Создаем две несвязанные таблицы данных.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -826,12 +827,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Нам нужно будет выполнить одно слияние почты для каждой таблицы. Первое слияние почты заполнит поля MERGEFIELD.
-// в диапазоне "Города", оставив поля диапазона "Фрукты" незаполненными.
+// Нам нужно будет запустить одно слияние почты для каждой таблицы. Первое слияние почты заполнит поля MERGEFIELD.
+// в диапазоне «Города», оставляя поля диапазона «Фрукты» незаполненными.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Запускаем второе слияние для таблицы Fruit, используя представление данных
-// для сортировки строк по возрастанию в столбце "Имя" перед слиянием.
+// Запускаем второе слияние для таблицы "Fruit", используя представление данных
+// для сортировки строк в порядке возрастания в столбце «Имя» перед объединением.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Выполняет слияние почты из IDataReader в документ с областями слияния.
+Выполняет слияние почты из **Идатаридер** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,16 +858,16 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataReader | IDataReader | Источник записей данных для слияния, например OleDbDataReader или SqlDataReader. |
-| tableName | String | Имя области слияния в документе для заполнения. |
+| dataReader | IDataReader | Источник записей данных для слияния почты, например **ОлеДбDataReader** или **SqlDataReader**. |
+| tableName | String | Имя региона слияния почты в заполняемом документе. |
 
 ### Примечания
 
-Вы можете пройти **SqlDataReader** или же **Оледбдатаридер** объект в метод this в качестве параметра, потому что они оба реализовали **IDataReader** интерфейс.
+Вы можете пройти **SqlDataReader** или **ОлеДбDataReader**объект в метод this в качестве параметра, поскольку они оба реализовали **Идатаридер** интерфейс.
 
 ### Примеры
 
-Показывает, как вставить изображения, хранящиеся в поле BLOB базы данных, в отчет.
+Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
 ```csharp
 public void ImageFromBlob()
@@ -875,14 +876,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Откройте средство чтения данных, которое должно быть в режиме чтения всех записей одновременно.
+        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -899,7 +901,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние встречает MERGEFIELD в документе с тегом «Image:» в его имени.
+    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

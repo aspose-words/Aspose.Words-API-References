@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### Примечания
 
-Не может быть нулевым.
+Не может быть`нулевой`.
 
 ### Примеры
 
@@ -25,7 +25,7 @@ public object Value { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит в своих членах некоторые метаданные.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Документ также хранит метаданные в своих встроенных свойствах.

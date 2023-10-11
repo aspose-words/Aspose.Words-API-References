@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.AddPrinterFont
 second_title: Справочник по API Aspose.Words для .NET
-description: PclSaveOptions метод. Добавляет информацию о шрифте загруженном производителем на принтер.
+description: PclSaveOptions метод. Добавляет информацию о шрифте загруженном в принтер производителем.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
 ## PclSaveOptions.AddPrinterFont method
 
-Добавляет информацию о шрифте, загруженном производителем на принтер.
+Добавляет информацию о шрифте, загруженном в принтер производителем.
 
 ```csharp
 public void AddPrinterFont(string fontFullName, string fontPclName)
@@ -21,7 +21,7 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 ### Примечания
 
-Существует 52 шрифта, которые должны быть встроены в любой принтер в соответствии со спецификацией Pcl. Однако производители могут добавлять в свои устройства некоторые другие шрифты.
+В любой принтер необходимо встроить 52 шрифта в соответствии со спецификацией Pcl. Однако производители могут добавлять в свои устройства некоторые другие шрифты.
 
 ### Примеры
 
@@ -37,8 +37,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// При печати этого документа принтер будет использовать шрифт "Courier New"
-// для доступа к местам, где в нашем документе использовался шрифт "Courier".
+// При печати этого документа принтер будет использовать шрифт «Courier New».
+// для доступа к местам, где в нашем документе использовался шрифт «Курьер».
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

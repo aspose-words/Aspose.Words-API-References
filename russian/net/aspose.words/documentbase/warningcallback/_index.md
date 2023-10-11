@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.WarningCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Вызывается во время различных процедур обработки документов при обнаружении проблемы которая может привести к потере точности данных или форматирования.
+description: DocumentBase свойство. Вызывается во время различных процедур обработки документов при обнаружении проблемы которая может привести к потере данных или точности форматирования.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Вызывается во время различных процедур обработки документов при обнаружении проблемы, которая может привести к потере точности данных или форматирования.
+Вызывается во время различных процедур обработки документов при обнаружении проблемы, которая может привести к потере данных или точности форматирования.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,13 +16,14 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Примечания
 
-Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов предупреждения as как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount/) на самом деле создает макет документа, который позже используется для рендеринга, и предупреждения макета могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
+Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов с предупреждением как как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount/) фактически создает макет документа, который позже используется для рендеринга, и предупреждения о макете могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
 
 ### Примеры
 
-Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о замене шрифта.
+Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,24 +38,25 @@ public IWarningCallback WarningCallback { get; set; }
     // для которого мы не указываем другой источник шрифта.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // В целях тестирования мы настроим Aspose.Words на поиск шрифтов только в несуществующей папке.
+    // В целях тестирования мы настроим Aspose.Words искать шрифты только в несуществующей папке.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // При рендеринге документа негде будет найти шрифт "Times New Roman".
+    // При рендеринге документа шрифт Times New Roman найти будет негде.
     // Это вызовет предупреждение о замене шрифта, которое обнаружит наш обратный вызов.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
+    /// Вызывается каждый раз, когда во время загрузки/сохранения возникает предупреждение.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -66,10 +68,9 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Показывает, как задать свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
@@ -79,11 +80,14 @@ public void EnableFontSubstitution()
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установите имя шрифта по умолчанию и включите замену шрифта.
+    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
     doc.FontSettings = fontSettings;
@@ -93,7 +97,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Мы также можем проверять предупреждения в коллекции и очищать их.
+    // Мы также можем проверить предупреждения в коллекции и очистить их.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -107,7 +111,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
+    /// Вызывается каждый раз, когда во время загрузки/сохранения возникает предупреждение.
     /// </summary>
     public void Warning(WarningInfo info)
     {

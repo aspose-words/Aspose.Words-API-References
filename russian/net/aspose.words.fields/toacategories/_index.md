@@ -3,12 +3,14 @@ title: Class ToaCategories
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.ToaCategories сорт. Представляет таблицу категорий полномочий.
 type: docs
-weight: 2600
+weight: 2780
 url: /ru/net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class
 
 Представляет таблицу категорий полномочий.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class ToaCategories
@@ -29,7 +31,7 @@ public class ToaCategories
 
 ### Примеры
 
-Показывает, как задать набор категорий для полей TOA.
+Показывает, как указать набор категорий для полей TOA.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// Этот набор категорий поставляется со значениями по умолчанию, которые мы можем перезаписать пользовательскими значениями.
+// Эта коллекция категорий имеет значения по умолчанию, которые мы можем перезаписать пользовательскими значениями.
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
@@ -51,16 +53,16 @@ Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
 // Вставляем 2 поля TOA. Поля TOA создают запись для каждого поля TA в документе.
-// Используйте переключатель "\c", чтобы выбрать индекс категории из нашей коллекции.
-// С помощью этого переключателя поле TOA будет получать только записи из полей TA, которые
-// также есть переключатель "\c" с соответствующим индексом категории. Каждое поле TOA также будет отображать
-// название категории, на которую указывает его переключатель "\c".
+// Используйте переключатель «\c», чтобы выбрать индекс категории из нашей коллекции.
+// С помощью этого переключателя поле TOA будет выбирать только записи из полей TA, которые
+// также есть переключатель "\c" с соответствующим индексом категории. В каждом поле TOA также будет отображаться
+// имя категории, на которую указывает переключатель "\c".
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Вставляем записи TOA по 2 категориям. Наше первое поле TOA получит одну запись,
-// из второго поля ТА, переключатель "\c" которого также указывает на первую категорию.
+// Вставляем записи TOA в две категории. Наше первое поле TOA получит одну запись:
+// из второго поля TA, переключатель "\c" которого также указывает на первую категорию.
 // Второе поле TOA будет содержать две записи из двух других полей TA.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);

@@ -1,14 +1,14 @@
 ---
 title: Enum PatternType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.PatternType перечисление. Указывает шаблон заливки который будет использоваться для заливки фигуры.
+description: Aspose.Words.Drawing.PatternType перечисление. Указывает образец заливки который будет использоваться для заливки фигуры.
 type: docs
-weight: 1040
+weight: 1170
 url: /ru/net/aspose.words.drawing/patterntype/
 ---
 ## PatternType enumeration
 
-Указывает шаблон заливки, который будет использоваться для заливки фигуры.
+Указывает образец заливки, который будет использоваться для заливки фигуры.
 
 ```csharp
 public enum PatternType
@@ -18,59 +18,59 @@ public enum PatternType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `-1` | Нет шаблона. |
-| Percent10 | `1` | 10% от цвета переднего плана. |
-| Percent20 | `2` | 20% основного цвета. |
-| Percent25 | `3` | 25% основного цвета. |
-| Percent30 | `4` | 30% основного цвета. |
+| None | `-1` | Нет рисунка. |
+| Percent10 | `1` | 10% цвета переднего плана. |
+| Percent20 | `2` | 20% цвета переднего плана. |
+| Percent25 | `3` | 25% цвета переднего плана. |
+| Percent30 | `4` | 30% цвета переднего плана. |
 | Percent40 | `5` | 40% цвета переднего плана |
 | Percent50 | `6` | 50% цвета переднего плана |
-| Percent5 | `7` | 5% от цвета переднего плана. |
-| Percent60 | `8` | 60% основного цвета. |
-| Percent70 | `9` | 70% основного цвета. |
-| Percent75 | `10` | 75% основного цвета. |
-| Percent80 | `11` | 80% основного цвета. |
-| Percent90 | `12` | 90% основного цвета. |
-| Cross | `13` | Кросс. |
+| Percent5 | `7` | 5% цвета переднего плана. |
+| Percent60 | `8` | 60% цвета переднего плана. |
+| Percent70 | `9` | 70% цвета переднего плана. |
+| Percent75 | `10` | 75% цвета переднего плана. |
+| Percent80 | `11` | 80% цвета переднего плана. |
+| Percent90 | `12` | 90% цвета переднего плана. |
+| Cross | `13` | Крест. |
 | DarkDownwardDiagonal | `14` | Темная нисходящая диагональ. |
-| DarkHorizontal | `15` | Темный горизонтальный. |
+| DarkHorizontal | `15` | Темная горизонталь. |
 | DarkUpwardDiagonal | `16` | Темная диагональ вверх. |
 | DarkVertical | `17` | Темная вертикаль. |
-| DashedDownwardDiagonal | `18` | Перечеркнуто по диагонали вниз. |
-| DashedHorizontal | `19` | Пунктир по горизонтали. |
-| DashedUpwardDiagonal | `20` | Перечеркнуто вверх по диагонали. |
+| DashedDownwardDiagonal | `18` | Пунктирная нисходящая диагональ. |
+| DashedHorizontal | `19` | Пунктирная горизонталь. |
+| DashedUpwardDiagonal | `20` | Пунктирная диагональ вверх. |
 | DashedVertical | `21` | Пунктирная вертикаль. |
 | DiagonalBrick | `22` | Диагональный кирпич. |
 | DiagonalCross | `23` | Диагональный крест. |
-| Divot | `24` | Отверстие шаблона. |
+| Divot | `24` | Узор divot. |
 | DottedDiamond | `25` | Точечный ромб. |
 | DottedGrid | `26` | Пунктирная сетка. |
-| DownwardDiagonal | `27` | Диагональ вниз. |
-| Horizontal | `28` | Горизонтальный. |
+| DownwardDiagonal | `27` | Нижняя диагональ. |
+| Horizontal | `28` | Горизонтально. |
 | HorizontalBrick | `29` | Горизонтальный кирпич. |
 | LargeCheckerBoard | `30` | Большая шахматная доска. |
 | LargeConfetti | `31` | Большое конфетти. |
 | LargeGrid | `32` | Большая сетка. |
-| LightDownwardDiagonal | `33` | Свет по диагонали вниз. |
-| LightHorizontal | `34` | Свет горизонтальный. |
-| LightUpwardDiagonal | `36` | Светлая диагональ вверх. |
+| LightDownwardDiagonal | `33` | Светлая нисходящая диагональ. |
+| LightHorizontal | `34` | Светлый горизонтальный. |
+| LightUpwardDiagonal | `36` | Свет по диагонали вверх. |
 | LightVertical | `37` | Светлая вертикаль. |
-| NarrowHorizontal | `38` | Узкий горизонтальный. |
-| NarrowVertical | `39` | Узкий вертикальный. |
+| NarrowHorizontal | `38` | Узкая горизонталь. |
+| NarrowVertical | `39` | Узкая вертикаль. |
 | OutlinedDiamond | `40` | Очерченный ромб. |
 | Plaid | `41` | Плед. |
-| Shingle | `42` | Черепица. |
+| Shingle | `42` | Гонт. |
 | SmallCheckerBoard | `43` | Маленькая шахматная доска. |
 | SmallConfetti | `44` | Маленькое конфетти. |
 | SmallGrid | `45` | Мелкая сетка. |
-| SolidDiamond | `46` | Сплошной алмаз. |
+| SolidDiamond | `46` | Сплошной ромб. |
 | Sphere | `47` | Сфера. |
 | Trellis | `48` | Решетка. |
 | UpwardDiagonal | `49` | Диагональ вверх. |
 | Vertical | `50` | Вертикально. |
 | Wave | `51` | Волна. |
-| Weave | `52` | Плетение. |
-| WideDownwardDiagonal | `53` | Широкая диагональ вниз. |
+| Weave | `52` | Переплетение. |
+| WideDownwardDiagonal | `53` | Широкая нисходящая диагональ. |
 | WideUpwardDiagonal | `54` | Широкая диагональ вверх. |
 | ZigZag | `55` | Зигзаг. |
 

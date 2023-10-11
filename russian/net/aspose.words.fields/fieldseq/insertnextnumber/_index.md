@@ -22,11 +22,11 @@ public bool InsertNextNumber { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// В полях SEQ отображается счетчик, который увеличивается в каждом поле SEQ.
+// Поля SEQ отображают счетчик, который увеличивается в каждом поле SEQ.
 // Эти поля также поддерживают отдельные счетчики для каждой уникальной именованной последовательности
-// определяется свойством "SequenceIdentifier" поля SEQ.
-// Вставьте поле SEQ, которое будет отображать текущее значение счетчика «MySequence»,
-// после использования свойства "ResetNumber", чтобы установить его в 100.
+// идентифицируется свойством SequenceIdentifier поля SEQ.
+// Вставляем поле SEQ, которое будет отображать текущее значение счетчика «MySequence»,
+// после использования свойства ResetNumber для установки значения 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -36,7 +36,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Показать следующее число в этой последовательности с другим полем SEQ.
+// Отображение следующего числа в этой последовательности с другим полем SEQ.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -44,20 +44,20 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Вставить заголовок уровня 1.
+// Вставляем заголовок уровня 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Вставьте другое поле SEQ из той же последовательности и настройте его для сброса счетчика в каждом заголовке с 1.
+// Вставляем другое поле SEQ из той же последовательности и настраиваем его для сброса счетчика в каждом заголовке на 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// Приведенный выше заголовок является заголовком уровня 1, поэтому счетчик для этой последовательности сбрасывается на 1.
+// Вышеуказанный заголовок является заголовком уровня 1, поэтому счетчик для этой последовательности сбрасывается до 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 

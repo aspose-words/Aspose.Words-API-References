@@ -1,14 +1,14 @@
 ---
 title: Table.StyleOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает битовые флаги указывающие как стиль таблицы применяется к этой таблице.
+description: Table свойство. Получает или устанавливает битовые флаги определяющие как стиль таблицы применяется к этой таблице.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Получает или задает битовые флаги, указывающие, как стиль таблицы применяется к этой таблице.
+Получает или устанавливает битовые флаги, определяющие, как стиль таблицы применяется к этой таблице.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -16,21 +16,21 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ### Примеры
 
-Показывает, как создать новую таблицу при применении стиля.
+Показывает, как построить новую таблицу с применением стиля.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем задавать какое-либо форматирование таблицы.
+// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
 builder.InsertCell();
 
-// Установить используемый стиль таблицы на основе идентификатора стиля.
+// Установите используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применяем стиль к функциям таблицы на основе предикатов, затем строим таблицу.
+// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

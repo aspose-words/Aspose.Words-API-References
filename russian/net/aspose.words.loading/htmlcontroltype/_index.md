@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlControlType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.HtmlControlType перечисление. Тип узлов документа которые представляют элементы input и select импортированные из HTML.
+description: Aspose.Words.Loading.HtmlControlType перечисление. Тип узлов документа представляющих элементы input и select импортированные из HTML.
 type: docs
-weight: 3410
+weight: 3610
 url: /ru/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
 
-Тип узлов документа, которые представляют элементы &lt;input&gt; и &lt;select&gt;, импортированные из HTML.
+Тип узлов документа, представляющих элементы &lt;input&gt; и &lt;select&gt;, импортированные из HTML.
 
 ```csharp
 public enum HtmlControlType

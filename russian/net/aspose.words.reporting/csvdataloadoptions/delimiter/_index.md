@@ -1,14 +1,14 @@
 ---
 title: CsvDataLoadOptions.Delimiter
 second_title: Справочник по API Aspose.Words для .NET
-description: CsvDataLoadOptions свойство. Получает или задает символ который будет использоваться в качестве разделителя столбца.
+description: CsvDataLoadOptions свойство. Получает или задает символ который будет использоваться в качестве разделителя столбцов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/delimiter/
 ---
 ## CsvDataLoadOptions.Delimiter property
 
-Получает или задает символ, который будет использоваться в качестве разделителя столбца.
+Получает или задает символ, который будет использоваться в качестве разделителя столбцов.
 
 ```csharp
 public char Delimiter { get; set; }

@@ -16,7 +16,7 @@ public double Size { get; set; }
 
 ### Примеры
 
-Показывает, как отформатировать набор текста, используя его свойство шрифта.
+Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Задайте форматирование шрифта, затем добавьте текст.
+// Укажите форматирование шрифта, затем добавьте текст.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

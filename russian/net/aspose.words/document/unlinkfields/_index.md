@@ -1,14 +1,14 @@
 ---
 title: Document.UnlinkFields
 second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Разъединяет поля во всем документе.
+description: Document метод. Отменяет связь полей во всем документе.
 type: docs
-weight: 710
+weight: 750
 url: /ru/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Разъединяет поля во всем документе.
+Отменяет связь полей во всем документе.
 
 ```csharp
 public void UnlinkFields()

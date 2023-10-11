@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.MajorUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает расстояние между основными делениями.
+description: ChartAxis свойство. Возвращает или устанавливает расстояние между основными делениями.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
 
-Возвращает или задает расстояние между основными делениями.
+Возвращает или устанавливает расстояние между основными делениями.
 
 ```csharp
 public double MajorUnit { get; set; }
@@ -16,9 +16,9 @@ public double MajorUnit { get; set; }
 
 ### Примечания
 
-Допустимый диапазон значения больше нуля. Свойство действует для категории времени и осей значений .
+Допустимый диапазон значения больше нуля. Свойство влияет на категорию времени и оси значений .
 
-Установка этого свойства устанавливает[`MajorUnitIsAuto`](../majorunitisauto/) собственность на **ЛОЖЬ**.
+Установка этого свойства устанавливает[`MajorUnitIsAuto`](../majorunitisauto/) собственность`ЛОЖЬ`.
 
 ### Примеры
 
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

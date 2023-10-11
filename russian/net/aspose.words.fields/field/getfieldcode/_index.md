@@ -16,7 +16,7 @@ public string GetFieldCode()
 
 ### Примеры
 
-Показывает, как вставить поле в документ, используя код поля.
+Показывает, как вставить поле в документ с помощью кода поля.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 Показывает, как получить код поля поля.
 
 ```csharp
-// Открытие документа, который содержит MERGEFIELD внутри поля IF.
+// Открытие документа, содержащего поле MERGEFIELD внутри поля IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // Есть два способа получить код поля поля:
-// 1 - Опустить его внутренние поля:
+// 1 - Опустить внутренние поля:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
 // 2 - Включить его внутренние поля:
@@ -68,19 +68,19 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `Истинный` если должны быть включены коды дочерних полей. |
+| includeChildFieldCodes | Boolean | `истинный` если должны быть включены коды дочерних полей. |
 
 ### Примеры
 
 Показывает, как получить код поля поля.
 
 ```csharp
-// Открытие документа, который содержит MERGEFIELD внутри поля IF.
+// Открытие документа, содержащего поле MERGEFIELD внутри поля IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // Есть два способа получить код поля поля:
-// 1 - Опустить его внутренние поля:
+// 1 - Опустить внутренние поля:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
 // 2 - Включить его внутренние поля:

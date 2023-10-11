@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffCompression
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает тип сжатия применяемый при сохранении сгенерированных изображений в формате TIFF.
+description: ImageSaveOptions свойство. Получает или задает тип сжатия применяемый при сохранении созданных изображений в формате TIFF.
 type: docs
-weight: 170
+weight: 180
 url: /ru/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Получает или задает тип сжатия, применяемый при сохранении сгенерированных изображений в формате TIFF.
+Получает или задает тип сжатия, применяемый при сохранении созданных изображений в формате TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,13 +16,13 @@ public TiffCompression TiffCompression { get; set; }
 
 ### Примечания
 
-Действует только при сохранении в TIFF.
+Действует только при сохранении в формате TIFF.
 
-Значение по умолчаниюLzw.
+Значение по умолчанию:Lzw.
 
 ### Примеры
 
-Показывает, как выбрать схему сжатия для применения к документу, который мы конвертируем в изображение TIFF.
+Показывает, как выбрать схему сжатия для применения к документу, который мы преобразуем в изображение TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+            // Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
             // чтобы изменить способ, которым этот метод преобразует документ в изображение.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // Установите для свойства "TiffCompression" значение "TiffCompression.None", чтобы не применять сжатие при сохранении,
-            // что может привести к очень большому выходному файлу.
-            // Установите для свойства "TiffCompression" значение "TiffCompression.Rle", чтобы применить сжатие RLE
-            // Установите для свойства "TiffCompression" значение "TiffCompression.Lzw", чтобы применить сжатие LZW.
-            // Установите для свойства "TiffCompression" значение "TiffCompression.Ccitt3", чтобы применить сжатие CCITT3.
-            // Установите для свойства "TiffCompression" значение "TiffCompression.Ccitt4", чтобы применить сжатие CCITT4.
+            // Установите для свойства «TiffCompression» значение «TiffCompression.None», чтобы не применять сжатие при сохранении,
+            // что может привести к созданию очень большого выходного файла.
+            // Установите для свойства «TiffCompression» значение «TiffCompression.Rle», чтобы применить сжатие RLE.
+            // Установите для свойства «TiffCompression» значение «TiffCompression.Lzw», чтобы применить сжатие LZW.
+            // Установите для свойства «TiffCompression» значение «TiffCompression.Ccitt3», чтобы применить сжатие CCITT3.
+            // Установите для свойства «TiffCompression» значение «TiffCompression.Ccitt4», чтобы применить сжатие CCITT4.
             options.TiffCompression = tiffCompression;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);

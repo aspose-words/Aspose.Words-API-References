@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
+description: FontInfoCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
 ## FontInfoCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
 
 ```csharp
 public IEnumerator<FontInfo> GetEnumerator()

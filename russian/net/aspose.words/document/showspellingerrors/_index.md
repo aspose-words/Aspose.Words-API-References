@@ -3,7 +3,7 @@ title: Document.ShowSpellingErrors
 second_title: Справочник по API Aspose.Words для .NET
 description: Document свойство. Указывает отображать ли орфографические ошибки в этом документе.
 type: docs
-weight: 380
+weight: 400
 url: /ru/net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property
@@ -22,13 +22,13 @@ public bool ShowSpellingErrors { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем два предложения с ошибками, которые будут убраны
+// Вставляем два предложения с ошибками, которые будут обнаружены
 // средствами проверки орфографии и грамматики в Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
 // Если эти опции включены, то орфографические ошибки будут подчеркнуты
-// в выходном документе неровной красной линией, а двойная синяя линия выделяет грамматические ошибки.
+// в выходном документе зубчатой красной линией, а двойная синяя линия будет выделять грамматические ошибки.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

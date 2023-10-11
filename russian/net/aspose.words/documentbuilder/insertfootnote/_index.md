@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет сноску или концевую сноску в документ.
+description: DocumentBuilder метод. Вставляет в документ сноску или концевую сноску.
 type: docs
-weight: 310
+weight: 340
 url: /ru/net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(FootnoteType, string) {#insertfootnote}
 
-Вставляет сноску или концевую сноску в документ.
+Вставляет в документ сноску или концевую сноску.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
@@ -17,7 +17,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnoteType | FootnoteType | Указывает, вставлять ли сноску или концевую сноску. |
-| footnoteText | String | Задает текст сноски. |
+| footnoteText | String | Указывает текст сноски. |
 
 ### Возвращаемое значение
 
@@ -25,27 +25,27 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 ### Примеры
 
-Показывает, как ссылаться на текст со сноской и концевой сноской.
+Показывает, как ссылаться на текст с помощью сноски и концевой сноски.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем некоторый текст и помечаем его сноской со свойством IsAuto, для которого по умолчанию установлено значение «true»,
-// поэтому маркер, видимый в основном тексте, будет автоматически пронумерован как «1»,
+// Вставляем текст и отмечаем его сноской со свойством IsAuto, установленным по умолчанию в значение «true»,
+// поэтому маркер, видимый в основном тексте, будет автоматически пронумерован как "1",
 // и сноска появится внизу страницы.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// Вставьте дополнительный текст и отметьте его концевой сноской с пользовательской контрольной меткой,
-// который будет использоваться вместо числа "2" и установить для "IsAuto" значение false.
+// Вставляем дополнительный текст и отмечаем его концевой сноской с помощью пользовательского ссылочного знака,
+// который будет использоваться вместо числа «2» и установит для «IsAuto» значение false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
 // Сноски всегда появляются внизу текста, на который они ссылаются,
-// поэтому этот разрыв страницы не повлияет на сноску.
+// поэтому разрыв страницы не повлияет на сноску.
 // С другой стороны, концевые сноски всегда находятся в конце документа
-// чтобы этот разрыв страницы переместил концевую сноску на следующую страницу.
+// так что этот разрыв страницы переместит сноску вниз на следующую страницу.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 
 ## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
 
-Вставляет сноску или концевую сноску в документ.
+Вставляет в документ сноску или концевую сноску.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, string referenceMark)
@@ -72,8 +72,8 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnoteType | FootnoteType | Указывает, вставлять ли сноску или концевую сноску. |
-| footnoteText | String | Задает текст сноски. |
-| referenceMark | String | Указывает пользовательскую метку сноски. |
+| footnoteText | String | Указывает текст сноски. |
+| referenceMark | String | Указывает пользовательский ссылочный знак сноски. |
 
 ### Возвращаемое значение
 
@@ -81,27 +81,27 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 ### Примеры
 
-Показывает, как ссылаться на текст со сноской и концевой сноской.
+Показывает, как ссылаться на текст с помощью сноски и концевой сноски.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем некоторый текст и помечаем его сноской со свойством IsAuto, для которого по умолчанию установлено значение «true»,
-// поэтому маркер, видимый в основном тексте, будет автоматически пронумерован как «1»,
+// Вставляем текст и отмечаем его сноской со свойством IsAuto, установленным по умолчанию в значение «true»,
+// поэтому маркер, видимый в основном тексте, будет автоматически пронумерован как "1",
 // и сноска появится внизу страницы.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// Вставьте дополнительный текст и отметьте его концевой сноской с пользовательской контрольной меткой,
-// который будет использоваться вместо числа "2" и установить для "IsAuto" значение false.
+// Вставляем дополнительный текст и отмечаем его концевой сноской с помощью пользовательского ссылочного знака,
+// который будет использоваться вместо числа «2» и установит для «IsAuto» значение false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
 // Сноски всегда появляются внизу текста, на который они ссылаются,
-// поэтому этот разрыв страницы не повлияет на сноску.
+// поэтому разрыв страницы не повлияет на сноску.
 // С другой стороны, концевые сноски всегда находятся в конце документа
-// чтобы этот разрыв страницы переместил концевую сноску на следующую страницу.
+// так что этот разрыв страницы переместит сноску вниз на следующую страницу.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");

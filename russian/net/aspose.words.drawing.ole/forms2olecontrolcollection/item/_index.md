@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection.Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControlCollection свойство. получаетForms2OleControlобъект по указанному индексу.
+description: Forms2OleControlCollection свойство. ПолучаетForms2OleControl объект по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-получает[`Forms2OleControl`](../../forms2olecontrol/)объект по указанному индексу.
+Получает[`Forms2OleControl`](../../forms2olecontrol/) объект по указанному индексу.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -28,7 +28,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например элемент в этом документе с тремя кнопками параметров.
+// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, в этом документе с тремя кнопками параметров.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

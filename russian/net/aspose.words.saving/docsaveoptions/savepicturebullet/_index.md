@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SavePictureBullet
 second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. КогдаЛОЖЬ  Данные PictureBullet не сохраняются в выходной документ. Значение по умолчанию истинный .
+description: DocSaveOptions свойство. КогдаЛОЖЬ  Данные PictureBullet не сохраняются в выходной документ. Значение по умолчаниюистинный .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-Когда`ЛОЖЬ` , Данные PictureBullet не сохраняются в выходной документ. Значение по умолчанию: **истинный** .
+Когда`ЛОЖЬ` , Данные PictureBullet не сохраняются в выходной документ. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -16,7 +16,7 @@ public bool SavePictureBullet { get; set; }
 
 ### Примечания
 
-Этот параметр предусмотрен для Word 97, который не может корректно работать с данными PictureBullet. Чтобы удалить данные PictureBullet, установите для параметра значение «false».
+Эта опция предусмотрена для Word 97, который не может корректно работать с данными PictureBullet. Чтобы удалить данные PictureBullet, установите для параметра значение «false».
 
 ### Примеры
 
@@ -24,10 +24,9 @@ public bool SavePictureBullet { get; set; }
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-
 // Некоторые текстовые процессоры, такие как Microsoft Word 97, несовместимы с данными PictureBullet.
 // Установив флаг в объекте SaveOptions,
-// мы можем преобразовать все маркеры изображения в обычные маркеры при сохранении.
+// мы можем преобразовать все маркеры изображений в обычные маркеры при сохранении.
 DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
 saveOptions.SavePictureBullet = false;
 

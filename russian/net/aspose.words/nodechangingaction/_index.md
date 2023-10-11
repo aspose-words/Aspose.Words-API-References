@@ -1,14 +1,14 @@
 ---
 title: Enum NodeChangingAction
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeChangingAction перечисление. Определяет тип изменения узла.
+description: Aspose.Words.NodeChangingAction перечисление. Указывает тип изменения узла.
 type: docs
-weight: 3940
+weight: 4180
 url: /ru/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
 
-Определяет тип изменения узла.
+Указывает тип изменения узла.
 
 ```csharp
 public enum NodeChangingAction
@@ -26,6 +26,7 @@ public enum NodeChangingAction
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

@@ -1,14 +1,14 @@
 ---
 title: Fill.PresetTextured
 second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Задает заливку предустановленной текстурой.
+description: Fill метод. Устанавливает заливку в соответствии с предустановленной текстурой.
 type: docs
-weight: 180
+weight: 240
 url: /ru/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
 
-Задает заливку предустановленной текстурой.
+Устанавливает заливку в соответствии с предустановленной текстурой.
 
 ```csharp
 public void PresetTextured(PresetTexture presetTexture)
@@ -20,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 
 ### Примеры
 
-Покажите, как настроить форматирование маркера.
+Покажите, как установить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Установить форматирование маркера.
+// Устанавливаем форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

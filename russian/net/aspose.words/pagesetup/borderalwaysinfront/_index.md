@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderAlwaysInFront
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает положение границы страницы относительно пересекающихся текстов и объектов.
+description: PageSetup свойство. Указывает где расположена граница страницы относительно пересекающихся текстов и объектов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/pagesetup/borderalwaysinfront/
 ---
 ## PageSetup.BorderAlwaysInFront property
 
-Указывает положение границы страницы относительно пересекающихся текстов и объектов.
+Указывает, где расположена граница страницы относительно пересекающихся текстов и объектов.
 
 ```csharp
 public bool BorderAlwaysInFront { get; set; }

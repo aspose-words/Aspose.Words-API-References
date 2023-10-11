@@ -1,14 +1,16 @@
 ---
 title: Class PhysicalFontInfo
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo сорт. Указывает информацию о физическом шрифте доступном для шрифтового движка Aspose.Words.
+description: Aspose.Words.Fonts.PhysicalFontInfo сорт. Указывает информацию о физическом шрифте доступном для механизма шрифтов Aspose.Words.
 type: docs
-weight: 2850
+weight: 3030
 url: /ru/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Указывает информацию о физическом шрифте, доступном для шрифтового движка Aspose.Words.
+Указывает информацию о физическом шрифте, доступном для механизма шрифтов Aspose.Words.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class PhysicalFontInfo
@@ -18,8 +20,8 @@ public class PhysicalFontInfo
 
 | Имя | Описание |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Путь к файлу шрифта, если он есть. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Семейство шрифта. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Путь к файлу шрифта, если есть. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Фамилия шрифта. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Полное название шрифта. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Строка версии шрифта. |
 

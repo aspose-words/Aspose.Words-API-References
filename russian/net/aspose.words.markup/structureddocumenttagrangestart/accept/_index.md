@@ -1,16 +1,32 @@
 ---
 title: StructuredDocumentTagRangeStart.Accept
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart метод. 
+description: StructuredDocumentTagRangeStart метод. Принимает посетителя.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
 ## StructuredDocumentTagRangeStart.Accept method
 
+Принимает посетителя.
+
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
 ```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+
+### Возвращаемое значение
+
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+
+### Примечания
+
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
 ### Смотрите также
 

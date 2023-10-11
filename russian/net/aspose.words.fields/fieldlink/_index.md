@@ -1,14 +1,16 @@
 ---
 title: Class FieldLink
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldLink сорт. Реализует поле ССЫЛКА.
+description: Aspose.Words.Fields.FieldLink сорт. Реализует поле LINK.
 type: docs
-weight: 1960
+weight: 2110
 url: /ru/net/aspose.words.fields/fieldlink/
 ---
 ## FieldLink class
 
-Реализует поле ССЫЛКА.
+Реализует поле LINK.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldLink : Field
@@ -24,26 +26,26 @@ public class FieldLink : Field
 
 | Имя | Описание |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | Получает или задает, следует ли обновлять это поле автоматически. |
+| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | Получает или задает необходимость автоматического обновления этого поля. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
 | [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype/) { get; set; } | Получает или задает способ обновления форматирования связанного объекта. |
-| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в виде растрового изображения. |
-| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | Получает или задает, следует ли вставлять связанный объект как текст в формате HTML. |
+| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap/) { get; set; } | Получает или задает необходимость вставки связанного объекта в виде растрового изображения. |
+| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в виде текста в формате HTML. |
 | [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в виде изображения. |
-| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в формате RTF. |
+| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в расширенном текстовом формате (RTF). |
 | [InsertAsText](../../aspose.words.fields/fieldlink/insertastext/) { get; set; } | Получает или задает, следует ли вставлять связанный объект в текстовом формате. |
-| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | Получает или задает, следует ли вставлять связанный объект как текст Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | Получает или задает, следует ли вставлять связанный объект как текст в Юникоде. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
 | [IsLinked](../../aspose.words.fields/fieldlink/islinked/) { get; set; } | Получает или задает, следует ли уменьшать размер файла, не сохраняя графические данные вместе с документом. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
 | [ProgId](../../aspose.words.fields/fieldlink/progid/) { get; set; } | Получает или задает тип приложения информации о ссылке. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
 | [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname/) { get; set; } | Получает или задает имя и расположение исходного файла. |
-| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem/) { get; set; } | Получает или задает связываемую часть исходного файла. |
+| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem/) { get; set; } | Получает или задает часть исходного файла, на которую осуществляется ссылка. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -53,26 +55,27 @@ public class FieldLink : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
-Для информации, скопированной из другого приложения, это поле связывает эту информацию с исходным файлом исходного .
+Для информации, скопированной из другого приложения, это поле связывает эту информацию с исходным файлом original .
 
 ### Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде текста.
-    // 1 - Поле ССЫЛКА:
+    // 1 - Поле LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -90,12 +93,13 @@ public class FieldLink : Field
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде изображения.
-    // 1 - Поле ССЫЛКА:
+    // 1 - Поле LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -115,7 +119,7 @@ public class FieldLink : Field
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле ССЫЛКА и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов, чтобы вставить поле LINK и установить его свойства в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -192,7 +196,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле DDEAUTO, и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов, чтобы вставить поле DDEAUTO и установить его свойства в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

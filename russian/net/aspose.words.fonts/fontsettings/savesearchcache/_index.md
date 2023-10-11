@@ -27,7 +27,6 @@ public void SaveSearchCache(Stream outputStream)
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -56,7 +55,7 @@ public void LoadFontSearchCache()
 
 /// <summary>
 /// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время жизни объекта FontSettings.
+/// на все время существования объекта FontSettings.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

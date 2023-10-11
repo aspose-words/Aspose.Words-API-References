@@ -16,13 +16,13 @@ public Border Bottom { get; }
 
 ### Примеры
 
-Показывает, как применить цвет рамки и заливки при построении таблицы.
+Показывает, как применять цвет границы и заливки при построении таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Запускаем таблицу и устанавливаем для ее границ цвет/толщину по умолчанию.
+// Запускаем таблицу и устанавливаем цвет/толщину ее границ по умолчанию.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -35,9 +35,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Сбросить форматирование ячейки, чтобы отключить цвета фона
-// установить пользовательскую толщину границы для всех новых ячеек, созданных конструктором,
-// затем построить вторую строку.
+// Сбрасываем форматирование ячейки, чтобы отключить цвета фона
+// устанавливаем собственную толщину границы для всех новых ячеек, созданных построителем,
+// затем создаем вторую строку.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult.Result
 second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonEvaluationResult свойство. Получает результат оценки сравнения.
+description: ComparisonEvaluationResult свойство. Получает результат сравнения.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/result/
 ---
 ## ComparisonEvaluationResult.Result property
 
-Получает результат оценки сравнения.
+Получает результат сравнения.
 
 ```csharp
 public bool Result { get; }

@@ -3,7 +3,7 @@ title: Enum PdfCustomPropertiesExport
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.PdfCustomPropertiesExport перечисление. Указывает путьCustomDocumentProperties экспортируются в файл PDF.
 type: docs
-weight: 5140
+weight: 5420
 url: /ru/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
@@ -18,8 +18,8 @@ public enum PdfCustomPropertiesExport
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Пользовательские свойства не экспортируются. |
-| Standard | `1` | Пользовательские свойства экспортируются как записи в словарь /Info. |
+| None | `0` | Никакие пользовательские свойства не экспортируются. |
+| Standard | `1` | Пользовательские свойства экспортируются как записи в словаре /Info. |
 | Metadata | `2` | Пользовательские свойства — это метаданные. |
 
 ### Примеры
@@ -31,16 +31,16 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "CustomPropertiesExport" значение "PdfCustomPropertiesExport.None", чтобы отказаться
- // настраиваемые свойства документа при сохранении документа в формате .PDF.
-// Установите для свойства "CustomPropertiesExport" значение "PdfCustomPropertiesExport.Standard"
-// для сохранения пользовательских свойств в выходном PDF-документе.
-// Установите для свойства "CustomPropertiesExport" значение "PdfCustomPropertiesExport.Metadata"
-// для сохранения пользовательских свойств в пакете XMP.
+// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.None», чтобы отбросить
+// пользовательские свойства документа при сохранении документа в формате .PDF.
+// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.Standard»
+// чтобы сохранить пользовательские свойства в выходном PDF-документе.
+// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.Metadata»
+// чтобы сохранить пользовательские свойства в пакете XMP.
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);

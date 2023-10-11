@@ -1,14 +1,14 @@
 ---
 title: Font.TintAndShade
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает двойное значение которое делает цвет светлее или темнее.
+description: Font свойство. Получает или задает двойное значение которое осветляет или затемняет цвет.
 type: docs
 weight: 520
 url: /ru/net/aspose.words/font/tintandshade/
 ---
 ## Font.TintAndShade property
 
-Получает или задает двойное значение, которое делает цвет светлее или темнее.
+Получает или задает двойное значение, которое осветляет или затемняет цвет.
 
 ```csharp
 public double TintAndShade { get; set; }
@@ -18,7 +18,7 @@ public double TintAndShade { get; set; }
 
 Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) является нейтральным. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит кArgumentOutOfRangeException.
 
-Установка этого свойства для объекта Font с не относящимися к теме colors приводит кInvalidOperationException.
+Установка этого свойства для[`Font`](../) объект с цветовой гаммой, не относящейся к теме, приводит кInvalidOperationException.
 
 ### Примеры
 
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Создадим какой-нибудь стиль со свойствами шрифта темы.
+// Создайте стиль с помощью свойств шрифта темы.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

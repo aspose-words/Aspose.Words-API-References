@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitSectionStart
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается при начале перечисления раздела.
+description: DocumentVisitor метод. Вызывается когда начинается перечисление раздела.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/documentvisitor/visitsectionstart/
 ---
 ## DocumentVisitor.VisitSectionStart method
 
-Вызывается при начале перечисления раздела.
+Вызывается, когда начинается перечисление раздела.
 
 ```csharp
 public virtual VisitorAction VisitSectionStart(Section section)
@@ -32,9 +32,9 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
@@ -82,7 +82,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Section.
+    /// Вызывается, когда в документе встречается узел Раздела.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -97,7 +97,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Section.
+    /// Вызывается после посещения всех дочерних узлов узла Раздела.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -131,7 +131,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Paragraph.
+    /// Вызывается, когда в документе встречается узел «Абзац».
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -173,7 +173,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

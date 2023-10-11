@@ -1,14 +1,14 @@
 ---
 title: ComHelper.Open
 second_title: Справочник по API Aspose.Words для .NET
-description: ComHelper метод. Позволяет приложению COM загружатьDocument из файла .
+description: ComHelper метод. Позволяет COMприложению загружатьDocument из файла.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-Позволяет приложению COM загружать[`Document`](../../document/) из файла .
+Позволяет COM-приложению загружать[`Document`](../../document/) из файла.
 
 ```csharp
 public Document Open(string fileName)
@@ -20,7 +20,7 @@ public Document Open(string fileName)
 
 ### Возвращаемое значение
 
-А[`Document`](../../document/) объект, представляющий документ Word.
+А[`Document`](../../document/)объект, представляющий документ Word.
 
 ### Примечания
 
@@ -69,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-Разрешает загрузку приложения COM[`Document`](../../document/) из потока.
+Разрешает загрузку COM-приложения.[`Document`](../../document/) из потока.
 
 ```csharp
 public Document Open(Stream stream)
@@ -81,7 +81,7 @@ public Document Open(Stream stream)
 
 ### Возвращаемое значение
 
-А[`Document`](../../document/) объект, представляющий документ Word.
+А[`Document`](../../document/)объект, представляющий документ Word.
 
 ### Примечания
 

@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 second_title: Справочник по API Aspose.Words для .NET
 description: PageSetup свойство. Получает или задает формат номера страницы.
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property
@@ -35,11 +35,11 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
 // Переместите конструктор документов в основной заголовок первого раздела,
-// который будет отображаться на каждой странице в этом разделе.
+// который будет отображаться на каждой странице этого раздела.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Вставляем поле PAGE, в котором будет отображаться номер текущей страницы.
+// Вставляем поле СТРАНИЦА, в котором будет отображаться номер текущей страницы.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
@@ -59,7 +59,7 @@ builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
 // Настройте раздел так, чтобы количество страниц, отображаемых в полях PAGE, начиналось с 10.
-// Кроме того, настройте все поля PAGE для отображения номеров страниц с использованием арабских цифр.
+// Также настройте все поля PAGE для отображения номеров страниц с использованием арабских цифр.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

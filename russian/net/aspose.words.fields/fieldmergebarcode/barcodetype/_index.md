@@ -16,13 +16,13 @@ public string BarcodeType { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами ITF14.
+Показывает, как выполнить слияние почты со штрих-кодами ITF14.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyITF14Barcode» источника данных слияния в штрих-коды ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
@@ -52,19 +52,19 @@ Assert.AreEqual("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```
 
-Показывает, как выполнять слияние со штрих-кодами CODE39.
+Показывает, как выполнить слияние почты со штрих-кодами CODE39.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyCODE39Barcode» источника данных слияния в штрих-коды CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Измените его внешний вид, чтобы отображались начальные/конечные символы.
+// Редактируем его внешний вид, чтобы отображались символы начала/остановки.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
@@ -91,13 +91,13 @@ Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
 
-Показывает, как выполнять слияние со штрих-кодами EAN13.
+Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
@@ -132,19 +132,19 @@ Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-Показывает, как выполнять слияние со штрих-кодами QR.
+Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применение пользовательских цветов и масштабирования.
+// Применяем собственные цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";

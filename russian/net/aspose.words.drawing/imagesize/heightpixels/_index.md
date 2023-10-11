@@ -22,10 +22,10 @@ public int HeightPixels { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем фигуру в документ, содержащий изображение, взятое из нашей локальной файловой системы.
+// Вставляем в документ фигуру, содержащую изображение, взятое из нашей локальной файловой системы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Если фигура содержит изображение, его свойство ImageData будет действительным,
+// Если фигура содержит изображение, ее свойство ImageData будет действительным,
 // и он будет содержать объект ImageSize.
 ImageSize imageSize = shape.ImageData.ImageSize; 
 
@@ -37,7 +37,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Мы можем основывать размер фигуры на размере ее изображения, чтобы избежать растяжения изображения.
+// Мы можем основывать размер фигуры на размере ее изображения, чтобы избежать растягивания изображения.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

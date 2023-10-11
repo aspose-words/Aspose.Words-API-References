@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
 second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает режим интерполяции связанный с этой графикой.
+description: GraphicsQualityOptions свойство. Получает или задает режим интерполяции связанный с этим графическим объектом.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Получает или задает режим интерполяции, связанный с этой графикой.
+Получает или задает режим интерполяции, связанный с этим графическим объектом.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -16,7 +16,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ### Примеры
 
-Показывает, как установить параметры качества рендеринга при преобразовании документов в форматы изображений.
+Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

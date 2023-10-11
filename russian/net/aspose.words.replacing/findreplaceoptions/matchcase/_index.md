@@ -3,7 +3,7 @@ title: FindReplaceOptions.MatchCase
 second_title: Справочник по API Aspose.Words для .NET
 description: FindReplaceOptions свойство. True указывает на сравнение с учетом регистра false указывает на сравнение без учета регистра.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите флаг "MatchCase" в "true", чтобы применять учет регистра при поиске строк для замены.
-// Установите для флага «MatchCase» значение «false», чтобы игнорировать регистр символов при поиске текста для замены.
+// Установите для флага «MatchCase» значение «true», чтобы применять чувствительность к регистру при поиске заменяемых строк.
+// Установите флаг «MatchCase» в значение «false», чтобы игнорировать регистр символов при поиске текста для замены.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);

@@ -1,14 +1,14 @@
 ---
 title: Interface IMailMergeDataSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource интерфейс. Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных например списка объектов. Данные MasterDetail также поддерживаются.
+description: Aspose.Words.MailMerging.IMailMergeDataSource интерфейс. Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных например списка объектов. Также поддерживаются основные данные.
 type: docs
-weight: 3590
+weight: 3810
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Реализуйте этот интерфейс, чтобы разрешить слияние почты из пользовательского источника данных, например списка объектов. Данные Master-Detail также поддерживаются.
+Реализуйте этот интерфейс, чтобы разрешить слияние почты из пользовательского источника данных, например списка объектов. Также поддерживаются основные данные.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -24,17 +24,17 @@ public interface IMailMergeDataSource
 
 | Имя | Описание |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Механизм слияния Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Возвращает значение для указанного имени поля или false, если поле не найдено. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния почты. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Возвращает значение для указанного имени поля или`ЛОЖЬ` если поле не найдено. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Переход к следующей записи в источнике данных. |
 
 ### Примечания
 
-Когда источник данных создан, он должен быть инициализирован так, чтобы он указывал на BOF (перед первой записью). Механизм слияния почты Aspose.Words будет вызывать[`MoveNext`](./movenext/) чтобы перейти к следующей записи and затем вызвать[`GetValue`](./getvalue/) для каждого поля слияния, которое встречается в документе или в текущей области слияния.
+Когда источник данных создан, он должен быть инициализирован, чтобы указать на BOF (перед первой записью). Механизм слияния почты Aspose.Words вызовет[`MoveNext`](./movenext/) для перехода к следующей записи and затем вызвать[`GetValue`](./getvalue/) для каждого поля слияния, встречающегося в документе или в текущей области слияния почты.
 
 ### Примеры
 
-Показывает, как выполнить слияние с источником данных в виде пользовательского объекта.
+Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
 ```csharp
 public void CustomDataSource()
@@ -45,11 +45,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource. 
+     // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -58,7 +60,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Пример класса "объект данных" в вашем приложении.
+/// Пример класса «объект данных» в вашем приложении.
 /// </summary>
 public class Customer
 {
@@ -73,7 +75,7 @@ public class Customer
 }
 
 /// <summary>
-/// Пользовательский источник данных слияния, который вы реализуете, чтобы позволить Aspose.Words 
+ /// Пользовательский источник данных слияния почты, который вы реализуете, чтобы разрешить Aspose.Words
 /// для отправки данных слияния из ваших объектов Customer в документы Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -82,12 +84,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна находиться перед первой записью.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяющимися регионами.
     /// </summary>
     public string TableName
     {
@@ -108,7 +110,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;

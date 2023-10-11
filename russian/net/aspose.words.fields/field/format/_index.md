@@ -1,14 +1,14 @@
 ---
 title: Field.Format
 second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. ПолучаетFieldFormat объект предоставляющий типизированный доступ к форматированию поля.
+description: Field свойство. ПолучаетFieldFormat объект обеспечивающий типизированный доступ к форматированию поля.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-Получает[`FieldFormat`](../../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля.
+Получает[`FieldFormat`](../../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля.
 
 ```csharp
 public FieldFormat Format { get; }
@@ -16,7 +16,7 @@ public FieldFormat Format { get; }
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

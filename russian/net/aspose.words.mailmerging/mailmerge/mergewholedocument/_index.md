@@ -16,11 +16,11 @@ public bool MergeWholeDocument { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **ЛОЖЬ** .
+Значение по умолчанию:`ЛОЖЬ` .
 
 ### Примеры
 
-Показывает взаимосвязь между слиянием почты с регионами и обновлением полей.
+Показывает связь между слияниями почты с регионами и обновлением полей.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -28,15 +28,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // Если мы установим флаг "MergeWholeDocument" в "true",
-    // слияние почты с регионами обновит каждое поле в документе.
-    // Если мы установим флаг "MergeWholeDocument" в "false", слияние будет обновлять только поля
-    // внутри области слияния, имя которой совпадает с именем таблицы источника данных.
+    // Если мы установим флаг «MergeWholeDocument» в значение «true»,
+    // слияние почты с регионами обновит все поля в документе.
+    // Если мы установим флаг «MergeWholeDocument» в значение «false», слияние почты будет обновлять только поля
+    // внутри региона слияния почты, имя которого совпадает с именем таблицы источника данных.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Слияние будет обновлять только поле ЦИТАТА за пределами области слияния
-    // если мы установим флаг "MergeWholeDocument" в "true".
+    // Слияние почты обновит поле QUOTE только за пределами региона слияния почты.
+    // если мы установим флаг «MergeWholeDocument» в значение «true».
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -45,8 +45,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Создайте документ с областью слияния, принадлежащей источнику данных с именем "MyTable".
-/// Вставьте одно поле QUOTE внутри этого региона и еще одно за его пределами.
+/// Создайте документ с регионом слияния почты, принадлежащим источнику данных с именем «MyTable».
+/// Вставляем одно поле QUOTE внутри этой области и еще одно за ее пределами.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -70,7 +70,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Создайте таблицу данных, которая будет использоваться при слиянии почты.
+/// Создайте таблицу данных, которая будет использоваться при слиянии писем.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

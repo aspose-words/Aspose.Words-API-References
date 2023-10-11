@@ -3,12 +3,14 @@ title: Class ChartMarker
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.Charts.ChartMarker сорт. Представляет маркер данных диаграммы.
 type: docs
-weight: 710
+weight: 750
 url: /ru/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Представляет маркер данных диаграммы.
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartMarker
@@ -18,8 +20,8 @@ public class ChartMarker
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Предоставляет доступ к заполнению и форматированию линии этого маркера. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Получает или задает размер маркера диаграммы. Значение по умолчанию: 7. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Предоставляет доступ к форматированию заливки и строк этого маркера. |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Получает или задает размер маркера диаграммы. Значение по умолчанию — 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Получает или задает символ маркера диаграммы. |
 
 ### Примеры
@@ -27,7 +29,6 @@ public class ChartMarker
 Показывает, как работать с точками данных на линейной диаграмме.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -41,14 +42,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Подчеркните точки данных диаграммы, сделав их ромбовидными.
+    // Выделите точки данных диаграммы, придав им вид ромба.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
     chart.Series[0].Smooth = true;
 
-    // Убедитесь, что точки данных для первого ряда не инвертируют свои цвета, если значение отрицательное.
+    // Убедитесь, что точки данных для первой серии не инвертируют свои цвета, если значение отрицательное.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -57,17 +58,17 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат по отдельности.
+    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Мы также можем сразу удалить всю серию точек данных.
+    // Мы также можем удалить сразу всю серию точек данных.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет ряд точек данных к ряду.
+/// Применяет к ряду несколько точек данных.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

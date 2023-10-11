@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает расстояние по горизонтали между краем кадра и элементом указаннымRelativeHorizontalPosition свойство.
+description: FrameFormat свойство. Получает горизонтальное расстояние между краем кадра и элементом указаннымRelativeHorizontalPosition свойство.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Получает расстояние по горизонтали между краем кадра и элементом, указанным[`RelativeHorizontalPosition`](../relativehorizontalposition/) свойство.
+Получает горизонтальное расстояние между краем кадра и элементом, указанным[`RelativeHorizontalPosition`](../relativehorizontalposition/) свойство.
 
 ```csharp
 public double HorizontalPosition { get; }

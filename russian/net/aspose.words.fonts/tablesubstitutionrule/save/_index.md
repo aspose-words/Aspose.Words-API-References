@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
 second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Сохраняет текущие настройки подстановки таблиц в файл.
+description: TableSubstitutionRule метод. Сохраняет текущие настройки подстановки таблицы в файл.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(string) {#save_1}
 
-Сохраняет текущие настройки подстановки таблиц в файл.
+Сохраняет текущие настройки подстановки таблицы в файл.
 
 ```csharp
 public void Save(string fileName)
@@ -27,26 +27,26 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Создать новое правило подстановки таблиц и загрузить таблицу подстановки шрифтов Microsoft Windows по умолчанию.
+// Создаем новое правило подстановки таблиц и загружаем таблицу подстановки шрифтов Microsoft Windows по умолчанию.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// В Windows заменой по умолчанию для шрифта "Times New Roman CE" является "Times New Roman".
+// В Windows заменой шрифта «Times New Roman CE» по умолчанию является «Times New Roman».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // Мы можем сохранить таблицу в виде XML-документа.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// В Linux есть собственная таблица подстановок.
-// Существует несколько замещающих шрифтов для "Times New Roman CE".
-// Если первая замена "FreeSerif" тоже недоступна,
-// это правило будет циклически перебирать другие в массиве, пока не найдет доступное.
+// В Linux есть своя таблица подстановок.
+// Существует несколько шрифтов-заменителей «Times New Roman CE».
+// Если первая замена "FreeSerif" также недоступна,
+// это правило будет циклически перебирать остальные в массиве, пока не найдет доступное.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Сохраняем таблицу подстановок Linux в виде XML-документа с помощью потока.
+// Сохраняем таблицу подстановок Linux в виде XML-документа с использованием потока.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -64,7 +64,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(Stream) {#save}
 
-Сохраняет текущие настройки подстановки таблицы в поток.
+Сохраняет текущие настройки замены таблицы в поток.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -83,26 +83,26 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Создать новое правило подстановки таблиц и загрузить таблицу подстановки шрифтов Microsoft Windows по умолчанию.
+// Создаем новое правило подстановки таблиц и загружаем таблицу подстановки шрифтов Microsoft Windows по умолчанию.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// В Windows заменой по умолчанию для шрифта "Times New Roman CE" является "Times New Roman".
+// В Windows заменой шрифта «Times New Roman CE» по умолчанию является «Times New Roman».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // Мы можем сохранить таблицу в виде XML-документа.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// В Linux есть собственная таблица подстановок.
-// Существует несколько замещающих шрифтов для "Times New Roman CE".
-// Если первая замена "FreeSerif" тоже недоступна,
-// это правило будет циклически перебирать другие в массиве, пока не найдет доступное.
+// В Linux есть своя таблица подстановок.
+// Существует несколько шрифтов-заменителей «Times New Roman CE».
+// Если первая замена "FreeSerif" также недоступна,
+// это правило будет циклически перебирать остальные в массиве, пока не найдет доступное.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Сохраняем таблицу подстановок Linux в виде XML-документа с помощью потока.
+// Сохраняем таблицу подстановок Linux в виде XML-документа с использованием потока.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

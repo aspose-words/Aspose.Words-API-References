@@ -1,14 +1,14 @@
 ---
 title: Table.Style
 second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает стиль таблицы применяемый к этой таблице.
+description: Table свойство. Получает или задает стиль таблицы примененный к этой таблице.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-Получает или задает стиль таблицы, применяемый к этой таблице.
+Получает или задает стиль таблицы, примененный к этой таблице.
 
 ```csharp
 public Style Style { get; set; }
@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### Примеры
 
-Показывает, как создавать пользовательские настройки стиля для таблицы.
+Показывает, как создать пользовательские настройки стиля для таблицы.
 
 ```csharp
 Document doc = new Document();

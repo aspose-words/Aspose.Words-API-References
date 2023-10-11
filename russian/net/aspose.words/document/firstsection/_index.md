@@ -1,14 +1,14 @@
 ---
 title: Document.FirstSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает первый раздел в документе.
+description: Document свойство. Получает первый раздел документа.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
 
-Получает первый раздел в документе.
+Получает первый раздел документа.
 
 ```csharp
 public Section FirstSection { get; }
@@ -59,7 +59,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(2, doc.Sections.Count);
 
 // Каждый раздел имеет свои настройки настройки страницы.
-// Мы можем разделить текст во втором разделе на две колонки.
+// Мы можем разделить текст во втором разделе на два столбца.
 // Это не повлияет на текст в первом разделе.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
@@ -87,7 +87,7 @@ builder.Write("Primary footer");
 Section section = doc.FirstSection;
 
 // Раздел является составным узлом и может содержать дочерние узлы,
-// но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
+// но только если эти дочерние узлы имеют тип узла «Body» или «HeaderFooter».
 foreach (Node node in section)
 {
     switch (node.NodeType)

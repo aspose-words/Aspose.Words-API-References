@@ -3,12 +3,14 @@ title: Class TaskPane
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.WebExtensions.TaskPane сорт. Представляет объект области задач надстройки.
 type: docs
-weight: 6400
+weight: 6710
 url: /ru/net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
 
 Представляет объект области задач надстройки.
+
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
 
 ```csharp
 public class TaskPane
@@ -24,10 +26,10 @@ public class TaskPane
 
 | Имя | Описание |
 | --- | --- |
-| [DockState](../../aspose.words.webextensions/taskpane/dockstate/) { get; set; } | Определяет последнее пристыкованное расположение этого объекта области задач. |
-| [IsLocked](../../aspose.words.webextensions/taskpane/islocked/) { get; set; } | Указывает, привязана ли область задач к документу в пользовательском интерфейсе и не может быть закрыта пользователем. |
-| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible/) { get; set; } | Указывает, отображается ли область задач как видимая по умолчанию при открытии документа. |
-| [Row](../../aspose.words.webextensions/taskpane/row/) { get; set; } | Определяет индекс этой области задач, начиная от внешней к внутренней, среди других областей задач persisted , закрепленных в том же расположении по умолчанию. |
+| [DockState](../../aspose.words.webextensions/taskpane/dockstate/) { get; set; } | Указывает последнее закрепленное местоположение этого объекта области задач. |
+| [IsLocked](../../aspose.words.webextensions/taskpane/islocked/) { get; set; } | Указывает, привязана ли панель задач к документу в пользовательском интерфейсе и не может быть закрыта пользователем. |
+| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible/) { get; set; } | Указывает, отображается ли панель задач видимой по умолчанию при открытии документа. |
+| [Row](../../aspose.words.webextensions/taskpane/row/) { get; set; } | Указывает индекс этой панели задач, перечисляемый снаружи внутрь, среди других панелей задач persisted , закрепленных в том же месте по умолчанию. |
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Представляет объект веб-расширения. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Указывает значение ширины по умолчанию для этого экземпляра области задач. |
 
@@ -38,8 +40,8 @@ public class TaskPane
 ```csharp
 Document doc = new Document();
 
-// Создаем панель задач с надстройкой "MyScript", которая будет использоваться документом,
-// затем установите его местоположение по умолчанию.
+// Создаём панель задач с надстройкой MyScript, которая будет использоваться документом,
+// затем устанавливаем местоположение по умолчанию.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -47,13 +49,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// Если в одном и том же месте закрепления есть несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
+// Если в одном месте закрепления находится несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
 myScriptTaskPane.Row = 1;
 
 // Создайте надстройку под названием «MyScript Math Sample», внутри которой будет отображаться панель задач.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Задаем эталонные параметры хранилища приложений для нашей надстройки, например идентификатор.
+// Установите ссылочные параметры хранилища приложений для нашей надстройки, например идентификатор.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -64,10 +66,10 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Разрешить пользователю взаимодействовать с надстройкой.
 webExtension.IsFrozen = false;
 
-// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> Надстройки.
+// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> gt; Надстройки.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Сразу удалить все панели задач веб-расширения, как показано ниже.
+// Удалить все панели задач веб-расширений одновременно, вот так.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.Smooth
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Позволяет указать будет ли линия соединяющая точки на графике сглаживаться с помощью сплайнов CatmullRom.
+description: ChartSeries свойство. Позволяет указать должна ли линия соединяющая точки на диаграмме сглаживаться с использованием сплайнов CatmullRom.
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 ## ChartSeries.Smooth property
 
-Позволяет указать, будет ли линия, соединяющая точки на графике, сглаживаться с помощью сплайнов Catmull-Rom.
+Позволяет указать, должна ли линия, соединяющая точки на диаграмме, сглаживаться с использованием сплайнов Catmull-Rom.
 
 ```csharp
 public bool Smooth { get; set; }
@@ -19,7 +19,6 @@ public bool Smooth { get; set; }
 Показывает, как работать с точками данных на линейной диаграмме.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -33,14 +32,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Подчеркните точки данных диаграммы, сделав их ромбовидными.
+    // Выделите точки данных диаграммы, придав им вид ромба.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
     chart.Series[0].Smooth = true;
 
-    // Убедитесь, что точки данных для первого ряда не инвертируют свои цвета, если значение отрицательное.
+    // Убедитесь, что точки данных для первой серии не инвертируют свои цвета, если значение отрицательное.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,17 +48,17 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат по отдельности.
+    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Мы также можем сразу удалить всю серию точек данных.
+    // Мы также можем удалить сразу всю серию точек данных.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет ряд точек данных к ряду.
+/// Применяет к ряду несколько точек данных.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

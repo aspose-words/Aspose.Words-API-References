@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutFlow
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.LayoutFlow перечисление. Определяет поток макета текста в текстовом поле.
+description: Aspose.Words.Drawing.LayoutFlow перечисление. Определяет порядок расположения текста в текстовом поле.
 type: docs
-weight: 970
+weight: 1100
 url: /ru/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-Определяет поток макета текста в текстовом поле.
+Определяет порядок расположения текста в текстовом поле.
 
 ```csharp
 public enum LayoutFlow

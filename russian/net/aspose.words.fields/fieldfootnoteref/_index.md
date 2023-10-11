@@ -3,12 +3,14 @@ title: Class FieldFootnoteRef
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.FieldFootnoteRef сорт. Реализует поле FOOTNOTEREF.
 type: docs
-weight: 1750
+weight: 1900
 url: /ru/net/aspose.words.fields/fieldfootnoteref/
 ---
 ## FieldFootnoteRef class
 
 Реализует поле FOOTNOTEREF.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldFootnoteRef : Field
@@ -26,12 +28,12 @@ public class FieldFootnoteRef : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -41,41 +43,10 @@ public class FieldFootnoteRef : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-
-### Примеры
-
-Показывает, как делать перекрестные ссылки на сноски с полем FOOTNOTEREF.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.StartBookmark("CrossRefBookmark");
-builder.Write("Hello world!");
-builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
-builder.EndBookmark("CrossRefBookmark");
-builder.InsertParagraph();
-
-// Вставьте поле FOOTNOTEREF, которое позволяет нам ссылаться на сноску более одного раза при повторном использовании одного и того же маркера сноски.
-builder.Write("CrossReference: ");
-FieldFootnoteRef field = (FieldFootnoteRef) builder.InsertField(FieldType.FieldFootnoteRef, true);
-
-// Ссылка на созданную нами закладку с помощью поля FOOTNOTEREF. Эта закладка содержит маркер сноски
-// принадлежащая сноске, которую мы вставили. В поле будет отображаться этот маркер сноски.
-builder.MoveTo(field.Separator);
-builder.Write("CrossRefBookmark");
-
-Assert.AreEqual(" FOOTNOTEREF CrossRefBookmark", field.GetFieldCode());
-
-doc.UpdateFields();
-
-// Это поле работает только в старых версиях Microsoft Word.
-doc.Save(ArtifactsDir + "Field.FOOTNOTEREF.doc");
-```
 
 ### Смотрите также
 

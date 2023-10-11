@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.XmlMapping
 second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Получает объект представляющий сопоставление этого тега структурированного документа с XML data в пользовательской XMLчасти текущего документа.
+description: IStructuredDocumentTag свойство. Получает объект который представляет сопоставление этого тега структурированного документа с XMLданными в пользовательской части XML текущего документа.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.markup/istructureddocumenttag/xmlmapping/
 ---
 ## IStructuredDocumentTag.XmlMapping property
 
-Получает объект, представляющий сопоставление этого тега структурированного документа с XML data в пользовательской XML-части текущего документа.
+Получает объект, который представляет сопоставление этого тега структурированного документа с XML-данными в пользовательской части XML текущего документа.
 
 ```csharp
 public XmlMapping XmlMapping { get; }

@@ -16,7 +16,7 @@ public bool FormsDesign { get; set; }
 
 ### Примечания
 
-В настоящее время работает только для документов в формате WordML.
+На данный момент работает только для документов в формате WordML.
 
 ### Примеры
 
@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Установите для свойства "FormsDesign" значение "false", чтобы оставить режим дизайна форм отключенным.
-// Установите для свойства "FormsDesign" значение "true", чтобы включить режим дизайна форм.
+// Установите для свойства «FormsDesign» значение «false», чтобы режим дизайна форм был отключен.
+// Установите для свойства FormsDesign значение true, чтобы включить режим разработки форм.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

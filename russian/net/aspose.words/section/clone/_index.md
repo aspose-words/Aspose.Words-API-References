@@ -3,7 +3,7 @@ title: Section.Clone
 second_title: Справочник по API Aspose.Words для .NET
 description: Section метод. Создает дубликат этого раздела.
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Добавляем копию того, что сейчас является первым разделом, в конец документа.
+// Добавляем копию того, что теперь является первым разделом, в конец документа.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

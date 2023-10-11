@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этим объектом Font в документе с письмом справа налево.
+description: Font свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont object в языковом документе с письмом справа налево.
 type: docs
 weight: 490
 url: /ru/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Получает или задает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font в документе с письмом справа налево.
+Получает или задает шрифт темы в применяемой схеме шрифтов, связанной с этим[`Font`](../) object в языковом документе с письмом справа налево.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -21,7 +21,7 @@ public ThemeFont ThemeFontBi { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Определяем шрифты для языков, используемых по умолчанию.
+// Определить шрифты для языков, используемых по умолчанию.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -51,8 +51,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов изменить их шрифт и цвет.
-// 1 - Установив ThemeFont.None/ThemeColor.None:
+// Есть несколько способов сбросить шрифт и цвет.
+// 1 — установив ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Установив имена шрифта/цвета, не относящиеся к теме:
+// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SelectFldWithFirstOrLastChar
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Выберите поле при выборе первого или последнего символа.
+description: CompatibilityOptions свойство. Выбор поля когда выбран первый или последний символ.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
 ---
 ## CompatibilityOptions.SelectFldWithFirstOrLastChar property
 
-Выберите поле при выборе первого или последнего символа.
+Выбор поля, когда выбран первый или последний символ.
 
 ```csharp
 public bool SelectFldWithFirstOrLastChar { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Cell.Tables
 second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает набор таблиц которые являются непосредственными дочерними элементами ячейки.
+description: Cell свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами ячейки.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Получает набор таблиц, которые являются непосредственными дочерними элементами ячейки.
+Получает коллекцию таблиц, которые являются непосредственными дочерними элементами ячейки.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -23,16 +23,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Узнать, есть ли у каких-либо ячеек в таблице другие таблицы в качестве дочерних.
+        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Узнать, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
+        // Выясняем, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -44,7 +43,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Вычисляет, на каком уровне таблица вложена в другие таблицы.
+/// Вычисляет уровень вложенности таблицы в другие таблицы.
 /// </summary>
 /// <returns>
 /// Целое число, указывающее глубину вложенности таблицы (количество узлов родительской таблицы).
@@ -64,12 +63,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
-/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия других таблиц.
+/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
+/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если в таблице нет ячеек, содержащих таблицу.
+/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

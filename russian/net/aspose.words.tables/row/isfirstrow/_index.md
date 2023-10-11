@@ -1,14 +1,14 @@
 ---
 title: Row.IsFirstRow
 second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Истинно если это первая строка в таблице false иначе.
+description: Row свойство. True если это первая строка в таблице ложь в противном случае.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/row/isfirstrow/
 ---
 ## Row.IsFirstRow property
 
-Истинно, если это первая строка в таблице; false иначе.
+True, если это первая строка в таблице; ложь в противном случае.
 
 ```csharp
 public bool IsFirstRow { get; }
@@ -24,16 +24,16 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов таблицы и их дочерних элементов.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
@@ -51,7 +51,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Прогоны вне таблиц не записываются.
+    /// Выполнения, не входящие в таблицы, не записываются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -82,7 +82,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Table.
+    /// Вызывается после посещения всех дочерних узлов узла таблицы.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>

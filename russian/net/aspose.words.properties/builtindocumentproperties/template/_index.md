@@ -16,11 +16,11 @@ public string Template { get; set; }
 
 ### Примечания
 
-В Microsoft Word это свойство носит информационный характер и обычно содержит только имя файла шаблона без пути.
+В Microsoft Word это свойство предназначено только для информационных целей и обычно содержит только имя файла шаблона без пути.
 
-Пустая строка означает, что документ прикреплен к шаблону Normal.
+Пустая строка означает, что документ прикреплен к обычному шаблону.
 
-Чтобы получить или задать фактическое имя прикрепленного шаблона, используйте параметр [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) имущество.
+Чтобы получить или установить фактическое имя прикрепленного шаблона, используйте the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) свойство.
 
 ### Примеры
 
@@ -32,8 +32,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Следующие встроенные свойства содержат информацию о создании и редактировании этого документа.
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти
-// эти свойства через "Свойства" -> "Подробности" -> Категория «Происхождение».
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти
+// эти свойства через "Свойства" -> «Подробности» -> Категория «Происхождение».
 // Такие поля, как PRINTDATE и EDITTIME, могут отображать эти значения в теле документа.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -47,11 +47,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word автоматически обновляет следующие свойства при сохранении документа.
-// Чтобы использовать эти свойства с Aspose.Words, нам нужно установить для них значения вручную.
+// Чтобы использовать эти свойства с Aspose.Words, нам нужно будет установить для них значения вручную.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

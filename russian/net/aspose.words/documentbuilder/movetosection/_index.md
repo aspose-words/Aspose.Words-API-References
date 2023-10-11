@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToSection
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в начало тела в указанном разделе.
+description: DocumentBuilder метод. Перемещает курсор в начало тела указанного раздела.
 type: docs
-weight: 550
+weight: 580
 url: /ru/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Перемещает курсор в начало тела в указанном разделе.
+Перемещает курсор в начало тела указанного раздела.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -16,13 +16,13 @@ public void MoveToSection(int sectionIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sectionIndex | Int32 | Индекс раздела, к которому нужно перейти. |
+| sectionIndex | Int32 | Индекс раздела, в который нужно перейти. |
 
 ### Примечания
 
-Когда sectionIndex больше или равен 0, он указывает индекс from начала документа, где 0 является первым разделом. Когда sectionIndex меньше 0, , он указывает индекс с конца документа, где -1 является последним разделом.
+Когда*sectionIndex* больше или равно 0, он указывает индекс from начала документа, где 0 соответствует первому разделу. Когда*sectionIndex* меньше 0, указывается индекс с конца документа, где -1 соответствует последнему разделу.
 
-Курсор переместится на первый абзац в **Тело** указанного раздела.
+Курсор перемещается на первый абзац в[`Body`](../../body/) указанного раздела.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

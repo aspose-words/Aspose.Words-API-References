@@ -1,14 +1,14 @@
 ---
 title: Enum MarkupLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.MarkupLevel перечисление. Указывает уровень в дереве документов на которомStructuredDocumentTag может произойти.
+description: Aspose.Words.Markup.MarkupLevel перечисление. Указывает уровень в дереве документа на котором конкретныйStructuredDocumentTag может произойти.
 type: docs
-weight: 3740
+weight: 3980
 url: /ru/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-Указывает уровень в дереве документов, на котором[`StructuredDocumentTag`](../structureddocumenttag/) может произойти.
+Указывает уровень в дереве документа, на котором конкретный[`StructuredDocumentTag`](../structureddocumenttag/) может произойти.
 
 ```csharp
 public enum MarkupLevel
@@ -19,21 +19,21 @@ public enum MarkupLevel
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Unknown | `0` | Указывает неизвестное или недопустимое значение. |
-| Inline | `1` | Элемент встречается на встроенном уровне (например, среди фрагментов текста). |
-| Block | `2` | Элемент встречается на уровне блоков (например, среди таблиц и абзацев). |
-| Row | `3` | Элемент находится среди строк в таблице. |
-| Cell | `4` | Элемент встречается среди ячеек в строке. |
+| Inline | `1` | Элемент встречается на строчном уровне (например, среди фрагментов текста). |
+| Block | `2` | Элемент встречается на уровне блока (например, среди таблиц и параграфов). |
+| Row | `3` | Элемент встречается среди строк таблицы. |
+| Cell | `4` | Элемент встречается среди ячеек подряд. |
 
 ### Примеры
 
-Показывает, как работать со стилями для элементов управления содержимым.
+Показывает, как работать со стилями элементов управления содержимым.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа применения стиля из документа к тегу структурированного документа.
-// 1 - Применить объект стиля из коллекции стилей документа:
+// Ниже приведены два способа применения стиля документа к тегу структурированного документа.
+// 1 — применить объект стиля из коллекции стилей документа:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -52,6 +52,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

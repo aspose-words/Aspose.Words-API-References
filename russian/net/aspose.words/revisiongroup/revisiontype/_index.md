@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.RevisionType
 second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroup свойство. Получает тип ревизий включенных в эту группу.
+description: RevisionGroup свойство. Получает тип редакций включенных в эту группу.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Получает тип ревизий, включенных в эту группу.
+Получает тип редакций, включенных в эту группу.
 
 ```csharp
 public RevisionType RevisionType { get; }

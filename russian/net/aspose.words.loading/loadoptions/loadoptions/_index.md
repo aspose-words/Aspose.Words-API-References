@@ -16,13 +16,13 @@ public LoadOptions()
 
 ### Примеры
 
-Показывает, как открыть HTML-документ с изображениями из потока, используя базовый URI.
+Показывает, как открыть документ HTML с изображениями из потока, используя базовый URI.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
     // Передаем URI базовой папки при ее загрузке
-    // чтобы можно было найти любые изображения с относительными URI в HTML-документе.
+    // чтобы можно было найти любые изображения с относительными URI в документе HTML.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -56,7 +56,7 @@ public LoadOptions(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Пароль для открытия зашифрованного документа. Может быть нулевой или пустой строкой. |
+| password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
 
 ### Примеры
 
@@ -71,13 +71,14 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encr
 // При загрузке такого документа пароль передается конструктору документа с помощью объекта LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
-// Есть два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
+// Существует два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
 // 1 - Загрузить документ из локальной файловой системы по имени файла:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Загрузить документ из потока:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Смотрите также
@@ -90,7 +91,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ## LoadOptions(LoadFormat, string, string) {#constructor_1}
 
-Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными на указанные значения.
+Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения.
 
 ```csharp
 public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -99,21 +100,22 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | loadFormat | LoadFormat | Формат загружаемого документа. |
-| password | String | Пароль для открытия зашифрованного документа. Может быть нулевой или пустой строкой. |
-| baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Может быть нулевой или пустой строкой. |
+| password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
+| baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Возможно`нулевой` или пустая строка. |
 
 ### Примеры
 
 Показывает, как сохранить веб-страницу в виде файла .docx.
 
 ```csharp
-const string url = "http://www.aspose.com/";
+const string url = "https://www.aspose.com/";
 
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // URL-адрес снова используется как baseUri, чтобы убедиться, что любые относительные пути к изображениям извлекаются правильно.
+        // URL-адрес снова используется в качестве baseUri, чтобы гарантировать правильность получения любых относительных путей к изображениям.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
         // Загружаем HTML-документ из потока и передаем объект LoadOptions.
@@ -125,10 +127,10 @@ using (WebClient client = new WebClient())
 }
 ```
 
-Показывает, как указать базовый URI при открытии html-документа.
+Показывает, как указать базовый URI при открытии HTML-документа.
 
 ```csharp
-// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное относительным URI
+// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное относительным URI.
 // пока изображение находится в другом месте. В этом случае нам нужно будет преобразовать относительный URI в абсолютный.
  // Мы можем предоставить базовый URI, используя объект HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
@@ -141,7 +143,7 @@ Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Этот выходной документ будет отображать отсутствующее изображение.
+// Этот выходной документ отобразит отсутствующее изображение.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

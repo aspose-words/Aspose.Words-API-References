@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.Security
 second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Задает уровень безопасности документа в виде числового значения.
+description: BuiltInDocumentProperties свойство. Указывает уровень безопасности документа в виде числового значения.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.properties/builtindocumentproperties/security/
 ---
 ## BuiltInDocumentProperties.Security property
 
-Задает уровень безопасности документа в виде числового значения.
+Указывает уровень безопасности документа в виде числового значения.
 
 ```csharp
 public DocumentSecurity Security { get; set; }
@@ -16,9 +16,9 @@ public DocumentSecurity Security { get; set; }
 
 ### Примечания
 
-Используйте это свойство только в информационных целях, поскольку Microsoft Word не всегда задает это свойство. Это свойство доступно только в документах DOC и OOXML.
+Используйте это свойство только в информационных целях, поскольку Microsoft Word не всегда устанавливает это свойство. Это свойство доступно только в документах DOC и OOXML.
 
-Чтобы защитить или снять защиту с документа, используйте the [`Protect`](../../../aspose.words/document/protect/) а также[`Unprotect`](../../../aspose.words/document/unprotect/)методы.
+Чтобы защитить или снять защиту документа, используйте the [`Protect`](../../../aspose.words/document/protect/) и[`Unprotect`](../../../aspose.words/document/unprotect/) методы.
 
 Aspose.Words обновляет это свойство до правильного значения перед сохранением документа.
 
@@ -38,7 +38,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// Защитите документ от записи, а затем проверьте его уровень безопасности.
+// Защитить документ от записи, а затем проверить уровень его безопасности.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// «Безопасность» — это описательное свойство. Мы можем отредактировать его значение вручную.
+// «Безопасность» — описательное свойство. Мы можем редактировать его значение вручную.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

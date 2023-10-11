@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldCreateDate свойство. Получает или задает следует ли использовать календарь Эры Сака.
+description: FieldCreateDate свойство. Получает или задает следует ли использовать календарь эпохи Сака.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 ---
 ## FieldCreateDate.UseSakaEraCalendar property
 
-Получает или задает, следует ли использовать календарь Эры Сака.
+Получает или задает, следует ли использовать календарь эпохи Сака.
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }

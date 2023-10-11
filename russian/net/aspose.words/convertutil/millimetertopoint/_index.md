@@ -20,7 +20,7 @@ public static double MillimeterToPoint(double millimeters)
 
 ### Примечания
 
-1 дюйм равен 25,4 миллиметра. 1 дюйм равен 72 точкам.
+1 дюйм равен 25,4 миллиметра. 1 дюйм равен 72 очкам.
 
 ### Примеры
 
@@ -31,18 +31,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
-// Мы также можем использовать класс «ConvertUtil», чтобы использовать более привычную единицу измерения,
-// например миллиметры при определении границ.
+// Мы также можем использовать класс ConvertUtil для использования более знакомой единицы измерения,
+// например, миллиметры при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
 pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
 pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
-// Сантиметр примерно равен 28,3 пункта.
+// Сантиметр равен примерно 28,3 пункта.
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
-// Добавьте содержимое, чтобы продемонстрировать новые поля.
+// Добавляем контент, чтобы продемонстрировать новые поля.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +
                 $"{pageSetup.RightMargin} points from the right, " +
                 $"{pageSetup.TopMargin} points from the top, " +

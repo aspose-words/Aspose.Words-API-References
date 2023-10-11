@@ -16,21 +16,22 @@ public ShapeRenderer(ShapeBase shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | ShapeBase | Объект формы DrawinML, который вы хотите визуализировать. |
+| shape | ShapeBase | Объект фигуры DrawinML, который вы хотите визуализировать. |
 
 ### Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью формы Windows.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Ниже приведены два способа использования класса «ShapeRenderer» для рендеринга фигуры в объект Graphics.
-    // 1 - Создайте фигуру с диаграммой и визуализируйте ее в определенном масштабе.
+    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в графическом объекте.
+    // 1 — Создайте фигуру с диаграммой и отобразите ее в определенном масштабе.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -41,7 +42,7 @@ public ShapeRenderer(ShapeBase shape)
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Создайте группу фигур и визуализируйте ее до определенного размера.
+    // 2 — Создайте группу фигур и отрендерите ее до определенного размера.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -71,7 +72,7 @@ public ShapeRenderer(ShapeBase shape)
 }
 
 /// <summary>
-/// Визуализирует и отображает список фигур.
+/// Отрисовывает и отображает список фигур.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

@@ -1,16 +1,16 @@
 ---
 title: ParagraphFormat.FirstLineIndent
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в пунктах для первой строки или висячего отступа.
+description: ParagraphFormat свойство. Получает или задает значение в пунктах для первой строки или выступающего отступа.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-Получает или задает значение (в пунктах) для первой строки или висячего отступа.
+Получает или задает значение (в пунктах) для первой строки или выступающего отступа.
 
-Используйте положительные значения, чтобы установить отступ первой строки, и отрицательные значения, чтобы установить выступ.
+Используйте положительные значения, чтобы установить отступ первой строки, и отрицательные значения, чтобы установить выступающий отступ.
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -39,7 +39,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Метод Writeln завершает абзац после добавления текста
-// и затем начинает новую строку, добавляя новый абзац.
+// а затем начинается новая строка, добавляющая новый абзац.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

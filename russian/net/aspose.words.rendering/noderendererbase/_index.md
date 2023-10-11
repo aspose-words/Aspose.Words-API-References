@@ -1,14 +1,16 @@
 ---
 title: Class NodeRendererBase
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.NodeRendererBase сорт. Базовый класс дляShapeRenderer а такжеOfficeMathRenderer .
+description: Aspose.Words.Rendering.NodeRendererBase сорт. Базовый класс дляShapeRenderer иOfficeMathRenderer .
 type: docs
-weight: 4290
+weight: 4550
 url: /ru/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
-Базовый класс для[`ShapeRenderer`](../shaperenderer/) а также[`OfficeMathRenderer`](../officemathrenderer/) .
+Базовый класс для[`ShapeRenderer`](../shaperenderer/) и[`OfficeMathRenderer`](../officemathrenderer/) .
+
+Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) статья документации.
 
 ```csharp
 public abstract class NodeRendererBase
@@ -32,10 +34,10 @@ public abstract class NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует фигуру вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует фигуру вGraphics объект указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в файл. |
 
 ### Примеры
 
@@ -54,11 +56,11 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Формы с прозрачными частями могут содержать разные значения в свойствах "OpaqueBoundsInPoints".
+// Фигуры с прозрачными частями могут содержать разные значения в свойствах OpaqueBoundsInPoints.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Получить размер фигуры в пикселях с линейным масштабированием до определенного DPI.
+// Получаем размер фигуры в пикселях с линейным масштабированием до определенного разрешения.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -69,7 +71,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Непрозрачные границы здесь тоже могут быть разными.
+// Здесь также непрозрачные границы могут различаться.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

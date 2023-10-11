@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.SetCount
 second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection метод. Располагает текст в указанное количество текстовых столбцов.
+description: TextColumnCollection метод. Упорядочивает текст в указанное количество текстовых столбцов.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-Располагает текст в указанное количество текстовых столбцов.
+Упорядочивает текст в указанное количество текстовых столбцов.
 
 ```csharp
 public void SetCount(int newCount)
@@ -16,15 +16,15 @@ public void SetCount(int newCount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newCount | Int32 | Количество колонок, в которые должен быть помещен текст. |
+| newCount | Int32 | Количество столбцов, в которых будет размещен текст. |
 
 ### Примечания
 
-Когда[`EvenlySpaced`](../evenlyspaced/) является **ЛОЖЬ** а вы увеличиваете количество столбцов, new[`TextColumn`](../../textcolumn/) объекты создаются с нулевой шириной и интервалом. Вам необходимо установить ширину и интервал для новых столбцов.
+Когда[`EvenlySpaced`](../evenlyspaced/) является`ЛОЖЬ` и вы увеличиваете количество столбцов, new[`TextColumn`](../../textcolumn/) объекты создаются с нулевой шириной и интервалом. Вам необходимо установить ширину и интервал для новых столбцов.
 
 ### Примеры
 
-Показывает, как создать несколько равномерно расположенных столбцов в разделе.
+Показывает, как создать в разделе несколько равномерно расположенных столбцов.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPartSavingArgs свойство. Указывает должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа.
+description: DocumentPartSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения части документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
 ---
 ## DocumentPartSavingArgs.KeepDocumentPartStreamOpen property
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа.
+Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения части документа.
 
 ```csharp
 public bool KeepDocumentPartStreamOpen { get; set; }
@@ -16,7 +16,7 @@ public bool KeepDocumentPartStreamOpen { get; set; }
 
 ### Примечания
 
-По умолчанию`ЛОЖЬ` и Aspose.Words закроет предоставленный вами поток в[`DocumentPartStream`](../documentpartstream/) свойство после записи в него части документа. Указать`истинный` чтобы поток оставался открытым. Обратите внимание, что основной поток вывода предоставляется в вызове[`Save`](../../../aspose.words/document/save/)или [`Save`](../../../aspose.words/document/save/) никогда не будет закрыт Aspose.Words , даже если`KeepDocumentPartStreamOpen` установлен на`ЛОЖЬ`.
+По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`DocumentPartStream`](../documentpartstream/) свойство после записи в него части документа. Укажите`истинный` чтобы поток оставался открытым. Обратите внимание, что основной поток вывода , предоставленный при вызове[`Save`](../../../aspose.words/document/save/)или [`Save`](../../../aspose.words/document/save/) никогда не будет закрыт Aspose.Words , даже если`KeepDocumentPartStreamOpen` установлено на`ЛОЖЬ`.
 
 ### Примеры
 
@@ -28,29 +28,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
     // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Если мы сохраним документ нормально, будет один выходной HTML
+    // Если мы сохраним документ как обычно, будет один выходной HTML
     // документ со всем содержимым исходного документа.
-    // Установите для свойства "DocumentSplitCriteria" значение "DocumentSplitCriteria.SectionBreak", чтобы
-    // сохраняем наш документ в несколько файлов HTML: по одному на каждый раздел.
+    // Установите для свойства DocumentSplitCriteria значение DocumentSplitCriteria.SectionBreak, чтобы
+    // сохраняем наш документ в несколько HTML-файлов: по одному на каждый раздел.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
     // Назначаем пользовательский обратный вызов свойству «DocumentPartSavingCallback», чтобы изменить логику сохранения части документа.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Если мы преобразуем документ, содержащий изображения, в html, мы получим один html-файл, который ссылается на несколько изображений.
+    // Если мы преобразуем документ, содержащий изображения, в HTML, мы получим один HTML-файл, который ссылается на несколько изображений.
     // Каждое изображение будет в виде файла в локальной файловой системе.
-    // Существует также обратный вызов, который может настроить имя и местоположение в файловой системе каждого изображения.
+    // Существует также обратный вызов, который может настроить имя и расположение файловой системы каждого изображения.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Задает пользовательские имена файлов для выходных документов, на которые операция сохранения разбивает документ.
+/// Устанавливает собственные имена файлов для выходных документов, на которые операция сохранения разбивает документ.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -86,10 +86,10 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
-        // 1 - Установить имя файла для выходного файла детали:
+        // 1 - Установить имя файла выходной части:
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Создайте пользовательский поток для файла выходной части:
+        // 2 - Создать собственный поток для файла выходной части:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -102,7 +102,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Устанавливает пользовательские имена файлов для файлов изображений, которые создаются при преобразовании HTML.
+/// Устанавливает собственные имена файлов изображений, создаваемых преобразованием HTML.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -119,7 +119,7 @@ public class SavedImageRename : IImageSavingCallback
         // 1 - Установить имя файла выходного изображения:
         args.ImageFileName = imageFileName;
 
-        // 2 - Создайте пользовательский поток для выходного файла изображения:
+        // 2 — Создать собственный поток для выходного файла изображения:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

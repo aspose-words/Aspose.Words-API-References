@@ -3,7 +3,7 @@ title: Fill.Patterned
 second_title: Справочник по API Aspose.Words для .NET
 description: Fill метод. Устанавливает указанную заливку в шаблон.
 type: docs
-weight: 170
+weight: 230
 url: /ru/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
@@ -34,7 +34,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - Применить узор к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Применить шаблон с цветами переднего плана и фона к заливке фигуры:
+// 2 - Применить к заливке фигуры узор с цветами переднего плана и фона:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -79,7 +79,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - Применить узор к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Применить шаблон с цветами переднего плана и фона к заливке фигуры:
+// 2 - Применить к заливке фигуры узор с цветами переднего плана и фона:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

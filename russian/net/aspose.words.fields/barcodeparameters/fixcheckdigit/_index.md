@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.FixCheckDigit
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Нужно ли исправлять контрольную цифру если она недействительна.
+description: BarcodeParameters свойство. Исправлять ли контрольную цифру если она недействительна.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
 ## BarcodeParameters.FixCheckDigit property
 
-Нужно ли исправлять контрольную цифру, если она недействительна.
+Исправлять ли контрольную цифру, если она недействительна.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -21,9 +21,8 @@ public bool FixCheckDigit { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

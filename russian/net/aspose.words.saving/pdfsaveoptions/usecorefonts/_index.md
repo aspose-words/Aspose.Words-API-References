@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и Symbol базовыми шрифтами PDF Type 1.
+description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и символ базовыми шрифтами PDF Type 1.
 type: docs
-weight: 280
+weight: 310
 url: /ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-Получает или задает значение, определяющее, следует ли заменять шрифты TrueType Arial, Times New Roman, Courier New и Symbol базовыми шрифтами PDF Type 1.
+Получает или задает значение, определяющее, следует ли заменять шрифты TrueType Arial, Times New Roman, Courier New и символ базовыми шрифтами PDF Type 1.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -16,21 +16,21 @@ public bool UseCoreFonts { get; set; }
 
 ### Примечания
 
-Значение по умолчанию`ЛОЖЬ` . Когда это значение установлено на`истинный` Шрифты Arial, Times New Roman, Courier New и Symbol заменяются в документе PDF соответствующим базовым шрифтом Type 1.
+Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` Шрифты Arial, Times New Roman, Courier New и Symbol заменяются в PDF-документе соответствующим базовым шрифтом Type 1.
 
-Основные шрифты PDF или их метрики шрифтов и подходящие замещающие шрифты должны быть доступны для любого приложения для просмотра PDF.
+Базовые шрифты PDF или их параметры шрифта и подходящие замещающие шрифты должны быть доступны любому приложению просмотра PDF.
 
-Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Текст, отличный от ANSI, будет написан встроенным шрифтом TrueType независимо от этого параметра.
+Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Текст, отличный от ANSI, будет написан со встроенным шрифтом TrueType независимо от этой настройки.
 
-Соответствие форматам PDF/A и PDF/UA требует внедрения всех шрифтов.`ЛОЖЬ` значение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
+Для соответствия PDF/A и PDF/UA необходимо встроить все шрифты.`ЛОЖЬ` значение будет использовано автоматически при сохранении в PDF/A и PDF/UA.
 
-Основные шрифты не поддерживаются при сохранении в формате PDF 2.0.`ЛОЖЬ`значение будет использоваться автоматически при сохранении в PDF 2.0.
+Базовые шрифты не поддерживаются при сохранении в формате PDF 2.0.`ЛОЖЬ` значение будет использовано автоматически при сохранении в PDF 2.0.
 
 Эта опция имеет более высокий приоритет, чем[`FontEmbeddingMode`](../fontembeddingmode/) вариант.
 
 ### Примеры
 
-Показывает, как включить/выключить замену шрифта PDF Type 1.
+Показывает, как включить/отключить замену шрифта PDF Type 1.
 
 ```csharp
 Document doc = new Document();
@@ -41,13 +41,13 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "UseCoreFonts" значение "true", чтобы заменить некоторые шрифты,
-// включение двух шрифтов в наш документ с их эквивалентами PDF Type 1.
-// Установите для свойства «UseCoreFonts» значение «false», чтобы не применять шрифты PDF Type 1.
+// Установите для свойства UseCoreFonts значение «true», чтобы заменить некоторые шрифты,
+// включая два шрифта в нашем документе и их эквиваленты PDF Type 1.
+// Установите для свойства UseCoreFonts значение «false», чтобы не применять шрифты PDF Type 1.
 options.UseCoreFonts = useCoreFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);

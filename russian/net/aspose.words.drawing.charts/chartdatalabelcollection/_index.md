@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataLabelCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection сорт. Представляет наборChartDataLabel .
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection сорт. Представляет коллекциюChartDataLabel .
 type: docs
-weight: 640
+weight: 680
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-Представляет набор[`ChartDataLabel`](../chartdatalabel/) .
+Представляет коллекцию[`ChartDataLabel`](../chartdatalabel/) .
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -19,17 +21,19 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Возвращает количество[`ChartDataLabel`](../chartdatalabel/) в этой коллекции. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Предоставляет доступ к форматированию шрифта меток данных всей серии. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Предоставляет доступ к заполнению и форматированию строк меток данных. |
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Возвращает[`ChartDataLabel`](../chartdatalabel/) для указанного индекса. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Получает[`ChartNumberFormat`](../chartnumberformat/) экземпляр, позволяющий установить числовой формат для меток данных всей серии . |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Получает или задает разделитель строк, используемый для меток данных всего ряда. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только название категории и процентное соотношение, когда вместо этого следует использовать разрыв строки . |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Позволяет указать, должен ли размер пузырька отображаться для меток данных всего ряда. Применяется только к пузырьковым диаграммам. Значение по умолчанию: **ЛОЖЬ** . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Позволяет указать, будет ли отображаться имя категории для меток данных всей серии. Значение по умолчанию: **ЛОЖЬ** . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных всей серии. Значение по умолчанию: **ЛОЖЬ** . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Позволяет указать, нужно ли отображать линии выноски меток данных для меток данных всей серии. Значение по умолчанию: **ЛОЖЬ** . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных всей серии. Значение по умолчанию: **ЛОЖЬ** . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Позволяет указать, будет ли отображаться процентное значение для меток данных всего ряда. Значение по умолчанию: **ЛОЖЬ** . Применяется только к круговым диаграммам. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных всего ряда.  **Истинный**чтобы показать название серии. **ЛОЖЬ** прятаться. По умолчанию **ЛОЖЬ** . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных всего ряда. Значение по умолчанию: **ЛОЖЬ** . |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Получает или задает разделитель строк, используемый для меток данных всей серии. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только имя категории и процентное соотношение, когда вместо этого должен использоваться разрыв строки . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Позволяет указать, должен ли отображаться размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Позволяет указать, должно ли имя категории отображаться для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных всей серии. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Позволяет указать, нужно ли отображать выносные линии меток данных для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Позволяет указать, должно ли отображаться процентное значение для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . Применяется только к круговым диаграммам. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени серии для меток данных всей серии. `истинный` показать название серии;`ЛОЖЬ` прятаться. По умолчанию`ЛОЖЬ` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных всей серии. Значение по умолчанию:`ЛОЖЬ` . |
 
 ## Методы
 
@@ -43,6 +47,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -55,15 +60,15 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Применяем метки данных к каждому ряду на диаграмме.
-    // Эти метки будут отображаться рядом с каждой точкой данных на графике и отображать ее значение.
+    // Применяем метки данных к каждой серии диаграммы.
+    // Эти метки появятся рядом с каждой точкой данных на графике и отобразят ее значение.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Изменить строку-разделитель для каждой метки данных в серии.
+    // Измените строку-разделитель для каждой метки данных в серии.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -76,14 +81,14 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
     // Чтобы график выглядел чище, мы можем удалить метки данных по отдельности.
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // Мы также можем сразу удалить целую серию его меток данных.
+    // Мы также можем сразу удалить целую серию меток данных.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Применить метки данных с пользовательским числовым форматом и разделителем к нескольким точкам данных в ряду.
+/// Примените метки данных с произвольным числовым форматом и разделителем к нескольким точкам данных в серии.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

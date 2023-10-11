@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 second_title: Справочник по API Aspose.Words для .NET
-description: ThumbnailGeneratingOptions свойство. Указывает следует ли создавать миниатюру из первой страницы документа или первого изображения.
+description: ThumbnailGeneratingOptions свойство. Указывает создавать ли миниатюру из первой страницы документа или из первого изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions.GenerateFromFirstPage property
 
-Указывает, следует ли создавать миниатюру из первой страницы документа или первого изображения.
+Указывает, создавать ли миниатюру из первой страницы документа или из первого изображения.
 
 ```csharp
 public bool GenerateFromFirstPage { get; set; }
@@ -16,7 +16,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ### Примечания
 
-По умолчанию`истинный` , что означает, что миниатюра будет создана с первой страницы документа. Если значение равно`ЛОЖЬ` и в документе нет изображения, миниатюра будет сгенерирована с первой страницы документа.
+По умолчанию`истинный` , что означает, что миниатюра будет создана из первой страницы документа. Если значение равно`ЛОЖЬ` и в документе нет изображения, миниатюра будет создана из первой страницы документа.
 
 ### Примеры
 
@@ -29,12 +29,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Существует два способа установки миниатюры при сохранении документа в формате .epub.
+// Существует два способа установки миниатюры изображения при сохранении документа в формате .epub.
 // 1 - Использовать первую страницу документа:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Использовать первое изображение, найденное в документе:
+// 2 — Использовать первое изображение, найденное в документе:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

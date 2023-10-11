@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.ResizeHorizontally
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludePicture свойство. Получает или задает следует ли изменять размер изображения по горизонтали из источника.
+description: FieldIncludePicture свойство. Получает или задает необходимость изменения размера изображения по горизонтали из источника.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-Получает или задает, следует ли изменять размер изображения по горизонтали из источника.
+Получает или задает необходимость изменения размера изображения по горизонтали из источника.
 
 ```csharp
 public bool ResizeHorizontally { get; set; }
@@ -22,7 +22,7 @@ public bool ResizeHorizontally { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных из локальной файловой системы.
+// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных с локальной файловой системой.
 // 1 - Поле INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

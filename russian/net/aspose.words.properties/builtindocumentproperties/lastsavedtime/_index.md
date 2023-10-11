@@ -30,8 +30,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Следующие встроенные свойства содержат информацию о создании и редактировании этого документа.
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти
-// эти свойства через "Свойства" -> "Подробности" -> Категория «Происхождение».
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти
+// эти свойства через "Свойства" -> «Подробности» -> Категория «Происхождение».
 // Такие поля, как PRINTDATE и EDITTIME, могут отображать эти значения в теле документа.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -45,15 +45,15 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word автоматически обновляет следующие свойства при сохранении документа.
-// Чтобы использовать эти свойства с Aspose.Words, нам нужно установить для них значения вручную.
+// Чтобы использовать эти свойства с Aspose.Words, нам нужно будет установить для них значения вручную.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Мы можем щелкнуть правой кнопкой мыши этот документ в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
+// Мы можем щелкнуть этот документ правой кнопкой мыши в проводнике Windows и найти these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 
-Показывает, как использовать поле SAVEDATE для отображения даты/времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
+Показывает, как использовать поле SAVEDATE для отображения даты и времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -62,7 +62,7 @@ builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
 // Мы можем использовать поле SAVEDATE для отображения даты и времени последней операции сохранения в документе.
-// Операция сохранения, на которую ссылаются эти поля, — это ручное сохранение в приложении, таком как Microsoft Word,
+// Операция сохранения, на которую ссылаются эти поля, представляет собой сохранение вручную в таком приложении, как Microsoft Word,
 // не метод Save документа.
 // Ниже приведены три различных типа календаря, в соответствии с которыми поле SAVEDATE может отображать дату/время.
 // 1 - Исламский лунный календарь:
@@ -86,8 +86,8 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// Поля SAVEDATE извлекают свои значения даты/времени из встроенного свойства LastSavedTime.
-// Метод Save документа не будет обновлять это значение, но мы все равно можем обновить его вручную.
+// Поля SAVEDATE получают значения даты и времени из встроенного свойства LastSavedTime.
+// Метод Save документа не обновит это значение, но мы все равно можем обновить его вручную.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 
 doc.UpdateFields();

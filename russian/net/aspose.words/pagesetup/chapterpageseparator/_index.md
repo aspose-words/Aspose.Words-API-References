@@ -16,7 +16,21 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 ### Примечания
 
-Прежде чем вы сможете создавать номера страниц, включающие номера глав, к заголовкам документа должен быть применен нумерованный формат схемы.
+Прежде чем вы сможете создавать номера страниц, включающие номера глав, к заголовкам документов необходимо применить нумерованный структурный формат.
+
+### Примеры
+
+Показывает, как работать с главами страниц.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Смотрите также
 

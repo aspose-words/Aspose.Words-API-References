@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.AddressFieldName
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает столбец в источнике данных который содержит адреса электронной почты. Значение по умолчанию  пустая строка.
+description: MailMergeSettings свойство. Указывает столбец в источнике данных содержащий адреса электронной почты. Значение по умолчанию  пустая строка.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-Указывает столбец в источнике данных, который содержит адреса электронной почты. Значение по умолчанию — пустая строка.
+Указывает столбец в источнике данных, содержащий адреса электронной почты. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string AddressFieldName { get; set; }
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
-// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
+// Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

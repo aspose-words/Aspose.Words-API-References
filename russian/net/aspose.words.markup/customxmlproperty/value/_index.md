@@ -16,9 +16,9 @@ public string Value { get; set; }
 
 ### Примечания
 
-Не может быть нулевым.
+Не может быть`нулевой`.
 
-По умолчанию пустая строка.
+По умолчанию — пустая строка.
 
 ### Примеры
 
@@ -29,15 +29,15 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть своего текста как некую форму данных,
-    // таких как имя, дата или адрес, и преобразует их в гиперссылку, которая подчеркнута фиолетовой пунктирной линией.
+    // Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
+    // например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Смарт-теги — это составные узлы, содержащие полностью распознанный текст.
-    // Добавляем содержимое в этот смарт-тег вручную.
+    // Смарт-теги — это составные узлы, которые полностью содержат распознанный текст.
+    // Добавьте содержимое в этот смарт-тег вручную.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word может распознать вышеуказанное содержимое как дату.
+    // Microsoft Word может распознать приведенное выше содержимое как дату.
     // Смарт-теги используют свойство «Элемент», чтобы отразить тип содержащихся в них данных.
     smartTag.Element = "date";
 
@@ -52,7 +52,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Создайте еще один смарт-тег для бегущей строки.
+    // Создайте еще один смарт-тег для биржевого тикера.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -62,7 +62,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Печатаем все смарт-теги в нашем документе с помощью посетителя документа.
+    // Распечатываем все смарт-теги в нашем документе с помощью посетителя документа.
     doc.Accept(new SmartTagPrinter());
 
     // Старые версии Microsoft Word поддерживают смарт-теги.
@@ -77,7 +77,7 @@ public void Create()
 }
 
 /// <summary>
-/// Выводит посещенные смарт-теги и их содержимое.
+/// Распечатывает посещенные смарт-теги и их содержимое.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -91,7 +91,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда посещение узла SmartTag завершено.
+    /// Вызывается при завершении посещения узла SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

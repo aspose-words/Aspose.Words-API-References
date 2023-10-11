@@ -16,7 +16,7 @@ public void SetPassword(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Пароль для установки. Не может быть нулевым, но может быть пустой строкой. |
+| password | String | Пароль, который нужно установить. Не может быть`нулевой`, но может быть пустой строкой. |
 
 ### Примечания
 
@@ -30,7 +30,6 @@ public void SetPassword(string password)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Введите пароль длиной до 15 символов, а затем проверьте статус защиты документа.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
@@ -38,7 +37,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Защита не препятствует программному редактированию документа и не шифрует содержимое.
+// Защита не предотвращает программное редактирование документа и не шифрует его содержимое.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

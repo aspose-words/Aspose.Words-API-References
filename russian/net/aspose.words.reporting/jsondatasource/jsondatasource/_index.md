@@ -57,7 +57,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | jsonPath | String | Путь к файлу JSON, который будет использоваться в качестве источника данных. |
-| options | JsonDataLoadOptions | Параметры для анализа данных JSON. |
+| options | JsonDataLoadOptions | Варианты анализа данных JSON. |
 
 ### Смотрите также
 
@@ -79,7 +79,7 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | jsonStream | Stream | Поток данных JSON, который будет использоваться в качестве источника данных. |
-| options | JsonDataLoadOptions | Параметры для анализа данных JSON. |
+| options | JsonDataLoadOptions | Варианты анализа данных JSON. |
 
 ### Смотрите также
 

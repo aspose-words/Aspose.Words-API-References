@@ -1,14 +1,16 @@
 ---
 title: Enum ResourceLoadingAction
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.ResourceLoadingAction перечисление. Задает режим загрузки ресурсов.
+description: Aspose.Words.Loading.ResourceLoadingAction перечисление. Указывает режим загрузки ресурса.
 type: docs
-weight: 3480
+weight: 3680
 url: /ru/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
-Задает режим загрузки ресурсов.
+Указывает режим загрузки ресурса.
+
+Чтобы узнать больше, посетите[Укажите параметры загрузки](https://docs.aspose.com/words/net/specify-load-options/) статья документации.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -19,7 +21,7 @@ public enum ResourceLoadingAction
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Default | `0` | Aspose.Words загрузит этот ресурс как обычно. |
-| Skip | `1` | Aspose.Words пропустит загрузку этого ресурса. Для изображения будет сохранена только ссылка без данных, таблица стилей CSS будет проигнорирована для формата HTML. |
+| Skip | `1` | Aspose.Words пропустит загрузку этого ресурса. Для изображения будет сохранена только ссылка без данных, таблица стилей CSS будет игнорироваться для формата HTML. |
 | UserProvided | `2` | Aspose.Words будет использовать массив байтов, предоставленный пользователем в[`SetData`](../resourceloadingargs/setdata/) как данные ресурса. |
 
 ### Примеры
@@ -27,6 +29,7 @@ public enum ResourceLoadingAction
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -34,7 +37,7 @@ public enum ResourceLoadingAction
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Изображения обычно вставляются с использованием URI или массива байтов.
-    // Каждый экземпляр загрузки ресурсов будет вызывать метод ResourceLoading нашего обратного вызова.
+    // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -42,10 +45,11 @@ public enum ResourceLoadingAction
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это отделит логику загрузки изображения от остальной конструкции документа.
+/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

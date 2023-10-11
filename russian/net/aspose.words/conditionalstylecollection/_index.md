@@ -1,14 +1,16 @@
 ---
 title: Class ConditionalStyleCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ConditionalStyleCollection сорт. Представляет наборConditionalStyle объекты.
+description: Aspose.Words.ConditionalStyleCollection сорт. Представляет коллекциюConditionalStyle объекты.
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Представляет набор[`ConditionalStyle`](../conditionalstyle/) объекты.
+Представляет коллекцию[`ConditionalStyle`](../conditionalstyle/) объекты.
+
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -21,15 +23,15 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Получает стиль нижней левой ячейки. |
 | [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Получает стиль нижней правой ячейки. |
 | [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Получает количество условных стилей в коллекции. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Получает стиль полос четных столбцов. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Получает стиль чередования четных строк. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Получает четный стиль полосирования столбцов. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Получает стиль четных полос строк. |
 | [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Получает стиль первого столбца. |
 | [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Получает стиль первой строки. |
 | [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Получает[`ConditionalStyle`](../conditionalstyle/) объект по типу условного стиля. (2 indexers) |
 | [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Получает стиль последнего столбца. |
 | [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Получает стиль последней строки. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Получает стиль чередования нечетных столбцов. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Получает стиль чередования нечетных строк. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Получает нечетный стиль полосирования столбцов. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Получает стиль полосирования нечетных строк. |
 | [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Получает стиль верхней левой ячейки. |
 | [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Получает стиль верхней правой ячейки. |
 
@@ -37,12 +39,12 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Очищает все условные стили таблицы style. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Очищает все условные стили стиля таблицы. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех условных стилей в коллекции. |
 
 ### Примечания
 
-Невозможно добавлять или удалять элементы из этой коллекции. Он содержит постоянный набор элементов: один элемент для каждого значения[`ConditionalStyleType`](../conditionalstyletype/) тип перечисления.
+Невозможно добавлять или удалять элементы из этой коллекции. Он содержит постоянный набор элементов: по одному элементу for для каждого значения[`ConditionalStyleType`](../conditionalstyletype/) тип перечисления.
 
 ### Примеры
 
@@ -64,11 +66,11 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем пользовательский стиль таблицы.
+// Создаем собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
-// на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
+// на основе предиката, например, ячеек в последней строке.
 // Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
@@ -81,14 +83,14 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применение отступов и форматирования текста к условным стилям.
+// Применяем отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Список всех возможных условий стиля.
+// Перечислить все возможные условия стиля.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -105,7 +107,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

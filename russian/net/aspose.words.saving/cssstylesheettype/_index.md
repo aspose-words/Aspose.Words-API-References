@@ -1,14 +1,14 @@
 ---
 title: Enum CssStyleSheetType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.CssStyleSheetType перечисление. Указывает как стили CSS каскадные таблицы стилей экспортируются в HTML.
+description: Aspose.Words.Saving.CssStyleSheetType перечисление. Указывает как стили CSS каскадная таблица стилей экспортируются в HTML.
 type: docs
-weight: 4630
+weight: 4890
 url: /ru/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
 
-Указывает, как стили CSS (каскадные таблицы стилей) экспортируются в HTML.
+Указывает, как стили CSS (каскадная таблица стилей) экспортируются в HTML.
 
 ```csharp
 public enum CssStyleSheetType
@@ -18,32 +18,32 @@ public enum CssStyleSheetType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Inline | `0` | стили CSS записываются встроенными (как значение **стиль** атрибут для каждого элемента). |
-| Embedded | `1` | Стили CSS записываются отдельно от содержимого таблицы стилей, встроенной в файл HTML. |
+| Inline | `0` | Стили CSS записываются встроенно (как значение **стиль** атрибут каждого элемента). |
+| Embedded | `1` | Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в файл HTML. |
 | External | `2` | Стили CSS записываются отдельно от содержимого таблицы стилей во внешнем файле. Файл HTML связывает таблицу стилей. |
 
 ### Примеры
 
-Показывает, как работать с таблицами стилей CSS, которые создаются при преобразовании HTML.
+Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
     // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Установите для свойства "CssStylesheetType" значение "CssStyleSheetType.External", чтобы
-    // сопровождать сохраненный HTML-документ внешним файлом таблицы стилей CSS.
+    // Установите для свойства «CssStylesheetType» значение «CssStyleSheetType.External», чтобы
+    // сопровождаем сохраненный HTML-документ внешним файлом таблицы стилей CSS.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Ниже приведены два способа указания каталогов и имен файлов для выходных таблиц стилей CSS.
-    // 1 — Используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
+    // 1 — используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Используйте пользовательский обратный вызов, чтобы назвать нашу таблицу стилей:
+    // 2 — Используйте собственный обратный вызов для присвоения имени нашей таблице стилей:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -51,7 +51,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Устанавливает пользовательское имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
+/// Устанавливает собственное имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

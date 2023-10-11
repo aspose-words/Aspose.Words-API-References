@@ -1,14 +1,14 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldStyleRef свойство. Получает или задает следует ли вставлять номер абзаца на который указывает ссылка в полном контексте.
+description: FieldStyleRef свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка в полном контексте.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInFullContext property
 
-Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, в полном контексте.
+Получает или задает, следует ли вставлять номер абзаца, на который указана ссылка, в полном контексте.
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }
@@ -22,15 +22,15 @@ public bool InsertParagraphNumberInFullContext { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать список на основе шаблона списка Microsoft Word.
+// Создание списка на основе шаблона списка Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Этот сгенерированный список будет отображать "1.a)".
+// В этом сгенерированном списке будет отображаться «1.a )».
  // Пробел перед скобкой — это символ, не являющийся разделителем, который мы можем подавить.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Добавляем текст и применяем стили абзаца, на которые будут ссылаться поля STYLEREF.
+// Добавляем текст и применяем стили абзацев, на которые будут ссылаться поля STYLEREF.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -42,12 +42,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Поместите поле STYLEREF в заголовок и отобразите первый текст в стиле «List Paragraph» в документе.
+// Размещаем поле STYLEREF в заголовке и отображаем первый текст в документе в стиле «Абзац списка».
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Поместите поле STYLEREF в нижний колонтитул, чтобы оно отображало последний текст.
+// Поместите поле STYLEREF в нижний колонтитул и отобразите последний текст.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

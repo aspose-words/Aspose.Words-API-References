@@ -1,14 +1,14 @@
 ---
 title: Interface IWarningCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.IWarningCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы ваш собственный пользовательский метод вызывал предупреждения о потере точности которые могут возникнуть во время загрузки или сохранения документа.
+description: Aspose.Words.IWarningCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы ваш собственный метод вызывался для захвата предупреждений о потере точности воспроизведения которые могут возникнуть во время загрузки или сохранения документа.
 type: docs
-weight: 3010
+weight: 3210
 url: /ru/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный пользовательский метод вызывал предупреждения о потере точности, которые могут возникнуть во время загрузки или сохранения документа.
+Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный метод вызывался для захвата предупреждений о потере точности воспроизведения, которые могут возникнуть во время загрузки или сохранения документа.
 
 ```csharp
 public interface IWarningCallback
@@ -18,13 +18,14 @@ public interface IWarningCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words вызывает этот метод, когда во время загрузки документа или сохранения возникает проблема, которая может привести к потере форматирования или точности данных. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words вызывает этот метод, когда сталкивается с какой-либо проблемой во время загрузки или сохранения документа , которая может привести к потере форматирования или точности данных. |
 
 ### Примеры
 
-Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о замене шрифта.
+Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,24 +40,25 @@ public interface IWarningCallback
     // для которого мы не указываем другой источник шрифта.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // В целях тестирования мы настроим Aspose.Words на поиск шрифтов только в несуществующей папке.
+    // В целях тестирования мы настроим Aspose.Words искать шрифты только в несуществующей папке.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // При рендеринге документа негде будет найти шрифт "Times New Roman".
+    // При рендеринге документа шрифт Times New Roman найти будет негде.
     // Это вызовет предупреждение о замене шрифта, которое обнаружит наш обратный вызов.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
+    /// Вызывается каждый раз, когда во время загрузки/сохранения возникает предупреждение.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -68,23 +70,24 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-В шоу добавлен резервный вариант рендеринга растровых изображений и изменен тип предупреждений о неподдерживаемых записях метафайлов.
+Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Установите для свойства "EmulateRasterOperations" значение "false", чтобы вернуться к растровому изображению, когда
-    // он встречает метафайл, для которого потребуются растровые операции для отображения в выходном PDF-файле.
+    // Установите для свойства «EmulateRasterOperations» значение «false», чтобы вернуться к растровому изображению при
+    // он обнаруживает метафайл, для рендеринга которого в выходном PDF-файле потребуются растровые операции.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Установите для свойства «RenderingMode» значение «VectorWithFallback», чтобы попытаться отобразить каждый метафайл с использованием векторной графики.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-    // для изменения того, как этот метод преобразует документ в .PDF и применяет конфигурацию
+    // Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+    // чтобы изменить способ преобразования этого метода в .PDF и применения конфигурации
     // в нашем объекте MetafileRenderingOptions для операции сохранения.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -95,12 +98,12 @@ private class FontSubstitutionWarningCollector : IWarningCallback
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Выводит и собирает предупреждения о потере форматирования, возникающие при сохранении документа.
+/// Печатает и собирает предупреждения, связанные с потерей форматирования, возникающие при сохранении документа.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -117,10 +120,9 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-Показывает, как задать свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
@@ -130,11 +132,14 @@ public void EnableFontSubstitution()
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установите имя шрифта по умолчанию и включите замену шрифта.
+    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
     doc.FontSettings = fontSettings;
@@ -144,7 +149,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Мы также можем проверять предупреждения в коллекции и очищать их.
+    // Мы также можем проверить предупреждения в коллекции и очистить их.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -158,7 +163,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
+    /// Вызывается каждый раз, когда во время загрузки/сохранения возникает предупреждение.
     /// </summary>
     public void Warning(WarningInfo info)
     {

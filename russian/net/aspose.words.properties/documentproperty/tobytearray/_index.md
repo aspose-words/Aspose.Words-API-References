@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Если мы сохраним документ, свойство "Thumbnail" которого содержит данные изображения, которые мы добавили, как Epub,
+// Если мы сохраним документ, свойство «Миниатюра» которого содержит добавленные нами данные изображения, как Epub,
 // читатель, открывший этот документ, может отобразить изображение перед первой страницей.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
@@ -36,7 +36,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Мы можем извлечь эскиз документа и сохранить его в локальной файловой системе.
+// Мы можем извлечь миниатюру изображения документа и сохранить его в локальной файловой системе.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

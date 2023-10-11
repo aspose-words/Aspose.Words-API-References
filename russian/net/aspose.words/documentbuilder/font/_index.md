@@ -3,7 +3,7 @@ title: DocumentBuilder.Font
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder свойство. Возвращает объект представляющий текущие свойства форматирования шрифта.
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Примечания
 
-Использовать **Шрифт** для доступа и изменения свойств форматирования шрифта.
+Использовать`Font` для доступа и изменения свойств форматирования шрифта.
 
 Укажите форматирование шрифта перед вставкой текста.
 
@@ -47,7 +47,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Установите некоторые параметры форматирования для текста и внешнего вида таблицы.
+// Установите некоторые параметры форматирования текста и внешнего вида таблицы.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -58,7 +58,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // Настройка параметров форматирования в конструкторе документов применит их
-// в текущую ячейку/строку, в которой находится курсор,
+// к текущей ячейке/строке, в которой находится курсор,
 // а также любые новые ячейки и строки, созданные с помощью этого построителя.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();

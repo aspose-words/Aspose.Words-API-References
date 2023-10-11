@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeRemoving
 second_title: Справочник по API Aspose.Words для .NET
-description: INodeChangingCallback метод. Вызывается непосредственно перед удалением узла принадлежащего этому документу из документа.
+description: INodeChangingCallback метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет удален из документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/inodechangingcallback/noderemoving/
 ---
 ## INodeChangingCallback.NodeRemoving method
 
-Вызывается непосредственно перед удалением узла, принадлежащего этому документу, из документа.
+Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удален из документа.
 
 ```csharp
 public void NodeRemoving(NodeChangingArgs args)
@@ -19,12 +19,13 @@ public void NodeRemoving(NodeChangingArgs args)
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Устанавливаем обратный вызов изменения узла на пользовательскую реализацию,
-    // затем добавьте/удалите узлы, чтобы заставить его генерировать журнал.
+    // Установите обратный вызов изменения узла в пользовательскую реализацию,
+    // затем добавляем/удаляем узлы, чтобы создать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ public void NodeRemoving(NodeChangingArgs args)
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Регистрирует дату и время каждой вставки и удаления узла.
-/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
+/// Регистрирует дату и время добавления и удаления каждого узла.
+/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

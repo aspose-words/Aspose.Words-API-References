@@ -3,7 +3,7 @@ title: FindReplaceOptions.UseSubstitutions
 second_title: Справочник по API Aspose.Words для .NET
 description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 160
+weight: 180
 url: /ru/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
@@ -16,7 +16,7 @@ public bool UseSubstitutions { get; set; }
 
 ### Примечания
 
-Подробную информацию об элементах замены см. на странице: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+Подробную информацию об элементах замены см. по адресу: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ### Примеры
 
@@ -41,7 +41,7 @@ doc.Range.Replace(regex, @"$2 took money from $1", options);
 Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ```
 
-Показывает, как заменить текст заменами.
+Показывает, как заменить текст подстановками.
 
 ```csharp
 Document doc = new Document();
@@ -50,12 +50,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("John sold a car to Paul.");
 builder.Writeln("Jane sold a house to Joe.");
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для свойства "UseSubstitutions" значение "true", чтобы получить
-// операция поиска и замены для распознавания замещающих элементов.
-// Установите для свойства "UseSubstitutions" значение "false", чтобы игнорировать элементы подстановки.
+// Установите для свойства UseSubstitutions значение true, чтобы получить
+// операция поиска и замены для распознавания элементов замены.
+// Установите для свойства UseSubstitutions значение false, чтобы игнорировать элементы подстановки.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

@@ -1,14 +1,14 @@
 ---
 title: Enum OutlineLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.OutlineLevel перечисление. Указывает уровень структуры абзаца в документе.
+description: Aspose.Words.OutlineLevel перечисление. Определяет уровень структуры абзаца в документе.
 type: docs
-weight: 4090
+weight: 4330
 url: /ru/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration
 
-Указывает уровень структуры абзаца в документе.
+Определяет уровень структуры абзаца в документе.
 
 ```csharp
 public enum OutlineLevel

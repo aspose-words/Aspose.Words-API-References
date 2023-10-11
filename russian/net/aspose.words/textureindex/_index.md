@@ -3,7 +3,7 @@ title: Enum TextureIndex
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.TextureIndex перечисление. Определяет текстуру затенения.
 type: docs
-weight: 6150
+weight: 6450
 url: /ru/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -71,11 +71,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Указывает, что в текущей заштрихованной области не должно быть шаблона (т.е. шаблон должен быть полностью заполнен фоновым цветом). |
+| TextureNil | `65535` | Указывает, что в текущей затененной области не должен использоваться узор (т. е. узор должен представлять собой полную заливку цветом фона). |
 
 ### Примеры
 
-Показывает, как украсить текст рамками и заливкой.
+Показывает, как украшать текст границами и заливкой.
 
 ```csharp
 Document doc = new Document();
@@ -97,7 +97,7 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Показывает, как применить границу контура к таблице.
+Показывает, как применить контурную рамку к таблице.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -106,7 +106,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Выравниваем таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистить все существующие границы и затенение из таблицы.
+// Очистим все существующие границы и затенение таблицы.
 table.ClearBorders();
 table.ClearShading();
 
@@ -116,7 +116,7 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заливаем ячейки светло-зеленым сплошным цветом.
+// Заполняем ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart метод. Удаляет все узлы между начальным узлом диапазона и конечным узлом диапазона.
+description: StructuredDocumentTagRangeStart метод. Удаляет все узлы между этим начальным узлом диапазона и конечным узлом диапазона.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-Удаляет все узлы между начальным узлом диапазона и конечным узлом диапазона.
+Удаляет все узлы между этим начальным узлом диапазона и конечным узлом диапазона.
 
 ```csharp
 public void RemoveAllChildren()
@@ -16,9 +16,10 @@ public void RemoveAllChildren()
 
 ### Примеры
 
-Показывает, как создать/удалить структурированный тег документа и его содержимое.
+Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public void RemoveAllChildren()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Удаляет ранжированный структурированный тег документа, но сохраняет содержимое внутри.
+    // Удаляет тег структурированного документа, но сохраняет содержимое внутри.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ public void RemoveAllChildren()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Удаляет ранжированный структурированный тег документа и содержимое внутри.
+    // Удаляет тег структурированного документа и содержимое внутри него.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

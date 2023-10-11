@@ -34,7 +34,7 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // Наши источники шрифтов не содержат шрифт, который мы использовали для текста в этом документе.
 // Если мы используем эти настройки шрифта при рендеринге этого документа,
-// Aspose.Words применит резервный шрифт к тексту, шрифт которого Aspose.Words не может найти.
+// Aspose.Words применит резервный шрифт к тексту, который имеет шрифт, который Aspose.Words не может найти.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
@@ -44,10 +44,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Используйте метод "SetFontsFolder", чтобы установить каталог, который будет действовать как новый источник шрифта.
-// Передайте «false» в качестве «рекурсивного» аргумента, чтобы включить шрифты из всех файлов шрифтов, которые находятся в каталоге
-// которые мы передаем в первом аргументе, но не включаем шрифты ни в одну из подпапок этого каталога.
-// Передаем «true» в качестве «рекурсивного» аргумента, чтобы включить все файлы шрифтов в каталоге, который мы передаем
+// Используйте метод SetFontsFolder, чтобы установить каталог, который будет служить новым источником шрифтов.
+// Передаем «false» в качестве «рекурсивного» аргумента, чтобы включить шрифты из всех файлов шрифтов, находящихся в каталоге.
+// что мы передаем первый аргумент, но не включаем шрифты ни в одну из подпапок этого каталога.
+// Передаем «true» в качестве «рекурсивного» аргумента, чтобы включить все файлы шрифтов в передаваемом каталоге
 // в первом аргументе, а также все шрифты в его подкаталогах.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
@@ -57,7 +57,7 @@ Assert.AreEqual(1, newFontSources.Length);
 Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Шрифт "Amethysta" находится в подпапке каталога шрифтов.
+// Шрифт «Amethysta» находится в подпапке каталога шрифтов.
 if (recursive)
 {
     Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
@@ -71,7 +71,7 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
 
-// Восстановить исходные источники шрифтов.
+// Восстанавливаем исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

@@ -3,12 +3,14 @@ title: Class FolderFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fonts.FolderFontSource сорт. Представляет папку содержащую файлы шрифтов TrueType.
 type: docs
-weight: 2700
+weight: 2880
 url: /ru/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
 Представляет папку, содержащую файлы шрифтов TrueType.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class FolderFontSource : FontSourceBase
@@ -18,8 +20,8 @@ public class FolderFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Стор. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Стор. |
+| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Cтор. |
+| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Cтор. |
 
 ## Характеристики
 

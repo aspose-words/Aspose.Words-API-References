@@ -3,7 +3,7 @@ title: Interface IChartDataPoint
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.Charts.IChartDataPoint интерфейс. Содержит свойства одной точки данных на диаграмме.
 type: docs
-weight: 770
+weight: 900
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -18,8 +18,8 @@ public interface IChartDataPoint
 
 | Имя | Описание |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Указывает, следует ли применять к пузырькам в пузырьковой диаграмме трехмерный эффект. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Определяет величину, на которую точка данных должна быть перемещена от центра круговой диаграммы. Может быть отрицательным, отрицательное значение означает, что свойство не установлено и разнесение не должно применяться. Применяется только к круговым диаграммам. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Указывает, должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Указывает, на сколько точка данных должна быть перемещена из центра круговой диаграммы. Может быть отрицательным. Отрицательное значение означает, что свойство не установлено и не следует применять развертывание. Применяется только к круговым диаграммам. |
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Указывает, должен ли родительский элемент инвертировать свои цвета, если значение отрицательное. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Указывает маркер данных. Маркер создается автоматически по запросу. |
 
@@ -28,7 +28,6 @@ public interface IChartDataPoint
 Показывает, как работать с точками данных на линейной диаграмме.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -42,14 +41,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Подчеркните точки данных диаграммы, сделав их ромбовидными.
+    // Выделите точки данных диаграммы, придав им вид ромба.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
     chart.Series[0].Smooth = true;
 
-    // Убедитесь, что точки данных для первого ряда не инвертируют свои цвета, если значение отрицательное.
+    // Убедитесь, что точки данных для первой серии не инвертируют свои цвета, если значение отрицательное.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -58,17 +57,17 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат по отдельности.
+    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Мы также можем сразу удалить всю серию точек данных.
+    // Мы также можем удалить сразу всю серию точек данных.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет ряд точек данных к ряду.
+/// Применяет к ряду несколько точек данных.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

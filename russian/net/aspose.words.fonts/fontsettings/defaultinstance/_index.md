@@ -16,14 +16,14 @@ public static FontSettings DefaultInstance { get; }
 
 ### Примечания
 
-Этот экземпляр используется в документе по умолчанию, если[`FontSettings`](../../../aspose.words/document/fontsettings/) указан.
+Этот экземпляр используется в документе по умолчанию, если только[`FontSettings`](../../../aspose.words/document/fontsettings/) указано.
 
 ### Примеры
 
 Показывает, как настроить экземпляр параметров шрифта по умолчанию.
 
 ```csharp
-// Настройте экземпляр параметров шрифта по умолчанию для использования шрифта «Courier New»
+// Настраиваем экземпляр настроек шрифта по умолчанию для использования шрифта «Courier New»
 // в качестве резервной замены, когда мы пытаемся использовать неизвестный шрифт.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
@@ -35,17 +35,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Non-existent font";
 builder.Write("Hello world!");
 
-// Этот документ не имеет конфигурации FontSettings. Когда мы визуализируем документ,
+// В этом документе нет конфигурации FontSettings. Когда мы рендерим документ,
 // экземпляр FontSettings по умолчанию разрешит отсутствующий шрифт.
-// Aspose.Words будет использовать «Courier New» для отображения текста с использованием неизвестного шрифта.
+// Aspose.Words будет использовать «Courier New» для отображения текста, использующего неизвестный шрифт.
 Assert.Null(doc.FontSettings);
 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 ```
 
-Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о замене шрифта.
+Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -60,24 +61,25 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
     // для которого мы не указываем другой источник шрифта.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // В целях тестирования мы настроим Aspose.Words на поиск шрифтов только в несуществующей папке.
+    // В целях тестирования мы настроим Aspose.Words искать шрифты только в несуществующей папке.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // При рендеринге документа негде будет найти шрифт "Times New Roman".
+    // При рендеринге документа шрифт Times New Roman найти будет негде.
     // Это вызовет предупреждение о замене шрифта, которое обнаружит наш обратный вызов.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
+    /// Вызывается каждый раз, когда во время загрузки/сохранения возникает предупреждение.
     /// </summary>
     public void Warning(WarningInfo info)
     {

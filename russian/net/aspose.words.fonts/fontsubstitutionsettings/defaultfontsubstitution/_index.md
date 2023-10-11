@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
 second_title: Справочник по API Aspose.Words для .NET
-description: FontSubstitutionSettings свойство. Настройки связанные с правилом замены шрифта по умолчанию.
+description: FontSubstitutionSettings свойство. Настройки относящиеся к правилу замены шрифтов по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Настройки, связанные с правилом замены шрифта по умолчанию.
+Настройки, относящиеся к правилу замены шрифтов по умолчанию.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -16,25 +16,25 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ### Примеры
 
-Показывает, как установить правило замены шрифта по умолчанию.
+Показывает, как установить правило замены шрифтов по умолчанию.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Получить правило подстановки по умолчанию в FontSettings.
+// Получаем правило замены по умолчанию в FontSettings.
 // Это правило заменит все отсутствующие шрифты на «Times New Roman».
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Установите замену шрифта по умолчанию на "Courier New".
+// Установите замену шрифта по умолчанию на «Courier New».
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// С помощью конструктора документов добавляем текст шрифтом, который нам не нужен, чтобы не произошло подстановки,
-// и затем визуализировать результат в формате PDF.
+// Используя конструктор документов, добавьте текст шрифтом, который нам не нужен, чтобы произошла замена,
+// и затем визуализируем результат в PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

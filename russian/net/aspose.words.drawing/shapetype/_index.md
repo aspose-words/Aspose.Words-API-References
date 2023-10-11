@@ -1,14 +1,14 @@
 ---
 title: Enum ShapeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShapeType перечисление. Определяет тип фигуры в документе Microsoft Word.
+description: Aspose.Words.Drawing.ShapeType перечисление. Указывает тип фигуры в документе Microsoft Word.
 type: docs
-weight: 1140
+weight: 1290
 url: /ru/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
 
-Определяет тип фигуры в документе Microsoft Word.
+Указывает тип фигуры в документе Microsoft Word.
 
 ```csharp
 public enum ShapeType
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | Этот тип фигуры, по-видимому, установлен для фигур, которые не являются частью стандартного набора автоматических фигур в Microsoft Word. Например, если вы вставите новую автоматическую фигуру из ClipArt. |
+| CustomShape | `100` | Похоже, этот тип фигуры установлен для фигур, которые не являются частью стандартного набора автофигур the в Microsoft Word. Например, если вы вставите новую автофигуру из ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -224,13 +224,13 @@ public enum ShapeType
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
 | SingleCornerSnipped | `203` | Вырезать прямоугольный объект с одним углом. |
-| TopCornersSnipped | `204` | Обрезать прямоугольник с той же стороной. |
-| DiagonalCornersSnipped | `205` | Обрезать диагональный угол прямоугольника. |
-| TopCornersOneRoundedOneSnipped | `206` | Отрезать и скруглить прямоугольник с одним углом. |
-| SingleCornerRounded | `207` | Скругленный прямоугольник с одним углом. |
-| TopCornersRounded | `208` | Скруглить прямоугольник с одинаковым боковым углом. |
-| DiagonalCornersRounded | `209` | Прямоугольник с круглым диагональным углом. |
-| Heptagon | `210` | Гептагон. |
+| TopCornersSnipped | `204` | Отрезать угловой прямоугольник с той же стороны. |
+| DiagonalCornersSnipped | `205` | Отрезать диагональный угловой прямоугольник. |
+| TopCornersOneRoundedOneSnipped | `206` | Отрежьте и скруглите один угол прямоугольника. |
+| SingleCornerRounded | `207` | Прямоугольный прямоугольник с одним круглым углом. |
+| TopCornersRounded | `208` | Прямоугольник с закругленным углом с одной стороны. |
+| DiagonalCornersRounded | `209` | Прямоугольник с закругленным диагональным углом. |
+| Heptagon | `210` | Семиугольник. |
 | Cloud | `211` | Облако. |
 | Seal6 | `212` | Шестиконечная звезда. |
 | Seal7 | `213` | Семиконечная звезда. |
@@ -239,47 +239,47 @@ public enum ShapeType
 | SwooshArrow | `216` | Стрелка-галочка. |
 | Teardrop | `217` | Слеза. |
 | SquareTabs | `218` | Квадратные вкладки. |
-| PlaqueTabs | `219` | Вкладки налета. |
+| PlaqueTabs | `219` | Вкладки табличек. |
 | Pie | `220` | Пирог. |
-| WedgePie | `221` | Пирог с клиньями. |
+| WedgePie | `221` | Клин-пирог. |
 | InverseLine | `222` | Обратная линия. |
 | MathPlus | `223` | Математика плюс. |
 | MathMinus | `224` | Математика минус. |
 | MathMultiply | `225` | Математическое умножение. |
-| MathDivide | `226` | Математическое деление. |
+| MathDivide | `226` | Математическое разделение. |
 | MathEqual | `227` | Математическое равенство. |
-| MathNotEqual | `228` | Математика не равна. |
+| MathNotEqual | `228` | Математическое неравенство. |
 | NonIsoscelesTrapezoid | `229` | Неравнобедренная трапеция. |
 | LeftRightCircularArrow | `230` | Круговая стрелка влево-вправо. |
-| LeftRightRibbon | `231` | Лента слева направо. |
+| LeftRightRibbon | `231` | Лента слева-справа. |
 | LeftCircularArrow | `232` | Круговая стрелка влево. |
 | Frame | `233` | Кадр. |
-| HalfFrame | `234` | Половина кадра. |
+| HalfFrame | `234` | Полукадра. |
 | Funnel | `235` | Воронка. |
 | Gear6 | `236` | Шестизубая шестерня. |
 | Gear9 | `237` | Шестерня с девятью зубьями. |
 | Decagon | `238` | Десятиугольник. |
 | Dodecagon | `239` | Додекагон. |
 | DiagonalStripe | `240` | Диагональная полоса. |
-| Corner | `241` | Угловой. |
+| Corner | `241` | Угол. |
 | CornerTabs | `242` | Угловые вкладки. |
 | Chord | `243` | Аккорд. |
 | ChartPlus | `244` | Диаграмма плюс. |
 | ChartStar | `245` | Звезда диаграммы. |
 | ChartX | `246` | Диаграмма X. |
-| MinValue | `-2` | Зарезервировано для системного использования. |
+| MinValue | `-2` | Зарезервировано для использования системой. |
 
 ### Примеры
 
-Показывает, как вставить фигуру с изображением из локальной файловой системы в документ.
+Показывает, как вставить в документ фигуру с изображением из локальной файловой системы.
 
 ```csharp
 Document doc = new Document();
 
-// Открытый конструктор класса "Shape" создаст фигуру с типом разметки "ShapeMarkupLanguage.Vml".
-// Если вам нужно создать фигуру не примитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Открытый конструктор класса «Shape» создаст фигуру с типом разметки «ShapeMarkupLanguage.Vml».
+// Если вам нужно создать фигуру непримитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded или DiagonalCornersRounded,
-// используйте DocumentBuilder.InsertShape.
+// пожалуйста, используйте DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -305,10 +305,10 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// Чтобы правильно идентифицировать типы фигур, вам нужно работать с фигурами как с DML.
+// Чтобы исправить идентификацию типов фигур, вам нужно работать с фигурами как с DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    // "Строгое" или "Переходное" соответствие позволяет сохранять форму как DML.
+    // «Строгое» или «переходное» соответствие позволяет сохранять форму в формате DML.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

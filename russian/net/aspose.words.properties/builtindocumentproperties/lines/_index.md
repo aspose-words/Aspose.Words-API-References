@@ -31,7 +31,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words не отслеживает подобные показатели документов в режиме реального времени.
+// Aspose.Words не отслеживает подобные показатели документа в реальном времени.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -44,7 +44,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// Для подсчета строк нам потребуется вызвать специальную перегрузку метода обновления.
+// Для подсчета строк нам нужно будет вызвать определенную перегрузку метода обновления.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -52,7 +52,7 @@ doc.UpdateWordCount(true);
 Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ```
 
-Показывает, как работать со свойствами документа в категории «Содержание».
+Показывает, как работать со свойствами документа в категории «Содержимое».
 
 ```csharp
 public void Content()
@@ -62,16 +62,16 @@ public void Content()
 
     // Используя встроенные свойства,
     // мы можем рассматривать статистику документа, такую как количество слов/страниц/символов, как метаданные, которые можно просмотреть, не открывая документ
-    // Доступ к этим свойствам можно получить, щелкнув файл правой кнопкой мыши в проводнике Windows и выбрав Свойства > Подробности > Содержание
-    // Если мы хотим отобразить эти данные внутри документа, мы можем использовать такие поля, как NUMPAGES, NUMWORDS, NUMCHARS и т. д.
-    // Кроме того, эти значения также можно просмотреть в Microsoft Word, выбрав Файл > Свойства > Дополнительные свойства > Статистика
-    // Количество страниц: свойство PageCount показывает количество страниц в реальном времени, и его значение может быть присвоено свойству Pages
+    // Доступ к этим свойствам можно получить, щелкнув файл правой кнопкой мыши в проводнике Windows и выбрав «Свойства» > Подробности > Содержание
+    // Если мы хотим отобразить эти данные внутри документа, мы можем использовать такие поля, как NUMPAGES, NUMWORDS, NUCHARS и т. д.
+    // Кроме того, эти значения можно просмотреть в Microsoft Word, выбрав Файл > Свойства > Дополнительные свойства > Статистика
+    // Количество страниц: свойство PageCount показывает количество страниц в реальном времени, и его значение можно присвоить свойству Pages.
 
-    // Свойство "Страницы" хранит количество страниц документа. 
+     // Свойство «Страницы» хранит количество страниц документа.
     Assert.AreEqual(6, properties.Pages);
 
-    // Встроенные свойства "Words", "Characters" и "CharactersWithSpaces" также отображают различную статистику документа,
-    // но нам нужно вызвать метод "UpdateWordCount" для всего документа, прежде чем мы сможем ожидать, что они будут содержать точные значения.
+    // Встроенные свойства «Слова», «Символы» и «Символы с пробелами» также отображают различную статистику документа,
+    // но нам нужно вызвать метод «UpdateWordCount» для всего документа, прежде чем мы сможем ожидать, что они будут содержать точные значения.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
@@ -84,14 +84,14 @@ public void Content()
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Назначаем количество узлов абзаца в документе встроенному свойству «Абзацы».
+    // Назначаем количество узлов «Абзац» в документе встроенному свойству «Абзацы».
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // Получить оценку размера файла нашего документа с помощью встроенного свойства «Bytes».
+    // Получите оценку размера файла нашего документа через встроенное свойство «Байт».
     Assert.AreEqual(20310, properties.Bytes);
 
-    // Установите другой шаблон для нашего документа, а затем обновите встроенное свойство «Шаблон» вручную, чтобы отразить это изменение.
+    // Установите другой шаблон для нашего документа, а затем вручную обновите встроенное свойство «Шаблон», чтобы отразить это изменение.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
     Assert.AreEqual("Normal", properties.Template);    
@@ -101,10 +101,10 @@ public void Content()
     // «ContentStatus» — описательное встроенное свойство.
     properties.ContentStatus = "Draft";
 
-    // При сохранении встроенное свойство ContentType будет содержать MIME-тип выходного формата сохранения.
+    // При сохранении встроенное свойство «ContentType» будет содержать тип MIME выходного формата сохранения.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // Если документ содержит ссылки и все они актуальны, мы можем установить для свойства LinksUpToDate значение true.
+    // Если документ содержит ссылки и все они актуальны, мы можем установить для свойства «LinksUpToDate» значение «true».
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
@@ -112,8 +112,8 @@ public void Content()
 
 /// <summary>
 /// Подсчитывает строки в документе.
-/// Просматривает дерево сущностей макета документа при построении,
-/// подсчет объектов типа "Линия", которые также содержат реальный текст.
+/// Обходит дерево объектов макета документа при построении,
+/// подсчет сущностей типа "Строка", которые также содержат реальный текст.
 /// </summary>
 private class LineCounter
 {

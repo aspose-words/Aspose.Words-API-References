@@ -3,12 +3,14 @@ title: Class BookmarkCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.BookmarkCollection сорт. КоллекцияBookmark объекты представляющие закладки в указанном диапазоне.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 Коллекция[`Bookmark`](../bookmark/) объекты, представляющие закладки в указанном диапазоне.
+
+Чтобы узнать больше, посетите[Работа с закладками](https://docs.aspose.com/words/net/working-with-bookmarks/) статья документации.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -38,22 +40,21 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
+    // Создайте документ с тремя закладками, затем используйте специальную реализацию посетителя документа для печати его содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, и их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Распечатываем все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Создать документ с заданным количеством закладок.
+/// Создаем документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -100,7 +101,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Выводит содержимое каждой посещенной закладки на консоль.
+/// Выводит на консоль содержимое каждой посещенной закладки.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.GraphicFilter
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludePicture свойство. Получает или задает имя фильтра для формата вставляемой графики.
+description: FieldIncludePicture свойство. Получает или задает имя фильтра для формата вставляемого изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-Получает или задает имя фильтра для формата вставляемой графики.
+Получает или задает имя фильтра для формата вставляемого изображения.
 
 ```csharp
 public string GraphicFilter { get; set; }
@@ -22,7 +22,7 @@ public string GraphicFilter { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных из локальной файловой системы.
+// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных с локальной файловой системой.
 // 1 - Поле INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

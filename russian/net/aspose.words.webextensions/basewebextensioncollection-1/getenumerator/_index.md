@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection метод. Возвращает перечислитель который может выполнять итерацию по коллекции.
+description: BaseWebExtensionCollection метод. Возвращает перечислитель который может перебирать коллекцию.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-Возвращает перечислитель, который может выполнять итерацию по коллекции.
+Возвращает перечислитель, который может перебирать коллекцию.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -23,7 +23,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Вывести все свойства веб-расширения документа.
+// Распечатываем все свойства веб-расширения документа.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -34,7 +34,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Удалить веб-расширение.
+// Удаляем веб-расширение.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

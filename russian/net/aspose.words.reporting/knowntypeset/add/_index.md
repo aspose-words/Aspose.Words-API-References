@@ -1,20 +1,20 @@
 ---
 title: KnownTypeSet.Add
 second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. Добавляет указанныйType возражать против набора. БроскиArgumentException in следующие случаи
+description: KnownTypeSet метод. Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях
 type: docs
 weight: 20
 url: /ru/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Добавляет указанныйType возражать против набора. БроскиArgumentException in следующие случаи:
+Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях:
 
--*type* нулевой.
+-*type* является`нулевой`.
 
--*type* представляет тип пустоты.
+-*type* представляет тип void.
 
--*type* представляет невидимый тип, т. е. непубличный тип или общедоступный вложенный тип , который имеет закрытый внешний тип.
+-*type* представляет невидимый тип, т. е. закрытый тип или общедоступный вложенный тип type , который имеет закрытый внешний тип.
 
 -*type* представляет универсальный тип.
 
