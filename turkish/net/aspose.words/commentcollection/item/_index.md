@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: CommentCollection mülk. Bir Yorum verilen dizinde.
+description: CommentCollection mülk. Bir öğeyi alırComment verilen dizinde.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Bir **Yorum** verilen dizinde.
+Bir öğeyi alır[`Comment`](../../comment/) verilen dizinde.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -20,13 +20,13 @@ public Comment this[int index] { get; }
 
 ### Notlar
 
-Endeks sıfır tabanlıdır.
+Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi gösterir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki saniye anlamına gelir vb.
+Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
 
-Dizin, listedeki öğe sayısından büyük veya ona eşitse, bu, boş bir başvuru döndürür.
+Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
 
-İndeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu bir boş başvuru döndürür.
+Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
 ### Örnekler
 
@@ -45,13 +45,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// Aşağıda bir yorumdan yanıtları kaldırmanın iki yolu vardır.
-// 1 - Bir yorumdan gelen yanıtları tek tek kaldırmak için "RemoveReply" yöntemini kullanın:
+// Aşağıda bir yorumdan yanıtları kaldırmanın iki yolu verilmiştir.
+// 1 - Bir yorumdaki yanıtları tek tek kaldırmak için "RemoveReply" yöntemini kullanın:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Bir yorumdaki tüm yanıtları bir kerede kaldırmak için "RemoveAllReplies" yöntemini kullanın:
+// 2 - Bir yorumdaki tüm yanıtları tek seferde kaldırmak için "RemoveAllReplies" yöntemini kullanın:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Rotation
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin döndürüldüğü açıyı derece olarak tanımlar. Pozitif değer saat yönünde dönüş açısına karşılık gelir.
+description: ShapeBase mülk. Şeklin döndürüldüğü açıyı derece cinsinden tanımlar. Pozitif değer saat yönünde dönüş açısına karşılık gelir.
 type: docs
-weight: 430
+weight: 470
 url: /tr/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Şeklin döndürüldüğü açıyı (derece olarak) tanımlar. Pozitif değer, saat yönünde dönüş açısına karşılık gelir.
+Şeklin döndürüldüğü açıyı (derece cinsinden) tanımlar. Pozitif değer, saat yönünde dönüş açısına karşılık gelir.
 
 ```csharp
 public double Rotation { get; set; }
@@ -26,12 +26,12 @@ Bir görüntünün nasıl ekleneceğini ve döndürüleceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Resim içeren bir şekil ekleyin.
+// Resimli bir şekil ekleyin.
 Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Resmi saat yönünde 45 derece döndür.
+// Resmi saat yönünde 45 derece döndürün.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
 second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection mülk. Belge yazarının belgenin salt okunur olarak açılmasını tavsiye edip etmediğini belirtir.
+description: WriteProtection mülk. Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğini belirtir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/writeprotection/readonlyrecommended/
 ---
 ## WriteProtection.ReadOnlyRecommended property
 
-Belge yazarının belgenin salt okunur olarak açılmasını tavsiye edip etmediğini belirtir.
+Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğini belirtir.
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }
@@ -22,15 +22,14 @@ Bir belgenin parolayla nasıl korunacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// En fazla 15 karakter uzunluğunda bir parola girin ve ardından belgenin koruma durumunu doğrulayın.
+// En fazla 15 karakter uzunluğunda bir şifre girin ve ardından belgenin koruma durumunu doğrulayın.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Koruma, belgenin programlı olarak düzenlenmesini engellemez ve içeriği şifrelemez.
+// Koruma, belgenin programlı olarak düzenlenmesini engellemez veya içeriği şifrelemez.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Active
 second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Adres mektup birleştirme gerçekleştirildiğinde veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değerdoğru .
+description: OdsoRecipientData mülk. Adresmektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değerdoğru .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Adres mektup birleştirme gerçekleştirildiğinde veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer`doğru` .
+Adres-mektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool Active { get; set; }
@@ -16,7 +16,7 @@ public bool Active { get; set; }
 
 ### Örnekler
 
-Adres mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını dışlayacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Elemanları tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

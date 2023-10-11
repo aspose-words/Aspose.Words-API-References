@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
 second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection mülk. Bir belge kaydedildiğinde belgeye TrueType yazı tiplerinin gömülüp gömülmeyeceğini belirtir. Bu özellik için varsayılan değer yanlış .
+description: FontInfoCollection mülk. Belge kaydedildiğinde TrueType yazı tiplerinin belgeye gömülüp gömülmeyeceğini belirtir. Bu özelliğin varsayılan değeriYANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 ---
 ## FontInfoCollection.EmbedTrueTypeFonts property
 
-Bir belge kaydedildiğinde belgeye TrueType yazı tiplerinin gömülüp gömülmeyeceğini belirtir. Bu özellik için varsayılan değer **yanlış** .
+Belge kaydedildiğinde TrueType yazı tiplerinin belgeye gömülüp gömülmeyeceğini belirtir. Bu özelliğin varsayılan değeri:`YANLIŞ` .
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }
@@ -16,13 +16,13 @@ public bool EmbedTrueTypeFonts { get; set; }
 
 ### Notlar
 
-TrueType yazı tiplerini gömmek, başkalarının belgeyi, onu oluşturmak için kullanılanla aynı yazı tipleriyle görüntülemesine olanak tanır, , ancak belge boyutunu önemli ölçüde artırabilir.
+TrueType yazı tiplerini gömmek, başkalarının belgeyi oluşturmak için kullanılan yazı tipleriyle aynı ile görüntülemesine olanak tanır, ancak belge boyutunu önemli ölçüde artırabilir.
 
-Bu seçenek yalnızca DOC, DOCX ve RTF biçimleri için çalışır.
+Bu seçenek yalnızca DOC, DOCX ve RTF formatlarında çalışır.
 
 ### Örnekler
 
-Bir belgenin gömülü TrueType yazı tipleriyle nasıl kaydedileceğini gösterir.
+Gömülü TrueType yazı tiplerine sahip bir belgenin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

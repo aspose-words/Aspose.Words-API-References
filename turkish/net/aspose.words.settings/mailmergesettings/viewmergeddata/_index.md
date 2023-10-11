@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ViewMergedData
 second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordün birleştirme alanlarının eklendiği belirtilen harici veri kaynağından gelen verileri görüntüleyeceğini belirtir örneğin birleştirilmiş verileri önizleme. Varsayılan değeryanlış .
+description: MailMergeSettings mülk. Microsoft Wordün birleştirme alanlarının eklendiği belirtilen harici veri kaynağındaki verileri görüntüleyeceğini belirtir örn. birleştirilmiş verilerin önizlemesi. Varsayılan değerYANLIŞ .
 type: docs
 weight: 170
 url: /tr/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Microsoft Word'ün, birleştirme alanlarının eklendiği belirtilen harici veri kaynağından gelen verileri görüntüleyeceğini belirtir (örneğin, birleştirilmiş verileri önizleme). Varsayılan değer`yanlış` .
+Microsoft Word'ün, birleştirme alanlarının eklendiği belirtilen harici veri kaynağındaki verileri görüntüleyeceğini belirtir (örn. birleştirilmiş verilerin önizlemesi). Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -16,7 +16,7 @@ public bool ViewMergedData { get; set; }
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

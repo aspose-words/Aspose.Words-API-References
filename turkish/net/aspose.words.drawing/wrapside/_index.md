@@ -1,14 +1,14 @@
 ---
 title: Enum WrapSide
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.WrapSide Sıralama. Metnin şeklin veya resmin hangi tarafını/yanlarını sardığını belirtir.
+description: Aspose.Words.Drawing.WrapSide Sıralama. Metnin şeklin veya resmin hangi taraflarını saracağını belirtir.
 type: docs
-weight: 1240
+weight: 1390
 url: /tr/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Metnin, şeklin veya resmin hangi tarafını/yanlarını sardığını belirtir.
+Metnin şeklin veya resmin hangi taraflarını saracağını belirtir.
 
 ```csharp
 public enum WrapSide
@@ -18,11 +18,11 @@ public enum WrapSide
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Both | `0` | Belge metni, şeklin her iki tarafına da sarılır. |
-| Left | `1` | Belge metni, şeklin yalnızca sol tarafına kaydırılır. Şeklin sağ tarafında metin içermeyen bir alan var. |
-| Right | `2` | Belge metni, şeklin yalnızca sağ tarafına kaydırılır. Şeklin sol tarafında metin içermeyen bir alan var. |
-| Largest | `3` | Belge metni, şeklin sayfa kenar boşluğundan en uzak tarafına sarılarak şeklin diğer tarafında metinsiz alan bırakır. |
-| Default | `0` | Varsayılan değerBoth . |
+| Both | `0` | Belge metni şeklin her iki tarafında da kaydırılır. |
+| Left | `1` | Belge metni yalnızca şeklin sol tarafında kaydırılır. Şeklin sağında metin içermeyen bir alan bulunmaktadır. |
+| Right | `2` | Belge metni yalnızca şeklin sağ tarafında kaydırılır. Şeklin sol tarafında metin içermeyen bir alan bulunmaktadır. |
+| Largest | `3` | Belge metni, şeklin sayfa kenar boşluğundan en uzak olan tarafına kaydırılır ve şeklin diğer tarafında metinsiz alan kalır. |
+| Default | `0` | Varsayılan değer:Both . |
 
 ### Örnekler
 

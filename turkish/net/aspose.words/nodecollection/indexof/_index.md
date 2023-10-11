@@ -20,15 +20,15 @@ public int IndexOf(Node node)
 
 ### Geri dönüş değeri
 
-Bulunursa, koleksiyon içindeki düğümün sıfır tabanlı dizini; aksi halde, -1.
+Bulunursa koleksiyon içindeki düğümün sıfır tabanlı dizini; aksi halde -1.
 
 ### Notlar
 
-Bu yöntem doğrusal bir arama gerçekleştirir; bu nedenle, ortalama yürütme süresi Count ile orantılıdır.
+Bu yöntem doğrusal bir arama gerçekleştirir; bu nedenle, ortalama yürütme süresi orantılıdır[`Count`](../count/).
 
 ### Örnekler
 
-Bir koleksiyondaki bir düğümün dizininin nasıl alınacağını gösterir.
+Koleksiyondaki bir düğümün dizininin nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

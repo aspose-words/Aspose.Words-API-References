@@ -16,7 +16,7 @@ public bool IsLinkToContent { get; }
 
 ### Örnekler
 
-Özel bir belge özelliğinin bir yer işaretine nasıl bağlanacağını gösterir.
+Özel bir belge özelliğinin bir yer imine nasıl bağlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Yeni bir özel özelliği bir yer işaretine bağla. Bu mülkün değeri
-// "LinkSource" üyesinde başvurduğu yer işaretinin içeriği olacaktır.
+// Yeni bir özel özelliği bir yer imine bağlayın. Bu mülkün değeri
+// "LinkSource" üyesinde başvuruda bulunduğu yer iminin içeriği olacaktır.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

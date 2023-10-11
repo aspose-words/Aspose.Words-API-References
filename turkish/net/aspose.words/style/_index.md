@@ -3,12 +3,14 @@ title: Class Style
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Style sınıf. Tek bir yerleşik veya kullanıcı tanımlı stili temsil eder.
 type: docs
-weight: 5830
+weight: 6130
 url: /tr/net/aspose.words/style/
 ---
 ## Style class
 
 Tek bir yerleşik veya kullanıcı tanımlı stili temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
 
 ```csharp
 public class Style
@@ -18,33 +20,35 @@ public class Style
 
 | İsim | Tanım |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases/) { get; } | Bu stilin tüm diğer adlarını alır. Stilin takma adı yoksa, boş dize dizisi döndürülür. |
-| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Bu stilin dayandığı stilin adını alır/ayarlar. |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | Bu stilin tüm takma adlarını alır. Stilin takma adı yoksa boş dize dizisi döndürülür. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Bu stilin uygun değere göre otomatik olarak yeniden tanımlanıp tanımlanmayacağını belirtir. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Bu stilin temel aldığı stilin adını alır/ayarlar. |
 | [BuiltIn](../../aspose.words/style/builtin/) { get; } | Bu stil MS Word'deki yerleşik stillerden biriyse doğrudur. |
 | [Document](../../aspose.words/style/document/) { get; } | Sahip belgesini alır. |
-| [Font](../../aspose.words/style/font/) { get; } | Stilin karakter biçimlendirmesini alır. |
-| [IsHeading](../../aspose.words/style/isheading/) { get; } | Stil, yerleşik Başlık stillerinden biri olduğunda doğrudur. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Bu stilin MS Word UI içindeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Buna bağlı Stilin adını alır. Hiçbir stil bağlı değilse Boş dize döndürür. |
+| [Font](../../aspose.words/style/font/) { get; } | Stilin karakter formatını alır. |
+| [IsHeading](../../aspose.words/style/isheading/) { get; } | Stil yerleşik Başlık stillerinden biri olduğunda doğrudur. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Adını alır`Style` bununla bağlantılı. Hiçbir stil bağlı değilse boş dizeyi döndürür. |
 | [List](../../aspose.words/style/list/) { get; } | Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar. |
+| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Stilin adını alır veya ayarlar. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Stilin paragraf biçimlendirmesini alır. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Stilin paragraf formatını alır. |
 | [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını alır. |
-| [Styles](../../aspose.words/style/styles/) { get; } | Bu stilin ait olduğu stiller koleksiyonunu alır. |
+| [Styles](../../aspose.words/style/styles/) { get; } | Bu stilin ait olduğu stillerin koleksiyonunu getirir. |
 | [Type](../../aspose.words/style/type/) { get; } | Stil türünü (paragraf veya karakter) alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Belirtilen stille karşılaştırır. Stiller İstd'ler yalnızca yerleşik stiller için karşılaştırılır. Stil varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Belirtilen stille karşılaştırır. Stiller Istd'ler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
 | [Remove](../../aspose.words/style/remove/)() | Belirtilen stili belgeden kaldırır. |
 
 ### Örnekler
 
-Liste biçimlendirmeli bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,11 +64,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -80,6 +84,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Stili otomatik olarak yeniden tanımlayın.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -91,12 +97,12 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Özel stilimizi belgenin stiller koleksiyonundan kaldırın.
+// Özel stilimizi belgenin stil koleksiyonundan kaldırın.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Kaldırılan bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
+// Kaldırılmış bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

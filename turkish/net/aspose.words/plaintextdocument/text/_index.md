@@ -1,14 +1,14 @@
 ---
 title: PlainTextDocument.Text
 second_title: Aspose.Words for .NET API Referansı
-description: PlainTextDocument mülk. Dize olarak birleştirilmiş belgenin metin içeriğini alır.
+description: PlainTextDocument mülk. Belgenin metin içeriğini bir dize olarak birleştirir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Dize olarak birleştirilmiş belgenin metin içeriğini alır.
+Belgenin metin içeriğini bir dize olarak birleştirir.
 
 ```csharp
 public string Text { get; }

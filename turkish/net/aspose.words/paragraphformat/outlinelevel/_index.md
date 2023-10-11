@@ -3,7 +3,7 @@ title: ParagraphFormat.OutlineLevel
 second_title: Aspose.Words for .NET API Referansı
 description: ParagraphFormat mülk. Belgedeki paragrafın anahat düzeyini belirtir.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words/paragraphformat/outlinelevel/
 ---
 ## ParagraphFormat.OutlineLevel property
@@ -22,24 +22,24 @@ Daraltılabilir metin oluşturmak için paragraf anahat düzeylerinin nasıl yap
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Her paragrafın 1'den 9'a kadar herhangi bir sayı veya varsayılan "BodyText" değerinde olabilen bir Anahat Düzeyi vardır.
-// Özelliği numaralı değerlerden birine ayarlamak, solda bir ok gösterecektir.
-// paragrafın başında.
+// Her paragrafta 1'den 9'a kadar herhangi bir sayı olabilen veya varsayılan "BodyText" değerinde bir OutlineLevel bulunur.
+// Özelliği numaralı değerlerden birine ayarlamak solda bir ok gösterecektir
+//paragrafın başlangıcı.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level1;
 builder.Writeln("Paragraph outline level 1.");
 
-// Seviye 1 en üst seviyedir. Daha yüksek düzeyde bir paragrafın altında daha düşük düzeyde bir paragraf varsa,
-// üst düzey paragrafın daraltılması, alt düzey paragrafın daraltılmasına neden olur.
+// Seviye 1 en üst seviyedir. Daha yüksek düzeydeki bir paragrafın altında daha düşük düzeyde bir paragraf varsa,
+// üst düzey paragrafın daraltılması, alt düzey paragrafın da daraltılmasına neden olacaktır.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level2;
 builder.Writeln("Paragraph outline level 2.");
 
-// Aynı seviyedeki iki paragraf birbirini daraltmaz,
+// Aynı seviyedeki iki paragraf birbirini daraltmayacak,
 // ve oklar işaret ettikleri paragrafları daraltmaz.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level3;
 builder.Writeln("Paragraph outline level 3.");
 builder.Writeln("Paragraph outline level 3.");
 
-// Varsayılan "BodyText" değeri, herhangi bir düzeydeki bir paragrafın daraltılabileceği en düşük değerdir.
+// Varsayılan "GövdeText" değeri, herhangi bir seviyedeki bir paragrafın daraltabileceği en düşük değerdir.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.BodyText;
 builder.Writeln("Paragraph at main text level.");
 

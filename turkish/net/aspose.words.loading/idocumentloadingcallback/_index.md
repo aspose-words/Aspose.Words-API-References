@@ -3,7 +3,7 @@ title: Interface IDocumentLoadingCallback
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Loading.IDocumentLoadingCallback arayüz. Bir belgeyi yüklerken kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 type: docs
-weight: 3430
+weight: 3630
 url: /tr/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -18,14 +18,13 @@ public interface IDocumentLoadingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Bu, belge yükleme ilerlemesini bildirmek için çağrılır. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Bu, belge yükleme işleminin ilerlemesini bildirmek için çağrılır. |
 
 ### Örnekler
 
-Belge yüklemesi, beklenen yükleme süresini aştığında kullanıcıya nasıl bildirileceğini gösterir.
+Belge yüklemesinin beklenen yükleme süresini aşması durumunda kullanıcıya nasıl bilgi verileceğini gösterir.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -40,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Yükleme süresi sorununu ele al.
+        // Yükleme süresi sorununu ele alın.
     }
 }
 
 /// <summary>
-/// "MaxDuration" saniyesinden sonra bir belge yüklemesini iptal edin.
+/// "MaxDuration" saniyeden sonra belge yüklemeyi iptal edin.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ktr.
+    /// Kontrol Noktası
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -58,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Belge yükleme sırasında çağrılan geri arama yöntemi.
+    /// Doküman yüklenirken çağrılan geri çağırma yöntemi.
     /// </summary>
     /// <param name="args">Argümanlar yükleniyor.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -71,7 +70,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Belge yüklemenin başladığı tarih ve saat.
+    /// Belge yüklemenin başlatıldığı tarih ve saat.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

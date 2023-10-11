@@ -3,7 +3,7 @@ title: PageSetup.VerticalAlignment
 second_title: Aspose.Words for .NET API Referansı
 description: PageSetup mülk. Bir belge veya bölümdeki her sayfadaki metnin dikey hizalamasını döndürür veya ayarlar.
 type: docs
-weight: 440
+weight: 450
 url: /tr/net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property
@@ -16,25 +16,25 @@ public PageVerticalAlignment VerticalAlignment { get; set; }
 
 ### Örnekler
 
-Bir belgedeki bölümlere sayfa düzeni ayarlarının nasıl uygulanacağını ve geri alınacağını gösterir.
+Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucunun geçerli bölümü için sayfa kurulum özelliklerini değiştirin ve metin ekleyin.
+// Oluşturucunun geçerli bölümü için sayfa düzeni özelliklerini değiştirin ve metin ekleyin.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Belge oluşturucu kullanarak yeni bir bölüme başlarsak,
-// oluşturucunun mevcut sayfa kurulum özelliklerini devralır.
+// Bir belge oluşturucu kullanarak yeni bir bölüme başlarsak,
+// oluşturucunun mevcut sayfa düzeni özelliklerini devralacaktır.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// "ClearFormatting" yöntemini kullanarak sayfa kurulum özelliklerini varsayılan değerlerine döndürebiliriz.
+// "ClearFormatting" yöntemini kullanarak sayfa düzeni özelliklerini varsayılan değerlerine döndürebiliriz.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

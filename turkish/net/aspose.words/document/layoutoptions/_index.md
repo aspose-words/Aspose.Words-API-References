@@ -1,14 +1,14 @@
 ---
 title: Document.LayoutOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. DüzenSeçenekleri bu belgenin yerleşim sürecini denetleme seçeneklerini temsil eden nesne.
+description: Document mülk. Bir alırLayoutOptions bu belgenin düzen sürecini kontrol etme seçeneklerini temsil eden nesne.
 type: docs
-weight: 230
+weight: 250
 url: /tr/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-**DüzenSeçenekleri** bu belgenin yerleşim sürecini denetleme seçeneklerini temsil eden nesne.
+Bir alır[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) bu belgenin düzen sürecini kontrol etme seçeneklerini temsil eden nesne.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -36,8 +36,8 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Bazı paragraflar ekleyin, ardından paragrafların sonlarını göstermek için paragraf işaretlerini etkinleştirin
-// belgeyi oluşturduğumuzda bir pilcrow (¶) sembolü ile.
+// Birkaç paragraf ekleyin, ardından paragraf sonlarını göstermek için paragraf işaretlerini etkinleştirin
+// belgeyi oluşturduğumuzda pilcrow (¶) sembolüyle.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -46,7 +46,7 @@ doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
-İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Revize edilen her satırın solunda görünen çubuğu kaldırın.
+// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
 

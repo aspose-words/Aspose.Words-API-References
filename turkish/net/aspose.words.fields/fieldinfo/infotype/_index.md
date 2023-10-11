@@ -16,13 +16,13 @@ public string InfoType { get; set; }
 
 ### Örnekler
 
-BİLGİ alanlarıyla nasıl çalışılacağını gösterir.
+INFO alanlarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "Yorumlar" yerleşik özelliği için bir değer belirleyin ve ardından bu özelliğin değerini görüntülemek için bir INFO alanı ekleyin.
+// "Yorumlar" yerleşik özelliği için bir değer belirleyin ve ardından bu özelliğin değerini görüntülemek için bir BİLGİ alanı ekleyin.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -33,7 +33,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Alanın NewValue özelliği için bir değer belirleme ve güncelleme
+// Alanın NewValue özelliği için değer belirleme ve güncelleme
 // alan ayrıca yeni değeri karşılık gelen yerleşik özelliğin üzerine yazacaktır.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

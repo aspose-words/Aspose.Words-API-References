@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Bir belgenin bölümündeki sütun sayısını alır.
+description: TextColumnCollection mülk. Belgenin bölümündeki sütunların sayısını alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/textcolumncollection/count/
 ---
 ## TextColumnCollection.Count property
 
-Bir belgenin bölümündeki sütun sayısını alır.
+Belgenin bölümündeki sütunların sayısını alır.
 
 ```csharp
 public int Count { get; }

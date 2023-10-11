@@ -1,14 +1,14 @@
 ---
 title: Document.Frameset
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir döndürürFramesetörneğin bu belge bir çerçeve sayfasını temsil ediyorsa.
+description: Document mülk. Bir değeri döndürürFramesetörneğin bu belge bir çerçeve sayfasını temsil ediyorsa.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Bir döndürür`Frameset`örneğin bu belge bir çerçeve sayfasını temsil ediyorsa.
+Bir değeri döndürür`Frameset`örneğin bu belge bir çerçeve sayfasını temsil ediyorsa.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,14 +16,14 @@ public Frameset Frameset { get; }
 
 ### Notlar
 
-Belge çerçevelenmemişse, özellik **hükümsüz** değer.
+Belge çerçevelenmemişse, özellik`hükümsüz` değer.
 
 ### Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
 ```csharp
-// Belge, diğer belgelere bağlantı içeren birkaç çerçeve içeriyor.
+// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içerir.
 Document doc = new Document(MyDir + "Frameset.docx");
 
 // Varsayılan URL'yi (bir web sayfası URL'si veya yerel belge) veya çerçevenin harici bir kaynak olup olmadığını kontrol edebiliriz.

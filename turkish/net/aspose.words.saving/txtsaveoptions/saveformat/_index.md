@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Örnekler
 
-Bir .txt belgesinin özel paragraf sonu ile nasıl kaydedileceğini gösterir.
+Bir .txt belgesinin özel paragraf sonuyla nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,13 +26,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
 // belgeyi düz metne kaydetme şeklimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// "ParagraphBreak"i, her paragrafın sonuna koymak istediğimiz özel bir değere ayarlayın.
+// "ParagraphBreak" değerini her paragrafın sonuna koymak istediğimiz özel bir değere ayarlayın.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

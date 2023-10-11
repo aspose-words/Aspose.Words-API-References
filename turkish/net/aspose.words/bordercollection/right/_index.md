@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Right
 second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Sağ kenarlığı alır.
+description: BorderCollection mülk. Doğru kenarlığı alır.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/bordercollection/right/
 ---
 ## BorderCollection.Right property
 
-Sağ kenarlığı alır.
+Doğru kenarlığı alır.
 
 ```csharp
 public Border Right { get; }
@@ -16,17 +16,17 @@ public Border Right { get; }
 
 ### Örnekler
 
-Tablo oluştururken kenarlık ve gölgelendirme renginin nasıl uygulanacağını gösterir.
+Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir tablo başlatın ve sınırları için varsayılan bir renk/kalınlık ayarlayın.
+// Bir tablo başlatın ve kenarlıkları için varsayılan rengi/kalınlığı ayarlayın.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Farklı arka plan renklerine sahip iki hücreli bir satır oluşturun.
+// Farklı arka plan renklerine sahip iki hücreden oluşan bir satır oluşturun.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -36,8 +36,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Arka plan renklerini devre dışı bırakmak için hücre biçimlendirmesini sıfırlayın
-// oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenarlık kalınlığı ayarlayın,
-// sonra ikinci bir satır oluşturun.
+// oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenar kalınlığı ayarlayın,
+// sonra ikinci satırı oluşturalım.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

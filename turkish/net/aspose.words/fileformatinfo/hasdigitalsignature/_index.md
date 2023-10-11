@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
 second_title: Aspose.Words for .NET API Referansı
-description: FileFormatInfo mülk. Bu belge bir dijital imza içeriyorsa true değerini döndürür. Bu özellik yalnızca belgesinde bir dijital imzanın bulunduğunu bildirir ancak imzanın geçerli olup olmadığını belirtmez.
+description: FileFormatInfo mülk. İadelerdoğruBu belge dijital imza içeriyorsa. Bu özellik yalnızca bir belgede dijital imzanın bulunduğunu bildirir ancak imzanın geçerli olup olmadığını belirtmez.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-Bu belge bir dijital imza içeriyorsa true değerini döndürür. Bu özellik, yalnızca belgesinde bir dijital imzanın bulunduğunu bildirir, ancak imzanın geçerli olup olmadığını belirtmez.
+İadeler`doğru`Bu belge dijital imza içeriyorsa. Bu özellik yalnızca bir belgede dijital imzanın bulunduğunu bildirir, ancak imzanın geçerli olup olmadığını belirtmez.
 
 ```csharp
 public bool HasDigitalSignature { get; }
@@ -16,14 +16,14 @@ public bool HasDigitalSignature { get; }
 
 ### Notlar
 
-Bu özellik, dijital olarak imzalanmış belgeleri olmayanlardan ayırmanıza yardımcı olmak için mevcuttur. Dijital olarak imzalanmış bir belgeyi değiştirmek ve kaydetmek için Aspose.Words'ü kullanırsanız, dijital imza kaybolacaktır. Bu tasarım gereğidir, çünkü bir belgenin gerçekliğini korumak için dijital bir imza vardır. Bu özelliği kullanarak dijital olarak imzalanmış belgeleri normal belgelerle aynı şekilde işlemeden önce algılayabilir ve dijital imzayı kaybetmemek için bazı önlemler alabilir, örneğin kullanıcıyı bilgilendirebilirsiniz.
+Bu özellik, dijital olarak imzalanmış belgeleri dijital olarak imzalanmamış olanlardan ayırmanıza yardımcı olmak için mevcuttur. Aspose.Words'ü dijital olarak imzalanmış bir belgeyi değiştirmek ve kaydetmek için kullanırsanız, dijital imza kaybolur. Bunun nedeni tasarım gereğidir çünkü bir belgenin orijinalliğini korumak için dijital bir imza mevcuttur. Bu özelliği kullanarak, dijital olarak imzalanmış belgeleri, normal belgelerle aynı şekilde işlemeden önce tespit edebilir ve dijital imzanın kaybolmasını önlemek için kullanıcıya bildirimde bulunmak gibi bazı eylemler gerçekleştirebilirsiniz.
 
 ### Örnekler
 
 Belge biçimini ve dijital imzaların varlığını algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
 ```csharp
-// Belgenin dijital olarak imzalanmadığını doğrulamak için bir FileFormatInfo örneği kullanın.
+// Bir belgenin dijital olarak imzalanmadığını doğrulamak için FileFormatInfo örneğini kullanın.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -33,12 +33,12 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// İmzalandığını doğrulamak için yeni bir FileFormatInstance kullanın.
+// İmzalandığını onaylamak için yeni bir FileFormatInstance kullanın.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// Böyle bir koleksiyonda imzalanmış bir belgenin imzalarını yükleyebilir ve erişebiliriz.
+// Bunun gibi bir koleksiyonda imzalı bir belgenin imzalarına yükleyebilir ve erişebiliriz.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf metnin son paragrafıysa doğrudur Gövde ana metin hikayesi bir Bölüm  aksi halde yanlış.
+description: Paragraph mülk. Bu paragraf paragraftaki son paragrafsa doğruBody ana metin hikayesi birSection  aksi halde yanlış.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Bu paragraf metnin son paragrafıysa doğrudur **Gövde** (ana metin hikayesi) bir **Bölüm** ; aksi halde yanlış.
+Bu paragraf paragraftaki son paragrafsa doğru[`Body`](../../body/) (ana metin hikayesi) bir[`Section`](../../section/) ; aksi halde yanlış.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -16,10 +16,9 @@ public bool IsEndOfSection { get; }
 
 ### Örnekler
 
-Bir belgenin içeriğinin başka bir belgedeki yer işaretine nasıl ekleneceğini gösterir.
+Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -44,7 +43,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belirtilen düğümden sonra bir belgenin içeriğini ekler.
+/// Belgenin içeriğini belirtilen düğümden sonra ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -55,8 +54,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında dolaşın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü klonlayın ve ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
+        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

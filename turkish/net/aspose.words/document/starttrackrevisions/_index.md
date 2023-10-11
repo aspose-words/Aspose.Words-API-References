@@ -1,14 +1,14 @@
 ---
 title: Document.StartTrackRevisions
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgede yaptığınız diğer tüm değişiklikleri revizyon değişiklikleri olarak programlı olarak otomatik olarak işaretlemeye başlar.
+description: Document yöntem. Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
 type: docs
-weight: 690
+weight: 730
 url: /tr/net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
 
-Belgede yaptığınız diğer tüm değişiklikleri, revizyon değişiklikleri olarak programlı olarak otomatik olarak işaretlemeye başlar.
+Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
 
 ```csharp
 public void StartTrackRevisions(string author, DateTime dateTime)
@@ -16,18 +16,18 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| author | String | Düzeltmeler için kullanılacak yazarın baş harfleri. |
-| dateTime | DateTime | Revizyonlar için kullanılacak tarih ve saat. |
+| author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
+| dateTime | DateTime | Düzeltmeler için kullanılacak tarih ve saat. |
 
 ### Notlar
 
-Bu yöntemi çağırır ve ardından programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açın, bu değişiklikleri revizyonlar olarak göreceksiniz.
+Bu yöntemi çağırıp daha sonra programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açarsanız bu değişiklikleri revizyon olarak göreceksiniz.
 
-Şu anda Aspose.Words yalnızca düğüm ekleme ve silme işlemlerinin takibini desteklemektedir. Biçimlendirme değişiklikleri, revizyonlar olarak kaydedilmez .
+Şu anda Aspose.Words yalnızca düğüm ekleme ve silme işlemlerinin izlenmesini desteklemektedir. Biçimlendirme değişiklikleri revizyon olarak kaydedilmez .
 
-Değişikliklerin otomatik olarak izlenmesi, hem bu belgeyi düğüm manipülasyonları aracılığıyla değiştirirken hem de kullanırken desteklenir.[`DocumentBuilder`](../../documentbuilder/)
+Değişikliklerin otomatik olarak izlenmesi, hem bu belge manipülasyonları düğümü aracılığıyla değiştirilirken hem de kullanılırken desteklenir[`DocumentBuilder`](../../documentbuilder/)
 
-Bu yöntem, durumu değiştirmez.[`TrackRevisions`](../trackrevisions/) seçeneğidir ve revizyon izleme amacıyla value değerini kullanmaz.
+Bu yöntem değiştirmez[`TrackRevisions`](../trackrevisions/) seçeneğidir ve value değerini revizyon izleme amacıyla kullanmaz.
 
 ### Örnekler
 
@@ -37,7 +37,7 @@ Bir belgeyi düzenlerken revizyonların nasıl izleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir belgeyi düzenlemek, onları izlemeye başlayana kadar genellikle bir revizyon sayılmaz.
+// Bir belgeyi düzenlemek genellikle biz onu izlemeye başlayana kadar revizyon olarak sayılmaz.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -59,8 +59,8 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// Revizyon oluşturmak onlara işlemin tarihini ve saatini verir.
-// Revizyonları izlemeye başladığımızda DateTime.MinValue ileterek bunu devre dışı bırakabiliriz.
+// Revizyonların oluşturulması onlara işlemin tarihini ve saatini verir.
+// Revizyonları izlemeye başladığımızda DateTime.MinValue'yu ileterek bunu devre dışı bırakabiliriz.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -68,9 +68,9 @@ Assert.AreEqual(2, doc.Revisions.Count);
 Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
-// Bu revizyonları programlı olarak kabul/reddetebiliriz
-// Document.AcceptAllRevisions gibi yöntemleri veya her revizyonun Kabul Et yöntemini çağırarak.
-// Microsoft Word'de bunları "İnceleme" -> "Değişiklikler".
+// Bu revizyonları programlı olarak kabul edebilir/reddedebiliriz
+// Document.AcceptAllRevisions gibi yöntemleri veya her revizyonun Accept yöntemini çağırarak.
+// Microsoft Word'de bunları "İncele" -> aracılığıyla manuel olarak işleyebiliriz. "Değişiklikler".
 doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 ```
 
@@ -85,7 +85,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 ## StartTrackRevisions(string) {#starttrackrevisions}
 
-Belgede yaptığınız diğer tüm değişiklikleri, revizyon değişiklikleri olarak programlı olarak otomatik olarak işaretlemeye başlar.
+Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
 
 ```csharp
 public void StartTrackRevisions(string author)
@@ -93,17 +93,17 @@ public void StartTrackRevisions(string author)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| author | String | Düzeltmeler için kullanılacak yazarın baş harfleri. |
+| author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
 
 ### Notlar
 
-Bu yöntemi çağırır ve ardından programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açın, bu değişiklikleri revizyonlar olarak göreceksiniz.
+Bu yöntemi çağırıp daha sonra programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açarsanız bu değişiklikleri revizyon olarak göreceksiniz.
 
-Şu anda Aspose.Words yalnızca düğüm ekleme ve silme işlemlerinin takibini desteklemektedir. Biçimlendirme değişiklikleri, revizyonlar olarak kaydedilmez .
+Şu anda Aspose.Words yalnızca düğüm ekleme ve silme işlemlerinin izlenmesini desteklemektedir. Biçimlendirme değişiklikleri revizyon olarak kaydedilmez .
 
-Değişikliklerin otomatik olarak izlenmesi, hem bu belgeyi düğüm manipülasyonları aracılığıyla değiştirirken hem de kullanırken desteklenir.[`DocumentBuilder`](../../documentbuilder/)
+Değişikliklerin otomatik olarak izlenmesi, hem bu belge manipülasyonları düğümü aracılığıyla değiştirilirken hem de kullanılırken desteklenir[`DocumentBuilder`](../../documentbuilder/)
 
-Bu yöntem, durumu değiştirmez.[`TrackRevisions`](../trackrevisions/) seçeneğidir ve revizyon izleme amacıyla value değerini kullanmaz.
+Bu yöntem değiştirmez[`TrackRevisions`](../trackrevisions/) seçeneğidir ve value değerini revizyon izleme amacıyla kullanmaz.
 
 ### Örnekler
 
@@ -113,7 +113,7 @@ Bir belgeyi düzenlerken revizyonların nasıl izleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir belgeyi düzenlemek, onları izlemeye başlayana kadar genellikle bir revizyon sayılmaz.
+// Bir belgeyi düzenlemek genellikle biz onu izlemeye başlayana kadar revizyon olarak sayılmaz.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -135,8 +135,8 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// Revizyon oluşturmak onlara işlemin tarihini ve saatini verir.
-// Revizyonları izlemeye başladığımızda DateTime.MinValue ileterek bunu devre dışı bırakabiliriz.
+// Revizyonların oluşturulması onlara işlemin tarihini ve saatini verir.
+// Revizyonları izlemeye başladığımızda DateTime.MinValue'yu ileterek bunu devre dışı bırakabiliriz.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -144,9 +144,9 @@ Assert.AreEqual(2, doc.Revisions.Count);
 Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
-// Bu revizyonları programlı olarak kabul/reddetebiliriz
-// Document.AcceptAllRevisions gibi yöntemleri veya her revizyonun Kabul Et yöntemini çağırarak.
-// Microsoft Word'de bunları "İnceleme" -> "Değişiklikler".
+// Bu revizyonları programlı olarak kabul edebilir/reddedebiliriz
+// Document.AcceptAllRevisions gibi yöntemleri veya her revizyonun Accept yöntemini çağırarak.
+// Microsoft Word'de bunları "İncele" -> aracılığıyla manuel olarak işleyebiliriz. "Değişiklikler".
 doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 ```
 

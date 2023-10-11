@@ -1,14 +1,14 @@
 ---
 title: VbaModule.Type
 second_title: Aspose.Words for .NET API Referansı
-description: VbaModule mülk. Modülün bir prosedür modülü belge modülü sınıf modülü veya tasarımcı modülü olup olmadığını belirtir.
+description: VbaModule mülk. Modülün prosedür modülü belge modülü sınıf modülü veya tasarımcı modülü olup olmadığını belirtir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.vba/vbamodule/type/
 ---
 ## VbaModule.Type property
 
-Modülün bir prosedür modülü, belge modülü, sınıf modülü veya tasarımcı modülü olup olmadığını belirtir.
+Modülün prosedür modülü, belge modülü, sınıf modülü veya tasarımcı modülü olup olmadığını belirtir.
 
 ```csharp
 public VbaModuleType Type { get; set; }
@@ -26,7 +26,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Yeni bir modül oluşturun ve bir makro kaynak kodu belirleyin.
+// Yeni bir modül oluşturun ve bir makro kaynak kodu belirtin.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

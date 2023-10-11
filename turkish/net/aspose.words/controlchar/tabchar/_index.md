@@ -16,7 +16,7 @@ public const char TabChar;
 
 ### Örnekler
 
-Sekme durdurma konumları için özel bir aralığın nasıl ayarlanacağını gösterir.
+Sekme durağı konumları için özel aralığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

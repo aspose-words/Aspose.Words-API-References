@@ -1,14 +1,14 @@
 ---
 title: Table.CellSpacing
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücreler arasındaki boşluk miktarını nokta olarak alır veya ayarlar.
+description: Table mülk. Hücreler arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/table/cellspacing/
 ---
 ## Table.CellSpacing property
 
-Hücreler arasındaki boşluk miktarını (nokta olarak) alır veya ayarlar.
+Hücreler arasındaki boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double CellSpacing { get; set; }
@@ -16,7 +16,7 @@ public double CellSpacing { get; set; }
 
 ### Örnekler
 
-Tablodaki tek tek hücreler arasında boşluk bırakmanın nasıl etkinleştirileceğini gösterir.
+Tablodaki tek tek hücreler arasındaki boşluğun nasıl etkinleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Hücreler arasında boşluk bırakmak için "AllowCellSpacing" özelliğini "true" olarak ayarlayın
-// nokta olarak "CellSpacing" özelliğinin değerine eşit büyüklükte.
+// Hücreler arasındaki boşluğu etkinleştirmek için "AllowCellSpacing" özelliğini "true" olarak ayarlayın
+// "CellSpacing" özelliğinin değerine eşit büyüklükte, nokta cinsinden.
 // Hücre aralığını devre dışı bırakmak için "AllowCellSpacing" özelliğini "false" olarak ayarlayın
 // ve "CellSpacing" özelliğinin değerini yok sayın.
 table.AllowCellSpacing = allowCellSpacing;
@@ -81,7 +81,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

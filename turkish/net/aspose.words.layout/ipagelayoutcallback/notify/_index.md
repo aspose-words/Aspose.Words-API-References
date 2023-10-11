@@ -1,14 +1,14 @@
 ---
 title: IPageLayoutCallback.Notify
 second_title: Aspose.Words for .NET API Referansı
-description: IPageLayoutCallback yöntem. Bu düzen oluşturma ve işleme ilerleme durumunu bildirmek için çağrılır.
+description: IPageLayoutCallback yöntem. Bu düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-Bu, düzen oluşturma ve işleme ilerleme durumunu bildirmek için çağrılır.
+Bu, düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -20,14 +20,13 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ### Notlar
 
-Uygulama tarafından oluşturulduğunda özel durum, düzen oluşturma işlemini iptal eder.
+Uygulama tarafından oluşturulan istisna, düzen oluşturma sürecini iptal eder.
 
 ### Örnekler
 
-Bir düzen geri çağırma ile düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -43,8 +42,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit bir sayfa biçiminde kaydettiğimizde bize haber verir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı oluşturur.
+/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

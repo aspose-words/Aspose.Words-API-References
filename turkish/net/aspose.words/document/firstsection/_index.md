@@ -16,11 +16,11 @@ public Section FirstSection { get; }
 
 ### Notlar
 
-İade`hükümsüz` bölüm yoksa.
+İadeler`hükümsüz` bölüm yoksa.
 
 ### Örnekler
 
-Belgenin alt bilgisindeki metnin nasıl değiştirileceğini gösterir.
+Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -40,25 +40,25 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Belge oluşturucu ile yeni bir bölümün nasıl oluşturulacağını gösterir.
+Belge oluşturucuyla yeni bir bölümün nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
 // Boş bir belge varsayılan olarak bir bölüm içerir,
-// düzenleyebileceğimiz alt düğümleri içeren.
+// düzenleyebileceğimiz alt düğümleri içerir.
 Assert.AreEqual(1, doc.Sections.Count);
 
 // İlk bölüme metin eklemek için bir belge oluşturucu kullanın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Bir bölüm sonu ekleyerek ikinci bir bölüm oluşturun.
+// Bölüm sonu ekleyerek ikinci bir bölüm oluşturun.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Her bölümün kendi sayfa kurulum ayarları vardır.
+// Her bölümün kendi sayfa yapısı ayarları vardır.
 // İkinci bölümdeki metni iki sütuna bölebiliriz.
 // Bu, ilk bölümdeki metni etkilemeyecektir.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
@@ -86,8 +86,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Bir Bölüm, bileşik bir düğümdür ve alt düğümler içerebilir,
-// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm türündeyse.
+// Bölüm bileşik bir düğümdür ve alt düğümler içerebilir,
+// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm tipindeyse.
 foreach (Node node in section)
 {
     switch (node.NodeType)

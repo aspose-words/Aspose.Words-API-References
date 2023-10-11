@@ -14,6 +14,23 @@ Bununla ilişkili kolay adı belirtir **SDT** . Boş olamaz.
 public string Title { get; set; }
 ```
 
+### Örnekler
+
+Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Yapılandırılmış belge etiketini kimliğe göre alın.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Başlığa göre yapılandırılmış belge etiketini veya aralıklı etiketi alın.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### Ayrıca bakınız
 
 * interface [IStructuredDocumentTag](../)

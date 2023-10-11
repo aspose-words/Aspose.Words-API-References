@@ -1,14 +1,14 @@
 ---
 title: Enum ImageType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ImageType Sıralama. Bir Microsoft Word belgesindeki görüntünün türünü formatını belirtir.
+description: Aspose.Words.Drawing.ImageType Sıralama. Microsoft Word belgesindeki görüntünün türünü biçimini belirtir.
 type: docs
-weight: 950
+weight: 1080
 url: /tr/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
 
-Bir Microsoft Word belgesindeki görüntünün türünü (formatını) belirtir.
+Microsoft Word belgesindeki görüntünün türünü (biçimini) belirtir.
 
 ```csharp
 public enum ImageType
@@ -18,14 +18,15 @@ public enum ImageType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| NoImage | `0` | Görüntü verisi yok. |
-| Unknown | `1` | Bilinmeyen bir görüntü türü veya doğrudan bir Microsoft Word belgesi içinde saklanamayan görüntü türü. |
-| Emf | `2` | Windows Gelişmiş Meta Dosyası. |
+| NoImage | `0` | Resim verisi yok. |
+| Unknown | `1` | Bilinmeyen bir görüntü türü veya Microsoft Word belgesinde doğrudan depolanamayan görüntü türü. |
+| Emf | `2` | Windows Geliştirilmiş Meta Dosyası. |
 | Wmf | `3` | Windows Meta Dosyası. |
-| Pict | `4` | Macintosh PICT. Bir belgede mevcut bir resim korunacak, ancak bir belgeye new PICT resimlerinin eklenmesi desteklenmiyor. |
+| Pict | `4` | Macintosh PICT. Mevcut bir görüntü bir belgede korunacaktır ancak yeni PICT görüntülerinin bir belgeye eklenmesi desteklenmez. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Taşınabilir Ağ Grafikleri. |
 | Bmp | `7` | Windows Bitmap. |
+| Eps | `8` | Encapsulated PostScript. |
 
 ### Örnekler
 
@@ -41,7 +42,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
 
-    // URL'deki resim bir .gif'tir. Bir belgeye eklemek onu bir .png'ye dönüştürür.
+    // URL'deki resim bir .gif'tir. Bunu bir belgeye eklemek, onu bir .png dosyasına dönüştürür.
     Shape imgShape = builder.InsertImage(image);
     Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 }

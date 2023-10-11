@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Eski Etiyopya Dili ve Amharca Satır Kesme Kurallarını Kullanın.
+description: CompatibilityOptions mülk. Eski Etiyopya ve Amharca Sınır Aşan Kurallarını Kullanın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-Eski Etiyopya Dili ve Amharca Satır Kesme Kurallarını Kullanın.
+Eski Etiyopya ve Amharca Sınır Aşan Kurallarını Kullanın.
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

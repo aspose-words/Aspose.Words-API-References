@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.HRef
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bir şekil için tam köprü adresini alır veya ayarlar.
+description: ShapeBase mülk. Bir şeklin tam köprü adresini alır veya ayarlar.
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
 
-Bir şekil için tam köprü adresini alır veya ayarlar.
+Bir şeklin tam köprü adresini alır veya ayarlar.
 
 ```csharp
 public string HRef { get; set; }
@@ -22,19 +22,19 @@ Aşağıda bu özellik için geçerli değer örnekleri verilmiştir:
 
 Tam URI:`https://www.aspose.com/`.
 
-Tam dosya adı:`C:\\Belgelerim\\SatışRaporu.doc`.
+Tam dosya adı:`C:\\Belgelerim\\SalesReport.doc`.
 
 Göreli URI:`../../../resource.txt`
 
-Göreli dosya adı:`..\\Belgelerim\\Satış Raporu.doc`.
+Göreli dosya adı:`..\\Belgelerim\\SalesReport.doc`.
 
-Başka bir belgede yer imi:`https://www.aspose.com/Products/Default.aspx#Suites`
+Başka bir belgeye yer işareti koyun:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Bu belgedeki yer imi:`#BookmakName`.
+Bu belgedeki yer işareti:`#KitapmakAdı`.
 
 ### Örnekler
 
-Görüntü içeren ve aynı zamanda bir köprü olan bir şeklin nasıl ekleneceğini gösterir.
+Görüntü içeren ve aynı zamanda köprü olan bir şeklin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -45,8 +45,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Microsoft Word'de şekle Ctrl + sol tıklamak yeni bir web tarayıcı penceresi açacaktır
-// ve bizi "HRef" özelliğindeki köprüye götürün.
+// Ctrl + Microsoft Word'deki şekle sol tıklamak yeni bir web tarayıcı penceresi açacaktır
+// ve bizi "HRef" özelliğindeki köprüye götür.
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

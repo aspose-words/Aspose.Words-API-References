@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Belgeyi HTML veya MHTMLye kaydederken kullanılması gereken HTML standardının sürümünü belirtir. Varsayılan değerXhtml .
+description: HtmlSaveOptions mülk. Belgeyi HTML veya MHTMLye kaydederken kullanılması gereken HTML standardı sürümünü belirtir. Varsayılan değerXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /tr/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
 
-Belgeyi HTML veya MHTML'ye kaydederken kullanılması gereken HTML standardının sürümünü belirtir. Varsayılan değerXhtml .
+Belgeyi HTML veya MHTML'ye kaydederken kullanılması gereken HTML standardı sürümünü belirtir. Varsayılan değer:Xhtml .
 
 ```csharp
 public HtmlVersion HtmlVersion { get; set; }
@@ -33,14 +33,14 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// "ExportXhtmlTransitional" bayrağını "true" olarak ayarlamışsak, belgemiz yalnızca bir DOCTYPE bildirim başlığı içerecektir.
+// "ExportXhtmlTransitional" bayrağını "true" olarak ayarlamışsak, belgemiz yalnızca DOCTYPE bildirim başlığını içerecektir.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
         "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\">");
+        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
 ```
@@ -58,7 +58,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// HTML belgelerimiz, farklı HTML sürümleriyle uyumlu olması için küçük farklılıklara sahip olacaktır.
+// HTML belgelerimiz farklı HTML sürümleriyle uyumlu olması açısından ufak farklılıklara sahip olacaktır.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

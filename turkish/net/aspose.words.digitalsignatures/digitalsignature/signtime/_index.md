@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignTime
 second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Belgenin imzalandığı saati alır.
+description: DigitalSignature mülk. Belgenin imzalandığı zamanı alır.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-Belgenin imzalandığı saati alır.
+Belgenin imzalandığı zamanı alır.
 
 ```csharp
 public DateTime SignTime { get; }
@@ -16,7 +16,7 @@ public DateTime SignTime { get; }
 
 ### Örnekler
 
-Bir belgedeki her imzayla ilgili bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
+Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

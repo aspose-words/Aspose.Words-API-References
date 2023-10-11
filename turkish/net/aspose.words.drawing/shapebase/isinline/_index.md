@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsInline
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şeklin metinle aynı hizada olup olmadığını belirlemenin hızlı bir yolu.
+description: ShapeBase mülk. Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu.
 type: docs
-weight: 280
+weight: 290
 url: /tr/net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property
 
-Bu şeklin metinle aynı hizada olup olmadığını belirlemenin hızlı bir yolu.
+Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu.
 
 ```csharp
 public bool IsInline { get; }
@@ -26,30 +26,30 @@ Bir şeklin satır içi mi yoksa kayan mı olduğunun nasıl belirleneceğini g�
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, şekillerin sahip olabileceği iki sarma türü bulunmaktadır.
+// Aşağıda şekillerin sahip olabileceği iki sarma türü verilmiştir.
 // 1 - Satır içi:
 builder.Write("Hello world! ");
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 100);
 shape.FillColor = Color.LightBlue;
 builder.Write(" Hello again.");
 
-// Satır içi şekil, metin dizileri gibi diğer paragraf öğelerinin arasında bir paragrafın içinde bulunur.
-// Microsoft Word'de şekli tıklayıp herhangi bir paragrafa bir karaktermiş gibi sürükleyebiliriz.
-// Şekil büyükse dikey paragraf aralığını etkiler.
+// Satır içi şekil, paragrafın içinde, metin dizileri gibi diğer paragraf öğelerinin arasında yer alır.
+// Microsoft Word'de şekle tıklayıp herhangi bir paragrafa sanki bir karaktermiş gibi sürükleyebiliriz.
+// Şeklin büyük olması dikey paragraf aralığını etkileyecektir.
 // Bu şekli paragrafsız bir yere taşıyamayız.
 Assert.AreEqual(WrapType.Inline, shape.WrapType);
 Assert.True(shape.IsInline);
 
-// 2 - Yüzer:
+// 2 - Kayan:
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin ,200, 
     RelativeVerticalPosition.TopMargin ,200, 100, 100, WrapType.None);
 shape.FillColor = Color.Orange;
 
-// Bir kayan şekil, onu eklediğimiz paragrafa aittir,
-// şekli tıkladığımızda görünen bir bağlantı sembolü ile belirleyebiliriz.
+// Kayan bir şekil onu eklediğimiz paragrafa aittir,
+// bunu şekle tıkladığımızda beliren bağlantı sembolüyle belirleyebiliriz.
 // Şeklin solunda görünür bir bağlantı sembolü yoksa,
-// "Seçenekler" -> aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek "Ekran" -> "Nesne Çapaları".
-// Microsoft Word'de bu şekli sol tıklayıp herhangi bir yere serbestçe sürükleyebiliriz.
+// "Seçenekler" aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek -> "Ekran" -> "Nesne Bağlantıları".
+// Microsoft Word'de bu şekle sol tıklayıp serbestçe herhangi bir yere sürükleyebiliriz.
 Assert.AreEqual(WrapType.None, shape.WrapType);
 Assert.False(shape.IsInline);
 

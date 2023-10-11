@@ -18,7 +18,7 @@ public bool Shadow { get; set; }
 
 Koleksiyondaki ilk kenarlıktan değeri alır.
 
-Çapraz kenarlıklar hariç koleksiyondaki tüm kenarlıklar için değeri ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların değerini ayarlar.
 
 ### Örnekler
 

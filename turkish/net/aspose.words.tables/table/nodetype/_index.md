@@ -1,14 +1,14 @@
 ---
 title: Table.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. İade DüğümTürü.Tablo .
+description: Table mülk. İadelerTable .
 type: docs
 weight: 210
 url: /tr/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-İade **DüğümTürü.Tablo** .
+İadelerTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,22 +16,23 @@ public override NodeType NodeType { get; }
 
 ### Örnekler
 
-Bir bileşik düğümün alt düğümler ağacında nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Belgenin kendisi gibi alt düğümler içerebilen herhangi bir düğüm bileşiktir.
+    // Belgenin kendisi gibi alt düğümleri içerebilen herhangi bir düğüm bileşiktir.
     Assert.True(doc.IsComposite);
 
-    // Bir bileşik düğümün tüm alt düğümlerini geçecek ve yazdıracak özyinelemeli işlevi çağırın.
+    // Bileşik bir düğümün tüm alt düğümlerini tarayacak ve yazdıracak özyinelemeli işlevi çağırın.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Her bir düğümün türünü yazdırırken bir düğüm ağacında yinelemeli olarak geçer
-/// tüm satır içi düğümlerin içeriğinin yanı sıra derinliğe bağlı bir girinti ile.
+/// Her düğümün türünü yazdırırken yinelemeli olarak bir düğüm ağacını geçer
+/// tüm satır içi düğümlerin içeriğinin yanı sıra derinliğe bağlı olarak bir girinti ile.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -39,7 +40,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Bileşik bir düğümse, düğüme tekrar gir. Aksi takdirde, bir satır içi düğüm ise içeriğini yazdırın.
+        // Eğer düğüm bir bileşik düğümse, düğüme yineleme yapın. Aksi takdirde, satır içi düğüm ise içeriğini yazdırın.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -57,23 +58,22 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 }
 ```
 
-Bir tablonun iç içe olup olmadığını nasıl öğreneceğinizi gösterir.
+Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt öğe olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,10 +85,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içinde hangi düzeyde iç içe olduğunu hesaplar.
+/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini gösteren bir tam sayı (üst tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -106,11 +106,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında tekrar tekrar dolaşmayın.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
 /// </summary>
 /// <returns>
-/// En az bir alt hücre bir tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false döndürür.
+/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
+/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

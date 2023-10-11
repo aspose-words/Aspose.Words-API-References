@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye çevrimiçi bir video nesnesi ekler ve onu belirtilen boyuta ölçeklendirir.
+description: DocumentBuilder yöntem. Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 type: docs
-weight: 390
+weight: 420
 url: /tr/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
 ## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
 
-Belgeye çevrimiçi bir video nesnesi ekler ve onu belirtilen boyuta ölçeklendirir.
+Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertOnlineVideo(string videoUrl, double width, double height)
@@ -17,8 +17,8 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | videoUrl | String | Videonun URL'si. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -26,20 +26,20 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz doğru şekilde görüntülenmiyorsa şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
 
-Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
+Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir; ayrıntılar için ilgili sağlayıcınıza danışın.
 
 ### Örnekler
 
-URL kullanarak bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
+URL kullanarak çevrimiçi bir videonun bir belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.InsertOnlineVideo("https://youtu.be/t_1LYZ102RA", 360, 270);
 
-// Şekle tıklayarak videoyu Microsoft Word'den izleyebiliriz.
+// Şeklin üzerine tıklayarak Microsoft Word'den videoyu izleyebiliriz.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 ```
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
 
-Belgeye çevrimiçi bir video nesnesi ekler ve onu belirtilen boyuta ölçeklendirir.
+Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzPos, double left, 
@@ -72,13 +72,13 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | videoUrl | String | Videonun URL'si. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -86,20 +86,20 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz doğru şekilde görüntülenmiyorsa şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
 
-Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
+Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir; ayrıntılar için ilgili sağlayıcınıza danışın.
 
 ### Örnekler
 
-Bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
+Çevrimiçi videonun bir belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -108,9 +108,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string videoUrl = "https://vimeo.com/52477838";
 
 // Microsoft Word'de tıklandığında web'den video oynatan bir şekil ekleyin.
-// Bu dikdörtgen şekil, bağlantılı videonun ilk karesine dayalı bir resim içerecektir
-// ve bir "oynat düğmesi" görsel istemi. Videonun en boy oranı 16:9.
-// Şeklin boyutunu bu orana göre ayarlayacağız, böylece görüntü gergin görünmez.
+// Bu dikdörtgen şekil, bağlantılı videonun ilk karesine dayalı bir görüntü içerecektir
+// ve bir "oynat düğmesi" görsel istemi. Videonun en boy oranı 16:9'dur.
+// Şeklin boyutunu bu orana ayarlayacağız, böylece görüntü gergin görünmüyor.
 builder.InsertOnlineVideo(videoUrl, RelativeHorizontalPosition.LeftMargin, 0,
     RelativeVerticalPosition.TopMargin, 0, 320, 180, WrapType.Square);
 
@@ -131,7 +131,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
 
-Belgeye çevrimiçi bir video nesnesi ekler ve onu belirtilen boyuta ölçeklendirir.
+Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] thumbnailImageBytes, 
@@ -141,10 +141,10 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | videoUrl | String | Videonun URL'si. |
-| videoEmbedCode | String | Videonun gömme kodu. |
-| thumbnailImageBytes | Byte[] | Küçük resim baytları. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| videoEmbedCode | String | Videonun yerleştirme kodu. |
+| thumbnailImageBytes | Byte[] | Küçük resim görüntüsü baytları. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -152,11 +152,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Özel bir küçük resimle çevrimiçi bir videonun bir belgeye nasıl ekleneceğini gösterir.
+Özel küçük resim içeren bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -164,7 +164,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" genişlik=\"640\" yükseklik=\"360\" çerçeveborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -173,9 +173,9 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Aşağıda, çevrimiçi bir videoya bağlantı veren özel bir küçük resim ile bir şekil oluşturmanın iki yolu bulunmaktadır.
-        // Microsoft Word'deki şekle tıkladığımızda oynayacak.
-        // 1 - Oluşturucunun düğüm ekleme imlecine bir satır içi şekil ekleyin:
+        // Aşağıda, çevrimiçi bir videoya bağlantı veren özel küçük resimle şekil oluşturmanın iki yolu verilmiştir
+        // Microsoft Word'deki şekle tıkladığımızda çalacak.
+        // 1 - Oluşturucunun düğüm ekleme imlecine satır içi bir şekil ekleyin:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);
@@ -204,7 +204,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
 
-Belgeye çevrimiçi bir video nesnesi ekler ve onu belirtilen boyuta ölçeklendirir.
+Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] thumbnailImageBytes, 
@@ -215,15 +215,15 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | videoUrl | String | Videonun URL'si. |
-| videoEmbedCode | String | Videonun gömme kodu. |
-| thumbnailImageBytes | Byte[] | Küçük resim baytları. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| videoEmbedCode | String | Videonun yerleştirme kodu. |
+| thumbnailImageBytes | Byte[] | Küçük resim görüntüsü baytları. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -231,11 +231,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Özel bir küçük resimle çevrimiçi bir videonun bir belgeye nasıl ekleneceğini gösterir.
+Özel küçük resim içeren bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -243,7 +243,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" genişlik=\"640\" yükseklik=\"360\" çerçeveborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -252,9 +252,9 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Aşağıda, çevrimiçi bir videoya bağlantı veren özel bir küçük resim ile bir şekil oluşturmanın iki yolu bulunmaktadır.
-        // Microsoft Word'deki şekle tıkladığımızda oynayacak.
-        // 1 - Oluşturucunun düğüm ekleme imlecine bir satır içi şekil ekleyin:
+        // Aşağıda, çevrimiçi bir videoya bağlantı veren özel küçük resimle şekil oluşturmanın iki yolu verilmiştir
+        // Microsoft Word'deki şekle tıkladığımızda çalacak.
+        // 1 - Oluşturucunun düğüm ekleme imlecine satır içi bir şekil ekleyin:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);

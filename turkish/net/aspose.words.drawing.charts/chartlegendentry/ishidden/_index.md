@@ -1,14 +1,14 @@
 ---
 title: ChartLegendEntry.IsHidden
 second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntry mülk. Bu girdinin grafik göstergesinde gizlenip gizlenmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer yanlış .
+description: ChartLegendEntry mülk. Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer YANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Bu girdinin grafik göstergesinde gizlenip gizlenmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer **yanlış** .
+Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer: **YANLIŞ** .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -16,7 +16,39 @@ public bool IsHidden { get; set; }
 
 ### Notlar
 
-Bir grafik göstergesi girişi gizlendiğinde, bu, hala grafikte görüntülenen ilgili grafik serisini veya eğilim çizgisini etkilemez.
+Bir grafik göstergesi girişi gizlendiğinde, ilgili grafik serisini veya grafikte hala görüntülenen trend çizgisini etkilemez.
+
+### Örnekler
+
+Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+Chart chart = shape.Chart;
+ChartSeriesCollection series = chart.Series;
+series.Clear();
+
+string[] categories = new string[] { "AW Category 1", "AW Category 2" };
+
+ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
+series.Add("Series 2", categories, new double[] { 3, 4 });
+series.Add("Series 3", categories, new double[] { 5, 6 });
+series.Add("Series 4", categories, new double[] { 0, 0 });
+
+ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
+legendEntries[3].IsHidden = true;
+
+foreach (ChartLegendEntry legendEntry in legendEntries)
+    legendEntry.Font.Size = 12;
+
+series1.LegendEntry.Font.Italic = true;
+
+doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+```
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.CurrentShape
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. ShapeBase kaydedilmek üzere olan şekle veya grup şekline karşılık gelen nesne.
+description: ImageSavingArgs mülk. AlırShapeBase kaydedilmek üzere olan şekline veya grup şekline karşılık gelen nesne.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/imagesavingargs/currentshape/
 ---
 ## ImageSavingArgs.CurrentShape property
 
-[`ShapeBase`](../../../aspose.words.drawing/shapebase/) kaydedilmek üzere olan şekle veya grup şekline karşılık gelen nesne.
+Alır[`ShapeBase`](../../../aspose.words.drawing/shapebase/) kaydedilmek üzere olan şekline veya grup şekline karşılık gelen nesne.
 
 ```csharp
 public ShapeBase CurrentShape { get; }
@@ -16,21 +16,22 @@ public ShapeBase CurrentShape { get; }
 
 ### Notlar
 
-[`IImageSavingCallback`](../../iimagesavingcallback/) bir şekil veya grup şekli kaydedilirken ateşlenebilir. Bu nedenle mülkün[`ShapeBase`](../../../aspose.words.drawing/shapebase/) tip. ile karşılaştırarak bunun bir grup şekli olup olmadığını kontrol edebilirsiniz.[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) ile birlikteGroup veya türetilmiş sınıflardan birine aktararak: [`Shape`](../../../aspose.words.drawing/shape/) veya[`GroupShape`](../../../aspose.words.drawing/groupshape/).
+[`IImageSavingCallback`](../../iimagesavingcallback/) bir şekil veya grup şekli kaydedilirken tetiklenebilir. Bu nedenle mülkte[`ShapeBase`](../../../aspose.words.drawing/shapebase/) tip. 'yi karşılaştıran bir grup şekli olup olmadığını kontrol edebilirsiniz.[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) ileGroup veya türetilmiş sınıflardan birine aktararak: [`Shape`](../../../aspose.words.drawing/shape/) veya[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
-Aspose.Words, belgede bulunan her görüntü için benzersiz dosya adı oluşturmak için belge dosya adını ve benzersiz bir numarayı kullanır. kullanabilirsiniz`CurrentShape` gibi şekil özelliklerini inceleyerek "daha iyi" bir dosya adı oluşturma özelliği[`Title`](../../../aspose.words.drawing/imagedata/title/) (Yalnızca şekil),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (Yalnızca şekil) ve[`Name`](../../../aspose.words.drawing/shapebase/name/)Elbette dosya adlarını başka herhangi bir özellik veya ölçüt kullanarak oluşturabilirsiniz, ancak ikincil dosya adlarının dışa aktarma işlemi içinde benzersiz olması gerektiğini unutmayın.
+Aspose.Words, belgede bulunan her görüntü için benzersiz dosya adı oluşturmak amacıyla belge dosya adını ve benzersiz bir numarayı kullanır. Şunu kullanabilirsiniz:`CurrentShape`gibi şekil özelliklerini inceleyerek "daha iyi" bir dosya adı oluşturma özelliği[`Title`](../../../aspose.words.drawing/imagedata/title/) (Yalnızca şekil),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (Yalnızca şekil) ve[`Name`](../../../aspose.words.drawing/shapebase/name/). Tabii ki, diğer herhangi bir özelliği veya kriteri ( ) kullanarak dosya adları oluşturabilirsiniz, ancak yardımcı dosya adlarının dışa aktarma işleminde benzersiz olması gerektiğini unutmayın.
 
-Belgedeki bazı resimler kullanılamayabilir. Görüntü kullanılabilirliğini kontrol etmek için [`IsImageAvailable`](../isimageavailable/) Emlak.
+Belgedeki bazı resimler kullanılamayabilir. Resmin kullanılabilirliğini kontrol etmek için şunu kullanın:[`IsImageAvailable`](../isimageavailable/) mülk.
 
 ### Örnekler
 
-Bir HTML dönüştürme işlemine bir resim kaydetme geri aramasının nasıl dahil edileceğini gösterir.
+Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri arama atamak için bir SaveOptions nesnesi iletebiliriz
+    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
     // görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();

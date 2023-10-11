@@ -3,16 +3,16 @@ title: Enum CompressionLevel
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.CompressionLevel Sıralama. OOXML dosyaları için sıkıştırma düzeyi.
 type: docs
-weight: 4610
+weight: 4870
 url: /tr/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
 
 OOXML dosyaları için sıkıştırma düzeyi.
 
-(DOCX ve DOTX dosyaları dahili olarak bir ZIP arşividir, bu özellik arşivin sıkıştırma seviyesini kontrol eder.
+(DOCX ve DOTX dosyaları dahili olarak bir ZIP arşividir; bu özellik arşivin sıkıştırma düzeyini kontrol eder.
 
-FlatOpc dosyasının bir ZIP arşivi olmadığını unutmayın, bu nedenle bu özellik FlatOpc dosyalarını etkilemez.)
+FlatOpc dosyasının bir ZIP arşivi olmadığını, dolayısıyla bu özelliğin FlatOpc dosyalarını etkilemediğini unutmayın.)
 
 ```csharp
 public enum CompressionLevel
@@ -22,7 +22,7 @@ public enum CompressionLevel
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Normal | `0` | Normal sıkıştırma düzeyi. Aspose.Words. tarafından kullanılan varsayılan sıkıştırma seviyesi |
+| Normal | `0` | Normal sıkıştırma düzeyi. Aspose.Words. tarafından kullanılan varsayılan sıkıştırma düzeyi |
 | Maximum | `1` | Maksimum sıkıştırma düzeyi. |
 | Fast | `2` | Hızlı sıkıştırma düzeyi. |
 | SuperFast | `3` | Süper Hızlı sıkıştırma düzeyi. Microsoft Word bu sıkıştırma düzeyini kullanır. |
@@ -34,8 +34,8 @@ Bir OOXML belgesini kaydederken kullanılacak sıkıştırma düzeyinin nasıl b
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz.
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için belgenin kaydetme yöntemine iletin.
+// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
 // En güçlü ve en yavaş sıkıştırmayı uygulamak için "CompressionLevel" özelliğini "CompressionLevel.Maximum" olarak ayarlayın.
 // Uygulamak için "CompressionLevel" özelliğini "CompressionLevel.Normal" olarak ayarlayın
 // Aspose.Words'ün OOXML belgelerini kaydederken kullandığı varsayılan sıkıştırma.

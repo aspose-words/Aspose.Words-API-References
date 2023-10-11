@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Destination
 second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordün adres mektup birleştirme sonuçlarının nasıl çıktısını alacağını belirtir. Varsayılan değerDefault .
+description: MailMergeSettings mülk. Microsoft Wordün adresmektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değerDefault .
 type: docs
 weight: 80
 url: /tr/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-Microsoft Word'ün adres mektup birleştirme sonuçlarının nasıl çıktısını alacağını belirtir. Varsayılan değerDefault .
+Microsoft Word'ün adres-mektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değer:Default .
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
@@ -16,7 +16,7 @@ public MailMergeDestination Destination { get; set; }
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

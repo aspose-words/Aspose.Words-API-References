@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.PrefixMappings
 second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Değerlendirmek için XML ad alanı önek eşlemelerini döndürür.XPath .
+description: XmlMapping mülk. Değerlendirmek için XML ad alanı öneki eşlemelerini döndürürXPath .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
 ## XmlMapping.PrefixMappings property
 
-Değerlendirmek için XML ad alanı önek eşlemelerini döndürür.[`XPath`](../xpath/) .
+Değerlendirmek için XML ad alanı öneki eşlemelerini döndürür[`XPath`](../xpath/) .
 
 ```csharp
 public string PrefixMappings { get; }
@@ -16,7 +16,7 @@ public string PrefixMappings { get; }
 
 ### Notlar
 
-XPath ifadesi belgedeki özel XML veri bölümlerine karşı değerlendirildiğinde, XPath ifadesini yorumlamak için kullanılacak önek eşlemeleri kümesini belirtir.
+XPath ifadesi belgedeki özel XML veri bölümlerine göre değerlendirildiğinde XPath ifadesini yorumlamak için kullanılacak önek eşlemeleri kümesini belirtir.
 
 ### Örnekler
 
@@ -25,7 +25,7 @@ XPath ifadesi belgedeki özel XML veri bölümlerine karşı değerlendirildiği
 ```csharp
 Document doc = new Document();
 
-// Metin içeren bir XML bölümü oluşturun ve bunu belgenin CustomXmlPart koleksiyonuna ekleyin.
+// Metin içeren bir XML parçası oluşturun ve bunu belgenin CustomXmlPart koleksiyonuna ekleyin.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -37,8 +37,8 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
 // Yapılandırılmış belge etiketimiz için bir eşleme ayarlayın. Bu haritalama talimat verecek
-// XPath'in işaret ettiği XML bölümünün metin içeriğinin bir bölümünü görüntülemek için yapılandırılmış belge etiketimiz.
-// Bu durumda, ikinci "<metin>" içeriği olacaktır. ilk "<root>" öğesi öğe: "Metin öğesi #2".
+// XPath'ın işaret ettiği XML bölümünün metin içeriğinin bir kısmını görüntülemek için yapılandırılmış belge etiketimiz.
+// Bu durumda, ikinci "<text>" içeriği olacaktır. ilk "<root>" öğesinin öğesi öğe: "Metin öğesi #2".
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);

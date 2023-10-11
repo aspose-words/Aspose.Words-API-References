@@ -1,14 +1,16 @@
 ---
 title: Class Font
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Font sınıf. Bir nesne için yazı tipi niteliklerini yazı tipi adı yazı tipi boyutu rengi vb. içerir.
+description: Aspose.Words.Font sınıf. Bir nesnenin yazı tipi niteliklerini yazı tipi adı yazı tipi boyutu rengi vb. içerir.
 type: docs
-weight: 2650
+weight: 2830
 url: /tr/net/aspose.words/font/
 ---
 ## Font class
 
-Bir nesne için yazı tipi niteliklerini (yazı tipi adı, yazı tipi boyutu, rengi vb.) içerir.
+Bir nesnenin yazı tipi niteliklerini (yazı tipi adı, yazı tipi boyutu, rengi vb.) içerir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public class Font
@@ -18,58 +20,58 @@ public class Font
 
 | İsim | Tanım |
 | --- | --- |
-| [AllCaps](../../aspose.words/font/allcaps/) { get; set; } | Yazı tipi tamamı büyük harflerle biçimlendirilmişse doğrudur. |
-| [AutoColor](../../aspose.words/font/autocolor/) { get; } | 'otomatik renk' için kullanılacak metnin mevcut hesaplanmış rengini (siyah veya beyaz) döndürür. Renk 'otomatik' değilse, o zaman döndürür[`Color`](./color/) . |
-| [Bidi](../../aspose.words/font/bidi/) { get; set; } | Bu çalıştırmanın içeriğinin sağdan sola özelliklere sahip olup olmayacağını belirtir. |
+| [AllCaps](../../aspose.words/font/allcaps/) { get; set; } | Yazı tipinin tamamı büyük harflerle biçimlendirilmişse doğrudur. |
+| [AutoColor](../../aspose.words/font/autocolor/) { get; } | 'Otomatik renk' için kullanılacak metnin hesaplanmış mevcut rengini (siyah veya beyaz) döndürür. Renk 'otomatik' değilse şunu döndürür:[`Color`](./color/) . |
+| [Bidi](../../aspose.words/font/bidi/) { get; set; } | Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmayacağını belirtir. |
 | [Bold](../../aspose.words/font/bold/) { get; set; } | Yazı tipi kalın olarak biçimlendirilmişse doğrudur. |
-| [BoldBi](../../aspose.words/font/boldbi/) { get; set; } | Sağdan sola yazılan metin kalın olarak biçimlendirilmişse doğrudur. |
-| [Border](../../aspose.words/font/border/) { get; } | Yazı tipi için kenarlık belirten bir Border nesnesi döndürür. |
+| [BoldBi](../../aspose.words/font/boldbi/) { get; set; } | Sağdan sola metin kalın olarak biçimlendirilmişse doğrudur. |
+| [Border](../../aspose.words/font/border/) { get; } | Bir değeri döndürür[`Border`](../border/) yazı tipinin kenarlığını belirten nesne. |
 | [Color](../../aspose.words/font/color/) { get; set; } | Yazı tipinin rengini alır veya ayarlar. |
-| [ComplexScript](../../aspose.words/font/complexscript/) { get; set; } | Bu çalıştırmanın içeriğinin, bu çalıştırma için biçimlendirme belirlenirken Unicode karakter değerlerinden bağımsız olarak karmaşık kod metni olarak ele alınıp alınmayacağını belirtir. |
+| [ComplexScript](../../aspose.words/font/complexscript/) { get; set; } | Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden bağımsız olarak bu çalıştırmanın içeriğinin karmaşık komut dosyası metni olarak değerlendirilip değerlendirilmeyeceğini belirtir. |
 | [DoubleStrikeThrough](../../aspose.words/font/doublestrikethrough/) { get; set; } | Yazı tipi çift üstü çizili metin olarak biçimlendirilmişse doğrudur. |
 | [Emboss](../../aspose.words/font/emboss/) { get; set; } | Yazı tipi kabartmalı olarak biçimlendirilmişse doğrudur. |
 | [EmphasisMark](../../aspose.words/font/emphasismark/) { get; set; } | Bu biçimlendirmeye uygulanan vurgu işaretini alır veya ayarlar. |
-| [Engrave](../../aspose.words/font/engrave/) { get; set; } | Yazı tipi oyulmuş olarak biçimlendirilmişse doğrudur. |
-| [Fill](../../aspose.words/font/fill/) { get; } | Font. için dolgu biçimlendirmesini alır |
+| [Engrave](../../aspose.words/font/engrave/) { get; set; } | Yazı tipi gravür olarak biçimlendirilmişse doğrudur. |
+| [Fill](../../aspose.words/font/fill/) { get; } | Dolgu formatını alır`Font` . |
 | [Hidden](../../aspose.words/font/hidden/) { get; set; } | Yazı tipi gizli metin olarak biçimlendirilmişse doğrudur. |
 | [HighlightColor](../../aspose.words/font/highlightcolor/) { get; set; } | Vurgu (işaretçi) rengini alır veya ayarlar. |
 | [Italic](../../aspose.words/font/italic/) { get; set; } | Yazı tipi italik olarak biçimlendirilmişse doğrudur. |
-| [ItalicBi](../../aspose.words/font/italicbi/) { get; set; } | Sağdan sola yazılan metin italik olarak biçimlendirilmişse doğrudur. |
-| [Kerning](../../aspose.words/font/kerning/) { get; set; } | Karakter aralığının başladığı yazı tipi boyutunu alır veya ayarlar. |
-| [LineSpacing](../../aspose.words/font/linespacing/) { get; } | Bu yazı tipinin satır aralığını (puan olarak) döndürür. |
+| [ItalicBi](../../aspose.words/font/italicbi/) { get; set; } | Sağdan sola metin italik olarak biçimlendirilmişse doğrudur. |
+| [Kerning](../../aspose.words/font/kerning/) { get; set; } | Karakter aralığının başlayacağı yazı tipi boyutunu alır veya ayarlar. |
+| [LineSpacing](../../aspose.words/font/linespacing/) { get; } | Bu yazı tipinin satır aralığını döndürür (nokta cinsinden). |
 | [LocaleId](../../aspose.words/font/localeid/) { get; set; } | Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını (dili) alır veya ayarlar. |
-| [LocaleIdBi](../../aspose.words/font/localeidbi/) { get; set; } | Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını (dilini) alır veya ayarlar. |
+| [LocaleIdBi](../../aspose.words/font/localeidbi/) { get; set; } | Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını (dili) alır veya ayarlar. |
 | [LocaleIdFarEast](../../aspose.words/font/localeidfareast/) { get; set; } | Biçimlendirilmiş Asya karakterlerinin yerel ayar tanımlayıcısını (dili) alır veya ayarlar. |
 | [Name](../../aspose.words/font/name/) { get; set; } | Yazı tipinin adını alır veya ayarlar. |
-| [NameAscii](../../aspose.words/font/nameascii/) { get; set; } | Latince metin için kullanılan yazı tipini döndürür veya ayarlar (0'dan (sıfır) 127'ye kadar karakter kodlu karakterler). |
-| [NameBi](../../aspose.words/font/namebi/) { get; set; } | Sağdan sola yazılan bir dil belgesinde yazı tipinin adını döndürür veya ayarlar. |
+| [NameAscii](../../aspose.words/font/nameascii/) { get; set; } | Latince metin için kullanılan yazı tipini döndürür veya ayarlar (0 (sıfır) ile 127 arasında karakter kodlarına sahip karakterler). |
+| [NameBi](../../aspose.words/font/namebi/) { get; set; } | Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar. |
 | [NameFarEast](../../aspose.words/font/namefareast/) { get; set; } | Doğu Asya yazı tipi adını döndürür veya ayarlar. |
-| [NameOther](../../aspose.words/font/nameother/) { get; set; } | 128 ile 255 arasında karakter kodlarına sahip karakterler için kullanılan yazı tipini döndürür veya ayarlar. |
-| [NoProofing](../../aspose.words/font/noproofing/) { get; set; } | Biçimlendirilmiş karakterler yazım denetimi yapılmadığında doğrudur. |
+| [NameOther](../../aspose.words/font/nameother/) { get; set; } | 128'den 255'e kadar karakter kodlarına sahip karakterler için kullanılan yazı tipini döndürür veya ayarlar. |
+| [NoProofing](../../aspose.words/font/noproofing/) { get; set; } | Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrudur. |
 | [Outline](../../aspose.words/font/outline/) { get; set; } | Yazı tipi anahat olarak biçimlendirilmişse doğrudur. |
-| [Position](../../aspose.words/font/position/) { get; set; } | Taban çizgisine göre metnin konumunu (nokta olarak) alır veya ayarlar. Pozitif bir sayı metni yükseltir ve negatif bir sayı onu düşürür. |
-| [Scaling](../../aspose.words/font/scaling/) { get; set; } | Yüzde olarak karakter genişliği ölçeklemesini alır veya ayarlar. |
-| [Shading](../../aspose.words/font/shading/) { get; } | Yazı tipi için gölgeleme biçimlendirmesine başvuran bir Shading nesnesi döndürür. |
+| [Position](../../aspose.words/font/position/) { get; set; } | Metnin konumunu (nokta cinsinden) taban çizgisine göre alır veya ayarlar. Pozitif bir sayı metni yükseltir, negatif bir sayı ise alçaltır. |
+| [Scaling](../../aspose.words/font/scaling/) { get; set; } | Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar. |
+| [Shading](../../aspose.words/font/shading/) { get; } | Bir değeri döndürür[`Shading`](../shading/) yazı tipinin gölgelendirme formatını ifade eden nesne. |
 | [Shadow](../../aspose.words/font/shadow/) { get; set; } | Yazı tipi gölgeli olarak biçimlendirilmişse doğrudur. |
-| [Size](../../aspose.words/font/size/) { get; set; } | Yazı tipi boyutunu punto olarak alır veya ayarlar. |
+| [Size](../../aspose.words/font/size/) { get; set; } | Yazı tipi boyutunu nokta cinsinden alır veya ayarlar. |
 | [SizeBi](../../aspose.words/font/sizebi/) { get; set; } | Sağdan sola yazılan bir belgede kullanılan punto cinsinden yazı tipi boyutunu alır veya ayarlar. |
 | [SmallCaps](../../aspose.words/font/smallcaps/) { get; set; } | Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur. |
-| [SnapToGrid](../../aspose.words/font/snaptogrid/) { get; set; } | Geçerli yazı tipinin, yerleşim sırasında her satır için belge ızgara karakterlerini kullanıp kullanmayacağını belirtir settings . |
-| [Spacing](../../aspose.words/font/spacing/) { get; set; } | Karakterler arasındaki boşluğu (nokta olarak) döndürür veya ayarlar . |
-| [StrikeThrough](../../aspose.words/font/strikethrough/) { get; set; } | Yazı tipi, üstü çizili metin olarak biçimlendirilmişse doğrudur. |
+| [SnapToGrid](../../aspose.words/font/snaptogrid/) { get; set; } | Geçerli yazı tipinin mizanpaj sırasında satır başına belge ızgara karakterlerini kullanıp kullanmayacağını ayarlar belirtir. |
+| [Spacing](../../aspose.words/font/spacing/) { get; set; } | Karakterler arasındaki boşluğu (nokta cinsinden) döndürür veya ayarlar. |
+| [StrikeThrough](../../aspose.words/font/strikethrough/) { get; set; } | Yazı tipi üstü çizili metin olarak biçimlendirilmişse doğrudur. |
 | [Style](../../aspose.words/font/style/) { get; set; } | Bu biçimlendirmeye uygulanan karakter stilini alır veya ayarlar. |
 | [StyleIdentifier](../../aspose.words/font/styleidentifier/) { get; set; } | Bu biçimlendirmeye uygulanan karakter stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar. |
 | [StyleName](../../aspose.words/font/stylename/) { get; set; } | Bu biçimlendirmeye uygulanan karakter stilinin adını alır veya ayarlar. |
 | [Subscript](../../aspose.words/font/subscript/) { get; set; } | Yazı tipi alt simge olarak biçimlendirilmişse doğrudur. |
 | [Superscript](../../aspose.words/font/superscript/) { get; set; } | Yazı tipi üst simge olarak biçimlendirilmişse doğrudur. |
 | [TextEffect](../../aspose.words/font/texteffect/) { get; set; } | Yazı tipi animasyon efektini alır veya ayarlar. |
-| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Bu Font nesnesiyle ilişkilendirilmiş, uygulanan renk şemasındaki tema rengini alır veya ayarlar. |
-| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Bu Font nesnesiyle ilişkilendirilmiş, uygulanan font şemasındaki tema fontunu alır veya ayarlar. |
-| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Latin metni için kullanılan tema yazı tipini alır veya ayarlar (0 (sıfır) ile 127 arasındaki karakter kodlu karakterler) , bu Yazı Tipi nesnesiyle ilişkilendirilmiş uygulanan yazı tipi şemasında. |
-| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Sağdan sola bir dil belgesinde bu Font nesnesi ile ilişkilendirilen uygulanan font şemasındaki tema fontunu alır veya ayarlar. |
-| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Bu Font nesnesiyle ilişkilendirilmiş, uygulanan font şemasındaki Doğu Asya tema fontunu alır veya ayarlar. |
-| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Bu Font nesnesiyle ilişkilendirilmiş uygulanan font şemasında 128 - 255 arasında karakter kodlarına sahip karakterler için kullanılan tema fontunu alır veya ayarlar. |
-| [TintAndShade](../../aspose.words/font/tintandshade/) { get; set; } | Bir rengi açan veya koyulaştıran bir çift değer alır veya ayarlar. |
+| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.`Font` nesne. |
+| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.`Font` nesne. |
+| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Latince metin için kullanılan tema yazı tipini (0 (sıfır) ile 127 arasında karakter kodlarına sahip karakterler) alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasında`Font` nesne. |
+| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.`Font` sağdan sola yazılan bir dil belgesinde object . |
+| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Bu temayla ilişkili uygulanan yazı tipi şemasındaki Doğu Asya tema yazı tipini alır veya ayarlar.`Font` nesne. |
+| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karakter kodlarına sahip karakterler için kullanılan tema yazı tipini alır veya ayarlar.`Font` nesne. |
+| [TintAndShade](../../aspose.words/font/tintandshade/) { get; set; } | Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar. |
 | [Underline](../../aspose.words/font/underline/) { get; set; } | Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar. |
 | [UnderlineColor](../../aspose.words/font/underlinecolor/) { get; set; } | Yazı tipine uygulanan alt çizginin rengini alır veya ayarlar. |
 
@@ -77,16 +79,16 @@ public class Font
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/font/clearformatting/)() | Varsayılan yazı tipi biçimlendirmesine sıfırlanır. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Belirli DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder. |
+| [ClearFormatting](../../aspose.words/font/clearformatting/)() | Varsayılan yazı tipi formatına sıfırlar. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder. |
 
 ### Notlar
 
-Örneklerini oluşturmazsınız`Font` doğrudan sınıf. sen sadece kullan`Font` gibi çeşitli nesnelerin yazı tipi özelliklerine erişmek için[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Örneklerini oluşturmazsınız`Font`doğrudan sınıf. Sadece kullanıyorsunuz`Font` gibi çeşitli nesnelerin yazı tipi özelliklerine erişmek için[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Örnekler
 
-Font özelliğini kullanarak bir metin akışının nasıl biçimlendirileceğini gösterir.
+Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -101,7 +103,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Kenarlıkla çevrili bir dizenin belgeye nasıl ekleneceğini gösterir.
+Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -116,7 +118,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Liste biçimlendirmeli bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -132,11 +134,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

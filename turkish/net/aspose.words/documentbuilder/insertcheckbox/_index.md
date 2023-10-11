@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCheckBox
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Geçerli konuma bir onay kutusu form alanı ekler.
 type: docs
-weight: 270
+weight: 290
 url: /tr/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
@@ -17,8 +17,8 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | name | String | Form alanının adı. Boş bir dize olabilir. 20 karakterden uzun olan değer kesilecektir. |
-| checkedValue | Boolean | Onay kutusu form alanının kontrol durumu. |
-| size | Int32 | Onay kutusunun boyutunu nokta olarak belirtir. Onay kutusunun boyutunu otomatik olarak hesaplamak için MS Word için 0 belirtin. |
+| checkedValue | Boolean | Onay kutusu form alanının kontrol edilen durumu. |
+| size | Int32 | Onay kutusunun boyutunu nokta cinsinden belirtir. Onay kutusunun boyutunu otomatik olarak hesaplamak için MS Word için 0 belirtin. |
 
 ### Geri dönüş değeri
 
@@ -26,17 +26,17 @@ Yeni eklenen form alanı düğümü.
 
 ### Notlar
 
-Form alanı için bir ad belirtirseniz, aynı ada sahip bir yer imi otomatik olarak oluşturulur.
+Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
 ### Örnekler
 
-Belgeye onay kutularının nasıl ekleneceğini gösterir.
+Onay kutularının belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Farklı boyutlarda ve varsayılan olarak işaretlenmiş durumlarda onay kutuları ekleyin.
+// Farklı boyutlarda ve varsayılan kontrol durumlarında onay kutuları ekleyin.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -77,7 +77,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 | name | String | Form alanının adı. Boş bir dize olabilir. 20 karakterden uzun olan değer kesilecektir. |
 | defaultValue | Boolean | Onay kutusu form alanının varsayılan değeri. |
 | checkedValue | Boolean | Onay kutusu form alanının mevcut kontrol durumu. |
-| size | Int32 | Onay kutusunun boyutunu nokta olarak belirtir. Onay kutusunun boyutunu otomatik olarak hesaplamak için MS Word için 0 belirtin. |
+| size | Int32 | Onay kutusunun boyutunu nokta cinsinden belirtir. Onay kutusunun boyutunu otomatik olarak hesaplamak için MS Word için 0 belirtin. |
 
 ### Geri dönüş değeri
 
@@ -85,17 +85,17 @@ Yeni eklenen form alanı düğümü.
 
 ### Notlar
 
-Form alanı için bir ad belirtirseniz, aynı ada sahip bir yer imi otomatik olarak oluşturulur.
+Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
 ### Örnekler
 
-Belgeye onay kutularının nasıl ekleneceğini gösterir.
+Onay kutularının belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Farklı boyutlarda ve varsayılan olarak işaretlenmiş durumlarda onay kutuları ekleyin.
+// Farklı boyutlarda ve varsayılan kontrol durumlarında onay kutuları ekleyin.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();

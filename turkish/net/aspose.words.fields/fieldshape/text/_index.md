@@ -23,8 +23,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // BIDIOUTLINE alanı, AUTONUM/LISTNUM alanları gibi paragrafları numaralandırır,
-// ancak yalnızca İbranice veya Arapça gibi bir sağdan sola düzenleme dili etkinleştirildiğinde görünür.
-// Aşağıdaki alan, "1" liste numarasının RTL karşılığı olan ".1"i gösterecektir.
+// ancak yalnızca İbranice veya Arapça gibi sağdan sola düzenleme dili etkinleştirildiğinde görünür.
+// Aşağıdaki alan "1." liste numarasının RTL karşılığı olan ".1" değerini gösterecektir.
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
@@ -36,14 +36,14 @@ builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// Belgedeki her paragraf için yatay metin hizalamasını RTL'ye ayarlayın.
+// Belgedeki her paragrafın yatay metin hizalamasını RTL olarak ayarlayın.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
-// Microsoft Word'de sağdan sola düzenleme dilini etkinleştirirsek, alanlarımız sayıları görüntüler.
-// Aksi takdirde, "###" gösterecektir.
+// Microsoft Word'de sağdan sola düzenleme dilini etkinleştirirsek alanlarımız sayılar gösterecektir.
+// Aksi takdirde "###" görüntülenecektir.
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
@@ -53,11 +53,11 @@ SHAPE ve EMBED gibi bazı eski Microsoft Word alanlarının yükleme sırasında
 // Microsoft Word 2003'te oluşturulmuş bir belgeyi açın.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// Word belgesini açıp Alt+F9'a basarsak bir SHAPE ve EMBED alanı göreceğiz.
-// SHAPE alanı, "Metinle uyumlu" kaydırma stili etkinleştirilmiş bir Otomatik Şekil nesnesi için bağlantı/tuvaldir.
-// Bir EMBED alanı aynı işleve sahiptir, ancak gömülü bir nesne için,
+// Word belgesini açıp Alt+F9 tuşlarına basarsak SHAPE ve EMBED alanını göreceğiz.
+// SHAPE alanı, "Metinle aynı hizada" kaydırma stilinin etkin olduğu bir Otomatik Şekil nesnesinin çapası/tuvalidir.
+// EMBED alanı aynı işleve sahiptir ancak gömülü nesne için,
 // harici bir Excel belgesinden bir elektronik tablo gibi.
-// Ancak bu alanlar belgenin Fields koleksiyonunda görünmez.
+// Ancak bu alanlar belgenin Alanlar koleksiyonunda görünmez.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
 // Bu alanlar yalnızca Microsoft Word'ün eski sürümleri tarafından desteklenir.
@@ -66,12 +66,12 @@ Assert.AreEqual(0, doc.Range.Fields.Count);
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 Assert.AreEqual(3, shapes.Count);
 
-// İlk Shape düğümü, giriş belgesindeki SHAPE alanına karşılık gelir,
-// Otomatik Şekil için satır içi tuval.
+// İlk Şekil düğümü, giriş belgesindeki SHAPE alanına karşılık gelir,
+// Otomatik Şekil'in satır içi tuvalidir.
 Shape shape = (Shape)shapes[0];
 Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 
-// İkinci Şekil düğümü, Otomatik Şekil'in kendisidir.
+// İkinci Şekil düğümü Otomatik Şekil'in kendisidir.
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 

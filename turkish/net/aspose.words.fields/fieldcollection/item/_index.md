@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection mülk. Belirtilen dizinde bir alan döndürür.
+description: FieldCollection mülk. Belirtilen dizindeki bir alanı döndürür.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcollection/item/
 ---
 ## FieldCollection indexer
 
-Belirtilen dizinde bir alan döndürür.
+Belirtilen dizindeki bir alanı döndürür.
 
 ```csharp
 public Field this[int index] { get; }
@@ -20,13 +20,13 @@ public Field this[int index] { get; }
 
 ### Notlar
 
-Endeks sıfır tabanlıdır.
+Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi gösterir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki saniye anlamına gelir vb.
+Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
 
-Dizin, listedeki öğe sayısından büyük veya ona eşitse, bu, boş bir başvuru döndürür.
+Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
 
-İndeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu bir boş başvuru döndürür.
+Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
 ### Örnekler
 
@@ -48,8 +48,8 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Bir alan koleksiyonundan alanları kaldırmanın dört yolu aşağıdadır.
-// 1 - Kendisini kaldırmak için bir alan alın:
+// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
+// 1 - Kendini kaldıracak bir alan edinin:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -62,7 +62,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları bir kerede kaldırın:
+// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

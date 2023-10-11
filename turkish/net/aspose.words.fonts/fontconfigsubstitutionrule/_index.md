@@ -3,12 +3,14 @@ title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fonts.FontConfigSubstitutionRule sınıf. Yazı tipi yapılandırma değiştirme kuralı.
 type: docs
-weight: 2710
+weight: 2890
 url: /tr/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 Yazı tipi yapılandırma değiştirme kuralı.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -24,14 +26,14 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | İsim | Tanım |
 | --- | --- |
-| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | fontconfig yardımcı programının kullanılabilir olup olmadığını kontrol edin. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | fontconfig arama sonuçlarının önbelleğini sıfırlar. |
+| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Fontconfig çağırma sonuçlarının önbelleğini sıfırlar. |
 
 ### Notlar
 
-Bu kural, orijinal yazı tipi mevcut değilse ikame almak için Linux (ve diğer Unix benzeri) platformlarda fontconfig yardımcı programını kullanır.
+Bu kural, orijinal yazı tipi mevcut değilse substitution 'yi almak için Linux (ve diğer Unix benzeri) platformlarda fontconfig yardımcı programını kullanır.
 
-Eğer fontconfig yardımcı programı yoksa bu kural yok sayılır.
+Fontconfig yardımcı programı mevcut değilse bu kural göz ardı edilecektir.
 
 ### Örnekler
 
@@ -45,7 +47,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule nesnesi, Windows/Windows olmayan platformlarda farklı çalışır.
+// FontConfigSubstitutionRule nesnesi Windows/Windows dışı platformlarda farklı çalışır.
 // Windows'ta kullanılamaz.
 if (isWindows)
 {
@@ -56,7 +58,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Linux/Mac'te ona erişimimiz olacak ve işlemler yapabileceğiz.
+// Linux/Mac'te buna erişimimiz olacak ve işlemleri gerçekleştirebileceğiz.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

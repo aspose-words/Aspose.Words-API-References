@@ -1,14 +1,14 @@
 ---
 title: Shape.HorizontalRuleFormat
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için null döndürür.
+description: Shape mülk. Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için şunu döndürürhükümsüz .
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için null döndürür.
+Yatay kural şeklinin özelliklerine erişim sağlar. Yatay kural olmayan bir şekil için şunu döndürür:`hükümsüz` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -16,7 +16,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

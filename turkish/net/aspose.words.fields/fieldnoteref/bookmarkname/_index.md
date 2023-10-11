@@ -16,7 +16,7 @@ public string BookmarkName { get; set; }
 
 ### Örnekler
 
-NOTEREF alanları eklemeyi ve görünümlerini değiştirmeyi gösterir.
+NOTEREF alanlarının eklenmesini ve görünümlerinin değiştirilmesini gösterir.
 
 ```csharp
 public void FieldNoteRef()
@@ -24,32 +24,34 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // NOTEREF alanının başvuracağı dipnotlu bir yer imi oluşturun.
+    // NOTEREF alanının referans alacağı dipnotlu bir yer imi oluşturun.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Bu NOTEREF alanı, başvurulan yer iminin içindeki dipnot numarasını görüntüler.
-    // InsertHyperlink özelliğinin ayarlanması, Microsoft Word'deki alanı Ctrl + tıklatarak yer işaretine atlamamızı sağlar.
+    // Bu NOTEREF alanı, başvurulan yer iminin içindeki dipnotun numarasını gösterecektir.
+    // InsertHyperlink özelliğini ayarlamak, Microsoft Word'deki alanı Ctrl + tıklatarak yer işaretine atlamamızı sağlar.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // \p bayrağını kullanırken, dipnot numarasından sonra alan, yer iminin alana göre konumunu da görüntüler.
-    // Bookmark1 bu alanın üzerindedir ve 1 numaralı dipnot içerir, bu nedenle güncellemede sonuç "yukarıda 1" olacaktır.
+    // \p bayrağı kullanıldığında, dipnot numarasından sonra alan, yer iminin alana göre konumunu da görüntüler.
+    // Bookmark1 bu alanın üstündedir ve 1 numaralı dipnot içerir, dolayısıyla güncellemede sonuç "yukarıda 1" olacaktır.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 bu alanın altındadır ve 2 numaralı dipnot içerir, bu nedenle alan "2 aşağıda" gösterecektir.
-    // \f bayrağı, 2 sayısının asıl metindeki dipnot numarası etiketiyle aynı biçimde görünmesini sağlar.
+    // Bookmark2 bu alanın altındadır ve 2 numaralı dipnot içerir, dolayısıyla alan "aşağıda 2" olarak görünecektir.
+    // \f bayrağı, 2 sayısının asıl metindeki dipnot numarası etiketiyle aynı formatta görünmesini sağlar.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
-/// Belirtilen özelliklere sahip bir NOTEREF alanı eklemek için bir belge oluşturucu kullanır.
+/// Belirtilen özelliklere sahip bir NOTEREF alanı eklemek için belge oluşturucuyu kullanır.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {

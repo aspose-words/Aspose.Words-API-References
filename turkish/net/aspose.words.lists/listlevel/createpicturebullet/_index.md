@@ -1,14 +1,14 @@
 ---
 title: ListLevel.CreatePictureBullet
 second_title: Aspose.Words for .NET API Referansı
-description: ListLevel yöntem. Geçerli liste düzeyi için resim madde işareti şekli oluşturur.
+description: ListLevel yöntem. Geçerli liste düzeyi için resim madde işareti şeklini oluşturur.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method
 
-Geçerli liste düzeyi için resim madde işareti şekli oluşturur.
+Geçerli liste düzeyi için resim madde işareti şeklini oluşturur.
 
 ```csharp
 public void CreatePictureBullet()
@@ -16,7 +16,7 @@ public void CreatePictureBullet()
 
 ### Notlar
 
-Lütfen, resmi mermiyi düzgün bir şekilde görüntülemek için NumberStyle Bullet ve NumberFormat'ın "\xF0B7" olarak ayarlanacağını unutmayın. Kırmızı çarpı resmi, oluşturulduktan sonra resim mermi resmi olarak ayarlanacaktır. Değiştirmek için lütfen kullanın[`ImageData`](../imagedata/).
+Lütfen aklınızda bulundurun,[`NumberStyle`](../numberstyle/) şu şekilde ayarlanacak:Bullet ve [`NumberFormat`](../numberformat/) Resim işaretini düzgün bir şekilde görüntülemek için "\xF0B7" olarak ayarlayın. Kırmızı haç resmi, oluşturma sırasında resim işaret resmi olarak ayarlanacaktır. Değiştirmek için lütfen şunu kullanın:[`ImageData`](../imagedata/).
 
 ### Örnekler
 
@@ -27,8 +27,8 @@ Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Geçerli liste düzeyi için bir resim madde işareti oluşturun ve yerel bir dosya sisteminden bir resim ayarlayın
-// bu liste düzeyi için madde işaretlerinin görüntüleneceği simge olarak.
+// Geçerli liste düzeyi için bir resim işareti oluşturun ve yerel dosya sisteminden bir resim ayarlayın
+// bu liste düzeyi için madde işaretlerinin görüntüleyeceği simge olarak.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

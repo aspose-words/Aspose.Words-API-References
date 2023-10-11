@@ -1,14 +1,14 @@
 ---
 title: Paragraph.FrameFormat
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragraf biçimlendirme özelliklerine erişim sağlar.
+description: Paragraph mülk. Çerçeve biçimlendirme özelliklerine erişim sağlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-Paragraf biçimlendirme özelliklerine erişim sağlar.
+Çerçeve biçimlendirme özelliklerine erişim sağlar.
 
 ```csharp
 public FrameFormat FrameFormat { get; }

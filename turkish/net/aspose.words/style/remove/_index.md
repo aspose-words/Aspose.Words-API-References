@@ -3,7 +3,7 @@ title: Style.Remove
 second_title: Aspose.Words for .NET API Referansı
 description: Style yöntem. Belirtilen stili belgeden kaldırır.
 type: docs
-weight: 180
+weight: 200
 url: /tr/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -16,11 +16,11 @@ public void Remove()
 
 ### Notlar
 
-Stil kaldırmanın belge modelinde aşağıdaki etkileri vardır:
+Stil kaldırmanın belge modeli üzerinde aşağıdaki etkileri vardır:
 
-* Stile yapılan tüm referanslar ilgili paragraflardan, sayılardan ve tablolardan kaldırılır.
-* Temel stil kaldırılırsa, biçimlendirmesi alt stillere taşınır.
-* Silinecek stilin bağlantılı bir stili varsa, bunların ikisi de silinir.
+* Stile yapılan tüm referanslar ilgili paragraflardan, satırlardan ve tablolardan kaldırılır.
+* Temel stil kaldırılırsa biçimlendirmesi alt stillere taşınır.
+* Silinecek stilin bağlantılı bir stili varsa her ikisi de silinir.
 
 ### Örnekler
 
@@ -33,6 +33,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Stili otomatik olarak yeniden tanımlayın.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -44,12 +46,12 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Özel stilimizi belgenin stiller koleksiyonundan kaldırın.
+// Özel stilimizi belgenin stil koleksiyonundan kaldırın.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Kaldırılan bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
+// Kaldırılmış bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

@@ -1,14 +1,16 @@
 ---
 title: Class NodeCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeCollection sınıf. Belirli bir türdeki düğümler koleksiyonunu temsil eder.
+description: Aspose.Words.NodeCollection sınıf. Belirli bir türdeki düğümlerin koleksiyonunu temsil eder.
 type: docs
-weight: 3960
+weight: 4200
 url: /tr/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-Belirli bir türdeki düğümler koleksiyonunu temsil eder.
+Belirli bir türdeki düğümlerin koleksiyonunu temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -26,9 +28,9 @@ public class NodeCollection : IEnumerable<Node>
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
@@ -37,15 +39,15 @@ public class NodeCollection : IEnumerable<Node>
 
 ### Notlar
 
-**Düğüm Koleksiyonu** içerdiği düğümlere sahip değildir, bunun yerine yalnızca belirtilen türdeki düğümler 'nin bir seçimidir, ancak düğümler ağaçta ilgili üst düğümleri altında depolanır.
+`NodeCollection` içerdiği düğümlerin sahibi değildir; yalnızca belirtilen türden bir düğüm seçimidir, ancak düğümler, ağaçta ilgili üst düğümleri altında depolanır.
 
-**Düğüm Koleksiyonu**dizine alınmış erişimi, yinelemeyi destekler ve ekleme ve kaldırma yöntemleri sağlar.
+`NodeCollection`indekslenmiş erişimi, yinelemeyi destekler ve ekleme ve kaldırma yöntemleri sağlar.
 
-bu **Düğüm Koleksiyonu** koleksiyon "canlı"dır, yani nesnenin oluşturulduğu object düğümünün çocuklarında yapılan değişiklikler, anında döndürülen düğümlere yansıtılır. **Düğüm Koleksiyonu** özellikleri ve yöntemleri.
+`NodeCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, koleksiyon tarafından döndürülen düğümlere anında yansıtılır.`NodeCollection` özellikleri ve yöntemleri.
 
-**Düğüm Koleksiyonu** tarafından iade edilir[`GetChildNodes`](../compositenode/getchildnodes/) ve ayrıca aşağıdaki gibi yazılan düğüm koleksiyonları için bir temel sınıf görevi görür[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) vb.
+`NodeCollection` tarafından iade edilir[`GetChildNodes`](../compositenode/getchildnodes/) ve aynı zamanda aşağıdaki gibi yazılan düğüm koleksiyonları için temel sınıf görevi görür:[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) vesaire.
 
-**Düğüm Koleksiyonu** "düz" olabilir ve yalnızca oluşturulduğu düğümünün doğrudan alt öğelerini içerebilir veya "derin" olabilir ve tüm alt öğeleri içerebilir.
+`NodeCollection` "düz" olabilir ve oluşturulduğu düğümün yalnızca doğrudan alt öğelerini içerebilir veya "derin" olabilir ve tüm alt alt öğeleri içerebilir.
 
 ### Örnekler
 

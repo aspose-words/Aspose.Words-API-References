@@ -1,14 +1,14 @@
 ---
 title: Revision.ParentStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Bu revizyonun hemen üst stilini sahibini alır. Bu özellik yalnızcaStyleDefinitionChange revizyon türü.
+description: Revision mülk. Bu revizyonun doğrudan ana stilini sahibini alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-Bu revizyonun hemen üst stilini (sahibini) alır. Bu özellik yalnızcaStyleDefinitionChange revizyon türü.
+Bu revizyonun doğrudan ana stilini (sahibini) alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi.
 
 ```csharp
 public Style ParentStyle { get; }
@@ -16,7 +16,7 @@ public Style ParentStyle { get; }
 
 ### Notlar
 
-Bu revizyon belge düğümlerindeki değişikliklerle ilgiliyse, şunu kullanın:[`ParentNode`](../parentnode/) bunun yerine.
+Bu revizyon belge düğümlerindeki değişikliklerle ilgiliyse şunu kullanın:[`ParentNode`](../parentnode/) bunun yerine.
 
 ### Örnekler
 
@@ -26,11 +26,11 @@ Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Bu koleksiyonun kendisi bir revizyon grupları koleksiyonuna sahiptir.
-// Her grup, bitişik revizyonların bir dizisidir.
+// Bu koleksiyonun kendisi revizyon gruplarından oluşan bir koleksiyona sahiptir.
+// Her grup bitişik revizyonların bir dizisidir.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Grup koleksiyonunu yineleyin ve revizyonun ilgili olduğu metni yazdırın.
+// Grup koleksiyonu üzerinde yineleme yapın ve revizyonun ilgili olduğu metni yazdırın.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -40,18 +40,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesi alır.
-// Revizyonların koleksiyonu, yukarıda yazdırdığımız sıkıştırılmış formdan oldukça büyüktür,
-// Microsoft Word düzenlemesi sırasında belgeyi kaç Çalıştırmaya ayırdığımıza bağlı olarak.
+// Bir revizyonun etkilediği her Çalıştırma, karşılık gelen bir Revizyon nesnesini alır.
+// Revizyonların koleksiyonu yukarıda yazdırdığımız özet formdan oldukça daha büyüktür,
+// Microsoft Word düzenleme sırasında belgeyi kaç Çalıştırmaya böldüğümüze bağlı.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange kesinlikle stilleri etkiler, belge düğümlerini etkilemez. Bu "ParentStyle" anlamına gelir
-        // özelliği her zaman kullanımda olacak, ParentNode ise her zaman boş olacak.
-        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode tersine kullanımda olacak ve ParentStyle boş olacaktır.
+        // StyleDefinitionChange, belge düğümlerini değil, stilleri kesinlikle etkiler. Bu "Ebeveyn Stili" anlamına gelir
+        // özellik her zaman kullanımda olacak, ParentNode ise her zaman boş olacaktır.
+        // Diğer tüm değişiklikler düğümleri etkilediğinden, ParentNode tam tersi şekilde kullanımda olacak ve ParentStyle null olacaktır.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -65,7 +65,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Koleksiyon aracılığıyla tüm revizyonları reddet, belgeyi orijinal formuna geri döndür.
+// Belgeyi orijinal formuna döndürerek koleksiyon aracılığıyla yapılan tüm düzeltmeleri reddedin.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

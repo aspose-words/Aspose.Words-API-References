@@ -1,14 +1,14 @@
 ---
 title: Section.HeadersFooters
 second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Bölümün üstbilgi ve altbilgi düğümlerine erişim sağlar.
+description: Section mülk. Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/section/headersfooters/
 ---
 ## Section.HeadersFooters property
 
-Bölümün üstbilgi ve altbilgi düğümlerine erişim sağlar.
+Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar.
 
 ```csharp
 public HeaderFooterCollection HeadersFooters { get; }
@@ -16,7 +16,7 @@ public HeaderFooterCollection HeadersFooters { get; }
 
 ### Örnekler
 
-Belgenin alt bilgisindeki metnin nasıl değiştirileceğini gösterir.
+Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -36,7 +36,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Bir belgeden tüm alt bilgilerin nasıl silineceğini gösterir.
+Bir belgedeki tüm altbilgilerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -44,7 +44,7 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 // Her bölümü yineleyin ve her türden altbilgiyi kaldırın.
 foreach (Section section in doc.OfType<Section>())
 {
-    //Üç çeşit altbilgi ve üstbilgi türü vardır.
+    // Üç çeşit altbilgi ve başlık türü vardır.
     // 1 - Bir bölümün yalnızca ilk sayfasında görünen "İlk" üstbilgi/altbilgi.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
@@ -53,7 +53,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - Çift sayfalarda görünen "Eşit" üstbilgi/altbilgi.
+     // 3 - Çift sayfalarda görünen "Çift" üstbilgi/altbilgi.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Clone
 second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData yöntem. Bu nesnenin derin bir klonunu döndürür.
+description: OdsoRecipientData yöntem. Bu nesnenin derin bir kopyasını döndürür.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsorecipientdata/clone/
 ---
 ## OdsoRecipientData.Clone method
 
-Bu nesnenin derin bir klonunu döndürür.
+Bu nesnenin derin bir kopyasını döndürür.
 
 ```csharp
 public OdsoRecipientData Clone()
@@ -16,7 +16,7 @@ public OdsoRecipientData Clone()
 
 ### Örnekler
 
-Adres mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını dışlayacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Elemanları tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

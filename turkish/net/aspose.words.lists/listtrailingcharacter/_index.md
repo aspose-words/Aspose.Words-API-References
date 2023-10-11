@@ -3,7 +3,7 @@ title: Enum ListTrailingCharacter
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Lists.ListTrailingCharacter Sıralama. Liste etiketini paragraf metninden ayıran karakteri belirtir.
 type: docs
-weight: 3340
+weight: 3540
 url: /tr/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -18,26 +18,26 @@ public enum ListTrailingCharacter
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Tab | `0` | Liste etiketi ile paragrafın metni arasına bir sekme karakteri yerleştirilir. |
-| Space | `1` | Liste etiketi ile paragraf metni arasına bir boşluk karakteri yerleştirilir. |
-| Nothing | `2` | Liste etiketi ile paragrafın metni arasında ayırıcı karakter yok. |
+| Tab | `0` | Liste etiketi ile paragraf metni arasına bir sekme karakteri yerleştirilir. |
+| Space | `1` | Liste etiketi ile paragraf metni arasına boşluk karakteri yerleştirilir. |
+| Nothing | `2` | Liste etiketi ile paragraf metni arasında ayırıcı karakter yoktur. |
 
 ### Notlar
 
-için bir değer olarak kullanılır.[`TrailingCharacter`](../listlevel/trailingcharacter/) Emlak.
+Bir değer olarak kullanılır[`TrailingCharacter`](../listlevel/trailingcharacter/) mülk.
 
 ### Örnekler
 
-DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -58,7 +58,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri, yıldız şeklinde madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

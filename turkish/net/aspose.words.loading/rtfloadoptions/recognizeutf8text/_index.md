@@ -1,16 +1,16 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
 second_title: Aspose.Words for .NET API Referansı
-description: RtfLoadOptions mülk. true olarak ayarlandığındaCharsetDetectorUTF8 karakterlerini algılamaya çalışacak içe aktarma sırasında korunacaklar.
+description: RtfLoadOptions mülk. olarak ayarlandığındadoğru CharsetDetector UTF8 karakterlerini tespit etmeye çalışacak bunlar içe aktarma sırasında korunacak.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-true olarak ayarlandığında,CharsetDetectorUTF8 karakterlerini algılamaya çalışacak, içe aktarma sırasında korunacaklar.
+olarak ayarlandığında`doğru` ,CharsetDetector UTF8 karakterlerini tespit etmeye çalışacak, bunlar içe aktarma sırasında korunacak.
 
-Varsayılan değer yanlıştır.
+Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
@@ -21,10 +21,10 @@ public bool RecognizeUtf8Text { get; set; }
 Bir RTF belgesi yüklenirken UTF-8 karakterlerinin nasıl algılanacağını gösterir.
 
 ```csharp
-// Bir RTF belgesini nasıl yüklediğimizi değiştirmek için bir "RtfLoadOptions" nesnesi oluşturun.
+// Bir RTF belgesini yükleme şeklimizi değiştirmek için bir "RtfLoadOptions" nesnesi oluşturun.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Belgenin ISO 8859-1 karakter kümesini kullandığını varsaymak için "RecognizeUtf8Text" özelliğini "false" olarak ayarlayın
+// Belgenin ISO 8859-1 karakter setini kullandığını varsaymak için "RecognizeUtf8Text" özelliğini "false" olarak ayarlayın
 // ve belgedeki her karakteri yükler.
 // Metinde oluşabilecek değişken uzunluktaki karakterleri ayrıştırmak için "RecognizeUtf8Text" özelliğini "true" olarak ayarlayın.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;

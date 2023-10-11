@@ -16,15 +16,15 @@ public string SeparatorCharacter { get; set; }
 
 ### Örnekler
 
-Otomatik sayı alanlarını kullanarak paragrafların nasıl numaralandırılacağını gösterir.
+Autonum alanlarını kullanarak paragrafların nasıl numaralandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Her AUTONUM alanı, çalışan bir AUTONUM alan sayısının mevcut değerini görüntüler,
-// numaralı bir liste gibi öğeleri otomatik olarak numaralandırmamıza izin veriyor.
-// Bu alan "1" sayısını gösterecektir.
+// Her AUTONUM alanı, devam eden AUTONUM alanı sayısının geçerli değerini görüntüler,
+// numaralı liste gibi öğeleri otomatik olarak numaralandırmamıza izin veriyor.
+// Bu alanda "1" sayısı görüntülenecektir.
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
@@ -33,8 +33,8 @@ Assert.AreEqual(" AUTONUM ", field.GetFieldCode());
 field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
-// Sayının hemen ardından alan sonucunda görünen ayırıcı karakter, varsayılan olarak bir noktadır.
-// Bu özelliği boş bırakırsak, ikinci AUTONUM alanımız "2"yi gösterecektir. belgede.
+// Alan sonucunda sayıdan hemen sonra görünen ayırıcı karakter, varsayılan olarak noktadır.
+// Bu özelliği null bırakırsak ikinci AUTONUM alanımız "2" olarak görünecektir. belgede.
 Assert.IsNull(field.SeparatorCharacter);
 
 // Bu özelliği, dizesinin ilk karakterini yeni ayırıcı karakter olarak uygulayacak şekilde ayarlayabiliriz.

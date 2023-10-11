@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. İade NodeType.OfficeMath .
+description: OfficeMath mülk. İadelerOfficeMath .
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-İade **NodeType.OfficeMath** .
+İadelerOfficeMath .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Örnekler
 
-Office matematik ekranı biçimlendirmesinin nasıl ayarlanacağını gösterir.
+Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -24,13 +24,10 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Diğer OfficeMath düğümlerinin çocukları olan OfficeMath düğümleri her zaman satır içidir.
-// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirmek için temel düğümdür.
+// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML ve WML biçimleri "EquationXmlEncoding" özelliğini kullanır.
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // OfficeMath düğümünün konumunu ve görüntüleme türünü değiştirin.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

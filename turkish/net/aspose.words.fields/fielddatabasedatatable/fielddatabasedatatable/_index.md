@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable.FieldDatabaseDataTable
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataTable inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataTable sınıf.
+description: FieldDatabaseDataTable inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataTable class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable constructor
 
-Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](../) sınıf.
+Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](../) class.
 
 ```csharp
 public FieldDatabaseDataTable(params string[] columnNames)

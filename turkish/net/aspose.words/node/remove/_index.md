@@ -16,7 +16,7 @@ public void Remove()
 
 ### Örnekler
 
-Bir belgeden görüntülü tüm şekillerin nasıl silineceğini gösterir.
+Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -31,7 +31,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Belirli bir türdeki tüm alt düğümlerin bileşik düğümden nasıl kaldırılacağını gösterir.
+Belirli bir türdeki tüm alt düğümlerin bileşik bir düğümden nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,11 +42,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Bir sonraki kardeş düğümü, bu düğümü sildikten sonra ona geçmek istersek bir değişken olarak kaydedin.
+    // Bu düğümü sildikten sonra ona geçmek istersek diye bir sonraki kardeş düğümü değişken olarak kaydedin.
     Node nextNode = curNode.NextSibling;
 
     // Bir bölüm gövdesi Paragraf ve Tablo düğümleri içerebilir.
-    // Düğüm bir Tablo ise, onu üst öğeden kaldırın.
+    // Düğüm bir Tablo ise onu ebeveynden kaldırın.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

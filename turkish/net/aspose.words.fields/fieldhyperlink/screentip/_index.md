@@ -24,16 +24,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Microsoft Word'de bu KÖPRÜ alanına tıkladığımızda,
-// bağlantılı belgeyi açacak ve ardından imleci belirtilen yer işaretine yerleştirecek.
+// Microsoft Word'de bu HYPERLINK alanına tıkladığımızda,
+// bağlantılı belgeyi açacak ve ardından imleci belirtilen yer imine yerleştirecektir.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// Microsoft Word'de bu KÖPRÜ alanına tıkladığımızda,
-// bağlantılı belgeyi açacak ve otomatik olarak belirtilen iframe'e inecek.
+// Microsoft Word'de bu HYPERLINK alanına tıkladığımızda,
+// bağlantılı belgeyi açacak ve otomatik olarak belirtilen iframe'e doğru aşağı kaydıracaktır.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";
 field.ScreenTip = "Open " + field.Address;

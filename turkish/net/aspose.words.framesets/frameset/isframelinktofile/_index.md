@@ -1,14 +1,14 @@
 ---
 title: Frameset.IsFrameLinkToFile
 second_title: Aspose.Words for .NET API Referansı
-description: Frameset mülk. Web sayfası veya belge dosyası adının içinde belirtilmiş olup olmadığını gösteren bir değer alır veya ayarlar.FrameDefaultUrl özellik çerçevenin bağlantılı olduğu harici bir kaynaktır.
+description: Frameset mülk. Web sayfası veya belge dosya adının the de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.FrameDefaultUrl özellik çerçevenin bağlı olduğu harici bir kaynaktır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-Web sayfası veya belge dosyası adının içinde belirtilmiş olup olmadığını gösteren bir değer alır veya ayarlar.[`FrameDefaultUrl`](../framedefaulturl/) özellik, çerçevenin bağlantılı olduğu harici bir kaynaktır.
+Web sayfası veya belge dosya adının the 'de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.[`FrameDefaultUrl`](../framedefaulturl/) özellik, çerçevenin bağlı olduğu harici bir kaynaktır.
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }
@@ -19,7 +19,7 @@ public bool IsFrameLinkToFile { get; set; }
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
 ```csharp
-// Belge, diğer belgelere bağlantı içeren birkaç çerçeve içeriyor.
+// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içerir.
 Document doc = new Document(MyDir + "Frameset.docx");
 
 // Varsayılan URL'yi (bir web sayfası URL'si veya yerel belge) veya çerçevenin harici bir kaynak olup olmadığını kontrol edebiliriz.

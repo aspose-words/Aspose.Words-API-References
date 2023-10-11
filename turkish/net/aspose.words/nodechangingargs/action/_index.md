@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.Action
 second_title: Aspose.Words for .NET API Referansı
-description: NodeChangingArgs mülk. Ne tür bir düğüm değişikliği olayının gerçekleştiğini gösteren bir değer alır.
+description: NodeChangingArgs mülk. Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-Ne tür bir düğüm değişikliği olayının gerçekleştiğini gösteren bir değer alır.
+Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -16,9 +16,10 @@ public NodeChangingAction Action { get; }
 
 ### Örnekler
 
-Belge ağacındaki değişiklikleri biz düzenlerken gerçek zamanlı olarak izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
+Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ Belge ağacındaki değişiklikleri biz düzenlerken gerçek zamanlı olarak izl
 }
 
 /// <summary>
-/// Her düğüm ekleme/kaldırma işlemini belgede olduğu gibi yazdırır.
+/// Her düğüm ekleme/çıkarma işlemini belgede gerçekleştiği gibi yazdırır.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

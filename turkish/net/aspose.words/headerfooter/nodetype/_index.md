@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. İade NodeType.HeaderFooter .
+description: HeaderFooter mülk. İadelerHeaderFooter .
 type: docs
 weight: 50
 url: /tr/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-İade **NodeType.HeaderFooter** .
+İadelerHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Bir Bölüm, bileşik bir düğümdür ve alt düğümler içerebilir,
-// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm türündeyse.
+// Bölüm bileşik bir düğümdür ve alt düğümler içerebilir,
+// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm tipindeyse.
 foreach (Node node in section)
 {
     switch (node.NodeType)

@@ -20,7 +20,7 @@ public PageSet(int page)
 
 ### Notlar
 
-Belgede olmayan bir sayfayla karşılaşılırsa, oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
+Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
 
 ### Ayrıca bakınız
 
@@ -32,7 +32,7 @@ Belgede olmayan bir sayfayla karşılaşılırsa, oluşturma sırasında bir ist
 
 ## PageSet(params int[]) {#constructor_2}
 
-Tam sayfa dizinlerine dayalı bir sayfa grubu oluşturur.
+Tam sayfa indekslerine dayalı bir sayfa seti oluşturur.
 
 ```csharp
 public PageSet(params int[] pages)
@@ -40,15 +40,15 @@ public PageSet(params int[] pages)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pages | Int32[] | Sayfaların sıfır tabanlı dizinleri. |
+| pages | Int32[] | Sıfır tabanlı sayfa dizinleri. |
 
 ### Notlar
 
-Belgede olmayan bir sayfayla karşılaşılırsa, oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
+Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
 
 ### Örnekler
 
-Tam sayfa dizinlerine göre sayfaların nasıl çıkarılacağını gösterir.
+Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -61,12 +61,12 @@ for (int i = 1; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .XPS'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .XPS'e dönüştürme biçimini değiştirmek için.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// XPS çıktısına kaydedilecek belge sayfaları kümesini seçmek için "PageSet" özelliğini kullanın.
-// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfa seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
+// XPS çıktısı olarak kaydedilecek belge sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
+// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfayı seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
@@ -98,7 +98,7 @@ Belgedeki son sayfadan sonra başlayan bir aralıkla karşılaşılırsa, oluşt
 
 ### Örnekler
 
-Tam sayfa aralıklarına göre sayfaların nasıl ayıklanacağını gösterir.
+Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

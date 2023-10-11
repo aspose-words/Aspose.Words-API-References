@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Notlar
 
-Uygulama geri dönmelidir **hükümsüz** varsayılan değerlendirmenin yapılması gerektiğini belirtmek için.
+Uygulama geri dönmeli`hükümsüz` varsayılan değerlendirmenin yapılması gerektiğini belirtmek için.
 
 ### Ayrıca bakınız
 

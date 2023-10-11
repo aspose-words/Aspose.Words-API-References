@@ -1,14 +1,16 @@
 ---
 title: Class VbaReferenceCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReferenceCollection sınıf. Bir koleksiyonu temsil ederVbaReference nesneler.
+description: Aspose.Words.Vba.VbaReferenceCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaReference nesneler.
 type: docs
-weight: 6290
+weight: 6600
 url: /tr/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Bir koleksiyonu temsil eder[`VbaReference`](../vbareference/) nesneler.
+Aşağıdakilerin bir koleksiyonunu temsil eder:[`VbaReference`](../vbareference/) nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -18,22 +20,21 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | Koleksiyondaki VBA başvurularının sayısını döndürür. |
+| [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | Koleksiyondaki VBA referanslarının sayısını döndürür. |
 | [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | Alır[`VbaReference`](../vbareference/) belirtilen dizindeki nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Belirtilen bir VbaReference öğesinin ilk oluşumunu koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Koleksiyonun belirtilen dizinindeki VbaReference öğesini kaldırır. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../vbareference/) koleksiyondan bir parça. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Kaldırır[`VbaReference`](../vbareference/) koleksiyonun belirtilen dizinindeki öğe. |
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

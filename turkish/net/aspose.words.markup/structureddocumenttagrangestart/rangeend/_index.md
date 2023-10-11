@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. StructuredDocumentTag bir aralıklı yapılandırılmış belge etiketiyse aralığın sonunu belirtir. Aksi takdirde null. döndürür
+description: StructuredDocumentTagRangeStart mülk. Aşağıdaki durumlarda aralığın sonunu belirtirStructuredDocumentTag aralıklı yapılandırılmış bir belge etiketidir. Aksi halde şunu döndürürhükümsüz .
 type: docs
 weight: 130
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-StructuredDocumentTag bir aralıklı yapılandırılmış belge etiketiyse, aralığın sonunu belirtir. Aksi takdirde null. döndürür
+Aşağıdaki durumlarda aralığın sonunu belirtir:[`StructuredDocumentTag`](../../structureddocumenttag/) aralıklı yapılandırılmış bir belge etiketidir. Aksi halde şunu döndürür`hükümsüz` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

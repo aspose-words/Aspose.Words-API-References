@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SwapBordersFacingPgs
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştirin.
+description: CompatibilityOptions mülk. Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştir.
 type: docs
 weight: 530
 url: /tr/net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
 ## CompatibilityOptions.SwapBordersFacingPgs property
 
-Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştirin.
+Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştir.
 
 ```csharp
 public bool SwapBordersFacingPgs { get; set; }

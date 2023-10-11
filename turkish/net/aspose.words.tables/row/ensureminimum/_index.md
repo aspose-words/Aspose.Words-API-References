@@ -1,14 +1,14 @@
 ---
 title: Row.EnsureMinimum
 second_title: Aspose.Words for .NET API Referansı
-description: Row yöntem. Sıra hücre yok bir tane oluşturur ve ekler Hücre .
+description: Row yöntem. EğerRow hiç hücresi yoktur bir tane oluşturur ve eklerCell .
 type: docs
-weight: 110
+weight: 150
 url: /tr/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-**Sıra** hücre yok, bir tane oluşturur ve ekler **Hücre** .
+Eğer[`Row`](../) hiç hücresi yoktur, bir tane oluşturur ve ekler[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -16,7 +16,7 @@ public void EnsureMinimum()
 
 ### Örnekler
 
-Bir satır düğümünün, ona içerik eklemeye başlamak için ihtiyaç duyduğumuz düğümleri içerdiğinden nasıl emin olunacağını gösterir.
+Bir satır düğümünün, ona içerik eklemeye başlamamız için gereken düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -25,12 +25,12 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Satırlar, koşular, şekiller ve hatta diğer tablolar gibi tipik öğeler içeren paragraflar içeren hücreler içerir.
-// Yeni satırımızda bu düğümlerin hiçbiri yok ve o gelene kadar ona içerik ekleyemeyiz.
+// Satırlar, diziler, şekiller ve hatta diğer tablolar gibi tipik öğelerin bulunduğu paragrafları içeren hücreleri içerir.
+// Yeni satırımızda bu düğümlerden hiçbiri yok ve bu düğümler bulunana kadar ona içerik ekleyemeyiz.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Bir tabloda "EnsureMinimum" yöntemini çağırmak,
-// tabloda boş bir paragraf içeren en az bir hücre var.
+// Bir tabloda "EnsureMinimum" yöntemini çağırmak şunları sağlayacaktır:
+// tabloda boş paragraf içeren en az bir hücre var.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

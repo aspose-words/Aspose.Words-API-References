@@ -1,14 +1,16 @@
 ---
 title: Class ConditionalStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ConditionalStyle sınıf. Tablo stili atanmış bir tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder.
+description: Aspose.Words.ConditionalStyle sınıf. Atanan tablo stiliyle tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder.
 type: docs
-weight: 300
+weight: 310
 url: /tr/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
-Tablo stili atanmış bir tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder.
+Atanan tablo stiliyle tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class ConditionalStyle
@@ -18,23 +20,23 @@ public sealed class ConditionalStyle
 
 | İsim | Tanım |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Koşullu stil için varsayılan hücre kenarlıkları koleksiyonunu alır. |
-| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | Tablo hücrelerinin içeriğinin altına eklenecek boşluk miktarını (puan olarak) alır veya ayarlar. |
-| [Font](../../aspose.words/conditionalstyle/font/) { get; } | Koşullu stilin karakter biçimlendirmesini alır. |
-| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Tablo hücrelerinin içeriğinin soluna eklenecek boşluk miktarını (puan olarak) alır veya ayarlar. |
-| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Koşullu stilin paragraf biçimlendirmesini alır. |
-| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Tablo hücrelerinin içeriğinin sağına eklenecek boşluk miktarını (puan olarak) alır veya ayarlar. |
-| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | [`Shading`](../shading/) bu koşullu stil için gölgeleme biçimlendirmesine başvuran nesne. |
-| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Tablo hücrelerinin içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) alır veya ayarlar. |
-| [Type](../../aspose.words/conditionalstyle/type/) { get; } | Bu koşullu stilin ilgili olduğu tablo alanını alır. |
+| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Koşullu stil için varsayılan hücre kenarlıklarının koleksiyonunu alır. |
+| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını (puan cinsinden) alır veya ayarlar. |
+| [Font](../../aspose.words/conditionalstyle/font/) { get; } | Koşullu stilin karakter formatını alır. |
+| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını (puan cinsinden) alır veya ayarlar. |
+| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Koşullu stilin paragraf formatını alır. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını (puan cinsinden) alır veya ayarlar. |
+| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Bir alır[`Shading`](../shading/) bu koşullu stil için gölgelendirme formatını ifade eden nesne. |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını (puan cinsinden) alır veya ayarlar. |
+| [Type](../../aspose.words/conditionalstyle/type/) { get; } | Bu koşullu stilin ilgili olduğu tablo alanını döndürür. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Bu koşullu stilin biçimlendirmesini temizler. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) |  |
-| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Bu nesne için karma kodu hesaplar. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Bu koşullu stili belirtilen nesneyle karşılaştırır. |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Bu nesnenin karma kodunu hesaplar. |
 
 ### Örnekler
 
@@ -59,9 +61,9 @@ builder.EndTable();
 // Özel bir tablo stili oluşturun.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Koşullu stiller, tablo hücrelerinin yalnızca bazılarını etkileyen biçimlendirme değişiklikleridir.
+// Koşullu stiller, tablonun yalnızca bazı hücrelerini etkileyen biçimlendirme değişiklikleridir
 // hücrelerin son satırda olması gibi bir yüklemi temel alır.
-// Aşağıda, "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu bulunmaktadır.
+// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu verilmiştir.
 // 1 - Stil türüne göre:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -73,14 +75,14 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Özellik olarak:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Koşullu stillere dolgu ve metin biçimlendirme uygulayın.
+// Koşullu stillere dolgu ve metin biçimlendirmesi uygulayın.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Tüm olası stil koşullarını listeleyin.
+// Olası tüm stil koşullarını listeleyin.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -93,7 +95,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Tüm koşullu stilleri içeren özel stili tabloya uygulayın.
 table.Style = tableStyle;
 
-// Stilimiz, varsayılan olarak bazı koşullu stilleri uygular.
+// Stilimiz varsayılan olarak bazı koşullu stilleri uygular.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: VbaModuleCollection mülk. BirVbaModule dizine göre nesne.
+description: VbaModuleCollection mülk. Bir öğeyi alırVbaModule indekse göre nesne.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Bir[`VbaModule`](../../vbamodule/) dizine göre nesne.
+Bir öğeyi alır[`VbaModule`](../../vbamodule/) indekse göre nesne.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -25,8 +25,9 @@ Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// Bir VBA projesi, bir VBA modülleri koleksiyonu içerir.
+// Bir VBA projesi, VBA modüllerinin bir koleksiyonunu içerir.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -37,7 +38,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya ada göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
@@ -56,7 +57,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Bir[`VbaModule`](../../vbamodule/)ada göre nesne veya bulunamazsa Null.
+Bir öğeyi alır[`VbaModule`](../../vbamodule/) ada göre nesne veya bulunamazsa Null.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -69,8 +70,9 @@ Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// Bir VBA projesi, bir VBA modülleri koleksiyonu içerir.
+// Bir VBA projesi, VBA modüllerinin bir koleksiyonunu içerir.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -81,7 +83,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya ada göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

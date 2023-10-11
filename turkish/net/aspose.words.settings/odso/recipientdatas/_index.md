@@ -1,14 +1,14 @@
 ---
 title: Odso.RecipientDatas
 second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Adres mektup birleştirmede tek tek kayıtların dahil edilmesini/hariç tutulmasını belirten bir nesneler koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman boş değildir.
+description: Odso mülk. Bireysel kayıtların adresmektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz .
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Adres mektup birleştirmede tek tek kayıtların dahil edilmesini/hariç tutulmasını belirten bir nesneler koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman boş değildir.
+Bireysel kayıtların adres-mektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman`hükümsüz` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -16,7 +16,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ### Örnekler
 
-Adres mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını dışlayacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Elemanları tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Yazılı erişim sağlar Hücre satırın alt düğümleri.
+description: Row mülk. Yazılı erişim sağlarCell satırın alt düğümleri.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Yazılı erişim sağlar **Hücre** satırın alt düğümleri.
+Yazılı erişim sağlar[`Cell`](../../cell/) satırın alt düğümleri.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -30,7 +30,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir diziye klonlamak için bir satır koleksiyonunda "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -40,7 +40,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye klonlamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

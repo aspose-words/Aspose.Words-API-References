@@ -22,15 +22,15 @@ public double Height { get; set; }
 
 ### Notlar
 
-Bu bir kısayol[`Height`](../../shapebase/height/) Emlak.
+Bu, kısayol[`Height`](../../shapebase/height/) mülk.
 
-Geçerli değerler 0 ile 1584 arasında değişir.
+Geçerli değerler 0 ila 1584 (dahil) arasındadır.
 
-Varsayılan değer 1.5'tir.
+Varsayılan değer 1,5'tir.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

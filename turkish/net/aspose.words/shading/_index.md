@@ -1,14 +1,16 @@
 ---
 title: Class Shading
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shading sınıf. Bir nesne için gölgelendirme niteliklerini içerir.
+description: Aspose.Words.Shading sınıf. Bir nesnenin gölgelendirme niteliklerini içerir.
 type: docs
-weight: 5690
+weight: 5990
 url: /tr/net/aspose.words/shading/
 ---
 ## Shading class
 
-Bir nesne için gölgelendirme niteliklerini içerir.
+Bir nesnenin gölgelendirme niteliklerini içerir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -18,22 +20,26 @@ public class Shading : InternableComplexAttr
 
 | İsim | Tanım |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Shading nesnesinin arka planına uygulanan rengi alır veya ayarlar. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Shading nesnesinin ön planına uygulanan rengi alır veya ayarlar. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Arka plana uygulanan rengi alır veya ayarlar.`Shading` nesne. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Bununla ilişkili uygulanan renk şemasındaki arka plan deseni tema rengini alır veya ayarlar.`Shading` nesne. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Arka plan tema rengini açan veya koyulaştıran çift değeri alır veya ayarlar. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Ön plana uygulanan rengi alır veya ayarlar.`Shading` nesne. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Bununla ilişkili uygulanan renk şemasında ön plan deseni tema rengini alır veya ayarlar.`Shading` nesne. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Ön plan tema rengini açan veya koyulaştıran bir çift değer alır veya ayarlar. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Gölgelendirme dokusunu alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Nesneden gölgelendirmeyi kaldırır. |
+| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Nesnedeki gölgelemeyi kaldırır. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Belirtilen Gölgelendirmenin değer olarak mevcut Gölgelendirmeye eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Bu tür için bir karma işlevi olarak hizmet eder. |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Belirtilenin olup olmadığını belirler`Shading` şimdiki değere eşittir`Shading` . |
+| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 
 ### Örnekler
 
-Metnin kenarlıklar ve gölgeleme ile nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -55,17 +61,17 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Tablo oluştururken kenarlık ve gölgelendirme renginin nasıl uygulanacağını gösterir.
+Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir tablo başlatın ve sınırları için varsayılan bir renk/kalınlık ayarlayın.
+// Bir tablo başlatın ve kenarlıkları için varsayılan rengi/kalınlığı ayarlayın.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Farklı arka plan renklerine sahip iki hücreli bir satır oluşturun.
+// Farklı arka plan renklerine sahip iki hücreden oluşan bir satır oluşturun.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -75,8 +81,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Arka plan renklerini devre dışı bırakmak için hücre biçimlendirmesini sıfırlayın
-// oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenarlık kalınlığı ayarlayın,
-// sonra ikinci bir satır oluşturun.
+// oluşturucu tarafından oluşturulan tüm yeni hücreler için özel bir kenar kalınlığı ayarlayın,
+// sonra ikinci satırı oluşturalım.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

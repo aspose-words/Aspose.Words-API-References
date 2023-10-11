@@ -3,7 +3,7 @@ title: Enum AxisTimeUnit
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.Charts.AxisTimeUnit Sıralama. Eksenler için zaman birimini belirtir.
 type: docs
-weight: 590
+weight: 600
 url: /tr/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
@@ -19,9 +19,9 @@ public enum AxisTimeUnit
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Automatic | `0` | Birimin açıkça ayarlanmadığını ve varsayılan değerin kullanılması gerektiğini belirtir. |
-| Days | `1` | Grafik verilerinin gün olarak gösterileceğini belirtir. |
-| Months | `2` | Grafik verilerinin ay olarak gösterileceğini belirtir. |
-| Years | `3` | Grafik verilerinin yıl olarak gösterileceğini belirtir. |
+| Days | `1` | Grafik verilerinin gün cinsinden gösterileceğini belirtir. |
+| Months | `2` | Grafik verilerinin ay cinsinden gösterileceğini belirtir. |
+| Years | `3` | Grafik verilerinin yıl cinsinden gösterileceğini belirtir. |
 
 ### Örnekler
 
@@ -46,17 +46,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseni için alt ve üst sınırları ayarlayın.
+// X ekseninin alt ve üst sınırlarını ayarlayın.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya ve küçük birimleri bir güne ayarlayın.
+// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
@@ -66,6 +68,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

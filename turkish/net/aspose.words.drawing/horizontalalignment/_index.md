@@ -3,7 +3,7 @@ title: Enum HorizontalAlignment
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.HorizontalAlignment Sıralama. Kayan bir şeklin metin çerçevesinin veya kayan tablonun yatay hizalamasını belirtir.
 type: docs
-weight: 900
+weight: 1030
 url: /tr/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -18,23 +18,23 @@ public enum HorizontalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Nesne, genellikle **Ayrıldı** özellik. |
+| None | `0` | Nesne, genellikle kendi özelliği kullanılarak açıkça konumlandırılır. **Sol** özellik. |
 | Default | `0` | Şununla aynıNone . |
-| Left | `1` | Nesnenin yatay hizalama tabanına hizalı bırakılacağını belirtir. |
+| Left | `1` | Nesnenin yatay hizalama tabanına göre sola hizalanacağını belirtir. |
 | Center | `2` | Nesnenin yatay hizalama tabanına göre ortalanacağını belirtir. |
-| Right | `3` | Nesnenin yatay hizalama tabanına doğru hizalanması gerektiğini belirtir. |
+| Right | `3` | Nesnenin yatay hizalama tabanına doğru hizalanacağını belirtir. |
 | Inside | `4` | Nesnenin yatay hizalama tabanının içinde olacağını belirtir. |
 | Outside | `5` | Nesnenin yatay hizalama tabanının dışında olacağını belirtir. |
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -1,20 +1,20 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Notes ad alanı Microsoft Word son notları ve dipnotlarıyla çalışmak için sınıflar sağlar.
+description: Aspose.Words.Notesad alanı sınıfların Microsoft Word son notları ve dipnotlarıyla çalışmasını sağlar.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words.notes/
 ---
-bu **Aspose.Words.Notes** ad alanı, Microsoft Word son notları ve dipnotlarıyla çalışmak için sınıflar sağlar.
+**Aspose.Words.Notes**ad alanı, sınıfların Microsoft Word son notları ve dipnotlarıyla çalışmasını sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [EndnoteOptions](./endnoteoptions/) | Bir belge veya bölüm için son not numaralandırma seçeneklerini temsil eder. |
-| [Footnote](./footnote/) | Bir dipnot veya sonnot metni için bir kapsayıcıyı temsil eder. |
-| [FootnoteOptions](./footnoteoptions/) | Bir belge veya bölüm için dipnot numaralandırma seçeneklerini temsil eder. |
+| [EndnoteOptions](./endnoteoptions/) | Bir belge veya bölüme ilişkin son not numaralandırma seçeneklerini temsil eder. |
+| [Footnote](./footnote/) | Dipnot veya son not metni için kapsayıcıyı temsil eder. |
+| [FootnoteOptions](./footnoteoptions/) | Bir belge veya bölüme ilişkin dipnot numaralandırma seçeneklerini temsil eder. |
 ## numaralandırma
 
 | numaralandırma | Tanım |
@@ -22,6 +22,6 @@ bu **Aspose.Words.Notes** ad alanı, Microsoft Word son notları ve dipnotlarıy
 | [EndnotePosition](./endnoteposition/) | Son not konumunu tanımlar. |
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Otomatik dipnot veya sonnot numaralandırmanın ne zaman yeniden başlayacağını belirler. |
 | [FootnotePosition](./footnoteposition/) | Dipnot konumunu tanımlar. |
-| [FootnoteType](./footnotetype/) | Bunun bir dipnot mu yoksa bir son not mu olduğunu belirtir. |
+| [FootnoteType](./footnotetype/) | Bunun dipnot mu yoksa son not mu olduğunu belirtir. |
 
 

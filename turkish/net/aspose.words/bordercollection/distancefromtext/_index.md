@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.DistanceFromText
 second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlığın metne olan mesafesini noktalar olarak alır veya ayarlar.
+description: BorderCollection mülk. Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-Kenarlığın metne olan mesafesini noktalar olarak alır veya ayarlar.
+Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,9 +18,9 @@ public double DistanceFromText { get; set; }
 
 İlk kenarlık için metinden uzaklığı alır.
 
-Çapraz kenarlıklar hariç koleksiyondaki tüm kenarlıklar için metinden uzaklığı ayarlar.
+Çapraz kenarlıklar hariç, koleksiyondaki tüm kenarlıklar için metinden uzaklığı ayarlar.
 
-Etkisi yoktur ve tablo hücrelerinin sınırları için otomatik olarak sıfırlanır.
+Hiçbir etkisi yoktur ve tablo hücrelerinin kenarlıkları otomatik olarak sıfırlanır.
 
 ### Örnekler
 

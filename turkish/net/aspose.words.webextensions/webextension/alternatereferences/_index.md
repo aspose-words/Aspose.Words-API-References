@@ -1,14 +1,14 @@
 ---
 title: WebExtension.AlternateReferences
 second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Bir web uzantısına alternatif başvuruları belirtir.
+description: WebExtension mülk. Bir web uzantısına alternatif referansları belirtir.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/webextension/alternatereferences/
 ---
 ## WebExtension.AlternateReferences property
 
-Bir web uzantısına alternatif başvuruları belirtir.
+Bir web uzantısına alternatif referansları belirtir.
 
 ```csharp
 public WebExtensionReferenceCollection AlternateReferences { get; }

@@ -3,7 +3,7 @@ title: DocumentBuilder.EndBookmark
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgedeki geçerli konumu yer imi sonu olarak işaretler.
 type: docs
-weight: 190
+weight: 210
 url: /tr/net/aspose.words/documentbuilder/endbookmark/
 ---
 ## DocumentBuilder.EndBookmark method
@@ -24,19 +24,19 @@ Yeni oluşturulan yer imi bitiş düğümü.
 
 ### Notlar
 
-Bir belgedeki yer imleri herhangi bir aralığa yayılabilir ve örtüşebilir. Geçerli bir yer imi oluşturmak için her ikisini de aramanız gerekir[`StartBookmark`](../startbookmark/) ve`EndBookmark` aynısı ile **yer imiAdı** parametresi.
+Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir yer imi oluşturmak için her ikisini de aramanız gerekir[`StartBookmark`](../startbookmark/) Ve`EndBookmark` aynısıyla*bookmarkName* parametresi.
 
-Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde yok sayılır.
+Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
 
 ### Örnekler
 
-Bir yer iminin nasıl oluşturulacağını gösterir.
+Yer iminin nasıl oluşturulduğunu gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer iminin içinde belge gövde metni olmalıdır
+// Geçerli bir yer iminin, belge gövde metnini içine alması gerekir
 // Eşleşen bir yer imi adıyla oluşturulan BookmarkStart ve BookmarkEnd düğümleri.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
@@ -47,7 +47,7 @@ Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
 Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-Yerel bir yer işaretine başvuran bir köprünün nasıl ekleneceğini gösterir.
+Yerel bir yer imine başvuran bir köprünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Yer işaretine bağlanan bir KÖPRÜ alanı ekleyin. Alan anahtarlarını geçebiliriz
+// Yer imine bağlanan bir KÖPRÜ alanı ekleyin. Alan anahtarlarını geçebiliriz
 // başvurulan yer iminin adını içeren bağımsız değişkenin bir parçası olarak "InsertHyperlink" yöntemine.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

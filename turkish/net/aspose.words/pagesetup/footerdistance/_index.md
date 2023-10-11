@@ -1,14 +1,14 @@
 ---
 title: PageSetup.FooterDistance
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Alt bilgi ile sayfanın altı arasındaki mesafeyi nokta olarak döndürür veya ayarlar.
+description: PageSetup mülk. Alt bilgi ile sayfanın altı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-Alt bilgi ile sayfanın altı arasındaki mesafeyi (nokta olarak) döndürür veya ayarlar.
+Alt bilgi ile sayfanın altı arasındaki mesafeyi (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double FooterDistance { get; set; }
@@ -16,7 +16,7 @@ public double FooterDistance { get; set; }
 
 ### Örnekler
 
-Bir bölüm için diğer ayarlarla birlikte kağıt boyutunun, yönün, kenar boşluklarının nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

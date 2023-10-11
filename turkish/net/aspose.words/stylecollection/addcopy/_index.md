@@ -20,7 +20,7 @@ public Style AddCopy(Style style)
 
 ### Geri dönüş değeri
 
-Kopyalanmış stil kullanıma hazır.
+Kopyalanan stil kullanıma hazır.
 
 ### Notlar
 
@@ -28,13 +28,13 @@ Kopyalanacak stil aynı belgeye ait olabileceği gibi farklı bir belgeye de ait
 
 Bağlantılı stil kopyalanır.
 
-Bu yöntem, temel stilleri kopyalamaz.
+Bu yöntem temel stilleri kopyalamaz.
 
-Koleksiyon zaten aynı ada sahip bir stil içeriyorsa, yeni ad is 0'dan başlayarak "_number" eki eklenerek otomatik olarak oluşturulur, örneğin "Normal_0", "Heading 1_1" vb. Kullan[`Name`](../../style/name/) içe aktarılan stilin adını değiştirmek için ayarlayıcı.
+Koleksiyon zaten aynı ada sahip bir stil içeriyorsa, yeni ad is , 0'dan başlayarak "_number" son eki eklenerek otomatik olarak oluşturulur; örneğin "Normal_0", "Başlık 1_1" vb. Kullan[`Name`](../../style/name/) içe aktarılan stilin adını değiştirmek için ayarlayıcı.
 
 ### Örnekler
 
-Bir stilin bir belgeden farklı bir belgeye nasıl içe aktarılacağını gösterir.
+Bir stilin bir belgeden farklı bir belgeye nasıl aktarılacağını gösterir.
 
 ```csharp
 Document srcDoc = new Document();
@@ -47,24 +47,24 @@ srcStyle.Font.Color = Color.Red;
 Document dstDoc = new Document();
 Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
 
-// İçe aktarılan stil, kaynak stiliyle aynı görünüme sahiptir.
+// İçe aktarılan stil, kaynak stiliyle aynı görünüme sahip.
 Assert.AreEqual("MyStyle", newStyle.Name);
 Assert.AreEqual(Color.Red.ToArgb(), newStyle.Font.Color.ToArgb());
 ```
 
-Bir belgenin stilinin nasıl klonlanacağını gösterir.
+Bir belgenin stilinin nasıl kopyalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// AddCopy yöntemi, belirtilen stilin bir kopyasını oluşturur ve
-// stil için otomatik olarak "Heading 1_0" gibi yeni bir ad oluşturur.
+// AddCopy yöntemi belirtilen stilin bir kopyasını oluşturur ve
+// stil için otomatik olarak "Başlık 1_0" gibi yeni bir ad oluşturur.
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
 // Stilin tanımlayıcı adını değiştirmek için stilin "Ad" özelliğini kullanın.
 newStyle.Name = "My Heading 1";
 
-// Belgemiz artık farklı adlara sahip iki özdeş görünümlü stile sahip.
+// Belgemiz artık farklı adlara sahip iki aynı görünümlü stile sahip.
 // Stillerden birinin ayarlarının değiştirilmesi diğerini etkilemez.
 newStyle.Font.Color = Color.Red;
 

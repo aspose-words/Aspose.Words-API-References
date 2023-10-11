@@ -16,7 +16,7 @@ public string UpOffset { get; set; }
 
 ### Örnekler
 
-GELİŞMİŞ alanının nasıl ekleneceğini ve özelliklerinin nasıl düzenleneceğini gösterir.
+ADVANCE alanının nasıl ekleneceğini ve özelliklerinin nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -24,9 +24,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Aşağıda, onu takip eden metnin konumunu ayarlamak için GELİŞMİŞ alanını kullanmanın iki yolu bulunmaktadır.
+// Aşağıda, onu takip eden metnin konumunu ayarlamak için ADVANCE alanını kullanmanın iki yolu verilmiştir.
 // ADVANCE alanının etkileri paragraf bitene kadar uygulanmaya devam eder,
-// veya başka bir GELİŞME alanı, ofset/koordinat değerlerini günceller.
+// veya başka bir ADVANCE alanı ofset/koordinat değerlerini günceller.
 // 1 - Bir yön ofseti belirtin:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
@@ -44,7 +44,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Metni koordinatlarla belirtilen bir konuma taşıyın:
+// 2 - Metni koordinatlarla belirtilen konuma taşıyın:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

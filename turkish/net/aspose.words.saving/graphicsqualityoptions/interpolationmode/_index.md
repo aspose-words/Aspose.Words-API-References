@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
 second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Bu Grafikle ilişkili enterpolasyon modunu alır veya ayarlar.
+description: GraphicsQualityOptions mülk. Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Bu Grafikle ilişkili enterpolasyon modunu alır veya ayarlar.
+Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -16,7 +16,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ### Örnekler
 
-Belgeleri görüntü biçimlerine dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToSection
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belirtilen bir bölümde gövdenin başına taşır.
+description: DocumentBuilder yöntem. İmleci belirtilen bölümdeki gövdenin başlangıcına taşır.
 type: docs
-weight: 550
+weight: 580
 url: /tr/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-İmleci belirtilen bir bölümde gövdenin başına taşır.
+İmleci belirtilen bölümdeki gövdenin başlangıcına taşır.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -20,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 
 ### Notlar
 
-SectionIndex 0'dan büyük veya 0'a eşit olduğunda, ilk bölüm 0 olmak üzere belgenin başlangıcından 'ye kadar bir dizin belirtir. partitionIndex 0, 'den küçük olduğunda, belgenin sonundan itibaren -1 son bölüm olacak şekilde bir dizin belirledi.
+Ne zaman*sectionIndex* 0'dan büyük veya ona eşitse, belgenin başlangıcındaki from dizinini belirtir ve 0 ilk bölümdür. Ne zaman*sectionIndex* 0, 'den küçükse, belgenin sonundan -1 son bölüm olacak şekilde bir dizin belirtir.
 
-İmleç, satırdaki ilk paragrafa taşınır. **Gövde** belirtilen bölümden
+İmleç metindeki ilk paragrafa taşınır.[`Body`](../../body/) belirtilen bölümün
 
 ### Örnekler
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
 second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Adres mektup birleştirme motorunun bir görüntüyü okuması için akışı belirtir.
+description: ImageFieldMergingArgs mülk. Adresmektup birleştirme motorunun bir görüntüyü okuyacağı akışı belirtir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Adres mektup birleştirme motorunun bir görüntüyü okuması için akışı belirtir.
+Adres-mektup birleştirme motorunun bir görüntüyü okuyacağı akışı belirtir.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -29,14 +29,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Tüm kayıtları bir kerede okuyan bir modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -44,6 +44,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -53,7 +54,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Adres mektup birleştirme, belgede adında "Image:" etiketi olan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

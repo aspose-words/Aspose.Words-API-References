@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Bu düğümün alt düğümleri üzerinde her stil yinelemesi için destek sağlar.
+description: CompositeNode yöntem. Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar.
 type: docs
-weight: 110
+weight: 120
 url: /tr/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-Bu düğümün alt düğümleri üzerinde her stil yinelemesi için destek sağlar.
+Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<Node> GetEnumerator()
 
 ### Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,18 +28,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId' bir çıktı dosyasına kaydedilmediğini ve yalnızca düğüm ömrü boyunca var olduğunu unutmayın.
+// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın acil alt öğeleri koleksiyonunu yineleyin,
-// ve içinde bulduğumuz tüm koşuları veya şekilleri yazdırın.
-NodeCollection children = paragraph.ChildNodes;
+// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
+// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

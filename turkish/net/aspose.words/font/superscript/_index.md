@@ -20,14 +20,14 @@ Konumunu dengelemek için metnin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Bu metin akışını taban çizgisinin 5 puan üzerine yükseltin.
+// Bu metin dizisini taban çizgisinin 5 puan üstüne yükseltin.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Bu metin akışını taban çizgisinin 10 puan altına indirin.
+// Bu metin dizisini taban çizgisinin 10 puan altına indirin.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);

@@ -3,7 +3,7 @@ title: Enum AxisCrosses
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.Charts.AxisCrosses Sıralama. Bir eksen için olası geçiş noktalarını belirtir.
 type: docs
-weight: 530
+weight: 540
 url: /tr/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
@@ -18,14 +18,14 @@ public enum AxisCrosses
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Automatic | `0` | Kategori ekseni, değer ekseninin sıfır noktasında (mümkünse) veya minimum değer sıfırdan büyükse minimum değerinde veya maksimum sıfırdan küçükse maksimumda kesişir. |
-| Maximum | `1` | Bir dikey eksen, eksenin maksimum değerinde kesişiyor. |
-| Minimum | `2` | Bir dikey eksen, eksenin minimum değerinde kesişir. |
-| Custom | `3` | Bir dikey eksen, eksenin belirtilen değerinde kesişiyor. |
+| Automatic | `0` | Kategori ekseni, değer ekseninin (mümkünse) sıfır noktasından veya minimum sıfırdan büyükse minimum value 'den veya maksimum sıfırdan küçükse maksimumdan geçer. |
+| Maximum | `1` | Dik bir eksen, eksenin maksimum değerinden geçer. |
+| Minimum | `2` | Dik bir eksen, eksenin minimum değerinden geçer. |
+| Custom | `3` | Dik bir eksen, eksenin belirtilen değerinden geçer. |
 
 ### Örnekler
 
-Bir grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
+Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,13 +37,13 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X ekseni için kategoriler ve Y ekseni için ilgili sayısal değerler içeren bir grafik serisi ekleyin.
+// X ekseni için kategorileri ve Y ekseni için ilgili sayısal değerleri içeren bir grafik serisi ekleyin.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Grafik eksenleri, görünümlerini değiştirebilen çeşitli seçeneklere sahiptir,
-// yönleri, majör/alt birim keneleri ve kene işaretleri gibi.
+// Grafik eksenlerinin görünümlerini değiştirebilecek çeşitli seçenekleri vardır,
+// yönleri, büyük/küçük birim işaretleri ve onay işaretleri gibi.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -67,7 +67,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Sütun grafiklerinin Z ekseni yoktur.
+// Sütun grafiklerinde Z ekseni yoktur.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

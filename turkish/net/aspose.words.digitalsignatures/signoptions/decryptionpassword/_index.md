@@ -1,14 +1,14 @@
 ---
 title: SignOptions.DecryptionPassword
 second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. Kaynak belgenin şifresini çözmek için parola. Varsayılan değer boş dize Empty .
+description: SignOptions mülk. Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer boş dize Empty.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Kaynak belgenin şifresini çözmek için parola. Varsayılan değer **boş dize** (Empty ).
+Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer: **boş dize** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -16,11 +16,11 @@ public string DecryptionPassword { get; set; }
 
 ### Notlar
 
-OOXML belgesi şifrelenmişse, imzalanmadan önce kaynak belgenin şifresini çözmek için şifre çözme password sağlamanız gerekir. Bu, ikili DOC biçimindeki belgeler için gerekli değildir.
+OOXML belgesi şifrelenmişse, imzalanmadan önce kaynak belgenin şifresini çözmek için şifre çözme parolasını sağlamalısınız. Bu, ikili DOC biçimindeki belgeler için gerekli değildir.
 
 ### Örnekler
 
-Şifreli belge dosyasının nasıl imzalanacağını gösterir.
+Şifrelenmiş belge dosyasının nasıl imzalanacağını gösterir.
 
 ```csharp
 // PKCS#12 deposundan özel anahtar içermesi gereken bir X.509 sertifikası oluşturun.
@@ -34,7 +34,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// İmzasız giriş belgesi için yerel bir sistem dosya adı ve dijital olarak imzalanmış yeni kopyası için bir çıkış dosya adı ayarlayın.
+// İmzasız giriş belgesi için yerel bir sistem dosya adı ve dijital olarak imzalanmış yeni kopyası için bir çıktı dosya adı belirleyin.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

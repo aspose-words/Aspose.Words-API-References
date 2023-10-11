@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DocumentDirection
 second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Bir belge yönünü alır veya ayarlar. Varsayılan değerLeftToRight .
+description: TxtLoadOptions mülk. Belge yönünü alır veya ayarlar. Varsayılan değerLeftToRight .
 type: docs
-weight: 30
+weight: 50
 url: /tr/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
 
-Bir belge yönünü alır veya ayarlar. Varsayılan değerLeftToRight .
+Belge yönünü alır veya ayarlar. Varsayılan değer:LeftToRight .
 
 ```csharp
 public DocumentDirection DocumentDirection { get; set; }
@@ -16,16 +16,16 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ### Örnekler
 
-Düz metin belgesi metin yönünün nasıl algılanacağını gösterir.
+Düz metin belgesinin metin yönünün nasıl algılanacağını gösterir.
 
 ```csharp
 // Bir belgenin yapıcısına iletebileceğimiz bir "TxtLoadOptions" nesnesi oluşturun
-// bir düz metin belgesini nasıl yüklediğimizi değiştirmek için.
+// düz metin belgesini yükleme şeklimizi değiştirmek için.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // "DocumentDirection" özelliğini "DocumentDirection.Auto" olarak ayarlayın, otomatik olarak algılar
 // Aspose.Words'ün düz metinden yüklediği metnin her paragrafının yönü.
-// Her paragrafın "Bidi" özelliği, yönünü saklayacaktır.
+// Her paragrafın "Bidi" özelliği yönünü saklayacak.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
 // İbranice metni sağdan sola olarak algıla.

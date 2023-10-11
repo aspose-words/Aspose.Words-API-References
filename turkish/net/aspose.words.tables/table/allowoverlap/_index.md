@@ -1,14 +1,14 @@
 ---
 title: Table.AllowOverlap
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bir kayan tablonun görüntülendiğinde belgesindeki diğer kayan nesnelerin uzantılarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değerdoğru .
+description: Table mülk. Bir kayan tablonun belge içindeki diğer kayan nesnelerin görüntülendiğinde kapsamlarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değerdoğru .
 type: docs
 weight: 70
 url: /tr/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Bir kayan tablonun, görüntülendiğinde belgesindeki diğer kayan nesnelerin uzantılarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değer`doğru` .
+Bir kayan tablonun, belge içindeki diğer kayan nesnelerin görüntülendiğinde kapsamlarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // HorizontalAnchor ayarlayıcı için RelativeHorizontalPosition'da yalnızca Margin, Page, Column kullanılabilir.
-    // Diğer değerler için ArgumentException oluşturulacak.
+    // HorizontalAnchor ayarlayıcı için RelativeHorizontalPosition'da yalnızca Kenar Boşluğu, Sayfa, Sütun mevcuttur.
+    // ArgumentException diğer değerler için atılacak.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // VerticalAnchor ayarlayıcı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf kullanılabilir.
-    // Diğer değerler için ArgumentException oluşturulacak.
+    // VerticalAnchor ayarlayıcı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf mevcuttur.
+    // ArgumentException diğer değerler için atılacak.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

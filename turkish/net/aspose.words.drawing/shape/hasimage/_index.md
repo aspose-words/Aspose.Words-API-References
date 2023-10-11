@@ -1,14 +1,14 @@
 ---
 title: Shape.HasImage
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şekilde görüntü baytları varsa veya bir görüntüye bağlanırsa true değerini döndürür.
+description: Shape mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Şekilde görüntü baytları varsa veya bir görüntüye bağlanırsa true değerini döndürür.
+İadeler`doğru` şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
 
 ```csharp
 public bool HasImage { get; }
@@ -16,7 +16,7 @@ public bool HasImage { get; }
 
 ### Örnekler
 
-Bir belgeden görüntülü tüm şekillerin nasıl silineceğini gösterir.
+Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -36,8 +36,8 @@ Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosy
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgeden şekil koleksiyonunu alın,
-// ve bir görüntü ile her şeklin görüntü verilerini yerel dosya sistemine dosya olarak kaydedin.
+// Belgedeki şekillerin koleksiyonunu alın,
+// ve resim içeren her şeklin resim verilerini dosya olarak yerel dosya sistemine kaydedin.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -47,8 +47,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Şekillerin görüntü verileri, birçok olası görüntü formatının görüntülerini içerebilir. 
-        // Her resim için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
+         // Şekillerin görüntü verileri birçok olası görüntü formatındaki görüntüleri içerebilir.
+        // Her görsel için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

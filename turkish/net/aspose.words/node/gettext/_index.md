@@ -16,7 +16,7 @@ public virtual string GetText()
 
 ### Notlar
 
-Döndürülen dize, içinde açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
+Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
 
 ### Örnekler
 
@@ -30,39 +30,39 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Belgeyi metin formuna dönüştürmek, kontrol karakterlerini ortaya çıkarır.
+// Belgeyi metin biçimine dönüştürmek, kontrol karakterlerinin ortaya çıktığını gösterir
 // sayfa sonları gibi belgenin bazı yapısal öğelerini temsil eder.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// Bir belgeyi dize biçimine dönüştürürken,
+// Bir belgeyi string biçimine dönüştürürken,
 // Trim metodu ile bazı kontrol karakterlerini atlayabiliriz.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```
 
-Bir Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
+Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge bir bölüm, bir gövde ve bir paragraf içerir.
+// Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve alt öğesi olmayan bir belge düğümüyle bitirin.
+// ve çocuğu olmayan bir belge düğümü elde ederiz.
 doc.RemoveAllChildren();
 
 // Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne alt öğe olarak ekleyin.
+// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
+// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa kurulum özelliklerini ayarlayın.
+// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı var
+// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -75,8 +75,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünümünü ve içeriğini ayarlayın ve ardından paragrafa alt öğe olarak ekleyin.
+// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
+// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

@@ -19,12 +19,12 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 | --- | --- | --- |
 | fileName | String | \d alan anahtarında belirtilen veritabanının tam yolu ve dosya adı. |
 | connection | String | \c alan anahtarında belirtilen verilere bağlantı. |
-| query | String | \s alan anahtarında belirtilen veritabanını sorgulayan SQL yönergeleri kümesi. |
+| query | String | \s alan anahtarında belirtilen veritabanını sorgulayan SQL talimatları kümesi. |
 | field | FieldDatabase | Alan güncelleniyor. |
 
 ### Geri dönüş değeri
 
-bu[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) alanın güncellemesi için kullanılması gereken örnek.
+[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) Alanın güncellenmesi için kullanılması gereken örnek.
 
 ### Ayrıca bakınız
 

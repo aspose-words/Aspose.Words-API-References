@@ -1,14 +1,14 @@
 ---
 title: ControlChar.Cr
 second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Satır başı karakteri x000d veya r. İle aynıParagraphBreak .
+description: ControlChar alan. Satırbaşı karakteri x000d veya r. İle aynıParagraphBreak .
 type: docs
 weight: 50
 url: /tr/net/aspose.words/controlchar/cr/
 ---
 ## ControlChar.Cr field
 
-Satır başı karakteri: "\x000d" veya "\r". İle aynı[`ParagraphBreak`](../paragraphbreak/) .
+Satırbaşı karakteri: "\x000d" veya "\r". İle aynı[`ParagraphBreak`](../paragraphbreak/) .
 
 ```csharp
 public static readonly string Cr;
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Belgeyi metin formuna dönüştürmek, kontrol karakterlerini ortaya çıkarır.
+// Belgeyi metin biçimine dönüştürmek, kontrol karakterlerinin ortaya çıktığını gösterir
 // sayfa sonları gibi belgenin bazı yapısal öğelerini temsil eder.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// Bir belgeyi dize biçimine dönüştürürken,
+// Bir belgeyi string biçimine dönüştürürken,
 // Trim metodu ile bazı kontrol karakterlerini atlayabiliriz.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());

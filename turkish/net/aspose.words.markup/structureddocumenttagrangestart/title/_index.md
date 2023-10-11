@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Boş olamaz.
+description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılamazhükümsüz .
 type: docs
 weight: 160
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Boş olamaz.
+Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılamaz`hükümsüz` .
 
 ```csharp
 public string Title { get; set; }

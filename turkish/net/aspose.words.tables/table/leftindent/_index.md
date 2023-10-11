@@ -36,9 +36,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Bir belge oluşturucuda biçimlendirme seçeneklerini yapılandırmak bunları uygular
-// imlecinin bulunduğu geçerli hücreye/satıra,
-// ve bu oluşturucu kullanılarak oluşturulan tüm yeni hücreler ve satırlar.
+// Belge oluşturucudaki biçimlendirme seçeneklerini yapılandırmak bunları uygulayacaktır
+// imlecin bulunduğu geçerli hücreye/satıra,
+// ve ayrıca bu oluşturucu kullanılarak oluşturulan yeni hücreler ve satırlar.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -46,8 +46,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Oluşturmak üzere olduğumuz yeni satırlar ve hücreler için oluşturucunun biçimlendirme nesnelerini yeniden yapılandırın.
-// Oluşturucu, bunları bir başlık satırı olarak öne çıkması için önceden oluşturulmuş ilk satıra uygulamayacaktır.
+// Oluşturucunun biçimlendirme nesnelerini, yapmak üzere olduğumuz yeni satırlar ve hücreler için yeniden yapılandırın.
+// Oluşturucu bunları zaten oluşturulmuş olan ilk satıra uygulamayacaktır, böylece başlık satırı olarak öne çıkacaktır.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

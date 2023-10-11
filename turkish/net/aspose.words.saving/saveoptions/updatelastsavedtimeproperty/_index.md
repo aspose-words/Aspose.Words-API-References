@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. olup olmadığını belirleyen bir değer alır veya ayarlar.LastSavedTime özellik kaydedilmeden önce güncellenir.
+description: SaveOptions mülk. Bir değer alır veya ayarlar.LastSavedTime özellik kaydedilmeden önce güncellenir.
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-olup olmadığını belirleyen bir değer alır veya ayarlar.[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) özellik kaydedilmeden önce güncellenir.
+Bir değer alır veya ayarlar.[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) özellik kaydedilmeden önce güncellenir.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ### Örnekler
 
-Kaydederken belgenin "Son kayıt zamanı" özelliğinin korunup korunmayacağının nasıl belirleneceğini gösterir.
+Kaydederken belgenin "Son kaydedilen zaman" özelliğinin korunup korunmayacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,12 +24,12 @@ Document doc = new Document(MyDir + "Document.docx");
 Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
     doc.BuiltInDocumentProperties.LastSavedTime);
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz.
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için belgenin kaydetme yöntemine iletin.
-// "UpdateLastSavedTimeProperty" özelliğini "true" olarak ayarlayın.
+// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
+// "UpdateLastSavedTimeProperty" özelliğini "true" olarak ayarlayın
 // çıktı belgesinin "Son kaydedilen zaman" yerleşik özelliğini geçerli tarih/saat olarak ayarlayın.
-// "UpdateLastSavedTimeProperty" özelliğini "false" olarak ayarlayın.
-// giriş belgesinin "Son kayıt zamanı" yerleşik özelliğinin orijinal değerini koru.
+// "UpdateLastSavedTimeProperty" özelliğini "false" olarak ayarlayın
+// giriş belgesinin "Son kaydedilen zaman" yerleşik özelliğinin orijinal değerini koruyun.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 

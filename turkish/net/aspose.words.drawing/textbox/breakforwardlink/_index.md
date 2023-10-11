@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words for .NET API Referansı
-description: TextBox yöntem. Sonraki TextBoxa olan bağlantıyı keser.
+description: TextBox yöntem. Sonrakine olan bağlantıyı keserTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Sonraki TextBox'a olan bağlantıyı keser.
+Sonrakine olan bağlantıyı keser[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Notlar
 
-BreakForwardLink() geçerli şekil dizisindeki diğer tüm bağlantıları kesmez. Örneğin: 1-2-3-4 dizisi ve 2. metin kutusundaki BreakForwardLink 1-2, 3-4 iki dizi oluşturur.
+`BreakForwardLink`geçerli şekil dizisindeki diğer tüm bağlantıları kesmez. Örneğin: 1-2-3-4 dizisi ve`BreakForwardLink` 2. metin kutusunda, 1-2, 3-4. olmak üzere iki dizi oluşturulacak
 
 ### Örnekler
 
@@ -48,7 +48,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunda bir bağlantı olabilir.
+// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -66,7 +66,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ve textBox3 arasındaki yönlendirme bağlantısını kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

@@ -17,15 +17,15 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | name | String | Mülkün adı. |
-| linkSource | String | Mülkün kaynağı. |
+| linkSource | String | Mülkiyetin kaynağı. |
 
 ### Geri dönüş değeri
 
-Yeni oluşturulan özellik nesnesi veya linkSource geçersiz olduğunda null.
+Yeni oluşturulan özellik nesnesi veya`hükümsüz` ne zaman*linkSource* geçersizdir.
 
 ### Örnekler
 
-Özel bir belge özelliğinin bir yer işaretine nasıl bağlanacağını gösterir.
+Özel bir belge özelliğinin bir yer imine nasıl bağlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Yeni bir özel özelliği bir yer işaretine bağla. Bu mülkün değeri
-// "LinkSource" üyesinde başvurduğu yer işaretinin içeriği olacaktır.
+// Yeni bir özel özelliği bir yer imine bağlayın. Bu mülkün değeri
+// "LinkSource" üyesinde başvuruda bulunduğu yer iminin içeriği olacaktır.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

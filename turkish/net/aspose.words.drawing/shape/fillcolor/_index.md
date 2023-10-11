@@ -16,19 +16,19 @@ public Color FillColor { get; set; }
 
 ### Notlar
 
-Bu bir kısayolColor Emlak.
+Bu, kısayol[`Color`](../../fill/color/) mülk.
 
 Varsayılan değer: White.
 
 ### Örnekler
 
-Bir şeklin düz bir renkle nasıl doldurulacağını gösterir.
+Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir metin yazın ve ardından kayan bir şekille kaplayın.
+// Bir miktar metin yazın ve ardından onu kayan bir şekille kaplayın.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -41,12 +41,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Şeklin iç alanının rengini ayarlamak için "FillColor" özelliğini kullanın.
 shape.FillColor = Color.LightBlue;
 
-// "Opacity" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
-// 1 tamamen opak ve 0 görünmez olmak üzere.
-// Şekil dolgusu varsayılan olarak tamamen opaktır, bu nedenle bu şeklin üzerinde olduğu metni göremeyiz.
+// "Opaklık" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
+// 1 tamamen opak ve 0 görünmez olacak şekilde.
+// Şekil dolgusu varsayılan olarak tamamen opaktır, dolayısıyla bu şeklin üstünde olduğu metni göremiyoruz.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Altındaki metni görebilmemiz için şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın.
+// Şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

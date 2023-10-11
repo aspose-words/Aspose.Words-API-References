@@ -35,8 +35,8 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 // İlk bölüm için yazma korumasını kapatın.
 doc.Sections[0].ProtectedForForms = false;
 
-// Bu çıktı belgesinde ilk bölümü özgürce düzenleyebileceğiz,
-// ve sadece ikinci bölümde form alanının içeriğini düzenleyebileceğiz.
+// Bu çıktı belgesinde ilk bölümü serbestçe düzenleyebileceğiz,
+// ve ikinci bölümde sadece form alanının içeriğini düzenleyebileceğiz.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

@@ -1,14 +1,16 @@
 ---
 title: Class BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection sınıf. Tek tek yer imleri koleksiyonu anahat düzeyi.
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection sınıf. Bireysel yer imlerinin anahat düzeyinden oluşan bir koleksiyon.
 type: docs
-weight: 4590
+weight: 4850
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-Tek tek yer imleri koleksiyonu anahat düzeyi.
+Bireysel yer imlerinin anahat düzeyinden oluşan bir koleksiyon.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yer İşaretleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-bookmarks/) dokümantasyon makalesi.
 
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
@@ -24,26 +26,26 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
-| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item/) { get; set; } | Yer imi adına göre bir yer imi anahat düzeyi alır veya ayarlar. (2 indexers) |
+| [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item/) { get; set; } | Yer imi adına göre bir yer imi anahat düzeyini alır veya ayarlar. (2 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Koleksiyona bir yer imi ekler. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Koleksiyona bir yer işareti ekler. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Koleksiyonun verilen ada sahip bir yer imi içerip içermediğini belirler. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() |  |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Koleksiyonda belirtilen yer işaretinin sıfır tabanlı dizinini döndürür. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Belirtilen ada sahip bir yer işaretini koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Belirtilen dizindeki bir yer işaretini kaldırır. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Koleksiyonun belirtilen adda bir yer işareti içerip içermediğini belirler. |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Koleksiyonda belirtilen yer iminin sıfır tabanlı dizinini döndürür. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Koleksiyondan belirtilen ada sahip bir yer işaretini kaldırır. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Belirtilen dizindeki yer imini kaldırır. |
 
 ### Notlar
 
-Anahtar, büyük/küçük harfe duyarsız bir dize yer imi adıdır. Değer, bir int yer imi anahat düzeyidir.
+Anahtar, büyük/küçük harfe duyarlı olmayan bir dize yer imi adıdır. Değer, int yer imi anahat düzeyidir.
 
-Yer imi anahat düzeyi 0 ile 9 arasında bir değer olabilir. 0 belirtin ve Word yer imi belge anahattında görüntülenmez. 1 belirtin ve Word yer imi, düzey 1'de belge anahattında görüntülenecektir; 2. seviye için 2 vb.
+Yer imi anahat düzeyi 0 ile 9 arasında bir değer olabilir. 0 belirtin; Word yer imi belge anahattında görüntülenmez. 1 belirtin ve Word yer imi belge anahattı içinde düzey 1'de görüntülenecektir; 2. seviye için 2 vb.
 
 ### Örnekler
 
@@ -53,7 +55,7 @@ Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İçinde başka bir yer imi bulunan bir yer imi ekleyin.
+// İçine başka bir yer imi yerleştirilmiş bir yer imi ekleyin.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -64,14 +66,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Başka bir yer imi ekle.
+// Başka bir yer imi ekleyin.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// .pdf dosyasına kaydederken, yer imlerine bir açılır menü aracılığıyla erişilebilir ve çoğu okuyucu tarafından sabitleyici olarak kullanılabilir.
-// Yer imleri, anahat seviyeleri için sayısal değerlere de sahip olabilir,
-// okuyucuda daraltıldığında daha yüksek seviyeli alt girişleri gizlemek için alt seviye anahat girişlerini etkinleştirme.
+// .pdf olarak kaydederken, yer imlerine açılır menü aracılığıyla erişilebilir ve çoğu okuyucu tarafından bağlantı noktası olarak kullanılabilir.
+// Yer imleri aynı zamanda anahat düzeyleri için sayısal değerlere de sahip olabilir,
+// okuyucuda daraltıldığında üst düzey alt girişleri gizlemek için alt düzey anahat girişlerini etkinleştirme.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -85,18 +87,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// "Yer İşareti 1" için yalnızca anahat düzeyi ataması kalacak şekilde iki öğeyi kaldırabiliriz.
+// İki öğeyi kaldırabiliriz, böylece yalnızca "Yer İşareti 1" için anahat düzeyi ataması kalır.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Dokuz anahat seviyesi vardır. Numaralandırma, kaydetme işlemi sırasında optimize edilecektir.
+// Dokuz anahat düzeyi vardır. Kaydetme işlemi sırasında numaralandırmaları optimize edilecektir.
 // Bu durumda "5" ve "9" seviyeleri "2" ve "3" olacaktır.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Bu koleksiyonun boşaltılması, yer imlerini koruyacak ve hepsini aynı anahat düzeyine yerleştirecektir.
+// Bu koleksiyonun boşaltılması yer imlerini koruyacak ve hepsini aynı anahat düzeyine koyacaktır.
 outlineLevels.Clear();
 ```
 

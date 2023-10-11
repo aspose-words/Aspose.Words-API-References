@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousPreOrder
 second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır.
+description: Node yöntem. Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır.
+Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -16,15 +16,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| rootNode | Node | Geçişin üst düğümü (sınır). |
+| rootNode | Node | Geçişin üst düğümü (sınırı). |
 
 ### Geri dönüş değeri
 
-Ön sipariş sırasına göre önceki düğüm. RootNode'a ulaşılırsa boş.
+Ön sipariş sırasındaki önceki düğüm. Ulaşıldığında boş*rootNode*.
 
 ### Örnekler
 
-Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçileceğini ve bir görüntüyle karşılaşılan tüm şekillerin nasıl silineceğini gösterir.
+Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçiş yapılacağını ve karşılaşılan herhangi bir şeklin görüntüyle nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

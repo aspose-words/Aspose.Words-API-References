@@ -1,14 +1,14 @@
 ---
 title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıf. Bir belge için küçük resim oluşturulurken ek seçenekleri belirtmek için kullanılabilir.
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıf. Bir belge için küçük resim oluştururken ek seçenekleri belirtmek için kullanılabilir.
 type: docs
-weight: 4340
+weight: 4600
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-Bir belge için küçük resim oluşturulurken ek seçenekleri belirtmek için kullanılabilir.
+Bir belge için küçük resim oluştururken ek seçenekleri belirtmek için kullanılabilir.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -24,8 +24,8 @@ public class ThumbnailGeneratingOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Belgenin ilk sayfasından mı yoksa ilk görüntüden mi küçük resim oluşturulacağını belirtir. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan, 600x900'dür. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900'dür. |
 
 ### Notlar
 
@@ -42,7 +42,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim ayarlamanın iki yolu vardır.
+// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
 // 1 - Belgenin ilk sayfasını kullanın:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Örnekler
 
-Bir NodeList'te gezinmek için XPath'lerin nasıl kullanılacağını gösterir.
+Bir NodeList'te gezinmek için XPath'ların nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder ile bazı düğümler ekleyin.
+// DocumentBuilder ile bazı düğümleri ekleyin.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -39,7 +39,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif
 
-// Belgemiz üç Çalıştırma düğümü içeriyor.
+// Belgemiz üç Run düğümü içeriyor.
 NodeList nodeList = doc.SelectNodes("//Koşmak");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -48,19 +48,19 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Tüm Çalıştırma düğümlerini seçmek için çift eğik çizgi kullanın
-// bunlar, eklediğimiz iki hücrenin içindeki çalıştırmalar olan bir Tablo düğümünün dolaylı torunlarıdır.
+// bunlar, eklediğimiz iki hücrenin içindeki işlemler olacak bir Tablo düğümünün dolaylı alt öğeleridir.
 nodeList = doc.SelectNodes("//Table//Koşmak");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Tek eğik çizgi, doğrudan alttan gelen ilişkileri belirtir,
-// çift eğik çizgi kullandığımızda atladığımız.
+// Tek eğik çizgiler doğrudan alt köken ilişkilerini belirtir,
+// çift eğik çizgi kullandığımızda bunu atladık.
 Assert.AreEqual(doc.SelectNodes(" //Tablo//Çalıştır"),
     doc.SelectNodes("//Tablo/Satır/Hücre/Paragraf/Çalıştır"));
 
-// Eklediğimiz resmi içeren şekle erişin.
+// Eklediğimiz görseli içeren şekle erişiyoruz.
 nodeList = doc.SelectNodes("//Şekil");
 
 Assert.AreEqual(1, nodeList.Count);

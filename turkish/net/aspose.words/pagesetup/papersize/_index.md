@@ -3,7 +3,7 @@ title: PageSetup.PaperSize
 second_title: Aspose.Words for .NET API Referansı
 description: PageSetup mülk. Kağıt boyutunu döndürür veya ayarlar.
 type: docs
-weight: 340
+weight: 350
 url: /tr/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
@@ -16,11 +16,11 @@ public PaperSize PaperSize { get; set; }
 
 ### Notlar
 
-Bu özellik güncellemelerini ayarlama[`PageWidth`](../pagewidth/) ve[`PageHeight`](../pageheight/) değerleri. Bu değerin ayarlanmasıCustom mevcut değerleri değiştirmez.
+Bu özellik güncellemelerini ayarlama[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/) değerler. Bu değer şu şekilde ayarlanıyor:Custom mevcut değerleri değiştirmez.
 
 ### Örnekler
 
-Bir bölüm için diğer ayarlarla birlikte kağıt boyutunun, yönün, kenar boşluklarının nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Sayfa boyutlarının nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mevcut sayfanın boyutunu önceden tanımlanmış bir boyuta değiştirebiliriz
+// Geçerli sayfanın boyutunu önceden tanımlanmış bir boyuta değiştirebiliriz
 // bu bölümün PageSetup nesnesinin "PaperSize" özelliğini kullanarak.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
@@ -55,8 +55,8 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Her bölümün kendi PageSetup nesnesi vardır. Yeni bir bölüm oluşturmak için bir belge oluşturucu kullandığımızda,
-// bu bölümün PageSetup nesnesi, önceki bölümün tüm PageSetup nesnesinin değerlerini devralır.
+// Her bölümün kendi PageSetup nesnesi vardır. Yeni bir bölüm oluşturmak için belge oluşturucuyu kullandığımızda,
+// o bölümün PageSetup nesnesi, önceki bölümün PageSetup nesnesinin tüm değerlerini devralır.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
 Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
@@ -80,27 +80,27 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Bir Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
+Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge bir bölüm, bir gövde ve bir paragraf içerir.
+// Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve alt öğesi olmayan bir belge düğümüyle bitirin.
+// ve çocuğu olmayan bir belge düğümü elde ederiz.
 doc.RemoveAllChildren();
 
 // Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne alt öğe olarak ekleyin.
+// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
+// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa kurulum özelliklerini ayarlayın.
+// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı var
+// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -113,8 +113,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünümünü ve içeriğini ayarlayın ve ardından paragrafa alt öğe olarak ekleyin.
+// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
+// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

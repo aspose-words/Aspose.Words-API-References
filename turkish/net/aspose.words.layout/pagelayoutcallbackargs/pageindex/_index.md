@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
 second_title: Aspose.Words for .NET API Referansı
-description: PageLayoutCallbackArgs mülk. Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden akış sırasında kaldırılmışsa negatif değer döndürür.
+description: PageLayoutCallbackArgs mülk. Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden düzenleme sırasında kaldırılmışsa negatif değer döndürür.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden akış sırasında kaldırılmışsa negatif değer döndürür.
+Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden düzenleme sırasında kaldırılmışsa negatif değer döndürür.
 
 ```csharp
 public int PageIndex { get; }
@@ -16,10 +16,9 @@ public int PageIndex { get; }
 
 ### Örnekler
 
-Bir düzen geri çağırma ile düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -35,8 +34,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit bir sayfa biçiminde kaydettiğimizde bize haber verir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı oluşturur.
+/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: ImageSize.HeightPixels
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Resmin yüksekliğini piksel cinsinden alır.
+description: ImageSize mülk. Görüntünün yüksekliğini piksel cinsinden alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/imagesize/heightpixels/
 ---
 ## ImageSize.HeightPixels property
 
-Resmin yüksekliğini piksel cinsinden alır.
+Görüntünün yüksekliğini piksel cinsinden alır.
 
 ```csharp
 public int HeightPixels { get; }
@@ -16,20 +16,20 @@ public int HeightPixels { get; }
 
 ### Örnekler
 
-Şekildeki bir görüntünün özelliklerinin nasıl okunacağını gösterir.
+Bir şekildeki görüntünün özelliklerinin nasıl okunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yerel dosya sistemimizden alınan bir resmi içeren belgeye bir şekil ekleyin.
+// Yerel dosya sistemimizden alınmış bir resmi içeren belgeye bir şekil ekleyin.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Şekil bir resim içeriyorsa, ImageData özelliği geçerli olacaktır,
-// ve bir ImageSize nesnesi içerecek.
+// Şekil bir resim içeriyorsa ImageData özelliği geçerli olacaktır,
+// ve bir ImageSize nesnesi içerecektir.
 ImageSize imageSize = shape.ImageData.ImageSize; 
 
-// ImageSize nesnesi, şekil içindeki görüntü hakkında salt okunur bilgileri içerir.
+// ImageSize nesnesi, şeklin içindeki görüntü hakkında salt okunur bilgiler içerir.
 Assert.AreEqual(400, imageSize.HeightPixels);
 Assert.AreEqual(400, imageSize.WidthPixels);
 
@@ -37,7 +37,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Resmin gerilmesini önlemek için şeklin boyutunu resmin boyutuna dayandırabiliriz.
+// Resmin esnemesini önlemek için şeklin boyutunu resmin boyutuna göre ayarlayabiliriz.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

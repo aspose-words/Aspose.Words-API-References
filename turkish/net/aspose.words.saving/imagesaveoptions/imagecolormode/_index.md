@@ -16,13 +16,13 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ### Notlar
 
-Bu özellik yalnızca raster görüntü biçimlerine kaydederken etkilidir.
+Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
-Varsayılan değerNone.
+Varsayılan değer:None.
 
 ### Örnekler
 
-Belgeleri işlerken bir renk modunun nasıl ayarlanacağını gösterir.
+Belgeleri işlerken renk modunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Belgeyi bir resim olarak kaydettiğimizde, bir SaveOptions nesnesini şuraya aktarabiliriz:
+            // Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
             // kaydetme işleminin oluşturacağı görüntü için bir renk modu seçin.
             // "ImageColorMode" özelliğini "ImageColorMode.BlackAndWhite" olarak ayarlarsak,
-            // kaydetme işlemi, belgeyi oluştururken gri tonlamalı renk azaltma uygulayacaktır.
-             // "ImageColorMode" özelliğini "ImageColorMode.Grayscale" olarak ayarlarsak,
+            // kaydetme işlemi, belge oluşturulurken gri tonlamalı renk azaltma uygulayacaktır.
+            // "ImageColorMode" özelliğini "ImageColorMode.Grayscale" olarak ayarlarsak,
             // kaydetme işlemi belgeyi tek renkli bir görüntüye dönüştürecektir.
-            // "ImageColorMode" özelliğini "None" olarak ayarlarsak, kaydetme işlemi varsayılan yöntemi uygulayacaktır.
+            // "ImageColorMode" özelliğini "None" olarak ayarlarsak kaydetme işlemi varsayılan yöntemi uygulayacaktır
             // ve çıktı görüntüsündeki tüm belgenin renklerini koruyun.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;

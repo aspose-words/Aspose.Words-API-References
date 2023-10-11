@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.Separator
 second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için kullanılan dize ayırıcısını alır veya ayarlar. Bunun yerine bir satır sonu kullanılacaksa yalnızca kategori adını ve yüzdeyi gösteren pasta grafikler hariç varsayılan değer bir virgüldür.
+description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür bunun yerine satır sonu kullanılacaktır.
 type: docs
-weight: 40
+weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 ## ChartDataLabelCollection.Separator property
 
-Tüm serinin veri etiketleri için kullanılan dize ayırıcısını alır veya ayarlar. Bunun yerine bir satır sonu kullanılacaksa, yalnızca kategori adını ve yüzdeyi gösteren pasta grafikler hariç, varsayılan değer bir virgüldür.
+Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür; bunun yerine satır sonu kullanılacaktır.
 
 ```csharp
 public string Separator { get; set; }
@@ -31,7 +31,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
- // X/Y koordinatlarına ve her bir balonun çapına sahip özel bir seri ekleyin.
+// X/Y koordinatlarını ve her bir balonun çapını içeren özel bir seri ekleyin.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
@@ -48,7 +48,7 @@ dataLabels.Separator = " & ";
 doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ```
 
-Pasta grafiğin veri etiketleriyle nasıl çalışılacağını gösterir.
+Pasta grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -59,12 +59,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// Sektörlerin her biri için bir kategori adı ve bunların sıklık tablosu ile özel bir grafik serisi ekleyin.
+// Sektörlerin her biri için kategori adını ve bunların frekans tablosunu içeren özel bir grafik serisi ekleyin.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Her sektörün hem yüzdesini hem de sıklığını gösterecek veri etiketlerini etkinleştirin ve görünümlerini değiştirin.
+// Her sektörün hem yüzdesini hem de sıklığını görüntüleyecek veri etiketlerini etkinleştirin ve görünümlerini değiştirin.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

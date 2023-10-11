@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting modu kullanılır. Varsayılan değerdoğru .
+description: ImportFormatOptions mülk. Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru .
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting modu kullanılır. Varsayılan değer`doğru` .
+Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ### Örnekler
 
-Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin göz ardı edilip edilmeyeceğinin nasıl belirtileceğini gösterir.
+Üstbilgi/altbilgi içeriğinin kaynak biçimlendirmesinin yoksayılıp yok sayılacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");

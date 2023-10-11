@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
 second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. Bir dosya adı uzantısını birSaveFormat değer.
+description: FileFormatUtil yöntem. Dosya adı uzantısını bir dosya adı uzantısına dönüştürürSaveFormat değer.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/fileformatutil/extensiontosaveformat/
 ---
 ## FileFormatUtil.ExtensionToSaveFormat method
 
-Bir dosya adı uzantısını bir[`SaveFormat`](../../saveformat/) değer.
+Dosya adı uzantısını bir dosya adı uzantısına dönüştürür[`SaveFormat`](../../saveformat/) değer.
 
 ```csharp
 public static SaveFormat ExtensionToSaveFormat(string extension)
@@ -16,24 +16,24 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| extension | String | Dosya uzantısı. Önde noktalı veya noktasız olabilir. Büyük/küçük harfe duyarsız. |
+| extension | String | Dosya uzantısı. Başında nokta olsun ya da olmasın olabilir. Büyük/küçük harfe duyarlı değildir. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Parametre boş ise atar. |
+| ArgumentNullException | Parametre şu şekildeyse atar`hükümsüz`. |
 
 ### Notlar
 
-Uzantı tanınmazsa, dönerUnknown.
+Uzantı tanınamıyorsa şunu döndürür:Unknown.
 
 ### Örnekler
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
-// Dosya uzantısı olmayan bir dosyadan bir belge yükleyin ve ardından dosya biçimini tespit edin.
+// Dosya uzantısı eksik olan bir dosyadan belge yükleyin ve ardından dosya biçimini tespit edin.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -41,7 +41,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Aşağıda, bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi bulunmaktadır.
+    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi verilmiştir.
     // 1 - LoadFormat için dosya uzantısı dizesini alın, ardından bu dizeden karşılık gelen SaveFormat'ı alın:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
@@ -49,7 +49,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştürün:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Akıştan bir belge yükleyin ve ardından otomatik olarak algılanan dosya uzantısına kaydedin.
+    // Akıştan bir belge yükleyin ve ardından onu otomatik olarak algılanan dosya uzantısına kaydedin.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

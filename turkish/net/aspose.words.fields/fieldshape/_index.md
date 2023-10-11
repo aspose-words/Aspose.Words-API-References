@@ -3,12 +3,14 @@ title: Class FieldShape
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fields.FieldShape sınıf. SHAPE alanını uygular.
 type: docs
-weight: 2260
+weight: 2410
 url: /tr/net/aspose.words.fields/fieldshape/
 ---
 ## FieldShape class
 
 SHAPE alanını uygular.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
 
 ```csharp
 public class FieldShape : Field
@@ -26,12 +28,12 @@ public class FieldShape : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | [`FieldFormat`](../fieldformat/) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | [Text](../../aspose.words.fields/fieldshape/text/) { get; set; } | Alınacak metni alır veya ayarlar. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
@@ -42,8 +44,8 @@ public class FieldShape : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Bağlantıyı kaldır alanını gerçekleştirir. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
@@ -60,8 +62,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // BIDIOUTLINE alanı, AUTONUM/LISTNUM alanları gibi paragrafları numaralandırır,
-// ancak yalnızca İbranice veya Arapça gibi bir sağdan sola düzenleme dili etkinleştirildiğinde görünür.
-// Aşağıdaki alan, "1" liste numarasının RTL karşılığı olan ".1"i gösterecektir.
+// ancak yalnızca İbranice veya Arapça gibi sağdan sola düzenleme dili etkinleştirildiğinde görünür.
+// Aşağıdaki alan "1." liste numarasının RTL karşılığı olan ".1" değerini gösterecektir.
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
@@ -73,14 +75,14 @@ builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// Belgedeki her paragraf için yatay metin hizalamasını RTL'ye ayarlayın.
+// Belgedeki her paragrafın yatay metin hizalamasını RTL olarak ayarlayın.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
-// Microsoft Word'de sağdan sola düzenleme dilini etkinleştirirsek, alanlarımız sayıları görüntüler.
-// Aksi takdirde, "###" gösterecektir.
+// Microsoft Word'de sağdan sola düzenleme dilini etkinleştirirsek alanlarımız sayılar gösterecektir.
+// Aksi takdirde "###" görüntülenecektir.
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
@@ -90,11 +92,11 @@ SHAPE ve EMBED gibi bazı eski Microsoft Word alanlarının yükleme sırasında
 // Microsoft Word 2003'te oluşturulmuş bir belgeyi açın.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// Word belgesini açıp Alt+F9'a basarsak bir SHAPE ve EMBED alanı göreceğiz.
-// SHAPE alanı, "Metinle uyumlu" kaydırma stili etkinleştirilmiş bir Otomatik Şekil nesnesi için bağlantı/tuvaldir.
-// Bir EMBED alanı aynı işleve sahiptir, ancak gömülü bir nesne için,
+// Word belgesini açıp Alt+F9 tuşlarına basarsak SHAPE ve EMBED alanını göreceğiz.
+// SHAPE alanı, "Metinle aynı hizada" kaydırma stilinin etkin olduğu bir Otomatik Şekil nesnesinin çapası/tuvalidir.
+// EMBED alanı aynı işleve sahiptir ancak gömülü nesne için,
 // harici bir Excel belgesinden bir elektronik tablo gibi.
-// Ancak bu alanlar belgenin Fields koleksiyonunda görünmez.
+// Ancak bu alanlar belgenin Alanlar koleksiyonunda görünmez.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
 // Bu alanlar yalnızca Microsoft Word'ün eski sürümleri tarafından desteklenir.
@@ -103,12 +105,12 @@ Assert.AreEqual(0, doc.Range.Fields.Count);
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 Assert.AreEqual(3, shapes.Count);
 
-// İlk Shape düğümü, giriş belgesindeki SHAPE alanına karşılık gelir,
-// Otomatik Şekil için satır içi tuval.
+// İlk Şekil düğümü, giriş belgesindeki SHAPE alanına karşılık gelir,
+// Otomatik Şekil'in satır içi tuvalidir.
 Shape shape = (Shape)shapes[0];
 Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 
-// İkinci Şekil düğümü, Otomatik Şekil'in kendisidir.
+// İkinci Şekil düğümü Otomatik Şekil'in kendisidir.
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 

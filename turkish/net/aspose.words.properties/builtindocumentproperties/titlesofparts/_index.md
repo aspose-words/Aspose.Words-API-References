@@ -25,13 +25,13 @@ Aspose.Words bu özelliği güncellemez.
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Bu koleksiyonların birleşik değerlerini şuradan bulabiliriz:
-// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" -> "İçindekiler" sekmesi.
-// HeadingPairs özelliği, <string, int> çiftler ki
+// Bu koleksiyonların birleştirilmiş değerlerini şu şekilde bulabiliriz:
+// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" --> "İçerik" sekmesi.
+// HeadingPairs özelliği <string, int> bunu eşleştir
 // bir başlığın kaç belge parçasına yayılacağını belirler.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// TitlesOfParts özelliği, yukarıdaki başlıklara ait olan parçaların isimlerini içerir.
+// TitlesOfParts özelliği yukarıdaki başlıklara ait parçaların adlarını içerir.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

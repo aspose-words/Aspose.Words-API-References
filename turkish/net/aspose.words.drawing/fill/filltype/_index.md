@@ -3,7 +3,7 @@ title: Fill.FillType
 second_title: Aspose.Words for .NET API Referansı
 description: Fill mülk. Bir dolgu türü alır.
 type: docs
-weight: 20
+weight: 60
 url: /tr/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property

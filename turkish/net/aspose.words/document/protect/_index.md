@@ -1,14 +1,14 @@
 ---
 title: Document.Protect
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Mevcut parolayı değiştirmeden veya rastgele bir parola atamadan belgeyi değişikliklerden korur.
+description: Document yöntem. Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar.
 type: docs
-weight: 630
+weight: 670
 url: /tr/net/aspose.words/document/protect/
 ---
 ## Protect(ProtectionType) {#protect}
 
-Mevcut parolayı değiştirmeden veya rastgele bir parola atamadan belgeyi değişikliklerden korur.
+Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar.
 
 ```csharp
 public void Protect(ProtectionType type)
@@ -16,15 +16,15 @@ public void Protect(ProtectionType type)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| type | ProtectionType | Belge için koruma türünü belirtir. |
+| type | ProtectionType | Belgenin koruma türünü belirtir. |
 
 ### Notlar
 
-Bir belge korunduğunda, kullanıcı yalnızca sınırlı değişiklikler yapabilir, , örneğin ek açıklamalar ekleme, düzeltmeler yapma veya bir formu doldurma gibi.
+Bir belge korunduğunda, kullanıcı açıklama ekleme, düzeltme yapma veya form doldurma gibi yalnızca sınırlı değişiklikler yapabilir.
 
-Bir belgeyi koruduğunuzda ve belgenin zaten bir koruma parolası olduğunda, mevcut koruma parolası değiştirilmez.
+Bir belgeyi koruduğunuzda ve belgenin zaten bir koruma parolası varsa, mevcut koruma parolası değişmez.
 
-Bir belgeyi koruduğunuzda ve belgenin koruma parolası yoksa, bu yöntem, Microsoft Word'de belge korumasını kaldırmayı imkansız kılan rastgele bir parola atar, ancak yine de Aspose.Words'de belgenin korumasını kaldırabilirsiniz, çünkü yoktur. korumayı kaldırırken bir parola gerektirir.
+Bir belgeyi koruduğunuzda ve belgenin bir koruma parolası yoksa, bu yöntem, Microsoft Word'de belgenin korumasını kaldırmayı imkansız hale getiren rastgele bir parola atar, ancak yine de Aspose.Words'de belgenin korumasını kaldırabilirsiniz, çünkü böyle bir şey yoktur korumayı kaldırırken şifre gerektirir.
 
 ### Örnekler
 
@@ -47,8 +47,8 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 // İlk bölüm için yazma korumasını kapatın.
 doc.Sections[0].ProtectedForForms = false;
 
-// Bu çıktı belgesinde ilk bölümü özgürce düzenleyebileceğiz,
-// ve sadece ikinci bölümde form alanının içeriğini düzenleyebileceğiz.
+// Bu çıktı belgesinde ilk bölümü serbestçe düzenleyebileceğiz,
+// ve ikinci bölümde sadece form alanının içeriğini düzenleyebileceğiz.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 ## Protect(ProtectionType, string) {#protect_1}
 
-Belgeyi değişikliklerden korur ve isteğe bağlı olarak bir koruma parolası ayarlar.
+Belgeyi değişikliklere karşı korur ve isteğe bağlı olarak bir koruma parolası ayarlar.
 
 ```csharp
 public void Protect(ProtectionType type, string password)
@@ -71,12 +71,12 @@ public void Protect(ProtectionType type, string password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| type | ProtectionType | Belge için koruma türünü belirtir. |
-| password | String | Belgeyi korumak için parola. Belgeyi parola olmadan korumak istiyorsanız boş veya boş dize belirtin. |
+| type | ProtectionType | Belgenin koruma türünü belirtir. |
+| password | String | Belgeyi koruma parolası. Belirtin`hükümsüz`veya belgeyi parola olmadan korumak istiyorsanız boş dize. |
 
 ### Notlar
 
-Bir belge korunduğunda, kullanıcı yalnızca sınırlı değişiklikler yapabilir, , örneğin ek açıklamalar ekleme, düzeltmeler yapma veya bir formu doldurma gibi.
+Bir belge korunduğunda, kullanıcı açıklama ekleme, düzeltme yapma veya form doldurma gibi yalnızca sınırlı değişiklikler yapabilir.
 
 Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
 
@@ -90,12 +90,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Bu belgeyi düzenlemek için Microsoft Word ile açarsak,
-// Korumadan geçmek için şifreyi uygulamamız gerekecek.
+// Bu belgeyi düzenlemek amacıyla Microsoft Word ile açarsak,
+// korumayı aşmak için şifreyi uygulamamız gerekecek.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Korumanın yalnızca belgemizi açan Microsoft Word kullanıcıları için geçerli olduğunu unutmayın.
-// Belgeyi hiçbir şekilde şifrelemedik ve programlı olarak açıp düzenlemek için şifreye ihtiyacımız yok.
+// Belgeyi hiçbir şekilde şifrelemedik ve onu programlı olarak açmak ve düzenlemek için şifreye ihtiyacımız yok.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
@@ -116,7 +116,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - Doğru şifre ile:
+// 2 - Doğru şifreyle:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);

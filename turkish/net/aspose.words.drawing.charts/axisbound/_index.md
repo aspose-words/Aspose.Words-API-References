@@ -3,12 +3,14 @@ title: Class AxisBound
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.Charts.AxisBound sınıf. Eksen değerlerinin minimum veya maksimum sınırını temsil eder.
 type: docs
-weight: 500
+weight: 510
 url: /tr/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
 
 Eksen değerlerinin minimum veya maksimum sınırını temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class AxisBound
@@ -18,29 +20,29 @@ public sealed class AxisBound
 
 | İsim | Tanım |
 | --- | --- |
-| [AxisBound](axisbound/#constructor)() | Eksen sınırının bir sözcük işleme uygulaması tarafından otomatik olarak belirlenmesi gerektiğini belirten yeni bir örnek oluşturur. |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Tarih saat değeri olarak temsil edilen bir eksen sınırı oluşturur. |
-| [AxisBound](axisbound/#constructor_1)(double) | Sayı olarak gösterilen bir eksen sınırı oluşturur. |
+| [AxisBound](axisbound/#constructor)() | Eksen sınırının bir kelime işlemci uygulaması tarafından otomatik olarak belirlenmesi gerektiğini belirten yeni bir örnek oluşturur. |
+| [AxisBound](axisbound/#constructor_2)(DateTime) | Datetime değeri olarak temsil edilen bir eksen sınırı oluşturur. |
+| [AxisBound](axisbound/#constructor_1)(double) | Sayı olarak temsil edilen bir eksen sınırı oluşturur. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
 | [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Eksen sınırının otomatik olarak belirlenmesi gerektiğini belirten bir bayrak döndürür. |
-| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Eksenin sayısal değerini döndürür. |
-| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Tarih saat olarak temsil edilen eksen sınırının değerini döndürür. |
+| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Sınırlanan eksenin sayısal değerini döndürür. |
+| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Datetime olarak temsil edilen eksen sınırının değerini döndürür. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Bu tür için bir karma işlevi olarak hizmet eder. |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür. |
 
 ### Notlar
 
-Sınır, sayısal, tarih saat veya özel bir "otomatik" değer olarak belirtilebilir.
+Sınır; sayısal, tarihsaat veya özel bir "otomatik" değer olarak belirtilebilir.
 
 Bu sınıfın örnekleri değişmezdir.
 
@@ -67,17 +69,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseni için alt ve üst sınırları ayarlayın.
+// X ekseninin alt ve üst sınırlarını ayarlayın.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya ve küçük birimleri bir güne ayarlayın.
+// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
@@ -87,6 +91,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

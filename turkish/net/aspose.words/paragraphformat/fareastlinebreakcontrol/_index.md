@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafa Doğu Asya satır kesme kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar.
+description: ParagraphFormat mülk. Geçerli paragrafa Doğu Asya satır sonu kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-Geçerli paragrafa Doğu Asya satır kesme kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar.
+Geçerli paragrafa Doğu Asya satır sonu kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

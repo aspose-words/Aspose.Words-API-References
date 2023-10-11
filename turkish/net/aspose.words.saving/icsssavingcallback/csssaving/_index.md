@@ -1,14 +1,14 @@
 ---
 title: ICssSavingCallback.CssSaving
 second_title: Aspose.Words for .NET API Referansı
-description: ICssSavingCallback yöntem. Aspose.Words bir CSS Cascading Style Sheet kaydettiğinde çağrılır.
+description: ICssSavingCallback yöntem. Aspose.Words bir CSSyi Basamaklı Stil Sayfası kaydettiğinde çağrılır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/icsssavingcallback/csssaving/
 ---
 ## ICssSavingCallback.CssSaving method
 
-Aspose.Words bir CSS (Cascading Style Sheet) kaydettiğinde çağrılır.
+Aspose.Words bir CSS'yi (Basamaklı Stil Sayfası) kaydettiğinde çağrılır.
 
 ```csharp
 public void CssSaving(CssSavingArgs args)
@@ -23,15 +23,15 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
     // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın.
-    // kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
+    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda, çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -43,7 +43,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -56,7 +56,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // "Document" özelliği ile kaynak belgenin tamamına erişebiliriz.
+        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

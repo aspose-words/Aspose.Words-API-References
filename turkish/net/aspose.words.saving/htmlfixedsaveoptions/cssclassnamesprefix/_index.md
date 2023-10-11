@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.CssClassNamesPrefix
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. style.css dosyasındaki tüm sınıf adlarına eklenen öneki belirtir. Varsayılan değerah .
+description: HtmlFixedSaveOptions mülk. Style.css dosyasındaki tüm sınıf adlarına eklenen öneki belirtir. Varsayılan değerah .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-style.css dosyasındaki tüm sınıf adlarına eklenen öneki belirtir. Varsayılan değer`"ah"` .
+Style.css dosyasındaki tüm sınıf adlarına eklenen öneki belirtir. Varsayılan değer:`"ah"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }
@@ -16,7 +16,7 @@ public string CssClassNamesPrefix { get; set; }
 
 ### Örnekler
 
-CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıf adlarına bir önek ekleneceğini gösterir.
+CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

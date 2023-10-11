@@ -3,12 +3,14 @@ title: Enum ThemeColor
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Themes.ThemeColor Sıralama. Belge temaları için tema renklerini belirtir.
 type: docs
-weight: 6170
+weight: 6470
 url: /tr/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
 Belge temaları için tema renklerini belirtir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
 
 ```csharp
 public enum ThemeColor
@@ -30,7 +32,7 @@ public enum ThemeColor
 | Accent5 | `8` | Vurgu rengi 5. |
 | Accent6 | `9` | Vurgu rengi 6. |
 | Hyperlink | `10` | Köprü rengi. |
-| FollowedHyperlink | `11` | İzlenen köprü rengi. |
+| FollowedHyperlink | `11` | Takip edilen köprü rengi. |
 | Text1 | `12` | Metin rengi 1. |
 | Text2 | `13` | Metin rengi 2. |
 | Background1 | `14` | Arka plan rengi 1. |
@@ -38,7 +40,7 @@ public enum ThemeColor
 
 ### Notlar
 
-Belirtilen tema rengi, belgesinin Tema bölümünde bulunan ve renk bilgilerinin belgede merkezi olarak ayarlanmasını sağlayan önceden tanımlanmış tema renklerinden birine referanstır.
+Belirtilen tema rengi, renk bilgilerinin belgede merkezi olarak ayarlanmasına olanak tanıyan belgenin Tema bölümünde bulunan önceden tanımlanmış tema renklerinden birine referanstır.
 
 ### Örnekler
 
@@ -118,7 +120,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Tema dışı yazı tipi/renk adları ayarlayarak:
+// 2 - Tema dışı yazı tipi/renk adlarını ayarlayarak:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

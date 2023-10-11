@@ -3,12 +3,14 @@ title: Class FieldNumChars
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fields.FieldNumChars sınıf. NUMCHARS alanını uygular.
 type: docs
-weight: 2060
+weight: 2210
 url: /tr/net/aspose.words.fields/fieldnumchars/
 ---
 ## FieldNumChars class
 
 NUMCHARS alanını uygular.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
 
 ```csharp
 public class FieldNumChars : Field
@@ -26,12 +28,12 @@ public class FieldNumChars : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | [`FieldFormat`](../fieldformat/) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
 
@@ -41,14 +43,14 @@ public class FieldNumChars : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Bağlantıyı kaldır alanını gerçekleştirir. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
 ### Notlar
 
-Geçerli belgedeki karakter sayısını, **karakterler**the yerleşik belge özelliklerinin özelliği.
+Geçerli belgede kayıtlı olan karakter sayısını alır. **Karakterler** the yerleşik belge özelliklerinin özelliği.
 
 ### Örnekler
 
@@ -61,12 +63,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Aşağıda, belgelerimizin boyutunu izlemek için kullanabileceğimiz üç tür alan bulunmaktadır.
-// 1 - Bir NUMCHARS alanıyla karakter sayısını izleyin:
+// Aşağıda belgelerimizin boyutunu takip etmek için kullanabileceğimiz üç tür alan bulunmaktadır.
+// 1 - Karakter sayısını NUMCHARS alanıyla takip edin:
 FieldNumChars fieldNumChars = (FieldNumChars)builder.InsertField(FieldType.FieldNumChars, true);       
 builder.Writeln(" characters");
 
-// 2 - NUMWORDS alanıyla kelime sayısını izleyin:
+// 2 - NUMWORDS alanıyla kelime sayısını takip edin:
 FieldNumWords fieldNumWords = (FieldNumWords)builder.InsertField(FieldType.FieldNumWords, true);
 builder.Writeln(" words");
 
@@ -85,7 +87,7 @@ Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
 
 // Bu alanlar gerçek zamanlı olarak doğru değerleri korumayacaktır
 // belgeyi programlı olarak Aspose.Words kullanarak veya Microsoft Word'de düzenlerken.
- // Güncel bir değer görmek için ihtiyacımız olan her şeyi güncellememiz gerekiyor.
+ // Güncel bir değer görmek için ihtiyaç duyduğumuzda bunları güncellememiz gerekiyor.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 ```

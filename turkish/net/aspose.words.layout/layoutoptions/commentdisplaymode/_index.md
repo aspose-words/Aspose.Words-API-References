@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değerShowInBalloons .
+Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değer:ShowInBalloons .
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -16,11 +16,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### Notlar
 
-için revizyonların balonlarda gösterilmediğini unutmayın.ShowInAnnotations .
+Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
 
 ### Örnekler
 
-Bir belgeyi işlenmiş bir formatta kaydederken yorumların nasıl gösterileceğini gösterir.
+Bir belgeyi işlenmiş formatta kaydederken yorumların nasıl gösterileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations yalnızca Pdf1.7 ve Pdf1.5 formatlarında mevcuttur.
-// Diğer formatlarda, Gizle'ye benzer şekilde çalışacaktır.
+// Diğer formatlarda Gizle'ye benzer şekilde çalışacaktır.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");

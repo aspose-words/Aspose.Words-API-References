@@ -3,12 +3,14 @@ title: Class BuildingBlock
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.BuildingBlocks.BuildingBlock sınıf. Yapı Taşı Otomatik Metin veya Otomatik Düzelt girişi gibi bir sözlük belgesi girişini temsil eder.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words.buildingblocks/buildingblock/
 ---
 ## BuildingBlock class
 
 Yapı Taşı, Otomatik Metin veya Otomatik Düzelt girişi gibi bir sözlük belgesi girişini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class BuildingBlock : CompositeNode
@@ -24,77 +26,78 @@ public class BuildingBlock : CompositeNode
 
 | İsim | Tanım |
 | --- | --- |
-| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | Yapı bloğunun içeriği ana belgeye eklendiğinde uygulanacak davranışı belirtir. |
+| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | Yapı taşı 'nin içeriği ana belgeye eklendiğinde uygulanacak davranışı belirtir. |
 | [Category](../../aspose.words.buildingblocks/buildingblock/category/) { get; set; } | Yapı taşı için ikinci düzey kategorizasyonu belirtir. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Bu düğümün tüm acil alt düğümlerini alır. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün acil alt öğelerinin sayısını alır. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün doğrudan alt öğelerinin sayısını alır. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | [Description](../../aspose.words.buildingblocks/buildingblock/description/) { get; set; } | Bu yapı taşıyla ilişkili açıklamayı alır veya ayarlar. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk alt öğesini alır. |
-| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | Yapı taşındaki ilk bölümü alır. |
-| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | sınıflandırma veya kullanıcı arabirimi sıralama amaçları için yapı taşı için birinci düzey kategorizasyonu belirtir. |
-| [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | Bu yapı taşını benzersiz şekilde tanımlayan bir tanımlayıcı (128 bit GUID) alır veya ayarlar. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Bu düğümün herhangi bir alt düğümü varsa doğru döndürür. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Bu düğümün alt düğümleri olabileceğinden true değerini döndürür. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son alt öğesini alır. |
-| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | Yapı taşındaki son bölümü alır. |
-| [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | Bu yapı taşının adını alır veya ayarlar. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | BuildingBlock değer. |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk çocuğunu alır. |
+| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | Yapı bloğundaki ilk bölümü alır. |
+| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | sınıflandırması veya kullanıcı arayüzü sıralaması amacıyla yapı taşı için birinci düzey kategorizasyonu belirtir. |
+| [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | Bu yapı bloğunu benzersiz şekilde tanımlayan bir tanımlayıcıyı (128 bit GUID) alır veya ayarlar. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | İadeler`doğru` bu düğümün herhangi bir alt düğümü varsa. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | İadeler`doğru` çünkü bu düğüm alt düğümlere sahip olabilir. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son çocuğunu alır. |
+| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | Yapı bloğundaki son bölümü alır. |
+| [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | Bu yapı bloğunun adını alır veya ayarlar. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | Şunu döndürür:BuildingBlock değer. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
-| [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | Yapı taşındaki tüm bölümleri temsil eden bir koleksiyon döndürür. |
-| [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | Yapı taşı türünü belirtir. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../../aspose.words/range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
+| [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | Yapı bloğundaki tüm bölümleri temsil eden bir koleksiyon döndürür. |
+| [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | Yapı bloğu türünü belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
+| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
+| override [AcceptEnd](../../aspose.words.buildingblocks/buildingblock/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.buildingblocks/buildingblock/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Sistem kullanımı için ayrılmıştır. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N. alt düğümü döndürür. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen canlı bir alt düğüm koleksiyonu döndürür. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerinde her stil yinelemesi için destek sağlar. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Belirtilen referans düğümünden hemen sonra belirtilen düğümü ekler. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Belirtilen düğümü, belirtilen referans düğümünden hemen önce ekler. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Belirtilen alt düğümü kaldırır. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/) geçerli düğümün alt düğümleri. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/)Geçerli düğümün alt düğümleri. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | XPath ifadesiyle eşleşen ilk Düğümü seçer. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | İlkini seçer[`Node`](../../aspose.words/node/) XPath ifadesiyle eşleşen. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-`BuildingBlock` sadece içerebilir[`Section`](../../aspose.words/section/) düğümler.
+`BuildingBlock` yalnızca içerebilir[`Section`](../../aspose.words/section/) düğümler.
 
 `BuildingBlock` sadece çocuğu olabilir[`GlossaryDocument`](../glossarydocument/).
 
-Yeni yapı taşları oluşturabilir ve bunları bir sözlük belgesine ekleyebilirsiniz. Mevcut yapı taşlarını değiştirebilir veya silebilirsiniz. Belgeler arasında yapı taşlarını kopyalayabilir veya taşıyabilirsiniz. Bir yapı taşının içeriğini bir belgeye ekleyebilirsiniz.
+Yeni yapı taşları oluşturabilir ve bunları bir sözlük belgesine ekleyebilirsiniz. Mevcut yapı taşlarını değiştirebilir veya silebilirsiniz. Yapı bloklarını belgeler arasında kopyalayabilir veya taşıyabilirsiniz. Bir yapı taşının içeriğini bir belgeye ekleyebilirsiniz.
 
-karşılık gelir **docPart** , **docPartPr** ve **docPartVücut**OOXML'deki öğeler.
+karşılık gelir **belgePart** , **docPartPr** Ve **docPartBody** OOXML'deki öğeler.
 
 ### Örnekler
 
-Bir belgeye özel bir yapı taşının nasıl ekleneceğini gösterir.
+Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Bir belgenin sözlük belgesi, yapı taşlarını saklar.
+    // Bir belgenin sözlük belgesi yapı taşlarını saklar.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
@@ -113,34 +116,33 @@ public void CreateAndInsert()
     block.Guid = Guid.NewGuid();
 
     // Aşağıdaki özellikler yapı taşlarını sınıflandırır
-    // menüde Microsoft Word'de "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de "Ekle" yoluyla erişebileceğimiz menüde -> "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Bu yapı taşını belgemize eklemeden önce, ona bazı içerikler vermemiz gerekecek,
+    // Bu yapı taşını belgemize eklemeden önce ona bazı içerikler vermemiz gerekecek,
     // bunu bir belge ziyaretçisi kullanarak yapacağız. Bu ziyaretçi ayrıca bir kategori, galeri ve davranış belirleyecektir.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
-    // Az önce oluşturduğumuz bloğa sözlük belgesinden erişebiliriz.
+    // Az önce oluşturduğumuz bloğa sözlük belgesinden ulaşabiliyoruz.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Bloğun kendisi metni içeren bir bölümdür.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Artık belgeye yeni bir bölüm olarak ekleyebiliriz.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Microsoft Word'ün Building Blocks Organizer'ında da bulabilir ve manuel olarak yerleştirebiliriz.
+    // Bunu Microsoft Word'ün Yapı Taşları Düzenleyicisinde de bulabilir ve manuel olarak yerleştirebiliriz.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Belgeye hızlı bir parça olarak eklenecek ziyaret edilmiş bir yapı taşı kurar ve içeriğine metin ekler.
+/// Belgeye hızlı bir parça olarak eklenecek ziyaret edilen bir yapı taşını ayarlar ve içeriğine metin ekler.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -152,7 +154,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Yapı taşını hızlı bir parça olarak yapılandırın ve Yapı Taşları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
+        // Yapı taşını hızlı parça olarak yapılandırın ve Yapı Taşları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
@@ -160,7 +162,7 @@ public class BuildingBlockVisitor : DocumentVisitor
         block.Gallery = BuildingBlockGallery.QuickParts;
 
         // Metin içeren bir bölüm ekleyin.
-        // Bloğun belgeye eklenmesi, bu bölümü konumdaki alt düğümleriyle birlikte ekler.
+        // Bloğun belgeye eklenmesi, bu bölümü alt düğümleriyle birlikte konuma ekleyecektir.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

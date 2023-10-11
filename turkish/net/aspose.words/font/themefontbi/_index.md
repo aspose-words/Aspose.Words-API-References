@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Sağdan sola bir dil belgesinde bu Font nesnesi ile ilişkilendirilen uygulanan font şemasındaki tema fontunu alır veya ayarlar.
+description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font sağdan sola yazılan bir dil belgesinde object .
 type: docs
 weight: 490
 url: /tr/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Sağdan sola bir dil belgesinde bu Font nesnesi ile ilişkilendirilen uygulanan font şemasındaki tema fontunu alır veya ayarlar.
+Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.[`Font`](../) sağdan sola yazılan bir dil belgesinde object .
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Tema dışı yazı tipi/renk adları ayarlayarak:
+// 2 - Tema dışı yazı tipi/renk adlarını ayarlayarak:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

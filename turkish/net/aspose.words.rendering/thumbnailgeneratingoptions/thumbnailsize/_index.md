@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan, 600x900'dür.
+Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900'dür.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim ayarlamanın iki yolu vardır.
+// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
 // 1 - Belgenin ilk sayfasını kullanın:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

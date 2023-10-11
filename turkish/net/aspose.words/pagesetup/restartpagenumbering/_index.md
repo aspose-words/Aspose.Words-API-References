@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RestartPageNumbering
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Doğru sayfa numaralandırma bölümün başında yeniden başlarsa.
+description: PageSetup mülk. Sayfa numaralandırma bölümün başlangıcında yeniden başlıyorsa doğrudur.
 type: docs
-weight: 350
+weight: 360
 url: /tr/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**Doğru** sayfa numaralandırma bölümün başında yeniden başlarsa.
+Sayfa numaralandırma bölümün başlangıcında yeniden başlıyorsa doğrudur.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Notlar
 
-olarak ayarlanırsa **yanlış** , **Sayfa Numaralandırmayı Yeniden Başlat**özellik the öğesini geçersiz kılar[`PageStartingNumber`](../pagestartingnumber/) özellik, böylece sayfa numaralandırma önceki bölümden devam edebilir.
+Eğer ayarlanmışsa`YANLIŞ` ,`RestartPageNumbering` özellik the değerini geçersiz kılacak[`PageStartingNumber`](../pagestartingnumber/) sayfa numaralandırmanın önceki bölümden devam edebilmesi için özellik.
 
 ### Örnekler
 
@@ -43,18 +43,18 @@ builder.Writeln("Section 2, page 3.");
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Geçerli sayfanın numarasını gösterecek bir SAYFA alanı ekleyin.
+// Geçerli sayfanın numarasını görüntüleyecek bir PAGE alanı ekleyin.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Bölümü, SAYFA alanlarının gösterdiği sayfa sayısının 5'ten başlamasını sağlayacak şekilde yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını, büyük Romen rakamları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 5'ten başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını sayfa numaralarını büyük harf Romen rakamları kullanarak gösterecek şekilde yapılandırın.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// İkinci bölüm için başka bir SAYFA alanıyla başka bir birincil başlık oluşturun.
+// İkinci bölüm için başka bir PAGE alanıyla başka bir birincil başlık oluşturun.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -62,8 +62,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// SAYFA alanlarının gösterdiği sayfa sayısının 10'dan başlaması için bölümü yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 10'dan başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

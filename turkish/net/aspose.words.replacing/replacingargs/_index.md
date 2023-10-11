@@ -3,12 +3,14 @@ title: Class ReplacingArgs
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Replacing.ReplacingArgs sınıf. Özel bir değiştirme işlemi için veri sağlar.
 type: docs
-weight: 4390
+weight: 4650
 url: /tr/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Özel bir değiştirme işlemi için veri sağlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bul ve Değiştir](https://docs.aspose.com/words/net/find-and-replace/) dokümantasyon makalesi.
 
 ```csharp
 public class ReplacingArgs
@@ -18,18 +20,19 @@ public class ReplacingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Dizinde yakalanan bir grubu dizine göre tanımlar.[`Match`](./match/) ile değiştirilecek olan[`Replacement`](./replacement/) string. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Listede yakalanan bir grubu adıyla tanımlar.[`Match`](./match/) ile değiştirilecek olan[`Replacement`](./replacement/) string. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match sırasında tek bir normal ifade eşleşmesinden kaynaklanan **Yer değiştirmek** . |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Dizinde yakalanan bir grubu tanımlar.[`Match`](./match/) ile değiştirilecek[`Replacement`](./replacement/) dize. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Yakalanan bir grubu adıyla tanımlar.[`Match`](./match/) ile değiştirilecek[`Replacement`](./replacement/) dize. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır **Yer değiştirmek** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Eşleşmenin başlangıcını içeren düğümü alır. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır. |
-| [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Değiştirilen dizeyi alır veya ayarlar. |
+| [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Değiştirme dizesini alır veya ayarlar. |
 
 ### Örnekler
 
-Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -40,7 +43,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri arama ayarlayın.
+    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -54,7 +57,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle yapılan her metin değişikliğinin günlüğünü tutar
+/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -77,9 +80,10 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
+Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -89,6 +93,8 @@ Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin 
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -100,7 +106,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metinle paragrafı kaldırın.
+        // Eşleşen metnin bulunduğu paragrafı kaldırın.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -108,7 +114,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Bir paragraf veya tablodan sonra başka bir belgenin tüm düğümlerini ekler.
+/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -122,7 +128,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragraf ise düğümü atlayın.
+                // Bir bölümdeki son boş paragrafsa düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

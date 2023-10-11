@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değeryanlış .
+description: FindReplaceOptions mülk. Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 90
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer`yanlış` .
+Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -30,10 +30,10 @@ builder.InsertParagraph();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder.InsertFootnote(FootnoteType.Endnote, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
-// Bul ve değiştir özelliğini almak için "IgnoreFootnotes" bayrağını "true" olarak ayarlayın
+// Bul ve değiştir işlevini elde etmek için "IgnoreFootnotes" bayrağını "true" olarak ayarlayın
 // dipnotların içindeki metni yok sayma işlemi.
-// Bul ve değiştir özelliğini almak için "IgnoreFootnotes" bayrağını "false" olarak ayarlayın
-// dipnotların içinde de metin arama işlemi.
+// Bul ve değiştir işlevini elde etmek için "IgnoreFootnotes" bayrağını "false" olarak ayarlayın
+// dipnotların içindeki metni de arama işlemi.
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFootnotes = isIgnoreFootnotes };
 doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ```

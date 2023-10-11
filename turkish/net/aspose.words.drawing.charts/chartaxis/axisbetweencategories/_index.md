@@ -16,11 +16,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ### Notlar
 
-Özelliğin yalnızca değer eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmez.
+Özelliğin yalnızca değer eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
 ### Örnekler
 
-Özel bir konumda çaprazlanacak bir grafik ekseninin nasıl alınacağını gösterir.
+Özel bir konumda kesişecek bir grafik ekseninin nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,9 +34,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Sütun grafikler için, Y ekseni varsayılan olarak sıfırda kesişir,
-// bu, sıfırın altındaki tüm değerler için sütunların negatif değerleri temsil etmesi anlamına gelir.
-// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda, 3'e ayarlayacağız.
+// Sütun grafikleri için Y ekseni varsayılan olarak sıfırdan geçer,
+// bu, sıfırın altındaki tüm değerlerin sütunlarının negatif değerleri temsil edecek şekilde aşağıyı gösterdiği anlamına gelir.
+// Y ekseni geçişi için farklı bir değer ayarlayabiliriz. Bu durumda 3'e ayarlayacağız.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

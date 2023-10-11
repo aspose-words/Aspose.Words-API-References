@@ -3,7 +3,7 @@ title: PdfSaveOptions.CustomPropertiesExport
 second_title: Aspose.Words for .NET API Referansı
 description: PdfSaveOptions mülk. Yolu belirleyen bir değer alır veya ayarlarCustomDocumentProperties PDF dosyasına aktarılır.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
@@ -16,11 +16,11 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 ### Notlar
 
-Varsayılan değerNone.
+Varsayılan değer:None.
 
-Metadata değer, PDF/A'ya kaydedilirken desteklenmiyor. Standard bunun yerine PDF/A-1 ve PDF/A-2 ve için kullanılacaktırNone PDF/A-4 için.
+Metadata PDF/A'ya kaydederken değer desteklenmez. Standard bunun yerine PDF/A-1 ve PDF/A-2 ve kullanılacakNone PDF/A-4 için.
 
-Standard PDF 2.0. 'ye kaydederken değer desteklenmiyorMetadata yerine kullanılacaktır.
+Standard PDF 2.0. 'ye kaydederken değer desteklenmiyorMetadata onun yerine kullanılacaktır.
 
 ### Örnekler
 
@@ -31,12 +31,12 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// "CustomPropertiesExport" özelliğini atmak için "PdfCustomPropertiesExport.None" olarak ayarlayın
- // belgeyi .PDF'ye kaydederken özel belge özellikleri.
+// Atmak için "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.None" olarak ayarlayın
+// belgeyi .PDF'ye kaydettiğimizde özel belge özellikleri.
 // "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.Standard" olarak ayarlayın
 // çıktı PDF belgesindeki özel özellikleri korumak için.
 // "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.Metadata" olarak ayarlayın

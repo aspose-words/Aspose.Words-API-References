@@ -1,35 +1,43 @@
 ---
 title: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Drawing.Charts ad alanı Microsoft Word belgelerindeki grafiklere erişmeye izin veren sınıflar sağlar.
+description: Aspose.Words.Drawing.Charts ad alanı Microsoft Word belgelerindeki grafiklere erişime izin veren sınıflar sağlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/
 ---
-bu **Aspose.Words.Drawing.Charts** ad alanı, Microsoft Word belgelerindeki grafiklere erişmeye izin veren sınıflar sağlar.
+**Aspose.Words.Drawing.Charts** ad alanı, Microsoft Word belgelerindeki grafiklere erişime izin veren sınıflar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
 | [AxisBound](./axisbound/) | Eksen değerlerinin minimum veya maksimum sınırını temsil eder. |
-| [AxisDisplayUnit](./axisdisplayunit/) | Değer ekseni için görüntüleme birimlerinin ölçekleme seçeneklerine erişim sağlar. |
-| [AxisScaling](./axisscaling/) | Eksenin ölçekleme seçeneklerini temsil eder. |
+| [AxisDisplayUnit](./axisdisplayunit/) | Değer ekseni için görüntüleme birimlerinin ölçeklendirme seçeneklerine erişim sağlar. |
+| [AxisScaling](./axisscaling/) | Eksenin ölçeklendirme seçeneklerini temsil eder. |
+| [BubbleSizeCollection](./bubblesizecollection/) | Bir grafik serisi için kabarcık boyutları koleksiyonunu temsil eder. |
 | [Chart](./chart/) | Grafik şekli özelliklerine erişim sağlar. |
 | [ChartAxis](./chartaxis/) | Grafiğin eksen seçeneklerini temsil eder. |
-| [ChartDataLabel](./chartdatalabel/) | Bir grafik noktası veya eğilim çizgisi üzerindeki veri etiketini temsil eder. |
-| [ChartDataLabelCollection](./chartdatalabelcollection/) | Bir koleksiyonu temsil eder[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
-| [ChartDataPoint](./chartdatapoint/) | Grafikteki tek bir veri noktasının biçimlendirmesini belirlemeye izin verir. |
-| [ChartDataPointCollection](./chartdatapointcollection/) | Bir[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
+| [ChartAxisCollection](./chartaxiscollection/) | Grafik eksenlerinin bir koleksiyonunu temsil eder. |
+| [ChartAxisTitle](./chartaxistitle/) | Eksen başlığı özelliklerine erişim sağlar. |
+| [ChartDataLabel](./chartdatalabel/) | Bir grafik noktasındaki veya trend çizgisindeki veri etiketini temsil eder. |
+| [ChartDataLabelCollection](./chartdatalabelcollection/) | Aşağıdakilerin bir koleksiyonunu temsil eder:[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
+| [ChartDataPoint](./chartdatapoint/) | Grafikteki tek bir veri noktasının formatını belirtmeye izin verir. |
+| [ChartDataPointCollection](./chartdatapointcollection/) | Bir koleksiyonu temsil eder[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
 | [ChartFormat](./chartformat/) | Bir grafik öğesinin biçimlendirmesini temsil eder. |
-| [ChartLegend](./chartlegend/) | Grafik gösterge özelliklerini temsil eder. |
-| [ChartLegendEntry](./chartlegendentry/) | Bir grafik gösterge girişini temsil eder. |
-| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Bir grafik gösterge girdileri koleksiyonunu temsil eder. |
+| [ChartLegend](./chartlegend/) | Grafik açıklama özelliklerini temsil eder. |
+| [ChartLegendEntry](./chartlegendentry/) | Bir grafik açıklaması girişini temsil eder. |
+| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Grafik açıklama girişlerinin bir koleksiyonunu temsil eder. |
 | [ChartMarker](./chartmarker/) | Bir grafik veri işaretçisini temsil eder. |
-| [ChartNumberFormat](./chartnumberformat/) | Üst öğenin sayı biçimlendirmesini temsil eder. |
+| [ChartMultilevelValue](./chartmultilevelvalue/) | Çok düzeyli verileri görüntüleyen grafiklere yönelik bir değeri temsil eder. |
+| [ChartNumberFormat](./chartnumberformat/) | Ana öğenin sayı biçimlendirmesini temsil eder. |
 | [ChartSeries](./chartseries/) | Grafik serisi özelliklerini temsil eder. |
-| [ChartSeriesCollection](./chartseriescollection/) | Bir[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
+| [ChartSeriesCollection](./chartseriescollection/) | Bir koleksiyonu temsil eder[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
 | [ChartTitle](./charttitle/) | Grafik başlığı özelliklerine erişim sağlar. |
+| [ChartXValue](./chartxvalue/) | Bir grafik serisi için bir X değerini temsil eder. |
+| [ChartXValueCollection](./chartxvaluecollection/) | Bir grafik serisi için X değerlerinden oluşan bir koleksiyonu temsil eder. |
+| [ChartYValue](./chartyvalue/) | Bir grafik serisi için Y değerini temsil eder. |
+| [ChartYValueCollection](./chartyvaluecollection/) | Bir grafik serisi için Y değerlerinin bir koleksiyonunu temsil eder. |
 ## Arayüzler
 
 | Arayüz | Tanım |
@@ -40,15 +48,19 @@ bu **Aspose.Words.Drawing.Charts** ad alanı, Microsoft Word belgelerindeki graf
 | numaralandırma | Tanım |
 | --- | --- |
 | [AxisBuiltInUnit](./axisbuiltinunit/) | Bir eksen için görüntüleme birimlerini belirtir. |
-| [AxisCategoryType](./axiscategorytype/) | Bir kategori ekseninin türünü belirtir. |
+| [AxisCategoryType](./axiscategorytype/) | Kategori ekseninin türünü belirtir. |
 | [AxisCrosses](./axiscrosses/) | Bir eksen için olası geçiş noktalarını belirtir. |
 | [AxisScaleType](./axisscaletype/) | Bir eksen için olası ölçek türlerini belirtir. |
 | [AxisTickLabelPosition](./axisticklabelposition/) | Onay etiketleri için olası konumları belirtir. |
-| [AxisTickMark](./axistickmark/) | Onay işaretleri için olası konumları belirtir. |
+| [AxisTickMark](./axistickmark/) | Onay işaretlerinin olası konumlarını belirtir. |
 | [AxisTimeUnit](./axistimeunit/) | Eksenler için zaman birimini belirtir. |
 | [ChartAxisType](./chartaxistype/) | Grafik ekseninin türünü belirtir. |
-| [ChartType](./charttype/) | Bir grafiğin türünü belirtir. |
-| [LegendPosition](./legendposition/) | Bir grafik göstergesi için olası konumları belirtir. |
+| [ChartSeriesType](./chartseriestype/) | Bir grafik serisinin türünü belirtir. |
+| [ChartShapeType](./chartshapetype/) | Grafik öğelerinin şekil türünü belirtir. |
+| [ChartType](./charttype/) | Grafiğin türünü belirtir. |
+| [ChartXValueType](./chartxvaluetype/) | Bir grafik serisinin X değerinin türünü belirtmeye izin verir. |
+| [ChartYValueType](./chartyvaluetype/) | Bir grafik serisinin Y değerinin türünü belirtmeye izin verir. |
+| [LegendPosition](./legendposition/) | Bir grafik açıklaması için olası konumları belirtir. |
 | [MarkerSymbol](./markersymbol/) | İşaretçi sembolü stilini belirtir. |
 
 

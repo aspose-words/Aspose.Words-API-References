@@ -1,14 +1,14 @@
 ---
 title: Node.ParentNode
 second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümün hemen üst öğesini alır.
+description: Node mülk. Bu düğümün doğrudan ebeveynini alır.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/node/parentnode/
 ---
 ## Node.ParentNode property
 
-Bu düğümün hemen üst öğesini alır.
+Bu düğümün doğrudan ebeveynini alır.
 
 ```csharp
 public CompositeNode ParentNode { get; }
@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ### Notlar
 
-Bir düğüm yeni oluşturulmuşsa ve henüz ağaca eklenmemişse, veya ağaçtan kaldırılmışsa, üst öğe boştur.
+Bir düğüm yeni oluşturulmuş ve ağaca henüz eklenmemişse, veya ağaçtan kaldırılmışsa ebeveyn düğümdür.`hükümsüz`.
 
 ### Örnekler
 
@@ -26,7 +26,7 @@ Bir düğümün üst düğümüne nasıl erişileceğini gösterir.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Belgenin ilk paragrafına bir alt Çalıştırma düğümü ekleyin.
+// Belgenin ilk paragrafına bir alt Çalıştır düğümü ekleyin.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
@@ -45,17 +45,17 @@ Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Bu paragrafı henüz herhangi bir bileşik düğüme alt öğe olarak eklemedik.
+// Bu paragrafı henüz alt öğe olarak herhangi bir bileşik düğüme eklemedik.
 Assert.IsNull(para.ParentNode);
 
-// Bir düğüm, başka bir bileşik düğümün uygun bir alt düğüm türüyse,
-// yalnızca her iki düğümün de aynı sahip belgesine sahip olması durumunda alt öğe olarak ekleyebiliriz.
+// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm tipi ise,
+// ancak her iki düğümün de aynı sahip belgesine sahip olması durumunda onu çocuk olarak ekleyebiliriz.
 // Sahip belgesi, düğümün yapıcısına ilettiğimiz belgedir.
-// Bu paragrafı belgeye eklemedik, bu nedenle belge metnini içermiyor.
+// Bu paragrafı belgeye eklemedik, dolayısıyla belge metnini içermiyor.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Belge bu paragrafa sahip olduğu için onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
+// Belge bu paragrafın sahibi olduğundan, onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Bu düğümü belgeye ekleyin ve ardından içeriğini doğrulayın.

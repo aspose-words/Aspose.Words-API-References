@@ -1,14 +1,14 @@
 ---
 title: Story.FirstParagraph
 second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Öyküdeki ilk paragrafı alır.
+description: Story mülk. Hikayedeki ilk paragrafı alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-Öyküdeki ilk paragrafı alır.
+Hikayedeki ilk paragrafı alır.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### Örnekler
 
-Font özelliğini kullanarak bir metin akışının nasıl biçimlendirileceğini gösterir.
+Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

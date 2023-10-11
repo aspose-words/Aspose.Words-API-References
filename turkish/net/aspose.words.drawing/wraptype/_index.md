@@ -3,7 +3,7 @@ title: Enum WrapType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.WrapType Sıralama. Metnin bir şeklin veya resmin etrafına nasıl sarılacağını belirtir.
 type: docs
-weight: 1250
+weight: 1400
 url: /tr/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
@@ -18,22 +18,22 @@ public enum WrapType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `3` | Şeklin etrafını saran metin yok. Şekil, metnin arkasına veya önüne yerleştirilir. |
-| Inline | `0` | Şekil, metinle aynı katmanda kalır ve bir karakter olarak kabul edilir. |
-| TopBottom | `1` | Metin, şeklin üstünde durur ve şeklin altındaki satırda yeniden başlar. |
-| Square | `2` | Metni şeklin kare sınırlayıcı kutusunun tüm kenarlarına sarar. |
-| Tight | `4` | Sınırlayıcı kutuyu sarmak yerine şeklin kenarlarına sıkıca sarar. |
-| Through | `5` | Sıkı ile aynı, ancak şeklin açık olan tüm kısımlarını sarar. |
+| None | `3` | Şeklin etrafına sarılmış metin yok. Şekil metnin arkasına veya önüne yerleştirilir. |
+| Inline | `0` | Şekil, metinle aynı katmanda kalır ve karakter olarak değerlendirilir. |
+| TopBottom | `1` | Metin şeklin üstünde durur ve şeklin altındaki satırda yeniden başlar. |
+| Square | `2` | Metni şeklin kare sınırlayıcı kutusunun tüm kenarlarının etrafına sarar. |
+| Tight | `4` | Sınırlayıcı kutunun etrafına sarmak yerine şeklin kenarlarının etrafına sıkıca sarar. |
+| Through | `5` | Sıkı ile aynıdır ancak şeklin açık olan tüm bölümlerinin içine sarılır. |
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -45,7 +45,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

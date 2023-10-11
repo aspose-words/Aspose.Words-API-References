@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
 second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Metin kutuları içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting modu kullanılır. Varsayılan değerdoğru .
+description: ImportFormatOptions mülk. Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru .
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Metin kutuları içeriğinin kaynak biçimlendirmesinin yoksayıldığını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting modu kullanılır. Varsayılan değer`doğru` .
+Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -16,10 +16,10 @@ public bool IgnoreTextBoxes { get; set; }
 
 ### Örnekler
 
-Belge eklerken metin kutusu biçimlendirmesinin nasıl yönetileceğini gösterir.
+Belge eklerken metin kutusu formatının nasıl yönetileceğini gösterir.
 
 ```csharp
-// İçine başka bir belgeden düğümler eklenecek bir belge oluşturun.
+// Başka bir belgenin düğümlerinin ekleneceği bir belge oluşturun.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
@@ -35,13 +35,13 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Metin kutusu biçimlendirmesini temizlemeyi veya korumayı belirtmek için bir bayrak ayarlayın
-// onları diğer belgelere aktarırken.
+// Metin kutusu formatının silineceğini veya korunacağını belirtmek için bir bayrak ayarlayın
+// bunları diğer belgelere aktarırken.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
 // Metin kutusunu kaynak belgeden hedef belgeye aktarın,
-// ve ardından metin içeriğinin stilini koruduğumuzu doğrulayın.
+// ve ardından metin içeriğinin stilini koruyup korumadığımızı doğrulayın.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

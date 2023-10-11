@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Aspose.Wordsün bir görüntüyü kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir.
+description: ImageSavingArgs mülk. Aspose.Wordsün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-Aspose.Words'ün bir görüntüyü kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir.
+Aspose.Words'ün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -16,17 +16,18 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### Notlar
 
-Varsayılan`yanlış` ve Aspose.Words, sağladığınız akışı [`ImageStream`](../imagestream/) içine bir resim yazdıktan sonra özellik. Belirtin`doğru` akışı açık tutmak için.
+Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`ImageStream`](../imagestream/) içine bir resim yazdıktan sonra özellik. Belirtin`doğru` Akışı açık tutmak için.
 
 ### Örnekler
 
-Bir HTML dönüştürme işlemine bir resim kaydetme geri aramasının nasıl dahil edileceğini gösterir.
+Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri arama atamak için bir SaveOptions nesnesi iletebiliriz
+    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
     // görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();

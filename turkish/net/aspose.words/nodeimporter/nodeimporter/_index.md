@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.NodeImporter
 second_title: Aspose.Words for .NET API Referansı
-description: NodeImporter inşaatçı. Yeni bir örneğini başlatırNodeImporter sınıf.
+description: NodeImporter inşaatçı. Yeni bir örneğini başlatırNodeImporter class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
 
-Yeni bir örneğini başlatır[`NodeImporter`](../) sınıf.
+Yeni bir örneğini başlatır[`NodeImporter`](../) class.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -18,14 +18,13 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Kaynak belge. |
 | dstDoc | DocumentBase | İçe aktarılan düğümlerin sahibi olacak hedef belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 
 ### Örnekler
 
-Bir belgenin içeriğinin başka bir belgedeki yer işaretine nasıl ekleneceğini gösterir.
+Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -50,7 +49,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belirtilen düğümden sonra bir belgenin içeriğini ekler.
+/// Belgenin içeriğini belirtilen düğümden sonra ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -61,8 +60,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında dolaşın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü klonlayın ve ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
+        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -98,7 +97,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
 
-Yeni bir örneğini başlatır[`NodeImporter`](../) sınıf.
+Yeni bir örneğini başlatır[`NodeImporter`](../) class.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 
@@ -109,19 +108,19 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Kaynak belge. |
 | dstDoc | DocumentBase | İçe aktarılan düğümlerin sahibi olacak hedef belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 | importFormatOptions | ImportFormatOptions | İçe aktarılan düğümü biçimlendirmek için çeşitli seçenekleri belirtir. |
 
 ### Örnekler
 
-Aynı liste tanımı tanımlayıcısına sahip listeleri olan belgeleri içe aktarırken bir çakışmanın nasıl çözüleceğini gösterir.
+Aynı liste tanımı tanımlayıcısına sahip listeleri içe aktarırken çakışmanın nasıl çözüleceğini gösterir.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Farklı bir liste tanımı kimliği uygulamak için "KeepSourceNumbering" özelliğini "true" olarak ayarlayın
-// Aspose.Words onları hedef belgelere aktarırken aynı stillere.
+// Aspose.Words'ün bunları hedef belgelere aktarmasıyla aynı stillere.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -131,18 +130,18 @@ dstDoc.UpdateListLabels();
 Kaynak ve hedef belgelerdeki liste numaralandırma çakışmalarının nasıl çözüleceğini gösterir.
 
 ```csharp
-// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından onu klonlayın.
+// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından kopyalayın.
 // Her ikisi de aynı numaralandırma formatına sahip olduğundan, bir belgeyi diğerine aktarırsak formatlar çakışacaktır.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Belgenin klonunu orijinale aktardığımızda ve ardından onu eklediğimizde,
-// daha sonra aynı liste formatına sahip iki liste birleşecek.
-// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, o zaman belge klonundaki liste
-// orijinaline eklediğimiz, onu eklediğimiz listenin numaralandırmasını sürdürecektir.
-// Bu, iki listeyi etkin bir şekilde tek bir listede birleştirir.
-// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak, belge klonu
-// list, orijinal numaralandırmasını koruyarak iki listenin ayrı listeler olarak görünmesini sağlar. 
+// Belgenin klonunu orijinale aktarıp eklediğimizde,
+// aynı liste formatına sahip iki liste birleşecek.
+// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, belge klonundaki liste
+// orijinale eklediğimiz, eklediğimiz listenin numaralandırmasını taşıyacaktır.
+// Bu, iki listeyi etkili bir şekilde tek bir listede birleştirecektir.
+// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak belge klonu
+ // liste orijinal numaralandırmasını koruyacak ve iki listenin ayrı listeler olarak görünmesini sağlayacaktır.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

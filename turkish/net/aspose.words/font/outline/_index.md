@@ -22,8 +22,8 @@ Anahat olarak biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Metnin dolgu rengini beyaz olarak değiştirmek için Anahat bayrağını ayarlayın ve
- // metnin orijinal renginde her karakterin etrafına ince bir çerçeve bırakın.
+// Metnin dolgu rengini beyaza değiştirmek için Anahat bayrağını ayarlayın ve
+ // her karakterin etrafına metnin orijinal renginde ince bir çerçeve bırakın.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 36;

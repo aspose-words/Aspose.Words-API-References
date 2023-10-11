@@ -18,7 +18,7 @@ public LineStyle LineStyle { get; set; }
 
 Koleksiyondaki ilk kenarlığın stilini döndürür.
 
-Çapraz kenarlıklar hariç koleksiyondaki tüm kenarlıkların stilini ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların stilini ayarlar.
 
 ### Örnekler
 

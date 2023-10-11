@@ -3,7 +3,7 @@ title: Enum OfficeMathJustification
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Math.OfficeMathJustification Sıralama. Denklemin gerekçesini belirtir.
 type: docs
-weight: 3900
+weight: 4140
 url: /tr/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -18,16 +18,16 @@ public enum OfficeMathJustification
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| CenterGroup | `1` | Matematiksel metin örneklerini birbirine göre sola yaslar ve matematiksel metin grubunu (Matematik Paragrafı) sayfaya göre ortalar. |
-| Center | `2` | Her matematiksel metin örneğini, kenar boşluklarına göre ayrı ayrı ortalar. |
-| Left | `3` | Matematik Paragrafının sola yaslaması. |
-| Right | `4` | Matematik Paragrafının Doğru Gerekçelendirilmesi. |
-| Inline | `7` | Math. satır içi konumu |
+| CenterGroup | `1` | Matematiksel metin örneklerini birbirine göre sola yaslar ve math metin grubunu (Matematik Paragrafı) sayfaya göre ortalar. |
+| Center | `2` | Matematiksel metnin her örneğini kenar boşluklarına göre ayrı ayrı ortalar. |
+| Left | `3` | Matematik Paragrafının sola yaslanması. |
+| Right | `4` | Matematik Paragrafının Doğru Gerekçesi. |
+| Inline | `7` | Math. 'nin satır içi konumu |
 | Default | `1` | Varsayılan değerCenterGroup . |
 
 ### Örnekler
 
-Office matematik ekranı biçimlendirmesinin nasıl ayarlanacağını gösterir.
+Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -35,13 +35,10 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Diğer OfficeMath düğümlerinin çocukları olan OfficeMath düğümleri her zaman satır içidir.
-// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirmek için temel düğümdür.
+// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML ve WML biçimleri "EquationXmlEncoding" özelliğini kullanır.
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // OfficeMath düğümünün konumunu ve görüntüleme türünü değiştirin.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

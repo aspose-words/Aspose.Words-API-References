@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails constructor
+## PdfEncryptionDetails(string, string) {#constructor}
 
 Bu sınıfın bir örneğini başlatır.
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword)
+```
+
+### Ayrıca bakınız
+
+* class [PdfEncryptionDetails](../)
+* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* toplantı [Aspose.Words](../../../)
+
+---
+
+## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+
+Bu sınıfın bir örneğini başlatır.
+
+```csharp
+public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
 ### Örnekler
@@ -24,28 +40,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Tüm izinleri reddederek başlayın.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// "EncryptionDetails" özelliği ile şifrelemeyi etkinleştirin.
+// "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda, içeriğine erişmeden önce şifreyi sağlamamız gerekecek.
+// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 
 ### Ayrıca bakınız
 
+* enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
 * ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
 * toplantı [Aspose.Words](../../../)

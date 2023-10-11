@@ -16,23 +16,23 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Görüntü dosyasının adı. Belirtilen ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
-| saveOptions | ImageSaveOptions | Şeklin nasıl oluşturulacağını ve kaydedileceğini denetleyen seçenekleri belirtir. Boş olabilir. |
+| fileName | String | Resim dosyasının adı. Belirtilen ada sahip bir dosya zaten mevcutsa mevcut dosyanın üzerine yazılır. |
+| saveOptions | ImageSaveOptions | Şeklin nasıl oluşturulacağını ve kaydedileceğini denetleyen seçenekleri belirtir. Olabilir`hükümsüz`. |
 
 ### Örnekler
 
-Yerel dosya sisteminde bir Office Math nesnesinin bir görüntü dosyasına nasıl dönüştürüleceğini gösterir.
+Bir Office Math nesnesinin yerel dosya sistemindeki bir görüntü dosyasına nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Düğüm oluşturucunun değiştirilecek "Kaydet" yöntemine geçmek için bir "ImageSaveOptions" nesnesi oluşturun
+// Değiştirmek üzere düğüm oluşturucunun "Kaydet" yöntemine iletilecek bir "ImageSaveOptions" nesnesi oluşturun
 // OfficeMath düğümünü bir görüntüye nasıl dönüştürdüğü.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Nesneyi orijinal boyutunun beş katına çıkarmak için "Scale" özelliğini 5'e ayarlayın.
+// Nesneyi orijinal boyutunun beş katına çıkarmak için "Ölçek" özelliğini 5'e ayarlayın.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
@@ -58,11 +58,11 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Şeklin görüntüsünün kaydedileceği akış. |
-| saveOptions | ImageSaveOptions | Şeklin nasıl oluşturulacağını ve kaydedileceğini denetleyen seçenekleri belirtir. null olabilir. Bu null ise, resim PNG formatında kaydedilir. |
+| saveOptions | ImageSaveOptions | Şeklin nasıl oluşturulacağını ve kaydedileceğini denetleyen seçenekleri belirtir. Olabilir`hükümsüz` . Eğer bu ise`hükümsüz`görüntü PNG formatında kaydedilecektir. |
 
 ### Örnekler
 
-Şekilleri yerel dosya sistemindeki dosyalara dışa aktarmak için bir şekil oluşturucunun nasıl kullanılacağını gösterir.
+Şekilleri yerel dosya sistemindeki dosyalara aktarmak için şekil oluşturucunun nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");
@@ -70,10 +70,10 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// Belgede 2 alt şekil içeren bir grup şekli de dahil olmak üzere 7 şekil var.
-// Her şekli yerel dosya sisteminde bir görüntü dosyasına dönüştüreceğiz
-// grup şekillerini, görünümleri olmadığı için yok sayarken.
-// Bu, 6 görüntü dosyası üretecektir.
+// Belgede 2 alt şekle sahip bir grup şekli de dahil olmak üzere 7 şekil var.
+// Her şekli yerel dosya sistemindeki bir görüntü dosyasına dönüştüreceğiz
+// görünümleri olmadığı için grup şekillerini göz ardı ediyoruz.
+// Bu 6 adet resim dosyası üretecektir.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {
     ShapeRenderer renderer = shape.GetShapeRenderer();

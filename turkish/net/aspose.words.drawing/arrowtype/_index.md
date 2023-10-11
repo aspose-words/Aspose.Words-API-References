@@ -1,14 +1,14 @@
 ---
 title: Enum ArrowType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ArrowType Sıralama. Bir satır sonundaki ok türünü belirtir.
+description: Aspose.Words.Drawing.ArrowType Sıralama. Satır sonundaki okun türünü belirtir.
 type: docs
-weight: 480
+weight: 490
 url: /tr/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-Bir satır sonundaki ok türünü belirtir.
+Satır sonundaki okun türünü belirtir.
 
 ```csharp
 public enum ArrowType
@@ -18,25 +18,25 @@ public enum ArrowType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Satırın sonunda bir ok yok. |
-| Arrow | `1` | Ok, içi dolu bir üçgendir. |
-| Stealth | `2` | Ok, "gizli" bir oktur. |
-| Diamond | `3` | Satır sonu tam bir elmastır. |
-| Oval | `4` | Satır sonu düz bir ovaldir. |
-| Open | `5` | Ok, açık bir oktur. |
+| None | `0` | Satırın sonunda ok yoktur. |
+| Arrow | `1` | Ok düz bir üçgendir. |
+| Stealth | `2` | Ok "gizli" bir oktur. |
+| Diamond | `3` | Çizgi sonu sağlam bir elmastır. |
+| Oval | `4` | Çizgi sonu düz ovaldir. |
+| Open | `5` | Ok açık bir oktur. |
 | Default | `0` | Şununla aynıNone . |
 
 ### Örnekler
 
-Çeşitli şekiller oluşturmak için gösterir.
+Çeşitli şekiller oluşturmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir elmas ile:
+// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
+// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
+// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -73,7 +73,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosu ile doldurulmuş, yönü ters çevrilmiş ok:
+// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -85,8 +85,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Şekli gösterecek şekilde almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

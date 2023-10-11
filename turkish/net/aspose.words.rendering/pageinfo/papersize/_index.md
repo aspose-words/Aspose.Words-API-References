@@ -1,14 +1,14 @@
 ---
 title: PageInfo.PaperSize
 second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Kağıt boyutunu numaralandırma olarak alır.
+description: PageInfo mülk. Numaralandırma olarak kağıt boyutunu alır.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.words.rendering/pageinfo/papersize/
 ---
 ## PageInfo.PaperSize property
 
-Kağıt boyutunu numaralandırma olarak alır.
+Numaralandırma olarak kağıt boyutunu alır.
 
 ```csharp
 public PaperSize PaperSize { get; }
@@ -16,13 +16,13 @@ public PaperSize PaperSize { get; }
 
 ### Örnekler
 
-Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
+Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadır. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Çeşitleri değişiklik gösterecektir.
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -36,7 +36,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfa, indeksi ilgili sayfanın numarası olan bir PageInfo nesnesine sahiptir.
+    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // Sayfanın yönünü ve boyutlarını yazdırın.

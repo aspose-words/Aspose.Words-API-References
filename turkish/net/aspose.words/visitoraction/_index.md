@@ -1,14 +1,14 @@
 ---
 title: Enum VisitorAction
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.VisitorAction Sıralama. Ziyaretçinin düğümlerin numaralandırılmasını kontrol etmesine izin verir.
+description: Aspose.Words.VisitorAction Sıralama. Ziyaretçinin düğüm numaralandırmasını kontrol etmesine izin verir.
 type: docs
-weight: 6310
+weight: 6620
 url: /tr/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration
 
-Ziyaretçinin düğümlerin numaralandırılmasını kontrol etmesine izin verir.
+Ziyaretçinin düğüm numaralandırmasını kontrol etmesine izin verir.
 
 ```csharp
 public enum VisitorAction
@@ -18,8 +18,8 @@ public enum VisitorAction
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Continue | `0` | Ziyaretçi, numaralandırmanın devam etmesini ister. |
-| SkipThisNode | `1` | Ziyaretçi, geçerli düğümü atlamak ve numaralandırmaya devam etmek ister. |
+| Continue | `0` | Ziyaretçi numaralandırmanın devam etmesini ister. |
+| SkipThisNode | `1` | Ziyaretçi mevcut düğümü atlayıp numaralandırmaya devam etmeyi ister. |
 | Stop | `2` | Ziyaretçi, düğümlerin numaralandırılmasının durdurulmasını ister. |
 
 ### Ayrıca bakınız

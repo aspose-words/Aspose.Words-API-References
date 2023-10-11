@@ -24,11 +24,11 @@ A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edilece�
 
 ### Notlar
 
-Not: a Visitor öğesini bir[`Document`](../../document/) Bir Ziyaretçiyi a yapı taşı üzerinde yürütmek istiyorsanız, ziyaretçiyi[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or çağrı[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
+Not: Bir yapı bloğu düğümü ve onun alt öğeleri, a Visitor'ı bir ağ üzerinde çalıştırdığınızda ziyaret edilmez.[`Document`](../../document/) . Bir Ziyaretçiyi a yapı bloğu üzerinden yürütmek istiyorsanız, ziyaretçiyi[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or çağrısı[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
 ### Örnekler
 
-Sözlük belgesindeki yapı taşlarına erişmenin yollarını gösterir.
+Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
 ```csharp
 public void GlossaryDocument()
@@ -55,24 +55,23 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Bir galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
+    // 3 - Galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Bunu özel bir ziyaretçi kullanarak yapacağız,
-    // GlossaryDocument'taki her BuildingBlock'a benzersiz bir GUID verecek
+    // bu, GlossaryDocument'teki her BuildingBlock'a benzersiz bir GUID verecektir
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Microsoft Word'de yapı taşlarına "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de yapı taşlarına "Ekle" --> aracılığıyla erişebiliriz. "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Ziyaret edilen bir sözlük belgesindeki her yapı taşına benzersiz bir GUID verir.
-/// GUID yapı taşı çiftlerini bir sözlükte saklar.
+/// GUID yapı bloğu çiftlerini bir sözlükte saklar.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

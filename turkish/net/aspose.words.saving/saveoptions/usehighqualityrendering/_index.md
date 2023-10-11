@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UseHighQualityRendering
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Yüksek kaliteli yani yavaş işleme algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+description: SaveOptions mülk. Yüksek kaliteli yani yavaş oluşturma algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
 type: docs
-weight: 220
+weight: 200
 url: /tr/net/aspose.words.saving/saveoptions/usehighqualityrendering/
 ---
 ## SaveOptions.UseHighQualityRendering property
 
-Yüksek kaliteli (yani yavaş) işleme algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+Yüksek kaliteli (yani yavaş) oluşturma algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public bool UseHighQualityRendering { get; set; }
@@ -16,13 +16,13 @@ public bool UseHighQualityRendering { get; set; }
 
 ### Notlar
 
-Varsayılan değer`yanlış` .
+Varsayılan değer:`YANLIŞ` .
 
-Bu özellik, belge görüntü biçimlerine dışa aktarıldığında kullanılır: Tiff ,Png ,Bmp , Jpeg ,Emf.
+Bu özellik, belge görüntü formatlarına aktarıldığında kullanılır: Tiff ,Png ,Bmp , Jpeg ,Emf.
 
 ### Örnekler
 
-SaveOptions ile oluşturulmuş bir belgenin kalitesinin nasıl iyileştirileceğini gösterir.
+İşlenen bir belgenin kalitesinin SaveOptions ile nasıl iyileştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -32,7 +32,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;

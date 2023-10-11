@@ -1,14 +1,14 @@
 ---
 title: Node.GetAncestor
 second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Belirtilen nesne türünün ilk üst öğesini alır.
+description: Node yöntem. Belirtilen nesne türünün ilk atayı alır.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(Type) {#getancestor_1}
 
-Belirtilen nesne türünün ilk üst öğesini alır.
+Belirtilen nesne türünün ilk atayı alır.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -16,35 +16,34 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| ancestorType | Type | Üst öğenin alınacak nesne türü. |
+| ancestorType | Type | Alınacak üst öğenin nesne türü. |
 
 ### Geri dönüş değeri
 
-Belirtilen türün üst öğesi veya bu türden bir üst öğe bulunamadıysa null.
+Belirtilen türün atası veya`hükümsüz` eğer bu türden bir ata bulunamazsa.
 
 ### Notlar
 
-Ata türü, ancestorType'a eşitse veya ancestorType'tan türetilmişse eşleşir.
+Ata türü şuna eşitse eşleşir:*ancestorType* veya türetilmiş*ancestorType*.
 
 ### Örnekler
 
-Bir tablonun iç içe olup olmadığını nasıl öğreneceğinizi gösterir.
+Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt öğe olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -56,10 +55,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içinde hangi düzeyde iç içe olduğunu hesaplar.
+/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini gösteren bir tam sayı (üst tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -77,11 +76,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında tekrar tekrar dolaşmayın.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
 /// </summary>
 /// <returns>
-/// En az bir alt hücre bir tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false döndürür.
+/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
+/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
@@ -113,7 +112,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(NodeType) {#getancestor}
 
-Belirtilenin ilk atasını alır[`NodeType`](../../nodetype/) .
+Belirtilenin ilk atayı alır[`NodeType`](../../nodetype/) .
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -125,27 +124,26 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 ### Geri dönüş değeri
 
-Belirtilen türün üst öğesi veya bu türden bir üst öğe bulunamadıysa null.
+Belirtilen türün atası veya`hükümsüz` eğer bu türden bir ata bulunamazsa.
 
 ### Örnekler
 
-Bir tablonun iç içe olup olmadığını nasıl öğreneceğinizi gösterir.
+Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt öğe olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -157,10 +155,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içinde hangi düzeyde iç içe olduğunu hesaplar.
+/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini gösteren bir tam sayı (üst tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -178,11 +176,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında tekrar tekrar dolaşmayın.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
 /// </summary>
 /// <returns>
-/// En az bir alt hücre bir tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false döndürür.
+/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
+/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

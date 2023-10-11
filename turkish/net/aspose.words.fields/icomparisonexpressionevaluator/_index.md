@@ -1,14 +1,14 @@
 ---
 title: Interface IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator arayüz. Uygulandığında varsayılan karşılaştırma ifadeleri değerlendirmesini geçersiz kılmaya izin verir.FieldIf veFieldCompare alanlar.
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator arayüz. Uygulandığında varsayılan karşılaştırma ifadeleri değerlendirmesinin geçersiz kılınmasına olanak tanır.FieldIf VeFieldCompare alanlar.
 type: docs
-weight: 2510
+weight: 2680
 url: /tr/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-Uygulandığında, varsayılan karşılaştırma ifadeleri değerlendirmesini geçersiz kılmaya izin verir.[`FieldIf`](../fieldif/) ve[`FieldCompare`](../fieldcompare/) alanlar.
+Uygulandığında, varsayılan karşılaştırma ifadeleri değerlendirmesinin geçersiz kılınmasına olanak tanır.[`FieldIf`](../fieldif/) Ve[`FieldCompare`](../fieldcompare/) alanlar.
 
 ```csharp
 public interface IComparisonExpressionEvaluator

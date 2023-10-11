@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Aspose.Words for .NET API Referansı
 description: Row mülk. Satırın biçimlendirme özelliklerine erişim sağlar.
 type: docs
-weight: 90
+weight: 110
 url: /tr/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
@@ -16,7 +16,7 @@ public RowFormat RowFormat { get; }
 
 ### Örnekler
 
-Bir tablo satırının biçimlendirmesinin nasıl değiştirileceğini gösterir.
+Bir tablo satırının formatının nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -31,7 +31,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-Tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +55,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Bu hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

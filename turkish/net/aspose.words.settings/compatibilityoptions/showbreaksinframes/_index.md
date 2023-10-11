@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Çerçevelerde Bulunan Sayfa/Sütun Sonlarını Görüntüle.
+description: CompatibilityOptions mülk. Çerçevelerde Sayfa/Sütun Sonlarını Görüntüle.
 type: docs
 weight: 430
 url: /tr/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
 ---
 ## CompatibilityOptions.ShowBreaksInFrames property
 
-Çerçevelerde Bulunan Sayfa/Sütun Sonlarını Görüntüle.
+Çerçevelerde Sayfa/Sütun Sonlarını Görüntüle.
 
 ```csharp
 public bool ShowBreaksInFrames { get; set; }

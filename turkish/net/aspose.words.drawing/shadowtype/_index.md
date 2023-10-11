@@ -3,7 +3,7 @@ title: Enum ShadowType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.ShadowType Sıralama. Şekil gölgesinin türünü belirtir.
 type: docs
-weight: 1090
+weight: 1240
 url: /tr/net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
@@ -18,11 +18,11 @@ public enum ShadowType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| ShadowMixed | `-2` | Önceden tanımlanmış gölge ön ayarları yok. |
+| ShadowMixed | `-2` | Önceden tanımlanmış gölge ön ayarlarından hiçbiri. |
 | Shadow1 | `1` | İlk gölge türü. |
 | Shadow10 | `10` | Onuncu gölge türü. |
-| Shadow11 | `11` | On birinci gölge türü. |
-| Shadow12 | `12` | On ikinci gölge türü. |
+| Shadow11 | `11` | Onbirinci gölge türü. |
+| Shadow12 | `12` | Onikinci gölge türü. |
 | Shadow13 | `13` | On üçüncü gölge türü. |
 | Shadow14 | `14` | On dördüncü gölge türü. |
 | Shadow15 | `15` | On beşinci gölge türü. |
@@ -33,7 +33,7 @@ public enum ShadowType
 | Shadow2 | `2` | İkinci gölge türü. |
 | Shadow20 | `20` | Yirminci gölge türü. |
 | Shadow21 | `21` | Yirmi birinci gölge türü. |
-| Shadow22 | `22` | Yirmi saniyelik gölge türü. |
+| Shadow22 | `22` | Yirmi ikinci gölge türü. |
 | Shadow23 | `23` | Yirmi üçüncü gölge türü. |
 | Shadow24 | `24` | Yirmi dördüncü gölge türü. |
 | Shadow25 | `25` | Yirmi beşinci gölge türü. |
@@ -55,7 +55,7 @@ public enum ShadowType
 | Shadow4 | `4` | Dördüncü gölge türü. |
 | Shadow40 | `40` | Kırkıncı gölge türü. |
 | Shadow41 | `41` | Kırk birinci gölge türü. |
-| Shadow42 | `42` | Kırk saniyelik gölge türü. |
+| Shadow42 | `42` | Kırk ikinci gölge türü. |
 | Shadow43 | `43` | Kırk üçüncü gölge türü. |
 | Shadow5 | `5` | Beşinci gölge türü. |
 | Shadow6 | `6` | Altıncı gölge türü. |
@@ -65,7 +65,22 @@ public enum ShadowType
 
 ### Notlar
 
-ShadowType basit bir öznitelik değil, aynı anda gölge görünümünü oluşturan birkaç özniteliği ayarlayan bir ön ayardır.
+ShadowType basit bir özellik değildir, ancak gölge görünümünü oluşturan birçok özelliği aynı anda ayarlayan bir ön ayardır.
+
+### Örnekler
+
+Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Doğrubelgenin tek numaralı ve çift numaralı sayfalar için farklı üstbilgileri ve altbilgileri varsa.
+description: PageSetup mülk. Belgenin tek sayılı ve çift sayılı sayfalar için farklı üstbilgileri ve altbilgileri varsa doğrudur.
 type: docs
-weight: 270
+weight: 280
 url: /tr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Doğru**belgenin tek numaralı ve çift numaralı sayfalar için farklı üstbilgileri ve altbilgileri varsa.
+Belgenin tek sayılı ve çift sayılı sayfalar için farklı üstbilgileri ve altbilgileri varsa doğrudur.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,11 +16,11 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### Notlar
 
-Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkilediğini unutmayın.
+Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkileyeceğini unutmayın.
 
 ### Örnekler
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,9 +54,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda iki tür üstbilgi/altbilgi vardır.
-// 1 - Bölümdeki her sayfada görünen "Birincil" üstbilgi/altbilgi.
-// Birincil üstbilgiyi/altbilgiyi birinci ve çift sayfa üstbilgisi/altbilgisi ile geçersiz kılabiliriz.
+// Aşağıda iki tür üstbilgi/altbilgi bulunmaktadır.
+// 1 - Bölümün her sayfasında görünen "Birincil" üstbilgi/altbilgi.
+ // Birincil üstbilgi/altbilgiyi bir ilk ve çift sayfa üstbilgisi/altbilgisi ile geçersiz kılabiliriz.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -77,12 +77,12 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Her bölümün, sayfa görünümüyle ilgili özellikleri belirten bir "PageSetup" nesnesi vardır
-// oryantasyon, boyut ve kenarlıklar gibi.
+// Her bölümde sayfa görünümüyle ilgili özellikleri belirten bir "PageSetup" nesnesi bulunur
+// yönlendirme, boyut ve kenarlıklar gibi.
 // "OddAndEvenPagesHeaderFooter" özelliğini "true" olarak ayarlayın
-// çift sayfalarda çift sayfa üstbilgisini/altbilgisini görüntülemek için.
+// çift sayfa üstbilgisini/altbilgisini çift sayfalarda görüntülemek için.
 // "OddAndEvenPagesHeaderFooter" özelliğini "false" olarak ayarlayın
-// çift sayfalarda birincil üstbilgi/altbilgiyi görüntülemek için.
+// birincil üstbilgi/altbilgiyi çift sayfalarda görüntülemek için.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");

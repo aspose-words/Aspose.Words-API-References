@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede düzenlenebilir bir aralığın sonuyla karşılaşıldığında çağrılır.
+description: DocumentVisitor yöntem. Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor.VisitEditableRangeEnd method
 
-Belgede düzenlenebilir bir aralığın sonuyla karşılaşıldığında çağrılır.
+Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edilece�
 
 ### Örnekler
 
-Bir belgedeki her düzenlenebilir aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki düzenlenebilir her aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void EditableRangeToText()
@@ -32,17 +32,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm EditableRange düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm EditableRange düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -65,14 +65,14 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Çalıştırma içeriklerini yazdırmak istiyoruz, ancak metin kutularında olduğu gibi yalnızca şekillerin içindeyseler
+        // Çalıştırmaların içeriğini yazdırmak istiyoruz, ancak metin kutularında olduğu gibi yalnızca şekillerin içindeyseler
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Belgede bir EditableRange düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede EditableRange düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -85,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// EditableRange düğümünün ziyareti sona erdiğinde çağrılır.
+    /// EditableRange düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -97,9 +97,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

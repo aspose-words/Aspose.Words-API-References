@@ -16,7 +16,7 @@ public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set
 
 ### Notlar
 
-Varsayılan değerAlways . Seçeneğin tanıtıldığı anda en son sürüm olan MS Word 2019'un davranışıyla eşleşir. MS Word 2016 tarafından gösterilen daha eski sayfa numaralandırma mantığı bu seçenek aracılığıyla kullanılabilir. Lütfen[`ContinuousSectionRestart`](../../continuoussectionrestart/) davranış açıklaması için.
+Varsayılan değer:Always. Seçeneğin sunulduğu andaki en son sürüm olan MS Word 2019'un davranışına uygundur. MS Word 2016'nın gösterdiği daha eski sayfa numaralandırma mantığı bu seçenek üzerinden kullanılabilir. Lütfen[`ContinuousSectionRestart`](../../continuoussectionrestart/) davranış açıklaması için.
 
 ### Örnekler
 
@@ -26,9 +26,9 @@ Sürekli bir bölümde sayfa numaralandırmanın nasıl kontrol edileceğini gö
 Document doc = new Document(MyDir + "Continuous section page numbering.docx");
 
 // Varsayılan olarak Aspose.Words davranışı Microsoft Word 2019 ile eşleşir.
-// Eski Aspose.Words davranışına ihtiyacınız varsa, tekrarlayan Microsoft Word 2016, 'ContinulousSectionRestart.FromNewPageOnly' kullanın.
-// Sayfa numaralandırma sadece bölümün başladığı sayfada bölümden önce başka içerik yoksa yeniden başlar,
-// bu nedenle numaralandırma ikinci sayfadan 2'ye sıfırlanacaktır.
+// Eski Aspose.Words davranışına, tekrarlayan Microsoft Word 2016'ya ihtiyacınız varsa, 'ContinuousSectionRestart.FromNewPageOnly'yi kullanın.
+// Sayfa numaralandırma ancak bölümün başladığı sayfada bölümden önce başka içerik kalmadığında yeniden başlar,
+// bu nedenle numaralandırma ikinci sayfadan itibaren 2'ye sıfırlanacaktır.
 doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuousSectionRestart.FromNewPageOnly;
 doc.UpdatePageLayout();
 

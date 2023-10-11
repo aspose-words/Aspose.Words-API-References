@@ -1,14 +1,14 @@
 ---
 title: CleanupOptions.DuplicateStyle
 second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions mülk. Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değer yanlış .
+description: CleanupOptions mülk. Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değer **yanlış** .
+Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -16,13 +16,13 @@ public bool DuplicateStyle { get; set; }
 
 ### Örnekler
 
-Belgeden çoğaltılan stillerin nasıl kaldırılacağını gösterir.
+Yinelenen stillerin belgeden nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
 // Belgeye aynı özelliklere sahip iki stil ekleyin,
-// ama farklı isimler. İkinci stil, birincinin bir kopyası olarak kabul edilir.
+// ama farklı isimler. İkinci stil, birincinin kopyası olarak kabul edilir.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -35,7 +35,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Her iki stili de belge içindeki farklı paragraflara uygulayın.
+// Her iki stili de belgedeki farklı paragraflara uygulayın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
@@ -48,8 +48,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
-// Bir CleanOptions nesnesi yapılandırın, ardından tüm yinelenen stilleri değiştirmek için Temizleme yöntemini çağırın
-// orijinal ile ve kopyaları belgeden kaldırın.
+// Bir CleanOptions nesnesi yapılandırın, ardından tüm yinelenen stilleri değiştirmek için Cleanup yöntemini çağırın
+// orijinali kullanın ve kopyaları belgeden kaldırın.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

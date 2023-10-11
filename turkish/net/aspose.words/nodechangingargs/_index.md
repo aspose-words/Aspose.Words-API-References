@@ -1,14 +1,16 @@
 ---
 title: Class NodeChangingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeChangingArgs sınıf. Yöntemler için veri sağlar.INodeChangingCallback arayüz.
+description: Aspose.Words.NodeChangingArgs sınıf. Yöntemler için veri sağlarINodeChangingCallback arayüz.
 type: docs
-weight: 3950
+weight: 4190
 url: /tr/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-Yöntemler için veri sağlar.[`INodeChangingCallback`](../inodechangingcallback/) arayüz.
+Yöntemler için veri sağlar[`INodeChangingCallback`](../inodechangingcallback/) arayüz.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class NodeChangingArgs
@@ -18,21 +20,22 @@ public class NodeChangingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ne tür bir düğüm değişikliği olayının gerçekleştiğini gösteren bir değer alır. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | İşlem tamamlandıktan sonra ayarlanacak olan düğümün üst öğesini alır. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | [`Node`](./node/) ekleniyor veya kaldırılıyor. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | İşlem başlamadan önce düğümün üst öğesini alır. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | İşlem tamamlandıktan sonra ayarlanacak düğümün ebeveynini alır. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Alır[`Node`](./node/) bu ekleniyor veya kaldırılıyor. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | İşlem başlamadan önce düğümün ebeveynini alır. |
 
 ### Örnekler
 
-Bir geri arama ile düğüm değiştirmenin nasıl özelleştirildiğini gösterir.
+Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Geri aramayı değiştiren düğümü özel uygulamaya ayarlayın,
+    // Düğüm değiştirme geri çağrısını özel uygulamaya ayarlayın,
     // ardından bir günlük oluşturmasını sağlamak için düğümleri ekleyin/kaldırın.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -45,10 +48,11 @@ Bir geri arama ile düğüm değiştirmenin nasıl özelleştirildiğini göster
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Her düğümün eklenmesi ve çıkarılmasının tarih ve saatini kaydeder.
-/// Çalıştırma düğümlerinin metin içeriği için özel bir yazı tipi adı/boyutu ayarlar.
+/// Her düğüm ekleme ve çıkarma işleminin tarihini ve saatini günlüğe kaydeder.
+/// Çalıştırma düğümlerinin metin içerikleri için özel bir yazı tipi adı/boyutu ayarlar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

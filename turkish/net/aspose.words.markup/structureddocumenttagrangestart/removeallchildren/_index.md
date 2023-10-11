@@ -19,6 +19,7 @@ public void RemoveAllChildren()
 Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağını/kaldırılacağını gösterir.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağın�
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Aralıklı yapılandırılmış belge etiketini kaldırır, ancak içeriği içeride tutar.
+    // Aralıklı yapılandırılmış belge etiketini kaldırır ancak içeriği içeride tutar.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(

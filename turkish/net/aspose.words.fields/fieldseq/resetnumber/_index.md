@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.ResetNumber
 second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Sıra numarasını sıfırlamak için bir tamsayı alır veya ayarlar. Sayı yoksa 1 döndürür.
+description: FieldSeq mülk. Sıra numarasının sıfırlanacağı bir tam sayı alır veya ayarlar. Sayı yoksa 1 değerini döndürür.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldseq/resetnumber/
 ---
 ## FieldSeq.ResetNumber property
 
-Sıra numarasını sıfırlamak için bir tamsayı alır veya ayarlar. Sayı yoksa -1 döndürür.
+Sıra numarasının sıfırlanacağı bir tam sayı alır veya ayarlar. Sayı yoksa -1 değerini döndürür.
 
 ```csharp
 public string ResetNumber { get; set; }
@@ -22,11 +22,11 @@ SEQ alanlarını kullanarak numaralandırma oluşturmayı gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// SEQ alanları, her SEQ alanında artan bir sayı görüntüler.
-// Bu alanlar ayrıca her benzersiz adlandırılmış dizi için ayrı sayılar tutar
-// SEQ alanının "SequenceIdentifier" özelliği ile tanımlanır.
-// "MySequence"ın geçerli sayım değerini gösterecek bir SEQ alanı ekleyin,
-// 100'e ayarlamak için "ResetNumber" özelliğini kullandıktan sonra.
+// SEQ alanları, her SEQ alanında artan bir sayım görüntüler.
+// Bu alanlar ayrıca her benzersiz adlandırılmış dizi için ayrı sayıları korur
+// SEQ alanının "SequenceIdentifier" özelliği tarafından tanımlanır.
+// "MySequence"ın mevcut sayım değerini gösterecek bir SEQ alanı ekleyin,
+// "ResetNumber" özelliğini kullanıp 100'e ayarladıktan sonra.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -36,7 +36,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Bu dizideki bir sonraki sayıyı başka bir SEQ alanı ile göster.
+// Bu dizideki sonraki sayıyı başka bir SEQ alanıyla görüntüleyin.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -44,7 +44,7 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// 1. düzey bir başlık girin.
+// 1. düzey başlığı ekleyin.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
@@ -57,7 +57,7 @@ fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// Yukarıdaki başlık 1. seviye başlıktır, bu nedenle bu dizinin sayısı 1'e sıfırlanır.
+// Yukarıdaki başlık 1. düzey başlıktır, dolayısıyla bu sıranın sayısı 1'e sıfırlanır.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 

@@ -1,14 +1,14 @@
 ---
 title: FieldIf.FalseText
 second_title: Aspose.Words for .NET API Referansı
-description: FieldIf mülk. Karşılaştırma ifadesi yanlışsa görüntülenen metni alır veya ayarlar.
+description: FieldIf mülk. Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.YANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Karşılaştırma ifadesi yanlışsa görüntülenen metni alır veya ayarlar.
+Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.`YANLIŞ` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -16,7 +16,7 @@ public string FalseText { get; set; }
 
 ### Örnekler
 
-EĞER alanının nasıl ekleneceğini gösterir.
+IF alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// EĞER alanı, "TrueText" özelliğinden bir dize görüntüler,
+// IF alanı "TrueText" özelliğinden bir dize görüntüleyecektir,
 // veya oluşturduğumuz ifadenin doğruluğuna bağlı olarak "FalseText" özelliği.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Bu durumda "0 = 1" yanlıştır, bu nedenle görüntülenen sonuç "Yanlış" olacaktır.
+// Bu durumda "0 = 1" yanlış olduğundan görüntülenen sonuç "Yanlış" olacaktır.
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -48,7 +48,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Bu sefer ifade doğrudur, bu nedenle görüntülenen sonuç "True" olacaktır.
+// Bu sefer ifade doğrudur, dolayısıyla görüntülenen sonuç "Doğru" olacaktır.
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

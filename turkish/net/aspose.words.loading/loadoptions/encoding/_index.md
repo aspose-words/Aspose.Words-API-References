@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.Encoding
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belge içinde kodlama belirtilmemişse bir HTML TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Boş olabilir. Varsayılan null.
+description: LoadOptions mülk. Belgede kodlama belirtilmemişse bir HTML TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilirhükümsüz . Varsayılanhükümsüz .
 type: docs
 weight: 50
 url: /tr/net/aspose.words.loading/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-Belge içinde kodlama belirtilmemişse bir HTML, TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Boş olabilir. Varsayılan null.
+Belgede kodlama belirtilmemişse bir HTML, TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilir`hükümsüz` . Varsayılan:`hükümsüz` .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,36 +18,22 @@ public Encoding Encoding { get; set; }
 
 Bu özellik yalnızca HTML, TXT veya CHM belgeleri yüklenirken kullanılır.
 
-Belge içinde kodlama belirtilmemişse ve bu özellik`hükümsüz`, ardından sistem, kodlamayı otomatik olarak algılamak için deneyecektir.
+Belgede kodlama belirtilmemişse ve bu özellik`hükümsüz`ardından sistem to kodlamayı otomatik olarak algılamaya çalışacaktır.
 
 ### Örnekler
 
 Bir belgenin açılacağı kodlamanın nasıl ayarlanacağını gösterir.
 
 ```csharp
-// Bir FileFormatInfo nesnesi, bu dosyanın UTF-7 dışında bir şeyde kodlanmış olduğunu algılayacaktır.
-FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(MyDir + "Encoded in UTF-7.txt");
-
-Assert.AreNotEqual(Encoding.UTF7, fileFormatInfo.Encoding);
-
-// Belgeyi yükleme konfigürasyonları olmadan yüklersek, Aspose.Words onun kodlamasını UTF-8 olarak algılayacaktır.
-Document doc = new Document(MyDir + "Encoded in UTF-7.txt");
-
-// UTF-8'de ayrıştırılan içerikler geçerli bir dize oluşturur.
-// Ancak dosyanın UTF-7'de olduğunu bilerek sonucun yanlış olduğunu görebiliriz.
-Assert.AreEqual("Hello world+ACE-", doc.ToString(SaveFormat.Text).Trim());
-
-// Bunun gibi belirsiz kodlama durumlarında, belirli bir kodlama değişkeni ayarlayabiliriz
-// dosyayı bir LoadOptions nesnesi içinde ayrıştırmak için.
 LoadOptions loadOptions = new LoadOptions
 {
-    Encoding = Encoding.UTF7
+    Encoding = Encoding.ASCII
 };
 
-// LoadOptions nesnesini geçerken belgeyi yükleyin, ardından belgenin içeriğini doğrulayın.
-doc = new Document(MyDir + "Encoded in UTF-7.txt", loadOptions);
+// LoadOptions nesnesini geçirirken belgeyi yükleyin, ardından belgenin içeriğini doğrulayın.
+Document doc = new Document(MyDir + "English text.txt", loadOptions);
 
-Assert.AreEqual("Hello world!", doc.ToString(SaveFormat.Text).Trim());
+Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in English."));
 ```
 
 ### Ayrıca bakınız

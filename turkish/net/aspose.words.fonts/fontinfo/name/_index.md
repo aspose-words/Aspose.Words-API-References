@@ -20,13 +20,13 @@ Olamaz`hükümsüz`. Boş bir dize olabilir.
 
 ### Örnekler
 
-Bir belgede hangi yazı tiplerinin bulunduğunun ayrıntılarının nasıl yazdırılacağını gösterir.
+Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Belgedeki tüm kullanılmış ve kullanılmayan yazı tiplerini yazdırın.
+// Belgedeki tüm kullanılan ve kullanılmayan yazı tiplerini yazdırın.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

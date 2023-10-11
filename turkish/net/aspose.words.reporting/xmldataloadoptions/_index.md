@@ -3,12 +3,14 @@ title: Class XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Reporting.XmlDataLoadOptions sınıf. XML veri yükleme seçeneklerini temsil eder.
 type: docs
-weight: 4480
+weight: 4740
 url: /tr/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
 XML veri yükleme seçeneklerini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[LINQ Raporlama Motoru](https://docs.aspose.com/words/net/linq-reporting-engine/) dokümantasyon makalesi.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -18,17 +20,17 @@ public class XmlDataLoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [XmlDataLoadOptions](xmldataloadoptions/)() | Varsayılan seçeneklerle bu sınıfın yeni bir örneğini başlatır. |
+| [XmlDataLoadOptions](xmldataloadoptions/)() | Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Oluşturulan bir veri kaynağının her zaman bir XML kök öğesi için bir nesne içerip içermediğini belirten bir bayrak alır veya ayarlar. Bir XML kök öğesinin özniteliği yoksa ve tüm alt öğeleri aynı ada sahipse, böyle bir nesnesi varsayılan olarak oluşturulmaz. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Oluşturulan bir veri kaynağının her zaman bir XML kökü öğesi için bir nesne içerip içermeyeceğini belirten bir bayrağı alır veya ayarlar. Bir XML kök öğesinin öznitelikleri yoksa ve tüm alt öğeleri aynı adlara sahipse, böyle bir nesnesi varsayılan olarak oluşturulmaz. |
 
 ### Notlar
 
-Bu sınıfın bir örneği, aşağıdakilerin yapıcılarına aktarılabilir:[`XmlDataSource`](../xmldatasource/) .
+Bu sınıfın bir örneği, yapıcılarına aktarılabilir.[`XmlDataSource`](../xmldatasource/) .
 
 ### Ayrıca bakınız
 

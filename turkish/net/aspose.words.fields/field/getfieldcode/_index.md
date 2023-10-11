@@ -16,7 +16,7 @@ public string GetFieldCode()
 
 ### Örnekler
 
-Alan kodu kullanarak bir belgeye nasıl alan ekleneceğini gösterir.
+Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // Bir alanın alan kodunu almanın iki yolu vardır:
-// 1 - İç alanlarını çıkar:
+// 1 - İç alanlarını çıkartın:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - İç alanlarını dahil et:
+// 2 - İç alanlarını dahil edin:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
@@ -68,7 +68,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `Doğru` alt alan kodlarının dahil edilmesi gerekiyorsa. |
+| includeChildFieldCodes | Boolean | `doğru` alt alan kodları dahil edilmeliyse. |
 
 ### Örnekler
 
@@ -80,10 +80,10 @@ Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // Bir alanın alan kodunu almanın iki yolu vardır:
-// 1 - İç alanlarını çıkar:
+// 1 - İç alanlarını çıkartın:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - İç alanlarını dahil et:
+// 2 - İç alanlarını dahil edin:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 

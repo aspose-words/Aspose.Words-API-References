@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Bir çerçeve ile çevresindeki metin arasındaki yatay mesafeyi nokta olarak alır.
+description: FrameFormat mülk. Bir çerçeve ile onu çevreleyen metin arasındaki yatay mesafeyi nokta cinsinden alır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-Bir çerçeve ile çevresindeki metin arasındaki yatay mesafeyi nokta olarak alır.
+Bir çerçeve ile onu çevreleyen metin arasındaki yatay mesafeyi nokta cinsinden alır.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }

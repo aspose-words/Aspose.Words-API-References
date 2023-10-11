@@ -1,14 +1,14 @@
 ---
 title: Enum VbaReferenceType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReferenceType Sıralama. BirVbaReference nesne.
+description: Aspose.Words.Vba.VbaReferenceType Sıralama. Bir türün belirtilmesine izin verirVbaReference nesne.
 type: docs
-weight: 6300
+weight: 6610
 url: /tr/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-Bir[`VbaReference`](../vbareference/) nesne.
+Bir türün belirtilmesine izin verir[`VbaReference`](../vbareference/) nesne.
 
 ```csharp
 public enum VbaReferenceType
@@ -20,15 +20,14 @@ public enum VbaReferenceType
 | --- | --- | --- |
 | Registered | `13` | Otomasyon türü kitaplığı başvuru türünü belirtir. |
 | Project | `14` | Harici bir VBA projesi referans türü belirtildi. |
-| Original | `51` | Özgün Otomasyon türü kitaplığı başvuru türünü belirtir. |
-| Control | `47` | Döndürülmüş tür kitaplığı başvuru türünü belirtir. |
+| Original | `51` | Orijinal Otomasyon türü kitaplığı referans türünü belirtir. |
+| Control | `47` | Twiddled tür kitaplığı başvuru türünü belirtir. |
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

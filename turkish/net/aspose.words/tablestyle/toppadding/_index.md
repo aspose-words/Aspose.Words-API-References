@@ -1,14 +1,14 @@
 ---
 title: TableStyle.TopPadding
 second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek boşluk miktarını puan olarak alır veya ayarlar.
+description: TableStyle mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-Tablo hücrelerinin içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) alır veya ayarlar.
+Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

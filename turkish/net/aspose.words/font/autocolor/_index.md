@@ -1,14 +1,14 @@
 ---
 title: Font.AutoColor
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. otomatik renk için kullanılacak metnin mevcut hesaplanmış rengini siyah veya beyaz döndürür. Renk otomatik değilse o zaman döndürürColor .
+description: Font mülk. Otomatik renk için kullanılacak metnin hesaplanmış mevcut rengini siyah veya beyaz döndürür. Renk otomatik değilse şunu döndürürColor .
 type: docs
 weight: 20
 url: /tr/net/aspose.words/font/autocolor/
 ---
 ## Font.AutoColor property
 
-'otomatik renk' için kullanılacak metnin mevcut hesaplanmış rengini (siyah veya beyaz) döndürür. Renk 'otomatik' değilse, o zaman döndürür[`Color`](../color/) .
+'Otomatik renk' için kullanılacak metnin hesaplanmış mevcut rengini (siyah veya beyaz) döndürür. Renk 'otomatik' değilse şunu döndürür:[`Color`](../color/) .
 
 ```csharp
 public Color AutoColor { get; }
@@ -16,30 +16,30 @@ public Color AutoColor { get; }
 
 ### Notlar
 
-Metnin 'otomatik rengi' olduğunda, metnin gerçek rengi otomatik olarak hesaplanır böylece arka plan rengine karşı okunabilir. Arka plan rengini değiştirdiğinizde, , okunabilirliği en üst düzeye çıkarmak için metin rengi MS Word'de otomatik olarak siyah veya beyaza geçecektir.
+Metnin 'otomatik rengi' olduğunda, metnin gerçek rengi otomatik olarak hesaplanır , böylece arka plan rengine göre okunabilir. Arka plan rengini değiştirdiğinizde, metin rengi, okunabilirliği en üst düzeye çıkarmak için MS Word'de otomatik olarak siyah veya beyaza geçecektir.
 
 ### Örnekler
 
-Arka planının parlaklığına göre metin rengini otomatik olarak seçerek okunabilirliğin nasıl iyileştirileceğini gösterir.
+Arka planın parlaklığına göre metin renginin otomatik olarak seçilmesiyle okunabilirliğin nasıl artırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir çalıştırmanın Font nesnesi metin rengini belirtmezse, otomatik olarak
-// arka plan renginin rengine bağlı olarak siyah veya beyazı seçin.
+// Bir çalıştırmanın Font nesnesi metin rengini belirtmiyorsa, otomatik olarak
+// arka plan rengine bağlı olarak siyah veya beyazı seçin.
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());
 
-// Metin için varsayılan renk siyahtır. Arka plan rengi koyu ise, siyah metnin görülmesi zor olacaktır.
-// Bu sorunu çözmek için AutoColor özelliği bu metni beyaz olarak görüntüleyecektir.
+// Metnin varsayılan rengi siyahtır. Arka planın rengi koyu ise siyah metnin görülmesi zor olacaktır.
+// Bu sorunu çözmek için AutoColor özelliği bu metni beyaz renkte görüntüleyecektir.
 builder.Font.Shading.BackgroundPatternColor = Color.DarkBlue;
 
 builder.Writeln("The text color automatically chosen for this run is white.");
 
 Assert.AreEqual(Color.White.ToArgb(), doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.AutoColor.ToArgb());
 
-// Arka planı açık bir renge değiştirirsek, siyah daha fazla olacaktır.
-// beyazdan uygun metin rengi, böylece otomatik renk onu siyah olarak gösterecek.
+// Arka planı açık bir renkle değiştirirsek siyah daha fazla olur
+// beyaz yerine uygun metin rengi, böylece otomatik renk siyah olarak görüntülenecektir.
 builder.Font.Shading.BackgroundPatternColor = Color.LightBlue;
 
 builder.Writeln("The text color automatically chosen for this run is black.");

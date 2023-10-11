@@ -1,14 +1,16 @@
 ---
 title: Class NodeImporter
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeImporter sınıf. Bir belgeden diğerine düğümlerin tekrar tekrar içe aktarılmasını verimli bir şekilde gerçekleştirmeyi sağlar.
+description: Aspose.Words.NodeImporter sınıf. Düğümlerin bir belgeden diğerine tekrar tekrar içe aktarılmasının verimli bir şekilde gerçekleştirilmesine olanak tanır.
 type: docs
-weight: 3970
+weight: 4210
 url: /tr/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-Bir belgeden diğerine düğümlerin tekrar tekrar içe aktarılmasını verimli bir şekilde gerçekleştirmeyi sağlar.
+Düğümlerin bir belgeden diğerine tekrar tekrar içe aktarılmasının verimli bir şekilde gerçekleştirilmesine olanak tanır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class NodeImporter
@@ -18,35 +20,34 @@ public class NodeImporter
 
 | İsim | Tanım |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Yeni bir örneğini başlatır`NodeImporter` sınıf. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Yeni bir örneğini başlatır`NodeImporter` sınıf. |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Yeni bir örneğini başlatır`NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Yeni bir örneğini başlatır`NodeImporter` class. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Bir düğümü bir belgeden diğerine aktarır. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Bir belgedeki düğümü diğerine aktarır. |
 
 ### Notlar
 
-Aspose.Words, Microsoft Word belgeleri arasında parçaları kolay kopyalama ve taşıma için işlevsellik sağlar. Bu, "düğümleri içe aktarma" olarak bilinir. Bir belgeden diğerine bir parça eklemeden önce, onu "içe aktarmanız" gerekir. İçe aktarma, orijinal düğümün hedef belgesine eklenmeye hazır derin bir klonunu oluşturur.
+Aspose.Words, fragments 'nin Microsoft Word belgeleri arasında kolayca kopyalanması ve taşınması için işlevsellik sağlar. Bu, "düğümlerin içe aktarılması" olarak bilinir. Bir belgeden diğerine bir parça ekleyebilmeniz için önce onu "içe aktarmanız" gerekir. İçe aktarma, orijinal düğümün, hedef belgesine eklenmeye hazır derin bir klonunu oluşturur.
 
-Bir düğümü içe aktarmanın en basit yolu,[`ImportNode`](../documentbase/importnode/) tarafından sağlanan method [`DocumentBase`](../documentbase/) nesne.
+Bir düğümü içe aktarmanın en basit yolu,[`ImportNode`](../documentbase/importnode/) method tarafından sağlanmıştır[`DocumentBase`](../documentbase/) nesne.
 
-Ancak, düğümleri bir belgeden diğerine birden çok kez aktarmanız gerektiğinde, `NodeImporter` sınıf. bu`NodeImporter` sınıfı, hedef belgede oluşturulan stil ve liste sayısını en aza indirmeye olanak tanır.
+Ancak, düğümleri bir belgeden diğerine birden çok kez aktarmanız gerektiğinde, öğesini kullanmak daha iyidir`NodeImporter` sınıf.`NodeImporter` sınıfı, hedef belgede oluşturulan stil ve listelerin sayısını en aza indirmeye olanak tanır.
 
-Parçaları bir Microsoft Word belgesinden diğerine kopyalamak veya taşımak, Aspose.Words için bir dizi teknik zorluk sunar. Bir Word belgesinde, stiller ve liste formatting , belgenin metninden ayrı olarak merkezi olarak depolanır. Paragrafs ve metin dizileri, yalnızca dahili benzersiz tanımlayıcılarla stillere başvurur.
+Parçaları bir Microsoft Word belgesinden diğerine kopyalamak veya taşımak, Aspose.Words için x000d_ sayıda teknik zorluk teşkil eder. Bir Word belgesinde stiller ve liste biçimlendirme , belgenin metninden ayrı olarak merkezi olarak depolanır. Paragraflar ve metin dizileri yalnızca dahili benzersiz tanımlayıcılarla stillere atıfta bulunur.
 
-Zorluklar, stillerin ve listelerin farklı belgelerde farklı olmasından kaynaklanmaktadır. Örneğin, Başlık 1 stiliyle biçimlendirilmiş bir paragrafı bir belgeden diğerine kopyalamak için, bir dizi şey dikkate alınmalıdır: Başlık 1 stilini kaynak belgeden hedef belgeye kopyalayın, paragrafı kopyalayın, klonlanan paragrafını hedef belgedeki doğru Başlık 1 stiline atıfta bulunacak şekilde güncelleyin. Stilin kopyalanması gerekiyorsa, tüm stilleri referanslar (style ve sonraki paragraf stiline göre) analiz edilmeli ve muhtemelen kopyalanmalıdır ve bu böyle devam eder. Microsoft Word liste tanımlarını metinden ayrı olarak sakladığından, madde işaretli veya numaralı paragrafları kopyalarken benzer sorunlar vardır.
+Zorluklar, stillerin ve listelerin farklı belgelerde farklı olmasından kaynaklanmaktadır. Örneğin, Başlık 1 stiliyle biçimlendirilmiş bir paragrafı bir belgeden diğerine kopyalamak için bir dizi şeyin dikkate alınması gerekir: bunun yapılıp yapılmayacağına karar verin Başlık 1 stilini kaynak belgeden hedef belgeye kopyalayın, paragrafı kopyalayın, cloned paragrafını hedef belgedeki doğru Başlık 1 stiline atıfta bulunacak şekilde güncelleyin. Stilin kopyalanması gerekiyorsa, kopyalandığı tüm stiller referanslar (style ve sonraki paragraf stiline dayalı olarak) analiz edilmeli ve muhtemelen kopyalanmalıdır, vb.. Microsoft Word , liste tanımlarını metinden ayrı olarak sakladığından, madde işaretli veya numaralı paragrafları kopyalarken benzer sorunlar ortaya çıkar.
 
-bu`NodeImporter`sınıf, içe aktarma sırasında "çeviri tablolarını" tutan bir bağlam gibidir. Kaynak and hedef belgelerdeki stiller ve listeler arasında doğru çeviri yapar.
+`NodeImporter`sınıf, içe aktarma sırasında "çeviri tablolarını" tutan bir bağlam gibidir. Kaynak ve hedef belgelerdeki stiller ve listeler arasında doğru şekilde çeviri yapar.
 
 ### Örnekler
 
-Bir belgenin içeriğinin başka bir belgedeki yer işaretine nasıl ekleneceğini gösterir.
+Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -71,7 +72,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belirtilen düğümden sonra bir belgenin içeriğini ekler.
+/// Belgenin içeriğini belirtilen düğümden sonra ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -82,8 +83,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında dolaşın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü klonlayın ve ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
+        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

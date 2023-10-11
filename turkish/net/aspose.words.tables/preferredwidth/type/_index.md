@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Type
 second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth mülk. Bu tercih edilen genişlik değeri için kullanılan ölçü birimini alır.
+description: PreferredWidth mülk. Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-Bu tercih edilen genişlik değeri için kullanılan ölçü birimini alır.
+Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır.
 
 ```csharp
 public PreferredWidthType Type { get; }

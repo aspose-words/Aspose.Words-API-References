@@ -16,7 +16,7 @@ public bool Equals(BorderCollection brColl)
 
 ### Örnekler
 
-Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Oluştururken aynı border konfigürasyonunu kullandığımız için
-// bu paragraflar, onların sınır koleksiyonları aynı öğeleri paylaşır.
+// bu paragraflar, kenar koleksiyonları aynı unsurları paylaşıyor.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

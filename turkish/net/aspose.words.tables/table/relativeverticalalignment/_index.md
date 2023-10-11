@@ -1,14 +1,14 @@
 ---
 title: Table.RelativeVerticalAlignment
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Kayan tablo göreli dikey hizalamayı alır veya ayarlar.
+description: Table mülk. Kayan tablonun göreli dikey hizalamasını alır veya ayarlar.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.tables/table/relativeverticalalignment/
 ---
 ## Table.RelativeVerticalAlignment property
 
-Kayan tablo göreli dikey hizalamayı alır veya ayarlar.
+Kayan tablonun göreli dikey hizalamasını alır veya ayarlar.
 
 ```csharp
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
@@ -16,7 +16,7 @@ public VerticalAlignment RelativeVerticalAlignment { get; set; }
 
 ### Örnekler
 
-Kayan tabloların konumunun nasıl ayarlanacağını gösterir.
+Kayan tabloların konumunun nasıl ayarlandığını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Tablonun konumunu, bu durumda sağ alt köşe gibi sayfada bir yere ayarlayın.
+// Tablonun konumunu sayfada bir yere ayarlayın; bu durumda sağ alt köşe gibi.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Paragrafın tabloyu eklediğimiz konumundan noktalara yatay ve dikey bir öteleme de ayarlayabiliriz. 
+ // Tabloyu eklediğimiz paragrafın konumundan itibaren noktalarda yatay ve dikey uzaklık da ayarlayabiliriz.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

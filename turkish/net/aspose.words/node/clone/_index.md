@@ -16,7 +16,7 @@ public Node Clone(bool isCloneChildren)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| isCloneChildren | Boolean | Belirtilen düğüm altındaki alt ağacı yinelemeli olarak klonlamak için doğru; false yalnızca düğümün kendisini klonlamak için. |
+| isCloneChildren | Boolean | Belirtilen düğümün altındaki alt ağacı yinelemeli olarak klonlamak için True; Yalnızca düğümün kendisini klonlamak için false. |
 
 ### Geri dönüş değeri
 
@@ -24,27 +24,27 @@ Klonlanmış düğüm.
 
 ### Notlar
 
-Bu yöntem, düğümler için bir kopya oluşturucu görevi görür. Klonlanan düğümün üst öğesi yoktur, ancak orijinal düğümle aynı belgeye aittir.
+Bu yöntem, düğümler için bir kopya oluşturucu görevi görür. Klonlanan düğümün üst öğesi yoktur ancak orijinal düğümle aynı belgeye aittir.
 
-Bu yöntem her zaman düğümün derin bir kopyasını gerçekleştirir. buisCloneChildren parametre , tüm alt düğümlerin de kopyalanıp kopyalanmayacağını belirtir.
+Bu yöntem her zaman düğümün derin bir kopyasını gerçekleştirir.*isCloneChildren* parametre tüm alt düğümlerin de kopyalanıp kopyalanmayacağını belirtir.
 
 ### Örnekler
 
-Bileşik bir düğümün nasıl klonlanacağını gösterir.
+Bileşik düğümün nasıl kopyalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Aşağıda bir bileşik düğümü klonlamanın iki yolu bulunmaktadır.
-// 1 - Bir düğümün klonunu oluşturun ve ayrıca alt düğümlerinin her birinin bir klonunu oluşturun.
+// Aşağıda bileşik bir düğümü klonlamanın iki yolu verilmiştir.
+// 1 - Bir düğümün klonunu oluşturun ve aynı zamanda onun alt düğümlerinin her birinin bir kopyasını oluşturun.
 Node cloneWithChildren = para.Clone(true);
 
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
 Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-// 2 - Herhangi bir çocuk olmadan kendi başına bir düğümün klonunu oluşturun.
+// 2 - Hiçbir çocuk olmadan tek başına bir düğümün klonunu oluşturun.
 Node cloneWithoutChildren = para.Clone(false);
 
 Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);

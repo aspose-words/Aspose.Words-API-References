@@ -1,14 +1,14 @@
 ---
 title: Enum WebExtensionStoreType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtensionStoreType Sıralama. Bir web uzantısı deposunun mevcut türlerini numaralandırır.
+description: Aspose.Words.WebExtensions.WebExtensionStoreType Sıralama. Web uzantısı deposunun kullanılabilir türlerini numaralandırır.
 type: docs
-weight: 6510
+weight: 6820
 url: /tr/net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
 
-Bir web uzantısı deposunun mevcut türlerini numaralandırır.
+Web uzantısı deposunun kullanılabilir türlerini numaralandırır.
 
 ```csharp
 public enum WebExtensionStoreType
@@ -21,10 +21,10 @@ public enum WebExtensionStoreType
 | SPCatalog | `0` | Mağaza türünün SharePoint kurumsal kataloğu olduğunu belirtir. |
 | OMEX | `1` | Mağaza türünün Office.com. olduğunu belirtir |
 | SPApp | `2` | Mağaza türünün bir SharePoint web uygulaması olduğunu belirtir. |
-| Exchange | `3` | Depo türünün bir Exchange sunucusu olduğunu belirtir. |
+| Exchange | `3` | Mağaza türünün bir Exchange sunucusu olduğunu belirtir. |
 | FileSystem | `4` | Mağaza türünün bir dosya sistemi paylaşımı olduğunu belirtir. |
 | Registry | `5` | Mağaza türünün sistem kayıt defteri olduğunu belirtir. |
-| ExCatalog | `6` | Mağaza türünün Exchange aracılığıyla Merkezi Dağıtım olduğunu belirtir. |
+| ExCatalog | `6` | Mağaza türünün Exchange Aracılığıyla Merkezi Dağıtım olduğunu belirtir. |
 | Default | `0` | Varsayılan değer. |
 
 ### Örnekler
@@ -34,8 +34,8 @@ Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 ```csharp
 Document doc = new Document();
 
-// Belgenin kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturun,
-// ardından varsayılan konumunu ayarlayın.
+// Dokümanın kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturalım,
+// daha sonra varsayılan konumunu ayarlayın.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -46,7 +46,7 @@ myScriptTaskPane.IsLocked = true;
 // Aynı yerleştirme konumunda birden fazla görev bölmesi varsa, bunları düzenlemek için bu dizini ayarlayabiliriz.
 myScriptTaskPane.Row = 1;
 
-// Görev bölmesinin içinde görüntüleneceği "MyScript Math Sample" adlı bir eklenti oluşturun.
+// Görev bölmesinin içinde görüntüleyeceği "MyScript Math Sample" adında bir eklenti oluşturun.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
 // Eklentimiz için ID gibi uygulama mağazası referans parametrelerini ayarlayın.
@@ -60,7 +60,7 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Kullanıcının eklentiyle etkileşime girmesine izin ver.
 webExtension.IsFrozen = false;
 
-// Microsoft Word'deki web uzantısına Developer -> Eklentiler.
+// Microsoft Word'deki web uzantısına Developer --> aracılığıyla erişebiliriz. Eklentiler.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
 // Tüm web uzantısı görev bölmelerini bu şekilde bir kerede kaldırın.

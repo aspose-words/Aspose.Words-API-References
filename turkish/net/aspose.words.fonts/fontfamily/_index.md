@@ -3,7 +3,7 @@ title: Enum FontFamily
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fonts.FontFamily Sıralama. Yazı tipi ailesini temsil eder.
 type: docs
-weight: 2730
+weight: 2910
 url: /tr/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -18,16 +18,16 @@ public enum FontFamily
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Auto | `0` | Genel bir aile adı belirtir. Bu ad, yazı tipi hakkında bilgi olmadığında veya önemli olmadığında kullanılır. Varsayılan yazı tipi kullanılır. |
-| Roman | `1` | Seriflerle orantılı bir yazı tipi belirtir. Bir örnek Times New Roman. |
-| Swiss | `2` | Serif içermeyen orantılı bir yazı tipi belirtir. Bir örnek Arial. |
-| Modern | `3` | Serif içeren veya içermeyen tek aralıklı bir yazı tipi belirtir. Tek aralıklı yazı tipleri genellikle moderndir; örnekler Pica, Elite ve Courier New'i içerir. |
-| Script | `4` | El yazısı gibi görünecek şekilde tasarlanmış bir yazı tipini belirtir; örnekler arasında Script ve Cursive. bulunur |
-| Decorative | `5` | Yeni bir yazı tipi belirtir. Bir örnek Eski İngilizcedir. |
+| Auto | `0` | Genel bir aile adını belirtir. Bu ad, yazı tipi hakkında bilgi bulunmadığında veya önemli olmadığında kullanılır. Varsayılan yazı tipi kullanılır. |
+| Roman | `1` | Serifli orantılı bir yazı tipini belirtir. Bir örnek Times New Roman'dır. |
+| Swiss | `2` | Serifsiz orantılı bir yazı tipini belirtir. Bir örnek Arial. 'dir |
+| Modern | `3` | Serifli veya serifsiz tek aralıklı bir yazı tipini belirtir. Tek aralıklı yazı tipleri genellikle moderndir; örnekler arasında Pica, Elite ve Courier New yer alır. |
+| Script | `4` | El yazısına benzeyecek şekilde tasarlanmış bir yazı tipini belirtir; örnekler arasında Komut Dosyası ve El Yazısı bulunur. |
+| Decorative | `5` | Yenilikçi bir yazı tipini belirtir. Bir örnek Eski İngilizcedir. |
 
 ### Notlar
 
-Yazı tipi ailesi, ortak çizgi genişliğine ve serif özelliklerine sahip bir yazı tipi grubudur.
+Yazı tipi ailesi, ortak çizgi genişliğine ve serif özelliklerine sahip bir yazı tipi kümesidir.
 
 ### Örnekler
 
@@ -44,7 +44,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt adlar genellikle boştur.
+        // Alternatif adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

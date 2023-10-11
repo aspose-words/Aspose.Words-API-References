@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.SetCount
 second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection yöntem. Metni belirtilen sayıda metin sütununa göre düzenler.
+description: TextColumnCollection yöntem. Metni belirtilen sayıda metin sütunu halinde düzenler.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-Metni belirtilen sayıda metin sütununa göre düzenler.
+Metni belirtilen sayıda metin sütunu halinde düzenler.
 
 ```csharp
 public void SetCount(int newCount)
@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ### Notlar
 
-Ne zaman[`EvenlySpaced`](../evenlyspaced/) dır-dir **yanlış** ve sütun sayısını artırırsınız, yeni[`TextColumn`](../../textcolumn/) nesneler sıfır genişlik ve boşluk ile oluşturulur. Yeni sütunlar için genişlik ve boşluk ayarlamanız gerekir.
+Ne zaman[`EvenlySpaced`](../evenlyspaced/) dır-dir`YANLIŞ` ve sütun sayısını artırırsınız, new[`TextColumn`](../../textcolumn/) nesneler sıfır genişlik ve aralıkla oluşturulur. Yeni sütunlar için genişlik ve aralık ayarlamanız gerekir.
 
 ### Örnekler
 

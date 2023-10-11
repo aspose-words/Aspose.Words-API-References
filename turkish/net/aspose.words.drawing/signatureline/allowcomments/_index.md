@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.AllowComments
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmzalayanın İmzala iletişim kutusunda yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer yanlış .
+description: SignatureLine mülk. İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ .
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/signatureline/allowcomments/
 ---
 ## SignatureLine.AllowComments property
 
-İmzalayanın İmzala iletişim kutusunda yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer **yanlış** .
+İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -16,7 +16,7 @@ public bool AllowComments { get; set; }
 
 ### Örnekler
 
-İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
+İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünüşünü değiştireceğimiz bir imza satırı içerecek bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirelim.
+// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
+// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
 // Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görüntüye getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

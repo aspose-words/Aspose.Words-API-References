@@ -16,7 +16,7 @@ public DigitalSignatureType SignatureType { get; }
 
 ### Örnekler
 
-Bir belgedeki her imzayla ilgili bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
+Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

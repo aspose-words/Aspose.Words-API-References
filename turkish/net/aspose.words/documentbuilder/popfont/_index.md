@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.PopFont
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Daha önce yığına kaydedilmiş karakter biçimlendirmesini alır.
+description: DocumentBuilder yöntem. Daha önce yığına kaydedilen karakter formatını alır.
 type: docs
-weight: 560
+weight: 600
 url: /tr/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
 
-Daha önce yığına kaydedilmiş karakter biçimlendirmesini alır.
+Daha önce yığına kaydedilen karakter formatını alır.
 
 ```csharp
 public void PopFont()
@@ -16,28 +16,28 @@ public void PopFont()
 
 ### Örnekler
 
-Bir belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
+Belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini ayarlayın, ardından köprüden önce gelen metni yazın.
+// Yazı tipi formatını ayarlayın, ardından köprüden önce gelen metni yazın.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Mevcut biçimlendirme yapılandırmamızı yığında koru.
+// Yığındaki mevcut biçimlendirme yapılandırmamızı koruyun.
 builder.PushFont();
 
-// Yeni bir stil uygulayarak oluşturucunun mevcut biçimlendirmesini değiştirin.
+// Yeni bir stil uygulayarak oluşturucunun mevcut formatını değiştirin.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", yanlış);
+builder.InsertHyperlink("here", "http://www.google.com", false);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Daha önce kaydettiğimiz yazı tipi biçimlendirmesini geri yükleyin ve öğeyi yığından kaldırın.
+// Daha önce kaydettiğimiz yazı tipi formatını geri yükleyin ve öğeyi yığından kaldırın.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.StoreItemId
 second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Özel XML veri bölümü için özel XML veri tanımlayıcısını belirtir ve bu öğesinin aşağıdakileri değerlendirmek için kullanılacaktır.XPath ifade.
+description: XmlMapping mülk. Özel XML veri kısmı için özel XML veri tanımlayıcısını belirtir ve bu parçanın değerlendirilmesinde kullanılır.XPath ifade.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-Özel XML veri bölümü için özel XML veri tanımlayıcısını belirtir ve bu, öğesinin aşağıdakileri değerlendirmek için kullanılacaktır.[`XPath`](../xpath/) ifade.
+Özel XML veri kısmı için özel XML veri tanımlayıcısını belirtir ve bu parçanın değerlendirilmesinde kullanılır.[`XPath`](../xpath/) ifade.
 
 ```csharp
 public string StoreItemId { get; }
@@ -16,7 +16,7 @@ public string StoreItemId { get; }
 
 ### Örnekler
 
-Bir XML parçasının özel XML veri tanımlayıcısının nasıl alınacağını gösterir.
+Bir XML bölümünün özel XML veri tanımlayıcısının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");

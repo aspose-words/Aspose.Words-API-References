@@ -16,11 +16,11 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi gösterir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir vb. |
+| index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi belirtir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir ve bu şekilde devam eder. |
 
 ### Örnekler
 
-Bir belgeye bölümlerin nasıl ekleneceğini ve kaldırılacağını gösterir.
+Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// İlk bölümü belgeden silin.
+// Dokümanın ilk bölümünü silin.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());

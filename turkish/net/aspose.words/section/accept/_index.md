@@ -1,14 +1,14 @@
 ---
 title: Section.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bir ziyaretçiyi kabul eder.
+description: Section yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/section/accept/
 ---
 ## Section.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-DocumentVisitor.VisitSectionStart'ı çağırır, ardından bölüm 'nin tüm alt düğümleri için Kabul Et'i çağırır ve sonunda DocumentVisitor.VisitSectionEnd'i çağırır.
+Çağrılar[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , ardından arar[`Accept`](../../node/accept/) bölümün tüm alt düğümleri için ve çağrılar[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) sonunda.
 
 ### Ayrıca bakınız
 

@@ -27,22 +27,22 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// Windows'ta "Times New Roman CE" yazı tipinin varsayılan ikamesi "Times New Roman"dır.
+// Windows'ta "Times New Roman CE" yazı tipinin varsayılan alternatifi "Times New Roman"dır.
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Tabloyu XML belgesi şeklinde kaydedebiliriz.
+// Tabloyu XML belgesi biçiminde kaydedebiliriz.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux'un kendi ikame tablosu vardır.
-// "Times New Roman CE" için birden fazla yedek yazı tipi var.
-// İlk yedek "FreeSerif" de mevcut değilse,
-// bu kural, uygun bir tane bulana kadar dizideki diğerleri arasında dolaşacaktır.
+// "Times New Roman CE" için birden fazla yedek yazı tipi vardır.
+// İlk yedek olan "FreeSerif" de mevcut değilse,
+// bu kural, kullanılabilir bir kural bulana kadar dizideki diğer kurallar arasında geçiş yapacaktır.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Linux ikame tablosunu bir akış kullanarak bir XML belgesi biçiminde kaydedin.
+// Linux değiştirme tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

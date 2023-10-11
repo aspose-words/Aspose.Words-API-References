@@ -3,7 +3,7 @@ title: ImageData.ToStream
 second_title: Aspose.Words for .NET API Referansı
 description: ImageData yöntem. Görüntü baytlarını içeren bir akış oluşturur ve döndürür.
 type: docs
-weight: 230
+weight: 240
 url: /tr/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -16,26 +16,25 @@ public Stream ToStream()
 
 ### Notlar
 
-Görüntü baytları şekilde saklanırsa, birMemoryStream nesne.
+Görüntü baytları şekilde depolanıyorsa, birMemoryStream nesne.
 
-Görüntü bağlantılıysa ve bir dosyada saklanıyorsa, dosyayı açar ve birFileStream nesne.
+Görüntü bağlantılıysa ve bir dosyada saklanıyorsa dosyayı açar ve birFileStream nesne.
 
-Görüntü bağlantılıysa ve harici bir URL'de depolanıyorsa, dosyayı indirir ve birMemoryStream nesne.
+Resim bağlantılıysa ve harici bir URL'de saklanıyorsa dosyayı indirir ve birMemoryStream nesne.
 
-Akış nesnesini elden çıkarmak arayanın sorumluluğunda mı?
+Akış nesnesini elden çıkarmak arayanın sorumluluğunda mıdır?
 
 ### Örnekler
 
-Bir şeklin ham görüntü verilerinden bir görüntü dosyasının nasıl oluşturulacağını gösterir.
+Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray(), ImageBytes özelliğinde depolanan diziyi döndürür.
+// ToByteArray(), ImageBytes özelliğinde saklanan diziyi döndürür.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // Şeklin görüntü verilerini yerel dosya sistemindeki bir görüntü dosyasına kaydedin.

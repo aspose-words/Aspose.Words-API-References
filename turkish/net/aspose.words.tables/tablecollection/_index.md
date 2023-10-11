@@ -3,12 +3,14 @@ title: Class TableCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.TableCollection sınıf. Bir koleksiyona yazılı erişim sağlarTable düğümler.
 type: docs
-weight: 6060
+weight: 6360
 url: /tr/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
 Bir koleksiyona yazılı erişim sağlar[`Table`](../table/) düğümler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,16 +21,16 @@ public class TableCollection : NodeCollection
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Bir **Masa** verilen dizinde. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Bir öğeyi alır[`Table`](../table/) verilen dizinde. (2 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
@@ -57,23 +59,22 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Bir tablonun iç içe olup olmadığını nasıl öğreneceğinizi gösterir.
+Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt öğe olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,10 +86,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içinde hangi düzeyde iç içe olduğunu hesaplar.
+/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini gösteren bir tam sayı (üst tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -106,11 +107,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında tekrar tekrar dolaşmayın.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
 /// </summary>
 /// <returns>
-/// En az bir alt hücre bir tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false döndürür.
+/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
+/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

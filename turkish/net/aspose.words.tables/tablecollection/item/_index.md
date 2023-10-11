@@ -1,14 +1,14 @@
 ---
 title: TableCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: TableCollection mülk. Bir Masa verilen dizinde.
+description: TableCollection mülk. Bir öğeyi alırTable verilen dizinde.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Bir **Masa** verilen dizinde.
+Bir öğeyi alır[`Table`](../../table/) verilen dizinde.
 
 ```csharp
 public Table this[int index] { get; }
@@ -20,13 +20,13 @@ public Table this[int index] { get; }
 
 ### Notlar
 
-Endeks sıfır tabanlıdır.
+Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi gösterir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki saniye anlamına gelir vb.
+Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
 
-Dizin, listedeki öğe sayısından büyük veya ona eşitse, bu, boş bir başvuru döndürür.
+Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
 
-İndeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu bir boş başvuru döndürür.
+Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
 ### Örnekler
 
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir diziye klonlamak için bir satır koleksiyonunda "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye klonlamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

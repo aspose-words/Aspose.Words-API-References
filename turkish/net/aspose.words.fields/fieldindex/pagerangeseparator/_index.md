@@ -1,14 +1,14 @@
 ---
 title: FieldIndex.PageRangeSeparator
 second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Bir sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+description: FieldIndex mülk. Sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter sırasını alır veya ayarlar.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fieldindex/pagerangeseparator/
 ---
 ## FieldIndex.PageRangeSeparator property
 
-Bir sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+Sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter sırasını alır veya ayarlar.
 
 ```csharp
 public string PageRangeSeparator { get; set; }
@@ -16,20 +16,20 @@ public string PageRangeSeparator { get; set; }
 
 ### Örnekler
 
-Bir INDEX alanı girişi için sayfa aralığı olarak bir yer iminin yayılmış sayfalarının nasıl belirtileceğini gösterir.
+Bir yer iminin yayılmış sayfalarının bir INDEX alanı girişi için sayfa aralığı olarak nasıl belirtileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her giriş, sol tarafta XE alanının Text özellik değerini gösterecek,
+// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
 // ve sağdaki XE alanını içeren sayfanın numarası.
-// INDEX girişi, "Metin" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır.
+// INDEX girişi "Text" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
 // her XE alanı için bir giriş yapmak yerine tek bir girişe.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Sayfa aralıklarını gösteren INDEX girişleri için bir ayırıcı dize belirtebiliriz
+// Sayfa aralıklarını görüntüleyen INDEX girişleri için bir ayırıcı dize belirtebiliriz
 // ilk sayfanın numarası ile son sayfanın numarası arasında görünecek.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
@@ -40,8 +40,8 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "My entry";
 
-// Bir XE alanı, PageRangeBookmarkName özelliğini kullanarak bir yer işaretini adlandırırsa,
-// INDEX girişi, yer iminin kapsadığı sayfa aralığını gösterecek
+// Bir XE alanı PageRangeBookmarkName özelliğini kullanarak bir yer imini adlandırırsa,
+// INDEX girişi, yer iminin kapsadığı sayfa aralığını gösterecektir
 // XE alanını içeren sayfanın numarası yerine.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
@@ -49,8 +49,8 @@ Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
 Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
 // 3. sayfada başlayan ve 5. sayfada biten bir yer imi ekleyin.
-// Bu yer işaretine başvuran XE alanı için INDEX girişi bu sayfa aralığını görüntüleyecektir.
-// Tablomuzda, INDEX girişi "Girişim, sayfa(lar)da 3 ila 5" görüntüleyecektir.
+// Bu yer imine başvuran XE alanı için INDEX girişi bu sayfa aralığını görüntüleyecektir.
+// Tablomuzdaki INDEX girişi "Girişimim, sayfa 3'ten 5'e kadar" olarak görünecektir.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");
@@ -59,6 +59,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("End of MyBookmark");
 builder.EndBookmark("MyBookmark");
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ```

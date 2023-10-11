@@ -1,14 +1,14 @@
 ---
 title: Enum CalendarType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.CalendarType Sıralama. Bir takvimin türünü belirtir.
+description: Aspose.Words.CalendarType Sıralama. Takvimin türünü belirtir.
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
 
-Bir takvimin türünü belirtir.
+Takvimin türünü belirtir.
 
 ```csharp
 public enum CalendarType
@@ -22,22 +22,23 @@ public enum CalendarType
 | Hijri | `1` | Hicri Ay takvimi. |
 | Hebrew | `2` | İbrani Ay takvimi. |
 | SakaEra | `3` | Saka Dönemi takvimi. |
-| UmAlQura | `4` | Um-al-Qura takvimi. |
+| UmAlQura | `4` | Ümmü'l-Kura takvimi. |
 
 ### Örnekler
 
-Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin nasıl uygulanacağını gösterir.
+Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür biçimde özel bir biçim uygular.
+    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu InsertField yöntemi aşırı yüklemesini kullanarak onları oluşturur oluşturmaz gerçekleşir.
+    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -60,8 +61,8 @@ Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin na
 }
 
 /// <summary>
-/// Biçimlendirmeye sahip alanlar güncellendiğinde, bu biçimlendirici onların biçimlendirmesini geçersiz kılar
-/// her çağrıyı izlerken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
+/// her çağrıyı takip ederken özel bir formatla.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

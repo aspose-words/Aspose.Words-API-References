@@ -1,14 +1,14 @@
 ---
 title: Shape.ExtrusionEnabled
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bir ekstrüzyon efekti etkinleştirilirse true değerini döndürür.
+description: Shape mülk. İadelerdoğru ekstrüzyon efekti etkinse.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Bir ekstrüzyon efekti etkinleştirilirse true değerini döndürür.
+İadeler`doğru` ekstrüzyon efekti etkinse.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -19,6 +19,7 @@ public bool ExtrusionEnabled { get; }
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 }
 
 /// <summary>
-/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -40,7 +41,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenerek StringBuilder'a bir satır ekler.
+    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın topladığı tüm metni döndür.
+    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
     /// </summary>
     public string GetText()
     {
@@ -106,7 +107,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -117,7 +118,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

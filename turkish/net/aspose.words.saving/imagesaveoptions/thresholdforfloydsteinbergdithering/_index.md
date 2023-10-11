@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. FloydSteinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. ImageBinarizationMethod ImageBinarizationMethod.FloydSteinbergDithering. dir
+description: ImageSaveOptions mülk. FloydSteinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. ne zamanImageBinarizationMethod dırdirFloydSteinbergDithering .
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-Floyd-Steinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. [`ImageBinarizationMethod`](../../imagebinarizationmethod/) ImageBinarizationMethod.FloydSteinbergDithering. 'dir
+Floyd-Steinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. ne zaman[`ImageBinarizationMethod`](../../imagebinarizationmethod/) dır-dirFloydSteinbergDithering .
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -20,7 +20,7 @@ Varsayılan değer 128'dir.
 
 ### Örnekler
 
-Bir TIFF görüntüsü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hata eşiğinin nasıl ayarlanacağını gösterir.
+Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgeyi TIFF olarak kaydettiğimizde, bir SaveOptions nesnesini şuraya aktarabiliriz:
-// Aspose.Words'ün bu görüntüyü oluştururken uygulayacağı renk taklidini ayarlayın.
+// Belgeyi TIFF olarak kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// Aspose.Words'ün bu görüntüyü işlerken uygulayacağı renk taklidini ayarlayın.
 // "ThresholdForFloydSteinbergDithering" özelliğinin varsayılan değeri 128'dir.
 // Daha yüksek değerler daha koyu görüntüler üretme eğilimindedir.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)

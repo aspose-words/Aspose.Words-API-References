@@ -3,7 +3,7 @@ title: Document.CopyStylesFromTemplate
 second_title: Aspose.Words for .NET API Referansı
 description: Document yöntem. Stilleri belirtilen şablondan bir belgeye kopyalar.
 type: docs
-weight: 550
+weight: 590
 url: /tr/net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
@@ -16,7 +16,7 @@ public void CopyStylesFromTemplate(string template)
 
 ### Notlar
 
-Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzeri adlı stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller olduğu gibi kalır.
+Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzer isimli stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller bozulmadan kalır.
 
 ### Örnekler
 
@@ -43,25 +43,25 @@ Assert.AreEqual(7, template.Styles.Count);
 // Stilleri kopyalayacağımız bir belge oluşturun.
 Document target = new Document();
 
-// Şablon belgesinden bir stil ile aynı ada sahip bir stil oluşturun ve onu hedef belgeye ekleyin.
+// Şablon belgesindeki stille aynı adı taşıyan bir stil oluşturun ve bunu hedef belgeye ekleyin.
 style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
 Assert.AreEqual(5, target.Styles.Count);
 
-// Tüm stilleri bir belgeden diğerine kopyalamak için yöntemi çağırmanın iki yolu vardır.
-// 1 - Şablon belge nesnesini geçirme:
+// Tüm stilleri bir belgeden diğerine kopyalama yöntemini çağırmanın iki yolu vardır.
+// 1 - Şablon belge nesnesinin iletilmesi:
 target.CopyStylesFromTemplate(template);
 
-// Stilleri kopyalamak, şablon belgesindeki tüm stilleri hedefe ekler
-// ve aynı ada sahip mevcut stillerin üzerine yazar.
+// Stillerin kopyalanması şablon belgesindeki tüm stilleri hedefe ekler
+// ve aynı adı taşıyan mevcut stillerin üzerine yazar.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Bir şablon belgesinin yerel sistem dosya adını iletme:
+// 2 - Bir şablon belgesinin yerel sistem dosya adının iletilmesi:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);
@@ -85,11 +85,11 @@ public void CopyStylesFromTemplate(Document template)
 
 ### Notlar
 
-Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzeri adlı stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller olduğu gibi kalır.
+Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzer isimli stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller bozulmadan kalır.
 
 ### Örnekler
 
-Stillerin şablondan Belge aracılığıyla bir belgeye nasıl kopyalanacağını gösterir.
+Stillerin şablondan belgeye Belge aracılığıyla nasıl kopyalanacağını gösterir.
 
 ```csharp
 Document template = new Document(MyDir + "Rendering.docx");
@@ -121,25 +121,25 @@ Assert.AreEqual(7, template.Styles.Count);
 // Stilleri kopyalayacağımız bir belge oluşturun.
 Document target = new Document();
 
-// Şablon belgesinden bir stil ile aynı ada sahip bir stil oluşturun ve onu hedef belgeye ekleyin.
+// Şablon belgesindeki stille aynı adı taşıyan bir stil oluşturun ve bunu hedef belgeye ekleyin.
 style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
 Assert.AreEqual(5, target.Styles.Count);
 
-// Tüm stilleri bir belgeden diğerine kopyalamak için yöntemi çağırmanın iki yolu vardır.
-// 1 - Şablon belge nesnesini geçirme:
+// Tüm stilleri bir belgeden diğerine kopyalama yöntemini çağırmanın iki yolu vardır.
+// 1 - Şablon belge nesnesinin iletilmesi:
 target.CopyStylesFromTemplate(template);
 
-// Stilleri kopyalamak, şablon belgesindeki tüm stilleri hedefe ekler
-// ve aynı ada sahip mevcut stillerin üzerine yazar.
+// Stillerin kopyalanması şablon belgesindeki tüm stilleri hedefe ekler
+// ve aynı adı taşıyan mevcut stillerin üzerine yazar.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Bir şablon belgesinin yerel sistem dosya adını iletme:
+// 2 - Bir şablon belgesinin yerel sistem dosya adının iletilmesi:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);

@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.WordOpenXML
 second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag mülk. Dizindeki düğümde bulunan XMLi temsil eden bir dize alır.FlatOpc biçim.
+description: IStructuredDocumentTag mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-Dizindeki düğümde bulunan XML'i temsil eden bir dize alır.FlatOpc biçim.
+Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }

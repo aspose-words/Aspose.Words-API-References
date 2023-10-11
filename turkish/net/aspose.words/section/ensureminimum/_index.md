@@ -1,14 +1,14 @@
 ---
 title: Section.EnsureMinimum
 second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bölümün bir Paragraflı Gövdeye sahip olmasını sağlar.
+description: Section yöntem. Bölümün sahip olmasını sağlarBody biriyleParagraph .
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Bölümün bir Paragraflı Gövdeye sahip olmasını sağlar.
+Bölümün sahip olmasını sağlar[`Body`](../body/) biriyle[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -21,18 +21,18 @@ Düzenleme için yeni bir bölüm düğümünün nasıl hazırlanacağını gös
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge, bir paragrafı olan bir gövdesi olan bir bölümle birlikte gelir.
+// Boş bir belge, bir gövdeye sahip olan ve bunun da bir paragrafa sahip olduğu bir bölümle birlikte gelir.
 // Bu paragrafa metin dizileri, şekiller veya tablolar gibi öğeler ekleyerek bu belgeye içerik ekleyebiliriz.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Bunun gibi yeni bir bölüm eklersek, bunun bir gövdesi veya başka herhangi bir alt düğümü olmayacaktır.
+// Bunun gibi yeni bir bölüm eklersek ne gövdesi ne de başka bir alt düğümü olmayacak.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Düzenlemeye başlamak için bu bölüme bir gövde ve bir paragraf eklemek için "EnsureMinimum" yöntemini çalıştırın.
+// Düzenlemeye başlamak için bu bölüme bir gövde ve paragraf eklemek üzere "EnsureMinimum" yöntemini çalıştırın.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

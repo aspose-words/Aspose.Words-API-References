@@ -10,7 +10,7 @@ url: /tr/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 
 Varsayılan düzenleme dilini alır veya ayarlar.
 
-Varsayılan değerEnglishUS.
+Varsayılan değer:EnglishUS.
 
 ```csharp
 public EditingLanguage DefaultEditingLanguage { get; set; }
@@ -18,7 +18,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ### Örnekler
 
-Belge yüklerken varsayılan dilin nasıl ayarlanacağını gösterir.
+Bir belgeyi yüklerken varsayılan dilin nasıl ayarlanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
-SVG kaynaklarının Html belgesine gömülmesi gerekip gerekmediğini belirtir. Varsayılan değer`doğru` .
+SVG kaynaklarının Html belgesine gömülmesi gerekip gerekmediğini belirtir. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool ExportEmbeddedSvg { get; set; }
@@ -16,17 +16,17 @@ public bool ExportEmbeddedSvg { get; set; }
 
 ### Örnekler
 
-Bir belgeyi Html'e aktarırken SVG nesnelerinin nerede saklanacağının nasıl belirleneceğini gösterir.
+Bir belgeyi Html'ye aktarırken SVG nesnelerinin nerede saklanacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // SVG nesneleri içeren bir belgeyi .html'ye aktardığımızda,
 // Aspose.Words bu nesneleri iki olası konuma yerleştirebilir.
-// "ExportEmbeddedSvg" bayrağının "true" olarak ayarlanması, tüm SVG nesnesi ham verilerini gömecektir
-// çıktı HTML'sinin içinde, <image> etiketler.
-// Bu bayrağı "false" olarak ayarlamak, her SVG nesnesi için yerel dosya sisteminde bir dosya oluşturacaktır.
-// HTML, bir <object> etiket.
+// "ExportEmbeddedSvg" bayrağını "true" olarak ayarlamak tüm SVG nesnesi ham verilerini gömecektir
+// çıktı HTML'sinde, <image> içinde Etiketler.
+// Bu bayrağın "yanlış" olarak ayarlanması, her SVG nesnesi için yerel dosya sisteminde bir dosya oluşturacaktır.
+// HTML, bir <object> öğesinin "data" özelliğini kullanarak her dosyaya bağlantı verecektir. etiket.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

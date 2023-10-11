@@ -17,7 +17,7 @@ public PageRange(int from, int to)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | from | Int32 | Başlangıç sayfası sıfır tabanlı dizin. |
-| to | Int32 | Bitiş sayfası sıfır tabanlı dizin. Belgedeki son sayfanın dizinini aşarsa, oluşturma sırasında belgeye sığması için kesilir. |
+| to | Int32 | Bitiş sayfası sıfır tabanlı dizin. Belgedeki son sayfanın indeksini aşarsa, oluşturma sırasında belgeye sığacak şekilde kesilir. |
 
 ### Notlar
 
@@ -25,7 +25,7 @@ MaxValue belgedeki son sayfa anlamına gelir.
 
 ### Örnekler
 
-Tam sayfa aralıklarına göre sayfaların nasıl ayıklanacağını gösterir.
+Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

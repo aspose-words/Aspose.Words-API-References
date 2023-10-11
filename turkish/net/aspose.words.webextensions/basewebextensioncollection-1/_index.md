@@ -1,14 +1,16 @@
 ---
 title: Class BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T sınıf. için temel sınıfTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection veWebExtensionReferenceCollection koleksiyonlar.
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T sınıf. Temel sınıfTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection VeWebExtensionReferenceCollection koleksiyonlar.
 type: docs
-weight: 6390
+weight: 6700
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-için temel sınıf[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) ve[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) koleksiyonlar.
+Temel sınıf[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) Ve[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) koleksiyonlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışma](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokümantasyon makalesi.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -17,13 +19,13 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Parametre | Tanım |
 | --- | --- |
-| T | Koleksiyon öğesinin türü. |
+| T | Bir koleksiyon öğesinin türü. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
 | [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Belirtilen dizindeki bir öğeyi alır veya ayarlar. |
 
 ## yöntemler
@@ -32,7 +34,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | --- | --- |
 | [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Belirtilen öğeyi koleksiyona ekler. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Bir koleksiyon boyunca yinelenebilen bir Numaralandırıcı döndürür. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür. |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Belirtilen dizindeki öğeyi koleksiyondan kaldırır. |
 
 ### Örnekler

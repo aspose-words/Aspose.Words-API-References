@@ -16,19 +16,19 @@ public StoryType StoryType { get; }
 
 ### Örnekler
 
-Bir düğümden tüm şekillerin nasıl kaldırılacağını gösterir.
+Bir düğümdeki tüm şekillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Şekil eklemek için DocumentBuilder kullanın. Bu bir satır içi şekil,
-// birinci bölümün Gövdesinin alt düğümü olan bir üst Paragrafı olan.
+// Şekil eklemek için DocumentBuilder'ı kullanın. Bu satır içi bir şekildir,
+// birinci bölümün Gövdesinin alt düğümü olan bir ana Paragrafa sahiptir.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// Bu Body'nin alt paragraflarından tüm şekilleri silebiliriz.
+// Bu Gövdenin alt paragraflarındaki tüm şekilleri silebiliriz.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

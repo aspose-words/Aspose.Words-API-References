@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.LastChild
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode mülk. Düğümün son alt öğesini alır.
+description: CompositeNode mülk. Düğümün son çocuğunu alır.
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
 
-Düğümün son alt öğesini alır.
+Düğümün son çocuğunu alır.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,11 +16,11 @@ public Node LastChild { get; }
 
 ### Notlar
 
-Son alt düğüm yoksa null döndürülür.
+Son alt düğüm yoksa, bir`hükümsüz` döndürülür.
 
 ### Örnekler
 
-Belgedeki son bölümden önceki bir bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
+Belgedeki son bölümden önceki bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Başka bir bölümle kardeş ilişkisine göre bir bölümü kaldırın.
+// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldırın.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Kaldırdığımız bölüm ilk bölümdü ve belgeyi sadece ikinci bölümle bıraktı.
+// Kaldırdığımız bölüm ilk bölümdü, belgede yalnızca ikinci bölüm kaldı.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

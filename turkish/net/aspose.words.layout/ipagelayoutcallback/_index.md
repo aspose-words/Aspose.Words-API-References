@@ -1,14 +1,14 @@
 ---
 title: Interface IPageLayoutCallback
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.IPageLayoutCallback arayüz. Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arabirimi uygulayın.
+description: Aspose.Words.Layout.IPageLayoutCallback arayüz. Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 type: docs
-weight: 3110
+weight: 3310
 url: /tr/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arabirimi uygulayın.
+Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -18,24 +18,23 @@ public interface IPageLayoutCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Bu, düzen oluşturma ve işleme ilerleme durumunu bildirmek için çağrılır. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Bu, düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır. |
 
 ### Notlar
 
-Bu arabirimin birincil kullanımı, uygulama kodunun oluşturma işlemini iptal etmesine izin vermektir.
+Bu arayüzün birincil kullanımı, uygulama kodunun derleme işlemini iptal etmesine izin vermektir.
 
 Belgenin başlangıcında yalnızca birkaç sayfa için sayfa düzeni modeli oluşturmak, ardından işlemi iptal etmek ve yalnızca önceden oluşturulmuş olanı oluşturmak mümkündür.
 
-Ancak, işlem tamamlanmış olsaydı, oluşturma sonuçlarının her sayfa için oluşturulacak sonuçlarla eşleşmeyebileceğini unutmayın.
+Ancak, işleme sonuçlarının, işlemin tamamlanması durumunda her sayfa için oluşturulacak sonuçlarla eşleşmeyebileceğini unutmayın.
 
-Bu teknik her belge için çalışmayabilir veya tamamen başarısız olabilir.
+Bu teknik her belgede işe yaramayabilir veya tamamen başarısız olabilir.
 
 ### Örnekler
 
-Bir düzen geri çağırma ile düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -51,8 +50,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit bir sayfa biçiminde kaydettiğimizde bize haber verir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı oluşturur.
+/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

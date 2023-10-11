@@ -24,35 +24,35 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Aşağıda, değerlerini belge gövdesinde görüntüleyebilen alanlara sahip dört yerleşik belge özelliği bulunmaktadır.
-// 1 - AUTHOR alanı kullanarak görüntüleyebileceğimiz "Yazar" özelliği:
+// 1 - AUTHOR alanını kullanarak görüntüleyebileceğimiz "Yazar" özelliği:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - TITLE alanı kullanarak görüntüleyebileceğimiz "Title" özelliği:
+// 2 - TITLE alanını kullanarak görüntüleyebileceğimiz "Title" özelliği:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - SUBJECT alanı kullanarak görüntüleyebileceğimiz "Konu" özelliği:
+// 3 - SUBJECT alanını kullanarak görüntüleyebileceğimiz "Konu" özelliği:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 - YORUMLAR alanı kullanarak görüntüleyebileceğimiz "Yorumlar" özelliği:
+// 4 - YORUMLAR alanını kullanarak görüntüleyebileceğimiz "Yorumlar" özelliği:
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// "Kategori" yerleşik özelliği, değerini görüntüleyebilecek bir alana sahip değil.
+// "Kategori" yerleşik özelliğinin değerini görüntüleyebilecek bir alanı yok.
 properties.Category = "My category";
 
 // "Keywords" özelliğinin string değerini noktalı virgülle ayırarak bir belge için birden fazla anahtar kelime belirleyebiliriz.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Windows Gezgini'nde bu belgeye sağ tıklayıp "Özellikler" -> "Detaylar".
-// "Yazar" yerleşik özelliği "Origin" grubunda, diğerleri "Açıklama" grubundadır.
+// Windows Explorer'da bu belgeye sağ tıklayıp bu özellikleri "Özellikler" --> "Detaylar".
+// "Yazar" yerleşik özelliği "Origin" grubunda, diğerleri ise "Açıklama" grubundadır.
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

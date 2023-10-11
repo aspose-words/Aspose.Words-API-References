@@ -1,14 +1,14 @@
 ---
 title: Table.StyleOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bu tabloya bir tablo stilinin nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar.
+description: Table mülk. Bir tablo stilinin bu tabloya nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Bu tabloya bir tablo stilinin nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar.
+Bir tablo stilinin bu tabloya nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -16,21 +16,21 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ### Örnekler
 
-Bir stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
-// .doc biçiminde kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
+// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tahminlere dayalı olarak stili kısmen tablonun özelliklerine uygulayın, ardından tabloyu oluşturun.
+// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

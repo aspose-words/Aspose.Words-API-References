@@ -1,14 +1,16 @@
 ---
 title: Class TabStopCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TabStopCollection sınıf. Bir koleksiyonTabStopbir paragraf veya stil için özel sekmeleri temsil eden nesneler.
+description: Aspose.Words.TabStopCollection sınıf. Bir koleksiyonTabStop bir paragraf veya stil için özel sekmeleri temsil eden nesneler.
 type: docs
-weight: 5910
+weight: 6210
 url: /tr/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
-Bir koleksiyon[`TabStop`](../tabstop/)bir paragraf veya stil için özel sekmeleri temsil eden nesneler.
+Bir koleksiyon[`TabStop`](../tabstop/) bir paragraf veya stil için özel sekmeleri temsil eden nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -25,24 +27,24 @@ public class TabStopCollection : InternableComplexAttr
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | Koleksiyonda bir sekme durağı ekler veya onun yerini alır. |
-| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | Koleksiyonda bir sekme durağı ekler veya onun yerini alır. |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | Koleksiyona bir sekme durağı ekler veya değiştirir. |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | Koleksiyona bir sekme durağı ekler veya değiştirir. |
 | [After](../../aspose.words/tabstopcollection/after/)(double) | Belirtilen konumun sağındaki ilk sekme durağını alır. |
 | [Before](../../aspose.words/tabstopcollection/before/)(double) | Belirtilen konumun solundaki ilk sekme durağını alır. |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | Tüm sekme durağı konumlarını siler. |
 | override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Belirtilen TabStopCollection değerinin geçerli TabStopCollection değerine eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Bu tür için bir karma işlevi olarak hizmet eder. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Belirtilen konumdaki bir sekme durağının dizinini alır. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Belirtilen dizindeki sekme durağının konumunu (nokta olarak) alır. |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | Belirtilen dizindeki bir sekme durağını koleksiyondan kaldırır. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | Belirtilen konumdaki bir sekme durağını koleksiyondan kaldırır. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Belirtilenin olup olmadığını belirler`TabStopCollection` şimdiki değere eşittir`TabStopCollection` . |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Nokta cinsinden belirtilen konuma sahip bir sekme durağının dizinini alır. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Belirtilen dizindeki sekme durağının konumunu (nokta cinsinden) alır. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | Koleksiyondan belirtilen dizindeki sekme durağını kaldırır. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | Koleksiyondan belirtilen konumdaki sekme durağını kaldırır. |
 
 ### Notlar
 
-Microsoft Word belgelerinde, bir paragraf stilinin özelliklerinde veya doğrudan bir paragrafın özelliklerinde bir sekme durağı tanımlanabilir. Bir stil, başka bir stili temel alabilir. Bu nedenle, belirli bir nesne için tam sekme durakları kümesi, doğrudan bu nesne üzerinde tanımlanan sekme durakları ile üst stillerden devralınan sekme duraklarının birleşimidir.
+Microsoft Word belgelerinde, bir paragraf stilinin özelliklerinde veya doğrudan bir paragrafın özelliklerinde bir sekme durağı tanımlanabilir. Bir stil başka bir stile dayalı olabilir. Bu nedenle, belirli bir nesne için sekme duraklarının tamamı, doğrudan bu nesne üzerinde tanımlanan sekme durakları ile üst stillerden miras alınan sekme duraklarının birleşimidir.
 
-Aspose.Words'de, bir **Sekme Durakları** bir paragraf veya stil için koleksiyon, yalnızca doğrudan bu paragraf veya stil için tanımlanmış özel sekme duraklarını içerir. Koleksiyon, üst stillerde tanımlanan sekme duraklarını veya varsayılan sekme duraklarını içermez.
+Aspose.Words'te bir`TabStopCollection`bir paragraf veya stil için, yalnızca bu paragraf veya stil için doğrudan tanımlanan özel sekme duraklarını içerir. Koleksiyon, ana stillerde veya varsayılan sekme duraklarında tanımlanan sekme duraklarını içermez.
 
 ### Örnekler
 
@@ -54,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 nokta, Microsoft Word sekmesi durdurma cetvelinde bir "inç"tir.
+// 72 nokta, Microsoft Word sekme durağı cetvelinde bir "inç"tir.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -69,15 +71,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan sekme durağı koleksiyonunu alır.
+// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan kendi sekme durağı koleksiyonunu alır.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Bir sekme durağı koleksiyonu bizi belirli konumlardan önce ve sonra TabStop'lara yönlendirebilir.
+// Bir sekme durağı koleksiyonu bizi belirli konumlardan önceki ve sonraki TabStop'lara yönlendirebilir.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Varsayılan sekme davranışına geri dönmek için bir paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
+// Varsayılan sekme davranışına geri dönmek için paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

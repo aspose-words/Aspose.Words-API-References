@@ -1,14 +1,14 @@
 ---
 title: Enum SdtCalendarType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtCalendarType Sıralama. Belirtmek için kullanılabilecek olası takvim türlerini belirtir.CalendarType bir Office Açık XML belgesinde.
+description: Aspose.Words.Markup.SdtCalendarType Sıralama. Belirlemek için kullanılabilecek olası takvim türlerini belirtirCalendarType bir Office Açık XML belgesinde.
 type: docs
-weight: 3760
+weight: 4000
 url: /tr/net/aspose.words.markup/sdtcalendartype/
 ---
 ## SdtCalendarType enumeration
 
-Belirtmek için kullanılabilecek olası takvim türlerini belirtir.[`CalendarType`](../structureddocumenttag/calendartype/) bir Office Açık XML belgesinde.
+Belirlemek için kullanılabilecek olası takvim türlerini belirtir[`CalendarType`](../structureddocumenttag/calendartype/) bir Office Açık XML belgesinde.
 
 ```csharp
 public enum SdtCalendarType
@@ -18,21 +18,21 @@ public enum SdtCalendarType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Default | `0` | OOXML'de varsayılan değer olarak kullanılır. eşittirGregorian . |
-| Gregorian | `0` | ISO 8601'de tanımlandığı gibi Gregoryen takviminin kullanılacağını belirtir. Bu takvim uygun dilde yerelleştirilmelidir. |
-| GregorianArabic | `1` | ISO 8601'de tanımlanan Miladi takvimin kullanılacağını belirtir. Bu takvimin değerleri Arapça olarak sunulmalıdır. |
-| GregorianMeFrench | `2` | ISO 8601'de tanımlandığı şekliyle Gregoryen takviminin kullanılacağını belirtir. Bu takvimin değerleri Orta Doğu Fransızcasında sunulmalıdır. |
-| GregorianUs | `3` | ISO 8601'de tanımlanan Miladi takvimin kullanılacağını belirtir. Bu takvimin değerleri İngilizce olarak sunulmalıdır. |
-| GregorianXlitEnglish | `4` | ISO 8601'de tanımlandığı gibi Gregoryen takviminin kullanılacağını belirtir. Bu takvimin değerleri, karşılık gelen Arapça karakterler (Miladi takvim için İngilizce'nin Arapça harf çevirisi) içindeki İngilizce dizelerin temsili olmalıdır. |
-| GregorianXlitFrench | `5` | ISO 8601'de tanımlandığı gibi Gregoryen takviminin kullanılacağını belirtir. Bu takvimin değerleri, karşılık gelen Arapça karakterler (Miladi takvim için Fransızca'nın Arapça harf çevirisi) içindeki Fransızca dizelerin temsili olmalıdır. |
-| Hebrew | `6` | Fısıh için Gauss formülü [CITATION] ve The Complete Restatement of Oral Law (Mishneh Torah) tarafından açıklanan İbranice ay takviminin kullanılacağını belirtir. |
-| Hijri | `7` | Suudi Arabistan Krallığı, İslami İşler, Vakıflar, Davet ve Rehberlik Bakanlığı tarafından açıklanan Hicri ay takviminin kullanılacağını belirtir. |
-| Japan | `8` | Japon Endüstri Standardı JIS X 0301 tarafından açıklanan Japon İmparator Dönemi takviminin kullanılacağını belirtir. |
-| Korea | `9` | Kore Tangun Dönemi takviminin, , 4 No.lu Kore Kanun Kararı'nda açıklandığı şekliyle kullanılacağını belirtir. |
+| Default | `0` | OOXML'de varsayılan değer olarak kullanılır. EşittirGregorian . |
+| Gregorian | `0` | ISO 8601'de tanımlandığı şekliyle Gregoryen takviminin kullanılacağını belirtir. Bu takvim uygun dilde yerelleştirilmelidir. |
+| GregorianArabic | `1` | ISO 8601'de tanımlanan Gregoryen takviminin kullanılacağını belirtir. Bu takvime ait değerler Arapça olarak sunulmalıdır. |
+| GregorianMeFrench | `2` | ISO 8601'de tanımlanan Gregoryen takviminin kullanılacağını belirtir. Bu takvime ilişkin değerler Orta Doğu Fransızcası olarak sunulmalıdır. |
+| GregorianUs | `3` | ISO 8601'de tanımlandığı şekliyle Gregoryen takviminin kullanılacağını belirtir. Bu takvime ilişkin değerler İngilizce olarak sunulmalıdır. |
+| GregorianXlitEnglish | `4` | ISO 8601'de tanımlandığı şekliyle Gregoryen takviminin kullanılacağını belirtir. Bu takvimin değerleri, karşılık gelen (Gregoryen takvimi için İngilizcenin Arapça harf çevirisi) Arapça karakterlerindeki İngilizce dizelerin temsili olmalıdır. |
+| GregorianXlitFrench | `5` | ISO 8601'de tanımlandığı şekliyle Gregoryen takviminin kullanılacağını belirtir. Bu takvimin değerleri, karşılık gelen Arapça karakterler (Gregoryen takvimi için Fransızcanın Arapça harf çevirisi) içindeki Fransızca dizelerin temsili olmalıdır. |
+| Hebrew | `6` | Fısıh Bayramı için Gauss formülüyle [CITATION] ve Sözlü Yasanın Tam Yeniden İfadesi (Mişne Tora) tarafından tanımlandığı şekliyle İbrani ay takviminin kullanılacağını belirtir. |
+| Hijri | `7` | Suudi Arabistan Krallığı, İslam İşleri, Vakıflar, Davet ve Hidayet Bakanlığı tarafından açıklanan Hicri ay takviminin kullanılacağını belirtir. |
+| Japan | `8` | Japon Endüstri Standardı JIS X 0301'de tanımlandığı şekliyle Japon İmparatoru Dönemi takviminin kullanılacağını belirtir. |
+| Korea | `9` | Kore Tangun Dönemi takviminin ( ) 4 No'lu Kore Kanun Tasarısı'nda tanımlandığı şekliyle kullanılacağını belirtir. |
 | None | `10` | Hiçbir takvimin kullanılmaması gerektiğini belirtir. |
-| Saka | `11` | Hindistan Takvim Reform Komitesi tarafından açıklanan Saka Dönemi takviminin, Hint Efemeris ve Deniz Almanakının bir parçası olarak kullanılacağını belirtir. |
-| Taiwan | `12` | Çin Ulusal Standardı CNS 7648 tarafından tanımlanan Tayvan takviminin kullanılacağını belirtir. |
-| Thai | `13` | HM Kral Vajiravudh'un (Rama VI) Kraliyet Gazetesi BE 2456 (1913 AD) ve Başbakan Phibunsongkhram'ın (1941 AD) kararnamesi ile tanımlanan Tay takviminin Gregoryen 1 Ocak ve sıfır yılını MÖ 543 Gregoryen yılına eşlemek için kullanılacaktır. |
+| Saka | `11` | Hindistan Takvim Reformu Komitesi tarafından açıklanan, Hint Efemeris ve Denizcilik Almanakının bir parçası olarak Saka Dönemi takviminin kullanılacağını belirtir. |
+| Taiwan | `12` | Çin Ulusal Standardı CNS 7648 tarafından tanımlandığı şekliyle Tayvan takviminin kullanılacağını belirtir. |
+| Thai | `13` | Kraliyet Gazetesi BE 2456'da (MS 1913) HM Kral Vajiravudh'un (Rama VI) Kraliyet Kararnamesi ve Başbakan Phibunsongkhram'ın (MS 1941) kararnamesi ile tanımlandığı şekliyle Tayland takviminin yılın tarihinde başlayacağını belirtir. Gregoryen 1 Ocak ve sıfır yılını MÖ 543 Gregoryen yılıyla eşleştirmek için kullanılacaktır. |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: MailMerge.GetRegionsByName
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Belirtilen ada sahip adres mektup birleştirme bölgeleri koleksiyonunu döndürür.
+description: MailMerge yöntem. Belirtilen ada sahip adresmektup birleştirme bölgelerinin bir koleksiyonunu döndürür.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
 ## MailMerge.GetRegionsByName method
 
-Belirtilen ada sahip adres mektup birleştirme bölgeleri koleksiyonunu döndürür.
+Belirtilen ada sahip adres-mektup birleştirme bölgelerinin bir koleksiyonunu döndürür.
 
 ```csharp
 public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
@@ -16,7 +16,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| regionName | String | Bölge adı (büyük/küçük harfe duyarsız). |
+| regionName | String | Bölge adı (büyük/küçük harfe duyarlı değil). |
 
 ### Geri dönüş değeri
 
@@ -24,19 +24,19 @@ Bölgelerin listesi.
 
 ### Örnekler
 
-Adres mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
+Adres-mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // MERGEFIELD'lerin içine giren "TableStart" ve "TableEnd" etiketleri,
-// adres mektup birleştirme bölgelerinin başlangıç ve bitişlerini belirten dizeleri belirtin.
+// adres-mektup birleştirme bölgelerinin başlangıç ve bitişlerini belirten dizeleri belirtir.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// "MailMergeRegion1" adlı adres mektup birleştirme bölgesini başlatmak ve bitirmek için bu etiketleri kullanın,
-// iki sütun için MERGEFIELD'leri içerecek.
+// "MailMergeRegion1" adlı adres-mektup birleştirme bölgesini başlatmak ve bitirmek için bu etiketleri kullanın,
+// iki sütun için MERGEFIELD'leri içerecektir.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -54,19 +54,19 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// Mevcut bölgenin içine aynı ada sahip bir bölge ekleyin, bu onu bir ebeveyn yapacak.
-// Şimdi bir "Column2" alanı yeni bir bölgenin içinde olacak.
+// Mevcut bölgenin içine aynı isimde bir bölge ekleyin, bu onu ebeveyn yapacak.
+// Artık yeni bir bölgenin içinde bir "Sütun2" alanı olacak.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
 // "GetRegionsByName" yöntemini kullanarak yinelenen bölgelerin adını ararsak,
-// bir koleksiyondaki tüm bu bölgeleri döndürür.
+// bu tür bölgelerin tümünü bir koleksiyonda döndürecektir.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// İkinci bölgenin artık bir üst bölge olup olmadığını kontrol edin.
+// İkinci bölgenin artık bir ana bölgeye sahip olup olmadığını kontrol edin.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

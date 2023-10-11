@@ -1,14 +1,14 @@
 ---
 title: FieldArgumentBuilder.FieldArgumentBuilder
 second_title: Aspose.Words for .NET API Referansı
-description: FieldArgumentBuilder inşaatçı. Şunun bir örneğini başlatırFieldArgumentBuilder sınıf.
+description: FieldArgumentBuilder inşaatçı. Bir örneğini başlatırFieldArgumentBuilder class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder constructor
 
-Şunun bir örneğini başlatır:[`FieldArgumentBuilder`](../) sınıf.
+Bir örneğini başlatır[`FieldArgumentBuilder`](../) class.
 
 ```csharp
 public FieldArgumentBuilder()

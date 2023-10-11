@@ -18,7 +18,21 @@ public int HeadingLevelForChapter { get; set; }
 
 0'dan 9'a kadar bir sayı olabilir. 0, sayfa numarasına uygulandığında bölüm numarası olmadığı anlamına gelir.
 
-Bölüm numaralarını içeren sayfa numaraları oluşturabilmeniz için, belge başlıklarına numaralandırılmış bir anahat biçimi uygulanmış olmalıdır.
+Bölüm numaralarını içeren sayfa numaralarını oluşturabilmeniz için, belge başlıklarına numaralı anahat biçiminin uygulanması gerekir.
+
+### Örnekler
+
+Sayfa bölümleriyle nasıl çalışılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Ayrıca bakınız
 

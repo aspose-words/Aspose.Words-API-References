@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlockCollection mülk. Verilen dizinde bir yapı taşı alır.
+description: BuildingBlockCollection mülk. Verilen dizindeki yapı taşını alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.buildingblocks/buildingblockcollection/item/
 ---
 ## BuildingBlockCollection indexer
 
-Verilen dizinde bir yapı taşı alır.
+Verilen dizindeki yapı taşını alır.
 
 ```csharp
 public BuildingBlock this[int index] { get; }
@@ -20,17 +20,17 @@ public BuildingBlock this[int index] { get; }
 
 ### Notlar
 
-Endeks sıfır tabanlıdır.
+Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi gösterir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki saniye anlamına gelir vb.
+Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
 
-Dizin, listedeki öğe sayısından büyük veya ona eşitse, bu, boş bir başvuru döndürür.
+Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
 
-İndeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu bir boş başvuru döndürür.
+Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
 ### Örnekler
 
-Sözlük belgesindeki yapı taşlarına erişmenin yollarını gösterir.
+Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
 ```csharp
 public void GlossaryDocument()
@@ -57,24 +57,23 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Bir galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
+    // 3 - Galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Bunu özel bir ziyaretçi kullanarak yapacağız,
-    // GlossaryDocument'taki her BuildingBlock'a benzersiz bir GUID verecek
+    // bu, GlossaryDocument'teki her BuildingBlock'a benzersiz bir GUID verecektir
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Microsoft Word'de yapı taşlarına "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de yapı taşlarına "Ekle" --> aracılığıyla erişebiliriz. "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Ziyaret edilen bir sözlük belgesindeki her yapı taşına benzersiz bir GUID verir.
-/// GUID yapı taşı çiftlerini bir sözlükte saklar.
+/// GUID yapı bloğu çiftlerini bir sözlükte saklar.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

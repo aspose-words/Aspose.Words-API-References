@@ -1,14 +1,14 @@
 ---
 title: Interface IMailMergeCallback
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.IMailMergeCallback arayüz. Adres mektup birleştirme yapılırken bildirim almak istiyorsanız bu arayüzü uygulayın.
+description: Aspose.Words.MailMerging.IMailMergeCallback arayüz. Adresmektup birleştirme işlemi gerçekleştirilirken bildirim almak istiyorsanız bu arayüzü uygulayın.
 type: docs
-weight: 3580
+weight: 3800
 url: /tr/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
 
-Adres mektup birleştirme yapılırken bildirim almak istiyorsanız bu arayüzü uygulayın.
+Adres-mektup birleştirme işlemi gerçekleştirilirken bildirim almak istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IMailMergeCallback
@@ -18,11 +18,11 @@ public interface IMailMergeCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | "bıyık" metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır. |
+| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | "Bıyık" metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır. |
 
 ### Örnekler
 
-Adres mektup birleştirme sırasında olayları işlemek için özel mantığın nasıl tanımlanacağını gösterir.
+Adres-mektup birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
 
 ```csharp
 public void Callback()
@@ -30,20 +30,20 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bir veri kaynağına iki sütuna başvuran iki adres mektup birleştirme etiketi ekleyin.
+    // Bir veri kaynağındaki iki sütuna başvuran iki adres-mektup birleştirme etiketi ekleyin.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // Birleştirme etiketlerimizin başvurduğu sütunlardan yalnızca birini içeren bir veri kaynağı oluşturun.
+    // Birleştirme etiketlerimizin referans verdiği sütunlardan yalnızca birini içeren bir veri kaynağı oluşturun.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Adres mektup birleştirmemizi alternatif adres mektup birleştirme etiketlerini kullanacak şekilde yapılandırın.
+    // Adres-mektup birleştirmemizi alternatif adres-mektup birleştirme etiketlerini kullanacak şekilde yapılandırın.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Ardından, adres mektup birleştirmenin "Soyadı" etiketimiz gibi etiketleri dönüştüreceğinden emin olun,
+    // Ardından, adres-mektup birleştirmenin "LastName" etiketimiz gibi etiketleri dönüştüreceğinden emin olun,
     // birleştirme belgelerindeki MERGEFIELD'lere.
     doc.MailMerge.PreserveUnusedTags = false;
 
@@ -55,7 +55,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Adres mektup birleştirmenin, MERGEFIELD'lerle verilerle dolduramadığı adres mektup birleştirme etiketlerinin değiştirilme sayısını sayar.
+/// Adres-mektup birleştirmenin, MERGEFIELD'lerle verilerle dolduramadığı adres-mektup birleştirme etiketlerini kaç kez değiştirdiğini sayar.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

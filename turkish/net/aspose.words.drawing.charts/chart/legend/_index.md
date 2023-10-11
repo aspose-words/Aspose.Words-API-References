@@ -1,14 +1,14 @@
 ---
 title: Chart.Legend
 second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Grafik gösterge özelliklerine erişim sağlar.
+description: Chart mülk. Grafik açıklama özelliklerine erişim sağlar.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Grafik gösterge özelliklerine erişim sağlar.
+Grafik açıklama özelliklerine erişim sağlar.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -30,11 +30,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin lejandını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşıyın.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerine lejandla örtüşmelerine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

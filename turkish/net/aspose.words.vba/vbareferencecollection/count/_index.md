@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: VbaReferenceCollection mülk. Koleksiyondaki VBA başvurularının sayısını döndürür.
+description: VbaReferenceCollection mülk. Koleksiyondaki VBA referanslarının sayısını döndürür.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbareferencecollection/count/
 ---
 ## VbaReferenceCollection.Count property
 
-Koleksiyondaki VBA başvurularının sayısını döndürür.
+Koleksiyondaki VBA referanslarının sayısını döndürür.
 
 ```csharp
 public int Count { get; }
@@ -16,10 +16,9 @@ public int Count { get; }
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

@@ -1,14 +1,14 @@
 ---
 title: Enum RevisionsView
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionsView Sıralama. Bir belgenin orijinal sürümüyle mi yoksa gözden geçirilmiş sürümüyle mi çalışılacağını belirtmenize olanak tanır.
+description: Aspose.Words.RevisionsView Sıralama. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır.
 type: docs
-weight: 4550
+weight: 4810
 url: /tr/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-Bir belgenin orijinal sürümüyle mi yoksa gözden geçirilmiş sürümüyle mi çalışılacağını belirtmenize olanak tanır.
+Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır.
 
 ```csharp
 public enum RevisionsView
@@ -19,11 +19,11 @@ public enum RevisionsView
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Original | `0` | Bir belgenin orijinal sürümünü belirtir. |
-| Final | `1` | Bir belgenin gözden geçirilmiş sürümünü belirtir. |
+| Final | `1` | Bir belgenin revize edilmiş sürümünü belirtir. |
 
 ### Örnekler
 
-Bir belgenin gözden geçirilmiş ve orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
+Bir belgenin revize edilmiş görünümü ile orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -34,7 +34,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüleyin. Şu anda liste etiketlerini destekler.
+// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüleyin. Şu anda liste etiketlerini desteklemektedir.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

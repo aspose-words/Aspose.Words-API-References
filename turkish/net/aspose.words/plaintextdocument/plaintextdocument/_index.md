@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
+| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
 ### Örnekler
@@ -55,7 +55,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(string, LoadOptions) {#constructor_3}
 
-Bir dosyadan düz metin belgesi oluşturur. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir.
+Bir dosyadan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
 ```csharp
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
@@ -64,22 +64,22 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Metnin çıkarılacağı dosyanın adı. |
-| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Boş olabilir. |
+| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Olabilir`hükümsüz`. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
+| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
 ### Örnekler
 
-Düz metin olarak şifrelenmiş bir Microsoft Word belgesinin içeriğinin nasıl yükleneceğini gösterir.
+Şifrelenmiş bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -124,22 +124,22 @@ public PlainTextDocument(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
+| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
-| ObjectDisposedException | Akış, elden çıkarılan bir nesnedir. |
+| ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
 ### Notlar
 
-Belge, akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
+Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
 ### Örnekler
 
-Akış kullanarak bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
+Akış kullanılarak bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -166,7 +166,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
 
-Bir akıştan düz metin belgesi oluşturur. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir.
+Bir akıştan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
 ```csharp
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
@@ -175,28 +175,28 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Metnin çıkarılacağı akış. |
-| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Boş olabilir. |
+| loadOptions | LoadOptions | Belge yüklerken kullanılacak ek seçenekler. Olabilir`hükümsüz`. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge formatı tanınmıyor veya desteklenmiyor. |
 | [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
-| Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
+| Exception | Belgede bir sorun var ve Aspose.Words geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
-| ObjectDisposedException | Akış, elden çıkarılan bir nesnedir. |
+| ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
 ### Notlar
 
-Belge, akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
+Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
 ### Örnekler
 
-Akış kullanılarak düz metin olarak şifrelenmiş bir Microsoft Word belgesinin içeriğinin nasıl yükleneceğini gösterir.
+Akış kullanılarak şifrelenmiş bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Range.Replace
 second_title: Aspose.Words for .NET API Referansı
-description: Range yöntem. Belirtilen karakter dizesi modelinin tüm oluşumlarını bir yedek dizeyle değiştirir.
+description: Range yöntem. Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
 
-Belirtilen karakter dizesi modelinin tüm oluşumlarını bir yedek dizeyle değiştirir.
+Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
 
 ```csharp
 public int Replace(string pattern, string replacement)
@@ -17,26 +17,26 @@ public int Replace(string pattern, string replacement)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pattern | String | Değiştirilecek bir dize. |
-| replacement | String | Tüm kalıp oluşumlarını değiştirmek için bir dize. |
+| replacement | String | Desenin tüm oluşumlarını değiştirecek bir dize. |
 
 ### Geri dönüş değeri
 
-Yapılan değiştirme sayısı.
+Yapılan değişiklik sayısı.
 
 ### Notlar
 
-Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın`Replace` düzenli ifadelere ihtiyacınız varsa.
+Desen normal ifade olarak kullanılmayacaktır. Lütfen kullanın`Replace`düzenli ifadelere ihtiyacınız varsa.
 
-Kullanılan büyük/küçük harfe duyarsız karşılaştırma.
+Büyük/küçük harfe duyarlı olmayan karşılaştırma kullanıldı.
 
-Yöntem, hem desen hem de değiştirme dizelerindeki sonları işleyebilir.
+Yöntem hem kalıp hem de değiştirme dizelerindeki kesintileri işleyebilir.
 
 Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
-* **&amp;p** - paragraf sonu
-* **&amp;b** - Bölüm sonu
-* **&amp;m** - sayfa sonu
-* **&amp;l** - manuel satır sonu
+* **&amp;P** - paragraf sonu
+* **&amp;B** - Bölüm sonu
+* **&amp;M** - sayfa sonu
+* **&amp; ben** - manuel hat sonu
 
 Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
@@ -47,11 +47,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Numbers'dan sonra paragraf sonu ekler.
+// Sayılardan sonra paragraf sonu ekler.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
-Bir belgenin içeriği üzerinde metin bul ve değiştir işleminin nasıl gerçekleştirileceğini gösterir.
+Bir belgenin içeriğinde metin bulma ve değiştirme işleminin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// Belgemizin içeriği üzerinde bir bul ve değiştir işlemi gerçekleştirin ve gerçekleşen değiştirme sayısını doğrulayın.
+// Belgemizin içeriği üzerinde bul ve değiştir işlemini gerçekleştirin ve gerçekleşen değişiklik sayısını doğrulayın.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
@@ -86,10 +86,10 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Her paragrafı sağa hizalamak için "Alignment" özelliğini "ParagraphAlignment.Right" olarak ayarlayın
-// bul ve değiştir işleminin bulduğu bir eşleşmeyi içeren.
+// bulma ve değiştirme işleminin bulduğu eşleşmeyi içerir.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Paragraf sonundan hemen önceki her noktayı bir ünlem işaretiyle değiştirin.
+// Paragraf sonundan hemen önceki her noktayı ünlem işaretiyle değiştirin.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);
@@ -111,7 +111,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ## Replace(Regex, string) {#replace_2}
 
-Normal bir ifadeyle belirtilen bir karakter deseninin tüm oluşumlarını başka bir dizeyle değiştirir.
+Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir.
 
 ```csharp
 public int Replace(Regex pattern, string replacement)
@@ -119,25 +119,25 @@ public int Replace(Regex pattern, string replacement)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pattern | Regex | Eşleşmeleri bulmak için kullanılan bir normal ifade kalıbı. |
-| replacement | String | Tüm kalıp oluşumlarını değiştirmek için bir dize. |
+| pattern | Regex | Eşleşmeleri bulmak için kullanılan normal ifade modeli. |
+| replacement | String | Desenin tüm oluşumlarını değiştirecek bir dize. |
 
 ### Geri dönüş değeri
 
-Yapılan değiştirme sayısı.
+Yapılan değişiklik sayısı.
 
 ### Notlar
 
-Normal ifade tarafından yakalanan tüm eşleşmeyi değiştirir.
+Normal ifadenin yakaladığı eşleşmenin tamamını değiştirir.
 
-Yöntem, hem desen hem de değiştirme dizelerindeki sonları işleyebilir.
+Yöntem hem kalıp hem de değiştirme dizelerindeki kesintileri işleyebilir.
 
 Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
-* **&amp;p** - paragraf sonu
-* **&amp;b** - Bölüm sonu
-* **&amp;m** - sayfa sonu
-* **&amp;l** - manuel satır sonu
+* **&amp;P** - paragraf sonu
+* **&amp;B** - Bölüm sonu
+* **&amp;M** - sayfa sonu
+* **&amp; ben** - manuel hat sonu
 
 Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
@@ -148,11 +148,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("a1, b2, c3");
 
-// Her sayıyı paragraf sonu ile değiştirir.
+// Her sayıyı paragraf sonuyla değiştirir.
 doc.Range.Replace(new Regex(@"\d+"), "&p");
 ```
 
-Normal ifade deseninin tüm oluşumlarının başka metinlerle nasıl değiştirileceğini gösterir.
+Düzenli ifade modelinin tüm tekrarlarının başka metinle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -175,7 +175,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ## Replace(string, string, FindReplaceOptions) {#replace_1}
 
-Belirtilen karakter dizesi modelinin tüm oluşumlarını bir yedek dizeyle değiştirir.
+Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
 
 ```csharp
 public int Replace(string pattern, string replacement, FindReplaceOptions options)
@@ -184,25 +184,25 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pattern | String | Değiştirilecek bir dize. |
-| replacement | String | Tüm kalıp oluşumlarını değiştirmek için bir dize. |
-| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) ek seçenekleri belirtmek için nesne. |
+| replacement | String | Desenin tüm oluşumlarını değiştirecek bir dize. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) Ek seçenekleri belirtmek için nesne. |
 
 ### Geri dönüş değeri
 
-Yapılan değiştirme sayısı.
+Yapılan değişiklik sayısı.
 
 ### Notlar
 
-Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın`Replace` düzenli ifadelere ihtiyacınız varsa.
+Desen normal ifade olarak kullanılmayacaktır. Lütfen kullanın`Replace`düzenli ifadelere ihtiyacınız varsa.
 
-Yöntem, hem desen hem de değiştirme dizelerindeki sonları işleyebilir.
+Yöntem hem kalıp hem de değiştirme dizelerindeki kesintileri işleyebilir.
 
 Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
-* **&amp;p** - paragraf sonu
-* **&amp;b** - Bölüm sonu
-* **&amp;m** - sayfa sonu
-* **&amp;l** - manuel satır sonu
+* **&amp;P** - paragraf sonu
+* **&amp;B** - Bölüm sonu
+* **&amp;M** - sayfa sonu
+* **&amp; ben** - manuel hat sonu
 * **&amp;&amp;** - &amp; karakter
 
 ### Örnekler
@@ -212,11 +212,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Numbers'dan sonra paragraf sonu ekler.
+// Sayılardan sonra paragraf sonu ekler.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
-Belgenin alt bilgisindeki metnin nasıl değiştirileceğini gösterir.
+Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -247,8 +247,8 @@ builder.Writeln("Ruby bought a ruby necklace.");
 // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Değiştirilecek dizeleri bulurken büyük/küçük harf duyarlılığı uygulamak için "MatchCase" bayrağını "true" olarak ayarlayın.
-// Değiştirilecek metni ararken büyük/küçük harf harflerini yok saymak için "MatchCase" bayrağını "false" olarak ayarlayın.
+// Değiştirilecek dizeleri bulurken büyük/küçük harf duyarlılığını uygulamak için "MatchCase" bayrağını "true" olarak ayarlayın.
+// Değiştirilecek metni ararken karakter büyük/küçük harf durumunu dikkate almamak için "MatchCase" bayrağını "false" olarak ayarlayın.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -257,7 +257,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-Yalnızca sözcükten oluşan bağımsız bul ve değiştir işlemlerinin nasıl değiştirileceğini gösterir.
+Bağımsız salt sözcük bul ve değiştir işlemlerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -279,7 +279,7 @@ Assert.AreEqual(
     doc.GetText().Trim());
 ```
 
-Bir tablodaki ve hücredeki tüm String of text örneklerinin nasıl değiştirileceğini gösterir.
+Bir tablo ve hücredeki metin dizesinin tüm örneklerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -301,10 +301,10 @@ FindReplaceOptions options = new FindReplaceOptions();
 options.MatchCase = true;
 options.FindWholeWordsOnly = true;
 
-// Tüm tablo üzerinde bir bul ve değiştir işlemi gerçekleştir.
+// Tablonun tamamında bulma ve değiştirme işlemini gerçekleştirin.
 table.Range.Replace("Carrots", "Eggs", options);
 
-// Tablonun son satırının son hücresinde bul ve değiştir işlemini gerçekleştirin.
+// Tablonun son satırının son hücresinde bul ve değiştir işlemi gerçekleştir.
 table.LastRow.LastCell.Range.Replace("50", "20", options);
 
 Assert.AreEqual("Eggs\a50\a\a" +
@@ -322,7 +322,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ## Replace(Regex, string, FindReplaceOptions) {#replace_3}
 
-Normal bir ifadeyle belirtilen bir karakter deseninin tüm oluşumlarını başka bir dizeyle değiştirir.
+Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir.
 
 ```csharp
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
@@ -330,26 +330,26 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pattern | Regex | Eşleşmeleri bulmak için kullanılan bir normal ifade kalıbı. |
-| replacement | String | Tüm kalıp oluşumlarını değiştirmek için bir dize. |
-| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) ek seçenekleri belirtmek için nesne. |
+| pattern | Regex | Eşleşmeleri bulmak için kullanılan normal ifade modeli. |
+| replacement | String | Desenin tüm oluşumlarını değiştirecek bir dize. |
+| options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) Ek seçenekleri belirtmek için nesne. |
 
 ### Geri dönüş değeri
 
-Yapılan değiştirme sayısı.
+Yapılan değişiklik sayısı.
 
 ### Notlar
 
-Normal ifade tarafından yakalanan tüm eşleşmeyi değiştirir.
+Normal ifadenin yakaladığı eşleşmenin tamamını değiştirir.
 
-Yöntem, hem desen hem de değiştirme dizelerindeki sonları işleyebilir.
+Yöntem hem kalıp hem de değiştirme dizelerindeki kesintileri işleyebilir.
 
 Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
-* **&amp;p** - paragraf sonu
-* **&amp;b** - Bölüm sonu
-* **&amp;m** - sayfa sonu
-* **&amp;l** - manuel satır sonu
+* **&amp;P** - paragraf sonu
+* **&amp;B** - Bölüm sonu
+* **&amp;M** - sayfa sonu
+* **&amp; ben** - manuel hat sonu
 * **&amp;&amp;** - &amp; karakter
 
 ### Örnekler
@@ -359,13 +359,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("a1, b2, c3");
 
-// Her sayıyı paragraf sonu ile değiştirir.
+// Her sayıyı paragraf sonuyla değiştirir.
 doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 ```
 
-Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -376,7 +377,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri arama ayarlayın.
+    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -390,7 +391,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle yapılan her metin değişikliğinin günlüğünü tutar
+/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -413,9 +414,10 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
+Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -425,6 +427,8 @@ Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin 
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -436,7 +440,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metinle paragrafı kaldırın.
+        // Eşleşen metnin bulunduğu paragrafı kaldırın.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -444,7 +448,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Bir paragraf veya tablodan sonra başka bir belgenin tüm düğümlerini ekler.
+/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -458,7 +462,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragraf ise düğümü atlayın.
+                // Bir bölümdeki son boş paragrafsa düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,12 +3,14 @@ title: Class FontSubstitutionSettings
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fonts.FontSubstitutionSettings sınıf. Yazı tipi değiştirme mekanizması ayarlarını belirtir.
 type: docs
-weight: 2830
+weight: 3010
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
 
 Yazı tipi değiştirme mekanizması ayarlarını belirtir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public class FontSubstitutionSettings
@@ -26,23 +28,23 @@ public class FontSubstitutionSettings
 
 ### Notlar
 
-Yazı tipi değiştirme işlemi, belirli bir sırayla tek tek kontrol edilen birkaç kuraldan oluşur. İlk kural yazı tipini çözemezse, ikinci kural kontrol edilir ve bu şekilde devam eder.
+Yazı tipi değiştirme işlemi belirli bir sırayla tek tek kontrol edilen birçok kuraldan oluşur. İlk kural yazı tipini çözemezse ikinci kural kontrol edilir ve bu şekilde devam eder.
 
-Kuralların sırası şu şekildedir: 1. Yazı tipi adı değiştirme kuralı (varsayılan olarak etkindir) 2. Yazı tipi yapılandırma değiştirme kuralı (varsayılan olarak devre dışıdır) 3. Tablo değiştirme kuralı (varsayılan olarak etkindir) 4. Yazı tipi bilgisi değiştirme kuralı (varsayılan olarak etkindir) 5. Varsayılan yazı tipi kuralı (varsayılan olarak etkindir)
+Kuralların sırası şu şekildedir: 1. Yazı tipi adı değiştirme kuralı (varsayılan olarak etkindir) 2. Yazı tipi yapılandırması değiştirme kuralı (varsayılan olarak devre dışıdır) 3. Tablo değiştirme kuralı (varsayılan olarak etkindir) 4. Yazı tipi bilgisi değiştirme kuralı (varsayılan olarak etkindir) 5. Varsayılan yazı tipi kuralı (varsayılan olarak etkindir)
 
-Yazı tipi bilgisi değiştirme kuralının, aşağıdaki durumlarda yazı tipini her zaman çözeceğini unutmayın.[`FontInfo`](../fontinfo/) kullanılabilir ve varsayılan yazı tipi kuralını geçersiz kılar. Varsayılan yazı tipi kuralını kullanmak istiyorsanız, the yazı tipi bilgisi değiştirme kuralını devre dışı bırakmalısınız.
+Yazı tipi bilgisi değiştirme kuralının aşağıdaki durumlarda yazı tipini her zaman çözeceğini unutmayın:[`FontInfo`](../fontinfo/) kullanılabilir 'dir ve varsayılan yazı tipi kuralını geçersiz kılar. Varsayılan yazı tipi kuralını kullanmak istiyorsanız the yazı tipi bilgisi değiştirme kuralını devre dışı bırakmalısınız.
 
-Yazı tipi yapılandırma değiştirme kuralının çoğu durumda yazı tipini çözeceğini ve bu nedenle diğer tüm kuralları geçersiz kılacağını unutmayın.
+Yazı tipi yapılandırma değiştirme kuralının çoğu durumda yazı tipini çözeceğini ve dolayısıyla diğer tüm kuralları geçersiz kılacağını unutmayın.
 
 ### Örnekler
 
-Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi ikamelerinin nasıl ayarlanacağını gösterir.
+Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Varsayılan olarak, boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
+// Varsayılan olarak boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -64,7 +66,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Windows Yazı Tipleri dizininde var olmayan bir yazı tipinin yerine bir yazı tipi ayarlayın.
+// Windows Yazı Tipleri dizininde bulunan bir yazı tipini, bulunmayan bir yazı tipinin yerine ayarlayın.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -73,12 +75,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternatif olarak, ilgili klasörün yazı tipini içerdiği bir klasör yazı tipi kaynağı ekleyebiliriz.
+// Alternatif olarak, karşılık gelen klasörün yazı tipini içerdiği bir klasör yazı tipi kaynağı ekleyebiliriz.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Yazı tipi kaynaklarını sıfırlamak, bizi hala sistem yazı tipi kaynağının yanı sıra yedeklerimiz ile baş başa bırakır.
+// Yazı tipi kaynaklarını sıfırlamak bizi yine de sistem yazı tipi kaynağı ve yedeklerimizle baş başa bırakır.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

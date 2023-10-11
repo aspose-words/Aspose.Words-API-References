@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Üst EĞER alanının koşulundan bağımsız olarak birleştirme alanlarının ve birleştirme bölgelerinin birleştirilip birleştirilmediğini gösteren bir değer alır veya ayarlar.
+description: MailMerge mülk. Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştirme bölgelerinin birleştirilip birleştirilmeyeceğini belirten bir değer alır veya ayarlar.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Üst EĞER alanının koşulundan bağımsız olarak birleştirme alanlarının ve birleştirme bölgelerinin birleştirilip birleştirilmediğini gösteren bir değer alır veya ayarlar.
+Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştirme bölgelerinin birleştirilip birleştirilmeyeceğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -16,27 +16,27 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### Notlar
 
-Varsayılan değer **yanlış** .
+Varsayılan değer:`YANLIŞ` .
 
 ### Örnekler
 
-Üst EĞER alanının koşulundan bağımsız olarak alanların veya bölgelerin nasıl birleştirileceğini gösterir.
+Üst IF alanının durumuna bakılmaksızın alanların veya bölgelerin nasıl birleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// EĞER alanının içine yerleştirilmiş bir MERGEFIELD ekleyin.
-// IF alan ifadesi yanlış olduğundan, MERGEFIELD sonucunu görüntülemeyecektir.
-// MERGEFIELD, adres mektup birleştirme sırasında da herhangi bir veri almaz.
+// IF alanının içine yerleştirilmiş bir MERGEFIELD ekleyin.
+// IF alanı ifadesi yanlış olduğundan MERGEFIELD sonucunu göstermez.
+// MERGEFIELD adres-mektup birleştirme sırasında da herhangi bir veri almayacaktır.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// "UnconditionalMergeFieldsAndRegions" bayrağını "true" olarak ayarlarsak,
-// adres mektup birleştirmemiz, diğerlerinin yanı sıra MERGEFIELD gibi görüntülenmeyen alanlara veri ekleyecektir.
-// "UnconditionalMergeFieldsAndRegions" bayrağını "false" olarak ayarlarsak,
-// adres mektup birleştirmemiz, yanlış ifadeler içeren IF alanları tarafından gizlenen MERGEFIELD'lere veri eklemeyecektir.
+// "UnconditionalMergeFieldsAndRegions" flagını "true" olarak ayarlarsak,
+// adres-mektup birleştirmemiz, MERGEFIELD ve diğerleri gibi görüntülenmeyen alanlara veri ekleyecektir.
+// "UnconditionalMergeFieldsAndRegions" flagını "false" olarak ayarlarsak,
+// adres-mektup birleştirmemiz, yanlış ifadelere sahip IF alanları tarafından gizlenen MERGEFIELD'lere veri eklemeyecektir.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

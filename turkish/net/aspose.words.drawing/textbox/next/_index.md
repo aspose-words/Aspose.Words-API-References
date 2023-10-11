@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir dizi şekil içinde sonraki Metin Kutusunu temsil eden bir Metin Kutusunu döndürür veya ayarlar.
+description: TextBox mülk. Bir değeri döndürür veya ayarlarTextBox bu bir sonrakini temsil ediyorTextBox bir dizi şekil halinde.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Bir dizi şekil içinde sonraki Metin Kutusunu temsil eden bir Metin Kutusunu döndürür veya ayarlar.
+Bir değeri döndürür veya ayarlar[`TextBox`](../) bu bir sonrakini temsil ediyor[`TextBox`](../) bir dizi şekil halinde.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -44,7 +44,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunda bir bağlantı olabilir.
+// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ve textBox3 arasındaki yönlendirme bağlantısını kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

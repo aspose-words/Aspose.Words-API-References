@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Paragraf biçimlendirmesi yeni içeriğe uygulandı.
+description: FindReplaceOptions mülk. Yeni içeriğe paragraf biçimlendirmesi uygulandı.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Paragraf biçimlendirmesi yeni içeriğe uygulandı.
+Yeni içeriğe paragraf biçimlendirmesi uygulandı.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -36,10 +36,10 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Her paragrafı sağa hizalamak için "Alignment" özelliğini "ParagraphAlignment.Right" olarak ayarlayın
-// bul ve değiştir işleminin bulduğu bir eşleşmeyi içeren.
+// bulma ve değiştirme işleminin bulduğu eşleşmeyi içerir.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Paragraf sonundan hemen önceki her noktayı bir ünlem işaretiyle değiştirin.
+// Paragraf sonundan hemen önceki her noktayı ünlem işaretiyle değiştirin.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

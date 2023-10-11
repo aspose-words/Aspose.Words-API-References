@@ -1,14 +1,14 @@
 ---
 title: FieldFileSize.IsInMegabytes
 second_title: Aspose.Words for .NET API Referansı
-description: FieldFileSize mülk. Dosya boyutunun megabayt cinsinden görüntülenip görüntülenmeyeceğini ayarlar.
+description: FieldFileSize mülk. Dosya boyutunun megabayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 ---
 ## FieldFileSize.IsInMegabytes property
 
-Dosya boyutunun megabayt cinsinden görüntülenip görüntülenmeyeceğini ayarlar.
+Dosya boyutunun megabayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool IsInMegabytes { get; set; }
@@ -16,7 +16,7 @@ public bool IsInMegabytes { get; set; }
 
 ### Örnekler
 
-DOSYA BOYUTU alanına sahip bir belgenin dosya boyutunun nasıl görüntüleneceğini gösterir.
+FILESIZE alanıyla bir belgenin dosya boyutunun nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Aşağıda üç farklı ölçü birimi var
-// FILESIZE alanlarının belgenin dosya boyutunu gösterebileceği alanlar.
+// Aşağıda üç farklı ölçü birimi verilmiştir
+// hangi FILESIZE alanlarının belgenin dosya boyutunu görüntüleyebileceği.
 // 1 - Bayt:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -55,7 +55,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Microsoft Word'de düzenleme yaparken bu alanların değerlerini güncellemek için,
-// önce değişiklikleri kaydetmeli, ardından bu alanları manuel olarak güncellemeliyiz.
+// önce değişiklikleri kaydetmemiz, ardından bu alanları manuel olarak güncellememiz gerekiyor.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

@@ -16,7 +16,7 @@ public virtual DocumentBase Document { get; }
 
 ### Notlar
 
-Düğüm, yeni oluşturulmuş ve henüz ağaca eklenmemiş veya ağaçtan kaldırılmış olsa bile, her zaman bir belgeye aittir.
+Düğüm, yeni oluşturulmuş olsa ve ağaca henüz eklenmemiş olsa veya ağaçtan kaldırılmış olsa bile her zaman bir belgeye aittir.
 
 ### Örnekler
 
@@ -27,17 +27,17 @@ Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Bu paragrafı henüz herhangi bir bileşik düğüme alt öğe olarak eklemedik.
+// Bu paragrafı henüz alt öğe olarak herhangi bir bileşik düğüme eklemedik.
 Assert.IsNull(para.ParentNode);
 
-// Bir düğüm, başka bir bileşik düğümün uygun bir alt düğüm türüyse,
-// yalnızca her iki düğümün de aynı sahip belgesine sahip olması durumunda alt öğe olarak ekleyebiliriz.
+// Bir düğüm başka bir bileşik düğümün uygun bir alt düğüm tipi ise,
+// ancak her iki düğümün de aynı sahip belgesine sahip olması durumunda onu çocuk olarak ekleyebiliriz.
 // Sahip belgesi, düğümün yapıcısına ilettiğimiz belgedir.
-// Bu paragrafı belgeye eklemedik, bu nedenle belge metnini içermiyor.
+// Bu paragrafı belgeye eklemedik, dolayısıyla belge metnini içermiyor.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Belge bu paragrafa sahip olduğu için onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
+// Belge bu paragrafın sahibi olduğundan, onun stillerinden birini paragrafın içeriğine uygulayabiliriz.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Bu düğümü belgeye ekleyin ve ardından içeriğini doğrulayın.

@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
 second_title: Aspose.Words for .NET API Referansı
-description: FieldCreateDate mülk. Hicri Ay takviminin mi yoksa İbranice Ay takviminin mi kullanılacağını alır veya ayarlar.
+description: FieldCreateDate mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-Hicri Ay takviminin mi yoksa İbranice Ay takviminin mi kullanılacağını alır veya ayarlar.
+Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -16,7 +16,7 @@ public bool UseLunarCalendar { get; set; }
 
 ### Örnekler
 
-Belgenin oluşturulma tarihini/saatini görüntülemek için OLUŞTURMA TARİHİ alanının nasıl kullanılacağını gösterir.
+Belgenin oluşturulma tarihini/saatini görüntülemek için CREATEDATE alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Belgenin oluşturulduğu tarih ve saati görüntülemek için CREATEDATE alanını kullanabiliriz.
-// Aşağıda, CREATEDATE alanının tarih/saati gösterebileceği üç farklı takvim türü bulunmaktadır.
+// Belgenin oluşturulma tarihini ve saatini görüntülemek için CREATEDATE alanını kullanabiliriz.
+// Aşağıda CREATEDATE alanının tarih/saati görüntüleyebileceği üç farklı takvim türü bulunmaktadır.
 // 1 - İslami Ay Takvimi:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);

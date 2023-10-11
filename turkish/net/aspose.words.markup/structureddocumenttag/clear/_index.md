@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Clear
 second_title: Aspose.Words for .NET API Referansı
 description: StructuredDocumentTag yöntem. Bu yapılandırılmış belge etiketinin içeriğini temizler ve tanımlanmışsa bir yer tutucu görüntüler.
 type: docs
-weight: 330
+weight: 360
 url: /tr/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -16,9 +16,9 @@ public void Clear()
 
 ### Notlar
 
-Revizyonları varsa, yapılandırılmış bir belge etiketinin içeriğini temizlemek mümkün değildir.
+Yapılandırılmış belge etiketinin revizyonları varsa içeriğinin temizlenmesi mümkün değildir.
 
-Bu yapılandırılmış belge etiketi özel XML ile eşlenirse ([`XmlMapping`](../xmlmapping/) özelliği), başvurulan XML düğümü temizlenir.
+Bu yapılandırılmış belge etiketi özel XML ile eşlenirse (kullanılarak[`XmlMapping`](../xmlmapping/) özelliği), başvurulan XML düğümü temizlenir.
 
 ### Örnekler
 
@@ -27,11 +27,11 @@ Yapılandırılmış belge etiketi öğelerinin içeriğinin nasıl silineceğin
 ```csharp
 Document doc = new Document();
 
-// Düz metin yapılandırılmış bir belge etiketi oluşturun ve ardından bunu belgeye ekleyin.
+// Düz metin yapılı bir belge etiketi oluşturun ve ardından bunu belgeye ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Metin kutusu biçiminde olan bu yapılandırılmış belge etiketi zaten yer tutucu metni görüntüler.
+// Metin kutusu biçimindeki bu yapılandırılmış belge etiketi zaten yer tutucu metni görüntüler.
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
@@ -44,14 +44,14 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// Almak için yapılandırılmış belge etiketinin "Yer TutucuAdı" özelliğini yapı taşımızın adına ayarlayın
-// orijinal varsayılan metin yerine yapı taşının içeriğini görüntülemek için yapılandırılmış belge etiketi.
+// Yapılandırılmış belge etiketinin "PlaceholderName" özelliğini yapı taşımızın adına ayarlayın.
+// orijinal varsayılan metnin yerine yapı taşının içeriğini görüntülemek için yapılandırılmış belge etiketi.
 tag.PlaceholderName = "My placeholder";
 
 Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// Yapılandırılmış belge etiketinin metnini düzenleyin ve yer tutucu metnini gizleyin.
+// Yapılandırılmış belge etiketinin metnini düzenleyin ve yer tutucu metni gizleyin.
 Run run = (Run)tag.GetChild(NodeType.Run, 0, true);
 run.Text = "New text.";
 tag.IsShowingPlaceholderText = false;

@@ -34,8 +34,8 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Bir alan koleksiyonundan alanları kaldırmanın dört yolu aşağıdadır.
-// 1 - Kendisini kaldırmak için bir alan alın:
+// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
+// 1 - Kendini kaldıracak bir alan edinin:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları bir kerede kaldırın:
+// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,6 +56,7 @@ Assert.AreEqual(0, fields.Count);
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,8 +73,8 @@ Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Alan koleksiyonunu yineleyin ve içeriği yazdırın ve yazın
-    // özel bir ziyaretçi uygulaması kullanan her alanın.
+    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri yazdırıp yazın
+    // özel bir ziyaretçi uygulaması kullanarak her alanın.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -94,9 +95,10 @@ Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Alan bilgilerini yazdıran belge ziyaretçisi uygulaması.
+/// Alan bilgilerini yazdıran ziyaretçi uygulamasını belgeleyin.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -106,7 +108,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -126,7 +128,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -136,7 +138,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

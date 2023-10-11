@@ -24,9 +24,9 @@ Yeni oluşturulan liste.
 
 ### Notlar
 
-Kaynak listesi herhangi bir belgeden olabilir. Kaynak listesi farklı bir belgeye aitse, listenin bir kopyası oluşturulur ve mevcut belgeye eklenir.
+Kaynak listesi herhangi bir belgeden olabilir. Kaynak liste farklı bir belgeye aitse, listenin bir kopyası oluşturularak mevcut belgeye eklenir.
 
-Kaynak liste bir liste stiline referans veya bir liste stili tanımıysa, yeni oluşturulan liste orijinal liste stiliyle ilgili değildir.
+Kaynak liste bir liste stiline referans veya tanım ise, yeni oluşturulan liste orijinal liste stiliyle ilişkili değildir.
 
 ### Örnekler
 
@@ -64,21 +64,21 @@ private static void AddListSample(DocumentBuilder builder, List list)
 }
 ```
 
-Bir listeyi kopyalayarak bir listede numaralandırmanın nasıl yeniden başlatılacağını gösterir.
+Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Listemizi bazı paragraflara uygula.
+// Listemizi bazı paragraflara uygulayın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");

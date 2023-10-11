@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftaki tüm satırlar aynı sayfada kalacaksa doğrudur.
+description: ParagraphFormat mülk. Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur.
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-Paragraftaki tüm satırlar aynı sayfada kalacaksa doğrudur.
+Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur.
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
 // ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
 builder.Writeln("Hello world!");
 

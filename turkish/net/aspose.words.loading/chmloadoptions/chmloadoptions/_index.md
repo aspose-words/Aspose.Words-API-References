@@ -1,14 +1,14 @@
 ---
 title: ChmLoadOptions.ChmLoadOptions
 second_title: Aspose.Words for .NET API Referansı
-description: ChmLoadOptions inşaatçı. Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+description: ChmLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/chmloadoptions/chmloadoptions/
 ---
 ## ChmLoadOptions constructor
 
-Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 
 ```csharp
 public ChmLoadOptions()

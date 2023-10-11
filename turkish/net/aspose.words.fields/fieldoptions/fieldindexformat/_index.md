@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldIndexFormat
 second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alır veya ayarlarFieldIndexFormat için biçimlendirmeyi temsil edenFieldIndexbelgedeki alanlar.
+description: FieldOptions mülk. Bir değeri alır veya ayarlarFieldIndexFormat bu biçimlendirmeyi temsil ederFieldIndex belgedeki alanlar.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
 
-Alır veya ayarlar`FieldIndexFormat` için biçimlendirmeyi temsil eden[`FieldIndex`](../../fieldindex/)belgedeki alanlar.
+Bir değeri alır veya ayarlar`FieldIndexFormat` bu, biçimlendirmeyi temsil eder[`FieldIndex`](../../fieldindex/) belgedeki alanlar.
 
 ```csharp
 public FieldIndexFormat FieldIndexFormat { get; set; }

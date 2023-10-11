@@ -16,23 +16,23 @@ public DmlRenderingMode DmlRenderingMode { get; set; }
 
 ### Notlar
 
-Varsayılan değerFallback .
+Varsayılan değer:Fallback .
 
-Bu özellik, belge sabit sayfa biçimlerine dışa aktarıldığında kullanılır.
+Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
 
 ### Örnekler
 
-PDF'ye kaydederken yedek şekillerin nasıl oluşturulacağını gösterir.
+PDF'ye kaydederken geri dönüş şekillerinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "DmlRenderingMode" özelliğini "DmlRenderingMode.Fallback" olarak ayarlayın
-// DML şekillerini yedek şekilleriyle değiştirmek için.
+// DML şekillerini geri dönüş şekilleriyle değiştirmek için.
 // "DmlRenderingMode" özelliğini "DmlRenderingMode.DrawingML" olarak ayarlayın
 // DML şekillerini kendileri oluşturmak için.
 options.DmlRenderingMode = dmlRenderingMode;
@@ -40,20 +40,20 @@ options.DmlRenderingMode = dmlRenderingMode;
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
-Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
+Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin görüntü oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Tüm DrawingML efektlerini atmak için "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.None" olarak ayarlayın.
 // "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Simplified" olarak ayarlayın
-// DrawingML efektlerinin basitleştirilmiş bir sürümünü oluşturmak için.
-// "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Fine" olarak ayarlayın.
-// DrawingML efektlerini daha doğru bir şekilde ve ayrıca daha fazla işlem maliyetiyle işleyin.
+// DrawingML efektlerinin basitleştirilmiş bir versiyonunu oluşturmak için.
+// "DmlEffectsRenderingMode" özelliğini "DmlEffectsRenderingMode.Fine" olarak ayarlayın
+// DrawingML efektlerini daha doğru ve aynı zamanda daha fazla işlem maliyetiyle işleyin.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

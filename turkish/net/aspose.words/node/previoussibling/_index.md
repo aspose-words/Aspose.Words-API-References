@@ -16,11 +16,11 @@ public Node PreviousSibling { get; }
 
 ### Notlar
 
-Önceki düğüm yoksa, bir boş değer döndürülür.
+Önceki düğüm yoksa, bir`hükümsüz` döndürülür.
 
 ### Örnekler
 
-Belgedeki son bölümden önceki bir bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
+Belgedeki son bölümden önceki bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Başka bir bölümle kardeş ilişkisine göre bir bölümü kaldırın.
+// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldırın.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Kaldırdığımız bölüm ilk bölümdü ve belgeyi sadece ikinci bölümle bıraktı.
+// Kaldırdığımız bölüm ilk bölümdü, belgede yalnızca ikinci bölüm kaldı.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

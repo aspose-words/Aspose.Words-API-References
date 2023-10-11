@@ -1,18 +1,18 @@
 ---
 title: DigitalSignatureUtil.Sign
 second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureUtil yöntem. Verilenleri kullanarak kaynak belgeyi imzalarCertificateHolder veSignOptions dijital imzalı ve imzalı belgeyi hedef akışa yazar.
+description: DigitalSignatureUtil yöntem. Verilenleri kullanarak kaynak belgeyi imzalarCertificateHolder VeSignOptions dijital imzalı ve imzalı belgeyi hedef akışa yazar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) ve[`SignOptions`](../../signoptions/) dijital imzalı ve imzalı belgeyi hedef akışa yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) Ve[`SignOptions`](../../signoptions/) dijital imzalı ve imzalı belgeyi hedef akışa yazar.
 
-Belge ya olmalıdırDoc veyaDocx.
+Belge şu şekilde olmalıdır:Doc veyaDocx.
 
-**Çıktı akışın başına yazılacak ve akış boyutu içerik uzunluğu ile güncellenecektir.**
+**Çıktı akışın başlangıcına yazılacak ve akış boyutu içerik uzunluğuyla güncellenecektir.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -22,9 +22,9 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcStream | Stream | İmzalanacak belgeyi içeren akış. |
-| dstStream | Stream | Belgenin imzalandığı akışa yazılacak. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçenekleriyle nesne. |
+| dstStream | Stream | İmzalanan belgenin yazılacağı akış. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosyayı imzalamak için kullanılan sertifikaya sahip nesne. Tutucudaki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçeneklerine sahip nesne. |
 
 ### Örnekler
 
@@ -41,8 +41,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Dosya akışı yoluyla yerel dosya sisteminden imzasız bir belge alın,
-// ardından çıktı dosyası akışının dosya adıyla belirlenen imzalı bir kopyasını oluşturun.
+// İmzasız bir belgeyi dosya akışı aracılığıyla yerel dosya sisteminden alın,
+// ardından çıktı dosyası akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturun.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -64,9 +64,9 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) ve[`SignOptions`](../../signoptions/) dijital imzalı ve imzalı belgeyi hedef dosyaya yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) Ve[`SignOptions`](../../signoptions/) dijital imzayla imzalanır ve imzalı belgeyi hedef dosyaya yazar.
 
-Belge ya olmalıdırDoc veyaDocx.
+Belge şu şekilde olmalıdır:Doc veyaDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -77,15 +77,16 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | İmzalanacak belgenin dosya adı. |
 | dstFileName | String | İmzalı belge çıktısının dosya adı. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçenekleriyle nesne. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosyayı imzalamak için kullanılan sertifikaya sahip nesne. Tutucudaki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçeneklerine sahip nesne. |
 
 ### Örnekler
 
-Belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
+Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -104,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanmış bir kaynak belgenin bir kopyasını oluşturur.
+        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanan kaynak belgenin bir kopyasını oluşturur.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -112,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Bir imza satırı, belgede imzaladığımız bir imzayı gösterecek bir nesne yapılandırın ve ekleyin.
+            // Belgede, imzaladığımız imzayı görüntüleyecek bir nesne olan bir imza satırı yapılandırın ve ekleyin.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -122,7 +123,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // İlk olarak belgemizin imzasız bir versiyonunu kaydedeceğiz.
+            // Öncelikle belgemizin imzasız bir versiyonunu kaydedeceğiz.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -133,13 +134,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Yukarıda kaydettiğimiz imzasız belgenin üzerine sertifika kullanılarak imzalanmış bir sürüm yazın.
+            // Yukarıda kaydettiğimiz imzasız belgenin üzerine, sertifika kullanılarak imzalanmış bir sürüm yazın.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// Bir görüntüyü bir bayt dizisine dönüştürür.
+        /// Bir görüntüyü bayt dizisine dönüştürür.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {
@@ -204,11 +205,11 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/)dijital imza ile ve imzalı belgeyi hedef akışa yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/)dijital imza ile imzalanır ve imzalı belgeyi hedef akışa yazar.
 
-Belge ya olmalıdırDoc veyaDocx.
+Belge şu şekilde olmalıdır:Doc veyaDocx.
 
-**Çıktı akışın başına yazılacak ve akış boyutu içerik uzunluğu ile güncellenecektir.**
+**Çıktı akışın başlangıcına yazılacak ve akış boyutu içerik uzunluğuyla güncellenecektir.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
@@ -217,22 +218,22 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcStream | Stream | İmzalanacak belgeyi içeren akış. |
-| dstStream | Stream | Belgenin imzalandığı akışa yazılacak. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| dstStream | Stream | İmzalanan belgenin yazılacağı akış. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosyayı imzalamak için kullanılan sertifikaya sahip nesne. Tutucudaki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
 
 ### Örnekler
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
@@ -271,9 +272,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) dijital imza ile ve imzalı belgeyi hedef dosyaya yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) dijital imza ile imzalanır ve imzalı belgeyi hedef dosyaya yazar.
 
-Belge ya olmalıdırDoc veyaDocx.
+Belge şu şekilde olmalıdır:Doc veyaDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
@@ -283,21 +284,21 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | İmzalanacak belgenin dosya adı. |
 | dstFileName | String | İmzalı belge çıktısının dosya adı. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosyayı imzalamak için kullanılan sertifikaya sahip nesne. Tutucudaki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
 
 ### Örnekler
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 

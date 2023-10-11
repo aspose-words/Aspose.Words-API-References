@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfDocument
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf belgenin son bölümündeki son paragrafsa doğrudur.
+description: Paragraph mülk. Bu paragraf belgenin son bölümünün son paragrafı ise doğrudur.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-Bu paragraf belgenin son bölümündeki son paragrafsa doğrudur.
+Bu paragraf belgenin son bölümünün son paragrafı ise doğrudur.
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
 // ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
 builder.Writeln("Hello world!");
 

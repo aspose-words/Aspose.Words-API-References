@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SectionCollection sınıf. Bir koleksiyon Bölüm belgedeki nesneler.
+description: Aspose.Words.SectionCollection sınıf. Bir koleksiyonSection belgedeki nesneler.
 type: docs
-weight: 5450
+weight: 5740
 url: /tr/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-Bir koleksiyon **Bölüm** belgedeki nesneler.
+Bir koleksiyon[`Section`](../section/) belgedeki nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bölümlerle Çalışmak](https://docs.aspose.com/words/net/working-with-sections/) dokümantasyon makalesi.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -26,9 +28,9 @@ public class SectionCollection : NodeCollection
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
@@ -37,13 +39,13 @@ public class SectionCollection : NodeCollection
 
 ### Notlar
 
-Bir Microsoft Word belgesi birden çok bölüm içerebilir. Microsoft Word'de bir bölüm oluşturmak için, Ekle/Break komutunu seçin ve bir kesme türü seçin. Ara, bölümün yeni bir sayfada mı yoksa aynı sayfada mı start olacağını belirtir.
+Bir Microsoft Word belgesi birden fazla bölüm içerebilir. Microsoft Word'de bir bölüm oluşturmak için Ekle/Bırak komutunu seçin ve bir kesme türü seçin. Ara, bölümün ile yeni bir sayfada mı yoksa aynı sayfada mı başlayacağını belirtir.
 
-Bölümleri programlı olarak ekleme ve kaldırma, adres mektup birleştirme sırasında üretilen belgelerini özelleştirmek için kullanılabilir. Bir belgenin bazı ölçütlere bağlı olarak farklı içeriğe veya içeriğinin bölümlerine sahip olması gerekiyorsa, birden çok bölümü içeren bir "ana" belge oluşturabilir ve adres mektup birleştirmeden önce veya sonra bazı bölümleri silebilirsiniz.
+Adres-mektup birleştirme sırasında üretilen belgelerini özelleştirmek için programlı olarak bölüm ekleme ve kaldırma kullanılabilir. Bir belgenin bazı kriterlere bağlı olarak farklı içeriğe veya the içeriğinin bölümlerine sahip olması gerekiyorsa, o zaman birden fazla bölüm içeren bir "ana" belge oluşturabilir ve adres-mektup birleştirmeden önce veya sonra bazı bölümleri silebilirsiniz.
 
 ### Örnekler
 
-Bir belgeye bölümlerin nasıl ekleneceğini ve kaldırılacağını gösterir.
+Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +57,7 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// İlk bölümü belgeden silin.
+// Dokümanın ilk bölümünü silin.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());

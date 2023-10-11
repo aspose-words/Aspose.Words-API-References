@@ -3,7 +3,7 @@ title: Enum CellVerticalAlignment
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.CellVerticalAlignment Sıralama. Bir tablo hücresi içindeki metnin dikey hizalamasını belirtir.
 type: docs
-weight: 5980
+weight: 6280
 url: /tr/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -18,9 +18,9 @@ public enum CellVerticalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Top | `0` | Metin, hücrenin üst kısmına hizalanır. |
+| Top | `0` | Metin hücrenin üstüne hizalanır. |
 | Center | `1` | Metin hücrenin ortasına hizalanır. |
-| Bottom | `2` | Metin, hücrenin altına hizalanır. |
+| Bottom | `2` | Metin hücrenin altına hizalanır. |
 
 ### Örnekler
 
@@ -38,8 +38,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken, belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecinin içinde bulunduğu geçerli satıra/hücreye ve bunları oluştururken yeni satırlara/hücrelere.
+// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 

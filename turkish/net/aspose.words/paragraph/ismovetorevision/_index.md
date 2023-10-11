@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsMoveToRevision
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. İade doğru bu nesne değişiklik izleme etkinken Microsoft Wordde taşındıysa yerleştirildiyse.
+description: Paragraph mülk. İadelerdoğru bu nesne Microsoft Wordde değişiklik izleme etkinken taşınmışsa eklenmişse.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/paragraph/ismovetorevision/
 ---
 ## Paragraph.IsMoveToRevision property
 
-İade **doğru** bu nesne, değişiklik izleme etkinken Microsoft Word'de taşındıysa (yerleştirildiyse).
+İadeler`doğru` bu nesne Microsoft Word'de değişiklik izleme etkinken taşınmışsa (eklenmişse).
 
 ```csharp
 public bool IsMoveToRevision { get; }
@@ -16,32 +16,32 @@ public bool IsMoveToRevision { get; }
 
 ### Örnekler
 
-Bir paragrafın taşıma revizyonu olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir paragrafın taşıma düzeltmesi olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Bu belge, imleçle metni vurguladığımızda görünen "Taşı" revizyonlarını içerir,
-// ve sonra başka bir konuma taşımak için sürükleyin
-// Microsoft Word'de revizyonları "İnceleme" ile takip ederken -> "Parça değişiklikleri".
+// Bu belge, metni imleçle vurguladığımızda görünen "Taşı" revizyonlarını içerir,
+// ve ardından başka bir konuma taşımak için sürükleyin
+// "İnceleme" aracılığıyla Microsoft Word'deki revizyonları izlerken -> "Parça değişiklikleri".
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Revizyonları taşıma, "Taşı" ve "Taşı" revizyonlarından oluşur. 
-// Bu revizyonlar, belgede kabul edebileceğimiz veya reddedebileceğimiz olası değişikliklerdir.
-// Bir taşıma revizyonunu kabul etmeden/reddetmeden önce, belge
+ // Revizyonları taşıma, "Şuraya Taşı" ve "Şuraya Taşı" revizyon çiftlerinden oluşur.
+// Bu revizyonlar, belgede kabul edebileceğimiz veya reddedebileceğimiz potansiyel değişikliklerdir.
+// Bir taşıma revizyonunu kabul etmeden/reddetmeden önce belge
 // metnin hem kalkış hem de varış yerlerini takip etmelidir.
-// İkinci ve dördüncü paragraf böyle bir revizyonu tanımlar ve bu nedenle her ikisi de aynı içeriğe sahiptir.
+// İkinci ve dördüncü paragraf böyle bir revizyonu tanımlar ve dolayısıyla her ikisi de aynı içeriğe sahiptir.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
 // "Taşı" revizyonu, metni sürüklediğimiz paragraftır.
-// Revizyonu kabul edersek bu paragraf kaybolacak,
-// ve diğeri kalacak ve artık bir revizyon olmayacak.
+// Eğer revizyonu kabul edersek bu paragraf kaybolacak,
+// ve diğeri kalacak ve artık revizyon olmayacak.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
 // "Taşı" revizyonu, metni sürüklediğimiz paragraftır.
-// Revizyonu reddedersek, bunun yerine bu paragraf kaybolacak ve diğeri kalacaktır.
+// Eğer revizyonu reddedersek, bu paragraf kaybolacak ve diğeri kalacaktır.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```
 

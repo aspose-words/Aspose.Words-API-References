@@ -1,14 +1,14 @@
 ---
 title: ImageData.SetImage
 second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Şeklin gösterdiği görüntüyü ayarlar.
+description: ImageData yöntem. Şeklin görüntüleyeceği görüntüyü ayarlar.
 type: docs
-weight: 200
+weight: 210
 url: /tr/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(Image) {#setimage}
 
-Şeklin gösterdiği görüntüyü ayarlar.
+Şeklin görüntüleyeceği görüntüyü ayarlar.
 
 ```csharp
 public void SetImage(Image image)
@@ -20,16 +20,16 @@ public void SetImage(Image image)
 
 ### Örnekler
 
-Bir belgede yerel dosya sisteminden görüntülerin nasıl görüntüleneceğini gösterir.
+Yerel dosya sistemindeki görüntülerin bir belgede nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bir belgede bir resmi görüntülemek için bir şekil oluşturmamız gerekecek
-// bir görüntü içerecek ve ardından onu belgenin gövdesine ekleyecektir.
+// Bir belgedeki görüntüyü görüntülemek için bir şekil oluşturmamız gerekecek
+// bir resim içerecek ve ardından onu belgenin gövdesine ekleyecektir.
 Shape imgShape;
 
-// Aşağıda, yerel dosya sistemindeki bir dosyadan görüntü almanın iki yolu bulunmaktadır.
+// Aşağıda yerel dosya sistemindeki bir dosyadan görüntü almanın iki yolu verilmiştir.
 // 1 - Bir görüntü dosyasından bir görüntü nesnesi oluşturun:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(Stream) {#setimage_1}
 
-Şeklin gösterdiği görüntüyü ayarlar.
+Şeklin görüntüleyeceği görüntüyü ayarlar.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -72,16 +72,16 @@ public void SetImage(Stream stream)
 
 ### Örnekler
 
-Bir belgede yerel dosya sisteminden görüntülerin nasıl görüntüleneceğini gösterir.
+Yerel dosya sistemindeki görüntülerin bir belgede nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bir belgede bir resmi görüntülemek için bir şekil oluşturmamız gerekecek
-// bir görüntü içerecek ve ardından onu belgenin gövdesine ekleyecektir.
+// Bir belgedeki görüntüyü görüntülemek için bir şekil oluşturmamız gerekecek
+// bir resim içerecek ve ardından onu belgenin gövdesine ekleyecektir.
 Shape imgShape;
 
-// Aşağıda, yerel dosya sistemindeki bir dosyadan görüntü almanın iki yolu bulunmaktadır.
+// Aşağıda yerel dosya sistemindeki bir dosyadan görüntü almanın iki yolu verilmiştir.
 // 1 - Bir görüntü dosyasından bir görüntü nesnesi oluşturun:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(string) {#setimage_2}
 
-Şeklin gösterdiği görüntüyü ayarlar.
+Şeklin görüntüleyeceği görüntüyü ayarlar.
 
 ```csharp
 public void SetImage(string fileName)
@@ -124,7 +124,7 @@ public void SetImage(string fileName)
 
 ### Örnekler
 
-Bir belgeye bağlantılı bir görüntünün nasıl ekleneceğini gösterir.
+Bağlantılı bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -132,7 +132,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Aşağıda, bir şekli gösterebilmesi için bir şekle bir resim uygulamanın iki yolu verilmiştir.
+// Aşağıda, bir şekli görüntüleyebilmesi için bir şekle uygulamanın iki yolu verilmiştir.
 // 1 - Resmi içerecek şekli ayarlayın.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
@@ -142,7 +142,7 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Formda sakladığımız her resim belgemizin boyutunu artıracaktır.
+// Şekilde sakladığımız her görsel belgemizin boyutunu artıracaktır.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
@@ -155,9 +155,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Resimlere bağlantı vermek yerden tasarruf sağlar ve daha küçük bir belgeyle sonuçlanır.
-// Ancak, belge yalnızca görüntüyü doğru olarak görüntüleyebilir.
-// görüntü dosyası, şeklin "SourceFullName" özelliğinin işaret ettiği konumda bulunur.
+// Resimlere bağlantı verilmesi yerden tasarruf sağlar ve belgenin daha küçük olmasını sağlar.
+// Ancak belge görüntüyü yalnızca doğru şekilde görüntüleyebilir
+// görüntü dosyası, şeklin "SourceFullName" özelliğinin işaret ettiği konumda mevcut.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

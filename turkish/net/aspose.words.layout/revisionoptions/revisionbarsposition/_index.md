@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
 ## RevisionOptions.RevisionBarsPosition property
 
-Revizyon çubuklarının oluşturma konumunu alır veya ayarlar. Varsayılan değerOutside .
+Revizyon çubuklarının oluşturma konumunu alır veya ayarlar. Varsayılan değer:Outside .
 
 ```csharp
 public HorizontalAlignment RevisionBarsPosition { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### Notlar
 
-DeğerleriCenter veInside izin verilmez ve neden olurArgumentOutOfRangeException.
+DeğerleriCenter VeInside 'ye izin verilmiyor ve neden olacakArgumentOutOfRangeException.
 
 ### Ayrıca bakınız
 

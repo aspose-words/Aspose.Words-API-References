@@ -1,14 +1,16 @@
 ---
 title: Class ChartLegend
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartLegend sınıf. Grafik gösterge özelliklerini temsil eder.
+description: Aspose.Words.Drawing.Charts.ChartLegend sınıf. Grafik açıklama özelliklerini temsil eder.
 type: docs
-weight: 680
+weight: 720
 url: /tr/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
-Grafik gösterge özelliklerini temsil eder.
+Grafik açıklama özelliklerini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public class ChartLegend
@@ -18,9 +20,9 @@ public class ChartLegend
 
 | İsim | Tanım |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Üst grafiğin tüm serileri ve eğilim çizgileri için gösterge girdilerinin bir koleksiyonunu döndürür. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Diğer grafik öğelerinin lejandla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer false'tur. |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Göstergenin bir grafikteki konumunu belirtir. Varsayılan değerRight . |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Göstergenin grafikteki konumunu belirtir. Varsayılan değer:Right . |
 
 ### Örnekler
 
@@ -38,11 +40,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin lejandını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşıyın.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerine lejandla örtüşmelerine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

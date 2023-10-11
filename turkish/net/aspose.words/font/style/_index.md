@@ -22,7 +22,7 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Özel bir stil ekleyin ve bunu bir belge oluşturucu kullanılarak oluşturulan metne uygulayın.
+// Özel bir stil ekleyin ve bunu belge oluşturucu kullanılarak oluşturulan metne uygulayın.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Her çalıştırmayı yineleyin ve her özel stile bir çift alt çizgi ekleyin.
+// Her çalıştırmayı yineleyin ve her özel stile çift alt çizgi ekleyin.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

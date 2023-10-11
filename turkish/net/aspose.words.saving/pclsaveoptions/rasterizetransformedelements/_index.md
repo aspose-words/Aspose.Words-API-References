@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.RasterizeTransformedElements
 second_title: Aspose.Words for .NET API Referansı
-description: PclSaveOptions mülk. Karmaşık dönüştürülmüş öğelerin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılandoğru .
+description: PclSaveOptions mülk. Karmaşık dönüştürülmüş elementlerin nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılandoğru .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-Karmaşık dönüştürülmüş öğelerin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılan`doğru` .
+Karmaşık dönüştürülmüş elementlerin 'nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılan:`doğru` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -16,7 +16,7 @@ public bool RasterizeTransformedElements { get; set; }
 
 ### Notlar
 
-PCL, Aspose Words tarafından kullanılan bazı dönüştürme türlerini desteklemez. Örneğin döndürülmüş, eğik görüntüler ve doku fırçaları. Bu tür öğeleri düzgün bir şekilde oluşturmak için rasterleştirme işlemi kullanılır, yani görüntüye kaydetme ve kırpma. Bu işlem ek zaman ve bellek alabilir. Bayrak olarak ayarlanırsa`yanlış` çıktıdaki bazı içerikler kaynak belgeyle karşılaştırıldığında farklı olabilir.
+PCL, Aspose Words tarafından kullanılan bazı dönüşüm türlerini desteklemez. Örneğin döndürülmüş, çarpık görüntüler ve doku fırçaları. Bu tür elemanların düzgün bir şekilde işlenmesi için rasterleştirme işlemi kullanılır, yani görüntüye kaydetme ve kırpma. Bu işlem ek zaman ve bellek alabilir. Eğer bayrak şu şekilde ayarlanırsa:`YANLIŞ` , çıktıdaki bazı içerikler kaynak belgeyle karşılaştırıldığında farklı olabilir.
 
 ### Örnekler
 

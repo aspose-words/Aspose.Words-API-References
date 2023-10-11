@@ -16,11 +16,11 @@ public bool AnchorLocked { get; set; }
 
 ### Notlar
 
-Varsayılan değer **yanlış**.
+Varsayılan değer:`YANLIŞ`.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-Bu özellik, Microsoft Word'deki şeklin çapasının davranışını etkiler. Bağlantı kilitli olmadığında, şekli Microsoft Word'de hareket ettirmek şeklin çapasını da taşıyabilir.
+Bu özellik, şeklin bağlantısının Microsoft Word'deki davranışını etkiler. Bağlantı kilitli olmadığında, şeklin Microsoft Word'de taşınması, şeklin bağlantısının da taşınması olabilir.
 
 ### Örnekler
 
@@ -39,14 +39,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Şeklin çapasını önlemek için "AnchorLocked" özelliğini "true" olarak ayarlayın
+// Şeklin çapalanmasını önlemek için "AnchorLocked" özelliğini "true" olarak ayarlayın
 // Microsoft Word'de şekli taşırken hareket etmekten.
 // Şeklin herhangi bir hareketine izin vermek için "AnchorLocked" özelliğini "false" olarak ayarlayın
-// ayrıca çapasını şeklin yakın olduğu diğer paragraflara taşımak için.
+// ayrıca çapasını şeklin yakın olduğu herhangi bir paragrafa taşımak için.
 shape.AnchorLocked = anchorLocked;
 
 // Şeklin solunda görünür bir bağlantı sembolü yoksa,
-// "Seçenekler" -> aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek "Ekran" -> "Nesne Çapaları".
+// "Seçenekler" aracılığıyla görünür bağlantıları etkinleştirmemiz gerekecek -> "Ekran" -> "Nesne Bağlantıları".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

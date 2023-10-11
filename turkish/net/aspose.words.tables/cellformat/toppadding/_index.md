@@ -1,14 +1,14 @@
 ---
 title: CellFormat.TopPadding
 second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücre içeriğinin üzerine eklenecek boşluk miktarını puan olarak döndürür veya ayarlar.
+description: CellFormat mülk. Hücre içeriğinin üzerine eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
 
-Hücre içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar.
+Hücre içeriğinin üzerine eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -16,7 +16,7 @@ public double TopPadding { get; set; }
 
 ### Örnekler
 
-Belge oluşturucu ile hücrelerin nasıl biçimlendirileceğini gösterir.
+Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir hücre ekleyin ve ardından hücre metni doldurma seçeneklerini yapılandırın.
-// Oluşturucu bu ayarları geçerli hücresine uygular ve daha sonra yeni hücreler oluşturur.
+// İkinci bir hücre ekleyin ve ardından hücre metni dolgu seçeneklerini yapılandırın.
+// Oluşturucu bu ayarları mevcut hücresine uygulayacak ve daha sonra oluşturulacak yeni hücrelere uygulayacaktır.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -41,7 +41,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// İlk hücre, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri tutuyor.
+// İlk hücre dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// İlk hücre, komşu hücrenin boyutuna uyacak şekilde çıktı belgesinde büyümeye devam edecektir.
+// İlk hücre, çıktı belgesinde komşu hücrenin boyutuna uyacak şekilde büyümeye devam edecek.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

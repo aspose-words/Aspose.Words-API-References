@@ -1,14 +1,14 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
 second_title: Aspose.Words for .NET API Referansı
-description: RtfSaveOptions mülk. Doğru olduğunda tüm resimler WMF olarak kaydedilecektir.
+description: RtfSaveOptions mülk. Ne zamandoğru tüm resimler WMF. olarak kaydedilecek
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-Doğru olduğunda, tüm resimler WMF olarak kaydedilecektir.
+Ne zaman`doğru` tüm resimler WMF. olarak kaydedilecek
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }
@@ -16,11 +16,11 @@ public bool SaveImagesAsWmf { get; set; }
 
 ### Notlar
 
-Bu seçenek, WordPad uyarı mesajlarından kaçınmanıza yardımcı olabilir.
+Bu seçenek WordPad uyarı mesajlarının engellenmesine yardımcı olabilir.
 
 ### Örnekler
 
-Belgeyi RTF olarak kaydederken bir belgedeki tüm görüntülerin nasıl Windows Meta Dosyası biçimine dönüştürüleceğini gösterir.
+Belgeyi RTF olarak kaydettiğimizde, belgedeki tüm görüntülerin Windows Meta Dosyası biçimine nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ImageType.Png, imageShape.ImageData.ImageType);
 
-// Bir RTF'ye kaydetme şeklimizi değiştirmek için belgenin "Kaydet" yöntemine geçmek için bir "RtfSaveOptions" nesnesi oluşturun.
+// Belgeyi bir RTF'ye kaydetme şeklimizi değiştirmek için belgenin "Kaydet" yöntemine iletilecek bir "RtfSaveOptions" nesnesi oluşturun.
 RtfSaveOptions rtfSaveOptions = new RtfSaveOptions();
 
 // Belgedeki tüm görüntüleri RTF'ye kaydederken WMF'ye dönüştürmek için "SaveImagesAsWmf" özelliğini "true" olarak ayarlayın.

@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontAscii
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Latin metni için kullanılan tema yazı tipini alır veya ayarlar 0 sıfır ile 127 arasındaki karakter kodlu karakterler  bu Yazı Tipi nesnesiyle ilişkilendirilmiş uygulanan yazı tipi şemasında.
+description: Font mülk. Latince metin için kullanılan tema yazı tipini 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasındaFont nesne.
 type: docs
 weight: 480
 url: /tr/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Latin metni için kullanılan tema yazı tipini alır veya ayarlar (0 (sıfır) ile 127 arasındaki karakter kodlu karakterler) , bu Yazı Tipi nesnesiyle ilişkilendirilmiş uygulanan yazı tipi şemasında.
+Latince metin için kullanılan tema yazı tipini (0 (sıfır) ile 127 arasında karakter kodlarına sahip karakterler) alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasında[`Font`](../) nesne.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Tema dışı yazı tipi/renk adları ayarlayarak:
+// 2 - Tema dışı yazı tipi/renk adlarını ayarlayarak:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

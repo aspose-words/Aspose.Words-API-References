@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu bir grup şekliyse true değerini döndürür.
+description: ShapeBase mülk. İadelerdoğru eğer bu bir grup şekli ise.
 type: docs
-weight: 250
+weight: 260
 url: /tr/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Bu bir grup şekliyse true değerini döndürür.
+İadeler`doğru` eğer bu bir grup şekli ise.
 
 ```csharp
 public bool IsGroup { get; }
@@ -16,7 +16,7 @@ public bool IsGroup { get; }
 
 ### Örnekler
 
-Bir grup şeklin nasıl oluşturulacağını ve içeriğini bir belge ziyaretçisi kullanarak nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -24,8 +24,8 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "NonPrimitive" şekiller oluşturmanız gerekiyorsa,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
     // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen bir şekil grubunun içeriğini konsola yazdırır.
+/// Ziyaret edilen şekil grubunun içeriğini konsola yazdırır.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: Font.Position
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Taban çizgisine göre metnin konumunu nokta olarak alır veya ayarlar. Pozitif bir sayı metni yükseltir ve negatif bir sayı onu düşürür.
+description: Font mülk. Metnin konumunu nokta cinsinden taban çizgisine göre alır veya ayarlar. Pozitif bir sayı metni yükseltir negatif bir sayı ise alçaltır.
 type: docs
 weight: 300
 url: /tr/net/aspose.words/font/position/
 ---
 ## Font.Position property
 
-Taban çizgisine göre metnin konumunu (nokta olarak) alır veya ayarlar. Pozitif bir sayı metni yükseltir ve negatif bir sayı onu düşürür.
+Metnin konumunu (nokta cinsinden) taban çizgisine göre alır veya ayarlar. Pozitif bir sayı metni yükseltir, negatif bir sayı ise alçaltır.
 
 ```csharp
 public double Position { get; set; }
@@ -20,14 +20,14 @@ Konumunu dengelemek için metnin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Bu metin akışını taban çizgisinin 5 puan üzerine yükseltin.
+// Bu metin dizisini taban çizgisinin 5 puan üstüne yükseltin.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Bu metin akışını taban çizgisinin 10 puan altına indirin.
+// Bu metin dizisini taban çizgisinin 10 puan altına indirin.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);

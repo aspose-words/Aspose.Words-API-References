@@ -1,14 +1,14 @@
 ---
 title: Enum MsWordVersion
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MsWordVersion Sıralama. Aspose.Wodsun MS Word sürümüne özel uygulama davranışını taklit etmesine izin verir.
+description: Aspose.Words.Settings.MsWordVersion Sıralama. Aspose.Wodsun MS Word sürümüne özel uygulama davranışını taklit etmesini sağlar.
 type: docs
-weight: 5560
+weight: 5860
 url: /tr/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
 
-Aspose.Wods'un MS Word sürümüne özel uygulama davranışını taklit etmesine izin verir.
+Aspose.Wods'un MS Word sürümüne özel uygulama davranışını taklit etmesini sağlar.
 
 ```csharp
 public enum MsWordVersion
@@ -18,33 +18,33 @@ public enum MsWordVersion
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Word2000 | `0` | Aspose.Words davranışını MS Word 2000 sürümüne uyacak şekilde optimize edin. |
+| Word2000 | `0` | Aspose.Words davranışını MS Word 2000 sürümüyle eşleşecek şekilde optimize edin. |
 | Word2002 | `1` | Aspose.Words davranışını MS Word 2002 sürümüyle eşleşecek şekilde optimize edin. |
-| Word2003 | `2` | Aspose.Words davranışını MS Word 2003 sürümüne uyacak şekilde optimize edin. |
-| Word2007 | `3` | Aspose.Words davranışını MS Word 2007 sürümüne uyacak şekilde optimize edin. |
-| Word2010 | `4` | Aspose.Words davranışını MS Word 2010 sürümüne uyacak şekilde optimize edin. |
-| Word2013 | `5` | Aspose.Words davranışını MS Word 2013 sürümüne uyacak şekilde optimize edin. |
-| Word2016 | `6` | Aspose.Words davranışını MS Word 2016 sürümüne uyacak şekilde optimize edin. |
-| Word2019 | `7` | Aspose.Words davranışını MS Word 2019 sürümüne uyacak şekilde optimize edin. |
+| Word2003 | `2` | Aspose.Words davranışını MS Word 2003 sürümüyle eşleşecek şekilde optimize edin. |
+| Word2007 | `3` | Aspose.Words davranışını MS Word 2007 sürümüyle eşleşecek şekilde optimize edin. |
+| Word2010 | `4` | Aspose.Words davranışını MS Word 2010 sürümüyle eşleşecek şekilde optimize edin. |
+| Word2013 | `5` | Aspose.Words davranışını MS Word 2013 sürümüyle eşleşecek şekilde optimize edin. |
+| Word2016 | `6` | Aspose.Words davranışını MS Word 2016 sürümüyle eşleşecek şekilde optimize edin. |
+| Word2019 | `7` | Aspose.Words davranışını MS Word 2019 sürümüyle eşleşecek şekilde optimize edin. |
 
 ### Örnekler
 
-Belgenin farklı Microsoft Word sürümleri için nasıl optimize edileceğini gösterir.
+Belgenin Microsoft Word'ün farklı sürümleri için nasıl optimize edileceğini gösterir.
 
 ```csharp
 public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Bu nesne, her belgeye özgü geniş bir bayrak listesi içerir
-    // Microsoft Word'ün eski sürümleriyle geriye dönük uyumluluğu kolaylaştırmamızı sağlar.
+    // Bu nesne, her belgeye özgü kapsamlı bir bayrak listesi içerir
+    // bu, Microsoft Word'ün eski sürümleriyle geriye dönük uyumluluğu kolaylaştırmamızı sağlar.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // Boş bir belge için varsayılan ayarları yazdırın.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Bu ayarlara Microsoft Word'de "Dosya" -> "Seçenekler" -> "Gelişmiş" -> "Uyumluluk seçenekleri...".
+    // Bu ayarlara Microsoft Word'de "Dosya" -> aracılığıyla erişebiliriz. "Seçenekler" --> "Gelişmiş" -> "Uyumluluk seçenekleri...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // Belirli bir Microsoft Word sürümüyle optimum uyumluluğu sağlamak için OptimizeFor yöntemini kullanabiliriz.
@@ -58,7 +58,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Bir belgenin uyumluluk seçenekleri nesnesindeki tüm bayrakları duruma göre gruplandırır, ardından her grubu yazdırır.
+/// Bir belgenin uyumluluk seçeneklerindeki tüm bayrakları duruma göre gruplandırır ve ardından her grubu yazdırır.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

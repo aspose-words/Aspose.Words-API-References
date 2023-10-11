@@ -16,22 +16,21 @@ public byte[] ImageBytes { get; set; }
 
 ### Notlar
 
-Değerin ayarlanması`hükümsüz` veya boş bir dizi, görüntüyü şekilden kaldıracaktır.
+Değeri şu şekilde ayarlama:`hükümsüz` veya boş bir dizi, görüntüyü şekilden kaldıracaktır.
 
-İadeler`hükümsüz` resim belgede saklanmıyorsa (örneğin, bu durumda resim muhtemelen bağlantılıdır).
+İadeler`hükümsüz` görüntü belgede saklanmıyorsa (örneğin, bu durumda görüntü muhtemelen bağlantılıdır).
 
 ### Örnekler
 
-Bir şeklin ham görüntü verilerinden bir görüntü dosyasının nasıl oluşturulacağını gösterir.
+Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray(), ImageBytes özelliğinde depolanan diziyi döndürür.
+// ToByteArray(), ImageBytes özelliğinde saklanan diziyi döndürür.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // Şeklin görüntü verilerini yerel dosya sistemindeki bir görüntü dosyasına kaydedin.

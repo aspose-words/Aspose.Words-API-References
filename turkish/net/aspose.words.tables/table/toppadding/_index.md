@@ -1,14 +1,14 @@
 ---
 title: Table.TopPadding
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücre içeriğinin üzerine eklenecek boşluk miktarını puan olarak alır veya ayarlar.
+description: Table mülk. Hücre içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar.
 type: docs
 weight: 330
 url: /tr/net/aspose.words.tables/table/toppadding/
 ---
 ## Table.TopPadding property
 
-Hücre içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) alır veya ayarlar.
+Hücre içeriğinin üzerine eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Tablodaki her hücre için, içeriği ile kenarlıklarının her biri arasındaki mesafeyi ayarlayın. 
-// Bu tablo, metni kaydırarak minimum doldurma mesafesini koruyacaktır.
+ // Tablodaki her hücre için, içeriği ile kenarlıkları arasındaki mesafeyi ayarlayın.
+// Bu tablo, metni kaydırarak minimum dolgu mesafesini koruyacaktır.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Doğu Asya Satır Kesme Kurallarının Alternatif Kümesini Kullanın.
+description: CompatibilityOptions mülk. Alternatif Doğu Asya Sınır Aşma Kuralları Dizisini Kullanın.
 type: docs
 weight: 600
 url: /tr/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions.UseAltKinsokuLineBreakRules property
 
-Doğu Asya Satır Kesme Kurallarının Alternatif Kümesini Kullanın.
+Alternatif Doğu Asya Sınır Aşma Kuralları Dizisini Kullanın.
 
 ```csharp
 public bool UseAltKinsokuLineBreakRules { get; set; }

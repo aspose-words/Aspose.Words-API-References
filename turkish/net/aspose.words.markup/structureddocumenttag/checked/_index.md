@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Checked
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Onay Kutusunun geçerli durumunu alır/ayarlar SDT . Bu özellik için varsayılan değer falsetur.
+description: StructuredDocumentTag mülk. Onay Kutusunun geçerli durumunu alır/ayarlar SDT . Bu özelliğin varsayılan değeriYANLIŞ .
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Onay Kutusunun geçerli durumunu alır/ayarlar **SDT** . Bu özellik için varsayılan değer false'tur.
+Onay Kutusunun geçerli durumunu alır/ayarlar **SDT** . Bu özelliğin varsayılan değeri:`YANLIŞ` .
 
 ```csharp
 public bool Checked { get; set; }
@@ -16,13 +16,13 @@ public bool Checked { get; set; }
 
 ### Notlar
 
-Bu mülke erişmek yalnızcaCheckbox SDT türleri.
+Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:Checkbox SDT türleri.
 
-Diğer tüm SDT türleri için istisna oluşacaktır.
+Diğer tüm SDT türleri için istisna meydana gelecektir.
 
 ### Örnekler
 
-Onay kutusu şeklinde yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterin.
+Onay kutusu biçiminde yapılandırılmış belge etiketinin nasıl oluşturulacağını gösterin.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 StructuredDocumentTag sdtCheckBox =
     new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
 
-// Bir onay kutusu içerik kontrolünün işaretli/işaretsiz durumunu temsil etmek için kullanılan sembolleri ayarlayabiliriz.
+// Onay kutusu içerik kontrolünün işaretli/işaretsiz durumunu temsil etmek için kullanılan sembolleri ayarlayabiliriz.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

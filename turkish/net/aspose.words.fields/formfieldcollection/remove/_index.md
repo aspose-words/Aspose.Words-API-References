@@ -20,11 +20,11 @@ public void Remove(string formField)
 
 ### Notlar
 
-Form alanıyla ilişkili bir yer imi varsa, yer imi kaldırılmaz.
+Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
 
 ### Örnekler
 
-Bir belgeye farklı türde form alanlarının nasıl ekleneceğini ve bunları bir belge ziyaretçisi uygulaması kullanarak nasıl işlediğini gösterir.
+Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
 ```csharp
 public void Visitor()
@@ -42,7 +42,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Onay kutusu eklemek için bir belge oluşturucu kullanın.
+    // Onay kutusu eklemek için belge oluşturucuyu kullanın.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Metin giriş formu alanı eklemek için bir belge oluşturucu kullanın.
+    // Metin giriş formu alanını eklemek için bir belge oluşturucu kullanın.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -71,15 +71,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Alanlar form alanlarımızı görüntüler. Bu belgeyi açarak alan kodlarını görebiliriz.
-    // Microsoft'ta ve Alt + F9 tuşlarına basın. Bu alanların anahtarı yoktur,
+    // Alanlar form alanlarımızı gösterir. Bu belgeyi açarak alan kodlarını görebiliriz.
+    // Microsoft'ta ve Alt + F9 tuşlarına basıyorum. Bu alanların anahtarları yoktur,
     // ve FormField nesnesinin üyeleri, form alanlarının içeriğini tamamen yönetir.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Her form alanının bir belge ziyaretçisini kabul etmesine izin verin.
+    // Her form alanının bir belge ziyaretçisini kabul etmesine izin ver.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması. 
+ /// Ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -129,12 +129,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Ziyaretçinin diğer düğümleri ziyaret etmesine izin verin.
+        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin verin.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Geçerli çıktıya yeni satır karakteriyle sonlandırılmış metin ekler.
+    /// Geçerli çıktıya yeni satır karakteriyle sonlandırılmış metni ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {

@@ -1,16 +1,16 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
 second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. Karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirmesi gerekip gerekmediğini belirtir.
+description: TxtSaveOptions mülk. karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-Karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirmesi gerekip gerekmediğini belirtir.
+karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir.
 
-olarak ayarlanırsa **doğru** , numaralı liste etiketleri basit sayısal biçimde ve ayrıntılı liste etiketleri basit ASCII karakterleri olarak yazılır. Varsayılan değer **yanlış**.
+Eğer ayarlanmışsa`doğru` , numaralı liste etiketleri basit sayısal formatta olarak yazılır ve maddelendirilmiş liste etiketleri basit ASCII karakterleri olarak yazılır. Varsayılan değer:`YANLIŞ`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -24,7 +24,7 @@ Bir belgeyi düz metne kaydederken listelerin görünümünün nasıl değiştir
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Beş düzey girintili madde işaretli bir liste oluşturun.
+// Beş düzeyde girintiye sahip madde işaretli bir liste oluşturun.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -36,13 +36,13 @@ builder.Writeln("Item 4");
 builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
 // belgeyi düz metne kaydetme şeklimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Bazı listeleri dönüştürmek için "SimplifyListLabels" özelliğini "true" olarak ayarlayın
-// sembolleri '*', 'o', '+', '>' vb. gibi daha basit ASCII karakterlerine dönüştürün.
-// Mümkün olduğu kadar çok orijinal liste sembolünü korumak için "SimplifyListLabels" özelliğini "false" olarak ayarlayın.
+// sembolleri '*', 'o', '+', '>' vb. gibi daha basit ASCII karakterlere dönüştürün.
+// Mümkün olduğunca çok sayıda orijinal liste sembolünü korumak için "SimplifyListLabels" özelliğini "false" olarak ayarlayın.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);

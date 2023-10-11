@@ -1,14 +1,14 @@
 ---
 title: Border.Equals
 second_title: Aspose.Words for .NET API Referansı
-description: Border yöntem. Belirtilen sınırın geçerli sınıra eşit olup olmadığını belirler.
+description: Border yöntem. Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler.
 type: docs
-weight: 80
+weight: 100
 url: /tr/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
 
-Belirtilen sınırın geçerli sınıra eşit olup olmadığını belirler.
+Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -16,7 +16,7 @@ public bool Equals(Border rhs)
 
 ### Örnekler
 
-Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Oluştururken aynı border konfigürasyonunu kullandığımız için
-// bu paragraflar, onların sınır koleksiyonları aynı öğeleri paylaşır.
+// bu paragraflar, kenar koleksiyonları aynı unsurları paylaşıyor.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -72,7 +71,7 @@ public override bool Equals(object obj)
 
 ### Örnekler
 
-Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -82,10 +81,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Oluştururken aynı border konfigürasyonunu kullandığımız için
-// bu paragraflar, onların sınır koleksiyonları aynı öğeleri paylaşır.
+// bu paragraflar, kenar koleksiyonları aynı unsurları paylaşıyor.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

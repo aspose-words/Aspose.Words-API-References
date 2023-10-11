@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Dil bilgilerinin HTML MHTML veya EPUBa aktarılıp aktarılmayacağını belirtir. Varsayılanyanlış .
+description: HtmlSaveOptions mülk. Dil bilgilerinin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ .
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-Dil bilgilerinin HTML, MHTML veya EPUB'a aktarılıp aktarılmayacağını belirtir. Varsayılan`yanlış` .
+Dil bilgilerinin HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılacağını belirtir. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -16,11 +16,11 @@ public bool ExportLanguageInformation { get; set; }
 
 ### Notlar
 
-Bu özellik olarak ayarlandığında`doğru` Aspose.Words çıktıları **dil** Dili belirten document öğelerindeki HTML özelliği. Bu, dille ilgili anlambilimi korumak için gerekli olabilir.
+Bu özellik olarak ayarlandığında`doğru` Aspose.Words çıktıları **uzun** document öğelerindeki dili belirten HTML özelliği. Dille ilgili anlambilimi korumak için buna ihtiyaç duyulabilir.
 
 ### Örnekler
 
-.html dosyasına kaydederken dil bilgilerinin nasıl korunacağını gösterir.
+.html'ye kaydederken dil bilgilerinin nasıl korunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,10 +36,10 @@ builder.Writeln("Hello again!");
 builder.Font.LocaleId = new CultureInfo("ru-RU").LCID;
 builder.Write("Привет, мир!");
 
-// Belgeyi HTML'ye kaydederken SaveOptions nesnesini iletebiliriz
-// biçimlendirilmiş her metnin yerel ayarını korumak veya atmak için.
+// Belgeyi HTML'ye kaydederken bir SaveOptions nesnesi iletebiliriz
+// her biçimlendirilmiş metnin yerel ayarını korumak veya atmak için.
 // "ExportLanguageInformation" bayrağını "true" olarak ayarlarsak,
-// çıktı HTML belgesi, <span> etiketler.
+// çıktı HTML belgesi, <span> öğesinin "lang" niteliklerindeki yerel ayarları içerecektir; Etiketler.
 // "ExportLanguageInformation" bayrağını "false" olarak ayarlarsak,
 // çıktı HTML belgesindeki metin herhangi bir yerel ayar bilgisi içermeyecektir.
 HtmlSaveOptions options = new HtmlSaveOptions

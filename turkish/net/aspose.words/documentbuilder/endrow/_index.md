@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgedeki bir tablo satırını sonlandırır.
 type: docs
-weight: 220
+weight: 240
 url: /tr/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -16,13 +16,13 @@ public Row EndRow()
 
 ### Geri dönüş değeri
 
-Yeni biten satır düğümü.
+Yeni tamamlanan satır düğümü.
 
 ### Notlar
 
-Telefon etmek **EndRow** bir tablo satırını bitirmek için. eğer ararsan[`InsertCell`](../insertcell/) hemen sonra tablo yeni bir satırda devam eder.
+Arama`EndRow` bir tablo satırını sonlandırmak için. Eğer ararsan[`InsertCell`](../insertcell/) bundan hemen sonra , ardından tablo yeni bir satırda devam eder.
 
-Kullan[`RowFormat`](../rowformat/) satır biçimlendirmesini belirtmek için özellik.
+Kullan[`RowFormat`](../rowformat/) Satır biçimlendirmesini belirtme özelliği.
 
 ### Örnekler
 
@@ -33,24 +33,24 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // İlk satırın ilk sütununa bir hücre ekleyin.
-// Bu hücre, dikey olarak birleştirilmiş hücre aralığındaki ilk hücre olacaktır.
+// Bu hücre, dikey olarak birleştirilmiş hücreler aralığındaki ilk hücre olacaktır.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// İlk satırın ikinci sütununa bir hücre ekleyin, ardından satırı bitirin.
-// Ayrıca, oluşturucuyu oluşturulan hücrelerde dikey birleştirmeyi devre dışı bırakacak şekilde yapılandırın.
+// İlk satırın ikinci sütununa bir hücre ekleyin ve ardından satırı sonlandırın.
+// Ayrıca oluşturucuyu, oluşturulan hücrelerde dikey birleştirmeyi devre dışı bırakacak şekilde yapılandırın.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// İkinci satırın ilk sütununa bir hücre ekleyin. 
-// Metin içeriği eklemek yerine, bu hücreyi doğrudan yukarıda eklediğimiz ilk hücreyle birleştireceğiz.
+ // İkinci satırın ilk sütununa bir hücre ekleyin.
+// Metin içeriği eklemek yerine bu hücreyi doğrudan yukarıda eklediğimiz ilk hücreyle birleştireceğiz.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// İkinci satırın ikinci sütununa başka bir bağımsız hücre ekle.
+// İkinci satırın ikinci sütununa başka bir bağımsız hücre ekleyin.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -74,8 +74,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken, belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecinin içinde bulunduğu geçerli satıra/hücreye ve bunları oluştururken yeni satırlara/hücrelere.
+// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -101,7 +101,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Özel kenarlıklı bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -109,8 +109,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
-// onları eklediğimiz her satıra ve hücreye uygulayacak.
+// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -133,8 +133,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek, onu geçerli hücreye uygular,
-// ve daha sonra oluşturucu ile oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
+// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -146,7 +146,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığdırmak için satır yüksekliğini artırın.
+// Dikey metne sığacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

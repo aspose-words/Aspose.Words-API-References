@@ -1,14 +1,14 @@
 ---
 title: Shading.Equals
 second_title: Aspose.Words for .NET API Referansı
-description: Shading yöntem. Belirtilen Gölgelendirmenin değer olarak mevcut Gölgelendirmeye eşit olup olmadığını belirler.
+description: Shading yöntem. Belirtilenin olup olmadığını belirlerShading şimdiki değere eşittirShading .
 type: docs
-weight: 50
+weight: 90
 url: /tr/net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-Belirtilen Gölgelendirmenin değer olarak mevcut Gölgelendirmeye eşit olup olmadığını belirler.
+Belirtilenin olup olmadığını belirler[`Shading`](../) şimdiki değere eşittir[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)

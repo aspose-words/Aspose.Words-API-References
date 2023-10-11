@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-Pencere genişliğinin yüzdesi olarak ifade edilen belirtilen yatay kuralın uzunluğunu alır veya ayarlar.
+Pencere genişliğinin yüzdesi olarak ifade edilen, belirtilen yatay kuralın uzunluğunu alır veya ayarlar.
 
 ```csharp
 public double WidthPercent { get; set; }
@@ -22,13 +22,13 @@ public double WidthPercent { get; set; }
 
 ### Notlar
 
-Geçerli değerler 1 ile 100 arasında değişir.
+Geçerli değerler 1'den 100'e kadar değişir.
 
 Varsayılan değer 100'dür.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

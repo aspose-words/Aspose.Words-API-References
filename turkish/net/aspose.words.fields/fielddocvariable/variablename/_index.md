@@ -22,9 +22,9 @@ Belge özelliklerini ve değişkenlerini görüntülemek için DOCPROPERTY alanl
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda DOCPROPERTY alanlarını kullanmanın iki yolu vardır.
-// 1 - Yerleşik bir özelliği görüntüleyin:
-// "Kategori" yerleşik özelliği için özel bir değer ayarlayın, ardından buna başvuran bir DOCPROPERTY alanı ekleyin.
+// Aşağıda DOCPROPERTY alanlarını kullanmanın iki yolu verilmiştir.
+// 1 - Yerleşik bir özelliği görüntüle:
+// "Kategori" yerleşik özelliği için özel bir değer belirleyin, ardından buna referans veren bir DOCPROPERTY alanı ekleyin.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -36,7 +36,7 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 builder.InsertParagraph();
 
 // 2 - Özel bir belge değişkeni görüntüleyin:
-// Özel bir değişken tanımlayın, ardından bu değişkene bir DOCPROPERTY alanıyla başvurun.
+// Özel bir değişken tanımlayın, ardından bu değişkene DOCPROPERTY alanıyla referans verin.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");
 

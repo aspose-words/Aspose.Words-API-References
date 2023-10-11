@@ -3,7 +3,7 @@ title: Enum PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.PdfCustomPropertiesExport Sıralama. Yolu belirtirCustomDocumentProperties PDF dosyasına aktarılır.
 type: docs
-weight: 5140
+weight: 5420
 url: /tr/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
@@ -19,7 +19,7 @@ public enum PdfCustomPropertiesExport
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Hiçbir özel özellik dışa aktarılmaz. |
-| Standard | `1` | Özel özellikler /Bilgi sözlüğünde girişler olarak dışa aktarılır. |
+| Standard | `1` | Özel özellikler /Info sözlüğünde girişler olarak dışa aktarılır. |
 | Metadata | `2` | Özel özellikler Meta Verilerdir. |
 
 ### Örnekler
@@ -31,12 +31,12 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// "CustomPropertiesExport" özelliğini atmak için "PdfCustomPropertiesExport.None" olarak ayarlayın
- // belgeyi .PDF'ye kaydederken özel belge özellikleri.
+// Atmak için "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.None" olarak ayarlayın
+// belgeyi .PDF'ye kaydettiğimizde özel belge özellikleri.
 // "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.Standard" olarak ayarlayın
 // çıktı PDF belgesindeki özel özellikleri korumak için.
 // "CustomPropertiesExport" özelliğini "PdfCustomPropertiesExport.Metadata" olarak ayarlayın

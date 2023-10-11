@@ -3,7 +3,7 @@ title: Style.Type
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Stil türünü paragraf veya karakter alır.
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/aspose.words/style/type/
 ---
 ## Style.Type property

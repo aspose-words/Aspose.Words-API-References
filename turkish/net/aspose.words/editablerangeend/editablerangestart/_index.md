@@ -1,14 +1,14 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
 second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeEnd mülk. Karşılık gelen EditableRangeStart ID tarafından alındı.
+description: EditableRangeEnd mülk. Karşılık gelenEditableRangeStart  ID. tarafından alındı
 type: docs
 weight: 10
 url: /tr/net/aspose.words/editablerangeend/editablerangestart/
 ---
 ## EditableRangeEnd.EditableRangeStart property
 
-Karşılık gelen EditableRangeStart, ID tarafından alındı.
+Karşılık gelen[`EditableRangeStart`](../../editablerangestart/) , ID. tarafından alındı
 
 ```csharp
 public EditableRangeStart EditableRangeStart { get; }
@@ -26,12 +26,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Düzenlenebilir aralıklar, korunan belgelerin bölümlerini düzenleme için açık bırakmamıza izin verir.
+// Düzenlenebilir aralıklar, korumalı belgelerin bazı kısımlarını düzenlemeye açık bırakmamıza olanak tanır.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// İyi biçimlendirilmiş bir düzenlenebilir aralığın bir başlangıç düğümü ve bir bitiş düğümü vardır.
+// İyi biçimlendirilmiş düzenlenebilir bir aralığın bir başlangıç düğümü ve bitiş düğümü vardır.
 // Bu düğümlerin eşleşen kimlikleri vardır ve düzenlenebilir düğümleri kapsar.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
@@ -44,8 +44,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Her parçanın düğüm tiplerine bu şekilde ulaşabiliriz. Düzenlenebilir aralığın kendisi bir düğüm değil,
-// ancak bir başlangıç, bir son ve bunların kapalı içeriklerinden oluşan bir varlık.
+// Her parçanın düğüm tiplerine bu şekilde ulaşabiliyoruz. Düzenlenebilir aralığın kendisi bir düğüm değildir,
+// ancak bir başlangıç, bir bitiş ve bunların içerdiği içeriklerden oluşan bir varlık.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

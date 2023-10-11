@@ -1,14 +1,14 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
 second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Bayrak çıktının optimize edilmesinin gerekip gerekmediğini gösterir. Bu bayrak ayarlanırsa fazladan iç içe tuvaller ve boş tuvaller kaldırılırsa aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik true olarak ayarlanmıştır. Varsayılan değer falsetur.
+description: FixedPageSaveOptions mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır ayrıca aynı biçimlendirmeye sahip komşu glifler birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . VarsayılanYANLIŞ .
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
 ---
 ## FixedPageSaveOptions.OptimizeOutput property
 
-Bayrak, çıktının optimize edilmesinin gerekip gerekmediğini gösterir. Bu bayrak ayarlanırsa, fazladan iç içe tuvaller ve boş tuvaller kaldırılırsa, aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not: Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir: bu özellik true olarak ayarlanmıştır. Varsayılan değer false'tur.
+Bayrak, çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa, yedekli iç içe tuvaller ve boş tuvaller kaldırılır, ayrıca aynı biçimlendirmeye sahip komşu glifler birleştirilir. Not: Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir: bu özellik şu şekilde ayarlandı:`doğru` . Varsayılan:`YANLIŞ` .
 
 ```csharp
 public virtual bool OptimizeOutput { get; set; }
@@ -16,17 +16,17 @@ public virtual bool OptimizeOutput { get; set; }
 
 ### Örnekler
 
-xps'e kaydederken belge nesnelerinin nasıl optimize edileceğini gösterir.
+Xps'e kaydederken belge nesnelerinin nasıl optimize edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Unoptimized document.docx");
 
 // Belgenin "Kaydet" yöntemine geçmek için bir "XpsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .XPS'ye dönüştürme şeklini değiştirmek için.
+// bu yöntemin belgeyi .XPS'e dönüştürme biçimini değiştirmek için.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
-// İç içe geçmiş veya boş tuvalleri kaldırmak gibi önlemler almak için "OptimizeOutput" özelliğini "true" olarak ayarlayın
-// ve çıktı belgesinin içeriğini optimize etmek için aynı biçimlendirmeyle bitişik çalıştırmaları birleştirmek.
+// İç içe geçmiş veya boş tuvalleri kaldırmak gibi önlemleri almak için "OptimizeOutput" özelliğini "true" olarak ayarlayın
+// ve çıktı belgesinin içeriğini optimize etmek için bitişik işlemleri aynı biçimlendirmeyle birleştiriyor.
 // Bu, belgenin görünümünü etkileyebilir.
 // Belgeyi normal şekilde kaydetmek için "OptimizeOutput" özelliğini "false" olarak ayarlayın.
 saveOptions.OptimizeOutput = optimizeOutput;

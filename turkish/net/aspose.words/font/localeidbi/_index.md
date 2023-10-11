@@ -1,14 +1,14 @@
 ---
 title: Font.LocaleIdBi
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını dilini alır veya ayarlar.
+description: Font mülk. Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/font/localeidbi/
 ---
 ## Font.LocaleIdBi property
 
-Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını (dilini) alır veya ayarlar.
+Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını (dili) alır veya ayarlar.
 
 ```csharp
 public int LocaleIdBi { get; set; }
@@ -16,7 +16,7 @@ public int LocaleIdBi { get; set; }
 
 ### Notlar
 
-Yerel ayar tanımlayıcılarının listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### Örnekler
 
@@ -40,14 +40,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz
-// belge oluşturucu ile sağdan sola. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
-// sağdan sola yazı tipi ayarları kümesi kullanılarak biçimlendirilecektir.
+// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz.
+// belge oluşturucu ile sağdan soladır. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
+// sağdan sola yazı tipi ayarları kullanılarak biçimlendirilecektir.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Bayrağı false olarak ayarlayın ve ardından soldan sağa metin ekleyin.
-// Belge oluşturucu, bunları soldan sağa yazı tipi ayarları kümesini kullanarak biçimlendirir.
+// Bayrağı false olarak ayarlayın ve ardından soldan sağa metni ekleyin.
+// Belge oluşturucu bunları soldan sağa yazı tipi ayarlarını kullanarak biçimlendirecektir.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

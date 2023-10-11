@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Düğüm koleksiyonu üzerinde basit bir foreach stili yineleme sağlar.
+description: NodeCollection yöntem. Düğümlerin koleksiyonu üzerinde basit bir foreach stili yinelemesi sağlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/nodecollection/getenumerator/
 ---
 ## NodeCollection.GetEnumerator method
 
-Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar.
+Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

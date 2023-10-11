@@ -1,14 +1,16 @@
 ---
 title: Class JsonDataSource
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.JsonDataSource sınıf. Bir rapor içinde kullanılacak bir JSON dosyası veya akışının verilerine erişim sağlar.
+description: Aspose.Words.Reporting.JsonDataSource sınıf. Bir raporda kullanılacak JSON dosyası veya akışına ait verilere erişim sağlar.
 type: docs
-weight: 4430
+weight: 4690
 url: /tr/net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
 
-Bir rapor içinde kullanılacak bir JSON dosyası veya akışının verilerine erişim sağlar.
+Bir raporda kullanılacak JSON dosyası veya akışına ait verilere erişim sağlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[LINQ Raporlama Motoru](https://docs.aspose.com/words/net/linq-reporting-engine/) dokümantasyon makalesi.
 
 ```csharp
 public class JsonDataSource
@@ -18,18 +20,18 @@ public class JsonDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON akışından alınan verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor)(Stream) | JSON verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
 | [JsonDataSource](jsondatasource/#constructor_2)(string) | JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON akışındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
 | [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
 
 ### Notlar
 
-Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini veri kaynağı olarak aşağıdakilerden birine iletin:[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yükleniyor.
+Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini as veri kaynağı olarak aşağıdakilerden birine iletin.[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yüklemeleri.
 
-Şablon belgelerinde, bir üst düzey JSON öğesi bir diziyse,`JsonDataSource` örneğine , sanki bir örnekmiş gibi davranılmalıdır.DataTable örneği. Bir üst düzey JSON öğesi bir nesneyse,`JsonDataSource` örneğe a olduğu gibi davranılmalıdırDataRow örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Şablon belgelerinde, üst düzey bir JSON öğesi bir diziyse,`JsonDataSource` örneğine sanki bir örnekmiş gibi davranılmalıdır.DataTable örneği. Üst düzey JSON öğesi bir nesneyse,`JsonDataSource` örnek sanki aymış gibi ele alınmalıdır.DataRow örneği. Daha fazla bilgi için şablon söz dizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
-Şablon belgelerinde, JSON öğelerinin yazılan değerleriyle çalışabilirsiniz. Kolaylık sağlamak için motor, JSON basit türlerinin kümesini aşağıdakiyle değiştirir:
+Şablon belgelerde, JSON öğelerinin yazılan değerleriyle çalışabilirsiniz. Kolaylık sağlamak için motor, JSON basit türlerinin kümesini aşağıdakiyle değiştirir:
 
 * Nullable
 * Nullable
@@ -37,9 +39,9 @@ Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek içi
 * Nullable
 * String
 
-Motor, JSON temsillerine göre ekstra türlerin değerlerini otomatik olarak tanır.
+Motor, ekstra türlerin değerlerini JSON temsillerine göre otomatik olarak tanır.
 
-JSON veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir[`JsonDataLoadOptions`](../jsondataloadoptions/)instance bu sınıfın bir yapıcısına.
+JSON veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir başlangıç değeri oluşturun ve iletin[`JsonDataLoadOptions`](../jsondataloadoptions/) example bu sınıfın yapıcısına.
 
 ### Ayrıca bakınız
 

@@ -22,8 +22,8 @@ INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlan
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yerel dosya sisteminde başka bir belgenin bir bölümünü içe aktarmak için bir INCLUDE alanını kullanabiliriz.
-// Bu alanla referans verdiğimiz diğer belgedeki yer imi, içe aktarılan bu kısmı içerir.
+// Yerel dosya sistemine başka bir belgenin bir bölümünü içe aktarmak için INCLUDE alanını kullanabiliriz.
+// Bu alanla referans verdiğimiz diğer belgedeki yer imi bu içe aktarılan kısmı içeriyor.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

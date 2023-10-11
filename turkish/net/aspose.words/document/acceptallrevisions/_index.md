@@ -3,7 +3,7 @@ title: Document.AcceptAllRevisions
 second_title: Aspose.Words for .NET API Referansı
 description: Document yöntem. Belgede izlenen tüm değişiklikleri kabul eder.
 type: docs
-weight: 500
+weight: 520
 url: /tr/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method
@@ -16,7 +16,7 @@ public void AcceptAllRevisions()
 
 ### Notlar
 
-Bu yöntem için bir kısayol[`AcceptAll`](../../revisioncollection/acceptall/).
+Bu yöntem kısa yol[`AcceptAll`](../../revisioncollection/acceptall/).
 
 ### Örnekler
 
@@ -35,8 +35,8 @@ doc.StopTrackRevisions();
 
 Assert.AreEqual(3, doc.Revisions.Count);
 
-// Her revizyonu yineleyebilir ve belgemizin bir parçası olarak kabul edebilir/reddetebiliriz.
-// Her revizyonu kabul etmek istediğimizi biliyorsak, bu metodu çağırarak bunu daha açık bir şekilde yapabiliriz.
+// Her revizyonu yineleyebilir ve onu belgemizin bir parçası olarak kabul edebilir/reddedebiliriz.
+// Her revizyonu kabul etmek istediğimizi biliyorsak, bu yöntemi çağırarak bunu daha basit bir şekilde yapabiliriz.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(0, doc.Revisions.Count);

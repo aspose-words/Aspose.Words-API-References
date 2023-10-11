@@ -3,7 +3,7 @@ title: Enum ShapeType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.ShapeType Sıralama. Microsoft Word belgesindeki şeklin türünü belirtir.
 type: docs
-weight: 1140
+weight: 1290
 url: /tr/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -18,12 +18,12 @@ public enum ShapeType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Image | `75` | Şekil bir görüntüdür. |
-| TextBox | `202` | Şekil bir metin kutusudur. Diğer birçok türdeki şekillerin de içinde metin olabileceğini unutmayın. Bir şeklin metin içermesi için bu tür olması gerekmez. |
+| Image | `75` | Şekil bir resimdir. |
+| TextBox | `202` | Şekil bir metin kutusudur. Diğer birçok türdeki şekillerin de içlerinde metin bulunabileceğini unutmayın. Bir şeklin metin içermesi için bu türde olması gerekmez. |
 | Group | `-1` | Şekil bir grup şeklidir. |
 | OleObject | `-2` | Şekil bir OLE nesnesidir. |
-| OleControl | `201` | Şekil bir ActiveX denetimidir. |
-| NonPrimitive | `0` | Kullanıcı tarafından çizilen ve birden çok parça ve/veya tepe noktasından (eğri, serbest biçim veya karalama) oluşan bir şekil. |
+| OleControl | `201` | Şekil bir ActiveX kontrolüdür. |
+| NonPrimitive | `0` | Kullanıcı tarafından çizilen ve birden çok parça ve/veya köşeden (eğri, serbest biçim veya karalama) oluşan bir şekil. |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | Bu şekil türü, Microsoft Word'deki standart otomatik şekiller kümesinin parçası olmayan şekiller için ayarlanmış gibi görünüyor. Örneğin, ClipArt. 'den yeni bir otomatik şekil eklerseniz |
+| CustomShape | `100` | Bu şekil türü, Microsoft Word'deki standart the otomatik şekiller kümesinin parçası olmayan şekiller için ayarlanmış gibi görünüyor. Örneğin, ClipArt. 'den yeni bir otomatik şekil eklerseniz |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -223,14 +223,14 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | Tek köşeli dikdörtgen nesneyi alın. |
-| TopCornersSnipped | `204` | Aynı yan köşe dikdörtgenini alın. |
-| DiagonalCornersSnipped | `205` | Çapraz köşe dikdörtgenini alın. |
-| TopCornersOneRoundedOneSnipped | `206` | Tek köşeli dikdörtgeni alın ve yuvarlayın. |
+| SingleCornerSnipped | `203` | Tek köşeli dikdörtgen nesneyi kırpın. |
+| TopCornersSnipped | `204` | Dikdörtgenin aynı yan köşesini kesin. |
+| DiagonalCornersSnipped | `205` | Dikdörtgenin çapraz köşesini kesin. |
+| TopCornersOneRoundedOneSnipped | `206` | Tek köşeli dikdörtgeni kesin ve yuvarlatın. |
 | SingleCornerRounded | `207` | Yuvarlak tek köşeli dikdörtgen. |
-| TopCornersRounded | `208` | Yuvarlak aynı kenar köşe dikdörtgeni. |
-| DiagonalCornersRounded | `209` | Yuvarlak köşegen köşeli dikdörtgen. |
-| Heptagon | `210` | Heptagon. |
+| TopCornersRounded | `208` | Yuvarlak aynı yan köşe dikdörtgeni. |
+| DiagonalCornersRounded | `209` | Yuvarlak çapraz köşeli dikdörtgen. |
+| Heptagon | `210` | Yedigen. |
 | Cloud | `211` | Bulut. |
 | Seal6 | `212` | Altı köşeli yıldız. |
 | Seal7 | `213` | Yedi köşeli yıldız. |
@@ -241,11 +241,11 @@ public enum ShapeType
 | SquareTabs | `218` | Kare sekmeler. |
 | PlaqueTabs | `219` | Plak sekmeleri. |
 | Pie | `220` | Pasta. |
-| WedgePie | `221` | Dilimli turta. |
+| WedgePie | `221` | Kama pasta. |
 | InverseLine | `222` | Ters çizgi. |
 | MathPlus | `223` | Matematik artı. |
 | MathMinus | `224` | Matematik eksi. |
-| MathMultiply | `225` | Matematik çarpması. |
+| MathMultiply | `225` | Matematik çarpımı. |
 | MathDivide | `226` | Matematik bölme. |
 | MathEqual | `227` | Matematik eşittir. |
 | MathNotEqual | `228` | Matematik eşit değil. |
@@ -258,25 +258,25 @@ public enum ShapeType
 | Funnel | `235` | Huni. |
 | Gear6 | `236` | Altı dişli dişli. |
 | Gear9 | `237` | Dokuz dişli dişli. |
-| Decagon | `238` | Decagon. |
-| Dodecagon | `239` | Dodecagon. |
+| Decagon | `238` | Ongen. |
+| Dodecagon | `239` | Onikigen. |
 | DiagonalStripe | `240` | Çapraz şerit. |
 | Corner | `241` | Köşe. |
 | CornerTabs | `242` | Köşe sekmeleri. |
 | Chord | `243` | Akor. |
 | ChartPlus | `244` | Grafik artı. |
-| ChartStar | `245` | Harita yıldızı. |
+| ChartStar | `245` | Grafik yıldızı. |
 | ChartX | `246` | Grafik X. |
 | MinValue | `-2` | Sistem kullanımı için ayrılmıştır. |
 
 ### Örnekler
 
-Yerel dosya sisteminden bir görüntüyle bir şeklin bir belgeye nasıl ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntü içeren şeklin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// "Shape" sınıfının genel kurucusu, "ShapeMarkupLanguage.Vml" işaretleme türüyle bir şekil oluşturacaktır.
+// "Shape" sınıfının public yapıcısı "ShapeMarkupLanguage.Vml" işaretleme tipine sahip bir şekil oluşturacaktır.
 // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi ilkel olmayan türde bir şekil oluşturmanız gerekiyorsa,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded veya DiagonalCornersRounded,
 // lütfen DocumentBuilder.InsertShape'i kullanın.
@@ -305,10 +305,10 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// Şekil türlerini tanımlamak için şekillerle DML olarak çalışmanız gerekir.
+// Şekil türlerini doğru tanımlamak için şekillerle DML olarak çalışmanız gerekir.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    // "Strict" veya "Transitional" uyumluluğu, şeklin DML olarak kaydedilmesini sağlar.
+    // "Katı" veya "Geçişli" uyumluluk, şeklin DML olarak kaydedilmesine olanak tanır.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

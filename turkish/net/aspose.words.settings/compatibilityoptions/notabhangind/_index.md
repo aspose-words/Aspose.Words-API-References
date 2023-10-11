@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoTabHangInd
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Girintiyi Asmak için Özel Sekme Durağı Oluşturmayın.
+description: CompatibilityOptions mülk. Asılı Girinti için Özel Sekme Durağı Oluşturmayın.
 type: docs
 weight: 370
 url: /tr/net/aspose.words.settings/compatibilityoptions/notabhangind/
 ---
 ## CompatibilityOptions.NoTabHangInd property
 
-Girintiyi Asmak için Özel Sekme Durağı Oluşturmayın.
+Asılı Girinti için Özel Sekme Durağı Oluşturmayın.
 
 ```csharp
 public bool NoTabHangInd { get; set; }

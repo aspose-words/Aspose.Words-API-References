@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,18 +28,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId' bir çıktı dosyasına kaydedilmediğini ve yalnızca düğüm ömrü boyunca var olduğunu unutmayın.
+// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın acil alt öğeleri koleksiyonunu yineleyin,
-// ve içinde bulduğumuz tüm koşuları veya şekilleri yazdırın.
-NodeCollection children = paragraph.ChildNodes;
+// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
+// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,26 +52,26 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 
-Bir tablonun iç içe olup olmadığını nasıl öğreneceğinizi gösterir.
+Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt öğe olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -83,10 +83,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içinde hangi düzeyde iç içe olduğunu hesaplar.
+/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini gösteren bir tam sayı (üst tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -104,11 +104,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında tekrar tekrar dolaşmayın.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
 /// </summary>
 /// <returns>
-/// En az bir alt hücre bir tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false döndürür.
+/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
+/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

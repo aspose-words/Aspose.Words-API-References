@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### Notlar
 
-Bu bir kısayolColor Emlak.
+Bu, kısayol[`Color`](../../fill/color/) mülk.
 
 Varsayılan değer: Gray.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

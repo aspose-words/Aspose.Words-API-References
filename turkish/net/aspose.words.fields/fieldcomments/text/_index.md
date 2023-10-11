@@ -22,7 +22,7 @@ YORUMLAR alanının nasıl kullanılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin yerleşik "Yorumlar" özelliği için bir değer ayarlayın.
+// Belgenin "Yorumlar" yerleşik özelliği için bir değer belirleyin.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // Yerleşik özelliğin değerini görüntülemek için bir YORUMLAR alanı oluşturun.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// YORUMLAR alanına Text özellik değerini verip güncellersek alan
-// "Yorumlar" yerleşik özelliğinin geçerli değerinin üzerine Metin özelliğinin değeriyle yaz,
+// COMMENTS alanına Text özelliği değerini verip güncellersek alan şu şekilde olacaktır:
+// "Yorumlar" yerleşik özelliğinin mevcut değerinin üzerine Text özelliğinin değerini yazın,
 // ve ardından yeni değeri görüntüleyin.
 field.Text = "My overriding comment.";
 field.Update();

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertField
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgeye bir Word alanı ekler ve isteğe bağlı olarak alan sonucunu günceller.
 type: docs
-weight: 300
+weight: 330
 url: /tr/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(FieldType, bool) {#insertfield}
@@ -25,18 +25,18 @@ A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne
 
 ### Notlar
 
-Bu yöntem, bir belgeye bir alan ekler. Aspose.Words, tüm alanları değil, çoğu türü güncelleyebilir. Daha fazla ayrıntı için bkz. the `InsertField` aşırı yükleme.
+Bu yöntem bir belgeye alan ekler. Aspose.Words çoğu türdeki alanları güncelleyebilir, ancak hepsini güncelleyemez. Daha fazla ayrıntı için the 'ye bakın`InsertField` aşırı yükleme.
 
 ### Örnekler
 
-FieldType kullanarak bir belgeye nasıl alan ekleneceğini gösterir.
+FieldType kullanılarak bir belgeye nasıl alan ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucu eklerken güncellenip güncellenmeyeceğini belirleyen bir bayrak geçerken iki alan ekleyin.
-// Bazı durumlarda, alanların güncellenmesi hesaplama açısından pahalı olabilir ve güncellemeyi ertelemek iyi bir fikir olabilir.
+// Oluşturucu ekledikçe güncellenip güncellenmeyeceğini belirleyen bir bayrağı geçerken iki alan ekleyin.
+// Bazı durumlarda alanların güncellenmesi hesaplama açısından pahalı olabilir ve güncellemeyi ertelemek iyi bir fikir olabilir.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -58,7 +58,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Güncelleme yöntemlerini manuel olarak kullanarak bu alanları güncellememiz gerekecek.
+    // Bu alanları güncelleme yöntemlerini kullanarak manuel olarak güncellememiz gerekecek.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -89,7 +89,7 @@ public Field InsertField(string fieldCode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (kıvrımlı parantezler olmadan). |
+| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
 
 ### Geri dönüş değeri
 
@@ -97,11 +97,11 @@ A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne
 
 ### Notlar
 
-Bu yöntem, bir belgeye bir alan ekler ve alan sonucunu anında günceller. Aspose.Words, çoğu türün alanını güncelleyebilir, ancak hepsini değil. Daha fazla ayrıntı için bkz. the `InsertField` aşırı yükleme.
+Bu yöntem bir belgeye alan ekler ve alan sonucunu hemen günceller. Aspose.Words çoğu türdeki alanları güncelleyebilir, ancak hepsini güncelleyemez. Daha fazla ayrıntı için the 'ye bakın`InsertField` aşırı yükleme.
 
 ### Örnekler
 
-Alan kodu kullanarak bir belgeye nasıl alan ekleneceğini gösterir.
+Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -124,16 +124,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// İmleci ilk MERGEFIELD'e taşıyın.
+// İmleci ilk MERGEFIELD'a taşıyın.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// İmlecin ilk MERGEFIELD'den hemen sonra ve ikinciden önce yerleştirildiğini unutmayın.
+// İmlecin ilk MERGEFIELD'den hemen sonra ve ikinciden önce yerleştirildiğine dikkat edin.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Oluşturucuyu kullanarak alanın alan kodunu veya içeriğini düzenlemek istiyorsak,
+// Alanın alan kodunu veya içeriğini oluşturucuyu kullanarak düzenlemek istiyorsak,
 // imlecinin bir alanın içinde olması gerekir.
-// Bir alanın içine yerleştirmek için belge oluşturucunun MoveTo yöntemini çağırmamız gerekir
+// Bunu bir alanın içine yerleştirmek için belge oluşturucunun MoveTo yöntemini çağırmamız gerekir
 // ve alanın başlangıç veya ayırıcı düğümünü argüman olarak iletin.
 builder.Write(" Text between our merge fields. ");
 
@@ -159,8 +159,8 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (kıvrımlı parantezler olmadan). |
-| fieldValue | String | Eklenecek alan değeri. Değeri olmayan alanlar için null iletin. |
+| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
+| fieldValue | String | Eklenecek alan değeri. Geçmek`hükümsüz` değeri olmayan alanlar için. |
 
 ### Geri dönüş değeri
 
@@ -168,13 +168,13 @@ A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne
 
 ### Notlar
 
-Microsoft Word belgelerindeki alanlar, bir alan kodu ve bir alan sonucundan oluşur. Alan kodu bir formül gibidir ve alan sonucu, formülün ürettiği değeri gibidir. Alan kodu ayrıca, belirli bir eylemi gerçekleştirmek için ek talimatlara benzeyen alan anahtarları içerebilir.
+Microsoft Word belgelerindeki alanlar, alan kodu ve alan sonucundan oluşur. Alan kodu bir formül gibidir ve alan sonucu, formülün ürettiği that değeri gibidir. Alan kodu ayrıca, belirli bir eylemi gerçekleştirmek için ek talimatlara benzeyen switch alanını da içerebilir.
 
-Alt+F9 klavye kısayolunu kullanarak Microsoft Word'de belgenizdeki alan kodlarını ve sonuçları görüntüleme arasında geçiş yapabilirsiniz. Alan kodları küme parantezleri ( { } ) arasında görünür.
+Alt+F9 klavye kısayolunu kullanarak Microsoft Word'de belgenizde alan kodlarını ve sonuçları görüntülemek arasında geçiş yapabilirsiniz. Alan kodları küme parantezleri ({ }) arasında görünür.
 
-Bir alan oluşturmak için bir alan türü, alan kodu ve bir "yer tutucu" alan değeri belirtmeniz gerekir. Belirli bir alan kodu sözdiziminden emin değilseniz, alanı Microsoft Word'de oluşturun first ve alan kodunu görmek için geçiş yapın. .
+Bir alan oluşturmak için bir alan türü, alan kodu ve bir "yer tutucu" alan değeri belirtmeniz gerekir. Belirli bir alan kodu sözdiziminden emin değilseniz, alanı Microsoft Word'de öncelikle oluşturun ve alan kodunu görmek için geçiş yapın .
 
-Aspose.Words alan türlerinin çoğu için alan sonuçlarını hesaplayabilir, ancak bu method alan sonucunu otomatik olarak güncellemez. Alan sonucu otomatik olarak hesaplanmadığından, alan sonucuna eklenecek bazı dize değerlerini (hatta boş bir dizeyi) iletmeniz beklenir. Bu değer, alan tamamlanana kadar alan sonucunda yer tutucu olarak kalacaktır. güncellendi. Alan sonucunu güncellemek için arayabilirsiniz[`Update`](../../../aspose.words.fields/field/update/)size döndürülen alan nesnesinde veya[`UpdateFields`](../../document/updatefields/) tüm belgedeki alanları güncellemek için.
+Aspose.Words çoğu alan türü için alan sonuçlarını hesaplayabilir ancak bu method alan sonucunu otomatik olarak güncellemez. Alan sonucu otomatik olarak hesaplanmadığından, alan sonucuna eklenecek bir dize değeri (hatta boş bir dize) iletmeniz beklenir. Bu değer, alan oluşturulana kadar yer tutucu olarak alan sonucunda kalacaktır. güncellendi. Alan sonucunu güncellemek için arayabilirsiniz[`Update`](../../../aspose.words.fields/field/update/)size döndürülen alan nesnesinde veya[`UpdateFields`](../../document/updatefields/) Tüm belgedeki alanları güncellemek için.
 
 ### Örnekler
 
@@ -201,18 +201,18 @@ builder.Writeln("Section 2, page 3.");
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Geçerli sayfanın numarasını gösterecek bir SAYFA alanı ekleyin.
+// Geçerli sayfanın numarasını görüntüleyecek bir PAGE alanı ekleyin.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Bölümü, SAYFA alanlarının gösterdiği sayfa sayısının 5'ten başlamasını sağlayacak şekilde yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını, büyük Romen rakamları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 5'ten başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını sayfa numaralarını büyük harf Romen rakamları kullanarak gösterecek şekilde yapılandırın.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// İkinci bölüm için başka bir SAYFA alanıyla başka bir birincil başlık oluşturun.
+// İkinci bölüm için başka bir PAGE alanıyla başka bir birincil başlık oluşturun.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -220,8 +220,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// SAYFA alanlarının gösterdiği sayfa sayısının 10'dan başlaması için bölümü yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 10'dan başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

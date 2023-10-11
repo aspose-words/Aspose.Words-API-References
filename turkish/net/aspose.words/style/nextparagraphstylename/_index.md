@@ -3,7 +3,7 @@ title: Style.NextParagraphStyleName
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar.
 type: docs
-weight: 120
+weight: 140
 url: /tr/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
@@ -16,7 +16,7 @@ public string NextParagraphStyleName { get; set; }
 
 ### Notlar
 
-Bu özellik Aspose.Words tarafından kullanılmaz. Belgeyi MS Word'de düzenlediğinizde, sonraki paragraf stili yalnızca otomatik olarak uygulanacaktır.
+Bu özellik Aspose.Words tarafından kullanılmaz. Sonraki paragraf stili, belgeyi MS Word'de düzenlediğinizde only otomatik olarak uygulanacaktır.
 
 ### Örnekler
 

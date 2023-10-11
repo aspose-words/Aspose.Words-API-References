@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri puan olarak ölçülür ve 0a eşit veya 0dan büyük olmalıdır. Varsayılan değer 10 puandır.
+description: HtmlFixedSaveOptions mülk. Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri puan olarak ölçülür ve 0'a eşit veya 0'dan büyük olmalıdır. Varsayılan değer 10 puandır.
+Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0'a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur.
 
 ```csharp
 public double PageMargins { get; set; }
@@ -16,11 +16,11 @@ public double PageMargins { get; set; }
 
 ### Notlar
 
-değerine bağlıdır[`PageHorizontalAlignment`](../pagehorizontalalignment/) Emlak:
+Değerine bağlıdır[`PageHorizontalAlignment`](../pagehorizontalalignment/) mülk:
 
-* Değer şuysa, üst, alt ve sol sayfa kenar boşluklarını tanımlar.Left .
-* Değer şuysa, üst, alt ve sağ sayfa kenar boşluklarını tanımlar.Right .
-* Değer şuysa, sayfanın üst ve alt kenar boşluklarını tanımlar.Center .
+* Değer şu şekildeyse üst, alt ve sol sayfa kenar boşluklarını tanımlar:Left .
+* Değer şu şekildeyse üst, alt ve sağ sayfa kenar boşluklarını tanımlarRight .
+* Değer şu şekildeyse üst ve alt sayfa kenar boşluklarını tanımlar:Center .
 
 ### Örnekler
 

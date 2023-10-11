@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Tüm CSS sınıfı adlarına eklenen bir önek belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
+description: HtmlSaveOptions mülk. Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Tüm CSS sınıfı adlarına eklenen bir önek belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
+Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -22,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 
 ### Notlar
 
-Bu değer boş değilse, Aspose.Words tarafından oluşturulan tüm CSS sınıfları belirtilen önekle başlar. Bu, örneğin oluşturulan belgelere özel CSS eklerseniz ve class ad çakışmalarını önlemek istiyorsanız yararlı olabilir.
+Bu değer boş değilse Aspose.Words tarafından oluşturulan tüm CSS sınıfları belirtilen önekle başlayacaktır. Bu, örneğin oluşturulan belgelere özel CSS eklerseniz ve class ad çakışmalarını önlemek istiyorsanız faydalı olabilir.
 
-değer değilse`hükümsüz` veya boşsa, geçerli bir CSS tanımlayıcısı olmalıdır.
+Değer değilse`hükümsüz` veya boşsa geçerli bir CSS tanımlayıcısı olmalıdır.
 
 ### Örnekler
 
-Bir belgenin HTML'ye nasıl kaydedileceğini ve tüm CSS sınıf adlarına bir önek ekleneceğini gösterir.
+Bir belgenin HTML'ye nasıl kaydedileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");

@@ -1,14 +1,14 @@
 ---
 title: Enum CommentDisplayMode
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.CommentDisplayMode Sıralama. Belge yorumları için oluşturma modunu belirtir.
+description: Aspose.Words.Layout.CommentDisplayMode Sıralama. Belge yorumları için işleme modunu belirtir.
 type: docs
-weight: 3090
+weight: 3290
 url: /tr/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
 
-Belge yorumları için oluşturma modunu belirtir.
+Belge yorumları için işleme modunu belirtir.
 
 ```csharp
 public enum CommentDisplayMode
@@ -19,12 +19,12 @@ public enum CommentDisplayMode
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Hide | `0` | Hiçbir belge yorumu oluşturulmaz. |
-| ShowInBalloons | `1` | Belge yorumlarını kenar boşluğunda balonlar halinde işler. Bu varsayılan değerdir. |
-| ShowInAnnotations | `2` | Ek açıklamalarda belge yorumlarını işler. Bu yalnızca Pdf formatı için kullanılabilir. |
+| ShowInBalloons | `1` | Belge yorumlarını kenar boşluğundaki balonlar halinde görüntüler. Bu varsayılan değerdir. |
+| ShowInAnnotations | `2` | Ek açıklamalardaki belge yorumlarını işler. Bu yalnızca Pdf formatı için geçerlidir. |
 
 ### Örnekler
 
-Bir belgeyi işlenmiş bir formatta kaydederken yorumların nasıl gösterileceğini gösterir.
+Bir belgeyi işlenmiş formatta kaydederken yorumların nasıl gösterileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations yalnızca Pdf1.7 ve Pdf1.5 formatlarında mevcuttur.
-// Diğer formatlarda, Gizle'ye benzer şekilde çalışacaktır.
+// Diğer formatlarda Gizle'ye benzer şekilde çalışacaktır.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");

@@ -20,17 +20,18 @@ public ShapeRenderer(ShapeBase shape)
 
 ### Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve bir Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine bir şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Bir grafikle bir şekil oluşturun ve onu belirli bir ölçeğe dönüştürün.
+    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
+    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -41,7 +42,7 @@ Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve bir Windows Formu
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve belirli bir boyuta getirin.
+    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

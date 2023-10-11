@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetChildNodes
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Belirtilen türle eşleşen canlı bir alt düğüm koleksiyonu döndürür.
+description: CompositeNode yöntem. Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
 
-Belirtilen türle eşleşen canlı bir alt düğüm koleksiyonu döndürür.
+Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -17,7 +17,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | nodeType | NodeType | Seçilecek düğümlerin türünü belirtir. |
-| isDeep | Boolean | Tüm alt düğümlerden özyinelemeli olarak seçim yapmak için true. Yalnızca en yakın alt öğeler arasından seçim yapmak için False. |
+| isDeep | Boolean | `doğru` tüm alt düğümlerden yinelemeli olarak seçim yapmak için; `YANLIŞ`yalnızca yakın çocuklar arasından seçim yapmak. |
 
 ### Geri dönüş değeri
 
@@ -25,20 +25,19 @@ Belirtilen türdeki alt düğümlerin canlı koleksiyonu.
 
 ### Notlar
 
-Bu yöntemle döndürülen düğümlerin koleksiyonu her zaman canlıdır.
+Bu yöntemle döndürülen düğümlerin koleksiyonu her zaman yayındadır.
 
-Canlı bir koleksiyon her zaman belgeyle senkronize olur. Örneğin, siz bir belgedeki tüm bölümleri seçtiyseniz ve bölümleri silerek collection boyunca numaralandırdıysanız, bölüm belgeden kaldırıldığında hemen koleksiyondan kaldırılır.
+Canlı bir koleksiyon her zaman belgeyle senkronizedir. Örneğin, bir belgedeki tüm bölümleri siz seçtiyseniz ve bölümleri silerek koleksiyon aracılığıyla numaralandırırsanız, bölüm, belgeden kaldırıldığında derhal koleksiyondan kaldırılır.
 
 ### Örnekler
 
-Bir belgenin tüm yorumlarının ve yanıtlarının nasıl yazdırılacağını gösterir.
+Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Bir yorumun atası yoksa, yanıt türü bir yorumun aksine "üst düzey" bir yorumdur.
+// Bir yorumun atası yoksa bu, yanıt tipi yorumun aksine "üst düzey" bir yorumdur.
 // Tüm üst düzey yorumları, olabilecek yanıtlarla birlikte yazdırın.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
@@ -58,8 +57,8 @@ Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosy
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgeden şekil koleksiyonunu alın,
-// ve bir görüntü ile her şeklin görüntü verilerini yerel dosya sistemine dosya olarak kaydedin.
+// Belgedeki şekillerin koleksiyonunu alın,
+// ve resim içeren her şeklin resim verilerini dosya olarak yerel dosya sistemine kaydedin.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -69,8 +68,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Şekillerin görüntü verileri, birçok olası görüntü formatının görüntülerini içerebilir. 
-        // Her resim için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
+         // Şekillerin görüntü verileri birçok olası görüntü formatındaki görüntüleri içerebilir.
+        // Her görsel için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -79,31 +78,71 @@ foreach (Shape shape in shapes.OfType<Shape>())
 }
 ```
 
-Bir CompositeNode'un alt öğeleri koleksiyonunda alt düğümlerin nasıl ekleneceğini, güncelleneceğini ve silineceğini gösterir.
+Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Varsayılan olarak boş bir belgenin bir paragrafı vardır.
+// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+paragraph.AppendChild(new Run(doc, "Hello world! "));
+
+Shape shape = new Shape(doc, ShapeType.Rectangle);
+shape.Width = 200;
+shape.Height = 200;
+// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
+shape.CustomNodeId = 100;
+shape.WrapType = WrapType.Inline;
+paragraph.AppendChild(shape);
+
+paragraph.AppendChild(new Run(doc, "Hello again!"));
+
+// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
+// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
+
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
+
+foreach (Node child in children)
+    switch (child.NodeType)
+    {
+        case NodeType.Run:
+            Console.WriteLine("Run contents:");
+            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
+            break;
+        case NodeType.Shape:
+            Shape childShape = (Shape)child;
+            Console.WriteLine("Shape:");
+            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
+    }
+```
+
+CompositeNode'un alt öğeleri koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleştirileceğini ve silineceğini gösterir.
+
+```csharp
+Document doc = new Document();
+
+// Boş bir belgede varsayılan olarak bir paragraf bulunur.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Paragrafımız gibi bileşik düğümler, alt öğe olarak diğer bileşik ve satır içi düğümleri içerebilir.
+// Paragrafımız gibi kompozit düğümler çocuk olarak diğer kompozit ve satır içi düğümleri de içerebilir.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// Üç çalıştırma düğümü daha oluşturun.
+// Üç tane daha çalıştırma düğümü oluşturun.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Belge gövdesi, biz bunları bir bileşik düğüme ekleyene kadar bu çalıştırmaları görüntülemeyecektir.
-// bu, ilk çalıştırmada yaptığımız gibi, belgenin düğüm ağacının bir parçasıdır.
+// Belge gövdesi, biz bunları bir bileşik düğüme ekleyene kadar bu işlemleri görüntülemeyecektir
+// ilk çalıştırmada yaptığımız gibi bu da belgenin düğüm ağacının bir parçası.
 // Eklediğimiz düğümlerin metin içeriklerinin nerede olduğunu belirleyebiliriz
-// paragraftaki başka bir düğüme göre bir ekleme konumu belirterek belgede görünür.
+// paragraftaki başka bir düğüme göre ekleme konumunu belirterek belgede görünür.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// İkinci çalıştırmayı ilk çalıştırmanın önündeki paragrafa ekleyin.
+// İkinci çalıştırmayı paragrafın ilk çalıştırmanın önüne ekleyin.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
@@ -113,7 +152,7 @@ paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// İlk çalıştırmayı paragrafın alt düğüm koleksiyonunun başına ekleyin.
+// İlk çalıştırmayı paragrafın alt düğüm koleksiyonunun başlangıcına ekleyin.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

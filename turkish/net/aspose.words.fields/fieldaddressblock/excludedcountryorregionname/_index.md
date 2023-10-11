@@ -16,7 +16,7 @@ public string ExcludedCountryOrRegionName { get; set; }
 
 ### Örnekler
 
-ADRESBLOCK alanının nasıl ekleneceğini gösterir.
+ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
 // Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri içerecektir,
-// ExcludedCountryOrRegionName özelliğinde belirtilen değilse.
+// ExcludedCountryOrRegionName özelliğinde belirtilmediği sürece.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Varsayılan olarak bu özellik, belgenin ilk karakterinin dil kimliğini içerecektir.
-// Sonucu bu şekilde biçimlendirmek için alan için farklı bir kültür ayarlayabiliriz.
+// Varsayılan olarak bu özellik belgenin ilk karakterinin dil kimliğini içerecektir.
+// Sonucun bu şekilde formatlanması için alana farklı bir kültür ayarlayabiliriz.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.SignerTitle
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Önerilen imzalayanın unvanını alır veya ayarlar örneğin Yönetici. Bu özellik için varsayılan değer boş dize Empty .
+description: SignatureLine mülk. Önerilen imzalayanın unvanını alır veya ayarlar örneğin Yönetici. Bu özellik için varsayılan değer boş dize Empty.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer **boş dize** (Empty ).
+Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer: **boş dize** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
@@ -16,7 +16,7 @@ public string SignerTitle { get; set; }
 
 ### Örnekler
 
-İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
+İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünüşünü değiştireceğimiz bir imza satırı içerecek bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirelim.
+// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
+// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
 // Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görüntüye getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.IndexOf
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür.
+description: CompositeNode yöntem. Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
 
-Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür.
+Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür.
 
 ```csharp
 public int IndexOf(Node child)
@@ -16,7 +16,7 @@ public int IndexOf(Node child)
 
 ### Notlar
 
-Düğüm alt düğümlerde bulunmazsa -1 döndürür.
+Düğüm alt düğümlerde bulunamazsa -1 değerini döndürür.
 
 ### Örnekler
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 Body body = doc.FirstSection.Body;
 
 // İlk bölümün gövdesindeki son paragrafın dizinini alın.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
+Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 
 ### Ayrıca bakınız

@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToImage
 second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Şekilde depolanan görüntüyü birImage nesne.
+description: ImageData yöntem. Şekilde saklanan görüntüyü bir dosya olarak alır.Image nesne.
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Şekilde depolanan görüntüyü birImage nesne.
+Şekilde saklanan görüntüyü bir dosya olarak alır.Image nesne.
 
 ```csharp
 public Image ToImage()
@@ -16,9 +16,9 @@ public Image ToImage()
 
 ### Notlar
 
-yeni birImage nesne, bu yöntem her çağrıldığında oluşturulur.
+Yeni birImage Bu yöntem her çağrıldığında nesne oluşturulur.
 
-Görüntü nesnesini elden çıkarmak arayan kişinin sorumluluğundadır.
+Görüntü nesnesinin imha edilmesi arayanın sorumluluğundadır.
 
 ### Örnekler
 
@@ -27,11 +27,11 @@ Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini göst
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// "HasImage" bayrak kümesine sahip şekiller, tüm belgenin resimlerini saklar ve görüntüler.
+// "HasImage" bayrak setine sahip şekiller belgenin tüm resimlerini saklar ve görüntüler.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Her şekli gözden geçirin ve görüntüsünü kaydedin.
+// Her şeklin üzerinden geçin ve görüntüsünü kaydedin.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

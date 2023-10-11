@@ -1,14 +1,14 @@
 ---
 title: Bookmark.LastColumn
 second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer imiyle ilişkili tablo sütun aralığının son sütununun sıfır tabanlı dizinini alır.
+description: Bookmark mülk. Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır tabanlı dizinini alır.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/bookmark/lastcolumn/
 ---
 ## Bookmark.LastColumn property
 
-Yer imiyle ilişkili tablo sütun aralığının son sütununun sıfır tabanlı dizinini alır.
+Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır tabanlı dizinini alır.
 
 ```csharp
 public int LastColumn { get; }
@@ -16,7 +16,7 @@ public int LastColumn { get; }
 
 ### Notlar
 
-İade **-1** bu yer imi bir tablo sütunu yer imi değilse.
+İadeler **-1** bu yer imi bir tablo sütunu yer imi değilse.
 
 ### Örnekler
 
@@ -27,7 +27,7 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Bir yer imi bir tablonun sütunlarını kapsıyorsa, bu bir tablo sütunu yer imidir ve IsColumn bayrağı true olarak ayarlanır.
+    // Bir yer işareti bir tablonun sütunlarını çevreliyorsa, bu bir tablo sütunu yer işaretidir ve IsColumn bayrağı true olarak ayarlanır.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {

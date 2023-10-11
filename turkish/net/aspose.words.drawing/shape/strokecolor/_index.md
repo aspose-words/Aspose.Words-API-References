@@ -16,19 +16,19 @@ public Color StrokeColor { get; set; }
 
 ### Notlar
 
-Bu bir kısayol[`Color`](../../stroke/color/) Emlak.
+Bu, kısayol[`Color`](../../stroke/color/) mülk.
 
 Varsayılan değer: Black.
 
 ### Örnekler
 
-Bir şeklin düz bir renkle nasıl doldurulacağını gösterir.
+Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir metin yazın ve ardından kayan bir şekille kaplayın.
+// Bir miktar metin yazın ve ardından onu kayan bir şekille kaplayın.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -41,12 +41,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Şeklin iç alanının rengini ayarlamak için "FillColor" özelliğini kullanın.
 shape.FillColor = Color.LightBlue;
 
-// "Opacity" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
-// 1 tamamen opak ve 0 görünmez olmak üzere.
-// Şekil dolgusu varsayılan olarak tamamen opaktır, bu nedenle bu şeklin üzerinde olduğu metni göremeyiz.
+// "Opaklık" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
+// 1 tamamen opak ve 0 görünmez olacak şekilde.
+// Şekil dolgusu varsayılan olarak tamamen opaktır, dolayısıyla bu şeklin üstünde olduğu metni göremiyoruz.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Altındaki metni görebilmemiz için şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın.
+// Şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -55,6 +55,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -64,7 +65,7 @@ Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 }
 
 /// <summary>
-/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenerek StringBuilder'a bir satır ekler.
+    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -86,7 +87,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın topladığı tüm metni döndür.
+    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
     /// </summary>
     public string GetText()
     {
@@ -142,7 +143,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -153,7 +154,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

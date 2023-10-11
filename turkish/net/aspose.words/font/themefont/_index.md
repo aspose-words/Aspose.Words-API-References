@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFont
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu Font nesnesiyle ilişkilendirilmiş uygulanan font şemasındaki tema fontunu alır veya ayarlar.
+description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font nesne.
 type: docs
 weight: 470
 url: /tr/net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
 
-Bu Font nesnesiyle ilişkilendirilmiş, uygulanan font şemasındaki tema fontunu alır veya ayarlar.
+Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.[`Font`](../) nesne.
 
 ```csharp
 public ThemeFont ThemeFont { get; set; }
@@ -92,7 +92,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Tema dışı yazı tipi/renk adları ayarlayarak:
+// 2 - Tema dışı yazı tipi/renk adlarını ayarlayarak:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

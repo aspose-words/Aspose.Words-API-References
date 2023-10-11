@@ -3,7 +3,7 @@ title: PdfSaveOptions.PreblendImages
 second_title: Aspose.Words for .NET API Referansı
 description: PdfSaveOptions mülk. Saydam görüntülerin siyah arka plan rengiyle önceden karıştırılıp karıştırılmayacağını belirleyen bir değer alır veya ayarlar.
 type: docs
-weight: 230
+weight: 260
 url: /tr/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property
@@ -16,15 +16,15 @@ public bool PreblendImages { get; set; }
 
 ### Notlar
 
-Görüntülerin önceden karıştırılması, Adobe Reader'da PDF belgesinin görsel görünümünü iyileştirebilir ve kenar yumuşatma yapılarını kaldırabilir.
+Görüntülerin önceden harmanlanması, Adobe Reader'da PDF belgesinin görsel görünümünü iyileştirebilir ve kenar yumuşatma bozulmalarını ortadan kaldırabilir.
 
-Önceden harmanlanmış görüntüleri düzgün bir şekilde görüntülemek için, PDF görüntüleyici uygulamasının yumuşak maskeli görüntü sözlüğünde /Mat girişini desteklemesi gerekir. Ayrıca önceden karıştırılmış görüntüler PDF oluşturma performansını düşürebilir.
+Önceden harmanlanmış görüntüleri düzgün bir şekilde görüntülemek için, PDF görüntüleyici uygulamasının yumuşak maskeli görüntü sözlüğünde /Matte girişini desteklemesi gerekir. Ayrıca görüntülerin önceden harmanlanması PDF oluşturma performansını düşürebilir.
 
-Varsayılan değer`yanlış`.
+Varsayılan değer:`YANLIŞ`.
 
 ### Örnekler
 
-Bir belgeyi PDF'ye kaydederken saydam arka plana sahip görüntülerin nasıl önceden karıştırılacağını gösterir.
+Bir belgeyi PDF'ye kaydederken şeffaf arka planlı görüntülerin nasıl önceden karıştırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,19 +33,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.InsertImage(img);
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Saydam görüntüleri önceden karıştırmak için "PreblendImages" özelliğini "true" olarak ayarlayın
-// artefaktları azaltabilecek bir arka plana sahip.
-// Saydam görüntüleri normal şekilde oluşturmak için "PreblendImages" özelliğini "false" olarak ayarlayın.
+// Şeffaf görüntüleri önceden karıştırmak için "PreblendImages" özelliğini "true" olarak ayarlayın
+// artefaktları azaltabilecek bir arka plan ile.
+// Şeffaf görüntüleri normal şekilde işlemek için "PreblendImages" özelliğini "false" olarak ayarlayın.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
 ```
 
-Saydam arka planlara sahip görüntülerin nasıl önceden karıştırılacağını gösterir (.NetStandard 2.0).
+Şeffaf arka planlara sahip görsellerin nasıl önceden karıştırılacağını gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -54,13 +54,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
     builder.InsertImage(image);
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Saydam görüntüleri önceden karıştırmak için "PreblendImages" özelliğini "true" olarak ayarlayın
-// artefaktları azaltabilecek bir arka plana sahip.
-// Saydam görüntüleri normal şekilde oluşturmak için "PreblendImages" özelliğini "false" olarak ayarlayın.
+// Şeffaf görüntüleri önceden karıştırmak için "PreblendImages" özelliğini "true" olarak ayarlayın
+// artefaktları azaltabilecek bir arka plan ile.
+// Şeffaf görüntüleri normal şekilde işlemek için "PreblendImages" özelliğini "false" olarak ayarlayın.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);

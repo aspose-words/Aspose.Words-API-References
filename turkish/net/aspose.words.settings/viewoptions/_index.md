@@ -1,14 +1,16 @@
 ---
 title: Class ViewOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.ViewOptions sınıf. Bir belgenin Microsoft Wordde nasıl gösterileceğini kontrol eden çeşitli seçenekler sunar.
+description: Aspose.Words.Settings.ViewOptions sınıf. Bir belgenin Microsoft Wordde nasıl gösterileceğini kontrol eden çeşitli seçenekler sağlar.
 type: docs
-weight: 5650
+weight: 5950
 url: /tr/net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class
 
-Bir belgenin Microsoft Word'de nasıl gösterileceğini kontrol eden çeşitli seçenekler sunar.
+Bir belgenin Microsoft Word'de nasıl gösterileceğini kontrol eden çeşitli seçenekler sağlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Word Belgelerinin Seçenekleri ve Görünümüyle Çalışma](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) dokümantasyon makalesi.
 
 ```csharp
 public class ViewOptions
@@ -18,16 +20,16 @@ public class ViewOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Baskı düzeni görünümünde arka plan şeklinin görüntüsünü kontrol eder. |
+| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontrol eder. |
 | [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries/) { get; set; } | Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır. |
-| [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign/) { get; set; } | Belgenin form tasarım modunda olup olmadığını belirtir. |
-| [ViewType](../../aspose.words.settings/viewoptions/viewtype/) { get; set; } | Microsoft Word'de görüntüleme modunu kontrol eder. |
+| [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign/) { get; set; } | Belgenin form tasarımı modunda olup olmadığını belirtir. |
+| [ViewType](../../aspose.words.settings/viewoptions/viewtype/) { get; set; } | Microsoft Word'deki görüntüleme modunu kontrol eder. |
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Belgenizi görüntülemek istediğiniz yüzdeyi (10 ile 500 arasında) alır veya ayarlar. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Pencerenin boyutuna göre bir yakınlaştırma değeri alır veya ayarlar. |
 
 ### Örnekler
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulanacağı özel bir yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +45,7 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulanacağı özel bir yakınlaştırma türünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma türünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -51,11 +53,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Microsoft Word'ü almak için "ZoomType" özelliğini "ZoomType.PageWidth" olarak ayarlayın
-// belgeyi sayfanın genişliğine sığdırmak için otomatik olarak yakınlaştırmak için.
+// belgeyi sayfanın genişliğine sığacak şekilde otomatik olarak yakınlaştırmak için.
 // Microsoft Word'ü almak için "ZoomType" özelliğini "ZoomType.FullPage" olarak ayarlayın
-// ilk sayfanın tamamını görünür kılmak için belgeyi otomatik olarak yakınlaştırmak için.
+// İlk sayfanın tamamını görünür hale getirmek için belgeyi otomatik olarak yakınlaştırmak için.
 // Microsoft Word'ü almak için "ZoomType" özelliğini "ZoomType.TextFit" olarak ayarlayın
-// ilk sayfanın iç metin kenar boşluklarına sığdırmak için belgeyi otomatik olarak yakınlaştırmak için.
+// belgeyi ilk sayfanın iç metin kenar boşluklarına sığacak şekilde otomatik olarak yakınlaştırmak için.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli paragrafın içine imlecin önüne bir metin düzeyi düğümü ekler.
+description: DocumentBuilder yöntem. İmlecin önüne bir düğüm ekler.
 type: docs
-weight: 360
+weight: 390
 url: /tr/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Geçerli paragrafın içine imlecin önüne bir metin düzeyi düğümü ekler.
+İmlecin önüne bir düğüm ekler.
 
 ```csharp
 public void InsertNode(Node node)
@@ -16,7 +16,7 @@ public void InsertNode(Node node)
 
 ### Örnekler
 
-Bir belgeye bağlantılı bir görüntünün nasıl ekleneceğini gösterir.
+Bağlantılı bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Aşağıda, bir şekli gösterebilmesi için bir şekle bir resim uygulamanın iki yolu verilmiştir.
+// Aşağıda, bir şekli görüntüleyebilmesi için bir şekle uygulamanın iki yolu verilmiştir.
 // 1 - Resmi içerecek şekli ayarlayın.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
@@ -34,7 +34,7 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Formda sakladığımız her resim belgemizin boyutunu artıracaktır.
+// Şekilde sakladığımız her görsel belgemizin boyutunu artıracaktır.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
@@ -47,9 +47,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Resimlere bağlantı vermek yerden tasarruf sağlar ve daha küçük bir belgeyle sonuçlanır.
-// Ancak, belge yalnızca görüntüyü doğru olarak görüntüleyebilir.
-// görüntü dosyası, şeklin "SourceFullName" özelliğinin işaret ettiği konumda bulunur.
+// Resimlere bağlantı verilmesi yerden tasarruf sağlar ve belgenin daha küçük olmasını sağlar.
+// Ancak belge görüntüyü yalnızca doğru şekilde görüntüleyebilir
+// görüntü dosyası, şeklin "SourceFullName" özelliğinin işaret ettiği konumda mevcut.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

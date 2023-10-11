@@ -16,15 +16,15 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| folderPath | String | Klasörün yolu. |
+| folderPath | String | Klasör yolu. |
 | scanSubfolders | Boolean | Alt klasörlerin taranıp taranmayacağını belirler. |
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren bir yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Font dosyalarını içeren bir klasörden bir font kaynağı oluşturun.
+// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
@@ -55,16 +55,16 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| folderPath | String | Klasörün yolu. |
+| folderPath | String | Klasör yolu. |
 | scanSubfolders | Boolean | Alt klasörlerin taranıp taranmayacağını belirler. |
 | priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren bir yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Font dosyalarını içeren bir klasörden bir font kaynağı oluşturun.
+// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -16,11 +16,11 @@ public byte[] Thumbnail { get; set; }
 
 ### Notlar
 
-Şimdilik bu özellik yalnızca bir belge ePub'a aktarılırken kullanılır, diğer belge biçimlerinden okunmaz ve bunlara yazılmaz.
+Şimdilik bu özellik yalnızca bir belge ePub'a aktarılırken kullanılıyor, diğer belge biçimlerinden okunmuyor ve diğer belge biçimlerine yazılmıyor.
 
-Rastgele formatın görüntüsü bu özelliğe ayarlanabilir, ancak format dışa aktarma sırasında kontrol edilir. InvalidOperationException görüntü geçersizse veya biçimi, belirli belge biçimi için için desteklenmiyorsa atılır.
+İsteğe bağlı formattaki resim bu özelliğe ayarlanabilir, ancak format dışa aktarma sırasında kontrol edilir. InvalidOperationException görüntü geçersizse veya biçimi, belgenin biçimi için desteklenmiyorsa atılır.
 
-ePub yayını için yalnızca gif, jpeg ve png görüntüleri kullanılabilir.
+ePub yayını için yalnızca gif, jpeg ve png görselleri kullanılabilir.
 
 ### Örnekler
 
@@ -31,8 +31,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// "Thumbnail" özelliği eklediğimiz resim verilerini içeren bir belgeyi Epub olarak kaydedersek,
-// o belgeyi açan bir okuyucu, resmi ilk sayfadan önce görüntüleyebilir.
+// "Thumbnail" özelliği eklediğimiz görsel verilerini içeren bir dokümanı Epub olarak kaydedersek,
+// o belgeyi açan okuyucu, görüntüyü ilk sayfadan önce görüntüleyebilir.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -40,7 +40,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Bir belgenin küçük resmini çıkarabilir ve yerel dosya sistemine kaydedebiliriz.
+// Bir belgenin küçük resmini çıkartıp yerel dosya sistemine kaydedebiliriz.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

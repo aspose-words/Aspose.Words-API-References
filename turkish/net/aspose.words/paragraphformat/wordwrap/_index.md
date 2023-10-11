@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.WordWrap
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bu özellik ise yanlış Bir kelimenin ortasındaki Latince metin geçerli paragraf için sarılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
+description: ParagraphFormat mülk. Bu özellik iseYANLIŞ  Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
 type: docs
-weight: 400
+weight: 410
 url: /tr/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Bu özellik ise **yanlış** Bir kelimenin ortasındaki Latince metin, geçerli paragraf için sarılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
+Bu özellik ise`YANLIŞ` , Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
 
 ```csharp
 public bool WordWrap { get; set; }

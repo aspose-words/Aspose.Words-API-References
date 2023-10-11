@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ActiveRecord
 second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordde görüntülenecek olan veri kaynağından kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. dir
+description: MailMergeSettings mülk. Microsoft Wordde görüntülenecek veri kaynağındaki kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. dir
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Microsoft Word'de görüntülenecek olan veri kaynağından kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. 'dir
+Microsoft Word'de görüntülenecek veri kaynağındaki kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. 'dir
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -16,7 +16,7 @@ public int ActiveRecord { get; set; }
 
 ### Örnekler
 
-Harici bir veri kaynağına bağlanırken adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
-// Microsoft Word, belgeyi yüklemek için kullandığımızda artık adres mektup birleştirme gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
+// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

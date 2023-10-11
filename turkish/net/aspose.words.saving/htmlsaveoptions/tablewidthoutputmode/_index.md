@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Tablo satır ve hücre genişliklerinin HTML MHTML veya EPUBa nasıl aktarılacağını kontrol eder. Varsayılan değerAll .
+description: HtmlSaveOptions mülk. Tablo satır ve hücre genişliklerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerAll .
 type: docs
 weight: 460
 url: /tr/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-Tablo, satır ve hücre genişliklerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını kontrol eder. Varsayılan değerAll .
+Tablo, satır ve hücre genişliklerinin HTML, MHTML veya EPUB'a nasıl aktarıldığını kontrol eder. Varsayılan değer:All .
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -16,11 +16,11 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ### Notlar
 
-HTML biçiminde, tablo, satır ve hücre öğelerinde ( **&lt;tablo&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) genişlikleri göreceli (yüzde) veya mutlak birimler olarak belirtilebilir. Aspose'taki bir belgede.Words, tablolar, satırlar ve hücrelerin genişlikleri göreli veya mutlak birimler kullanılarak da belirtilebilir.
+HTML formatında tablo, satır ve hücre elemanları ( **&lt;tablo&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) 'nin genişlikleri bağıl (yüzde) veya mutlak birimlerle belirtilebilir. Aspose.Words'teki bir belgede tabloların, satırların ve hücrelerin genişlikleri göreceli veya mutlak birimler kullanılarak olarak belirtilebilir.
 
-Aspose.Words kullanarak bir belgeyi HTML'ye dönüştürdüğünüzde, elde edilen belgenin görsel ajanda (örneğin bir tarayıcı veya görüntüleyici) nasıl görüntüleneceğini etkilemek için tablo, satır ve hücre genişliklerinin nasıl dışa aktarılacağını kontrol etmek isteyebilirsiniz.
+Aspose.Words kullanarak bir belgeyi HTML'ye dönüştürdüğünüzde, ortaya çıkan belgenin görsel aracıda (örneğin bir tarayıcı veya görüntüleyici) nasıl görüntüleneceğini etkilemek için nasıl tablo, satır ve hücre genişliklerinin dışa aktarıldığını kontrol etmek isteyebilirsiniz.
 
-Hedef belgeye hangi tablo genişlik değerlerinin dışa aktarılacağını belirtmek için bu özelliği bir filtre olarak kullanın. Örneğin, bir belgeyi EPUB'a dönüştürüyorsanız ve belgeyi bir mobil okuma aygıtında görüntülemeyi düşünüyorsanız, muhtemelen bundan kaçınmak istersiniz. mutlak genişlik değerlerini dışa aktarma. Bunu yapmak için çıkış modunu belirtmeniz gerekirRelativeOnly veyaNone böylece mobil cihazdaki görüntüleyici, tabloyu olabildiğince ekranın genişliğine uyacak şekilde düzenleyebilir.
+Hedef belgeye hangi tablo genişliği değerlerinin aktarılacağını belirtmek için bu özelliği filtre olarak kullanın. Örneğin, bir belgeyi EPUB'a dönüştürüyorsanız ve belgeyi mobil bir okuma cihazında görüntülemeyi düşünüyorsanız, muhtemelen bundan kaçınmak istersiniz mutlak genişlik değerlerini dışa aktarma. Bunu yapmak için çıkış modunu belirtmeniz gerekirRelativeOnly veyaNone böylece mobil cihazdaki izleyici, tabloyu ekranın genişliğine mümkün olan en iyi şekilde uyacak şekilde düzenleyebilir.
 
 ### Örnekler
 
@@ -30,7 +30,7 @@ Hedef belgeye hangi tablo genişlik değerlerinin dışa aktarılacağını beli
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Negatif girintili bir tablo ekleyin, bu tablo onu sol sayfa sınırını geçecek şekilde sola itecektir.
+// Negatif girintili bir tablo ekleyin, bu tabloyu sol sayfa sınırının ötesine itecek.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -52,9 +52,9 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words sadece negatif girintileri koruyacak
+// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words yalnızca negatif girintileri korur
 // "AllowNegativeIndent" bayrağını ayarlarsak ilk tabloya uyguladığımız gibi
-// "true" olarak geçireceğimiz bir SaveOptions nesnesinde.
+// SaveOptions nesnesinde "true" değerine geçeceğiz.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

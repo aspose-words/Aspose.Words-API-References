@@ -16,20 +16,20 @@ public ColorMode ColorMode { get; set; }
 
 ### Notlar
 
-Varsayılan değerNormal .
+Varsayılan değer:Normal .
 
 ### Örnekler
 
-Seçenekleri kaydetme özelliği ile görüntü renginin nasıl değiştirileceğini gösterir.
+Kaydetme seçenekleri özelliğiyle görüntü renginin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
-// Belgedeki tüm görüntüleri siyah beyaz işlemek için "ColorMode" özelliğini "Gri Tonlamalı" olarak ayarlayın.
-// Çıktı belgesinin boyutu bu ayarla daha büyük olabilir.
-// Tüm görüntüleri renkli hale getirmek için "ColorMode" özelliğini "Normal" olarak ayarlayın.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgedeki tüm görüntüleri siyah beyaz oluşturmak için "ColorMode" özelliğini "Gri Tonlamalı" olarak ayarlayın.
+// Bu ayarla çıktı belgesinin boyutu daha büyük olabilir.
+// Tüm görüntüleri renkli oluşturmak için "ColorMode" özelliğini "Normal" olarak ayarlayın.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

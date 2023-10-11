@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Aşağıda, özel değerleri barkod olarak görüntülemek için BARKOD alanlarını kullanmanın iki yolu bulunmaktadır.
-// 1 - Barkodun göstereceği değeri PostalAddress özelliğinde saklayın:
+// Aşağıda özel değerleri barkod olarak görüntülemek için BARCODE alanlarını kullanmanın iki yolu verilmiştir.
+// 1 - Barkodun görüntüleyeceği değeri PostalAddress özelliğinde saklayın:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
 // Bu değerin geçerli bir posta kodu olması gerekiyor.
@@ -37,15 +37,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Bu barkodun göstereceği değeri depolayan bir yer işaretine başvurun:
+// 2 - Bu barkodun görüntüleyeceği değeri saklayan bir yer imine referans verin:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// BARKOD alanının PostalAddress özelliğinde başvurduğu yer imi
-// geçerli ZIP kodu dışında hiçbir şey içermemelidir.
+// BARCODE alanının PostalAddress özelliğinde başvurduğu yer işareti
+// geçerli posta kodu dışında hiçbir şey içermemelidir.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

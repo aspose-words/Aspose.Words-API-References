@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontOther
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu Font nesnesiyle ilişkilendirilmiş uygulanan font şemasında 128  255 arasında karakter kodlarına sahip karakterler için kullanılan tema fontunu alır veya ayarlar.
+description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karakter kodlarına sahip karakterler için kullanılan tema yazı tipini alır veya ayarlar.Font nesne.
 type: docs
 weight: 510
 url: /tr/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Bu Font nesnesiyle ilişkilendirilmiş uygulanan font şemasında 128 - 255 arasında karakter kodlarına sahip karakterler için kullanılan tema fontunu alır veya ayarlar.
+Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karakter kodlarına sahip karakterler için kullanılan tema yazı tipini alır veya ayarlar.[`Font`](../) nesne.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Tema dışı yazı tipi/renk adları ayarlayarak:
+// 2 - Tema dışı yazı tipi/renk adlarını ayarlayarak:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

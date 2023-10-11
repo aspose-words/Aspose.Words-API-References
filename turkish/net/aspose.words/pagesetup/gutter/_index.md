@@ -1,14 +1,14 @@
 ---
 title: PageSetup.Gutter
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belge bağlama için kenar boşluğuna eklenen fazladan alan miktarını alır veya ayarlar.
+description: PageSetup mülk. Belge ciltleme için kenar boşluğuna eklenen ekstra alan miktarını alır veya ayarlar.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/pagesetup/gutter/
 ---
 ## PageSetup.Gutter property
 
-Belge bağlama için kenar boşluğuna eklenen fazladan alan miktarını alır veya ayarlar.
+Belge ciltleme için kenar boşluğuna eklenen ekstra alan miktarını alır veya ayarlar.
 
 ```csharp
 public double Gutter { get; set; }
@@ -16,12 +16,12 @@ public double Gutter { get; set; }
 
 ### Örnekler
 
-Kitap katlama olarak yazdırılabilen bir belgenin nasıl yapılandırılacağını gösterir.
+Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// 16 sayfaya yayılan metin ekleyin.
+// 16 sayfaya yayılan metni ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -32,23 +32,23 @@ for (int i = 0; i < 15; i++)
 }
 
 // Belgeyi kitap katlama biçiminde yazdırmak için ilk bölümün "PageSetup" özelliğini yapılandırın.
-// Bu belgeyi her iki tarafa yazdırdığımızda, sayfaları istiflemek için alabiliriz
-// ve hepsini bir kerede ortadan katlayın. Belgenin içeriği bir kitap katlaması şeklinde sıralanacaktır.
+// Bu belgeyi her iki tarafa da yazdırdığımızda sayfaları istiflemek için alabiliriz
+// ve hepsini aynı anda ortadan katlayın. Belgenin içeriği bir kitap katlama şeklinde sıralanacaktır.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Sayfa sayısını sadece 4'ün katları olarak belirtebiliriz.
+// Sayfa sayısını yalnızca 4'ün katları olarak belirtebiliriz.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ```
 
-Oluk kenar boşluklarının nasıl ayarlanacağını gösterir.
+Cilt payı marjlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Birkaç sayfaya yayılan metin ekleyin.
+// Birkaç sayfaya yayılan metni ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -57,16 +57,16 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Bir cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluk ekler,
+// Cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
 // bu, sayfa düzenini ihlal eden bir kitaptaki sayfaların ortadan katlanmasını telafi eder.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
- // Sayfalarımızın kenar boşlukları içinde metin için ne kadar alana sahip olduğunu belirleyin ve ardından bir kenar boşluğunu doldurmak için bir miktar ekleyin.
+// Sayfalarımızın kenar boşluklarında metin için ne kadar alana sahip olduğunu belirleyin ve ardından kenar boşluğunu doldurmak için bir miktar ekleyin.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Sağdan sola yazılan metin için cilt payını daha uygun bir konuma yerleştirmek için "RtlGutter" özelliğini "true" olarak ayarlayın.
+// Sağdan sola metin için cilt payını daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
 pageSetup.RtlGutter = true;
 
 // Alternatif olarak "MultiplePages" özelliğini "MultiplePagesType.MirrorMargins" olarak ayarlayın
