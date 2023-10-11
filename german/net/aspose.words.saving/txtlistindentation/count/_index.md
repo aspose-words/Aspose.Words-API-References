@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation.Count
 second_title: Aspose.Words für .NET-API-Referenz
-description: TxtListIndentation eigendom. Ruft ab oder setzt wie vieleCharacter als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0 dh keine Einrückung.
+description: TxtListIndentation eigendom. Ruft ab oder legt fest wie vieleCharacter als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0 das bedeutet keine Einrückung.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-Ruft ab oder setzt wie viele[`Character`](../character/) als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0, dh keine Einrückung.
+Ruft ab oder legt fest, wie viele[`Character`](../character/) als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0, das bedeutet keine Einrückung.
 
 ```csharp
 public int Count { get; set; }
@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### Beispiele
 
-Zeigt, wie der Listeneinzug beim Speichern eines Dokuments im Klartext konfiguriert wird.
+Zeigt, wie die Listeneinrückung beim Speichern eines Dokuments im Klartext konfiguriert wird.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Legen Sie die "Character"-Eigenschaft fest, um ein zu verwendendes Zeichen zuzuweisen
-// für Padding, das Listeneinrückung im Klartext simuliert.
+// Legen Sie die Eigenschaft „Character“ fest, um ein zu verwendendes Zeichen zuzuweisen
+// zum Auffüllen, das die Einrückung von Listen im Klartext simuliert.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Legen Sie die Eigenschaft "Count" fest, um die Anzahl der Male anzugeben
-// zum Platzieren des Füllzeichens für jede Einrückungsebene der Liste.
+// Legen Sie die Eigenschaft „Count“ fest, um die Häufigkeit anzugeben
+// um das Füllzeichen für jede Listeneinrückungsebene zu platzieren.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

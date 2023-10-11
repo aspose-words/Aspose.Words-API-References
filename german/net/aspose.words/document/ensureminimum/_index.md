@@ -3,7 +3,7 @@ title: Document.EnsureMinimum
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document methode. Wenn das Dokument keine Abschnitte enthält wird ein Abschnitt mit einem Absatz erstellt.
 type: docs
-weight: 560
+weight: 600
 url: /de/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -16,11 +16,11 @@ public void EnsureMinimum()
 
 ### Beispiele
 
-Zeigt, wie sichergestellt wird, dass ein Dokument den minimalen Satz von Knoten enthält, der zum Bearbeiten seines Inhalts erforderlich ist.
+Zeigt, wie sichergestellt wird, dass ein Dokument die minimale Menge an Knoten enthält, die zum Bearbeiten seines Inhalts erforderlich sind.
 
 ```csharp
-// Ein neu erstelltes Dokument enthält einen untergeordneten Abschnitt, der einen untergeordneten Hauptteil und einen untergeordneten Absatz enthält.
-// Wir können den Inhalt des Dokumentkörpers bearbeiten, indem wir Knoten wie Runs oder Inline-Shapes zu diesem Absatz hinzufügen.
+// Ein neu erstelltes Dokument enthält einen untergeordneten Abschnitt, der einen untergeordneten Textkörper und einen untergeordneten Absatz enthält.
+// Wir können den Inhalt des Dokumentkörpers bearbeiten, indem wir diesem Absatz Knoten wie Runs oder Inline-Shapes hinzufügen.
 Document doc = new Document();
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 
@@ -33,7 +33,7 @@ Assert.AreEqual(nodes[0], nodes[1].ParentNode);
 Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 Assert.AreEqual(nodes[1], nodes[2].ParentNode);
 
-// Dies ist die minimale Anzahl von Knoten, die wir benötigen, um das Dokument bearbeiten zu können.
+// Dies ist die minimale Menge an Knoten, die wir benötigen, um das Dokument bearbeiten zu können.
 // Wir können das Dokument nicht mehr bearbeiten, wenn wir eines davon entfernen.
 doc.RemoveAllChildren();
 

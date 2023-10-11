@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
 second_title: Aspose.Words für .NET-API-Referenz
-description: ThumbnailGeneratingOptions eigendom. Größe des generierten Thumbnails in Pixel. Standard ist 600x900.
+description: ThumbnailGeneratingOptions eigendom. Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-Größe des generierten Thumbnails in Pixel. Standard ist 600x900.
+Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -26,11 +26,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Es gibt zwei Möglichkeiten, ein Miniaturbild festzulegen, wenn ein Dokument im .epub-Format gespeichert wird.
-// 1 - Verwenden Sie die erste Seite des Dokuments:
+// 1 – Die erste Seite des Dokuments verwenden:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Verwenden Sie das erste im Dokument gefundene Bild:
+// 2 – Das erste im Dokument gefundene Bild verwenden:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

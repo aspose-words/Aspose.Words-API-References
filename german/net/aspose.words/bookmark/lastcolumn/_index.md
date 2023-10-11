@@ -16,25 +16,25 @@ public int LastColumn { get; }
 
 ### Bemerkungen
 
-gibt zurück **-1** wenn dieses Lesezeichen kein Tabellenspalten-Lesezeichen ist.
+Gibt zurück **-1** wenn dieses Lesezeichen kein Tabellenspalten-Lesezeichen ist.
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Tabellenspalten-Lesezeichen abgerufen werden.
+Zeigt, wie Sie Informationen zu Tabellenspalten-Lesezeichen erhalten.
 
 ```csharp
 Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Wenn ein Lesezeichen Spalten einer Tabelle umschließt, ist es ein Tabellenspalten-Lesezeichen und sein IsColumn-Flag ist auf wahr gesetzt.
+    // Wenn ein Lesezeichen Spalten einer Tabelle einschließt, handelt es sich um ein Tabellenspalten-Lesezeichen und sein IsColumn-Flag ist auf „true“ gesetzt.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {
         if (bookmark.BookmarkStart.GetAncestor(NodeType.Row) is Row row &&
             bookmark.FirstColumn < row.Cells.Count)
         {
-            // Gibt den Inhalt der ersten und letzten Spalte aus, die vom Lesezeichen eingeschlossen sind.
+            // Den Inhalt der ersten und letzten Spalte drucken, die vom Lesezeichen eingeschlossen sind.
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
             Console.WriteLine(row.Cells[bookmark.LastColumn].GetText().TrimEnd(ControlChar.CellChar));
         }

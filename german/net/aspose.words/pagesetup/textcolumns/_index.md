@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 second_title: Aspose.Words für .NET-API-Referenz
 description: PageSetup eigendom. Gibt eine Sammlung zurück die den Satz von Textspalten darstellt.
 type: docs
-weight: 410
+weight: 420
 url: /de/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property
@@ -16,7 +16,7 @@ public TextColumnCollection TextColumns { get; }
 
 ### Beispiele
 
-Zeigt, wie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellt werden.
+Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AutoSpaceLikeWord95
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Word 95 Zeichenabstand in voller Breite emulieren.
+description: CompatibilityOptions eigendom. Word 95Zeichenabstand in voller Breite emulieren.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
 ## CompatibilityOptions.AutoSpaceLikeWord95 property
 
-Word 95 Zeichenabstand in voller Breite emulieren.
+Word 95-Zeichenabstand in voller Breite emulieren.
 
 ```csharp
 public bool AutoSpaceLikeWord95 { get; set; }

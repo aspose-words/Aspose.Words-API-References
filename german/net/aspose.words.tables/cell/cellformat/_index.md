@@ -23,7 +23,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Verwenden Sie die "CellFormat"-Eigenschaft einer Zelle, um eine Formatierung festzulegen, die das Erscheinungsbild dieser Zelle ändert.
+// Verwenden Sie die Eigenschaft „CellFormat“ einer Zelle, um eine Formatierung festzulegen, die das Erscheinungsbild dieser Zelle ändert.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -36,18 +36,18 @@ Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Im Folgenden finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
-// 1 - Aus der "Tables"-Sammlung eines Body-Knotens:
+// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument abzurufen.
+// 1 – Aus der „Tables“-Sammlung eines Body-Knotens:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Verwendung der "GetChild"-Methode:
+// 2 - Verwendung der Methode „GetChild“:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Alle Zeilen der aktuellen Tabelle an die nächste anhängen.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Entferne den leeren Tabellencontainer.
+// Den leeren Tabellencontainer entfernen.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
@@ -71,13 +71,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die "RowFormat"-Eigenschaft der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Verwenden Sie die Eigenschaft "CellFormat" der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
+// Verwenden Sie die Eigenschaft „CellFormat“ der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

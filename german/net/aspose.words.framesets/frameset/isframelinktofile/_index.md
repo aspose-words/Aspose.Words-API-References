@@ -1,14 +1,14 @@
 ---
 title: Frameset.IsFrameLinkToFile
 second_title: Aspose.Words für .NET-API-Referenz
-description: Frameset eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob die in the angegebene Webseite oder der Dateiname des DokumentsFrameDefaultUrl Eigenschaft ist eine externe Ressource mit der der Frame verknüpft ist.
+description: Frameset eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der in the angegebene Webseiten oder Dokumentdateiname verwendet wird.FrameDefaultUrl Eigenschaft ist eine externe Ressource mit der der Frame verknüpft ist.
 type: docs
 weight: 40
 url: /de/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die in the angegebene Webseite oder der Dateiname des Dokuments[`FrameDefaultUrl`](../framedefaulturl/) Eigenschaft ist eine externe Ressource, mit der der Frame verknüpft ist.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob der in the angegebene Webseiten- oder Dokumentdateiname verwendet wird.[`FrameDefaultUrl`](../framedefaulturl/) Eigenschaft ist eine externe Ressource, mit der der Frame verknüpft ist.
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }
@@ -16,13 +16,13 @@ public bool IsFrameLinkToFile { get; set; }
 
 ### Beispiele
 
-Zeigt, wie auf Frames auf der Seite zugegriffen wird.
+Zeigt, wie man auf Frames auf der Seite zugreift.
 
 ```csharp
 // Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) prüfen oder ob der Frame eine externe Ressource ist.
+// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.TextOutputMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: SvgSaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt wie Text in SVG gerendert werden soll.
+description: SvgSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie Text in SVG gerendert werden soll.
 type: docs
 weight: 90
 url: /de/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-Ruft einen Wert ab oder legt ihn fest, der bestimmt, wie Text in SVG gerendert werden soll.
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie Text in SVG gerendert werden soll.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -16,7 +16,7 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### Bemerkungen
 
-Verwenden Sie diese Eigenschaft, um den Modus abzurufen oder festzulegen, wie Text in einem Dokument beim Speichern im SVG-Format gerendert werden soll.
+Verwenden Sie diese Eigenschaft, um den Modus abzurufen oder festzulegen, wie Text in einem Dokument beim Speichern im SVG-Format gerendert werden soll .
 
 Der Standardwert istUseTargetMachineFonts.
 
@@ -27,7 +27,7 @@ Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurieren Sie das SvgSaveOptions-Objekt so, dass es ohne Seitenränder oder auswählbaren Text gespeichert wird.
+// Konfigurieren Sie das SVGSaveOptions-Objekt zum Speichern ohne Seitenränder oder auswählbaren Text.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

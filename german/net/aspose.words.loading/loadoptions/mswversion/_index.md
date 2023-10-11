@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.MswVersion
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ermöglicht die Angabe dass der Dokumentladeprozess mit einer bestimmten MS WordVersion übereinstimmen soll. Der Standardwert istWord2019
+description: LoadOptions eigendom. Ermöglicht die Angabe dass der Dokumentladevorgang mit einer bestimmten MS WordVersion übereinstimmen soll. Der Standardwert istWord2019
 type: docs
 weight: 100
 url: /de/net/aspose.words.loading/loadoptions/mswversion/
 ---
 ## LoadOptions.MswVersion property
 
-Ermöglicht die Angabe, dass der Dokumentladeprozess mit einer bestimmten MS Word-Version übereinstimmen soll. Der Standardwert istWord2019
+Ermöglicht die Angabe, dass der Dokumentladevorgang mit einer bestimmten MS Word-Version übereinstimmen soll. Der Standardwert istWord2019
 
 ```csharp
 public MsWordVersion MswVersion { get; set; }
@@ -16,11 +16,11 @@ public MsWordVersion MswVersion { get; set; }
 
 ### Bemerkungen
 
-Unterschiedliche Word-Versionen handhaben möglicherweise bestimmte Aspekte des Dokumentinhalts und die Formatierung während des Ladevorgangs leicht unterschiedlich , was zu geringfügigen Unterschieden im Dokumentobjektmodell führen kann.
+Unterschiedliche Word-Versionen behandeln möglicherweise bestimmte Aspekte des Dokumentinhalts und der Formatierung während des Ladevorgangs geringfügig unterschiedlich , was zu geringfügigen Unterschieden im Dokumentobjektmodell führen kann.
 
 ### Beispiele
 
-Zeigt, wie der Ladevorgang einer bestimmten Microsoft Word-Version beim Laden von Dokumenten emuliert wird.
+Zeigt, wie der Ladevorgang einer bestimmten Microsoft Word-Version beim Laden eines Dokuments emuliert wird.
 
 ```csharp
 // Standardmäßig lädt Aspose.Words Dokumente gemäß der Microsoft Word 2019-Spezifikation.

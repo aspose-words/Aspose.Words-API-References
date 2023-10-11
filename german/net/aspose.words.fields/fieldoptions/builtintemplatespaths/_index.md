@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft Pfade von in MS Word integrierten Vorlagen ab oder legt sie fest.
+description: FieldOptions eigendom. Ruft Pfade der in MS Word integrierten Vorlagen ab oder legt diese fest.
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
 
-Ruft Pfade von in MS Word integrierten Vorlagen ab oder legt sie fest.
+Ruft Pfade der in MS Word integrierten Vorlagen ab oder legt diese fest.
 
 ```csharp
 public string[] BuiltInTemplatesPaths { get; set; }
@@ -16,18 +16,18 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wird von der verwendet[`FieldAutoText`](../../fieldautotext/) und[`FieldGlossary`](../../fieldglossary/) Felder, wenn die referenzierte automatische Texteingabe nicht in der gefunden wird[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) Schablone.
+Diese Eigenschaft wird von verwendet[`FieldAutoText`](../../fieldautotext/) Und[`FieldGlossary`](../../fieldglossary/) Felder, wenn der referenzierte automatische Texteintrag nicht im gefunden wird[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) Vorlage.
 
-Standardmäßig speichert MS Word integrierte Vorlagen in c:\Users\&lt;Benutzername&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;Benutzername&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm-Dateien.
+Standardmäßig speichert MS Word integrierte Vorlagen in c:\Benutzer\&lt;Benutzername&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx und C:\Benutzer\&lt;Benutzername&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm-Dateien.
 
 ### Beispiele
 
-Zeigt, wie ein Baustein mit AUTOTEXT- und GLOSSAR-Feldern angezeigt wird.
+Zeigt, wie ein Baustein mit den Feldern AUTOTEXT und GLOSSARY angezeigt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein Glossardokument und fügen Sie ihm einen AutoText-Baustein hinzu.
+// Ein Glossardokument erstellen und einen AutoText-Baustein hinzufügen.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -37,7 +37,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Erstellen Sie eine Quelle und fügen Sie sie unserem Baustein als Text hinzu.
+// Erstelle eine Quelle und füge sie als Text zu unserem Baustein hinzu.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -50,14 +50,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, Felder zu verwenden, um den Inhalt unseres Bausteins anzuzeigen.
-// 1 - Verwenden eines AUTOTEXT-Felds:
+// Nachfolgend finden Sie zwei Möglichkeiten, Felder zum Anzeigen des Inhalts unseres Bausteins zu verwenden.
+// 1 - Verwendung eines AUTOTEXT-Feldes:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Verwenden eines GLOSSAR-Felds:
+// 2 - Verwendung eines GLOSSARY-Felds:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

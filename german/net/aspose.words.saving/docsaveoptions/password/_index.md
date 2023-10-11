@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.Password
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocSaveOptions eigendom. Ruft ein Passwort ab/legt es fest um das Dokument mit der RC4Verschlüsselungsmethode zu verschlüsseln.
+description: DocSaveOptions eigendom. Ruft ein Passwort ab bzw. legt es fest um das Dokument mit der RC4Verschlüsselungsmethode zu verschlüsseln.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/docsaveoptions/password/
 ---
 ## DocSaveOptions.Password property
 
-Ruft ein Passwort ab/legt es fest, um das Dokument mit der RC4-Verschlüsselungsmethode zu verschlüsseln.
+Ruft ein Passwort ab bzw. legt es fest, um das Dokument mit der RC4-Verschlüsselungsmethode zu verschlüsseln.
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Bemerkungen
 
-Um das Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft null oder eine leere Zeichenfolge sein.
+Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
 
 ### Beispiele
 
@@ -33,7 +33,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Verteiler enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

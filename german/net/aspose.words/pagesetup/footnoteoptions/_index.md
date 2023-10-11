@@ -1,14 +1,14 @@
 ---
 title: PageSetup.FootnoteOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Stellt Optionen bereit die die Nummerierung und Positionierung von Fußnoten in diesem Abschnitt steuern.
+description: PageSetup eigendom. Bietet Optionen zur Steuerung der Nummerierung und Positionierung von Fußnoten in diesem Abschnitt.
 type: docs
 weight: 150
 url: /de/net/aspose.words/pagesetup/footnoteoptions/
 ---
 ## PageSetup.FootnoteOptions property
 
-Stellt Optionen bereit, die die Nummerierung und Positionierung von Fußnoten in diesem Abschnitt steuern.
+Bietet Optionen zur Steuerung der Nummerierung und Positionierung von Fußnoten in diesem Abschnitt.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -25,8 +25,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// Konfigurieren Sie alle Fußnoten im ersten Abschnitt, um die Nummerierung wieder bei 1 zu beginnen
-// auf jeder neuen Seite und zeigen sich auf jeder Seite direkt unter dem Text an.
+// Alle Fußnoten im ersten Abschnitt so konfigurieren, dass die Nummerierung bei 1 beginnt
+// auf jeder neuen Seite und werden auf jeder Seite direkt unter dem Text angezeigt.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
@@ -35,8 +35,8 @@ footnoteOptions.StartNumber = 1;
 builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
-// Alle Endnoten im ersten Abschnitt konfigurieren, um eine kontinuierliche Zählung im gesamten Abschnitt beizubehalten,
-// beginnend bei 1. Stellen Sie außerdem ein, dass alle gesammelt am Ende des Dokuments angezeigt werden.
+// Konfigurieren Sie alle Endnoten im ersten Abschnitt, um eine kontinuierliche Zählung im gesamten Abschnitt aufrechtzuerhalten.
+// beginnend bei 1. Legen Sie außerdem fest, dass alle am Ende des Dokuments gesammelt angezeigt werden.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

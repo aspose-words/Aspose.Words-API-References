@@ -1,14 +1,14 @@
 ---
 title: FieldAsk.PromptText
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAsk eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt ihn fest.
+description: FieldAsk eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt diesen fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldask/prompttext/
 ---
 ## FieldAsk.PromptText property
 
-Ruft den Eingabeaufforderungstext (den Titel des Eingabeaufforderungsfensters) ab oder legt ihn fest.
+Ruft den Eingabeaufforderungstext (den Titel des Eingabeaufforderungsfensters) ab oder legt diesen fest.
 
 ```csharp
 public string PromptText { get; set; }
@@ -19,7 +19,6 @@ public string PromptText { get; set; }
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -32,7 +31,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld mit dem Namen des Lesezeichens zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -44,7 +43,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK-Felder wenden die Standardantwort während eines Seriendrucks auf ihre jeweiligen REF-Felder an.
+    // ASK-Felder wenden während eines Seriendrucks die Standardantwort auf ihre jeweiligen REF-Felder an.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -53,16 +52,17 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben,
-    // die während eines Seriendrucks auftreten.
+    // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
+    // was während eines Seriendrucks auftreten wird.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
-/// Stellt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

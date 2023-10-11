@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToString
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty methode. Gibt den Eigenschaftswert als Zeichenfolge zurück die gemäß dem aktuellen Gebietsschema formatiert ist.
+description: DocumentProperty methode. Gibt den Eigenschaftswert als Zeichenfolge zurück die entsprechend dem aktuellen Gebietsschema formatiert ist.
 type: docs
 weight: 110
 url: /de/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-Gibt den Eigenschaftswert als Zeichenfolge zurück, die gemäß dem aktuellen Gebietsschema formatiert ist.
+Gibt den Eigenschaftswert als Zeichenfolge zurück, die entsprechend dem aktuellen Gebietsschema formatiert ist.
 
 ```csharp
 public override string ToString()
@@ -16,11 +16,11 @@ public override string ToString()
 
 ### Bemerkungen
 
-Konvertiert eine boolesche Eigenschaft in "Y" oder "N". Konvertiert eine Datumseigenschaft in einen kurzen Datumsstring. Konvertiert für alle anderen Typen eine Eigenschaft mit Object.ToString().
+Konvertiert eine boolesche Eigenschaft in „Y“ oder „N“. Konvertiert eine Datumseigenschaft in eine kurze Datumszeichenfolge. Konvertiert bei allen anderen Typen eine Eigenschaft mithilfe von Object.ToString().
 
 ### Beispiele
 
-Zeigt verschiedene Typkonvertierungsmethoden von benutzerdefinierten Dokumenteigenschaften.
+Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
 
 ```csharp
 Document doc = new Document();
@@ -40,13 +40,13 @@ Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
 Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
-Zeigt, wie Sie mit benutzerdefinierten Dokumenteigenschaften arbeiten.
+Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Jedes Dokument enthält eine Sammlung benutzerdefinierter Eigenschaften, die wie die integrierten Eigenschaften Schlüssel-Wert-Paare sind.
-// Das Dokument hat eine feste Liste eingebauter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften. 
+ // Das Dokument verfügt über eine feste Liste integrierter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

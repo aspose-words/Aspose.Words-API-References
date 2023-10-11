@@ -1,14 +1,16 @@
 ---
 title: Class FieldArgumentBuilder
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldArgumentBuilder klas. Erstellt ein komplexes Feldargument das aus Feldern Knoten und Klartext besteht.
+description: Aspose.Words.Fields.FieldArgumentBuilder klas. Erstellt ein komplexes Feldargument bestehend aus Feldern Knoten und einfachem Text.
 type: docs
-weight: 1400
+weight: 1550
 url: /de/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
 
-Erstellt ein komplexes Feldargument, das aus Feldern, Knoten und Klartext besteht.
+Erstellt ein komplexes Feldargument bestehend aus Feldern, Knoten und einfachem Text.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldArgumentBuilder
@@ -24,19 +26,19 @@ public class FieldArgumentBuilder
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Fügt ein Feld hinzu, das durch a dargestellt wird[`FieldBuilder`](../fieldbuilder/) zum argument. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Fügt ein durch a dargestelltes Feld hinzu[`FieldBuilder`](../fieldbuilder/) zum Argument. |
 | [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Fügt dem Argument einen Knoten hinzu. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Fügt dem Argument einen Klartext hinzu. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Fügt dem Argument einen einfachen Text hinzu. |
 
 ### Beispiele
 
-Zeigt, wie Felder mit einem Feldgenerator erstellt und dann in das Dokument eingefügt werden.
+Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 
-// Unten sind drei Beispiele für die Feldkonstruktion mit einem Feldgenerator.
-// 1 - Einzelfeld:
+// Nachfolgend finden Sie drei Beispiele für die Feldkonstruktion, die mit einem Feld-Builder durchgeführt wurde.
+// 1 - Einzelnes Feld:
 // Verwenden Sie einen Feldgenerator, um ein SYMBOL-Feld hinzuzufügen, das das Symbol ƒ (Florin) anzeigt.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
@@ -48,27 +50,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Verschachteltes Feld:
-// Verwenden Sie einen Feldgenerator, um ein Formelfeld zu erstellen, das von einem anderen Feldgenerator als inneres Feld verwendet wird.
+// Verwenden Sie einen Feld-Builder, um ein Formelfeld zu erstellen, das von einem anderen Feld-Builder als inneres Feld verwendet wird.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Einen weiteren Builder für ein weiteres SYMBOL-Feld erstellen und das Formelfeld einfügen
- // die wir oben erstellt haben, in das Feld SYMBOL als Argument.
+// Einen weiteren Builder für ein anderes SYMBOL-Feld erstellen und das Formelfeld einfügen
+ // das wir oben erstellt haben, als Argument in das SYMBOL-Feld ein.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Das äußere Feld SYMBOL verwendet das Ergebnis des Formelfelds, 174, als Argument,
+// Das äußere SYMBOL-Feld verwendet das Formelfeldergebnis 174 als Argument.
 // wodurch das Feld das Symbol ® (Registered Sign) anzeigt, da seine Zeichennummer 174 ist.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Mehrere verschachtelte Felder und Argumente:
-// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt,
-// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen True/False-Wert zu erhalten
-// die bestimmt, welche Zeichenfolge das IF-Feld anzeigt, testet das IF-Feld zwei numerische Ausdrücke auf Gleichheit.
-// Wir werden die beiden Ausdrücke in Form von Formelfeldern bereitstellen, die wir innerhalb des IF-Felds verschachteln.
+// 3 – Mehrere verschachtelte Felder und Argumente:
+// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt.
+// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen wahren/falschen Wert zu erhalten
+// das bestimmt, welche Zeichenfolge das IF-Feld anzeigt. Das IF-Feld prüft zwei numerische Ausdrücke auf Gleichheit.
+// Wir stellen die beiden Ausdrücke in Form von Formelfeldern bereit, die wir im IF-Feld verschachteln.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -79,8 +81,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Als Nächstes erstellen wir zwei Feldargumente, die als Wahr/Falsch-Ausgabestrings für das IF-Feld dienen.
-// Diese Argumente werden die Ausgabewerte unserer numerischen Ausdrücke wiederverwenden.
+// Als nächstes erstellen wir zwei Feldargumente, die als True/False-Ausgabezeichenfolgen für das IF-Feld dienen.
+// Diese Argumente verwenden die Ausgabewerte unserer numerischen Ausdrücke wieder.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -91,7 +93,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Schließlich erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
+ // Abschließend erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

@@ -16,19 +16,19 @@ public void ClearFormatting()
 
 ### Beispiele
 
-Zeigt, wie alle Rahmen von allen Absätzen in einem Dokument entfernt werden.
+Zeigt, wie alle Ränder aus allen Absätzen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Der erste Absatz dieses Dokuments hat mit diesen Einstellungen sichtbare Ränder.
+// Der erste Absatz dieses Dokuments hat sichtbare Ränder mit diesen Einstellungen.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Verwenden Sie die Methode "ClearFormatting" für jeden Absatz, um alle Rahmen zu entfernen.
+// Verwenden Sie die Methode „ClearFormatting“ für jeden Absatz, um alle Ränder zu entfernen.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

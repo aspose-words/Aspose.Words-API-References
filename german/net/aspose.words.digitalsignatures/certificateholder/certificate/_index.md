@@ -1,14 +1,14 @@
 ---
 title: CertificateHolder.Certificate
 second_title: Aspose.Words für .NET-API-Referenz
-description: CertificateHolder eigendom. Gibt die Instanz von zurück X509Zertifikat2 die private öffentliche Schlüssel und Zertifikatskette enthält.
+description: CertificateHolder eigendom. Gibt die Instanz von zurück X509Zertifikat2 das private öffentliche Schlüssel und die Zertifikatskette enthält.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Gibt die Instanz von zurück **X509Zertifikat2** die private, öffentliche Schlüssel und Zertifikatskette enthält.
+Gibt die Instanz von zurück **X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält.
 
 ```csharp
 public X509Certificate2 Certificate { get; }

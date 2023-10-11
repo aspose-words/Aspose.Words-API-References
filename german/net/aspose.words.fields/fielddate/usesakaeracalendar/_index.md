@@ -16,21 +16,21 @@ public bool UseSakaEraCalendar { get; set; }
 
 ### Beispiele
 
-Zeigt, wie DATE-Felder verwendet werden, um Datumsangaben gemäß verschiedener Arten von Kalendern anzuzeigen.
+Zeigt, wie DATE-Felder verwendet werden, um Daten gemäß verschiedenen Kalenderarten anzuzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn wir möchten, dass der Text im Dokument immer das richtige Datum anzeigt, können wir ein DATE-Feld verwenden.
-// Nachfolgend sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld verwenden kann, um ein Datum anzuzeigen.
+// Unten sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld zur Anzeige eines Datums verwenden kann.
 // 1 - Islamischer Mondkalender:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - Umm al-Qura Kalender:
+// 2 - Umm al-Qura-Kalender:
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
@@ -42,8 +42,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Fügen Sie ein DATE-Feld ein und setzen Sie seinen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten.
-// In Microsoft Word ist der Typ der zuletzt verwendete in der Insert -> Text -> Dialogfeld Datum und Uhrzeit.
+// Ein DATE-Feld einfügen und seinen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten festlegen.
+// In Microsoft Word ist der Typ der zuletzt im Einfügen -> verwendete Typ. Text -> Dialogfeld „Datum und Uhrzeit“.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

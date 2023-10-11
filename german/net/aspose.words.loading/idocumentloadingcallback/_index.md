@@ -1,14 +1,14 @@
 ---
 title: Interface IDocumentLoadingCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.IDocumentLoadingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass Ihre eigene benutzerdefinierte Methode beim Laden eines Dokuments aufgerufen wird.
+description: Aspose.Words.Loading.IDocumentLoadingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass beim Laden eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird.
 type: docs
-weight: 3430
+weight: 3630
 url: /de/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass Ihre eigene benutzerdefinierte Methode beim Laden eines Dokuments aufgerufen wird.
+Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass beim Laden eines Dokuments Ihre eigene benutzerdefinierte Methode aufgerufen wird.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -25,7 +25,6 @@ public interface IDocumentLoadingCallback
 Zeigt, wie der Benutzer benachrichtigt wird, wenn das Laden des Dokuments die erwartete Ladezeit überschreitet.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -45,7 +44,7 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// Brechen Sie das Laden eines Dokuments nach "MaxDuration" Sekunden ab.
+/// Das Laden eines Dokuments nach den „MaxDuration“-Sekunden abbrechen.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
@@ -60,7 +59,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Callback-Methode, die beim Laden des Dokuments aufgerufen wurde.
     /// </summary>
-    /// <param name="args">Lade Argumente.</param>
+    /// <param name="args">Argumente werden geladen.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -76,7 +75,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal erlaubte Dauer in Sek.
+    /// Maximal zulässige Dauer in Sekunden.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

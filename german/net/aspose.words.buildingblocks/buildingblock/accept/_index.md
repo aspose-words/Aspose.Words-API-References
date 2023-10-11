@@ -20,21 +20,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 Anrufe[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , ruft dann auf[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Knoten dieses Bausteins, ruft dann auf[`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
-Hinweis: Ein Bausteinknoten und seine Kinder werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../../aspose.words/document/) Wenn Sie einen Besucher über einen -Baustein ausführen möchten, müssen Sie den Besucher über ausführen[`GlossaryDocument`](../../glossarydocument/) or anrufen`Accept` .
+Hinweis: Ein Bausteinknoten und seine untergeordneten Knoten werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../../aspose.words/document/) . Wenn Sie einen Besucher über einen -Baustein ausführen möchten, müssen Sie den Besucher über ausführen[`GlossaryDocument`](../../glossarydocument/) or Anruf`Accept` .
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument einen benutzerdefinierten Baustein hinzufügen.
+Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
 ```csharp
 public void CreateAndInsert()
@@ -52,31 +52,30 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert zuweisen.
+    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert geben.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Die folgenden Eigenschaften kategorisieren Bausteine
-    // im Menü können wir in Microsoft Word über "Einfügen" -> "Schnelle Teile" -> "Baustein-Organizer".
+    // in das Menü gelangen wir in Microsoft Word über „Einfügen“ -> „Schnellteile“ -> „Baustein-Organizer“.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
     // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einige Inhalte geben,
-    // was wir mit einem Dokumentenbesucher tun werden. Dieser Besucher legt auch eine Kategorie, eine Galerie und ein Verhalten fest.
+    // was wir mit einem Dokumentbesucher tun werden. Dieser Besucher legt außerdem eine Kategorie, eine Galerie und ein Verhalten fest.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
-    // Wir können auf den Block zugreifen, den wir gerade aus dem Glossardokument erstellt haben.
+    // Wir können über das Glossardokument auf den Block zugreifen, den wir gerade erstellt haben.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Der Block selbst ist ein Abschnitt, der den Text enthält.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Jetzt können wir es als neuen Abschnitt in das Dokument einfügen.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
@@ -85,7 +84,7 @@ public void CreateAndInsert()
 }
 
 /// <summary>
-/// Richtet einen besuchten Baustein ein, der als schneller Teil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
+/// Richtet einen besuchten Baustein ein, der als Schnellteil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -97,14 +96,14 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die von Building Blocks Organizer verwendet werden.
+        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Abschnitt mit Text hinzufügen.
+        // Einen Abschnitt mit Text hinzufügen.
         // Durch das Einfügen des Blocks in das Dokument wird dieser Abschnitt mit seinen untergeordneten Knoten an der Position angehängt.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);

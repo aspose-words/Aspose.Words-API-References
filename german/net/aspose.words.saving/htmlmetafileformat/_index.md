@@ -3,7 +3,7 @@ title: Enum HtmlMetafileFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.HtmlMetafileFormat opsomming. Gibt das Format an in dem Metadateien in HTMLDokumenten gespeichert werden.
 type: docs
-weight: 4830
+weight: 5090
 url: /de/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
@@ -19,7 +19,7 @@ public enum HtmlMetafileFormat
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Png | `0` | Metadateien werden in Raster-PNG-Bilder gerendert. |
-| Svg | `1` | Metadateien werden in SVG-Vektorbilder konvertiert. |
+| Svg | `1` | Metadateien werden in Vektor-SVG-Bilder konvertiert. |
 | EmfOrWmf | `2` | Metadateien werden unverändert gespeichert, ohne Konvertierung. |
 
 ### Beispiele
@@ -34,7 +34,7 @@ string html =
         </svg>
     </html>";
 
-// Verwenden Sie 'ConvertSvgToEmf', um das Legacy-Verhalten umzukehren
+// „ConvertSvgToEmf“ verwenden, um das alte Verhalten umzukehren
 // wo alle aus einem HTML-Dokument geladenen SVG-Bilder in EMF konvertiert wurden.
 // Jetzt werden SVG-Bilder ohne Konvertierung geladen
 // wenn die in den Ladeoptionen angegebene MS Word-Version SVG-Bilder nativ unterstützt.
@@ -44,10 +44,10 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), load
 
 // Dieses Dokument enthält ein <svg> Element in Form von Text.
 // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben
-// um zu bestimmen, wie die Speicheroperation dieses Objekt handhabt.
-// Festlegen der Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.Png", um es in ein PNG-Bild zu konvertieren.
-// Wenn Sie die Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.Svg" setzen, bleibt es als SVG-Objekt erhalten.
-// Festlegen der Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.EmfOrWmf", um sie in eine Metadatei zu konvertieren.
+// um zu bestimmen, wie der Speichervorgang dieses Objekt behandelt.
+// Die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.Png“ setzen, um es in ein PNG-Bild zu konvertieren.
+// Wenn Sie die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.Svg“ setzen, bleibt es als SVG-Objekt erhalten.
+// Die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.EmfOrWmf“ setzen, um sie in eine Metadatei zu konvertieren.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);

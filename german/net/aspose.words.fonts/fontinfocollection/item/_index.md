@@ -16,11 +16,11 @@ public FontInfo this[string name] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| name | Name der Schriftart, die gesucht werden soll, ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| name | Der Name der Schriftart, nach der gesucht werden soll, unterscheidet nicht zwischen Groß- und Kleinschreibung. |
 
 ### Beispiele
 
-Zeigt, wie eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem gespeichert wird.
+Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -29,7 +29,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Eingebettete Schriftformate können in anderen Formaten wie .doc anders sein.
+// Eingebettete Schriftartformate können in anderen Formaten wie .doc unterschiedlich sein.
 // Wir müssen das richtige Format kennen, bevor wir die Schriftart extrahieren können.
 doc = new Document(MyDir + "Embedded font.doc");
 
@@ -65,7 +65,7 @@ public FontInfo this[int index] { get; }
 
 ### Beispiele
 
-Zeigt, wie eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem gespeichert wird.
+Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -74,7 +74,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Eingebettete Schriftformate können in anderen Formaten wie .doc anders sein.
+// Eingebettete Schriftartformate können in anderen Formaten wie .doc unterschiedlich sein.
 // Wir müssen das richtige Format kennen, bevor wir die Schriftart extrahieren können.
 doc = new Document(MyDir + "Embedded font.doc");
 

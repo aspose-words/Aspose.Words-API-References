@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Festen Absatzabstand für automatische HTMLEinstellung verwenden.
+description: CompatibilityOptions eigendom. Verwenden Sie einen festen Absatzabstand für die automatische HTMLEinstellung.
 type: docs
 weight: 210
 url: /de/net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
 ---
 ## CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing property
 
-Festen Absatzabstand für automatische HTML-Einstellung verwenden.
+Verwenden Sie einen festen Absatzabstand für die automatische HTML-Einstellung.
 
 ```csharp
 public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }

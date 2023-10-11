@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt true zurück wenn es sich um eine Gruppenform handelt.
+description: ShapeBase eigendom. Gibt zurückWAHR wenn es sich um eine Gruppenform handelt.
 type: docs
-weight: 250
+weight: 260
 url: /de/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Gibt „true“ zurück, wenn es sich um eine Gruppenform handelt.
+Gibt zurück`WAHR` wenn es sich um eine Gruppenform handelt.
 
 ```csharp
 public bool IsGroup { get; }
@@ -16,7 +16,7 @@ public bool IsGroup { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Formen erstellen und ihren Inhalt mit einem Dokumentbesucher drucken.
+Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void GroupOfShapes()
@@ -24,7 +24,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie "NonPrimitive"-Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Shape-Gruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

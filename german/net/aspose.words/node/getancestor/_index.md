@@ -16,15 +16,15 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ancestorType | Type | Der Objekttyp des abzurufenden Vorfahren. |
+| ancestorType | Type | Der Objekttyp des abzurufenden Vorgängers. |
 
 ### Rückgabewert
 
-Der Vorfahr des angegebenen Typs oder null, wenn kein Vorfahr dieses Typs gefunden wurde.
+Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
 
 ### Bemerkungen
 
-Der Ancestor-Typ stimmt überein, wenn er gleich ancestorType ist oder von ancestorType abgeleitet ist.
+Der Vorfahrentyp stimmt überein, wenn er gleich ist*ancestorType* oder abgeleitet von*ancestorType*.
 
 ### Beispiele
 
@@ -35,16 +35,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob irgendwelche Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist, und wenn ja, in welcher Tiefe.
+        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist und wenn ja, in welcher Tiefe.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -76,12 +75,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Ermittelt, ob eine Tabelle eine unmittelbar untergeordnete Tabelle in ihren Zellen enthält.
+/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
 /// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt wahr zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
+/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
@@ -113,7 +112,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(NodeType) {#getancestor}
 
-Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../../nodetype/) .
+Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../nodetype/) .
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -121,11 +120,11 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ancestorType | NodeType | Der Knotentyp des abzurufenden Vorgängers. |
+| ancestorType | NodeType | Der Knotentyp des abzurufenden Vorfahren. |
 
 ### Rückgabewert
 
-Der Vorfahr des angegebenen Typs oder null, wenn kein Vorfahr dieses Typs gefunden wurde.
+Der Vorfahre des angegebenen Typs oder`Null` wenn kein Vorfahre dieses Typs gefunden wurde.
 
 ### Beispiele
 
@@ -136,16 +135,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob irgendwelche Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist, und wenn ja, in welcher Tiefe.
+        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist und wenn ja, in welcher Tiefe.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -177,12 +175,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Ermittelt, ob eine Tabelle eine unmittelbar untergeordnete Tabelle in ihren Zellen enthält.
+/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
 /// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt wahr zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
+/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

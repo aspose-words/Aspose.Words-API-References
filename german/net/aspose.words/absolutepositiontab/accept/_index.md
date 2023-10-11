@@ -16,21 +16,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der den Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der den Knoten besuchen wird. |
 
 ### Rückgabewert
 
-False, wenn der Besucher angefordert hat, dass die Enumeration beendet wird.
+`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
 ### Bemerkungen
 
-Ruft DocumentVisitor.VisitAbsolutePositionTab auf.
+Anrufe[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 ### Beispiele
 
-Zeigt, wie Tabulatorzeichen mit absoluter Position mit einem Dokumentbesucher verarbeitet werden.
+Zeigt, wie Tabulatorzeichen für absolute Positionen mit einem Dokumentbesucher verarbeitet werden.
 
 ```csharp
 public void DocumentToTxt()
@@ -41,10 +41,10 @@ public void DocumentToTxt()
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // Die absolute Position tab, die kein Äquivalent in Zeichenfolgenform hat, wurde explizit in ein Tabulatorzeichen umgewandelt.
+    // Der Tabulator für die absolute Position, für den es in Stringform keine Entsprechung gibt, wurde explizit in ein Tabulatorzeichen umgewandelt.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Ein AbsolutePositionTab kann auch selbst einen DocumentVisitor akzeptieren.
+    // Ein AbsolutePositionTab kann auch einen DocumentVisitor alleine akzeptieren.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -54,7 +54,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Sammelt den Textinhalt aller Läufe im besuchten Dokument. Ersetzt alle absoluten Tabulatorzeichen durch gewöhnliche Tabulatoren.
+/// Sammelt den Textinhalt aller Läufe im besuchten Dokument. Ersetzt alle absoluten Tabulatorzeichen durch normale Tabulatoren.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -82,7 +82,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt Text zur aktuellen Ausgabe hinzu. Berücksichtigt das aktivierte/deaktivierte Ausgangsflag.
+    /// Fügt Text zur aktuellen Ausgabe hinzu. Berücksichtigt das aktivierte/deaktivierte Ausgabeflag.
     /// </summary>
     private void AppendText(string text)
     {
@@ -90,7 +90,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Klartext des Dokuments, das vom Besucher gesammelt wurde.
+    /// Nur-Text des Dokuments, das vom Besucher gesammelt wurde.
     /// </summary>
     public string GetText()
     {

@@ -20,7 +20,7 @@ public Node AppendChild(Node newChild)
 
 ### Rückgabewert
 
-Der hinzugefügte Knoten.
+Der Knoten wurde hinzugefügt.
 
 ### Siehe auch
 

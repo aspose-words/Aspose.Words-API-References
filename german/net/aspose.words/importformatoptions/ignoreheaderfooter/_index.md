@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt einen booleschen Wert fest der angibt dass die Quellformatierung des Inhalts von Kopf/Fußzeilen ignoriert ifKeepSourceFormatting Modus verwendet. Der Standardwert istStimmt .
+description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Kopf/Fußzeileninhalts ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR .
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Ruft einen booleschen Wert ab oder legt einen booleschen Wert fest, der angibt, dass die Quellformatierung des Inhalts von Kopf-/Fußzeilen ignoriert ifKeepSourceFormatting Modus verwendet. Der Standardwert ist`Stimmt` .
+Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, dass die Quellformatierung des Kopf-/Fußzeileninhalts ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ### Beispiele
 
-Zeigt, wie angegeben wird, ob die Quellformatierung von Kopf-/Fußzeileninhalten ignoriert oder nicht formatiert werden soll.
+Zeigt, wie festgelegt wird, ob die Quellformatierung des Kopf-/Fußzeileninhalts ignoriert oder nicht formatiert werden soll.
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");

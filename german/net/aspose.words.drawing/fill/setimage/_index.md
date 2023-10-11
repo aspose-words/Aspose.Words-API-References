@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Aspose.Words für .NET-API-Referenz
 description: Fill methode. Ändert den Fülltyp in Einzelbild.
 type: docs
-weight: 190
+weight: 250
 url: /de/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
@@ -20,19 +20,19 @@ public void SetImage(string fileName)
 
 ### Beispiele
 
-Zeigt, wie der Formfülltyp als Bild festgelegt wird.
+Zeigt, wie der Formfüllungstyp als Bild festgelegt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Es gibt mehrere Möglichkeiten, das Bild einzustellen.
+// Es gibt mehrere Möglichkeiten, das Bild festzulegen.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 1 - Verwendung eines lokalen Systemdateinamens:
+// 1 – Verwendung eines lokalen Systemdateinamens:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - Laden Sie eine Datei in ein Byte-Array:
+// 2 – Eine Datei in ein Byte-Array laden:
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 

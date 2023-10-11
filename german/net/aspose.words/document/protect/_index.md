@@ -1,14 +1,14 @@
 ---
 title: Document.Protect
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Schützt das Dokument vor Änderungen ohne das bestehende Passwort zu ändern oder vergibt ein zufälliges Passwort.
+description: Document methode. Schützt das Dokument vor Änderungen ohne das bestehende Passwort zu ändern oder weist ein zufälliges Passwort zu.
 type: docs
-weight: 630
+weight: 670
 url: /de/net/aspose.words/document/protect/
 ---
 ## Protect(ProtectionType) {#protect}
 
-Schützt das Dokument vor Änderungen ohne das bestehende Passwort zu ändern oder vergibt ein zufälliges Passwort.
+Schützt das Dokument vor Änderungen, ohne das bestehende Passwort zu ändern oder weist ein zufälliges Passwort zu.
 
 ```csharp
 public void Protect(ProtectionType type)
@@ -20,11 +20,11 @@ public void Protect(ProtectionType type)
 
 ### Bemerkungen
 
-Wenn ein Dokument geschützt ist, kann der Benutzer nur begrenzte Änderungen vornehmen, wie z. B. Anmerkungen hinzufügen, Änderungen vornehmen oder ein Formular ausfüllen.
+Wenn ein Dokument geschützt ist, kann der Benutzer nur begrenzte Änderungen vornehmen, wie etwa das Hinzufügen von Anmerkungen, das Vornehmen von Überarbeitungen oder das Ausfüllen eines Formulars.
 
 Wenn Sie ein Dokument schützen und das Dokument bereits über ein Schutzkennwort verfügt, wird das vorhandene Schutzkennwort nicht geändert.
 
-Wenn Sie ein Dokument schützen und das Dokument kein Schutzpasswort hat, weist diese Methode ein zufälliges Passwort zu, das es unmöglich macht, den Schutz des Dokuments in Microsoft Word aufzuheben, aber Sie können den Schutz des Dokuments in Aspose.Words immer noch aufheben, da es kein hat. erfordern ein Passwort, wenn der Schutz aufgehoben wird.
+Wenn Sie ein Dokument schützen und das Dokument kein Schutzkennwort hat, weist diese Methode ein zufälliges Kennwort zu, das es unmöglich macht, den Schutz des Dokuments in Microsoft Word aufzuheben. Sie können den Schutz des Dokuments jedoch trotzdem in Aspose.Words aufheben, da dies nicht der Fall ist Zum Aufheben des Schutzes ist ein Passwort erforderlich.
 
 ### Beispiele
 
@@ -48,7 +48,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In diesem Ausgabedokument können wir den ersten Abschnitt frei bearbeiten,
-// und wir können nur den Inhalt des Formularfelds im zweiten Abschnitt bearbeiten.
+// und wir können den Inhalt des Formularfelds nur im zweiten Abschnitt bearbeiten.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 ## Protect(ProtectionType, string) {#protect_1}
 
-Schützt das Dokument vor Änderungen und setzt optional ein Schutzkennwort.
+Schützt das Dokument vor Änderungen und legt optional ein Schutzpasswort fest.
 
 ```csharp
 public void Protect(ProtectionType type, string password)
@@ -72,17 +72,17 @@ public void Protect(ProtectionType type, string password)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | type | ProtectionType | Gibt den Schutztyp für das Dokument an. |
-| password | String | Das Passwort, mit dem das Dokument geschützt werden soll. Geben Sie null oder eine leere Zeichenfolge an, wenn Sie das Dokument ohne Passwort schützen möchten. |
+| password | String | Das Passwort, mit dem das Dokument geschützt werden soll. Geben Sie an`Null`oder eine leere Zeichenfolge, wenn Sie das Dokument ohne Passwort schützen möchten. |
 
 ### Bemerkungen
 
-Wenn ein Dokument geschützt ist, kann der Benutzer nur begrenzte Änderungen vornehmen, wie z. B. Anmerkungen hinzufügen, Änderungen vornehmen oder ein Formular ausfüllen.
+Wenn ein Dokument geschützt ist, kann der Benutzer nur begrenzte Änderungen vornehmen, wie etwa das Hinzufügen von Anmerkungen, das Vornehmen von Überarbeitungen oder das Ausfüllen eines Formulars.
 
-Beachten Sie, dass sich der Dokumentenschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
+Beachten Sie, dass sich der Dokumentschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
 
 ### Beispiele
 
-Zeigt, wie ein Dokument geschützt und der Schutz aufgehoben wird.
+Zeigt, wie ein Dokument geschützt bzw. der Schutz aufgehoben wird.
 
 ```csharp
 Document doc = new Document();
@@ -90,7 +90,7 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Wenn wir dieses Dokument mit Microsoft Word öffnen, um es zu bearbeiten,
+// Wenn wir dieses Dokument mit Microsoft Word öffnen und es bearbeiten möchten,
 // Wir müssen das Passwort anwenden, um den Schutz zu überwinden.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
@@ -102,7 +102,7 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// Es gibt zwei Möglichkeiten, den Schutz von einem Dokument zu entfernen.
+// Es gibt zwei Möglichkeiten, den Schutz eines Dokuments aufzuheben.
 // 1 - Ohne Passwort:
 doc.Unprotect();
 

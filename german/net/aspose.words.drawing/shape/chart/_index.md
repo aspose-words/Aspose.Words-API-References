@@ -1,14 +1,14 @@
 ---
 title: Shape.Chart
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Bietet Zugriff auf die Diagrammeigenschaften wenn diese Form über ein Diagramm verfügt.
+description: Shape eigendom. Bietet Zugriff auf die Diagrammeigenschaften wenn diese Form über eine verfügtChart .
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Bietet Zugriff auf die Diagrammeigenschaften, wenn diese Form über ein Diagramm verfügt.
+Bietet Zugriff auf die Diagrammeigenschaften, wenn diese Form über eine verfügt[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -16,13 +16,14 @@ public Chart Chart { get; }
 
 ### Bemerkungen
 
-Diese Eigenschaft gibt die zurück`Chart` Objekt nur wenn[`HasChart`](../haschart/) Die Eigenschaft ist für diese Form wahr und löst andernfalls eine Ausnahme aus.
+Diese Eigenschaft gibt die zurück[`Chart`](../../../aspose.words.drawing.charts/chart/) Einspruch nur, wenn[`HasChart`](../haschart/) -Eigenschaft ist`WAHR` dafür[`Shape`](../)andernfalls wird eine Ausnahme ausgelöst.
 
 ### Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -32,7 +33,7 @@ Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 }
 
 /// <summary>
-/// Protokolliert erscheinungsbezogene Informationen über besuchte Shapes.
+/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -44,7 +45,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einzugsebene an den StringBuilder an.
+    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -54,7 +55,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder angesammelt hat.
+    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
     /// </summary>
     public string GetText()
     {

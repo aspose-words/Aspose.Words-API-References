@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionBinding
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.WebExtensionBinding klas. Gibt eine Bindungsbeziehung zwischen einer Weberweiterung und den Daten im Dokument an.
+description: Aspose.Words.WebExtensions.WebExtensionBinding klas. Gibt eine verbindliche Beziehung zwischen einer Weberweiterung und den Daten im Dokument an.
 type: docs
-weight: 6440
+weight: 6750
 url: /de/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Gibt eine Bindungsbeziehung zwischen einer Weberweiterung und den Daten im Dokument an.
+Gibt eine verbindliche Beziehung zwischen einer Weberweiterung und den Daten im Dokument an.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
 
 ```csharp
 public class WebExtensionBinding
@@ -18,13 +20,13 @@ public class WebExtensionBinding
 
 | Name | Beschreibung |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Erstellt eine Weberweiterungsbindung mit angegebenen Parametern. |
+| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Erstellt eine Web-Erweiterungsbindung mit angegebenen Parametern. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Gibt den Bindungsschlüssel an, der verwendet wird, um den Bindungseintrag in dieser Liste den gebundenen Daten im Dokument zuzuordnen. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Gibt den Bindungsschlüssel an, der zum Zuordnen des Bindungseintrags in dieser Liste zu den gebundenen Daten im Dokument verwendet wird. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Gibt den Bindungstyp an. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Gibt die Bindungskennung an. |
 

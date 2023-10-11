@@ -16,17 +16,17 @@ public bool KeepLegacyControlChars { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ältere Steuerzeichen beim Konvertieren in .docx unterstützt werden.
+Zeigt, wie ältere Steuerzeichen bei der Konvertierung in .docx unterstützt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Wenn wir das Dokument in einem OOXML-Format speichern, können wir ein OoxmlSaveOptions-Objekt erstellen
-// und dann an die Speichermethode des Dokuments übergeben, um zu ändern, wie wir das Dokument speichern.
-// Setzen Sie die Eigenschaft "KeepLegacyControlChars" auf "true", um sie beizubehalten
-// das Legacy-Zeichen "ShortDateTime" beim Speichern.
-// Zum Entfernen die Eigenschaft "KeepLegacyControlChars" auf "false" setzen
-// das Legacy-Zeichen "ShortDateTime" aus dem Ausgabedokument.
+// und übergeben Sie es dann an die Speichermethode des Dokuments, um zu ändern, wie wir das Dokument speichern.
+// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ auf „true“, um sie beizubehalten
+// das Legacy-Zeichen „ShortDateTime“ beim Speichern.
+// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ zum Entfernen auf „false“.
+// das „ShortDateTime“-Legacy-Zeichen aus dem Ausgabedokument.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

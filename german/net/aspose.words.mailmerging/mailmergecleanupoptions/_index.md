@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeCleanupOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions opsomming. Gibt Optionen an die bestimmen welche Elemente während des Seriendrucks entfernt werden.
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions opsomming. Gibt Optionen an die bestimmen welche Elemente beim Seriendruck entfernt werden.
 type: docs
-weight: 3630
+weight: 3850
 url: /de/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
 
-Gibt Optionen an, die bestimmen, welche Elemente während des Seriendrucks entfernt werden.
+Gibt Optionen an, die bestimmen, welche Elemente beim Seriendruck entfernt werden.
 
 ```csharp
 [Flags]
@@ -20,16 +20,16 @@ public enum MailMergeCleanupOptions
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Gibt einen Standardwert an. |
-| RemoveEmptyParagraphs | `1` | Gibt an, ob Absätze, die Seriendruckfelder ohne Daten enthielten, aus dem Dokument entfernt werden sollen. Wenn diese Option gesetzt ist, werden auch Absätze entfernt, die Bereichsanfangs- und -enddruckfelder enthalten, die ansonsten leer sind. |
+| RemoveEmptyParagraphs | `1` | Gibt an, ob Absätze, die Serienbrieffelder ohne Daten enthielten, aus dem Dokument entfernt werden sollen. Wenn diese Option festgelegt ist, werden Absätze, die ansonsten leere Serienanfangs- und -endfelder enthalten, ebenfalls entfernt. |
 | RemoveUnusedRegions | `2` | Gibt an, ob nicht verwendete Seriendruckbereiche aus dem Dokument entfernt werden sollen. |
-| RemoveUnusedFields | `4` | Gibt an, ob nicht verwendete Briefvorlagenfelder aus dem Dokument entfernt werden sollen. |
-| RemoveContainingFields | `8` | Gibt an, ob Felder mit Briefvorlagenfeldern (z. B. IFs) aus dem Dokument entfernt werden sollen , wenn die verschachtelten Briefvorlagenfelder entfernt werden. |
-| RemoveStaticFields | `10` | Gibt an, ob statische Felder aus dem Dokument entfernt werden sollen. Statische Felder sind Felder, deren Ergebnisse bei jeder Dokumentänderung gleich bleiben. Felder, die ihre Ergebnisse nicht in einem Dokument speichern und spontan berechnet werden (wie zFieldListNum , FieldSymbol , etc.) gelten nicht als statisch. |
+| RemoveUnusedFields | `4` | Gibt an, ob nicht verwendete Zusammenführungsfelder aus dem Dokument entfernt werden sollen. |
+| RemoveContainingFields | `8` | Gibt an, ob Felder, die Zusammenführungsfelder (z. B. IFs) enthalten, aus dem Dokument entfernt werden sollen , wenn die verschachtelten Zusammenführungsfelder entfernt werden. |
+| RemoveStaticFields | `10` | Gibt an, ob statische Felder aus dem Dokument entfernt werden sollen. Statische Felder sind Felder, deren Ergebnisse bei jeder Dokumentänderung gleich bleiben. Felder, deren Ergebnisse nicht in einem document gespeichert werden und im laufenden Betrieb berechnet werden (z. BFieldListNum , FieldSymbol usw.) gelten nicht als statisch. |
 | RemoveEmptyTableRows | `20` | Gibt an, ob leere Zeilen, die Seriendruckbereiche enthalten, aus dem Dokument entfernt werden sollen. |
 
 ### Beispiele
 
-Zeigt, wie leere Absätze, die bei einem Seriendruck möglicherweise erstellt werden, aus dem Seriendruck-Ausgabedokument entfernt werden.
+Zeigt, wie leere Absätze, die bei einem Seriendruck entstehen könnten, aus dem Seriendruck-Ausgabedokument entfernt werden.
 
 ```csharp
 Document doc = new Document();
@@ -62,13 +62,13 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Zeigt, wie MERGEFIELDs automatisch entfernt werden, die während des Seriendrucks nicht verwendet werden.
+Zeigt, wie MERGEFIELDs, die beim Seriendruck nicht verwendet werden, automatisch entfernt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie ein Dokument mit MERGEFIELDs für drei Spalten einer Seriendatenquellentabelle,
+// Erstellen Sie ein Dokument mit MERGEFIELDs für drei Spalten einer Serienbrief-Datenquellentabelle.
 // und dann eine Tabelle mit nur zwei Spalten erstellen, deren Namen mit unseren MERGEFIELDs übereinstimmen.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
@@ -82,10 +82,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// Unser drittes MERGEFIELD verweist auf eine "City"-Spalte, die in unserer Datenquelle nicht vorhanden ist.
-// Der Seriendruck lässt Felder wie dieses in ihrem Zustand vor dem Zusammenführen intakt.
-// Wenn Sie die Eigenschaft "CleanupOptions" auf "RemoveUnusedFields" setzen, werden alle MERGEFIELDs entfernt
-// die während eines Seriendrucks nicht verwendet werden, um die Seriendruckdokumente zu bereinigen.
+// Unser drittes MERGEFIELD verweist auf eine Spalte „Stadt“, die in unserer Datenquelle nicht vorhanden ist.
+// Beim Seriendruck bleiben Felder wie dieses in ihrem Zustand vor dem Seriendruck erhalten.
+// Wenn Sie die Eigenschaft „CleanupOptions“ auf „RemoveUnusedFields“ setzen, werden alle MERGEFIELDs entfernt
+// die während eines Seriendrucks nicht verwendet werden, um die Seriendokumente zu bereinigen.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Gibt true zurück wenn der LineStyle nicht LineStyle.None ist.
+description: Border eigendom. Gibt zurückWAHR wenn dieLineStyle ist nichtNone .
 type: docs
 weight: 30
 url: /de/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Gibt „true“ zurück, wenn der LineStyle nicht LineStyle.None ist.
+Gibt zurück`WAHR` wenn die[`LineStyle`](../linestyle/) ist nichtNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,13 +16,13 @@ public bool IsVisible { get; }
 
 ### Beispiele
 
-Zeigt, wie Rahmen von einem Absatz entfernt werden.
+Zeigt, wie Rahmen aus einem Absatz entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Jeder Absatz hat einen individuellen Rahmensatz.
-// Die Einstellungen für das Aussehen dieser Rahmen erreichen wir über das Objekt Absatzformat.
+// Jeder Absatz hat einen individuellen Satz von Rahmen.
+// Auf die Einstellungen für das Aussehen dieser Ränder können wir über das Absatzformatobjekt zugreifen.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -30,7 +30,7 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Wir können einen Rahmen sofort entfernen, indem wir die ClearFormatting-Methode ausführen. 
+ // Wir können einen Rahmen sofort entfernen, indem wir die ClearFormatting-Methode ausführen.
 // Wenn Sie diese Methode an jedem Rand eines Absatzes ausführen, werden alle seine Ränder entfernt.
 foreach (Border border in borders)
     border.ClearFormatting();

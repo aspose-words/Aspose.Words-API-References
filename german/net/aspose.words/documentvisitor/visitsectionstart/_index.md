@@ -20,11 +20,11 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument-Besucher verwendet wird, um die Knotenstruktur eines Dokuments zu drucken.
+Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
 ```csharp
 public void DocStructureToText()
@@ -32,8 +32,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -57,7 +57,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn ein Dokumentknoten gefunden wird.
+    /// Wird aufgerufen, wenn ein Document-Knoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -173,7 +173,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

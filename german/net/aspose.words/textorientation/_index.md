@@ -1,14 +1,14 @@
 ---
 title: Enum TextOrientation
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextOrientation opsomming. Gibt die Textausrichtung auf einer Seite in einer Tabellenzelle oder einem Textrahmen an.
+description: Aspose.Words.TextOrientation opsomming. Gibt die Ausrichtung von Text auf einer Seite in einer Tabellenzelle oder einem Textrahmen an.
 type: docs
-weight: 6130
+weight: 6430
 url: /de/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
 
-Gibt die Textausrichtung auf einer Seite, in einer Tabellenzelle oder einem Textrahmen an.
+Gibt die Ausrichtung von Text auf einer Seite, in einer Tabellenzelle oder einem Textrahmen an.
 
 ```csharp
 public enum TextOrientation
@@ -18,12 +18,12 @@ public enum TextOrientation
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Horizontal | `0` | Text wird horizontal angeordnet (lr-tb). |
-| Downward | `1` | Text wird um 90 Grad nach rechts gedreht, sodass er von oben nach unten erscheint (tb-rl). |
-| Upward | `3` | Text wird um 90 Grad nach links gedreht, sodass er von unten nach oben erscheint (bt-lr). |
-| HorizontalRotatedFarEast | `4` | Text wird horizontal angeordnet, aber fernöstliche Zeichen werden um 90 Grad nach links gedreht (lr-tb-v). |
-| VerticalFarEast | `5` | Fernöstliche Zeichen werden vertikal angezeigt, anderer Text wird um 90 Grad nach rechts gedreht, um von oben nach unten angezeigt zu werden (tb-rl-v). |
-| VerticalRotatedFarEast | `7` | Fernöstliche Zeichen werden vertikal angezeigt, anderer Text wird um 90 Grad nach rechts gedreht, um vertikal von oben nach unten und dann horizontal von links nach rechts angezeigt zu werden (tb-lr-v). |
+| Horizontal | `0` | Text ist horizontal angeordnet (lr-tb). |
+| Downward | `1` | Text wird um 90 Grad nach rechts gedreht, sodass er von oben nach unten angezeigt wird (tb-rl). |
+| Upward | `3` | Text wird um 90 Grad nach links gedreht, sodass er von unten nach oben angezeigt wird (bt-lr). |
+| HorizontalRotatedFarEast | `4` | Der Text ist horizontal angeordnet, aber fernöstliche Zeichen sind um 90 Grad nach links gedreht (lr-tb-v). |
+| VerticalFarEast | `5` | Fernöstliche Zeichen erscheinen vertikal, anderer Text wird um 90 Grad nach rechts gedreht, um von oben nach unten zu erscheinen (tb-rl-v). |
+| VerticalRotatedFarEast | `7` | Fernöstliche Zeichen erscheinen vertikal, anderer Text wird um 90 Grad nach rechts gedreht, um vertikal von oben nach unten und dann horizontal von links nach rechts zu erscheinen (tb-lr-v). |
 
 ### Beispiele
 
@@ -42,7 +42,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
 // Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, wenn sie erstellt werden.
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -57,7 +57,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen sind nicht rückwirkend von Änderungen an der Formatierung des Builders betroffen.
+// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

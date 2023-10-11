@@ -1,14 +1,14 @@
 ---
 title: Field.GetFieldCode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Field methode. Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück oder Feldende wenn kein Trennzeichen vorhanden ist. Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten.
+description: Field methode. Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück oder Feldende wenn kein Trennzeichen vorhanden ist. Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten.
+Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten.
 
 ```csharp
 public string GetFieldCode()
@@ -16,7 +16,7 @@ public string GetFieldCode()
 
 ### Beispiele
 
-Zeigt, wie ein Feld mithilfe eines Feldcodes in ein Dokument eingefügt wird.
+Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
@@ -31,18 +31,18 @@ Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
-Zeigt, wie der Feldcode eines Felds abgerufen wird.
+Zeigt, wie man den Feldcode eines Feldes erhält.
 
 ```csharp
-// Öffne ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
+// Öffnen Sie ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Es gibt zwei Möglichkeiten, den Feldcode eines Felds zu erhalten:
-// 1 - Lassen Sie die inneren Felder weg:
+// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes abzurufen:
+// 1 – Die inneren Felder weglassen:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - Fügen Sie die inneren Felder hinzu:
+// 2 – Die inneren Felder einschließen:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
@@ -60,7 +60,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ## GetFieldCode(bool) {#getfieldcode_1}
 
-Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück.
+Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist).
 
 ```csharp
 public string GetFieldCode(bool includeChildFieldCodes)
@@ -68,22 +68,22 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `WAHR` ob untergeordnete Feldcodes enthalten sein sollen. |
+| includeChildFieldCodes | Boolean | `WAHR` wenn untergeordnete Feldcodes enthalten sein sollen. |
 
 ### Beispiele
 
-Zeigt, wie der Feldcode eines Felds abgerufen wird.
+Zeigt, wie man den Feldcode eines Feldes erhält.
 
 ```csharp
-// Öffne ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
+// Öffnen Sie ein Dokument, das ein MERGEFIELD in einem IF-Feld enthält.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Es gibt zwei Möglichkeiten, den Feldcode eines Felds zu erhalten:
-// 1 - Lassen Sie die inneren Felder weg:
+// Es gibt zwei Möglichkeiten, den Feldcode eines Feldes abzurufen:
+// 1 – Die inneren Felder weglassen:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - Fügen Sie die inneren Felder hinzu:
+// 2 – Die inneren Felder einschließen:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 

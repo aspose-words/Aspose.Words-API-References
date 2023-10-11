@@ -1,14 +1,14 @@
 ---
 title: Enum CellVerticalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.CellVerticalAlignment opsomming. Gibt die vertikale Ausrichtung von Text in einer Tabellenzelle an.
+description: Aspose.Words.Tables.CellVerticalAlignment opsomming. Gibt die vertikale Ausrichtung von Text innerhalb einer Tabellenzelle an.
 type: docs
-weight: 5980
+weight: 6280
 url: /de/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
 
-Gibt die vertikale Ausrichtung von Text in einer Tabellenzelle an.
+Gibt die vertikale Ausrichtung von Text innerhalb einer Tabellenzelle an.
 
 ```csharp
 public enum CellVerticalAlignment
@@ -39,7 +39,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
 // Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, wenn sie erstellt werden.
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen sind nicht rückwirkend von Änderungen an der Formatierung des Builders betroffen.
+// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

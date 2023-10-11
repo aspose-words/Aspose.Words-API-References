@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.HasDataLabels
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Ruft ein Flag ab oder setzt es das angibt ob Datenbeschriftungen für die Reihe angezeigt werden.
+description: ChartSeries eigendom. Ruft ein Flag ab oder setzt es das angibt ob Datenbeschriftungen für die Serie angezeigt werden.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.drawing.charts/chartseries/hasdatalabels/
 ---
 ## ChartSeries.HasDataLabels property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob Datenbeschriftungen für die Reihe angezeigt werden.
+Ruft ein Flag ab oder setzt es, das angibt, ob Datenbeschriftungen für die Serie angezeigt werden.
 
 ```csharp
 public bool HasDataLabels { get; set; }

@@ -16,7 +16,7 @@ public PdfSaveOptions()
 
 ### Beispiele
 
-Zeigt, wie Untergruppen beim Einbetten von Schriftarten aktiviert oder deaktiviert werden, während ein Dokument in PDF gerendert wird.
+Zeigt, wie die Teilmenge beim Einbetten von Schriftarten beim Rendern eines Dokuments als PDF aktiviert oder deaktiviert wird.
 
 ```csharp
 Document doc = new Document();
@@ -36,15 +36,15 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Da unser Dokument eine benutzerdefinierte Schriftart enthält, kann eine Einbettung in das Ausgabedokument wünschenswert sein.
-// Setzen Sie die Eigenschaft "EmbedFullFonts" auf "true", um jede Glyphe jeder eingebetteten Schriftart in die Ausgabe-PDF einzubetten.
+// Setzen Sie die Eigenschaft „EmbedFullFonts“ auf „true“, um jedes Glyph jeder eingebetteten Schriftart in die Ausgabe-PDF einzubetten.
 // Die Größe des Dokuments kann sehr groß werden, aber wir können alle Schriftarten vollständig nutzen, wenn wir das PDF bearbeiten.
-// Setzen Sie die Eigenschaft "EmbedFullFonts" auf "false", um Untergruppen auf Schriftarten anzuwenden und nur die Glyphen zu speichern
-// die das Dokument verwendet. Die Datei wird erheblich kleiner,
+// Setzen Sie die Eigenschaft „EmbedFullFonts“ auf „false“, um die Teilmenge auf Schriftarten anzuwenden und nur die Glyphen zu speichern
+// dass das Dokument verwendet. Die Datei wird erheblich kleiner,
 // aber wir benötigen möglicherweise Zugriff auf benutzerdefinierte Schriftarten, wenn wir das Dokument bearbeiten.
 options.EmbedFullFonts = embedFullFonts;
 
@@ -55,7 +55,7 @@ if (embedFullFonts)
 else
     Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
 
-// Stellen Sie die ursprünglichen Schriftartquellen wieder her.
+// Die ursprünglichen Schriftartquellen wiederherstellen.
 FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ```
 

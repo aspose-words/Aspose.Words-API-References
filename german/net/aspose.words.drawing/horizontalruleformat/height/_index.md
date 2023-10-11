@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.Height
 second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Höhe der horizontalen Linie ab oder legt sie fest.
+description: HorizontalRuleFormat eigendom. Ruft die Höhe der horizontalen Regel ab oder legt sie fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-Ruft die Höhe der horizontalen Linie ab oder legt sie fest.
+Ruft die Höhe der horizontalen Regel ab oder legt sie fest.
 
 ```csharp
 public double Height { get; set; }
@@ -30,7 +30,7 @@ Der Standardwert ist 1,5.
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

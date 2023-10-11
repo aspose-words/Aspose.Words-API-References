@@ -1,14 +1,14 @@
 ---
 title: Document.UpdateWordCount
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Aktualisiert die Eigenschaften der Wortanzahl des Dokuments.
+description: Document methode. Aktualisiert die Wortanzahleigenschaften des Dokuments.
 type: docs
-weight: 770
+weight: 810
 url: /de/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
 
-Aktualisiert die Eigenschaften der Wortanzahl des Dokuments.
+Aktualisiert die Wortanzahleigenschaften des Dokuments.
 
 ```csharp
 public void UpdateWordCount()
@@ -16,11 +16,11 @@ public void UpdateWordCount()
 
 ### Bemerkungen
 
-**WordCount aktualisieren** berechnet und aktualisiert die Eigenschaften Characters, Words und Paragraphs in der[`BuiltInDocumentProperties`](../builtindocumentproperties/) Sammlung der **Dokumentieren**.
+`UpdateWordCount` Berechnet die Eigenschaften „Zeichen“, „Wörter“ und „Absätze“ neu und aktualisiert sie[`BuiltInDocumentProperties`](../builtindocumentproperties/) Sammlung der[`Document`](../).
 
-Beachten Sie, dass **WordCount aktualisieren** aktualisiert die Zeilenanzahl und Seiteneigenschaften nicht. Verwenden Sie die`UpdateWordCount` überladen und True-Wert als Parameter übergeben, um dies zu tun.
+Beachten Sie, dass`UpdateWordCount`aktualisiert die Zeilenanzahl- und Seiteneigenschaften nicht. Verwenden Sie die`UpdateWordCount` Überlastung und Pass`WAHR` Wert als Parameter, um dies zu tun.
 
-Wenn Sie eine Evaluierungsversion verwenden, wird das Evaluierungswasserzeichen auch in die Wortzählung aufgenommen.
+Wenn Sie eine Testversion verwenden, wird das Testwasserzeichen auch in die Wortanzahl einbezogen .
 
 ### Beispiele
 
@@ -35,7 +35,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words verfolgt Dokumentmetriken wie diese nicht in Echtzeit.
+// Aspose.Words verfolgt solche Dokumentmetriken nicht in Echtzeit.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-Aktualisiert die Wortzähleigenschaften des Dokuments, optional aktualisiert[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) Eigentum.
+Aktualisiert die Wortanzahleigenschaften des Dokuments, optional aktualisiert[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) Eigenschaft.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -74,11 +74,11 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| updateLinesCount | Boolean | True, wenn die Anzahl der Zeilen im Dokument berechnet werden soll. |
+| updateLinesCount | Boolean | `WAHR` ob die Anzahl der Zeilen im Dokument berechnet werden soll. |
 
 ### Bemerkungen
 
-Diese Methode baut das Seitenlayout des Dokuments neu auf.
+Diese Methode erstellt das Seitenlayout des Dokuments neu.
 
 ### Beispiele
 
@@ -93,7 +93,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words verfolgt Dokumentmetriken wie diese nicht in Echtzeit.
+// Aspose.Words verfolgt solche Dokumentmetriken nicht in Echtzeit.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);

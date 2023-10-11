@@ -20,15 +20,15 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Bemerkungen
 
-Hinweis: Ein Glossardokumentknoten und seine Kinder werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../document/) . Wenn Sie einen Besucher über ein -Glossardokument ausführen möchten, müssen Sie anrufen[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Hinweis: Ein Glossardokumentknoten und seine untergeordneten Knoten werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../document/) . Wenn Sie einen Besucher über ein Glossardokument ausführen möchten, müssen Sie aufrufen[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ### Beispiele
 
-Zeigt Wege für den Zugriff auf Bausteine in einem Glossardokument.
+Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
 ```csharp
 public void GlossaryDocument()
@@ -47,26 +47,25 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Es gibt verschiedene Möglichkeiten, auf Bausteine zuzugreifen.
-    // 1 - Holen Sie sich die ersten/letzten Bausteine in der Sammlung:
+    // 1 – Holen Sie sich die ersten/letzten Bausteine in der Sammlung:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Holen Sie sich einen Baustein nach Index:
+    // 2 – Einen Baustein nach Index abrufen:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Holen Sie sich den ersten Baustein, der zu einer Galerie, einem Namen und einer Kategorie passt:
+    // 3 – Holen Sie sich den ersten Baustein, der einer Galerie, einem Namen und einer Kategorie entspricht:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Wir werden dies mit einem benutzerdefinierten Besucher tun,
-    // was jedem BuildingBlock im GlossaryDocument eine eindeutige GUID gibt
+    // Wir werden das mit einem benutzerdefinierten Besucher tun,
+    // wodurch jedem BuildingBlock im GlossaryDocument eine eindeutige GUID zugewiesen wird
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word erreichen wir die Bausteine über "Einfügen" -> "Schnelle Teile" -> "Baustein-Organizer".
+    // In Microsoft Word können wir über „Einfügen“ -> auf die Bausteine zugreifen. „Schnellteile“ -> „Baustein-Organizer“.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 

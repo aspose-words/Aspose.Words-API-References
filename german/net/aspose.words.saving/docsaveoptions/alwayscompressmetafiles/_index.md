@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocSaveOptions eigendom. WannFALSCH  kleine Metadateien werden aus Leistungsgründen nicht komprimiert. Standardwert ist Stimmt  werden alle Metadateien unabhängig von ihrer Größe komprimiert.
+description: DocSaveOptions eigendom. WannFALSCH  kleine Metadateien werden aus Leistungsgründen nicht komprimiert. Der Standardwert istWAHR  alle Metadateien werden unabhängig von ihrer Größe komprimiert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-Wann`FALSCH` , kleine Metadateien werden aus Leistungsgründen nicht komprimiert. Standardwert ist **Stimmt** , werden alle Metadateien unabhängig von ihrer Größe komprimiert.
+Wann`FALSCH` , kleine Metadateien werden aus Leistungsgründen nicht komprimiert. Der Standardwert ist`WAHR` , alle Metadateien werden unabhängig von ihrer Größe komprimiert.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }
@@ -16,14 +16,14 @@ public bool AlwaysCompressMetafiles { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Komprimierung von Metadateien in einem Dokument beim Speichern geändert wird.
+Zeigt, wie man die Komprimierung von Metadateien in einem Dokument beim Speichern ändert.
 
 ```csharp
 // Öffnen Sie ein Dokument, das eine Microsoft Equation 3.0-Formel enthält.
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
-// Wenn wir ein Dokument speichern, werden kleinere Metadateien aus Performancegründen nicht komprimiert.
-// Wir können ein Flag in einem SaveOptions-Objekt setzen, um jede Metadatei beim Speichern zu komprimieren.
+// Wenn wir ein Dokument speichern, werden kleinere Metadateien aus Leistungsgründen nicht komprimiert.
+// Wir können in einem SaveOptions-Objekt ein Flag setzen, um jede Metadatei beim Speichern zu komprimieren.
 // Einige Editoren wie LibreOffice können unkomprimierte Metadateien nicht lesen.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;

@@ -1,14 +1,14 @@
 ---
 title: FieldDocVariable.VariableName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDocVariable eigendom. Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt ihn fest.
+description: FieldDocVariable eigendom. Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddocvariable/variablename/
 ---
 ## FieldDocVariable.VariableName property
 
-Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt ihn fest.
+Ruft den Namen der abzurufenden Dokumentvariablen ab oder legt diesen fest.
 
 ```csharp
 public string VariableName { get; set; }
@@ -16,15 +16,15 @@ public string VariableName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie DOCPROPERTY-Felder verwendet werden, um Dokumenteigenschaften und -variablen anzuzeigen.
+Zeigt, wie DOCPROPERTY-Felder zum Anzeigen von Dokumenteigenschaften und -variablen verwendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Im Folgenden finden Sie zwei Möglichkeiten zur Verwendung von DOCPROPERTY-Feldern.
-// 1 - Zeigt eine eingebaute Eigenschaft an:
-// Legen Sie einen benutzerdefinierten Wert für die integrierte Eigenschaft "Kategorie" fest und fügen Sie dann ein DOCPROPERTY-Feld ein, das darauf verweist.
+// Nachfolgend finden Sie zwei Möglichkeiten zur Verwendung von DOCPROPERTY-Feldern.
+// 1 – Eine integrierte Eigenschaft anzeigen:
+// Legen Sie einen benutzerdefinierten Wert für die integrierte Eigenschaft „Category“ fest und fügen Sie dann ein DOCPROPERTY-Feld ein, das darauf verweist.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -35,8 +35,8 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Eine benutzerdefinierte Dokumentvariable anzeigen:
-// Eine benutzerdefinierte Variable definieren und diese Variable dann mit einem DOCPROPERTY-Feld referenzieren.
+// 2 – Eine benutzerdefinierte Dokumentvariable anzeigen:
+// Definieren Sie eine benutzerdefinierte Variable und referenzieren Sie diese Variable dann mit einem DOCPROPERTY-Feld.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");
 

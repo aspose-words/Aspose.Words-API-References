@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Aspose.Words für .NET-API-Referenz
 description: Section methode. Löscht die Kopf und Fußzeilen dieses Abschnitts.
 type: docs
-weight: 100
+weight: 120
 url: /de/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -18,7 +18,7 @@ public void ClearHeadersFooters()
 
 Der Text aller Kopf- und Fußzeilen wird gelöscht, aber[`HeaderFooter`](../../headerfooter/) Objekte selbst werden nicht entfernt.
 
-Dadurch werden Kopf- und Fußzeilen dieses Abschnitts mit Kopf- und Fußzeilen des vorherigen Abschnitts verknüpft.
+Dadurch werden die Kopf- und Fußzeilen dieses Abschnitts mit den Kopf- und Fußzeilen des vorherigen Abschnitts verknüpft.
 
 ### Beispiele
 
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
-// Leeren Sie alle Kopf- und Fußzeilen in diesem Abschnitt von ihrem gesamten Inhalt.
-// Die Kopf- und Fußzeilen selbst sind noch vorhanden, haben aber nichts anzuzeigen.
+// Alle Kopf- und Fußzeilen in diesem Abschnitt von ihrem gesamten Inhalt befreien.
+// Die Kopf- und Fußzeilen selbst sind weiterhin vorhanden, können aber nicht angezeigt werden.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

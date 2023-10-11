@@ -16,29 +16,29 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 
 ### Beispiele
 
-Zeigt, wie vertikale Leerzeichen und Kopf-/Fußzeilen in Ansichtsoptionen ausgeblendet werden.
+Zeigt, wie vertikale Leerzeichen und Kopf-/Fußzeilen in den Ansichtsoptionen ausgeblendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inhalt einfügen, der sich über 3 Seiten erstreckt.
+// Inhalte einfügen, die sich über 3 Seiten erstrecken.
 builder.Writeln("Paragraph 1, Page 1.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 2, Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 3, Page 3.");
 
-// Kopf- und Fußzeile einfügen.
+// Eine Kopf- und eine Fußzeile einfügen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// Dieses Dokument enthält eine kleine Menge an Inhalten, die einige ganze Seiten Platz einnehmen.
-// Setzen Sie das "DoNotDisplayPageBoundaries"-Flag auf "true", damit ältere Versionen von Microsoft Word Kopfzeilen auslassen,
-// Fußzeilen und ein Großteil der vertikalen Leerzeichen bei der Anzeige unseres Dokuments.
-// Setzen Sie das Flag "DoNotDisplayPageBoundaries" auf "false", um ältere Versionen von Microsoft Word zu erhalten
+// Dieses Dokument enthält eine kleine Menge Inhalt, der einige ganze Seiten Platz einnimmt.
+// Setzen Sie das Flag „DoNotDisplayPageBoundaries“ auf „true“, damit ältere Versionen von Microsoft Word Kopfzeilen weglassen.
+// Fußzeilen und einen Großteil des vertikalen Leerraums bei der Anzeige unseres Dokuments.
+// Setzen Sie das Flag „DoNotDisplayPageBoundaries“ auf „false“, um ältere Versionen von Microsoft Word zu erhalten
 // um unser Dokument normal anzuzeigen.
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 

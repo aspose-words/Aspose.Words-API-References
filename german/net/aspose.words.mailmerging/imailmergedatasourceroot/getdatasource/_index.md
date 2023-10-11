@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSourceRoot methode. Die Aspose.WordsSerienbriefEngine ruft diese Methode auf wenn sie auf den Anfang eines Serienbriefbereichs der obersten Ebene stößt.
+description: IMailMergeDataSourceRoot methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines MailMergeBereichs der obersten Ebene stößt.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
 ---
 ## IMailMergeDataSourceRoot.GetDataSource method
 
-Die Aspose.Words-Serienbrief-Engine ruft diese Methode auf, wenn sie auf den Anfang eines Serienbriefbereichs der obersten Ebene stößt.
+Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines Mail-Merge-Bereichs der obersten Ebene stößt.
 
 ```csharp
 public IMailMergeDataSource GetDataSource(string tableName)
@@ -16,30 +16,30 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| tableName | String | Der Name der Seriendruckregion, wie im Vorlagendokument angegeben. Groß- und Kleinschreibung beachten. |
+| tableName | String | Der Name des Serienbriefbereichs, wie im Vorlagendokument angegeben. Groß- und Kleinschreibung wird nicht beachtet. |
 
 ### Rückgabewert
 
-Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle bereitstellt.
+Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle ermöglicht.
 
 ### Bemerkungen
 
-Wenn die Seriendruck-Engines von Aspose.Words ein Dokument mit Daten füllen und auf MERGEFIELD TableStart:TableName stoßen, wird aufgerufen`GetDataSource` an diesem Objekt. Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben. Aspose.Words verwendet die zurückgegebene Datenquelle, um den Seriendruckbereich zu füllen.
+Wenn die Mail-Merge-Engines von Aspose.Words ein Dokument mit Daten füllen und auf MERGEFIELD TableStart:TableName, stoßen, wird es aufgerufen`GetDataSource` zu diesem Objekt. Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben. Aspose.Words verwendet die zurückgegebene Datenquelle, um den Seriendruckbereich zu füllen.
 
 Wenn eine Datenquelle (Tabelle) mit dem angegebenen Namen nicht vorhanden ist, sollte Ihre Implementierung zurückkehren`Null` .
 
 ### Beispiele
 
-Führt den Seriendruck aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
+Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Erstellen Sie ein Dokument mit zwei Seriendruckregionen namens "Washington" und "Seattle".
+    // Erstellen Sie ein Dokument mit zwei Serienbriefregionen namens „Washington“ und „Seattle“.
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Erstellen Sie zwei Datenquellen für den Seriendruck.
+    // Zwei Datenquellen für den Serienbrief erstellen.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -48,15 +48,15 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Unsere Datenquellen namentlich in einem Datenquellenstamm registrieren.
-    // Wenn wir im Begriff sind, diesen Datenquellenstamm in einem Seriendruck mit Regionen zu verwenden,
-    // Der registrierte Name jeder Quelle muss mit dem Namen einer bestehenden Serienbriefregion im Serienbrief-Quelldokument übereinstimmen.
+    // Registrieren Sie unsere Datenquellen namentlich in einem Datenquellenstamm.
+    // Wenn wir diesen Datenquellenstamm in einem Serienbrief mit Regionen verwenden möchten,
+    // Der registrierte Name jeder Quelle muss mit dem Namen einer vorhandenen Serienbriefregion im Serienbrief-Quelldokument übereinstimmen.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Da wir aufeinanderfolgende Serienbriefregionen haben, müssten wir normalerweise zwei Serienbriefe durchführen.
-    // Eine Seriendruckquelle mit einem Datenstamm kann jedoch mehrere Regionen ausfüllen
+    // Da wir aufeinanderfolgende Serienbriefbereiche haben, müssten wir normalerweise zwei Serienbriefe durchführen.
+    // Allerdings kann eine Serienbriefquelle mit einem Datenstamm mehrere Regionen ausfüllen
     // wenn die Wurzel Tabellen mit entsprechenden Namen/Spaltennamen enthält.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
@@ -64,7 +64,7 @@ public void CustomDataSourceRoot()
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument, das aufeinanderfolgende Seriendruckbereiche enthält, mit Namen, die durch das Eingabearray bestimmt werden,
+/// Erstellen Sie ein Dokument, das aufeinanderfolgende Serienbriefbereiche enthält, deren Namen durch das Eingabearray festgelegt werden.
 /// für eine Datentabelle von Mitarbeitern.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -86,7 +86,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// Ein Beispiel für eine "Datenentitäts"-Klasse in Ihrer Anwendung.
+/// Ein Beispiel für eine „Datenentität“-Klasse in Ihrer Anwendung.
 /// </summary>
 private class Employee
 {
@@ -101,7 +101,7 @@ private class Employee
 }
 
 /// <summary>
-/// Ein Beispiel für eine typisierte Sammlung, die Ihre "Daten"-Objekte enthält.
+/// Ein Beispiel für eine typisierte Sammlung, die Ihre „Daten“-Objekte enthält.
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -113,9 +113,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Datenquellenstamm, der direkt an einen Seriendruck übergeben werden kann, der viele untergeordnete Datenquellen registrieren und enthalten kann.
+/// Datenquellenstamm, der direkt an einen Serienbrief übergeben werden kann, der viele untergeordnete Datenquellen registrieren und enthalten kann.
 /// Diese Quellen müssen alle IMailMergeDataSource implementieren und werden durch einen Namen registriert und unterschieden
-/// was einem Seriendruckbereich entspricht, der die jeweiligen Daten liest.
+/// was einem Serienbriefbereich entspricht, der die entsprechenden Daten liest.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -135,7 +135,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// Benutzerdefinierte Datenquelle für Serienbriefe.
+/// Benutzerdefinierte Serienbrief-Datenquelle.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -146,7 +146,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {
@@ -167,7 +167,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
     /// </summary>
     public string TableName
     {
@@ -175,7 +175,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld zu erhalten.
+    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -188,7 +188,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // "false" an die Aspose.Words-Serienbrief-Engine zurückgeben, um dies zu kennzeichnen
+                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -196,7 +196,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Untergeordnete Datenquellen sind für verschachtelte Serienbriefe.
+    /// Untergeordnete Datenquellen sind für verschachtelte Serienbriefe vorgesehen.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {

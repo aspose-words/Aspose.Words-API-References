@@ -3,7 +3,7 @@ title: Enum ImageType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.ImageType opsomming. Gibt den Typ Format eines Bildes in einem Microsoft WordDokument an.
 type: docs
-weight: 950
+weight: 1080
 url: /de/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -18,18 +18,19 @@ public enum ImageType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NoImage | `0` | Das sind keine Bilddaten. |
-| Unknown | `1` | Ein unbekannter Bildtyp oder ein Bildtyp, der nicht direkt in einem Microsoft Word-Dokument gespeichert werden kann. |
-| Emf | `2` | Erweiterte Windows-Metadatei. |
+| NoImage | `0` | Es liegen keine Bilddaten vor. |
+| Unknown | `1` | Ein unbekannter Bildtyp oder Bildtyp, der nicht direkt in einem Microsoft Word-Dokument gespeichert werden kann. |
+| Emf | `2` | Windows Enhanced Metafile. |
 | Wmf | `3` | Windows-Metadatei. |
-| Pict | `4` | Macintosh-BILD. Ein vorhandenes Bild wird in einem Dokument beibehalten, aber das Einfügen neuer PICT-Bilder in ein Dokument wird nicht unterstützt. |
+| Pict | `4` | Macintosh BILD. Ein vorhandenes Bild bleibt in einem Dokument erhalten, das Einfügen neuer PICT-Bilder in ein Dokument wird jedoch nicht unterstützt. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Tragbare Netzwerkgrafiken. |
 | Bmp | `7` | Windows-Bitmap. |
+| Eps | `8` | Encapsulated PostScript. |
 
 ### Beispiele
 
-Zeigt, wie Sie einer Form ein Bild hinzufügen und seinen Typ überprüfen.
+Zeigt, wie man einer Form ein Bild hinzufügt und seinen Typ überprüft.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +42,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
 
-    // Das Bild in der URL ist ein .gif. Wenn Sie es in ein Dokument einfügen, wird es in eine .png-Datei konvertiert.
+    // Das Bild in der URL ist ein .gif. Wenn Sie es in ein Dokument einfügen, wird es in eine PNG-Datei konvertiert.
     Shape imgShape = builder.InsertImage(image);
     Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 }

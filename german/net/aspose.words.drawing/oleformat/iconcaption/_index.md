@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument einbetten.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Einen Link auf die Datei im lokalen Dateisystem einfügen und als Icon anzeigen.
+// Einen Link zur Datei im lokalen Dateisystem einfügen und als Symbol anzeigen.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // Durch das Einfügen von OLE-Objekten werden Formen erstellt, die diese Objekte speichern.
@@ -36,8 +36,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Wenn eine Form ein OLE-Objekt enthält, hat sie eine gültige "OleFormat"-Eigenschaft,
-// die wir verwenden können, um einige Aspekte der Form zu überprüfen.
+// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige „OleFormat“-Eigenschaft.
+// mit dem wir einige Aspekte der Form überprüfen können.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

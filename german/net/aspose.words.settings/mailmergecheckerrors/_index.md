@@ -3,7 +3,7 @@ title: Enum MailMergeCheckErrors
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Settings.MailMergeCheckErrors opsomming. Gibt an wie Microsoft Word beim Seriendruck erkannte Fehler meldet.
 type: docs
-weight: 5510
+weight: 5810
 url: /de/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -21,11 +21,11 @@ public enum MailMergeCheckErrors
 | Simulate | `1` | Simulieren Sie die Zusammenführung und melden Sie Fehler in einem neuen Dokument. |
 | PauseOnError | `2` | Schließen Sie die Zusammenführung ab und pausieren Sie, um Fehler zu melden. |
 | CollectErrors | `3` | Schließen Sie die Zusammenführung ab und melden Sie Fehler in einem neuen Dokument. |
-| Default | `2` | Entspricht demPauseOnError wert. |
+| Default | `2` | Entspricht demPauseOnError value. |
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

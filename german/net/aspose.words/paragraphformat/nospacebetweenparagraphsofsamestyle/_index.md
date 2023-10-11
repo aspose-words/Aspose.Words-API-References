@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Wenn wahrSpaceBefore undSpaceAfter wird ignoriert zwischen den Absätzen des gleichen Stils.
+description: ParagraphFormat eigendom. WannWAHR SpaceBefore UndSpaceAfter wird ignoriert zwischen den Absätzen desselben Stils.
 type: docs
-weight: 230
+weight: 240
 url: /de/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-Wenn wahr,[`SpaceBefore`](../spacebefore/) und[`SpaceAfter`](../spaceafter/) wird ignoriert zwischen den Absätzen des gleichen Stils.
+Wann`WAHR` ,[`SpaceBefore`](../spacebefore/) Und[`SpaceAfter`](../spaceafter/) wird ignoriert zwischen den Absätzen desselben Stils.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,24 +16,24 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### Bemerkungen
 
-Diese Einstellung wird nur wirksam, wenn sie auf ein Absatzformat angewendet wird. Wenn es direkt auf einen Absatz angewendet wird, hat es keine Wirkung.
+Diese Einstellung wirkt sich nur aus, wenn sie auf einen Absatzstil angewendet wird. Wenn es direkt auf einen Absatz angewendet wird, hat es keine Auswirkung.
 
 ### Beispiele
 
-Zeigt, wie kein Abstand zwischen Absätzen mit demselben Stil angewendet wird.
+Zeigt, wie man keinen Abstand zwischen Absätzen mit demselben Stil anwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen großen Abstand vor und nach Absätzen anwenden, die dieser Builder erstellt.
+// Einen großen Abstand vor und nach den Absätzen anwenden, die dieser Builder erstellt.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Setzen Sie das Flag "NoSpaceBetweenParagraphsOfSameStyle" auf "true", um es anzuwenden
-// kein Abstand zwischen Absätzen mit demselben Stil, wodurch ähnliche Absätze gruppiert werden.
-// Lassen Sie das Flag "NoSpaceBetweenParagraphsOfSameStyle" auf "false"
-// um gleichmäßige Abstände auf jeden Absatz anzuwenden.
+// Setzen Sie das Flag „NoSpaceBetweenParagraphsOfSameStyle“ auf „true“, um es anzuwenden
+// Kein Abstand zwischen Absätzen mit demselben Stil, wodurch ähnliche Absätze gruppiert werden.
+// Das Flag „NoSpaceBetweenParagraphsOfSameStyle“ auf „false“ belassen
+// um jedem Absatz gleichmäßige Abstände zuzuweisen.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

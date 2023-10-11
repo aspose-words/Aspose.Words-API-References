@@ -16,15 +16,15 @@ public void Remove()
 
 ### Beispiele
 
-Zeigt, wie ein Textwasserzeichen erstellt wird.
+Zeigt, wie man ein Textwasserzeichen erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Fügen Sie ein Nur-Text-Wasserzeichen hinzu.
+// Ein reines Textwasserzeichen hinzufügen.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung als Wasserzeichen bearbeiten möchten,
+// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
 // Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

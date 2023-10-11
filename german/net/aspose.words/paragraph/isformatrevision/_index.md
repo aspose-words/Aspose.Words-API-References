@@ -16,13 +16,13 @@ public bool IsFormatRevision { get; }
 
 ### Beispiele
 
-Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine Formatüberarbeitung handelt.
+Zeigt, wie man prüft, ob es sich bei einem Absatz um eine Formatrevision handelt.
 
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
-// Dieser Absatz ist eine "Format"-Überarbeitung, die auftritt, wenn wir die Formatierung von vorhandenem Text ändern
-// beim Verfolgen von Revisionen in Microsoft Word über "Review" -> "Änderungen verfolgen".
+// Dieser Absatz ist eine „Format“-Revision, die auftritt, wenn wir die Formatierung von vorhandenem Text ändern
+// während Überarbeitungen in Microsoft Word über „Überprüfen“ verfolgt werden -> "Änderungen verfolgen".
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```
 

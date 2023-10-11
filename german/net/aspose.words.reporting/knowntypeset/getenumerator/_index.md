@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.GetEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: KnownTypeSet methode. Gibt ein zurückIEnumerator Objekt um Elemente des Satzes zu durchlaufen.
+description: KnownTypeSet methode. Gibt An zurückIEnumerator Objekt zum Durchlaufen von Elementen der Menge.
 type: docs
 weight: 40
 url: /de/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-Gibt ein zurückIEnumerator Objekt, um Elemente des Satzes zu durchlaufen.
+Gibt An zurückIEnumerator Objekt zum Durchlaufen von Elementen der Menge.
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Rückgabewert
 
-EinIEnumerator Objekt, um über Elemente des Satzes zu iterieren.
+EinIEnumerator Objekt zum Durchlaufen von Elementen der Menge.
 
 ### Siehe auch
 

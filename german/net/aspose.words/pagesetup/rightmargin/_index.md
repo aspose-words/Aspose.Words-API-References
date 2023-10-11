@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RightMargin
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkten zwischen dem rechten Rand der Seite und der rechten Grenze des Fließtexts zurück oder legt ihn fest.
+description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen dem rechten Rand der Seite und der rechten Grenze des Textkörpers zurück oder legt ihn fest.
 type: docs
-weight: 360
+weight: 370
 url: /de/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
 
-Gibt den Abstand (in Punkten) zwischen dem rechten Rand der Seite und der rechten Grenze des Fließtexts zurück oder legt ihn fest.
+Gibt den Abstand (in Punkt) zwischen dem rechten Rand der Seite und der rechten Grenze des Textkörpers zurück oder legt ihn fest.
 
 ```csharp
 public double RightMargin { get; set; }

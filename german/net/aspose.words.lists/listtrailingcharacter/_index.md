@@ -1,14 +1,14 @@
 ---
 title: Enum ListTrailingCharacter
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListTrailingCharacter opsomming. Gibt das Zeichen an das die Listenbezeichnung vom Absatztext trennt.
+description: Aspose.Words.Lists.ListTrailingCharacter opsomming. Gibt das Zeichen an das die Listenbezeichnung vom Text des Absatzes trennt.
 type: docs
-weight: 3340
+weight: 3540
 url: /de/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
 
-Gibt das Zeichen an, das die Listenbezeichnung vom Absatztext trennt.
+Gibt das Zeichen an, das die Listenbezeichnung vom Text des Absatzes trennt.
 
 ```csharp
 public enum ListTrailingCharacter
@@ -18,24 +18,24 @@ public enum ListTrailingCharacter
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Tab | `0` | Zwischen Listenbeschriftung und Text des Absatzes wird ein Tabulatorzeichen gesetzt. |
-| Space | `1` | Zwischen Listenbeschriftung und Text des Absatzes wird ein Leerzeichen gesetzt. |
-| Nothing | `2` | Es gibt kein Trennzeichen zwischen der Listenbezeichnung und dem Text des Absatzes. |
+| Tab | `0` | Zwischen der Listenbeschriftung und dem Text des Absatzes wird ein Tabulatorzeichen eingefügt. |
+| Space | `1` | Zwischen der Listenbeschriftung und dem Text des Absatzes wird ein Leerzeichen eingefügt. |
+| Nothing | `2` | Es gibt kein Trennzeichen zwischen der Listenbeschriftung und dem Text des Absatzes. |
 
 ### Bemerkungen
 
-Wird als Wert für die verwendet[`TrailingCharacter`](../listlevel/trailingcharacter/) Eigentum.
+Wird als Wert für verwendet[`TrailingCharacter`](../listlevel/trailingcharacter/) Eigentum.
 
 ### Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Listenformatierungen auf Absätze anwenden, wenn Sie DocumentBuilder verwenden.
+Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
 // Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die ersten beiden Listenebenen an.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);

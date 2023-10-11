@@ -1,14 +1,14 @@
 ---
 title: Font.Emboss
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Wahr wenn die Schriftart geprägt formatiert ist.
+description: Font eigendom. True wenn die Schriftart als geprägt formatiert ist.
 type: docs
 weight: 100
 url: /de/net/aspose.words/font/emboss/
 ---
 ## Font.Emboss property
 
-Wahr, wenn die Schriftart geprägt formatiert ist.
+True, wenn die Schriftart als geprägt formatiert ist.
 
 ```csharp
 public bool Emboss { get; set; }
@@ -25,13 +25,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Im Folgenden finden Sie zwei Möglichkeiten, Schatten zu verwenden, um einen 3D-ähnlichen Effekt auf den Text anzuwenden.
-// 1 - Gravieren Sie Text, damit es so aussieht, als wären die Buchstaben in der Seite versunken:
+// Nachfolgend finden Sie zwei Möglichkeiten, Schatten zu verwenden, um dem Text einen 3D-ähnlichen Effekt zu verleihen.
+// 1 – Text so eingravieren, dass es aussieht, als wären die Buchstaben in die Seite eingelassen:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Text prägen, damit es so aussieht, als würden die Buchstaben aus der Seite herausspringen:
+// 2 – Prägen Sie den Text so ein, dass er aussieht, als würden die Buchstaben aus der Seite herausspringen:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

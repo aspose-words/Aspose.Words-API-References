@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SwapBordersFacingPgs
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Absatzränder auf ungeradzahligen Seiten tauschen.
+description: CompatibilityOptions eigendom. Absatzränder auf Seiten mit ungeraden Seitenzahlen vertauschen.
 type: docs
 weight: 530
 url: /de/net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
 ## CompatibilityOptions.SwapBordersFacingPgs property
 
-Absatzränder auf ungeradzahligen Seiten tauschen.
+Absatzränder auf Seiten mit ungeraden Seitenzahlen vertauschen.
 
 ```csharp
 public bool SwapBordersFacingPgs { get; set; }

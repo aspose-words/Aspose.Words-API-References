@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
 second_title: Aspose.Words für .NET-API-Referenz
-description: TableSubstitutionRule methode. Speichert die aktuellen Tabellenersetzungseinstellungen in einer Datei.
+description: TableSubstitutionRule methode. Speichert die aktuellen Tabellenersetzungseinstellungen in der Datei.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(string) {#save_1}
 
-Speichert die aktuellen Tabellenersetzungseinstellungen in einer Datei.
+Speichert die aktuellen Tabellenersetzungseinstellungen in der Datei.
 
 ```csharp
 public void Save(string fileName)
@@ -20,18 +20,18 @@ public void Save(string fileName)
 
 ### Beispiele
 
-Zeigt, wie auf Schriftartersetzungstabellen für Windows und Linux zugegriffen wird.
+Zeigt, wie man auf Schriftarten-Ersetzungstabellen für Windows und Linux zugreift.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die standardmäßige Schriftartenersetzungstabelle von Microsoft Windows.
+// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die Standard-Schriftartenersetzungstabelle von Microsoft Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// In Windows ist der Standardersatz für die Schriftart "Times New Roman CE" "Times New Roman".
+// In Windows ist der Standardersatz für die Schriftart „Times New Roman CE“ „Times New Roman“.
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
@@ -39,9 +39,9 @@ Assert.AreEqual(new[] {"Times New Roman"},
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux hat seine eigene Substitutionstabelle.
-// Es gibt mehrere Ersatzschriftarten für "Times New Roman CE".
-// Wenn der erste Ersatz "FreeSerif" ebenfalls nicht verfügbar ist,
-// Diese Regel durchläuft die anderen im Array, bis sie eine verfügbare findet.
+// Für „Times New Roman CE“ gibt es mehrere Ersatzschriften.
+// Wenn der erste Ersatz „FreeSerif“ ebenfalls nicht verfügbar ist,
+// Diese Regel durchläuft die anderen im Array, bis sie eine verfügbare Regel findet.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
@@ -76,18 +76,18 @@ public void Save(Stream outputStream)
 
 ### Beispiele
 
-Zeigt, wie auf Schriftartersetzungstabellen für Windows und Linux zugegriffen wird.
+Zeigt, wie man auf Schriftarten-Ersetzungstabellen für Windows und Linux zugreift.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die standardmäßige Schriftartenersetzungstabelle von Microsoft Windows.
+// Erstellen Sie eine neue Tabellenersetzungsregel und laden Sie die Standard-Schriftartenersetzungstabelle von Microsoft Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// In Windows ist der Standardersatz für die Schriftart "Times New Roman CE" "Times New Roman".
+// In Windows ist der Standardersatz für die Schriftart „Times New Roman CE“ „Times New Roman“.
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
@@ -95,9 +95,9 @@ Assert.AreEqual(new[] {"Times New Roman"},
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux hat seine eigene Substitutionstabelle.
-// Es gibt mehrere Ersatzschriftarten für "Times New Roman CE".
-// Wenn der erste Ersatz "FreeSerif" ebenfalls nicht verfügbar ist,
-// Diese Regel durchläuft die anderen im Array, bis sie eine verfügbare findet.
+// Für „Times New Roman CE“ gibt es mehrere Ersatzschriften.
+// Wenn der erste Ersatz „FreeSerif“ ebenfalls nicht verfügbar ist,
+// Diese Regel durchläuft die anderen im Array, bis sie eine verfügbare Regel findet.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());

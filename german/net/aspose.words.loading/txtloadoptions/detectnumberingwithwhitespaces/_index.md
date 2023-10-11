@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
 second_title: Aspose.Words für .NET-API-Referenz
-description: TxtLoadOptions eigendom. Ermöglicht festzulegen wie nummerierte Listenelemente erkannt werden wenn ein Dokument aus dem NurTextFormat importiert wird. Der Standardwert ist wahr.
+description: TxtLoadOptions eigendom. Ermöglicht die Angabe wie nummerierte Listenelemente erkannt werden wenn ein Dokument aus dem NurTextFormat importiert wird. Der Standardwert istWAHR.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Ermöglicht festzulegen, wie nummerierte Listenelemente erkannt werden, wenn ein Dokument aus dem Nur-Text-Format importiert wird. Der Standardwert ist wahr.
+Ermöglicht die Angabe, wie nummerierte Listenelemente erkannt werden, wenn ein Dokument aus dem Nur-Text-Format importiert wird. Der Standardwert ist`WAHR`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -16,19 +16,19 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ### Bemerkungen
 
-Wenn diese Option auf "false" gesetzt ist, erkennt der Listenerkennungsalgorithmus Listenabsätze, wenn Listennummern mit enden, entweder Punkt, rechte Klammer oder Aufzählungszeichen (wie "•", "*", "-" oder "o").
+Wenn diese Option auf eingestellt ist`FALSCH`Der Listenerkennungsalgorithmus erkennt Listenabsätze, wenn Listennummern mit enden, entweder mit einem Punkt, einer rechten Klammer oder einem Aufzählungszeichen (z. B. „•“, „*“, „-“ oder „o“).
 
-Wenn diese Option auf „true“ gesetzt ist, werden Leerzeichen auch als Trennzeichen für Listennummern verwendet: Listenerkennungsalgorithmus für Nummerierung im arabischen Stil (1., 1.1.2.) verwendet sowohl Leerzeichen als auch Punktsymbole („.“).
+Wenn diese Option auf eingestellt ist`WAHR`Leerzeichen werden auch als Trennzeichen für Listennummern verwendet: Der Listenerkennungsalgorithmus für die Nummerierung im arabischen Stil (1., 1.1.2.) verwendet sowohl Leerzeichen als auch Punktsymbole (".").
 
 ### Beispiele
 
 Zeigt, wie Listen beim Laden von Klartextdokumenten erkannt werden.
 
 ```csharp
-// Erstellen Sie ein Klartextdokument in einer Zeichenfolge mit vier separaten Teilen, die wir als Listen interpretieren können,
-// mit unterschiedlichen Trennzeichen. Beim Laden des Klartextdokuments in ein "Dokument"-Objekt,
-// Aspose.Words erkennt immer die ersten drei Listen und fügt ein "List"-Objekt hinzu
-// für jeden zur "Listen"-Eigenschaft des Dokuments.
+// Erstelle ein Klartextdokument in einem String mit vier separaten Teilen, die wir als Listen interpretieren können,
+// mit unterschiedlichen Trennzeichen. Beim Laden des Klartextdokuments in ein „Document“-Objekt,
+// Aspose.Words erkennt immer die ersten drei Listen und fügt ein „List“-Objekt hinzu
+// für jedes in die Eigenschaft „Lists“ des Dokuments.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
                        "2. First list item 2\n" +
@@ -46,15 +46,15 @@ const string textDoc = "Full stop delimiters:\n" +
                        "2 Fourth list item 2\n" +
                        "3 Fourth list item 3";
 
-// Erstellen Sie ein "TxtLoadOptions"-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
+// Erstelle ein „TxtLoadOptions“-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
 // um zu ändern, wie wir ein Klartextdokument laden.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Setzen Sie die Eigenschaft "DetectNumberingWithWhitespaces" auf "true", um nummerierte Elemente zu erkennen
-// mit Whitespace-Trennzeichen, wie die vierte Liste in unserem Dokument, als Listen.
-// Dies kann auch Absätze, die mit Zahlen beginnen, fälschlicherweise als Listen erkennen.
-// Setzen Sie die Eigenschaft "DetectNumberingWithWhitespaces" auf "false"
-// keine Listen aus nummerierten Elementen mit Leerzeichen als Trennzeichen erstellen.
+// Setzen Sie die Eigenschaft „DetectNumberingWithWhitespaces“ auf „true“, um nummerierte Elemente zu erkennen
+// mit Leerzeichen-Trennzeichen, wie die vierte Liste in unserem Dokument, als Listen.
+// Dies kann auch dazu führen, dass Absätze, die mit Zahlen beginnen, fälschlicherweise als Listen erkannt werden.
+// Setze die Eigenschaft „DetectNumberingWithWhitespaces“ auf „false“
+// um keine Listen aus nummerierten Elementen mit Leerzeichen als Trennzeichen zu erstellen.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

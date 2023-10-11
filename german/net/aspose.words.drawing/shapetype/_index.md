@@ -3,7 +3,7 @@ title: Enum ShapeType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.ShapeType opsomming. Gibt den Formtyp in einem Microsoft WordDokument an.
 type: docs
-weight: 1140
+weight: 1290
 url: /de/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -19,11 +19,11 @@ public enum ShapeType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Image | `75` | Die Form ist ein Bild. |
-| TextBox | `202` | Die Form ist ein Textfeld. Beachten Sie, dass Formen vieler anderer Typen auch Text enthalten können. Eine Form muss diesen Typ nicht haben, um Text zu enthalten. |
+| TextBox | `202` | Die Form ist ein Textfeld. Beachten Sie, dass auch Formen vieler anderer Typen Text enthalten können. Eine Form muss nicht diesen Typ haben, um Text zu enthalten. |
 | Group | `-1` | Die Form ist eine Gruppenform. |
 | OleObject | `-2` | Die Form ist ein OLE-Objekt. |
 | OleControl | `201` | Die Form ist ein ActiveX-Steuerelement. |
-| NonPrimitive | `0` | Eine vom Benutzer gezeichnete Form, die aus mehreren Segmenten und/oder Scheitelpunkten besteht (Kurve, Freiform oder Scribble). |
+| NonPrimitive | `0` | Eine vom Benutzer gezeichnete Form, die aus mehreren Segmenten und/oder Eckpunkten besteht (Kurve, Freiform oder Skizze). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | Dieser Formtyp scheint für Formen eingestellt zu sein, die nicht Teil des Standardsatzes der automatischen Formen in Microsoft Word sind. Wenn Sie beispielsweise eine neue automatische Form aus ClipArt. einfügen |
+| CustomShape | `100` | Dieser Formtyp scheint für Formen festgelegt zu sein, die nicht Teil des Standardsatzes der automatischen Formen in Microsoft Word sind. Wenn Sie beispielsweise eine neue automatische Form aus ClipArt. einfügen |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -223,13 +223,13 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | Rechteckiges Objekt mit einer einzelnen Ecke ausschneiden. |
-| TopCornersSnipped | `204` | Gleichseitiges Eckrechteck ausschneiden. |
+| SingleCornerSnipped | `203` | Rechteckobjekt mit einer einzelnen Ecke ausschneiden. |
+| TopCornersSnipped | `204` | Eckrechteck auf der gleichen Seite ausschneiden. |
 | DiagonalCornersSnipped | `205` | Diagonales Eckrechteck ausschneiden. |
-| TopCornersOneRoundedOneSnipped | `206` | Snip und abgerundetes Rechteck mit einer Ecke. |
+| TopCornersOneRoundedOneSnipped | `206` | Rechteck mit einer einzelnen Ecke ausschneiden und abrunden. |
 | SingleCornerRounded | `207` | Rundes Rechteck mit einer Ecke. |
-| TopCornersRounded | `208` | Rundes Rechteck mit gleicher Ecke. |
-| DiagonalCornersRounded | `209` | Rechteck mit abgerundeten diagonalen Ecken. |
+| TopCornersRounded | `208` | Eckrechteck mit gleicher Seite abrunden. |
+| DiagonalCornersRounded | `209` | Rundes diagonales Eckrechteck. |
 | Heptagon | `210` | Siebeneck. |
 | Cloud | `211` | Wolke. |
 | Seal6 | `212` | Sechszackiger Stern. |
@@ -238,46 +238,46 @@ public enum ShapeType
 | Seal12 | `215` | Zwölfzackiger Stern. |
 | SwooshArrow | `216` | Swoosh-Pfeil. |
 | Teardrop | `217` | Träne. |
-| SquareTabs | `218` | Quadratische Registerkarten. |
-| PlaqueTabs | `219` | Plakettenreiter. |
+| SquareTabs | `218` | Quadratische Tabs. |
+| PlaqueTabs | `219` | Plakettenregisterkarten. |
 | Pie | `220` | Kuchen. |
 | WedgePie | `221` | Keilkuchen. |
 | InverseLine | `222` | Umkehrlinie. |
-| MathPlus | `223` | Mathematik plus. |
+| MathPlus | `223` | Mathe plus. |
 | MathMinus | `224` | Mathe minus. |
-| MathMultiply | `225` | Mathematik multiplizieren. |
+| MathMultiply | `225` | Mathe multiplizieren. |
 | MathDivide | `226` | Mathematische Division. |
-| MathEqual | `227` | Mathematik gleich. |
-| MathNotEqual | `228` | Mathematik ungleich. |
+| MathEqual | `227` | Mathe gleich. |
+| MathNotEqual | `228` | Mathe ungleich. |
 | NonIsoscelesTrapezoid | `229` | Nicht gleichschenkliges Trapez. |
-| LeftRightCircularArrow | `230` | Kreisförmiger Links-Rechts-Pfeil. |
-| LeftRightRibbon | `231` | Links-rechts-Band. |
+| LeftRightCircularArrow | `230` | Kreispfeil links-rechts. |
+| LeftRightRibbon | `231` | Links-Rechts-Band. |
 | LeftCircularArrow | `232` | Linker kreisförmiger Pfeil. |
 | Frame | `233` | Rahmen. |
 | HalfFrame | `234` | Halbbild. |
 | Funnel | `235` | Trichter. |
-| Gear6 | `236` | Zahnrad mit sechs Zähnen. |
-| Gear9 | `237` | Zahnrad mit neun Zähnen. |
+| Gear6 | `236` | Sechszahnrad. |
+| Gear9 | `237` | Neunzahnrad. |
 | Decagon | `238` | Zehneck. |
 | Dodecagon | `239` | Zwölfeck. |
-| DiagonalStripe | `240` | Diagonalstreifen. |
+| DiagonalStripe | `240` | Diagonaler Streifen. |
 | Corner | `241` | Ecke. |
 | CornerTabs | `242` | Ecklaschen. |
 | Chord | `243` | Akkord. |
 | ChartPlus | `244` | Diagramm plus. |
-| ChartStar | `245` | Diagrammstern. |
+| ChartStar | `245` | Kartenstern. |
 | ChartX | `246` | Diagramm X. |
 | MinValue | `-2` | Reserviert für die Systemnutzung. |
 
 ### Beispiele
 
-Zeigt, wie Sie eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügen.
+Zeigt, wie man eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
 
 // Der öffentliche Konstruktor der Klasse „Shape“ erstellt eine Form mit dem Markup-Typ „ShapeMarkupLanguage.Vml“.
-// Wenn Sie eine Form eines nicht primitiven Typs erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Wenn Sie eine Form eines nicht-primitiven Typs erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded oder DiagonalCornersRounded,
 // Bitte verwenden Sie DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
@@ -308,7 +308,7 @@ builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 
 // Um Formtypen korrekt zu identifizieren, müssen Sie mit Formen als DML arbeiten.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    // „Strict“- oder „Transitional“-Compliance ermöglicht das Speichern der Form als DML.
+    // „Strenge“ oder „Übergangs“-Konformität ermöglicht das Speichern der Form als DML.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

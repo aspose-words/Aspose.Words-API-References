@@ -16,21 +16,20 @@ public string Author { get; set; }
 
 ### Bemerkungen
 
-Kann nicht Null sein.
+Kann nicht sein`Null`.
 
-Standard ist eine leere Zeichenfolge.
+Der Standardwert ist eine leere Zeichenfolge.
 
 ### Beispiele
 
-Zeigt, wie alle Kommentare eines Dokuments und ihre Antworten gedruckt werden.
+Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen "Top-Level"-Kommentar im Gegensatz zu einem Antworttyp-Kommentar.
-// Drucken Sie alle Kommentare der obersten Ebene zusammen mit allen möglichen Antworten.
+// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen „Top-Level“-Kommentar und nicht um einen Antworttyp-Kommentar.
+// Alle Kommentare der obersten Ebene zusammen mit etwaigen Antworten drucken.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

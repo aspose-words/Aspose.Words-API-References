@@ -1,14 +1,14 @@
 ---
 title: Comment.AddReply
 second_title: Aspose.Words für .NET-API-Referenz
-description: Comment methode. Fügt diesem Kommentar eine Antwort hinzu.
+description: Comment methode. Fügt eine Antwort zu diesem Kommentar hinzu.
 type: docs
-weight: 120
+weight: 150
 url: /de/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
 
-Fügt diesem Kommentar eine Antwort hinzu.
+Fügt eine Antwort zu diesem Kommentar hinzu.
 
 ```csharp
 public Comment AddReply(string author, string initial, DateTime dateTime, string text)
@@ -27,11 +27,11 @@ Das Geschaffene[`Comment`](../) Knoten für die Antwort.
 
 ### Bemerkungen
 
-Aufgrund der bestehenden MS Office-Einschränkungen ist im Dokument nur eine Antwortebene zulässig. Eine Ausnahme vom TypInvalidOperationException wird ausgelöst, wenn diese Methode für den vorhandenen Antwortkommentar aufgerufen wird.
+Aufgrund der bestehenden MS Office-Einschränkungen ist im Dokument nur eine Ebene von Antworten zulässig. Eine Ausnahme dieser ArtInvalidOperationException wird ausgelöst, wenn diese Methode für den vorhandenen Antwortkommentar aufgerufen wird.
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument einen Kommentar hinzufügen und darauf antworten.
+Zeigt, wie man einem Dokument einen Kommentar hinzufügt und dann darauf antwortet.
 
 ```csharp
 Document doc = new Document();
@@ -40,18 +40,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
-// Platziere den Kommentar an einem Knoten im Hauptteil des Dokuments.
-// Dieser Kommentar wird an der Stelle seines Absatzes angezeigt,
-// außerhalb des rechten Rands der Seite und mit einer gepunkteten Linie, die ihn mit seinem Absatz verbindet.
+// Platzieren Sie den Kommentar an einem Knoten im Hauptteil des Dokuments.
+// Dieser Kommentar wird an der Stelle seines Absatzes angezeigt.
+// außerhalb des rechten Randes der Seite und mit einer gepunkteten Linie, die es mit seinem Absatz verbindet.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Füge eine Antwort hinzu, die unter dem übergeordneten Kommentar angezeigt wird.
+// Eine Antwort hinzufügen, die unter dem übergeordneten Kommentar angezeigt wird.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // Kommentare und Antworten sind beide Kommentarknoten.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Kommentare, die nicht auf andere Kommentare antworten, sind "oberste Ebene". Sie haben keine Vorfahrenkommentare.
+// Kommentare, die nicht auf andere Kommentare antworten, sind „Top-Level“. Sie haben keine Vorfahrenkommentare.
 Assert.Null(comment.Ancestor);
 
 // Antworten haben einen übergeordneten Kommentar auf oberster Ebene.

@@ -3,12 +3,14 @@ title: Enum ThemeColor
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Themes.ThemeColor opsomming. Gibt die Designfarben für Dokumentdesigns an.
 type: docs
-weight: 6170
+weight: 6470
 url: /de/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
 Gibt die Designfarben für Dokumentdesigns an.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Stilen und Themen](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Dokumentationsartikel.
 
 ```csharp
 public enum ThemeColor
@@ -29,7 +31,7 @@ public enum ThemeColor
 | Accent4 | `7` | Akzentfarbe 4. |
 | Accent5 | `8` | Akzentfarbe 5. |
 | Accent6 | `9` | Akzentfarbe 6. |
-| Hyperlink | `10` | Hyperlinkfarbe. |
+| Hyperlink | `10` | Hyperlink-Farbe. |
 | FollowedHyperlink | `11` | Farbe des verfolgten Hyperlinks. |
 | Text1 | `12` | Textfarbe 1. |
 | Text2 | `13` | Textfarbe 2. |
@@ -38,11 +40,11 @@ public enum ThemeColor
 
 ### Bemerkungen
 
-Die angegebene Designfarbe ist ein Verweis auf eine der vordefinierten Designfarben, die sich im Designteil des -Dokuments befinden, wodurch Farbinformationen zentral im Dokument festgelegt werden können.
+Die angegebene Designfarbe ist ein Verweis auf eine der vordefinierten Designfarben, die sich im Designteil des -Dokuments befindet und die zentrale Festlegung von Farbinformationen im Dokument ermöglicht.
 
 ### Beispiele
 
-Zeigt, wie Themenstile erstellt und verwendet werden.
+Zeigt, wie ein Themenstil erstellt und verwendet wird.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Erstellen Sie einen Stil mit Schriftarteigenschaften des Themas.
+// Erstellen Sie einen Stil mit den Schriftarteigenschaften des Themas.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -60,12 +62,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Zeigt, wie Sie mit Designschriftarten und -farben arbeiten.
+Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Definieren Sie standardmäßig Schriftarten für die Verwendung von Sprachen.
+// Schriftarten für standardmäßig verwendete Sprachen definieren.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -73,7 +75,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Wir können Design-Schriftart und -Farbe anstelle von Standardwerten verwenden.
+// Wir können Schriftart und Farbe des Themas anstelle von Standardwerten verwenden.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -96,7 +98,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Es gibt mehrere Möglichkeiten, Schriftart und Farbe zurückzusetzen.
-// 1 - Durch Setzen von ThemeFont.None/ThemeColor.None:
+// 1 - Durch Festlegen von ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -118,7 +120,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Durch Festlegen von Nicht-Design-Schriftart-/Farbnamen:
+// 2 – Durch Festlegen von Schriftarten/Farbnamen, die nicht zum Thema gehören:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

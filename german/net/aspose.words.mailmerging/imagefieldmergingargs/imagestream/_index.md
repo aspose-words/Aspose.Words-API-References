@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt den Stream an aus dem die MailMergeEngine ein Bild lesen soll.
+description: ImageFieldMergingArgs eigendom. Gibt den Stream an aus dem die SerienbriefEngine ein Bild lesen soll.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Gibt den Stream an, aus dem die Mail-Merge-Engine ein Bild lesen soll.
+Gibt den Stream an, aus dem die Serienbrief-Engine ein Bild lesen soll.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -16,7 +16,7 @@ public Stream ImageStream { get; set; }
 
 ### Bemerkungen
 
-Aspose.Words schließt diesen Stream, nachdem das Bild mit dem Dokument zusammengeführt wurde.
+Aspose.Words schließt diesen Stream, nachdem das Bild in das Dokument eingefügt wurde.
 
 ### Beispiele
 
@@ -29,7 +29,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -44,6 +44,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -53,7 +54,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Seriendruck auf ein MERGEFIELD im Dokument mit einem "Image:"-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

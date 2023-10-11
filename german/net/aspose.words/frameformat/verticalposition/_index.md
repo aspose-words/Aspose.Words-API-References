@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft den vertikalen Abstand zwischen dem Rand des Rahmens und dem durch den angegebenen Gegenstand abRelativeVerticalPosition Eigentum.
+description: FrameFormat eigendom. Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element abRelativeVerticalPosition Eigenschaft.
 type: docs
 weight: 110
 url: /de/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-Ruft den vertikalen Abstand zwischen dem Rand des Rahmens und dem durch den angegebenen Gegenstand ab[`RelativeVerticalPosition`](../relativeverticalposition/) Eigentum.
+Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element ab[`RelativeVerticalPosition`](../relativeverticalposition/) Eigenschaft.
 
 ```csharp
 public double VerticalPosition { get; }
@@ -16,7 +16,7 @@ public double VerticalPosition { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

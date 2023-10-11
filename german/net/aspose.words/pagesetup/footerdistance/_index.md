@@ -1,14 +1,14 @@
 ---
 title: PageSetup.FooterDistance
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen der Fußzeile und dem unteren Rand der Seite zurück oder legt ihn fest.
+description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen der Fußzeile und dem unteren Rand der Seite zurück oder legt diesen fest.
 type: docs
 weight: 140
 url: /de/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-Gibt den Abstand (in Punkt) zwischen der Fußzeile und dem unteren Rand der Seite zurück oder legt ihn fest.
+Gibt den Abstand (in Punkt) zwischen der Fußzeile und dem unteren Rand der Seite zurück oder legt diesen fest.
 
 ```csharp
 public double FooterDistance { get; set; }

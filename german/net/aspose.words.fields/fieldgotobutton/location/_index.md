@@ -1,14 +1,14 @@
 ---
 title: FieldGoToButton.Location
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGoToButton eigendom. Ruft den Namen eines Lesezeichens eine Seitennummer oder ein anderes Element ab zu dem gesprungen werden soll oder legt diesen fest.
+description: FieldGoToButton eigendom. Ruft den Namen eines Lesezeichens eine Seitenzahl oder ein anderes Element ab zu dem gesprungen werden soll oder legt diesen fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldgotobutton/location/
 ---
 ## FieldGoToButton.Location property
 
-Ruft den Namen eines Lesezeichens, eine Seitennummer oder ein anderes Element ab, zu dem gesprungen werden soll, oder legt diesen fest.
+Ruft den Namen eines Lesezeichens, eine Seitenzahl oder ein anderes Element ab, zu dem gesprungen werden soll, oder legt diesen fest.
 
 ```csharp
 public string Location { get; set; }
@@ -16,21 +16,21 @@ public string Location { get; set; }
 
 ### Beispiele
 
-Zeigt das Einfügen eines GOTOBUTTON-Felds an.
+Zeigt an, dass ein GOTOBUTTON-Feld eingefügt werden soll.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein GOTOBUTTON-Feld hinzufügen. Wenn wir in Microsoft Word auf dieses Feld doppelklicken,
-// Der Textcursor wird zu dem Lesezeichen geführt, dessen Name von der Location-Eigenschaft referenziert wird.
+// Der Textcursor wird zum Lesezeichen geführt, auf dessen Namen die Location-Eigenschaft verweist.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Ein gültiges Lesezeichen für das zu referenzierende Feld einfügen.
+// Ein gültiges Lesezeichen für das Feld einfügen, auf das verwiesen werden soll.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

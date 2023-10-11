@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyle.BottomPadding
 second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft den Abstand in Punkt ab oder legt ihn fest der unter dem Inhalt von Tabellenzellen hinzugefügt werden soll.
+description: ConditionalStyle eigendom. Ruft den Abstand in Punkten ab der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words/conditionalstyle/bottompadding/
 ---
 ## ConditionalStyle.BottomPadding property
 
-Ruft den Abstand (in Punkt) ab oder legt ihn fest, der unter dem Inhalt von Tabellenzellen hinzugefügt werden soll.
+Ruft den Abstand (in Punkten) ab, der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -37,9 +37,9 @@ builder.EndTable();
 // Einen benutzerdefinierten Tabellenstil erstellen.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
-// basierend auf einem Prädikat, z. B. die Zellen in der letzten Zeile.
-// Im Folgenden finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der Sammlung "ConditionalStyles" zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
+// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
+// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -68,14 +68,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Anwenden des benutzerdefinierten Stils, der alle bedingten Stile enthält, auf die Tabelle.
+// Den benutzerdefinierten Stil, der alle bedingten Stile enthält, auf die Tabelle anwenden.
 table.Style = tableStyle;
 
 // Unser Stil wendet standardmäßig einige bedingte Stile an.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Wir müssen alle anderen Stile selbst über die Eigenschaft "StyleOptions" aktivieren.
+// Alle anderen Stile müssen wir selbst über die Eigenschaft „StyleOptions“ aktivieren.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

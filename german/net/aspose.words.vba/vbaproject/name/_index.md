@@ -16,17 +16,17 @@ public string Name { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein VBA-Projekt mithilfe von Makros erstellt wird.
+Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein neues VBA-Projekt.
+// Ein neues VBA-Projekt erstellen.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Erstellen Sie ein neues Modul und geben Sie einen Makroquellcode an.
+// Ein neues Modul erstellen und einen Makroquellcode angeben.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
@@ -45,6 +45,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ein VBA-Projekt enthält eine Sammlung von VBA-Modulen.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -55,7 +56,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Neuen Quellcode für VBA-Modul setzen. Sie können auf VBA-Module in der Sammlung entweder nach Index oder nach Name zugreifen.
+// Neuen Quellcode für VBA-Modul festlegen. Sie können auf VBA-Module in der Sammlung entweder über den Index oder über den Namen zugreifen.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

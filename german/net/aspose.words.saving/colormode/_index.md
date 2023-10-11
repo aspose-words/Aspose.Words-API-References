@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.ColorMode opsomming. Gibt an wie Farben gerendert werden.
 type: docs
-weight: 4600
+weight: 4860
 url: /de/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
@@ -18,21 +18,21 @@ public enum ColorMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Normal | `0` | Rendern mit unveränderten Farben. |
-| Grayscale | `1` | Rendering mit Farben in verschiedenen Graustufen von Weiß bis Schwarz. |
+| Normal | `0` | Rendering mit unveränderten Farben. |
+| Grayscale | `1` | Rendering mit Farben in verschiedenen Grautönen von Weiß bis Schwarz. |
 
 ### Beispiele
 
-Zeigt, wie die Bildfarbe mit der Eigenschaft „Speicheroptionen“ geändert wird.
+Zeigt, wie man die Bildfarbe mit der Eigenschaft „Speicheroptionen“ ändert.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
-// Setzen Sie die Eigenschaft "ColorMode" auf "Grayscale", um alle Bilder aus dem Dokument in Schwarzweiß zu rendern.
-// Die Größe des Ausgabedokuments kann mit dieser Einstellung größer sein.
-// Setzen Sie die Eigenschaft "ColorMode" auf "Normal", um alle Bilder in Farbe zu rendern.
+// Setzen Sie die Eigenschaft „ColorMode“ auf „Grayscale“, um alle Bilder aus dem Dokument in Schwarzweiß darzustellen.
+// Die Größe des Ausgabedokuments kann bei dieser Einstellung größer sein.
+// Setzen Sie die Eigenschaft „ColorMode“ auf „Normal“, um alle Bilder in Farbe darzustellen.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

@@ -16,7 +16,7 @@ public override bool Enabled { set; }
 
 ### Beispiele
 
-Zeigt die vom Betriebssystem abhängige Ersetzung der Schriftartkonfiguration an.
+Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Unter Linux/Mac haben wir Zugriff darauf und können Operationen ausführen.
+// Unter Linux/Mac haben wir Zugriff darauf und können Vorgänge ausführen.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

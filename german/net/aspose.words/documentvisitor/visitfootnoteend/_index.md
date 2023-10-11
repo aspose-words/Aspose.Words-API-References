@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Fußnoten oder Endnotentexts beendet ist.
+description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Fußnoten oder Endnotentextes beendet wurde.
 type: docs
 weight: 210
 url: /de/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentexts beendet ist.
+Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentextes beendet wurde.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -20,7 +20,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
@@ -32,8 +32,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -42,7 +42,7 @@ public void FootnoteToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Fußnotenknoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Footnote-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Fußnotenknoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Footnote-Knoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Fußnotenknotens besucht wurden.
+    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Footnote-Knotens besucht wurden.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -95,7 +95,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

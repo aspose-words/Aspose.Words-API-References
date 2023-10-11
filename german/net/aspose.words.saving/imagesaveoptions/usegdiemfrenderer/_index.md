@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft einen Wert ab oder legt einen Wert fest der festlegt ob GDI oder der Aspose.WordsMetadateiRenderer beim Speichern in EMF verwendet werden soll.
+description: ImageSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob beim Speichern in EMF der MetadateiRenderer GDI oder Aspose.Words verwendet werden soll.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property
 
-Ruft einen Wert ab oder legt einen Wert fest, der festlegt, ob GDI+ oder der Aspose.Words-Metadatei-Renderer beim Speichern in EMF verwendet werden soll.
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob beim Speichern in EMF der Metadatei-Renderer GDI+ oder Aspose.Words verwendet werden soll.
 
 ```csharp
 public bool UseGdiEmfRenderer { get; set; }
@@ -16,19 +16,19 @@ public bool UseGdiEmfRenderer { get; set; }
 
 ### Bemerkungen
 
-Wenn eingestellt`Stimmt`GDI+-Metadatei-Renderer wird verwendet. Das heißt, der Inhalt wird in das GDI+-Objekt graphics geschrieben und in der Metadatei gespeichert.
+Wenn eingestellt auf`WAHR` Es wird der GDI+-Metadatei-Renderer verwendet. Dh der Inhalt wird in das GDI+-Objekt „graphics “ geschrieben und in der Metadatei gespeichert.
 
-Wenn eingestellt`FALSCH` Aspose.Words-Metadatei-Renderer wird verwendet. Dh Inhalte werden direkt mit Aspose.Words in das Metafile-Format geschrieben.
+Wenn eingestellt auf`FALSCH` Es wird der Metadatei-Renderer Aspose.Words verwendet. Dh Inhalte werden mit Aspose.Words direkt in das Metafile-Format geschrieben.
 
-Wirkt sich nur beim Speichern in EMF aus.
+Wirkt sich nur beim Speichern im EMF aus.
 
 Das GDI+-Speichern funktioniert nur unter .NET.
 
-Der Standardwert ist`Stimmt`.
+Der Standardwert ist`WAHR`.
 
 ### Beispiele
 
-Zeigt, wie Sie beim Konvertieren eines Dokuments in .emf einen Renderer auswählen.
+Zeigt, wie man beim Konvertieren eines Dokuments in .emf einen Renderer auswählt.
 
 ```csharp
 Document doc = new Document();
@@ -39,8 +39,8 @@ Document doc = new Document();
             builder.InsertImage(ImageDir + "Logo.jpg");
 
             // Wenn wir das Dokument als EMF-Bild speichern, können wir ein SaveOptions-Objekt übergeben, um einen Renderer für das Bild auszuwählen.
-            // Wenn wir das Flag "UseGdiEmfRenderer" auf "true" setzen, verwendet Aspose.Words den GDI+-Renderer.
-            // Wenn wir das Flag "UseGdiEmfRenderer" auf "false" setzen, verwendet Aspose.Words seinen eigenen Metafile-Renderer.
+            // Wenn wir das Flag „UseGdiEmfRenderer“ auf „true“ setzen, verwendet Aspose.Words den GDI+-Renderer.
+            // Wenn wir das Flag „UseGdiEmfRenderer“ auf „false“ setzen, verwendet Aspose.Words seinen eigenen Metadatei-Renderer.
             ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Emf);
             saveOptions.UseGdiEmfRenderer = useGdiEmfRenderer;
 

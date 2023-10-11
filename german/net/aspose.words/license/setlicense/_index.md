@@ -16,25 +16,25 @@ public void SetLicense(string licenseName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| licenseName | String | Kann ein vollständiger oder kurzer Dateiname oder Name einer eingebetteten Ressource sein. Verwenden Sie eine leere Zeichenfolge, um in den Evaluierungsmodus zu wechseln. |
+| licenseName | String | Kann ein vollständiger oder kurzer Dateiname oder der Name einer eingebetteten Ressource sein. Verwenden Sie eine leere Zeichenfolge, um in den Auswertungsmodus zu wechseln. |
 
 ### Bemerkungen
 
 Versucht, die Lizenz an den folgenden Orten zu finden:
 
-1. Explizite Pfad.
+1. Expliziter Pfad.
 
 2. Der Ordner, der die Aspose-Komponentenbaugruppe enthält.
 
 3. Der Ordner, der die aufrufende Assembly des Clients enthält.
 
-4. Der Ordner, der den Eintrag (Startup) Assembly enthält.
+4. Der Ordner, der die Eintrags-(Start-)Assembly enthält.
 
 5. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
 
-**Notiz:**Versucht in .NET Compact Framework, die Lizenz nur an diesen Speicherorten zu finden:
+**Notiz:**Versucht im .NET Compact Framework, die Lizenz nur an diesen Orten zu finden:
 
-1. Explizite Pfad.
+1. Expliziter Pfad.
 
 2. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
 
@@ -43,7 +43,7 @@ Versucht, die Lizenz an den folgenden Orten zu finden:
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
 ```csharp
-// Legen Sie die Lizenz für unser Produkt Aspose.Words fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
+// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();
@@ -54,8 +54,8 @@ string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
 // Wenn wir den Namen einer Datei ohne Pfad übergeben,
-// die SetLicense durchsucht mehrere lokale Dateisystemspeicherorte nach dieser Datei.
-// Einer dieser Speicherorte ist der "bin"-Ordner, der eine Kopie unserer Lizenzdatei enthält.
+// SetLicense durchsucht mehrere lokale Dateisystemspeicherorte nach dieser Datei.
+// Einer dieser Speicherorte ist der Ordner „bin“, der eine Kopie unserer Lizenzdatei enthält.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

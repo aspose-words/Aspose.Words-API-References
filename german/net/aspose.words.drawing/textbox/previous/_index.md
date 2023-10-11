@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt eine TextBox zurück die die vorherige TextBox in einer Folge von Formen darstellt.
+description: TextBox eigendom. Gibt a zurückTextBox das repräsentiert das VorherigeTextBox in einer Folge von Formen.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Gibt eine TextBox zurück, die die vorherige TextBox in einer Folge von Formen darstellt.
+Gibt a zurück[`TextBox`](../) das repräsentiert das Vorherige[`TextBox`](../) in einer Folge von Formen.
 
 ```csharp
 public TextBox Previous { get; }
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und überprüfen Sie dann, ob sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

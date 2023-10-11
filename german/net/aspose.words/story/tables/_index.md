@@ -16,7 +16,7 @@ public TableCollection Tables { get; }
 
 ### Beispiele
 
-Zeigt, wie die erste und letzte Zeile aller Tabellen in einem Dokument entfernt werden.
+Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

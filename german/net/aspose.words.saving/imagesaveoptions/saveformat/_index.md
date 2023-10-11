@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.SaveFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Gibt das Format an in dem die gerenderten Dokumentseiten oder formen gespeichert werden wenn dieses Speicheroptionsobjekt verwendet wird. Kann ein Raster sein Tiff Png Bmp  Jpeg oder VektorEmf Svg .
+description: ImageSaveOptions eigendom. Gibt das Format an in dem die gerenderten Dokumentseiten oder Formen gespeichert werden wenn dieses Speicheroptionsobjekt verwendet wird. Kann ein Raster sein Tiff Png Bmp  Jpeg oder VektorEmf Eps  Svg .
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property
 
-Gibt das Format an, in dem die gerenderten Dokumentseiten oder -formen gespeichert werden, wenn dieses Speicheroptionsobjekt verwendet wird. Kann ein Raster sein Tiff ,Png ,Bmp , Jpeg oder VektorEmf ,Svg .
+Gibt das Format an, in dem die gerenderten Dokumentseiten oder Formen gespeichert werden, wenn dieses Speicheroptionsobjekt verwendet wird. Kann ein Raster sein Tiff ,Png ,Bmp , Jpeg oder VektorEmf ,Eps , Svg .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,13 +16,13 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Bemerkungen
 
-Auf verschiedenen Plattformen können die unterstützten Formate unterschiedlich sein. Die Anzahl der weiteren Optionen hängt vom ausgewählten Format ab.
+Die Anzahl der weiteren Optionen hängt vom ausgewählten Format ab.
 
-Außerdem ist es möglich, sowohl über ImageSaveOptions als auch über in SVG zu speichern[`SvgSaveOptions`](../../svgsaveoptions/).
+Es ist auch möglich, über beide Dateien im SVG-Format zu speichern[`ImageSaveOptions`](../) und über[`SvgSaveOptions`](../../svgsaveoptions/).
 
 ### Beispiele
 
-Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in eins konvertiert.
+Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in ein Dokument konvertiert.
 
 ```csharp
 Document doc = new Document();
@@ -33,11 +33,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-// das Bild bearbeiten, während der Speichervorgang es rendert.
+// Bearbeiten Sie das Bild, während der Speichervorgang es rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Wir können diese Eigenschaften anpassen, um die Helligkeit und den Kontrast des Bildes zu ändern.
-    // Beide liegen auf einer Skala von 0-1 und sind standardmäßig bei 0,5.
+    // Beide liegen auf einer Skala von 0-1 und liegen standardmäßig bei 0,5.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 

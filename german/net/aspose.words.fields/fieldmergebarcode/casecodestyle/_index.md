@@ -16,13 +16,13 @@ public string CaseCodeStyle { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck für ITF14-Barcodes durchführen.
+Zeigt, wie ein Seriendruck für ITF14-Barcodes durchgeführt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
+// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
 // Dieses Feld konvertiert alle Werte in der Spalte „MyITF14Barcode“ einer Zusammenführungsdatenquelle in ITF14-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
@@ -33,7 +33,7 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
-// Der Seriendruck erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld,
+// Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
 // wodurch ein ITF14-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");

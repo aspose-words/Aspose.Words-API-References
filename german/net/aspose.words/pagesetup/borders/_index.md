@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen grünen wellenförmigen Seitenrand mit einem Schatten erstellen.
+Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

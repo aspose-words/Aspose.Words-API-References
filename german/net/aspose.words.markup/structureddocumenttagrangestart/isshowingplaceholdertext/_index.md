@@ -10,7 +10,7 @@ url: /de/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 
 Gibt an, ob der Inhalt dieses strukturierten Dokument-Tags so interpretiert werden soll, dass er Platzhaltertext enthält (im Gegensatz zu regulären Textinhalten innerhalb des strukturierten Dokument-Tags).
 
-Wenn auf „true“ gesetzt, wird dieser Status beim Öffnen dieses Dokuments wieder aufgenommen (mit Platzhaltertext).
+, wenn auf eingestellt`WAHR` , dieser Zustand wird beim Öffnen dieses Dokuments wieder aufgenommen (mit Platzhaltertext).
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

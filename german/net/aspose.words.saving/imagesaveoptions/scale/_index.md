@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Scale
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Liest oder setzt den Zoomfaktor für die generierten Bilder.
+description: ImageSaveOptions eigendom. Ruft den Zoomfaktor für die generierten Bilder ab oder legt diesen fest.
 type: docs
-weight: 140
+weight: 150
 url: /de/net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property
 
-Liest oder setzt den Zoomfaktor für die generierten Bilder.
+Ruft den Zoomfaktor für die generierten Bilder ab oder legt diesen fest.
 
 ```csharp
 public float Scale { get; set; }
@@ -16,7 +16,7 @@ public float Scale { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist 1,0. Der Wert muss größer als 0 sein.
+Der Standardwert ist 1,0. Der Wert muss größer als 0, sein.
 
 ### Beispiele
 
@@ -27,17 +27,17 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Erstellen Sie ein "ImageSaveOptions"-Objekt, das an die "Save"-Methode des Node-Renderers übergeben wird, um es zu ändern
-// wie es den OfficeMath-Knoten in ein Bild rendert.
+// Erstellen Sie ein „ImageSaveOptions“-Objekt, um es zur Änderung an die „Save“-Methode des Knotenrenderers zu übergeben
+// wie der OfficeMath-Knoten in ein Bild gerendert wird.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Setzen Sie die Eigenschaft "Scale" auf 5, um das Objekt auf das Fünffache seiner ursprünglichen Größe zu rendern.
+// Setzen Sie die Eigenschaft „Scale“ auf 5, um das Objekt auf das Fünffache seiner ursprünglichen Größe darzustellen.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
 ```
 
-Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in eins konvertiert.
+Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in ein Dokument konvertiert.
 
 ```csharp
 Document doc = new Document();
@@ -48,11 +48,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-// das Bild bearbeiten, während der Speichervorgang es rendert.
+// Bearbeiten Sie das Bild, während der Speichervorgang es rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Wir können diese Eigenschaften anpassen, um die Helligkeit und den Kontrast des Bildes zu ändern.
-    // Beide liegen auf einer Skala von 0-1 und sind standardmäßig bei 0,5.
+    // Beide liegen auf einer Skala von 0-1 und liegen standardmäßig bei 0,5.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 

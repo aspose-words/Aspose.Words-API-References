@@ -1,16 +1,16 @@
 ---
 title: IStructuredDocumentTag.IsShowingPlaceholderText
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Gibt an ob der Inhalt dieser SDT soll so interpretiert werden dass es Platzhaltertext enthält im Gegensatz zu regulären Textinhalten innerhalb des SDT.
+description: IStructuredDocumentTag eigendom. Gibt an ob der Inhalt davon SDT soll so interpretiert werden dass es den Platzhalter text enthält im Gegensatz zu regulären Textinhalten innerhalb des SDT.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/istructureddocumenttag/isshowingplaceholdertext/
 ---
 ## IStructuredDocumentTag.IsShowingPlaceholderText property
 
-Gibt an, ob der Inhalt dieser **SDT** soll so interpretiert werden, dass es Platzhaltertext enthält (im Gegensatz zu regulären Textinhalten innerhalb des SDT).
+Gibt an, ob der Inhalt davon **SDT** soll so interpretiert werden, dass es den Platzhalter text enthält (im Gegensatz zu regulären Textinhalten innerhalb des SDT).
 
-Wenn auf „true“ gesetzt, wird dieser Status beim Öffnen dieses Dokuments wieder aufgenommen (mit Platzhaltertext).
+Wenn auf „true“ gesetzt, wird dieser Status beim Öffnen dieses Dokuments wiederhergestellt (mit Platzhaltertext).
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

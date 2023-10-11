@@ -3,7 +3,7 @@ title: ShapeBase.VerticalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
 description: ShapeBase eigendom. Gibt an wie die Form vertikal positioniert wird.
 type: docs
-weight: 510
+weight: 560
 url: /de/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -22,13 +22,13 @@ Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
 
 ### Beispiele
 
-Zeigt, wie ein schwebendes Bild in der Mitte einer Seite eingefügt wird.
+Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

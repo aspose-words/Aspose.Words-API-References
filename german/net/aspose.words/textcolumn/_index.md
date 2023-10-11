@@ -1,14 +1,16 @@
 ---
 title: Class TextColumn
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextColumn klas. Repräsentiert eine einzelne Textspalte. TextSpalte ist Mitglied derTextColumnCollection Sammlung. Die Textspalten Sammlung enthält alle Spalten in einem Abschnitt eines Dokuments.
+description: Aspose.Words.TextColumn klas. Stellt eine einzelne Textspalte dar.TextColumn ist Mitglied derTextColumnCollection Sammlung. DieTextColumn Die Sammlung umfasst alle Spalten in einem Abschnitt eines Dokuments.
 type: docs
-weight: 6090
+weight: 6390
 url: /de/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Repräsentiert eine einzelne Textspalte. **TextSpalte** ist Mitglied der[`TextColumnCollection`](../textcolumncollection/) Sammlung. Die **Textspalten** Sammlung enthält alle Spalten in einem Abschnitt eines Dokuments.
+Stellt eine einzelne Textspalte dar.`TextColumn` ist Mitglied der[`TextColumnCollection`](../textcolumncollection/) Sammlung. Die`TextColumn` Die Sammlung umfasst alle Spalten in einem Abschnitt eines Dokuments.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Abschnitten](https://docs.aspose.com/words/net/working-with-sections/) Dokumentationsartikel.
 
 ```csharp
 public class TextColumn
@@ -18,18 +20,18 @@ public class TextColumn
 
 | Name | Beschreibung |
 | --- | --- |
-| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Holt oder setzt den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkt. Für die letzte Spalte nicht erforderlich. |
-| [Width](../../aspose.words/textcolumn/width/) { get; set; } | Liest oder setzt die Breite der Textspalte in Punkt. |
+| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich. |
+| [Width](../../aspose.words/textcolumn/width/) { get; set; } | Ruft die Breite der Textspalte in Punkten ab oder legt sie fest. |
 
 ### Bemerkungen
 
-**TextSpalte** Objekte werden nur verwendet, um Spalten mit benutzerdefinierter Breite und Abstand anzugeben. Wenn Sie wollen dass die Spalten im Dokument gleich breit sind, setzen Sie TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) zu **Stimmt**.
+`TextColumn` Objekte werden nur verwendet, um Spalten mit benutzerdefinierter Breite und benutzerdefiniertem Abstand anzugeben. Wenn Sie möchten, dass die Spalten im Dokument die gleiche Breite haben, legen Sie TextColumns fest.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) Zu`WAHR`.
 
-Wenn ein neues **TextSpalte** erstellt wird, werden Breite und Abstand auf Null gesetzt.
+Wenn ein neues`TextColumn` erstellt wird, werden Breite und Abstand auf Null gesetzt.
 
 ### Beispiele
 
-Zeigt, wie Spalten mit ungleichmäßigen Abständen erstellt werden.
+Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +42,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz zum Anordnen von Spalten.
+// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);

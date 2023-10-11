@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControlCollection eigendom. erhältForms2OleControlObjekt am angegebenen Index.
+description: Forms2OleControlCollection eigendom. Ruft abForms2OleControl Objekt an einem angegebenen Index.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-erhält[`Forms2OleControl`](../../forms2olecontrol/)Objekt am angegebenen Index.
+Ruft ab[`Forms2OleControl`](../../forms2olecontrol/) Objekt an einem angegebenen Index.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -21,14 +21,14 @@ Zeigt, wie auf ein in ein Dokument eingebettetes OLE-Steuerelement und seine unt
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Shapes speichern und zeigen OLE-Objekte im Hauptteil des Dokuments an.
+// Formen speichern und zeigen OLE-Objekte im Hauptteil des Dokuments an.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Einige OLE-Steuerelemente können untergeordnete Steuerelemente enthalten, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
+// Einige OLE-Steuerelemente enthalten möglicherweise untergeordnete Steuerelemente, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

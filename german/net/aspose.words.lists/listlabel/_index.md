@@ -3,12 +3,14 @@ title: Class ListLabel
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Lists.ListLabel klas. Definiert Eigenschaften die für eine Listenbezeichnung spezifisch sind.
 type: docs
-weight: 3290
+weight: 3490
 url: /de/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
 Definiert Eigenschaften, die für eine Listenbezeichnung spezifisch sind.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Listen](https://docs.aspose.com/words/net/working-with-lists/) Dokumentationsartikel.
 
 ```csharp
 public class ListLabel
@@ -39,17 +41,17 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Dies ist der Text, den wir erhalten, wenn wir diesen Knoten im Textformat ausgeben.
-    // Diese Textausgabe lässt Listenlabels weg. Trimmen Sie alle Absatzformatierungszeichen. 
+     // Bei dieser Textausgabe werden Listenbeschriftungen weggelassen. Schneiden Sie alle Absatzformatierungszeichen ab.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Dadurch wird die Position des Absatzes in der aktuellen Ebene der Liste abgerufen. Wenn wir eine Liste mit mehreren Ebenen haben,
-    // dies wird uns sagen, welche Position es auf dieser Ebene ist.
+    // Dadurch wird die Position des Absatzes in der aktuellen Ebene der Liste ermittelt. Wenn wir eine Liste mit mehreren Ebenen haben,
+    // das wird uns sagen, welche Position es auf dieser Ebene hat.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Kombinieren Sie sie, um das Listenlabel mit dem Text in die Ausgabe aufzunehmen.
+    // Kombinieren Sie sie, um die Listenbeschriftung mit dem Text in die Ausgabe einzuschließen.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

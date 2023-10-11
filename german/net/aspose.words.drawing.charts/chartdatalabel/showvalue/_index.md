@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowValue
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch.
+description: ChartDataLabel eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen angezeigt werden sollen. Der Standardwert istFALSCH .
 type: docs
-weight: 130
+weight: 150
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
 ---
 ## ChartDataLabel.ShowValue property
 
-Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch.
+Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen angezeigt werden sollen. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -19,6 +19,7 @@ public bool ShowValue { get; set; }
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,15 +32,15 @@ Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet wer
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Datenbeschriftungen auf jede Reihe im Diagramm anwenden.
-    // Diese Beschriftungen erscheinen neben jedem Datenpunkt im Diagramm und zeigen seinen Wert an.
+    // Anwenden von Datenbeschriftungen auf jede Reihe im Diagramm.
+    // Diese Beschriftungen werden neben jedem Datenpunkt im Diagramm angezeigt und zeigen seinen Wert an.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Ändern Sie die Trennzeichenfolge für jedes Datenlabel in einer Reihe.
+    // Ändern Sie die Trennzeichenfolge für jede Datenbeschriftung in einer Reihe.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,17 +50,17 @@ Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet wer
         }
     }
 
-    // Für ein sauberer aussehendes Diagramm können wir Datenbeschriftungen einzeln entfernen.
+    // Für ein übersichtlicheres Diagramm können wir Datenbeschriftungen einzeln entfernen.
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // Wir können auch eine ganze Reihe ihrer Datenetiketten auf einmal entfernen.
+    // Wir können auch eine ganze Reihe ihrer Datenbeschriftungen auf einmal entfernen.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Wenden Sie Datenetiketten mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe an.
+/// Datenbeschriftungen mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe anwenden.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

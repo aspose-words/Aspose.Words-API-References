@@ -1,14 +1,14 @@
 ---
 title: FontSettings.DefaultInstance
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings eigendom. Statische Standardschrifteinstellungen.
+description: FontSettings eigendom. Statische StandardSchriftarteinstellungen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontsettings/defaultinstance/
 ---
 ## FontSettings.DefaultInstance property
 
-Statische Standardschrifteinstellungen.
+Statische Standard-Schriftarteinstellungen.
 
 ```csharp
 public static FontSettings DefaultInstance { get; }
@@ -16,14 +16,14 @@ public static FontSettings DefaultInstance { get; }
 
 ### Bemerkungen
 
-Diese Instanz wird standardmäßig in einem Dokument verwendet, es sei denn[`FontSettings`](../../../aspose.words/document/fontsettings/) angegeben ist.
+Diese Instanz wird standardmäßig in einem Dokument verwendet, sofern nicht[`FontSettings`](../../../aspose.words/document/fontsettings/) angegeben ist.
 
 ### Beispiele
 
-Zeigt, wie die standardmäßige Schrifteinstellungsinstanz konfiguriert wird.
+Zeigt, wie die Instanz der Standardschriftarteinstellungen konfiguriert wird.
 
 ```csharp
-// Konfigurieren Sie die Instanz der Standardschrifteinstellungen so, dass die Schriftart "Courier New" verwendet wird
+// Konfigurieren Sie die Standard-Schriftarteinstellungsinstanz für die Verwendung der Schriftart „Courier New“.
 // als Backup-Ersatz, wenn wir versuchen, eine unbekannte Schriftart zu verwenden.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
@@ -35,9 +35,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Non-existent font";
 builder.Write("Hello world!");
 
-// Dieses Dokument hat keine FontSettings-Konfiguration. Wenn wir das Dokument rendern,
-// Die standardmäßige FontSettings-Instanz löst die fehlende Schriftart auf.
-// Aspose.Words verwendet "Courier New", um Text zu rendern, der die unbekannte Schriftart verwendet.
+// Dieses Dokument verfügt über keine FontSettings-Konfiguration. Wenn wir das Dokument rendern,
+// Die Standardinstanz von FontSettings löst die fehlende Schriftart auf.
+// Aspose.Words verwendet „Courier New“, um Text darzustellen, der die unbekannte Schriftart verwendet.
 Assert.Null(doc.FontSettings);
 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
@@ -46,6 +46,7 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 Zeigt, wie die IWarningCallback-Schnittstelle zum Überwachen von Schriftartersetzungswarnungen verwendet wird.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -60,24 +61,25 @@ Zeigt, wie die IWarningCallback-Schnittstelle zum Überwachen von Schriftarterse
     // für die wir keine andere Schriftartquelle angeben.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // Zu Testzwecken werden wir Aspose.Words so einstellen, dass es nur in einem Ordner nach Schriftarten sucht, der nicht existiert.
+    // Zu Testzwecken stellen wir Aspose.Words so ein, dass es nur in einem Ordner nach Schriftarten sucht, der nicht existiert.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Beim Rendern des Dokuments gibt es keinen Platz, um die Schriftart "Times New Roman" zu finden.
-    // Dies führt zu einer Schriftartersetzungswarnung, die unser Callback erkennt.
+    // Beim Rendern des Dokuments ist die Schriftart „Times New Roman“ nicht zu finden.
+    // Dies führt zu einer Schriftartersetzungswarnung, die unser Rückruf erkennt.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToInt
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty methode. Gibt den Eigenschaftswert als ganze Zahl zurück.
+description: DocumentProperty methode. Gibt den Eigenschaftswert als Ganzzahl zurück.
 type: docs
 weight: 100
 url: /de/net/aspose.words.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-Gibt den Eigenschaftswert als ganze Zahl zurück.
+Gibt den Eigenschaftswert als Ganzzahl zurück.
 
 ```csharp
 public int ToInt()
@@ -16,11 +16,11 @@ public int ToInt()
 
 ### Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht istNumber .
+Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istNumber .
 
 ### Beispiele
 
-Zeigt verschiedene Typkonvertierungsmethoden von benutzerdefinierten Dokumenteigenschaften.
+Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Document.PageCount
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Anzahl der Seiten im Dokument ab wie durch die letzte Seitenlayoutoperation berechnet.
+description: Document eigendom. Ruft die Anzahl der Seiten im Dokument ab wie durch den letzten SeitenlayoutVorgang berechnet.
 type: docs
-weight: 300
+weight: 320
 url: /de/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-Ruft die Anzahl der Seiten im Dokument ab, wie durch die letzte Seitenlayoutoperation berechnet.
+Ruft die Anzahl der Seiten im Dokument ab, wie durch den letzten Seitenlayout-Vorgang berechnet.
 
 ```csharp
 public int PageCount { get; }
@@ -31,9 +31,9 @@ builder.Write("Page 3");
 // Überprüfen Sie die erwartete Seitenzahl des Dokuments.
 Assert.AreEqual(3, doc.PageCount);
 
-// Das Abrufen der PageCount-Eigenschaft hat das Seitenlayout des Dokuments aufgerufen, um den Wert zu berechnen.
-// Dieser Vorgang muss nicht wiederholt werden, wenn das Dokument in ein festes Seitenspeicherformat gerendert wird,
-// wie .pdf. So können Sie gerade bei komplexeren Dokumenten etwas Zeit sparen.
+// Beim Abrufen der PageCount-Eigenschaft wurde das Seitenlayout des Dokuments aufgerufen, um den Wert zu berechnen.
+// Dieser Vorgang muss nicht erneut durchgeführt werden, wenn das Dokument in einem festen Seitenspeicherformat gerendert wird.
+// wie .pdf. So können Sie gerade bei komplexeren Dokumenten einiges an Zeit sparen.
 doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 ```
 

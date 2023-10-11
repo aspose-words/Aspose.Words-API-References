@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DisplayHangulFixedWidth
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Immer feste Breite für HangulZeichen verwenden.
+description: CompatibilityOptions eigendom. Verwenden Sie für HangulZeichen immer eine feste Breite.
 type: docs
 weight: 110
 url: /de/net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
 ---
 ## CompatibilityOptions.DisplayHangulFixedWidth property
 
-Immer feste Breite für Hangul-Zeichen verwenden.
+Verwenden Sie für Hangul-Zeichen immer eine feste Breite.
 
 ```csharp
 public bool DisplayHangulFixedWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. WAHRwenn das Dokument unterschiedliche Kopf und Fußzeilen für ungerade und gerade Seiten hat.
+description: PageSetup eigendom. True wenn das Dokument unterschiedliche Kopf und Fußzeilen für ungeradzahlige und gerade nummerierte Seiten hat.
 type: docs
-weight: 270
+weight: 280
 url: /de/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**WAHR**wenn das Dokument unterschiedliche Kopf- und Fußzeilen für ungerade und gerade Seiten hat.
+True, wenn das Dokument unterschiedliche Kopf- und Fußzeilen für ungeradzahlige und gerade nummerierte Seiten hat.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,11 +16,11 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### Bemerkungen
 
-Beachten Sie, dass sich das Ändern dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
+Beachten Sie, dass sich die Änderung dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
 
 ### Beispiele
 
-Zeigt, wie Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder erstellt werden.
+Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Kopfzeilen erstellen, dann drei Seiten zum Dokument hinzufügen, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -48,22 +48,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Zeigt, wie Kopf-/Fußzeilen gerader Seiten aktiviert oder deaktiviert werden.
+Zeigt, wie man gerade Seitenkopf-/Fußzeilen aktiviert oder deaktiviert.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Unten sind zwei Arten von Kopf-/Fußzeilen.
-// 1 - Die "primäre" Kopf-/Fußzeile, die auf jeder Seite im Abschnitt erscheint.
-// Wir können die primäre Kopf-/Fußzeile durch eine erste und eine gerade Seiten-Kopf-/Fußzeile überschreiben.
+// Nachfolgend sind zwei Arten von Kopf-/Fußzeilen aufgeführt.
+// 1 – Die „primäre“ Kopf-/Fußzeile, die auf jeder Seite im Abschnitt erscheint.
+ // Wir können die primäre Kopf-/Fußzeile durch eine erste und eine gerade Seitenkopf-/-fußzeile überschreiben.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("Primary footer.");
 
-// 2 - Die "gerade" Kopf-/Fußzeile, die auf jeder geraden Seite dieses Abschnitts erscheint.
+// 2 – Die „gerade“ Kopf-/Fußzeile, die auf jeder geraden Seite dieses Abschnitts erscheint.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
 builder.Writeln("Even page header.");
 
@@ -77,11 +77,11 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Jeder Abschnitt hat ein "PageSetup"-Objekt, das Eigenschaften bezüglich des Aussehens der Seite festlegt
-// wie Ausrichtung, Größe und Rahmen.
-// Setzen Sie die Eigenschaft "OddAndEvenPagesHeaderFooter" auf "true"
+// Jeder Abschnitt verfügt über ein „PageSetup“-Objekt, das Eigenschaften im Zusammenhang mit der Darstellung der Seite angibt
+// wie Ausrichtung, Größe und Ränder.
+// Setze die Eigenschaft „OddAndEvenPagesHeaderFooter“ auf „true“
 // um die Kopf-/Fußzeile der geraden Seite auf geraden Seiten anzuzeigen.
-// Setzen Sie die Eigenschaft "OddAndEvenPagesHeaderFooter" auf "false"
+// Setze die Eigenschaft „OddAndEvenPagesHeaderFooter“ auf „false“
 // um die primäre Kopf-/Fußzeile auf geraden Seiten anzuzeigen.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 

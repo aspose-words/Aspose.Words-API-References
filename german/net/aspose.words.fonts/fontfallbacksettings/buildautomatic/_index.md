@@ -16,7 +16,7 @@ public void BuildAutomatic()
 
 ### Bemerkungen
 
-Diese Methode kann zu nicht optimalen Fallback-Einstellungen führen. Schriften werden von geprüft[ Unicode-Zeichenbereich](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) Felder und nicht durch das tatsächliche Vorhandensein von Glyphen. Auch Unicode-Bereiche werden einzeln überprüft und mehrere Bereiche, die sich auf eine einzelne Sprache/Skript beziehen, können unterschiedliche Fallback-Schriftarten verwenden.
+Diese Methode führt möglicherweise zu nicht optimalen Fallback-Einstellungen. Schriftarten werden von überprüft[ Unicode-Zeichenbereich](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) Felder und nicht durch das tatsächliche Vorhandensein von Glyphen. Außerdem werden Unicode-Bereiche einzeln überprüft und mehrere Bereiche, die sich auf eine einzelne Sprache/ein einzelnes Skript beziehen, können unterschiedliche Fallback-Schriftarten verwenden.
 
 ### Beispiele
 
@@ -33,24 +33,24 @@ FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Der Aufruf der Methode "BuildAutomatic" generiert ein Fallback-Schema, das
-// verteilt zugängliche Schriftarten auf so viele Unicode-Zeichencodes wie möglich.
-// In unserem Fall hat es nur Zugriff auf eine Handvoll Schriftarten im Ordner "MyFonts".
+// Durch Aufrufen der Methode „BuildAutomatic“ wird ein Fallback-Schema generiert
+// verteilt zugängliche Schriftarten auf möglichst viele Unicode-Zeichencodes.
+// In unserem Fall hat es nur Zugriff auf die wenigen Schriftarten im Ordner „MyFonts“.
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Wir können auch ein benutzerdefiniertes Substitutionsschema aus einer solchen Datei laden.
-// Dieses Schema wendet die Schriftart "AllegroOpen" auf die Unicode-Blöcke "0000-00ff" an, die Schriftart "AllegroOpen" auf "0100-024f",
-// und die Schriftart "M+ 2m" in allen anderen Bereichen, die andere Schriftarten im Schema nicht abdecken.
+// Wir können auch ein benutzerdefiniertes Ersetzungsschema aus einer Datei wie dieser laden.
+// Dieses Schema wendet die Schriftart „AllegroOpen“ auf die Unicode-Blöcke „0000-00ff“ und die Schriftart „AllegroOpen“ auf die Unicode-Blöcke „0100-024f“ an.
+// und die Schriftart „M+ 2m“ in allen anderen Bereichen, die andere Schriftarten im Schema nicht abdecken.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Erstellen Sie einen Document Builder und setzen Sie seine Schriftart auf eine Schriftart, die in keiner unserer Quellen vorhanden ist.
+// Erstellen Sie einen Dokument-Builder und legen Sie seine Schriftart auf eine fest, die in keiner unserer Quellen vorhanden ist.
 // Unsere Schriftarteinstellungen rufen das Fallback-Schema für Zeichen auf, die wir mit der nicht verfügbaren Schriftart eingeben.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Verwenden Sie den Builder, um jedes Unicode-Zeichen von 0x0021 bis 0x052F zu drucken,
-// mit beschreibenden Linien, die Unicode-Blöcke teilen, die wir in unserem Fallback-Schema für benutzerdefinierte Schriftarten definiert haben.
+// Verwenden Sie den Builder, um jedes Unicode-Zeichen von 0x0021 bis 0x052F zu drucken.
+// mit beschreibenden Zeilen, die Unicode-Blöcke unterteilen, die wir in unserem benutzerdefinierten Schriftart-Fallback-Schema definiert haben.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

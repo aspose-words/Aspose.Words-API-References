@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.FilePath
 second_title: Aspose.Words für .NET-API-Referenz
-description: PhysicalFontInfo eigendom. Pfad zur Schriftdatei falls vorhanden.
+description: PhysicalFontInfo eigendom. Pfad zur Schriftartdatei falls vorhanden.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
 
-Pfad zur Schriftdatei, falls vorhanden.
+Pfad zur Schriftartdatei, falls vorhanden.
 
 ```csharp
 public string FilePath { get; }
@@ -19,7 +19,7 @@ public string FilePath { get; }
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
 ```csharp
-// Konfigurieren Sie Aspose.Words, um Schriftarten aus einem benutzerdefinierten Ordner zu beziehen, und drucken Sie dann jede verfügbare Schriftart.
+// Aspose.Words so konfigurieren, dass Schriftarten aus einem benutzerdefinierten Ordner stammen, und dann jede verfügbare Schriftart drucken.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

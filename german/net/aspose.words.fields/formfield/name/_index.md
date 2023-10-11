@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Bemerkungen
 
-Microsoft Word erlaubt Zeichenfolgen mit höchstens 20 Zeichen.
+Microsoft Word erlaubt Zeichenfolgen mit maximal 20 Zeichen.
 
 ### Beispiele
 
@@ -28,14 +28,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Fügen Sie ein Kombinationsfeld ein, das es einem Benutzer ermöglicht, eine Option aus einer Sammlung von Zeichenfolgen auszuwählen.
+// Ein Kombinationsfeld einfügen, das es einem Benutzer ermöglicht, eine Option aus einer Sammlung von Zeichenfolgen auszuwählen.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Das Formularfeld erscheint in Form eines „select“-HTML-Tags.
+// Das Formularfeld wird in Form eines „select“-HTML-Tags angezeigt.
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

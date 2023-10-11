@@ -1,14 +1,16 @@
 ---
 title: Class FontSubstitutionRule
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSubstitutionRule klas. Dies ist eine abstrakte Basisklasse für die Schriftersetzungsregel.
+description: Aspose.Words.Fonts.FontSubstitutionRule klas. Dies ist eine abstrakte Basisklasse für die Schriftartersetzungsregel.
 type: docs
-weight: 2820
+weight: 3000
 url: /de/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
-Dies ist eine abstrakte Basisklasse für die Schriftersetzungsregel.
+Dies ist eine abstrakte Basisklasse für die Schriftartersetzungsregel.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 
 ### Beispiele
 
-Zeigt die vom Betriebssystem abhängige Ersetzung der Schriftartkonfiguration an.
+Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -43,7 +45,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Unter Linux/Mac haben wir Zugriff darauf und können Operationen ausführen.
+// Unter Linux/Mac haben wir Zugriff darauf und können Vorgänge ausführen.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Ruft das aktuell gespeicherte Dokumentobjekt ab.
+description: ResourceSavingArgs eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/resourcesavingargs/document/
 ---
 ## ResourceSavingArgs.Document property
 
-Ruft das aktuell gespeicherte Dokumentobjekt ab.
+Ruft das Dokumentobjekt ab, das gerade gespeichert wird.
 
 ```csharp
 public Document Document { get; }
@@ -16,7 +16,7 @@ public Document Document { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Rückruf verwendet wird, um externe Ressourcen nachzuverfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -38,7 +38,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in HTML oder SVG für feste Seiten speichert.
+    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in einer festen HTML- oder SVG-Seite speichert.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

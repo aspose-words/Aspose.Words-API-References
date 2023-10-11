@@ -3,7 +3,7 @@ title: Enum ReplaceAction
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Replacing.ReplaceAction opsomming. Ermöglicht dem Benutzer festzulegen was mit der aktuellen Übereinstimmung während eines Ersetzungsvorgangs geschieht.
 type: docs
-weight: 4380
+weight: 4640
 url: /de/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -18,8 +18,8 @@ public enum ReplaceAction
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Replace | `0` | Aktuelle Übereinstimmung ersetzen. |
-| Skip | `1` | Aktuelle Übereinstimmung überspringen. |
+| Replace | `0` | Ersetzt die aktuelle Übereinstimmung. |
+| Skip | `1` | Das aktuelle Spiel überspringen. |
 | Stop | `2` | Beenden Sie den Ersetzungsvorgang. |
 
 ### Beispiele
@@ -27,15 +27,18 @@ public enum ReplaceAction
 Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Wir können ein "FindReplaceOptions"-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -43,11 +46,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Fügen Sie ein Dokument nach dem Absatz ein, der den übereinstimmenden Text enthält.
+        // Ein Dokument nach dem Absatz einfügen, der den übereinstimmenden Text enthält.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Entfernen Sie den Absatz mit dem übereinstimmenden Text.
+        // Den Absatz mit dem übereinstimmenden Text entfernen.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -69,7 +72,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Den Knoten überspringen, wenn es der letzte leere Absatz in einem Abschnitt ist.
+                // Den Knoten überspringen, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

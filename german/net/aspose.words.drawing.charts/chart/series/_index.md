@@ -3,7 +3,7 @@ title: Chart.Series
 second_title: Aspose.Words für .NET-API-Referenz
 description: Chart eigendom. Bietet Zugriff auf die Seriensammlung.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words.drawing.charts/chart/series/
 ---
 ## Chart.Series property
@@ -16,22 +16,23 @@ public ChartSeriesCollection Series { get; }
 
 ### Beispiele
 
-Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt wird.
+Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Es gibt mehrere Möglichkeiten, die Seriensammlung eines Diagramms zu füllen.
-    // Unterschiedliche Reihenschemata sind für unterschiedliche Diagrammtypen vorgesehen.
-    // 1 - Säulendiagramm mit gruppierten und gebänderten Säulen entlang der X-Achse nach Kategorie:
+    // Unterschiedliche Serienschemata sind für unterschiedliche Diagrammtypen vorgesehen.
+    // 1 – Säulendiagramm mit entlang der X-Achse nach Kategorie gruppierten und gebänderten Säulen:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Fügen Sie zwei Reihen von Dezimalwerten ein, die einen Wert für jede entsprechende Kategorie enthalten.
-    // Dieses Säulendiagramm hat drei Gruppen mit jeweils zwei Säulen.
+    // Fügen Sie zwei Reihen von Dezimalwerten ein, die einen Wert für die jeweilige Kategorie enthalten.
+    // Dieses Säulendiagramm besteht aus drei Gruppen mit jeweils zwei Säulen.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
@@ -39,7 +40,7 @@ Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - Flächendiagramm mit Datumsangaben entlang der X-Achse:
+    // 2 – Flächendiagramm mit entlang der X-Achse verteilten Daten:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -49,9 +50,9 @@ Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt
         new DateTime(2020, 9, 7)
     };
 
-    // Eine Reihe mit einem Dezimalwert für jedes jeweilige Datum einfügen.
+    // Für jedes entsprechende Datum eine Reihe mit einem Dezimalwert einfügen.
     // Die Daten werden entlang einer linearen X-Achse verteilt,
-    // und die dieser Reihe hinzugefügten Werte erzeugen Datenpunkte.
+    // und die zu dieser Reihe hinzugefügten Werte erzeugen Datenpunkte.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -62,7 +63,7 @@ Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt
 
     // Jede Reihe benötigt zwei Dezimalarrays gleicher Länge.
     // Das erste Array enthält X-Werte und das zweite enthält entsprechende Y-Werte
-    // von Datenpunkten auf dem Diagramm des Diagramms.
+    // von Datenpunkten im Diagramm des Diagramms.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -78,7 +79,7 @@ Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt
 
     // Jede Reihe benötigt drei Dezimalarrays gleicher Länge.
     // Das erste Array enthält X-Werte, das zweite enthält entsprechende Y-Werte,
-    // und der dritte enthält Durchmesser für jeden der Datenpunkte des Diagramms.
+    // und der dritte enthält Durchmesser für jeden Datenpunkt des Diagramms.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -88,7 +89,7 @@ Zeigt, wie ein geeigneter Typ von Diagrammreihen für einen Diagrammtyp erstellt
 }
 
 /// <summary>
-/// Fügen Sie ein Diagramm mit einem Document Builder mit einem bestimmten ChartType, Breite und Höhe ein und entfernen Sie seine Demodaten.
+/// Fügen Sie ein Diagramm mit einem Dokument-Builder mit einem angegebenen Diagrammtyp, einer angegebenen Breite und Höhe ein und entfernen Sie seine Demodaten.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

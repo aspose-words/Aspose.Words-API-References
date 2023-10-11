@@ -1,14 +1,14 @@
 ---
 title: FieldGoToButton.DisplayText
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGoToButton eigendom. Liest oder setzt den Text der Schaltfläche die im Dokument erscheint so dass sie ausgewählt werden kann um den Sprung zu aktivieren.
+description: FieldGoToButton eigendom. Ruft den Text der Schaltfläche ab die im Dokument angezeigt wird oder legt diesen fest sodass er zum Aktivieren des Sprungs ausgewählt werden kann.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldgotobutton/displaytext/
 ---
 ## FieldGoToButton.DisplayText property
 
-Liest oder setzt den Text der "Schaltfläche", die im Dokument erscheint, so dass sie ausgewählt werden kann, um den Sprung zu aktivieren.
+Ruft den Text der „Schaltfläche“ ab, die im Dokument angezeigt wird, oder legt diesen fest, sodass er zum Aktivieren des Sprungs ausgewählt werden kann.
 
 ```csharp
 public string DisplayText { get; set; }
@@ -16,21 +16,21 @@ public string DisplayText { get; set; }
 
 ### Beispiele
 
-Zeigt das Einfügen eines GOTOBUTTON-Felds an.
+Zeigt an, dass ein GOTOBUTTON-Feld eingefügt werden soll.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein GOTOBUTTON-Feld hinzufügen. Wenn wir in Microsoft Word auf dieses Feld doppelklicken,
-// Der Textcursor wird zu dem Lesezeichen geführt, dessen Name von der Location-Eigenschaft referenziert wird.
+// Der Textcursor wird zum Lesezeichen geführt, auf dessen Namen die Location-Eigenschaft verweist.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Ein gültiges Lesezeichen für das zu referenzierende Feld einfügen.
+// Ein gültiges Lesezeichen für das Feld einfügen, auf das verwiesen werden soll.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

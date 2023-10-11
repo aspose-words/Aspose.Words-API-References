@@ -1,14 +1,14 @@
 ---
 title: CustomPart.RelationshipType
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt ihn fest.
+description: CustomPart eigendom. Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt ihn fest.
+Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -16,25 +16,25 @@ public string RelationshipType { get; set; }
 
 ### Bemerkungen
 
-Der Beziehungstyp für ein benutzerdefiniertes Teil muss "unbekannt" sein, z. B. ein benutzerdefinierter Beziehungstyp, und keiner der in ISO/IEC 29500 definierten Beziehungstypen.
+Der Beziehungstyp für ein benutzerdefiniertes Teil muss „unbekannt“ sein, z. B. ein benutzerdefinierter Beziehungstyp, und nicht einer der in ISO/IEC 29500 definierten Beziehungstypen.
 
 Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
 
 ### Beispiele
 
-Zeigt, wie auf die Sammlung beliebiger benutzerdefinierter Teile eines Dokuments zugegriffen wird.
+Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Den zweiten Teil klonen, dann den Klon zur Sammlung hinzufügen.
+// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Aufzählen über die Sammlung und jeden Teil drucken.
+// Die Sammlung aufzählen und jeden Teil ausdrucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Wir können Elemente aus dieser Sammlung einzeln oder alle auf einmal entfernen.
+// Wir können Elemente einzeln oder alle auf einmal aus dieser Sammlung entfernen.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontFarEast
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Schriftart des ostasiatischen Designs im angewendeten Schriftartenschema ab das diesem FontObjekt zugeordnet ist oder legt diese fest.
+description: Font eigendom. Ruft die ostasiatische Designschriftart im damit verbundenen angewendeten Schriftartenschema ab oder legt sie festFont Objekt.
 type: docs
 weight: 500
 url: /de/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Ruft die Schriftart des ostasiatischen Designs im angewendeten Schriftartenschema ab, das diesem Font-Objekt zugeordnet ist, oder legt diese fest.
+Ruft die ostasiatische Designschriftart im damit verbundenen angewendeten Schriftartenschema ab oder legt sie fest[`Font`](../) Objekt.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }
@@ -16,12 +16,12 @@ public ThemeFont ThemeFontFarEast { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit Designschriftarten und -farben arbeiten.
+Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Definieren Sie standardmäßig Schriftarten für die Verwendung von Sprachen.
+// Schriftarten für standardmäßig verwendete Sprachen definieren.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -29,7 +29,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Wir können Design-Schriftart und -Farbe anstelle von Standardwerten verwenden.
+// Wir können Schriftart und Farbe des Themas anstelle von Standardwerten verwenden.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -52,7 +52,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Es gibt mehrere Möglichkeiten, Schriftart und Farbe zurückzusetzen.
-// 1 - Durch Setzen von ThemeFont.None/ThemeColor.None:
+// 1 - Durch Festlegen von ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Durch Festlegen von Nicht-Design-Schriftart-/Farbnamen:
+// 2 – Durch Festlegen von Schriftarten/Farbnamen, die nicht zum Thema gehören:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelOffset
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft den Abstand der Beschriftungen von der Achse ab oder legt ihn fest.
+description: ChartAxis eigendom. Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest.
 type: docs
-weight: 210
+weight: 230
 url: /de/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property
 
-Ruft den Abstand der Beschriftungen von der Achse ab oder legt ihn fest.
+Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest.
 
 ```csharp
 public int TickLabelOffset { get; set; }
@@ -16,15 +16,15 @@ public int TickLabelOffset { get; set; }
 
 ### Bemerkungen
 
-Die Eigenschaft stellt einen Prozentsatz des standardmäßigen Label-Offsets dar.
+Die Eigenschaft stellt einen Prozentsatz des Standardbeschriftungsversatzes dar.
 
-Der gültige Bereich reicht von 0 bis einschließlich 1000 Prozent. Der Standardwert ist 100 %.
+Der gültige Bereich liegt zwischen 0 und 1000 Prozent. Der Standardwert ist 100 %.
 
-Die Eigenschaft wirkt sich nur auf Kategorieachsen aus. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
+Die Eigenschaft hat nur Auswirkungen auf Kategorieachsen. Die neuen Diagramme von MS Office 2016 werden nicht unterstützt.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Diagramm einfügen und das Aussehen seiner Achsen ändern.
+Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Einfügen einer Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse.
+// Fügen Sie eine Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse ein.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Haupt-/Nebeneinheiten-Ticks und Teilstriche.
+// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

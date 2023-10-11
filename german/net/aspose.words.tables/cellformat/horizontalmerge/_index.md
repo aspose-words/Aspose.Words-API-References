@@ -1,14 +1,14 @@
 ---
 title: CellFormat.HorizontalMerge
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt an wie die Zelle horizontal mit anderen Zellen in der Zeile verbunden wird.
+description: CellFormat eigendom. Gibt an wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
 
-Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile verbunden wird.
+Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird.
 
 ```csharp
 public CellMerge HorizontalMerge { get; set; }
@@ -16,7 +16,7 @@ public CellMerge HorizontalMerge { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Tabellenzellen horizontal verbunden werden.
+Zeigt, wie Tabellenzellen horizontal zusammengeführt werden.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Zwei weitere nicht verbundene Zellen in die zweite Zeile einfügen.
+// Fügen Sie zwei weitere nicht verbundene Zellen in die zweite Zeile ein.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");

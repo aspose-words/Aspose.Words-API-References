@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToSection
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor an den Anfang des Hauptteils in einem bestimmten Abschnitt.
+description: DocumentBuilder methode. Bewegt den Cursor an den Anfang des Körpers in einem angegebenen Abschnitt.
 type: docs
-weight: 550
+weight: 580
 url: /de/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Bewegt den Cursor an den Anfang des Hauptteils in einem bestimmten Abschnitt.
+Bewegt den Cursor an den Anfang des Körpers in einem angegebenen Abschnitt.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -20,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 
 ### Bemerkungen
 
-Wenn sectionIndex größer oder gleich 0 ist, gibt er einen Index from am Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wenn sectionIndex kleiner als 0, ist, wurde ein Index vom Ende des Dokuments angegeben, wobei -1 der letzte Abschnitt ist.
+Wann*sectionIndex* größer oder gleich 0 ist, gibt es einen Index vom Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wann*sectionIndex* kleiner als 0, ist, wurde ein Index vom Ende des Dokuments angegeben, wobei -1 der letzte Abschnitt ist.
 
-Der Cursor wird auf den ersten Absatz in der bewegt **Körper** des angegebenen Abschnitts.
+Der Cursor wird zum ersten Absatz im verschoben[`Body`](../../body/) des angegebenen Abschnitts.
 
 ### Beispiele
 
-Zeigt, wie Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder erstellt werden.
+Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Kopfzeilen erstellen, dann drei Seiten zum Dokument hinzufügen, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

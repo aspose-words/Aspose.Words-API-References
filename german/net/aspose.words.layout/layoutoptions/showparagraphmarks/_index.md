@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft ab oder legt fest ob Absatzmarken gerendert werden. Standard ist False.
+description: LayoutOptions eigendom. Ruft den Hinweis ab ob Absatzmarken gerendert werden oder legt diesen fest. Der Standardwert istFALSCH .
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Ruft ab oder legt fest, ob Absatzmarken gerendert werden. Standard ist False.
+Ruft den Hinweis ab, ob Absatzmarken gerendert werden, oder legt diesen fest. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -21,8 +21,8 @@ Zeigt, wie Absatzmarken in einem gerenderten Ausgabedokument angezeigt werden.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Einige Absätze hinzufügen, dann Absatzmarken aktivieren, um die Enden der Absätze anzuzeigen
-// mit einem Pilcrow (¶)-Symbol, wenn wir das Dokument rendern.
+// Fügen Sie einige Absätze hinzu und aktivieren Sie dann Absatzmarken, um die Enden der Absätze anzuzeigen
+// mit einem Pilcrow-Symbol (¶), wenn wir das Dokument rendern.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

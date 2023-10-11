@@ -1,12 +1,14 @@
 ---
 title: Cluster.Glyphs
 second_title: Aspose.Words für .NET-API-Referenz
-description: Cluster eigendom. 
+description: Cluster eigendom. Ruft Glyphen des Clusters ab.
 type: docs
 weight: 40
 url: /de/net/aspose.words.shaping/cluster/glyphs/
 ---
 ## Cluster.Glyphs property
+
+Ruft Glyphen des Clusters ab.
 
 ```csharp
 public Glyph[] Glyphs { get; }

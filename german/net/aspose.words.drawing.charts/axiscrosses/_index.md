@@ -3,7 +3,7 @@ title: Enum AxisCrosses
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.AxisCrosses opsomming. Gibt die möglichen Kreuzungspunkte für eine Achse an.
 type: docs
-weight: 530
+weight: 540
 url: /de/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
@@ -18,14 +18,14 @@ public enum AxisCrosses
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Automatic | `0` | Die Kategorieachse schneidet am Nullpunkt der Werteachse (wenn möglich) oder am Minimalwert wenn das Minimum größer als Null ist, oder am Maximum, wenn das Maximum kleiner als Null ist. |
-| Maximum | `1` | Eine senkrechte Achse schneidet sich am Maximalwert der Achse. |
+| Automatic | `0` | Die Kategorieachse schneidet sich am Nullpunkt der Werteachse (falls möglich) oder am Minimalwert , wenn das Minimum größer als Null ist, oder am Maximum, wenn das Maximum kleiner als Null ist. |
+| Maximum | `1` | Eine senkrechte Achse kreuzt sich beim Maximalwert der Achse. |
 | Minimum | `2` | Eine senkrechte Achse schneidet sich am Minimalwert der Achse. |
 | Custom | `3` | Eine senkrechte Achse schneidet sich am angegebenen Wert der Achse. |
 
 ### Beispiele
 
-Zeigt, wie Sie ein Diagramm einfügen und das Aussehen seiner Achsen ändern.
+Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
 ```csharp
 Document doc = new Document();
@@ -37,13 +37,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Einfügen einer Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse.
+// Fügen Sie eine Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse ein.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Haupt-/Nebeneinheiten-Ticks und Teilstriche.
+// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

@@ -3,12 +3,14 @@ title: Class ShadowFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.ShadowFormat klas. Stellt die Schattenformatierung für ein Objekt dar.
 type: docs
-weight: 1080
+weight: 1230
 url: /de/net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
 
 Stellt die Schattenformatierung für ein Objekt dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit grafischen Elementen](https://docs.aspose.com/words/net/working-with-graphic-elements/) Dokumentationsartikel.
 
 ```csharp
 public class ShadowFormat
@@ -18,8 +20,8 @@ public class ShadowFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Type](../../aspose.words.drawing/shadowformat/type/) { get; set; } | Ruft die angegebene ab oder legt sie fest[`ShadowType`](../shadowtype/) für ShadowFormat. |
-| [Visible](../../aspose.words.drawing/shadowformat/visible/) { get; } | gibt zurück`Stimmt` wenn die auf diese Instanz angewendete Formatierung sichtbar ist. |
+| [Type](../../aspose.words.drawing/shadowformat/type/) { get; set; } | Ruft das angegebene ab oder legt es fest[`ShadowType`](../shadowtype/) für ShadowFormat. |
+| [Visible](../../aspose.words.drawing/shadowformat/visible/) { get; } | Gibt zurück`WAHR` wenn die auf diese Instanz angewendete Formatierung sichtbar ist. |
 
 ## Methoden
 

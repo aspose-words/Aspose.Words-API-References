@@ -21,10 +21,10 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 
 ### Beispiele
 
-Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartquelle verwendet wird.
+Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
+// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
@@ -57,14 +57,14 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | --- | --- | --- |
 | folderPath | String | Pfad zum Ordner. |
 | scanSubfolders | Boolean | Legt fest, ob Unterordner gescannt werden sollen oder nicht. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Objektbeschreibung für weitere Informationen. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ### Beispiele
 
-Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartquelle verwendet wird.
+Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
+// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Angerufen wenn aSpecialChar Knoten wird im Dokument gefunden.
+description: DocumentVisitor methode. Wird aufgerufen wenn aSpecialChar Knoten wird im Dokument gefunden.
 type: docs
 weight: 430
 url: /de/net/aspose.words/documentvisitor/visitspecialchar/
 ---
 ## DocumentVisitor.VisitSpecialChar method
 
-Angerufen, wenn a[`SpecialChar`](../../specialchar/) Knoten wird im Dokument gefunden.
+Wird aufgerufen, wenn a[`SpecialChar`](../../specialchar/) Knoten wird im Dokument gefunden.
 
 ```csharp
 public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
@@ -20,39 +20,40 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Bemerkungen
 
-Diese Methode wird nicht für generische Steuerzeichen aufgerufen (vgl[`ControlChar`](../../controlchar/) ), die im Dokument vorhanden sein können.
+Diese Methode wird nicht für generische Steuerzeichen aufgerufen (siehe[`ControlChar`](../../controlchar/) ), die im Dokument vorhanden sein können.
 
 ### Beispiele
 
-Zeigt, wie eine DocumentVisitor-Implementierung verwendet wird, um alle ausgeblendeten Inhalte aus einem Dokument zu entfernen.
+Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern, die einen Dokumentbesucher akzeptieren können,
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefe-zuerst-Weise zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
+    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
     // 1 - Absatzknoten:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellenknoten:
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Dokumentenknoten:
+    // 3 - Dokumentknoten:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Entfernt alle besuchten Knoten, die als "versteckter Inhalt" markiert sind.
+/// Entfernt alle besuchten Knoten, die als „versteckter Inhalt“ markiert sind.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -123,7 +124,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein GroupShape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine GroupShape gefunden wird.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -134,7 +135,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Shape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine Form gefunden wird.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -167,7 +168,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -182,12 +183,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Der Inhalt innerhalb von Tabellenzellen kann das Hidden-Content-Flag haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles davon entfernt,
+        // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
+        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
         // und es gäbe keine untergeordneten Knoten mehr.
         // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
-        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, haben Zellen mit leeren Absätzen darin,
-        // die dieser Besucher nicht entfernen wird.
+        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
+        // was dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -195,7 +196,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Cell-Knotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

@@ -16,11 +16,11 @@ public void RemoveByIndex(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Ein Index in die Sammlung von Tabstopps. |
+| index | Int32 | Ein Index in der Sammlung von Tabstopps. |
 
 ### Beispiele
 
-Zeigt, wie Sie einen Tabstopp in einem Dokument anhand seines Indexes auswählen und entfernen.
+Zeigt, wie man einen Tabstopp in einem Dokument anhand seines Index auswählt und entfernt.
 
 ```csharp
 Document doc = new Document();

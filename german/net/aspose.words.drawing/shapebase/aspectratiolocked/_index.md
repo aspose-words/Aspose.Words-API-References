@@ -16,7 +16,7 @@ public bool AspectRatioLocked { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert hängt von der ab[`ShapeType`](../shapetype/) , für das ShapeType.Image ist es **Stimmt** , aber für die anderen Formtypen ist es das **FALSCH**.
+Der Standardwert hängt von der ab[`ShapeType`](../../shapetype/) , für dieImage es ist`WAHR` , aber für die anderen Formtypen ist es so`FALSCH`.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
@@ -28,15 +28,15 @@ Zeigt, wie das Seitenverhältnis einer Form gesperrt/entsperrt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Form einfügen. Wenn wir dieses Dokument in Microsoft Word öffnen, können wir mit der linken Maustaste auf die Form klicken, um sie anzuzeigen
-// acht Ziehpunkte um seinen Umfang herum, die wir anklicken und ziehen können, um seine Größe zu ändern.
+// Eine Form einfügen. Wenn wir dieses Dokument in Microsoft Word öffnen, können wir mit der linken Maustaste auf die Form klicken, um sie anzuzeigen
+// acht Größenziehpunkte um den Umfang herum, auf die wir klicken und ziehen können, um die Größe zu ändern.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Setzen Sie die Eigenschaft "AspectRatioLocked" auf "true", um das Seitenverhältnis der Form beizubehalten
-// wenn Sie einen der vier diagonalen Größengriffe verwenden, die sowohl die Höhe als auch die Breite des Bildes ändern.
-// Wenn Sie orthogonale Ziehpunkte verwenden, die entweder die Höhe oder Breite ändern, wird das Seitenverhältnis immer noch geändert.
-// Setzen Sie die Eigenschaft "AspectRatioLocked" auf "false", um uns dies zu ermöglichen
-// das Seitenverhältnis des Bildes mit allen Ziehpunkten frei ändern.
+// Setzen Sie die Eigenschaft „AspectRatioLocked“ auf „true“, um das Seitenverhältnis der Form beizubehalten
+// wenn Sie einen der vier diagonalen Größenziehpunkte verwenden, die sowohl die Höhe als auch die Breite des Bildes ändern.
+// Die Verwendung orthogonaler Größenziehpunkte, die entweder die Höhe oder die Breite ändern, ändert weiterhin das Seitenverhältnis.
+// Setzen Sie die Eigenschaft „AspectRatioLocked“ auf „false“, damit wir dies ermöglichen
+// Das Seitenverhältnis des Bildes mit allen Größenziehpunkten frei ändern.
 shape.AspectRatioLocked = lockAspectRatio;
 
 doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");

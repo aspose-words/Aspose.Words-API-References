@@ -1,14 +1,14 @@
 ---
 title: Font.EmphasisMark
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft das auf diese Formatierung angewendete Hervorhebungszeichen ab oder legt es fest.
+description: Font eigendom. Ruft die auf diese Formatierung angewendete Hervorhebungsmarkierung ab oder legt diese fest.
 type: docs
 weight: 110
 url: /de/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-Ruft das auf diese Formatierung angewendete Hervorhebungszeichen ab oder legt es fest.
+Ruft die auf diese Formatierung angewendete Hervorhebungsmarkierung ab oder legt diese fest.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -16,12 +16,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### Beispiele
 
-Zeigt, wie zusätzliche Zeichen hinzugefügt werden, die über/unter dem Glyphenzeichen gerendert werden.
+Zeigt, wie man zusätzliche Zeichen hinzufügt, die über/unter dem Glyphenzeichen gerendert werden.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Mögliche Arten von Hervorhebungen:
+// Mögliche Arten von Hervorhebungszeichen:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

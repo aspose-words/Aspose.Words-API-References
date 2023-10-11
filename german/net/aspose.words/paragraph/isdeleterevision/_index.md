@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsDeleteRevision
 second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsnachverfolgung aktiviert war.
+description: Paragraph eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war.
 type: docs
 weight: 40
 url: /de/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsnachverfolgung aktiviert war.
+Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsverfolgung aktiviert war.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -16,7 +16,7 @@ public bool IsDeleteRevision { get; }
 
 ### Beispiele
 
-Zeigt, wie mit Überarbeitungsabsätzen gearbeitet wird.
+Zeigt, wie mit Revisionsabsätzen gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,14 +28,14 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Die obigen Absätze sind keine Überarbeitungen.
-// Absätze, die wir nach dem Start der Revisionsverfolgung hinzufügen, werden als „Einfügen“-Revisionen registriert.
+// Absätze, die wir nach dem Start der Revisionsverfolgung hinzufügen, werden als „Einfüge“-Revisionen registriert.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Absätze, die wir nach dem Start der Revisionsverfolgung entfernen, werden als "gelöschte" Revisionen registriert.
+// Absätze, die wir nach dem Start der Revisionsverfolgung entfernen, werden als „Löschen“-Revisionen registriert.
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -43,13 +43,13 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Solche Absätze bleiben bestehen, bis wir die Löschüberarbeitung entweder akzeptieren oder ablehnen.
-// Durch das Akzeptieren der Überarbeitung wird der Absatz endgültig entfernt,
-// und die Überarbeitung abzulehnen, wird sie im Dokument belassen, als ob wir sie nie gelöscht hätten.
+// Solche Absätze bleiben bestehen, bis wir die Löschrevision entweder akzeptieren oder ablehnen.
+// Durch das Akzeptieren der Überarbeitung wird der Absatz endgültig entfernt.
+// und wenn Sie die Überarbeitung ablehnen, bleibt sie im Dokument, als ob wir sie nie gelöscht hätten.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Akzeptiere die Überarbeitung und vergewissere dich dann, dass der Absatz weg ist.
+// Akzeptieren Sie die Überarbeitung und überprüfen Sie dann, ob der Absatz verschwunden ist.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

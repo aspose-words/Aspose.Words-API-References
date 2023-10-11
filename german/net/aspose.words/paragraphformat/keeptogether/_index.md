@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Wahr wenn alle Zeilen des Absatzes auf derselben Seite bleiben sollen.
+description: ParagraphFormat eigendom. True wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
 type: docs
-weight: 150
+weight: 160
 url: /de/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-Wahr, wenn alle Zeilen des Absatzes auf derselben Seite bleiben sollen.
+True, wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -16,7 +16,7 @@ public bool KeepTogether { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen Absatz in das Dokument einfügen.
+Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
+// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

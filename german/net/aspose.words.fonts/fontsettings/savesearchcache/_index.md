@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SaveSearchCache
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings methode. Speichert den Schriftsuchcache im Stream.
+description: FontSettings methode. Speichert den Cache für die Schriftartensuche im Stream.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings.SaveSearchCache method
 
-Speichert den Schriftsuchcache im Stream.
+Speichert den Cache für die Schriftartensuche im Stream.
 
 ```csharp
 public void SaveSearchCache(Stream outputStream)
@@ -24,10 +24,9 @@ Sehen[`SetFontsSources`](../setfontssources/) Methodenbeschreibung für weitere 
 
 ### Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Font-Cache beschleunigt wird.
+Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -55,8 +54,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des "FontSettings"-Objekts.
+/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

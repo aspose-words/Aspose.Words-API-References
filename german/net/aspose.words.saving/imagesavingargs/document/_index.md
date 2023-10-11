@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSavingArgs eigendom. Ruft das aktuell gespeicherte Dokumentobjekt ab.
+description: ImageSavingArgs eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-Ruft das aktuell gespeicherte Dokumentobjekt ab.
+Ruft das Dokumentobjekt ab, das gerade gespeichert wird.
 
 ```csharp
 public Document Document { get; }
@@ -16,14 +16,15 @@ public Document Document { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
+Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben, um einen Rückruf festzulegen
-    // um den Bildspeicherprozess anzupassen.
+    // um den Bildspeichervorgang anzupassen.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -31,8 +32,8 @@ Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungspr
 }
 
 /// <summary>
-/// Druckt die Eigenschaften jedes Bildes, während der Speicherprozess es in einer Bilddatei im lokalen Dateisystem speichert
-/// während des Exports eines Dokuments nach HTML.
+/// Druckt die Eigenschaften jedes Bildes, während der Speichervorgang es in einer Bilddatei im lokalen Dateisystem speichert
+/// beim Exportieren eines Dokuments nach HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

@@ -16,7 +16,7 @@ public PreferredWidthType Type { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie den bevorzugten Breitentyp und -wert einer Tabellenzelle überprüfen.
+Zeigt, wie Sie den bevorzugten Breitentyp und Wert einer Tabellenzelle überprüfen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

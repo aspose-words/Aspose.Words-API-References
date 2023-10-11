@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Shading
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt ein ShadingObjekt zurück das sich auf die Schattierungsformatierung für die Zelle bezieht.
+description: CellFormat eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Zelle bezieht.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Gibt ein Shading-Objekt zurück, das sich auf die Schattierungsformatierung für die Zelle bezieht.
+Gibt a zurück[`Shading`](../../../aspose.words/shading/) Objekt, das sich auf die Schattierungsformatierung für die Zelle bezieht.
 
 ```csharp
 public Shading Shading { get; }
@@ -34,13 +34,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die "RowFormat"-Eigenschaft der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Verwenden Sie die Eigenschaft "CellFormat" der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
+// Verwenden Sie die Eigenschaft „CellFormat“ der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -48,7 +48,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -80,9 +80,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -93,7 +93,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

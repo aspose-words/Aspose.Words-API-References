@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Beispiele
 
-Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, die Listenelemente sind.
+Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
 
 ```csharp
 Document doc = new Document();

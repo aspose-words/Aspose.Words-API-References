@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.LeftOffset
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAdvance eigendom. Ermittelt oder setzt die Anzahl der Punkte um die der Text der dem Feld folgt nach links verschoben werden soll.
+description: FieldAdvance eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt nach links verschoben werden soll oder legt diese fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldadvance/leftoffset/
 ---
 ## FieldAdvance.LeftOffset property
 
-Ermittelt oder setzt die Anzahl der Punkte, um die der Text, der dem Feld folgt, nach links verschoben werden soll.
+Ruft die Anzahl der Punkte ab, um die der Text, der auf das Feld folgt, nach links verschoben werden soll, oder legt diese fest.
 
 ```csharp
 public string LeftOffset { get; set; }
@@ -16,7 +16,7 @@ public string LeftOffset { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein ADVANCE-Feld eingefügt und seine Eigenschaften bearbeitet werden.
+Zeigt, wie man ein ADVANCE-Feld einfügt und seine Eigenschaften bearbeitet.
 
 ```csharp
 Document doc = new Document();
@@ -25,9 +25,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("This text is in its normal place.");
 
 // Im Folgenden finden Sie zwei Möglichkeiten, das ADVANCE-Feld zu verwenden, um die Position des darauf folgenden Textes anzupassen.
-// Die Effekte eines ADVANCE-Feldes werden weiter angewendet, bis der Absatz endet,
-// oder ein anderes ADVANCE-Feld aktualisiert die Versatz-/Koordinatenwerte.
-// 1 - Geben Sie einen Richtungsoffset an:
+// Die Auswirkungen eines ADVANCE-Feldes werden weiterhin angewendet, bis der Absatz endet.
+// oder ein anderes ADVANCE-Feld aktualisiert die Offset-/Koordinatenwerte.
+// 1 – Geben Sie einen Richtungsoffset an:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

@@ -20,16 +20,15 @@ public void Notify(DocumentLoadingArgs args)
 
 ### Bemerkungen
 
-Die primäre Verwendung dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Ladevorgang abzubrechen.
+Der Hauptzweck dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Ladevorgang abzubrechen.
 
-Eine Ausnahme sollte vom Fortschritts-Callback für den Abbruch geworfen und im Consumer-Code abgefangen werden.
+Vom Fortschrittsrückruf für die Abtreibung sollte eine Ausnahme ausgelöst und im Verbrauchercode abgefangen werden.
 
 ### Beispiele
 
 Zeigt, wie der Benutzer benachrichtigt wird, wenn das Laden des Dokuments die erwartete Ladezeit überschreitet.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -49,7 +48,7 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// Brechen Sie das Laden eines Dokuments nach "MaxDuration" Sekunden ab.
+/// Das Laden eines Dokuments nach den „MaxDuration“-Sekunden abbrechen.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
@@ -64,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Callback-Methode, die beim Laden des Dokuments aufgerufen wurde.
     /// </summary>
-    /// <param name="args">Lade Argumente.</param>
+    /// <param name="args">Argumente werden geladen.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -80,7 +79,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal erlaubte Dauer in Sek.
+    /// Maximal zulässige Dauer in Sekunden.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

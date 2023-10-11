@@ -16,24 +16,24 @@ public NumberStyle NumberStyle { get; set; }
 
 ### Bemerkungen
 
-Nicht alle Zahlenstile sind für diese Eigenschaft anwendbar. Eine Liste der anwendbaren -Zahlenstile finden Sie im Dialogfeld „Fußnote oder Endnote einfügen“ in Microsoft Word. Wenn Sie einen nicht zutreffenden Zahlenstil auswählen, kehrt Microsoft Word zu einem Standardwert zurück.
+Für diese Eigenschaft sind nicht alle Zahlenstile anwendbar. Die Liste der anwendbaren -Zahlenstile finden Sie im Dialogfeld „Fußnote oder Endnote einfügen“ in Microsoft Word. Wenn Sie einen nicht anwendbaren Zahlenstil auswählen , wird Microsoft Word auf einen Standardwert zurückgesetzt.
 
 ### Beispiele
 
-Zeigt, wie Sie den Nummernstil von Fußnoten-/Endnotenreferenzzeichen ändern.
+Zeigt, wie der Nummernstil von Fußnoten-/Endnoten-Referenzzeichen geändert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, eine Referenz oder einen Nebenkommentar an Text anzuhängen
-// das den Fluss des Haupttextes nicht stört. 
-// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
+ // das den Fluss des Haupttextes nicht beeinträchtigt.
+// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
 // am Haupttext, wo wir die Fußnote/Endnote einfügen.
-// Jede Fußnote/Endnote erzeugt auch einen Eintrag, der aus einem zur Referenz passenden Symbol besteht
-// Symbol im Haupttext. Der Referenztext, den wir an die „InsertEndnote“-Methode des Dokumenterstellers übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die enthält
-// ihre Referenzsymbole und Endnoten erscheinen am Ende des Dokuments.
+// Jede Fußnote/Endnote erstellt auch einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
+// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Document Builders übergeben.
+// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -51,14 +51,14 @@ builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
 // Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
-// unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument behält separate Zählungen bei
-// für Fußnoten und für Endnoten. Standardmäßig zeigen Fußnoten ihre Nummern mit arabischen Ziffern an,
+// unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
+// für Fußnoten und für Endnoten. Standardmäßig werden in Fußnoten ihre Nummern mit arabischen Ziffern angezeigt.
 // und Endnoten zeigen ihre Nummern in kleinen römischen Ziffern an.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
-// Wir können die Eigenschaft "NumberStyle" verwenden, um benutzerdefinierte Nummerierungsstile auf Fußnoten und Endnoten anzuwenden.
-// Dies wirkt sich nicht auf Fußnoten/Endnoten mit benutzerdefinierten Referenzzeichen aus.
+// Wir können die Eigenschaft „NumberStyle“ verwenden, um benutzerdefinierte Nummerierungsstile auf Fußnoten und Endnoten anzuwenden.
+// Dies hat keine Auswirkungen auf Fußnoten/Endnoten mit benutzerdefinierten Referenzmarken.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 

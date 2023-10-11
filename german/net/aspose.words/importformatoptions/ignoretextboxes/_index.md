@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt dass die Quellformatierung von Textfeldinhalten ignoriert ifKeepSourceFormatting Modus verwendet. Der Standardwert istStimmt .
+description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Inhalts von Textfeldern ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR .
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, dass die Quellformatierung von Textfeldinhalten ignoriert ifKeepSourceFormatting Modus verwendet. Der Standardwert ist`Stimmt` .
+Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, dass die Quellformatierung des Inhalts von Textfeldern ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -16,16 +16,16 @@ public bool IgnoreTextBoxes { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Formatierung von Textfeldern beim Anhängen eines Dokuments verwaltet wird.
+Zeigt, wie Sie die Formatierung von Textfeldern beim Anhängen eines Dokuments verwalten.
 
 ```csharp
-// Erstellen Sie ein Dokument, in das Knoten aus einem anderen Dokument eingefügt werden.
+// Ein Dokument erstellen, in das Knoten aus einem anderen Dokument eingefügt werden.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
 builder.Writeln("Hello world!");
 
-// Erstellen Sie ein weiteres Dokument mit einem Textfeld, das wir in das erste Dokument importieren werden.
+// Erstelle ein weiteres Dokument mit einem Textfeld, das wir in das erste Dokument importieren.
 Document srcDoc = new Document();
 builder = new DocumentBuilder(srcDoc);
 
@@ -41,7 +41,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
 // Importiere das Textfeld aus dem Quelldokument in das Zieldokument,
-// und überprüfen Sie dann, ob wir die Gestaltung des Textinhalts beibehalten haben.
+// und überprüfen Sie dann, ob wir den Stil des Textinhalts beibehalten haben.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

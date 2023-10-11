@@ -17,7 +17,7 @@ public PageRange(int from, int to)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | from | Int32 | Der nullbasierte Index der Startseite. |
-| to | Int32 | Der nullbasierte Index der letzten Seite. Wenn es den Index der letzten Seite im Dokument überschreitet, wird es abgeschnitten, damit es beim Rendern in das Dokument passt. |
+| to | Int32 | Der auf der Endseite basierende Index. Wenn es den Index der letzten Seite im Dokument überschreitet, wird es beim Rendern gekürzt, damit es in das Dokument passt. |
 
 ### Bemerkungen
 

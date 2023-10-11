@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Gibt wahr zurück wenn der Absatz ein Rahmen ist.
+description: FrameFormat eigendom. Gibt zurückWAHR wenn der Absatz ein Frame ist.
 type: docs
 weight: 60
 url: /de/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Gibt wahr zurück, wenn der Absatz ein Rahmen ist.
+Gibt zurück`WAHR` wenn der Absatz ein Frame ist.
 
 ```csharp
 public bool IsFrame { get; }
@@ -16,7 +16,7 @@ public bool IsFrame { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

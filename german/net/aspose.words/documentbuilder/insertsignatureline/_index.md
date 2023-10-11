@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt eine Signaturzeile an der aktuellen Position ein.
 type: docs
-weight: 420
+weight: 450
 url: /de/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -20,11 +20,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ### Rückgabewert
 
-Der soeben eingefügte Signaturzeilenknoten.
+Der gerade eingefügte Signaturzeilenknoten.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert wird.
+Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften "IsSigned" und "IsValid" beide gleich "true" sind,
+// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften „IsSigned“ und „IsValid“ beide den Wert „true“ haben.
 // zeigt an, dass die Signaturzeile eine Signatur enthält.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -103,15 +103,15 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ### Rückgabewert
 
-Der soeben eingefügte Signaturzeilenknoten.
+Der gerade eingefügte Signaturzeilenknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
 ### Beispiele
 
-Zeigt, wie Sie eine Inline-Signaturzeile in ein Dokument einfügen.
+Zeigt, wie eine Inline-Signaturzeile in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();

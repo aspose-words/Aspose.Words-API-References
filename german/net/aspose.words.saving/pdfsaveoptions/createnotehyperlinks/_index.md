@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
 second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Gibt an ob Fußnoten/Endnotenreferenzen im Haupttextabschnitt in aktive Hyperlinks umgewandelt werden sollen. Wenn der Hyperlink angeklickt wird führt er zur entsprechenden Fußnote/Endnote. Standard istFALSCH .
+description: PdfSaveOptions eigendom. Gibt an ob Fußnoten/Endnotenverweise im Haupttext in aktive Hyperlinks umgewandelt werden. Beim Klicken führt der Hyperlink zur entsprechenden Fußnote/Endnote. Die Standardeinstellung istFALSCH .
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property
 
-Gibt an, ob Fußnoten-/Endnotenreferenzen im Haupttextabschnitt in aktive Hyperlinks umgewandelt werden sollen. Wenn der Hyperlink angeklickt wird, führt er zur entsprechenden Fußnote/Endnote. Standard ist`FALSCH` .
+Gibt an, ob Fußnoten-/Endnotenverweise im Haupttext in aktive Hyperlinks umgewandelt werden. Beim Klicken führt der Hyperlink zur entsprechenden Fußnote/Endnote. Die Standardeinstellung ist`FALSCH` .
 
 ```csharp
 public bool CreateNoteHyperlinks { get; set; }
@@ -16,18 +16,18 @@ public bool CreateNoteHyperlinks { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Fußnoten und Endnoten als Hyperlinks funktionieren.
+Zeigt, wie Fußnoten und Endnoten als Hyperlinks fungieren.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Setzen Sie die Eigenschaft "CreateNoteHyperlinks" auf "true", um alle Fußnoten-/Endnotensymbole umzuwandeln
+// Setzen Sie die Eigenschaft „CreateNoteHyperlinks“ auf „true“, um alle Fußnoten-/Endnotensymbole umzuwandeln
 // im Text fungieren als Links, die uns beim Anklicken zu den jeweiligen Fußnoten/Endnoten führen.
-// Legen Sie die Eigenschaft "CreateNoteHyperlinks" auf "false" fest, um keine Fußnoten-/Endnotensymbole mit irgendetwas zu verknüpfen.
+// Setzen Sie die Eigenschaft „CreateNoteHyperlinks“ auf „false“, damit Fußnoten-/Endnotensymbole nicht mit irgendetwas verknüpft sind.
 options.CreateNoteHyperlinks = createNoteHyperlinks;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);

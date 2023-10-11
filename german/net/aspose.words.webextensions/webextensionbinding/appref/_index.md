@@ -1,14 +1,14 @@
 ---
 title: WebExtensionBinding.AppRef
 second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionBinding eigendom. Gibt den Bindungsschlüssel an der verwendet wird um den Bindungseintrag in dieser Liste den gebundenen Daten im Dokument zuzuordnen.
+description: WebExtensionBinding eigendom. Gibt den Bindungsschlüssel an der zum Zuordnen des Bindungseintrags in dieser Liste zu den gebundenen Daten im Dokument verwendet wird.
 type: docs
 weight: 20
 url: /de/net/aspose.words.webextensions/webextensionbinding/appref/
 ---
 ## WebExtensionBinding.AppRef property
 
-Gibt den Bindungsschlüssel an, der verwendet wird, um den Bindungseintrag in dieser Liste den gebundenen Daten im Dokument zuzuordnen.
+Gibt den Bindungsschlüssel an, der zum Zuordnen des Bindungseintrags in dieser Liste zu den gebundenen Daten im Dokument verwendet wird.
 
 ```csharp
 public string AppRef { get; set; }

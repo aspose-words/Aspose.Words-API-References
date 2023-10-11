@@ -20,7 +20,7 @@ public T this[int index] { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit der Sammlung von Weberweiterungen eines Dokuments arbeiten.
+Zeigt, wie mit der Sammlung von Weberweiterungen eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
@@ -38,7 +38,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Entfernen Sie die Weberweiterung.
+// Web-Erweiterung entfernen.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

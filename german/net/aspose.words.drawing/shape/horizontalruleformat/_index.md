@@ -1,14 +1,14 @@
 ---
 title: Shape.HorizontalRuleFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Bietet Zugriff auf die Eigenschaften der Form der horizontalen Linie. Gibt für eine Form die keine horizontale Linie ist null zurück.
+description: Shape eigendom. Bietet Zugriff auf die Eigenschaften der horizontalen Regelform. Für eine Form die keine horizontale Regel ist wird zurückgegebenNull .
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Bietet Zugriff auf die Eigenschaften der Form der horizontalen Linie. Gibt für eine Form, die keine horizontale Linie ist, null zurück.
+Bietet Zugriff auf die Eigenschaften der horizontalen Regelform. Für eine Form, die keine horizontale Regel ist, wird zurückgegeben`Null` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -16,7 +16,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

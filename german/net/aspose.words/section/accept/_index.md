@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-Ruft DocumentVisitor.VisitSectionStart auf, ruft dann Accept für alle untergeordneten Knoten des Abschnitts auf und ruft am Ende DocumentVisitor.VisitSectionEnd auf.
+Anrufe[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten der section und Aufrufe[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) am Ende.
 
 ### Siehe auch
 

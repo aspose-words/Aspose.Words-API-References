@@ -16,7 +16,7 @@ public RevisionGroup this[int index] { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Revisionen in einem Dokument erhalten.
+Zeigt, wie eine Gruppe von Revisionen in einem Dokument abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag methode. Gibt das NodeObjekt zurück das diese Schnittstelle implementiert.
+description: IStructuredDocumentTag methode. Gibt ein Knotenobjekt zurück das diese Schnittstelle implementiert.
 type: docs
 weight: 150
 url: /de/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
 ## IStructuredDocumentTag.StructuredDocumentTagNode method
 
-Gibt das Node-Objekt zurück, das diese Schnittstelle implementiert.
+Gibt ein Knotenobjekt zurück, das diese Schnittstelle implementiert.
 
 ```csharp
 public Node StructuredDocumentTagNode()

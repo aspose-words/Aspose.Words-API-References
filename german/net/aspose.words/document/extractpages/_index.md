@@ -1,14 +1,14 @@
 ---
 title: Document.ExtractPages
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Gibt die zurückDocument Objekt das einen bestimmten Seitenbereich darstellt.
+description: Document methode. Gibt die zurückDocument Objekt das den angegebenen Seitenbereich darstellt.
 type: docs
-weight: 580
+weight: 620
 url: /de/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-Gibt die zurück[`Document`](../) Objekt, das einen bestimmten Seitenbereich darstellt.
+Gibt die zurück[`Document`](../) Objekt, das den angegebenen Seitenbereich darstellt.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -21,11 +21,11 @@ public Document ExtractPages(int index, int count)
 
 ### Bemerkungen
 
-Das resultierende Dokument sollte wie das in MS Word aussehen, als ob wir 'Bestimmte Seiten drucken' ausgeführt hätten – die Nummerierung, Kopf-/Fußzeilen und das Kreuztabellen-Layout bleiben erhalten. Aber aufgrund einer großen Anzahl von Nuancen, die erscheinen Während die Anzahl der Seiten reduziert wird, ist die vollständige Übereinstimmung des Layouts eine recht komplizierte Aufgabe, die viel Aufwand erfordert. Abhängig von der Komplexität des Dokuments kann es zu geringfügigen Unterschieden im resultierenden Layout des Dokumentinhalts im Vergleich zum Quelldokument kommen. Jegliches Feedback würde sehr geschätzt werden.
+Das resultierende Dokument sollte wie das in MS Word aussehen, als ob wir „Bestimmte Seiten drucken“ ausgeführt hätten – die Nummerierung, Kopf-/Fußzeilen und das Layout der Kreuztabellen bleiben erhalten. Aber aufgrund einer großen Anzahl von Nuancen, die angezeigt werden Während die Anzahl der Seiten reduziert wird, ist die vollständige Anpassung des Layouts eine ziemlich komplizierte Aufgabe, die viel Aufwand erfordert. Abhängig von der Komplexität des Dokuments kann es zu geringfügigen Unterschieden im resultierenden Layout des Dokumentinhalts im Vergleich zum Quelldokument kommen. Wir würden uns über Feedback freuen Ich bin sehr dankbar.
 
 ### Beispiele
 
-Zeigt, wie der angegebene Seitenbereich aus dem Dokument abgerufen wird.
+Zeigt, wie ein bestimmter Seitenbereich aus dem Dokument abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Layout entities.docx");

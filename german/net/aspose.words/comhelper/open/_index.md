@@ -20,7 +20,7 @@ public Document Open(string fileName)
 
 ### Rückgabewert
 
-EIN[`Document`](../../document/) Objekt, das ein Word-Dokument darstellt.
+A[`Document`](../../document/)Objekt, das ein Word-Dokument darstellt.
 
 ### Bemerkungen
 
@@ -41,10 +41,10 @@ Set doc = helper.Open(fileName)
 Zeigt, wie Dokumente mit der ComHelper-Klasse geöffnet werden.
 
 ```csharp
-// Die ComHelper-Klasse ermöglicht es uns, Dokumente aus COM-Clients zu laden.
+// Mit der ComHelper-Klasse können wir Dokumente aus COM-Clients laden.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Verwendung eines lokalen Systemdateinamens:
+// 1 – Verwendung eines lokalen Systemdateinamens:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
@@ -81,7 +81,7 @@ public Document Open(Stream stream)
 
 ### Rückgabewert
 
-EIN[`Document`](../../document/) Objekt, das ein Word-Dokument darstellt.
+A[`Document`](../../document/)Objekt, das ein Word-Dokument darstellt.
 
 ### Bemerkungen
 
@@ -92,10 +92,10 @@ Diese Methode entspricht dem Aufruf von[`Document`](../../document/) Konstruktor
 Zeigt, wie Dokumente mit der ComHelper-Klasse geöffnet werden.
 
 ```csharp
-// Die ComHelper-Klasse ermöglicht es uns, Dokumente aus COM-Clients zu laden.
+// Mit der ComHelper-Klasse können wir Dokumente aus COM-Clients laden.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Verwendung eines lokalen Systemdateinamens:
+// 1 – Verwendung eines lokalen Systemdateinamens:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

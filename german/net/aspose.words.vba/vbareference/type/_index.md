@@ -1,14 +1,14 @@
 ---
 title: VbaReference.Type
 second_title: Aspose.Words für .NET-API-Referenz
-description: VbaReference eigendom. erhältVbaReferenceTypeObjekt das den Referenztyp angibt den ein VbaReferenceObjekt darstellt.
+description: VbaReference eigendom. Ruft abVbaReferenceType Objekt das die Art der Referenz angibt die aVbaReference Objekt repräsentiert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbareference/type/
 ---
 ## VbaReference.Type property
 
-erhält[`VbaReferenceType`](../../vbareferencetype/)Objekt, das den Referenztyp angibt, den ein VbaReference-Objekt darstellt.
+Ruft ab[`VbaReferenceType`](../../vbareferencetype/) Objekt, das die Art der Referenz angibt, die a[`VbaReference`](../) Objekt repräsentiert.
 
 ```csharp
 public abstract VbaReferenceType Type { get; }

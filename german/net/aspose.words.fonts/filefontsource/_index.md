@@ -3,12 +3,14 @@ title: Class FileFontSource
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fonts.FileFontSource klas. Stellt die einzelne TrueTypeSchriftartdatei dar die im Dateisystem gespeichert ist.
 type: docs
-weight: 2690
+weight: 2870
 url: /de/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Stellt die einzelne TrueType-Schriftartdatei dar, die im Dateisystem gespeichert ist.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -27,20 +29,20 @@ public class FileFontSource : FontSourceBase
 | Name | Beschreibung |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Der Schlüssel dieser Quelle im Cache. |
-| [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Pfad zur Schriftdatei. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftquelle zurück. |
+| [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Pfad zur Schriftartdatei. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftartquelle zurück. |
 | override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Gibt den Typ der Schriftartquelle zurück. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der Schriftarten zurück, die über diese Quelle verfügbar sind. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 
 ### Beispiele
 
-Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
+Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

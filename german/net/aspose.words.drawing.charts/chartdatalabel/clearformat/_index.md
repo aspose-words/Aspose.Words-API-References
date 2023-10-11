@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ClearFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel methode. Löscht das Format dieses Datenlabels. Die Eigenschaften werden auf die Standardwerte gesetzt die in der übergeordneten Etikettensammlung data definiert sind.
+description: ChartDataLabel methode. Löscht das Format dieser Datenbeschriftung. Die Eigenschaften werden auf die Standardwerte gesetzt die in der übergeordneten data LabelSammlung definiert sind.
 type: docs
-weight: 140
+weight: 160
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method
 
-Löscht das Format dieses Datenlabels. Die Eigenschaften werden auf die Standardwerte gesetzt, die in der übergeordneten Etikettensammlung data definiert sind.
+Löscht das Format dieser Datenbeschriftung. Die Eigenschaften werden auf die Standardwerte gesetzt, die in der übergeordneten data Label-Sammlung definiert sind.
 
 ```csharp
 public void ClearFormat()

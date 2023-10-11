@@ -1,14 +1,14 @@
 ---
 title: Table.Table
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table constructeur. Initialisiert eine neue Instanz von Tisch Klasse.
+description: Table constructeur. Initialisiert eine neue Instanz vonTable Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Initialisiert eine neue Instanz von **Tisch** Klasse.
+Initialisiert eine neue Instanz von[`Table`](../) Klasse.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -16,13 +16,13 @@ public Table(DocumentBase doc)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
+| doc | DocumentBase | Das Eigentümerdokument. |
 
 ### Bemerkungen
 
-Wann **Tisch** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`Table`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen **Tisch** zum Dokument verwenden Sie InsertAfter oder InsertBefore in der Story, in der Sie die Tabelle einfügen möchten.
+Anhängen[`Table`](../) zur DokumentenverwendungNode) oderNode) in der Story, in der die Tabelle eingefügt werden soll.
 
 ### Beispiele
 
@@ -33,10 +33,10 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Tabellen enthalten Zeilen, die Zellen enthalten, die Absätze haben können
+// Tabellen enthalten Zeilen, die Zellen enthalten, die möglicherweise Absätze enthalten
 // mit typischen Elementen wie Läufen, Formen und sogar anderen Tabellen.
-// Das Aufrufen der "EnsureMinimum"-Methode für eine Tabelle stellt dies sicher
-// Die Tabelle hat mindestens eine Zeile, eine Zelle und einen Absatz.
+// Der Aufruf der Methode „EnsureMinimum“ für eine Tabelle stellt dies sicher
+// Die Tabelle enthält mindestens eine Zeile, eine Zelle und einen Absatz.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -53,7 +53,7 @@ paragraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Zeigt, wie Sie eine verschachtelte Tabelle erstellen, ohne einen Document Builder zu verwenden.
+Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
 
 ```csharp
 public void CreateNestedTable()
@@ -64,7 +64,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Erstellen Sie eine weitere Tabelle mit zwei Zeilen und zwei Spalten und fügen Sie sie dann in die erste Zelle der ersten Tabelle ein.
+    // Erstelle eine weitere Tabelle mit zwei Zeilen und zwei Spalten und füge sie dann in die erste Zelle der ersten Tabelle ein.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -93,10 +93,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Sie können die Eigenschaften "Titel" und "Beschreibung" verwenden, um Ihrer Tabelle jeweils einen Titel und eine Beschreibung hinzuzufügen.
+    // Mit den Eigenschaften „Title“ und „Description“ können Sie Ihrer Tabelle einen Titel bzw. eine Beschreibung hinzufügen.
     // Die Tabelle muss mindestens eine Zeile haben, bevor wir diese Eigenschaften verwenden können.
-    // Diese Eigenschaften sind sinnvoll für ISO/IEC 29500-konforme .docx-Dokumente (siehe Klasse OoxmlCompliance).
-    // Wenn wir das Dokument in Pre-ISO/IEC 29500-Formaten speichern, ignoriert Microsoft Word diese Eigenschaften.
+    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe die OoxmlCompliance-Klasse).
+    // Wenn wir das Dokument in Formaten vor ISO/IEC 29500 speichern, ignoriert Microsoft Word diese Eigenschaften.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

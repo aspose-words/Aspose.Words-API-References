@@ -3,7 +3,7 @@ title: Enum FontSourceType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fonts.FontSourceType opsomming. Gibt den Typ einer Schriftartquelle an.
 type: docs
-weight: 2810
+weight: 2990
 url: /de/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -18,15 +18,15 @@ public enum FontSourceType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) Objekt, das eine einzelne Schriftdatei darstellt. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) Objekt, das Ordner mit Schriftdateien darstellt. |
+| FontFile | `0` | A[`FileFontSource`](../filefontsource/) Objekt, das eine einzelne Schriftartdatei darstellt. |
+| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) Objekt, das einen Ordner mit Schriftartdateien darstellt. |
 | MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) Objekt, das eine einzelne Schriftart im Speicher darstellt. |
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) Objekt, das alle auf dem System installierten Schriftarten darstellt. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) Objekt, das einen Stream mit Schriftdaten darstellt. |
+| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) Objekt, das einen Stream mit Schriftartdaten darstellt. |
 
 ### Beispiele
 
-Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
+Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Bemerkungen
 
-Wenn es keinen letzten untergeordneten Knoten gibt, wird eine Null zurückgegeben.
+Wenn es keinen letzten untergeordneten Knoten gibt, a`Null` wird zurückgegeben.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldIndexFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Holt oder setzt aFieldIndexFormat das repräsentiert die Formatierung für dieFieldIndexFelder im Dokument.
+description: FieldOptions eigendom. Ruft a ab oder legt es festFieldIndexFormat das repräsentiert die Formatierung für dieFieldIndex Felder im Dokument.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
 
-Holt oder setzt a`FieldIndexFormat` das repräsentiert die Formatierung für die[`FieldIndex`](../../fieldindex/)Felder im Dokument.
+Ruft a ab oder legt es fest`FieldIndexFormat` das repräsentiert die Formatierung für die[`FieldIndex`](../../fieldindex/) Felder im Dokument.
 
 ```csharp
 public FieldIndexFormat FieldIndexFormat { get; set; }

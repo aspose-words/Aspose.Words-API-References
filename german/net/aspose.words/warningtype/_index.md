@@ -3,7 +3,7 @@ title: Enum WarningType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.WarningType opsomming. Gibt den Typ einer Warnung an die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird.
 type: docs
-weight: 6350
+weight: 6660
 url: /de/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -19,24 +19,23 @@ public enum WarningType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| DataLossCategory | `FF` | Einige Text-/Zeichen-/Bild- oder andere Daten fehlen entweder im Dokumentbaum nach dem Laden oder im erstellten Dokument nach dem Speichern. |
+| DataLossCategory | `FF` | Einige Text-, Zeichen-, Bild- oder andere Daten fehlen entweder im Dokumentbaum nach dem Laden, oder im erstellten Dokument nach dem Speichern. |
 | DataLoss | `1` | Allgemeiner Datenverlust, kein spezifischer Code. |
-| MajorFormattingLossCategory | `FF00` | Das resultierende Dokument oder eine bestimmte Stelle darin kann im Vergleich zum Originaldokument erheblich anders aussehen. |
-| MajorFormattingLoss | `100` | Allgemeiner großer Formatierungsverlust, kein spezifischer Code. |
-| MinorFormattingLossCategory | `FF0000` | Das resultierende Dokument oder eine bestimmte Stelle darin kann im Vergleich zum Originaldokument etwas anders aussehen. |
+| MajorFormattingLossCategory | `FF00` | Das resultierende Dokument oder eine bestimmte Stelle darin sieht möglicherweise erheblich anders aus als das Originaldokument. |
+| MajorFormattingLoss | `100` | Generell schwerwiegender Formatierungsverlust, kein spezifischer Code. |
+| MinorFormattingLossCategory | `FF0000` | Das resultierende Dokument oder eine bestimmte Stelle darin sieht im Vergleich möglicherweise etwas anders aus als das Originaldokument. |
 | MinorFormattingLoss | `10000` | Allgemeiner geringfügiger Formatierungsverlust, kein spezifischer Code. |
 | FontSubstitution | `20000` | Schriftart wurde ersetzt. |
-| FontEmbedding | `40000` | Verlust eingebetteter Schriftinformationen beim Speichern des Dokuments. |
-| UnexpectedContentCategory | `F000000` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (dh werden nicht unterstützt), dies kann oder kann nicht Probleme verursachen oder zu Daten-/Formatierungsverlust führen. |
+| FontEmbedding | `40000` | Verlust eingebetteter Schriftartinformationen beim Speichern des Dokuments. |
+| UnexpectedContentCategory | `F000000` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (d. h. werden nicht unterstützt). Dies kann zu Problemen führen oder zu Daten-/Formatierungsverlusten führen. |
 | UnexpectedContent | `1000000` | Allgemeiner unerwarteter Inhalt, kein spezifischer Code. |
-| Hint | `10000000` | Weist auf ein potenzielles Problem hin oder schlägt eine Verbesserung vor. |
+| Hint | `10000000` | Macht auf ein potenzielles Problem aufmerksam oder schlägt eine Verbesserung vor. |
 
 ### Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
@@ -52,7 +51,10 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Wir erhalten eine Schriftersetzungswarnung, wenn wir ein Dokument mit einer fehlenden Schrift speichern.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -74,7 +76,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

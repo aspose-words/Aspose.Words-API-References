@@ -1,14 +1,14 @@
 ---
 title: PageSetup.Bidi
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt an dass dieser Abschnitt bidirektionalen Text komplexe Skripte enthält.
+description: PageSetup eigendom. Gibt an dass dieser Abschnitt bidirektionalen Text komplexe Skripts enthält.
 type: docs
 weight: 10
 url: /de/net/aspose.words/pagesetup/bidi/
 ---
 ## PageSetup.Bidi property
 
-Gibt an, dass dieser Abschnitt bidirektionalen Text (komplexe Skripte) enthält.
+Gibt an, dass dieser Abschnitt bidirektionalen Text (komplexe Skripts) enthält.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ### Bemerkungen
 
-Wenn wahr, werden die Spalten in diesem Abschnitt von rechts nach links angeordnet.
+Wann`WAHR`die Spalten in diesem Abschnitt sind von rechts nach links angeordnet.
 
 ### Beispiele
 
@@ -35,9 +35,9 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Setzen Sie die Eigenschaft "Bidi" auf "true", um die Spalten von der rechten Seite der Seite beginnend anzuordnen.
+// Setzen Sie die Eigenschaft „Bidi“ auf „true“, um die Spalten beginnend auf der rechten Seite der Seite anzuordnen.
 // Die Reihenfolge der Spalten entspricht der Richtung des von rechts nach links verlaufenden Textes.
-// Setzen Sie die Eigenschaft "Bidi" auf "false", um die Spalten von der linken Seite der Seite beginnend anzuordnen.
+// Setzen Sie die Eigenschaft „Bidi“ auf „false“, um die Spalten beginnend auf der linken Seite der Seite anzuordnen.
 // Die Reihenfolge der Spalten entspricht der Richtung des von links nach rechts verlaufenden Textes.
 pageSetup.Bidi = reverseColumns;
 

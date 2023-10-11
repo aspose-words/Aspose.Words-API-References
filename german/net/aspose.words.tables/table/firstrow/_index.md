@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Gibt den ersten zurück Die Zeile Knoten in der Tabelle.
+description: Table eigendom. Gibt den ersten zurückRow Knoten in der Tabelle.
 type: docs
 weight: 160
 url: /de/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Gibt den ersten zurück **Die Zeile** Knoten in der Tabelle.
+Gibt den ersten zurück[`Row`](../../row/) Knoten in der Tabelle.
 
 ```csharp
 public Row FirstRow { get; }
@@ -16,7 +16,7 @@ public Row FirstRow { get; }
 
 ### Beispiele
 
-Zeigt, wie die erste und letzte Zeile aller Tabellen in einem Dokument entfernt werden.
+Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -41,18 +41,18 @@ Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Im Folgenden finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
-// 1 - Aus der "Tables"-Sammlung eines Body-Knotens:
+// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument abzurufen.
+// 1 – Aus der „Tables“-Sammlung eines Body-Knotens:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Verwendung der "GetChild"-Methode:
+// 2 - Verwendung der Methode „GetChild“:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Alle Zeilen der aktuellen Tabelle an die nächste anhängen.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Entferne den leeren Tabellencontainer.
+// Den leeren Tabellencontainer entfernen.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

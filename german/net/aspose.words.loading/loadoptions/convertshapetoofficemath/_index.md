@@ -16,7 +16,7 @@ public bool ConvertShapeToOfficeMath { get; set; }
 
 ### Beispiele
 
-Zeigt, wie EquationXML-Shapes in Office Math-Objekte konvertiert werden.
+Zeigt, wie EquationXML-Formen in Office Math-Objekte konvertiert werden.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

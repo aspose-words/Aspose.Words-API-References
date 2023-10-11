@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Id
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Gibt eine eindeutige schreibgeschützte persistente numerische ID dafür an SDT.
+description: IStructuredDocumentTag eigendom. Gibt hierfür eine eindeutige schreibgeschützte persistente numerische ID an SDT.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-Gibt eine eindeutige, schreibgeschützte, persistente numerische ID dafür an **SDT**.
+Gibt hierfür eine eindeutige, schreibgeschützte, persistente numerische ID an **SDT**.
 
 ```csharp
 public int Id { get; }

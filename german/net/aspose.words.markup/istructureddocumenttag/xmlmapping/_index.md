@@ -16,7 +16,7 @@ public XmlMapping XmlMapping { get; }
 
 ### Bemerkungen
 
-Sie können die verwenden[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses Objekts, um ein strukturiertes Dokument-Tag XML-Daten zuzuordnen.
+Sie können das verwenden[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses Objekts, um ein strukturiertes Dokument-Tag XML-Daten zuzuordnen.
 
 ### Siehe auch
 

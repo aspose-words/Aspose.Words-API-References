@@ -1,14 +1,14 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFillIn eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Seriendruckvorgang empfangen werden soll.
+description: FieldFillIn eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 ---
 ## FieldFillIn.PromptOnceOnMailMerge property
 
-Ruft ab oder legt fest, ob die Benutzerantwort einmal pro Seriendruckvorgang empfangen werden soll.
+Ruft ab oder legt fest, ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -25,7 +25,7 @@ public void FieldFillIn()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ein FILLIN-Feld einfügen. Wenn wir dieses Feld in Microsoft Word manuell aktualisieren,
-    // Es fordert uns auf, eine Antwort einzugeben. Das Feld zeigt dann die Antwort als Text an.
+    // es wird uns auffordern, eine Antwort einzugeben. Das Feld zeigt dann die Antwort als Text an.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
@@ -39,16 +39,17 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Wenn wir einen Seriendruck programmgesteuert durchführen, können wir einen benutzerdefinierten Prompt-Respondenten verwenden
-    // zum automatischen Bearbeiten von Antworten für FILLIN-Felder, auf die der Seriendruck stößt.
+    // Wenn wir einen Seriendruck programmgesteuert durchführen, können wir einen benutzerdefinierten Eingabeaufforderungsantworten verwenden
+    // um Antworten für FILLIN-Felder automatisch zu bearbeiten, auf die der Seriendruck stößt.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
-/// Stellt der Standardantwort jedes FILLIN-Felds während eines Seriendrucks eine Zeile voran.
+/// Fügt der Standardantwort jedes FILLIN-Felds während eines Seriendrucks eine Zeile voran.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

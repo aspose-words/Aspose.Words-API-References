@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignatureLineId
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Kennung der Signaturzeile. Standardwert ist Leer nur Nullen Guid .
+description: SignOptions eigendom. Signaturzeilenkennung. Der Standardwert ist Leere alle Nullen Guid .
 type: docs
 weight: 50
 url: /de/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Kennung der Signaturzeile. Standardwert ist **Leer (nur Nullen) Guid** .
+Signaturzeilenkennung. Der Standardwert ist **Leere (alle Nullen) Guid** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
@@ -16,14 +16,15 @@ public Guid SignatureLineId { get; set; }
 
 ### Bemerkungen
 
-Wenn gesetzt, verbindet es[`SignatureLine`](../../../aspose.words.drawing/signatureline/) mit entsprechendem[`DigitalSignature`](../../digitalsignature/) .
+Wenn festgelegt, wird es zugeordnet[`SignatureLine`](../../../aspose.words.drawing/signatureline/) mit entsprechendem[`DigitalSignature`](../../digitalsignature/) .
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument eine Signaturzeile hinzufügen und es dann mit einem digitalen Zertifikat signieren.
+Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -42,7 +43,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Informationen zum Unterzeichner und dem X509-Zertifikat signiert wurde.
+        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Unterzeichnerinformationen und dem X509-Zertifikat signiert wurde.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -71,7 +72,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Überschreiben Sie das unsignierte Dokument, das wir oben gespeichert haben, mit einer Version, die mit dem Zertifikat signiert wurde.
+            // Überschreiben Sie das oben gespeicherte unsignierte Dokument mit einer mit dem Zertifikat signierten Version.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

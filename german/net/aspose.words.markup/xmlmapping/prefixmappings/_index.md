@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.PrefixMappings
 second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt XMLNamespacePräfixzuordnungen zurück um die auszuwertenXPath .
+description: XmlMapping eigendom. Gibt XMLNamespacePräfixzuordnungen zur Auswertung zurückXPath .
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
 ## XmlMapping.PrefixMappings property
 
-Gibt XML-Namespace-Präfixzuordnungen zurück, um die auszuwerten[`XPath`](../xpath/) .
+Gibt XML-Namespace-Präfixzuordnungen zur Auswertung zurück[`XPath`](../xpath/) .
 
 ```csharp
 public string PrefixMappings { get; }
@@ -16,7 +16,7 @@ public string PrefixMappings { get; }
 
 ### Bemerkungen
 
-Gibt den Satz von Präfixzuordnungen an, die verwendet werden sollen, um den XPath-Ausdruck zu interpretieren, wenn der XPath-Ausdruck gegen die benutzerdefinierten XML-Datenteile im Dokument ausgewertet wird.
+Gibt den Satz von Präfixzuordnungen an, die zur Interpretation des XPath-Ausdrucks verwendet werden sollen, wenn der XPath-Ausdruck anhand der benutzerdefinierten XML-Datenteile im Dokument ausgewertet wird.
 
 ### Beispiele
 
@@ -36,9 +36,9 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 // Erstellen Sie ein strukturiertes Dokument-Tag, das den Inhalt unseres CustomXmlPart anzeigt.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// Legen Sie eine Zuordnung für unser strukturiertes Dokument-Tag fest. Diese Zuordnung wird anweisen
-// unser strukturiertes Dokument-Tag, um einen Teil des Textinhalts des XML-Teils anzuzeigen, auf den der XPath zeigt.
-// In diesem Fall ist es der Inhalt des zweiten "<text>" Element des ersten "<root>" element: "Textelement #2".
+// Legen Sie eine Zuordnung für unser strukturiertes Dokument-Tag fest. Diese Zuordnung wird Ihnen Anweisungen geben
+// unser strukturiertes Dokument-Tag, um einen Teil des Textinhalts des XML-Teils anzuzeigen, auf den der XPath verweist.
+// In diesem Fall handelt es sich um den Inhalt des zweiten „<text>“ Element des ersten „<root>“ Element: „Textelement #2“.
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);

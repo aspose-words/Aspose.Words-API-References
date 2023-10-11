@@ -1,14 +1,14 @@
 ---
 title: FontInfo.AltName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft den alternativen Namen für die Schriftart ab oder legt ihn fest.
+description: FontInfo eigendom. Ruft den alternativen Namen für die Schriftart ab oder legt diesen fest.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-Ruft den alternativen Namen für die Schriftart ab oder legt ihn fest.
+Ruft den alternativen Namen für die Schriftart ab oder legt diesen fest.
 
 ```csharp
 public string AltName { get; set; }
@@ -20,7 +20,7 @@ Kann nicht sein`Null`. Kann eine leere Zeichenfolge sein.
 
 ### Beispiele
 
-Zeigt, wie Sie auf Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

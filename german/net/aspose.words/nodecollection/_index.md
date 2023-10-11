@@ -1,14 +1,16 @@
 ---
 title: Class NodeCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeCollection klas. Repräsentiert eine Sammlung von Knoten eines bestimmten Typs.
+description: Aspose.Words.NodeCollection klas. Stellt eine Sammlung von Knoten eines bestimmten Typs dar.
 type: docs
-weight: 3960
+weight: 4200
 url: /de/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-Repräsentiert eine Sammlung von Knoten eines bestimmten Typs.
+Stellt eine Sammlung von Knoten eines bestimmten Typs dar.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -25,10 +27,10 @@ public class NodeCollection : IEnumerable<Node>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt am Ende der Sammlung einen Knoten hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob sich ein Knoten in der Sammlung befindet. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im "foreach"-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
@@ -37,15 +39,15 @@ public class NodeCollection : IEnumerable<Node>
 
 ### Bemerkungen
 
-**NodeCollection** besitzt nicht die darin enthaltenen Knoten, sondern ist nur eine Auswahl von nodes des angegebenen Typs, aber die Knoten werden im Baum unter ihren jeweiligen übergeordneten Knoten gespeichert.
+`NodeCollection` besitzt nicht die darin enthaltenen Knoten, sondern ist lediglich eine Auswahl von nodes des angegebenen Typs, aber die Knoten werden im Baum unter ihren jeweiligen übergeordneten Knoten gespeichert.
 
-**NodeCollection**unterstützt indizierten Zugriff, Iteration und bietet Methoden zum Hinzufügen und Entfernen.
+`NodeCollection`unterstützt indizierten Zugriff, Iteration und bietet Methoden zum Hinzufügen und Entfernen.
 
-Das **NodeCollection** -Sammlung ist "live", dh Änderungen an den Kindern des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Knoten widergespiegelt **NodeCollection** Eigenschaften und Methoden.
+Der`NodeCollection` Die Sammlung ist „live“, d. h. Änderungen an den untergeordneten Knoten des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Knoten widergespiegelt`NodeCollection` Eigenschaften und Methoden.
 
-**NodeCollection** wird von zurückgegeben[`GetChildNodes`](../compositenode/getchildnodes/) und dient auch als Basisklasse für typisierte Knotensammlungen wie z[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) usw.
+`NodeCollection` wird zurückgegeben von[`GetChildNodes`](../compositenode/getchildnodes/) und dient auch als Basisklasse für typisierte Knotensammlungen wie[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) usw.
 
-**NodeCollection** kann "flach" sein und nur unmittelbare Kinder des Knotens enthalten, aus dem er erstellt wurde , oder er kann "tief" sein und alle untergeordneten untergeordneten Knoten enthalten.
+`NodeCollection` kann „flach“ sein und nur unmittelbare Kinder des Knotens enthalten, von dem aus es erstellt wurde, oder es kann „tief“ sein und alle untergeordneten Kinder enthalten.
 
 ### Beispiele
 

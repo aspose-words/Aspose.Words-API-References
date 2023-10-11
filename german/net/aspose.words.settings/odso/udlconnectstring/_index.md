@@ -1,14 +1,14 @@
 ---
 title: Odso.UdlConnectString
 second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt die Universal Data Link UDLVerbindungszeichenfolge an die verwendet wird um eine Verbindung zu einer externen Datenquelle herzustellen. Der Standardwert ist eine leere Zeichenfolge.
+description: Odso eigendom. Gibt die UDLVerbindungszeichenfolge Universal Data Link an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 type: docs
 weight: 90
 url: /de/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-Gibt die Universal Data Link (UDL)-Verbindungszeichenfolge an, die verwendet wird, um eine Verbindung zu einer externen Datenquelle herzustellen. Der Standardwert ist eine leere Zeichenfolge.
+Gibt die UDL-Verbindungszeichenfolge (Universal Data Link) an, die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string UdlConnectString { get; set; }
@@ -16,7 +16,7 @@ public string UdlConnectString { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
+Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Wir können diese Einstellungen zurücksetzen, indem wir sie löschen. Sobald wir das getan und das Dokument gespeichert haben,
-// Microsoft Word führt keinen Seriendruck mehr aus, wenn wir es zum Laden des Dokuments verwenden.
+// Microsoft Word führt keinen Serienbrief mehr aus, wenn wir es zum Laden des Dokuments verwenden.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

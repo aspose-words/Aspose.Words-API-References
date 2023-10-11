@@ -16,21 +16,21 @@ public FieldBuilder(FieldType fieldType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldType | FieldType | Der Typ des zu erstellenden Felds. |
+| fieldType | FieldType | Der Typ des zu erstellenden Feldes. |
 
 ### Beispiele
 
-Zeigt, wie ein Feld mit einem Feldgenerator erstellt und eingefügt wird.
+Zeigt, wie man ein Feld mit einem Feld-Builder erstellt und einfügt.
 
 ```csharp
 Document doc = new Document();
 
-// Eine bequeme Möglichkeit, Textinhalte zu einem Dokument hinzuzufügen, bietet ein Dokumentersteller.
+// Eine bequeme Möglichkeit, Textinhalte zu einem Dokument hinzuzufügen, ist die Verwendung eines Document Builders.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// Felder haben ihren Builder, mit dem wir Stück für Stück einen Feldcode konstruieren können.
-// In diesem Fall erstellen wir ein BARCODE-Feld, das eine US-Postleitzahl darstellt,
+// Felder haben ihren Builder, mit dem wir Stück für Stück einen Feldcode erstellen können.
+// In diesem Fall erstellen wir ein BARCODE-Feld, das eine US-Postleitzahl darstellt.
 // und dann vor einem Run einfügen.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");

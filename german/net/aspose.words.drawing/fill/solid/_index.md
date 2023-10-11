@@ -3,7 +3,7 @@ title: Fill.Solid
 second_title: Aspose.Words für .NET-API-Referenz
 description: Fill methode. Setzt die Füllung auf eine einheitliche Farbe.
 type: docs
-weight: 200
+weight: 260
 url: /de/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -16,7 +16,7 @@ public void Solid()
 
 ### Bemerkungen
 
-Verwenden Sie diese Methode, um eine der Füllungen wieder in eine durchgehende Füllung umzuwandeln.
+Verwenden Sie diese Methode, um beliebige Füllungen wieder in eine Vollfüllung umzuwandeln.
 
 ### Siehe auch
 
@@ -28,7 +28,7 @@ Verwenden Sie diese Methode, um eine der Füllungen wieder in eine durchgehende 
 
 ## Solid(Color) {#solid_1}
 
-Legt die Füllung auf eine angegebene einheitliche Farbe fest.
+Setzt die Füllung auf eine bestimmte einheitliche Farbe.
 
 ```csharp
 public void Solid(Color color)
@@ -36,16 +36,16 @@ public void Solid(Color color)
 
 ### Bemerkungen
 
-Verwenden Sie diese Methode, um eine der Füllungen wieder in eine durchgehende Füllung umzuwandeln.
+Verwenden Sie diese Methode, um beliebige Füllungen wieder in eine Vollfüllung umzuwandeln.
 
 ### Beispiele
 
-Zeigt, wie Sie eine der Füllungen wieder in eine durchgehende Füllung umwandeln.
+Zeigt, wie eine der Füllungen wieder in eine Vollfüllung umgewandelt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// Holen Sie sich das Füllobjekt für die Schriftart des ersten Laufs.
+// Fill-Objekt für Schriftart des ersten Laufs abrufen.
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
 // Fülleigenschaften der Schriftart prüfen.
@@ -53,7 +53,7 @@ Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 
-// Ändern Sie den Füllungstyp in Solid mit einheitlicher grüner Farbe.
+// Ändere den Typ der Füllung in „Fest“ mit einheitlicher grüner Farbe.
 fill.Solid(Color.Green);
 Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);

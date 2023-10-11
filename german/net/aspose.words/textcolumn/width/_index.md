@@ -1,14 +1,14 @@
 ---
 title: TextColumn.Width
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumn eigendom. Liest oder setzt die Breite der Textspalte in Punkt.
+description: TextColumn eigendom. Ruft die Breite der Textspalte in Punkten ab oder legt sie fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textcolumn/width/
 ---
 ## TextColumn.Width property
 
-Liest oder setzt die Breite der Textspalte in Punkt.
+Ruft die Breite der Textspalte in Punkten ab oder legt sie fest.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Spalten mit ungleichmäßigen Abständen erstellt werden.
+Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz zum Anordnen von Spalten.
+// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);

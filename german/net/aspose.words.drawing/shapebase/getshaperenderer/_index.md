@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.GetShapeRenderer
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase methode. Erstellt ein Objekt und gibt es zurück das verwendet werden kann um diese Form in ein Bild zu rendern.
+description: ShapeBase methode. Erstellt ein Objekt und gibt es zurück das zum Rendern dieser Form in ein Bild verwendet werden kann.
 type: docs
-weight: 600
+weight: 660
 url: /de/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
 
-Erstellt ein Objekt und gibt es zurück, das verwendet werden kann, um diese Form in ein Bild zu rendern.
+Erstellt ein Objekt und gibt es zurück, das zum Rendern dieser Form in ein Bild verwendet werden kann.
 
 ```csharp
 public ShapeRenderer GetShapeRenderer()
@@ -16,15 +16,15 @@ public ShapeRenderer GetShapeRenderer()
 
 ### Rückgabewert
 
-Das Rendererobjekt für diese Form.
+Das Renderer-Objekt für diese Form.
 
 ### Bemerkungen
 
-Diese Methode ruft nur die auf[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) Konstruktor und übergibt dieses Objekt als Parameter.
+Diese Methode ruft lediglich die auf[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) Konstruktor und übergibt dieses Objekt als Parameter.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Form-Renderer verwenden, um Formen in Dateien im lokalen Dateisystem zu exportieren.
+Zeigt, wie Sie mit einem Formrenderer Formen in Dateien im lokalen Dateisystem exportieren.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");
@@ -32,9 +32,9 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// Das Dokument enthält 7 Formen, darunter eine Gruppenform mit 2 untergeordneten Formen.
+// Das Dokument enthält 7 Formen, darunter eine Gruppenform mit zwei untergeordneten Formen.
 // Wir rendern jede Form in eine Bilddatei im lokalen Dateisystem
-// während die Gruppenformen ignoriert werden, da sie nicht erscheinen.
+// während die Gruppenformen ignoriert werden, da sie kein Aussehen haben.
 // Dies erzeugt 6 Bilddateien.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {

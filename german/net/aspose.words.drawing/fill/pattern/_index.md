@@ -1,14 +1,14 @@
 ---
 title: Fill.Pattern
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. erhält aPatternType für die Füllung.
+description: Fill eigendom. Ruft a abPatternType für die Füllung.
 type: docs
-weight: 100
+weight: 160
 url: /de/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
 
-erhält a[`PatternType`](../../patterntype/) für die Füllung.
+Ruft a ab[`PatternType`](../../patterntype/) für die Füllung.
 
 ```csharp
 public PatternType Pattern { get; }

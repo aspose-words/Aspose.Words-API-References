@@ -1,14 +1,14 @@
 ---
 title: Border.Equals
 second_title: Aspose.Words für .NET-API-Referenz
-description: Border methode. Bestimmt ob der angegebene Rand im Wert gleich dem aktuellen Rand ist.
+description: Border methode. Bestimmt ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat.
 type: docs
-weight: 80
+weight: 100
 url: /de/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
 
-Bestimmt, ob der angegebene Rand im Wert gleich dem aktuellen Rand ist.
+Bestimmt, ob der angegebene Rahmen den gleichen Wert wie der aktuelle Rahmen hat.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -25,11 +25,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Randkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen teilen dieselben Elemente.
+// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -40,14 +39,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem Sie den Linienstil der Rahmen nur im zweiten Absatz geändert haben,
-// Die Randsammlungen haben nicht mehr die gleichen Elemente.
+// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
+// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Das Ändern des Aussehens eines leeren Rahmens macht ihn sichtbar.
+    // Durch Ändern des Erscheinungsbilds eines leeren Rahmens wird dieser sichtbar.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -64,7 +63,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(object) {#equals_1}
 
-Bestimmt, ob das angegebene Objekt im Wert dem aktuellen Objekt entspricht.
+Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat.
 
 ```csharp
 public override bool Equals(object obj)
@@ -81,11 +80,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Randkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen teilen dieselben Elemente.
+// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -96,14 +94,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem Sie den Linienstil der Rahmen nur im zweiten Absatz geändert haben,
-// Die Randsammlungen haben nicht mehr die gleichen Elemente.
+// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
+// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Das Ändern des Aussehens eines leeren Rahmens macht ihn sichtbar.
+    // Durch Ändern des Erscheinungsbilds eines leeren Rahmens wird dieser sichtbar.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

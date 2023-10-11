@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.TextShaperFactory
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Holt oder setztITextShaperFactory Implementierung die für erweiterte TypografieRenderingFunktionen verwendet wird.
+description: LayoutOptions eigendom. Ruft ab oder legt festITextShaperFactory Implementierung die für erweiterte TypografieRenderingfunktionen verwendet wird.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property
 
-Holt oder setzt[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) Implementierung, die für erweiterte Typografie-Rendering-Funktionen verwendet wird.
+Ruft ab oder legt fest[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) Implementierung, die für erweiterte Typografie-Renderingfunktionen verwendet wird.
 
 ```csharp
 public ITextShaperFactory TextShaperFactory { get; set; }
@@ -16,19 +16,19 @@ public ITextShaperFactory TextShaperFactory { get; set; }
 
 ### Beispiele
 
-Zeigt, wie OpenType-Features mit der Textformungs-Engine HarfBuzz unterstützt werden.
+Zeigt, wie OpenType-Funktionen mithilfe der HarfBuzz-Textformungs-Engine unterstützt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "OpenType text shaping.docx");
 
-// Aspose.Words kann extern bereitgestellte Textformer-Objekte verwenden,
+// Aspose.Words kann extern bereitgestellte Textformerobjekte verwenden,
 // die Schriftarten darstellen und Forminformationen für Text berechnen.
-// Für Dokumente, die mehrere Schriftarten verwenden, ist eine Textformer-Factory erforderlich.
+// Für Dokumente, die mehrere Schriftarten verwenden, ist eine Textformerfabrik erforderlich.
 // Wenn der Textformer werkseitig eingestellt ist, verwendet das Layout OpenType-Funktionen.
-// Eine Instance-Eigenschaft gibt ein statisches BasicTextShaperCache-Objekt zurück, das HarfBuzzTextShaperFactory umschließt.
+// Eine Instanzeigenschaft gibt ein statisches BasicTextShaperCache-Objekt zurück, das HarfBuzzTextShaperFactory umschließt.
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
 
-// Derzeit wird die Textformung beim Export in das PDF- oder XPS-Format durchgeführt.
+// Derzeit wird die Textformung beim Exportieren in PDF- oder XPS-Formate ausgeführt.
 doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 ```
 

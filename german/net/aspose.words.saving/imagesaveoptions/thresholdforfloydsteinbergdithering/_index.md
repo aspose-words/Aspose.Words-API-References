@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft den Schwellenwert ab oder legt ihn fest der den Wert des Binärisierungsfehlers in der FloydSteinbergMethode bestimmt. wannImageBinarizationMethod ist ImageBinarizationMethod.FloydSteinbergDithering.
+description: ImageSaveOptions eigendom. Ruft den Schwellenwert ab oder legt diesen fest der den Wert des Binärisierungsfehlers in der FloydSteinbergMethode bestimmt. wannImageBinarizationMethod IstFloydSteinbergDithering .
 type: docs
-weight: 150
+weight: 160
 url: /de/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-Ruft den Schwellenwert ab oder legt ihn fest, der den Wert des Binärisierungsfehlers in der Floyd-Steinberg-Methode bestimmt. wann[`ImageBinarizationMethod`](../../imagebinarizationmethod/) ist ImageBinarizationMethod.FloydSteinbergDithering.
+Ruft den Schwellenwert ab oder legt diesen fest, der den Wert des Binärisierungsfehlers in der Floyd-Steinberg-Methode bestimmt. wann[`ImageBinarizationMethod`](../../imagebinarizationmethod/) IstFloydSteinbergDithering .
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -20,7 +20,7 @@ Der Standardwert ist 128.
 
 ### Beispiele
 
-Zeigt, wie der TIFF-Binärisierungsfehlerschwellenwert festgelegt wird, wenn die Floyd-Steinberg-Methode zum Rendern eines TIFF-Bilds verwendet wird.
+Zeigt, wie der TIFF-Binarisierungsfehlerschwellenwert festgelegt wird, wenn die Floyd-Steinberg-Methode zum Rendern eines TIFF-Bilds verwendet wird.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als TIFF speichern, können wir ein SaveOptions-Objekt an übergeben
 // Passen Sie das Dithering an, das Aspose.Words beim Rendern dieses Bildes anwendet.
-// Der Standardwert der Eigenschaft "ThresholdForFloydSteinbergDithering" ist 128.
+// Der Standardwert der Eigenschaft „ThresholdForFloydSteinbergDithering“ ist 128.
 // Höhere Werte führen tendenziell zu dunkleren Bildern.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {

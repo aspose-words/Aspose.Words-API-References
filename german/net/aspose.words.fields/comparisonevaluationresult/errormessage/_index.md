@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult.ErrorMessage
 second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonEvaluationResult eigendom. Ruft die Fehlermeldung des fehlgeschlagenen Vergleichsbewertungsergebnisses ab.
+description: ComparisonEvaluationResult eigendom. Ruft die Fehlermeldung des Ergebnisses der fehlgeschlagenen Vergleichsauswertung ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/comparisonevaluationresult/errormessage/
 ---
 ## ComparisonEvaluationResult.ErrorMessage property
 
-Ruft die Fehlermeldung des fehlgeschlagenen Vergleichsbewertungsergebnisses ab.
+Ruft die Fehlermeldung des Ergebnisses der fehlgeschlagenen Vergleichsauswertung ab.
 
 ```csharp
 public string ErrorMessage { get; }

@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentDirection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.DocumentDirection opsomming. Ermöglicht die Angabe der Textflussrichtung in einem Dokument.
+description: Aspose.Words.Loading.DocumentDirection opsomming. Ermöglicht die Angabe der Richtung für den Textfluss in einem Dokument.
 type: docs
-weight: 3380
+weight: 3580
 url: /de/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
 
-Ermöglicht die Angabe der Textflussrichtung in einem Dokument.
+Ermöglicht die Angabe der Richtung für den Textfluss in einem Dokument.
 
 ```csharp
 public enum DocumentDirection

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt ein Dokument an der Cursorposition ein.
 type: docs
-weight: 290
+weight: 310
 url: /de/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
@@ -25,7 +25,7 @@ Erster Knoten des eingefügten Inhalts.
 
 ### Bemerkungen
 
-Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt wurde, dann STRG+'C' (ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus der Puffer) in einem anderen Dokument.
+Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt würde, dann STRG+'C' (Ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus dem einfügen). Puffer) in einem anderen Dokument.
 
 ### Beispiele
 
@@ -76,11 +76,11 @@ Erster Knoten des eingefügten Inhalts.
 
 ### Bemerkungen
 
-Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt wurde, dann STRG+'C' (ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus der Puffer) in einem anderen Dokument.
+Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt würde, dann STRG+'C' (Ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus dem einfügen). Puffer) in einem anderen Dokument.
 
 ### Beispiele
 
-Zeigt, wie doppelte Stile beim Einfügen von Dokumenten aufgelöst werden.
+Zeigt, wie du doppelte Stile beim Einfügen von Dokumenten auflöst.
 
 ```csharp
 Document dstDoc = new Document();
@@ -94,8 +94,8 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Klonen Sie das Dokument und bearbeiten Sie den "MyStyle"-Stil des Klons, sodass er eine andere Farbe als das Original hat.
-// Wenn wir den Klon in das Originaldokument einfügen, verursachen die beiden Stile mit demselben Namen einen Konflikt.
+// Klonen Sie das Dokument und bearbeiten Sie den „MyStyle“-Stil des Klons, sodass er eine andere Farbe als das Original hat.
+// Wenn wir den Klon in das Originaldokument einfügen, kommt es zu einem Konflikt zwischen den beiden Stilen mit demselben Namen.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 

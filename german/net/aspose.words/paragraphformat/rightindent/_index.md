@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.RightIndent
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Punkt ab oder legt ihn fest der den rechten Einzug für den Absatz darstellt.
+description: ParagraphFormat eigendom. Ruft den Wert in Punkten ab der den rechten Einzug für den Absatz darstellt oder legt diesen fest.
 type: docs
-weight: 260
+weight: 270
 url: /de/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-Ruft den Wert (in Punkt) ab oder legt ihn fest, der den rechten Einzug für den Absatz darstellt.
+Ruft den Wert (in Punkten) ab, der den rechten Einzug für den Absatz darstellt, oder legt diesen fest.
 
 ```csharp
 public double RightIndent { get; set; }
@@ -16,15 +16,15 @@ public double RightIndent { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Absatzformatierung konfiguriert wird, um außermittigen Text zu erstellen.
+Zeigt, wie Sie die Absatzformatierung konfigurieren, um außermittigen Text zu erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Zentrieren Sie den gesamten Text, den der Document Builder schreibt, und richten Sie Einzüge ein.
-// Die folgende Einzugskonfiguration erstellt einen Textkörper, der asymmetrisch auf der Seite platziert wird.
-// Die "Mitte", an der wir den Text ausrichten, ist die Mitte des Textkörpers, nicht die Mitte der Seite.
+// Zentrieren Sie den gesamten Text, den der Dokumentersteller schreibt, und richten Sie Einzüge ein.
+// Die Einzugskonfiguration unten erstellt einen Textkörper, der asymmetrisch auf der Seite platziert wird.
+// Die „Mitte“, an der wir den Text ausrichten, ist die Mitte des Textkörpers, nicht die Mitte der Seite.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

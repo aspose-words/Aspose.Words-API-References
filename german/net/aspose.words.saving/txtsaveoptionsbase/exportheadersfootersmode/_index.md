@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptionsBase eigendom. Gibt an wie Kopf und Fußzeilen in die Textformate exportiert werden. Standardwert istPrimaryOnly .
+description: TxtSaveOptionsBase eigendom. Gibt an wie Kopf und Fußzeilen in die Textformate exportiert werden. Der Standardwert istPrimaryOnly .
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 ---
 ## TxtSaveOptionsBase.ExportHeadersFootersMode property
 
-Gibt an, wie Kopf- und Fußzeilen in die Textformate exportiert werden. Standardwert istPrimaryOnly .
+Gibt an, wie Kopf- und Fußzeilen in die Textformate exportiert werden. Der Standardwert istPrimaryOnly .
 
 ```csharp
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -16,12 +16,12 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ### Beispiele
 
-Zeigt, wie angegeben wird, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
+Zeigt, wie Sie angeben, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
 
 ```csharp
 Document doc = new Document();
 
-// Einfügen gerader und primärer Kopf-/Fußzeilen in das Dokument.
+// Gerade und primäre Kopf-/Fußzeilen in das Dokument einfügen.
 // Die primären Kopf-/Fußzeilen überschreiben die geraden Kopf-/Fußzeilen.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
@@ -40,16 +40,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Setzen Sie die Eigenschaft "ExportHeadersFootersMode" auf "TxtExportHeadersFootersMode.None"
-// keine Kopf-/Fußzeilen exportieren.
-// Setzen Sie die Eigenschaft "ExportHeadersFootersMode" auf "TxtExportHeadersFootersMode.PrimaryOnly"
+// Setze die Eigenschaft „ExportHeadersFootersMode“ auf „TxtExportHeadersFootersMode.None“
+// um keine Kopf-/Fußzeilen zu exportieren.
+// Setze die Eigenschaft „ExportHeadersFootersMode“ auf „TxtExportHeadersFootersMode.PrimaryOnly“
 // um nur primäre Kopf-/Fußzeilen zu exportieren.
-// Setzen Sie die Eigenschaft "ExportHeadersFootersMode" auf "TxtExportHeadersFootersMode.AllAtEnd"
-// um alle Kopf- und Fußzeilen für alle Abschnittskörper am Ende des Dokuments zu platzieren.
+// Setze die Eigenschaft „ExportHeadersFootersMode“ auf „TxtExportHeadersFootersMode.AllAtEnd“
+// um alle Kopf- und Fußzeilen für alle Abschnittstexte am Ende des Dokuments zu platzieren.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);

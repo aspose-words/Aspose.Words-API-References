@@ -3,7 +3,7 @@ title: Range.NormalizeFieldTypes
 second_title: Aspose.Words für .NET-API-Referenz
 description: Range methode. Ändert FeldtypwerteFieldType vonFieldStart FieldSeparator FieldEnd in diesem Bereich damit sie den in den Feldcodes enthaltenen Feldtypen entsprechen.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words/range/normalizefieldtypes/
 ---
 ## Range.NormalizeFieldTypes method
@@ -18,7 +18,7 @@ public void NormalizeFieldTypes()
 
 Verwenden Sie diese Methode nach Dokumentänderungen, die sich auf Feldtypen auswirken.
 
-Verwenden Sie zum Ändern von Feldtypwerten im gesamten Dokument[`NormalizeFieldTypes`](../../document/normalizefieldtypes/).
+Um Feldtypwerte im gesamten Dokument zu ändern, verwenden Sie[`NormalizeFieldTypes`](../../document/normalizefieldtypes/).
 
 ### Siehe auch
 

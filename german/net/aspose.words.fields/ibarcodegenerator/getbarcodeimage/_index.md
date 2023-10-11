@@ -1,14 +1,14 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: IBarcodeGenerator methode. Barcodebild mit Parametersatz generieren für Feld DisplayBarcode.
+description: IBarcodeGenerator methode. Erzeugen Sie ein BarcodeBild mithilfe des Parametersatzes für das DisplayBarcodeFeld.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
 ## IBarcodeGenerator.GetBarcodeImage method
 
-Barcodebild mit Parametersatz generieren (für Feld DisplayBarcode).
+Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das DisplayBarcode-Feld).
 
 ```csharp
 public Image GetBarcodeImage(BarcodeParameters parameters)
@@ -29,13 +29,12 @@ Zeigt, wie ein Barcode-Generator verwendet wird.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Wir können eine benutzerdefinierte IBarcodeGenerator-Implementierung verwenden, um Barcodes zu generieren,
-// und dann als Bilder in das Dokument einfügen.
+// Wir können eine benutzerdefinierte IBarcodeGenerator-Implementierung verwenden, um Barcodes zu generieren.
+// und fügen Sie sie dann als Bilder in das Dokument ein.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Nachfolgend finden Sie vier Beispiele für verschiedene Barcode-Typen, die wir mit unserem Generator erstellen können.
-// Für jeden Barcode geben wir einen neuen Satz von Barcode-Parametern an und generieren dann das Bild.
+// Für jeden Barcode geben wir einen neuen Satz Barcode-Parameter an und generieren dann das Bild.
 // Anschließend können wir das Bild in das Dokument einfügen oder im lokalen Dateisystem speichern.
 // 1 - QR-Code:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -69,7 +68,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - CODE39-Strichcode:
+// 3 - CODE39-Barcode:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",

@@ -1,14 +1,14 @@
 ---
 title: Enum ContentDisposition
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ContentDisposition opsomming. Listet verschiedene Möglichkeiten auf das Dokument im ClientBrowser darzustellen.
+description: Aspose.Words.ContentDisposition opsomming. Listet verschiedene Möglichkeiten zur Darstellung des Dokuments im ClientBrowser auf.
 type: docs
-weight: 330
+weight: 340
 url: /de/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-Listet verschiedene Möglichkeiten auf, das Dokument im Client-Browser darzustellen.
+Listet verschiedene Möglichkeiten zur Darstellung des Dokuments im Client-Browser auf.
 
 ```csharp
 public enum ContentDisposition
@@ -18,16 +18,16 @@ public enum ContentDisposition
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Attachment | `0` | Senden Sie das Dokument an den Browser und präsentieren Sie eine Option zum Speichern des Dokuments auf der Festplatte oder zum Öffnen in der Anwendung , die der Erweiterung des Dokuments zugeordnet ist. |
-| Inline | `1` | Sendet das Dokument an den Browser und bietet eine Option zum Speichern des Dokuments auf der Festplatte oder zum Öffnen im Browser. |
+| Attachment | `0` | Senden Sie das Dokument an den Browser und präsentieren Sie eine Option zum Speichern des Dokuments auf der Festplatte oder zum Öffnen in der Anwendung , die mit der Erweiterung des Dokuments verknüpft ist. |
+| Inline | `1` | Senden Sie das Dokument an den Browser und bieten Sie eine Option zum Speichern des Dokuments auf der Festplatte oder zum Öffnen im Browser an. |
 
 ### Bemerkungen
 
-Beachten Sie, dass das tatsächliche Verhalten im Client-Browser von der Sicherheitskonfiguration des Browsers beeinflusst werden kann.
+Beachten Sie, dass das tatsächliche Verhalten im Client-Browser durch die Sicherheitskonfiguration des Browsers beeinflusst werden kann.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck durchführen und das Dokument dann im Client-Browser speichern.
+Zeigt, wie Sie einen Seriendruck durchführen und das Dokument anschließend im Client-Browser speichern.
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +44,11 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Senden Sie das Dokument an den Client-Browser.
+// Das Dokument an den Client-Browser senden.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
     Throws.TypeOf<ArgumentNullException>()); //Wird ausgelöst, weil HttpResponse im Test null ist.
 
-// Wir müssen diese Antwort manuell schließen, um sicherzustellen, dass wir dem Dokument nach dem Speichern keine überflüssigen Inhalte hinzufügen.
+// Wir müssen diese Antwort manuell schließen, um sicherzustellen, dass wir dem Dokument nach dem Speichern keinen überflüssigen Inhalt hinzufügen.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 

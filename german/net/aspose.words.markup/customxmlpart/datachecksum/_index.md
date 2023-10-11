@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart.DataChecksum
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPart eigendom. Gibt eine CRCPrüfsumme Cyclic Redundancy Check derData Inhalt.
+description: CustomXmlPart eigendom. Gibt eine CRCPrüfsumme Cyclic Redundancy Check des anData Inhalt.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Gibt eine CRC-Prüfsumme (Cyclic Redundancy Check) der[`Data`](../data/) Inhalt.
+Gibt eine CRC-Prüfsumme (Cyclic Redundancy Check) des an[`Data`](../data/) Inhalt.
 
 ```csharp
 public long DataChecksum { get; }

@@ -16,7 +16,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ### Bemerkungen
 
-Diese Option wirkt sich nur auf Feldcodes aus (sie ignoriert keine Knoten zwischen FieldSeparator undFieldEnd).
+Diese Option betrifft nur Feldcodes (Knoten zwischen werden nicht ignoriert)FieldSeparator UndFieldEnd).
 
 Um das gesamte Feld zu ignorieren, verwenden Sie bitte die entsprechende Option[`IgnoreFields`](../ignorefields/).
 
@@ -32,7 +32,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// 'T' im Dokument ersetzen, Text im Feldcode ignorieren oder nicht.
+// Ersetzen Sie „T“ im Dokument und ignorieren Sie dabei den Text im Feldcode oder nicht.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

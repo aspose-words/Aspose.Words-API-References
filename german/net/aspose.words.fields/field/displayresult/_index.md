@@ -16,11 +16,11 @@ public string DisplayResult { get; }
 
 ### Bemerkungen
 
-Die[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Methode muss aufgerufen werden, um den korrekten Wert für the zu erhalten[`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) und[`FieldAutoNumLgl`](../../fieldautonumlgl/) Felder.
+Die[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Die Methode muss aufgerufen werden, um den korrekten Wert für the zu erhalten.[`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) Und[`FieldAutoNumLgl`](../../fieldautonumlgl/) Felder.
 
 ### Beispiele
 
-Zeigt, wie Sie den echten Text abrufen, den ein Feld im Dokument anzeigt.
+Zeigt, wie man den tatsächlichen Text erhält, den ein Feld im Dokument anzeigt.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ FieldAuthor fieldAuthor = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor
 fieldAuthor.AuthorName = "John Doe";
 
 // Wir können die DisplayResult-Eigenschaft verwenden, um den genauen Text zu überprüfen
-// Ein Feld würde an seiner Stelle im Dokument angezeigt.
+// ein Feld würde an seiner Stelle im Dokument angezeigt.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
  // Felder behalten keine genauen Ergebniswerte in Echtzeit bei.
 // Um sicherzustellen, dass unsere Felder jederzeit genaue Ergebnisse anzeigen,
-// wie direkt vor einer Speicheroperation müssen wir sie manuell aktualisieren.
+// z. B. direkt vor einem Speichervorgang müssen wir sie manuell aktualisieren.
 fieldAuthor.Update();
 
 Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);

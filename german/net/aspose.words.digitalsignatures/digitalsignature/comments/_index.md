@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.Comments
 second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Ruft den Kommentar zum Signierungszweck ab.
+description: DigitalSignature eigendom. Ruft den Kommentar zum Signaturzweck ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property
 
-Ruft den Kommentar zum Signierungszweck ab.
+Ruft den Kommentar zum Signaturzweck ab.
 
 ```csharp
 public string Comments { get; }

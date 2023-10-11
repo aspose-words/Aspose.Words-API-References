@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.Height
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die Höhe des angegebenen Rahmens ab.
+description: FrameFormat eigendom. Ruft die Höhe des angegebenen Frames ab.
 type: docs
 weight: 10
 url: /de/net/aspose.words/frameformat/height/
 ---
 ## FrameFormat.Height property
 
-Ruft die Höhe des angegebenen Rahmens ab.
+Ruft die Höhe des angegebenen Frames ab.
 
 ```csharp
 public double Height { get; }
@@ -16,7 +16,7 @@ public double Height { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

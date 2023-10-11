@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt eine horizontale Linienform in das Dokument ein.
+description: DocumentBuilder methode. Fügt eine horizontale Regelform in das Dokument ein.
 type: docs
-weight: 320
+weight: 350
 url: /de/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-Fügt eine horizontale Linienform in das Dokument ein.
+Fügt eine horizontale Regelform in das Dokument ein.
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -16,11 +16,11 @@ public Shape InsertHorizontalRule()
 
 ### Rückgabewert
 
-Die Form, die eine horizontale Regel ist.
+Die Form, die eine horizontale Linie darstellt.
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

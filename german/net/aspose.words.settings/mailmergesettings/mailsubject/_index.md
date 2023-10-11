@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Text an der in der Betreffzeile der EMails oder Faxe erscheinen soll die beim Seriendruck entstehen. Der Standardwert ist ein leerer String.
+description: MailMergeSettings eigendom. Gibt den Text an der in der Betreffzeile der beim Seriendruck erstellten EMails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge.
 type: docs
 weight: 130
 url: /de/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Gibt den Text an, der in der Betreffzeile der E-Mails oder Faxe erscheinen soll, die beim Seriendruck entstehen. Der Standardwert ist ein leerer String.
+Gibt den Text an, der in der Betreffzeile der beim Seriendruck erstellten E-Mails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string MailSubject { get; set; }
@@ -16,7 +16,7 @@ public string MailSubject { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
+Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Wir können diese Einstellungen zurücksetzen, indem wir sie löschen. Sobald wir das getan und das Dokument gespeichert haben,
-// Microsoft Word führt keinen Seriendruck mehr aus, wenn wir es zum Laden des Dokuments verwenden.
+// Microsoft Word führt keinen Serienbrief mehr aus, wenn wir es zum Laden des Dokuments verwenden.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

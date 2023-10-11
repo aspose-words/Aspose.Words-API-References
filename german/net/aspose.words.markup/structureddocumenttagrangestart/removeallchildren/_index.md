@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart methode. Entfernt alle Knoten zwischen diesem Startknoten des Bereichs und dem Endknoten des Bereichs.
+description: StructuredDocumentTagRangeStart methode. Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten.
 type: docs
 weight: 230
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-Entfernt alle Knoten zwischen diesem Startknoten des Bereichs und dem Endknoten des Bereichs.
+Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten.
 
 ```csharp
 public void RemoveAllChildren()
@@ -19,6 +19,7 @@ public void RemoveAllChildren()
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag, behält aber Inhalt darin.
+    // Entfernt das strukturierte Dokument-Tag, behält aber den Inhalt bei.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag und Inhalt darin.
+    // Entfernt strukturierte Dokument-Tags und Inhalte darin.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

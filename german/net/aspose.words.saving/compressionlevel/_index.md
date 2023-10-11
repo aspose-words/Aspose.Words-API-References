@@ -3,7 +3,7 @@ title: Enum CompressionLevel
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.CompressionLevel opsomming. Komprimierungsstufe für OOXMLDateien.
 type: docs
-weight: 4610
+weight: 4870
 url: /de/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
@@ -12,7 +12,7 @@ Komprimierungsstufe für OOXML-Dateien.
 
 (DOCX- und DOTX-Dateien sind intern ein ZIP-Archiv, diese Eigenschaft steuert die Komprimierungsstufe des Archivs.
 
-Beachten Sie, dass die FlatOpc-Datei kein ZIP-Archiv ist, daher wirkt sich diese Eigenschaft nicht auf die FlatOpc-Dateien aus.)
+Beachten Sie, dass die FlatOpc-Datei kein ZIP-Archiv ist, daher hat diese Eigenschaft keinen Einfluss auf die FlatOpc-Dateien.)
 
 ```csharp
 public enum CompressionLevel
@@ -29,18 +29,18 @@ public enum CompressionLevel
 
 ### Beispiele
 
-Zeigt, wie die beim Speichern eines OOXML-Dokuments zu verwendende Komprimierungsstufe angegeben wird.
+Zeigt, wie Sie die Komprimierungsstufe angeben, die beim Speichern eines OOXML-Dokuments verwendet werden soll.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
 // Wenn wir das Dokument in einem OOXML-Format speichern, können wir ein OoxmlSaveOptions-Objekt erstellen
-// und dann an die Speichermethode des Dokuments übergeben, um zu ändern, wie wir das Dokument speichern.
-// Legen Sie die Eigenschaft "CompressionLevel" auf "CompressionLevel.Maximum" fest, um die stärkste und langsamste Komprimierung anzuwenden.
-// Legen Sie die Eigenschaft "CompressionLevel" auf "CompressionLevel.Normal" fest, um sie anzuwenden
+// und übergeben Sie es dann an die Speichermethode des Dokuments, um zu ändern, wie wir das Dokument speichern.
+// Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.Maximum“, um die stärkste und langsamste Komprimierung anzuwenden.
+// Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.Normal“, um sie anzuwenden
 // die Standardkomprimierung, die Aspose.Words beim Speichern von OOXML-Dokumenten verwendet.
-// Legen Sie die Eigenschaft "CompressionLevel" auf "CompressionLevel.Fast" fest, um eine schnellere und schwächere Komprimierung anzuwenden.
-// Setzen Sie die Eigenschaft "CompressionLevel" auf "CompressionLevel.SuperFast", um sie anzuwenden
+// Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.Fast“, um eine schnellere und schwächere Komprimierung anzuwenden.
+// Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.SuperFast“, um sie anzuwenden
 // die Standardkomprimierung, die Microsoft Word verwendet.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;

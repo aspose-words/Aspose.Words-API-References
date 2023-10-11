@@ -1,14 +1,14 @@
 ---
 title: Fill.PresetTexture
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. erhält aPresetTexture für die Füllung.
+description: Fill eigendom. Ruft a abPresetTexture für die Füllung.
 type: docs
-weight: 110
+weight: 170
 url: /de/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
 
-erhält a[`PresetTexture`](../../presettexture/) für die Füllung.
+Ruft a ab[`PresetTexture`](../../presettexture/) für die Füllung.
 
 ```csharp
 public PresetTexture PresetTexture { get; }

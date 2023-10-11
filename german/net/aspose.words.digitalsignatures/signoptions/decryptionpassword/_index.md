@@ -1,14 +1,14 @@
 ---
 title: SignOptions.DecryptionPassword
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist leerer String Empty .
+description: SignOptions eigendom. Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist leerer String Empty.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist **leerer String** (Empty ).
+Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist **leerer String** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -16,17 +16,17 @@ public string DecryptionPassword { get; set; }
 
 ### Bemerkungen
 
-Wenn das OOXML-Dokument verschlüsselt ist, sollten Sie das Entschlüsselungskennwort angeben, um das Quelldokument zu entschlüsseln, bevor es signiert wird. Dies ist für Dokumente im binären DOC-Format nicht erforderlich.
+Wenn das OOXML-Dokument verschlüsselt ist, sollten Sie ein Entschlüsselungskennwort angeben , um das Quelldokument zu entschlüsseln, bevor es signiert wird. Dies ist für Dokumente im binären DOC-Format nicht erforderlich.
 
 ### Beispiele
 
-Zeigt, wie verschlüsselte Dokumentdateien signiert werden.
+Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
 ```csharp
 // Erstellen Sie ein X.509-Zertifikat aus einem PKCS#12-Speicher, das einen privaten Schlüssel enthalten sollte.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungspasswort, das mit unserer neuen digitalen Signatur angewendet wird.
+// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungskennwort, das mit unserer neuen digitalen Signatur angewendet wird.
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",

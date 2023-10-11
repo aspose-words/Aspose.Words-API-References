@@ -3,7 +3,7 @@ title: Comment.RemoveReply
 second_title: Aspose.Words für .NET-API-Referenz
 description: Comment methode. Entfernt die angegebene Antwort auf diesen Kommentar.
 type: docs
-weight: 140
+weight: 170
 url: /de/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -20,7 +20,7 @@ public void RemoveReply(Comment reply)
 
 ### Bemerkungen
 
-Alle konstituierenden Knoten der Antwort werden aus dem Dokument gelöscht.
+Alle Teilknoten der Antwort werden aus dem Dokument gelöscht.
 
 ### Beispiele
 
@@ -39,13 +39,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// Im Folgenden finden Sie zwei Möglichkeiten zum Entfernen von Antworten aus einem Kommentar.
-// 1 - Verwenden Sie die Methode "RemoveReply", um Antworten aus einem Kommentar einzeln zu entfernen:
+// Nachfolgend finden Sie zwei Möglichkeiten, Antworten aus einem Kommentar zu entfernen.
+// 1 – Verwenden Sie die Methode „RemoveReply“, um Antworten einzeln aus einem Kommentar zu entfernen:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Verwenden Sie die Methode "RemoveAllReplies", um alle Antworten eines Kommentars auf einmal zu entfernen:
+// 2 – Verwenden Sie die Methode „RemoveAllReplies“, um alle Antworten aus einem Kommentar auf einmal zu entfernen:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

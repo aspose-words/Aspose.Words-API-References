@@ -1,14 +1,14 @@
 ---
 title: FieldDdeAuto.SourceFullName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDdeAuto eigendom. Ruft den Namen und Speicherort der Quelldatei ab oder legt ihn fest.
+description: FieldDdeAuto eigendom. Ruft den Namen und Speicherort der Quelldatei ab oder legt diesen fest.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldddeauto/sourcefullname/
 ---
 ## FieldDdeAuto.SourceFullName property
 
-Ruft den Namen und Speicherort der Quelldatei ab oder legt ihn fest.
+Ruft den Namen und Speicherort der Quelldatei ab oder legt diesen fest.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -16,14 +16,15 @@ public string SourceFullName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie verschiedene Feldtypen verwenden, um auf andere Dokumente im lokalen Dateisystem zu verlinken und deren Inhalt anzuzeigen.
+Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Unten sind drei Arten von Feldern, die wir verwenden können, um Inhalte aus einem verknüpften Dokument in Form von Text anzuzeigen.
+    // Nachfolgend finden Sie drei Arten von Feldern, mit denen wir Inhalte aus einem verknüpften Dokument in Textform anzeigen können.
     // 1 - Ein LINK-Feld:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -42,11 +43,12 @@ Zeigt, wie Sie verschiedene Feldtypen verwenden, um auf andere Dokumente im loka
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Unten sind drei Arten von Feldern, die wir verwenden können, um Inhalte aus einem verknüpften Dokument in Form eines Bildes anzuzeigen.
+    // Unten sind drei Arten von Feldern aufgeführt, die wir verwenden können, um Inhalte aus einem verknüpften Dokument in Form eines Bildes anzuzeigen.
     // 1 - Ein LINK-Feld:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -67,7 +69,7 @@ Zeigt, wie Sie verschiedene Feldtypen verwenden, um auf andere Dokumente im loka
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein LINK-Feld einzufügen und seine Eigenschaften gemäß Parametern festzulegen.
+/// Verwenden Sie einen Document Builder, um ein LINK-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -105,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein DDE-Feld einzufügen, und legen Sie seine Eigenschaften gemäß Parametern fest.
+/// Verwenden Sie einen Document Builder, um ein DDE-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein DDEAUTO-Feld einzufügen und seine Eigenschaften gemäß Parametern festzulegen.
+/// Verwenden Sie einen Dokument-Builder, um ein DDEAUTO-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

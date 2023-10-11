@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Beispiele
 
-Zeigt die Verwendung von XPaths zum Navigieren in einer NodeList.
+Zeigt, wie XPaths zum Navigieren in einer NodeList verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -48,19 +48,19 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Verwenden Sie einen doppelten Schrägstrich, um alle Run-Knoten auszuwählen
-// die indirekte Nachkommen eines Tabellenknotens sind, was die Läufe innerhalb der beiden von uns eingefügten Zellen wären.
+// das sind indirekte Nachkommen eines Tabellenknotens, also die Läufe innerhalb der beiden von uns eingefügten Zellen.
 nodeList = doc.SelectNodes("//Table//Laufen");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Einfache Schrägstriche geben direkte Nachkommenbeziehungen an,
-// die wir übersprungen haben, als wir doppelte Schrägstriche verwendet haben.
-Assert.AreEqual(doc.SelectNodes(" //Tabelle//Run"),
+// Einzelne Schrägstriche geben direkte Nachkommenbeziehungen an,
+// was wir übersprungen haben, als wir doppelte Schrägstriche verwendet haben.
+Assert.AreEqual(doc.SelectNodes(" //Tabelle//Ausführen"),
     doc.SelectNodes("//Tabelle/Zeile/Zelle/Absatz/Lauf"));
 
-// Auf die Form zugreifen, die das eingefügte Bild enthält.
+// Auf die Form zugreifen, die das von uns eingefügte Bild enthält.
 nodeList = doc.SelectNodes("//Form");
 
 Assert.AreEqual(1, nodeList.Count);

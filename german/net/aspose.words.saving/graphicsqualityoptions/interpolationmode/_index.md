@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft den mit dieser Grafik verknüpften Interpolationsmodus ab oder legt ihn fest.
+description: GraphicsQualityOptions eigendom. Ruft den dieser Grafik zugeordneten Interpolationsmodus ab oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Ruft den mit dieser Grafik verknüpften Interpolationsmodus ab oder legt ihn fest.
+Ruft den dieser Grafik zugeordneten Interpolationsmodus ab oder legt diesen fest.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -16,7 +16,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Optionen für die Renderqualität beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

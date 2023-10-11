@@ -16,7 +16,7 @@ public bool StrikeThrough { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Text durchgestrichen wird.
+Zeigt, wie man dem Text eine durchgestrichene Linie hinzufügt.
 
 ```csharp
 Document doc = new Document();

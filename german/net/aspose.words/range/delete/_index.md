@@ -3,7 +3,7 @@ title: Range.Delete
 second_title: Aspose.Words für .NET-API-Referenz
 description: Range methode. Löscht alle Zeichen des Bereichs.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words/range/delete/
 ---
 ## Range.Delete method
@@ -29,7 +29,7 @@ builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Entfernen Sie den ersten Abschnitt vollständig, indem Sie alle Knoten entfernen
+// Den ersten Abschnitt vollständig entfernen, indem alle Knoten entfernt werden
 // innerhalb seines Bereichs, einschließlich des Abschnitts selbst.
 doc.Sections[0].Range.Delete();
 

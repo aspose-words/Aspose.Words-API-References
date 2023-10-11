@@ -1,14 +1,16 @@
 ---
 title: Class XmlDataLoadOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.XmlDataLoadOptions klas. Repräsentiert Optionen für das Laden von XMLDaten.
+description: Aspose.Words.Reporting.XmlDataLoadOptions klas. Stellt Optionen für das Laden von XMLDaten dar.
 type: docs
-weight: 4480
+weight: 4740
 url: /de/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
-Repräsentiert Optionen für das Laden von XML-Daten.
+Stellt Optionen für das Laden von XML-Daten dar.
+
+Um mehr zu erfahren, besuchen Sie die[LINQ-Reporting-Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -24,7 +26,7 @@ public class XmlDataLoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob eine generierte Datenquelle immer ein Objekt für ein XML-Root- -Element enthält. Wenn ein XML-Stammelement keine Attribute hat und alle untergeordneten Elemente dieselben Namen haben, wird ein solches Objekt standardmäßig nicht erstellt. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob eine generierte Datenquelle immer ein Objekt für ein XML-Stammelement enthält. Wenn ein XML-Stammelement keine Attribute hat und alle seine untergeordneten Elemente denselben Namen haben, wird ein solches Objekt standardmäßig nicht erstellt. |
 
 ### Bemerkungen
 

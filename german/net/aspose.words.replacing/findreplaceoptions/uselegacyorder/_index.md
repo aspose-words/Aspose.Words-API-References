@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
 second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. True gibt an dass eine Textsuche sequentiell von oben nach unten unter Berücksichtigung der Textfelder durchgeführt wird. Der Standardwert ist false.
+description: FindReplaceOptions eigendom. True gibt an dass eine Textsuche der Reihe nach von oben nach unten unter Berücksichtigung der Textfelder durchgeführt wird. Der Standardwert istFALSCH .
 type: docs
-weight: 150
+weight: 170
 url: /de/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True gibt an, dass eine Textsuche sequentiell von oben nach unten unter Berücksichtigung der Textfelder durchgeführt wird. Der Standardwert ist false.
+True gibt an, dass eine Textsuche der Reihe nach von oben nach unten unter Berücksichtigung der Textfelder durchgeführt wird. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -19,33 +19,31 @@ public bool UseLegacyOrder { get; set; }
 Zeigt, wie die Suchreihenfolge von Knoten geändert wird, wenn eine Textoperation zum Suchen und Ersetzen ausgeführt wird.
 
 ```csharp
-[TestCase(true)] // ExSkip
-[TestCase(false)] // ExSkip
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Füge drei Läufe ein, nach denen wir mit einem Regex-Muster suchen können.
-    // Platzieren Sie einen dieser Läufe in einem Textfeld.
+    // Drei Läufe einfügen, nach denen wir mithilfe eines Regex-Musters suchen können.
+    // Platziere einen dieser Läufe in einem Textfeld.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
     builder.MoveTo(textBox.FirstParagraph);
     builder.Write("[tag 3]");
 
-    // Wir können ein "FindReplaceOptions"-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Weisen Sie der Eigenschaft "ReplacingCallback" einen benutzerdefinierten Rückruf zu.
+    // Weisen Sie der Eigenschaft „ReplacingCallback“ einen benutzerdefinierten Rückruf zu.
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Wenn wir die Eigenschaft "UseLegacyOrder" auf "true" setzen, wird die
-    // Suchen-und-Ersetzen-Vorgang durchläuft alle Läufe außerhalb eines Textfelds
+    // Wenn wir die Eigenschaft „UseLegacyOrder“ auf „true“ setzen, wird die
+    // Der Such- und Ersetzungsvorgang durchläuft alle Läufe außerhalb eines Textfelds
     // bevor Sie die in einem Textfeld durchgehen.
-    // Wenn wir die Eigenschaft "UseLegacyOrder" auf "false" setzen, wird die
-    // Suchen-und-Ersetzen-Operation durchläuft alle Läufe in einem Bereich in sequentieller Reihenfolge.
+    // Wenn wir die Eigenschaft „UseLegacyOrder“ auf „false“ setzen, wird die
+    // Der Such- und Ersetzungsvorgang durchläuft alle Läufe in einem Bereich in sequentieller Reihenfolge.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +54,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// Zeichnet die Reihenfolge aller Übereinstimmungen auf, die während einer Suchen-und-Ersetzen-Operation auftreten.
+/// Zeichnet die Reihenfolge aller Übereinstimmungen auf, die während eines Such- und Ersetzungsvorgangs auftreten.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

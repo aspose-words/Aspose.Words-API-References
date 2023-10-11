@@ -16,24 +16,24 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
-| headerFooterType | HeaderFooterType | EIN[`HeaderFooterType`](../headerfootertype/)value , der den Typ der Kopf- oder Fußzeile angibt. |
+| doc | DocumentBase | Das Eigentümerdokument. |
+| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) value , der den Typ der Kopf- oder Fußzeile angibt. |
 
 ### Bemerkungen
 
-Wann **Kopfzeile Fußzeile** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`HeaderFooter`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen **Kopfzeile Fußzeile** zu einem **Abschnitt** Verwenden Sie Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add oder HeadersFooters.Insert.
+Anhängen[`HeaderFooter`](../)zu einem[`Section`](../../section/) verwendenNode) ,Node) , oder[`HeadersFooters`](../../section/headersfooters/) Eigentum und Methoden[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Beispiele
 
-Zeigt, wie Sie eine Kopf- und eine Fußzeile erstellen.
+Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie eine Kopfzeile und hängen Sie einen Absatz daran an. Der Text in diesem Absatz
-// erscheint oben auf jeder Seite dieses Abschnitts über dem Haupttext.
+// Eine Überschrift erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// wird oben auf jeder Seite dieses Abschnitts über dem Haupttext angezeigt.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -42,7 +42,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Erstellen Sie eine Fußzeile und hängen Sie einen Absatz daran an. Der Text in diesem Absatz
+// Eine Fußzeile erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
 // wird unten auf jeder Seite dieses Abschnitts unter dem Haupttext angezeigt.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

@@ -3,12 +3,14 @@ title: Class FieldCollection
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.FieldCollection klas. Eine Sammlung vonField Objekte die die Felder im angegebenen Bereich darstellen.
 type: docs
-weight: 1540
+weight: 1690
 url: /de/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Eine Sammlung von[`Field`](../field/) Objekte, die die Felder im angegebenen Bereich darstellen.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -26,17 +28,17 @@ public class FieldCollection : IEnumerable<Field>
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Entfernt alle Felder dieser Sammlung aus dem Dokument und aus dieser Sammlung selbst. |
-| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück. |
+| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Entfernt das angegebene Feld aus dieser Sammlung und aus dem Dokument. |
 | [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Entfernt ein Feld am angegebenen Index aus dieser Sammlung und aus dem Dokument. |
 
 ### Bemerkungen
 
-Eine Instanz dieser Sammlung iteriert Felder, die beginnen, in den angegebenen Bereich zu fallen.
+Eine Instanz dieser Sammlung iteriert Felder, die zu Beginn in den angegebenen Bereich fallen.
 
-Das`FieldCollection` Die Sammlung besitzt nicht die Felder, die sie enthält, sondern ist nur eine Auswahl von Feldern.
+Der`FieldCollection` Die Sammlung besitzt nicht die darin enthaltenen Felder, sondern ist lediglich eine Auswahl von Feldern.
 
-Das`FieldCollection` -Sammlung ist "live", dh Änderungen an den Kindern des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt`FieldCollection` Eigenschaften und Methoden.
+Der`FieldCollection` Die Sammlung ist „live“, d. h. Änderungen an den untergeordneten Elementen des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt`FieldCollection` Eigenschaften und Methoden.
 
 ### Beispiele
 
@@ -59,20 +61,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Im Folgenden finden Sie vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung.
-// 1 - Holen Sie sich ein Feld, um sich selbst zu entfernen:
+// 1 – Ein Feld abrufen, um sich selbst zu entfernen:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
+// 2 – Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Entfernen Sie ein Feld aus einer Sammlung an einem Index:
+// 3 – Ein Feld aus einer Sammlung an einem Index entfernen:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Alle Felder auf einmal aus der Sammlung entfernen:
+// 4 – Alle Felder auf einmal aus der Sammlung entfernen:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -80,6 +82,7 @@ Assert.AreEqual(0, fields.Count);
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -97,7 +100,7 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     Assert.AreEqual(6, fields.Count);
 
     // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mit einer benutzerdefinierten Besucherimplementierung.
+    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -118,9 +121,10 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Besucherimplementierung dokumentieren, die Feldinformationen druckt.
+/// Dokumentieren Sie die Besucherimplementierung, die Feldinformationen druckt.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -130,7 +134,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

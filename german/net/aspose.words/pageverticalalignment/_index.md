@@ -3,7 +3,7 @@ title: Enum PageVerticalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.PageVerticalAlignment opsomming. Gibt die vertikale Ausrichtung des Textes auf jeder Seite an.
 type: docs
-weight: 4130
+weight: 4370
 url: /de/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
@@ -18,14 +18,14 @@ public enum PageVerticalAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Bottom | `3` | Text wird unten auf der Seite ausgerichtet. |
+| Bottom | `3` | Text wird am unteren Rand der Seite ausgerichtet. |
 | Center | `1` | Text wird in der Mitte der Seite ausgerichtet. |
-| Justify | `2` | Text wird verteilt, um die Seite zu füllen. |
-| Top | `0` | Text wird oben auf der Seite ausgerichtet. |
+| Justify | `2` | Der Text wird ausgebreitet, um die Seite auszufüllen. |
+| Top | `0` | Der Text wird oben auf der Seite ausgerichtet. |
 
 ### Beispiele
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und zurückgesetzt werden.
+Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir mit einem Document Builder einen neuen Abschnitt beginnen,
-// er erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
+// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Wir können die Seiteneinrichtungseigenschaften mit der Methode "ClearFormatting" auf ihre Standardwerte zurücksetzen.
+// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

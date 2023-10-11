@@ -3,7 +3,7 @@ title: Document.RemoveMacros
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document methode. Entfernt alle Makros das VBAProjekt sowie Symbolleisten und Befehlsanpassungen aus dem Dokument.
 type: docs
-weight: 650
+weight: 690
 url: /de/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -16,7 +16,7 @@ public void RemoveMacros()
 
 ### Bemerkungen
 
-Indem Sie alle Makros aus einem Dokument entfernen, können Sie sicherstellen, dass das Dokument keine Makroviren enthält.
+Durch das Entfernen aller Makros aus einem Dokument können Sie sicherstellen, dass das Dokument keine Makroviren enthält.
 
 ### Beispiele
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "Macro.docm");
 Assert.IsTrue(doc.HasMacros);
 Assert.AreEqual("Project", doc.VbaProject.Name);
 
-// Das VBA-Projekt des Dokuments zusammen mit all seinen Makros entfernen.
+// Entfernen Sie das VBA-Projekt des Dokuments zusammen mit allen seinen Makros.
 doc.RemoveMacros();
 
 Assert.IsFalse(doc.HasMacros);

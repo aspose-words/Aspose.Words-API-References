@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Komprimierbare Zeichen nicht komprimieren wenn Dokumentraster verwendet wird.
+description: CompatibilityOptions eigendom. Komprimierbare Zeichen nicht komprimieren wenn Sie das Dokumentraster verwenden.
 type: docs
 weight: 200
 url: /de/net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions.DoNotUseEastAsianBreakRules property
 
-Komprimierbare Zeichen nicht komprimieren, wenn Dokumentraster verwendet wird.
+Komprimierbare Zeichen nicht komprimieren, wenn Sie das Dokumentraster verwenden.
 
 ```csharp
 public bool DoNotUseEastAsianBreakRules { get; set; }

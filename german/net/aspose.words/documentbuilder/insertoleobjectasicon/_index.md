@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein eingebettetes oder verknüpftes OLEObjekt als Symbol in das Dokument ein. Ermöglicht die Angabe von Symboldatei und Beschriftung. Erkennt den OLEObjekttyp anhand der Dateierweiterung.
+description: DocumentBuilder methode. Fügt ein eingebettetes oder verknüpftes OLEObjekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLEObjekttyp anhand der Dateierweiterung.
 type: docs
-weight: 380
+weight: 410
 url: /de/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
 
-Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe von Symboldatei und Beschriftung. Erkennt den OLE-Objekttyp anhand der Dateierweiterung.
+Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp anhand der Dateierweiterung.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFile, 
@@ -18,13 +18,13 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Vollständiger Pfad zur Datei. |
-| isLinked | Boolean | Wenn wahr, wird ein verknüpftes OLE-Objekt eingefügt, andernfalls wird ein eingebettetes OLE-Objekt eingefügt. |
-| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert null ist, verwendet Aspose.Words ein vordefiniertes Bild. |
-| iconCaption | String | Symbolbeschriftung. Wenn der Wert null ist, verwendet Aspose.Words den Dateinamen. |
+| isLinked | Boolean | Wenn`WAHR` dann wird ein verknüpftes OLE-Objekt eingefügt, andernfalls wird ein eingebettetes OLE-Objekt eingefügt. |
+| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert ist`Null` , Aspose.Words verwendet ein vordefiniertes Bild. |
+| iconCaption | String | Symbolbeschriftung. Wenn der Wert ist`Null` , Aspose.Words verwendet den Dateinamen. |
 
 ### Rückgabewert
 
-Shape-Knoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
+Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
 ### Beispiele
 
@@ -35,24 +35,24 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE-Objekte sind Links zu Dateien in unserem lokalen Dateisystem, die von anderen installierten Anwendungen geöffnet werden können.
-// Ein Doppelklick auf diese Formen startet die Anwendung und verwendet sie dann, um das verknüpfte Objekt zu öffnen.
-// Es gibt drei Möglichkeiten, die InsertOleObject-Methode zu verwenden, um diese Formen einzufügen und ihr Aussehen zu konfigurieren.
-// 1 - Image aus dem lokalen Dateisystem:
+// Durch Doppelklicken auf diese Formen wird die Anwendung gestartet und dann zum Öffnen des verknüpften Objekts verwendet.
+// Es gibt drei Möglichkeiten, die InsertOleObject-Methode zum Einfügen dieser Formen und zum Konfigurieren ihres Erscheinungsbilds zu verwenden.
+// 1 – Bild aus dem lokalen Dateisystem:
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
-    // Wenn 'presentation' weggelassen wird und 'asIcon' gesetzt ist, wählt diese überladene Methode aus
-    // das Icon entsprechend der Dateiendung und verwendet den Dateinamen für die Icon-Beschriftung.
+    // Wenn 'presentation' weggelassen und 'asIcon' gesetzt ist, wählt diese überladene Methode aus
+    // das Symbol entsprechend der Dateierweiterung und verwendet den Dateinamen für die Symbolbeschriftung.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
-// Wenn 'presentation' weggelassen wird und 'asIcon' gesetzt ist, wählt diese überladene Methode aus
-// das Icon gemäß 'progId' und verwendet den Dateinamen für die Icon-Beschriftung.
-// 2 - Symbol basierend auf der Anwendung, die das Objekt öffnet:
+// Wenn 'presentation' weggelassen und 'asIcon' gesetzt ist, wählt diese überladene Methode aus
+// das Symbol gemäß „progId“ und verwendet den Dateinamen für die Symbolbeschriftung.
+// 2 – Symbol basierend auf der Anwendung, die das Objekt öffnet:
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
 // Wenn 'iconFile' und 'iconCaption' weggelassen werden, wählt diese überladene Methode aus
 // das Icon gemäß 'progId' und verwendet die vordefinierte Icon-Beschriftung.
-// 3 - Bildsymbol, das 32 x 32 Pixel oder kleiner aus dem lokalen Dateisystem ist, mit einer benutzerdefinierten Beschriftung:
+// 3 – Bildsymbol, das 32 x 32 Pixel oder kleiner ist, aus dem lokalen Dateisystem, mit einer benutzerdefinierten Beschriftung:
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
 
@@ -70,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
 
-Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe von Symboldatei und Beschriftung. Erkennt den OLE-Objekttyp anhand des angegebenen progID-Parameters.
+Fügt ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp mithilfe des angegebenen progID-Parameters.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked, string iconFile, 
@@ -81,24 +81,24 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | --- | --- | --- |
 | fileName | String | Vollständiger Pfad zur Datei. |
 | progId | String | ProgId des OLE-Objekts. |
-| isLinked | Boolean | Wenn wahr, wird ein verknüpftes OLE-Objekt eingefügt, andernfalls wird ein eingebettetes OLE-Objekt eingefügt. |
-| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert null ist, verwendet Aspose.Words ein vordefiniertes Bild. |
-| iconCaption | String | Symbolbeschriftung. Wenn der Wert null ist, verwendet Aspose.Words den Dateinamen. |
+| isLinked | Boolean | Wenn`WAHR` dann wird ein verknüpftes OLE-Objekt eingefügt, andernfalls wird ein eingebettetes OLE-Objekt eingefügt. |
+| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert ist`Null` , Aspose.Words verwendet ein vordefiniertes Bild. |
+| iconCaption | String | Symbolbeschriftung. Wenn der Wert ist`Null` , Aspose.Words verwendet den Dateinamen. |
 
 ### Rückgabewert
 
-Shape-Knoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
+Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
 ### Beispiele
 
-Zeigt, wie Sie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument einfügen.
+Zeigt, wie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn 'iconFile' und 'iconCaption' weggelassen werden, wählt diese überladene Methode aus
-// das Icon gemäß 'progId' und verwendet den Dateinamen für die Icon-Beschriftung.
+// das Symbol gemäß „progId“ und verwendet den Dateinamen für die Symbolbeschriftung.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
@@ -106,7 +106,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Wenn 'iconFile' und 'iconCaption' weggelassen werden, wählt diese überladene Methode aus
-    // das Icon entsprechend der Dateiendung und verwendet den Dateinamen für die Icon-Beschriftung.
+    // das Symbol entsprechend der Dateierweiterung und verwendet den Dateinamen für die Symbolbeschriftung.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 
@@ -129,7 +129,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
 
-Fügt ein eingebettetes OLE-Objekt als Symbol aus einem Stream in das Dokument ein. Ermöglicht die Angabe von Symboldatei und Beschriftung. Erkennt den OLE-Objekttyp anhand des angegebenen progID-Parameters.
+Fügt ein eingebettetes OLE-Objekt als Symbol aus einem Stream in das Dokument ein. Ermöglicht die Angabe einer Symboldatei und einer Beschriftung. Erkennt den OLE-Objekttyp mithilfe des angegebenen progID-Parameters.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
@@ -140,23 +140,23 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | --- | --- | --- |
 | stream | Stream | Stream mit Anwendungsdaten. |
 | progId | String | ProgId des OLE-Objekts. |
-| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert null ist, verwendet Aspose.Words ein vordefiniertes Bild. |
-| iconCaption | String | Symbolbeschriftung. Wenn der Wert null ist, verwendet Aspose.Words das vordefinierte Symbol caption. |
+| iconFile | String | Vollständiger Pfad zur ICO-Datei. Wenn der Wert ist`Null` , Aspose.Words verwendet ein vordefiniertes Bild. |
+| iconCaption | String | Symbolbeschriftung. Wenn der Wert ist`Null` , Aspose.Words verwendet eine vordefinierte Symbolbeschriftung. |
 
 ### Rückgabewert
 
-Shape-Knoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
+Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
 ### Beispiele
 
-Zeigt, wie Sie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument einfügen.
+Zeigt, wie ein eingebettetes oder verknüpftes OLE-Objekt als Symbol in das Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn 'iconFile' und 'iconCaption' weggelassen werden, wählt diese überladene Methode aus
-// das Icon gemäß 'progId' und verwendet den Dateinamen für die Icon-Beschriftung.
+// das Symbol gemäß „progId“ und verwendet den Dateinamen für die Symbolbeschriftung.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
@@ -164,7 +164,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Wenn 'iconFile' und 'iconCaption' weggelassen werden, wählt diese überladene Methode aus
-    // das Icon entsprechend der Dateiendung und verwendet den Dateinamen für die Icon-Beschriftung.
+    // das Symbol entsprechend der Dateierweiterung und verwendet den Dateinamen für die Symbolbeschriftung.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 

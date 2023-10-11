@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit benutzerdefinierten Dokumenteigenschaften arbeiten.
+Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Jedes Dokument enthält eine Sammlung benutzerdefinierter Eigenschaften, die wie die integrierten Eigenschaften Schlüssel-Wert-Paare sind.
-// Das Dokument hat eine feste Liste eingebauter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften. 
+ // Das Dokument verfügt über eine feste Liste integrierter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

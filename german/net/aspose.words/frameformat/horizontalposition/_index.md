@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft den horizontalen Abstand zwischen dem Rand des Rahmens und dem durch den angegebenen Gegenstand abRelativeHorizontalPosition Eigentum.
+description: FrameFormat eigendom. Ruft den horizontalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element abRelativeHorizontalPosition Eigenschaft.
 type: docs
 weight: 50
 url: /de/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Ruft den horizontalen Abstand zwischen dem Rand des Rahmens und dem durch den angegebenen Gegenstand ab[`RelativeHorizontalPosition`](../relativehorizontalposition/) Eigentum.
+Ruft den horizontalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element ab[`RelativeHorizontalPosition`](../relativehorizontalposition/) Eigenschaft.
 
 ```csharp
 public double HorizontalPosition { get; }
@@ -16,7 +16,7 @@ public double HorizontalPosition { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

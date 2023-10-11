@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportFontResources
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Schriftressourcen in HTML MHTML oder EPUB exportiert werden sollen. Standard istFALSCH .
+description: HtmlSaveOptions eigendom. Gibt an ob Schriftartressourcen nach HTML MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung istFALSCH .
 type: docs
-weight: 150
+weight: 140
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
 ---
 ## HtmlSaveOptions.ExportFontResources property
 
-Gibt an, ob Schriftressourcen in HTML, MHTML oder EPUB exportiert werden sollen. Standard ist`FALSCH` .
+Gibt an, ob Schriftartressourcen nach HTML, MHTML oder EPUB exportiert werden sollen. Die Standardeinstellung ist`FALSCH` .
 
 ```csharp
 public bool ExportFontResources { get; set; }
@@ -16,31 +16,32 @@ public bool ExportFontResources { get; set; }
 
 ### Bemerkungen
 
-Das Exportieren von Font-Ressourcen ermöglicht eine konsistente Dokumentwiedergabe unabhängig von den verfügbaren Fonts in der Umgebung eines bestimmten Benutzers.
+Das Exportieren von Schriftartressourcen ermöglicht eine konsistente Dokumentwiedergabe unabhängig von den verfügbaren Schriftarten in der Umgebung eines bestimmten Benutzers.
 
-Wenn`ExportFontResources` ist eingestellt auf`Stimmt` , Haupt-HTML-Dokument verweist auf jede Schriftart über das CSS 3 **@Schriftart**at-Regel und Schriftarten werden als separate Dateien ausgegeben. Beim Exportieren in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen untergeordneten Dateien in das entsprechende Paket eingebettet.
+Wenn`ExportFontResources` ist eingestellt auf`WAHR` Das Haupt-HTML-Dokument verweist über CSS 3 auf jede Schriftart **@Schriftart** at-rule und Schriftarten werden als separate Dateien ausgegeben. Beim Exportieren in die Formate IDPF EPUB oder MHTML werden Schriftarten zusammen mit anderen Tochterdateien in das entsprechende Paket eingebettet.
 
-Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`Stimmt` , Schriftarten werden nicht in separaten Dateien gespeichert. Stattdessen werden sie in eingebettet **@Schriftart** at-Regeln in Base64-Codierung.
+Wenn[`ExportFontsAsBase64`](../exportfontsasbase64/) ist eingestellt auf`WAHR` Schriftarten werden nicht in separaten Dateien gespeichert. Stattdessen werden sie eingebettet **@Schriftart** at-Regeln in Base64-Kodierung.
 
-**Wichtig!** Beim Exportieren von Zeichensatzressourcen sollten Probleme mit der Zeichensatzlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartmechanismus verwenden möchten, müssen immer sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Umfang der Schriftartlizenz liegt. Viele kommerzielle Schriftarten erlauben derzeit nicht das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form. Lizenzvereinbarungen, die einige Schriftarten abdecken, weisen ausdrücklich darauf hin, dass die Verwendung über **@Schriftart** rules in CSS-Stylesheets ist nicht erlaubt. Schriftuntergruppen können auch gegen Lizenzbedingungen verstoßen.
+**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt **@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
 
 ### Beispiele
 
-Zeigt, wie benutzerdefinierte Logik zum Exportieren von Schriftarten beim Speichern in HTML definiert wird.
+Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Festlegen eines Rückrufs, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // Der Callback exportiert .ttf-Dateien und speichert sie zusammen mit dem Ausgabedokument.
+    // Der Rückruf exportiert .ttf-Dateien und speichert sie zusammen mit dem Ausgabedokument.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -48,8 +49,10 @@ Zeigt, wie benutzerdefinierte Logik zum Exportieren von Schriftarten beim Speich
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Druckt Informationen über exportierte Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -66,11 +69,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Es gibt zwei Möglichkeiten, einen exportierten Font zu speichern.
-        // 1 - Speichern Sie es an einem lokalen Speicherort im Dateisystem:
+        // Es gibt zwei Möglichkeiten, eine exportierte Schriftart zu speichern.
+        // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Speichern Sie es in einem Stream:
+        // 2 – In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSnapToGridInCell
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Nicht am Dokumentraster in Tabellenzellen mit Objekten ausrichten.
+description: CompatibilityOptions eigendom. In Tabellenzellen mit Objekten nicht am Dokumentraster ausrichten.
 type: docs
 weight: 170
 url: /de/net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property
 
-Nicht am Dokumentraster in Tabellenzellen mit Objekten ausrichten.
+In Tabellenzellen mit Objekten nicht am Dokumentraster ausrichten.
 
 ```csharp
 public bool DoNotSnapToGridInCell { get; set; }

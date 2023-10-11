@@ -1,14 +1,14 @@
 ---
 title: Font.Scaling
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ermittelt oder setzt die Skalierung der Zeichenbreite in Prozent.
+description: Font eigendom. Ruft die Skalierung der Zeichenbreite in Prozent ab oder legt diese fest.
 type: docs
 weight: 310
 url: /de/net/aspose.words/font/scaling/
 ---
 ## Font.Scaling property
 
-Ermittelt oder setzt die Skalierung der Zeichenbreite in Prozent.
+Ruft die Skalierung der Zeichenbreite in Prozent ab oder legt diese fest.
 
 ```csharp
 public int Scaling { get; set; }
@@ -16,21 +16,21 @@ public int Scaling { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie die horizontale Skalierung und den Abstand für Zeichen festlegen.
+Zeigt, wie die horizontale Skalierung und der Abstand für Zeichen festgelegt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Textverlauf hinzufügen und Zeichenbreite auf 150 % erhöhen.
+// Text hinzufügen und Zeichenbreite auf 150 % erhöhen.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Textverlauf hinzufügen und 1pt zusätzlichen horizontalen Abstand zwischen jedem Zeichen hinzufügen.
+// Textlauf hinzufügen und 1 Punkt zusätzlichen horizontalen Abstand zwischen jedem Zeichen hinzufügen.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Textverlauf hinzufügen und Zeichen um 1pt näher zusammenbringen.
+// Text hinzufügen und Zeichen um 1 Punkt näher zusammenbringen.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

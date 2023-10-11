@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Tag
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Gibt ein Tag an das dem aktuellen SDTKnoten zugeordnet ist. Darf nicht null sein.
+description: IStructuredDocumentTag eigendom. Gibt ein Tag an das dem aktuellen SDTKnoten zugeordnet ist. Kann nicht null sein.
 type: docs
 weight: 100
 url: /de/net/aspose.words.markup/istructureddocumenttag/tag/
 ---
 ## IStructuredDocumentTag.Tag property
 
-Gibt ein Tag an, das dem aktuellen SDT-Knoten zugeordnet ist. Darf nicht null sein.
+Gibt ein Tag an, das dem aktuellen SDT-Knoten zugeordnet ist. Kann nicht null sein.
 
 ```csharp
 public string Tag { get; set; }

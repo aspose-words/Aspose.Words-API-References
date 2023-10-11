@@ -3,7 +3,7 @@ title: Enum Compatibility
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Settings.Compatibility opsomming. Gibt Namen von Kompatibilitätsoptionen an.
 type: docs
-weight: 5480
+weight: 5770
 url: /de/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -103,11 +103,11 @@ public void OptimizeFor()
     // die es uns ermöglichen, die Abwärtskompatibilität mit älteren Versionen von Microsoft Word zu erleichtern.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Drucken Sie die Standardeinstellungen für ein leeres Dokument.
+    // Standardeinstellungen für ein leeres Dokument drucken.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Auf diese Einstellungen können wir in Microsoft Word über "Datei" -> "Optionen" -> "Erweitert" -> "Kompatibilitätsoptionen für...".
+    // Auf diese Einstellungen können wir in Microsoft Word über „Datei“ -> zugreifen. „Optionen“ -> „Erweitert“ –> „Kompatibilitätsoptionen für…“.
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // Wir können die OptimizeFor-Methode verwenden, um eine optimale Kompatibilität mit einer bestimmten Microsoft Word-Version sicherzustellen.

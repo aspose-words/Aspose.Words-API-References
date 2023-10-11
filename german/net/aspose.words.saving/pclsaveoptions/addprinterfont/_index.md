@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.AddPrinterFont
 second_title: Aspose.Words für .NET-API-Referenz
-description: PclSaveOptions methode. Fügt Informationen über Schriftarten hinzu die vom Hersteller auf den Drucker hochgeladen werden.
+description: PclSaveOptions methode. Fügt Informationen über die Schriftart hinzu die vom Hersteller auf den Drucker hochgeladen wird.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
 ## PclSaveOptions.AddPrinterFont method
 
-Fügt Informationen über Schriftarten hinzu, die vom Hersteller auf den Drucker hochgeladen werden.
+Fügt Informationen über die Schriftart hinzu, die vom Hersteller auf den Drucker hochgeladen wird.
 
 ```csharp
 public void AddPrinterFont(string fontFullName, string fontPclName)
@@ -17,15 +17,15 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fontFullName | String | Vollständiger Name der Schriftart (z. B. „Times New Roman Bold Italic“). |
-| fontPclName | String | Name der Schriftart, die im Pcl-Dokument verwendet wird. |
+| fontPclName | String | Name der Schriftart, die im PCL-Dokument verwendet wird. |
 
 ### Bemerkungen
 
-Es gibt 52 Schriftarten, die gemäß der Pcl-Spezifikation in jeden Drucker eingebaut werden müssen. Hersteller können jedoch einige andere Schriftarten zu ihren Geräten hinzufügen.
+Es gibt 52 Schriftarten, die in jedem Drucker gemäß der PCL-Spezifikation erstellt werden müssen. Allerdings können Hersteller ihren Geräten einige andere Schriftarten hinzufügen.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Drucker dazu bringen, alle Instanzen einer bestimmten Schriftart durch eine andere Schriftart zu ersetzen.
+Zeigt, wie man einen Drucker dazu bringt, alle Instanzen einer bestimmten Schriftart durch eine andere Schriftart zu ersetzen.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// Beim Drucken dieses Dokuments verwendet der Drucker die Schriftart "Courier New".
-// um auf Stellen zuzugreifen, an denen unser Dokument die Schriftart "Courier" verwendet hat.
+// Beim Drucken dieses Dokuments verwendet der Drucker die Schriftart „Courier New“.
+// um auf Stellen zuzugreifen, an denen in unserem Dokument die Schriftart „Courier“ verwendet wurde.
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

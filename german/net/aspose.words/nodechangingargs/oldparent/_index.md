@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.OldParent
 second_title: Aspose.Words für .NET-API-Referenz
-description: NodeChangingArgs eigendom. Ruft den übergeordneten Knoten des Knotens ab bevor die Operation begonnen hat.
+description: NodeChangingArgs eigendom. Ruft den übergeordneten Knoten des Knotens ab bevor die Operation begann.
 type: docs
 weight: 40
 url: /de/net/aspose.words/nodechangingargs/oldparent/
 ---
 ## NodeChangingArgs.OldParent property
 
-Ruft den übergeordneten Knoten des Knotens ab, bevor die Operation begonnen hat.
+Ruft den übergeordneten Knoten des Knotens ab, bevor die Operation begann.
 
 ```csharp
 public Node OldParent { get; }
@@ -16,9 +16,10 @@ public Node OldParent { get; }
 
 ### Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokumentstruktur in Echtzeit zu überwachen, während wir sie bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokume
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

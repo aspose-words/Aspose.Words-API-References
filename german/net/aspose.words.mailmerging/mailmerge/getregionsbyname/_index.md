@@ -1,14 +1,14 @@
 ---
 title: MailMerge.GetRegionsByName
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Gibt eine Sammlung von Seriendruckregionen mit dem angegebenen Namen zurück.
+description: MailMerge methode. Gibt eine Sammlung von Serienbriefregionen mit dem angegebenen Namen zurück.
 type: docs
 weight: 240
 url: /de/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
 ## MailMerge.GetRegionsByName method
 
-Gibt eine Sammlung von Seriendruckregionen mit dem angegebenen Namen zurück.
+Gibt eine Sammlung von Serienbriefregionen mit dem angegebenen Namen zurück.
 
 ```csharp
 public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
@@ -16,7 +16,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regionName | String | Regionsname (Groß-/Kleinschreibung beachten). |
+| regionName | String | Regionsname (ohne Berücksichtigung der Groß- und Kleinschreibung). |
 
 ### Rückgabewert
 
@@ -30,13 +30,13 @@ Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "TableStart"- und "TableEnd"-Tags, die in MERGEFIELDs gehen,
-// die Zeichenfolgen bezeichnen, die den Beginn und das Ende von Seriendruckbereichen kennzeichnen.
+// „TableStart“- und „TableEnd“-Tags, die in MERGEFIELDs eingefügt werden,
+// bezeichnen die Zeichenfolgen, die den Anfang und das Ende von Seriendruckbereichen kennzeichnen.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Verwenden Sie diese Tags, um eine Serienbriefregion mit dem Namen "MailMergeRegion1" zu starten und zu beenden,
-// die MERGEFIELDs für zwei Spalten enthalten wird.
+// Verwenden Sie diese Tags, um einen Serienbriefbereich mit dem Namen „MailMergeRegion1“ zu starten und zu beenden.
+// das MERGEFIELDs für zwei Spalten enthält.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -54,15 +54,15 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// Füge eine Region mit demselben Namen in die bestehende Region ein, wodurch sie zu einer übergeordneten Region wird.
-// Jetzt befindet sich ein "Column2"-Feld in einer neuen Region.
+// Fügen Sie eine Region mit demselben Namen in die vorhandene Region ein, wodurch sie zu einer übergeordneten Region wird.
+// Jetzt befindet sich ein „Column2“-Feld in einer neuen Region.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Wenn wir den Namen doppelter Regionen mit der Methode "GetRegionsByName" nachschlagen,
-// Es werden alle diese Regionen in einer Sammlung zurückgegeben.
+// Wenn wir mit der Methode „GetRegionsByName“ nach den Namen doppelter Regionen suchen,
+// Es werden alle derartigen Regionen in einer Sammlung zurückgegeben.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);

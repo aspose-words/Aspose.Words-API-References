@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentStory
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft die aktuell in diesem DocumentBuilder ausgewählte Story ab.
+description: DocumentBuilder eigendom. Ruft die aktuell ausgewählte Story abDocumentBuilder .
 type: docs
 weight: 70
 url: /de/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Ruft die aktuell in diesem DocumentBuilder ausgewählte Story ab.
+Ruft die aktuell ausgewählte Story ab[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -16,7 +16,7 @@ public Story CurrentStory { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit der aktuellen Story eines Dokumenterstellers arbeiten.
+Zeigt, wie mit der aktuellen Story eines Document Builders gearbeitet wird.
 
 ```csharp
 Document doc = new Document();

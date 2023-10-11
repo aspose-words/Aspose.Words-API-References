@@ -1,14 +1,14 @@
 ---
 title: InlineStory.StoryType
 second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Gibt den Typ der Geschichte zurück.
+description: InlineStory eigendom. Gibt den Typ der Story zurück.
 type: docs
 weight: 100
 url: /de/net/aspose.words/inlinestory/storytype/
 ---
 ## InlineStory.StoryType property
 
-Gibt den Typ der Geschichte zurück.
+Gibt den Typ der Story zurück.
 
 ```csharp
 public abstract StoryType StoryType { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
-// Tabellenknoten haben eine "EnsureMinimum()"-Methode, die sicherstellt, dass die Tabelle mindestens eine Zelle hat.
+// Tabellenknoten verfügen über eine „EnsureMinimum()“-Methode, die sicherstellt, dass die Tabelle mindestens eine Zelle enthält.
 Table table = new Table(doc);
 table.EnsureMinimum();
 
@@ -33,14 +33,14 @@ footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// Eine InlineStory hat auch eine "EnsureMinimum()"-Methode, aber in diesem Fall
+// Eine InlineStory hat auch eine „EnsureMinimum()“-Methode, aber in diesem Fall
 // es stellt sicher, dass das letzte untergeordnete Element des Knotens ein Absatz ist,
-// damit wir Text in Microsoft Word einfach anklicken und schreiben können.
+// Damit wir problemlos in Microsoft Word klicken und Texte schreiben können.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
-// Bearbeiten Sie das Erscheinungsbild des Ankers, der die kleine hochgestellte Zahl ist
-// im Haupttext, der auf die Fußnote zeigt.
+// Bearbeiten Sie das Erscheinungsbild des Ankers, bei dem es sich um die kleine hochgestellte Zahl handelt
+// im Haupttext, der auf die Fußnote verweist.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
 
@@ -50,18 +50,18 @@ Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 // Ein Kommentar ist eine andere Art von Inline-Story.
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
-// Der übergeordnete Absatz eines Inline-Story-Knotens ist derjenige aus dem Haupttext des Dokuments.
+// Der übergeordnete Absatz eines Inline-Story-Knotens ist derjenige aus dem Hauptdokumentkörper.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
-// Der letzte Absatz ist jedoch derjenige aus dem Inhalt des Kommentartextes,
-// die sich außerhalb des Hauptdokumentkörpers in einer Sprechblase befindet.
-// Ein Kommentar hat standardmäßig keine untergeordneten Knoten,
-// so können wir auch hier die Methode CertainMinimum() anwenden, um einen Absatz zu platzieren.
+// Allerdings ist der letzte Absatz derjenige aus dem Kommentartextinhalt,
+// der sich außerhalb des Hauptdokumentkörpers in einer Sprechblase befindet.
+// Ein Kommentar hat standardmäßig keine untergeordneten Knoten.
+// damit wir auch hier die Methode ConsiderMinimum() anwenden können, um einen Absatz zu platzieren.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);
 
-// Sobald wir einen Absatz haben, können wir den Builder dazu bewegen und unseren Kommentar schreiben.
+// Sobald wir einen Absatz haben, können wir den Builder dazu veranlassen, ihn auszuführen und unseren Kommentar zu schreiben.
 builder.MoveTo(comment.LastParagraph);
 builder.Write("My comment.");
 

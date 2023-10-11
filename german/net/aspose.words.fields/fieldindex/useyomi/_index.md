@@ -23,14 +23,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Erstellen Sie ein INDEX-Feld, das einen Eintrag für jedes im Dokument gefundene XE-Feld anzeigt.
-// Jeder Eintrag zeigt den Text-Eigenschaftswert des XE-Felds auf der linken Seite an,
+// Jeder Eintrag zeigt den Text-Eigenschaftswert des XE-Felds auf der linken Seite an.
 // und die Nummer der Seite, die rechts das XE-Feld enthält.
-// Der INDEX-Eintrag sammelt alle XE-Felder mit übereinstimmenden Werten in der Eigenschaft "Text".
-// in einen Eintrag anstatt für jedes XE-Feld einen Eintrag zu machen.
+// Der INDEX-Eintrag sammelt alle XE-Felder mit übereinstimmenden Werten in der Eigenschaft „Text“.
+// in einen Eintrag, anstatt für jedes XE-Feld einen Eintrag vorzunehmen.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Die INDEX-Tabelle sortiert ihre Einträge automatisch nach den Werten ihrer Text-Eigenschaften in alphabetischer Reihenfolge.
-// Stellen Sie die INDEX-Tabelle so ein, dass die Einträge stattdessen phonetisch mit Hiragana sortiert werden.
+// Die INDEX-Tabelle sortiert ihre Einträge automatisch nach den Werten ihrer Texteigenschaften in alphabetischer Reihenfolge.
+// Stellen Sie die INDEX-Tabelle so ein, dass Einträge stattdessen phonetisch mit Hiragana sortiert werden.
 index.UseYomi = sortEntriesUsingYomi;
 
 if (sortEntriesUsingYomi)
@@ -38,11 +38,11 @@ if (sortEntriesUsingYomi)
 else
     Assert.AreEqual(" INDEX ", index.GetFieldCode());
 
-// Füge 4 XE-Felder ein, die als Einträge im Inhaltsverzeichnis des INDEX-Felds erscheinen würden.
-// Die Eigenschaft "Text" kann die Schreibweise eines Wortes in Kanji enthalten, dessen Aussprache mehrdeutig sein kann,
-// während die "Yomi"-Version des Wortes genau so buchstabiert wird, wie es mit Hiragana ausgesprochen wird.
+// 4 XE-Felder einfügen, die als Einträge im Inhaltsverzeichnis des INDEX-Felds angezeigt werden.
+// Die Eigenschaft „Text“ kann die Schreibweise eines Wortes in Kanji enthalten, dessen Aussprache möglicherweise nicht eindeutig ist.
+// während die „Yomi“-Version des Wortes genau so buchstabiert, wie es im Hiragana ausgesprochen wird.
 // Wenn wir unser INDEX-Feld so einstellen, dass es Yomi verwendet, werden diese Einträge sortiert
-// durch den Wert ihrer Yomi-Eigenschaften anstelle ihrer Textwerte.
+// durch den Wert ihrer Yomi-Eigenschaften, anstelle ihrer Textwerte.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛子";
@@ -65,6 +65,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛美";
 indexEntry.Yomi = "え";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ```

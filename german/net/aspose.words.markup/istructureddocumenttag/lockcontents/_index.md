@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.LockContents
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Wenn diese Eigenschaft auf true gesetzt ist verbietet es einem Benutzer den Inhalt von this zu bearbeiten SDT .
+description: IStructuredDocumentTag eigendom. Wenn diese Eigenschaft auf true gesetzt ist verhindert sie dass ein Benutzer den Inhalt dieser Eigenschaft bearbeitet SDT .
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-Wenn diese Eigenschaft auf „true“ gesetzt ist, verbietet es einem Benutzer, den Inhalt von this zu bearbeiten **SDT** .
+Wenn diese Eigenschaft auf „true“ gesetzt ist, verhindert sie, dass ein Benutzer den Inhalt dieser Eigenschaft bearbeitet **SDT** .
 
 ```csharp
 public bool LockContents { get; set; }

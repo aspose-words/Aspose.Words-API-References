@@ -1,14 +1,14 @@
 ---
 title: Table.CellSpacing
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand in Punkten zwischen den Zellen ab oder legt ihn fest.
+description: Table eigendom. Ruft den Abstand in Punkten zwischen den Zellen ab oder legt diesen fest.
 type: docs
 weight: 100
 url: /de/net/aspose.words.tables/table/cellspacing/
 ---
 ## Table.CellSpacing property
 
-Ruft den Abstand (in Punkten) zwischen den Zellen ab oder legt ihn fest.
+Ruft den Abstand (in Punkten) zwischen den Zellen ab oder legt diesen fest.
 
 ```csharp
 public double CellSpacing { get; set; }
@@ -16,7 +16,7 @@ public double CellSpacing { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie den Abstand zwischen einzelnen Zellen in einer Tabelle aktivieren.
+Zeigt, wie der Abstand zwischen einzelnen Zellen in einer Tabelle aktiviert wird.
 
 ```csharp
 Document doc = new Document();
@@ -36,21 +36,21 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Setzen Sie die Eigenschaft "AllowCellSpacing" auf "true", um den Abstand zwischen den Zellen zu aktivieren
-// mit einer Größe, die dem Wert der Eigenschaft "CellSpacing" in Punkten entspricht.
-// Setzen Sie die Eigenschaft "AllowCellSpacing" auf "false", um den Zellabstand zu deaktivieren
-// und den Wert der Eigenschaft "CellSpacing" ignorieren.
+// Setzen Sie die Eigenschaft „AllowCellSpacing“ auf „true“, um den Abstand zwischen Zellen zu ermöglichen
+// mit einer Größe, die dem Wert der Eigenschaft „CellSpacing“ entspricht, in Punkten.
+// Setzen Sie die Eigenschaft „AllowCellSpacing“ auf „false“, um den Zellenabstand zu deaktivieren
+// und ignoriere den Wert der Eigenschaft „CellSpacing“.
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Das Anpassen der Eigenschaft "CellSpacing" aktiviert automatisch den Zellabstand.
+// Durch Anpassen der Eigenschaft „CellSpacing“ wird der Zellenabstand automatisch aktiviert.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);
 ```
 
-Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
+Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
 ```csharp
 Document doc = new Document();

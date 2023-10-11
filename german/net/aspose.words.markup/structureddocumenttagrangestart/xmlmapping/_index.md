@@ -16,7 +16,7 @@ public XmlMapping XmlMapping { get; }
 
 ### Bemerkungen
 
-Sie können die verwenden[`SetMapping`](../../xmlmapping/setmapping/) -Methode dieses -Objekts zum Zuordnen eines strukturierten Dokument-Tag-Bereichs zu XML-Daten.
+Sie können das verwenden[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses -Objekts zum Zuordnen eines strukturierten Dokument-Tag-Bereichs zu XML-Daten.
 
 ### Beispiele
 
@@ -37,8 +37,8 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
 // Wenn wir eine Zuordnung für unser strukturiertes Dokument-Tag festlegen,
-// Es wird nur ein Teil des CustomXmlPart angezeigt, auf das der XPath zeigt.
-// Dieser XPath zeigt auf den zweiten Inhalt von "<text>" Element des ersten "<root>" Element unseres CustomXmlPart.
+// Es wird nur ein Teil des CustomXmlPart angezeigt, auf den der XPath verweist.
+// Dieser XPath zeigt auf den zweiten Inhalt von „<text>“ Element des ersten „<root>“ Element unseres CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

@@ -16,17 +16,15 @@ public List this[int index] { get; }
 
 ### Beispiele
 
-Zeigt, wie Eigentümerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

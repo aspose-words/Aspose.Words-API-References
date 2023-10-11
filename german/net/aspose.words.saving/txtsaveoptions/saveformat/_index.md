@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein TXT-Dokument mit einem benutzerdefinierten Absatzumbruch gespeichert wird.
+Zeigt, wie man ein TXT-Dokument mit einem benutzerdefinierten Absatzumbruch speichert.
 
 ```csharp
 Document doc = new Document();
@@ -26,13 +26,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Setzen Sie "ParagraphBreak" auf einen benutzerdefinierten Wert, den wir am Ende jedes Absatzes einfügen möchten.
+// Setzen Sie „ParagraphBreak“ auf einen benutzerdefinierten Wert, den wir am Ende jedes Absatzes einfügen möchten.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

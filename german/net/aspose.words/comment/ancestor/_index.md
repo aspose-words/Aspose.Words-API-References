@@ -1,14 +1,14 @@
 ---
 title: Comment.Ancestor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt das übergeordnete Kommentarobjekt zurück. Gibt null für Kommentare der obersten Ebene zurück.
+description: Comment eigendom. Gibt das übergeordnete Element zurückComment Objekt. Kehrt zurückNull für Kommentare der obersten Ebene.
 type: docs
 weight: 20
 url: /de/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-Gibt das übergeordnete Kommentarobjekt zurück. Gibt null für Kommentare der obersten Ebene zurück.
+Gibt das übergeordnete Element zurück[`Comment`](../) Objekt. Kehrt zurück`Null` für Kommentare der obersten Ebene.
 
 ```csharp
 public Comment Ancestor { get; }
@@ -16,15 +16,14 @@ public Comment Ancestor { get; }
 
 ### Beispiele
 
-Zeigt, wie alle Kommentare eines Dokuments und ihre Antworten gedruckt werden.
+Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen "Top-Level"-Kommentar im Gegensatz zu einem Antworttyp-Kommentar.
-// Drucken Sie alle Kommentare der obersten Ebene zusammen mit allen möglichen Antworten.
+// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen „Top-Level“-Kommentar und nicht um einen Antworttyp-Kommentar.
+// Alle Kommentare der obersten Ebene zusammen mit etwaigen Antworten drucken.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

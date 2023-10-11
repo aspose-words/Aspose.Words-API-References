@@ -16,7 +16,7 @@ public string CacheKey { get; }
 
 ### Bemerkungen
 
-Dieser Schlüssel wird verwendet, um das Cache-Element beim Speichern/Laden des Font-Such-Cache mit zu identifizieren.[`SaveSearchCache`](../../fontsettings/savesearchcache/) and [`SetFontsSources`](../../fontsettings/setfontssources/)Methoden.
+Dieser Schlüssel wird verwendet, um das Cache-Element beim Speichern/Laden des Schriftart-Such-Cache mit zu identifizieren.[`SaveSearchCache`](../../fontsettings/savesearchcache/) and [`SetFontsSources`](../../fontsettings/setfontssources/) Methoden.
 
 Wenn der Schlüssel nicht angegeben ist, dann[`FilePath`](../filepath/) wird stattdessen als Schlüssel verwendet.
 

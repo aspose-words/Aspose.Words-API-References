@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.ClearFormatting
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat methode. Setzt auf StandardAbsatzformatierung zurück.
+description: ParagraphFormat methode. Setzt die StandardAbsatzformatierung zurück.
 type: docs
-weight: 410
+weight: 420
 url: /de/net/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat.ClearFormatting method
 
-Setzt auf Standard-Absatzformatierung zurück.
+Setzt die Standard-Absatzformatierung zurück.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Bemerkungen
 
-Die standardmäßige Absatzformatierung ist Normal, linksbündig, keine Einrückung, kein Abstand, keine Ränder und keine Schattierung.
+Die Standardabsatzformatierung ist normaler Stil, linksbündig, keine Einrückung, kein Abstand, keine Ränder und keine Schattierung.
 
 ### Beispiele
 
@@ -26,17 +26,17 @@ Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Gliederungsliste für die Überschriften erstellen.
+// Eine Übersichtsliste für die Überschriften erstellen.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Erstellen Sie eine nummerierte Liste.
+// Erstelle eine nummerierte Liste.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
@@ -46,7 +46,7 @@ builder.Writeln("Numbered list item 1.");
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// Erstellen Sie eine Liste mit Aufzählungszeichen.
+// Eine Liste mit Aufzählungszeichen erstellen.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;

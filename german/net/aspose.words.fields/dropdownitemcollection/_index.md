@@ -3,12 +3,14 @@ title: Class DropDownItemCollection
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.DropDownItemCollection klas. Eine Sammlung von Zeichenfolgen die alle Elemente in einem DropdownFormularfeld darstellen.
 type: docs
-weight: 1350
+weight: 1500
 url: /de/net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
 
 Eine Sammlung von Zeichenfolgen, die alle Elemente in einem Dropdown-Formularfeld darstellen.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class DropDownItemCollection : IEnumerable<string>
@@ -25,24 +27,24 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Fügt eine Zeichenfolge am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Fügt am Ende der Sammlung eine Zeichenfolge hinzu. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Bestimmt, ob die Sammlung den angegebenen Wert enthält. |
-| [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen. |
+| [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
 | [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Fügt eine Zeichenfolge am angegebenen Index in die Sammlung ein. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Fügt am angegebenen Index einen String in die Sammlung ein. |
 | [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Entfernt den angegebenen Wert aus der Sammlung. |
 | [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Entfernt einen Wert am angegebenen Index. |
 
 ### Beispiele
 
-Zeigt, wie ein Kombinationsfeldfeld eingefügt und die Elemente in seiner Elementauflistung bearbeitet werden.
+Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Kombinationsfeld ein und überprüfen Sie dann seine Sammlung von Dropdown-Elementen.
+// Ein Kombinationsfeld einfügen und dann seine Sammlung von Dropdown-Elementen überprüfen.
 // In Microsoft Word klickt der Benutzer auf das Kombinationsfeld,
 // und wählen Sie dann eines der anzuzeigenden Textelemente in der Sammlung aus.
 string[] items = { "One", "Two", "Three" };
@@ -54,25 +56,25 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Es gibt zwei Möglichkeiten, ein neues Element zu einer bestehenden Sammlung von Dropdown-Box-Elementen hinzuzufügen.
-// 1 - Ein Element an das Ende der Sammlung anhängen:
+// Es gibt zwei Möglichkeiten, ein neues Element zu einer vorhandenen Sammlung von Dropdown-Box-Elementen hinzuzufügen.
+// 1 – Ein Element an das Ende der Sammlung anhängen:
 dropDownItems.Add("Four");
 
-// 2 - Ein Element vor einem anderen Element an einem angegebenen Index einfügen:
+// 2 – Ein Element vor einem anderen Element an einem angegebenen Index einfügen:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Iteriere über die Sammlung und drucke jedes Element.
+// Durch die Sammlung iterieren und jedes Element ausgeben.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
 // Es gibt zwei Möglichkeiten, Elemente aus einer Sammlung von Dropdown-Elementen zu entfernen.
-// 1 - Entferne ein Element, dessen Inhalt dem übergebenen String entspricht:
+// 1 – Ein Element entfernen, dessen Inhalt der übergebenen Zeichenfolge entspricht:
 dropDownItems.Remove("Four");
 
-// 2 - Entfernen Sie ein Element an einem Index:
+// 2 – Ein Element an einem Index entfernen:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -81,7 +83,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Die gesamte Sammlung von Dropdown-Elementen leeren.
+// Leeren Sie die gesamte Sammlung von Dropdown-Elementen.
 dropDownItems.Clear();
 ```
 

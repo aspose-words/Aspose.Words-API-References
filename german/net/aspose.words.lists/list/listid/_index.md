@@ -16,21 +16,19 @@ public int ListId { get; }
 
 ### Bemerkungen
 
-Normalerweise müssen Sie diese Eigenschaft nicht verwenden. Aber wenn Sie es verwenden, tun Sie es normalerweise so in Verbindung mit dem[`GetListByListId`](../../listcollection/getlistbylistid/) -Methode, um eine -Liste anhand ihres Bezeichners zu finden.
+Normalerweise müssen Sie diese Eigenschaft nicht nutzen. Aber wenn Sie es verwenden, tun Sie dies normalerweise in Verbindung mit dem[`GetListByListId`](../../listcollection/getlistbylistid/) Methode, um eine -Liste anhand ihrer Kennung zu finden.
 
 ### Beispiele
 
-Zeigt, wie Eigentümerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, die Listenelemente sind.
+Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
 
 ```csharp
 Document doc = new Document();

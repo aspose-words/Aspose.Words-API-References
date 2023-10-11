@@ -16,7 +16,7 @@ public bool IgnoreFields { get; set; }
 
 ### Bemerkungen
 
-Diese Option wirkt sich auf das gesamte Feld aus (alle Knoten zwischen FieldStart undFieldEnd).
+Diese Option betrifft das gesamte Feld (alle Knoten zwischen FieldStart UndFieldEnd).
 
 Um nur Feldcodes zu ignorieren, verwenden Sie bitte die entsprechende Option[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
@@ -31,13 +31,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertField("QUOTE", "Hello again!");
 
-// Wir können ein "FindReplaceOptions"-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Setzen Sie das "IgnoreFields"-Flag auf "true", um das Suchen-und-Ersetzen zu erhalten
+// Setzen Sie das Flag „IgnoreFields“ auf „true“, um das Suchen und Ersetzen zu erhalten
 // Operation zum Ignorieren von Text in Feldern.
-// Setzen Sie das Flag "IgnoreFields" auf "false", um das Suchen und Ersetzen zu erhalten
-// Operation, um auch innerhalb von Feldern nach Text zu suchen.
+// Setzen Sie das Flag „IgnoreFields“ auf „false“, um das Suchen und Ersetzen zu erhalten
+// Operation, um auch nach Text innerhalb von Feldern zu suchen.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

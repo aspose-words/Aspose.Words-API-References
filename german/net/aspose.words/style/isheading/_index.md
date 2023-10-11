@@ -1,14 +1,14 @@
 ---
 title: Style.IsHeading
 second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Wahr wenn der Stil einer der integrierten Überschriftenstile ist.
+description: Style eigendom. True wenn der Stil einer der integrierten Überschriftenstile ist.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-Wahr, wenn der Stil einer der integrierten Überschriftenstile ist.
+True, wenn der Stil einer der integrierten Überschriftenstile ist.
 
 ```csharp
 public bool IsHeading { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aufzählen und Auflisten aller Stile, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
+// Alle Stile aufzählen und auflisten, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

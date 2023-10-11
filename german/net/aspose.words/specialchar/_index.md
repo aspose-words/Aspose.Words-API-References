@@ -3,12 +3,14 @@ title: Class SpecialChar
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.SpecialChar klas. Basisklasse für Sonderzeichen im Dokument.
 type: docs
-weight: 5800
+weight: 6100
 url: /de/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Basisklasse für Sonderzeichen im Dokument.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public class SpecialChar : Inline
@@ -20,19 +22,19 @@ public class SpecialChar : Inline
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftformatierung dieses Objekts. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsnachverfolgung aktiviert war. |
+| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung dieses Objekts. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Gibt „true“ zurück, wenn die Formatierung des Objekts in Microsoft Word geändert wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word eingefügt wurde, während die Änderungsverfolgung aktiviert war. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsnachverfolgung aktiviert war. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsnachverfolgung aktiviert war. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsverfolgung aktiviert war. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsverfolgung aktiviert war. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | gibt zurück **NodeType.SpecialChar** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | Gibt zurückSpecialChar . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Ruft das übergeordnete Element ab[`Paragraph`](../paragraph/) dieses Knotens. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
@@ -40,50 +42,51 @@ public class SpecialChar : Inline
 | --- | --- |
 | override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
-Ein Microsoft Word-Dokument kann eine Reihe von Sonderzeichen enthalten, die Felder, Formularfelder, Formen, OLE-Objekte, Fußnoten usw. darstellen. Für die Liste von Sonderzeichen siehe[`ControlChar`](../controlchar/).
+Ein Microsoft Word-Dokument kann eine Reihe von Sonderzeichen enthalten, die Felder, Formularfelder, Formen, OLE-Objekte, Fußnoten usw. darstellen. Die Liste der Sonderzeichen finden Sie unter[`ControlChar`](../controlchar/).
 
-**Sonderzeichen** ist ein Inline-Knoten und kann nur ein Kind von sein **Absatz**.
+`SpecialChar`ist ein Inline-Knoten und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
-**Sonderzeichen** char wird als Basisklasse für spezifischere Klassen verwendet, die Sonderzeichen darstellen, für die Aspose.Words programmgesteuerten Zugriff bereitstellt. Die **Sonderzeichen** Die Klasse wird auch selbst verwendet, um Sonderzeichen darzustellen, für die Aspose.Words keinen detaillierten programmgesteuerten Zugriff bietet.
+`SpecialChar` char wird als Basisklasse für spezifischere Klassen verwendet, die Sonderzeichen darstellen, für die Aspose.Words programmgesteuerten Zugriff bietet. Die`SpecialChar` Die Klasse selbst wird auch verwendet, um Sonderzeichen darzustellen, für die which Aspose.Words keinen detaillierten programmgesteuerten Zugriff bietet.
 
 ### Beispiele
 
-Zeigt, wie eine DocumentVisitor-Implementierung verwendet wird, um alle ausgeblendeten Inhalte aus einem Dokument zu entfernen.
+Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern, die einen Dokumentbesucher akzeptieren können,
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefe-zuerst-Weise zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
+    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
     // 1 - Absatzknoten:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellenknoten:
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Dokumentenknoten:
+    // 3 - Dokumentknoten:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Entfernt alle besuchten Knoten, die als "versteckter Inhalt" markiert sind.
+/// Entfernt alle besuchten Knoten, die als „versteckter Inhalt“ markiert sind.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -154,7 +157,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein GroupShape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine GroupShape gefunden wird.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -165,7 +168,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Shape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine Form gefunden wird.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -198,7 +201,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -213,12 +216,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Der Inhalt innerhalb von Tabellenzellen kann das Hidden-Content-Flag haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles davon entfernt,
+        // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
+        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
         // und es gäbe keine untergeordneten Knoten mehr.
         // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
-        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, haben Zellen mit leeren Absätzen darin,
-        // die dieser Besucher nicht entfernen wird.
+        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
+        // was dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -226,7 +229,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Cell-Knotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

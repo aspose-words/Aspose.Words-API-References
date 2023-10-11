@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseFELayout
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Layoutcode für ostasiatische/komplexe Schriften nicht umgehen.
+description: CompatibilityOptions eigendom. Ostasiatischen/komplexen SkriptLayoutCode nicht umgehen.
 type: docs
 weight: 620
 url: /de/net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property
 
-Layoutcode für ostasiatische/komplexe Schriften nicht umgehen.
+Ostasiatischen/komplexen Skript-Layout-Code nicht umgehen.
 
 ```csharp
 public bool UseFELayout { get; set; }

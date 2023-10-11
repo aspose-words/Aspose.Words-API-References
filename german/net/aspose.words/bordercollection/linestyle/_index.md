@@ -16,13 +16,13 @@ public LineStyle LineStyle { get; set; }
 
 ### Bemerkungen
 
-Gibt den Stil des ersten Rahmens in der Auflistung zurück.
+Gibt den Stil des ersten Rahmens in der Sammlung zurück.
 
-Legt den Stil aller Rahmen in der Sammlung fest, ausgenommen diagonale Rahmen.
+Legt den Stil aller Rahmen in der Sammlung fest, mit Ausnahme diagonaler Ränder.
 
 ### Beispiele
 
-Zeigt, wie Sie einen grünen wellenförmigen Seitenrand mit einem Schatten erstellen.
+Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

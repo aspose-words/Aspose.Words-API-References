@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.MemoryOptimization
 second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Holt oder legt einen Wert fest der bestimmt ob eine Speicheroptimierung durchgeführt werden soll bevor das Dokument gespeichert wird. Der Standardwert für diese Eigenschaft ist FALSCH .
+description: SaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob vor dem Speichern des Dokuments eine Speicheroptimierung durchgeführt werden soll. Der Standardwert für diese Eigenschaft istFALSCH .
 type: docs
-weight: 110
+weight: 100
 url: /de/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-Holt oder legt einen Wert fest, der bestimmt, ob eine Speicheroptimierung durchgeführt werden soll, bevor das Dokument gespeichert wird. Der Standardwert für diese Eigenschaft ist **FALSCH** .
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob vor dem Speichern des Dokuments eine Speicheroptimierung durchgeführt werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH` .
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,22 +16,22 @@ public bool MemoryOptimization { get; set; }
 
 ### Bemerkungen
 
-Wenn Sie diese Option auf „true“ setzen, kann der Speicherverbrauch erheblich verringert werden, während große Dokumente auf Kosten einer langsameren Speicherzeit gespeichert werden.
+Diese Option festlegen auf`WAHR` kann den Speicherverbrauch erheblich senken und gleichzeitig große Dokumente speichern, allerdings auf Kosten einer langsameren Zeitersparnis.
 
 ### Beispiele
 
-Zeigt eine Option zum Optimieren des Speicherverbrauchs beim Rendern großer Dokumente in PDF an.
+Zeigt eine Option zur Optimierung des Speicherverbrauchs beim Rendern großer Dokumente in PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf beim Speichern großer Dokumente zu verringern
-// auf Kosten der Verlängerung der Operationsdauer.
-// Setzen Sie die Eigenschaft "MemoryOptimization" auf "false", um das Dokument normal als PDF zu speichern.
+// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf bei Speichervorgängen großer Dokumente zu verringern
+// auf Kosten einer Verlängerung der Operationsdauer.
+// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „false“, um das Dokument normal als PDF zu speichern.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);

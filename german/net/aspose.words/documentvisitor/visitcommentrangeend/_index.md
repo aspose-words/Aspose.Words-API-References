@@ -20,7 +20,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
@@ -32,8 +32,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -42,7 +42,7 @@ public void CommentsToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen Comment/CommentRange-Knoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Comment/CommentRange-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Ein Run wird nur aufgezeichnet, wenn er ein Kind eines Comment- oder CommentRange-Knotens ist.
+    /// Ein Run wird nur aufgezeichnet, wenn er ein untergeordnetes Element eines Comment- oder CommentRange-Knotens ist.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -118,7 +118,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und je nach Tiefe des Besuchers einrücken
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten eines Kommentars/Kommentarbereichs.
     /// </summary>
     /// <param name="text"></param>

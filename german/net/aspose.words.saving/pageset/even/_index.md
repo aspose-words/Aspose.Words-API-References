@@ -16,7 +16,7 @@ public static PageSet Even { get; }
 
 ### Bemerkungen
 
-Gerade Seiten haben ungerade Indizes, da Seitenindizes nullbasiert sind.
+Gerade Seiten haben ungerade Indizes, da Seitenindizes auf Null basieren.
 
 ### Siehe auch
 

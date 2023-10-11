@@ -8,7 +8,7 @@ url: /de/net/aspose.words/controlchar/cr/
 ---
 ## ControlChar.Cr field
 
-Wagenrücklaufzeichen: "\x000d" oder "\r". Gleich wie[`ParagraphBreak`](../paragraphbreak/) .
+Wagenrücklaufzeichen: „\x000d“ oder „\r“. Gleich wie[`ParagraphBreak`](../paragraphbreak/) .
 
 ```csharp
 public static readonly string Cr;
@@ -22,18 +22,18 @@ Zeigt, wie Steuerzeichen verwendet werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Absätze mit Text mit DocumentBuilder einfügen.
+// Mit DocumentBuilder Absätze mit Text einfügen.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Das Konvertieren des Dokuments in Textform zeigt diese Steuerzeichen
-// stellen einige der Strukturelemente des Dokuments dar, wie z. B. Seitenumbrüche.
+// Beim Konvertieren des Dokuments in Textform werden die Steuerzeichen sichtbar
+// stellen einige der Strukturelemente des Dokuments dar, z. B. Seitenumbrüche.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// Beim Konvertieren eines Dokuments in eine Zeichenkette,
-// Mit der Trim-Methode können wir einige der Steuerzeichen weglassen.
+// Beim Konvertieren eines Dokuments in String-Form,
+// Mit der Trim-Methode können wir einige Steuerzeichen weglassen.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```

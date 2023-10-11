@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickMarkSpacing
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Holt oder setzt das Intervall in dem Teilstriche gezeichnet werden.
+description: ChartAxis eigendom. Ruft das Intervall ab in dem Teilstriche gezeichnet werden oder legt es fest.
 type: docs
-weight: 250
+weight: 270
 url: /de/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
 
-Holt oder setzt das Intervall, in dem Teilstriche gezeichnet werden.
+Ruft das Intervall ab, in dem Teilstriche gezeichnet werden, oder legt es fest.
 
 ```csharp
 public int TickMarkSpacing { get; set; }
@@ -16,13 +16,13 @@ public int TickMarkSpacing { get; set; }
 
 ### Bemerkungen
 
-Die Eigenschaft wirkt sich auf Textkategorie- und Reihenachsen aus. Es wird von MS Office 2016 new charts nicht unterstützt.
+Die Eigenschaft wirkt sich auf Textkategorie- und Serienachsen aus. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
 Der gültige Bereich eines Werts ist größer oder gleich 1.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Diagramm einfügen und das Aussehen seiner Achsen ändern.
+Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Einfügen einer Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse.
+// Fügen Sie eine Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse ein.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Haupt-/Nebeneinheiten-Ticks und Teilstriche.
+// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

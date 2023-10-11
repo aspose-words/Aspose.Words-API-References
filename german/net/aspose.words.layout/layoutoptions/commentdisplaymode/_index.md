@@ -16,7 +16,7 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### Bemerkungen
 
-Beachten Sie, dass Überarbeitungen nicht in Sprechblasen für gerendert werdenShowInAnnotations .
+Beachten Sie, dass Revisionen nicht in Sprechblasen gerendert werdenShowInAnnotations .
 
 ### Beispiele
 
@@ -33,13 +33,13 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations ist nur in den Formaten Pdf1.7 und Pdf1.5 verfügbar.
-// In anderen Formaten funktioniert es ähnlich wie Hide.
+// In anderen Formaten funktioniert es ähnlich wie „Hide“.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
 // Beachten Sie, dass das Seitenlayout des Dokuments neu erstellt werden muss (über die Methode Document.UpdatePageLayout())
-// nach Änderung der Document.LayoutOptions-Werte.
+// nach dem Ändern der Document.LayoutOptions-Werte.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();
 

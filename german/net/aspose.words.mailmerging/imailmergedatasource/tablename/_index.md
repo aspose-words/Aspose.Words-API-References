@@ -16,17 +16,17 @@ public string TableName { get; }
 
 ### Rückgabewert
 
-Der Name der Datenquelle. Leerer String, wenn die Datenquelle keinen Namen hat.
+Der Name der Datenquelle. Leere Zeichenfolge, wenn die Datenquelle keinen Namen hat.
 
 ### Bemerkungen
 
-Wenn Sie implementieren[`IMailMergeDataSource`](../), geben Sie den Namen der Quelle data aus dieser Eigenschaft zurück.
+Wenn Sie implementieren[`IMailMergeDataSource`](../), geben Sie den Namen der data -Quelle aus dieser Eigenschaft zurück.
 
-Aspose.Words verwendet diesen Namen, um ihn mit dem Namen der Seriendruckregion „specific “ im Vorlagendokument abzugleichen. Beim Vergleich zwischen dem Namen der Datenquelle und dem Namen der Seriendruckregion wird die Groß-/Kleinschreibung nicht beachtet.
+Aspose.Words verwendet diesen Namen zum Abgleich mit dem im Vorlagendokument angegebenen Seriendruck-Regionsnamen . Beim Vergleich zwischen dem Namen der Datenquelle und dem Namen der Seriendruckregion wird die Groß-/Kleinschreibung nicht beachtet.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausführen.
+Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
 ```csharp
 public void CustomDataSource()
@@ -37,11 +37,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren. 
+     // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -50,7 +52,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Ein Beispiel für eine "Datenentitäts"-Klasse in Ihrer Anwendung.
+/// Ein Beispiel für eine „Datenentität“-Klasse in Ihrer Anwendung.
 /// </summary>
 public class Customer
 {
@@ -65,8 +67,8 @@ public class Customer
 }
 
 /// <summary>
-/// Eine benutzerdefinierte Seriendatenquelle, die Sie implementieren, um Aspose.Words zuzulassen 
-/// zum Seriendruck von Daten aus Ihren Kundenobjekten in Microsoft Word-Dokumente.
+ /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Seriendaten aus Ihren Kundenobjekten in Microsoft Word-Dokumente zu übertragen.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -74,12 +76,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Wenn wir die Datenquelle initialisieren, muss ihre Position vor dem ersten Datensatz sein.
+        // Wenn wir die Datenquelle initialisieren, muss ihre Position vor dem ersten Datensatz liegen.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
     /// </summary>
     public string TableName
     {
@@ -87,7 +89,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld zu erhalten.
+    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -100,7 +102,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // "false" an die Aspose.Words-Serienbrief-Engine zurückgeben, um dies zu kennzeichnen
+                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -108,7 +110,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {

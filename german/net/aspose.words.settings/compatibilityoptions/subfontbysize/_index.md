@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SubFontBySize
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Priorität der Schriftgröße während der Schriftersetzung erhöhen.
+description: CompatibilityOptions eigendom. Erhöhen Sie die Priorität der Schriftgröße bei der Schriftartersetzung.
 type: docs
 weight: 470
 url: /de/net/aspose.words.settings/compatibilityoptions/subfontbysize/
 ---
 ## CompatibilityOptions.SubFontBySize property
 
-Priorität der Schriftgröße während der Schriftersetzung erhöhen.
+Erhöhen Sie die Priorität der Schriftgröße bei der Schriftartersetzung.
 
 ```csharp
 public bool SubFontBySize { get; set; }

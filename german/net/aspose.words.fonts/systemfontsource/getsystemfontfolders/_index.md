@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
 second_title: Aspose.Words für .NET-API-Referenz
-description: SystemFontSource methode. Gibt Systemschriftordner oder ein leeres Array zurück wenn auf Ordner nicht zugegriffen werden kann.
+description: SystemFontSource methode. Gibt Systemschriftartenordner oder ein leeres Array zurück wenn auf Ordner nicht zugegriffen werden kann.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource.GetSystemFontFolders method
 
-Gibt Systemschriftordner oder ein leeres Array zurück, wenn auf Ordner nicht zugegriffen werden kann.
+Gibt Systemschriftartenordner oder ein leeres Array zurück, wenn auf Ordner nicht zugegriffen werden kann.
 
 ```csharp
 public static string[] GetSystemFontFolders()
@@ -16,7 +16,7 @@ public static string[] GetSystemFontFolders()
 
 ### Bemerkungen
 
-Auf manchen Plattformen konnte Aspose.Words Systemfonts nicht nur in Ordnern, sondern auch in anderen Quellen durchsuchen. Beispielsweise auf der Windows-Plattform Aspose.Words sucht Schriftarten auch in der Registrierung.
+Auf einigen Plattformen konnte Aspose.Words Systemschriftarten nicht nur in Ordnern, sondern auch in anderen Quellen durchsuchen. Beispielsweise suchen Aspose.Words auf der Windows-Plattform Schriftarten auch in der Registrierung.
 
 ### Beispiele
 
@@ -48,7 +48,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Festlegen einer im Windows Fonts-Verzeichnis vorhandenen Schriftart als Ersatz für eine nicht vorhandene Schriftart.
+// Legen Sie eine Schriftart fest, die im Windows-Schriftartenverzeichnis vorhanden ist, als Ersatz für eine Schriftart, die nicht vorhanden ist.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -57,12 +57,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativ könnten wir einen Ordner font source hinzufügen, in dem der entsprechende Ordner die Schriftart enthält.
+// Alternativ könnten wir einen Ordner „Font Source“ hinzufügen, in dem der entsprechende Ordner die Schriftart enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Das Zurücksetzen der Schriftartquellen lässt uns immer noch die Systemschriftquelle sowie unsere Ersatzquellen.
+// Durch das Zurücksetzen der Schriftartenquellen verbleiben weiterhin die Systemschriftquelle sowie unsere Ersatzschriftarten.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

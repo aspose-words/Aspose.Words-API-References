@@ -1,14 +1,14 @@
 ---
 title: Document.DigitalSignatures
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Sammlung digitaler Signaturen für dieses Dokument und ihre Validierungsergebnisse ab.
+description: Document eigendom. Ruft die Sammlung digitaler Signaturen für dieses Dokument und deren Validierungsergebnisse ab.
 type: docs
 weight: 100
 url: /de/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-Ruft die Sammlung digitaler Signaturen für dieses Dokument und ihre Validierungsergebnisse ab.
+Ruft die Sammlung digitaler Signaturen für dieses Dokument und deren Validierungsergebnisse ab.
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
@@ -16,9 +16,9 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ### Bemerkungen
 
-Diese Sammlung enthält digitale Signaturen, die aus dem Originaldokument geladen wurden. Diese digitalen Signaturen werden beim Speichern nicht gespeichert[`Document`](../) object in eine Datei oder einen Stream, da beim Speichern oder Konvertieren ein Dokument erstellt wird, das sich vom -Original unterscheidet, und die ursprünglichen digitalen Signaturen nicht mehr gültig sind.
+Diese Sammlung enthält digitale Signaturen, die aus dem Originaldokument geladen wurden. Diese digitalen Signaturen werden beim Speichern nicht gespeichert[`Document`](../) object in eine Datei oder einen Stream kopieren, da beim Speichern oder Konvertieren ein Dokument entsteht, das sich vom Original unterscheidet und die ursprünglichen digitalen Signaturen nicht mehr gültig sind.
 
-Diese Auflistung ist niemals null. Wenn das Dokument nicht signiert ist, enthält es null Elemente.
+Diese Sammlung ist nie`Null`. Wenn das Dokument nicht signiert ist, enthält es keine Elemente.
 
 ### Beispiele
 
@@ -42,20 +42,20 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
 ```csharp
-// Sicherstellen, dass ein Dokument nicht signiert ist.
+// Stellen Sie sicher, dass ein Dokument nicht signiert ist.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, mit der wir das Dokument signieren.
+// Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, das wir zum Signieren des Dokuments verwenden.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Es gibt zwei Möglichkeiten, eine signierte Kopie eines Dokuments im lokalen Dateisystem zu speichern:
-// 1 - Kennzeichnen eines Dokuments durch einen lokalen Systemdateinamen und Speichern einer signierten Kopie an einem Ort, der durch einen anderen Dateinamen angegeben ist.
+// 1 – Bestimmen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Nehmen Sie ein Dokument aus einem Stream und speichern Sie eine signierte Kopie in einem anderen Stream.
+// 2 – Nehmen Sie ein Dokument aus einem Stream und speichern Sie eine signierte Kopie in einem anderen Stream.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

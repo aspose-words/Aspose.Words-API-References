@@ -8,7 +8,7 @@ url: /de/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Gibt ein Präfix an, das allen CSS-Klassennamen hinzugefügt wird. Der Standardwert ist eine leere Zeichenfolge, und generierte CSS-Klassennamen haben kein gemeinsames Präfix.
+Gibt ein Präfix an, das allen CSS-Klassennamen hinzugefügt wird. Der Standardwert ist eine leere Zeichenfolge und generierte CSS-Klassennamen haben kein gemeinsames Präfix.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -22,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 
 ### Bemerkungen
 
-Wenn dieser Wert nicht leer ist, beginnen alle von Aspose.Words generierten CSS-Klassen mit dem angegebenen Präfix. Dies kann beispielsweise nützlich sein, wenn Sie benutzerdefiniertes CSS zu generierten Dokumenten hinzufügen und Namenskonflikte von class verhindern möchten.
+Wenn dieser Wert nicht leer ist, beginnen alle von Aspose.Words generierten CSS-Klassen mit dem angegebenen Präfix. . Dies kann beispielsweise nützlich sein, wenn Sie generierten Dokumenten benutzerdefiniertes CSS hinzufügen und Klassenkonflikte mit dem Namen „class “ verhindern möchten.
 
-Wenn der Wert nicht ist`Null` oder leer, muss es sich um einen gültigen CSS-Bezeichner handeln.
+Wenn der Wert nicht stimmt`Null` oder leer, es muss ein gültiger CSS-Bezeichner sein.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Dokument in HTML speichern und allen CSS-Klassennamen ein Präfix hinzufügen.
+Zeigt, wie man ein Dokument im HTML-Format speichert und allen CSS-Klassennamen ein Präfix hinzufügt.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");

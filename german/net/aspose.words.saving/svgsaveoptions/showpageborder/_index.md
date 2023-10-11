@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
 second_title: Aspose.Words für .NET-API-Referenz
-description: SvgSaveOptions eigendom. Steuert ob der Kontur der Seite ein Rahmen hinzugefügt wird. Standard istStimmt .
+description: SvgSaveOptions eigendom. Steuert ob dem Umriss der Seite ein Rahmen hinzugefügt wird. Standard istWAHR .
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-Steuert, ob der Kontur der Seite ein Rahmen hinzugefügt wird. Standard ist`Stimmt` .
+Steuert, ob dem Umriss der Seite ein Rahmen hinzugefügt wird. Standard ist`WAHR` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -21,7 +21,7 @@ Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurieren Sie das SvgSaveOptions-Objekt so, dass es ohne Seitenränder oder auswählbaren Text gespeichert wird.
+// Konfigurieren Sie das SVGSaveOptions-Objekt zum Speichern ohne Seitenränder oder auswählbaren Text.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

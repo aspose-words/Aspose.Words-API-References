@@ -1,14 +1,14 @@
 ---
 title: SignOptions.ProviderId
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Gibt die KlassenID des Signaturanbieters an. Standardwert ist Leer nur Nullen Guid .
+description: SignOptions eigendom. Gibt die KlassenID des Signaturanbieters an. Der Standardwert ist Leere alle Nullen Guid .
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Gibt die Klassen-ID des Signaturanbieters an. Standardwert ist **Leer (nur Nullen) Guid** .
+Gibt die Klassen-ID des Signaturanbieters an. Der Standardwert ist **Leere (alle Nullen) Guid** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -16,15 +16,15 @@ public Guid ProviderId { get; set; }
 
 ### Bemerkungen
 
-Der Cryptographic Service Provider (CSP) ist ein unabhängiges Softwaremodul, das eigentlich Kryptografiealgorithmen zur Authentifizierung, Kodierung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen standardmäßigen Signaturanbieter.
+Der Kryptografiedienstanbieter (CSP) ist ein unabhängiges Softwaremodul, das tatsächlich Kryptografiealgorithmen zur Authentifizierung, Kodierung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen Standardsignaturanbieter.
 
 Die GUID des zusätzlich installierten Providers entnehmen Sie bitte der mitgelieferten Dokumentation des Providers.
 
-Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgeführt. Sie finden sie im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen, der "CP Service UUID" entspricht eine GUID des Signaturanbieters.
+Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgelistet. Sie finden sie im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen „CP Service UUID“, der entspricht eine GUID des Signaturanbieters.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert wird.
+Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften "IsSigned" und "IsValid" beide gleich "true" sind,
+// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften „IsSigned“ und „IsValid“ beide den Wert „true“ haben.
 // zeigt an, dass die Signaturzeile eine Signatur enthält.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

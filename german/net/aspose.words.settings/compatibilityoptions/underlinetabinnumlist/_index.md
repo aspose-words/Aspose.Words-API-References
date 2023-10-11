@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Unterstreichen Sie das folgende Zeichen nach der Nummerierung.
+description: CompatibilityOptions eigendom. Unterstreichung nach Zeichen nach Nummerierung.
 type: docs
 weight: 590
 url: /de/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
 ## CompatibilityOptions.UnderlineTabInNumList property
 
-Unterstreichen Sie das folgende Zeichen nach der Nummerierung.
+Unterstreichung nach Zeichen nach Nummerierung.
 
 ```csharp
 public bool UnderlineTabInNumList { get; set; }

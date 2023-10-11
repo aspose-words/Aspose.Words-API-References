@@ -3,7 +3,7 @@ title: Cell.Tables
 second_title: Aspose.Words für .NET-API-Referenz
 description: Cell eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Zelle sind.
 type: docs
-weight: 100
+weight: 120
 url: /de/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
@@ -23,16 +23,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob irgendwelche Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist, und wenn ja, in welcher Tiefe.
+        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist und wenn ja, in welcher Tiefe.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -64,12 +63,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Ermittelt, ob eine Tabelle eine unmittelbar untergeordnete Tabelle in ihren Zellen enthält.
+/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
 /// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt wahr zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
+/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

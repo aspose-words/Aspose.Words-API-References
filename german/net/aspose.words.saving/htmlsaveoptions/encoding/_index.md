@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.Encoding
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die beim Exportieren in HTML MHTML oder EPUB zu verwendende Kodierung an. Der Standardwert istneue UTF8Kodierung false UTF8 ohne BOM.
+description: HtmlSaveOptions eigendom. Gibt die beim Exportieren nach HTML MHTML oder EPUB zu verwendende Codierung an. Der Standardwert istneue UTF8Encodingfalse UTF8 ohne Stückliste.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-Gibt die beim Exportieren in HTML, MHTML oder EPUB zu verwendende Kodierung an. Der Standardwert ist`neue UTF8-Kodierung (false)` (UTF-8 ohne BOM).
+Gibt die beim Exportieren nach HTML, MHTML oder EPUB zu verwendende Codierung an. Der Standardwert ist`neue UTF8Encoding(false)` (UTF-8 ohne Stückliste).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,19 +16,19 @@ public Encoding Encoding { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie beim Speichern eines Dokuments im .epub-Format eine bestimmte Codierung verwenden.
+Zeigt, wie beim Speichern eines Dokuments im .epub-Format eine bestimmte Kodierung verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Verwenden Sie ein SaveOptions-Objekt, um die Kodierung für ein zu speicherndes Dokument anzugeben.
+// Verwenden Sie ein SaveOptions-Objekt, um die Codierung für ein Dokument anzugeben, das wir speichern möchten.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Standardmäßig hat ein ausgegebenes .epub-Dokument seinen gesamten Inhalt in einem HTML-Teil.
+// Standardmäßig enthält ein .epub-Ausgabedokument seinen gesamten Inhalt in einem HTML-Teil.
 // Ein Split-Kriterium ermöglicht es uns, das Dokument in mehrere HTML-Teile zu segmentieren.
-// Wir werden die Kriterien festlegen, um das Dokument in Überschriftenabsätze aufzuteilen.
+// Wir legen die Kriterien fest, um das Dokument in Überschriftenabsätze aufzuteilen.
 // Dies ist nützlich für Leser, die keine HTML-Dateien lesen können, die größer als eine bestimmte Größe sind.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 

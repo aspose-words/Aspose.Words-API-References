@@ -1,14 +1,14 @@
 ---
 title: StyleCollection.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection eigendom. Ruft das Besitzerdokument ab.
+description: StyleCollection eigendom. Ruft das Eigentümerdokument ab.
 type: docs
 weight: 40
 url: /de/net/aspose.words/stylecollection/document/
 ---
 ## StyleCollection.Document property
 
-Ruft das Besitzerdokument ab.
+Ruft das Eigentümerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aufzählen und Auflisten aller Stile, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
+// Alle Stile aufzählen und auflisten, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

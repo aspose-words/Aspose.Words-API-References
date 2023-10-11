@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.SpaceAfter
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Abstand in Punkten nach dem Absatz ab oder legt ihn fest.
+description: ParagraphFormat eigendom. Ruft den Abstand in Punkt nach dem Absatz ab oder legt diesen fest.
 type: docs
-weight: 290
+weight: 300
 url: /de/net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
 
-Ruft den Abstand (in Punkten) nach dem Absatz ab oder legt ihn fest.
+Ruft den Abstand (in Punkt) nach dem Absatz ab oder legt diesen fest.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -22,49 +22,49 @@ public double SpaceAfter { get; set; }
 
 ### Bemerkungen
 
-Hat keine Auswirkung wann[`SpaceAfterAuto`](../spaceafterauto/) ist wahr.
+Hat keine Auswirkung, wenn[`SpaceAfterAuto`](../spaceafterauto/) Ist`WAHR`.
 
 Gültige Werte reichen von 0 bis einschließlich 1584.
 
 ### Beispiele
 
-Zeigt, wie Sie den automatischen Absatzabstand festlegen.
+Zeigt, wie der automatische Absatzabstand eingestellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen großen Abstand vor und nach Absätzen anwenden, die dieser Builder erstellt.
+// Einen großen Abstand vor und nach den Absätzen anwenden, die dieser Builder erstellt.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Setzen Sie diese Flags auf "true", um automatische Abstände anzuwenden,
-// Ignoriert effektiv den Abstand in den Eigenschaften, die wir oben festgelegt haben.
-// Lassen Sie sie auf "false", um unseren benutzerdefinierten Absatzabstand anzuwenden.
+// Setzen Sie diese Flags auf „true“, um den automatischen Abstand anzuwenden.
+// Der Abstand in den oben festgelegten Eigenschaften wird effektiv ignoriert.
+// Wenn Sie sie auf „false“ belassen, wird unser benutzerdefinierter Absatzabstand angewendet.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Fügen Sie zwei Absätze ein, die darüber und darunter einen Abstand haben, und speichern Sie das Dokument.
+// Fügen Sie zwei Absätze mit Abstand darüber und darunter ein und speichern Sie das Dokument.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Zeigt, wie kein Abstand zwischen Absätzen mit demselben Stil angewendet wird.
+Zeigt, wie man keinen Abstand zwischen Absätzen mit demselben Stil anwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen großen Abstand vor und nach Absätzen anwenden, die dieser Builder erstellt.
+// Einen großen Abstand vor und nach den Absätzen anwenden, die dieser Builder erstellt.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Setzen Sie das Flag "NoSpaceBetweenParagraphsOfSameStyle" auf "true", um es anzuwenden
-// kein Abstand zwischen Absätzen mit demselben Stil, wodurch ähnliche Absätze gruppiert werden.
-// Lassen Sie das Flag "NoSpaceBetweenParagraphsOfSameStyle" auf "false"
-// um gleichmäßige Abstände auf jeden Absatz anzuwenden.
+// Setzen Sie das Flag „NoSpaceBetweenParagraphsOfSameStyle“ auf „true“, um es anzuwenden
+// Kein Abstand zwischen Absätzen mit demselben Stil, wodurch ähnliche Absätze gruppiert werden.
+// Das Flag „NoSpaceBetweenParagraphsOfSameStyle“ auf „false“ belassen
+// um jedem Absatz gleichmäßige Abstände zuzuweisen.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

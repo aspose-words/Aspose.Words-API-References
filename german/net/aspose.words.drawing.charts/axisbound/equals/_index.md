@@ -1,14 +1,14 @@
 ---
 title: AxisBound.Equals
 second_title: Aspose.Words für .NET-API-Referenz
-description: AxisBound methode. Bestimmt ob das angegebene Objekt im Wert dem aktuellen Objekt entspricht.
+description: AxisBound methode. Bestimmt ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/axisbound/equals/
 ---
 ## AxisBound.Equals method
 
-Bestimmt, ob das angegebene Objekt im Wert dem aktuellen Objekt entspricht.
+Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat.
 
 ```csharp
 public override bool Equals(object obj)

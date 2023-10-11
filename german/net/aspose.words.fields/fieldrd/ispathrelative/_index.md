@@ -16,26 +16,25 @@ public bool IsPathRelative { get; set; }
 
 ### Beispiele
 
-Zeigt die Verwendung des RD-Felds zum Erstellen von Inhaltsverzeichniseinträgen aus Überschriften in anderen Dokumenten.
+Zeigt die Verwendung des RD-Felds zum Erstellen eines Inhaltsverzeichniseintrags aus Überschriften in anderen Dokumenten an.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Document Builder, um ein Inhaltsverzeichnis einzufügen,
+// Einen Document Builder verwenden, um ein Inhaltsverzeichnis einzufügen,
 // und fügen Sie dann einen Eintrag für das Inhaltsverzeichnis auf der folgenden Seite hinzu.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Fügt ein RD-Feld ein, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
-// Das Inhaltsverzeichnis akzeptiert nun auch alle Überschriften aus dem referenzierten Dokument als Einträge für seine Tabelle.
+// Ein RD-Feld einfügen, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
+// Das Inhaltsverzeichnis akzeptiert jetzt auch alle Überschriften aus dem referenzierten Dokument als Einträge für seine Tabelle.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
-field.FileName = "ReferencedDocument.docx";
-field.IsPathRelative = true;
+field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual(" RD  ReferencedDocument.docx \\f", field.GetFieldCode());
+Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
  // Erstellen Sie das Dokument, auf das das RD-Feld verweist, und fügen Sie eine Überschrift ein.
 // Diese Überschrift wird als Eintrag im TOC-Feld in unserem ersten Dokument angezeigt.

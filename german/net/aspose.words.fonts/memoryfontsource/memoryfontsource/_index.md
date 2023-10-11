@@ -16,11 +16,11 @@ public MemoryFontSource(byte[] fontData)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftdaten. |
+| fontData | Byte[] | Binäre Schriftartdaten. |
 
 ### Beispiele
 
-Zeigt, wie ein Bytearray mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
+Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -52,12 +52,12 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftdaten. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Objektbeschreibung für weitere Informationen. |
+| fontData | Byte[] | Binäre Schriftartdaten. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ### Beispiele
 
-Zeigt, wie ein Bytearray mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
+Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -89,16 +89,15 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | Byte[] | Binäre Schriftdaten. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Objektbeschreibung für weitere Informationen. |
-| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Objektbeschreibung für weitere Informationen. |
+| fontData | Byte[] | Binäre Schriftartdaten. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ### Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Font-Cache beschleunigt wird.
+Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des "FontSettings"-Objekts.
+/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

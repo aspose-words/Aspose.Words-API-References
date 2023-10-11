@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Gibt den Anzeigenamen an der diesem strukturierten DokumentTag zugeordnet ist. Darf nicht null sein.
+description: StructuredDocumentTagRangeStart eigendom. Gibt den Anzeigenamen an der diesem strukturierten DokumentTag zugeordnet ist. Kann nicht seinNull .
 type: docs
 weight: 160
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Gibt den Anzeigenamen an, der diesem strukturierten Dokument-Tag zugeordnet ist. Darf nicht null sein.
+Gibt den Anzeigenamen an, der diesem strukturierten Dokument-Tag zugeordnet ist. Kann nicht sein`Null` .
 
 ```csharp
 public string Title { get; set; }

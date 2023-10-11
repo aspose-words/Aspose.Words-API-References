@@ -1,14 +1,14 @@
 ---
 title: CustomPart.Clone
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart methode. Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert die Bytes der nichtData wert.
+description: CustomPart methode. Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes vonData value.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert die Bytes der nicht[`Data`](../data/) wert.
+Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes von[`Data`](../data/) value.
 
 ```csharp
 public CustomPart Clone()
@@ -16,19 +16,19 @@ public CustomPart Clone()
 
 ### Beispiele
 
-Zeigt, wie auf die Sammlung beliebiger benutzerdefinierter Teile eines Dokuments zugegriffen wird.
+Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Den zweiten Teil klonen, dann den Klon zur Sammlung hinzufügen.
+// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Aufzählen über die Sammlung und jeden Teil drucken.
+// Die Sammlung aufzählen und jeden Teil ausdrucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -45,7 +45,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Wir können Elemente aus dieser Sammlung einzeln oder alle auf einmal entfernen.
+// Wir können Elemente einzeln oder alle auf einmal aus dieser Sammlung entfernen.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

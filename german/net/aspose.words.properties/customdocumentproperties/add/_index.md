@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomDocumentProperties methode. Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des PropertyType.String Datentyp.
+description: CustomDocumentProperties methode. Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desString Datentyp.
 type: docs
 weight: 10
 url: /de/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.String** Datentyp.
+Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desString Datentyp.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -25,7 +25,7 @@ Das neu erstellte Eigenschaftsobjekt.
 
 ### Beispiele
 
-Zeigt, wie Sie mit den benutzerdefinierten Eigenschaften eines Dokuments arbeiten.
+Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -51,18 +51,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mit einem DOCPROPERTY-Feld an.
+// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir finden diese benutzerdefinierten Eigenschaften in Microsoft Word über "Datei" -> "Eigenschaften" > „Erweiterte Eigenschaften“ > "Brauch".
+// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nachfolgend finden Sie drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument.
-// 1 - Entfernen nach Index:
+// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
+// 1 - Nach Index entfernen:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -74,7 +74,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Die gesamte Sammlung auf einmal leeren:
+// 3 – Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Number** Datentyp.
+Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desNumber Datentyp.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -108,7 +108,7 @@ Das neu erstellte Eigenschaftsobjekt.
 
 ### Beispiele
 
-Zeigt, wie Sie mit den benutzerdefinierten Eigenschaften eines Dokuments arbeiten.
+Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -134,18 +134,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mit einem DOCPROPERTY-Feld an.
+// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir finden diese benutzerdefinierten Eigenschaften in Microsoft Word über "Datei" -> "Eigenschaften" > „Erweiterte Eigenschaften“ > "Brauch".
+// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nachfolgend finden Sie drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument.
-// 1 - Entfernen nach Index:
+// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
+// 1 - Nach Index entfernen:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -157,7 +157,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Die gesamte Sammlung auf einmal leeren:
+// 3 – Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.DateTime** Datentyp.
+Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desDateTime Datentyp.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -201,7 +201,7 @@ doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
 Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
 ```
 
-Zeigt, wie Sie mit den benutzerdefinierten Eigenschaften eines Dokuments arbeiten.
+Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -227,18 +227,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mit einem DOCPROPERTY-Feld an.
+// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir finden diese benutzerdefinierten Eigenschaften in Microsoft Word über "Datei" -> "Eigenschaften" > „Erweiterte Eigenschaften“ > "Brauch".
+// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nachfolgend finden Sie drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument.
-// 1 - Entfernen nach Index:
+// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
+// 1 - Nach Index entfernen:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -250,7 +250,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Die gesamte Sammlung auf einmal leeren:
+// 3 – Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Boolean** Datentyp.
+Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desBoolean Datentyp.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -284,7 +284,7 @@ Das neu erstellte Eigenschaftsobjekt.
 
 ### Beispiele
 
-Zeigt, wie Sie mit den benutzerdefinierten Eigenschaften eines Dokuments arbeiten.
+Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -310,18 +310,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mit einem DOCPROPERTY-Feld an.
+// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir finden diese benutzerdefinierten Eigenschaften in Microsoft Word über "Datei" -> "Eigenschaften" > „Erweiterte Eigenschaften“ > "Brauch".
+// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nachfolgend finden Sie drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument.
-// 1 - Entfernen nach Index:
+// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
+// 1 - Nach Index entfernen:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -333,7 +333,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Die gesamte Sammlung auf einmal leeren:
+// 3 – Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Float** Datentyp.
+Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desDouble Datentyp.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -367,7 +367,7 @@ Das neu erstellte Eigenschaftsobjekt.
 
 ### Beispiele
 
-Zeigt, wie Sie mit den benutzerdefinierten Eigenschaften eines Dokuments arbeiten.
+Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -393,18 +393,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mit einem DOCPROPERTY-Feld an.
+// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir finden diese benutzerdefinierten Eigenschaften in Microsoft Word über "Datei" -> "Eigenschaften" > „Erweiterte Eigenschaften“ > "Brauch".
+// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nachfolgend finden Sie drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument.
-// 1 - Entfernen nach Index:
+// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
+// 1 - Nach Index entfernen:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -416,7 +416,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Die gesamte Sammlung auf einmal leeren:
+// 3 – Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

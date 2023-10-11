@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Hash
 second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Repräsentiert den HashCode für diesen Datensatz. Manchmal wird Microsoft Word verwendetHash eines ganzen Datensatzes statt aUniqueTag value. Der Standardwert ist 0.
+description: OdsoRecipientData eigendom. Stellt den Hashcode für diesen Datensatz dar. Manchmal verwendet Microsoft WordHash eines ganzen Datensatzes statt einesUniqueTag value. Der Standardwert ist 0.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Repräsentiert den Hash-Code für diesen Datensatz. Manchmal wird Microsoft Word verwendet`Hash` eines ganzen Datensatzes statt a[`UniqueTag`](../uniquetag/) value. Der Standardwert ist 0.
+Stellt den Hashcode für diesen Datensatz dar. Manchmal verwendet Microsoft Word`Hash` eines ganzen Datensatzes statt eines[`UniqueTag`](../uniquetag/) value. Der Standardwert ist 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -16,7 +16,7 @@ public int Hash { get; set; }
 
 ### Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellen-Datensätze bei einem Seriendruck ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch einzelne Elemente entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

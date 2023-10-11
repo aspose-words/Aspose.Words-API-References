@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignatureLineImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Bild das im Zusammenhang angezeigt wirdSignatureLine . Standardwert istNull .
+description: SignOptions eigendom. Das Bild das im Zusammenhang angezeigt wirdSignatureLine . Der Standardwert istNull .
 type: docs
 weight: 60
 url: /de/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-Das Bild, das im Zusammenhang angezeigt wird[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . Standardwert ist`Null` .
+Das Bild, das im Zusammenhang angezeigt wird[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . Der Standardwert ist`Null` .
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }
@@ -16,10 +16,11 @@ public byte[] SignatureLineImage { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument eine Signaturzeile hinzufügen und es dann mit einem digitalen Zertifikat signieren.
+Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -38,7 +39,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Informationen zum Unterzeichner und dem X509-Zertifikat signiert wurde.
+        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Unterzeichnerinformationen und dem X509-Zertifikat signiert wurde.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -67,7 +68,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Überschreiben Sie das unsignierte Dokument, das wir oben gespeichert haben, mit einer Version, die mit dem Zertifikat signiert wurde.
+            // Überschreiben Sie das oben gespeicherte unsignierte Dokument mit einer mit dem Zertifikat signierten Version.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

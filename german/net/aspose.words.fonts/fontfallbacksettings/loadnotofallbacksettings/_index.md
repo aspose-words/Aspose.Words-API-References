@@ -16,19 +16,19 @@ public void LoadNotoFallbackSettings()
 
 ### Beispiele
 
-Zeigt, wie Sie vordefinierte Font-Fallback-Einstellungen für Google Noto-Schriftarten hinzufügen.
+Zeigt, wie man vordefinierte Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten hinzufügt.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 
 // Dies sind kostenlose Schriftarten, die unter der SIL Open Font License lizenziert sind.
-// Wir können die Schriftarten hier herunterladen:
+// Die Schriftarten können wir hier herunterladen:
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
- // Beachten Sie, dass die vordefinierten Einstellungen nur Noto-Schriftarten im Sans-Stil mit normaler Stärke verwenden.
-// Einige der Noto-Fonts verwenden erweiterte Typografiefunktionen.
-// Schriftarten mit erweiterter Typografie werden möglicherweise nicht korrekt gerendert, da Aspose.Words sie derzeit nicht unterstützen.
+ // Beachten Sie, dass in den vordefinierten Einstellungen nur Noto-Schriftarten im Sans-Stil mit normaler Stärke verwendet werden.
+// Einige der Noto-Schriftarten verwenden erweiterte Typografiefunktionen.
+// Schriftarten mit erweiterter Typografie werden möglicherweise nicht korrekt wiedergegeben, da Aspose.Words sie derzeit nicht unterstützt.
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Noto Sans";
@@ -46,18 +46,18 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Speichern Sie das Standard-Fallback-Schriftschema in einem XML-Dokument.
-// Zum Beispiel hat eines der Elemente einen Wert von "0C00-0C7F" für Range und einen entsprechenden "Vani"-Wert für FallbackFonts.
+// Speichern Sie das Standard-Fallback-Schriftartschema in einem XML-Dokument.
+// Beispielsweise hat eines der Elemente den Wert „0C00-0C7F“ für Range und einen entsprechenden „Vani“-Wert für FallbackFonts.
 // Dies bedeutet, dass, wenn die Schriftart, die ein Text verwendet, keine Symbole für den Unicode-Block 0x0C00-0x0C7F enthält,
-// Das Fallback-Schema verwendet Symbole aus dem Schriftersatz "Vani".
+// Das Fallback-Schema verwendet Symbole aus der Schriftart „Vani“.
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// Unten sind zwei vordefinierte Font-Fallback-Schemata, aus denen wir wählen können.
-// 1 - Verwenden Sie das standardmäßige Microsoft Office-Schema, das mit dem Standardschema identisch ist:
+// Nachfolgend finden Sie zwei vordefinierte Schriftart-Fallback-Schemata, aus denen wir wählen können.
+// 1 – Verwenden Sie das Standardschema von Microsoft Office, das mit dem Standardschema identisch ist:
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 
-// 2 - Verwenden Sie das Schema, das aus Google Noto-Schriftarten erstellt wurde:
+// 2 – Verwenden Sie das aus Google Noto-Schriftarten erstellte Schema:
 fontFallbackSettings.LoadNotoFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```

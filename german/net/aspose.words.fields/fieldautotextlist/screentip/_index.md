@@ -1,14 +1,14 @@
 ---
 title: FieldAutoTextList.ScreenTip
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoTextList eigendom. Ruft den anzuzeigenden Text der QuickInfo ab oder legt ihn fest.
+description: FieldAutoTextList eigendom. Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-Ruft den anzuzeigenden Text der QuickInfo ab oder legt ihn fest.
+Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -19,10 +19,11 @@ public string ScreenTip { get; set; }
 Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Erstellen Sie ein Glossardokument und füllen Sie es mit automatischen Texteinträgen.
+    // Ein Glossardokument erstellen und es mit automatischen Texteinträgen füllen.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -31,8 +32,8 @@ Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Erstellen Sie ein AUTOTEXTLIST-Feld und legen Sie den Text fest, den das Feld in Microsoft Word anzeigen soll.
-    // Legen Sie den Text fest, um den Benutzer aufzufordern, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen,
-    // dessen Inhalt das Feld anzeigen wird.
+    // Legen Sie den Text so fest, dass der Benutzer aufgefordert wird, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen.
+    // dessen Inhalt das Feld anzeigt.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";
@@ -43,6 +44,7 @@ Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
 /// Erstellen Sie einen Baustein vom Typ AutoText und fügen Sie ihn einem Glossardokument hinzu.

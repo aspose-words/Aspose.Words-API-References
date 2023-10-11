@@ -3,7 +3,7 @@ title: ImageSaveOptions.PixelFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: ImageSaveOptions eigendom. Ruft das Pixelformat für die generierten Bilder ab oder legt es fest.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
@@ -16,7 +16,7 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wirkt sich nur beim Speichern in Rasterbildformaten aus.
+Diese Eigenschaft ist nur beim Speichern in Rasterbildformaten wirksam.
 
 Der Standardwert istFormat32BppArgb.
 
@@ -24,7 +24,7 @@ Das Pixelformat des Ausgabebildes kann aufgrund der Arbeit von GDI+ vom eingeste
 
 ### Beispiele
 
-Zeigt, wie Sie eine Bit-pro-Pixel-Rate auswählen, mit der ein Dokument in ein Bild gerendert wird.
+Zeigt, wie Sie eine Bit-pro-Pixel-Rate auswählen, mit der ein Dokument in ein Bild gerendert werden soll.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-            // Wählen Sie ein Pixelformat für das Bild aus, das der Speichervorgang generiert.
+            // Wählen Sie ein Pixelformat für das Bild aus, das durch den Speichervorgang generiert wird.
             // Verschiedene Bit-pro-Pixel-Raten wirken sich auf die Qualität und Dateigröße des generierten Bildes aus.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;

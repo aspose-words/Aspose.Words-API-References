@@ -3,7 +3,7 @@ title: Enum ShapeLineStyle
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.ShapeLineStyle opsomming. Gibt den zusammengesetzten Linienstil von a anShape .
 type: docs
-weight: 1120
+weight: 1270
 url: /de/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -18,16 +18,16 @@ public enum ShapeLineStyle
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Single | `0` | Einzeilig. |
+| Single | `0` | Einzelzeile. |
 | Double | `1` | Doppelte Linien gleicher Breite. |
-| ThickThin | `2` | Doppelte Linien, eine dicke, eine dünne. |
+| ThickThin | `2` | Doppelte Linien, eine dick, eine dünn. |
 | ThinThick | `3` | Doppelte Linien, eine dünne, eine dicke. |
 | Triple | `4` | Drei Linien, dünn, dick, dünn. |
-| Default | `0` | Standardwert istSingle . |
+| Default | `0` | Der Standardwert istSingle . |
 
 ### Beispiele
 
-Zeigt, wie Stricheigenschaften geändert werden.
+Zeigt, wie sich die Stricheigenschaften ändern.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Grundformen wie das Rechteck haben zwei sichtbare Teile.
-// 1 - Die Füllung, die für den Bereich innerhalb des Umrisses der Form gilt:
+// Grundformen wie das Rechteck bestehen aus zwei sichtbaren Teilen.
+// 1 – Die Füllung, die auf den Bereich innerhalb des Umrisses der Form angewendet wird:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Der Strich, der den Umriss der Form markiert:
+// 2 – Der Strich, der den Umriss der Form markiert:
 // Verschiedene Eigenschaften des Strichs dieser Form ändern.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
@@ -50,6 +50,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: FileFormatUtil methode. Erkennt Informationen über ein Format eines Dokuments das in einer Festplattendatei gespeichert ist und gibt sie zurück.
+description: FileFormatUtil methode. Erkennt und gibt die Informationen über ein Format eines Dokuments zurück das in einer Festplattendatei gespeichert ist.
 type: docs
 weight: 30
 url: /de/net/aspose.words/fileformatutil/detectfileformat/
 ---
 ## DetectFileFormat(string) {#detectfileformat_1}
 
-Erkennt Informationen über ein Format eines Dokuments, das in einer Festplattendatei gespeichert ist, und gibt sie zurück.
+Erkennt und gibt die Informationen über ein Format eines Dokuments zurück, das in einer Festplattendatei gespeichert ist.
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(string fileName)
@@ -20,13 +20,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 ### Rückgabewert
 
-EIN[`FileFormatInfo`](../../fileformatinfo/) Objekt, das die erkannten Informationen enthält.
+A[`FileFormatInfo`](../../fileformatinfo/) Objekt, das die erkannten Informationen enthält.
 
 ### Bemerkungen
 
-Selbst wenn diese Methode das Dokumentformat erkennt, garantiert sie nicht, dass das angegebene Dokument gültig ist. Diese Methode erkennt nur das Dokumentformat, indem Daten gelesen werden, die für die Erkennung ausreichen. Um vollständig zu überprüfen, ob ein Dokument gültig ist müssen Sie das Dokument in a laden[`Document`](../../document/) Objekt.
+Auch wenn diese Methode das Dokumentformat erkennt, garantiert sie nicht, dass das angegebene Dokument gültig ist. Diese Methode erkennt das Dokumentformat nur durch Lesen von Daten, die für die Erkennung ausreichend sind. Um vollständig zu überprüfen, ob ein Dokument gültig ist, müssen Sie das Dokument in ein laden[`Document`](../../document/) Objekt.
 
-Diese Methode wirft[`FileCorruptedException`](../../filecorruptedexception/) wenn das Format erkannt wird, die Erkennung jedoch wegen Beschädigung nicht abgeschlossen werden kann.
+Diese Methode wirft[`FileCorruptedException`](../../filecorruptedexception/) wenn das Format erkannt wird, die Erkennung jedoch aufgrund einer Beschädigung nicht abgeschlossen werden kann.
 
 ### Beispiele
 
@@ -36,7 +36,7 @@ Zeigt, wie die FileFormatUtil-Klasse verwendet wird, um das Dokumentformat und d
 Document doc = new Document();
 
 // Konfigurieren Sie ein SaveOptions-Objekt, um das Dokument zu verschlüsseln
-// mit einem Passwort, wenn wir es speichern, und speichern Sie dann das Dokument.
+// mit einem Passwort, wenn wir es speichern, und dann das Dokument speichern.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -67,7 +67,7 @@ info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatu
 
 Assert.True(info.HasDigitalSignature);
 
-// Wir können die Signaturen eines signierten Dokuments in einer Sammlung wie dieser laden und darauf zugreifen.
+// Wir können die Signaturen eines signierten Dokuments in einer solchen Sammlung laden und darauf zugreifen.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
@@ -94,24 +94,24 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 ### Rückgabewert
 
-EIN[`FileFormatInfo`](../../fileformatinfo/) Objekt, das die erkannten Informationen enthält.
+A[`FileFormatInfo`](../../fileformatinfo/) Objekt, das die erkannten Informationen enthält.
 
 ### Bemerkungen
 
 Der Stream muss am Anfang des Dokuments positioniert werden.
 
-Wenn diese Methode zurückkehrt, wird die Position im Stream an der ursprünglichen Position wiederhergestellt.
+Wenn diese Methode zurückkehrt, wird die Position im Stream auf die ursprüngliche Position zurückgesetzt.
 
-Selbst wenn diese Methode das Dokumentformat erkennt, garantiert sie nicht, dass das angegebene Dokument gültig ist. Diese Methode erkennt nur das Dokumentformat, indem Daten gelesen werden, die für die Erkennung ausreichen. Um vollständig zu überprüfen, ob ein Dokument gültig ist müssen Sie das Dokument in a laden[`Document`](../../document/) Objekt.
+Auch wenn diese Methode das Dokumentformat erkennt, garantiert sie nicht, dass das angegebene Dokument gültig ist. Diese Methode erkennt das Dokumentformat nur durch Lesen von Daten, die für die Erkennung ausreichend sind. Um vollständig zu überprüfen, ob ein Dokument gültig ist, müssen Sie das Dokument in ein laden[`Document`](../../document/) Objekt.
 
-Diese Methode wirft[`FileCorruptedException`](../../filecorruptedexception/) wenn das Format erkannt wird, die Erkennung jedoch wegen Beschädigung nicht abgeschlossen werden kann.
+Diese Methode wirft[`FileCorruptedException`](../../filecorruptedexception/) wenn das Format erkannt wird, die Erkennung jedoch aufgrund einer Beschädigung nicht abgeschlossen werden kann.
 
 ### Beispiele
 
 Zeigt, wie die FileFormatUtil-Methoden verwendet werden, um das Format eines Dokuments zu erkennen.
 
 ```csharp
-// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und erkennen Sie dann das Dateiformat.
+// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und ermitteln Sie dann das Dateiformat.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -119,15 +119,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Unten sind zwei Methoden zum Konvertieren eines LoadFormats in sein entsprechendes SaveFormat.
-    // 1 - Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat, dann erhalten Sie das entsprechende SaveFormat aus dieser Zeichenfolge:
+    // Nachfolgend finden Sie zwei Methoden zum Konvertieren eines LoadFormats in das entsprechende SaveFormat.
+    // 1 – Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat und dann das entsprechende SaveFormat aus dieser Zeichenfolge:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Konvertiere das LoadFormat direkt in sein SaveFormat:
+    // 2 – Konvertieren Sie das LoadFormat direkt in sein SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann in der automatisch erkannten Dateierweiterung.
+    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann mit der automatisch erkannten Dateierweiterung.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

@@ -1,14 +1,16 @@
 ---
 title: Class ChartLegend
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartLegend klas. Repräsentiert Diagrammlegendeneigenschaften.
+description: Aspose.Words.Drawing.Charts.ChartLegend klas. Stellt die Eigenschaften der Diagrammlegende dar.
 type: docs
-weight: 680
+weight: 720
 url: /de/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
-Repräsentiert Diagrammlegendeneigenschaften.
+Stellt die Eigenschaften der Diagrammlegende dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
 ```csharp
 public class ChartLegend
@@ -18,9 +20,9 @@ public class ChartLegend
 
 | Name | Beschreibung |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Gibt eine Sammlung von Legendeneinträgen für alle Reihen und Trendlinien des übergeordneten Charts zurück. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert ist „false“. |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Gibt die Position der Legende auf einem Diagramm an. Standardwert istRight . |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Gibt eine Sammlung von Legendeneinträgen für alle Serien und Trendlinien des übergeordneten Diagramms zurück. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert ist`FALSCH` . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Gibt die Position der Legende in einem Diagramm an. Der Standardwert istRight . |
 
 ### Beispiele
 
@@ -38,11 +40,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Bewegen Sie die Legende des Diagramms in die obere rechte Ecke.
+// Die Legende des Diagramms in die obere rechte Ecke verschieben.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Geben Sie anderen Diagrammelementen wie dem Diagramm mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
+// Geben Sie anderen Diagrammelementen, z. B. dem Diagramm, mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

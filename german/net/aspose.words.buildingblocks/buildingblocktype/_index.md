@@ -1,14 +1,14 @@
 ---
 title: Enum BuildingBlockType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BuildingBlocks.BuildingBlockType opsomming. Gibt einen Bausteintyp an. Der Typ kann die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word beeinflussen.
+description: Aspose.Words.BuildingBlocks.BuildingBlockType opsomming. Gibt einen Bausteintyp an. Der Typ kann sich auf die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word auswirken.
 type: docs
-weight: 160
+weight: 170
 url: /de/net/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enumeration
 
-Gibt einen Bausteintyp an. Der Typ kann die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word beeinflussen.
+Gibt einen Bausteintyp an. Der Typ kann sich auf die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word auswirken.
 
 ```csharp
 public enum BuildingBlockType
@@ -22,8 +22,8 @@ public enum BuildingBlockType
 | AutomaticallyReplaceNameWithContent | `1` | Ermöglicht das automatische Einfügen des Bausteins in das Dokument, wenn sein Name in eine Anwendung eingegeben wird. |
 | StructuredDocumentTagPlaceholderText | `2` | Der Baustein ist ein strukturierter Dokument-Tag-Platzhaltertext. |
 | FormFieldHelpText | `3` | Der Baustein ist ein Formularfeld-Hilfetext. |
-| Normal | `4` | Der Baustein ist ein normaler (dh regulärer) Glossardokumenteintrag. |
-| AutoCorrect | `5` | Der Baustein ist den Rechtschreib- und Grammatiktools zugeordnet. |
+| Normal | `4` | Der Baustein ist ein normaler (d. h. regulärer) Glossardokumenteintrag. |
+| AutoCorrect | `5` | Der Baustein ist mit den Rechtschreib- und Grammatiktools verknüpft. |
 | AutoText | `6` | Der Baustein ist ein AutoText-Eintrag. |
 | All | `7` | Der Baustein ist allen Typen zugeordnet. |
 | Default | `0` | Speichern unterNone . |
@@ -34,7 +34,7 @@ Entspricht dem **ST_DocPartType** Geben Sie OOXML ein.
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument einen benutzerdefinierten Baustein hinzufügen.
+Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
 ```csharp
 public void CreateAndInsert()
@@ -52,31 +52,30 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert zuweisen.
+    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert geben.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Die folgenden Eigenschaften kategorisieren Bausteine
-    // im Menü können wir in Microsoft Word über "Einfügen" -> "Schnelle Teile" -> "Baustein-Organizer".
+    // in das Menü gelangen wir in Microsoft Word über „Einfügen“ -> „Schnellteile“ -> „Baustein-Organizer“.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
     // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einige Inhalte geben,
-    // was wir mit einem Dokumentenbesucher tun werden. Dieser Besucher legt auch eine Kategorie, eine Galerie und ein Verhalten fest.
+    // was wir mit einem Dokumentbesucher tun werden. Dieser Besucher legt außerdem eine Kategorie, eine Galerie und ein Verhalten fest.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
-    // Wir können auf den Block zugreifen, den wir gerade aus dem Glossardokument erstellt haben.
+    // Wir können über das Glossardokument auf den Block zugreifen, den wir gerade erstellt haben.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Der Block selbst ist ein Abschnitt, der den Text enthält.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Jetzt können wir es als neuen Abschnitt in das Dokument einfügen.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
@@ -85,7 +84,7 @@ public void CreateAndInsert()
 }
 
 /// <summary>
-/// Richtet einen besuchten Baustein ein, der als schneller Teil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
+/// Richtet einen besuchten Baustein ein, der als Schnellteil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -97,14 +96,14 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die von Building Blocks Organizer verwendet werden.
+        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Abschnitt mit Text hinzufügen.
+        // Einen Abschnitt mit Text hinzufügen.
         // Durch das Einfügen des Blocks in das Dokument wird dieser Abschnitt mit seinen untergeordneten Knoten an der Position angehängt.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);

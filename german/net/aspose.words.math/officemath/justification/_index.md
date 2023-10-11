@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.Justification
 second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Ruft Office MathAusrichtung ab/legt sie fest.
+description: OfficeMath eigendom. Ruft die Office MathBegründung ab bzw. legt sie fest.
 type: docs
-weight: 30
+weight: 20
 url: /de/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-Ruft Office Math-Ausrichtung ab/legt sie fest.
+Ruft die Office Math-Begründung ab bzw. legt sie fest.
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -16,31 +16,28 @@ public OfficeMathJustification Justification { get; set; }
 
 ### Bemerkungen
 
-Die Ausrichtung kann nicht auf Office Math mit Anzeigeformattyp eingestellt werdenInline.
+Die Ausrichtung kann nicht auf den Anzeigeformattyp „Office Math“ eingestellt werdenInline.
 
-Die Inline-Ausrichtung kann nicht auf den Formattyp Office Math mit Anzeigeformat festgelegt werdenDisplay.
+Die Inline-Ausrichtung kann nicht auf den Anzeigeformattyp „Office Math“ eingestellt werdenDisplay.
 
 Dazugehörigen[`DisplayType`](../displaytype/) muss vor dem Festlegen der Office Math-Ausrichtung festgelegt werden.
 
 ### Beispiele
 
-Zeigt, wie die Anzeigeformatierung für Office-Mathematik eingestellt wird.
+Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// OfficeMath-Knoten, die Kinder anderer OfficeMath-Knoten sind, sind immer inline.
-// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, um seine Position und seinen Anzeigetyp zu ändern.
+// OfficeMath-Knoten, die anderen OfficeMath-Knoten untergeordnet sind, sind immer inline.
+// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, um seinen Standort und Anzeigetyp zu ändern.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// OOXML- und WML-Formate verwenden die Eigenschaft "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Position und Anzeigetyp des OfficeMath-Knotens ändern.
+// Ändern Sie den Speicherort und den Anzeigetyp des OfficeMath-Knotens.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

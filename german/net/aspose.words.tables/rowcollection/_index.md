@@ -1,14 +1,16 @@
 ---
 title: Class RowCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.RowCollection klas. Bietet getippten Zugriff auf eine Sammlung vonRow Knoten.
+description: Aspose.Words.Tables.RowCollection klas. Bietet typisierten Zugriff auf eine Sammlung vonRow Knoten.
 type: docs
-weight: 6020
+weight: 6320
 url: /de/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
-Bietet getippten Zugriff auf eine Sammlung von[`Row`](../row/) Knoten.
+Bietet typisierten Zugriff auf eine Sammlung von[`Row`](../row/) Knoten.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Tabellen](https://docs.aspose.com/words/net/working-with-tables/) Dokumentationsartikel.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,16 +21,16 @@ public class RowCollection : NodeCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ruft die Anzahl der Knoten in der Sammlung ab. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Ruft a **Die Zeile** am angegebenen Index. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Ruft a ab[`Row`](../row/) am angegebenen Index. (2 indexers) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt am Ende der Sammlung einen Knoten hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob sich ein Knoten in der Sammlung befindet. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im "foreach"-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
@@ -37,7 +39,7 @@ public class RowCollection : NodeCollection
 
 ### Beispiele
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -51,7 +53,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die "ToArray"-Methode für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -61,7 +63,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die "ToArray"-Methode für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

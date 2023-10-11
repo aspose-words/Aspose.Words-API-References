@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt einen Hyperlink in das Dokument ein.
 type: docs
-weight: 340
+weight: 370
 url: /de/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -17,12 +17,12 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | displayText | String | Text des Links, der im Dokument angezeigt werden soll. |
-| urlOrBookmark | String | Linkziel. Kann eine URL oder der Name eines Lesezeichens innerhalb des Dokuments sein. Diese Methode fügt immer Apostrophe am Anfang und am Ende der URL hinzu. |
-| isBookmark | Boolean | True, wenn der vorherige Parameter ein Name eines Lesezeichens im Dokument ist; false, wenn der vorherige Parameter eine URL ist. |
+| urlOrBookmark | String | Linkziel. Kann eine URL oder der Name eines Lesezeichens im Dokument sein. Diese Methode fügt immer Apostrophe am Anfang und Ende der URL hinzu. |
+| isBookmark | Boolean | `WAHR` wenn der vorherige Parameter ein Name eines Lesezeichens im Dokument ist; `FALSCH` ist der vorherige Parameter eine URL. |
 
 ### Rückgabewert
 
-EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
+A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
 ### Bemerkungen
 
@@ -43,8 +43,8 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Fügen Sie ein HYPERLINK-Feld ein, das auf das Lesezeichen verweist. Wir können Feldschalter passieren
-// an die Methode "InsertHyperlink" als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
+// Ein HYPERLINK-Feld einfügen, das auf das Lesezeichen verweist. Wir können Feldschalter passieren
+// an die Methode „InsertHyperlink“ als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
@@ -52,7 +52,7 @@ builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
-Zeigt, wie ein Hyperlink-Feld eingefügt wird.
+Zeigt, wie ein Hyperlinkfeld eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -60,19 +60,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Hyperlink einfügen und mit benutzerdefinierter Formatierung hervorheben.
-// Der Hyperlink ist ein anklickbares Textstück, das uns zu der in der URL angegebenen Stelle führt.
+// Einen Hyperlink einfügen und ihn mit benutzerdefinierter Formatierung hervorheben.
+// Der Hyperlink ist ein anklickbarer Text, der uns zu dem in der URL angegebenen Ort führt.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", falsch);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Strg + Linksklick auf den Link im Text in Microsoft Word bringt uns über ein neues Webbrowser-Fenster zur URL.
+// Strg + Linksklick auf den Link im Text in Microsoft Word führt uns über ein neues Webbrowser-Fenster zur URL.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
-Zeigt, wie der Formatierungsstapel eines Dokumenterstellers verwendet wird.
+Zeigt, wie der Formatierungsstapel eines Document Builders verwendet wird.
 
 ```csharp
 Document doc = new Document();
@@ -83,17 +83,17 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Unsere aktuelle Formatierungskonfiguration auf dem Stack beibehalten.
+// Behalten Sie unsere aktuelle Formatierungskonfiguration auf dem Stapel bei.
 builder.PushFont();
 
 // Ändern Sie die aktuelle Formatierung des Builders, indem Sie einen neuen Stil anwenden.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", falsch);
+builder.InsertHyperlink("here", "http://www.google.com", false);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Stellen Sie die zuvor gespeicherte Schriftformatierung wieder her und entfernen Sie das Element aus dem Stapel.
+// Stellen Sie die zuvor gespeicherte Schriftartformatierung wieder her und entfernen Sie das Element vom Stapel.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

@@ -3,12 +3,14 @@ title: Class Hyphenation
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Hyphenation klas. Stellt Methoden zum Arbeiten mit Silbentrennungswörterbüchern bereit. Diese Wörterbücher schreiben vor wo Wörter einer bestimmten Sprache getrennt werden können.
 type: docs
-weight: 2970
+weight: 3150
 url: /de/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
 Stellt Methoden zum Arbeiten mit Silbentrennungswörterbüchern bereit. Diese Wörterbücher schreiben vor, wo Wörter einer bestimmten Sprache getrennt werden können.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Silbentrennung](https://docs.aspose.com/words/net/working-with-hyphenation/) Dokumentationsartikel.
 
 ```csharp
 public static class Hyphenation
@@ -18,39 +20,40 @@ public static class Hyphenation
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Ruft die Callback-Schnittstelle ab oder legt sie fest, die zum Anfordern von Wörterbüchern verwendet wird, wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht das verzögerte Laden von Wörterbüchern, was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann. |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Wird während des Ladens von Silbentrennungsmustern aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
+| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Ruft die Rückrufschnittstelle ab oder legt sie fest, die zum Anfordern von Wörterbüchern verwendet wird, wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht ein verzögertes Laden von Wörterbüchern, was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann. |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Wird während des Ladens von Silbentrennungsmustern aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Gibt „False“ zurück, wenn für die angegebene Sprache kein Wörterbuch registriert ist, oder wenn „Registriert“ ein Null-Wörterbuch ist, andernfalls True. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Gibt zurück`FALSCH` wenn für die angegebene Sprache kein Wörterbuch registriert ist oder wenn registriert ein Null-Wörterbuch ist,`WAHR` sonst. |
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einem Stream. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus einer Datei. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Deregistriert ein Silbentrennungswörterbuch für die angegebene Sprache. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registriert und lädt ein Silbentrennungswörterbuch für die angegebene Sprache aus der Datei. Wird ausgelöst, wenn das Wörterbuch nicht gelesen werden kann oder ein ungültiges Format hat. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Hebt die Registrierung eines Silbentrennungswörterbuchs für die angegebene Sprache auf. |
 
 ### Beispiele
 
-Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
+Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Richten Sie einen Rückruf ein, der Warnungen verfolgt, die während der Registrierung des Silbentrennungswörterbuchs auftreten.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch nach Stream.
+    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch per Stream.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer nicht trennen darf, z. B. Deutsch.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode "de-CH".
-    // Dieser Rückruf behandelt die automatische Anfrage für dieses Wörterbuch.
+    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.

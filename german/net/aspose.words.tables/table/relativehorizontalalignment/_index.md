@@ -1,14 +1,14 @@
 ---
 title: Table.RelativeHorizontalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die relative horizontale Ausrichtung der FloatingTabelle ab oder legt sie fest.
+description: Table eigendom. Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt sie fest.
 type: docs
 weight: 230
 url: /de/net/aspose.words.tables/table/relativehorizontalalignment/
 ---
 ## Table.RelativeHorizontalAlignment property
 
-Ruft die relative horizontale Ausrichtung der Floating-Tabelle ab oder legt sie fest.
+Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt sie fest.
 
 ```csharp
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Position von Floating-Tabellen festgelegt wird.
+Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Setzen Sie die Position der Tabelle auf eine Stelle auf der Seite, wie in diesem Fall die untere rechte Ecke.
+// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die rechte untere Ecke.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Wir können auch einen horizontalen und vertikalen Abstand in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben. 
+ // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

@@ -44,16 +44,16 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 // Jeden Abschnitt durchlaufen und Fußzeilen aller Art entfernen.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Es gibt drei Arten von Fußzeilen- und Kopfzeilentypen.
-    // 1 - Die "erste" Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts erscheint.
+    // Es gibt drei Arten von Fuß- und Kopfzeilentypen.
+    // 1 – Die „erste“ Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts erscheint.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - Die "primäre" Kopf-/Fußzeile, die auf ungeraden Seiten erscheint.
+    // 2 – Die „primäre“ Kopf-/Fußzeile, die auf ungeraden Seiten erscheint.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - Die "gerade" Kopf-/Fußzeile, die auf geraden Seiten erscheint.
+     // 3 – Die „gerade“ Kopf-/Fußzeile, die auf geraden Seiten erscheint.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

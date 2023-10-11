@@ -3,7 +3,7 @@ title: Document.RemovePersonalInformation
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document eigendom. Ruft ein Flag ab oder setzt es das angibt dass Microsoft Word beim Speichern des Dokuments alle Benutzerinformationen aus Kommentaren Überarbeitungen und Dokumenteigenschaften entfernt.
 type: docs
-weight: 320
+weight: 340
 url: /de/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
@@ -16,13 +16,13 @@ public bool RemovePersonalInformation { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie das Entfernen persönlicher Informationen während einer manuellen Speicherung aktivieren.
+Zeigt, wie das Entfernen persönlicher Informationen während eines manuellen Speicherns aktiviert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inhalt mit persönlichen Informationen einfügen.
+// Fügen Sie Inhalte mit persönlichen Informationen ein.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 doc.BuiltInDocumentProperties.Company = "Placeholder Inc.";
 
@@ -35,7 +35,7 @@ doc.StopTrackRevisions();
 doc.RemovePersonalInformation = saveWithoutPersonalInfo;
 
 // Diese Option wird während eines Speichervorgangs mit Aspose.Words nicht wirksam.
-// Personenbezogene Daten werden aus unserem Dokument mit gesetztem Flag entfernt, wenn wir es manuell mit Microsoft Word speichern.
+// Persönliche Daten werden mit gesetztem Flag aus unserem Dokument entfernt, wenn wir es manuell mit Microsoft Word speichern.
 doc.Save(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 doc = new Document(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 

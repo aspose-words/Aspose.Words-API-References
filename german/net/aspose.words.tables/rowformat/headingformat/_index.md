@@ -1,14 +1,14 @@
 ---
 title: RowFormat.HeadingFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Wahr wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird wenn die Tabelle mehr als eine Seite umfasst.
+description: RowFormat eigendom. True wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird wenn die Tabelle mehr als eine Seite umfasst.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-Wahr, wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird, wenn die Tabelle mehr als eine Seite umfasst.
+True, wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird, wenn die Tabelle mehr als eine Seite umfasst.
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -16,7 +16,7 @@ public bool HeadingFormat { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine Tabelle mit Zeilen erstellt wird, die sich auf jeder Seite wiederholen.
+Zeigt, wie man eine Tabelle mit Zeilen erstellt, die sich auf jeder Seite wiederholen.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Alle eingefügten Zeilen, während das "HeadingFormat"-Flag auf "true" gesetzt ist
-// wird oben in der Tabelle auf jeder Seite angezeigt, die sie umfasst.
+// Alle eingefügten Zeilen, während das Flag „HeadingFormat“ auf „true“ gesetzt ist
+// wird auf jeder Seite, die es umfasst, oben in der Tabelle angezeigt.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.AllowOverlap
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob diese Form andere Formen überlappen kann.
+description: ShapeBase eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob diese Form andere Formen überlappen kann.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob diese Form andere Formen überlappen kann.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob diese Form andere Formen überlappen kann.
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -18,13 +18,13 @@ public bool AllowOverlap { get; set; }
 
 Diese Eigenschaft beeinflusst das Verhalten der Form in Microsoft Word. Aspose.Words ignoriert den Wert dieser Eigenschaft.
 
-Diese Eigenschaft gilt nur für Shapes der obersten Ebene.
+Diese Eigenschaft gilt nur für Formen der obersten Ebene.
 
-Der Standardwert ist **Stimmt**.
+Der Standardwert ist`WAHR`.
 
 ### Beispiele
 
-Zeigt, wie Sie mit Floating-Tables-Eigenschaften arbeiten.
+Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -37,7 +37,7 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Nur Margin, Page, Column verfügbar in RelativeHorizontalPosition für HorizontalAnchor Setter.
+    // Nur Rand, Seite, Spalte in RelativeHorizontalPosition für HorizontalAnchor-Setter verfügbar.
     // Die ArgumentException wird für alle anderen Werte ausgelöst.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 

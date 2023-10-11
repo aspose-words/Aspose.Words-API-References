@@ -1,14 +1,14 @@
 ---
 title: Border.DistanceFromText
 second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ermittelt oder setzt den Abstand des Rahmens vom Text oder vom Seitenrand in Punkt.
+description: Border eigendom. Ermittelt oder legt den Abstand des Rahmens vom Text oder vom Seitenrand in Punkten fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words/border/distancefromtext/
 ---
 ## Border.DistanceFromText property
 
-Ermittelt oder setzt den Abstand des Rahmens vom Text oder vom Seitenrand in Punkt.
+Ermittelt oder legt den Abstand des Rahmens vom Text oder vom Seitenrand in Punkten fest.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -16,11 +16,11 @@ public double DistanceFromText { get; set; }
 
 ### Bemerkungen
 
-Hat keine Auswirkung und wird automatisch auf Null zurückgesetzt für Ränder von Tabellenzellen.
+Hat keine Auswirkung und wird für Ränder von Tabellenzellen automatisch auf Null zurückgesetzt.
 
 ### Beispiele
 
-Zeigt, wie Sie oben auf der ersten Seite einen breiten blauen Rahmen erstellen.
+Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
 ```csharp
 Document doc = new Document();

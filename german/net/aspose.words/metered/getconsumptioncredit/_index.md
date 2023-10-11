@@ -1,14 +1,14 @@
 ---
 title: Metered.GetConsumptionCredit
 second_title: Aspose.Words für .NET-API-Referenz
-description: Metered methode. erhält Verbrauchsguthaben
+description: Metered methode. Erhält Verbrauchsgutschrift
 type: docs
 weight: 30
 url: /de/net/aspose.words/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-erhält Verbrauchsguthaben
+Erhält Verbrauchsgutschrift
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -20,10 +20,10 @@ Verbrauchsmenge
 
 ### Beispiele
 
-Zeigt, wie eine kostenpflichtige Lizenz aktiviert und Guthaben/Verbrauch nachverfolgt wird.
+Zeigt, wie Sie eine Metered-Lizenz aktivieren und Guthaben/Verbrauch verfolgen.
 
 ```csharp
-// Erstellen Sie eine neue Metered-Lizenz und drucken Sie dann ihre Nutzungsstatistiken.
+// Erstellen Sie eine neue Metered-Lizenz und drucken Sie dann deren Nutzungsstatistik aus.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
@@ -34,7 +34,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// Der Aspose Metered Licensing-Mechanismus sendet die Nutzungsdaten nicht jedes Mal an den Kaufserver,
+// Der Aspose Metered Licensing-Mechanismus sendet die Nutzungsdaten nicht jedes Mal an den Kaufserver.
 // Sie müssen warten verwenden.
 System.Threading.Thread.Sleep(10000);
 

@@ -1,14 +1,16 @@
 ---
 title: Class EditableRangeStart
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.EditableRangeStart klas. Stellt den Beginn eines bearbeitbaren Bereichs in einem WordDokument dar.
+description: Aspose.Words.EditableRangeStart klas. Stellt den Anfang eines bearbeitbaren Bereichs in einem WordDokument dar.
 type: docs
-weight: 1290
+weight: 1440
 url: /de/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
-Stellt den Beginn eines bearbeitbaren Bereichs in einem Word-Dokument dar.
+Stellt den Anfang eines bearbeitbaren Bereichs in einem Word-Dokument dar.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -20,14 +22,14 @@ public sealed class EditableRangeStart : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Ruft das Fassadenobjekt ab, das den Anfang und das Ende dieses bearbeitbaren Bereichs kapselt. |
-| [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Gibt die Kennung des editierbaren Bereichs an. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
+| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Ruft das Fassadenobjekt ab, das den Anfang und das Ende dieses bearbeitbaren Bereichs einschließt. |
+| [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Gibt die Kennung des bearbeitbaren Bereichs an. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | gibt zurückEditableRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | Gibt zurückEditableRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
@@ -35,28 +37,28 @@ public sealed class EditableRangeStart : Node
 | --- | --- |
 | override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
-Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a`EditableRangeStart` und ein passendes[`EditableRangeEnd`](../editablerangeend/) mit der gleichen ID.
+Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a`EditableRangeStart` und ein Matching[`EditableRangeEnd`](../editablerangeend/) mit der gleichen Id.
 
-`EditableRangeStart` und[`EditableRangeEnd`](../editablerangeend/) sind nur Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
+`EditableRangeStart` Und[`EditableRangeEnd`](../editablerangeend/) sind lediglich Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
 
-Verwenden Sie die[`EditableRange`](./editablerange/)Klasse als "Fassade", um mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
+Benutzen Sie die[`EditableRange`](./editablerange/) Klasse als „Fassade“, um mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
 
-Derzeit bearbeitbare Bereiche werden nur auf der Inline-Ebene unterstützt, also innerhalb[`Paragraph`](../paragraph/), aber bearbeitbarer Bereichsanfang und bearbeitbares Bereichsende können sich in unterschiedlichen Absätzen befinden.
+Derzeit werden bearbeitbare Bereiche nur auf der Inline-Ebene, also im Inneren, unterstützt[`Paragraph`](../paragraph/), , aber der Beginn und das Ende des bearbeitbaren Bereichs können in unterschiedlichen Absätzen liegen.
 
 ### Beispiele
 
-Zeigt, wie die Bearbeitungsrechte von bearbeitbaren Bereichen auf eine bestimmte Gruppe/Benutzer beschränkt werden.
+Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
 ```csharp
 public void Visitor()
@@ -68,9 +70,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Wenn wir Dokumente mit Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche, bestimmte Bereiche auszuwählen, die Benutzer bearbeiten können.
-    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der erlaubten Editoren einzugrenzen.
-    // 1 - Geben Sie einen Benutzer an:
+    // Wenn wir Dokumente mit einem Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche die Auswahl bestimmter Bereiche, die Benutzer bearbeiten dürfen.
+    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der zulässigen Editoren einzugrenzen.
+    // 1 – Geben Sie einen Benutzer an:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -78,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
+    // 2 – Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -88,7 +90,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Details und Inhalt jedes bearbeitbaren Bereichs im Dokument drucken.
+    // Details und Inhalte aller bearbeitbaren Bereiche im Dokument drucken.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -97,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Sammelt Eigenschaften und Inhalte besuchter bearbeitbarer Bereiche in einem String.
+/// Sammelt Eigenschaften und Inhalte der besuchten bearbeitbaren Bereiche in einem String.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {

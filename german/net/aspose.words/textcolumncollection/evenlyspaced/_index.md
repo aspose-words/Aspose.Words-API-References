@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. WAHR wenn Textspalten gleich breit und gleichmäßig verteilt sind.
+description: TextColumnCollection eigendom. True wenn Textspalten gleich breit und gleichmäßig verteilt sind.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**WAHR** wenn Textspalten gleich breit und gleichmäßig verteilt sind.
+True, wenn Textspalten gleich breit und gleichmäßig verteilt sind.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -16,7 +16,7 @@ public bool EvenlySpaced { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Spalten mit ungleichmäßigen Abständen erstellt werden.
+Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz zum Anordnen von Spalten.
+// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);

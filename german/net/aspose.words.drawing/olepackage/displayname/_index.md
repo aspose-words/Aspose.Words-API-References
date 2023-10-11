@@ -1,14 +1,14 @@
 ---
 title: OlePackage.DisplayName
 second_title: Aspose.Words für .NET-API-Referenz
-description: OlePackage eigendom. Ruft den Anzeigenamen des OLEPakets ab oder legt ihn fest.
+description: OlePackage eigendom. Ruft den Anzeigenamen des OLEPakets ab oder legt diesen fest.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/olepackage/displayname/
 ---
 ## OlePackage.DisplayName property
 
-Ruft den Anzeigenamen des OLE-Pakets ab oder legt ihn fest.
+Ruft den Anzeigenamen des OLE-Pakets ab oder legt diesen fest.
 
 ```csharp
 public string DisplayName { get; set; }

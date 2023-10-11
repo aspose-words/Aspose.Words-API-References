@@ -16,7 +16,7 @@ public int Columns { get; set; }
 
 ### Bemerkungen
 
-Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Anzahl von Spalten formatiert, basierend auf der Anzahl der Spalten auf der angezeigten Seite. Der Standardwert ist 0.
+Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Anzahl von Spalten formatiert, die auf der Anzahl der Spalten auf der angezeigten Seite basiert. Der Standardwert ist 0.
 
 ### Beispiele
 

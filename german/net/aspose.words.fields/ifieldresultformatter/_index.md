@@ -3,7 +3,7 @@ title: Interface IFieldResultFormatter
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.IFieldResultFormatter koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie das Feldergebnis formatiert wird.
 type: docs
-weight: 2530
+weight: 2700
 url: /de/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -18,24 +18,25 @@ public interface IFieldResultFormatter
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, dh \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Wird aufgerufen, wenn Aspose.Words einen Großschreibungsformatwechsel anwendet, dh \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Wird aufgerufen, wenn Aspose.Words einen Datums-/Zeitformatwechsel anwendet, dh \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Wird aufgerufen, wenn Aspose.Words einen numerischen Formatwechsel anwendet, dh \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, z. B. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel anwendet, z. B. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Wird aufgerufen, wenn Aspose.Words einen Datums-/Uhrzeitformatwechsel anwendet, z. B. \@ „dd.MM.yyyy“. |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Wird aufgerufen, wenn Aspose.Words einen numerischen Formatwechsel anwendet, z. B. \# "#.##". |
 
 ### Beispiele
 
-Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
+Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder von drei Formattypen an.
-    // Feldergebnisformatierer wenden neue Formatierung auf Felder an, wenn sie aktualisiert werden,
+    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder mit drei Formattypen an.
+    // Feldergebnisformatierer wenden neue Formatierungen auf Felder an, wenn diese aktualisiert werden.
     // was passiert, sobald wir sie mit dieser InsertField-Methodenüberladung erstellen.
     // 1 - Numerisch:
     builder.InsertField(" = 2 + 3 \\# $###");
@@ -49,7 +50,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Allgemeines:
+    // 3 - Allgemein:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -59,7 +60,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
 }
 
 /// <summary>
-/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer ihre Formatierung
+/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer deren Formatierung
 /// mit einem benutzerdefinierten Format, während jeder Aufruf verfolgt wird.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter

@@ -1,14 +1,14 @@
 ---
 title: Document.Clone
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Führt eine tiefe Kopie derDocument .
+description: Document methode. Führt eine tiefe Kopie des ausDocument .
 type: docs
-weight: 530
+weight: 570
 url: /de/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Führt eine tiefe Kopie der[`Document`](../) .
+Führt eine tiefe Kopie des aus[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -28,8 +28,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// Beim Klonen wird ein neues Dokument mit demselben Inhalt wie das Original erstellt,
-// aber mit einer einzigartigen Kopie jedes Knotens des Originaldokuments.
+// Durch das Klonen wird ein neues Dokument mit demselben Inhalt wie das Original erstellt.
+// aber mit einer eindeutigen Kopie jedes Knotens des Originaldokuments.
 Document clone = doc.Clone();
 
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 

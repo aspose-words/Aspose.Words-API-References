@@ -1,14 +1,14 @@
 ---
 title: Enum FontPitch
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontPitch opsomming. Repräsentiert den Schriftabstand.
+description: Aspose.Words.Fonts.FontPitch opsomming. Stellt den Schriftabstand dar.
 type: docs
-weight: 2780
+weight: 2960
 url: /de/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Repräsentiert den Schriftabstand.
+Stellt den Schriftabstand dar.
 
 ```csharp
 public enum FontPitch
@@ -24,11 +24,11 @@ public enum FontPitch
 
 ### Bemerkungen
 
-Die Teilung gibt an, ob die Schriftart eine feste Teilung hat, proportionale Abstände aufweist oder auf einer Standardeinstellung beruht.
+Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe oder einen proportionalen Abstand hat oder auf einer Standardeinstellung basiert.
 
 ### Beispiele
 
-Zeigt, wie Sie auf Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

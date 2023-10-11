@@ -1,14 +1,14 @@
 ---
 title: Enum TabAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TabAlignment opsomming. Gibt die Ausrichtung/Art eines Tabstopps an.
+description: Aspose.Words.TabAlignment opsomming. Gibt die Ausrichtung/den Typ eines Tabstopps an.
 type: docs
-weight: 5880
+weight: 6180
 url: /de/net/aspose.words/tabalignment/
 ---
 ## TabAlignment enumeration
 
-Gibt die Ausrichtung/Art eines Tabstopps an.
+Gibt die Ausrichtung/den Typ eines Tabstopps an.
 
 ```csharp
 public enum TabAlignment
@@ -22,7 +22,7 @@ public enum TabAlignment
 | Center | `1` | Zentriert den Text um den Tabstopp. |
 | Right | `2` | Richtet den Text am Tabstopp rechtsbündig aus. |
 | Decimal | `3` | Richtet den Text am Dezimalpunkt aus. |
-| Bar | `4` | Zeichnet einen vertikalen Balken an der Tabulatorposition. |
+| Bar | `4` | Zeichnet einen vertikalen Balken an der Tabstopp-Position. |
 | List | `6` | Der Tabulator ist ein Trennzeichen zwischen der Zahl/dem Aufzählungszeichen und dem Text in einem Listenelement. |
 | Clear | `7` | Löscht alle Tabstopps an dieser Position. |
 

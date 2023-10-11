@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Tabellenzeilen um schwebende Tabellen nicht umbrechen.
+description: CompatibilityOptions eigendom. Tabellenzeilen um schwebende Tabellen herum nicht unterbrechen.
 type: docs
 weight: 130
 url: /de/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
 ## CompatibilityOptions.DoNotBreakConstrainedForcedTable property
 
-Tabellenzeilen um schwebende Tabellen nicht umbrechen.
+Tabellenzeilen um schwebende Tabellen herum nicht unterbrechen.
 
 ```csharp
 public bool DoNotBreakConstrainedForcedTable { get; set; }

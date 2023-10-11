@@ -16,7 +16,7 @@ public LoadFormat LoadFormat { get; }
 
 ### Bemerkungen
 
-Wenn ein OOXML-Dokument verschlüsselt ist, kann nicht festgestellt werden, ob es ein Excel-, Word- oder PowerPoint-Dokument ist, ohne es vorher zu entschlüsseln, daher wird diese Eigenschaft für ein verschlüsseltes OOXML -Dokument immer zurückgegebenDocx.
+Wenn ein OOXML-Dokument verschlüsselt ist, kann ohne vorherige Entschlüsselung nicht festgestellt werden, ob es sich um ein Excel-, Word- oder PowerPoint-Dokument handelt. Daher wird diese Eigenschaft bei einem verschlüsselten OOXML -Dokument immer zurückgegebenDocx.
 
 ### Beispiele
 
@@ -26,7 +26,7 @@ Zeigt, wie die FileFormatUtil-Klasse verwendet wird, um das Dokumentformat und d
 Document doc = new Document();
 
 // Konfigurieren Sie ein SaveOptions-Objekt, um das Dokument zu verschlüsseln
-// mit einem Passwort, wenn wir es speichern, und speichern Sie dann das Dokument.
+// mit einem Passwort, wenn wir es speichern, und dann das Dokument speichern.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -57,14 +57,14 @@ info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatu
 
 Assert.True(info.HasDigitalSignature);
 
-// Wir können die Signaturen eines signierten Dokuments in einer Sammlung wie dieser laden und darauf zugreifen.
+// Wir können die Signaturen eines signierten Dokuments in einer solchen Sammlung laden und darauf zugreifen.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
 Zeigt, wie die FileFormatUtil-Methoden verwendet werden, um das Format eines Dokuments zu erkennen.
 
 ```csharp
-// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und erkennen Sie dann das Dateiformat.
+// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und ermitteln Sie dann das Dateiformat.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -72,15 +72,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Unten sind zwei Methoden zum Konvertieren eines LoadFormats in sein entsprechendes SaveFormat.
-    // 1 - Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat, dann erhalten Sie das entsprechende SaveFormat aus dieser Zeichenfolge:
+    // Nachfolgend finden Sie zwei Methoden zum Konvertieren eines LoadFormats in das entsprechende SaveFormat.
+    // 1 – Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat und dann das entsprechende SaveFormat aus dieser Zeichenfolge:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Konvertiere das LoadFormat direkt in sein SaveFormat:
+    // 2 – Konvertieren Sie das LoadFormat direkt in sein SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann in der automatisch erkannten Dateierweiterung.
+    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann mit der automatisch erkannten Dateierweiterung.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

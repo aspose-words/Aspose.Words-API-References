@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.ZoomFactor
 second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Liest oder setzt einen Wert der den Zoomfaktor in Prozent für ein Dokument bestimmt.
+description: PdfSaveOptions eigendom. Ruft einen Wert ab der den Zoomfaktor in Prozent für ein Dokument bestimmt oder legt diesen fest.
 type: docs
-weight: 300
+weight: 330
 url: /de/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property
 
-Liest oder setzt einen Wert, der den Zoomfaktor (in Prozent) für ein Dokument bestimmt.
+Ruft einen Wert ab, der den Zoomfaktor (in Prozent) für ein Dokument bestimmt, oder legt diesen fest.
 
 ```csharp
 public int ZoomFactor { get; set; }
@@ -20,18 +20,18 @@ Dieser Wert wird nur verwendet, wenn[`ZoomBehavior`](../zoombehavior/) ist einge
 
 ### Beispiele
 
-Zeigt, wie Sie den standardmäßigen Zoom festlegen, den ein Reader beim Öffnen eines gerenderten PDF-Dokuments anwendet.
+Zeigt, wie der Standardzoom festgelegt wird, den ein Leser beim Öffnen eines gerenderten PDF-Dokuments anwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
-// Legen Sie die Eigenschaft "ZoomBehavior" auf "PdfZoomBehavior.ZoomFactor" fest, um einen PDF-Reader zu erhalten
-// wendet einen prozentualen Zoomfaktor an, wenn wir das Dokument damit öffnen.
-// Setzen Sie die Eigenschaft "ZoomFactor" auf "25", um dem Zoomfaktor einen Wert von 25 % zu geben.
+// Setzen Sie die Eigenschaft „ZoomBehavior“ auf „PdfZoomBehavior.ZoomFactor“, um einen PDF-Reader zu erhalten
+// einen prozentualen Zoomfaktor anwenden, wenn wir das Dokument damit öffnen.
+// Setzen Sie die Eigenschaft „ZoomFactor“ auf „25“, um dem Zoomfaktor einen Wert von 25 % zu geben.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

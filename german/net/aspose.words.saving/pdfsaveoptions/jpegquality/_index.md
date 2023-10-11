@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.JpegQuality
 second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt einen Wert fest der die Qualität der JPEGBilder im PDFDokument bestimmt.
+description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der die Qualität der JPEGBilder im PDFDokument bestimmt.
 type: docs
-weight: 190
+weight: 220
 url: /de/net/aspose.words.saving/pdfsaveoptions/jpegquality/
 ---
 ## PdfSaveOptions.JpegQuality property
 
-Ruft einen Wert ab oder legt einen Wert fest, der die Qualität der JPEG-Bilder im PDF-Dokument bestimmt.
+Ruft einen Wert ab oder legt diesen fest, der die Qualität der JPEG-Bilder im PDF-Dokument bestimmt.
 
 ```csharp
 public int JpegQuality { get; set; }
@@ -22,11 +22,11 @@ Diese Eigenschaft wird in Verbindung mit verwendet[`ImageCompression`](../imagec
 
 Hat nur Auswirkungen, wenn ein Dokument JPEG-Bilder enthält.
 
-Verwenden Sie diese Eigenschaft, um die Qualität der Bilder in einem Dokument beim Speichern im PDF-Format abzurufen oder festzulegen. Der Wert kann zwischen 0 und 100 variieren, wobei 0 die schlechteste Qualität, aber maximale Komprimierung und 100 die beste Qualität, aber minimale Komprimierung bedeutet. Wenn Qualität 100 ist und das Quellbild JPEG ist, bedeutet dies keine Komprimierung - die ursprünglichen Bytes werden gespeichert.
+Verwenden Sie diese Eigenschaft, um die Qualität der Bilder in einem Dokument beim Speichern im PDF-Format abzurufen oder festzulegen. Der Wert kann zwischen 0 und 100 variieren, wobei 0 schlechteste Qualität, aber maximale Komprimierung und 100 beste Qualität, aber minimale Komprimierung bedeutet. Wenn Qualität 100 ist und das Quellbild JPEG ist, bedeutet dies, dass keine Komprimierung erfolgt – die ursprünglichen Bytes werden gespeichert.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Komprimierungstyp für alle Bilder in einem Dokument angeben, das wir in PDF konvertieren.
+Zeigt, wie man einen Komprimierungstyp für alle Bilder in einem Dokument angibt, das wir in PDF konvertieren.
 
 ```csharp
 Document doc = new Document();
@@ -38,17 +38,17 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Legen Sie die Eigenschaft "ImageCompression" auf "PdfImageCompression.Auto" fest, um die zu verwenden
-// "ImageCompression"-Eigenschaft, um die Qualität der Jpeg-Bilder zu steuern, die in der Ausgabe-PDF enden.
-// Legen Sie die Eigenschaft "ImageCompression" auf "PdfImageCompression.Jpeg" fest, um die zu verwenden
-// "ImageCompression"-Eigenschaft zur Steuerung der Qualität aller Bilder, die im Ausgabe-PDF landen.
+// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Auto“, um die zu verwenden
+// „ImageCompression“-Eigenschaft zur Steuerung der Qualität der JPEG-Bilder, die im Ausgabe-PDF landen.
+// Setzen Sie die Eigenschaft „ImageCompression“ auf „PdfImageCompression.Jpeg“, um die zu verwenden
+// „ImageCompression“-Eigenschaft zur Steuerung der Qualität aller Bilder, die im Ausgabe-PDF landen.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 
-// Setzen Sie die Eigenschaft "JpegQuality" auf "10", um die Komprimierung auf Kosten der Bildqualität zu verstärken.
+// Setzen Sie die Eigenschaft „JpegQuality“ auf „10“, um die Komprimierung auf Kosten der Bildqualität zu verstärken.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

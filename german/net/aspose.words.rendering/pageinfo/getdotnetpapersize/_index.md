@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetDotNetPaperSize
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo methode. Ruft die abPaperSize Objekt das zum Drucken der von diesem repräsentierten Seite geeignet istPageInfo .
+description: PageInfo methode. Ruft die abPaperSize Objekt das zum Drucken der dadurch dargestellten Seite geeignet istPageInfo .
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-Ruft die abPaperSize Objekt, das zum Drucken der von diesem repräsentierten Seite geeignet ist[`PageInfo`](../) .
+Ruft die abPaperSize Objekt, das zum Drucken der dadurch dargestellten Seite geeignet ist[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -24,7 +24,7 @@ Ein Objekt, das Sie im .NET-Druckframework verwenden können, um das Papierforma
 
 ### Beispiele
 
-Zeigt, wie das Drucken von Aspose.Words-Dokumenten angepasst wird.
+Zeigt, wie der Druck von Aspose.Words-Dokumenten angepasst wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -38,7 +38,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Wählt beim Drucken eine geeignete Papiergröße, Ausrichtung und Papierkassette aus.
+/// Wählt beim Drucken ein geeignetes Papierformat, eine geeignete Ausrichtung und ein geeignetes Papierfach aus.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -48,7 +48,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Initialisiert den Bereich der zu druckenden Seiten gemäß der Benutzerauswahl.
+    /// Initialisiert den zu druckenden Seitenbereich entsprechend der Benutzerauswahl.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -70,45 +70,45 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Wird aufgerufen, bevor jede Seite gedruckt wird. 
+     /// Wird aufgerufen, bevor jede Seite gedruckt wird.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte haben, die Seiten mit unterschiedlichen Größen angeben, 
-        // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code zuvor auf 
-        // Jede Seite wird gedruckt, was uns die Möglichkeit gibt, anzugeben, wie die aktuelle Seite gedruckt werden soll.
+         // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte haben, die Seiten mit unterschiedlichen Größen angeben.
+         // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code zuvor auf
+        // jede Seite wird gedruckt, was uns die Möglichkeit gibt anzugeben, wie die aktuelle Seite gedruckt werden soll.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word speichert die Papierquelle (Druckfach) für jeden Abschnitt als druckerspezifischen Wert.
-        // Um den korrekten Fachwert zu erhalten, müssen Sie die "RawKind"-Eigenschaft verwenden, die Ihr Drucker zurückgeben sollte.
+        // Microsoft Word speichert die Papierquelle (Druckerfach) für jeden Abschnitt als druckerspezifischen Wert.
+        // Um den richtigen Fachwert zu erhalten, müssen Sie die Eigenschaft „RawKind“ verwenden, die Ihr Drucker zurückgeben sollte.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Wird für jede Seite aufgerufen, um sie zum Drucken zu rendern. 
+     /// Wird für jede Seite aufgerufen, um sie zum Drucken zu rendern.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words-Rendering-Engine erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers gezeichnet wird.
-        // Es wird einen harten Rand im Drucker geben, der jede Seite rendert. Wir müssen diese harte Marge ausgleichen.
+        // Die Aspose.Words-Rendering-Engine erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers gezeichnet wird.
+        // Im Drucker wird ein harter Rand vorhanden sein, der jede Seite rendert. Wir müssen diesen harten Spielraum ausgleichen.
         float hardOffsetX, hardOffsetY;
 
-        // Im Folgenden finden Sie zwei Möglichkeiten, einen harten Rand festzulegen.
+        // Unten finden Sie zwei Möglichkeiten, einen harten Rand festzulegen.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - Über die Eigenschaft "PageSettings".
+            // 1 – Über die Eigenschaft „PageSettings“.
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - Verwenden unserer eigenen Werte, wenn die Eigenschaft "PageSettings" nicht verfügbar ist.
+            // 2 – Verwendung unserer eigenen Werte, wenn die Eigenschaft „PageSettings“ nicht verfügbar ist.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

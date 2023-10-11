@@ -3,7 +3,7 @@ title: DocumentBuilder.EndBookmark
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als Lesezeichenende.
 type: docs
-weight: 190
+weight: 210
 url: /de/net/aspose.words/documentbuilder/endbookmark/
 ---
 ## DocumentBuilder.EndBookmark method
@@ -24,9 +24,9 @@ Der Lesezeichen-Endknoten, der gerade erstellt wurde.
 
 ### Bemerkungen
 
-Lesezeichen in einem Dokument können sich überschneiden und einen beliebigen Bereich umfassen. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartBookmark`](../startbookmark/) und`EndBookmark` mit dem gleichen **LesezeichenName** Parameter.
+Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartBookmark`](../startbookmark/) Und`EndBookmark` mit dem gleichen*bookmarkName* -Parameter.
 
-Schlecht formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
+Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
 ### Beispiele
 
@@ -36,8 +36,8 @@ Zeigt, wie ein Lesezeichen erstellt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein gültiges Lesezeichen muss einen Dokumentkörpertext enthalten, der von eingeschlossen ist
-// BookmarkStart- und BookmarkEnd-Knoten mit passendem Lesezeichennamen erstellt.
+// Ein gültiges Lesezeichen muss den Dokumenttext enthalten
+// BookmarkStart- und BookmarkEnd-Knoten, die mit einem passenden Lesezeichennamen erstellt wurden.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
@@ -58,8 +58,8 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Fügen Sie ein HYPERLINK-Feld ein, das auf das Lesezeichen verweist. Wir können Feldschalter passieren
-// an die Methode "InsertHyperlink" als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
+// Ein HYPERLINK-Feld einfügen, das auf das Lesezeichen verweist. Wir können Feldschalter passieren
+// an die Methode „InsertHyperlink“ als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);

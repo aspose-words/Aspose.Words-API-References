@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseNormalStyleForList
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Listenabsatzstil nicht automatisch auf Aufzählungszeichen/nummerierten Text anwenden.
+description: CompatibilityOptions eigendom. Listenabsatzstil nicht automatisch auf Aufzählungs/Nummerierungstext anwenden.
 type: docs
 weight: 630
 url: /de/net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
 ## CompatibilityOptions.UseNormalStyleForList property
 
-Listenabsatzstil nicht automatisch auf Aufzählungszeichen/nummerierten Text anwenden.
+Listenabsatzstil nicht automatisch auf Aufzählungs-/Nummerierungstext anwenden.
 
 ```csharp
 public bool UseNormalStyleForList { get; set; }

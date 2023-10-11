@@ -16,14 +16,15 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### Beispiele
 
-Zeigt, wie externe Ressourcen beim Laden von HTML-Dokumenten behandelt werden.
+Zeigt, wie mit externen Ressourcen beim Laden von HTML-Dokumenten umgegangen wird.
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // Wenn wir das Dokument laden, verarbeitet unser Callback verknüpfte Ressourcen wie CSS-Stylesheets und Bilder.
+    // Wenn wir das Dokument laden, verarbeitet unser Rückruf verknüpfte Ressourcen wie CSS-Stylesheets und Bilder.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }

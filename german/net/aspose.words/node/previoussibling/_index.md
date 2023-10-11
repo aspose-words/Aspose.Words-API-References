@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousSibling
 second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft den Knoten unmittelbar vor diesem Knoten ab.
+description: Node eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar vorangeht.
 type: docs
 weight: 70
 url: /de/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-Ruft den Knoten unmittelbar vor diesem Knoten ab.
+Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht.
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -16,7 +16,7 @@ public Node PreviousSibling { get; }
 
 ### Bemerkungen
 
-Wenn es keinen vorhergehenden Knoten gibt, wird eine Null zurückgegeben.
+Wenn kein vorhergehender Knoten vorhanden ist, a`Null` wird zurückgegeben.
 
 ### Beispiele
 
@@ -38,7 +38,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Der Abschnitt, den wir entfernt haben, war der erste, sodass das Dokument nur den zweiten enthält.
+// Der Abschnitt, den wir entfernt haben, war der erste, so dass nur noch der zweite im Dokument übrig blieb.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

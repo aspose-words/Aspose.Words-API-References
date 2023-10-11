@@ -1,14 +1,14 @@
 ---
 title: Enum MarkerSymbol
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.MarkerSymbol opsomming. Gibt den Markersymbolstil an.
+description: Aspose.Words.Drawing.Charts.MarkerSymbol opsomming. Gibt den Markierungssymbolstil an.
 type: docs
-weight: 790
+weight: 920
 url: /de/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-Gibt den Markersymbolstil an.
+Gibt den Markierungssymbolstil an.
 
 ```csharp
 public enum MarkerSymbol
@@ -18,7 +18,7 @@ public enum MarkerSymbol
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt an, dass ein Standardmarkersymbol an jedem Datenpunkt gezeichnet werden soll. |
+| Default | `0` | Gibt an, dass an jedem Datenpunkt ein Standardmarkierungssymbol gezeichnet werden soll. |
 | Circle | `1` | Gibt an, dass an jedem Datenpunkt ein Kreis gezeichnet werden soll. |
 | Dash | `2` | Gibt an, dass an jedem Datenpunkt ein Strich gezeichnet werden soll. |
 | Diamond | `3` | Gibt an, dass an jedem Datenpunkt eine Raute gezeichnet werden soll. |
@@ -33,10 +33,9 @@ public enum MarkerSymbol
 
 ### Beispiele
 
-Zeigt, wie Sie mit Datenpunkten in einem Liniendiagramm arbeiten.
+Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -50,14 +49,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen erscheinen lassen.
+    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Die Linie glätten, die die erste Datenreihe darstellt.
+    // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Sicherstellen, dass Datenpunkte für die erste Serie ihre Farben nicht invertieren, wenn der Wert negativ ist.
+    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,7 +65,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Für ein sauberer aussehendes Diagramm können wir das Format individuell löschen.
+    // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.

@@ -1,14 +1,16 @@
 ---
 title: Class FieldStart
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldStart klas. Repräsentiert den Anfang eines WordFeldes in einem Dokument.
+description: Aspose.Words.Fields.FieldStart klas. Stellt den Anfang eines WordFelds in einem Dokument dar.
 type: docs
-weight: 2280
+weight: 2430
 url: /de/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
 
-Repräsentiert den Anfang eines Word-Feldes in einem Dokument.
+Stellt den Anfang eines Word-Felds in einem Dokument dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldStart : FieldChar
@@ -21,22 +23,22 @@ public class FieldStart : FieldChar
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
 | [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Ruft benutzerdefinierte Felddaten ab, die dem Feld zugeordnet sind. |
-| [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Gibt den Feldtyp zurück. |
-| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftformatierung dieses Objekts. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsnachverfolgung aktiviert war. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Gibt den Typ des Feldes zurück. |
+| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung dieses Objekts. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsverfolgung aktiviert war. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Gibt „true“ zurück, wenn die Formatierung des Objekts in Microsoft Word geändert wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word eingefügt wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Ruft ab oder legt fest, ob das übergeordnete Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsnachverfolgung aktiviert war. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsnachverfolgung aktiviert war. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsverfolgung aktiviert war. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsverfolgung aktiviert war. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | gibt zurückFieldStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | Gibt zurückFieldStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Ruft das übergeordnete Element ab[`Paragraph`](../../aspose.words/paragraph/) dieses Knotens. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../../aspose.words/range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
@@ -44,15 +46,15 @@ public class FieldStart : FieldChar
 | --- | --- |
 | override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Gibt ein Feld für das Feld char. zurück |
+| [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Gibt ein Feld für das Feld char zurück. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
@@ -60,15 +62,16 @@ public class FieldStart : FieldChar
 
 `FieldStart` kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
 
-Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struktur, die aus einem Feldanfangszeichen, einem Feldcode, einem Feldtrennzeichen, einem Feldergebnis und einem Feldendezeichen besteht. Einige Felder haben nur Feldanfang, Feldcode und Feldende.
+Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struktur, die aus einem Feldanfangszeichen, einem Feldcode, einem Feldtrennzeichen, einem Feldergebnis und einem Feldendzeichen besteht. Einige Felder verfügen nur über Feldanfang, Feldcode und Feldende.
 
-Verwenden Sie zum einfachen Einfügen eines neuen Felds in ein Dokument die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Methode.
+Um ganz einfach ein neues Feld in ein Dokument einzufügen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) -Methode.
 
 ### Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -86,7 +89,7 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     Assert.AreEqual(6, fields.Count);
 
     // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mit einer benutzerdefinierten Besucherimplementierung.
+    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -107,9 +110,10 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Besucherimplementierung dokumentieren, die Feldinformationen druckt.
+/// Dokumentieren Sie die Besucherimplementierung, die Feldinformationen druckt.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -119,7 +123,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -181,9 +185,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Hyperlinks in einem Word-Dokument sind Felder. Um mit der Suche nach Hyperlinks zu beginnen, müssen wir zuerst alle Felder finden.
-            // Verwenden Sie die "SelectNodes"-Methode, um alle Felder im Dokument über einen XPath zu finden.
-            NodeList fieldStarts = doc.SelectNodes("//FeldStart");
+            // Hyperlinks in einem Word-Dokument sind Felder. Um mit der Suche nach Hyperlinks zu beginnen, müssen wir zunächst alle Felder finden.
+            // Verwenden Sie die Methode „SelectNodes“, um alle Felder im Dokument über einen XPath zu finden.
+            NodeList fieldStarts = doc.SelectNodes("//FieldStart");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -208,21 +212,21 @@ namespace ApiExamples
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
-    /// <summary>
-    /// HYPERLINK-Felder enthalten und zeigen Hyperlinks im Dokumentkörper an. Ein Feld in Aspose.Words 
-    /// besteht aus mehreren Knoten, und es kann schwierig sein, direkt mit all diesen Knoten zu arbeiten. 
-    /// Diese Implementierung funktioniert nur, wenn der Hyperlink-Code und -Name jeweils nur aus einem Run-Knoten bestehen.
+     ///<summary>
+      ///HYPERLINK-Felder enthalten Hyperlinks im Dokumentkörper und zeigen diese an. Ein Feld in Aspose.Words
+      ///besteht aus mehreren Knoten, und es könnte schwierig sein, mit allen diesen Knoten direkt zu arbeiten.
+     ///Diese Implementierung funktioniert nur, wenn der Hyperlink-Code und der Name jeweils nur aus einem Run-Knoten bestehen.
     ///
-    /// Die Knotenstruktur für Felder ist wie folgt:
-    /// 
-    /// [FieldStart][Run - Feldcode][FieldSeparator][Run - Feldergebnis][FieldEnd]
-    /// 
-    /// Unten sind zwei Beispiel-Feldcodes von HYPERLINK-Feldern:
-    /// HYPERLINK "url"
-    /// HYPERLINK \l "Name des Lesezeichens"
-    /// 
-    /// Die Eigenschaft "Ergebnis" eines Felds enthält Text, den das Feld dem Benutzer im Hauptteil des Dokuments anzeigt.
-    /// </summary>
+     ///Die Knotenstruktur für Felder ist wie folgt:
+     ///
+     ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+     ///
+     ///Below are two example field codes of HYPERLINK fields:
+     ///HYPERLINK "url"
+     ///HYPERLINK \l "bookmark name"
+     ///
+     ///A field's "Result" property contains text that the field displays in the document body to the user.
+     ///</summary>
     internal class Hyperlink
     {
         internal Hyperlink(FieldStart fieldStart)
@@ -234,18 +238,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Suchen Sie den Feldtrenner-Knoten.
+            // Den Feldtrennknoten finden.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-            // Normalerweise finden wir immer den Endknoten des Feldes, aber das Beispieldokument 
-            // enthält einen Absatzumbruch innerhalb eines Hyperlinks, wodurch das Feld endet 
-            // im nächsten Absatz. Wesentlich komplizierter wird es, Felder zu handhaben, die sich über mehrere Felder erstrecken 
-            // Absätze korrekt. In diesem Fall reicht es aus, das Feldende auf null zu setzen.
+             // Normalerweise können wir immer den Endknoten des Feldes finden, aber das Beispieldokument
+             // enthält einen Absatzumbruch innerhalb eines Hyperlinks, der das Feldende setzt
+            // im nächsten Absatz. Es wird viel komplizierter sein, Felder zu verwalten, die sich über mehrere Felder erstrecken
+            // Absätze richtig. In diesem Fall reicht es aus, das Feldende auf Null zu setzen.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Feldcode sieht etwa so aus wie "HYPERLINK "http:\\www.myurl.com"", kann aber aus mehreren Läufen bestehen.
+            // Der Feldcode sieht etwa wie „HYPERLINK „http:\\www.myurl.com““ aus, kann aber aus mehreren Durchläufen bestehen.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -254,27 +258,27 @@ namespace ApiExamples
             mTarget = match.Groups[2].Value;
         }
 
-        /// <summary>
-        /// Ruft den Anzeigenamen des Hyperlinks ab oder legt ihn fest.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the display name of the hyperlink.
+         ///</summary>
         internal string Name
         {
             get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
             set
             {
-                // Anzeigename des Hyperlinks wird im Feld result gespeichert, das ein Run ist 
+                 // Der Anzeigename des Hyperlinks wird im Feldergebnis gespeichert, bei dem es sich um eine Ausführung handelt
                 // Knoten zwischen Feldtrenner und Feldende.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Wenn das Feldergebnis aus mehr als einem Lauf besteht, diese Läufe löschen.
+                // Wenn das Feldergebnis aus mehr als einem Lauf besteht, löschen Sie diese Läufe.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
 
-        /// <summary>
-        /// Ruft die Ziel-URL oder den Lesezeichennamen des Hyperlinks ab oder legt sie fest.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the target URL or bookmark name of the hyperlink.
+         ///</summary>
         internal string Target
         {
             get => mTarget;
@@ -285,9 +289,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Wahr, wenn das Ziel des Hyperlinks ein Lesezeichen im Dokument ist. False, wenn der Hyperlink eine URL ist.
-        /// </summary>
+         ///<summary>
+         ///True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+         ///</summary>
         internal bool IsLocal
         {
             get => mIsLocal; 
@@ -300,17 +304,17 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Der Feldcode eines Felds befindet sich in einem Run-Knoten zwischen dem Startknoten des Felds und dem Feldtrennzeichen.
+            // Der Feldcode eines Feldes befindet sich in einem Run-Knoten zwischen dem Startknoten des Feldes und dem Feldtrennzeichen.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // Wenn der Feldcode aus mehr als einem Lauf besteht, diese Läufe löschen.
+            // Wenn der Feldcode aus mehr als einem Lauf besteht, löschen Sie diese Läufe.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
-        /// <summary>
-        /// Geht vom Startknoten ausgehend durch Geschwister, bis ein Knoten des angegebenen Typs oder null gefunden wird.
-        /// </summary>
+         ///<summary>
+         ///Goes through siblings starting from the start node until it finds a node of the specified type or null.
+         ///</summary>
         private static Node FindNextSibling(Node startNode, NodeType nodeType)
         {
             for (Node node = startNode; node != null; node = node.NextSibling)
@@ -322,9 +326,9 @@ namespace ApiExamples
             return null;
         }
 
-        /// <summary>
-        /// Ruft Text vom Anfang bis zum Endknoten ab, schließt diesen jedoch nicht ein.
-        /// </summary>
+         ///<summary>
+         ///Retrieves text from start up to but not including the end node.
+         ///</summary>
         private static string GetTextSameParent(Node startNode, Node endNode)
         {
             if ((endNode != null) && (startNode.ParentNode != endNode.ParentNode))
@@ -337,10 +341,10 @@ namespace ApiExamples
             return builder.ToString();
         }
 
-        /// <summary>
-        /// Entfernt Knoten vom Anfang bis zum Endknoten, jedoch nicht darunter.
-        /// Geht davon aus, dass Start- und Endknoten denselben Elternknoten haben.
-        /// </summary>
+         ///<summary>
+         ///Removes nodes from start up to but not including the end node.
+         ///Assumes that the start and end nodes have the same parent.
+         ///</summary>
         private static void RemoveSameParent(Node startNode, Node endNode)
         {
             if (endNode != null && startNode.ParentNode != endNode.ParentNode)
@@ -362,13 +366,13 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Ein oder mehrere Nicht-Leerzeichen HYPERLINK oder ein anderes Wort in anderen Sprachen.
+            "\\S+" + // Ein oder mehrere HYPERLINK-Zeichen, die keine Leerzeichen sind, oder ein anderes Wort in anderen Sprachen.
             "\\s+" + // Ein oder mehrere Leerzeichen.
-            "(?:\"\"\\s+)?" + // Nicht erfassendes optionales "" und ein oder mehrere Leerzeichen.
-            "(\\\\l\\s+)?" + // Optionales Flag \l gefolgt von einem oder mehreren Leerzeichen.
-            "\"" + // Ein Apostroph.    
-            "([^\"]+)" + // Ein oder mehrere Zeichen, mit Ausnahme des Apostrophs (Ziel des Hyperlinks).
-            "\"" // Ein schließender Apostroph.
+            "(?:\"\"\\s+)?" + // Nicht erfassendes optionales „“ und ein oder mehrere Leerzeichen.
+            "(\\\\l\\s+)?" + // Optionales \l-Flag, gefolgt von einem oder mehreren Leerzeichen.
+            "\"" +  // Ein Apostroph.
+            "([^\"]+)" + // Ein oder mehrere Zeichen, außer dem Apostroph (Hyperlink-Ziel).
+            "\"" // Ein abschließendes Apostroph.
         );
     }
 }

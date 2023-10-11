@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Aspose.Words für .NET-API-Referenz
-description: Comment constructeur. Initialisiert eine neue Instanz von Kommentar Klasse.
+description: Comment constructeur. Initialisiert eine neue Instanz vonComment Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-Initialisiert eine neue Instanz von **Kommentar** Klasse.
+Initialisiert eine neue Instanz von[`Comment`](../) Klasse.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -16,19 +16,19 @@ public Comment(DocumentBase doc)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
+| doc | DocumentBase | Das Eigentümerdokument. |
 
 ### Bemerkungen
 
-Wann **Kommentar** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`Comment`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen **Kommentar** zum Dokument einfügen, verwenden Sie InsertAfter oder InsertBefore für den Absatz, an dem Sie den Kommentar einfügen möchten.
+Anhängen[`Comment`](../) zur DokumentenverwendungNode) oderNode) in dem Absatz, in den Sie den Kommentar einfügen möchten.
 
-Nachdem Sie einen Kommentar erstellt haben, vergessen Sie nicht, ihn festzulegen[`Author`](../author/) , [`Initial`](../initial/) und[`DateTime`](../datetime/) Eigenschaften.
+Vergessen Sie nach dem Erstellen eines Kommentars nicht, ihn festzulegen[`Author`](../author/) , [`Initial`](../initial/) Und[`DateTime`](../datetime/) Eigenschaften.
 
 ### Beispiele
 
-Zeigt, wie der Inhalt aller Kommentare und ihre Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt werden.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -44,14 +44,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Fügen Sie dem Dokument Text hinzu, verzerren Sie es in einen Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
+    // Fügen Sie dem Dokument Text hinzu, verzerren Sie ihn in einem Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Dem Kommentar zwei Antworten hinzufügen.
+    // Zwei Antworten zum Kommentar hinzufügen.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -59,26 +59,26 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Iteriert über jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalt und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Über alle Kommentare der obersten Ebene iterieren. Im Gegensatz zu Kommentaren vom Antworttyp haben Kommentare auf oberster Ebene keinen Vorfahren.
+    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Besuchen Sie dann den Kommentar und alle Antworten, die er möglicherweise enthält.
+        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie schließlich das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -87,7 +87,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Gibt Informationen und Inhalte aller Kommentare und Kommentarbereiche aus, die im Dokument vorkommen.
+/// Druckt Informationen und Inhalte aller im Dokument vorkommenden Kommentare und Kommentarbereiche.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -98,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -165,7 +165,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-Initialisiert eine neue Instanz von **Kommentar** Klasse.
+Initialisiert eine neue Instanz von[`Comment`](../) Klasse.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -203,14 +203,14 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
-| author | String | Der Name des Autors für den Kommentar. Kann nicht Null sein. |
-| initial | String | Die Initialen des Autors für den Kommentar. Kann nicht Null sein. |
-| dateTime | DateTime | Das Datum und die Uhrzeit für den Kommentar. |
+| doc | DocumentBase | Das Eigentümerdokument. |
+| author | String | Der Name des Autors für den Kommentar. Kann nicht sein`Null`. |
+| initial | String | Die Initialen des Autors für den Kommentar. Kann nicht sein`Null`. |
+| dateTime | DateTime | Datum und Uhrzeit des Kommentars. |
 
 ### Beispiele
 
-Zeigt, wie Sie einem Absatz einen Kommentar hinzufügen.
+Zeigt, wie man einem Absatz einen Kommentar hinzufügt.
 
 ```csharp
 Document doc = new Document();
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// In Microsoft Word können wir mit der rechten Maustaste auf diesen Kommentar im Dokumenttext klicken, um ihn zu bearbeiten oder darauf zu antworten. 
+ // In Microsoft Word können wir mit der rechten Maustaste auf diesen Kommentar im Dokumenttext klicken, um ihn zu bearbeiten oder darauf zu antworten.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

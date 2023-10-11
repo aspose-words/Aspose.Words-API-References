@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnit
 second_title: Aspose.Words für .NET-API-Referenz
 description: ChartAxis eigendom. Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest.
 type: docs
-weight: 100
+weight: 120
 url: /de/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
@@ -16,13 +16,13 @@ public double MajorUnit { get; set; }
 
 ### Bemerkungen
 
-Der gültige Bereich eines Werts ist größer als Null. Die Eigenschaft wirkt sich auf Zeitkategorie- und -Wertachsen aus.
+Der gültige Bereich eines Werts ist größer als Null. Die Eigenschaft wirkt sich auf die Zeitkategorie- und -Werteachsen aus.
 
-Durch Festlegen dieser Eigenschaft wird die[`MajorUnitIsAuto`](../majorunitisauto/) Eigentum zu **FALSCH**.
+Durch das Festlegen dieser Eigenschaft wird die festgelegt[`MajorUnitIsAuto`](../majorunitisauto/) Eigentum zu`FALSCH`.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Diagramm einfügen und das Aussehen seiner Achsen ändern.
+Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Einfügen einer Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse.
+// Fügen Sie eine Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse ein.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Haupt-/Nebeneinheiten-Ticks und Teilstriche.
+// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

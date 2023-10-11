@@ -19,12 +19,12 @@ public RtfLoadOptions()
 Zeigt, wie UTF-8-Zeichen beim Laden eines RTF-Dokuments erkannt werden.
 
 ```csharp
-// Erstellen Sie ein "RtfLoadOptions"-Objekt, um zu ändern, wie wir ein RTF-Dokument laden.
+// Erstellen Sie ein „RtfLoadOptions“-Objekt, um zu ändern, wie wir ein RTF-Dokument laden.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Setzen Sie die Eigenschaft "RecognizeUtf8Text" auf "false", um anzunehmen, dass das Dokument den Zeichensatz ISO 8859-1 verwendet
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „false“, um anzunehmen, dass das Dokument den ISO 8859-1-Zeichensatz verwendet
 // und lädt jedes Zeichen im Dokument.
-// Setzen Sie die Eigenschaft "RecognizeUtf8Text" auf "true", um alle Zeichen variabler Länge zu analysieren, die im Text vorkommen können.
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „true“, um alle Zeichen variabler Länge zu analysieren, die im Text vorkommen können.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Height
 second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Holt oder setzt die Höhe der Tabellenzeile in Punkt.
+description: RowFormat eigendom. Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/rowformat/height/
 ---
 ## RowFormat.Height property
 
-Holt oder setzt die Höhe der Tabellenzeile in Punkt.
+Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest.
 
 ```csharp
 public double Height { get; set; }
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Beginne eine zweite Reihe und konfiguriere dann ihre Höhe. Der Builder wendet diese Einstellungen auf an
-// seine aktuelle Zeile sowie alle neuen Zeilen, die er danach erstellt.
+// Eine zweite Zeile beginnen und dann deren Höhe konfigurieren. Der Builder wendet diese Einstellungen an
+// seine aktuelle Zeile sowie alle danach erstellten neuen Zeilen.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// Die erste Zeile war von der Padding-Neukonfiguration nicht betroffen und enthält immer noch die Standardwerte.
+// Die erste Zeile war von der Neukonfiguration der Auffüllung nicht betroffen und enthält weiterhin die Standardwerte.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Zeigt, wie eine formatierte Tabelle mit DocumentBuilder erstellt wird.
+Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -68,7 +68,7 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Wenn Sie die Formatierungsoptionen in einem Dokumentersteller konfigurieren, werden sie angewendet
+// Wenn Sie die Formatierungsoptionen in einem Dokument-Builder konfigurieren, werden diese angewendet
 // zur aktuellen Zelle/Zeile, in der sich der Cursor befindet,
 // sowie alle neuen Zellen und Zeilen, die mit diesem Builder erstellt wurden.
 builder.Write("Header Row,\n Cell 1");
@@ -78,8 +78,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Rekonfiguriere die Formatierungsobjekte des Builders für neue Zeilen und Zellen, die wir gleich erstellen werden.
-// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, damit sie als Kopfzeile hervorsticht.
+// Konfigurieren Sie die Formatierungsobjekte des Builders für neue Zeilen und Zellen neu, die wir erstellen möchten.
+// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass diese als Kopfzeile hervorsticht.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

@@ -16,9 +16,10 @@ public NodeChangingAction Action { get; }
 
 ### Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokumentstruktur in Echtzeit zu überwachen, während wir sie bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokume
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

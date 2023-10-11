@@ -1,14 +1,16 @@
 ---
 title: Class NodeImporter
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeImporter klas. Ermöglicht den effizienten wiederholten Import von Knoten von einem Dokument in ein anderes.
+description: Aspose.Words.NodeImporter klas. Ermöglicht die effiziente Durchführung wiederholter Importe von Knoten von einem Dokument in ein anderes.
 type: docs
-weight: 3970
+weight: 4210
 url: /de/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-Ermöglicht den effizienten wiederholten Import von Knoten von einem Dokument in ein anderes.
+Ermöglicht die effiziente Durchführung wiederholter Importe von Knoten von einem Dokument in ein anderes.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public class NodeImporter
@@ -25,28 +27,27 @@ public class NodeImporter
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importiert einen Knoten von einem Dokument in ein anderes. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importiert einen Knoten aus einem Dokument in ein anderes. |
 
 ### Bemerkungen
 
-Aspose.Words bietet Funktionen zum einfachen Kopieren und Verschieben von fragments zwischen Microsoft Word-Dokumenten. Dies wird als "Importieren von Knoten" bezeichnet. Bevor Sie ein Fragment aus einem Dokument in ein anderes einfügen können, müssen Sie es "importieren". Beim Importieren wird ein tiefer Klon des ursprünglichen Knotens erstellt, der in das Zieldokument eingefügt werden kann.
+Aspose.Words bietet Funktionen zum einfachen Kopieren und Verschieben von Fragmenten zwischen Microsoft Word-Dokumenten. Dies wird als „Importieren von Knoten“ bezeichnet. Bevor Sie ein Fragment aus einem Dokument in ein anderes einfügen können, müssen Sie es „importieren“. Beim Importieren wird ein tiefer Klon des ursprünglichen Knotens erstellt, der in das Zieldokument eingefügt werden kann.
 
-Der einfachste Weg, einen Knoten zu importieren, ist die Verwendung der[`ImportNode`](../documentbase/importnode/) method bereitgestellt von der[`DocumentBase`](../documentbase/) Objekt.
+Der einfachste Weg, einen Knoten zu importieren, ist die Verwendung von[`ImportNode`](../documentbase/importnode/) method bereitgestellt von der[`DocumentBase`](../documentbase/) Objekt.
 
-Wenn Sie Knoten jedoch mehrmals von einem Dokument in ein anderes importieren müssen, ist es besser, die zu verwenden`NodeImporter` Klasse. Das`NodeImporter` Die Klasse ermöglicht es, die Anzahl der im Zieldokument erstellten Stile und Listen zu minimieren.
+Wenn Sie jedoch mehrmals Knoten von einem Dokument in ein anderes importieren müssen, ist es besser, die zu verwenden`NodeImporter` Klasse. Der`NodeImporter` Mit der Klasse kann die Anzahl der im Zieldokument erstellten Stile und Listen minimiert werden.
 
-Das Kopieren oder Verschieben von Fragmenten von einem Microsoft Word-Dokument in ein anderes stellt eine Reihe technischer Herausforderungen für Aspose.Words dar. In einem Word-Dokument werden Stile und Listenformatierungen zentral gespeichert, getrennt vom Text des Dokuments. Die Absätze und Textläufe referenzieren die Stile lediglich durch interne eindeutige Kennungen.
+Das Kopieren oder Verschieben von Fragmenten von einem Microsoft Word-Dokument in ein anderes stellt Aspose.Words vor unzählige technische Herausforderungen. In einem Word-Dokument werden Stile und Listenformatierung zentral gespeichert, getrennt vom Text des Dokuments. Die Absätze und Textläufe verweisen lediglich auf die Stile durch interne eindeutige Bezeichner.
 
-Die Herausforderungen ergeben sich aus der Tatsache, dass Stile und Listen in verschiedenen Dokumenten unterschiedlich sind. Um beispielsweise einen Absatz, der mit dem Stil Überschrift 1 formatiert ist, von einem Dokument in ein anderes zu kopieren , müssen einige Dinge berücksichtigt werden: Entscheiden Sie, ob Sie das tun sollen Kopieren Sie die Überschrift 1-Formatvorlage aus dem Quelldokument in das Zieldokument, klonen Sie den Absatz, aktualisieren Sie den geklonten -Absatz so, dass er auf die richtige Überschrift 1-Formatvorlage im Zieldokument verweist. Wenn die Formatvorlage kopiert werden musste, alle Formatvorlagen, die sie enthält Verweise (basierend auf style und dem nächsten Absatzstil) sollten analysiert und möglicherweise auch kopiert werden usw. Ähnliche Probleme treten auf, wenn Aufzählungszeichen oder nummerierte Absätze kopiert werden, da Microsoft Word Listendefinitionen getrennt vom Text speichert.
+Die Herausforderungen ergeben sich aus der Tatsache, dass Stile und Listen in verschiedenen Dokumenten unterschiedlich sind. Um beispielsweise einen Absatz, der mit dem Stil „Überschrift 1“ formatiert ist, von einem Dokument in ein anderes zu kopieren, müssen eine Reihe von Dingen berücksichtigt werden: Entscheiden Sie, ob dies geschehen soll Kopieren Sie den Stil „Überschrift 1“ aus dem Quelldokument in das Zieldokument, klonen Sie den Absatz, aktualisieren Sie den geklonten Absatz, sodass er auf den korrekten Stil „Überschrift 1“ im Zieldokument verweist. Wenn der Stil kopiert werden musste, alle darin enthaltenen Stile Referenzen (basierend auf style und dem nächsten Absatzstil) sollten analysiert und möglicherweise auch kopiert werden usw. Ähnliche Probleme treten beim Kopieren von Aufzählungszeichen oder nummerierten Absätzen auf, da Microsoft Word Listendefinitionen getrennt vom Text speichert.
 
-Das`NodeImporter`class ist wie ein Kontext, der beim Import die "Übersetzungstabellen" hält. Es übersetzt korrekt zwischen Stilen und Listen in den Quell- und -Zieldokumenten.
+Der`NodeImporter`Die Klasse ist wie ein Kontext, der die „Übersetzungstabellen“ während des Imports enthält. Es übersetzt korrekt zwischen Stilen und Listen in den Quell- und Zieldokumenten.
 
 ### Beispiele
 
-Zeigt, wie Sie den Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument einfügen.
+Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -82,8 +83,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Alle Knoten auf Blockebene im Körper des Abschnitts durchlaufen,
-        // Dann klonen und fügen Sie jeden Knoten ein, der nicht der letzte leere Absatz eines Abschnitts ist.
+        // Alle Knoten auf Blockebene im Hauptteil des Abschnitts durchlaufen,
+        // dann jeden Knoten klonen und einfügen, der nicht der letzte leere Absatz eines Abschnitts ist.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

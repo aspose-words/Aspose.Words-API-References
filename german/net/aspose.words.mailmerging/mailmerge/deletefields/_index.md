@@ -18,7 +18,7 @@ public void DeleteFields()
 
 Diese Methode entfernt die Felder MERGEFIELD und NEXT aus dem Dokument.
 
-Diese Methode kann nützlich sein, wenn Ihre Seriendruckoperation nicht immer benötigt, um alle Felder im Dokument auszufüllen. Verwenden Sie diese Methode, um alle verbleibenden Seriendruckfelder zu entfernen.
+Diese Methode kann nützlich sein, wenn Ihr Serienbriefvorgang nicht immer benötigt, um alle Felder im Dokument auszufüllen. Verwenden Sie diese Methode, um alle verbleibenden -Serienbrieffelder zu entfernen.
 
 ### Beispiele
 

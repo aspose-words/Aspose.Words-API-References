@@ -3,7 +3,7 @@ title: Document.UpdateFields
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document methode. Aktualisiert die Werte von Feldern im gesamten Dokument.
 type: docs
-weight: 730
+weight: 770
 url: /de/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -16,17 +16,17 @@ public void UpdateFields()
 
 ### Bemerkungen
 
-Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words Felder nicht automatisch, sondern behält sie bei. Daher sollten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und sicherstellen möchten die richtigen (berechneten) Feldwerte erscheinen im gespeicherten Dokument.
+Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern behält sie intakt. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und dies sicherstellen möchten Die richtigen (berechneten) Feldwerte werden im gespeicherten Dokument angezeigt.
 
-Es ist nicht erforderlich, Felder nach dem Ausführen eines Seriendrucks zu aktualisieren, da der Seriendruck eine Art Feldaktualisierung ist und automatisch alle Felder im Dokument aktualisiert.
+Es besteht keine Notwendigkeit, Felder nach der Ausführung eines Serienbriefs zu aktualisieren, da der Serienbrief eine Art Feldaktualisierung ist und automatisch alle Felder im Dokument aktualisiert.
 
 Diese Methode aktualisiert nicht alle Feldtypen. Eine detaillierte Liste der unterstützten Feldtypen finden Sie im Programmierhandbuch.
 
-Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithmen beziehen (z. B. PAGE, PAGES, PAGEREF). Die Seitenlayout-bezogenen Felder werden aktualisiert, wenn Sie ein Dokument rendern oder aufrufen[`UpdatePageLayout`](../updatepagelayout/).
+Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithmen beziehen (z. B. PAGE, PAGES, PAGEREF). Die seitenlayoutbezogenen Felder werden aktualisiert, wenn Sie ein Dokument oder einen Aufruf rendern[`UpdatePageLayout`](../updatepagelayout/).
 
-Verwenden Sie die[`NormalizeFieldTypes`](../normalizefieldtypes/) -Methode vor der Feldaktualisierung, wenn es Dokumentänderungen gab, die sich auf Feldtypen auswirkten.
+Benutzen Sie die[`NormalizeFieldTypes`](../normalizefieldtypes/) Methode vor der Aktualisierung von Feldern, wenn es Dokumentänderungen gab, die sich auf Feldtypen auswirkten.
 
-Verwenden Sie zum Aktualisieren von Feldern in einem bestimmten Teil des Dokuments[`UpdateFields`](../../range/updatefields/).
+Um Felder in einem bestimmten Teil des Dokuments zu aktualisieren, verwenden Sie[`UpdateFields`](../../range/updatefields/).
 
 ### Beispiele
 
@@ -36,16 +36,16 @@ Zeigt die Verwendung des QUOTE-Felds an.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Füge ein QUOTE-Feld ein, das den Wert seiner Text-Eigenschaft anzeigt.
+// Ein QUOTE-Feld einfügen, das den Wert seiner Text-Eigenschaft anzeigt.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// Ein QUOTE-Feld einfügen und ein DATE-Feld darin verschachteln.
+// Ein QUOTE-Feld einfügen und darin ein DATE-Feld verschachteln.
 // DATE-Felder aktualisieren ihren Wert jedes Mal auf das aktuelle Datum, wenn wir das Dokument mit Microsoft Word öffnen.
-// Wenn Sie das DATE-Feld so in das QUOTE-Feld verschachteln, wird sein Wert eingefroren
-// bis zu dem Datum, an dem wir das Dokument erstellt haben.
+// Wenn Sie das DATE-Feld auf diese Weise im QUOTE-Feld verschachteln, wird dessen Wert eingefroren
+// bis zum Datum, an dem wir das Dokument erstellt haben.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 builder.MoveTo(field.Separator);
@@ -53,7 +53,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Aktualisieren Sie alle Felder, um ihre korrekten Ergebnisse anzuzeigen.
+// Alle Felder aktualisieren, um die korrekten Ergebnisse anzuzeigen.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
@@ -77,12 +77,12 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
-// die entsprechenden Eigenschaften des oben erstellten UserInformation-Objekts. 
+ // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt hat auch einen statischen Standardbenutzer, auf den sich Felder aus allen Dokumenten beziehen können.
+// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";
@@ -96,16 +96,16 @@ doc.UpdateFields();
 doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ```
 
-Zeigt, wie Sie ein Inhaltsverzeichnis (TOC) in ein Dokument einfügen, indem Sie Überschriftenstile als Einträge verwenden.
+Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein Inhaltsverzeichnis für die erste Seite des Dokuments einfügen.
-// Konfigurieren Sie die Tabelle, um Absätze mit Überschriften der Ebenen 1 bis 3 aufzunehmen.
-// Legen Sie außerdem seine Einträge als Hyperlinks fest, die uns führen
-// an die Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste geklickt wird.
+// Konfigurieren Sie die Tabelle so, dass sie Absätze mit Überschriften der Ebenen 1 bis 3 aufnimmt.
+// Legen Sie außerdem fest, dass seine Einträge Hyperlinks sind, die uns weiterleiten
+// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste darauf geklickt wird.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 

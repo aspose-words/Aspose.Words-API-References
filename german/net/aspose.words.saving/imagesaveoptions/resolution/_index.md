@@ -3,7 +3,7 @@ title: ImageSaveOptions.Resolution
 second_title: Aspose.Words für .NET-API-Referenz
 description: ImageSaveOptions eigendom. Legt sowohl die horizontale als auch die vertikale Auflösung für die generierten Bilder in Punkten pro Zoll fest.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
@@ -16,11 +16,11 @@ public float Resolution { set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wirkt sich nur beim Speichern in Rasterbildformaten aus.
+Diese Eigenschaft ist nur beim Speichern in Rasterbildformaten wirksam.
 
 ### Beispiele
 
-Zeigt, wie eine Auflösung angegeben wird, während ein Dokument in PNG gerendert wird.
+Zeigt, wie man beim Rendern eines Dokuments in PNG eine Auflösung angibt.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Erstellen Sie ein "ImageSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
-            // um die Art und Weise zu ändern, in der diese Methode das Dokument in ein Bild rendert.
+            // Erstellen Sie ein „ImageSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+            // um die Art und Weise zu ändern, wie diese Methode das Dokument in ein Bild rendert.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
-            // Setzen Sie die Eigenschaft "Auflösung" auf "72", um das Dokument in 72 dpi zu rendern.
+            // Setzen Sie die Eigenschaft „Resolution“ auf „72“, um das Dokument mit 72 dpi darzustellen.
             options.Resolution = 72;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
@@ -55,7 +55,7 @@ Document doc = new Document();
                 Assert.AreEqual(792, image.Height);
             }
 #endif
-            // Setzen Sie die Eigenschaft "Auflösung" auf "300", um das Dokument in 300 dpi zu rendern.
+            // Setzen Sie die Eigenschaft „Resolution“ auf „300“, um das Dokument mit 300 dpi darzustellen.
             options.Resolution = 300;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);

@@ -16,21 +16,22 @@ public ShapeRenderer(ShapeBase shape)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shape | ShapeBase | Das DrawinML-Shape-Objekt, das Sie rendern möchten. |
+| shape | ShapeBase | Das DrawinML-Formobjekt, das Sie rendern möchten. |
 
 ### Beispiele
 
-Zeigt, wie eine Form mit einem Graphics-Objekt gerendert und mit einem Windows Form angezeigt wird.
+Zeigt, wie eine Form mit einem Grafikobjekt gerendert und mithilfe eines Windows Forms angezeigt wird.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, die "ShapeRenderer"-Klasse zu verwenden, um eine Form in ein Graphics-Objekt zu rendern.
-    // 1 - Erstellen Sie eine Form mit einem Diagramm und rendern Sie es in einem bestimmten Maßstab.
+    // Im Folgenden finden Sie zwei Möglichkeiten, die Klasse „ShapeRenderer“ zum Rendern einer Form in ein Grafikobjekt zu verwenden.
+    // 1 – Erstellen Sie eine Form mit einem Diagramm und rendern Sie sie in einem bestimmten Maßstab.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -41,7 +42,7 @@ Zeigt, wie eine Form mit einem Graphics-Objekt gerendert und mit einem Windows F
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Erstellen Sie eine Formgruppe und rendern Sie sie auf eine bestimmte Größe.
+    // 2 – Erstellen Sie eine Formgruppe und rendern Sie sie auf eine bestimmte Größe.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

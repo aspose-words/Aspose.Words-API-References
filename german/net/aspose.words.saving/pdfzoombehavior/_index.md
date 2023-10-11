@@ -3,7 +3,7 @@ title: Enum PdfZoomBehavior
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.PdfZoomBehavior opsomming. Gibt den Zoomtyp an der auf ein PDFDokument angewendet wird wenn es in einem PDFViewer geöffnet wird.
 type: docs
-weight: 5260
+weight: 5540
 url: /de/net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration
@@ -18,27 +18,27 @@ public enum PdfZoomBehavior
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Wie das Dokument angezeigt wird, bleibt dem PDF-Viewer überlassen. Normalerweise zeigt der Viewer das Dokument passend zur Seitenbreite an. |
+| None | `0` | Wie das Dokument angezeigt wird, bleibt dem PDF-Viewer überlassen. Normalerweise zeigt der Viewer das Dokument so an, dass es der Seitenbreite entspricht. |
 | ZoomFactor | `1` | Zeigt die Seite mit dem angegebenen Zoomfaktor an. |
 | FitPage | `2` | Zeigt die Seite so an, dass sie vollständig sichtbar ist. |
 | FitWidth | `3` | Passt sich der Breite der Seite an. |
-| FitHeight | `4` | Passt sich der Seitenhöhe an. |
+| FitHeight | `4` | Passt sich der Höhe der Seite an. |
 | FitBox | `5` | Passt in den Begrenzungsrahmen (Rechteck, das alle sichtbaren Elemente auf der Seite enthält). |
 
 ### Beispiele
 
-Zeigt, wie Sie den standardmäßigen Zoom festlegen, den ein Reader beim Öffnen eines gerenderten PDF-Dokuments anwendet.
+Zeigt, wie der Standardzoom festgelegt wird, den ein Leser beim Öffnen eines gerenderten PDF-Dokuments anwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
-// Legen Sie die Eigenschaft "ZoomBehavior" auf "PdfZoomBehavior.ZoomFactor" fest, um einen PDF-Reader zu erhalten
-// wendet einen prozentualen Zoomfaktor an, wenn wir das Dokument damit öffnen.
-// Setzen Sie die Eigenschaft "ZoomFactor" auf "25", um dem Zoomfaktor einen Wert von 25 % zu geben.
+// Setzen Sie die Eigenschaft „ZoomBehavior“ auf „PdfZoomBehavior.ZoomFactor“, um einen PDF-Reader zu erhalten
+// einen prozentualen Zoomfaktor anwenden, wenn wir das Dokument damit öffnen.
+// Setzen Sie die Eigenschaft „ZoomFactor“ auf „25“, um dem Zoomfaktor einen Wert von 25 % zu geben.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

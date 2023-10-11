@@ -3,12 +3,14 @@ title: Class ConvertUtil
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.ConvertUtil klas. Bietet Hilfsfunktionen zum Umrechnen zwischen verschiedenen Maßeinheiten.
 type: docs
-weight: 350
+weight: 360
 url: /de/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
 Bietet Hilfsfunktionen zum Umrechnen zwischen verschiedenen Maßeinheiten.
+
+Um mehr zu erfahren, besuchen Sie die[Zwischen Maßeinheiten umrechnen](https://docs.aspose.com/words/net/convert-between-measurement-units/) Dokumentationsartikel.
 
 ```csharp
 public static class ConvertUtil
@@ -21,10 +23,10 @@ public static class ConvertUtil
 | static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | Konvertiert Zoll in Punkte. |
 | static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | Wandelt Millimeter in Punkte um. |
 | static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | Konvertiert Pixel von einer Auflösung in eine andere. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Konvertiert Pixel in Punkte bei 96 dpi. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Konvertiert Pixel in Punkte mit 96 dpi. |
 | static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Konvertiert Pixel in Punkte mit der angegebenen Pixelauflösung. |
 | static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Konvertiert Punkte in Zoll. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Konvertiert Punkte in Pixel bei 96 dpi. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Konvertiert Punkte in Pixel mit 96 dpi. |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Konvertiert Punkte in Pixel mit der angegebenen Pixelauflösung. |
 
 ### Beispiele
@@ -55,8 +57,8 @@ Zeigt, wie Seiteneigenschaften in Zoll angegeben werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Das "Page Setup" eines Abschnitts definiert die Größe der Seitenränder in Punkt.
-// Wir können auch die Klasse "ConvertUtil" verwenden, um eine vertrautere Maßeinheit zu verwenden,
+// Die „Seiteneinrichtung“ eines Abschnitts definiert die Größe der Seitenränder in Punkten.
+// Wir können auch die Klasse „ConvertUtil“ verwenden, um eine bekanntere Maßeinheit zu verwenden,
 // wie Zoll beim Definieren von Grenzen.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -64,7 +66,7 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// Ein Zoll sind 72 Punkte.
+// Ein Zoll entspricht 72 Punkten.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 

@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.WarningCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation eigendom. Wird während des Ladens von Silbentrennungsmustern aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Formatierungstreue führen kann.
+description: Hyphenation eigendom. Wird während des Ladens von Silbentrennungsmustern aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Formatierungstreue führen könnte.
 type: docs
 weight: 20
 url: /de/net/aspose.words/hyphenation/warningcallback/
 ---
 ## Hyphenation.WarningCallback property
 
-Wird während des Ladens von Silbentrennungsmustern aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann.
+Wird während des Ladens von Silbentrennungsmustern aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte.
 
 ```csharp
 public static IWarningCallback WarningCallback { get; set; }
@@ -16,25 +16,26 @@ public static IWarningCallback WarningCallback { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
+Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Richten Sie einen Rückruf ein, der Warnungen verfolgt, die während der Registrierung des Silbentrennungswörterbuchs auftreten.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch nach Stream.
+    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch per Stream.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer nicht trennen darf, z. B. Deutsch.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode "de-CH".
-    // Dieser Rückruf behandelt die automatische Anfrage für dieses Wörterbuch.
+    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.

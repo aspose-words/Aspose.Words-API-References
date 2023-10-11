@@ -1,14 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
 second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldResultFormatter methode. Wird aufgerufen wenn Aspose.Words einen Großschreibungsformatwechsel anwendet dh  Upper.
+description: IFieldResultFormatter methode. Wird aufgerufen wenn Aspose.Words einen Groß/Kleinschreibungsformatwechsel anwendet z. B.  Upper.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## Format(string, GeneralFormat) {#format_1}
 
-Wird aufgerufen, wenn Aspose.Words einen Großschreibungsformatwechsel anwendet, dh \* Upper.
+Wird aufgerufen, wenn Aspose.Words einen Groß-/Kleinschreibungsformatwechsel anwendet, z. B. \* Upper.
 
 ```csharp
 public string Format(string value, GeneralFormat format)
@@ -16,21 +16,22 @@ public string Format(string value, GeneralFormat format)
 
 ### Bemerkungen
 
-Die Implementierung sollte zurückkehren **Null** um anzuzeigen, dass die Standardformatierung angewendet werden soll.
+Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardformatierung angewendet werden soll.
 
 ### Beispiele
 
-Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
+Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder von drei Formattypen an.
-    // Feldergebnisformatierer wenden neue Formatierung auf Felder an, wenn sie aktualisiert werden,
+    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder mit drei Formattypen an.
+    // Feldergebnisformatierer wenden neue Formatierungen auf Felder an, wenn diese aktualisiert werden.
     // was passiert, sobald wir sie mit dieser InsertField-Methodenüberladung erstellen.
     // 1 - Numerisch:
     builder.InsertField(" = 2 + 3 \\# $###");
@@ -44,7 +45,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Allgemeines:
+    // 3 - Allgemein:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -54,7 +55,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
 }
 
 /// <summary>
-/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer ihre Formatierung
+/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer deren Formatierung
 /// mit einem benutzerdefinierten Format, während jeder Aufruf verfolgt wird.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
@@ -162,7 +163,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(double, GeneralFormat) {#format}
 
-Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, dh \* Ordinal.
+Wird aufgerufen, wenn Aspose.Words einen Zahlenformatwechsel anwendet, z. B. \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -170,21 +171,22 @@ public string Format(double value, GeneralFormat format)
 
 ### Bemerkungen
 
-Die Implementierung sollte zurückkehren **Null** um anzuzeigen, dass die Standardformatierung angewendet werden soll.
+Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardformatierung angewendet werden soll.
 
 ### Beispiele
 
-Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
+Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder von drei Formattypen an.
-    // Feldergebnisformatierer wenden neue Formatierung auf Felder an, wenn sie aktualisiert werden,
+    // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder mit drei Formattypen an.
+    // Feldergebnisformatierer wenden neue Formatierungen auf Felder an, wenn diese aktualisiert werden.
     // was passiert, sobald wir sie mit dieser InsertField-Methodenüberladung erstellen.
     // 1 - Numerisch:
     builder.InsertField(" = 2 + 3 \\# $###");
@@ -198,7 +200,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Allgemeines:
+    // 3 - Allgemein:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -208,7 +210,7 @@ Zeigt, wie ein benutzerdefiniertes Format automatisch auf Feldergebnisse angewen
 }
 
 /// <summary>
-/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer ihre Formatierung
+/// Wenn Felder mit Formatierung aktualisiert werden, überschreibt dieser Formatierer deren Formatierung
 /// mit einem benutzerdefinierten Format, während jeder Aufruf verfolgt wird.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter

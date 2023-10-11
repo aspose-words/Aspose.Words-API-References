@@ -1,14 +1,14 @@
 ---
 title: FieldSet.BookmarkText
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSet eigendom. Holt oder setzt den neuen Text des Lesezeichens.
+description: FieldSet eigendom. Ruft den neuen Text des Lesezeichens ab oder legt ihn fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldset/bookmarktext/
 ---
 ## FieldSet.BookmarkText property
 
-Holt oder setzt den neuen Text des Lesezeichens.
+Ruft den neuen Text des Lesezeichens ab oder legt ihn fest.
 
 ```csharp
 public string BookmarkText { get; set; }
@@ -16,14 +16,14 @@ public string BookmarkText { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Text mit Lesezeichen mit einem SET-Feld erstellt und dann mit einem REF-Feld im Dokument angezeigt wird.
+Zeigt, wie Sie mit einem SET-Feld markierten Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Markierten Text mit einem SET-Feld benennen.
-// Dieses Feld bezieht sich auf das "Lesezeichen", nicht auf eine Lesezeichenstruktur, die im Text erscheint, sondern auf eine benannte Variable.
+ // Mit einem Lesezeichen versehenen Text mit einem SET-Feld benennen.
+// Dieses Feld bezieht sich auf das „Lesezeichen“, nicht auf eine Lesezeichenstruktur, die im Text erscheint, sondern auf eine benannte Variable.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Auf das Lesezeichen nach Namen in einem REF-Feld verweisen und seinen Inhalt anzeigen.
+// In einem REF-Feld namentlich auf das Lesezeichen verweisen und seinen Inhalt anzeigen.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

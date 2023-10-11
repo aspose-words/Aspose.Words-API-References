@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeVerticalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeVerticalPosition opsomming. Gibt an zu was die vertikale Position einer Form oder eines Textrahmens relativ ist.
+description: Aspose.Words.Drawing.RelativeVerticalPosition opsomming. Gibt an wie relativ die vertikale Position einer Form oder eines Textrahmens ist.
 type: docs
-weight: 1070
+weight: 1210
 url: /de/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-Gibt an, zu was die vertikale Position einer Form oder eines Textrahmens relativ ist.
+Gibt an, wie relativ die vertikale Position einer Form oder eines Textrahmens ist.
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -19,25 +19,25 @@ public enum RelativeVerticalPosition
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Margin | `0` | Gibt an, dass die vertikale Positionierung relativ zu den Seitenrändern erfolgen soll. |
-| Page | `1` | Das Objekt wird relativ zum oberen Seitenrand positioniert. |
+| Page | `1` | Das Objekt wird relativ zum oberen Rand der Seite positioniert. |
 | Paragraph | `2` | Das Objekt wird relativ zum oberen Rand des Absatzes positioniert, der den Anker enthält. |
-| Line | `3` | Undokumentiert. |
+| Line | `3` | Ohne Papiere. |
 | TopMargin | `4` | Gibt an, dass die vertikale Positionierung relativ zum oberen Rand der aktuellen Seite erfolgen soll. |
 | BottomMargin | `5` | Gibt an, dass die vertikale Positionierung relativ zum unteren Rand der aktuellen Seite erfolgen soll. |
 | InsideMargin | `6` | Gibt an, dass die vertikale Positionierung relativ zum Innenrand der aktuellen Seite erfolgen soll. |
-| OutsideMargin | `7` | Gibt an, dass die vertikale Positionierung relativ zum Außenrand der aktuellen Seite erfolgen soll. |
-| TableDefault | `0` | Standardwert istMargin . |
-| TextFrameDefault | `2` | Standardwert istParagraph . |
+| OutsideMargin | `7` | Gibt an, dass die vertikale Positionierung relativ zum Außenrand der aktuellen Seite sein soll. |
+| TableDefault | `0` | Der Standardwert istMargin . |
+| TextFrameDefault | `2` | Der Standardwert istParagraph . |
 
 ### Beispiele
 
-Zeigt, wie ein schwebendes Bild in der Mitte einer Seite eingefügt wird.
+Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -49,7 +49,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird.
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +71,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird (.NetStandard 2.0).
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

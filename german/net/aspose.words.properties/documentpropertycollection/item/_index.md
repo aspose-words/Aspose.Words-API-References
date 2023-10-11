@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection eigendom. Gibt a zurückDocumentProperty Objekt nach dem Namen der Eigenschaft.
+description: DocumentPropertyCollection eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt nach dem Namen der Eigenschaft.
+Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt mit dem Namen der Eigenschaft.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -20,7 +20,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ### Bemerkungen
 
-Gibt null zurück, wenn eine Eigenschaft mit dem angegebenen Namen nicht gefunden wird.
+Kehrt zurück`Null` wenn eine Eigenschaft mit dem angegebenen Namen nicht gefunden wird.
 
 ### Beispiele
 
@@ -45,7 +45,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt nach Index.
+Gibt a zurück[`DocumentProperty`](../../documentproperty/) Objekt nach index.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -53,17 +53,17 @@ public DocumentProperty this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Nullbasierter Index der[`DocumentProperty`](../../documentproperty/) abzurufen. |
+| index | Nullbasierter Index des[`DocumentProperty`](../../documentproperty/) abrufen. |
 
 ### Beispiele
 
-Zeigt, wie Sie mit benutzerdefinierten Dokumenteigenschaften arbeiten.
+Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Jedes Dokument enthält eine Sammlung benutzerdefinierter Eigenschaften, die wie die integrierten Eigenschaften Schlüssel-Wert-Paare sind.
-// Das Dokument hat eine feste Liste eingebauter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften. 
+ // Das Dokument verfügt über eine feste Liste integrierter Eigenschaften. Der Benutzer erstellt alle benutzerdefinierten Eigenschaften.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

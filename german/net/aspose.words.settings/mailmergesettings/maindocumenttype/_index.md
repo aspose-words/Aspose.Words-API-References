@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MainDocumentType
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Hauptdokumenttyp des Seriendrucks an. Der Standardwert istDefault .
+description: MailMergeSettings eigendom. Gibt den Typ des SerienbriefHauptdokuments an. Der Standardwert istDefault .
 type: docs
 weight: 140
 url: /de/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Gibt den Hauptdokumenttyp des Seriendrucks an. Der Standardwert istDefault .
+Gibt den Typ des Serienbrief-Hauptdokuments an. Der Standardwert istDefault .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -20,7 +20,7 @@ Das Hauptdokument ist das Dokument, das Informationen enthält, die für jede Ve
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

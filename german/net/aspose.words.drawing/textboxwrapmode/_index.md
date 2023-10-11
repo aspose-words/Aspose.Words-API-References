@@ -3,7 +3,7 @@ title: Enum TextBoxWrapMode
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.TextBoxWrapMode opsomming. Gibt an wie Text innerhalb einer Form umbrochen wird.
 type: docs
-weight: 1190
+weight: 1340
 url: /de/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -19,7 +19,7 @@ public enum TextBoxWrapMode
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Square | `0` | Text wird innerhalb einer Form umbrochen. |
-| None | `2` | Text wird nicht innerhalb einer Form umbrochen. |
+| None | `2` | Text wird nicht in eine Form umbrochen. |
 
 ### Beispiele
 
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// Legen Sie die Eigenschaft "TextBoxWrapMode" auf "TextBoxWrapMode.None" fest, um die Breite des Textfelds zu erhöhen
-// um Text aufzunehmen, sollte er groß genug sein.
-// Legen Sie die Eigenschaft "TextBoxWrapMode" auf "TextBoxWrapMode.Square" fest
-// den gesamten Text innerhalb des Textfelds umbrechen und seine Abmessungen beibehalten.
+// Setzen Sie die Eigenschaft „TextBoxWrapMode“ auf „TextBoxWrapMode.None“, um die Breite des Textfelds zu erhöhen
+// um Text unterzubringen, sollte dieser groß genug sein.
+// Setzen Sie die Eigenschaft „TextBoxWrapMode“ auf „TextBoxWrapMode.Square“.
+// Den gesamten Text in das Textfeld einschließen und dabei seine Abmessungen beibehalten.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

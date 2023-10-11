@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der den Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der den Knoten besuchen wird. |
 
 ### Rückgabewert
 
-False, wenn der Besucher angefordert hat, dass die Enumeration beendet wird.
+`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
 ### Bemerkungen
 
-Ruft DocumentVisitor.VisitSpecialChar auf.
+Anrufe[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 ### Siehe auch
 

@@ -16,7 +16,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie oben auf der ersten Seite einen breiten blauen Rahmen erstellen.
+Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
 ```csharp
 Document doc = new Document();

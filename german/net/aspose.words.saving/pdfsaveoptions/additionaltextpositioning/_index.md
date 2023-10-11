@@ -16,7 +16,7 @@ public bool AdditionalTextPositioning { get; set; }
 
 ### Bemerkungen
 
-Wenn`Stimmt` , werden zusätzliche Textpositionierungsoperatoren in die Ausgabe-PDF geschrieben. Dies kann helfen, Probleme mit ungenauer Textpositionierung bei einigen Druckern zu überwinden. Der Nachteil ist die erhöhte PDF-Dokumentgröße.
+Wenn`WAHR` werden zusätzliche Textpositionierungsoperatoren in das Ausgabe-PDF geschrieben. Dies kann dabei helfen, Probleme mit ungenauer Textpositionierung bei einigen Druckern zu beheben. Der Nachteil ist die größere Größe des PDF-Dokuments.
 
 Der Standardwert ist`FALSCH`.
 
@@ -27,15 +27,15 @@ Zeigen Sie, wie Sie zusätzliche Textpositionierungsoperatoren schreiben.
 ```csharp
 Document doc = new Document(MyDir + "Text positioning operators.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // Setzen Sie die Eigenschaft "AdditionalTextPositioning" auf "true", um zu versuchen, den Fehler zu beheben
-    // Elementpositionierung in der Ausgabe-PDF, falls vorhanden, auf Kosten einer erhöhten Dateigröße.
-    // Setzen Sie die Eigenschaft "AdditionalTextPositioning" auf "false", um das Dokument wie gewohnt zu rendern.
+    // Setzen Sie die Eigenschaft „AdditionalTextPositioning“ auf „true“, um zu versuchen, Fehler zu beheben
+    // Elementpositionierung im Ausgabe-PDF, falls vorhanden, auf Kosten einer erhöhten Dateigröße.
+    // Setzen Sie die Eigenschaft „AdditionalTextPositioning“ auf „false“, um das Dokument wie gewohnt darzustellen.
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };
 

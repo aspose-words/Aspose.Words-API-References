@@ -1,18 +1,22 @@
 ---
 title: Fill.ForeColor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft ein ColorObjekt ab oder legt es fest das die Vordergrundfarbe für die Füllung darstellt.
+description: Fill eigendom. Ruft ein ColorObjekt ab oder legt dieses fest das die Vordergrundfarbe für die Füllung darstellt.
 type: docs
-weight: 30
+weight: 70
 url: /de/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
 
-Ruft ein Color-Objekt ab oder legt es fest, das die Vordergrundfarbe für die Füllung darstellt.
+Ruft ein Color-Objekt ab oder legt dieses fest, das die Vordergrundfarbe für die Füllung darstellt.
 
 ```csharp
 public Color ForeColor { get; set; }
 ```
+
+### Bemerkungen
+
+Diese Eigenschaft setzt die Alpha-Komponente des zurückColor bis hin zu völlig undurchsichtiger Farbe im Gegensatz zu den[`Color`](../color/) Eigentum, das es bewahrt.
 
 ### Beispiele
 
@@ -23,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nachfolgend finden Sie vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
-// 1 - Gepunktete, horizontale, halbtransparente rote Linie
+// 1 – Gepunktete, horizontale, halbtransparente rote Linie
 // mit einem Pfeil am linken Ende und einer Raute am rechten Ende:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -41,7 +45,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Dicke schwarze diagonale Linie mit abgerundeten Enden:
+// 2 – Dicke schwarze diagonale Linie mit abgerundeten Enden:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -61,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
+// 4 – Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -73,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Wenn wir die Ausrichtung unseres Pfeils umkehren, kehren wir auch das Bild um, das der Pfeil enthält.
-    // Spiegeln Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, um es anzuzeigen.
+    // Wenn wir die Ausrichtung unseres Pfeils umdrehen, drehen wir auch das Bild um, das der Pfeil enthält.
+    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, in der es angezeigt wird.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

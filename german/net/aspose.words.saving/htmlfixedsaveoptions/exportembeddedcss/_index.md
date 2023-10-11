@@ -16,16 +16,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie bestimmen, wo CSS-Stylesheets gespeichert werden, wenn Sie ein Dokument in HTML exportieren.
+Zeigt, wie Sie beim Exportieren eines Dokuments nach HTML bestimmen, wo CSS-Stylesheets gespeichert werden sollen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Wenn wir ein Dokument in HTML exportieren, erstellt Aspose.Words auch ein CSS-Stylesheet, um das Dokument damit zu formatieren.
-// Wenn Sie das Flag "ExportEmbeddedCss" auf "true" setzen, speichern Sie das CSS-Stylesheet in einer .css-Datei,
-// und mit einem <link> aus dem HTML-Dokument auf die Datei verlinken Element.
-// Wenn das Flag auf "false" gesetzt wird, wird das CSS-Stylesheet in das HTML-Dokument eingebettet,
-// Dadurch wird nur eine Datei anstelle von zwei erstellt.
+// Wenn wir ein Dokument nach HTML exportieren, erstellt Aspose.Words auch ein CSS-Stylesheet, mit dem das Dokument formatiert wird.
+// Wenn Sie das Flag „ExportEmbeddedCss“ auf „true“ setzen, wird das CSS-Stylesheet in einer CSS-Datei gespeichert.
+// und vom HTML-Dokument aus mit einem <link> auf die Datei verlinken. Element.
+// Wenn Sie das Flag auf „false“ setzen, wird das CSS-Stylesheet in das HTML-Dokument eingebettet.
+// wodurch nur eine Datei statt zwei erstellt wird.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

@@ -16,7 +16,7 @@ public TextEffect TextEffect { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein visueller Effekt auf einen Lauf angewendet wird.
+Zeigt, wie man einen visuellen Effekt auf einen Lauf anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// Ältere Versionen von Microsoft Word unterstützen nur Schriftanimationseffekte.
+// Ältere Versionen von Microsoft Word unterstützen nur Schriftartanimationseffekte.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

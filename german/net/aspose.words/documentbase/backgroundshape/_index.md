@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.BackgroundShape
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Ruft die Hintergrundform des Dokuments ab oder legt sie fest. Kann null sein.
+description: DocumentBase eigendom. Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann seinNull .
 type: docs
 weight: 10
 url: /de/net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Ruft die Hintergrundform des Dokuments ab oder legt sie fest. Kann null sein.
+Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann sein`Null` .
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -16,15 +16,15 @@ public Shape BackgroundShape { get; set; }
 
 ### Bemerkungen
 
-Microsoft Word erlaubt nur eine Form, die ihre eigene hat[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) Eigenschaft gleich zuRectangle als Hintergrundform für ein Dokument verwendet werden.
+Microsoft Word erlaubt nur eine Form, die ihre eigenen hat[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) Eigenschaft equal toRectangle als Hintergrundform für ein Dokument verwendet werden.
 
-Microsoft Word unterstützt nur die Fülleigenschaften einer Hintergrundform. Alle anderen properties werden ignoriert.
+Microsoft Word unterstützt nur die Fülleigenschaften einer Hintergrundform. Alle anderen Properties werden ignoriert.
 
-Wenn Sie diese Eigenschaft auf einen Wert ungleich Null setzen, wird auch die festgelegt[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) zu wahr.
+Wenn Sie diese Eigenschaft auf einen Wert ungleich Null setzen, wird auch die festgelegt[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) Zu`WAHR`.
 
 ### Beispiele
 
-Zeigt, wie Sie für jede Seite eines Dokuments eine Hintergrundform festlegen.
+Zeigt, wie man für jede Seite eines Dokuments eine Hintergrundform festlegt.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.FlatColor.docx");
 shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 shapeRectangle.ImageData.SetImage(ImageDir + "Transparent background logo.png");
 
-// Passen Sie das Erscheinungsbild des Bildes an, um es besser als Wasserzeichen geeignet zu machen.
+// Passen Sie das Erscheinungsbild des Bildes an, damit es besser als Wasserzeichen geeignet ist.
 shapeRectangle.ImageData.Contrast = 0.2;
 shapeRectangle.ImageData.Brightness = 0.7;
 
@@ -53,9 +53,14 @@ doc.BackgroundShape = shapeRectangle;
 
 Assert.IsTrue(doc.BackgroundShape.HasImage);
 
+Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSaveOptions
+{
+    CacheBackgroundGraphics = false
+};
+
 // Microsoft Word unterstützt keine Formen mit Bildern als Hintergrund,
 // aber wir können diese Hintergründe immer noch in anderen Speicherformaten wie .pdf sehen.
-doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf");
+doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 
 ### Siehe auch

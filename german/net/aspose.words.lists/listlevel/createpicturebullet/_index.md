@@ -1,14 +1,14 @@
 ---
 title: ListLevel.CreatePictureBullet
 second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Erstellt eine Aufzählungszeichenform für die aktuelle Listenebene.
+description: ListLevel methode. Erstellt eine Bildaufzählungsform für die aktuelle Listenebene.
 type: docs
 weight: 150
 url: /de/net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method
 
-Erstellt eine Aufzählungszeichenform für die aktuelle Listenebene.
+Erstellt eine Bildaufzählungsform für die aktuelle Listenebene.
 
 ```csharp
 public void CreatePictureBullet()
@@ -16,19 +16,19 @@ public void CreatePictureBullet()
 
 ### Bemerkungen
 
-Bitte beachten Sie, dass NumberStyle auf Bullet und NumberFormat auf "\xF0B7" gesetzt wird, um das Aufzählungszeichen korrekt anzuzeigen. Das Bild mit dem roten Kreuz wird beim Erstellen als Aufzählungsbild eingestellt. Zum Ändern bitte verwenden[`ImageData`](../imagedata/).
+Bitte beachten Sie,[`NumberStyle`](../numberstyle/) wird eingestelltBullet and [`NumberFormat`](../numberformat/) auf „\xF0B7“, um Bildaufzählungszeichen richtig anzuzeigen. Das Bild mit dem roten Kreuz wird beim Erstellen als Bildaufzählungsbild festgelegt. Um es zu ändern, verwenden Sie bitte[`ImageData`](../imagedata/).
 
 ### Beispiele
 
-Zeigt, wie Sie ein benutzerdefiniertes Bildsymbol für Beschriftungen von Listenelementen festlegen.
+Zeigt, wie man ein benutzerdefiniertes Bildsymbol für Listenelementbezeichnungen festlegt.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Erstellen Sie ein Bild-Aufzählungszeichen für die aktuelle Listenebene und legen Sie ein Bild aus einem lokalen Dateisystem fest
-// als das Symbol, das die Aufzählungszeichen für diese Listenebene anzeigen.
+// Erstellen Sie ein Bildaufzählungszeichen für die aktuelle Listenebene und legen Sie ein Bild aus einem lokalen Dateisystem fest
+// als Symbol, das die Aufzählungszeichen für diese Listenebene anzeigen.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 
