@@ -3,12 +3,14 @@ title: Class FieldOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldOptions klass. Representerar alternativ för att styra fälthantering i ett dokument.
 type: docs
-weight: 2100
+weight: 2250
 url: /sv/net/aspose.words.fields/fieldoptions/
 ---
 ## FieldOptions class
 
 Representerar alternativ för att styra fälthantering i ett dokument.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public sealed class FieldOptions
@@ -19,16 +21,18 @@ public sealed class FieldOptions
 | namn | Beskrivning |
 | --- | --- |
 | [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Hämtar eller ställer in anpassad streckkodsgenerator. |
+| [BibliographyStylesProvider](../../aspose.words.fields/fieldoptions/bibliographystylesprovider/) { get; set; } | Hämtar eller ställer in en leverantör som returnerar en bibliografistil för [`FieldBibliography`](../fieldbibliography/) och[`FieldCitation`](../fieldcitation/) fields. |
 | [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Hämtar eller ställer in sökvägar för MS Words inbyggda mallar. |
 | [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | Hämtar eller ställer in utvärderaren för fältjämförelseuttryck. |
 | [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | Hämtar eller ställer in aktuell användarinformation. |
 | [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | Hämtar eller ställer in anpassad stilseparator för \t-växeln[`FieldToc`](../fieldtoc/) field. |
 | [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper, övervägs inte detta alternativ. |
 | [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett frågeresultat för[`FieldDatabase`](../fielddatabase/) field. |
-| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | Hämtar eller sätter en[`FieldIndexFormat`](./fieldindexformat/) som representerar formateringen för[`FieldIndex`](../fieldindex/)fält i dokumentet. |
+| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | Hämtar eller sätter en[`FieldIndexFormat`](./fieldindexformat/) som representerar formateringen för[`FieldIndex`](../fieldindex/) fält i dokumentet. |
 | [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält. |
 | [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Anger vilken kultur som ska användas för att formatera fältresultatet. |
 | [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | Hämtar eller sätter[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) implementering |
+| [FieldUpdatingProgressCallback](../../aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/) { get; set; } | Hämtar eller sätter[`IFieldUpdatingProgressCallback`](../ifieldupdatingprogresscallback/) implementering. |
 | [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | Hämtar eller ställer in filnamnet på dokumentet. |
 | [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | Hämtar eller ställer in värdet som anger om dubbelriktad text stöds fullt ut under fältuppdatering eller inte. |
 | [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | Hämtar eller ställer in värdet som anger om äldre (tidigt än AW 13.10) nummerformat för fält är aktiverat eller inte. |

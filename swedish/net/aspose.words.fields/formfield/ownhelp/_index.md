@@ -16,7 +16,7 @@ public bool OwnHelp { get; set; }
 
 ### Anmärkningar
 
-Om det är sant, visas texten som anges av HelpText-egenskapen. Om False, visas texten i AutoText-posten som specificeras av HelpText-egenskapen.
+Om`Sann` , texten som anges av[`HelpText`](../helptext/) egenskapen visas. If`falsk` , texten i AutoText-posten som anges av[`HelpText`](../helptext/) egenskapen visas.
 
 ### Exempel
 
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

@@ -3,7 +3,7 @@ title: Chart.Title
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till egenskaperna för diagramtiteln.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.drawing.charts/chart/title/
 ---
 ## Chart.Title property
@@ -30,7 +30,7 @@ Chart chart = chartShape.Chart;
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
+ // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
 title.Show = true;
 
 // Ställ in egenskapen "Overlay" på "true" Ge andra diagramelement mer utrymme genom att tillåta dem att överlappa titeln

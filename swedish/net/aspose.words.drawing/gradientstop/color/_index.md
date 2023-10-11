@@ -3,7 +3,7 @@ title: GradientStop.Color
 second_title: Aspose.Words för .NET API Referens
 description: GradientStop fast egendom. Hämtar eller ställer in ett värde som representerar färgen på gradientstoppet.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing/gradientstop/color/
 ---
 ## GradientStop.Color property
@@ -28,8 +28,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Få gradient stoppar samling.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Ändra första gradientstopp.
-gradientStops[0].Color = Color.Aqua;
+// Ändra första gradientstopp.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -48,6 +48,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

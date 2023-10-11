@@ -16,7 +16,7 @@ public LoadFormat LoadFormat { get; set; }
 
 ### Anmärkningar
 
-Det rekommenderas att du specificerarAutovärde och låt Aspose.Words detektera filformatet automatiskt. Om du känner till formatet för dokumentet du ska ladda kan du ange format explicit och detta kommer att minska laddningstiden något med den omkostnad som är kopplad till automatisk identifiering av formatet. Om du anger ett explicit laddningsformat kommer det att vända Om det är fel, kommer den automatiska upptäckten att anropas och ett andra försök att ladda filen kommer att göras.
+Det rekommenderas att du specificerarAuto värde och låt Aspose.Words detektera filformatet automatiskt. Om du känner till formatet på dokumentet som du ska ladda kan du ange format explicit och detta kommer att minska laddningstiden något med den omkostnad som är kopplad till automatisk identifiering av formatet. Om du anger ett explicit laddningsformat kommer det att vända Om det är fel, kommer den automatiska upptäckten att anropas och ett andra försök att ladda filen kommer att göras.
 
 ### Exempel
 
@@ -25,7 +25,7 @@ Visar hur du anger en bas-URI när du öppnar ett HTML-dokument.
 ```csharp
 // Anta att vi vill ladda ett .html-dokument som innehåller en bild länkad av en relativ URI
 // medan bilden är på en annan plats. I så fall måste vi lösa den relativa URI till en absolut.
-  // Vi kan tillhandahålla en bas-URI med hjälp av ett HtmlLoadOptions-objekt.
+ // Vi kan tillhandahålla en bas-URI med hjälp av ett HtmlLoadOptions-objekt.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);

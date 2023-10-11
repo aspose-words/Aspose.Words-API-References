@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertTableOfContents
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett TOCfält innehållsförteckning i dokumentet.
 type: docs
-weight: 440
+weight: 470
 url: /sv/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -28,7 +28,7 @@ Det enklaste sättet att specificera växlarna är att infoga och konfigurera en
 
 Till exempel, efter att ha skapat en innehållsförteckning, infogas följande fält i dokumentet: **{ TOC \o "1-3" \h \z \u }** . Du kan kopiera **\o "1-3" \h \z \u** och använd den som switchparameter.
 
-Anteckna det **InsertTableOfContents** kommer bara att infoga ett TOC-fält, men kommer faktiskt inte att bygga innehållsförteckningen. Innehållsförteckningen byggs av Microsoft Word när fältet uppdateras.
+Anteckna det`InsertTableOfContents` kommer bara att infoga ett TOC-fält, men kommer faktiskt inte att bygga innehållsförteckningen. Innehållsförteckningen byggs av Microsoft Word när fältet uppdateras.
 
 Om du infogar en innehållsförteckning med den här metoden och sedan öppnar filen i Microsoft Word, kommer du inte att se innehållsförteckningen eftersom TOC-fältet ännu inte har uppdaterats.
 

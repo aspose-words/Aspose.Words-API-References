@@ -1,14 +1,14 @@
 ---
 title: Document.HasMacros
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar Sann om dokumentet har ett VBAprojekt makron.
+description: Document fast egendom. ReturnerarSann om dokumentet har ett VBAprojekt makron.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Returnerar **Sann** om dokumentet har ett VBA-projekt (makron).
+Returnerar`Sann` om dokumentet har ett VBA-projekt (makron).
 
 ```csharp
 public bool HasMacros { get; }

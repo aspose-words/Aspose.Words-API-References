@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetValue
 second_title: Aspose.Words för .NET API Referens
-description: IMailMergeDataSource metod. Returnerar ett värde för det angivna fältnamnet eller false om fältet inte hittas.
+description: IMailMergeDataSource metod. Returnerar ett värde för det angivna fältnamnet ellerfalsk om fältet inte hittas.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
 ---
 ## IMailMergeDataSource.GetValue method
 
-Returnerar ett värde för det angivna fältnamnet eller false om fältet inte hittas.
+Returnerar ett värde för det angivna fältnamnet eller`falsk` om fältet inte hittas.
 
 ```csharp
 public bool GetValue(string fieldName, out object fieldValue)
@@ -21,7 +21,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 ### Returvärde
 
-**Sann** om värde hittades.
+`Sann` om värde hittades.
 
 ### Exempel
 
@@ -36,11 +36,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet. 
+     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -64,7 +66,7 @@ public class Customer
 }
 
 /// <summary>
-/// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words 
+ /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
 /// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource

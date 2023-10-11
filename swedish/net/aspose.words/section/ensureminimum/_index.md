@@ -1,14 +1,14 @@
 ---
 title: Section.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
-description: Section metod. Säkerställer att avsnittet har Kropp med en Paragraph.
+description: Section metod. Säkerställer att avsnittet harBody med enParagraph .
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Säkerställer att avsnittet har Kropp med en Paragraph.
+Säkerställer att avsnittet har[`Body`](../body/) med en[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()

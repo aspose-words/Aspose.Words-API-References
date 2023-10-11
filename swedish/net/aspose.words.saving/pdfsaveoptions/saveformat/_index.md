@@ -3,7 +3,7 @@ title: PdfSaveOptions.SaveFormat
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastPdf .
 type: docs
-weight: 250
+weight: 280
 url: /sv/net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property

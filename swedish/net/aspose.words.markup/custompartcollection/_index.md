@@ -3,12 +3,14 @@ title: Class CustomPartCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomPartCollection klass. Representerar en samling avCustomPart objekt.
 type: docs
-weight: 3670
+weight: 3910
 url: /sv/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
 Representerar en samling av[`CustomPart`](../custompart/) objekt.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>

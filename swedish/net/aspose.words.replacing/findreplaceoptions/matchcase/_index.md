@@ -3,7 +3,7 @@ title: FindReplaceOptions.MatchCase
 second_title: Aspose.Words för .NET API Referens
 description: FindReplaceOptions fast egendom. True indikerar skiftlägeskänslig jämförelse false indikerar skiftlägesokänslig jämförelse.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property

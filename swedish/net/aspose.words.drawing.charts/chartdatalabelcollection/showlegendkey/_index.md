@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet är falsk .
+description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk .
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 ---
 ## ChartDataLabelCollection.ShowLegendKey property
 
-Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet är **falsk** .
+Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowLegendKey { get; set; }

@@ -22,7 +22,7 @@ Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i doku
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-  // Namnge bokmärkt text med ett SET-fält.
+ // Namnge bokmärkt text med ett SET-fält.
 // Detta fält hänvisar till "bokmärket" inte en bokmärkesstruktur som visas i texten, utan en namngiven variabel.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
@@ -112,6 +112,7 @@ public void FieldRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
 /// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägg till text före och efter det.

@@ -3,7 +3,7 @@ title: Enum ExportFontFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ExportFontFormat uppräkning. Indikerar formatet som används för att exportera teckensnitt vid rendering till HTMLfast format.
 type: docs
-weight: 4730
+weight: 4990
 url: /sv/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration

@@ -3,7 +3,7 @@ title: CellFormat.LeftPadding
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till till vänster om innehållet i cellen.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property

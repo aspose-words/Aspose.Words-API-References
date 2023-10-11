@@ -1,14 +1,14 @@
 ---
 title: Shape.ShadowEnabled
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Returnerar sant om en skuggeffekt är aktiverad.
+description: Shape fast egendom. ReturnerarSann om en skuggeffekt är aktiverad.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Returnerar sant om en skuggeffekt är aktiverad.
+Returnerar`Sann` om en skuggeffekt är aktiverad.
 
 ```csharp
 public bool ShadowEnabled { get; }
@@ -19,6 +19,7 @@ public bool ShadowEnabled { get; }
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

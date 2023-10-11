@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ### Anmärkningar
 
-Om denna nivå inte definierar bildkula returnerar null. Innan du ställer in en ny bild för icke-bildkulform, använd[`CreatePictureBullet`](../createpicturebullet/) metod först.
+Om denna nivå inte definierar bildpunkten returneras`null` . Innan du ställer in en ny bild för icke-bildkula, använd[`CreatePictureBullet`](../createpicturebullet/) metod först.
 
 ### Se även
 

@@ -22,9 +22,9 @@ public override DocumentProperty this[string name] { get; }
 
 Strängnamnen på egenskaperna motsvarar namnen på de typd egenskaper som är tillgängliga från[`BuiltInDocumentProperties`](../).
 
-Om du begär en egenskap som inte finns i dokumentet, men fastighetens namn erkänns som ett giltigt inbyggt namn, kommer en ny[`DocumentProperty`](../../documentproperty/) skapas, läggs till i samlingen och returneras. Den nyskapade egenskapen tilldelas ett standardvärde (tom sträng, noll, false eller DateTime.MinValue beroende på typen för den inbyggda egenskapen).
+Om du begär en egenskap som inte finns i dokumentet, men fastighetens namn erkänns som ett giltigt inbyggt namn, kommer en ny[`DocumentProperty`](../../documentproperty/) skapas, läggs till i samlingen och returneras. Den nyskapade egenskapen är tilldelad ett standardvärde (tom sträng, noll,`falsk` eller DateTime.MinValue beroende på typen för den inbyggda egenskapen).
 
-Om du begär en egenskap som inte finns i dokumentet och namnet inte känns igen som ett inbyggt namn, returneras en null.
+Om du begär en egenskap som inte finns i dokumentet och namnet inte känns igen som ett inbyggt namn,`null` returneras.
 
 ### Exempel
 
@@ -34,7 +34,7 @@ Visar hur man arbetar med anpassade dokumentegenskaper.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Varje dokument innehåller en samling anpassade egenskaper, som, liksom de inbyggda egenskaperna, är nyckel-värdepar.
-// Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper. 
+ // Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

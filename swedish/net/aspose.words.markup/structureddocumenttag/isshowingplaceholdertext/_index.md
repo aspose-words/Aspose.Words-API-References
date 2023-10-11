@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger om innehållet i detta SDT ska tolkas att innehålla platshållare text i motsats till vanligt textinnehåll inom SDT.
+description: StructuredDocumentTag fast egendom. Anger om innehållet i detta SDTska tolkas att innehålla platshållare text i motsats till vanligt textinnehåll inom SDT.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Anger om innehållet i detta **SDT** ska tolkas att innehålla platshållare text (i motsats till vanligt textinnehåll inom SDT).
+Anger om innehållet i detta **SDT**ska tolkas att innehålla platshållare text (i motsats till vanligt textinnehåll inom SDT).
 
-om satt till sant, ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
+om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

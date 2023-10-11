@@ -3,7 +3,7 @@ title: Enum CompressionLevel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.CompressionLevel uppräkning. Komprimeringsnivå för OOXMLfiler.
 type: docs
-weight: 4610
+weight: 4870
 url: /sv/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration

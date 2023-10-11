@@ -3,12 +3,14 @@ title: Class PageSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PageSavingArgs klass. Tillhandahåller data förPageSaving händelse.
 type: docs
-weight: 5100
+weight: 5380
 url: /sv/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
 Tillhandahåller data för[`PageSaving`](../ipagesavingcallback/pagesaving/) händelse.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class PageSavingArgs

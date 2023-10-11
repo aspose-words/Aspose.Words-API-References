@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Falskt om besökaren begärde att uppräkningen skulle sluta.
+`falsk` om besökaren begärde att uppräkningen skulle sluta.
 
 ### Anmärkningar
 

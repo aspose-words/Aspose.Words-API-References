@@ -3,7 +3,7 @@ title: Cell.ParentRow
 second_title: Aspose.Words för .NET API Referens
 description: Cell fast egendom. Returnerar cellens överordnade rad.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.tables/cell/parentrow/
 ---
 ## Cell.ParentRow property
@@ -16,7 +16,7 @@ public Row ParentRow { get; }
 
 ### Anmärkningar
 
-Ekvivalent med`(Rad)FirstNonMarkupParentNode`.
+Ekvivalent medFirstNonMarkupParentNode gjutna till[`Row`](../../row/).
 
 ### Exempel
 

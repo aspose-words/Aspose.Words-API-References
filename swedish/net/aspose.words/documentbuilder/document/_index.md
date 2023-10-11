@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Document
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar eller ställer inDocument objekt som detta objekt är kopplat till.
+description: DocumentBuilder fast egendom. Hämtar eller ställer inDocumentobjekt som detta objekt är kopplat till.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Hämtar eller ställer in`Document` objekt som detta objekt är kopplat till.
+Hämtar eller ställer in`Document`objekt som detta objekt är kopplat till.
 
 ```csharp
 public Document Document { get; set; }

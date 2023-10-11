@@ -27,7 +27,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 // När vi exporterar dokumentet till .odt kan vi använda ett OdtSaveOptions-objekt för att ändra hur vi sparar dokumentet.
 // Vi kan ställa in egenskapen "MeasureUnit" till "OdtSaveMeasureUnit.Centimeters"
-// för att definiera innehåll som stilparametrar med hjälp av det metriska systemet, som Open Office använder. 
+ // för att definiera innehåll som stilparametrar med hjälp av det metriska systemet, som Open Office använder.
 // Vi kan ställa in egenskapen "MeasureUnit" till "OdtSaveMeasureUnit.Inches"
 // för att definiera innehåll som stilparametrar med hjälp av det imperialistiska systemet, som Microsoft Word använder.
 OdtSaveOptions saveOptions = new OdtSaveOptions

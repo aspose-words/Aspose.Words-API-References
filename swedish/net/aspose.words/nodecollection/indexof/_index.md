@@ -24,7 +24,7 @@ Det nollbaserade indexet för noden inom samlingen, om det hittas; annars -1.
 
 ### Anmärkningar
 
-Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot Count.
+Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot[`Count`](../count/).
 
 ### Exempel
 

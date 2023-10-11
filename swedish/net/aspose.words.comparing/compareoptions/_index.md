@@ -3,12 +3,14 @@ title: Class CompareOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Comparing.CompareOptions klass. Gör det möjligt att välja avancerade alternativ för dokumentjämförelse.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
 Gör det möjligt att välja avancerade alternativ för dokumentjämförelse.
+
+För att lära dig mer, besök[Jämför dokument](https://docs.aspose.com/words/net/compare-documents/) dokumentationsartikel.
 
 ```csharp
 public class CompareOptions
@@ -24,14 +26,15 @@ public class CompareOptions
 
 | namn | Beskrivning |
 | --- | --- |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Anger om skillnader iMoveRevision mellan de två dokumenten. Som standard produceras inga flyttversioner. |
 | [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indikerar att jämförelse av dokument är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig. |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig. |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte kommentarer. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Anger om skillnaden i DrawingML unika ID ska ignoreras. Standardvärdet är **falsk** . |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet är`falsk` . |
 | [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält. |
 | [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignoreras inte fotnoter. |
 | [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentformatering. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indikerar att sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter. |
 | [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras inte tabeller. |
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Anger vilket dokument som ska användas som mål vid jämförelse. |
@@ -62,7 +65,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

@@ -3,7 +3,7 @@ title: Fill.PresetTexture
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Får enPresetTexture för fyllningen.
 type: docs
-weight: 110
+weight: 170
 url: /sv/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property

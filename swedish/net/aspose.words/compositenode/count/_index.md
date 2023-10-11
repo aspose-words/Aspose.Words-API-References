@@ -3,7 +3,7 @@ title: CompositeNode.Count
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode fast egendom. Hämtar antalet omedelbara barn till denna nod.
 type: docs
-weight: 20
+weight: 10
 url: /sv/net/aspose.words/compositenode/count/
 ---
 ## CompositeNode.Count property

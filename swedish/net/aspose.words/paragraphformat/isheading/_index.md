@@ -3,7 +3,7 @@ title: ParagraphFormat.IsHeading
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant när styckeformatet är en av de inbyggda rubrikstilarna.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words/paragraphformat/isheading/
 ---
 ## ParagraphFormat.IsHeading property

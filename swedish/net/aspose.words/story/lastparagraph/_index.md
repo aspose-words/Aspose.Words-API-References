@@ -29,6 +29,7 @@ builder.Writeln("Run 1. ");
 // och det hamnar också alltid omedelbart efter någon nod som byggaren precis infogat.
 // För att lägga till innehåll till en annan del av dokumentet,
 // vi kan flytta markören till en annan nod med "MoveTo"-metoden.
+builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // Markören är nu framför noden som vi flyttade den till.
 // Om du lägger till en andra körning infogas den framför den första körningen.
 builder.Writeln("Run 2. ");

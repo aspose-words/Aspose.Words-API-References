@@ -25,7 +25,6 @@ Visar hur man använder en streckkodsgenerator.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
 // och infoga dem sedan i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();

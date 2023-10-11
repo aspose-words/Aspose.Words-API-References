@@ -20,7 +20,6 @@ Visar hur du tar bort stilar från Style Gallery-panelen.
 
 ```csharp
 Document doc = new Document();
-
 // Observera att borttagningsstilar endast fungerar med DOCX-format för närvarande.
 doc.Styles.ClearQuickStyleGallery();
 

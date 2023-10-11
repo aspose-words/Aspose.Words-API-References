@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. NärSann  snygga format utdata där tillämpligt. Standardvärdet är falsk .
+description: SaveOptions fast egendom. NärSann snygga format utdata där tillämpligt. Standardvärdet ärfalsk .
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-När`Sann` , snygga format utdata där tillämpligt. Standardvärdet är **falsk** .
+När`Sann` snygga format utdata där tillämpligt. Standardvärdet är`falsk` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,7 +16,7 @@ public bool PrettyFormat { get; set; }
 
 ### Anmärkningar
 
-Satt till **Sann** för att göra HTML, MHTML, EPUB, WordML, RTF, DOCX och ODT läsbara för människor. Användbar för testning eller felsökning.
+Satt till`Sann` för att göra HTML, MHTML, EPUB, WordML, RTF, DOCX och ODT-utdata läsbara för människor. Användbar för testning eller felsökning.
 
 ### Exempel
 

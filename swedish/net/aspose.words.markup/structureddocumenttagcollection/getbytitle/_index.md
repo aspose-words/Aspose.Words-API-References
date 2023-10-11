@@ -22,6 +22,23 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 Returnerar null om den strukturerade dokumenttaggen med den angivna titeln inte kan hittas.
 
+### Exempel
+
+Visar hur man får strukturerad dokumenttagg.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Hämta den strukturerade dokumenttaggen efter Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Hämta den strukturerade dokumenttaggen eller ranged taggen efter titel.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### Se även
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)

@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Anmärkningar
 
-Om det inte finns någon sista underordnad nod returneras en noll.
+Om det inte finns någon sista underordnad nod, a`null` returneras.
 
 ### Se även
 

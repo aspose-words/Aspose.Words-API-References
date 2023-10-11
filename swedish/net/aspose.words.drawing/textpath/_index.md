@@ -3,12 +3,14 @@ title: Class TextPath
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextPath klass. Definierar texten och formateringen av textsökvägen för ett WordArtobjekt.
 type: docs
-weight: 1200
+weight: 1350
 url: /sv/net/aspose.words.drawing/textpath/
 ---
 ## TextPath class
 
 Definierar texten och formateringen av textsökvägen (för ett WordArt-objekt).
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public class TextPath
@@ -48,6 +50,7 @@ Använd[`TextPath`](../shape/textpath/) egenskap för att komma åt WordArt-egen
 Visar hur man arbetar med WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -113,6 +116,7 @@ Visar hur man arbetar med WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Infoga ett nytt stycke med en WordArt-form inuti.

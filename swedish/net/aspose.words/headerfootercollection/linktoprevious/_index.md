@@ -16,7 +16,7 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | True för att länka sidhuvuden och sidfötter till föregående avsnitt; false för att koppla bort dem. |
+| isLinkToPrevious | Boolean | `Sann` för att länka sidhuvuden och sidfötter till föregående avsnitt; `falsk` för att ta bort länken till dem. |
 
 ### Anmärkningar
 
@@ -103,7 +103,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) värde som anger sidhuvudet eller sidfoten som ska länkas/avlänkas. |
-| isLinkToPrevious | Boolean | True för att länka sidhuvudet eller sidfoten till föregående avsnitt; false för att ta bort länken. |
+| isLinkToPrevious | Boolean | `Sann`för att länka sidhuvudet eller sidfoten till föregående avsnitt; `falsk` för att ta bort länken. |
 
 ### Anmärkningar
 

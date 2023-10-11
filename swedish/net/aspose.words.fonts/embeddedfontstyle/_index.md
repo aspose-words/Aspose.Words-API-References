@@ -3,7 +3,7 @@ title: Enum EmbeddedFontStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.EmbeddedFontStyle uppräkning. Anger stilen för ett inbäddat teckensnitt i enFontInfo objekt.
 type: docs
-weight: 2680
+weight: 2860
 url: /sv/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration

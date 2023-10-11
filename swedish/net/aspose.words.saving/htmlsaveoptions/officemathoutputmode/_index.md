@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.OfficeMathOutputMode
 second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr hur OfficeMathobjekt exporteras till HTML MHTML eller EPUB. Standardvärdet ärHtmlOfficeMathOutputMode.Image .
+description: HtmlSaveOptions fast egendom. Styr hur OfficeMathobjekt exporteras till HTML MHTML eller EPUB. Standardvärdet ärImage .
 type: docs
 weight: 400
 url: /sv/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property
 
-Styr hur OfficeMath-objekt exporteras till HTML, MHTML eller EPUB. Standardvärdet är`HtmlOfficeMathOutputMode.Image` .
+Styr hur OfficeMath-objekt exporteras till HTML, MHTML eller EPUB. Standardvärdet ärImage .
 
 ```csharp
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }

@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar en samling som representerar uppsättningen textkolumner.
 type: docs
-weight: 410
+weight: 420
 url: /sv/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property

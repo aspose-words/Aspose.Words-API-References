@@ -3,7 +3,7 @@ title: ChartAxis.MajorTickMark
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller sätter de viktigaste bockarna.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 ---
 ## ChartAxis.MajorTickMark property

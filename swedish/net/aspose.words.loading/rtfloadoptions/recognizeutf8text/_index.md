@@ -1,16 +1,16 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
 second_title: Aspose.Words för .NET API Referens
-description: RtfLoadOptions fast egendom. När satt till santCharsetDetectorkommer att försöka upptäcka UTF8tecken de kommer att bevaras under import.
+description: RtfLoadOptions fast egendom. När inställd påSann CharsetDetector kommer att försöka upptäcka UTF8tecken de kommer att bevaras under import.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-När satt till sant,CharsetDetectorkommer att försöka upptäcka UTF8-tecken, de kommer att bevaras under import.
+När inställd på`Sann` ,CharsetDetector kommer att försöka upptäcka UTF8-tecken, de kommer att bevaras under import.
 
-Standardvärdet är falskt.
+Standardvärdet är`falsk` .
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }

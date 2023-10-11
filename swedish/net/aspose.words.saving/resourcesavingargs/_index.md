@@ -3,12 +3,14 @@ title: Class ResourceSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ResourceSavingArgs klass. Tillhandahåller data förResourceSaving händelse.
 type: docs
-weight: 5280
+weight: 5560
 url: /sv/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
 Tillhandahåller data för[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) händelse.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class ResourceSavingArgs

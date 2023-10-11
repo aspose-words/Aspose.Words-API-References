@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
 second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnaden i DrawingML unika ID ska ignoreras. Standardvärdet är falsk .
+description: CompareOptions fast egendom. Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet ärfalsk .
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-Anger om skillnaden i DrawingML unika ID ska ignoreras. Standardvärdet är **falsk** .
+Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet är`falsk` .
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }

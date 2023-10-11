@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreFields
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.comparing/compareoptions/ignorefields/
 ---
 ## CompareOptions.IgnoreFields property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

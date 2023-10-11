@@ -3,12 +3,14 @@ title: Class AxisScaling
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisScaling klass. Representerar skalningsalternativen för axeln.
 type: docs
-weight: 560
+weight: 570
 url: /sv/net/aspose.words.drawing.charts/axisscaling/
 ---
 ## AxisScaling class
 
 Representerar skalningsalternativen för axeln.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class AxisScaling

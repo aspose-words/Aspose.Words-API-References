@@ -3,7 +3,7 @@ title: Fill.Opacity
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar eller ställer in graden av opacitet för den angivna fyllningen som ett värde mellan 00 clear och 10 opak.
 type: docs
-weight: 90
+weight: 150
 url: /sv/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property

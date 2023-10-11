@@ -3,7 +3,7 @@ title: Enum MeasurementUnits
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MeasurementUnits uppräkning. Anger måttenheten.
 type: docs
-weight: 3910
+weight: 4150
 url: /sv/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration

@@ -3,7 +3,7 @@ title: Interface IStructuredDocumentTag
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.IStructuredDocumentTag gränssnitt. Gränssnitt för att definiera en gemensam data förStructuredDocumentTag ochStructuredDocumentTagRangeStart .
 type: docs
-weight: 3730
+weight: 3970
 url: /sv/net/aspose.words.markup/istructureddocumenttag/
 ---
 ## IStructuredDocumentTag interface
@@ -24,7 +24,7 @@ public interface IStructuredDocumentTag
 | [Level](../../aspose.words.markup/istructureddocumenttag/level/) { get; } | Får nivån på vilken detta **SDT** förekommer i dokumentträdet. |
 | [LockContentControl](../../aspose.words.markup/istructureddocumenttag/lockcontentcontrol/) { get; set; } | När den är satt till true kommer den här egenskapen att förbjuda en användare att ta bort detta **SDT** . |
 | [LockContents](../../aspose.words.markup/istructureddocumenttag/lockcontents/) { get; set; } | När den är satt till true kommer den här egenskapen att förbjuda en användare att redigera innehållet i denna **SDT** . |
-| [Placeholder](../../aspose.words.markup/istructureddocumenttag/placeholder/) { get; } | Får[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) som innehåller platshållartext som ska visas när innehållet i denna SDT-körning är tomt, det associerade mappade XML-elementet är tomt som specificerats via[`XmlMapping`](./xmlmapping/) element eller[`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element är sant. |
+| [Placeholder](../../aspose.words.markup/istructureddocumenttag/placeholder/) { get; } | Får[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/)som innehåller platshållartext som ska visas när innehållet i denna SDT-körning är tomt, det associerade mappade XML-elementet är tomt som specificerats via[`XmlMapping`](./xmlmapping/) element eller[`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element är sant. |
 | [PlaceholderName](../../aspose.words.markup/istructureddocumenttag/placeholdername/) { get; set; } | Hämtar eller sätter Namn på[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) som innehåller platshållartext. |
 | [SdtType](../../aspose.words.markup/istructureddocumenttag/sdttype/) { get; } | Får typ av detta **Strukturerad dokumenttagg** . |
 | [Tag](../../aspose.words.markup/istructureddocumenttag/tag/) { get; set; } | Anger en tagg som är associerad med den aktuella SDT-noden. Kan inte vara null. |

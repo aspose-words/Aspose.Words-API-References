@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentSection
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar avsnittet som för närvarande är valt i denna DocumentBuilder.
+description: DocumentBuilder fast egendom. Hämtar avsnittet som för närvarande är valt i dettaDocumentBuilder .
 type: docs
 weight: 60
 url: /sv/net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Hämtar avsnittet som för närvarande är valt i denna DocumentBuilder.
+Hämtar avsnittet som för närvarande är valt i detta[`DocumentBuilder`](../) .
 
 ```csharp
 public Section CurrentSection { get; }

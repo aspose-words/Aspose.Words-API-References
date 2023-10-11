@@ -19,7 +19,6 @@ public IWarningCallback WarningCallback { get; set; }
 Visar hur man ringer upp varningsåteruppringning när teckensnittskällorna arbetar med.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();

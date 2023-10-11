@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Returnerar eller ställer in en TextBox som representerar nästa TextBox i en sekvens av former.
+description: TextBox fast egendom. Returnerar eller ställer in enTextBox som representerar nästaTextBox i en sekvens av former.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Returnerar eller ställer in en TextBox som representerar nästa TextBox i en sekvens av former.
+Returnerar eller ställer in en[`TextBox`](../) som representerar nästa[`TextBox`](../) i en sekvens av former.
 
 ```csharp
 public TextBox Next { get; set; }

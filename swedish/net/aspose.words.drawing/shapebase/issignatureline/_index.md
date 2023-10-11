@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsSignatureLine
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Indikerar att formen är en SignatureLine.
+description: ShapeBase fast egendom. Indikerar att formen är enSignatureLine .
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
 
-Indikerar att formen är en SignatureLine.
+Indikerar att formen är en[`SignatureLine`](../../signatureline/) .
 
 ```csharp
 public bool IsSignatureLine { get; }

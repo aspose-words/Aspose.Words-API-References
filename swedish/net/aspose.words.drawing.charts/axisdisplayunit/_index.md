@@ -3,12 +3,14 @@ title: Class AxisDisplayUnit
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisDisplayUnit klass. Ger tillgång till skalningsalternativen för visningsenheterna för värdeaxeln.
 type: docs
-weight: 540
+weight: 550
 url: /sv/net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class
 
 Ger tillgång till skalningsalternativen för visningsenheterna för värdeaxeln.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class AxisDisplayUnit
@@ -53,7 +55,7 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Ställ in Y-axelns gränser till -10 och 20.
-// Denna Y-axel kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 

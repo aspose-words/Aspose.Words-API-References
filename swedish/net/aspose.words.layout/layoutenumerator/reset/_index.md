@@ -3,7 +3,7 @@ title: LayoutEnumerator.Reset
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar räknaren till dokumentets första sida.
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.layout/layoutenumerator/reset/
 ---
 ## LayoutEnumerator.Reset method

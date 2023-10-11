@@ -3,7 +3,7 @@ title: Enum MailMergeCleanupOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.MailMergeCleanupOptions uppräkning. Anger alternativ som bestämmer vilka objekt som tas bort under kopplingen.
 type: docs
-weight: 3630
+weight: 3850
 url: /sv/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration

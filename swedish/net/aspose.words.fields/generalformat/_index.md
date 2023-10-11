@@ -3,7 +3,7 @@ title: Enum GeneralFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.GeneralFormat uppräkning. Anger ett allmänt format som tillämpas på ett numeriskt text eller valfritt fältresultat. Ett fält kan ha en kombination av allmänna format.
 type: docs
-weight: 2480
+weight: 2640
 url: /sv/net/aspose.words.fields/generalformat/
 ---
 ## GeneralFormat enumeration

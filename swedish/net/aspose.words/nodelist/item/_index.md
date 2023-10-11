@@ -71,7 +71,7 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Enkla snedstreck anger direkta efterkommande relationer,
 // som vi hoppade över när vi använde dubbla snedstreck.
-Assert.AreEqual(doc.SelectNodes("  //Table//Kör"),
+Assert.AreEqual(doc.SelectNodes(" //Table//Kör"),
     doc.SelectNodes("//Tabell/Rad/Cell/Paragraph/Run"));
 
 // Gå till formen som innehåller bilden vi infogade.

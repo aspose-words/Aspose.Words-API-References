@@ -3,12 +3,14 @@ title: Class PrinterSettingsContainer
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.PrinterSettingsContainer klass. Representerar ett minne för vissa parametrar avPrinterSettings objekt.
 type: docs
-weight: 4320
+weight: 4580
 url: /sv/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
 Representerar ett minne för vissa parametrar avPrinterSettings objekt.
+
+För att lära dig mer, besök[Skriva ut ett dokument programmerat eller använda dialogrutor](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) dokumentationsartikel.
 
 ```csharp
 public class PrinterSettingsContainer

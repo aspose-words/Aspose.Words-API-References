@@ -3,7 +3,7 @@ title: Enum TextureAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextureAlignment uppräkning. Anger justeringen för plattsättningen av texturfyllningen.
 type: docs
-weight: 1220
+weight: 1370
 url: /sv/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration

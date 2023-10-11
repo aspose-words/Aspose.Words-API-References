@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.HasChildNodes
 second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. Returnerar sant om denna nod har några underordnade noder.
+description: CompositeNode fast egendom. ReturnerarSann om denna nod har några undernoder.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Returnerar sant om denna nod har några underordnade noder.
+Returnerar`Sann` om denna nod har några undernoder.
 
 ```csharp
 public bool HasChildNodes { get; }

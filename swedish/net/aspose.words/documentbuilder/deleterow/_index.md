@@ -3,7 +3,7 @@ title: DocumentBuilder.DeleteRow
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Tar bort en rad från en tabell.
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder.DeleteRow method

@@ -25,7 +25,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 Visar hur man hittar motsvarande Aspose-laddnings-/sparaformat från varje mediatypsträng.
 
 ```csharp
-// ContentTypeToSaveFormat/ContentTypeToLoadFormat-metoderna accepterar endast officiella IANA-mediatypnamn, även kända som MIME-typer. 
+ // ContentTypeToSaveFormat/ContentTypeToLoadFormat-metoderna accepterar endast officiella IANA-mediatypnamn, även kända som MIME-typer.
 // Alla giltiga mediatyper listas här: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Att försöka associera ett SaveFormat med en partiell mediatypsträng kommer inte att fungera.

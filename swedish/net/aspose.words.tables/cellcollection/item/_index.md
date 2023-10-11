@@ -1,14 +1,14 @@
 ---
 title: CellCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: CellCollection fast egendom. Hämtar en Cell vid det givna indexet.
+description: CellCollection fast egendom. Hämtar enCell vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/cellcollection/item/
 ---
 ## CellCollection indexer
 
-Hämtar en **Cell** vid det givna indexet.
+Hämtar en[`Cell`](../../cell/) vid det givna indexet.
 
 ```csharp
 public Cell this[int index] { get; }

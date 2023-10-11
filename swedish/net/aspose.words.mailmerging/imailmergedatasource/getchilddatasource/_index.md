@@ -28,9 +28,9 @@ När Aspose.Words kopplingsmotorer fyller en kopplingsregion med data och stöte
 
 Nedan följer reglerna som genomförandet av`GetChildDataSource` måste följa.
 
-Om tabellen som representeras av detta datakällobjekt har en relaterad underordnad (detalj) tabell med det angivna namnet, måste din implementering returnera en ny[`IMailMergeDataSource`](../) objekt som ger access till underordnade poster för den aktuella posten. Ett exempel på detta är Order/OrderDetails-relationen. Låt oss anta att strömmen[`IMailMergeDataSource`](../) object representerar tabellen Order och den har en aktuell orderpost. Därefter stöter Aspose.Words på "MERGEFIELD TableStart:OrderDetails" i dokumentet och anropar`GetChildDataSource` . Du måste skapa och returnera en[`IMailMergeDataSource`](../) objekt som tillåter Aspose.Words att komma åt OrderDetails-posten för den aktuella ordern.
+Om tabellen som representeras av detta datakällobjekt har en relaterad underordnad (detalj) tabell med det angivna namnet, måste din implementering returnera en ny[`IMailMergeDataSource`](../)objekt som ger access till underordnade poster för den aktuella posten. Ett exempel på detta är Order/OrderDetails-relationen. Låt oss anta att strömmen[`IMailMergeDataSource`](../) object representerar tabellen Order och den har en aktuell orderpost. Därefter stöter Aspose.Words på "MERGEFIELD TableStart:OrderDetails" i dokumentet och anropar`GetChildDataSource` . Du måste skapa och returnera en[`IMailMergeDataSource`](../) objekt som tillåter Aspose.Words att komma åt OrderDetails-posten för den aktuella ordern.
 
-Om detta datakällobjekt inte har en relation till tabellen med det angivna namnet måste du returnera a[`IMailMergeDataSource`](../)objekt som ger åtkomst till alla poster i den angivna tabellen.
+Om detta datakällobjekt inte har en relation till tabellen med det angivna namnet måste du returnera a[`IMailMergeDataSource`](../) objekt som ger åtkomst till alla poster i den angivna tabellen.
 
 Om en tabell med det angivna namnet inte finns, bör din implementering returneras`null` .
 
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet. 
+     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -75,7 +77,7 @@ public class Customer
 }
 
 /// <summary>
-/// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words 
+ /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
 /// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource

@@ -3,7 +3,7 @@ title: PdfSaveOptions.OutlineOptions
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Gör det möjligt att ange konturalternativ.
 type: docs
-weight: 210
+weight: 240
 url: /sv/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 ---
 ## PdfSaveOptions.OutlineOptions property
@@ -92,7 +92,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Ställ in "HeadingsOutlineLevels"-egenskapen till "5" för att inkludera alla rubriker på nivå 5 och lägre i dispositionen.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 5;
 
-  // Detta dokument innehåller rubriker på nivåerna 1 och 5, och inga rubriker med nivåerna 2, 3 och 4.
+// Detta dokument innehåller rubriker på nivåerna 1 och 5, och inga rubriker med nivåerna 2, 3 och 4.
 // PDF-dokumentet kommer att behandla dispositionsnivåerna 2, 3 och 4 som "saknas".
 // Ställ in egenskapen "CreateMissingOutlineLevels" till "true" för att inkludera alla saknade nivåer i dispositionen,
 // lämnar tomma konturposter eftersom det inte finns några användbara rubriker.

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sann om en annan sidhuvud eller sidfot används på första sidan.
+description: PageSetup fast egendom. Sant om en annan sidhuvud eller sidfot används på första sidan.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**Sann** om en annan sidhuvud eller sidfot används på första sidan.
+Sant om en annan sidhuvud eller sidfot används på första sidan.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -59,7 +59,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
 // 2 - Den "Primära" sidhuvudet/sidfoten, som visas på varje sida i avsnittet.
-// Vi kan åsidosätta den primära sidhuvudet/sidfoten med en första och en jämn sidhuvud/sidfot.
+ // Vi kan åsidosätta den primära sidhuvudet/sidfoten med en första och en jämn sidhuvud/sidfot.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 

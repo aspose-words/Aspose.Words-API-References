@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Tag
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte vara null.
+description: StructuredDocumentTag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte varanull .
 type: docs
 weight: 280
 url: /sv/net/aspose.words.markup/structureddocumenttag/tag/
 ---
 ## StructuredDocumentTag.Tag property
 
-Anger en tagg som är associerad med den aktuella SDT-noden. Kan inte vara null.
+Anger en tagg som är associerad med den aktuella SDT-noden. Kan inte vara`null` .
 
 ```csharp
 public string Tag { get; set; }
@@ -55,7 +55,7 @@ tag.EndCharacterFont.Name = "Arial Black";
 tag.Multiline = true;
 
 // Ställ in egenskapen "Appearance" till "SdtAppearance.Tags" för att visa taggar runt innehåll.
-  // Som standard visas strukturerad dokumenttagg som BoundingBox.
+ // Som standard visas strukturerad dokumenttagg som BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

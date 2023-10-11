@@ -3,7 +3,7 @@ title: Stroke.Transparency
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Hämtar eller ställer in ett värde mellan 00 opak och 10 clear som representerar graden av transparens för linjen.
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property

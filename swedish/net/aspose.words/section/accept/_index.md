@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Anropar DocumentVisitor.VisitSectionStart, anropar sedan Acceptera för alla underordnade noder i section och anropar DocumentVisitor.VisitSectionEnd i slutet.
+Samtal[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , sedan ringer[`Accept`](../../node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) i slutet.
 
 ### Se även
 

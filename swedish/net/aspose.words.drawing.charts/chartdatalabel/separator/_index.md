@@ -3,7 +3,7 @@ title: ChartDataLabel.Separator
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabel fast egendom. Hämtar eller ställer in strängseparator som används för dataetiketterna i ett diagram. Standard är ett kommatecken förutom för cirkeldiagram som endast visar kategorinamn och procent då en radbrytning ska användas istället.
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
@@ -19,6 +19,7 @@ public string Separator { get; set; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

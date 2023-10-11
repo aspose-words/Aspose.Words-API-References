@@ -3,12 +3,14 @@ title: Class GraphicsQualityOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.GraphicsQualityOptions klass. Tillåter att ange ytterligareGraphics kvalitetsalternativ.
 type: docs
-weight: 4780
+weight: 5040
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
 
 Tillåter att ange ytterligareGraphics kvalitetsalternativ.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class GraphicsQualityOptions

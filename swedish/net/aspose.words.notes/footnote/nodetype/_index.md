@@ -1,14 +1,14 @@
 ---
 title: Footnote.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. Returnerar NodeType.Fotnot .
+description: Footnote fast egendom. ReturnerarFootnote .
 type: docs
 weight: 40
 url: /sv/net/aspose.words.notes/footnote/nodetype/
 ---
 ## Footnote.NodeType property
 
-Returnerar **NodeType.Fotnot** .
+ReturnerarFootnote .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

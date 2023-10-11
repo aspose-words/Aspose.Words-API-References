@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreTables
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras inte tabeller.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.comparing/compareoptions/ignoretables/
 ---
 ## CompareOptions.IgnoreTables property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

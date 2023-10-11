@@ -3,12 +3,14 @@ title: Class FieldEQ
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldEQ klass. Implementerar EQfältet.
 type: docs
-weight: 1680
+weight: 1830
 url: /sv/net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class
 
 Implementerar EQ-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldEQ : Field
@@ -31,7 +33,7 @@ public class FieldEQ : Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -39,18 +41,34 @@ public class FieldEQ : Field
 
 | namn | Beskrivning |
 | --- | --- |
+| [AsOfficeMath](../../aspose.words.fields/fieldeq/asofficemath/)() | Returnerar Office Math-objektet motsvarade EQ-fältet. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Exempel
 
+Visar hur man ersätter EQ-fältet med Office Math.
+
+```csharp
+Document doc = new Document(MyDir + "Field sample - EQ.docx");
+FieldEQ fieldEQ = doc.Range.Fields.OfType<FieldEQ>().First();
+
+OfficeMath officeMath = fieldEQ.AsOfficeMath();
+
+fieldEQ.Start.ParentNode.InsertBefore(officeMath, fieldEQ.Start);
+fieldEQ.Remove();
+
+doc.Save(ArtifactsDir + "Field.EQAsOfficeMath.docx");
+```
+
 Visar hur man använder EQ-fältet för att visa en mängd olika matematiska ekvationer.
 
 ```csharp
+public void FieldEQ()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -73,7 +91,7 @@ Visar hur man använder EQ-fältet för att visa en mängd olika matematiska ekv
     // Vi kan hitta hela listan över switchar, tillsammans med deras användningsområden här:
     // https://blogs.msdn.microsoft.com/murrays/2018/01/23/microsoft-word-eq-field/
 
-    // Nedan finns tillämpningar av nio olika EQ-fältomkopplare som vi kan använda för att skapa olika typer av objekt.
+     // Nedan finns tillämpningar av nio olika EQ-fältomkopplare som vi kan använda för att skapa olika typer av objekt.
     // 1 - Arrayväxel "\a", vänsterjusterad, 2 kolumner, 3 punkter med horisontellt och vertikalt avstånd:
     InsertFieldEQ(builder, @"\a \al \co2 \vs3 \hs3(4x,- 4y,-4x,+ y)");
 
@@ -108,6 +126,7 @@ Visar hur man använder EQ-fältet för att visa en mängd olika matematiska ekv
     InsertFieldEQ(builder, @"\i \in( tan x, \s \up2(sec x), \b(\r(3) )\s \up4(t) \s \up7(2)  dt)");
 
     doc.Save(ArtifactsDir + "Field.EQ.docx");
+}
 
 /// <summary>
 /// Använd en dokumentbyggare för att infoga ett EQ-fält, ställa in dess argument och starta ett nytt stycke.

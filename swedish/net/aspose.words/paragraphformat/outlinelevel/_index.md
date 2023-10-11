@@ -3,7 +3,7 @@ title: ParagraphFormat.OutlineLevel
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Anger konturnivån för stycket i dokumentet.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.words/paragraphformat/outlinelevel/
 ---
 ## ParagraphFormat.OutlineLevel property

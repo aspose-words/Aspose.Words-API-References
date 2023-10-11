@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om hela stycket med TableStart eller TableEnd field eller särskilt intervall mellan TableStart och TableEndfält ska inkluderas i kopplingsområdet.
+description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om hela stycket med TableStart eller TableEnd field eller särskilt intervall mellan TableStart och TableEnd fält ska inkluderas i kopplingsområdet.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Hämtar eller ställer in ett värde som anger om hela stycket med TableStart eller TableEnd field eller särskilt intervall mellan TableStart och TableEnd-fält ska inkluderas i kopplingsområdet.
+Hämtar eller ställer in ett värde som anger om hela stycket med **TableStart** eller **TableEnd** field eller särskilt intervall mellan **TableStart** och **TableEnd** fält ska inkluderas i kopplingsområdet.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,7 +16,7 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **Sann** .
+Standardvärdet är`Sann` .
 
 ### Exempel
 

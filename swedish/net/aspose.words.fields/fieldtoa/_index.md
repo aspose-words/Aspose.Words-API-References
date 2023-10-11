@@ -3,12 +3,14 @@ title: Class FieldToa
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldToa klass. Implementerar TOAfältet.
 type: docs
-weight: 2370
+weight: 2520
 url: /sv/net/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
 
 Implementerar TOA-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldToa : Field
@@ -37,13 +39,13 @@ public class FieldToa : Field
 | [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall. |
 | [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Hämtar eller ställer in om formateringen av inmatningstexten i dokumentet ska tas bort från posten i auktoritetstabellen. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret. |
 | [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 | [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en auktoritetstabell. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller avsnitt förekommer ofta i det citerade arbetet. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller en passage förekommer ofta i det citerade arbetet. |
 
 ## Metoder
 
@@ -51,20 +53,21 @@ public class FieldToa : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
-Skapar en tabell över myndigheter (det vill säga en lista över referenserna i ett juridiskt dokument, såsom referenser till ärenden, stadgar och regler, tillsammans med numren på sidorna där referenserna förekommer) med hjälp av posterna specificerade av TA fields.
+Skapar en tabell över myndigheter (det vill säga en lista över referenserna i ett juridiskt dokument, såsom referenser till ärenden, stadgar och regler, tillsammans med numren på sidorna där referenserna förekommer) med hjälp av posterna som anges av TA fields.
 
 ### Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
 ```csharp
+public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -165,6 +168,7 @@ Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA-
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
+}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

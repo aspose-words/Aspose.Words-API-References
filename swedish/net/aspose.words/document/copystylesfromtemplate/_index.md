@@ -3,7 +3,7 @@ title: Document.CopyStylesFromTemplate
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Kopierar stilar från den angivna mallen till ett dokument.
 type: docs
-weight: 550
+weight: 590
 url: /sv/net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}

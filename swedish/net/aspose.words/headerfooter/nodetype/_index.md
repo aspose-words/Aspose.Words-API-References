@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Returnerar NodeType.HeaderFooter .
+description: HeaderFooter fast egendom. ReturnerarHeaderFooter .
 type: docs
 weight: 50
 url: /sv/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-Returnerar **NodeType.HeaderFooter** .
+ReturnerarHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }

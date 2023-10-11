@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsImage
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om denna form är en bildform.
+description: ShapeBase fast egendom. ReturnerarSann om denna form är en bildform.
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words.drawing/shapebase/isimage/
 ---
 ## ShapeBase.IsImage property
 
-Returnerar sant om denna form är en bildform.
+Returnerar`Sann` om denna form är en bildform.
 
 ```csharp
 public bool IsImage { get; }

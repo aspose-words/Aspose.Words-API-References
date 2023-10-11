@@ -3,7 +3,7 @@ title: Fill.Transparency
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar eller ställer in graden av transparens för den angivna fyllningen som ett värde mellan 00 opak och 10 clear.
 type: docs
-weight: 140
+weight: 200
 url: /sv/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property

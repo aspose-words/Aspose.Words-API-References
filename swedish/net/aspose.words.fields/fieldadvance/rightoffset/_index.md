@@ -27,7 +27,7 @@ builder.Write("This text is in its normal place.");
 // Nedan finns två sätt att använda ADVANCE-fältet för att justera positionen för text som följer det.
 // Effekterna av ett ADVANCE-fält fortsätter att tillämpas tills stycket slutar,
 // eller ett annat ADVANCE-fält uppdaterar offset-/koordinatvärdena.
-// 1 - Ange en riktningsoffset:
+// 1 - Ange en riktningsförskjutning:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

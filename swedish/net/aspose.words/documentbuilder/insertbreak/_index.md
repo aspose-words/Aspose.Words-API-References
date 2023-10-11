@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertBreak
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en brytning av angiven typ i dokumentet.
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/aspose.words/documentbuilder/insertbreak/
 ---
 ## DocumentBuilder.InsertBreak method

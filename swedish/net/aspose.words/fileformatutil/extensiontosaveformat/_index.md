@@ -22,7 +22,7 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar om parametern är null. |
+| ArgumentNullException | Kastar om parametern är`null`. |
 
 ### Anmärkningar
 

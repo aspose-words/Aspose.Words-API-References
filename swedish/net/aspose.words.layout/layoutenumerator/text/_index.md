@@ -3,7 +3,7 @@ title: LayoutEnumerator.Text
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator fast egendom. Hämtar text från den aktuella spanentiteten. Kaster för andra entitetstyper.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.layout/layoutenumerator/text/
 ---
 ## LayoutEnumerator.Text property

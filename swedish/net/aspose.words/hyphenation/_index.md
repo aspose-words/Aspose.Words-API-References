@@ -3,12 +3,14 @@ title: Class Hyphenation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Hyphenation klass. Tillhandahåller metoder för att arbeta med avstavningsordböcker. Dessa ordböcker föreskriver var ord på ett specifikt språk kan avstavas.
 type: docs
-weight: 2970
+weight: 3150
 url: /sv/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
 Tillhandahåller metoder för att arbeta med avstavningsordböcker. Dessa ordböcker föreskriver var ord på ett specifikt språk kan avstavas.
+
+För att lära dig mer, besök[Arbeta med avstavning](https://docs.aspose.com/words/net/working-with-hyphenation/) dokumentationsartikel.
 
 ```csharp
 public static class Hyphenation
@@ -25,7 +27,7 @@ public static class Hyphenation
 
 | namn | Beskrivning |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Returnerar False om det inte finns någon ordbok registrerad för det angivna språket eller om den registreras är Null-ordbok, annars sant. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Returnerar`falsk` om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är Null-ordbok,`Sann` annars. |
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registrerar och laddar en avstavningsordlista för det angivna språket från en ström. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registrerar och laddar en avstavningsordlista för det angivna språket från filen. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Avregistrerar en avstavningsordlista för det angivna språket. |
@@ -35,6 +37,7 @@ public static class Hyphenation
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

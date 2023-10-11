@@ -24,6 +24,8 @@ public bool Equals(List list)
 
 ## Equals(object) {#equals_1}
 
+Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
+
 ```csharp
 public override bool Equals(object obj)
 ```

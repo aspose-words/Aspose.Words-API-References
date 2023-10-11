@@ -3,7 +3,7 @@ title: Enum PropertyType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Properties.PropertyType uppräkning. Anger datatyp för en dokumentegenskap.
 type: docs
-weight: 4250
+weight: 4500
 url: /sv/net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

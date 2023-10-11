@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfImageCompression uppräkning. Anger vilken typ av komprimering som tillämpas på bilder i PDFfilen.
 type: docs
-weight: 5210
+weight: 5490
 url: /sv/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration

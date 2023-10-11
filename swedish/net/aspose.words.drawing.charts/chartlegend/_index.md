@@ -3,12 +3,14 @@ title: Class ChartLegend
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartLegend klass. Representerar diagramförklaringsegenskaper.
 type: docs
-weight: 680
+weight: 720
 url: /sv/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
 Representerar diagramförklaringsegenskaper.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartLegend
@@ -19,7 +21,7 @@ public class ChartLegend
 | namn | Beskrivning |
 | --- | --- |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Returnerar en samling förklaringsposter för alla serier och trendlinjer i det överordnade diagrammet. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är falskt. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är`falsk` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight . |
 
 ### Exempel

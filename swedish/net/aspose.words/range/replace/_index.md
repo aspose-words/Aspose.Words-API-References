@@ -3,7 +3,7 @@ title: Range.Replace
 second_title: Aspose.Words för .NET API Referens
 description: Range metod. Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
@@ -25,7 +25,7 @@ Antalet byten som gjorts.
 
 ### Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
 
 Använde skiftlägesokänslig jämförelse.
 
@@ -193,7 +193,7 @@ Antalet byten som gjorts.
 
 ### Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 
@@ -366,6 +366,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -416,6 +417,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -425,6 +427,8 @@ Visar hur man infogar ett helt dokuments innehåll som ersättning för en match
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

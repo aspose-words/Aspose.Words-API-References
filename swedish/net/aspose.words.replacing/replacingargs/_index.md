@@ -3,12 +3,14 @@ title: Class ReplacingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Replacing.ReplacingArgs klass. Tillhandahåller data för en anpassad ersättningsoperation.
 type: docs
-weight: 4390
+weight: 4650
 url: /sv/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Tillhandahåller data för en anpassad ersättningsoperation.
+
+För att lära dig mer, besök[Hitta och ersätta](https://docs.aspose.com/words/net/find-and-replace/) dokumentationsartikel.
 
 ```csharp
 public class ReplacingArgs
@@ -18,8 +20,8 @@ public class ReplacingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifierar, genom index, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) sträng. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifierar, med namn, en infångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) sträng. |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifierar, genom index, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifierar, med namn, en infångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
 | [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DenMatch som ett resultat av en enda regular uttrycksmatchning under en **Byta ut** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Hämtar noden som innehåller början av matchningen. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen. |
@@ -30,6 +32,7 @@ public class ReplacingArgs
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -80,6 +83,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -89,6 +93,8 @@ Visar hur man infogar ett helt dokuments innehåll som ersättning för en match
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

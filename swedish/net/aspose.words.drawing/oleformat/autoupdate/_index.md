@@ -16,7 +16,7 @@ public bool AutoUpdate { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 
@@ -40,7 +40,7 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara den via en stream:
+// 1 - Spara det via en stream:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

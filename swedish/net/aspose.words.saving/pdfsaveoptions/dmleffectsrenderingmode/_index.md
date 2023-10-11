@@ -3,7 +3,7 @@ title: PdfSaveOptions.DmlEffectsRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur DrawingMLeffekter renderas.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions.DmlEffectsRenderingMode property

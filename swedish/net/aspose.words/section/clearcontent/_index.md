@@ -3,7 +3,7 @@ title: Section.ClearContent
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Rensar avsnittet.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method

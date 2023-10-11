@@ -3,7 +3,7 @@ title: Enum FontSourceType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontSourceType uppräkning. Anger typen av en teckensnittskälla.
 type: docs
-weight: 2810
+weight: 2990
 url: /sv/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration

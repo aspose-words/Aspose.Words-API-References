@@ -3,7 +3,7 @@ title: Enum WarningSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WarningSource uppräkning. Anger modulen som ger en varning under dokumentladdning eller sparande.
 type: docs
-weight: 6340
+weight: 6650
 url: /sv/net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -44,6 +44,8 @@ public enum WarningSource
 | Markdown | `23` | Modul som läser/skriver Markdown-filer. |
 | Chm | `24` | Modul som läser CHM-filer. |
 | Epub | `25` | Modul som läser/skriver EPUB-filer. |
+| Xml | `26` | Modul som läser XML-filer. |
+| Xlsx | `27` | Modul som skriver XLSX-filer. |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: Style.Type
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar stiltypen stycke eller tecken.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words/style/type/
 ---
 ## Style.Type property

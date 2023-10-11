@@ -1,14 +1,14 @@
 ---
 title: Paragraph.Paragraph
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph byggare. Initierar en ny instans av Paragraf class.
+description: Paragraph byggare. Initierar en ny instans avParagraph class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph constructor
 
-Initierar en ny instans av **Paragraf** class.
+Initierar en ny instans av[`Paragraph`](../) class.
 
 ```csharp
 public Paragraph(DocumentBase doc)
@@ -20,9 +20,9 @@ public Paragraph(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Paragraf** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Paragraph`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Paragraf** till dokumentet använd InsertAfter eller InsertBefore på berättelsen där du vill att stycket ska infogas.
+Att lägga till[`Paragraph`](../) till dokumentanvändningenNode) ellerNode) på berättelsen där du vill att stycket ska infogas.
 
 ### Exempel
 

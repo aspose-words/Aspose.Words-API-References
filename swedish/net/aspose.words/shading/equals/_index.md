@@ -1,14 +1,14 @@
 ---
 title: Shading.Equals
 second_title: Aspose.Words för .NET API Referens
-description: Shading metod. Bestämmer om den angivna skuggningen har samma värde som den aktuella skuggningen.
+description: Shading metod. Bestämmer om den angivnaShading är lika i värde med strömmenShading .
 type: docs
-weight: 50
+weight: 90
 url: /sv/net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-Bestämmer om den angivna skuggningen har samma värde som den aktuella skuggningen.
+Bestämmer om den angivna[`Shading`](../) är lika i värde med strömmen[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)

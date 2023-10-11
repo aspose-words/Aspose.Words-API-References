@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
 second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. True indikerar att jämförelse av dokument är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig.
+description: CompareOptions fast egendom. True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.comparing/compareoptions/ignorecasechanges/
 ---
 ## CompareOptions.IgnoreCaseChanges property
 
-True indikerar att jämförelse av dokument är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig.
+True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig.
 
 ```csharp
 public bool IgnoreCaseChanges { get; set; }
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

@@ -1,14 +1,14 @@
 ---
 title: List.IsMultiLevel
 second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Returnerar sant när listan innehåller 9 nivåer falskt när 1 nivå.
+description: List fast egendom. ReturnerarSann när listan innehåller 9 nivåerfalsk när 1 nivå.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/list/ismultilevel/
 ---
 ## List.IsMultiLevel property
 
-Returnerar sant när listan innehåller 9 nivåer; falskt när 1 nivå.
+Returnerar`Sann` när listan innehåller 9 nivåer;`falsk` när 1 nivå.
 
 ```csharp
 public bool IsMultiLevel { get; }
@@ -18,7 +18,7 @@ public bool IsMultiLevel { get; }
 
 Listorna som du skapar med Aspose.Words är alltid flernivålistor och innehåller 9 nivåer.
 
-Microsoft Word 2003 och senare skapar alltid listor på flera nivåer med 9 nivåer. Men i vissa dokument, skapade med tidigare versioner av Microsoft Word, kan du stöta på listor som bara har en nivå.
+Microsoft Word 2003 och senare skapar alltid listor med flera nivåer med 9 nivåer. Men i vissa dokument, skapade med tidigare versioner av Microsoft Word, kan du stöta på listor som bara har en nivå.
 
 ### Exempel
 
@@ -28,8 +28,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");

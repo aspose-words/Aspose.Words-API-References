@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: CommentCollection fast egendom. Hämtar en Kommentar vid det givna indexet.
+description: CommentCollection fast egendom. Hämtar enComment vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Hämtar en **Kommentar** vid det givna indexet.
+Hämtar en[`Comment`](../../comment/) vid det givna indexet.
 
 ```csharp
 public Comment this[int index] { get; }

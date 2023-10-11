@@ -3,7 +3,7 @@ title: PageSetup.OtherPagesTray
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Hämtar eller ställer in pappersfacket fack som ska användas för alla utom första sidan i ett avsnitt. Värdet är implementeringsspecifikt skrivarspecifikt.
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words/pagesetup/otherpagestray/
 ---
 ## PageSetup.OtherPagesTray property

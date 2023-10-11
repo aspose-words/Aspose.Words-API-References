@@ -18,9 +18,9 @@ public Stream PageStream { get; set; }
 
 Den här egenskapen låter dig spara dokumentsidor till strömmar istället för filer.
 
-Standardvärdet är`null` . När denna fastighet är`null` kommer dokumentsidan att sparas i en fil som anges i[`PageFileName`](../pagefilename/) fast egendom.
+Standardvärdet är`null` . När denna fastighet är`null` , kommer dokumentsidan att sparas i en fil som anges i[`PageFileName`](../pagefilename/) fast egendom.
 
-Om både PageStream och PageFileName är inställda kommer PageStream att användas.
+Om båda`PageStream` och[`PageFileName`](../pagefilename/) är inställda, kommer PageStream att användas.
 
 ### Exempel
 

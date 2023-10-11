@@ -3,12 +3,14 @@ title: Class VbaModule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaModule klass. Ger tillgång till VBAprojektmodul.
 type: docs
-weight: 6240
+weight: 6550
 url: /sv/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
 
 Ger tillgång till VBA-projektmodul.
+
+För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
 ```csharp
 public class VbaModule
@@ -43,6 +45,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

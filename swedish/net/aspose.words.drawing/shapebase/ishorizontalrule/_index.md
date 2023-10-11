@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsHorizontalRule
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om denna form är en horisontell regel.
+description: ShapeBase fast egendom. ReturnerarSann om denna form är en horisontell regel.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Returnerar sant om denna form är en horisontell regel.
+Returnerar`Sann` om denna form är en horisontell regel.
 
 ```csharp
 public bool IsHorizontalRule { get; }

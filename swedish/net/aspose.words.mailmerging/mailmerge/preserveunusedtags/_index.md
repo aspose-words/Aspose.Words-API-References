@@ -16,7 +16,7 @@ public bool PreserveUnusedTags { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk** .
+Standardvärdet är`falsk` .
 
 ### Exempel
 
@@ -28,7 +28,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-    // Som standard placerar en brevkoppling data från varje rad i en tabell i MERGEFIELDs, vilka namnger kolumner i den tabellen. 
+     // Som standard placerar en brevkoppling data från varje rad i en tabell i MERGEFIELDs, vilka namnger kolumner i den tabellen.
     // Vårt dokument har inga sådana fält, men det har klartext-taggar omgivna av hängslen.
     // Om vi ställer in flaggan "PreserveUnusedTags" till "true", kan vi behandla dessa taggar som MERGEFIELDs
     // för att tillåta vår e-postsammanfogning för att infoga data från datakällan vid dessa taggar.

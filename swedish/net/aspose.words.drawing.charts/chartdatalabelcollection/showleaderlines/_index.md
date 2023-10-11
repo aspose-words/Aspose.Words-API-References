@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet är falsk .
+description: ChartDataLabelCollection fast egendom. Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet ärfalsk .
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
 ---
 ## ChartDataLabelCollection.ShowLeaderLines property
 
-Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet är **falsk** .
+Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }

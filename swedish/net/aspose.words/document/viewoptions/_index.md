@@ -3,7 +3,7 @@ title: Document.ViewOptions
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Ger alternativ för att styra hur dokumentet visas i Microsoft Word.
 type: docs
-weight: 450
+weight: 470
 url: /sv/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property

@@ -33,12 +33,12 @@ Chart chart = shape.Chart;
 chart.Series.Clear();
 
 // Lägg till en anpassad serie till diagrammet med kategorier för X-axeln,
-  // och stora respektive numeriska värden för Y-axeln.
+ // och stora respektive numeriska värden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
-  // Ställ in nummerformatet för Y-axelns bocketiketter för att inte gruppera siffror med kommatecken.
+ // Ställ in nummerformatet för Y-axelns bocketiketter för att inte gruppera siffror med kommatecken.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
 // Den här flaggan kan åsidosätta ovanstående värde och rita talformatet från källcellen.

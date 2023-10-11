@@ -3,7 +3,7 @@ title: Aspose.Words.Properties
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Properties namespace tillhandahåller klasser till work med anpassade och inbyggda dokumentegenskaper som titel nyckelord företag etc.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words.properties/
 ---
 De **Aspose.Words.Properties** namespace tillhandahåller klasser till work med anpassade och inbyggda dokumentegenskaper som titel, nyckelord, företag etc.

@@ -3,7 +3,7 @@ title: Range.StructuredDocumentTags
 second_title: Aspose.Words för .NET API Referens
 description: Range fast egendom. Returnerar enStructuredDocumentTags samling som representerar alla strukturerade dokumenttaggar i intervallet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property

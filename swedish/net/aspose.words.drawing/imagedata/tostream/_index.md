@@ -3,7 +3,7 @@ title: ImageData.ToStream
 second_title: Aspose.Words för .NET API Referens
 description: ImageData metod. Skapar och returnerar en ström som innehåller bildbytes.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -30,7 +30,6 @@ Visar hur man skapar en bildfil från en forms råa bilddata.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

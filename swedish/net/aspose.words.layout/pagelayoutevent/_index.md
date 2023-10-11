@@ -3,7 +3,7 @@ title: Enum PageLayoutEvent
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.PageLayoutEvent uppräkning. En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodeller.
 type: docs
-weight: 3170
+weight: 3370
 url: /sv/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
@@ -12,7 +12,7 @@ En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodelle
 
 Sidlayoutmodellen är byggd i två steg. Först, "konverteringssteg", det här är när sidlayout drar dokumentinnehåll och skapar objektgraf. För det andra, "reflow step", det här är när strukturer delas, slås samman och arrangeras till sidor.
 
-Beroende på åtgärden som utlöste byggandet, kan sidlayoutmodellen eventuellt renderas ytterligare till fast sidformat. Till exempel kräver inte beräkning av antalet sidor i dokumentet eller uppdatering av fält rendering, medan export till Pdf gör det.
+Beroende på åtgärden som utlöste byggandet, kan sidlayoutmodellen eventuellt renderas ytterligare till ett fast sidformat. Till exempel kräver inte beräkning av antalet sidor i dokumentet eller uppdatering av fält rendering, medan export till Pdf gör det.
 
 ```csharp
 public enum PageLayoutEvent
@@ -40,7 +40,6 @@ public enum PageLayoutEvent
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

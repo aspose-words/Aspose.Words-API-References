@@ -3,7 +3,7 @@ title: Stroke.EndCap
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar capstilen för slutet av ett streck.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property

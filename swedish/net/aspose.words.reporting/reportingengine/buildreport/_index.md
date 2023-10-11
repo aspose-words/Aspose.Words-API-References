@@ -72,7 +72,7 @@ En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade 
 
 ### Anmärkningar
 
-Med denna överbelastning kan du referera till datakällans medlemmar och själva datakällans objekt i mallen. Om du inte ska referera till själva datakällobjektet kan du utelämna*dataSourceName* passerar null eller använd`BuildReport` överbelastning.
+Med denna överbelastning kan du referera till datakällans medlemmar och själva datakällans objekt i mallen. Om du inte ska referera till själva datakällobjektet kan du utelämna*dataSourceName* passerar`null` eller använd`BuildReport` överbelastning.
 
 Ett datakällobjekt kan vara av en av följande typer:
 
@@ -119,7 +119,7 @@ En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade 
 
 ### Anmärkningar
 
-Genom att använda denna överbelastning kan du referera till flera datakällobjekt och deras medlemmar i mallen. Namnet på den första datakällan kan utelämnas (dvs. vara en tom sträng eller null) om du ska referera till datakällans medlemmar men inte själva datakällans objekt. Namnen på de andra datakällorna måste anges och vara unika.
+Genom att använda denna överbelastning kan du referera till flera datakällobjekt och deras medlemmar i mallen. Namnet på den första datakällan kan utelämnas (dvs. vara en tom sträng eller`null` om du ska referera till datakällans medlemmar men inte själva datakällans objekt. Namnen på de andra datakällorna måste anges och vara unika.
 
 Om du ska använda en enda datakälla, överväg att använda av`BuildReport` och`BuildReport` överbelastning istället.
 

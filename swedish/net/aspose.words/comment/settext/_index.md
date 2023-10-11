@@ -3,7 +3,7 @@ title: Comment.SetText
 second_title: Aspose.Words för .NET API Referens
 description: Comment metod. Detta är en bekvämlighetsmetod som gör det enkelt att ställa in texten i kommentaren.
 type: docs
-weight: 150
+weight: 180
 url: /sv/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method

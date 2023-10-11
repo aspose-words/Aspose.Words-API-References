@@ -3,12 +3,14 @@ title: Class ListLevelCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.ListLevelCollection klass. En samling listformatering för varje nivå i en lista.
 type: docs
-weight: 3320
+weight: 3520
 url: /sv/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
 
 En samling listformatering för varje nivå i en lista.
+
+För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
 ```csharp
 public class ListLevelCollection : IEnumerable<ListLevel>
@@ -35,8 +37,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -91,8 +93,8 @@ Visar hur du använder anpassad listformatering på stycken när du använder Do
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);

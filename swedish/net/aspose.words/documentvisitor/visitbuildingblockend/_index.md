@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska 
 
 ### Anmärkningar
 
-Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../document/) Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) eller samtal[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
+Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../document/) . Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) eller samtal[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
 ### Exempel
 
@@ -63,7 +63,6 @@ public void GlossaryDocument()
     // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
     // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".

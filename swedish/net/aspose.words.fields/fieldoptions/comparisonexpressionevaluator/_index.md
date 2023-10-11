@@ -3,7 +3,7 @@ title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in utvärderaren för fältjämförelseuttryck.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property

@@ -1,14 +1,14 @@
 ---
 title: Row.LastCell
 second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar den sista Cell i raden.
+description: Row fast egendom. Returnerar den sistaCell i raden.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/row/lastcell/
 ---
 ## Row.LastCell property
 
-Returnerar den sista **Cell** i raden.
+Returnerar den sista[`Cell`](../../cell/) i raden.
 
 ```csharp
 public Cell LastCell { get; }

@@ -3,7 +3,7 @@ title: Enum ImlRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ImlRenderingMode uppräkning. Anger hur bläckobjekt InkML renderas till fasta sidformat.
 type: docs
-weight: 4990
+weight: 5250
 url: /sv/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration

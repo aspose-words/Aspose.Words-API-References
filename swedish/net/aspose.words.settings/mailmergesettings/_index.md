@@ -3,12 +3,14 @@ title: Class MailMergeSettings
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MailMergeSettings klass. Anger all kopplingsinformation för ett dokument.
 type: docs
-weight: 5550
+weight: 5850
 url: /sv/net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
 
 Anger all kopplingsinformation för ett dokument.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MailMergeSettings
@@ -50,7 +52,7 @@ public class MailMergeSettings
 
 ### Anmärkningar
 
-Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av e-post som användaren har angett i Microsoft Word för detta dokument.
+Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av brev som användaren har angett i Microsoft Word för detta dokument.
 
 Du behöver normalt inte skapa objekt av den här klassen direkt eftersom inställningar för koppling av dokument för ett dokument alltid är tillgängliga via[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) fast egendom.
 
@@ -58,7 +60,7 @@ För att upptäcka om det här dokumentet är ett huvuddokument för sammankoppl
 
 För att ta bort sammanslagningsinställningar och datakällainformation från ett dokument kan du använda [`Clear`](./clear/) metod. Aspose.Words kommer inte att skriva sammanslagningsinställningar till ett dokument om [`MainDocumentType`](./maindocumenttype/) egenskapen är inställd påNotAMergeDocument eller[`DataType`](./datatype/) egenskapen är inställd påNone.
 
-Det bästa sättet att lära sig hur man använder egenskaperna för detta objekt är att skapa ett dokument med en önskad -datakälla manuellt i Microsoft Word och sedan öppna det dokumentet med Aspose.Words och undersöka egenskaperna för[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och[`Odso`](./odso/) objekt. Det här är ett bra tillvägagångssätt om du till exempel vill lära dig hur du programmatiskt konfigurerar en datakälla.
+Det bästa sättet att lära sig hur man använder egenskaperna för detta objekt är att skapa ett dokument med en önskad -datakälla manuellt i Microsoft Word och sedan öppna det dokumentet med Aspose.Words och undersöka egenskaperna för[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och[`Odso`](./odso/) föremål. Det här är ett bra tillvägagångssätt om du till exempel vill lära dig hur du programmatiskt konfigurerar en datakälla.
 
 Aspose.Words bevarar kopplingsinformation när du laddar, sparar och konverterar documents mellan olika format, men använder inte denna information när du utför sin egen kopplingsinformation med hjälp av[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objekt.
 
@@ -107,7 +109,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

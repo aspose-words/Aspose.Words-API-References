@@ -3,7 +3,7 @@ title: FieldOptions.UseInvariantCultureNumberFormat
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in värdet som indikerar att talformatet tolkas med invariant kultur eller inte
 type: docs
-weight: 190
+weight: 210
 url: /sv/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
@@ -16,11 +16,11 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ### Anmärkningar
 
-När den här egenskapen är inställd på **Sann** , talformatet är hämtat från en invariant kultur.
+När den här egenskapen är inställd på`Sann` , talformatet är hämtat från en invariant kultur.
 
-När den här egenskapen är inställd på **falsk** nummerformatet är hämtat från den aktuella trådens kultur.
+När den här egenskapen är inställd på`falsk` , nummerformatet är hämtat från den aktuella trådens kultur.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 
@@ -34,7 +34,7 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
-// Ibland kanske fält inte formaterar sina nummer korrekt under vissa kulturer. 
+ // Ibland kanske fält inte formaterar sina nummer korrekt under vissa kulturer.
 Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
 Assert.AreEqual("$1234567,89 .     ", field.Result);
 

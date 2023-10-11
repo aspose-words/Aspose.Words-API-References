@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelSpacing
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller ställer in intervallet vid vilket bocketiketter ritas.
 type: docs
-weight: 230
+weight: 250
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 ---
 ## ChartAxis.TickLabelSpacing property
@@ -18,7 +18,7 @@ public int TickLabelSpacing { get; set; }
 
 Egenskapen har effekt för textkategori och serieaxlar. Det stöds inte av MS Office 2016 nya sjökort. Giltigt intervall för ett värde är större än eller lika med 1.
 
-Om du ställer in den här egenskapen ställer du in[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) egendom till **falsk**.
+Om du ställer in den här egenskapen ställer du in[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) egendom till`falsk`.
 
 ### Exempel
 
@@ -45,7 +45,7 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Ställ in Y-axelns gränser till -10 och 20.
-// Denna Y-axel kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 

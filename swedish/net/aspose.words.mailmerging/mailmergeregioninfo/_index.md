@@ -3,12 +3,14 @@ title: Class MailMergeRegionInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.MailMergeRegionInfo klass. Innehåller information om en kopplingsregion.
 type: docs
-weight: 3640
+weight: 3860
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
 
 Innehåller information om en kopplingsregion.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MailMergeRegionInfo
@@ -19,12 +21,15 @@ public class MailMergeRegionInfo
 | namn | Beskrivning |
 | --- | --- |
 | [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | Returnerar ett slutfält för regionen. |
+| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | Returnerar en slut-"mustasch"-tagg för regionen. |
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | Returnerar en lista med underordnade fält. |
 | [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Returnerar kapslingsnivån för regionen. |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | Returnerar en lista med underordnade "mustasch"-taggar. |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | Returnerar namnet på regionen. |
 | [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Returnerar information om överordnad region (null för region på toppnivå). |
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Returnerar en lista över underordnade regioner. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Returnerar ett startfält för regionen. |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Returnerar en start "mustasch"-tagg för regionen. |
 
 ### Exempel
 

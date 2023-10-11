@@ -3,7 +3,7 @@ title: Enum VisitorAction
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.VisitorAction uppräkning. Tillåter besökaren att styra uppräkningen av noder.
 type: docs
-weight: 6310
+weight: 6620
 url: /sv/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration

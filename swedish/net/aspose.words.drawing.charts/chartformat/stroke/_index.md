@@ -3,7 +3,7 @@ title: ChartFormat.Stroke
 second_title: Aspose.Words för .NET API Referens
 description: ChartFormat fast egendom. Hämtar linjeformatering för det överordnade diagramelementet.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property

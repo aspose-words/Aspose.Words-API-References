@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SavePictureBullet
 second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  PictureBulletdata sparas inte i utdatadokumentet. Standardvärdet är Sann .
+description: DocSaveOptions fast egendom. Närfalsk  PictureBulletdata sparas inte i utdatadokumentet. Standardvärdet ärSann .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-När`falsk` , PictureBullet-data sparas inte i utdatadokumentet. Standardvärdet är **Sann** .
+När`falsk` , PictureBullet-data sparas inte i utdatadokumentet. Standardvärdet är`Sann` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -24,7 +24,6 @@ Visar hur du utelämnar PictureBullet-data från dokumentet när du sparar.
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-
 // Vissa ordbehandlare, som Microsoft Word 97, är inkompatibla med PictureBullet-data.
 // Genom att sätta en flagga i SaveOptions-objektet,
 // vi kan konvertera alla bildpunkter till vanliga punktpunkter samtidigt som vi sparar.

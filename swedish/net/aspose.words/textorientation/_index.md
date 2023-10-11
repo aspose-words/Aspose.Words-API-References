@@ -3,7 +3,7 @@ title: Enum TextOrientation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TextOrientation uppräkning. Anger orientering av text på en sida i en tabellcell eller en textram.
 type: docs
-weight: 6130
+weight: 6430
 url: /sv/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration

@@ -3,7 +3,7 @@ title: Enum CellVerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.CellVerticalAlignment uppräkning. Anger vertikal justering av text inuti en tabellcell.
 type: docs
-weight: 5980
+weight: 6280
 url: /sv/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration

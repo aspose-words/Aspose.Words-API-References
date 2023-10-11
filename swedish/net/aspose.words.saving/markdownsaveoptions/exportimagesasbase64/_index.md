@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words för .NET API Referens
-description: MarkdownSaveOptions fast egendom. Anger om bilder sparas i Base64format till utdatafilen. Standard ärfalsk .
+description: MarkdownSaveOptions fast egendom. Anger om bilder sparas i Base64format till utdatafilen. Standardvärdet ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-Anger om bilder sparas i Base64-format till utdatafilen. Standard är`falsk` .
+Anger om bilder sparas i Base64-format till utdatafilen. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Anmärkningar
 
-När den här egenskapen är inställd på`Sann`bilddata exporteras direkt till **img** element och separata filer skapas inte.
+När den här egenskapen är inställd på`Sann` bilddata exporteras direkt till **img** element och separata filer skapas inte.
 
 ### Exempel
 

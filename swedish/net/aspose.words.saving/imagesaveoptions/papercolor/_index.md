@@ -3,7 +3,7 @@ title: ImageSaveOptions.PaperColor
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in bakgrundsfärgen papper för de genererade bilderna.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property

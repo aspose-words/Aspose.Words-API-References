@@ -3,12 +3,14 @@ title: Class XmlDataSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Reporting.XmlDataSource klass. Ger tillgång till data från en XMLfil eller ström som ska användas i en rapport.
 type: docs
-weight: 4490
+weight: 4750
 url: /sv/net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class
 
 Ger tillgång till data från en XML-fil eller ström som ska användas i en rapport.
+
+För att lära dig mer, besök[LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) dokumentationsartikel.
 
 ```csharp
 public class XmlDataSource
@@ -35,7 +37,7 @@ I malldokument, om ett XML-element på toppnivå endast innehåller en lista med
 
 När XML Schema Definition skickas till en konstruktor av denna klass, bestäms datatyper av värden för enkla XML-element och attribut enligt schemat. Så i malldokument kan du arbeta med inskrivna värden snarare än bara strängar.
 
-När XML Schema Definition inte skickas till en konstruktor av denna klass, bestäms datatyper av värden för enkla XML-element och attribut automatiskt på deras strängrepresentationer. Så i malldokument kan du arbeta med inskrivna värden också i det här fallet. Motorn kan automatiskt känna igen värden av följande typer:
+När XML Schema Definition inte skickas till en konstruktor av denna klass, bestäms datatyper av värden för enkla XML-element och attribut automatiskt efter deras strängrepresentationer. Så i malldokument kan du arbeta med inskrivna värden också i det här fallet. Motorn kan automatiskt känna igen värden av följande typer:
 
 * Nullable
 * Nullable

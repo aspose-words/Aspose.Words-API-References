@@ -3,7 +3,7 @@ title: DocumentBuilder.Font
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella teckensnittsformateringsegenskaper.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Anmärkningar
 
-Använda sig av **Font** för att komma åt och ändra teckensnittsformateringsegenskaper.
+Använda sig av`Font` för att komma åt och ändra teckensnittsformateringsegenskaper.
 
 Ange teckensnittsformatering innan du infogar text.
 

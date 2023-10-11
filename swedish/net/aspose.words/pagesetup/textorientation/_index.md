@@ -3,7 +3,7 @@ title: PageSetup.TextOrientation
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Tillåter att specificeraTextOrientation för hela sidan. Standardvärdet ärHorizontal
 type: docs
-weight: 420
+weight: 430
 url: /sv/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsTopLevel
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om denna form inte är ett underordnat till en gruppform.
+description: ShapeBase fast egendom. ReturnerarSannom denna form inte är ett underordnat till en gruppform.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Returnerar sant om denna form inte är ett underordnat till en gruppform.
+Returnerar`Sann`om denna form inte är ett underordnat till en gruppform.
 
 ```csharp
 public bool IsTopLevel { get; }

@@ -3,7 +3,7 @@ title: Enum PdfFontEmbeddingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfFontEmbeddingMode uppräkning. Anger hur Aspose.Words ska bädda in teckensnitt.
 type: docs
-weight: 5190
+weight: 5470
 url: /sv/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -19,7 +19,7 @@ public enum PdfFontEmbeddingMode
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | EmbedAll | `0` | Aspose.Words bäddar in alla teckensnitt. |
-| EmbedNonstandard | `1` | Aspose.Words bäddar in alla typsnitt utom standard Windows-teckensnitt Arial och Times New Roman. Endast Arial- och Times New Roman-teckensnitt påverkas i det här läget eftersom MS Word inte bäddar in bara dessa teckensnitt när dokument sparas till PDF. |
+| EmbedNonstandard | `1` | Aspose.Words bäddar in alla typsnitt utom standard Windows-teckensnitt Arial och Times New Roman. Endast Arial och Times New Roman-teckensnitt påverkas i det här läget eftersom MS Word inte bäddar in bara dessa teckensnitt när dokument sparas till PDF. |
 | EmbedNone | `2` | Aspose.Words bäddar inte in några teckensnitt. |
 
 ### Exempel
@@ -59,7 +59,7 @@ switch (pdfFontEmbeddingMode)
         Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
     case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4217, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
+        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
 }
 ```

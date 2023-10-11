@@ -3,12 +3,14 @@ title: Class License
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.License klass. Tillhandahåller metoder för att licensiera komponenten.
 type: docs
-weight: 3220
+weight: 3420
 url: /sv/net/aspose.words/license/
 ---
 ## License class
 
 Tillhandahåller metoder för att licensiera komponenten.
+
+För att lära dig mer, besök[Licensiering och prenumeration](https://docs.aspose.com/words/net/licensing/) dokumentationsartikel.
 
 ```csharp
 public class License

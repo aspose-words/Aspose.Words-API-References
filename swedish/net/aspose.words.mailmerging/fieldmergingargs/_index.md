@@ -3,12 +3,14 @@ title: Class FieldMergingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.FieldMergingArgs klass. Tillhandahåller data för MergeField händelse.
 type: docs
-weight: 3550
+weight: 3770
 url: /sv/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
 Tillhandahåller data för **MergeField** händelse.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -36,6 +38,7 @@ De **MergeField** händelse inträffar under sammankoppling när ett enkelt samm
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -83,7 +86,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-              // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
             args.Text = string.Empty;
         }
     }

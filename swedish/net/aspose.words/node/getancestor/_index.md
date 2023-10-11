@@ -20,11 +20,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ### Returvärde
 
-Förfadern för den angivna typen eller null om ingen förfader av denna typ hittades.
+Förfadern till den angivna typen eller`null` om ingen anfader av denna typ hittades.
 
 ### Anmärkningar
 
-Ancestor-typen matchar om den är lika med ancestorType eller härledd från ancestorType.
+Förfadertypen matchar om den är lika med*ancestorType* eller härrör från*ancestorType*.
 
 ### Exempel
 
@@ -35,7 +35,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
@@ -125,7 +124,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 ### Returvärde
 
-Förfadern för den angivna typen eller null om ingen förfader av denna typ hittades.
+Förfadern till den angivna typen eller`null` om ingen anfader av denna typ hittades.
 
 ### Exempel
 
@@ -136,7 +135,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

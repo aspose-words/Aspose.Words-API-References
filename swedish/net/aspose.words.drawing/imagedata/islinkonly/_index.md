@@ -1,14 +1,14 @@
 ---
 title: ImageData.IsLinkOnly
 second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Returnerar sant om bilden är länkad och inte lagrad i dokumentet.
+description: ImageData fast egendom. ReturnerarSann om bilden är länkad och inte lagrad i dokumentet.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/imagedata/islinkonly/
 ---
 ## ImageData.IsLinkOnly property
 
-Returnerar sant om bilden är länkad och inte lagrad i dokumentet.
+Returnerar`Sann` om bilden är länkad och inte lagrad i dokumentet.
 
 ```csharp
 public bool IsLinkOnly { get; }

@@ -3,7 +3,7 @@ title: Document.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke.
 type: docs
-weight: 560
+weight: 600
 url: /sv/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method

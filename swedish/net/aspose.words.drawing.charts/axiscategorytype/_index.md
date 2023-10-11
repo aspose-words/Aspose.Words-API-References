@@ -3,7 +3,7 @@ title: Enum AxisCategoryType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisCategoryType uppräkning. Anger typen av en kategoriaxel.
 type: docs
-weight: 520
+weight: 530
 url: /sv/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration

@@ -1,14 +1,14 @@
 ---
 title: Document.HasRevisions
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar Sann om dokumentet har några spårade ändringar.
+description: Document fast egendom. ReturnerarSann om dokumentet har några spårade ändringar.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/document/hasrevisions/
 ---
 ## Document.HasRevisions property
 
-Returnerar **Sann** om dokumentet har några spårade ändringar.
+Returnerar`Sann` om dokumentet har några spårade ändringar.
 
 ```csharp
 public bool HasRevisions { get; }

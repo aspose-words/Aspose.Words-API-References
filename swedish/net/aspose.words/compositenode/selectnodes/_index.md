@@ -3,7 +3,7 @@ title: CompositeNode.SelectNodes
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Väljer en lista med noder som matchar XPathuttrycket.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method

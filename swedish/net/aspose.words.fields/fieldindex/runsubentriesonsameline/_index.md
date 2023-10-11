@@ -38,7 +38,7 @@ index.Heading = "A";
 // rubriker, kommer INDEX-fältet att undergruppera dem ytterligare efter värdena för dessa rubriker.
 // Det kan finnas flera undergrupperingar, beroende på hur många gånger
 // Textegenskaperna för XE-fält segmenteras så här.
-  // Som standard kommer en grupp för INDEX-fält att skapa en ny rad för varje underrubrik inom denna grupp.
+// Som standard kommer en grupp för INDEX-fält att skapa en ny rad för varje underrubrik inom denna grupp.
 // Vi kan ställa in RunSubentriesOnSameLine-flaggan till true för att behålla rubriken,
 // och varje underrubrik för gruppen på en rad istället, vilket kommer att göra INDEX-fältet mer kompakt.
 index.RunSubentriesOnSameLine = runSubentriesOnTheSameLine;
@@ -64,6 +64,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Heading 1:Subheading 2";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ```

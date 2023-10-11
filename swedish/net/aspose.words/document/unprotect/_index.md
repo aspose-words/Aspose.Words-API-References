@@ -3,7 +3,7 @@ title: Document.Unprotect
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Tar bort skyddet från dokumentet oavsett lösenord.
 type: docs
-weight: 720
+weight: 760
 url: /sv/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -84,7 +84,7 @@ public bool Unprotect(string password)
 
 ### Returvärde
 
-Sant om ett korrekt lösenord angavs och dokumentet var oskyddat.
+`Sann` om ett korrekt lösenord angavs och dokumentet var oskyddat.
 
 ### Anmärkningar
 

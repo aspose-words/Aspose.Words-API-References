@@ -3,7 +3,7 @@ title: Stroke.EndArrowWidth
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar pilspetsens bredd för slutet av ett streck.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property

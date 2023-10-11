@@ -3,7 +3,7 @@ title: ShapeBase.IsDecorative
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property

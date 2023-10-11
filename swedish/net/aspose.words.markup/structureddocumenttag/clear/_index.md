@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Clear
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag metod. Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare om den är definierad.
 type: docs
-weight: 330
+weight: 360
 url: /sv/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method

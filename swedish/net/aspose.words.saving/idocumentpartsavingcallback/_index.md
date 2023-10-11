@@ -3,7 +3,7 @@ title: Interface IDocumentPartSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.IDocumentPartSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar dokumentdelar när du exporterar ett dokument tillHtml ellerEpub format.
 type: docs
-weight: 4880
+weight: 5140
 url: /sv/net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface

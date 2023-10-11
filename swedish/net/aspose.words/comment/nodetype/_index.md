@@ -1,14 +1,14 @@
 ---
 title: Comment.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar NodeType.Comment .
+description: Comment fast egendom. ReturnerarComment .
 type: docs
 weight: 80
 url: /sv/net/aspose.words/comment/nodetype/
 ---
 ## Comment.NodeType property
 
-Returnerar **NodeType.Comment** .
+ReturnerarComment .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

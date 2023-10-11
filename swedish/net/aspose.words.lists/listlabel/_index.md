@@ -3,12 +3,14 @@ title: Class ListLabel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.ListLabel klass. Definierar egenskaper som är specifika för en listetikett.
 type: docs
-weight: 3290
+weight: 3490
 url: /sv/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
 Definierar egenskaper som är specifika för en listetikett.
+
+För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
 ```csharp
 public class ListLabel
@@ -39,7 +41,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Det här är texten vi får när vi matar ut den här noden till textformat.
-    // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering. 
+     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 

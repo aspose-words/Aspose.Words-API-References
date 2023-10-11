@@ -3,7 +3,7 @@ title: Interface IChartDataPoint
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.IChartDataPoint gränssnitt. Innehåller egenskaper för en enda datapunkt i diagrammet.
 type: docs
-weight: 770
+weight: 900
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -28,7 +28,6 @@ public interface IChartDataPoint
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

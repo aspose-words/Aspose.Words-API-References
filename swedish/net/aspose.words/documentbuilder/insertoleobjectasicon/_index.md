@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertOleObjectAsIcon
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett inbäddat eller länkat OLEobjekt som ikon i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLEobjekttyp med filtillägg.
 type: docs
-weight: 380
+weight: 410
 url: /sv/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
@@ -18,9 +18,9 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Fullständig sökväg till filen. |
-| isLinked | Boolean | Om true infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
-| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är null kommer Aspose.Words att använda en fördefinierad bild. |
-| iconCaption | String | Ikontext. Om värdet är null kommer Aspose.Words att använda filnamnet. |
+| isLinked | Boolean | Om`Sann` sedan infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
+| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är`null` , Aspose.Words kommer att använda en fördefinierad bild. |
+| iconCaption | String | Ikontext. Om värdet är`null` , Aspose.Words kommer att använda filnamnet. |
 
 ### Returvärde
 
@@ -81,9 +81,9 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | --- | --- | --- |
 | fileName | String | Fullständig sökväg till filen. |
 | progId | String | ProgId för OLE-objekt. |
-| isLinked | Boolean | Om true infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
-| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är null kommer Aspose.Words att använda en fördefinierad bild. |
-| iconCaption | String | Ikontext. Om värdet är null kommer Aspose.Words att använda filnamnet. |
+| isLinked | Boolean | Om`Sann` sedan infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
+| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är`null` , Aspose.Words kommer att använda en fördefinierad bild. |
+| iconCaption | String | Ikontext. Om värdet är`null` , Aspose.Words kommer att använda filnamnet. |
 
 ### Returvärde
 
@@ -140,8 +140,8 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | --- | --- | --- |
 | stream | Stream | Ström som innehåller applikationsdata. |
 | progId | String | ProgId för OLE-objekt. |
-| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är null kommer Aspose.Words att använda en fördefinierad bild. |
-| iconCaption | String | Ikontext. Om värdet är null kommer Aspose.Words att använda den fördefinierade ikontexten. |
+| iconFile | String | Fullständig sökväg till ICO-filen. Om värdet är`null` , Aspose.Words kommer att använda en fördefinierad bild. |
+| iconCaption | String | Ikontext. Om värdet är`null` , Aspose.Words kommer att använda den fördefinierade ikontexten. |
 
 ### Returvärde
 

@@ -3,12 +3,14 @@ title: Class Shape
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Shape klass. Representerar ett objekt i ritskiktet till exempel en AutoShape textbox freeform OLEobjekt ActiveXkontroll eller bild.
 type: docs
-weight: 1100
+weight: 1250
 url: /sv/net/aspose.words.drawing/shape/
 ---
 ## Shape class
 
 Representerar ett objekt i ritskiktet, till exempel en AutoShape, textbox, freeform, OLE-objekt, ActiveX-kontroll eller bild.
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public sealed class Shape : ShapeBase
@@ -33,9 +35,8 @@ public sealed class Shape : ShapeBase
 | [Bounds](../../aspose.words.drawing/shapebase/bounds/) { get; set; } | Hämtar eller ställer in platsen och storleken på formens innehållsblock. |
 | [BoundsInPoints](../../aspose.words.drawing/shapebase/boundsinpoints/) { get; } | Hämtar platsen och storleken på formens innehållande block i punkter, i förhållande till ankaret för den översta formen. |
 | [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects/) { get; } | Får den slutliga omfattningen som detta formobjekt har efter applicering av ritningseffekter. Värdet mäts i punkter. |
-| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returnerar sant om formtypen tillåter att formen har en bild. |
-| [Chart](../../aspose.words.drawing/shape/chart/) { get; } | Ger tillgång till diagramegenskaperna om denna form har ett diagram. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
+| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returnerar`Sann` om formtypen tillåter att formen har en bild. |
+| [Chart](../../aspose.words.drawing/shape/chart/) { get; } | Ger tillgång till diagramegenskaperna om denna form har en[`Chart`](../../aspose.words.drawing.charts/chart/) . |
 | [CoordOrigin](../../aspose.words.drawing/shapebase/coordorigin/) { get; set; } | Koordinaterna i det övre vänstra hörnet av det innehållande blocket med denna form. |
 | [CoordSize](../../aspose.words.drawing/shapebase/coordsize/) { get; set; } | Bredden och höjden på koordinatutrymmet inuti det innehållande blocket med denna form. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
@@ -45,7 +46,7 @@ public sealed class Shape : ShapeBase
 | [DistanceRight](../../aspose.words.drawing/shapebase/distanceright/) { get; set; } | Returnerar eller ställer in avståndet (i punkter) mellan dokumenttexten och den högra kanten av formen. |
 | [DistanceTop](../../aspose.words.drawing/shapebase/distancetop/) { get; set; } | Returnerar eller ställer in avståndet (i punkter) mellan dokumenttexten och formens övre kant. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [ExtrusionEnabled](../../aspose.words.drawing/shape/extrusionenabled/) { get; } | Returnerar sant om en extruderingseffekt är aktiverad. |
+| [ExtrusionEnabled](../../aspose.words.drawing/shape/extrusionenabled/) { get; } | Returnerar`Sann` om en extruderingseffekt är aktiverad. |
 | [Fill](../../aspose.words.drawing/shapebase/fill/) { get; } | Får fyllningsformatering för formen. |
 | [FillColor](../../aspose.words.drawing/shape/fillcolor/) { get; set; } | Definierar penselfärgen som fyller den stängda banan för formen. |
 | [Filled](../../aspose.words.drawing/shape/filled/) { get; set; } | Bestämmer om den stängda vägen för formen kommer att fyllas. |
@@ -53,50 +54,54 @@ public sealed class Shape : ShapeBase
 | [FirstParagraph](../../aspose.words.drawing/shape/firstparagraph/) { get; } | Får första stycket i formen. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Ändrar orienteringen för en form. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| [HasChart](../../aspose.words.drawing/shape/haschart/) { get; } | Returnerar sant om denna form har en[`Chart`](./chart/) . |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar sant om denna nod har några underordnade noder. |
-| [HasImage](../../aspose.words.drawing/shape/hasimage/) { get; } | Returnerar sant om formen har bildbytes eller länkar en bild. |
-| [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returnerar sant om denna Shape har ett SmartArt-objekt. |
+| [HasChart](../../aspose.words.drawing/shape/haschart/) { get; } | Returnerar`Sann` om det här`Shape` har en[`Chart`](../../aspose.words.drawing.charts/chart/) . |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
+| [HasImage](../../aspose.words.drawing/shape/hasimage/) { get; } | Returnerar`Sann` om formen har bildbytes eller länkar en bild. |
+| [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returnerar`Sann` om det här`Shape` har ett SmartArt-objekt. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Hämtar eller ställer in höjden på formens innehållsblock. |
+| [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar procentandelen av formens relativa höjd. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Anger hur formen placeras horisontellt. |
-| [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel, returnerar null. |
+| [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel, returnerar`null` . |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Hämtar eller ställer in den fullständiga hyperlänkadressen för en form. |
-| [ImageData](../../aspose.words.drawing/shape/imagedata/) { get; } | Ger tillgång till bilden av formen. Returnerar null om formen inte kan ha en bild. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
+| [ImageData](../../aspose.words.drawing/shape/imagedata/) { get; } | Ger tillgång till bilden av formen. Returnerar`null` om formen inte kan ha en bild. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
 | [IsDecorative](../../aspose.words.drawing/shapebase/isdecorative/) { get; set; } | Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet. |
 | [IsDeleteRevision](../../aspose.words.drawing/shapebase/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returnerar sant om detta är en gruppform. |
-| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returnerar sant om denna form är en horisontell regel. |
-| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returnerar sant om denna form är en bildform. |
+| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returnerar`Sann` om detta är en gruppform. |
+| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returnerar`Sann` om denna form är en horisontell regel. |
+| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returnerar`Sann` om denna form är en bildform. |
 | [IsInline](../../aspose.words.drawing/shapebase/isinline/) { get; } | Ett snabbt sätt att avgöra om denna form är placerad i linje med text. |
 | [IsInsertRevision](../../aspose.words.drawing/shapebase/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsLayoutInCell](../../aspose.words.drawing/shapebase/islayoutincell/) { get; set; } | Hämtar eller sätter en flagga som indikerar om formen visas inuti en tabell eller utanför den. |
-| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indikerar att formen är en SignatureLine. |
-| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returnerar sant om denna form inte är ett underordnat till en gruppform. |
-| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returnerar sant om den här formen är ett WordArt-objekt. |
+| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indikerar att formen är en[`SignatureLine`](../signatureline/) . |
+| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returnerar`Sann`om denna form inte är ett underordnat till en gruppform. |
+| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returnerar`Sann` om den här formen är ett WordArt-objekt. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
 | [LastParagraph](../../aspose.words.drawing/shape/lastparagraph/) { get; } | Får det sista stycket i formen. |
 | [Left](../../aspose.words.drawing/shapebase/left/) { get; set; } | Hämtar eller ställer in positionen för den vänstra kanten av formens innehållsblock. |
+| [LeftRelative](../../aspose.words.drawing/shapebase/leftrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar formens relativa vänstra position i procent. |
 | [MarkupLanguage](../../aspose.words.drawing/shapebase/markuplanguage/) { get; } | Får MarkupLanguage som används för detta grafiska objekt. |
 | [Name](../../aspose.words.drawing/shapebase/name/) { get; set; } | Hämtar eller ställer in det valfria formnamnet. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words.drawing/shape/nodetype/) { get; } | ReturnerarShape . |
-| [OleFormat](../../aspose.words.drawing/shape/oleformat/) { get; } | Ger tillgång till OLE-data för en form. För en form som inte är ett OLE-objekt eller ActiveX-kontroll, returnerar null. |
+| [OleFormat](../../aspose.words.drawing/shape/oleformat/) { get; } | Ger tillgång till OLE-data för en form. För en form som inte är ett OLE-objekt eller ActiveX-kontroll, returneras`null` . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph/) { get; } | Returnerar det omedelbara överordnade stycket. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Anger i förhållande till vad formen är placerad horisontellt. |
+| [RelativeHorizontalSize](../../aspose.words.drawing/shapebase/relativehorizontalsize/) { get; set; } | Hämtar eller ställer in värdet på formens relativa storlek i horisontell riktning. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Anger i förhållande till vad formen är placerad vertikalt. |
+| [RelativeVerticalSize](../../aspose.words.drawing/shapebase/relativeverticalsize/) { get; set; } | Hämtar eller ställer in värdet på formens relativa storlek i vertikal riktning. |
 | [Right](../../aspose.words.drawing/shapebase/right/) { get; } | Får positionen för den högra kanten av det innehållande blocket av formen. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation/) { get; set; } | Definierar vinkeln (i grader) som en form roteras. Positivt värde motsvarar medurs rotationsvinkel. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip/) { get; set; } | Definierar texten som visas när muspekaren rör sig över formen. |
-| [ShadowEnabled](../../aspose.words.drawing/shape/shadowenabled/) { get; } | Returnerar sant om en skuggeffekt är aktiverad. |
+| [ShadowEnabled](../../aspose.words.drawing/shape/shadowenabled/) { get; } | Returnerar`Sann` om en skuggeffekt är aktiverad. |
 | [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat/) { get; } | Får skuggformatering för formen. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype/) { get; } | Hämtar formtypen. |
-| [SignatureLine](../../aspose.words.drawing/shape/signatureline/) { get; } | Blir[`SignatureLine`](./signatureline/) objekt om formen är en signaturlinje. Returnerar **null** annars. |
+| [SignatureLine](../../aspose.words.drawing/shape/signatureline/) { get; } | Blir[`SignatureLine`](../signatureline/) objekt om formen är en signaturlinje. Returnerar`null` annars. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints/) { get; } | Får formens storlek i poäng. |
 | [StoryType](../../aspose.words.drawing/shape/storytype/) { get; } | ReturnerarTextbox . |
 | [Stroke](../../aspose.words.drawing/shape/stroke/) { get; } | Definierar ett streck för en form. |
@@ -108,8 +113,10 @@ public sealed class Shape : ShapeBase
 | [TextPath](../../aspose.words.drawing/shape/textpath/) { get; } | Definierar texten för textsökvägen (för ett WordArt-objekt). |
 | [Title](../../aspose.words.drawing/shapebase/title/) { get; set; } | Hämtar eller ställer in titeln (bildtexten) för det aktuella formobjektet. |
 | [Top](../../aspose.words.drawing/shapebase/top/) { get; set; } | Hämtar eller ställer in positionen för den övre kanten av formens innehållsblock. |
+| [TopRelative](../../aspose.words.drawing/shapebase/toprelative/) { get; set; } | Hämtar eller ställer in värdet som representerar formens relativa topposition i procent. |
 | [VerticalAlignment](../../aspose.words.drawing/shapebase/verticalalignment/) { get; set; } | Anger hur formen är placerad vertikalt. |
 | [Width](../../aspose.words.drawing/shapebase/width/) { get; set; } | Hämtar eller ställer in bredden på formens innehållsblock. |
+| [WidthRelative](../../aspose.words.drawing/shapebase/widthrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar procentandelen av formens relativa bredd. |
 | [WrapSide](../../aspose.words.drawing/shapebase/wrapside/) { get; set; } | Anger hur texten lindas runt formen. |
 | [WrapType](../../aspose.words.drawing/shapebase/wraptype/) { get; set; } | Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen. |
 | [ZOrder](../../aspose.words.drawing/shapebase/zorder/) { get; set; } | Bestämmer visningsordningen för överlappande former. |
@@ -119,10 +126,12 @@ public sealed class Shape : ShapeBase
 | namn | Beskrivning |
 | --- | --- |
 | override [Accept](../../aspose.words.drawing/shape/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| override [AcceptEnd](../../aspose.words.drawing/shape/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.drawing/shape/acceptstart/)(DocumentVisitor) |  |
 | [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(RectangleF) | Lägger till källrektangelvärdena för effektomfattningen och returnerar den sista rektangeln. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
 | [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
@@ -134,19 +143,19 @@ public sealed class Shape : ShapeBase
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer/)() | Skapar och returnerar ett objekt som kan användas för att återge denna form till en bild. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(PointF) | Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet för den överordnade formen. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
 | [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underliggande noder till den aktuella noden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
 | [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(int, object) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
@@ -156,7 +165,7 @@ public sealed class Shape : ShapeBase
 
 Använda`Shape` klass kan du skapa eller ändra former i ett Microsoft Word-dokument.
 
-En viktig egenskap hos en form är dess[`ShapeType`](../shapebase/shapetype/). Former av olika -typer kan ha olika möjligheter i ett Word-dokument. Till exempel kan endast bild och OLE shapes ha bilder inuti dem. De flesta formerna kan ha text, men inte alla.
+En viktig egenskap hos en form är dess[`ShapeType`](../shapebase/shapetype/)Former av olika -typer kan ha olika möjligheter i ett Word-dokument. Till exempel kan endast bild och OLE shapes ha bilder inuti dem. De flesta formerna kan ha text, men inte alla.
 
 Former som kan ha text, kan innehålla[`Paragraph`](../../aspose.words/paragraph/) och [`Table`](../../aspose.words.tables/table/) noder som barn.
 
@@ -196,7 +205,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Bilddata för former kan innehålla bilder av många möjliga bildformat. 
+         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
         // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";

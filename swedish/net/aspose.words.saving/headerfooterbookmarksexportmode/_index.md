@@ -3,7 +3,7 @@ title: Enum HeaderFooterBookmarksExportMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode uppräkning. Anger hur bokmärken i sidhuvuden/sidfötter exporteras.
 type: docs
-weight: 4790
+weight: 5050
 url: /sv/net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration

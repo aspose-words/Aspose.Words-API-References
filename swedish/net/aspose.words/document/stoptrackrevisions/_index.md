@@ -3,7 +3,7 @@ title: Document.StopTrackRevisions
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Stoppar automatisk markering av dokumentändringar som revisioner.
 type: docs
-weight: 700
+weight: 740
 url: /sv/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method

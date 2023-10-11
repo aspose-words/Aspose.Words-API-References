@@ -3,7 +3,7 @@ title: PageSetup.PaperSize
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in pappersstorleken.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property

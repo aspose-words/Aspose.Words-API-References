@@ -3,7 +3,7 @@ title: Document.Accept
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Accepterar en besökare.
 type: docs
-weight: 490
+weight: 510
 url: /sv/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Anropar DocumentVisitor.VisitDocumentStart, anropar sedan Acceptera för alla underordnade noder i document och anropar DocumentVisitor.VisitDocumentEnd i slutet.
+Samtal[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , sedan ringer[`Accept`](../../node/accept/) för alla underordnade noder till document och anrop[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) i slutet.
 
 ### Exempel
 

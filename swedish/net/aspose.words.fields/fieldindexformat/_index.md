@@ -3,7 +3,7 @@ title: Enum FieldIndexFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldIndexFormat uppräkning. Anger formateringen förFieldIndex fält i ett dokument.
 type: docs
-weight: 1920
+weight: 2070
 url: /sv/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration

@@ -3,7 +3,7 @@ title: Range.ToDocument
 second_title: Aspose.Words för .NET API Referens
 description: Range metod. Konstruerar ett nytt fullt format dokument som innehåller intervallet.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method

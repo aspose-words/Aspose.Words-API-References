@@ -3,7 +3,7 @@ title: Enum TextPathAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextPathAlignment uppräkning. WordArtjustering.
 type: docs
-weight: 1210
+weight: 1360
 url: /sv/net/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enumeration
@@ -30,6 +30,7 @@ public enum TextPathAlignment
 Visar hur man arbetar med WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -95,6 +96,7 @@ Visar hur man arbetar med WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Infoga ett nytt stycke med en WordArt-form inuti.

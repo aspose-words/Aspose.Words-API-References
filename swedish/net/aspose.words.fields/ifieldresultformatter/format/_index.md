@@ -16,13 +16,14 @@ public string Format(string value, GeneralFormat format)
 
 ### Anmärkningar
 
-Implementeringen bör återkomma **null** för att indikera att standardformateringen ska tillämpas.
+Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
 
 ### Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -170,13 +171,14 @@ public string Format(double value, GeneralFormat format)
 
 ### Anmärkningar
 
-Implementeringen bör återkomma **null** för att indikera att standardformateringen ska tillämpas.
+Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
 
 ### Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

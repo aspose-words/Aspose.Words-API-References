@@ -3,12 +3,14 @@ title: Class TextBox
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextBox klass. Definierar attribut som anger hur en text visas inuti en form.
 type: docs
-weight: 1170
+weight: 1320
 url: /sv/net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
 
 Definierar attribut som anger hur en text visas inuti en form.
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public class TextBox
@@ -24,9 +26,10 @@ public class TextBox
 | [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Anger den inre högra marginalen i punkter för en form. |
 | [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Anger den inre övre marginalen i punkter för en form. |
 | [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Bestämmer flödet av textlayouten i en form. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Returnerar eller ställer in en TextBox som representerar nästa TextBox i en sekvens av former. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Får en överordnad form för TextBox. |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Returnerar en TextBox som representerar den föregående TextBoxen i en sekvens av former. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Returnerar eller ställer in en`TextBox` som representerar nästa`TextBox` i en sekvens av former. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att någon av texterna i TextBox inte ska rotera när formen roteras. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Får en överordnad form för`TextBox` . |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Returnerar en`TextBox` som representerar det föregående`TextBox` i en sekvens av former. |
 | [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Bestämmer hur text radbryts inuti en form. |
 | [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Anger den vertikala justeringen av texten inom en form. |
 
@@ -34,8 +37,8 @@ public class TextBox
 
 | namn | Beskrivning |
 | --- | --- |
-| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Bryter länken till nästa TextBox. |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Bestämmer om denna textbox kan länkas till måltextrutan. |
+| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Bryter länken till nästa`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Avgör om detta`TextBox` kan kopplas till målet`TextBox` . |
 
 ### Anmärkningar
 

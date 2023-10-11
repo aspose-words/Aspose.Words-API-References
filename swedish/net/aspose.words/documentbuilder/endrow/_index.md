@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Avslutar en tabellrad i dokumentet.
 type: docs
-weight: 220
+weight: 240
 url: /sv/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -20,7 +20,7 @@ Radnoden som precis var klar.
 
 ### Anmärkningar
 
-Ringa upp **EndRow** för att avsluta en tabellrad. Om du ringer[`InsertCell`](../insertcell/) omedelbart efter det, sedan fortsätter tabellen på en ny rad.
+Ring upp`EndRow` för att avsluta en tabellrad. Om du ringer[`InsertCell`](../insertcell/) omedelbart efter det, sedan fortsätter tabellen på en ny rad.
 
 Använd[`RowFormat`](../rowformat/) egenskap för att ange radformatering.
 
@@ -45,7 +45,7 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Infoga en cell i den första kolumnen på den andra raden. 
+ // Infoga en cell i den första kolumnen på den andra raden.
 // Istället för att lägga till textinnehåll kommer vi att slå samman denna cell med den första cellen som vi lade till direkt ovanför.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;

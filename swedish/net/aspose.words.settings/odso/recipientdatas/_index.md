@@ -1,14 +1,14 @@
 ---
 title: Odso.RecipientDatas
 second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrig null.
+description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrignull .
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrig null.
+Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrig`null` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }

@@ -3,7 +3,7 @@ title: ParagraphFormat.PageBreakBefore
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant om en sidbrytning tvingas före stycket.
 type: docs
-weight: 250
+weight: 260
 url: /sv/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property

@@ -3,7 +3,7 @@ title: Enum RevisionTextEffect
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.RevisionTextEffect uppräkning. Tillåter att specificera dekorationseffekt för revisioner av dokumenttext.
 type: docs
-weight: 3200
+weight: 3400
 url: /sv/net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
@@ -52,7 +52,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 // och dubbelt understruket blått vid den flyttade till revisionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Gör formatrevisioner i mörkrött och fetstil.

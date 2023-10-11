@@ -3,12 +3,14 @@ title: Class RevisionGroup
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RevisionGroup klass. Representerar en grupp av sekventiellaRevision objekt.
 type: docs
-weight: 4520
+weight: 4780
 url: /sv/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
 Representerar en grupp av sekventiella[`Revision`](../revision/) objekt.
+
+För att lära dig mer, besök[Spåra ändringar i ett dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokumentationsartikel.
 
 ```csharp
 public class RevisionGroup

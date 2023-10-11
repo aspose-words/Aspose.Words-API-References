@@ -3,7 +3,7 @@ title: Document.VbaProject
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar eller sätter enVbaProject .
 type: docs
-weight: 430
+weight: 450
 url: /sv/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
@@ -23,6 +23,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

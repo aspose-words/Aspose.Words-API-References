@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. BlirSignatureLine objekt om formen är en signaturlinje. Returnerar null annars.
+description: Shape fast egendom. BlirSignatureLine objekt om formen är en signaturlinje. Returnerarnull annars.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Blir`SignatureLine` objekt om formen är en signaturlinje. Returnerar **null** annars.
+Blir[`SignatureLine`](../../signatureline/) objekt om formen är en signaturlinje. Returnerar`null` annars.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Anmärkningar
 
-Du kan infoga nya SignatureLines i dokumentet med[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) och
+Du kan infoga nya[`SignatureLine`](../../signatureline/) in i dokumentet med hjälp av[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) och
 
 ### Exempel
 

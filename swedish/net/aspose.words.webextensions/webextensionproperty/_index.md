@@ -3,12 +3,14 @@ title: Class WebExtensionProperty
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionProperty klass. Anger en anpassad egenskap för webbtillägg.
 type: docs
-weight: 6470
+weight: 6780
 url: /sv/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
 Anger en anpassad egenskap för webbtillägg.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtensionProperty

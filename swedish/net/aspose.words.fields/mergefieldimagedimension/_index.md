@@ -3,12 +3,14 @@ title: Class MergeFieldImageDimension
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.MergeFieldImageDimension klass. Representerar en bilddimension dvs. bredden eller höjden som används i en kopplingsprocess.
 type: docs
-weight: 2570
+weight: 2750
 url: /sv/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
 Representerar en bilddimension (dvs. bredden eller höjden) som används i en kopplingsprocess.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -37,6 +39,7 @@ För att indikera att bilden ska infogas med sin ursprungliga dimension under en
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -61,6 +64,7 @@ Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar d
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.

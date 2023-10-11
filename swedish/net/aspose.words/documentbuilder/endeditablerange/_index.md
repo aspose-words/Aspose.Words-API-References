@@ -3,7 +3,7 @@ title: DocumentBuilder.EndEditableRange
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut.
 type: docs
-weight: 210
+weight: 230
 url: /sv/net/aspose.words/documentbuilder/endeditablerange/
 ---
 ## EndEditableRange() {#endeditablerange}
@@ -20,7 +20,7 @@ Den redigerbara intervallnoden som just skapades.
 
 ### Anmärkningar
 
-Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange`metoder.
+Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 
@@ -96,7 +96,7 @@ Den redigerbara intervallnoden som just skapades.
 
 Använd denna överbelastning när du skapar kapslade redigerbara intervall.
 
-Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange`metoder.
+Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 

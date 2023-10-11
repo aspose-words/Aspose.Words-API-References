@@ -1,14 +1,16 @@
 ---
 title: Class TextColumn
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextColumn klass. Representerar en enda textkolumn. Textkolumn är medlem iTextColumnCollection samling. Den Textkolumner samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
+description: Aspose.Words.TextColumn klass. Representerar en enda textkolumn.TextColumn är medlem iTextColumnCollection samling. DenTextColumn samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
 type: docs
-weight: 6090
+weight: 6390
 url: /sv/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Representerar en enda textkolumn. **Textkolumn** är medlem i[`TextColumnCollection`](../textcolumncollection/) samling. Den **Textkolumner** samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
+Representerar en enda textkolumn.`TextColumn` är medlem i[`TextColumnCollection`](../textcolumncollection/) samling. Den`TextColumn` samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
+
+För att lära dig mer, besök[Arbeta med sektioner](https://docs.aspose.com/words/net/working-with-sections/) dokumentationsartikel.
 
 ```csharp
 public class TextColumn
@@ -23,9 +25,9 @@ public class TextColumn
 
 ### Anmärkningar
 
-**Textkolumn** objekt används endast för att ange kolumner med anpassad bredd och avstånd. Om du vill att kolumnerna i dokumentet ska vara lika breda, ställ in TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) till **Sann**.
+`TextColumn` objekt används endast för att ange kolumner med anpassad bredd och avstånd. Om du vill att kolumnerna i dokumentet ska vara lika breda, ställ in TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) till`Sann`.
 
-När en ny **Textkolumn** skapas har dess bredd och avstånd noll.
+När en ny`TextColumn` skapas har dess bredd och avstånd noll.
 
 ### Exempel
 

@@ -3,12 +3,14 @@ title: Class ParagraphCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ParagraphCollection klass. Ger maskinskriven åtkomst till en samling avParagraph noder.
 type: docs
-weight: 4170
+weight: 4410
 url: /sv/net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Paragraph`](../paragraph/) noder.
+
+För att lära dig mer, besök[Arbeta med paragrafer](https://docs.aspose.com/words/net/working-with-paragraphs/) dokumentationsartikel.
 
 ```csharp
 public class ParagraphCollection : NodeCollection
@@ -19,7 +21,7 @@ public class ParagraphCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Hämtar en **Paragraf** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Hämtar en[`Paragraph`](../paragraph/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 
@@ -49,7 +51,7 @@ Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Movin
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner. 
+ // Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner.
 // Dessa ändringar är potentiella ändringar av dokumentet som vi antingen kan acceptera eller förkasta.
 // Innan vi accepterar/avvisar en flyttrevision, dokumentet
 // måste hålla reda på både avgångs- och ankomstdestinationerna för texten.

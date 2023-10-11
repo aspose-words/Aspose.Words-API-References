@@ -1,14 +1,14 @@
 ---
 title: FieldIf.FalseText
 second_title: Aspose.Words för .NET API Referens
-description: FieldIf fast egendom. Hämtar eller ställer in texten som visas om jämförelseuttrycket är falskt.
+description: FieldIf fast egendom. Hämtar eller ställer in texten som visas om jämförelseuttrycket ärfalsk .
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Hämtar eller ställer in texten som visas om jämförelseuttrycket är falskt.
+Hämtar eller ställer in texten som visas om jämförelseuttrycket är`falsk` .
 
 ```csharp
 public string FalseText { get; set; }

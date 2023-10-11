@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Aspose.Words för .NET API Referens
-description: HorizontalRuleFormat fast egendom. Indikerar närvaron av 3Dskuggning för den horisontella regeln. Om sant är den horisontella regeln utan 3Dskuggning och solid färg används.
+description: HorizontalRuleFormat fast egendom. Indikerar närvaron av 3Dskuggning för den horisontella regeln. OmSann då är den horisontella regeln utan 3Dskuggning och solid färg används.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Indikerar närvaron av 3D-skuggning för den horisontella regeln. Om sant är den horisontella regeln utan 3D-skuggning och solid färg används.
+Indikerar närvaron av 3D-skuggning för den horisontella regeln. Om`Sann` då är den horisontella regeln utan 3D-skuggning och solid färg används.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,7 +16,7 @@ public bool NoShade { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är falskt.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.reporting/knowntypeset/add/
 
 Lägger till det angivnaType objekt till uppsättningen. KastarArgumentException in följande fall:
 
--*type* är inget.
+-*type* är`null`.
 
 -*type* representerar en tomrumstyp.
 

@@ -1,14 +1,14 @@
 ---
 title: ChartLegend.Overlay
 second_title: Aspose.Words för .NET API Referens
-description: ChartLegend fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är falskt.
+description: ChartLegend fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är falskt.
+Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är`falsk` .
 
 ```csharp
 public bool Overlay { get; set; }

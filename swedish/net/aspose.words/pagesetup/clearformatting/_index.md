@@ -3,7 +3,7 @@ title: PageSetup.ClearFormatting
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup metod. Återställer sidinställningarna till standardpappersstorlek marginaler och orientering.
 type: docs
-weight: 450
+weight: 460
 url: /sv/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method

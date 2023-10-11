@@ -3,7 +3,7 @@ title: Document.WriteProtection
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Ger åtkomst till alternativen för dokumentskrivskydd.
 type: docs
-weight: 480
+weight: 500
 url: /sv/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
@@ -22,7 +22,6 @@ Visar hur man skyddar ett dokument med ett lösenord.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Ange ett lösenord på upp till 15 tecken och verifiera sedan dokumentets skyddsstatus.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;

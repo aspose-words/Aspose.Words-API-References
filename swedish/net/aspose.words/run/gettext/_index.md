@@ -3,7 +3,7 @@ title: Run.GetText
 second_title: Aspose.Words för .NET API Referens
 description: Run metod. Hämtar texten för körningen.
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words/run/gettext/
 ---
 ## Run.GetText method

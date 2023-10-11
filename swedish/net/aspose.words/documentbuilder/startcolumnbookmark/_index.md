@@ -3,7 +3,7 @@ title: DocumentBuilder.StartColumnBookmark
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som en kolumnbokmärkesstart. Positionen måste vara i en tabellcell.
 type: docs
-weight: 590
+weight: 630
 url: /sv/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -24,7 +24,7 @@ Bokmärkets startnod som just skapades.
 
 ### Anmärkningar
 
-Ett kolumnbokmärke täcker en eller flera kolumner i ett radintervall. För att skapa ett giltigt bokmärke måste du anropa båda`StartColumnBookmark` och[`EndColumnBookmark`](../endcolumnbookmark/) med samma  **bokmärkeNamn** parameter.
+Ett kolumnbokmärke täcker en eller flera kolumner i ett radintervall. För att skapa ett giltigt bokmärke måste du anropa båda`StartColumnBookmark` och[`EndColumnBookmark`](../endcolumnbookmark/) med samma *bookmarkName*parameter.
 
 Dåligt utformade bokmärken eller bokmärken med dubbletter av namn kommer att ignoreras när dokumentet sparas.
 

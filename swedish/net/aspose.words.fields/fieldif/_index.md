@@ -3,12 +3,14 @@ title: Class FieldIf
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldIf klass. Implementerar IFfältet.
 type: docs
-weight: 1850
+weight: 2000
 url: /sv/net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class
 
 Implementerar IF-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldIf : Field
@@ -27,7 +29,7 @@ public class FieldIf : Field
 | [ComparisonOperator](../../aspose.words.fields/fieldif/comparisonoperator/) { get; set; } | Hämtar eller ställer in jämförelseoperatorn. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
-| [FalseText](../../aspose.words.fields/fieldif/falsetext/) { get; set; } | Hämtar eller ställer in texten som visas om jämförelseuttrycket är falskt. |
+| [FalseText](../../aspose.words.fields/fieldif/falsetext/) { get; set; } | Hämtar eller ställer in texten som visas om jämförelseuttrycket är`falsk` . |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
@@ -35,7 +37,7 @@ public class FieldIf : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
 | [RightExpression](../../aspose.words.fields/fieldif/rightexpression/) { get; set; } | Hämtar eller ställer in den högra delen av jämförelseuttrycket. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [TrueText](../../aspose.words.fields/fieldif/truetext/) { get; set; } | Hämtar eller ställer in texten som visas om jämförelseuttrycket är sant. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -47,7 +49,7 @@ public class FieldIf : Field
 | [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | Utvärderar villkoret. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |

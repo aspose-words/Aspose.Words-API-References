@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.BackgroundShape
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Hämtar eller ställer in bakgrundsformen för dokumentet. Kan vara null.
+description: DocumentBase fast egendom. Hämtar eller ställer in bakgrundsformen för dokumentet. Kan varanull .
 type: docs
 weight: 10
 url: /sv/net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Hämtar eller ställer in bakgrundsformen för dokumentet. Kan vara null.
+Hämtar eller ställer in bakgrundsformen för dokumentet. Kan vara`null` .
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -16,11 +16,11 @@ public Shape BackgroundShape { get; set; }
 
 ### Anmärkningar
 
-Microsoft Word tillåter endast en form som har sin[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) egenskap lika med Rectangle ska användas som bakgrundsform för ett dokument.
+Microsoft Word tillåter endast en form som har sin[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) egenskap lika tillRectangle ska användas som bakgrundsform för ett dokument.
 
 Microsoft Word stöder endast fyllningsegenskaperna för en bakgrundsform. Alla andra egenskaper ignoreras.
 
-Om du ställer in den här egenskapen till ett icke-nullvärde ställs också in[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) till sant.
+Om du ställer in den här egenskapen till ett icke-nullvärde ställs också in[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) till`Sann`.
 
 ### Exempel
 
@@ -53,9 +53,14 @@ doc.BackgroundShape = shapeRectangle;
 
 Assert.IsTrue(doc.BackgroundShape.HasImage);
 
+Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSaveOptions
+{
+    CacheBackgroundGraphics = false
+};
+
 // Microsoft Word stöder inte former med bilder som bakgrund,
 // men vi kan fortfarande se dessa bakgrunder i andra spara-format som .pdf.
-doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf");
+doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 
 ### Se även

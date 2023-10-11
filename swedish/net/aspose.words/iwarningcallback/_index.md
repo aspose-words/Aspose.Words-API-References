@@ -3,7 +3,7 @@ title: Interface IWarningCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.IWarningCallback gränssnitt. Implementera det här gränssnittet om du vill ha en egen anpassad metod som kallas för att fånga upp varningar för förlust av trohet som kan inträffa under dokumentladdning eller sparande.
 type: docs
-weight: 3010
+weight: 3210
 url: /sv/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
@@ -25,6 +25,7 @@ public interface IWarningCallback
 Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,9 +49,10 @@ Visar hur man använder IWarningCallback-gränssnittet för att övervaka varnin
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -71,6 +73,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -95,7 +98,7 @@ Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar o
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
@@ -120,7 +123,6 @@ public class HandleDocumentWarnings : IWarningCallback
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -135,6 +137,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

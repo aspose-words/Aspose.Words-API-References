@@ -3,7 +3,7 @@ title: PdfSaveOptions.UseCoreFonts
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om TrueTypeteckensnitten Arial Times New Roman Courier New och Symbol ska ersättas med kärnPDF Type 1teckensnitt.
 type: docs
-weight: 280
+weight: 310
 url: /sv/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
@@ -24,7 +24,7 @@ Den här inställningen fungerar endast för text i ANSI-kodning (Windows-1252).
 
 PDF/A- och PDF/UA-kompatibilitet kräver att alla teckensnitt är inbäddade.`falsk` värde kommer att användas automatiskt när du sparar till PDF/A och PDF/UA.
 
-Kärnteckensnitt stöds inte när du sparar till PDF 2.0-format.`falsk`värde kommer att användas automatiskt när du sparar till PDF 2.0.
+Kärnteckensnitt stöds inte när du sparar till PDF 2.0-format.`falsk` värde kommer att användas automatiskt när du sparar till PDF 2.0.
 
 Detta alternativ har högre prioritet då[`FontEmbeddingMode`](../fontembeddingmode/) alternativ.
 

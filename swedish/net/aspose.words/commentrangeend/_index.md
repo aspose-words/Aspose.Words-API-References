@@ -3,12 +3,14 @@ title: Class CommentRangeEnd
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.CommentRangeEnd klass. Betecknar slutet av en textregion som har en kommentar kopplad till sig.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.words/commentrangeend/
 ---
 ## CommentRangeEnd class
 
 Betecknar slutet av en textregion som har en kommentar kopplad till sig.
+
+För att lära dig mer, besök[Arbeta med kommentarer](https://docs.aspose.com/words/net/working-with-comments/) dokumentationsartikel.
 
 ```csharp
 public sealed class CommentRangeEnd : Node
@@ -27,12 +29,12 @@ public sealed class CommentRangeEnd : Node
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [Id](../../aspose.words/commentrangeend/id/) { get; set; } | Anger identifieraren för kommentaren som denna region är länkad till. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | ReturnerarCommentRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 

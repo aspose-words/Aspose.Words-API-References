@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en HTMLsträng i dokumentet.
 type: docs
-weight: 330
+weight: 360
 url: /sv/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -59,6 +59,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +107,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-              // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
             args.Text = string.Empty;
         }
     }
@@ -143,7 +144,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 Du kan använda den här metoden för att infoga ett HTML-fragment eller ett helt HTML-dokument.
 
-När*useBuilderFormatting* är`falsk` , [`DocumentBuilder`](../) formatering ignoreras och formatering av infogade text baseras på standard HTML-formatering. Som ett resultat av detta ser texten ut som den renderas i webbläsare.
+När*useBuilderFormatting* är`falsk` , [`DocumentBuilder`](../)formatering ignoreras och formatering av infogade text baseras på standard HTML-formatering. Som ett resultat av detta ser texten ut som den renderas i webbläsare.
 
 När*useBuilderFormatting* är`Sann` , formateringen av infogad text baseras på[`DocumentBuilder`](../) formatering, och texten ser ut som om den infogats med[`Write`](../write/) .
 

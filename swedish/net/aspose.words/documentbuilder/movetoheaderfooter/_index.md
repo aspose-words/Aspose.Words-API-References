@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToHeaderFooter
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till början av en sidhuvud eller sidfot i det aktuella avsnittet.
 type: docs
-weight: 520
+weight: 550
 url: /sv/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -20,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### Anmärkningar
 
-Efter att du flyttat markören till ett sidhuvud eller en sidfot kan du använda resten av DocumentBuilder -metoderna för att ändra innehållet i sidhuvudet eller sidfoten.
+När du har flyttat markören till en sidhuvud eller sidfot kan du använda resten av[`DocumentBuilder`](../) metoder för att ändra innehållet i sidhuvudet eller sidfoten.
 
 Om du vill skapa olika sidhuvuden och sidfötter för den första sidan måste du ställa in[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 

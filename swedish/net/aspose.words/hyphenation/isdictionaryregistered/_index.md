@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
 second_title: Aspose.Words för .NET API Referens
-description: Hyphenation metod. Returnerar False om det inte finns någon ordbok registrerad för det angivna språket eller om den registreras är Nullordbok annars sant.
+description: Hyphenation metod. Returnerarfalsk om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är NullordbokSann annars.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-Returnerar False om det inte finns någon ordbok registrerad för det angivna språket eller om den registreras är Null-ordbok, annars sant.
+Returnerar`falsk` om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är Null-ordbok,`Sann` annars.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)

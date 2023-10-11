@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar formatet för originaldokumentet som laddades in i detta objekt.
 type: docs
-weight: 280
+weight: 300
 url: /sv/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### Anmärkningar
 
-Detta är en genväg tillColor fast egendom.
+Detta är en genväg till[`Color`](../../fill/color/) fast egendom.
 
 Standardvärdet är Gray.
 

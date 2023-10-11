@@ -3,7 +3,7 @@ title: Document.Variables
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Returnerar samlingen av variabler som lagts till i ett dokument eller mall.
 type: docs
-weight: 420
+weight: 440
 url: /sv/net/aspose.words/document/variables/
 ---
 ## Document.Variables property

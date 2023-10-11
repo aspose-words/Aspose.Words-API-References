@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om CIDwebbadresser ContentID ska användas för att referera till resurser bilder teckensnitt CSS som ingår i MHTML dokument. Standardvärdet ärfalsk .
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
@@ -22,7 +22,7 @@ Som standard refereras till resurser i MHTML-dokument med filnamn (till exempel 
 
 Det här alternativet möjliggör en alternativ metod, där referenser till resursfiler skrivs som CID (Content-ID) URLs (till exempel "cid:image.png") och matchas mot "Content-ID"-rubriker.
 
-I teorin borde det inte finnas någon skillnad mellan de två refereringsmetoderna och någon av dem ska fungera bra i vilken webbläsare eller e-postagent som helst. I praktiken misslyckas dock vissa agenter med att hämta resurser efter filnamn. Om din webbläsare eller e-postagent vägrar att ladda resurser som ingår i ett MTHML-dokument (inte visar bilder eller inte load CSS-stilar), försök att exportera dokumentet med CID-URL:er.
+teorin borde det inte finnas någon skillnad mellan de två refereringsmetoderna och någon av dem ska fungera bra i vilken webbläsare eller e-postagent som helst. I praktiken misslyckas dock vissa agenter med att hämta resurser efter filnamn. Om din webbläsare eller e-postagent vägrar att ladda resurser som ingår i ett MTHML-dokument (inte visar bilder eller inte load CSS-stilar), försök att exportera dokumentet med CID-URL:er.
 
 ### Exempel
 

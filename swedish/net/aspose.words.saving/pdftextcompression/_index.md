@@ -3,7 +3,7 @@ title: Enum PdfTextCompression
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfTextCompression uppräkning. Anger en typ av komprimering som tillämpas på allt innehåll i PDFfilen utom bilder.
 type: docs
-weight: 5250
+weight: 5530
 url: /sv/net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

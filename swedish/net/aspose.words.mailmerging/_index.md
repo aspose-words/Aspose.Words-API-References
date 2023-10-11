@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.MailMerging
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.MailMerging namnrymden innehåller klasser av original sammanslagningsrapporteringsmotorn.
+description: De Aspose.Words.MailMergingnamnrymden innehåller klasser av original sammanslagningsrapporteringsmotorn.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.mailmerging/
 ---
-De **Aspose.Words.MailMerging** namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn.
+De **Aspose.Words.MailMerging**namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn.
 
 ## Klasser
 
@@ -18,6 +18,7 @@ De **Aspose.Words.MailMerging** namnrymden innehåller klasser av "original" sam
 | [MailMerge](./mailmerge/) | Representerar funktionen för sammankoppling av brev. |
 | [MailMergeRegionInfo](./mailmergeregioninfo/) | Innehåller information om en kopplingsregion. |
 | [MappedDataFieldCollection](./mappeddatafieldcollection/) | Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet. |
+| [MustacheTag](./mustachetag/) | Representerar "mustasch"-tagg. |
 ## Gränssnitt
 
 | Gränssnitt | Beskrivning |

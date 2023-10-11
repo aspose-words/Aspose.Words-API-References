@@ -20,15 +20,13 @@ Visar hur man lägger till en stil till ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Ställ in standardparametrar för nya stilar som vi senare kan lägga till i den här samlingen.
 styles.DefaultFont.Name = "Courier New";
-
 // Om vi lägger till en stil av "StyleType.Paragraph", kommer samlingen att tillämpa värdena för
 // dess "DefaultParagraphFormat"-egenskap till stilens "ParagraphFormat"-egenskap.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Lägg till en stil och kontrollera sedan att den har standardinställningarna.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

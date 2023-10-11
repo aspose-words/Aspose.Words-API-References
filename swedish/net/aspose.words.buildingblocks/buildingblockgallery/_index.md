@@ -3,7 +3,7 @@ title: Enum BuildingBlockGallery
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BuildingBlocks.BuildingBlockGallery uppräkning. Anger det fördefinierade galleriet som ett byggblock klassificeras i.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 ## BuildingBlockGallery enumeration
@@ -99,7 +99,6 @@ public void GlossaryDocument()
     // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
     // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".

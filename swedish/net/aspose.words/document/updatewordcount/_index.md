@@ -3,7 +3,7 @@ title: Document.UpdateWordCount
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Uppdaterar ordräkningsegenskaper för dokumentet.
 type: docs
-weight: 770
+weight: 810
 url: /sv/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -16,9 +16,9 @@ public void UpdateWordCount()
 
 ### Anmärkningar
 
-**UppdateraWordCount** räknar om och uppdaterar egenskaperna Characters, Words and Paragraphs i[`BuiltInDocumentProperties`](../builtindocumentproperties/) samling av **Dokumentera**.
+`UpdateWordCount` räknar om och uppdaterar egenskaperna Characters, Words and Paragraphs i[`BuiltInDocumentProperties`](../builtindocumentproperties/) samling av[`Document`](../).
 
-Anteckna det **UppdateraWordCount** uppdaterar inte antalet rader och sidor egenskaper. Använd`UpdateWordCount` överbelasta och skicka True value som en parameter för att göra det.
+Anteckna det`UpdateWordCount`uppdaterar inte antalet rader och sidor egenskaper. Använd`UpdateWordCount` överbelastning och passera`Sann` värde som en parameter för att göra det.
 
 När du använder en utvärderingsversion kommer utvärderingsvattenstämpeln också att inkluderas i ordantalet.
 
@@ -74,7 +74,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| updateLinesCount | Boolean | Sant om antalet rader i dokumentet ska beräknas. |
+| updateLinesCount | Boolean | `Sann` om antal rader i dokumentet ska beräknas. |
 
 ### Anmärkningar
 

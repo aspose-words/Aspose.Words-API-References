@@ -3,7 +3,7 @@ title: Enum PdfCustomPropertiesExport
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfCustomPropertiesExport uppräkning. Anger sättetCustomDocumentProperties exporteras till PDFfil.
 type: docs
-weight: 5140
+weight: 5420
 url: /sv/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
@@ -36,7 +36,7 @@ doc.CustomDocumentProperties.Add("Company", "My value");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.None" för att kassera
- // anpassade dokumentegenskaper när vi sparar dokumentet till .PDF.
+// anpassade dokumentegenskaper när vi sparar dokumentet till .PDF.
 // Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.Standard"
 // för att bevara anpassade egenskaper i det utgående PDF-dokumentet.
 // Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.Metadata"

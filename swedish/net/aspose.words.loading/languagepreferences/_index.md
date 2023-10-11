@@ -3,12 +3,14 @@ title: Class LanguagePreferences
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.LanguagePreferences klass. Gör det möjligt att ställa in språkinställningar.
 type: docs
-weight: 3450
+weight: 3650
 url: /sv/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Gör det möjligt att ställa in språkinställningar.
+
+För att lära dig mer, besök[Ange laddningsalternativ](https://docs.aspose.com/words/net/specify-load-options/) dokumentationsartikel.
 
 ```csharp
 public class LanguagePreferences

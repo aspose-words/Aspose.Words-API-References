@@ -3,12 +3,14 @@ title: Class FieldAutoNumLgl
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldAutoNumLgl klass. Implementerar fältet AUTONUMLGL.
 type: docs
-weight: 1440
+weight: 1590
 url: /sv/net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
 
 Implementerar fältet AUTONUMLGL.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldAutoNumLgl : Field
@@ -32,7 +34,7 @@ public class FieldAutoNumLgl : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [RemoveTrailingPeriod](../../aspose.words.fields/fieldautonumlgl/removetrailingperiod/) { get; set; } | Hämtar eller ställer in om numret ska visas utan efterföljande period. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [SeparatorCharacter](../../aspose.words.fields/fieldautonumlgl/separatorcharacter/) { get; set; } | Hämtar eller ställer in avgränsningstecknet som ska användas. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -43,7 +45,7 @@ public class FieldAutoNumLgl : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -57,6 +59,7 @@ Infogar ett automatiskt nummer i juridiskt format.
 Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
 
 ```csharp
+public void FieldAutoNumLgl()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -66,7 +69,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
 
     // AUTONUMLGL-fält visar ett tal som ökar vid varje AUTONUMLGL-fält inom dess aktuella rubriknivå.
     // Dessa fält har en separat räkning för varje rubriknivå,
-      // och varje fält visar också AUTONUMLGL-fältantalet för alla rubriknivåer under sina egna.
+     // och varje fält visar också AUTONUMLGL-fältantalet för alla rubriknivåer under sina egna.
     // Genom att ändra räkningen för någon rubriknivå återställs räkningen för alla nivåer över den nivån till 1.
     // Detta gör att vi kan organisera vårt dokument i form av en översiktslista.
     // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 1, som visar "1." i dokumentet.
@@ -79,7 +82,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
     // och AUTONUMLGL-räkningen för rubriknivån under den är "2", så det kommer att visa "2.1.".
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-      // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 3.
+     // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 3.
     // Arbetar på samma sätt som fältet ovan kommer det att visa "2.1.1.".
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
@@ -106,6 +109,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");
+}
 
 /// <summary>
 /// Använder en dokumentbyggare för att infoga en sats numrerad med ett AUTONUMLGL-fält.

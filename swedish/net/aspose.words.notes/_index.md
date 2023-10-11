@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Notes namnutrymme tillhandahåller klasser för att arbeta med Microsoft Wordslutnoter och fotnoter.
+description: De Aspose.Words.Notesnamnutrymme tillhandahåller klasser för att arbeta med Microsoft Wordslutnoter och fotnoter.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.notes/
 ---
-De **Aspose.Words.Notes** namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter.
+De **Aspose.Words.Notes**namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter.
 
 ## Klasser
 

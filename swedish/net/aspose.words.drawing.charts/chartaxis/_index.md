@@ -3,12 +3,14 @@ title: Class ChartAxis
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartAxis klass. Representerar axelalternativen för diagrammet.
 type: docs
-weight: 610
+weight: 630
 url: /sv/net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
 
 Representerar axelalternativen för diagrammet.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartAxis
@@ -25,6 +27,8 @@ public class ChartAxis
 | [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Anger var på den vinkelräta axeln axeln korsar. |
 | [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Anger skalningsvärdet för visningsenheterna för värdeaxeln. |
 | [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returnerar det dokument som titelinnehavaren tillhör. |
+| [HasMajorGridlines](../../aspose.words.drawing.charts/chartaxis/hasmajorgridlines/) { get; set; } | Hämtar eller sätter en flagga som indikerar om axeln har större rutnät. |
+| [HasMinorGridlines](../../aspose.words.drawing.charts/chartaxis/hasminorgridlines/) { get; set; } | Hämtar eller sätter en flagga som indikerar om axeln har mindre rutnätslinjer. |
 | [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte. |
 | [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Returnerar eller sätter de viktigaste bockarna. |
 | [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Returnerar eller ställer in avståndet mellan stora bockmarkeringar. |
@@ -43,6 +47,7 @@ public class ChartAxis
 | [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Hämtar eller ställer in intervallet vid vilket bocketiketter ritas. |
 | [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om automatiskt intervall för att rita kryssetiketter ska användas. |
 | [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras. |
+| [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Ger tillgång till egenskaperna för axeltiteln. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returnerar typ av axel. |
 
 ### Exempel

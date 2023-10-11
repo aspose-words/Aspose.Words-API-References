@@ -3,7 +3,7 @@ title: Enum PdfPageMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfPageMode uppräkning. Anger hur PDFdokumentet ska visas när det öppnas i PDFläsaren.
 type: docs
-weight: 5220
+weight: 5500
 url: /sv/net/aspose.words.saving/pdfpagemode/
 ---
 ## PdfPageMode enumeration

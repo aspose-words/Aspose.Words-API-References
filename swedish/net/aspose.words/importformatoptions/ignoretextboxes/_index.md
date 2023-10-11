@@ -3,7 +3,7 @@ title: ImportFormatOptions.IgnoreTextBoxes
 second_title: Aspose.Words för .NET API Referens
 description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet ärSann .
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property

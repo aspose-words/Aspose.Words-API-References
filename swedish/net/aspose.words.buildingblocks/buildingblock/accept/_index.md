@@ -20,17 +20,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 För mer information se Visitor design mönster.
 
 Samtal[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , anropar sedan [`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i detta byggblock, anropar sedan [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
-Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../../aspose.words/document/) Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../glossarydocument/) eller samtal`Accept` .
+Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../../aspose.words/document/) . Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../glossarydocument/) eller samtal`Accept` .
 
 ### Exempel
 
@@ -76,7 +76,6 @@ public void CreateAndInsert()
     // Själva blocket är ett avsnitt som innehåller texten.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Nu kan vi infoga det i dokumentet som ett nytt avsnitt.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

@@ -3,7 +3,7 @@ title: ParagraphFormat.WidowControl
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket.
 type: docs
-weight: 390
+weight: 400
 url: /sv/net/aspose.words/paragraphformat/widowcontrol/
 ---
 ## ParagraphFormat.WidowControl property
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // och föregående rad där den föräldralösa bröt av kallas "Änka".
 // Vi kan fixa föräldralösa barn och änkor genom att ordna om text via teckenstorlek, mellanrum eller sidmarginaler.
 // Om vi vill bevara vårt dokuments dimensioner kan vi ställa in denna flagga på "true"
-  // för att trycka in änkor på samma sida som deras respektive föräldralösa barn.
+ // för att trycka in änkor på samma sida som deras respektive föräldralösa barn.
 // Lämna denna flagga som "false" kommer att lämna änka/föräldralösa par i text.
 // Varje stycke har denna inställning tillgänglig i Microsoft Word via Hem -> Stycke -> Styckeinställningar
 // (knappen i det nedre högra hörnet av "Paragraph"-fliken) -> "Änka/föräldralös kontroll".

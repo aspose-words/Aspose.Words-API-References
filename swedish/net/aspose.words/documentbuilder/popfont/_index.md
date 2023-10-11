@@ -3,7 +3,7 @@ title: DocumentBuilder.PopFont
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Hämtar teckenformatering som tidigare sparats i stacken.
 type: docs
-weight: 560
+weight: 600
 url: /sv/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method

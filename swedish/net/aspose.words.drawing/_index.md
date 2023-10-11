@@ -49,7 +49,9 @@ De **Aspose.Words.Drawing** namnutrymme tillhandahåller klasser som gör det m�
 | [PatternType](./patterntype/) | Anger fyllningsmönstret som ska användas för att fylla en form. |
 | [PresetTexture](./presettexture/) | Anger textur som ska användas för att fylla en form. |
 | [RelativeHorizontalPosition](./relativehorizontalposition/) | Anger vad den horisontella positionen för en form eller textram är relativ. |
+| [RelativeHorizontalSize](./relativehorizontalsize/) | Anger i förhållande till vad bredden på en form eller en textram beräknas horisontellt. |
 | [RelativeVerticalPosition](./relativeverticalposition/) | Anger vad den vertikala positionen för en form eller textram är relativ. |
+| [RelativeVerticalSize](./relativeverticalsize/) | Anger i förhållande till vad höjden på en form eller en textram beräknas vertikalt. |
 | [ShadowType](./shadowtype/) | Anger typen av en formskugga. |
 | [ShapeLineStyle](./shapelinestyle/) | Anger den sammansatta linjestilen för en[`Shape`](../aspose.words.drawing/shape/) . |
 | [ShapeMarkupLanguage](./shapemarkuplanguage/) | Anger märkningsspråk som används för formen. |

@@ -3,12 +3,14 @@ title: Class UserInformation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.UserInformation klass. Anger information om användaren.
 type: docs
-weight: 2610
+weight: 2790
 url: /sv/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Anger information om användaren.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class UserInformation
@@ -47,7 +49,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Infoga fälten USERNAME, USERINITIALS och USERADDRESS, som visar värden på
-// respektive egenskaper för UserInformation-objektet som vi har skapat ovan. 
+ // respektive egenskaper för UserInformation-objektet som vi har skapat ovan.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

@@ -16,7 +16,7 @@ public bool IsLinkedToPrevious { get; set; }
 
 ### Anmärkningar
 
-Standard är sant.
+Standard är`Sann`.
 
 Observera att när du länkar en sidhuvud eller sidfot rensas dess innehåll.
 

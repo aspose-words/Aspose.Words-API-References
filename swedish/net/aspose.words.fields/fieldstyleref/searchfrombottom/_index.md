@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
 // Den här genererade listan kommer att visa "1.a )".
-  // Mellanslag före parentes är ett icke-avgränsande tecken, som vi kan undertrycka.
+ // Mellanslag före parentes är ett icke-avgränsande tecken, som vi kan undertrycka.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

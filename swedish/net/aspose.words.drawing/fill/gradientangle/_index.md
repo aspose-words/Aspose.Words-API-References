@@ -3,7 +3,7 @@ title: Fill.GradientAngle
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar eller ställer in vinkeln för gradientfyllningen.
 type: docs
-weight: 40
+weight: 100
 url: /sv/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property

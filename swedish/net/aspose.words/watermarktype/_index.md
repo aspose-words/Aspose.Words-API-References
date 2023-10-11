@@ -3,7 +3,7 @@ title: Enum WatermarkType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WatermarkType uppräkning. Anger vattenstämpeltypen.
 type: docs
-weight: 6380
+weight: 6690
 url: /sv/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration

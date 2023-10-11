@@ -3,7 +3,7 @@ title: Enum RelativeVerticalPosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.RelativeVerticalPosition uppräkning. Anger vad den vertikala positionen för en form eller textram är relativ.
 type: docs
-weight: 1070
+weight: 1210
 url: /sv/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration

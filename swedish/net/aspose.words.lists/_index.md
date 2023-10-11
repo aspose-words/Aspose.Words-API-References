@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Lists
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Listsnamnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
+description: De Aspose.Words.Lists namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/
 ---
-De **Aspose.Words.Lists**namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
+De **Aspose.Words.Lists** namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
 
 ## Klasser
 

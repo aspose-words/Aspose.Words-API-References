@@ -3,12 +3,14 @@ title: Class VbaModuleCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaModuleCollection klass. Representerar en samling avVbaModule objekt.
 type: docs
-weight: 6250
+weight: 6560
 url: /sv/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
 Representerar en samling av[`VbaModule`](../vbamodule/) objekt.
+
+För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -37,6 +39,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

@@ -16,7 +16,7 @@ public bool RetainFirstSectionStart { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **Sann** .
+Standardvärdet är`Sann` .
 
 ### Se även
 

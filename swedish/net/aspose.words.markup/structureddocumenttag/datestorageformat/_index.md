@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när SDT är bunden till en XMLnod i dokumentets datalager. Standardvärdet ärDateTime
+description: StructuredDocumentTag fast egendom. Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när SDTär bunden till en XMLnod i dokumentets datalager. Standardvärdet ärDateTime
 type: docs
 weight: 110
 url: /sv/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när **SDT** är bunden till en XML-nod i dokumentets datalager. Standardvärdet ärDateTime
+Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när **SDT**är bunden till en XML-nod i dokumentets datalager. Standardvärdet ärDateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }

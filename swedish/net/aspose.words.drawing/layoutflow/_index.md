@@ -3,7 +3,7 @@ title: Enum LayoutFlow
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.LayoutFlow uppräkning. Bestämmer flödet av textlayouten i en textruta.
 type: docs
-weight: 970
+weight: 1100
 url: /sv/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration

@@ -96,16 +96,15 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 Om du laddar tidigare sparad typsnittssökningscache påskyndar initieringsprocessen för typsnittscache. Det är särskilt användbart när åtkomst till teckensnittskällor är komplicerad (t.ex. när teckensnitt laddas via nätverk).
 
-När du sparar och laddar typsnittssökningscache identifieras typsnitt i de angivna källorna via cache-nyckel. För typsnitten i[`SystemFontSource`](../../systemfontsource/) och[`FolderFontSource`](../../folderfontsource/) cache-nyckeln är sökvägen till teckensnittsfilen. För[`MemoryFontSource`](../../memoryfontsource/) och[`StreamFontSource`](../../streamfontsource/) cache-nyckeln är definierad i[`CacheKey`](../../memoryfontsource/cachekey/) och[`CacheKey`](../../streamfontsource/cachekey/) egenskaper respektive. För[`FileFontSource`](../../filefontsource/) cache-nyckeln är antingen[`CacheKey`](../../filefontsource/cachekey/) egenskap eller en filsökväg om[`CacheKey`](../../filefontsource/cachekey/) är **null**.
+När du sparar och laddar typsnittssökningscache identifieras typsnitt i de angivna källorna via cache-nyckel. För typsnitten i[`SystemFontSource`](../../systemfontsource/) och[`FolderFontSource`](../../folderfontsource/) cache-nyckeln är sökvägen till teckensnittsfilen. För[`MemoryFontSource`](../../memoryfontsource/) och[`StreamFontSource`](../../streamfontsource/) cache-nyckeln är definierad i[`CacheKey`](../../memoryfontsource/cachekey/) och[`CacheKey`](../../streamfontsource/cachekey/) egenskaper respektive. För[`FileFontSource`](../../filefontsource/) cache-nyckeln är antingen[`CacheKey`](../../filefontsource/cachekey/) egenskap eller en filsökväg om[`CacheKey`](../../filefontsource/cachekey/) är`null`.
 
-Det rekommenderas starkt att du tillhandahåller samma teckensnittskällor när du laddar cacheminnet som när cachen sparades. Eventuella ändringar i teckensnittskällorna (t.ex. att lägga till nya teckensnitt, flytta teckensnittsfiler eller ändra cache-nyckeln) kan leda till att teckensnittet blir felaktigt lösas av Aspose.Words.
+Det rekommenderas starkt att du tillhandahåller samma teckensnittskällor när du laddar cacheminnet som när cachen sparades. Alla ändringar i teckensnittskällorna (t.ex. att lägga till nya teckensnitt, flytta teckensnittsfiler eller ändra cache-nyckeln) kan leda till att teckensnittet blir felaktigt lösas av Aspose.Words.
 
 ### Exempel
 
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";

@@ -3,12 +3,14 @@ title: Enum ThemeColor
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Themes.ThemeColor uppräkning. Anger temafärgerna för dokumentteman.
 type: docs
-weight: 6170
+weight: 6470
 url: /sv/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
 Anger temafärgerna för dokumentteman.
+
+För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
 ```csharp
 public enum ThemeColor

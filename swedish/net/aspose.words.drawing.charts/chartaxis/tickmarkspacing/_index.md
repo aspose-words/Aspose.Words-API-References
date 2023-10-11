@@ -3,7 +3,7 @@ title: ChartAxis.TickMarkSpacing
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras.
 type: docs
-weight: 250
+weight: 270
 url: /sv/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property

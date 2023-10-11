@@ -16,7 +16,7 @@ public bool IsAuto { get; set; }
 
 ### Anmärkningar
 
-[`ReferenceMark`](../referencemark/) initieras med tom sträng om IsAuto satt till false.
+[`ReferenceMark`](../referencemark/)initieras med tom sträng if`IsAuto` satt till`falsk` .
 
 ### Exempel
 
@@ -38,7 +38,7 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // Detta är den första fotnoten, så referensmärket blir "1".
 Assert.True(footnote.IsAuto);
 
-// Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext. 
+ // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();

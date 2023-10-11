@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ListLabel
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Får enListLabel objekt som ger tillgång till listnumreringsvärde och formatering för detta stycke.
+description: Paragraph fast egendom. Får enListLabelobjekt som ger tillgång till listnumreringsvärde och formatering för detta stycke.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/paragraph/listlabel/
 ---
 ## Paragraph.ListLabel property
 
-Får en`ListLabel` objekt som ger tillgång till listnumreringsvärde och formatering för detta stycke.
+Får en`ListLabel`objekt som ger tillgång till listnumreringsvärde och formatering för detta stycke.
 
 ```csharp
 public ListLabel ListLabel { get; }
@@ -31,7 +31,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Det här är texten vi får när vi matar ut den här noden till textformat.
-    // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering. 
+     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 

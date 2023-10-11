@@ -3,7 +3,7 @@ title: ParagraphFormat.LineUnitAfter
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden mellanrum i rutnätslinjer efter styckena.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property

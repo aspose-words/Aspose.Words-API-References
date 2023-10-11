@@ -3,7 +3,7 @@ title: FieldOptions.ResultFormatter
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Gör det möjligt att styra hur fältresultatet formateras.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property
@@ -19,6 +19,7 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

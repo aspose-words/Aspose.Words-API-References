@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.LineBetween
 second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. När Sann  lägger till en vertikal linje mellan kolumner.
+description: TextColumnCollection fast egendom. NärSann lägger till en vertikal linje mellan kolumner.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-När **Sann** , lägger till en vertikal linje mellan kolumner.
+När`Sann` lägger till en vertikal linje mellan kolumner.
 
 ```csharp
 public bool LineBetween { get; set; }

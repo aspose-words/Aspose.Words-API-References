@@ -3,7 +3,7 @@ title: Chart.AxisZ
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till egenskaperna för Zaxeln i diagrammet.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chart/axisz/
 ---
 ## Chart.AxisZ property

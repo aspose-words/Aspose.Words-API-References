@@ -3,7 +3,7 @@ title: Enum PdfImageColorSpaceExportMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfImageColorSpaceExportMode uppräkning. Anger hur färgrymden kommer att väljas för bilderna i PDFdokument.
 type: docs
-weight: 5200
+weight: 5480
 url: /sv/net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
@@ -23,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 
 ### Exempel
 
-Visar hur du ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
+Visar hur man ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
 
 ```csharp
 Document doc = new Document();

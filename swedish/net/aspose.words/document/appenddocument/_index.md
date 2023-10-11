@@ -3,7 +3,7 @@ title: Document.AppendDocument
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Lägger till det angivna dokumentet i slutet av detta dokument.
 type: docs
-weight: 510
+weight: 550
 url: /sv/net/aspose.words/document/appenddocument/
 ---
 ## AppendDocument(Document, ImportFormatMode) {#appenddocument}
@@ -46,7 +46,6 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Template Document");
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Some content here");
-
 // Lägg till alla okrypterade dokument med tillägget .doc
 // från vår lokala filsystemkatalog till basdokumentet.
 List<string> docFiles = Directory.GetFiles(MyDir, "*.doc").Where(item => item.EndsWith(".doc")).ToList();

@@ -3,7 +3,7 @@ title: Enum HtmlVersion
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HtmlVersion uppräkning. Indikerar vilken version av HTML som används när dokumentet sparasHtml och Mhtml formats.
 type: docs
-weight: 4860
+weight: 5120
 url: /sv/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration

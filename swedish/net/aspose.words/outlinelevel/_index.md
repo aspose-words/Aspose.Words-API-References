@@ -3,7 +3,7 @@ title: Enum OutlineLevel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.OutlineLevel uppräkning. Anger konturnivån för ett stycke i dokumentet.
 type: docs
-weight: 4090
+weight: 4330
 url: /sv/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

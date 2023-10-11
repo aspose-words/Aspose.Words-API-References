@@ -3,7 +3,7 @@ title: Row.ParentTable
 second_title: Aspose.Words för .NET API Referens
 description: Row fast egendom. Returnerar den omedelbara överordnade tabellen för raden.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.tables/row/parenttable/
 ---
 ## Row.ParentTable property
@@ -16,7 +16,7 @@ public Table ParentTable { get; }
 
 ### Anmärkningar
 
-Ekvivalent med`(Tabell)FirstNonMarkupParentNode`.
+Ekvivalent medFirstNonMarkupParentNode gjutna till[`Table`](../../table/).
 
 ### Exempel
 

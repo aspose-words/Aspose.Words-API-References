@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.IgnorePrinterMetrics
 second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om kompatibilitetsalternativet Använd skrivarmått för att lägga ut dokument ignoreras. Standard är True.
+description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om kompatibilitetsalternativet Använd skrivarmått för att lägga ut dokument ignoreras. Standard ärSann .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
 ## LayoutOptions.IgnorePrinterMetrics property
 
-Hämtar eller ställer in en indikation på om kompatibilitetsalternativet "Använd skrivarmått för att lägga ut dokument" ignoreras. Standard är True.
+Hämtar eller ställer in en indikation på om kompatibilitetsalternativet "Använd skrivarmått för att lägga ut dokument" ignoreras. Standard är`Sann` .
 
 ```csharp
 public bool IgnorePrinterMetrics { get; set; }

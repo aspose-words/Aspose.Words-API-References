@@ -3,14 +3,14 @@ title: Class ThemeColors
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Themes.ThemeColors klass. Representerar färgschemat för dokumenttemat som innehåller tolv färger.
 type: docs
-weight: 6180
+weight: 6480
 url: /sv/net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
 
 Representerar färgschemat för dokumenttemat som innehåller tolv färger.
 
-ThemeColors-objektet innehåller sex accentfärger, två mörka färger, två ljusa färger och en färg för var och en av en hyperlänk och följt hyperlänk.
+`ThemeColors` objektet innehåller sex accentfärger, två mörka färger, två ljusa färger och en färg för var och en av en hyperlänk och följt hyperlänk.
 
 ```csharp
 public class ThemeColors

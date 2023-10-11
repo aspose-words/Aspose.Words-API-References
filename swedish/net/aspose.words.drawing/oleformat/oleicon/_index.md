@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OleIcon
 second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar ritaspekten för OLEobjektet. När Sann  visas OLEobjektet som en ikon. När falsk  visas OLEobjektet som innehåll.
+description: OleFormat fast egendom. Hämtar ritaspekten för OLEobjektet. NärSann  visas OLEobjektet som en ikon. Whenfalsk  visas OLEobjektet som innehåll.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-Hämtar ritaspekten för OLE-objektet. När **Sann** , visas OLE-objektet som en ikon. När **falsk** , visas OLE-objektet som innehåll.
+Hämtar ritaspekten för OLE-objektet. När`Sann` , visas OLE-objektet som en ikon. When`falsk` , visas OLE-objektet som innehåll.
 
 ```csharp
 public bool OleIcon { get; }
@@ -16,7 +16,7 @@ public bool OleIcon { get; }
 
 ### Anmärkningar
 
-Aspose.Words tillåter inte att ställa in den här egenskapen för att undvika förvirring. Om du kunde ändra ritaspekten i Aspose.Words, skulle Microsoft Word fortfarande visa OLE-objektet i dess ursprungliga ritaspekt tills du redigerar eller uppdaterar OLE-objektet i Microsoft Word.
+Aspose.Words tillåter inte att ställa in den här egenskapen för att undvika förvirring. Om du kunde ändra ritaspekten i Aspose.Words, skulle Microsoft Word fortfarande visa OLE-objektet i dess original ritaspekt tills du redigerar eller uppdaterar OLE-objektet i Microsoft Word.
 
 ### Exempel
 

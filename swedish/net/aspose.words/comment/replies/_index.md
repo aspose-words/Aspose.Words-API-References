@@ -3,7 +3,7 @@ title: Comment.Replies
 second_title: Aspose.Words för .NET API Referens
 description: Comment fast egendom. Returnerar en samling avComment objekt som är omedelbara underordnade av den angivna kommentaren.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -22,7 +22,6 @@ Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
 // Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
 // Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))

@@ -3,7 +3,7 @@ title: Enum ThemeFont
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Themes.ThemeFont uppräkning. Anger typer av temateckensnittsnamn för dokumentteman.
 type: docs
-weight: 6190
+weight: 6490
 url: /sv/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration

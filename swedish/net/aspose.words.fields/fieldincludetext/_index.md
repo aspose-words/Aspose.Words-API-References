@@ -3,12 +3,14 @@ title: Class FieldIncludeText
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldIncludeText klass. Implementerar fältet INCLUDETEXT.
 type: docs
-weight: 1900
+weight: 2050
 url: /sv/net/aspose.words.fields/fieldincludetext/
 ---
 ## FieldIncludeText class
 
 Implementerar fältet INCLUDETEXT.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldIncludeText : Field
@@ -36,7 +38,7 @@ public class FieldIncludeText : Field
 | [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | Hämtar eller ställer in MIME-typen för den refererade filen. |
 | [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | Hämtar eller ställer in namnområdesmappningar för XPath-frågor. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | Hämtar eller ställer in platsen för dokumentet med en IRI. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | Hämtar eller ställer in namnet på textkonverteraren för formatet på den inkluderade filen. |
@@ -50,7 +52,7 @@ public class FieldIncludeText : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -81,7 +83,9 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
 /// Använd en dokumentbyggare för att infoga ett INCLUDETEXT-fält med anpassade egenskaper.

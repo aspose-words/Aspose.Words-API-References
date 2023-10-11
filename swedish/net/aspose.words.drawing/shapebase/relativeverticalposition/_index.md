@@ -3,7 +3,7 @@ title: ShapeBase.RelativeVerticalPosition
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Anger i förhållande till vad formen är placerad vertikalt.
 type: docs
-weight: 410
+weight: 440
 url: /sv/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property

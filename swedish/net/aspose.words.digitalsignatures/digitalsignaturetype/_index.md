@@ -3,7 +3,7 @@ title: Enum DigitalSignatureType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DigitalSignatures.DigitalSignatureType uppräkning. Anger typen av digital signatur.
 type: docs
-weight: 390
+weight: 400
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration

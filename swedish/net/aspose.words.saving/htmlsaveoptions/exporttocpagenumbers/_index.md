@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om sidnummer ska skrivas till innehållsförteckningen när HTML MHTML och EPUB sparas. Standardvärdet ärfalsk .
 type: docs
-weight: 280
+weight: 270
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
@@ -54,7 +54,6 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportT
 if (exportTocPageNumbers)
 {
     Assert.True(outDocContents.Contains(
-        "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
         "<span>Entry 1</span>" +
         "<span style=\"width:428.14pt; font-family:'Lucida Console'; font-size:10pt; display:inline-block; -aw-font-family:'Times New Roman'; " +
         "-aw-tabstop-align:right; -aw-tabstop-leader:dots; -aw-tabstop-pos:469.8pt\">.......................................................................</span>" +
@@ -65,7 +64,7 @@ else
 {
     Assert.True(outDocContents.Contains(
         "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-        "<span>Entry 1</span>" +
+        "<span>Entry 2</span>" +
         "</p>"));
 }
 ```

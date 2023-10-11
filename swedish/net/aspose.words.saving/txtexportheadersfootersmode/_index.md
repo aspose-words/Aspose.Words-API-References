@@ -3,7 +3,7 @@ title: Enum TxtExportHeadersFootersMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.TxtExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till vanligt textformat.
 type: docs
-weight: 5360
+weight: 5640
 url: /sv/net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration

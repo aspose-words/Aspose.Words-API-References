@@ -3,12 +3,14 @@ title: Class Theme
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Themes.Theme klass. Representerar dokumenttema och ger tillgång till huvudtema inklusiveMajorFonts MinorFonts ochColors
 type: docs
-weight: 6160
+weight: 6460
 url: /sv/net/aspose.words.themes/theme/
 ---
 ## Theme class
 
 Representerar dokumenttema och ger tillgång till huvudtema, inklusive[`MajorFonts`](./majorfonts/) ,[`MinorFonts`](./minorfonts/) och[`Colors`](./colors/)
+
+För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
 ```csharp
 public class Theme

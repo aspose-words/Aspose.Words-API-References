@@ -16,7 +16,7 @@ public bool AlwaysGenerateRootObject { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk** .
+Standardvärdet är`falsk` .
 
 ### Se även
 

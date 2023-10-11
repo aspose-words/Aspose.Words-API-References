@@ -3,12 +3,14 @@ title: Class CustomXmlProperty
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomXmlProperty klass. Representerar ett enda anpassat XMLattribut eller en smart taggegenskap.
 type: docs
-weight: 3700
+weight: 3940
 url: /sv/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
 Representerar ett enda anpassat XML-attribut eller en smart tagg-egenskap.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomXmlProperty

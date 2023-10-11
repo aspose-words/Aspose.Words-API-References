@@ -3,7 +3,7 @@ title: Enum ChartType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartType uppräkning. Anger typen av ett diagram.
 type: docs
-weight: 760
+weight: 830
 url: /sv/net/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enumeration
@@ -59,6 +59,7 @@ public enum ChartType
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -117,7 +118,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 

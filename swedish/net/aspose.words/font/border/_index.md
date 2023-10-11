@@ -1,14 +1,14 @@
 ---
 title: Font.Border
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar ett Borderobjekt som anger kant för teckensnittet.
+description: Font fast egendom. Returnerar enBorder objekt som anger kant för teckensnittet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Returnerar ett Border-objekt som anger kant för teckensnittet.
+Returnerar en[`Border`](../../border/) objekt som anger kant för teckensnittet.
 
 ```csharp
 public Border Border { get; }

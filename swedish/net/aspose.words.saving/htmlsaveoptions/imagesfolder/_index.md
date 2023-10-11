@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImagesFolder
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger den fysiska mappen där bilder sparas vid export av ett dokument till HTMLformat. Standard är en tom sträng.
 type: docs
-weight: 370
+weight: 360
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property

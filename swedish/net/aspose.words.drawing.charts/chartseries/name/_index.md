@@ -3,7 +3,7 @@ title: ChartSeries.Name
 second_title: Aspose.Words för .NET API Referens
 description: ChartSeries fast egendom. Hämtar eller ställer in namnet på serien om namnet inte anges explicit genereras det med index. Som standard returnerar Series plus ett baserat index.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartseries/name/
 ---
 ## ChartSeries.Name property
@@ -19,6 +19,7 @@ public string Name { get; set; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

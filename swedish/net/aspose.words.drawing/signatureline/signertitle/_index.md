@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.SignerTitle
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in föreslagen undertecknares titel till exempel Manager. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SignatureLine fast egendom. Hämtar eller ställer in föreslagen undertecknares titel till exempel Manager. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }

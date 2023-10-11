@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontAscii
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temateckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127 i det tillämpade teckensnittsschemat som är associerat med detta Fontobjekt.
+description: Font fast egendom. Hämtar eller ställer in temateckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt.
 type: docs
 weight: 480
 url: /sv/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Hämtar eller ställer in temateckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127) i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt.
+Hämtar eller ställer in temateckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127) i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) objekt.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }

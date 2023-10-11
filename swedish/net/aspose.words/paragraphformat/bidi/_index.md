@@ -3,7 +3,7 @@ title: ParagraphFormat.Bidi
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in om detta är ett stycke från höger till vänster.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/paragraphformat/bidi/
 ---
 ## ParagraphFormat.Bidi property
@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ### Anmärkningar
 
-När det är sant, läggs körningarna och andra inline-objekt i denna paragraph ut från höger till vänster.
+När`Sann`, körningarna och andra inline-objekt i denna paragraph läggs ut från höger till vänster.
 
 ### Exempel
 

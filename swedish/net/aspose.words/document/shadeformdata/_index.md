@@ -3,7 +3,7 @@ title: Document.ShadeFormData
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Anger om den grå skuggningen ska aktiveras i formulärfält.
 type: docs
-weight: 360
+weight: 380
 url: /sv/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property

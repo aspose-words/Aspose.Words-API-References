@@ -19,7 +19,6 @@ public string DefaultResponse { get; set; }
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -60,6 +59,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.StartField
 second_title: Aspose.Words för .NET API Referens
 description: MailMergeRegionInfo fast egendom. Returnerar ett startfält för regionen.
 type: docs
-weight: 70
+weight: 90
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
 ---
 ## MailMergeRegionInfo.StartField property

@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupName
 second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Identifierar med namn en infångad grupp iMatch som ska ersättas medReplacement sträng.
+description: ReplacingArgs fast egendom. Identifierar med namn en infångad grupp iMatch som ska ersättas medReplacement string.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Identifierar, med namn, en infångad grupp i[`Match`](../match/) som ska ersättas med[`Replacement`](../replacement/) sträng.
+Identifierar, med namn, en infångad grupp i[`Match`](../match/) som ska ersättas med[`Replacement`](../replacement/) string.
 
 ```csharp
 public string GroupName { get; set; }
@@ -16,15 +16,16 @@ public string GroupName { get; set; }
 
 ### Anmärkningar
 
-När gruppnamnet är null,[`GroupIndex`](../groupindex/) används för att identifiera gruppen.
+När gruppnamnet är`null` ,[`GroupIndex`](../groupindex/) används för att identifiera gruppen.
 
-Standard är null.
+Standard är`null`.
 
 ### Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

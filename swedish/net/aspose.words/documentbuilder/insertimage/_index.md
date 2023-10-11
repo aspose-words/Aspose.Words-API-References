@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertImage
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en bild från ett .NETImage objekt i dokumentet. Bilden infogas inline och i 100  skala.
 type: docs
-weight: 350
+weight: 380
 url: /sv/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}

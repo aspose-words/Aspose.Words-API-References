@@ -3,7 +3,7 @@ title: Document.JoinRunsWithSameFormatting
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Sammanfogar körningar med samma formatering i alla stycken i dokumentet.
 type: docs
-weight: 600
+weight: 640
 url: /sv/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method

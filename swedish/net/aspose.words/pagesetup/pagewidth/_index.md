@@ -3,7 +3,7 @@ title: PageSetup.PageWidth
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in sidans bredd i punkter.
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property

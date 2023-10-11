@@ -3,7 +3,7 @@ title: Interface IDocumentSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.IDocumentSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad när du sparar ett dokument.
 type: docs
-weight: 4890
+weight: 5150
 url: /sv/net/aspose.words.saving/idocumentsavingcallback/
 ---
 ## IDocumentSavingCallback interface

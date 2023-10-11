@@ -3,7 +3,7 @@ title: Document.RevisionsView
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den ursprungliga eller reviderade versionen av ett dokument.
 type: docs
-weight: 340
+weight: 360
 url: /sv/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property

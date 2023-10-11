@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.ListIndentation
 second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Hämtar ett ListIndentationobjekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det nollantal av tecknet 0 det betyder ingen indrag.
+description: TxtSaveOptions fast egendom. Får enTxtListIndentation objekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det noll antal tecken 0 det betyder ingen indrag.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-Hämtar ett ListIndentation-objekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det nollantal av tecknet '\0', det betyder ingen indrag.
+Får en[`TxtListIndentation`](../../txtlistindentation/) objekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det noll antal tecken '\0', det betyder ingen indrag.
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }

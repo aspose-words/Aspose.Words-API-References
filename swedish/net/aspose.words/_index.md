@@ -19,7 +19,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [BookmarkEnd](./bookmarkend/) | Representerar slutet av ett bokmärke i ett Word-dokument. |
 | [BookmarkStart](./bookmarkstart/) | Representerar början på ett bokmärke i ett Word-dokument. |
 | [Border](./border/) | Representerar en kant av ett objekt. |
-| [BorderCollection](./bordercollection/) | En samling gränsobjekt. |
+| [BorderCollection](./bordercollection/) | En samling av[`Border`](../aspose.words/border/) objekt. |
 | [BuildVersionInfo](./buildversioninfo/) | Ger information om aktuellt produktnamn och version. |
 | [CleanupOptions](./cleanupoptions/) | Tillåter att ange alternativ för dokumentrengöring. |
 | [ComHelper](./comhelper/) | Tillhandahåller metoder för COM-klienter att ladda ett dokument i Aspose.Words. |
@@ -46,7 +46,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [Font](./font/) | Innehåller teckensnittsattribut (teckensnittsnamn, teckenstorlek, färg och så vidare) för ett objekt. |
 | [FrameFormat](./frameformat/) | Representerar ramrelaterad formatering för ett stycke. |
 | [HeaderFooter](./headerfooter/) | Representerar en behållare för sidhuvudet eller sidfoten i ett avsnitt. |
-| [HeaderFooterCollection](./headerfootercollection/) | Ger maskinskriven åtkomst till[`HeaderFooter`](../aspose.words/headerfooter/) noder av en **Sektion** . |
+| [HeaderFooterCollection](./headerfootercollection/) | Ger maskinskriven åtkomst till[`HeaderFooter`](../aspose.words/headerfooter/) noder av en[`Section`](../aspose.words/section/) . |
 | [Hyphenation](./hyphenation/) | Tillhandahåller metoder för att arbeta med avstavningsordböcker. Dessa ordböcker föreskriver var ord på ett specifikt språk kan avstavas. |
 | [ImageWatermarkOptions](./imagewatermarkoptions/) | Innehåller alternativ som kan anges när du lägger till en vattenstämpel med bild. |
 | [ImportFormatOptions](./importformatoptions/) | Gör det möjligt att ange olika importalternativ för att formatera utdata. |
@@ -65,6 +65,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [Paragraph](./paragraph/) | Representerar ett textstycke. |
 | [ParagraphCollection](./paragraphcollection/) | Ger maskinskriven åtkomst till en samling av[`Paragraph`](../aspose.words/paragraph/) noder. |
 | [ParagraphFormat](./paragraphformat/) | Representerar all formatering för ett stycke. |
+| [PhoneticGuide](./phoneticguide/) | representerar fonetisk guide. |
 | [PlainTextDocument](./plaintextdocument/) | Tillåter att extrahera ren textrepresentation av dokumentets innehåll. |
 | [Range](./range/) | Representerar ett angränsande område i ett dokument. |
 | [Revision](./revision/) | Representerar en revision (spårad ändring) i en dokumentnod eller stil. Använd[`RevisionType`](../aspose.words/revision/revisiontype/) för att kontrollera typen av denna version. |
@@ -74,18 +75,18 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [Run](./run/) | Representerar en serie tecken med samma teckensnittsformatering. |
 | [RunCollection](./runcollection/) | Ger maskinskriven åtkomst till en samling av[`Run`](../aspose.words/run/) noder. |
 | [Section](./section/) | Representerar en enskild sektion i ett dokument. |
-| [SectionCollection](./sectioncollection/) | En samling av **Sektion** objekt i dokumentet. |
+| [SectionCollection](./sectioncollection/) | En samling av[`Section`](../aspose.words/section/) objekt i dokumentet. |
 | [Shading](./shading/) | Innehåller skuggningsattribut för ett objekt. |
 | [SignatureLineOptions](./signaturelineoptions/) | Tillåter att ange alternativ för signaturrad som infogas. Använd i[`DocumentBuilder`](../aspose.words/documentbuilder/) . |
 | [SpecialChar](./specialchar/) | Basklass för specialtecken i dokumentet. |
 | [Story](./story/) | Basklass för element som innehåller noder på blocknivå[`Paragraph`](../aspose.words/paragraph/) och[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Representerar en enda inbyggd eller användardefinierad stil. |
-| [StyleCollection](./stylecollection/) | En samling stilobjekt som representerar både de inbyggda och användardefinierade stilarna i ett dokument. |
+| [StyleCollection](./stylecollection/) | En samling av[`Style`](../aspose.words/style/) objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument. |
 | [SubDocument](./subdocument/) | Representerar en **Underdokument** - som är en referens till ett externt lagrat dokument. |
 | [TableStyle](./tablestyle/) | Representerar en tabellstil. |
-| [TabStop](./tabstop/) | Representerar ett enda anpassat tabbstopp. De **TabStop** objektet är en medlem av the [`TabStopCollection`](../aspose.words/tabstopcollection/) samling. |
-| [TabStopCollection](./tabstopcollection/) | En samling av[`TabStop`](../aspose.words/tabstop/)objekt som representerar anpassade flikar för ett stycke eller en stil. |
-| [TextColumn](./textcolumn/) | Representerar en enda textkolumn. **Textkolumn** är medlem i[`TextColumnCollection`](../aspose.words/textcolumncollection/) samling. Den **Textkolumner** samlingen innehåller alla kolumner i ett avsnitt av ett dokument. |
+| [TabStop](./tabstop/) | Representerar ett enda anpassat tabbstopp. De[`TabStop`](../aspose.words/tabstop/)objektet är en medlem av the [`TabStopCollection`](../aspose.words/tabstopcollection/) samling. |
+| [TabStopCollection](./tabstopcollection/) | En samling av[`TabStop`](../aspose.words/tabstop/) objekt som representerar anpassade flikar för ett stycke eller en stil. |
+| [TextColumn](./textcolumn/) | Representerar en enda textkolumn.[`TextColumn`](../aspose.words/textcolumn/) är medlem i[`TextColumnCollection`](../aspose.words/textcolumncollection/) samling. Den[`TextColumn`](../aspose.words/textcolumn/) samlingen innehåller alla kolumner i ett avsnitt av ett dokument. |
 | [TextColumnCollection](./textcolumncollection/) | En samling av[`TextColumn`](../aspose.words/textcolumn/) objekt som representerar alla textkolumner i en del av ett dokument. |
 | [TextWatermarkOptions](./textwatermarkoptions/) | Innehåller alternativ som kan anges när du lägger till en vattenstämpel med text. |
 | [UnsupportedFileFormatException](./unsupportedfileformatexception/) | Kastas under dokumentladdning, när dokumentformatet inte känns igen eller inte stöds av Aspose.Words. |
@@ -97,6 +98,8 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 
 | Gränssnitt | Beskrivning |
 | --- | --- |
+| [IDocumentConverterPlugin](./idocumentconverterplugin/) | Definierar ett gränssnitt för extern omvandlarplugin. |
+| [IDocumentMergerPlugin](./idocumentmergerplugin/) | Definierar ett gränssnitt för extern fusionsplugin som kan slå samman PDF-dokument. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Definierar ett gränssnitt för externa läsarplugin som kan läsa in en fil i ett dokument. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implementerat av klasser som kan registrera avstavningsordböcker. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implementera detta gränssnitt om du vill få meddelanden när noder infogas eller tas bort i dokumentet. |
@@ -105,6 +108,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 
 | Uppräkning | Beskrivning |
 | --- | --- |
+| [BaselineAlignment](./baselinealignment/) | Anger teckensnittens vertikala position på en linje. |
 | [BorderType](./bordertype/) | Anger sidor av en kantlinje. |
 | [BreakType](./breaktype/) | Anger typen av brytning i ett dokument. |
 | [CalendarType](./calendartype/) | Anger typen av en kalender. |
@@ -122,6 +126,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [LineSpacingRule](./linespacingrule/) | Anger radavståndsvärden för ett stycke. |
 | [LineStyle](./linestyle/) | Anger linjestil för en[`Border`](../aspose.words/border/) . |
 | [LoadFormat](./loadformat/) | Indikerar formatet på dokumentet som ska laddas. |
+| [Margins](./margins/) | Anger förinställda marginaler. |
 | [MeasurementUnits](./measurementunits/) | Anger måttenheten. |
 | [NodeChangingAction](./nodechangingaction/) | Anger typen av nodändring. |
 | [NodeType](./nodetype/) | Anger typen av en Word-dokumentnod. |
@@ -139,7 +144,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [SaveFormat](./saveformat/) | Indikerar formatet som dokumentet har sparats i. |
 | [SectionLayoutMode](./sectionlayoutmode/) | Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende. |
 | [SectionStart](./sectionstart/) | Typen av avbrott i början av avsnittet. |
-| [StoryType](./storytype/) | Text i ett Word-dokument lagras i berättelser. **StoryType** identifierar en berättelse. |
+| [StoryType](./storytype/) | Text i ett Word-dokument lagras i berättelser.[`StoryType`](../aspose.words/storytype/) identifierar en berättelse. |
 | [StyleIdentifier](./styleidentifier/) | Lokaloberoende stilidentifierare. |
 | [StyleType](./styletype/) | Representerar typ av stil. |
 | [TabAlignment](./tabalignment/) | Anger justeringen/typen av ett tabbstopp. |

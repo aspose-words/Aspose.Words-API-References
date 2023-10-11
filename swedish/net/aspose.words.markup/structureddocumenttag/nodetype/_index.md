@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Returnerar NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag fast egendom. ReturnerarStructuredDocumentTag .
 type: docs
 weight: 220
 url: /sv/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Returnerar **NodeType.StructuredDocumentTag** .
+ReturnerarStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

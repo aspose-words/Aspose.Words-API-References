@@ -3,7 +3,7 @@ title: Style.Font
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar teckenformateringen för stilen.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words/style/font/
 ---
 ## Style.Font property
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Anmärkningar
 
-För liststilar returnerar den här egenskapen null.
+För liststilar returnerar den här egenskapen`null`.
 
 ### Exempel
 
@@ -56,6 +56,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Omdefiniera stil automatiskt.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 

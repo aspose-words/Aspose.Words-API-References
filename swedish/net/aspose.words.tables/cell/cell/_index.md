@@ -1,14 +1,14 @@
 ---
 title: Cell.Cell
 second_title: Aspose.Words för .NET API Referens
-description: Cell byggare. Initierar en ny instans av Cell class.
+description: Cell byggare. Initierar en ny instans avCell class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-Initierar en ny instans av **Cell** class.
+Initierar en ny instans av[`Cell`](../) class.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -20,9 +20,9 @@ public Cell(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Cell** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Cell`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till **Cell** till dokumentet använd InsertAfter eller InsertBefore på raden där du vill infoga cellen.
+Att lägga till[`Cell`](../) till dokumentanvändningenNode) ellerNode) på raden där du vill infoga cellen.
 
 ### Exempel
 

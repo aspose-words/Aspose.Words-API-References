@@ -3,7 +3,7 @@ title: Enum HtmlControlType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.HtmlControlType uppräkning. Typ av dokumentnoder som representerar input och selectelement importerade från HTML.
 type: docs
-weight: 3410
+weight: 3610
 url: /sv/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration

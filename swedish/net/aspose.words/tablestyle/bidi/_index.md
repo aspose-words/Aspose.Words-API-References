@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Anmärkningar
 
-När **Sann**, är cellerna i rader utlagda från höger till vänster.
+När`Sann`, är cellerna i rader utlagda från höger till vänster.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

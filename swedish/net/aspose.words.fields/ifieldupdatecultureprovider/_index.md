@@ -3,7 +3,7 @@ title: Interface IFieldUpdateCultureProvider
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IFieldUpdateCultureProvider gränssnitt. När den är implementerad tillhandahåller enCultureInfo objekt som ska användas under uppdateringen av ett visst fält.
 type: docs
-weight: 2540
+weight: 2710
 url: /sv/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
@@ -18,14 +18,13 @@ public interface IFieldUpdateCultureProvider
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Returnerar enCultureInfo objekt som ska användas under fältets uppdatering. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering. |
 
 ### Exempel
 
 Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();

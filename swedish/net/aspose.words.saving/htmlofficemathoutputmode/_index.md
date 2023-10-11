@@ -3,7 +3,7 @@ title: Enum HtmlOfficeMathOutputMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HtmlOfficeMathOutputMode uppräkning. Anger hur Aspose.Words exporterar OfficeMath till HTML MHTML och EPUB.
 type: docs
-weight: 4840
+weight: 5100
 url: /sv/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration

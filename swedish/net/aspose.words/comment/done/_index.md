@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Infoga en kommentar för att påpeka ett fel. 
+ // Infoga en kommentar för att påpeka ett fel.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Kommentarer har en "Klar"-flagga, som är inställd på "false" som standard. 
+ // Kommentarer har en "Klar"-flagga, som är inställd på "false" som standard.
 // Om en kommentar antyder att vi gör en ändring i dokumentet,
 // vi kan tillämpa ändringen, och sedan även sätta flaggan "Klar" efteråt för att indikera korrigeringen.
 Assert.False(comment.Done);

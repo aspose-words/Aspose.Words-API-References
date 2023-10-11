@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.Encoding
 second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger kodningen som ska användas vid export till HTML MHTML eller EPUB. Standardvärdet ärny UTF8Encodingfalse UTF8 utan stycklista.
+description: HtmlSaveOptions fast egendom. Anger kodningen som ska användas vid export till HTML MHTML eller EPUB. Standardvärdet ärny UTF8 Encodingfalse UTF8 utan stycklista.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-Anger kodningen som ska användas vid export till HTML, MHTML eller EPUB. Standardvärdet är`ny UTF8Encoding(false)` (UTF-8 utan stycklista).
+Anger kodningen som ska användas vid export till HTML, MHTML eller EPUB. Standardvärdet är`ny UTF8 Encoding(false)` (UTF-8 utan stycklista).
 
 ```csharp
 public Encoding Encoding { get; set; }

@@ -3,12 +3,14 @@ title: Class FieldTC
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldTC klass. Implementerar TCfältet.
 type: docs
-weight: 2330
+weight: 2480
 url: /sv/net/aspose.words.fields/fieldtc/
 ---
 ## FieldTC class
 
 Implementerar TC-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public sealed class FieldTC : Field
@@ -33,7 +35,7 @@ public sealed class FieldTC : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [OmitPageNumber](../../aspose.words.fields/fieldtc/omitpagenumber/) { get; set; } | Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas för detta fält. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [Text](../../aspose.words.fields/fieldtc/text/) { get; set; } | Hämtar eller ställer in texten i posten. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -45,7 +47,7 @@ public sealed class FieldTC : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -59,6 +61,7 @@ Definierar texten och sidnumret för en innehållsförteckning (inklusive en fig
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -87,6 +90,7 @@ Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som 
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Använd en dokumentbyggare för att infoga ett TC-fält.

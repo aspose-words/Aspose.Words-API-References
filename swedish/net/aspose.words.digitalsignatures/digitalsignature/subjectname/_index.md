@@ -3,7 +3,7 @@ title: DigitalSignature.SubjectName
 second_title: Aspose.Words för .NET API Referens
 description: DigitalSignature fast egendom. Returnerar ämnets unika namn på certifikatet som användes för att signera dokumentet.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property

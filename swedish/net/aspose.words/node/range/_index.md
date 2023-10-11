@@ -1,14 +1,14 @@
 ---
 title: Node.Range
 second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Returnerar en Räckvidd objekt som representerar den del av ett dokument som finns i denna nod.
+description: Node fast egendom. Returnerar enRange objekt som representerar den del av ett dokument som finns i denna nod.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod.
+Returnerar en[`Range`](../../range/) objekt som representerar den del av ett dokument som finns i denna nod.
 
 ```csharp
 public Range Range { get; }

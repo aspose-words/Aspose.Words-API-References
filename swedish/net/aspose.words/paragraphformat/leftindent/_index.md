@@ -3,7 +3,7 @@ title: ParagraphFormat.LeftIndent
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i poäng som representerar vänster indrag för stycke.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property

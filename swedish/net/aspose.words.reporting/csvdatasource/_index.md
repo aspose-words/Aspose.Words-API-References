@@ -3,12 +3,14 @@ title: Class CsvDataSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Reporting.CsvDataSource klass. Ger tillgång till data från en CSVfil eller ström som ska användas i en rapport.
 type: docs
-weight: 4410
+weight: 4670
 url: /sv/net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class
 
 Ger tillgång till data från en CSV-fil eller ström som ska användas i en rapport.
+
+För att lära dig mer, besök[LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) dokumentationsartikel.
 
 ```csharp
 public class CsvDataSource
@@ -39,7 +41,7 @@ Datatyper av kommaseparerade värden bestäms automatiskt efter deras strängrep
 
 Observera att för att automatisk igenkänning av datatyper ska fungera bör strängrepresentationer av kommaseparerade värden bildas med invarianta kulturinställningar.
 
-För att åsidosätta standardbeteendet för CSV-dataladdning, initiera och skicka ett[`CsvDataLoadOptions`](../csvdataloadoptions/)instans till en konstruktor av denna klass.
+För att åsidosätta standardbeteendet för CSV-dataladdning, initiera och skicka ett[`CsvDataLoadOptions`](../csvdataloadoptions/) instans till en konstruktor av denna klass.
 
 ### Se även
 

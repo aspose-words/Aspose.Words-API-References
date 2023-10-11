@@ -18,7 +18,7 @@ public bool BehindText { get; set; }
 
 Har effekt endast för former på högsta nivå.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

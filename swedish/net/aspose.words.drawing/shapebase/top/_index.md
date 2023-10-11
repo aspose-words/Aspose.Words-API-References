@@ -3,7 +3,7 @@ title: ShapeBase.Top
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in positionen för den övre kanten av formens innehållsblock.
 type: docs
-weight: 500
+weight: 540
 url: /sv/net/aspose.words.drawing/shapebase/top/
 ---
 ## ShapeBase.Top property

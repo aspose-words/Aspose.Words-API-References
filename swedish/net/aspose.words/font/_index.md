@@ -3,12 +3,14 @@ title: Class Font
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Font klass. Innehåller teckensnittsattribut teckensnittsnamn teckenstorlek färg och så vidare för ett objekt.
 type: docs
-weight: 2650
+weight: 2830
 url: /sv/net/aspose.words/font/
 ---
 ## Font class
 
 Innehåller teckensnittsattribut (teckensnittsnamn, teckenstorlek, färg och så vidare) för ett objekt.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class Font
@@ -23,14 +25,14 @@ public class Font
 | [Bidi](../../aspose.words/font/bidi/) { get; set; } | Anger om innehållet i denna körning ska ha höger-till-vänster-egenskaper. |
 | [Bold](../../aspose.words/font/bold/) { get; set; } | Sant om teckensnittet är formaterat med fet stil. |
 | [BoldBi](../../aspose.words/font/boldbi/) { get; set; } | Sant om texten från höger till vänster är formaterad som fetstil. |
-| [Border](../../aspose.words/font/border/) { get; } | Returnerar ett Border-objekt som anger kant för teckensnittet. |
+| [Border](../../aspose.words/font/border/) { get; } | Returnerar en[`Border`](../border/) objekt som anger kant för teckensnittet. |
 | [Color](../../aspose.words/font/color/) { get; set; } | Hämtar eller ställer in färgen på teckensnittet. |
 | [ComplexScript](../../aspose.words/font/complexscript/) { get; set; } | Anger om innehållet i denna körning ska behandlas som komplex skripttext oavsett deras Unicode-teckenvärden när formateringen för denna körning bestäms. |
 | [DoubleStrikeThrough](../../aspose.words/font/doublestrikethrough/) { get; set; } | Sant om teckensnittet är formaterat som dubbel genomstruken text. |
 | [Emboss](../../aspose.words/font/emboss/) { get; set; } | True om teckensnittet är formaterat som relief. |
 | [EmphasisMark](../../aspose.words/font/emphasismark/) { get; set; } | Hämtar eller ställer in betoningen som appliceras på denna formatering. |
 | [Engrave](../../aspose.words/font/engrave/) { get; set; } | Sant om teckensnittet är formaterat som graverat. |
-| [Fill](../../aspose.words/font/fill/) { get; } | Får fyllningsformatering för teckensnittet. |
+| [Fill](../../aspose.words/font/fill/) { get; } | Får fyllningsformatering för`Font` . |
 | [Hidden](../../aspose.words/font/hidden/) { get; set; } | Sant om teckensnittet är formaterat som dold text. |
 | [HighlightColor](../../aspose.words/font/highlightcolor/) { get; set; } | Hämtar eller ställer in markeringsfärgen. |
 | [Italic](../../aspose.words/font/italic/) { get; set; } | Sant om teckensnittet är formaterat som kursivt. |
@@ -49,7 +51,7 @@ public class Font
 | [Outline](../../aspose.words/font/outline/) { get; set; } | Sant om teckensnittet är formaterat som kontur. |
 | [Position](../../aspose.words/font/position/) { get; set; } | Hämtar eller ställer in textens position (i punkter) i förhållande till baslinjen. Ett positivt tal höjer texten och ett negativt tal sänker den. |
 | [Scaling](../../aspose.words/font/scaling/) { get; set; } | Hämtar eller ställer in teckenbreddsskalning i procent. |
-| [Shading](../../aspose.words/font/shading/) { get; } | Returnerar ett Shading-objekt som refererar till skuggformateringen för teckensnittet. |
+| [Shading](../../aspose.words/font/shading/) { get; } | Returnerar en[`Shading`](../shading/) objekt som hänvisar till skuggformateringen för teckensnittet. |
 | [Shadow](../../aspose.words/font/shadow/) { get; set; } | Sant om teckensnittet är formaterat som skuggat. |
 | [Size](../../aspose.words/font/size/) { get; set; } | Hämtar eller ställer in teckenstorleken i poäng. |
 | [SizeBi](../../aspose.words/font/sizebi/) { get; set; } | Hämtar eller ställer in teckenstorleken i punkter som används i ett dokument från höger till vänster. |
@@ -63,12 +65,12 @@ public class Font
 | [Subscript](../../aspose.words/font/subscript/) { get; set; } | True om teckensnittet är formaterat som subscript. |
 | [Superscript](../../aspose.words/font/superscript/) { get; set; } | Sant om teckensnittet är formaterat som upphöjt. |
 | [TextEffect](../../aspose.words/font/texteffect/) { get; set; } | Får eller ställer in teckensnittsanimeringseffekten. |
-| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Font-objekt. |
-| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt. |
-| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Hämtar eller ställer in temateckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127) i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt. |
-| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta teckensnittsobjekt i ett dokument med höger till vänster språk. |
-| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt. |
-| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt. |
+| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta`Font` objekt. |
+| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta`Font` objekt. |
+| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Hämtar eller ställer in temateckensnittet som används för latinsk text (tecken med teckenkoder från 0 (noll) till 127) i det tillämpade teckensnittsschemat som är associerat med detta`Font` objekt. |
+| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta`Font` object i ett dokument på höger-till-vänster-språk. |
+| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta`Font` objekt. |
+| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med detta`Font` objekt. |
 | [TintAndShade](../../aspose.words/font/tintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare. |
 | [Underline](../../aspose.words/font/underline/) { get; set; } | Hämtar eller ställer in typen av understrykning som appliceras på teckensnittet. |
 | [UnderlineColor](../../aspose.words/font/underlinecolor/) { get; set; } | Hämtar eller ställer in färgen på understrykningen som appliceras på teckensnittet. |
@@ -82,7 +84,7 @@ public class Font
 
 ### Anmärkningar
 
-Du skapar inte instanser av`Font` klass direkt. Du använder bara `Font` för att komma åt teckensnittsegenskaperna för de olika objekten som t.ex[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Du skapar inte instanser av`Font`klass direkt. Du använder bara `Font` för att komma åt teckensnittsegenskaperna för de olika objekten som t.ex[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Exempel
 

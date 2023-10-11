@@ -17,7 +17,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Namnet på bildfilen. Om en fil med det angivna namnet redan finns, skrivs den befintliga filen över. |
-| saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara null. |
+| saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara`null`. |
 
 ### Exempel
 
@@ -58,7 +58,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Strömmen där bilden av formen ska sparas. |
-| saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara null. Om detta är null, kommer bilden att sparas i PNG-format. |
+| saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara`null` . Om detta är`null`, kommer bilden att sparas i PNG-format. |
 
 ### Exempel
 

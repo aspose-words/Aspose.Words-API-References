@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om informationen tur och retur ska skrivas när du sparar till HTML MHTML eller EPUB. Standardvärdet ärSann för HTML ochfalsk för MHTML och EPUB.
 type: docs
-weight: 250
+weight: 240
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property

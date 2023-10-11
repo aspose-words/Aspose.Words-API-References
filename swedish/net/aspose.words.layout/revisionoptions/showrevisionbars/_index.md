@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionBars
 second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är True.
+description: RevisionOptions fast egendom. Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet ärSann .
 type: docs
 weight: 180
 url: /sv/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är True.
+Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är`Sann` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }

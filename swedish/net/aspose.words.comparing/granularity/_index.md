@@ -3,7 +3,7 @@ title: Enum Granularity
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Comparing.Granularity uppräkning. Anger granulariteten för ändringar som ska spåras när två dokument jämförs.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration

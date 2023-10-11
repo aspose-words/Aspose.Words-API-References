@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelOffset
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller ställer in etiketternas avstånd från axeln.
 type: docs
-weight: 210
+weight: 230
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property

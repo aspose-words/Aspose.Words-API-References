@@ -3,7 +3,7 @@ title: Interface IMailMergeCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.IMailMergeCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden medan epostsammanslagning utförs.
 type: docs
-weight: 3580
+weight: 3800
 url: /sv/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface

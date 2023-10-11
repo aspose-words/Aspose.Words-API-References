@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseNonMergeFields
 second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. När sant anger det att utöver MERGEFIELDfält utförs epostsammankoppling till vissa andra typer av fält och även till fieldNametaggar.
+description: MailMerge fast egendom. NärSann  anger att förutom MERGEFIELDfält utförs epostsammankoppling till vissa andra typer av fält och även i fieldNametaggar.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
 ## MailMerge.UseNonMergeFields property
 
-När sant, anger det att utöver MERGEFIELD-fält utförs e-postsammankoppling till vissa andra typer av fält och även till "{{fieldName}}"-taggar.
+När`Sann` , anger att förutom MERGEFIELD-fält utförs e-postsammankoppling till vissa andra typer av fält och även i "{{fieldName}}"-taggar.
 
 ```csharp
 public bool UseNonMergeFields { get; set; }
@@ -18,7 +18,7 @@ public bool UseNonMergeFields { get; set; }
 
 Normalt utförs brevkoppling endast i MERGEFIELD-fält, men flera kunder hade sin reporting byggd med andra fält och hade många dokument skapade på detta sätt. För att förenkla migreringen (och eftersom detta tillvägagångssätt användes oberoende av flera kunder) introducerades möjligheten att sammanfoga e-post till andra fält.
 
-När **AnvändNonMergeFields** är satt till true, kommer Aspose.Words att utföra e-postsammanfogning i följande fält:
+När`UseNonMergeFields` är satt till`Sann`, kommer Aspose.Words att utföra e-postsammanfogning i följande fält:
 
 MERGEFIELD Fältnamn
 
@@ -26,7 +26,7 @@ MACROBUTTON NOMACRO Fältnamn
 
 OM 0 = 0 "{FieldName}" ""
 
-Även när **UserNonMergeFields** är satt till true, kommer Aspose.Words att utföra e-postsammanfogning till texttaggar "{{fieldName}}". Det här är inte fält, utan bara texttaggar.
+Även när`UseNonMergeFields` är satt till`Sann`, Aspose.Words kommer att utföra e-postsammanfogning till texttaggar "{{fieldName}}". Det här är inte fält, utan bara texttaggar.
 
 ### Exempel
 
@@ -38,7 +38,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-    // Som standard placerar en brevkoppling data från varje rad i en tabell i MERGEFIELDs, vilka namnger kolumner i den tabellen. 
+     // Som standard placerar en brevkoppling data från varje rad i en tabell i MERGEFIELDs, vilka namnger kolumner i den tabellen.
     // Vårt dokument har inga sådana fält, men det har klartext-taggar omgivna av hängslen.
     // Om vi ställer in flaggan "PreserveUnusedTags" till "true", kan vi behandla dessa taggar som MERGEFIELDs
     // för att tillåta vår e-postsammanfogning för att infoga data från datakällan vid dessa taggar.

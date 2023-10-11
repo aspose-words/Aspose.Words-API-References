@@ -3,7 +3,7 @@ title: Interface IFieldUserPromptRespondent
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IFieldUserPromptRespondent gränssnitt. Representerar respondenten för användarmeddelanden under fältuppdatering.
 type: docs
-weight: 2560
+weight: 2740
 url: /sv/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -18,7 +18,7 @@ public interface IFieldUserPromptRespondent
 
 | namn | Beskrivning |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras **null** för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras`null` för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret). |
 
 ### Anmärkningar
 
@@ -29,7 +29,6 @@ Fälten ASK och FILLIN är exempel på fält som ber användaren om något svar.
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -70,6 +69,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.

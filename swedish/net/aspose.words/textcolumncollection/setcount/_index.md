@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ### Anmärkningar
 
-När[`EvenlySpaced`](../evenlyspaced/) är **falsk** och du ökar antalet kolumner, new[`TextColumn`](../../textcolumn/) objekt skapas med noll bredd och mellanrum. Du måste ställa in bredd och avstånd för de nya kolumnerna.
+När[`EvenlySpaced`](../evenlyspaced/) är`falsk` och du ökar antalet kolumner, new[`TextColumn`](../../textcolumn/) objekt skapas med noll bredd och mellanrum. Du måste ställa in bredd och avstånd för de nya kolumnerna.
 
 ### Exempel
 

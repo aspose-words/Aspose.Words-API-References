@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar sant om markören är i början av det aktuella stycket ingen text före markören.
+description: DocumentBuilder fast egendom. ReturnerarSann om markören är i början av det aktuella stycket ingen text före markören.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-Returnerar sant om markören är i början av det aktuella stycket (ingen text före markören).
+Returnerar`Sann` om markören är i början av det aktuella stycket (ingen text före markören).
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }
@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);

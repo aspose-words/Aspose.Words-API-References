@@ -3,12 +3,14 @@ title: Class WarningInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WarningInfo klass. Innehåller information om en varning som Aspose.Words utfärdade när dokument laddades eller sparades.
 type: docs
-weight: 6320
+weight: 6630
 url: /sv/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 Innehåller information om en varning som Aspose.Words utfärdade när dokument laddades eller sparades.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class WarningInfo
@@ -31,7 +33,6 @@ Du skapar inte instanser av den här klassen. Objekt i denna klass skapas och sk
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -46,6 +47,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

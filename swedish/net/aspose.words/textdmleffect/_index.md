@@ -3,7 +3,7 @@ title: Enum TextDmlEffect
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TextDmlEffect uppräkning. Dmltexteffekt för textkörningar.
 type: docs
-weight: 6110
+weight: 6410
 url: /sv/net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration

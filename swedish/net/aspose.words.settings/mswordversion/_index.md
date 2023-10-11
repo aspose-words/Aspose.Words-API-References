@@ -3,7 +3,7 @@ title: Enum MsWordVersion
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MsWordVersion uppräkning. Tillåter Aspose.Wods att efterlikna MS Wordversionsspecifikt programbeteende.
 type: docs
-weight: 5560
+weight: 5860
 url: /sv/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration

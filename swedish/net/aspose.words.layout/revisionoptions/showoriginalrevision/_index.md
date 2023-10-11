@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
 second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är False.
+description: RevisionOptions fast egendom. Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet ärfalsk .
 type: docs
 weight: 170
 url: /sv/net/aspose.words.layout/revisionoptions/showoriginalrevision/
 ---
 ## RevisionOptions.ShowOriginalRevision property
 
-Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är False.
+Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowOriginalRevision { get; set; }
@@ -38,7 +38,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 // och dubbelt understruket blått vid den flyttade till revisionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Gör formatrevisioner i mörkrött och fetstil.

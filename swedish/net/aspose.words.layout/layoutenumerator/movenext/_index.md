@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveNext
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till nästa syskonenhet i visuell ordning. När rader i ett stycke uppdelade över sidor itereras kommer denna metod inte att flytta till nästa sida utan istället flyttas till nästa enhet på samma sida.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.layout/layoutenumerator/movenext/
 ---
 ## LayoutEnumerator.MoveNext method

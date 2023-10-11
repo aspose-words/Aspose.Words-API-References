@@ -3,12 +3,14 @@ title: Class VbaReferenceCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaReferenceCollection klass. Representerar en samling avVbaReference objekt.
 type: docs
-weight: 6290
+weight: 6600
 url: /sv/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
 Representerar en samling av[`VbaReference`](../vbareference/) objekt.
+
+För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -25,15 +27,14 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Tar bort den första förekomsten av ett angivet VbaReference-objekt från samlingen. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Tar bort VbaReference-elementet vid det angivna indexet för samlingen. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Tar bort den första förekomsten av en angiven[`VbaReference`](../vbareference/) föremål från samlingen. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Tar bort[`VbaReference`](../vbareference/) element vid det angivna indexet för samlingen. |
 
 ### Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens. 
+ /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

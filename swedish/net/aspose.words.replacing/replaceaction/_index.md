@@ -3,7 +3,7 @@ title: Enum ReplaceAction
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Replacing.ReplaceAction uppräkning. Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation.
 type: docs
-weight: 4380
+weight: 4640
 url: /sv/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -27,6 +27,7 @@ public enum ReplaceAction
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -36,6 +37,8 @@ Visar hur man infogar ett helt dokuments innehåll som ersättning för en match
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

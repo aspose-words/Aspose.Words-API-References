@@ -3,7 +3,7 @@ title: ShapeBase.WrapSide
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Anger hur texten lindas runt formen.
 type: docs
-weight: 530
+weight: 590
 url: /sv/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property

@@ -3,7 +3,7 @@ title: Style.NextParagraphStyleName
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property

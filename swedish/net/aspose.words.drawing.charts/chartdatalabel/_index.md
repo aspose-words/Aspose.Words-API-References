@@ -3,12 +3,14 @@ title: Class ChartDataLabel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartDataLabel klass. Representerar dataetikett på en diagrampunkt eller trendlinje.
 type: docs
-weight: 630
+weight: 670
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
 
 Representerar dataetikett på en diagrampunkt eller trendlinje.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartDataLabel
@@ -18,19 +20,21 @@ public class ChartDataLabel
 
 | namn | Beskrivning |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/chartdatalabel/font/) { get; } | Ger tillgång till teckensnittsformateringen för denna dataetikett. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabel/format/) { get; } | Ger tillgång till fyllnings- och radformatering av dataetiketten. |
 | [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Anger indexet för det innehållande elementet. Detta index ska avgöra vilken av förälderns barnsamling detta element gäller. Standardvärdet är 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är **falsk** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returnerar sant om denna dataetikett har något att visa. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är`falsk` . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returnerar`Sann` om denna dataetikett har något att visa. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Returnerar talformatet för det överordnade elementet. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Hämtar eller ställer in strängseparator som används för dataetiketterna i ett diagram. Standard är ett kommatecken, förutom för cirkeldiagram som endast visar kategorinamn och procent, då en radbrytning ska användas istället. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Gör det möjligt att ange om bubbelstorlek ska visas för dataetiketterna i ett diagram. Gäller endast för bubbeldiagram. Standardvärdet är falskt. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är falskt. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är falskt. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet är falskt. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sant för att visa serienamnet. Falskt att dölja. Som standard false. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna. Standardvärdet är falskt. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Gör det möjligt att ange om bubbelstorlek ska visas för dataetiketterna i ett diagram. Gäller endast för bubbeldiagram. Standardvärdet är`falsk` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet är`falsk` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är`falsk` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är`falsk` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet är`falsk` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet är`falsk` . |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna. Standardvärdet är`falsk` . |
 
 ## Metoder
 
@@ -47,6 +51,7 @@ På en serie`ChartDataLabel` objektet är medlem i[`ChartDataLabelCollection`](.
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

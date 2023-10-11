@@ -35,7 +35,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Det här är texten vi får när vi matar ut den här noden till textformat.
-    // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering. 
+     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 

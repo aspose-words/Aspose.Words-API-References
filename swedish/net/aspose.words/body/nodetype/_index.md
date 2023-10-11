@@ -1,14 +1,14 @@
 ---
 title: Body.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Body fast egendom. Returnerar NodeType.Body .
+description: Body fast egendom. ReturnerarBody .
 type: docs
 weight: 20
 url: /sv/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-Returnerar **NodeType.Body** .
+ReturnerarBody .
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -3,7 +3,7 @@ title: PdfSaveOptions.InterpolateImages
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. En flagga som indikerar om bildinterpolation ska utföras av en överensstämmande läsare. Närfalsk anges skrivs inte flaggan till utdatadokumentet och standardbeteendet för läsaren används istället.
 type: docs
-weight: 180
+weight: 210
 url: /sv/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
 ---
 ## PdfSaveOptions.InterpolateImages property

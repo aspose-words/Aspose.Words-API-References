@@ -3,12 +3,14 @@ title: Class WriteProtection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.WriteProtection klass. Anger skrivskyddsinställningar för ett dokument.
 type: docs
-weight: 5670
+weight: 5970
 url: /sv/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
 
 Anger skrivskyddsinställningar för ett dokument.
+
+För att lära dig mer, besök[Skydda eller kryptera ett dokument](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) dokumentationsartikel.
 
 ```csharp
 public class WriteProtection
@@ -18,7 +20,7 @@ public class WriteProtection
 
 | namn | Beskrivning |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returnerar sant när ett skrivskyddslösenord är inställt. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returnerar`Sann` när ett skrivskyddslösenord är inställt. |
 | [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Anger om dokumentförfattaren har rekommenderat att dokumentet öppnas som skrivskyddat. |
 
 ## Metoder
@@ -26,7 +28,7 @@ public class WriteProtection
 | namn | Beskrivning |
 | --- | --- |
 | [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Ställer in skrivskyddslösenordet för dokumentet. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returnerar sant om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras false. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returnerar`Sann` om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras`falsk` . |
 
 ### Anmärkningar
 
@@ -44,7 +46,6 @@ Visar hur man skyddar ett dokument med ett lösenord.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Ange ett lösenord på upp till 15 tecken och verifiera sedan dokumentets skyddsstatus.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;

@@ -18,7 +18,7 @@ public string AttachedTemplate { get; set; }
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar om du försöker ställa in ett nollvärde. |
+| ArgumentNullException | Kastar om du försöker ställa in till a`null` värde. |
 
 ### Anmärkningar
 

@@ -1,14 +1,14 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Hämtar eller ställer in färgen som appliceras på förgrunden av Shadingobjektet.
+description: Shading fast egendom. Hämtar eller ställer in färgen som appliceras på förgrunden avShading objekt.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Hämtar eller ställer in färgen som appliceras på förgrunden av Shading-objektet.
+Hämtar eller ställer in färgen som appliceras på förgrunden av[`Shading`](../) objekt.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }

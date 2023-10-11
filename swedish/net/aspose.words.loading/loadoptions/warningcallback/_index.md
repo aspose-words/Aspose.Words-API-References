@@ -19,6 +19,7 @@ public IWarningCallback WarningCallback { get; set; }
 Visar hur man skriver ut och lagrar varningar som uppstår när dokument laddas.
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
     // Skapa ett nytt LoadOptions-objekt och ställ in dess WarningCallback-attribut
     // som en instans av vår IWarningCallback-implementering.
@@ -30,6 +31,7 @@ Visar hur man skriver ut och lagrar varningar som uppstår när dokument laddas.
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
 /// IWarningCallback som skriver ut varningar och deras detaljer när de uppstår under dokumentladdning.

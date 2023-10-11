@@ -23,17 +23,15 @@ public void Insert(int index, Node node)
 
 | undantag | skick |
 | --- | --- |
-| NotSupportedException | De **NodeCollection** är en "djup" samling. |
+| NotSupportedException | De[`NodeCollection`](../) är en "djup" samling. |
 
 ### Anmärkningar
 
 Noden infogas som ett underordnat objekt i nodobjektet från vilket samlingen skapades.
 
-Om indexet är lika med eller större än Count läggs noden till i slutet av samlingen.
+Om indexet är lika med eller större än[`Count`](../count/), läggs noden till i slutet av samlingen.
 
-Om indexet är negativt och dess absoluta värde är större än Count, läggs noden till i slutet av samlingen.
-
-Om det nya barnet redan finns i trädet tas det först bort.
+Om indexet är negativt och dess absoluta värde är större än[`Count`](../count/), läggs noden till i slutet av samlingen.
 
 Om noden som infogas skapades från ett annat dokument bör du använda [`ImportNode`](../../documentbase/importnode/) för att importera noden till det aktuella dokumentet. Den importerade noden kan sedan infogas i det aktuella dokumentet.
 

@@ -3,7 +3,7 @@ title: ShapeBase.IsInsertRevision
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property

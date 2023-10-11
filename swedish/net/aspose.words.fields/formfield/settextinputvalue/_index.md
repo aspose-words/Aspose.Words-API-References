@@ -16,11 +16,11 @@ public void SetTextInputValue(object newValue)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| newValue | Object | Kan vara en sträng, ett nummer eller ett DateTime-objekt. |
+| newValue | Object | Kan vara en sträng, nummer eller en **Datum Tid** objekt. |
 
 ### Anmärkningar
 
-De[`TextInputDefault`](../textinputdefault/) värde tillämpas om*newValue* är`null`.
+De[`TextInputDefault`](../textinputdefault/)värde tillämpas om*newValue* är`null`.
 
 ### Exempel
 
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

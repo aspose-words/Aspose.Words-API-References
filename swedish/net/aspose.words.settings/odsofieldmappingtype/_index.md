@@ -3,7 +3,7 @@ title: Enum OdsoFieldMappingType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.OdsoFieldMappingType uppräkning. Anger möjliga typer som används för att indikera om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan.
 type: docs
-weight: 5620
+weight: 5920
 url: /sv/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration

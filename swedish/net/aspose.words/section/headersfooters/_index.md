@@ -53,7 +53,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-      // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
+     // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

@@ -1,14 +1,14 @@
 ---
 title: VbaProject.IsSigned
 second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Visar om VbaProject är signerat eller inte.
+description: VbaProject fast egendom. Visar omVbaProject är signerad eller inte.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.vba/vbaproject/issigned/
 ---
 ## VbaProject.IsSigned property
 
-Visar om VbaProject är signerat eller inte.
+Visar om[`VbaProject`](../) är signerad eller inte.
 
 ```csharp
 public bool IsSigned { get; }
@@ -23,6 +23,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

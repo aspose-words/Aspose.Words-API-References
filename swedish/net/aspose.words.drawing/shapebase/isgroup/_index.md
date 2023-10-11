@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om detta är en gruppform.
+description: ShapeBase fast egendom. ReturnerarSann om detta är en gruppform.
 type: docs
-weight: 250
+weight: 260
 url: /sv/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Returnerar sant om detta är en gruppform.
+Returnerar`Sann` om detta är en gruppform.
 
 ```csharp
 public bool IsGroup { get; }

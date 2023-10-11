@@ -26,7 +26,7 @@ Den klonade noden.
 
 Denna metod fungerar som en kopieringskonstruktor för noder. Den klonade noden har ingen förälder, men tillhör samma dokument som den ursprungliga noden.
 
-Denna metod utför alltid en djup kopia av noden. Deär CloneChildren parameter anger om alla underordnade noder ska kopieras också.
+Denna metod utför alltid en djup kopia av noden. De*isCloneChildren* parameter anger om alla underordnade noder ska kopieras också.
 
 ### Exempel
 

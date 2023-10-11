@@ -3,7 +3,7 @@ title: Chart.AxisX
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till egenskaperna för Xaxeln i diagrammet.
 type: docs
-weight: 10
+weight: 20
 url: /sv/net/aspose.words.drawing.charts/chart/axisx/
 ---
 ## Chart.AxisX property

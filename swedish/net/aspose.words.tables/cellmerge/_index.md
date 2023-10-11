@@ -3,7 +3,7 @@ title: Enum CellMerge
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.CellMerge uppräkning. Anger hur en cell i en tabell slås samman med andra celler.
 type: docs
-weight: 5970
+weight: 6270
 url: /sv/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -102,7 +102,7 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Infoga en cell i den första kolumnen på den andra raden. 
+ // Infoga en cell i den första kolumnen på den andra raden.
 // Istället för att lägga till textinnehåll kommer vi att slå samman denna cell med den första cellen som vi lade till direkt ovanför.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;

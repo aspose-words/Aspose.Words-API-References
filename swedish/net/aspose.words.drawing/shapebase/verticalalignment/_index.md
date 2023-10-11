@@ -3,7 +3,7 @@ title: ShapeBase.VerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Anger hur formen är placerad vertikalt.
 type: docs
-weight: 510
+weight: 560
 url: /sv/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property

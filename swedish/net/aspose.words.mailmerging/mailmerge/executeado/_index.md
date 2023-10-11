@@ -24,7 +24,7 @@ Den här metoden är användbar när du tänker använda Aspose.Words-klasserna 
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-För mer information se beskrivning av MailMerge.Execute(DataTable).
+För mer information se beskrivning av[`Execute`](../execute/).
 
 ### Exempel
 
@@ -63,7 +63,7 @@ public void ExecuteADO()
 
     // Skapa en anslutningssträng som pekar på databasfilen "Northwind".
     // i vårt lokala filsystem och öppna en anslutning.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
     // Fyll i vår datauppsättning genom att köra ett SQL-kommando på vår databas.

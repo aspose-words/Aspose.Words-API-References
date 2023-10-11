@@ -26,7 +26,7 @@ FontSettings fontSettings = new FontSettings();
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
-  // Observera att de fördefinierade inställningarna endast använder Sans-stil Noto-teckensnitt med normal vikt.
+ // Observera att de fördefinierade inställningarna endast använder Sans-stil Noto-teckensnitt med normal vikt.
 // Vissa av Noto-teckensnitten använder avancerade typografifunktioner.
 // Teckensnitt med avancerad typografi kanske inte renderas korrekt eftersom Aspose.Words för närvarande inte stöder dem.
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();

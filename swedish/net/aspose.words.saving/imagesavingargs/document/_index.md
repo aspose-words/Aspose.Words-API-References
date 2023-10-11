@@ -19,6 +19,7 @@ public Document Document { get; }
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

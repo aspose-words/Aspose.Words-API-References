@@ -3,7 +3,7 @@ title: Enum FootnoteType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Notes.FootnoteType uppräkning. Anger om detta är en fotnot eller en slutnot.
 type: docs
-weight: 4060
+weight: 4300
 url: /sv/net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration
@@ -71,7 +71,7 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // Detta är den första fotnoten, så referensmärket blir "1".
 Assert.True(footnote.IsAuto);
 
-// Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext. 
+ // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();

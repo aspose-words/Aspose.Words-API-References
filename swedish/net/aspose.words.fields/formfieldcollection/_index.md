@@ -1,14 +1,16 @@
 ---
 title: Class FormFieldCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FormFieldCollection klass. En samling av FormField objekt som representerar alla formulärfält i ett intervall.
+description: Aspose.Words.Fields.FormFieldCollection klass. En samling avFormField objekt som representerar alla formulärfält i ett intervall.
 type: docs
-weight: 2470
+weight: 2630
 url: /sv/net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
-En samling av **FormField** objekt som representerar alla formulärfält i ett intervall.
+En samling av[`FormField`](../formfield/) objekt som representerar alla formulärfält i ett intervall.
+
+För att lära dig mer, besök[Arbeta med formulärfält](https://docs.aspose.com/words/net/working-with-form-fields/) dokumentationsartikel.
 
 ```csharp
 public class FormFieldCollection : IEnumerable<FormField>
@@ -101,7 +103,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeChangingAction uppräkning. Anger typen av nodändring.
 type: docs
-weight: 3940
+weight: 4180
 url: /sv/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -26,6 +26,7 @@ public enum NodeChangingAction
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

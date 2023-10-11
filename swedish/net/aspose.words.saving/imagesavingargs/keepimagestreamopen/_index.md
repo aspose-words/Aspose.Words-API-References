@@ -23,6 +23,7 @@ Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`Im
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

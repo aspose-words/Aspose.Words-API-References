@@ -3,12 +3,14 @@ title: Enum ResourceLoadingAction
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.ResourceLoadingAction uppräkning. Anger läget för resursladdning.
 type: docs
-weight: 3480
+weight: 3680
 url: /sv/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
 Anger läget för resursladdning.
+
+För att lära dig mer, besök[Ange laddningsalternativ](https://docs.aspose.com/words/net/specify-load-options/) dokumentationsartikel.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -27,6 +29,7 @@ public enum ResourceLoadingAction
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -42,6 +45,7 @@ Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.

@@ -10,9 +10,9 @@ url: /sv/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras.
 
-Implementation bör hitta en ordbok och registrera den med hjälp av[`RegisterDictionary`](../../hyphenation/registerdictionary/)metoder.
+Implementation bör hitta en ordbok och registrera den med hjälp av[`RegisterDictionary`](../../hyphenation/registerdictionary/) metoder.
 
-Om ordboken inte är tillgänglig för den angivna språkimplementeringen kan du välja bort ytterligare anrop för samma språk med[`RegisterDictionary`](../../hyphenation/registerdictionary/) med nollvärde.
+Om ordboken inte är tillgänglig för den angivna språkimplementeringen kan du välja bort ytterligare anrop för samma språk med[`RegisterDictionary`](../../hyphenation/registerdictionary/) med`null` värde.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -31,6 +31,7 @@ Undantag som skapas av denna metod kommer att avbryta exekvering av sidlayoutpro
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

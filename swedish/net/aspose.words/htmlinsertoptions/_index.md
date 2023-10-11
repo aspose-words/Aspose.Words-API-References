@@ -3,7 +3,7 @@ title: Enum HtmlInsertOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.HtmlInsertOptions uppräkning. Anger alternativ förInsertHtml metod.
 type: docs
-weight: 2960
+weight: 3140
 url: /sv/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
@@ -23,6 +23,29 @@ public enum HtmlInsertOptions
 | UseBuilderFormatting | `1` | Använd teckensnitt och styckeformatering som anges i[`DocumentBuilder`](../documentbuilder/) som basformatering för text infogat från HTML. |
 | RemoveLastEmptyParagraph | `2` | Ta bort det tomma stycket som normalt infogas efter HTML som slutar med ett element på blocknivå. |
 | PreserveBlocks | `4` | Bevara egenskaperna för element på blocknivå. |
+
+### Exempel
+
+Visar hur man gör det möjligt att bättre bevara kanter och marginaler.
+
+```csharp
+const string html = @"
+    <html>
+        <div style='border:dotted'>
+        <div style='border:solid'>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+        </div>
+        </div>
+    </html>";
+
+// Ställ in det nya läget för import av HTML-element på blocknivå.
+HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
+
+DocumentBuilder builder = new DocumentBuilder();
+builder.InsertHtml(html, insertOptions);
+builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
+```
 
 ### Se även
 

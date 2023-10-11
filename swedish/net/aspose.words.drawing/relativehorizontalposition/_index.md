@@ -3,7 +3,7 @@ title: Enum RelativeHorizontalPosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.RelativeHorizontalPosition uppräkning. Anger vad den horisontella positionen för en form eller textram är relativ.
 type: docs
-weight: 1060
+weight: 1190
 url: /sv/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration

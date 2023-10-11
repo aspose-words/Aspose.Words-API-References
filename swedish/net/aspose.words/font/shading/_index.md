@@ -1,14 +1,14 @@
 ---
 title: Font.Shading
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar ett Shadingobjekt som refererar till skuggformateringen för teckensnittet.
+description: Font fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för teckensnittet.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Returnerar ett Shading-objekt som refererar till skuggformateringen för teckensnittet.
+Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggformateringen för teckensnittet.
 
 ```csharp
 public Shading Shading { get; }

@@ -1,14 +1,14 @@
 ---
 title: Document.FieldOptions
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Får en Fältalternativobjekt som representerar alternativ för att styra fälthanteringen i dokumentet.
+description: Document fast egendom. Får enFieldOptions objekt som representerar alternativ för att styra fälthanteringen i dokumentet.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/document/fieldoptions/
 ---
 ## Document.FieldOptions property
 
-Får en **Fältalternativ**objekt som representerar alternativ för att styra fälthanteringen i dokumentet.
+Får en[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) objekt som representerar alternativ för att styra fälthanteringen i dokumentet.
 
 ```csharp
 public FieldOptions FieldOptions { get; }

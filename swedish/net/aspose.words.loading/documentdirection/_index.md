@@ -3,7 +3,7 @@ title: Enum DocumentDirection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.DocumentDirection uppräkning. Gör det möjligt att ange riktningen för att flöda texten i ett dokument.
 type: docs
-weight: 3380
+weight: 3580
 url: /sv/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration

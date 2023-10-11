@@ -3,7 +3,7 @@ title: Run.Accept
 second_title: Aspose.Words för .NET API Referens
 description: Run metod. Accepterar en besökare.
 type: docs
-weight: 40
+weight: 60
 url: /sv/net/aspose.words/run/accept/
 ---
 ## Run.Accept method
@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Falskt om besökaren begärde att uppräkningen skulle sluta.
+`falsk` om besökaren begärde att uppräkningen skulle sluta.
 
 ### Anmärkningar
 
-Anropar DocumentVisitor.VisitRun.
+Samtal[`VisitRun`](../../documentvisitor/visitrun/).
 
 För mer information se Visitor design mönster.
 

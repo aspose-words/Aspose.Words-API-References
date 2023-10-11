@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Anmärkningar
 
-Har effekt endast när[`EvenlySpaced`](../evenlyspaced/) är satt till **Sann**.
+Har effekt endast när[`EvenlySpaced`](../evenlyspaced/) är satt till`Sann`.
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket i Sidhuvud huvudtextberättelse av en Sektion  falskt annars.
+description: Paragraph fast egendom. Sant om detta stycke är det sista stycket iHeaderFooter huvudtextberättelse av enSection  falskt annars.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-Sant om detta stycke är det sista stycket i **Sidhuvud** (huvudtextberättelse) av en **Sektion** ; falskt annars.
+Sant om detta stycke är det sista stycket i[`HeaderFooter`](../../headerfooter/) (huvudtextberättelse) av en[`Section`](../../section/) ; falskt annars.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }

@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.MemoryOptimization
 second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in värde som avgör om minnesoptimering ska utföras innan dokumentet sparas. Standardvärdet för den här egenskapen är falsk .
+description: SaveOptions fast egendom. Hämtar eller ställer in värde som avgör om minnesoptimering ska utföras innan dokumentet sparas. Standardvärdet för den här egenskapen ärfalsk .
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-Hämtar eller ställer in värde som avgör om minnesoptimering ska utföras innan dokumentet sparas. Standardvärdet för den här egenskapen är **falsk** .
+Hämtar eller ställer in värde som avgör om minnesoptimering ska utföras innan dokumentet sparas. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,7 +16,7 @@ public bool MemoryOptimization { get; set; }
 
 ### Anmärkningar
 
-Om du ställer in det här alternativet till sant kan det minska minnesförbrukningen avsevärt samtidigt som stora dokument sparas till priset av långsammare spartid.
+Ställer in detta alternativ till`Sann` kan minska minnesförbrukningen avsevärt samtidigt som stora dokument sparas till priset av långsammare spartid.
 
 ### Exempel
 

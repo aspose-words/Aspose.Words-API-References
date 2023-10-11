@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
 second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är false.
+description: FindReplaceOptions fast egendom. True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet ärfalsk .
 type: docs
-weight: 150
+weight: 170
 url: /sv/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är false.
+True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är`falsk` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -19,8 +19,6 @@ public bool UseLegacyOrder { get; set; }
 Visar hur du ändrar sökordningen för noder när du utför en sök-och-ersätt textoperation.
 
 ```csharp
-[TestCase(true)] // ExSkip
-[TestCase(false)] // ExSkip
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();

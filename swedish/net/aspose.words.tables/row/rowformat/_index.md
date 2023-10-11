@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Aspose.Words för .NET API Referens
 description: Row fast egendom. Ger tillgång till formateringsegenskaperna för raden.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property

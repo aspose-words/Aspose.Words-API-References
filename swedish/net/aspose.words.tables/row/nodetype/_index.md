@@ -1,14 +1,14 @@
 ---
 title: Row.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar NodeType.Row .
+description: Row fast egendom. ReturnerarRow .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.tables/row/nodetype/
 ---
 ## Row.NodeType property
 
-Returnerar **NodeType.Row** .
+ReturnerarRow .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

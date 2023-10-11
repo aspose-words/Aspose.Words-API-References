@@ -1,17 +1,17 @@
 ---
 title: OleControl.IsForms2OleControl
 second_title: Aspose.Words för .NET API Referens
-description: OleControl fast egendom. Returnerar sant om kontrollen är enForms2OleControl .
+description: OleControl fast egendom. ReturnerarSann om kontrollen är enForms2OleControl .
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-Returnerar sant om kontrollen är en[`Forms2OleControl`](../../forms2olecontrol/) .
+Returnerar`Sann` om kontrollen är en[`Forms2OleControl`](../../forms2olecontrol/) .
 
 ```csharp
-public virtual bool IsForms2OleControl { get; }
+public bool IsForms2OleControl { get; }
 ```
 
 ### Exempel
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Observera att du inte kan ställa in GroupName för en ram.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 second_title: Aspose.Words för .NET API Referens
 description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor ska slås samman med omgivande listor. Standardvärdet ärfalsk .
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property

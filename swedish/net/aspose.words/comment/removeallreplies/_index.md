@@ -3,7 +3,7 @@ title: Comment.RemoveAllReplies
 second_title: Aspose.Words för .NET API Referens
 description: Comment metod. Tar bort alla svar på den här kommentaren.
 type: docs
-weight: 130
+weight: 160
 url: /sv/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method

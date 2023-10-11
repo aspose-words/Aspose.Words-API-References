@@ -3,12 +3,14 @@ title: Class WebExtensionBindingCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionBindingCollection klass. Anger en lista över webbtilläggsbindningar.
 type: docs
-weight: 6450
+weight: 6760
 url: /sv/net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class
 
 Anger en lista över webbtilläggsbindningar.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExtensionBinding>

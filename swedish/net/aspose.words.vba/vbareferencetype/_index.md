@@ -3,7 +3,7 @@ title: Enum VbaReferenceType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaReferenceType uppräkning. Tillåter att ange typen av aVbaReference objekt.
 type: docs
-weight: 6300
+weight: 6610
 url: /sv/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
@@ -28,7 +28,6 @@ public enum VbaReferenceType
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens. 
+ /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

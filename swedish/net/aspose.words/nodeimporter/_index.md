@@ -3,12 +3,14 @@ title: Class NodeImporter
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeImporter klass. Gör det möjligt att effektivt utföra upprepad import av noder från ett dokument till ett annat.
 type: docs
-weight: 3970
+weight: 4210
 url: /sv/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
 Gör det möjligt att effektivt utföra upprepad import av noder från ett dokument till ett annat.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeImporter
@@ -37,7 +39,7 @@ Men när du behöver importera noder från ett dokument till ett annat flera gå
 
 Att kopiera eller flytta fragment från ett Microsoft Word-dokument till ett annat innebär ett antal tekniska utmaningar för Aspose.Words. I ett Word-dokument lagras stilar och listformatering centralt, separat från dokumentets text. Paragraferna och textserierna refererar bara till stilarna med interna unika identifierare.
 
-Utmaningarna beror på att stilar och listor är olika i olika dokument. För att till exempel kopiera ett stycke formaterat med stilen Rubrik 1 från ett dokument till ett annat måste ta hänsyn till ett antal saker: besluta om du ska kopiera stilen Rubrik 1 från källdokumentet till måldokumentet, klona stycket, uppdatera stycket cloned så att det hänvisar till rätt rubrik 1-format i måldokumentet. Om stilen var tvungen att kopieras, alla stilar som den referenser (baserat på stil och nästa styckestil) bör analyseras och eventuellt kopieras också och så vidare. Liknande problem finns vid kopiering av punkt- eller numrerade stycken eftersom Microsoft Word lagrar listdefinitioner separat från text.
+Utmaningarna uppstår från det faktum att stilar och listor är olika i olika dokument. För att till exempel kopiera ett stycke formaterat med stilen Rubrik 1 från ett dokument till ett annat måste ta hänsyn till ett antal saker: besluta om du ska kopiera stilen Rubrik 1 från källdokumentet till måldokumentet, klona stycket, uppdatera stycket cloned så att det hänvisar till den korrekta stilen Rubrik 1 i måldokumentet. Om stilen var tvungen att kopieras, alla stilar som den referenser (baserat på stil och nästa styckestil) bör analyseras och eventuellt kopieras också och så vidare. Liknande problem finns vid kopiering av punkt- eller numrerade stycken eftersom Microsoft Word lagrar listdefinitioner separat från text.
 
 De`NodeImporter`klass är som ett sammanhang, som innehåller "översättningstabellerna" under importen. Den översätter korrekt mellan stilar och listor i käll- och -destinationsdokumenten.
 
@@ -46,7 +48,6 @@ De`NodeImporter`klass är som ett sammanhang, som innehåller "översättningsta
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();

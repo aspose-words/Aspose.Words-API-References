@@ -3,12 +3,14 @@ title: Class FieldSeq
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldSeq klass. Implementerar SEQfältet.
 type: docs
-weight: 2240
+weight: 2390
 url: /sv/net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class
 
 Implementerar SEQ-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldSeq : Field
@@ -35,7 +37,7 @@ public class FieldSeq : Field
 | [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel/) { get; set; } | Hämtar eller ställer in ett heltal som representerar en rubriknivå för att återställa sekvensnumret till. Returnerar -1 om talet saknas. |
 | [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber/) { get; set; } | Hämtar eller ställer in ett heltal att återställa sekvensnumret till. Returnerar -1 om numret saknas. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [SequenceIdentifier](../../aspose.words.fields/fieldseq/sequenceidentifier/) { get; set; } | Hämtar eller ställer in namnet som tilldelas serien av objekt som ska numreras. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -46,7 +48,7 @@ public class FieldSeq : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -164,7 +166,7 @@ fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "OtherSequence";
 builder.Writeln(", will not show up in the TOC because it's from a different sequence identifier.");
 
-// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och är inom bokmärkets gränser.
+// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och ligger inom bokmärkets gränser.
 // Detta fält refererar också till ett annat bokmärke. Innehållet i det bokmärket kommer att visas i TOC-posten för detta SEQ-fält.
 // Själva SEQ-fältet visar inte innehållet i det bokmärket.
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -205,7 +207,7 @@ FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Vi kan namnge en annan SEQ-fältsekvens i egenskapen "PrefixedSequenceIdentifier".
-  // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
+ // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
 // Varje TOC-post som skapas från ett SEQ-fält i huvudsekvensen kommer nu också att visa antalet som
 // Prefixsekvensen är för närvarande på i det primära sekvens SEQ-fältet som gjorde inmatningen.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";

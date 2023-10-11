@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Aspose.Words för .NET API Referens
-description: Comment byggare. Initierar en ny instans av Kommentar class.
+description: Comment byggare. Initierar en ny instans avComment class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-Initierar en ny instans av **Kommentar** class.
+Initierar en ny instans av[`Comment`](../) class.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -20,9 +20,9 @@ public Comment(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Kommentar** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Comment`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Kommentar** till dokumentet använd InsertAfter eller InsertBefore på stycket där du vill infoga kommentaren.
+Att lägga till[`Comment`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att kommentaren ska infogas.
 
 När du har skapat en kommentar, glöm inte att ställa in den[`Author`](../author/) , [`Initial`](../initial/) och[`DateTime`](../datetime/) egenskaper.
 
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-Initierar en ny instans av **Kommentar** class.
+Initierar en ny instans av[`Comment`](../) class.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -204,8 +204,8 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
-| author | String | Författarnamnet för kommentaren. Kan inte vara null. |
-| initial | String | Författaren initialer för kommentaren. Kan inte vara null. |
+| author | String | Författarnamnet för kommentaren. Kan inte vara`null`. |
+| initial | String | Författaren initialer för kommentaren. Kan inte vara`null`. |
 | dateTime | DateTime | Datum och tid för kommentaren. |
 
 ### Exempel
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// I Microsoft Word kan vi högerklicka på den här kommentaren i dokumentets brödtext för att redigera den eller svara på den. 
+ // I Microsoft Word kan vi högerklicka på den här kommentaren i dokumentets brödtext för att redigera den eller svara på den.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

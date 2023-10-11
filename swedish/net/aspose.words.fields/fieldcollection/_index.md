@@ -3,12 +3,14 @@ title: Class FieldCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldCollection klass. En samling avField objekt som representerar fälten i det angivna intervallet.
 type: docs
-weight: 1540
+weight: 1690
 url: /sv/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 En samling av[`Field`](../field/) objekt som representerar fälten i det angivna intervallet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -80,6 +82,7 @@ Assert.AreEqual(0, fields.Count);
 Visar hur man arbetar med en samling fält.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -118,6 +121,7 @@ Visar hur man arbetar med en samling fält.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Dokumentbesökarimplementering som skriver ut fältinformation.

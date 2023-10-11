@@ -3,7 +3,7 @@ title: Enum ShapeType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ShapeType uppräkning. Anger typen av form i ett Microsoft Worddokument.
 type: docs
-weight: 1140
+weight: 1290
 url: /sv/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration

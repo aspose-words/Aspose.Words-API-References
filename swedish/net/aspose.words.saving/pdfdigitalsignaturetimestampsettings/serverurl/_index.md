@@ -16,7 +16,7 @@ public string ServerUrl { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är null. Om null, kommer den digitala signaturen inte att tidsstämplas.
+Standardvärdet är`null` . Om`null` , då kommer den digitala signaturen inte att tidsstämplas.
 
 ### Exempel
 
@@ -31,7 +31,7 @@ builder.Writeln("Signed PDF contents.");
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-  // Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det till PDF.
+// Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det till PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 

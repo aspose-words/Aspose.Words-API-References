@@ -1,14 +1,16 @@
 ---
 title: Class TabStopCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TabStopCollection klass. En samling avTabStopobjekt som representerar anpassade flikar för ett stycke eller en stil.
+description: Aspose.Words.TabStopCollection klass. En samling avTabStop objekt som representerar anpassade flikar för ett stycke eller en stil.
 type: docs
-weight: 5910
+weight: 6210
 url: /sv/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
-En samling av[`TabStop`](../tabstop/)objekt som representerar anpassade flikar för ett stycke eller en stil.
+En samling av[`TabStop`](../tabstop/) objekt som representerar anpassade flikar för ett stycke eller en stil.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -31,7 +33,7 @@ public class TabStopCollection : InternableComplexAttr
 | [Before](../../aspose.words/tabstopcollection/before/)(double) | Får ett första tabbstopp till vänster om den angivna positionen. |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | Tar bort alla tabbstopppositioner. |
 | override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Bestämmer om den angivna TabStopCollection är lika i värde med den aktuella TabStopCollection. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Bestämmer om den angivna`TabStopCollection` är lika i värde med strömmen`TabStopCollection` . |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 | [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Hämtar indexet för ett tabbstopp med angiven position i poäng. |
 | [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Hämtar positionen (i poäng) för tabbstoppet vid det angivna indexet. |
@@ -40,9 +42,9 @@ public class TabStopCollection : InternableComplexAttr
 
 ### Anmärkningar
 
-I Microsoft Word-dokument kan ett tabbstopp definieras i egenskaperna för en stycke -stil eller direkt i egenskaperna för ett stycke. En stil kan baseras på en annan stil. Därför är den kompletta uppsättningen tabbstopp för ett givet objekt en kombination av tabbstopp definierade direkt på detta objekt och tabbstopp som ärvs från de överordnade stilarna.
+I Microsoft Word-dokument kan ett tabbstopp definieras i egenskaperna för en stycke -stil eller direkt i egenskaperna för ett stycke. En stil kan baseras på en annan stil. Därför är den kompletta uppsättningen tabbstopp för ett givet objekt en kombination av tabbstopp definierade direkt på detta objekt och tabbstopp som ärvts från de överordnade stilarna.
 
-I Aspose.Words, när du får en **TabStops** samling för ett stycke eller en stil, den innehåller endast de anpassade tabbstopp som definierats direkt för detta stycke eller format. Samlingen inkluderar inte tabbstopp definierade i de överordnade stilarna eller standardtabbstoppen.
+I Aspose.Words, när du får en`TabStopCollection`för ett stycke eller en stil, innehåller den endast de anpassade tabbstoppen som definierats direkt för detta stycke eller formatet. Samlingen inkluderar inte tabbstopp definierade i de överordnade stilarna eller standardtabbstoppen.
 
 ### Exempel
 

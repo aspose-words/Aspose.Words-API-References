@@ -16,7 +16,7 @@ public void RemoveNumbers()
 
 ### Anmärkningar
 
-Att anropa den här metoden motsvarar att ställa in[`List`](../list/) egendom till ogiltig.
+Att anropa den här metoden motsvarar att ställa in[`List`](../list/) egendom till`null`.
 
 ### Exempel
 
@@ -33,7 +33,6 @@ builder.Writeln("Numbered list item 3");
 builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
 Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 foreach (Paragraph paragraph in paras)
@@ -51,8 +50,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Aspose.Words main advantages are:");
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Nedan finns två typer av listor som vi kan skapa med en dokumentbyggare.
 // 1 - En punktlista:
@@ -103,7 +102,7 @@ builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
 // Om vi ökar listnivån till en nivå som vi har lagt till objekt till tidigare,
-// den kapslade listan kommer att vara separat från den föregående, och dess numrering börjar från början. 
+ // den kapslade listan kommer att vara separat från den föregående, och dess numrering börjar från början.
 // Dessa listobjekt kommer att ha symbolerna "a.", "b.", "c.", "d." och "e".
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");

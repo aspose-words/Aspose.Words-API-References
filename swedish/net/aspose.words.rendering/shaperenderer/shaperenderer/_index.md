@@ -23,6 +23,7 @@ public ShapeRenderer(ShapeBase shape)
 Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

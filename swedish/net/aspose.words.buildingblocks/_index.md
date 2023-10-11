@@ -13,7 +13,7 @@ De **Aspose.Words.Building Blocks** namnområdet tillhandahåller klasser som g�
 | Klass | Beskrivning |
 | --- | --- |
 | [BuildingBlock](./buildingblock/) | Representerar en dokumentpost i ordlistan såsom en byggsten, autotext eller en autokorrigeringspost. |
-| [BuildingBlockCollection](./buildingblockcollection/) | En samling av[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/) objekt i dokumentet. |
+| [BuildingBlockCollection](./buildingblockcollection/) | En samling av[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/)objekt i dokumentet. |
 | [GlossaryDocument](./glossarydocument/) | Representerar rotelementet för ett ordlistadokument i ett Word-dokument. Ett ordlistadokument är en lagring för AutoText, Autokorrigeringsposter och Byggblock. |
 ## Uppräkning
 

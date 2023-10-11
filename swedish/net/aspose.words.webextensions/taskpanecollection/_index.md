@@ -3,12 +3,14 @@ title: Class TaskPaneCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.TaskPaneCollection klass. Anger en lista över bevarade objekt i aktivitetsfönstret.
 type: docs
-weight: 6410
+weight: 6720
 url: /sv/net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class
 
 Anger en lista över bevarade objekt i aktivitetsfönstret.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>

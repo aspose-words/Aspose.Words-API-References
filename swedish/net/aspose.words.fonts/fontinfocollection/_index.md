@@ -3,12 +3,14 @@ title: Class FontInfoCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontInfoCollection klass. Representerar en samling teckensnitt som används i ett dokument.
 type: docs
-weight: 2750
+weight: 2930
 url: /sv/net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
 
 Representerar en samling teckensnitt som används i ett dokument.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontInfoCollection : IEnumerable<FontInfo>
@@ -19,10 +21,10 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.fonts/fontinfocollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen är **falsk**. |
-| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | Anger om TrueType-teckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen är **falsk** . |
+| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen är`falsk`. |
+| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | Anger om TrueType-teckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen är`falsk` . |
 | [Item](../../aspose.words.fonts/fontinfocollection/item/) { get; } | Får ett teckensnitt med det angivna namnet. (2 indexers) |
-| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Anger om en delmängd av de inbäddade TrueType-teckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen är **falsk**. |
+| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Anger om en delmängd av de inbäddade TrueType-teckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen är`falsk`. |
 
 ## Metoder
 
@@ -33,7 +35,7 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 ### Anmärkningar
 
-Objekt är[`FontInfo`](../fontinfo/) objekt.
+Objekt är[`FontInfo`](../fontinfo/) föremål.
 
 Du skapar inte instanser av den här klassen direkt. Använd[`FontInfos`](../../aspose.words/documentbase/fontinfos/) egenskap för att komma åt samlingen av teckensnitt som definieras i dokumentet.
 

@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
 second_title: Aspose.Words för .NET API Referens
-description: TextWatermarkOptions fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för opaciteten för vattenstämpeln. Standardvärdet är True.
+description: TextWatermarkOptions fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för opaciteten för vattenstämpeln. Standardvärdet ärSann .
 type: docs
 weight: 50
 url: /sv/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-Hämtar eller ställer in ett booleskt värde som är ansvarigt för opaciteten för vattenstämpeln. Standardvärdet är True.
+Hämtar eller ställer in ett booleskt värde som är ansvarigt för opaciteten för vattenstämpeln. Standardvärdet är`Sann` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }

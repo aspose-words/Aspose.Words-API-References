@@ -3,7 +3,7 @@ title: Enum VerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.VerticalAlignment uppräkning. Anger vertikal justering av en flytande form textram eller en flytande tabell.
 type: docs
-weight: 1230
+weight: 1380
 url: /sv/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration

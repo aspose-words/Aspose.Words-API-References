@@ -3,12 +3,14 @@ title: Class WarningInfoCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WarningInfoCollection klass. Representerar en maskinskriven samling avWarningInfo objekt.
 type: docs
-weight: 6330
+weight: 6640
 url: /sv/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
 Representerar en maskinskriven samling av[`WarningInfo`](../warninginfo/) objekt.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -37,14 +39,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 ### Anmärkningar
 
-Du kan använda detta samlingsobjekt som den enklaste formen av[`IWarningCallback`](../iwarningcallback/)implementering för att samla in alla varningar som Aspose.Words genererar under en laddnings- eller sparoperation. Skapa en instans av den här klassen och tilldela den till[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) eller[`WarningCallback`](../documentbase/warningcallback/) fast egendom.
+Du kan använda detta samlingsobjekt som den enklaste formen av[`IWarningCallback`](../iwarningcallback/) implementering för att samla in alla varningar som Aspose.Words genererar under en laddnings- eller sparoperation. Skapa en instans av den här klassen och tilldela den till[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) eller[`WarningCallback`](../documentbase/warningcallback/) fast egendom.
 
 ### Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -59,6 +60,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

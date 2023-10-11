@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om bilder sparas i Base64format till utdata HTML MHTML eller EPUB. Standard ärfalsk .
 type: docs
-weight: 180
+weight: 170
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Anmärkningar
 
-När den här egenskapen är inställd på`Sann`bilddata exporteras direkt till **img** element och separata filer skapas inte.
+När den här egenskapen är inställd på`Sann` bilddata exporteras direkt till **img** element och separata filer skapas inte.
 
 ### Exempel
 

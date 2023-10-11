@@ -3,7 +3,7 @@ title: Interface IDocumentReaderPlugin
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.IDocumentReaderPlugin gränssnitt. Definierar ett gränssnitt för externa läsarplugin som kan läsa in en fil i ett dokument.
 type: docs
-weight: 2980
+weight: 3180
 url: /sv/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface

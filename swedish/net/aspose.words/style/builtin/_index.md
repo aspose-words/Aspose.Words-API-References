@@ -3,7 +3,7 @@ title: Style.BuiltIn
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Sant om denna stil är en av de inbyggda stilarna i MS Word.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words/style/builtin/
 ---
 ## Style.BuiltIn property
@@ -30,7 +30,7 @@ Style style = doc.Styles["Emphasis"];
 Assert.True(style.BuiltIn);
 
 // Skapa en anpassad stil och lägg till den i samlingen.
-  // Anpassade stilar som denna kommer att ha "BuiltIn"-flaggan inställd på "false".
+// Anpassade stilar som denna kommer att ha "BuiltIn"-flaggan inställd på "false".
 style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Navy;
 style.Font.Name = "Courier New";

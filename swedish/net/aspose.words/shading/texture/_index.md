@@ -3,7 +3,7 @@ title: Shading.Texture
 second_title: Aspose.Words för .NET API Referens
 description: Shading fast egendom. Får eller ställer in skuggningsstrukturen.
 type: docs
-weight: 30
+weight: 70
 url: /sv/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property

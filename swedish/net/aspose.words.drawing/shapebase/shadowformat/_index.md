@@ -3,7 +3,7 @@ title: ShapeBase.ShadowFormat
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Får skuggformatering för formen.
 type: docs
-weight: 450
+weight: 490
 url: /sv/net/aspose.words.drawing/shapebase/shadowformat/
 ---
 ## ShapeBase.ShadowFormat property

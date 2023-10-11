@@ -3,7 +3,7 @@ title: TextBox.TextBoxWrapMode
 second_title: Aspose.Words för .NET API Referens
 description: TextBox fast egendom. Bestämmer hur text radbryts inuti en form.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property

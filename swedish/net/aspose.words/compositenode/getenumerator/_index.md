@@ -3,7 +3,7 @@ title: CompositeNode.GetEnumerator
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -37,9 +37,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterera genom styckets samling av närmaste barn,
 // och skriv ut alla körningar eller former som vi hittar inom.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

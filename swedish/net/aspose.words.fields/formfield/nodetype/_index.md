@@ -1,14 +1,14 @@
 ---
 title: FormField.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar NodeType.FormField .
+description: FormField fast egendom. ReturnerarFormField .
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/formfield/nodetype/
 ---
 ## FormField.NodeType property
 
-Returnerar **NodeType.FormField** .
+ReturnerarFormField .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.SectionCollection klass. En samling av Sektion objekt i dokumentet.
+description: Aspose.Words.SectionCollection klass. En samling avSection objekt i dokumentet.
 type: docs
-weight: 5450
+weight: 5740
 url: /sv/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-En samling av **Sektion** objekt i dokumentet.
+En samling av[`Section`](../section/) objekt i dokumentet.
+
+För att lära dig mer, besök[Arbeta med sektioner](https://docs.aspose.com/words/net/working-with-sections/) dokumentationsartikel.
 
 ```csharp
 public class SectionCollection : NodeCollection

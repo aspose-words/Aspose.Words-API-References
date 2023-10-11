@@ -16,7 +16,7 @@ public Document Document { get; set; }
 
 ### Anmärkningar
 
-Om du behöver komma åt sidindex för dokumentnoderna måste du ställa in den här egenskapen så att den pekar på en dokumentinstans, innan sidlayouten för dokumentet byggs. Det är bäst att ställa in den här egenskapen till`null`efteråt, annars fortsätter insamlaren att samla information från efterföljande ombyggnader av dokumentets sidlayout.
+Om du behöver komma åt sidindex för dokumentnoderna måste du ställa in den här egenskapen så att den pekar på en dokumentinstans, innan sidlayouten för dokumentet byggs. Det är bäst att ställa in den här egenskapen till`null` efteråt, annars fortsätter insamlaren att samla information från efterföljande ombyggnader av dokumentets sidlayout.
 
 ### Exempel
 

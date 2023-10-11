@@ -3,12 +3,14 @@ title: Class ImageFieldMergingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.ImageFieldMergingArgs klass. Tillhandahåller data förImageFieldMerging händelse.
 type: docs
-weight: 3610
+weight: 3830
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
 Tillhandahåller data för[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) händelse.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -51,7 +53,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -66,6 +68,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -88,6 +91,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -112,6 +116,7 @@ Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar d
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.

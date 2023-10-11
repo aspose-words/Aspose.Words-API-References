@@ -3,7 +3,7 @@ title: Enum OoxmlCompliance
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.OoxmlCompliance uppräkning. Gör det möjligt att ange vilken OOXMLspecifikation som ska användas när du sparar i DOCXformatet.
 type: docs
-weight: 5060
+weight: 5340
 url: /sv/net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
@@ -95,7 +95,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // OOXML-standarden "ISO/IEC 29500:2008" stöder inte VML-former.
 // Om vi ställer in egenskapen "Compliance" för SaveOptions-objektet till "OoxmlCompliance.Iso29500_2008_Strict",
-  // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
+ // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,

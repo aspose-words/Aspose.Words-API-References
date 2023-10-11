@@ -3,7 +3,7 @@ title: CellFormat.HorizontalMerge
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Anger hur cellen sammanfogas horisontellt med andra celler i raden.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property

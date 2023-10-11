@@ -3,7 +3,7 @@ title: Enum TextEffect
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TextEffect uppräkning. Animationseffekt för textkörningar.
 type: docs
-weight: 6120
+weight: 6420
 url: /sv/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

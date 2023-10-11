@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Det här fältet konverterar alla värden i en sammanslagningsdatakällas kolumn "MyITF14Barcode" till ITF14-streckkoder.
+// Det här fältet kommer att konvertera alla värden i en sammanslagningsdatakällas kolumn "MyITF14Barcode" till ITF14-streckkoder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";

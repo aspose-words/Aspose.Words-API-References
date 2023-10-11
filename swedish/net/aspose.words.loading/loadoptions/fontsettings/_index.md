@@ -3,7 +3,7 @@ title: LoadOptions.FontSettings
 second_title: Aspose.Words för .NET API Referens
 description: LoadOptions fast egendom. Gör det möjligt att ange inställningar för dokumentteckensnitt.
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/aspose.words.loading/loadoptions/fontsettings/
 ---
 ## LoadOptions.FontSettings property
@@ -18,9 +18,9 @@ public FontSettings FontSettings { get; set; }
 
 När du laddar vissa format kan Aspose.Words behöva lösa teckensnitten. Till exempel, när du laddar HTML-dokument kan Aspose.Words lösa teckensnitten för att utföra fallback.
 
-Om inställt på null, standardinställning för statiska teckensnitt[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
+Om inställt på`null` , standardinställningar för statiska teckensnitt[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
 
-Standardvärdet är null.
+Standardvärdet är`null`.
 
 ### Exempel
 

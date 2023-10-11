@@ -16,7 +16,7 @@ public bool RestartListsAtEachSection { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **Sann** .
+Standardvärdet är`Sann` .
 
 ### Exempel
 

@@ -1,12 +1,14 @@
 ---
 title: Enum ScriptShapingLevel
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shaping.ScriptShapingLevel uppräkning. 
+description: Aspose.Words.Shaping.ScriptShapingLevel uppräkning. Beskriver formningsnivåer som krävs av ett skript.
 type: docs
-weight: 5770
+weight: 6070
 url: /sv/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
+
+Beskriver formningsnivåer som krävs av ett skript.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -16,10 +18,10 @@ public enum ScriptShapingLevel
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` |  |
-| Unknown | `1` |  |
-| Minimum | `2` |  |
-| Full | `3` |  |
+| None | `0` | Skriptet kräver inte formning. |
+| Unknown | `1` | Detta används när nivån för skriptet inte är specificerad. |
+| Minimum | `2` | Skriptet kräver ett minimum av formningsstöd. |
+| Full | `3` | Skriptet kräver full formningsstöd. |
 
 ### Se även
 

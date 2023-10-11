@@ -3,7 +3,7 @@ title: PdfSaveOptions.Compliance
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger överensstämmelsenivån för PDFstandarder för utdatadokument.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.saving/pdfsaveoptions/compliance/
 ---
 ## PdfSaveOptions.Compliance property
@@ -38,6 +38,9 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // som överensstämmer med "PDF/A-1b" samt bevarar originaldokumentets dokumentstruktur.
 // Ställ in egenskapen "Compliance" till "PdfCompliance.PdfUa1" för att följa standarden "PDF/UA-1" (ISO 14289-1),
 // som syftar till att definiera representera elektroniska dokument i PDF som gör att filen är tillgänglig.
+// Ställ in egenskapen "Compliance" till "PdfCompliance.Pdf20" för att följa standarden "PDF 2.0" (ISO 32000-2).
+// Ställ in egenskapen "Compliance" till "PdfCompliance.PdfA4" för att följa standarden "PDF/A-4" (ISO 19004:2020),
+// som bevarar dokumentets statiska visuella utseende över tid.
 // Detta hjälper till att göra dokument sökbara men kan avsevärt öka storleken på redan stora dokument.
 saveOptions.Compliance = pdfCompliance;
 

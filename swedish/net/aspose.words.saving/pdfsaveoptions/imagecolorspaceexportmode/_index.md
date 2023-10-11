@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageColorSpaceExportMode
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger hur färgrymden kommer att väljas för bilderna i PDFdokument.
 type: docs
-weight: 160
+weight: 190
 url: /sv/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
@@ -24,7 +24,7 @@ SimpleCmyk värde stöds inte när du sparar till PDF/A. Auto värde kommer att 
 
 ### Exempel
 
-Visar hur du ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
+Visar hur man ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
 
 ```csharp
 Document doc = new Document();

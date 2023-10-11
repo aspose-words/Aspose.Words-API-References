@@ -45,8 +45,10 @@ public void FieldNoteRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
 /// Använder en dokumentbyggare för att infoga ett NOTEREF-fält med specificerade egenskaper.

@@ -1,14 +1,14 @@
 ---
 title: SmartTag.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: SmartTag fast egendom. Returnerar NodeType.SmartTag .
+description: SmartTag fast egendom. ReturnerarSmartTag .
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/smarttag/nodetype/
 ---
 ## SmartTag.NodeType property
 
-Returnerar **NodeType.SmartTag** .
+ReturnerarSmartTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

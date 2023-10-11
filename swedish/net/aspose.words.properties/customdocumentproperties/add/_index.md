@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
 second_title: Aspose.Words för .NET API Referens
-description: CustomDocumentProperties metod. Skapar en ny anpassad dokumentegenskap för PropertyType.String datatyp.
+description: CustomDocumentProperties metod. Skapar en ny anpassad dokumentegenskap förString datatyp.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Skapar en ny anpassad dokumentegenskap för **PropertyType.String** datatyp.
+Skapar en ny anpassad dokumentegenskap förString datatyp.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Skapar en ny anpassad dokumentegenskap för **PropertyType.Number** datatyp.
+Skapar en ny anpassad dokumentegenskap förNumber datatyp.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Skapar en ny anpassad dokumentegenskap för **PropertyType.DateTime** datatyp.
+Skapar en ny anpassad dokumentegenskap förDateTime datatyp.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Skapar en ny anpassad dokumentegenskap för **PropertyType.Boolean** datatyp.
+Skapar en ny anpassad dokumentegenskap förBoolean datatyp.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Skapar en ny anpassad dokumentegenskap för **PropertyType.Float** datatyp.
+Skapar en ny anpassad dokumentegenskap förDouble datatyp.
 
 ```csharp
 public DocumentProperty Add(string name, double value)

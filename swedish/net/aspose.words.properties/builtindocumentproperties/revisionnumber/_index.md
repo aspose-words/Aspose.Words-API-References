@@ -39,6 +39,7 @@ Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 // och är inte relaterat till spårade revisioner. Vi kan hitta det genom att högerklicka på dokumentet i Utforskaren
 // via Egenskaper -> Detaljer. Vi kan uppdatera den här egenskapen manuellt.
 doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```

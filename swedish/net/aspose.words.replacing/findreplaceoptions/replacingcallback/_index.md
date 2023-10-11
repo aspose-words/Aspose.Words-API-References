@@ -3,7 +3,7 @@ title: FindReplaceOptions.ReplacingCallback
 second_title: Aspose.Words för .NET API Referens
 description: FindReplaceOptions fast egendom. Den användardefinierade metoden som anropas före varje ersättningsförekomst.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
@@ -19,6 +19,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -69,6 +70,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

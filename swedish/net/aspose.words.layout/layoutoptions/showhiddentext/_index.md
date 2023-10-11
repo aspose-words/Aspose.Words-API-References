@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard är False.
+description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard ärfalsk .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard är False.
+Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard är`falsk` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }

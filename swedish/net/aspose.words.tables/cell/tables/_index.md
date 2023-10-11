@@ -3,7 +3,7 @@ title: Cell.Tables
 second_title: Aspose.Words för .NET API Referens
 description: Cell fast egendom. Hämtar en samling tabeller som är omedelbart underordnade cellen.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
@@ -23,7 +23,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

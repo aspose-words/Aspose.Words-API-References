@@ -3,7 +3,7 @@ title: PdfSaveOptions.ZoomBehavior
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer vilken typ av zoom som ska användas när ett dokument öppnas med en PDFvisare.
 type: docs
-weight: 290
+weight: 320
 url: /sv/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 ---
 ## PdfSaveOptions.ZoomBehavior property

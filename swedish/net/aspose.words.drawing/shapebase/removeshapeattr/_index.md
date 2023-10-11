@@ -3,7 +3,7 @@ title: ShapeBase.RemoveShapeAttr
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase metod. Reserverad för systemanvändning. IShapeAttrSource.
 type: docs
-weight: 620
+weight: 680
 url: /sv/net/aspose.words.drawing/shapebase/removeshapeattr/
 ---
 ## ShapeBase.RemoveShapeAttr method

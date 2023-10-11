@@ -3,7 +3,7 @@ title: PdfSaveOptions.PageMode
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger hur PDFdokumentet ska visas när det öppnas i PDFläsaren.
 type: docs
-weight: 220
+weight: 250
 url: /sv/net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property

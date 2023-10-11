@@ -3,12 +3,14 @@ title: Class StreamFontSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.StreamFontSource klass. Basklass för användardefinierad strömteckensnittskälla.
 type: docs
-weight: 2860
+weight: 3040
 url: /sv/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
 Basklass för användardefinierad strömteckensnittskälla.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public abstract class StreamFontSource : FontSourceBase
@@ -43,6 +45,7 @@ För att använda strömfontkällan bör du skapa en härledd klass från`Stream
 Visar hur man laddar typsnitt från stream.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});

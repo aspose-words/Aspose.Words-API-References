@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Separator
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabelCollection fast egendom. Hämtar eller ställer in strängseparator som används för dataetiketterna för hela serien. Standard är ett kommatecken förutom för cirkeldiagram som endast visar kategorinamn och procent då en radbrytning ska användas istället.
 type: docs
-weight: 40
+weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 ## ChartDataLabelCollection.Separator property
@@ -31,7 +31,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-  // Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
+// Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

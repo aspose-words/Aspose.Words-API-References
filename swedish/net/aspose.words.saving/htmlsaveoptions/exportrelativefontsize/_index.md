@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRelativeFontSize
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om teckenstorlekar ska matas ut i relativa enheter när du sparar till HTML MHTML eller EPUB. Standard ärfalsk .
 type: docs
-weight: 240
+weight: 230
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 ---
 ## HtmlSaveOptions.ExportRelativeFontSize property

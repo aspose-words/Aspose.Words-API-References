@@ -16,7 +16,7 @@ public bool AspectRatioLocked { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet beror på[`ShapeType`](../shapetype/) , för ShapeType.Image det är **Sann** men för de andra formtyperna är det **falsk**.
+Standardvärdet beror på[`ShapeType`](../../shapetype/) , förImage det är`Sann` men för de andra formtyperna är det`falsk`.
 
 Har effekt endast för former på toppnivå.
 

@@ -16,7 +16,7 @@ public VbaProject Clone()
 
 ### Returvärde
 
-Det klonade VbaProject.
+Den klonade[`VbaProject`](../).
 
 ### Exempel
 

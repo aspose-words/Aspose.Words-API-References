@@ -3,12 +3,14 @@ title: Class FootnoteOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Notes.FootnoteOptions klass. Representerar alternativen för fotnotsnumrering för ett dokument eller avsnitt.
 type: docs
-weight: 4040
+weight: 4280
 url: /sv/net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class
 
 Representerar alternativen för fotnotsnumrering för ett dokument eller avsnitt.
+
+För att lära dig mer, besök[Arbeta med fotnot och slutnot](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) dokumentationsartikel.
 
 ```csharp
 public sealed class FootnoteOptions
@@ -41,7 +43,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En fotnot är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten.  
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten.
 // Varje fotnot skapar också en post längst ner på sidan, bestående av en symbol
@@ -67,7 +69,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol
@@ -112,7 +114,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen
@@ -157,7 +159,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen

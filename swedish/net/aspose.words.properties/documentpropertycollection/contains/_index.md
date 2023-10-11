@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. Returnerar sant om en egenskap med det angivna namnet finns i samlingen.
+description: DocumentPropertyCollection metod. ReturnerarSann om en egenskap med det angivna namnet finns i samlingen.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Returnerar sant om en egenskap med det angivna namnet finns i samlingen.
+Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen.
 
 ```csharp
 public bool Contains(string name)
@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Returvärde
 
-Sant om egendomen finns i samlingen; falskt annars.
+`Sann` om egendomen finns i samlingen;`falsk` annat.
 
 ### Exempel
 

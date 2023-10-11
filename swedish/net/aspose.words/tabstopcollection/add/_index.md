@@ -73,7 +73,7 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | position | Double | En position (i punkter) där tabbstoppet ska läggas till. |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/)värde that anger justeringen av text vid tabbstoppet. |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) värde that anger justeringen av text vid tabbstoppet. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) värde that anger typen av ledarraden som visas under tabbtecknet. |
 
 ### Anmärkningar

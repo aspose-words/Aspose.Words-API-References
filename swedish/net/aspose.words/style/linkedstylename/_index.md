@@ -1,14 +1,14 @@
 ---
 title: Style.LinkedStyleName
 second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade.
+description: Style fast egendom. Hämtar namnet påStyle kopplat till denna. Returnerar tom sträng om inga stilar är länkade.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words/style/linkedstylename/
 ---
 ## Style.LinkedStyleName property
 
-Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade.
+Hämtar namnet på[`Style`](../) kopplat till denna. Returnerar tom sträng om inga stilar är länkade.
 
 ```csharp
 public string LinkedStyleName { get; }

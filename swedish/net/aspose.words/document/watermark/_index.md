@@ -3,7 +3,7 @@ title: Document.Watermark
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Ger åtkomst till dokumentets vattenstämpel.
 type: docs
-weight: 460
+weight: 480
 url: /sv/net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

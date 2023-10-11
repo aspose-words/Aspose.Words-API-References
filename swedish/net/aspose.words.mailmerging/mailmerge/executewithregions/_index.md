@@ -22,7 +22,7 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
-Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
+Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) är`falsk`, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
 ### Exempel
 
@@ -122,7 +122,7 @@ public class Order
 }
 
 /// <summary>
-/// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words 
+ /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
 /// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -292,7 +292,7 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva dina egna classes som implementerar[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) och[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
-Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
+Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) är`falsk`, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
 ### Exempel
 
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Utför koppling av e-post från en datamängd till ett dokument med kopplingsregioner.
+Utför sammanslagning från en **Dataset** till ett dokument med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,38 +493,37 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataSet | DataSet | Datauppsättning som innehåller data som ska infogas i sammanslagningsfält. |
+| dataSet | DataSet | **Dataset** som innehåller data som ska infogas i kopplingsfält. |
 
 ### Anmärkningar
 
 Använd den här metoden för att utföra sammankoppling av brev från en eller flera tabeller till repeterbara mail sammanfogningsområden i dokumentet. Kopplingsområdena i dokumentet kommer dynamiskt att växa för att rymma poster i motsvarande tabeller.
 
-Varje tabell i datamängden måste ha ett namn.
+Varje bord i **Dataset** måste ha ett namn.
 
-Dokumentet måste ha kopplingsregioner definierade med namn som hänvisar till tables i datamängden.
+Dokumentet måste ha kopplingsregioner definierade med namn som hänvisar till tables i **Dataset**.
 
 För att ange en kopplingsregion i dokumentet måste du infoga två kopplingsfält för att markera början och slutet av kopplingsområdet.
 
-Allt dokumentinnehåll som ingår i en kopplingsregion kommer automatiskt att upprepas för varje post i datatabellen.
+Allt dokumentinnehåll som ingår i en kopplingsregion kommer automatiskt att upprepas för varje post i **Datatabell**.
 
-För att markera början på en kopplingsregion infogar du ett MERGEFIELD med namnet TableStart:MyTable, där MyTable motsvarar ett av tabellnamnen i din datauppsättning.
+För att markera början av en kopplingsregion, infoga ett MERGEFIELD med namnet TableStart:MyTable, där MyTable motsvarar ett av tabellnamnen i din **Dataset**.
 
 För att markera slutet av kopplingsområdet infogar du ett annat MERGEFIELD med namnet TableEnd:MyTable.
 
 För att infoga ett MERGEFIELD i Word använd kommandot Insert/Field och välj MergeField och skriv sedan fältets namn.
 
-Fälten TableStart och TableEnd måste finnas i samma avsnitt i ditt dokument.
+De **TableStart** och **TableEnd** fält måste finnas i samma avsnitt i ditt dokument.
 
-Om de används i en tabell, måste TableStart och TableEnd vara inom samma rad i tabellen.
+Om det används inuti ett bord, **TableStart** och **TableEnd** måste vara inne på samma rad i tabellen.
 
-Mail merge-regioner i ett dokument bör vara väl utformade (det måste alltid finnas ett par matching TableStart och TableEnd sammanslagningsfält med samma tabellnamn).
+Kopplingsregioner i ett dokument bör vara väl utformade (det måste alltid finnas ett par matchning  **TableStart** och **TableEnd** slå samman fält med samma tabellnamn).
 
 ### Exempel
 
 Visar hur man kör en kapslad e-postsammanfogning med två sammanfogningsregioner och två datatabeller.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Utför koppling av e-post från en datatabell till dokumentet med kopplingsregioner.
+Utför sammanslagning från en **Datatabell** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,11 +618,11 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataTable | DataTable | Datakälla för sammankopplingsåtgärden. Tabellen must har sin **Tabellnamn** egenskapsuppsättning. |
+| dataTable | DataTable | Datakälla för sammankopplingsåtgärden. Tabellen must har sinTableName egenskapsuppsättning. |
 
 ### Anmärkningar
 
-Dokumentet måste ha en kopplingsregion definierad med namn som matchar  **DataTable.TableName**.
+Dokumentet måste ha en kopplingsregion definierad med namn som matchar TableName.
 
 Om det finns andra kopplingsområden definierade i dokumentet lämnas de intakta. Detta gör det möjligt att utföra flera kopplingsoperationer.
 
@@ -632,6 +631,7 @@ Om det finns andra kopplingsområden definierade i dokumentet lämnas de intakta
 Demonstrerar hur man formaterar celler under en sammanfogning.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,6 +641,7 @@ Demonstrerar hur man formaterar celler under en sammanfogning.
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
 /// Formaterar tabellrader när en brevkoppling sker för att växla mellan två färger på udda/jämna rader.
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Utför koppling från en DataView till dokumentet med kopplingsregioner.
+Utför sammanslagning från en **DataView** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Utför koppling från IDataReader till dokumentet med kopplingsregioner.
+Utför sammanslagning från **IDataReader** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,12 +858,12 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataReader | IDataReader | Källa för dataposterna för e-postsammankoppling som OleDbDataReader eller SqlDataReader. |
+| dataReader | IDataReader | Källa till dataposterna för sammanslagning som t.ex **OleDbDataReader** eller **SqlDataReader**. |
 | tableName | String | Namn på kopplingsregionen i dokumentet som ska fyllas i. |
 
 ### Anmärkningar
 
-Du kan passera **SqlDataReader** eller **OleDbDataReader** objekt till denna -metoden som en parameter eftersom de båda implementerade **IDataReader** gränssnitt.
+Du kan passera **SqlDataReader** eller **OleDbDataReader**objekt till denna -metoden som en parameter eftersom de båda implementerade **IDataReader** gränssnitt.
 
 ### Exempel
 
@@ -875,7 +876,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {

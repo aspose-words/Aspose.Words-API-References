@@ -46,6 +46,7 @@ public void FieldFillIn()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
 /// Lägger en rad till standardsvaret för varje FILLIN-fält under en e-postkoppling.

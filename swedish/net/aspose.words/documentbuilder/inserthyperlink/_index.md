@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en hyperlänk i dokumentet.
 type: docs
-weight: 340
+weight: 370
 url: /sv/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -18,7 +18,7 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | --- | --- | --- |
 | displayText | String | Text till länken som ska visas i dokumentet. |
 | urlOrBookmark | String | Länkdestination. Kan vara en webbadress eller ett namn på ett bokmärke inuti dokumentet. Denna metod lägger alltid till apostrof i början och slutet av webbadressen. |
-| isBookmark | Boolean | Sant om den föregående parametern är ett namn på ett bokmärke i dokumentet; false är den föregående parametern är en URL. |
+| isBookmark | Boolean | `Sann` om den föregående parametern är ett namn på ett bokmärke i dokumentet; `falsk` är den föregående parametern är en URL. |
 
 ### Returvärde
 

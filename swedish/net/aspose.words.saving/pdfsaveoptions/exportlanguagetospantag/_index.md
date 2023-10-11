@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om en Spantagg ska skapas eller inte i dokumentstrukturen för att exportera textspråket.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
@@ -16,7 +16,7 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är`falsk` och "Lang"-attribut är kopplat till en markerad innehållssekvens i en sidinnehållsström.
+Standardvärdet är`falsk`och "Lang"-attribut är kopplat till en markerad innehållssekvens i en sidinnehållsström.
 
 När värdet är`Sann` "Span"-taggen skapas för texten med icke-standardspråk och "Lang"-attribut är kopplat till denna tagg.
 

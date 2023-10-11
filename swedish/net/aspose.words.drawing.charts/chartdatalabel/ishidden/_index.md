@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.IsHidden
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är falsk .
+description: ChartDataLabel fast egendom. Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet ärfalsk .
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
 ## ChartDataLabel.IsHidden property
 
-Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är **falsk** .
+Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är`falsk` .
 
 ```csharp
 public bool IsHidden { get; set; }
@@ -19,6 +19,7 @@ public bool IsHidden { get; set; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

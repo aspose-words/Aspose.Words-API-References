@@ -3,7 +3,7 @@ title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör omLastSavedTime egenskapen uppdateras innan du sparar.
 type: docs
-weight: 190
+weight: 180
 url: /sv/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property

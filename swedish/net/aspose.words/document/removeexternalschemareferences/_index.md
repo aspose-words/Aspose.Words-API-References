@@ -3,7 +3,7 @@ title: Document.RemoveExternalSchemaReferences
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Tar bort externa XMLschemareferenser från detta dokument.
 type: docs
-weight: 640
+weight: 680
 url: /sv/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method

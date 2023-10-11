@@ -3,7 +3,7 @@ title: Enum TextFormFieldType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.TextFormFieldType uppräkning. Anger typen av ett textformulärfält.
 type: docs
-weight: 2590
+weight: 2770
 url: /sv/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration

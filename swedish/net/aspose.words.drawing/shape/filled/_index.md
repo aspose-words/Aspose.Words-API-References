@@ -16,15 +16,16 @@ public bool Filled { get; set; }
 
 ### Anmärkningar
 
-Detta är en genväg tillOn fast egendom.
+Detta är en genväg till[`Visible`](../../fill/visible/) fast egendom.
 
-Standardvärdet är **Sann**.
+Standardvärdet är`Sann`.
 
 ### Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

@@ -18,7 +18,7 @@ public string UserPassword { get; set; }
 
 Användarlösenordet kommer att krävas för att öppna ett krypterat PDF-dokument för visning. Behörigheterna som anges i [`Permissions`](../permissions/) kommer att upprätthållas av läsarprogramvaran.
 
-Användarlösenordet kan vara null eller tom sträng, i detta fall kommer inget lösenord att krävas av användaren när öppnar PDF-dokumentet. Användarlösenordet kan inte vara detsamma som ägarlösenordet.
+Användarlösenordet kan vara`null` eller tom sträng, i det här fallet kommer inget lösenord att krävas av användaren när öppnar PDF-dokumentet. Användarlösenordet kan inte vara detsamma som ägarlösenordet.
 
 ### Exempel
 
@@ -30,19 +30,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Börja med att inte tillåta alla behörigheter.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Utöka behörigheter för att tillåta redigering av kommentarer.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Aktivera kryptering via egenskapen "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 

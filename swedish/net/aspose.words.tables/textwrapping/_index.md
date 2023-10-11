@@ -3,7 +3,7 @@ title: Enum TextWrapping
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.TextWrapping uppräkning. Anger hur text lindas runt tabellen.
 type: docs
-weight: 6080
+weight: 6380
 url: /sv/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration

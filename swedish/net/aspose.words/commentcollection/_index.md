@@ -3,12 +3,14 @@ title: Class CommentCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.CommentCollection klass. Ger maskinskriven åtkomst till en samling avComment noder.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Comment`](../comment/) noder.
+
+För att lära dig mer, besök[Arbeta med kommentarer](https://docs.aspose.com/words/net/working-with-comments/) dokumentationsartikel.
 
 ```csharp
 public class CommentCollection : NodeCollection
@@ -19,7 +21,7 @@ public class CommentCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words/commentcollection/item/) { get; } | Hämtar en **Kommentar** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item/) { get; } | Hämtar en[`Comment`](../comment/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 
@@ -44,12 +46,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Infoga en kommentar för att påpeka ett fel. 
+ // Infoga en kommentar för att påpeka ett fel.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Kommentarer har en "Klar"-flagga, som är inställd på "false" som standard. 
+ // Kommentarer har en "Klar"-flagga, som är inställd på "false" som standard.
 // Om en kommentar antyder att vi gör en ändring i dokumentet,
 // vi kan tillämpa ändringen, och sedan även sätta flaggan "Klar" efteråt för att indikera korrigeringen.
 Assert.False(comment.Done);

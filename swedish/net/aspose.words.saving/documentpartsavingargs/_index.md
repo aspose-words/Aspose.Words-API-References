@@ -3,12 +3,14 @@ title: Class DocumentPartSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.DocumentPartSavingArgs klass. Tillhandahåller data förDocumentPartSaving callback.
 type: docs
-weight: 4680
+weight: 4940
 url: /sv/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
 Tillhandahåller data för[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) callback.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class DocumentPartSavingArgs

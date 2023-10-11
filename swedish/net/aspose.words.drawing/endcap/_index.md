@@ -3,7 +3,7 @@ title: Enum EndCap
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.EndCap uppräkning. Anger linjekapsstil.
 type: docs
-weight: 810
+weight: 940
 url: /sv/net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration

@@ -3,7 +3,7 @@ title: Enum HeightRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.HeightRule uppräkning. Anger regeln för att bestämma höjden på ett objekt.
 type: docs
-weight: 2950
+weight: 3130
 url: /sv/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration

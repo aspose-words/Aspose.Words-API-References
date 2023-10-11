@@ -3,7 +3,7 @@ title: Enum ImageBinarizationMethod
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ImageBinarizationMethod uppräkning. Anger metoden som används för att binarisera bilden.
 type: docs
-weight: 4940
+weight: 5200
 url: /sv/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration

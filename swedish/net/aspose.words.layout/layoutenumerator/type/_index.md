@@ -3,7 +3,7 @@ title: LayoutEnumerator.Type
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator fast egendom. Hämtar typen av den aktuella enheten.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.layout/layoutenumerator/type/
 ---
 ## LayoutEnumerator.Type property

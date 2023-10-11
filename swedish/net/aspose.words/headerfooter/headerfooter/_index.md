@@ -17,13 +17,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/)värde som anger typen av sidhuvud eller sidfot. |
+| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) värde som anger typen av sidhuvud eller sidfot. |
 
 ### Anmärkningar
 
-När **Sidhuvud** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`HeaderFooter`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Sidhuvud** till a **Sektion** använd Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add eller HeadersFooters.Insert.
+Att lägga till[`HeaderFooter`](../)till a[`Section`](../../section/) använda sig avNode) ,Node) , eller[`HeadersFooters`](../../section/headersfooters/) egendom och metoder[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Exempel
 

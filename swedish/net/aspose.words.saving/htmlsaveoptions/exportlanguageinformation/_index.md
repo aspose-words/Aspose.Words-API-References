@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportLanguageInformation
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om språkinformation exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
 type: docs
-weight: 190
+weight: 180
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property

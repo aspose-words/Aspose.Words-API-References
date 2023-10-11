@@ -3,12 +3,14 @@ title: Class ChartLegendEntry
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartLegendEntry klass. Representerar en diagramförklaringspost.
 type: docs
-weight: 690
+weight: 730
 url: /sv/net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class
 
 Representerar en diagramförklaringspost.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartLegendEntry

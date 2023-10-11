@@ -1,14 +1,14 @@
 ---
 title: Shape.ImageData
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Ger tillgång till bilden av formen. Returnerar null om formen inte kan ha en bild.
+description: Shape fast egendom. Ger tillgång till bilden av formen. Returnerarnull om formen inte kan ha en bild.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-Ger tillgång till bilden av formen. Returnerar null om formen inte kan ha en bild.
+Ger tillgång till bilden av formen. Returnerar`null` om formen inte kan ha en bild.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -32,7 +32,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Bilddata för former kan innehålla bilder av många möjliga bildformat. 
+         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
         // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";

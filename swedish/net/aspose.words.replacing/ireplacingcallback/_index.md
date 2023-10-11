@@ -3,7 +3,7 @@ title: Interface IReplacingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Replacing.IReplacingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under en sök och ersättoperation.
 type: docs
-weight: 4370
+weight: 4630
 url: /sv/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -25,6 +25,7 @@ public interface IReplacingCallback
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -125,6 +126,7 @@ public void Order(bool differentFirstPageHeaderFooter)
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -134,6 +136,8 @@ Visar hur man infogar ett helt dokuments innehåll som ersättning för en match
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

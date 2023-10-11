@@ -3,7 +3,7 @@ title: Class PdfDigitalSignatureDetails
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfDigitalSignatureDetails klass. Innehåller detaljer för att signera ett PDFdokument med en digital signatur.
 type: docs
-weight: 5150
+weight: 5430
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 För närvarande är digital signering av PDF-dokument endast tillgängligt på .NET 2.0 eller senare.
 
-För att digitalt signera ett PDF-dokument när det skapas av Aspose.Words, ställ in[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) egenskap till en giltig`PdfDigitalSignatureDetails` objekt och spara sedan dokumentet i PDF-format genom att passera the[`PdfSaveOptions`](../pdfsaveoptions/)som en parameter i[`Save`](../../aspose.words/document/save/) metod.
+För att digitalt signera ett PDF-dokument när det skapas av Aspose.Words, ställ in[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) egenskap till en giltig`PdfDigitalSignatureDetails` objekt och spara sedan dokumentet i PDF-format genom att passera the[`PdfSaveOptions`](../pdfsaveoptions/) som en parameter i[`Save`](../../aspose.words/document/save/) metod.
 
 Aspose.Words skapar en PKCS#7-signatur över hela PDF-dokumentet och använder "Adobe.PPKMS"-filtret och "adbe.pkcs7.sha1"-underfiltret när man skapar en digital signatur.
 
@@ -57,14 +57,14 @@ PdfSaveOptions options = new PdfSaveOptions();
 
 // Konfigurera "DigitalSignatureDetails"-objektet för "SaveOptions"-objektet till
 // signera dokumentet digitalt när vi renderar det med "Spara"-metoden.
-DateTime signingTime = DateTime.Now;
+DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

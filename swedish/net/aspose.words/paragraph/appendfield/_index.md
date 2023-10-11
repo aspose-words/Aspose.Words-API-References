@@ -3,7 +3,7 @@ title: Paragraph.AppendField
 second_title: Aspose.Words för .NET API Referens
 description: Paragraph metod. Lägger till ett fält i detta stycke.
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(FieldType, bool) {#appendfield}
@@ -35,7 +35,7 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Lägg till ett TID-fält med hjälp av en fältkod: 
+ // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
@@ -89,7 +89,7 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Lägg till ett TID-fält med hjälp av en fältkod: 
+ // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
@@ -125,7 +125,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldCode | String | Fältkoden som ska läggas till (utan hängslen). |
-| fieldValue | String | Fältvärdet som ska läggas till. Skicka null för fält som inte har ett värde. |
+| fieldValue | String | Fältvärdet som ska läggas till. Passera`null` för fält som inte har ett värde. |
 
 ### Returvärde
 
@@ -143,7 +143,7 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Lägg till ett TID-fält med hjälp av en fältkod: 
+ // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
