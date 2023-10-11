@@ -16,18 +16,18 @@ public byte[] ToByteArray()
 
 ### ملاحظات
 
-يطرح استثناء إذا لم يكن نوع الخاصيةByteArray.
+يطرح استثناءً إذا لم يكن نوع الخاصية كذلكByteArray.
 
 ### أمثلة
 
-يوضح كيفية إضافة صورة مصغرة إلى مستند نقوم بحفظه على هيئة Epub.
+يوضح كيفية إضافة صورة مصغرة إلى مستند نحفظه كملف Epub.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// إذا قمنا بحفظ مستند ، تحتوي خاصية "Thumbnail" الخاصة به على بيانات الصورة التي أضفناها ، مثل Epub ،
+// إذا قمنا بحفظ مستند، تحتوي خاصية "الصورة المصغرة" الخاصة به على بيانات الصورة التي أضفناها، كملف Epub،
 // القارئ الذي يفتح هذا المستند قد يعرض الصورة قبل الصفحة الأولى.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

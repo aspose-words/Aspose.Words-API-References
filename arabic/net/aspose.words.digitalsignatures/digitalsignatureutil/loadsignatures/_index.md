@@ -16,26 +16,26 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | مسار الوثيقة. |
+| fileName | String | المسار إلى الوثيقة. |
 
 ### قيمة الإرجاع
 
-مجموعة التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
+مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
 
 ### أمثلة
 
 يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
 
 ```csharp
-// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بوثيقة موقعة باستخدام فئة DigitalSignatureUtil.
-// 1 - تحميل من مستند من اسم ملف نظام ملفات محلي:
+// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بالمستند الموقع باستخدام فئة DigitalSignatureUtil.
+// 1 - التحميل من مستند من اسم ملف نظام ملفات محلي:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// إذا كانت هذه المجموعة غير فارغة ، فيمكننا التحقق من توقيع المستند رقميًا.
+// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من توقيع المستند رقميًا.
 Assert.AreEqual(1, digitalSignatures.Count);
 
-// 2 - تحميل من مستند من FileStream:
+// 2 - التحميل من مستند من FileStream:
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
@@ -43,16 +43,16 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 }
 ```
 
-يوضح كيفية إزالة التواقيع الرقمية من مستند موقع رقميًا.
+يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
 
 ```csharp
 // هناك طريقتان لاستخدام فئة DigitalSignatureUtil لإزالة التوقيعات الرقمية
 // من مستند موقع عن طريق حفظ نسخة غير موقعة منه في مكان آخر في نظام الملفات المحلي.
-// 1 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة سلاسل اسم الملف:
+// 1 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال سلاسل اسم الملف:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة تدفقات الملفات:
+// 2 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال تدفقات الملفات:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -61,7 +61,7 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// تحقق من أن كلا من وثيقتنا المخرجة لا تحتوي على توقيعات رقمية.
+// تحقق من أن كلا مستندي الإخراج لدينا لا يحتويان على توقيعات رقمية.
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
 ```
@@ -85,26 +85,26 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | دفق مع المستند. |
+| stream | Stream | الدفق مع المستند. |
 
 ### قيمة الإرجاع
 
-مجموعة التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
+مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
 
 ### أمثلة
 
 يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
 
 ```csharp
-// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بوثيقة موقعة باستخدام فئة DigitalSignatureUtil.
-// 1 - تحميل من مستند من اسم ملف نظام ملفات محلي:
+// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بالمستند الموقع باستخدام فئة DigitalSignatureUtil.
+// 1 - التحميل من مستند من اسم ملف نظام ملفات محلي:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// إذا كانت هذه المجموعة غير فارغة ، فيمكننا التحقق من توقيع المستند رقميًا.
+// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من توقيع المستند رقميًا.
 Assert.AreEqual(1, digitalSignatures.Count);
 
-// 2 - تحميل من مستند من FileStream:
+// 2 - التحميل من مستند من FileStream:
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);

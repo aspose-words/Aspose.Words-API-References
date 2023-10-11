@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا .
+description: StructuredDocumentTagRangeStart ملكية. يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكونباطل .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا .
+يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون`باطل` .
 
 ```csharp
 public string Title { get; set; }

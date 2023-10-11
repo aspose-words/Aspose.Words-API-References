@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحديد متعلق بالموضع الأفقي للشكل.
+description: ShapeBase ملكية. يحدد نسبة إلى ما يتم وضعه أفقيًا.
 type: docs
-weight: 400
+weight: 420
 url: /ar/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-تحديد متعلق بالموضع الأفقي للشكل.
+يحدد نسبة إلى ما يتم وضعه أفقيًا.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -16,9 +16,9 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 ### ملاحظات
 
-النظام الأساسيColumn.
+القيمة الافتراضية هيColumn.
 
-له تأثير فقط للأشكال العائمة ذات المستوى الأعلى.
+له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -16,29 +16,29 @@ public Color Dark2 { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين ألوان وخطوط مخصصة للسمات.
+يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// يتيح لنا كائن "Theme" الوصول إلى سمة المستند ، وهي مصدر للخطوط والألوان الافتراضية.
+// يمنحنا كائن "Theme" إمكانية الوصول إلى سمة المستند، وهو مصدر الخطوط والألوان الافتراضية.
 Theme theme = doc.Theme;
 
-// بعض الأنماط ، مثل "العنوان 1" و "العنوان الفرعي" ، ترث هذه الخطوط.
+// بعض الأنماط، مثل "العنوان 1" و"العنوان الفرعي"، سوف ترث هذه الخطوط.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// قد تحتوي اللغات الأخرى أيضًا على خطوطها المخصصة في هذا الموضوع.
+// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا الموضوع.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// تحتوي الخاصية "Colors" على لوحة الألوان من Microsoft Word ،
-// الذي يظهر عند تغيير التظليل أو لون الخط.
+// تحتوي خاصية "الألوان" على لوحة الألوان من Microsoft Word،
+// والذي يظهر عند تغيير التظليل أو لون الخط.
 // قم بتطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
-// عندما نقوم ، على سبيل المثال ، بتغيير لون الخط عبر "الصفحة الرئيسية" - >; "الخط" - >. "لون الخط"،
-// أو أدخل شكلًا ، ثم قم بتعيين لون له عبر "تنسيق الشكل" - >; "أنماط الشكل".
+// عندما نقوم، على سبيل المثال، بتغيير لون الخط عبر "الصفحة الرئيسية" -> "الخط" -> "لون الخط"،
+// أو قم بإدراج شكل ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -52,7 +52,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// قم بتطبيق ألوان مخصصة على الارتباطات التشعبية في حالتها التي تم النقر عليها وعدم النقر فوقها.
+// تطبيق ألوان مخصصة على الارتباطات التشعبية في حالات النقر عليها وعدم النقر عليها.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

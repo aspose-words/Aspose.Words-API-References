@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. حقيقي إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ.
+description: TextColumnCollection ملكية. صحيح إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**حقيقي** إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ.
+صحيح إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -27,17 +27,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// تحديد مقدار المساحة المتوفرة لدينا لترتيب الأعمدة.
+// حدد مقدار المساحة المتوفرة لدينا لترتيب الأعمدة.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// تعيين العمود الأول ليكون ضيقًا.
+// قم بتعيين العمود الأول ليكون ضيقًا.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// اضبط العمود الثاني ليأخذ باقي المساحة المتوفرة ضمن هوامش الصفحة.
+// اضبط العمود الثاني ليأخذ باقي المساحة المتوفرة في هوامش الصفحة.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

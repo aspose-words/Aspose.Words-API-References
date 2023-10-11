@@ -3,12 +3,14 @@ title: Class CompareOptions
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Comparing.CompareOptions فصل. يسمح باختيار الخيارات المتقدمة لعملية مقارنة المستندات.
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
 يسمح باختيار الخيارات المتقدمة لعملية مقارنة المستندات.
+
+لمعرفة المزيد، قم بزيارة[مقارنة المستندات](https://docs.aspose.com/words/net/compare-documents/) مقالة توثيقية.
 
 ```csharp
 public class CompareOptions
@@ -24,32 +26,33 @@ public class CompareOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | يحدد ما إذا كان يتم تعقب التغييرات بالحرف أو بالكلمة. القيمة الافتراضية هيWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | يشير True إلى أن مقارنة المستندات غير حساسة لحالة الأحرف. تعتبر المقارنة الافتراضية حساسة لحالة الأحرف. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | تحديد ما إذا كان سيتم مقارنة الاختلافات في التعليقات. لا يتم تجاهل التعليقات افتراضيًا. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | يحدد ما إذا كان سيتم تجاهل الاختلاف في معرّف DrawingML الفريد. القيمة الافتراضية هي **خاطئة** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | تحديد ما إذا كان سيتم مقارنة الاختلافات في الحقول. لا يتم تجاهل الحقول افتراضيًا. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | تحديد ما إذا كان سيتم مقارنة الاختلافات في الحواشي السفلية والتعليقات الختامية. لا يتم تجاهل الحواشي السفلية افتراضيًا. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | صحيح يشير إلى أنه تم تجاهل التنسيق. لا يتم تجاهل تنسيق المستند الافتراضي. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | تشير True إلى أنه يتم تجاهل محتوى الرؤوس والتذييلات. لا يتم تجاهل الرؤوس والتذييلات بشكل افتراضي. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | تحديد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة في الجداول. لا يتم تجاهل الجداول الافتراضية . |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | تحديد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة داخل مربعات النص. لا يتم تجاهل مربعات النص افتراضيًا. |
-| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | يحدد المستند الذي يجب استخدامه كهدف أثناء المقارنة. |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات فيMoveRevision بين الوثيقتين. افتراضيًا، لا يتم إنتاج مراجعات النقل. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو الكلمة. القيمة الافتراضية هيWordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | يشير True إلى أن مقارنة المستندات غير حساسة لحالة الأحرف. بشكل افتراضي تكون المقارنة حساسة لحالة الأحرف. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في التعليقات أم لا. بشكل افتراضي لا يتم تجاهل التعليقات. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | يحدد ما إذا كان سيتم تجاهل الاختلاف في المعرف الفريد لـ DrawML. القيمة الافتراضية هي`خطأ شنيع` . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في الحقول أم لا. بشكل افتراضي لا يتم تجاهل الحقول. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في الحواشي السفلية والتعليقات الختامية. بشكل افتراضي لا يتم تجاهل الحواشي السفلية. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | يشير True إلى أنه تم تجاهل التنسيق. بشكل افتراضي لا يتم تجاهل تنسيق المستند. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | يشير True إلى أنه تم تجاهل محتوى الرؤوس والتذييلات. بشكل افتراضي لا يتم تجاهل الرؤوس والتذييلات. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة في الجداول. بشكل افتراضي لا يتم تجاهل الجداول. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة داخل مربعات النص. بشكل افتراضي لا يتم تجاهل مربعات النص. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة. |
 
 ### أمثلة
 
-يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء مقارنة.
+يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
 ```csharp
 // أنشئ المستند الأصلي واملأه بأنواع مختلفة من العناصر.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// نص فقرة مشار إليه بتعليق ختامي:
+// نص الفقرة المشار إليه بتعليق ختامي:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
-// الطاولة:
+// طاولة:
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Original cell 1 text");
@@ -71,11 +74,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// العنوان:
+// الرأس:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// قم بإنشاء نسخة من وثيقتنا وقم بإجراء تعديل سريع على كل عنصر من عناصر المستند المنسوخ.
+// أنشئ نسخة من المستند الخاص بنا وقم بإجراء تحرير سريع على كل عنصر من عناصر المستند المستنسخ.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -89,9 +92,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// تؤدي المقارنة بين المستندات إلى إنشاء مراجعة لكل تحرير في المستند المحرر.
+// تؤدي مقارنة المستندات إلى إنشاء مراجعة لكل تعديل في المستند الذي تم تحريره.
 // يحتوي كائن CompareOptions على سلسلة من العلامات التي يمكنها منع المراجعات
-// على كل نوع من العناصر ، متجاهلاً تغييرها بشكل فعال.
+// على كل نوع من العناصر، مع تجاهل التغيير بشكل فعال.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

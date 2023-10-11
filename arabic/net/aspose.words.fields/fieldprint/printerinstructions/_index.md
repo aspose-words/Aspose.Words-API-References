@@ -1,14 +1,14 @@
 ---
 title: FieldPrint.PrinterInstructions
 second_title: Aspose.Words لمراجع .NET API
-description: FieldPrint ملكية. الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو إرشادات PostScript.
+description: FieldPrint ملكية. الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو تعليمات PostScript.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو إرشادات PostScript.
+الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو تعليمات PostScript.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -16,7 +16,7 @@ public string PrinterInstructions { get; set; }
 
 ### أمثلة
 
-يظهر لإدراج حقل PRINT.
+يظهر لإدراج حقل طباعة.
 
 ```csharp
 Document doc = new Document();
@@ -24,15 +24,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// يمكن أن يرسل حقل PRINT إرشادات إلى الطابعة.
+// يمكن لحقل الطباعة إرسال تعليمات إلى الطابعة.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// قم بتعيين المنطقة الخاصة بالطابعة لتنفيذ التعليمات عليها.
-// في هذه الحالة ، ستكون الفقرة التي تحتوي على حقل الطباعة الخاص بنا.
+// قم بتعيين المنطقة للطابعة لتنفيذ التعليمات.
+// في هذه الحالة، ستكون الفقرة هي التي تحتوي على حقل الطباعة الخاص بنا.
 field.PostScriptGroup = "para";
 
-// عندما نستخدم طابعة تدعم PostScript لطباعة وثيقتنا ،
-// هذا الأمر سيحول المنطقة بأكملها التي حددناها في "field.PostScriptGroup" إلى اللون الأبيض.
+// عندما نستخدم طابعة تدعم PostScript لطباعة وثيقتنا،
+// سيحول هذا الأمر المنطقة بأكملها التي حددناها في "field.PostScriptGroup" إلى اللون الأبيض.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

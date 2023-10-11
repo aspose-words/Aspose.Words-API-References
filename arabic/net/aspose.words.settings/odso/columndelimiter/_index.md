@@ -1,14 +1,14 @@
 ---
 title: Odso.ColumnDelimiter
 second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد الحرف الذي يجب تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة داخل مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
+description: Odso ملكية. يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-يحدد الحرف الذي يجب تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة داخل مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
+يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -33,9 +33,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

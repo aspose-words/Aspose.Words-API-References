@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Auto
 second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth مجال. إرجاع مثيل يمثل قيمة العرض المفضل غير محدد.
+description: PreferredWidth مجال. إرجاع مثيل يمثل القيمة لم يتم تحديد العرض المفضل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/preferredwidth/auto/
 ---
 ## PreferredWidth.Auto field
 
-إرجاع مثيل يمثل قيمة "العرض المفضل غير محدد".
+إرجاع مثيل يمثل القيمة "لم يتم تحديد العرض المفضل".
 
 ```csharp
 public static readonly PreferredWidth Auto;
@@ -24,13 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // هناك طريقتان لتطبيق فئة "PreferredWidth" على خلايا الجدول.
-// 1 - قم بتعيين عرض مفضل مطلق بناءً على النقاط:
+// 1 - قم بتعيين العرض المفضل المطلق بناءً على النقاط:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - قم بتعيين عرض مفضل نسبي بناءً على النسبة المئوية لعرض الجدول:
+// 2 - قم بتعيين العرض المفضل النسبي بناءً على النسبة المئوية لعرض الجدول:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -38,10 +38,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// ستشغل الخلية التي ليس لها عرض مفضل محدد بقية المساحة المتاحة.
+// الخلية التي لم يتم تحديد العرض المفضل لها سوف تشغل بقية المساحة المتوفرة.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// ينشئ كل تكوين للخاصية "PreferredWidth" كائنًا جديدًا.
+// يقوم كل تكوين لخاصية "PreferredWidth" بإنشاء كائن جديد.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

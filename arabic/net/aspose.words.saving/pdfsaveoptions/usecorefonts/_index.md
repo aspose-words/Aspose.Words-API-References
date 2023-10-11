@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
 second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial و Times New Roman و Courier New و Symbol بخطوط PDF Type 1 الأساسية.
+description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial وTimes New Roman و Courier New وSymbol بخطوط PDF Type 1 الأساسية أم لا.
 type: docs
-weight: 280
+weight: 310
 url: /ar/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial و Times New Roman و Courier New و Symbol بخطوط PDF Type 1 الأساسية.
+الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial وTimes New Roman و Courier New وSymbol بخطوط PDF Type 1 الأساسية أم لا.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -16,21 +16,21 @@ public bool UseCoreFonts { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي`خاطئة` . عندما يتم تعيين هذه القيمة على`حقيقي` تم استبدال خطوط Arial و Times New Roman و Courier New و Symbol في مستند PDF بخط Core Type 1 المقابل.
+القيمة الافتراضية هي`خطأ شنيع` . عندما يتم ضبط هذه القيمة على`حقيقي` يتم استبدال خطوط Arial وTimes New Roman و Courier New وSymbol في مستند PDF بالخط الأساسي المطابق من النوع 1.
 
-يجب أن تكون خطوط PDF الأساسية ، أو مقاييس الخط الخاصة بها وخطوط الاستبدال المناسبة ، متاحة لأي تطبيق عارض PDF.
+يلزم أن تكون خطوط PDF الأساسية، أو مقاييس الخطوط الخاصة بها والخطوط البديلة المناسبة، متاحة لأي تطبيق عارض PDF.
 
-يعمل هذا الإعداد فقط مع النص في ترميز ANSI (Windows-1252). سيتم كتابة النص غير ANSI بخط تروتايب مضمن بغض النظر عن هذا الإعداد.
+يعمل هذا الإعداد فقط مع النص بتشفير ANSI (Windows-1252). سيتم كتابة النص بخلاف ANSI بخط TrueType المضمن بغض النظر عن هذا الإعداد.
 
-يتطلب التوافق مع PDF / A و PDF / UA دمج كل الخطوط.`خاطئة` سيتم استخدام القيمة تلقائيًا عند الحفظ في PDF / A و PDF / UA.
+يتطلب التوافق مع PDF/A وPDF/UA تضمين جميع الخطوط.`خطأ شنيع` سيتم استخدام القيمة تلقائيًا عند الحفظ في PDF/A وPDF/UA.
 
-لا يتم دعم الخطوط الأساسية عند الحفظ بتنسيق PDF 2.0.`خاطئة`سيتم استخدام القيمة تلقائيًا عند الحفظ إلى PDF 2.0.
+الخطوط الأساسية غير مدعومة عند الحفظ بتنسيق PDF 2.0.`خطأ شنيع` سيتم استخدام القيمة تلقائيًا عند الحفظ في PDF 2.0.
 
-هذا الخيار له أولوية أعلى إذن[`FontEmbeddingMode`](../fontembeddingmode/) اختيار.
+هذا الخيار له أولوية أعلى بعد ذلك[`FontEmbeddingMode`](../fontembeddingmode/) خيار.
 
 ### أمثلة
 
-يوضح كيفية تمكين / تعطيل استبدال خط PDF Type 1.
+يوضح كيفية تمكين/تعطيل استبدال خط PDF من النوع 1.
 
 ```csharp
 Document doc = new Document();
@@ -41,13 +41,13 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// اضبط خاصية "UseCoreFonts" على "true" لاستبدال بعض الخطوط ،
-// بما في ذلك الخطين في وثيقتنا ، مع ما يعادلهما من PDF Type 1.
-// اضبط خاصية "UseCoreFonts" على "false" لعدم تطبيق خطوط PDF Type 1.
+// اضبط خاصية "UseCoreFonts" على "صحيح" لاستبدال بعض الخطوط،
+// بما في ذلك الخطين الموجودين في مستندنا، مع ما يعادلهما في ملف PDF من النوع 1.
+// اضبط خاصية "UseCoreFonts" على "خطأ" حتى لا يتم تطبيق خطوط PDF من النوع 1.
 options.UseCoreFonts = useCoreFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);

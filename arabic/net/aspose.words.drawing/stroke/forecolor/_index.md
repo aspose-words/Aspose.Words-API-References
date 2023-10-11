@@ -1,14 +1,14 @@
 ---
 title: Stroke.ForeColor
 second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تحديد لون المقدمة للضربة .
+description: Stroke ملكية. الحصول على أو تعيين اللون الأمامي للحد.
 type: docs
-weight: 90
+weight: 110
 url: /ar/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
 
-الحصول على أو تحديد لون المقدمة للضربة .
+الحصول على أو تعيين اللون الأمامي للحد.
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -16,11 +16,11 @@ public Color ForeColor { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية لملف[`Shape`](../../shape/) هو Black.
+القيمة الافتراضية لـ a[`Shape`](../../shape/) is Black.
 
 ### أمثلة
 
-أظهر كيفية تعيين تنسيق العلامة.
+أظهر كيفية ضبط تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// تعيين تنسيق العلامة.
+// ضبط تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

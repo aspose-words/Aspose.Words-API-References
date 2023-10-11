@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockEnd
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية .
+description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/documentvisitor/visitbuildingblockend/
 ---
 ## DocumentVisitor.VisitBuildingBlockEnd method
 
-يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية .
+يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية.
 
 ```csharp
 public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
@@ -24,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
 
 ### ملاحظات
 
-ملاحظة: لا تتم زيارة العقدة الإنشائية وتوابعها عند تنفيذ a زائر عبر a[`Document`](../../document/) إذا كنت ترغب في تنفيذ زائر على كتلة بناء a ، فأنت بحاجة إلى تنفيذ الزائر مرة أخرى[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or call[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
+ملاحظة: لا تتم زيارة عقدة الكتلة البرمجية الإنشائية وأبناءها عند تنفيذ a Visitor عبر a[`Document`](../../document/) . إذا كنت تريد تنفيذ زائر عبر الكتلة البرمجية الإنشائية a ، فستحتاج إلى تنفيذ الزائر عبر[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) أو الاتصال[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
 ### أمثلة
 
-يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند مسرد.
+يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
 ```csharp
 public void GlossaryDocument()
@@ -46,33 +46,32 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // هناك طرق مختلفة للوصول إلى اللبنات الأساسية.
-    // 1 - احصل على اللبنات الأساسية الأولى / الأخيرة في المجموعة:
+    // هناك طرق مختلفة للوصول إلى الكتل البرمجية الإنشائية.
+    // 1 - احصل على اللبنات الأولى/الأخيرة في المجموعة:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - احصل على قالب بناء حسب الفهرس:
+    // 2 - الحصول على كتلة بناء حسب الفهرس:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - احصل على أول قالب إنشائي يطابق معرضًا واسمًا وفئة:
+    // 3 - احصل على أول كتلة بناء تطابق المعرض والاسم والفئة:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // سنفعل ذلك باستخدام زائر مخصص ،
-    // الذي سيعطي كل BuildingBlock في GlossaryDocument GUID فريدًا
+    // سنفعل ذلك باستخدام زائر مخصص،
+    // والذي سيمنح كل BuildingBlock في GlossaryDocument معرفًا فريدًا (GUID).
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // في Microsoft Word ، يمكننا الوصول إلى اللبنات الأساسية عبر "إدراج" - > "أجزاء سريعة" - >. "منظم كتل البناء".
+    // في Microsoft Word، يمكننا الوصول إلى الكتل البرمجية الإنشائية عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// يعطي كل كتلة إنشائية في مستند قاموس المصطلحات الذي تمت زيارته GUID فريدًا.
-/// يخزن أزواج الكتل البرمجية الإنشائية GUID في قاموس.
+/// يمنح كل كتلة إنشاء في مستند المسرد الذي تمت زيارته معرفًا فريدًا (GUID).
+/// يخزن أزواج كتل بناء GUID في القاموس.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

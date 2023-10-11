@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان إعداد الصفحة سيتم تصديره إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع .
 type: docs
-weight: 230
+weight: 220
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-يحدد ما إذا كان إعداد الصفحة سيتم تصديره إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هو`خاطئة` .
+يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -16,13 +16,13 @@ public bool ExportPageSetup { get; set; }
 
 ### ملاحظات
 
-كل[`Section`](../../../aspose.words/section/) في نموذج مستند Aspose.Words يوفر معلومات إعداد الصفحة عبر[`PageSetup`](../../../aspose.words/pagesetup/) صف دراسي. عند تصدير مستند إلى تنسيق HTML ، قد تحتاج إلى الاحتفاظ بهذه المعلومات_ لمزيد من الاستخدام. على وجه الخصوص ، قد يكون إعداد الصفحة مهمًا للعرض على الوسائط المقسمة إلى صفحات (طباعة) أو التحويل اللاحق إلى تنسيقات ملفات Microsoft Word الأصلية (DOCX ، DOC ، RTF ، WML).
+كل[`Section`](../../../aspose.words/section/) في نموذج مستند Aspose.Words يوفر معلومات إعداد الصفحة عبر[`PageSetup`](../../../aspose.words/pagesetup/) فصل. عندما تقوم بتصدير مستند إلى تنسيق HTML، قد تحتاج إلى الاحتفاظ بهذه المعلومات لمزيد من الاستخدام. على وجه الخصوص، قد يكون إعداد الصفحة مهمًا للعرض على الوسائط المقسمة إلى صفحات (الطباعة) أو التحويل اللاحق إلى تنسيقات ملفات Microsoft Word الأصلية (DOCX، DOC، RTF، WML).
 
-في معظم الحالات ، يكون HTML مخصصًا للعرض في المتصفحات التي لا يتم فيها ترقيم الصفحات. لذلك فإن هذه feature غير نشطة بشكل افتراضي.
+في معظم الحالات، يكون HTML مخصصًا للعرض في المتصفحات التي لا يتم فيها تنفيذ ترقيم الصفحات. لذا فإن feature غير نشط بشكل افتراضي.
 
 ### أمثلة
 
-يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بهيكل القسم / معلومات إعداد الصفحة عند الحفظ بتنسيق HTML.
+يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بمعلومات إعداد بنية القسم/الصفحة عند الحفظ في HTML.
 
 ```csharp
 Document doc = new Document();
@@ -37,11 +37,11 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// عند حفظ المستند إلى HTML ، يمكننا تمرير كائن SaveOptions
-// لتقرر ما إذا كنت تريد الاحتفاظ بإعدادات إعداد الصفحة أو تجاهلها.
-// إذا قمنا بتعيين علامة "ExportPageSetup" على "true" ، فسيحتوي مستند HTML الناتج على تكوين إعداد الصفحة الخاص بنا.
-// إذا قمنا بتعيين علامة "ExportPageSetup" على "خطأ" ، فستتجاهل عملية الحفظ إعدادات إعداد الصفحة الخاصة بنا
-// للقسم الأول ، وسيبدو كلا القسمين متطابقين.
+// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد ما إذا كنت تريد الاحتفاظ بإعدادات الصفحة أم تجاهلها.
+// إذا قمنا بتعيين علامة "ExportPageSetup" على "صحيح"، فسيحتوي مستند HTML الناتج على تكوين إعداد الصفحة الخاص بنا.
+// إذا قمنا بتعيين علامة "ExportPageSetup" على "خطأ"، فستتجاهل عملية الحفظ إعدادات إعداد الصفحة لدينا
+// للقسم الأول، وسيبدو كلا القسمين متطابقين.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageSetup.html", options);
@@ -52,13 +52,13 @@ if (exportPageSetup)
 {
     Assert.True(outDocContents.Contains(
         "<style type=\"text/css\">" +
-            "@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt }" +
-            "@page Section2 { size:612pt 792pt; margin:70.85pt }" +
-            "div.Section1 { page:Section1 }div.Section2 { page:Section2 }" +
+            "@page Section_1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "@page Section_2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "div.Section_1 { page:Section_1 }div.Section_2 { page:Section_2 }" +
         "</style>"));
 
     Assert.True(outDocContents.Contains(
-        "<div class=\"Section1\">" +
+        "<div class=\"Section_1\">" +
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<span>Section 1</span>" +
             "</p>" +

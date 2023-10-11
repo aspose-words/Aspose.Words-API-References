@@ -1,14 +1,14 @@
 ---
 title: Font.EmphasisMark
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين علامة التأكيد المطبقة على هذا التنسيق.
+description: Font ملكية. الحصول على أو تعيين علامة التركيز المطبقة على هذا التنسيق.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-الحصول على أو تعيين علامة التأكيد المطبقة على هذا التنسيق.
+الحصول على أو تعيين علامة التركيز المطبقة على هذا التنسيق.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -16,12 +16,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إضافة حرف إضافي مقدم أعلى / أسفل الحرف الرسومي.
+يوضح كيفية إضافة حرف إضافي معروض أعلى/أسفل الحرف الرسومي.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// الأنواع الممكنة من علامة التركيز:
+// الأنواع المحتملة لعلامة التركيز:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

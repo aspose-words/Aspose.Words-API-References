@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.NewParent
 second_title: Aspose.Words لمراجع .NET API
-description: NodeChangingArgs ملكية. الحصول على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
+description: NodeChangingArgs ملكية. يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-الحصول على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
+يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
 
 ```csharp
 public Node NewParent { get; }
@@ -16,9 +16,10 @@ public Node NewParent { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ public Node NewParent { get; }
 }
 
 /// <summary>
-/// يطبع كل إدخال / إزالة عقدة كما يحدث في المستند.
+/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

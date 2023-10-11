@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. إرجاع كائن العداد .
+description: StructuredDocumentTagCollection طريقة. يُرجع كائن العداد.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
 ## StructuredDocumentTagCollection.GetEnumerator method
 
-إرجاع كائن العداد .
+يُرجع كائن العداد.
 
 ```csharp
 public IEnumerator<IStructuredDocumentTag> GetEnumerator()

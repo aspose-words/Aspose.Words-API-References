@@ -3,7 +3,7 @@ title: Style.Document
 second_title: Aspose.Words لمراجع .NET API
 description: Style ملكية. الحصول على مستند المالك.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/style/document/
 ---
 ## Style.Document property
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وإدراج جميع الأنماط التي تم إنشاؤها باستخدام Aspose.Words تحتوي على كل الأنماط التي تم إنشاؤها باستخدام Aspose.Words بشكل افتراضي.
+// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

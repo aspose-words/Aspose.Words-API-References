@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.Event
 second_title: Aspose.Words لمراجع .NET API
-description: PageLayoutCallbackArgs ملكية. يحصل على الحدث.
+description: PageLayoutCallbackArgs ملكية. الحصول على الحدث.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
 ## PageLayoutCallbackArgs.Event property
 
-يحصل على الحدث.
+الحصول على الحدث.
 
 ```csharp
 public PageLayoutEvent Event { get; }
@@ -16,10 +16,9 @@ public PageLayoutEvent Event { get; }
 
 ### أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط مع استدعاء التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -36,7 +35,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض صفحة ننفذها لإعادة تدفق الصفحة إلى صورة في نظام الملفات المحلي.
+/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

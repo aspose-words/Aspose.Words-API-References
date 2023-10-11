@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم استخدام عارض GDI  أو Aspose.Words ملف تعريف عند الحفظ في EMF .
+description: ImageSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام عارض ملف التعريف GDI أو Aspose.Words عند الحفظ في EMF.
 type: docs
-weight: 180
+weight: 190
 url: /ar/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم استخدام عارض GDI + أو Aspose.Words ملف تعريف عند الحفظ في EMF .
+الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام عارض ملف التعريف GDI+ أو Aspose.Words عند الحفظ في EMF.
 
 ```csharp
 public bool UseGdiEmfRenderer { get; set; }
@@ -16,19 +16,19 @@ public bool UseGdiEmfRenderer { get; set; }
 
 ### ملاحظات
 
-إذا تم التعيين على`حقيقي`يتم استخدام عارض ملف تعريف GDI +. أي محتوى مكتوب إلى كائن GDI + graphics وحفظه في ملف التعريف.
+إذا تم تعيينه على`حقيقي` يتم استخدام عارض ملف التعريف GDI+. أي تتم كتابة المحتوى إلى كائن GDI+ graphics ويتم حفظه في ملف التعريف.
 
-إذا تم التعيين على`خاطئة` يتم استخدام عارض ملف التعريف Aspose.Words. أي محتوى مكتوب مباشرة إلى تنسيق ملف التعريف مع Aspose.Words.
+إذا تم تعيينه على`خطأ شنيع` يتم استخدام عارض ملف تعريف Aspose.Words. أي تتم كتابة المحتوى مباشرة إلى تنسيق ملف التعريف باستخدام Aspose.Words.
 
 يكون له تأثير فقط عند الحفظ في EMF.
 
-GDI + الادخار يعمل فقط على .NET.
+يعمل حفظ GDI+ على .NET فقط.
 
-النظام الأساسي`حقيقي`.
+القيمة الافتراضية هي`حقيقي`.
 
 ### أمثلة
 
-يوضح كيفية اختيار جهاز عرض عند تحويل مستند إلى .emf.
+يوضح كيفية اختيار العارض عند تحويل مستند إلى .emf.
 
 ```csharp
 Document doc = new Document();
@@ -38,15 +38,15 @@ Document doc = new Document();
             builder.Writeln("Hello world!");
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // عندما نحفظ المستند كصورة EMF ، يمكننا تمرير كائن SaveOptions لتحديد عارض للصورة.
-            // إذا قمنا بتعيين علامة "UseGdiEmfRenderer" على "true" ، فسيستخدم Aspose.Words عارض GDI +.
-            // إذا قمنا بتعيين علامة "UseGdiEmfRenderer" على "false" ، فسيستخدم Aspose.Words عارض ملف التعريف الخاص به.
+            // عندما نحفظ المستند كصورة EMF، يمكننا تمرير كائن SaveOptions لتحديد عارض للصورة.
+            // إذا قمنا بتعيين علامة "UseGdiEmfRenderer" على "صحيح"، فسوف يستخدم Aspose.Words عارض GDI+.
+            // إذا قمنا بتعيين علامة "UseGdiEmfRenderer" على "خطأ"، فسوف يستخدم Aspose.Words عارض ملف التعريف الخاص به.
             ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Emf);
             saveOptions.UseGdiEmfRenderer = useGdiEmfRenderer;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Renderer.emf", saveOptions);
 
-            // يقوم عارض GDI + عادةً بإنشاء ملفات أكبر.
+            // عادةً ما يقوم عارض GDI+ بإنشاء ملفات أكبر.
             if (useGdiEmfRenderer)
 #if NET48 || JAVA
                 Assert.That(300000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));

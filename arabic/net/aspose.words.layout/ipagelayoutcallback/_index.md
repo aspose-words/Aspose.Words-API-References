@@ -3,7 +3,7 @@ title: Interface IPageLayoutCallback
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Layout.IPageLayoutCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء إنشاء نموذج تخطيط الصفحة وعرضه.
 type: docs
-weight: 3110
+weight: 3310
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -18,24 +18,23 @@ public interface IPageLayoutCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | يتم استدعاء هذا لإخطار بناء التخطيط وتقديم التقدم . |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم. |
 
 ### ملاحظات
 
-الاستخدام الأساسي لهذه الواجهة هو السماح للتعليمات البرمجية للتطبيق بإحباط عملية الإنشاء.
+الاستخدام الأساسي لهذه الواجهة هو السماح لكود التطبيق بإحباط عملية الإنشاء.
 
-من الممكن بناء نموذج تخطيط الصفحة لصفحات قليلة فقط في بداية المستند ثم إحباط العملية وعرض ما تم إنشاؤه بالفعل فقط.
+من الممكن إنشاء نموذج تخطيط صفحة لعدد قليل من الصفحات فقط في بداية المستند ثم إحباط العملية وعرض ما تم إنشاؤه بالفعل فقط.
 
-لاحظ ، مع ذلك ، أن نتائج العرض قد لا تتطابق مع ما سيتم عرضه لكل صفحة إذا كانت العملية ستنتهي.
+مع ذلك، لاحظ أن نتائج العرض قد لا تتطابق مع ما سيتم عرضه لكل صفحة إذا كانت العملية قد انتهت.
 
 قد لا تعمل هذه التقنية مع كل مستند أو قد تفشل تمامًا.
 
 ### أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط مع استدعاء التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -52,7 +51,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض صفحة ننفذها لإعادة تدفق الصفحة إلى صورة في نظام الملفات المحلي.
+/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

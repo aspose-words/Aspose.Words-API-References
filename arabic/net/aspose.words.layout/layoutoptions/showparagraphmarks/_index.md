@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. الإعداد الافتراضي هو False .
+description: LayoutOptions ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض علامات الفقرة أم لا. الإعداد الافتراضي هوخطأ شنيع .
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. الإعداد الافتراضي هو False .
+الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض علامات الفقرة أم لا. الإعداد الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -16,13 +16,13 @@ public bool ShowParagraphMarks { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إظهار علامات الفقرات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية إظهار علامات الفقرة في مستند الإخراج المعروض.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// أضف بعض الفقرات ، ثم قم بتمكين علامات الفقرات لإظهار نهايات الفقرات
-// مع رمز بيلكرو (¶) عند تقديم المستند.
+// أضف بعض الفقرات، ثم قم بتمكين علامات الفقرات لإظهار نهايات الفقرات
+// مع رمز pilcrow (¶) عندما نقوم بعرض المستند.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

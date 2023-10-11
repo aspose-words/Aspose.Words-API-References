@@ -1,14 +1,14 @@
 ---
 title: Enum MeasurementUnits
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MeasurementUnits تعداد. يحدد وحدة القياس .
+description: Aspose.Words.MeasurementUnits تعداد. تحدد وحدة القياس.
 type: docs
-weight: 3910
+weight: 4150
 url: /ar/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
 
-يحدد وحدة القياس .
+تحدد وحدة القياس.
 
 ```csharp
 public enum MeasurementUnits
@@ -18,11 +18,11 @@ public enum MeasurementUnits
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Inches | `0` | بوصة . |
-| Centimeters | `1` | سنتيمتر . |
-| Millimeters | `2` | مليمتر . |
-| Points | `3` | النقاط . |
-| Picas | `4` | Picas (شائعة الاستخدام في تباعد خطوط الآلة الكاتبة التقليدية). |
+| Inches | `0` | بوصة. |
+| Centimeters | `1` | سنتيمترات. |
+| Millimeters | `2` | ملليمتر. |
+| Points | `3` | النقاط. |
+| Picas | `4` | بيكاس (يشيع استخدامه في تباعد خطوط الآلة الكاتبة التقليدية). |
 
 ### أنظر أيضا
 

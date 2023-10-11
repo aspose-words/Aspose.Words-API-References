@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Email
 second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
+description: SignatureLineOptions ملكية. الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
+الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
 
 ```csharp
 public string Email { get; set; }
@@ -16,7 +16,7 @@ public string Email { get; set; }
 
 ### أمثلة
 
-يوضح كيفية توقيع مستند بشهادة شخصية وسطر توقيع.
+يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ ، وتحقق من أن خصائص "IsSigned" و "IsValid" تساوي "true" ،
+// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

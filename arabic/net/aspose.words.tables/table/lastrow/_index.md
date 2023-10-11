@@ -1,14 +1,14 @@
 ---
 title: Table.LastRow
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. إرجاع الأخير صف عقدة في الجدول .
+description: Table ملكية. إرجاع الأخيرRow العقدة في الجدول.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-إرجاع الأخير **صف** عقدة في الجدول .
+إرجاع الأخير[`Row`](../../row/) العقدة في الجدول.
 
 ```csharp
 public Row LastRow { get; }
@@ -16,7 +16,7 @@ public Row LastRow { get; }
 
 ### أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كل الجداول في المستند.
+يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

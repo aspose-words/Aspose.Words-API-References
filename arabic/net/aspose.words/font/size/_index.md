@@ -1,14 +1,14 @@
 ---
 title: Font.Size
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تحديد حجم الخط بالنقاط.
+description: Font ملكية. الحصول على حجم الخط أو تعيينه بالنقاط.
 type: docs
 weight: 340
 url: /ar/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-الحصول على أو تحديد حجم الخط بالنقاط.
+الحصول على حجم الخط أو تعيينه بالنقاط.
 
 ```csharp
 public double Size { get; set; }
@@ -37,7 +37,7 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد تنسيق الخط ، ثم أضف نصًا.
+// حدد تنسيق الخط، ثم أضف النص.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

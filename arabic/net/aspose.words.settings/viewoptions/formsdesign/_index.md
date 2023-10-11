@@ -1,14 +1,14 @@
 ---
 title: ViewOptions.FormsDesign
 second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. يحدد ما إذا كان المستند في وضع تصميم النماذج.
+description: ViewOptions ملكية. يحدد ما إذا كانت الوثيقة في وضع تصميم النماذج.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/viewoptions/formsdesign/
 ---
 ## ViewOptions.FormsDesign property
 
-يحدد ما إذا كان المستند في وضع تصميم النماذج.
+يحدد ما إذا كانت الوثيقة في وضع تصميم النماذج.
 
 ```csharp
 public bool FormsDesign { get; set; }
@@ -20,14 +20,14 @@ public bool FormsDesign { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تمكين / تعطيل وضع تصميم النماذج.
+يوضح كيفية تمكين/تعطيل وضع تصميم النماذج.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// اضبط خاصية "FormsDesign" على "false" للإبقاء على وضع تصميم النماذج معطلاً.
+// قم بتعيين خاصية "FormsDesign" على "خطأ" لإبقاء وضع تصميم النماذج معطلاً.
 // اضبط خاصية "FormsDesign" على "true" لتمكين وضع تصميم النماذج.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 

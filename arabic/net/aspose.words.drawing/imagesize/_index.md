@@ -1,14 +1,16 @@
 ---
 title: Class ImageSize
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ImageSize فصل. يحتوي على معلومات حول حجم الصورة ودقتها .
+description: Aspose.Words.Drawing.ImageSize فصل. يحتوي على معلومات حول حجم الصورة ودقتها.
 type: docs
-weight: 940
+weight: 1070
 url: /ar/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
-يحتوي على معلومات حول حجم الصورة ودقتها .
+يحتوي على معلومات حول حجم الصورة ودقتها.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الصور](https://docs.aspose.com/words/net/working-with-images/) مقالة توثيقية.
 
 ```csharp
 public class ImageSize
@@ -18,23 +20,23 @@ public class ImageSize
 
 | اسم | وصف |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | يقوم بتهيئة العرض والارتفاع للقيم المحددة بالبكسل. يقوم بتهيئة الدقة إلى 96 نقطة في البوصة. _ |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | يقوم بتهيئة العرض والارتفاع والدقة للقيم المحددة. |
+| [ImageSize](imagesize/#constructor)(int, int) | تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة. |
+| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | تهيئة العرض والارتفاع والدقة للقيم المحددة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | الحصول على ارتفاع الصورة بالبكسل . |
-| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة. |
-| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution/) { get; } | الحصول على الدقة الأفقية في DPI. |
-| [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution/) { get; } | الحصول على الدقة الرأسية في DPI. |
-| [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | يحصل على عرض الصورة بالبكسل. |
-| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة. |
+| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | الحصول على ارتفاع الصورة بالبكسل. |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | الحصول على ارتفاع الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة. |
+| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution/) { get; } | الحصول على الدقة الأفقية بـ DPI. |
+| [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution/) { get; } | الحصول على الدقة الرأسية بـ DPI. |
+| [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | الحصول على عرض الصورة بالبكسل. |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | الحصول على عرض الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة. |
 
 ### أمثلة
 
-يوضح كيفية تغيير حجم الشكل بصورة.
+يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
 ```csharp
 #if NET48 || JAVA
@@ -49,35 +51,35 @@ public class ImageSize
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // عندما نقوم بإدخال صورة باستخدام طريقة "InsertImage" ، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث ،
-            // عندما نعرض المستند باستخدام تكبير بنسبة 100٪ في Microsoft Word ، يعرض الشكل الصورة بحجمها الفعلي.
+            // عندما نقوم بإدراج صورة باستخدام طريقة "InsertImage"، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث،
+            // عندما نعرض المستند باستخدام تكبير/تصغير بنسبة 100% في برنامج Microsoft Word، يعرض الشكل الصورة بحجمها الفعلي.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // ستؤدي الصورة مقاس 400 × 400 إلى إنشاء كائن ImageData بحجم صورة 300 × 300 نقطة.
+            // ستؤدي الصورة مقاس 400 × 400 إلى إنشاء كائن ImageData بحجم صورة يبلغ 300 × 300 نقطة.
             ImageSize imageSize = shape.ImageData.ImageSize;
 
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // إذا كانت أبعاد الشكل تتطابق مع أبعاد بيانات الصورة ،
-            // ثم يعرض الشكل الصورة بحجمها الأصلي.
+            // إذا كانت أبعاد الشكل تطابق أبعاد بيانات الصورة،
+            // فإن الشكل يعرض الصورة بحجمها الأصلي.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-             // تصغير الحجم الكلي للشكل بنسبة 50٪.
+             // تقليل الحجم الكلي للشكل بنسبة 50%.
             shape.Width *= 0.5;
 
              // تنطبق عوامل القياس على كل من العرض والارتفاع في نفس الوقت للحفاظ على تناسب الشكل.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 
-            // عندما نغير حجم الشكل ، يظل حجم بيانات الصورة كما هو.
+            // عندما نقوم بتغيير حجم الشكل، يظل حجم بيانات الصورة كما هو.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق مقياس بناءً على حجم الصورة.
+            // يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق القياس بناءً على حجم الصورة.
             shape.Width = imageSize.WidthPoints * 1.1;
 
             Assert.AreEqual(330.0d, shape.Width);

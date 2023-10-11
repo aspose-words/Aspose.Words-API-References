@@ -1,14 +1,14 @@
 ---
 title: Metered.GetConsumptionCredit
 second_title: Aspose.Words لمراجع .NET API
-description: Metered طريقة. يحصل على ائتمان الاستهلاك
+description: Metered طريقة. يحصل على رصيد الاستهلاك
 type: docs
 weight: 30
 url: /ar/net/aspose.words/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-يحصل على ائتمان الاستهلاك
+يحصل على رصيد الاستهلاك
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -20,21 +20,21 @@ public static decimal GetConsumptionCredit()
 
 ### أمثلة
 
-يوضح كيفية تنشيط الترخيص المقنن وتتبع الائتمان / الاستهلاك.
+يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
 
 ```csharp
-// أنشئ ترخيصًا جديدًا مقننًا ، ثم اطبع إحصائيات الاستخدام الخاصة به.
+// أنشئ ترخيصًا محدودًا جديدًا، ثم اطبع إحصائيات الاستخدام الخاصة به.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// التشغيل باستخدام Aspose.Words ، ثم اطبع إحصائياتنا المقننة مرة أخرى لترى كم أنفقنا.
+// قم بالتشغيل باستخدام Aspose.Words، ثم قم بطباعة الإحصائيات المقاسة لدينا مرة أخرى لمعرفة المبلغ الذي أنفقناه.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-لا ترسل آلية الترخيص Aspose Metered Licensing بيانات الاستخدام لشراء الخادم في كل مرة ،
+// لا تقوم آلية الترخيص المقننة بإرسال بيانات الاستخدام لشراء الخادم في كل مرة،
 // تحتاج إلى استخدام الانتظار.
 System.Threading.Thread.Sleep(10000);
 

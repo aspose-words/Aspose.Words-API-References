@@ -1,14 +1,14 @@
 ---
 title: MailMerge.DeleteFields
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. يزيل الحقول المتعلقة بدمج المراسلات من المستند.
+description: MailMerge طريقة. إزالة الحقول المرتبطة بدمج البريد من المستند.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge.DeleteFields method
 
-يزيل الحقول المتعلقة بدمج المراسلات من المستند.
+إزالة الحقول المرتبطة بدمج البريد من المستند.
 
 ```csharp
 public void DeleteFields()
@@ -16,13 +16,13 @@ public void DeleteFields()
 
 ### ملاحظات
 
-تزيل هذه الطريقة حقول MERGEFIELD و NEXT من المستند.
+تقوم هذه الطريقة بإزالة حقول MERGEFIELD وNEXT من المستند.
 
-قد تكون هذه الطريقة مفيدة إذا كانت عملية دمج المراسلات لا تحتاج دائمًا إلى لتعبئة كافة الحقول في المستند. استخدم هذه الطريقة لإزالة كافة حقول دمج المراسلات المتبقية.
+قد تكون هذه الطريقة مفيدة إذا كانت عملية دمج البريد لديك لا تحتاج دائمًا إلى لملء كافة الحقول في المستند. استخدم هذه الطريقة لإزالة كافة حقول دمج المراسلات المتبقية .
 
 ### أمثلة
 
-يوضح كيفية حذف جميع MERGEFIELDs من مستند.
+يوضح كيفية حذف كافة MERGEFIELDs من مستند.
 
 ```csharp
 Document doc = new Document();

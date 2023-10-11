@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس / التذييلات الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هيحقيقي .
+description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس/التذييلات الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هيحقيقي .
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس / التذييلات الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هي`حقيقي` .
+الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس/التذييلات الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تحديد تجاهل أو عدم تنسيق المصدر لمحتوى الرؤوس / التذييلات.
+يوضح كيفية تحديد تجاهل أو عدم تنسيق المصدر لمحتوى الرؤوس/التذييلات.
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");

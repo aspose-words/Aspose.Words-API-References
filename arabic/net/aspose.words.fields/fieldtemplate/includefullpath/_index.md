@@ -1,14 +1,14 @@
 ---
 title: FieldTemplate.IncludeFullPath
 second_title: Aspose.Words لمراجع .NET API
-description: FieldTemplate ملكية. يحصل أو يحدد ما إذا كان سيتم تضمين اسم مسار الملف الكامل.
+description: FieldTemplate ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtemplate/includefullpath/
 ---
 ## FieldTemplate.IncludeFullPath property
 
-يحصل أو يحدد ما إذا كان سيتم تضمين اسم مسار الملف الكامل.
+الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -16,14 +16,14 @@ public bool IncludeFullPath { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام حقل TEMPLATE لعرض موقع نظام الملفات المحلي لقالب المستند.
+يوضح كيفية استخدام حقل القالب لعرض موقع نظام الملفات المحلي لقالب المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يمكننا تعيين اسم القالب باستخدام الحقول. يتم استخدام هذه الخاصية عندما يكون "doc.AttachedTemplate" فارغًا.
-// إذا كانت هذه الخاصية فارغة ، فسيتم استخدام اسم ملف القالب الافتراضي "Normal.dotm".
+// إذا كانت هذه الخاصية فارغة، فسيتم استخدام اسم ملف القالب الافتراضي "Normal.dotm".
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

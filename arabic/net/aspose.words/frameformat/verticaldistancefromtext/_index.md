@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحدد المسافة العمودية بالنقاط بين الإطار والنص المحيط.
+description: FrameFormat ملكية. يحدد المسافة الرأسية بالنقاط بين الإطار والنص المحيط.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/frameformat/verticaldistancefromtext/
 ---
 ## FrameFormat.VerticalDistanceFromText property
 
-يحدد المسافة العمودية (بالنقاط) بين الإطار والنص المحيط.
+يحدد المسافة الرأسية (بالنقاط) بين الإطار والنص المحيط.
 
 ```csharp
 public double VerticalDistanceFromText { get; }
@@ -16,7 +16,7 @@ public double VerticalDistanceFromText { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

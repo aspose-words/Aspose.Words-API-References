@@ -1,14 +1,16 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection فصل. مجموعة منBuildingBlock كائنات في المستند .
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection فصل. مجموعة منBuildingBlockالكائنات الموجودة في المستند.
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-مجموعة من[`BuildingBlock`](../buildingblock/) كائنات في المستند .
+مجموعة من[`BuildingBlock`](../buildingblock/)الكائنات الموجودة في المستند.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -25,23 +27,23 @@ public class BuildingBlockCollection : NodeCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | يضيف عقدة إلى نهاية المجموعة. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | يزيل كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | لتحديد ما إذا كانت العقدة موجودة في المجموعة. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | إضافة عقدة إلى نهاية المجموعة. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة بالفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | يزيل العقدة من المجموعة ومن الوثيقة. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | يزيل العقدة في الفهرس المحدد من المجموعة ومن المستند. |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | نسخ جميع الكتل البرمجية الإنشائية من المجموعة إلى مصفوفة جديدة من الكتل البرمجية الإنشائية. (2 methods) |
+| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(Node) | إزالة العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية. (2 methods) |
 
 ### ملاحظات
 
-لا تقوم بإنشاء نسخ من هذه الفئة مباشرة. للوصول إلى مجموعة من كتل الإنشاء ، استخدم ملحق[`BuildingBlocks`](../glossarydocument/buildingblocks/) منشأه.
+لا تقم بإنشاء مثيلات هذه الفئة مباشرة. للوصول إلى مجموعة من الكتل البرمجية الإنشائية، استخدم[`BuildingBlocks`](../glossarydocument/buildingblocks/) ملكية.
 
 ### أمثلة
 
-يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند مسرد.
+يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
 ```csharp
 public void GlossaryDocument()
@@ -59,33 +61,32 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // هناك طرق مختلفة للوصول إلى اللبنات الأساسية.
-    // 1 - احصل على اللبنات الأساسية الأولى / الأخيرة في المجموعة:
+    // هناك طرق مختلفة للوصول إلى الكتل البرمجية الإنشائية.
+    // 1 - احصل على اللبنات الأولى/الأخيرة في المجموعة:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - احصل على قالب بناء حسب الفهرس:
+    // 2 - الحصول على كتلة بناء حسب الفهرس:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - احصل على أول قالب إنشائي يطابق معرضًا واسمًا وفئة:
+    // 3 - احصل على أول كتلة بناء تطابق المعرض والاسم والفئة:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // سنفعل ذلك باستخدام زائر مخصص ،
-    // الذي سيعطي كل BuildingBlock في GlossaryDocument GUID فريدًا
+    // سنفعل ذلك باستخدام زائر مخصص،
+    // والذي سيمنح كل BuildingBlock في GlossaryDocument معرفًا فريدًا (GUID).
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // في Microsoft Word ، يمكننا الوصول إلى اللبنات الأساسية عبر "إدراج" - > "أجزاء سريعة" - >. "منظم كتل البناء".
+    // في Microsoft Word، يمكننا الوصول إلى الكتل البرمجية الإنشائية عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// يعطي كل كتلة إنشائية في مستند قاموس المصطلحات الذي تمت زيارته GUID فريدًا.
-/// يخزن أزواج الكتل البرمجية الإنشائية GUID في قاموس.
+/// يمنح كل كتلة إنشاء في مستند المسرد الذي تمت زيارته معرفًا فريدًا (GUID).
+/// يخزن أزواج كتل بناء GUID في القاموس.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: Enum OfficeMathDisplayType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Math.OfficeMathDisplayType تعداد. يحدد نوع تنسيق العرض للمعادلة.
+description: Aspose.Words.Math.OfficeMathDisplayType تعداد. يحدد نوع تنسيق عرض المعادلة.
 type: docs
-weight: 3890
+weight: 4130
 url: /ar/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
 
-يحدد نوع تنسيق العرض للمعادلة.
+يحدد نوع تنسيق عرض المعادلة.
 
 ```csharp
 public enum OfficeMathDisplayType
@@ -18,26 +18,23 @@ public enum OfficeMathDisplayType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Display | `0` | يتم عرض Office Math على السطر الخاص به. |
+| Display | `0` | يتم عرض Office Math في السطر الخاص بها. |
 | Inline | `1` | يتم عرض Office Math سطريًا مع النص. |
 
 ### أمثلة
 
-يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
+يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// تكون عُقد OfficeMath التابعة لعقد OfficeMath الأخرى مضمنة دائمًا.
-// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع عرضها.
+// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// تستخدم تنسيقات OOXML و WML الخاصية "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // تغيير الموقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

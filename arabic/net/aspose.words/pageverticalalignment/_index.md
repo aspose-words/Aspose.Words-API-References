@@ -1,14 +1,14 @@
 ---
 title: Enum PageVerticalAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageVerticalAlignment تعداد. تحديد التبرير الرأسي للنص في كل صفحة.
+description: Aspose.Words.PageVerticalAlignment تعداد. يحدد الضبط الرأسي للنص في كل صفحة.
 type: docs
-weight: 4130
+weight: 4370
 url: /ar/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
 
-تحديد التبرير الرأسي للنص في كل صفحة.
+يحدد الضبط الرأسي للنص في كل صفحة.
 
 ```csharp
 public enum PageVerticalAlignment
@@ -18,26 +18,26 @@ public enum PageVerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Bottom | `3` | تمت محاذاة النص أسفل الصفحة. |
+| Bottom | `3` | تتم محاذاة النص في أسفل الصفحة. |
 | Center | `1` | تمت محاذاة النص في منتصف الصفحة. |
-| Justify | `2` | ينتشر النص لملء الصفحة. |
-| Top | `0` | تمت محاذاة النص أعلى الصفحة. |
+| Justify | `2` | النص منتشر لملء الصفحة. |
+| Top | `0` | تتم محاذاة النص في أعلى الصفحة. |
 
 ### أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

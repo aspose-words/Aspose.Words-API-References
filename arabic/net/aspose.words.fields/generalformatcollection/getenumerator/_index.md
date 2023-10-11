@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection طريقة. إرجاع كائن العداد .
+description: GeneralFormatCollection طريقة. يُرجع كائن العداد.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/generalformatcollection/getenumerator/
 ---
 ## GeneralFormatCollection.GetEnumerator method
 
-إرجاع كائن العداد .
+يُرجع كائن العداد.
 
 ```csharp
 public IEnumerator<GeneralFormat> GetEnumerator()
@@ -22,7 +22,7 @@ public IEnumerator<GeneralFormat> GetEnumerator()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون أي تنسيق مطبق.
+// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -38,7 +38,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - تنسيق التاريخ / الوقت:
+// 2 - تنسيق التاريخ/الوقت:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -64,7 +64,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكله الأصلي.
+// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.SdtType
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل على نوع من هذا علامة وثيقة منظم .
+description: StructuredDocumentTag ملكية. يحصل على نوع من هذا علامة الوثيقة المنظمة .
 type: docs
 weight: 250
 url: /ar/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-يحصل على نوع من هذا **علامة وثيقة منظم** .
+يحصل على نوع من هذا **علامة الوثيقة المنظمة** .
 
 ```csharp
 public SdtType SdtType { get; }
@@ -16,7 +16,7 @@ public SdtType SdtType { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على نوع علامة مستند منظم.
+يوضح كيفية الحصول على نوع علامة المستند المنظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

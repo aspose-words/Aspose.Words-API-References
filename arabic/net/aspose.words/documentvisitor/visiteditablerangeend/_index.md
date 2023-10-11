@@ -24,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 ### أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في مستند.
+يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في المستند.
 
 ```csharp
 public void EditableRangeToText()
@@ -32,17 +32,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يتجاوز الشجرة غير الثنائية للعقد الفرعية للعقد.
-/// ينشئ خريطة في شكل سلسلة لكل عقد EditableRange المصادفة وأبنائها.
+/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
+/// ينشئ خريطة على شكل سلسلة من جميع عقد EditableRange التي تمت مواجهتها وأبناءها.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -61,18 +61,18 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // نريد طباعة محتويات عمليات التشغيل ، ولكن فقط إذا كانت داخل الأشكال ، كما هو الحال في حالة مربعات النص
+        // نريد طباعة محتويات عمليات التشغيل، ولكن فقط إذا كانت داخل الأشكال، كما هو الحال في مربعات النص
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRange في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRange في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -85,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند انتهاء زيارة عقدة EditableRange.
+    /// يتم الاتصال به عند انتهاء زيارة عقدة EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -97,9 +97,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint.Format
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPoint ملكية. يوفر الوصول لتعبئة وتنسيق الخط لنقطة البيانات هذه.
+description: ChartDataPoint ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لنقطة البيانات هذه.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property
 
-يوفر الوصول لتعبئة وتنسيق الخط لنقطة البيانات هذه.
+يوفر الوصول إلى التعبئة وتنسيق الخط لنقطة البيانات هذه.
 
 ```csharp
 public ChartFormat Format { get; }

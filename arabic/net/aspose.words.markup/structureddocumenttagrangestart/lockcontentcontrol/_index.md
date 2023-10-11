@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContentControl
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. عند التعيين على صواب  ستمنع هذه الخاصية المستخدم من حذف علامة المستند المهيكلة هذه.
+description: StructuredDocumentTagRangeStart ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من حذف علامة المستند المنظمة هذه.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-عند التعيين على "صواب" ، ستمنع هذه الخاصية المستخدم من حذف علامة المستند المهيكلة هذه.
+عند الضبط على`حقيقي` ، ستمنع هذه الخاصية المستخدم من حذف علامة المستند المنظمة هذه.
 
 ```csharp
 public bool LockContentControl { get; set; }

@@ -3,7 +3,7 @@ title: Enum ImageColorMode
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.ImageColorMode تعداد. يحدد وضع الألوان للصور التي تم إنشاؤها لصفحات المستند.
 type: docs
-weight: 4950
+weight: 5210
 url: /ar/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
@@ -24,7 +24,7 @@ public enum ImageColorMode
 
 ### أمثلة
 
-يوضح كيفية تعيين وضع الألوان عند عرض المستندات.
+يوضح كيفية ضبط وضع الألوان عند عرض المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-            // حدد وضع اللون للصورة التي ستنشئها عملية الحفظ.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.BlackAndWhite" ،
-            // ستطبق عملية الحفظ تقليل اللون الرمادي أثناء تقديم المستند.
-             // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.Grayscale" ،
-            // ستؤدي عملية الحفظ إلى تحويل المستند إلى صورة أحادية اللون.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "بلا" ، فإن عملية الحفظ ستطبق الطريقة الافتراضية
-            // والاحتفاظ بجميع ألوان المستند في صورة الإخراج.
+            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+            // حدد وضع الألوان للصورة التي ستنشئها عملية الحفظ.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.BlackAndWhite"،
+            // ستطبق عملية الحفظ تقليل اللون الرمادي أثناء عرض المستند.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.Grayscale"،
+            // ستعمل عملية الحفظ على تحويل المستند إلى صورة أحادية اللون.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "لا شيء"، فستطبق عملية الحفظ الطريقة الافتراضية
+            // والحفاظ على جميع ألوان المستند في الصورة الناتجة.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;
 

@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.TextShaperFactory
 second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. يحصل أو يحددITextShaperFactory التنفيذ المستخدم لميزات عرض الطباعة المتقدمة.
+description: LayoutOptions ملكية. يحصل على أو مجموعاتITextShaperFactory التنفيذ المستخدم لميزات عرض الطباعة المتقدمة.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property
 
-يحصل أو يحدد[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) التنفيذ المستخدم لميزات عرض الطباعة المتقدمة.
+يحصل على أو مجموعات[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) التنفيذ المستخدم لميزات عرض الطباعة المتقدمة.
 
 ```csharp
 public ITextShaperFactory TextShaperFactory { get; set; }
@@ -21,14 +21,14 @@ public ITextShaperFactory TextShaperFactory { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "OpenType text shaping.docx");
 
-// Aspose.Words يمكن أن تستخدم كائنات تشكيل النص المقدمة خارجيًا ،
+// يمكن لـ Aspose.Words استخدام كائنات تشكيل النص المتوفرة خارجيًا،
 // التي تمثل الخطوط وتحسب معلومات تشكيل النص.
 // يعد مصنع تشكيل النص ضروريًا للمستندات التي تستخدم خطوطًا متعددة.
-// عند ضبط المصنع لمشكل النص ، يستخدم التخطيط ميزات OpenType.
-// إرجاع خاصية مثيل كائن BasicTextShaperCache ثابت التفاف HarfBuzzTextShaperFactory.
+// عند ضبط مصنع تشكيل النص، يستخدم التخطيط ميزات OpenType.
+// تقوم خاصية المثيل بإرجاع كائن BasicTextShaperCache ثابت يغلف HarfBuzzTextShaperFactory.
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
 
-// حاليًا ، يتم تنفيذ تشكيل النص عند التصدير إلى تنسيقات PDF أو XPS.
+// حاليًا، يتم تنفيذ عملية تشكيل النص عند التصدير إلى تنسيقات PDF أو XPS.
 doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 ```
 

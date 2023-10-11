@@ -1,14 +1,14 @@
 ---
 title: Document.GlossaryDocument
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تحديد مستند المسرد في هذا المستند أو القالب. مستند قاموس المصطلحات هو storage لإدخالات النص التلقائي والتصحيح التلقائي و Building Block المحددة في المستند.
+description: Document ملكية. الحصول على مستند المسرد أو تعيينه داخل هذا المستند أو القالب. مستند المسرد عبارة عن وحدة تخزين لإدخالات النص التلقائي والتصحيح التلقائي وكتل البناء المحددة في المستند.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/document/glossarydocument/
 ---
 ## Document.GlossaryDocument property
 
-الحصول على أو تحديد مستند المسرد في هذا المستند أو القالب. مستند قاموس المصطلحات هو storage لإدخالات النص التلقائي والتصحيح التلقائي و Building Block المحددة في المستند.
+الحصول على مستند المسرد أو تعيينه داخل هذا المستند أو القالب. مستند المسرد عبارة عن وحدة تخزين لإدخالات النص التلقائي والتصحيح التلقائي وكتل البناء المحددة في المستند.
 
 ```csharp
 public GlossaryDocument GlossaryDocument { get; set; }
@@ -16,9 +16,9 @@ public GlossaryDocument GlossaryDocument { get; set; }
 
 ### ملاحظات
 
-تعود هذه الخاصية`لا شيء` إذا لم يكن المستند يحتوي على مستند مسرد.
+تعود هذه الخاصية`باطل` إذا لم يكن المستند يحتوي على مستند مسرد.
 
-يمكنك إضافة مستند مسرد إلى مستند عن طريق إنشاء a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) الكائن والتعيين لهذه الخاصية.
+يمكنك إضافة مستند مسرد إلى مستند عن طريق إنشاء a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) كائن وتعيين لهذه الخاصية.
 
 ### أمثلة
 
@@ -27,12 +27,12 @@ public GlossaryDocument GlossaryDocument { get; set; }
 ```csharp
 public void CreateAndInsert()
 {
-    // مسرد الوثيقة يخزن المستند اللبنات الأساسية.
+    // يقوم مستند قاموس المصطلحات الخاص بالمستند بتخزين الكتل البرمجية الإنشائية.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // قم بإنشاء كتلة إنشاء ، وقم بتسميتها ، ثم قم بإضافتها إلى مستند المسرد.
+    // قم بإنشاء كتلة إنشاء، وقم بتسميتها، ثم قم بإضافتها إلى مستند المسرد.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -40,20 +40,20 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // كل كتل الإنشاء الجديدة GUIDs لها نفس القيمة الصفرية افتراضيًا ، ويمكننا منحها قيمة فريدة جديدة.
+    // جميع المعرفات الفريدة العمومية (GUIDs) الجديدة لها نفس القيمة الصفرية افتراضيًا، ويمكننا منحها قيمة فريدة جديدة.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // تصنف الخصائص التالية اللبنات الأساسية
-    // في القائمة يمكننا الوصول إليها في Microsoft Word عبر "إدراج" - >; "أجزاء سريعة" - >. "منظم كتل البناء".
+    // الخصائص التالية تصنف الكتل البرمجية الإنشائية
+    // في القائمة التي يمكننا الوصول إليها في Microsoft Word عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // قبل أن نتمكن من إضافة هذه الكتلة البرمجية الإنشائية إلى وثيقتنا ، سنحتاج إلى إعطائها بعض المحتويات ،
-    // الذي سنفعله باستخدام زائر المستند. سيقوم هذا الزائر أيضًا بتعيين فئة ومعرض وسلوك.
+    // قبل أن نتمكن من إضافة هذه الكتلة البرمجية الإنشائية إلى مستندنا، سنحتاج إلى إعطائها بعض المحتويات،
+    // وهو ما سنفعله باستخدام زائر المستند. سيقوم هذا الزائر أيضًا بتعيين فئة ومعرض وسلوك.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
@@ -61,19 +61,18 @@ public void CreateAndInsert()
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-    // الكتلة نفسها هي قسم يحتوي على النص.
+    // الكتلة نفسها عبارة عن قسم يحتوي على النص.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
-    // الآن ، يمكننا إدراجه في المستند كقسم جديد.
+    // الآن يمكننا إدراجه في المستند كقسم جديد.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // يمكننا أيضًا العثور عليه في منظم قوالب البناء الخاص بـ Microsoft Word ووضعه يدويًا.
+    // يمكننا أيضًا العثور عليه في Building Blocks Organizer الخاص بـ Microsoft Word ووضعه يدويًا.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// يقوم بإعداد كتلة إنشاء تمت زيارتها لإدراجها في المستند كجزء سريع وإضافة نص إلى محتوياتها.
+/// إعداد الكتلة البرمجية الإنشائية التي تمت زيارتها لإدراجها في المستند كجزء سريع وإضافة نص إلى محتوياتها.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -85,15 +84,15 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // تكوين الكتلة البرمجية الإنشائية كجزء سريع ، وإضافة الخصائص المستخدمة بواسطة Building Blocks Organizer.
+        // قم بتكوين الكتلة البرمجية الإنشائية كجزء سريع، وأضف الخصائص المستخدمة بواسطة Building Blocks Organizer.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // إضافة قسم مع النص.
-        // سيؤدي إدراج الكتلة في المستند إلى إلحاق هذا القسم بالعقد الفرعية في الموقع.
+        // أضف قسمًا يحتوي على نص.
+        // سيؤدي إدراج الكتلة في المستند إلى إلحاق هذا القسم بعقده الفرعية في الموقع.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

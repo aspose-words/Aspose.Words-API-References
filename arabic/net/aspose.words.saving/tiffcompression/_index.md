@@ -1,14 +1,14 @@
 ---
 title: Enum TiffCompression
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.TiffCompression تعداد. يحدد نوع الضغط الذي سيتم تطبيقه عند حفظ صور الصفحة في ملف TIFF.
+description: Aspose.Words.Saving.TiffCompression تعداد. يحدد نوع الضغط المطلوب تطبيقه عند حفظ صور الصفحة في ملف TIFF.
 type: docs
-weight: 5350
+weight: 5630
 url: /ar/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-يحدد نوع الضغط الذي سيتم تطبيقه عند حفظ صور الصفحة في ملف TIFF.
+يحدد نوع الضغط المطلوب تطبيقه عند حفظ صور الصفحة في ملف TIFF.
 
 ```csharp
 public enum TiffCompression
@@ -18,11 +18,11 @@ public enum TiffCompression
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا يحدد أي ضغط . |
-| Rle | `1` | تحديد نظام ضغط RLE . |
-| Lzw | `2` | يحدد نظام ضغط LZW . في Java تمت مضاهاته بضغط Deflate (Zip) . |
-| Ccitt3 | `3` | يحدد نظام ضغط CCITT3. |
-| Ccitt4 | `4` | يحدد نظام ضغط CCITT4 . |
+| None | `0` | يحدد عدم الضغط. |
+| Rle | `1` | يحدد نظام ضغط RLE. |
+| Lzw | `2` | يحدد نظام ضغط LZW. في Java تمت محاكاته بواسطة ضغط Deflate (Zip). |
+| Ccitt3 | `3` | يحدد نظام الضغط CCITT3. |
+| Ccitt4 | `4` | يحدد نظام الضغط CCITT4. |
 
 ### أمثلة
 
@@ -34,16 +34,16 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // قم بإنشاء كائن "ImageSaveOptions" يمكننا تمريره إلى طريقة "حفظ" المستند
+            // أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
             // لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // اضبط خاصية "TiffCompression" على "TiffCompression.None" لعدم تطبيق ضغط أثناء الحفظ ،
-            // مما قد ينتج عنه ملف إخراج كبير جدًا.
-            // اضبط خاصية "TiffCompression" على "TiffCompression.Rle" لتطبيق ضغط RLE
-            // اضبط خاصية "TiffCompression" على "TiffCompression.Lzw" لتطبيق ضغط LZW.
-            // اضبط خاصية "TiffCompression" على "TiffCompression.Ccitt3" لتطبيق ضغط CCITT3.
-            // اضبط خاصية "TiffCompression" على "TiffCompression.Ccitt4" لتطبيق ضغط CCITT4.
+            // اضبط خاصية "TiffCompression" على "TiffCompression.None" حتى لا يتم تطبيق أي ضغط أثناء الحفظ،
+            // مما قد يؤدي إلى ملف إخراج كبير جدًا.
+            // قم بتعيين خاصية "TiffCompression" على "TiffCompression.Rle" لتطبيق ضغط RLE
+            // قم بتعيين خاصية "TiffCompression" على "TiffCompression.Lzw" لتطبيق ضغط LZW.
+            // قم بتعيين خاصية "TiffCompression" على "TiffCompression.Ccitt3" لتطبيق ضغط CCITT3.
+            // قم بتعيين خاصية "TiffCompression" على "TiffCompression.Ccitt4" لتطبيق ضغط CCITT4.
             options.TiffCompression = tiffCompression;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);

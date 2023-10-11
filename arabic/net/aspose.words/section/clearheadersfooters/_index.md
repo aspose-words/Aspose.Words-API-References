@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Aspose.Words لمراجع .NET API
 description: Section طريقة. مسح رؤوس وتذييلات هذا القسم.
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -16,13 +16,13 @@ public void ClearHeadersFooters()
 
 ### ملاحظات
 
-تم مسح نص كافة الرؤوس والتذييلات ، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الأشياء نفسها.
+يتم مسح نص كافة الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الكائنات نفسها.
 
-يؤدي ذلك إلى ربط رؤوس وتذييلات هذا القسم برؤوس وتذييلات المقطع السابق.
+وهذا يجعل رؤوس وتذييلات هذا القسم مرتبطة برؤوس وتذييلات القسم السابق.
 
 ### أمثلة
 
-يوضح كيفية مسح محتويات كافة الرؤوس والتذييلات في مقطع ما.
+يوضح كيفية مسح محتويات كافة الرؤوس والتذييلات في القسم.
 
 ```csharp
 Document doc = new Document();
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
-// إفراغ جميع الرؤوس والتذييلات في هذا القسم من جميع محتوياتها.
-// ستظل الرؤوس والتذييلات نفسها موجودة ولكن لن يكون هناك شيء لعرضه.
+// قم بإفراغ جميع الرؤوس والتذييلات في هذا القسم من جميع محتوياتها.
+// ستظل الرؤوس والتذييلات نفسها موجودة ولكن لن يكون هناك أي شيء لعرضه.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

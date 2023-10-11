@@ -1,14 +1,16 @@
 ---
 title: Class FieldPageRef
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldPageRef فصل. تنفيذ حقل PAGEREF .
+description: Aspose.Words.Fields.FieldPageRef فصل. ينفذ حقل PAGEREF.
 type: docs
-weight: 2120
+weight: 2270
 url: /ar/net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class
 
-تنفيذ حقل PAGEREF .
+ينفذ حقل PAGEREF.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldPageRef : Field
@@ -25,33 +27,33 @@ public class FieldPageRef : Field
 | اسم | وصف |
 | --- | --- |
 | [BookmarkName](../../aspose.words.fields/fieldpageref/bookmarkname/) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [InsertHyperlink](../../aspose.words.fields/fieldpageref/inserthyperlink/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج ارتباط تشعبي بالفقرة التي تم وضع إشارة مرجعية عليها. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldpageref/insertrelativeposition/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج موضع نسبي للفقرة التي تم وضع إشارة مرجعية عليها. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [InsertHyperlink](../../aspose.words.fields/fieldpageref/inserthyperlink/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج ارتباط تشعبي للفقرة ذات الإشارة المرجعية. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldpageref/insertrelativeposition/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-يُدرج رقم الصفحة التي تحتوي على الإشارة المرجعية المحددة كمرجع تبادلي .
+إدراج رقم الصفحة التي تحتوي على الإشارة المرجعية المحددة للإسناد الترافقي.
 
 ### أمثلة
 
@@ -61,7 +63,7 @@ public class FieldPageRef : Field
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
@@ -70,17 +72,17 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // يمكننا استخدام علامة \ p لعرض حقل PAGEREF
+    // يمكننا استخدام العلامة \p لعرض حقل PAGEREF
     // موضع الإشارة المرجعية بالنسبة لموضع الحقل.
-    // Bookmark1 موجودة في نفس الصفحة وفوق هذا الحقل ، لذا ستكون النتيجة المعروضة لهذا الحقل "أعلى".
+    // الإشارة المرجعية 1 موجودة في نفس الصفحة وفوق هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أعلى".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    ستكون // Bookmark2 في نفس الصفحة وأسفل هذا الحقل ، لذا ستكون النتيجة المعروضة في هذا الحقل "أدناه".
+    // الإشارة المرجعية 2 ستكون في نفس الصفحة وأسفل هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أدناه".
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // ستظهر Bookmark3 على صفحة مختلفة ، لذلك سيعرض الحقل "في الصفحة 2".
+    // الإشارة المرجعية 3 ستكون في صفحة مختلفة، لذا سيعرض الحقل "في الصفحة 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -88,8 +90,10 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
 /// يستخدم منشئ المستندات لإدراج حقل PAGEREF وتعيين خصائصه.

@@ -3,7 +3,7 @@ title: Style.Font
 second_title: Aspose.Words لمراجع .NET API
 description: Style ملكية. الحصول على تنسيق الأحرف للنمط.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/style/font/
 ---
 ## Style.Font property
@@ -16,11 +16,11 @@ public Font Font { get; }
 
 ### ملاحظات
 
-بالنسبة لأنماط القائمة ، ترجع هذه الخاصية قيمة خالية.
+بالنسبة لأنماط القائمة، تُرجع هذه الخاصية`باطل`.
 
 ### أمثلة
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه مع تنسيق القائمة.
+يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ الوثيقة ، ثم أضف بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
@@ -56,6 +56,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// إعادة تعريف النمط تلقائيًا.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -67,7 +69,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// قم بإزالة نمطنا المخصص من مجموعة أنماط المستند.
+// قم بإزالة النمط المخصص لدينا من مجموعة أنماط المستند.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

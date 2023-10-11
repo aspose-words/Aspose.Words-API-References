@@ -16,17 +16,17 @@ public TableAlignment Alignment { get; set; }
 
 ### ملاحظات
 
-النظام الأساسيLeft.
+القيمة الافتراضية هيLeft.
 
 ### أمثلة
 
-يوضح كيفية تطبيق حد مخطط تفصيلي على جدول.
+يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// محاذاة الجدول إلى وسط الصفحة.
+// قم بمحاذاة الجدول إلى منتصف الصفحة.
 table.Alignment = TableAlignment.Center;
 
 // امسح أي حدود وتظليل موجود من الجدول.
@@ -39,7 +39,7 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// املأ الخلايا بلون أخضر فاتح.
+// املأ الخلايا بلون أخضر فاتح خالص.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

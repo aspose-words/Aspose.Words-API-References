@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 second_title: Aspose.Words لمراجع .NET API
 description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالأحرف للسطر الأول أو المسافة البادئة المعلقة.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
 الحصول على أو تعيين القيمة (بالأحرف) للسطر الأول أو المسافة البادئة المعلقة.
 
-استخدم القيم الموجبة لتعيين المسافة البادئة للسطر الأول ، والقيم السالبة لتعيين المسافة البادئة المعلقة.
+استخدم القيم الموجبة لتعيين المسافة البادئة للسطر الأول، والقيم السالبة لتعيين المسافة البادئة المعلقة.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -25,15 +25,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// يوجد أدناه خمسة خيارات مسافات مختلفة ، إلى جانب الخصائص التي يؤثر تكوينها بشكل غير مباشر.
-// 1 - مسافة بادئة يسرى:
+// فيما يلي خمسة خيارات مختلفة للتباعد، بالإضافة إلى الخصائص التي يؤثر تكوينها بشكل غير مباشر.
+// 1 - المسافة البادئة اليسرى:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
 format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - مسافة بادئة يمنى:
+// 2 - المسافة البادئة اليمنى:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

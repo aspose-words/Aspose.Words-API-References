@@ -1,14 +1,14 @@
 ---
 title: Enum GradientVariant
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.GradientVariant تعداد. يحدد متغير التعبئة المتدرجة.
+description: Aspose.Words.Drawing.GradientVariant تعداد. يحدد المتغير للتعبئة المتدرجة.
 type: docs
-weight: 880
+weight: 1010
 url: /ar/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration
 
-يحدد متغير التعبئة المتدرجة.
+يحدد المتغير للتعبئة المتدرجة.
 
 ```csharp
 public enum GradientVariant
@@ -18,7 +18,7 @@ public enum GradientVariant
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | متغير التدرج "بلا" . |
+| None | `0` | متغير التدرج "لا شيء". |
 | Variant1 | `1` | متغير التدرج 1. |
 | Variant2 | `2` | متغير التدرج 2. |
 | Variant3 | `3` | متغير التدرج 3. |
@@ -26,18 +26,18 @@ public enum GradientVariant
 
 ### ملاحظات
 
-يتوافق مع المتغيرات الأربعة في علامة التبويب التدرج في مربع الحوار "تأثيرات التعبئة" في Word.
+يتوافق مع المتغيرات الأربعة الموجودة في علامة التبويب "التدرج" في مربع الحوار "تأثيرات التعبئة" في Word.
 
 ### أمثلة
 
-يوضح كيفية تعبئة شكل بتدرجات لونية.
+يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// قم بتطبيق تعبئة متدرجة بلون واحد على الشكل باستخدام لون تعبئة متدرج.
+// قم بتطبيق تعبئة متدرجة أحادية اللون على الشكل باستخدام ForeColor للتعبئة المتدرجة.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -46,12 +46,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// تطبيق تعبئة متدرجة ثنائية اللون على الشكل.
+// قم بتطبيق تعبئة متدرجة بلونين على الشكل.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// تغيير لون الخلفية للتعبئة المتدرجة.
+// تغيير اللون الخلفي للتعبئة المتدرجة.
 shape.Fill.BackColor = Color.Yellow;
-// لاحظ أن التغييرات "GradientAngle" إلى "GradientStyle.FromCorner / GradientStyle.FromCenter"
-// لا تحصل التعبئة المتدرجة على أي تأثير ، وستعمل فقط مع التدرج الخطي.
+// لاحظ أن التغييرات "GradientAngle" لـ "GradientStyle.FromCorner/GradientStyle.FromCenter"
+// التعبئة المتدرجة لا تحصل على أي تأثير، فهي ستعمل فقط مع التدرج الخطي.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -59,8 +59,8 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// استخدم خيار التوافق لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "GradientStyle" ،
-// خصائص "GradientVariant" و "GradientAngle" بعد حفظ المستند.
+// استخدم خيار الامتثال لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "GradientStyle"،
+// خصائص "GradientVariant" و"GradientAngle" بعد حفظ المستند.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);

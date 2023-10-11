@@ -3,7 +3,7 @@ title: Document.PackageCustomParts
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. الحصول على أو تعيين مجموعة الأجزاء المخصصة محتوى عشوائي المرتبطة بحزمة OOXML باستخدام علاقات غير معروفة.
 type: docs
-weight: 290
+weight: 310
 url: /ar/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
@@ -16,29 +16,29 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ### ملاحظات
 
-لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة ، فاستخدم ملحق[`CustomXmlParts`](../customxmlparts/) منشأه.
+لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة، فاستخدم ملف[`CustomXmlParts`](../customxmlparts/) ملكية.
 
-تحتوي هذه المجموعة على أجزاء OOXML التي يكون أصلها هو حزمة OOXML وهي أهداف لها "علاقة غير معروفة" . لمزيد من المعلومات ، راجع[`CustomPart`](../../../aspose.words.markup/custompart/).
+تحتوي هذه المجموعة على أجزاء OOXML أصلها هو حزمة OOXML وأهدافها ذات "علاقة غير معروفة". لمزيد من المعلومات راجع[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-يقوم Aspose.Words بتحميل وحفظ الأجزاء المخصصة في مستندات OOXML فقط.
+يقوم Aspose.Words بتحميل الأجزاء المخصصة وحفظها في مستندات OOXML فقط.
 
-لا يمكن أن تكون هذه الخاصية`لا شيء`.
+لا يمكن أن تكون هذه الخاصية`باطل`.
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// استنساخ الجزء الثاني ، ثم أضف النسخة إلى المجموعة.
+// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// تعداد المجموعة وطباعة كل جزء.
+// قم بتعداد المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -55,7 +55,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي أو كلها مرة واحدة.
+// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

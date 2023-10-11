@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ClearFormat
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel طريقة. مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في البيانات الأصلية data label collection.
+description: ChartDataLabel طريقة. مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في مجموعة التسمية data الأصل.
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method
 
-مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في البيانات الأصلية data label collection.
+مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في مجموعة التسمية data الأصل.
 
 ```csharp
 public void ClearFormat()

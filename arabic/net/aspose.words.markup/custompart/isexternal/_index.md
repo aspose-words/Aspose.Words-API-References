@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. خطأ شنيع إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML.حقيقي إذا كان هذا الجزء المخصص هدفًا خارجيًا.
+description: CustomPart ملكية. خطأ إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`خطأ شنيع` إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML.`حقيقي` إذا كان هذا الجزء المخصص هدفًا خارجيًا.
+خطأ إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -16,23 +16,23 @@ public bool IsExternal { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي`خاطئة`.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// استنساخ الجزء الثاني ، ثم أضف النسخة إلى المجموعة.
+// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// تعداد المجموعة وطباعة كل جزء.
+// قم بتعداد المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي أو كلها مرة واحدة.
+// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

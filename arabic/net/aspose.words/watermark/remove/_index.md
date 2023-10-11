@@ -1,14 +1,14 @@
 ---
 title: Watermark.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: Watermark طريقة. يزيل العلامة المائية.
+description: Watermark طريقة. إزالة العلامة المائية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/watermark/remove/
 ---
 ## Watermark.Remove method
 
-يزيل العلامة المائية.
+إزالة العلامة المائية.
 
 ```csharp
 public void Remove()
@@ -21,10 +21,10 @@ public void Remove()
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

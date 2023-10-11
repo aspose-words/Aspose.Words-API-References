@@ -16,9 +16,9 @@ public byte[] Panose { get; set; }
 
 ### ملاحظات
 
-PANOSE هو وصف مضغوط بحجم 10 بايت لخطوط الخصائص المرئية الحرجة مثل التباين والوزن ونمط serif. تمثل الأرقام نوع العائلة ونمط Serif و الوزن والنسبة والتباين وتنوع الشوط ونمط الذراع وشكل الحرف والخط الوسط والارتفاع X.
+PANOSE عبارة عن وصف مضغوط مكون من 10 بايت للخصائص المرئية المهمة للخطوط، مثل التباين والوزن ونمط serif. تمثل الأرقام نوع العائلة، ونمط Serif، و الوزن، والنسبة، والتباين، وتباين السكتة الدماغية، ونمط الذراع، وشكل الحرف، والخط المتوسط، والارتفاع X.
 
-يمكن ان يكون`لا شيء`.
+يمكن ان يكون`باطل`.
 
 ### أمثلة
 
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // عادةً ما تكون أسماء Alt فارغة.
+        // الأسماء البديلة عادة ما تكون فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

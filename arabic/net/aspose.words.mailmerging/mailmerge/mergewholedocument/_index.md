@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeWholeDocument
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحديث الحقول في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق.
+description: MailMerge ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تحديث الحقول الموجودة في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحديث الحقول في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق.
+الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تحديث الحقول الموجودة في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -16,11 +16,11 @@ public bool MergeWholeDocument { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي **خاطئة** .
+القيمة الافتراضية هي`خطأ شنيع` .
 
 ### أمثلة
 
-إظهار العلاقة بين دمج البريد مع المناطق وتحديث الحقل.
+يُظهر العلاقة بين عمليات دمج البريد مع المناطق وتحديث الحقول.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -28,15 +28,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "true" ،
+    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "صحيح"،
     // سيؤدي دمج البريد مع المناطق إلى تحديث كل حقل في المستند.
-    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "خطأ" ، فلن يقوم دمج البريد إلا بتحديث الحقول
+    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "خطأ"، فسيقوم دمج البريد بتحديث الحقول فقط
     // داخل منطقة دمج المراسلات التي يتطابق اسمها مع اسم جدول مصدر البيانات.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // لن يقوم دمج المراسلات إلا بتحديث حقل QUOTE خارج منطقة دمج المراسلات
-    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "true".
+    // سوف يقوم دمج المراسلات بتحديث حقل عرض الأسعار فقط خارج منطقة دمج المراسلات
+    // إذا قمنا بتعيين علامة "MergeWholeDocument" على "صحيح".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -45,8 +45,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// إنشاء مستند بمنطقة دمج المراسلات التي تنتمي إلى مصدر بيانات يسمى "MyTable".
-/// أدخل حقل اقتباس واحد داخل هذه المنطقة وآخر خارجها.
+/// قم بإنشاء مستند بمنطقة دمج البريد التي تنتمي إلى مصدر بيانات يسمى "MyTable".
+/// أدخل حقل اقتباس واحد داخل هذه المنطقة، وآخر خارجها.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -70,7 +70,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// إنشاء جدول البيانات الذي سيتم استخدامه في دمج البريد.
+/// قم بإنشاء جدول بيانات سيتم استخدامه في دمج البريد.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

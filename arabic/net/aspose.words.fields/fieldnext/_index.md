@@ -1,14 +1,16 @@
 ---
 title: Class FieldNext
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldNext فصل. تنفيذ الحقل التالي .
+description: Aspose.Words.Fields.FieldNext فصل. ينفذ الحقل التالي.
 type: docs
-weight: 2030
+weight: 2180
 url: /ar/net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
 
-تنفيذ الحقل التالي .
+ينفذ الحقل التالي.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldNext : Field
@@ -24,43 +26,44 @@ public class FieldNext : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-يدمج سجل البيانات التالي في المستند المدمج الناتج الحالي ، بدلاً من بدء a مستند مدمج جديد.
+يدمج سجل البيانات التالي في المستند المدمج الناتج الحالي، بدلاً من بدء a مستند مدمج جديد.
 
 ### أمثلة
 
-يوضح كيفية استخدام حقول NEXT / NEXTIF لدمج عدة صفوف في صفحة واحدة أثناء دمج المراسلات.
+يوضح كيفية استخدام حقول NEXT/NEXTIF لدمج صفوف متعددة في صفحة واحدة أثناء عملية دمج البريد.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إنشاء مصدر بيانات لدمج البريد الخاص بنا بثلاثة صفوف.
-    // عادةً ما يؤدي دمج المراسلات الذي يستخدم هذا الجدول إلى إنشاء مستند من 3 صفحات.
+    // أنشئ مصدر بيانات لدمج البريد لدينا بثلاثة صفوف.
+    // عادةً ما يؤدي دمج البريد الذي يستخدم هذا الجدول إلى إنشاء مستند من 3 صفحات.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -71,21 +74,21 @@ public class FieldNext : Field
 
     InsertMergeFields(builder, "First row: ");
 
-    // إذا كان لدينا عدة حقول دمج بنفس اسم الحقل ،
-    // سيستقبلون البيانات من نفس الصف لمصدر البيانات ويعرضون نفس القيمة بعد الدمج.
-    // يخبر الحقل التالي عملية دمج البريد على الفور بالتحرك لأسفل بمقدار صف واحد ،
-    // مما يعني أن أي MERGEFIELDs التي تتبع الحقل التالي ستتلقى بيانات من الصف التالي.
-    // تأكد من عدم محاولة التخطي إلى الصف التالي أثناء التواجد بالفعل في الصف الأخير.
+    // إذا كان لدينا حقول دمج متعددة بنفس اسم الحقل،
+    // سوف يتلقون البيانات من نفس الصف من مصدر البيانات ويعرضون نفس القيمة بعد الدمج.
+    // يخبر الحقل التالي دمج المراسلات على الفور بالتحرك لأسفل صفًا واحدًا،
+    // مما يعني أن أي MERGEFIELDs تتبع الحقل التالي ستتلقى بيانات من الصف التالي.
+    // تأكد من عدم محاولة الانتقال إلى الصف التالي مطلقًا أثناء وجودك في الصف الأخير.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // بعد الدمج ، قيم مصدر البيانات التي تقبلها MERGEFIELDs
-     // ستنتهي في نفس الصفحة مثل MERGEFIELDs أعلاه.
+    // بعد الدمج، قيم مصدر البيانات التي تقبلها وحدات MERGEFIELD هذه
+     // سينتهي في نفس الصفحة مثل MERGEFIELDs أعلاه.
     InsertMergeFields(builder, "Second row: ");
 
-    // يحتوي حقل NEXTIF على نفس وظيفة الحقل التالي ،
-    // لكنه ينتقل إلى الصف التالي فقط إذا كانت العبارة التي تم إنشاؤها بواسطة الخصائص الثلاثة التالية صحيحة.
+    // الحقل NEXTIF له نفس وظيفة الحقل التالي،
+    // ولكنه ينتقل إلى الصف التالي فقط إذا كانت العبارة التي تم إنشاؤها بواسطة الخصائص الثلاث التالية صحيحة.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -93,19 +96,20 @@ public class FieldNext : Field
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // إذا كانت المقارنة التي أكدها الحقل أعلاه صحيحة ،
+    // إذا كانت المقارنة التي يؤكدها الحقل أعلاه صحيحة،
     // ستأخذ حقول الدمج الثلاثة التالية البيانات من الصف الثالث.
-    // خلاف ذلك ، ستأخذ هذه الحقول البيانات من الصف 2 مرة أخرى.
+    // بخلاف ذلك، ستأخذ هذه الحقول البيانات من الصف 2 مرة أخرى.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // يحتوي مصدر البيانات لدينا على 3 صفوف ، وقد تخطينا الصفوف مرتين.
-    // سيتضمن مستند الإخراج لدينا صفحة واحدة تحتوي على بيانات من جميع الصفوف الثلاثة.
+     // يحتوي مصدر البيانات لدينا على 3 صفوف، وقمنا بتخطي الصفوف مرتين.
+    // سيحتوي مستند الإخراج الخاص بنا على صفحة واحدة تحتوي على بيانات من جميع الصفوف الثلاثة.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
-/// يستخدم منشئ المستندات لإدراج MERGEFIELDs لمصدر بيانات يحتوي على أعمدة باسم "Courtesy Title" و "First Name" و "Last Name".
+/// يستخدم منشئ المستندات لإدراج MERGEFIELDs لمصدر بيانات يحتوي على أعمدة تسمى "عنوان الخدمة" و"الاسم الأول" و"اسم العائلة".
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -116,7 +120,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// يستخدم أداة إنشاء المستندات لإدراج MERRGEFIELD بخصائص محددة.
+/// يستخدم منشئ المستندات لإدراج MERRGEFIELD بخصائص محددة.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

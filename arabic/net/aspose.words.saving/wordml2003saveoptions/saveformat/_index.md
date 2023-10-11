@@ -1,14 +1,14 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: WordML2003SaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ . يمكن فقط أن يكونWordML .
+description: WordML2003SaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطWordML .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ . يمكن فقط أن يكونWordML .
+يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطWordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,22 +16,22 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدارة المحتوى الأولي للمستند الناتج.
+يوضح كيفية إدارة المحتوى الأولي لمستند الإخراج.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى أسلوب "حفظ" المستند
+// قم بإنشاء كائن "WordML2003SaveOptions" لتمريره إلى طريقة "حفظ" المستند
 // لتعديل كيفية حفظ المستند بتنسيق حفظ WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// عيّن خاصية "PrettyFormat" على "true" لتطبيق مسافة بادئة لأحرف الجدولة و
-// newlines لتسهيل قراءة المحتوى الأولي للمستند الناتج.
-// اضبط خاصية "PrettyFormat" على "false" لحفظ محتوى المستند الأولي في نص واحد مستمر من النص.
+// قم بتعيين خاصية "PrettyFormat" على "صحيح" لتطبيق المسافة البادئة لأحرف علامة التبويب و
+// خطوط جديدة لتسهيل قراءة المحتوى الأولي للمستند الناتج.
+// اضبط خاصية "PrettyFormat" على "خطأ" لحفظ المحتوى الأولي للمستند في نص واحد متواصل من النص.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

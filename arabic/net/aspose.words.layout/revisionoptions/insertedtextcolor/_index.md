@@ -16,13 +16,13 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة ، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
+// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

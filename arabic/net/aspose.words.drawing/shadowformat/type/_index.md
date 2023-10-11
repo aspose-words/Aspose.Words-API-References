@@ -1,14 +1,14 @@
 ---
 title: ShadowFormat.Type
 second_title: Aspose.Words لمراجع .NET API
-description: ShadowFormat ملكية. الحصول على المحدد أو تعيينهShadowType لـ ShadowFormat .
+description: ShadowFormat ملكية. الحصول على المحدد أو تعيينهShadowType لـ ShadowFormat.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shadowformat/type/
 ---
 ## ShadowFormat.Type property
 
-الحصول على المحدد أو تعيينه[`ShadowType`](../../shadowtype/) لـ ShadowFormat .
+الحصول على المحدد أو تعيينه[`ShadowType`](../../shadowtype/) لـ ShadowFormat.
 
 ```csharp
 public ShadowType Type { get; set; }

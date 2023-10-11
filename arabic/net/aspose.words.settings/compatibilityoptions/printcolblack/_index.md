@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintColBlack
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان .
+description: CompatibilityOptions ملكية. طباعة الألوان بالأبيض والأسود دون ثبات اللون.
 type: docs
 weight: 400
 url: /ar/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان .
+طباعة الألوان بالأبيض والأسود دون ثبات اللون.
 
 ```csharp
 public bool PrintColBlack { get; set; }

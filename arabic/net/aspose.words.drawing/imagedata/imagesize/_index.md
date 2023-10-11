@@ -16,11 +16,11 @@ public ImageSize ImageSize { get; }
 
 ### ملاحظات
 
-إذا كانت الصورة مرتبطة فقط ولم يتم تخزينها في المستند ، يتم إرجاع حجم صفري.
+إذا كانت الصورة مرتبطة فقط ولم يتم تخزينها في المستند، فسيتم إرجاع الحجم صفر.
 
 ### أمثلة
 
-يوضح كيفية تغيير حجم الشكل بصورة.
+يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
 ```csharp
 #if NET48 || JAVA
@@ -35,35 +35,35 @@ public ImageSize ImageSize { get; }
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // عندما نقوم بإدخال صورة باستخدام طريقة "InsertImage" ، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث ،
-            // عندما نعرض المستند باستخدام تكبير بنسبة 100٪ في Microsoft Word ، يعرض الشكل الصورة بحجمها الفعلي.
+            // عندما نقوم بإدراج صورة باستخدام طريقة "InsertImage"، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث،
+            // عندما نعرض المستند باستخدام تكبير/تصغير بنسبة 100% في برنامج Microsoft Word، يعرض الشكل الصورة بحجمها الفعلي.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // ستؤدي الصورة مقاس 400 × 400 إلى إنشاء كائن ImageData بحجم صورة 300 × 300 نقطة.
+            // ستؤدي الصورة مقاس 400 × 400 إلى إنشاء كائن ImageData بحجم صورة يبلغ 300 × 300 نقطة.
             ImageSize imageSize = shape.ImageData.ImageSize;
 
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // إذا كانت أبعاد الشكل تتطابق مع أبعاد بيانات الصورة ،
-            // ثم يعرض الشكل الصورة بحجمها الأصلي.
+            // إذا كانت أبعاد الشكل تطابق أبعاد بيانات الصورة،
+            // فإن الشكل يعرض الصورة بحجمها الأصلي.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-             // تصغير الحجم الكلي للشكل بنسبة 50٪.
+             // تقليل الحجم الكلي للشكل بنسبة 50%.
             shape.Width *= 0.5;
 
              // تنطبق عوامل القياس على كل من العرض والارتفاع في نفس الوقت للحفاظ على تناسب الشكل.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 
-            // عندما نغير حجم الشكل ، يظل حجم بيانات الصورة كما هو.
+            // عندما نقوم بتغيير حجم الشكل، يظل حجم بيانات الصورة كما هو.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق مقياس بناءً على حجم الصورة.
+            // يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق القياس بناءً على حجم الصورة.
             shape.Width = imageSize.WidthPoints * 1.1;
 
             Assert.AreEqual(330.0d, shape.Width);

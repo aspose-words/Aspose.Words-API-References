@@ -1,14 +1,14 @@
 ---
 title: FieldSubject.Text
 second_title: Aspose.Words لمراجع .NET API
-description: FieldSubject ملكية. الحصول على نص الموضوع أو تحديده.
+description: FieldSubject ملكية. الحصول على نص الموضوع أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldsubject/text/
 ---
 ## FieldSubject.Text property
 
-الحصول على نص الموضوع أو تحديده.
+الحصول على نص الموضوع أو تعيينه.
 
 ```csharp
 public string Text { get; set; }
@@ -16,12 +16,12 @@ public string Text { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام الحقل SUBJECT.
+يوضح كيفية استخدام حقل SUBJECT.
 
 ```csharp
 Document doc = new Document();
 
-// تعيين قيمة لخاصية "الموضوع" المضمنة في المستند.
+// قم بتعيين قيمة للخاصية المضمنة "الموضوع" في المستند.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
 // قم بإنشاء حقل SUBJECT لعرض قيمة تلك الخاصية المضمنة.
@@ -32,9 +32,9 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// إذا قدمنا قيمة الخاصية Text للحقل SUBJECT وقمنا بتحديثها ، فسيعمل الحقل على ذلك
-// الكتابة فوق القيمة الحالية للخاصية المضمنة "الموضوع" بقيمة خاصية النص الخاصة بها ،
-// ثم اعرض القيمة الجديدة.
+// إذا أعطينا قيمة خاصية النص لحقل الموضوع وقمنا بتحديثها، فسيقوم الحقل بذلك
+// استبدل القيمة الحالية للخاصية المضمنة "الموضوع" بقيمة خاصية النص الخاصة بها،
+// ثم قم بعرض القيمة الجديدة.
 field.Text = "My new subject";
 field.Update();
 

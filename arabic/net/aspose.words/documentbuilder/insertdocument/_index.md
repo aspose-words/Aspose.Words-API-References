@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج مستند في موضع المؤشر .
+description: DocumentBuilder طريقة. إدراج مستند في موضع المؤشر.
 type: docs
-weight: 290
+weight: 310
 url: /ar/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
 
-إدراج مستند في موضع المؤشر .
+إدراج مستند في موضع المؤشر.
 
 ```csharp
 public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
@@ -16,8 +16,8 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | Document | وثيقة مصدر للإدراج. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيق النمط الذي يتعارض. |
+| srcDoc | Document | مستند المصدر للإدراج. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
 
 ### قيمة الإرجاع
 
@@ -25,7 +25,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 ### ملاحظات
 
-تحاكي هذه الطريقة سلوك MS Word ، كما لو تم الضغط على CTRL + 'A' (حدد كل المحتوى) ، ثم CTRL + 'C' (تم تحديد النسخ في المخزن المؤقت) داخل مستند واحد_ ثم CTRL + 'V' (أدخل محتوى من المخزن المؤقت) داخل مستند آخر.
+تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
 
 ### أمثلة
 
@@ -57,7 +57,7 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 ## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
 
-إدراج مستند في موضع المؤشر .
+إدراج مستند في موضع المؤشر.
 
 ```csharp
 public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode, 
@@ -66,9 +66,9 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | Document | وثيقة مصدر للإدراج. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيق النمط الذي يتعارض. |
-| importFormatOptions | ImportFormatOptions | يسمح بتحديد الخيارات التي تؤثر على تنسيق الوثيقة الناتجة. |
+| srcDoc | Document | مستند المصدر للإدراج. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
+| importFormatOptions | ImportFormatOptions | يسمح بتحديد الخيارات التي تؤثر على تنسيق مستند النتيجة. |
 
 ### قيمة الإرجاع
 
@@ -76,7 +76,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 ### ملاحظات
 
-تحاكي هذه الطريقة سلوك MS Word ، كما لو تم الضغط على CTRL + 'A' (حدد كل المحتوى) ، ثم CTRL + 'C' (تم تحديد النسخ في المخزن المؤقت) داخل مستند واحد_ ثم CTRL + 'V' (أدخل محتوى من المخزن المؤقت) داخل مستند آخر.
+تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
 
 ### أمثلة
 
@@ -94,13 +94,13 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// استنساخ المستند وتعديل نمط "MyStyle" الخاص بالنسخة ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
-// إذا أدخلنا النسخة في المستند الأصلي ، فإن النمطين اللذين يحملان الاسم نفسه سيتسببان في حدوث تضارب.
+// انسخ المستند وقم بتحرير نمط "MyStyle" الخاص بالمستنسخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
+// إذا قمنا بإدراج النسخة في المستند الأصلي، فسيتسبب النمطان اللذان يحملان نفس الاسم في حدوث تعارض.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// عندما نقوم بتمكين SmartStyleBehavior واستخدام وضع تنسيق الاستيراد KeepSourceFormatting ،
-// Aspose.Words سوف تحل تضارب الأنماط عن طريق تحويل أنماط الوثيقة المصدر.
+// عندما نقوم بتمكين SmartStyleBehavior ونستخدم وضع تنسيق الاستيراد KeepSourceFormatting،
+// Aspose.Words سوف يحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
 // بنفس أسماء أنماط الوجهة في سمات الفقرة المباشرة.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

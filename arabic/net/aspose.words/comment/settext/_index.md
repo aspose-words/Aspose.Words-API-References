@@ -1,14 +1,14 @@
 ---
 title: Comment.SetText
 second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. هذه طريقة ملائمة تسمح لك بتعيين نص التعليق بسهولة.
+description: Comment طريقة. هذه طريقة ملائمة تتيح لك ضبط نص التعليق بسهولة.
 type: docs
-weight: 150
+weight: 180
 url: /ar/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
 
-هذه طريقة ملائمة تسمح لك بتعيين نص التعليق بسهولة.
+هذه طريقة ملائمة تتيح لك ضبط نص التعليق بسهولة.
 
 ```csharp
 public void SetText(string text)
@@ -20,11 +20,11 @@ public void SetText(string text)
 
 ### ملاحظات
 
-تسمح هذه الطريقة بتعيين نص التعليق بسرعة من سلسلة. يمكن أن تحتوي السلسلة على فواصل فقرات ، سيؤدي ذلك إلى إنشاء فقرات نصية في التعليق وفقًا لذلك. إلى إنشاء نص التعليق.
+تسمح هذه الطريقة بتعيين نص التعليق بسرعة من سلسلة. يمكن أن تحتوي السلسلة على فواصل فقرات، سيؤدي ذلك إلى إنشاء فقرات نصية في التعليق وفقًا لذلك. إذا كنت تريد إدراج عناصر أكثر تعقيدًا في التعليق، على سبيل المثال bookmarks أو الجداول أو تطبيق تنسيق منسق، فأنت بحاجة إلى استخدام فئات العقدة المناسبة إلى إنشاء نص التعليق.
 
 ### أمثلة
 
-يوضح كيفية إضافة تعليق إلى مستند ، ثم الرد عليه.
+يوضح كيفية إضافة تعليق إلى مستند، ثم الرد عليه.
 
 ```csharp
 Document doc = new Document();
@@ -33,21 +33,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
-// ضع التعليق في عقدة في نص المستند.
-// سيظهر هذا التعليق في موقع فقرته ،
-// خارج هامش الجانب الأيمن للصفحة ، وبخط منقط يربطها بالفقرة الخاصة بها.
+// ضع التعليق على عقدة في نص المستند.
+// سيظهر هذا التعليق في مكان فقرته،
+// خارج الهامش الأيمن للصفحة، وبخط منقط يصلها بالفقرة الخاصة بها.
 builder.CurrentParagraph.AppendChild(comment);
 
-// أضف ردًا ، والذي سيظهر تحت التعليق الأصلي.
+// أضف ردًا، والذي سيظهر أسفل التعليق الأصلي.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // التعليقات والردود كلاهما عقد تعليق.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// التعليقات التي لا ترد على التعليقات الأخرى هي "عالية المستوى". ليس لديهم تعليقات أسلاف.
+// التعليقات التي لا ترد على التعليقات الأخرى هي "المستوى الأعلى". ليس لديهم تعليقات الأجداد.
 Assert.Null(comment.Ancestor);
 
-// تحتوي الردود على تعليق من مستوى أعلى من سلف.
+// الردود لها تعليق من المستوى الأعلى للأسلاف.
 Assert.AreEqual(comment, comment.Replies[0].Ancestor);
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");

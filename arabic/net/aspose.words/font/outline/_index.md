@@ -1,14 +1,14 @@
 ---
 title: Font.Outline
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. True إذا تم تنسيق الخط كمخطط تفصيلي .
+description: Font ملكية. صحيح إذا تم تنسيق الخط كمخطط تفصيلي.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
 
-True إذا تم تنسيق الخط كمخطط تفصيلي .
+صحيح إذا تم تنسيق الخط كمخطط تفصيلي.
 
 ```csharp
 public bool Outline { get; set; }
@@ -22,7 +22,7 @@ public bool Outline { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين علامة المخطط التفصيلي لتغيير لون تعبئة النص إلى الأبيض و
+// قم بتعيين علامة المخطط التفصيلي لتغيير لون تعبئة النص إلى اللون الأبيض و
  // اترك مخططًا رفيعًا حول كل حرف باللون الأصلي للنص.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;

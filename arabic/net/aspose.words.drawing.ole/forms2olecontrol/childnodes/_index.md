@@ -1,22 +1,22 @@
 ---
 title: Forms2OleControl.ChildNodes
 second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. الحصول على مجموعة من عناصر التحكم الفوري للأطفال.
+description: Forms2OleControl ملكية. يحصل على مجموعة من عناصر التحكم التابعة المباشرة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
 ## Forms2OleControl.ChildNodes property
 
-الحصول على مجموعة من عناصر التحكم الفوري للأطفال.
+يحصل على مجموعة من عناصر التحكم التابعة المباشرة.
 
 ```csharp
-public Forms2OleControlCollection ChildNodes { get; }
+public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
 ### ملاحظات
 
-عائدات **لا شيء** إذا كان هذا التحكم لا يمكن أن يكون له أطفال.
+عائدات`باطل` إذا كانت هذه السيطرة لا يمكن أن يكون لها أطفال.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -38,6 +38,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

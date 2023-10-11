@@ -18,13 +18,13 @@ public string[] GetFieldNames()
 
 إرجاع أسماء حقول الدمج الكاملة بما في ذلك البادئة الاختيارية. لا يزيل أسماء الحقول المكررة.
 
-يتم إنشاء سلسلة جديدة [] مصفوفة في كل مكالمة.
+يتم إنشاء مصفوفة سلسلة جديدة في كل مكالمة.
 
-يتضمن أسماء الحقول "شارب" إذا[`UseNonMergeFields`](../usenonmergefields/) هو **حقيقي**.
+يتضمن أسماء الحقول "شارب" إذا[`UseNonMergeFields`](../usenonmergefields/) يكون`حقيقي`.
 
 ### أمثلة
 
-يوضح كيفية الحصول على أسماء كافة حقول الدمج في مستند.
+يوضح كيفية الحصول على أسماء جميع حقول الدمج في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
-// لكل اسم MERGEFIELD في المستند ، تأكد من احتواء جدول البيانات على عمود
-// بنفس الاسم ، ثم قم بتنفيذ دمج المراسلات. 
+// لكل اسم MERGEFIELD في المستند، تأكد من أن جدول البيانات يحتوي على عمود
+ // بنفس الاسم، ثم قم بتنفيذ عملية دمج المراسلات.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

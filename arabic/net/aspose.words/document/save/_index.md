@@ -1,14 +1,14 @@
 ---
 title: Document.Save
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يحفظ المستند في ملف. يحدد تلقائيًا تنسيق الحفظ من الامتداد.
+description: Document طريقة. يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد.
 type: docs
-weight: 680
+weight: 720
 url: /ar/net/aspose.words/document/save/
 ---
 ## Save(string) {#save_2}
 
-يحفظ المستند في ملف. يحدد تلقائيًا تنسيق الحفظ من الامتداد.
+يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد.
 
 ```csharp
 public SaveOutputParameters Save(string fileName)
@@ -16,15 +16,15 @@ public SaveOutputParameters Save(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجودًا بالفعل ، فسيتم الكتابة فوق المستند الحالي. |
+| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجود بالفعل، فسيتم الكتابة فوق المستند الموجود. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### أمثلة
 
-يوضح كيفية فتح مستند وتحويله إلى PDF.
+يوضح كيفية فتح مستند وتحويله إلى .PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-يوضح كيفية تحويل ملف PDF إلى ملف docx.
+يوضح كيفية تحويل ملف PDF إلى ملف .docx.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// قم بتحميل مستند PDF الذي حفظناه للتو ، وقم بتحويله إلى .docx.
+// قم بتحميل مستند PDF الذي حفظناه للتو، وقم بتحويله إلى .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -67,12 +67,12 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجودًا بالفعل ، فسيتم الكتابة فوق المستند الحالي. |
+| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجود بالفعل، فسيتم الكتابة فوق المستند الموجود. |
 | saveFormat | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### أمثلة
 
@@ -104,16 +104,16 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجودًا بالفعل ، فسيتم الكتابة فوق المستند الحالي. |
-| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن أن تكون خالية. |
+| fileName | String | اسم الوثيقة. إذا كان هناك مستند يحمل اسم الملف المحدد موجود بالفعل، فسيتم الكتابة فوق المستند الموجود. |
+| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن ان يكون`باطل`. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### أمثلة
 
-يوضح كيفية تحسين جودة المستند الذي تم تقديمه باستخدام SaveOptions.
+يوضح كيفية تحسين جودة المستند المعروض باستخدام SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -123,7 +123,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;
@@ -132,7 +131,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-يوضح كيفية تحويل ملف PDF إلى .docx وتخصيص عملية الحفظ باستخدام كائن SaveOptions.
+يوضح كيفية تحويل ملف PDF إلى ملف .docx وتخصيص عملية الحفظ باستخدام كائن SaveOptions.
 
 ```csharp
 Document doc = new Document();
@@ -142,7 +141,7 @@ builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
-// قم بتحميل مستند PDF الذي حفظناه للتو ، وقم بتحويله إلى .docx.
+// قم بتحميل مستند PDF الذي حفظناه للتو، وقم بتحويله إلى .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
@@ -153,7 +152,7 @@ saveOptions.Password = "MyPassword";
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
-يوضح كيفية تجسيد كل صفحة من المستند إلى صورة TIFF منفصلة.
+يوضح كيفية عرض كل صفحة من المستند إلى صورة TIFF منفصلة.
 
 ```csharp
 Document doc = new Document();
@@ -166,7 +165,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// قم بإنشاء كائن "ImageSaveOptions" يمكننا تمريره إلى طريقة "حفظ" المستند
+// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
 // لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
@@ -175,12 +174,15 @@ for (int i = 0; i < doc.PageCount; i++)
     // قم بتعيين خاصية "PageSet" على رقم الصفحة الأولى من
     // الذي يبدأ عرض المستند منه.
     options.PageSet = new PageSet(i);
+    // تصدير الصفحة بحجم 2325 × 5325 بكسل و600 نقطة في البوصة.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
 ```
 
-يوضح كيفية تجسيد صفحة واحدة من مستند إلى صورة بتنسيق JPEG.
+يوضح كيفية عرض صفحة واحدة من مستند إلى صورة JPEG.
 
 ```csharp
 Document doc = new Document();
@@ -193,17 +195,17 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// قم بإنشاء كائن "ImageSaveOptions" يمكننا تمريره إلى طريقة "حفظ" المستند
+// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
 // لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
 // اضبط "PageSet" على "1" لتحديد الصفحة الثانية عبر
-// الفهرس الصفري لبدء عرض المستند منه.
+// الفهرس الصفري الذي سيتم البدء في عرض المستند منه.
 options.PageSet = new PageSet(1);
 
-// عندما نحفظ المستند بتنسيق JPEG ، يعرض Aspose.Words صفحة واحدة فقط.
-// ستحتوي هذه الصورة على صفحة واحدة تبدأ من الصفحة الثانية ،
-// والتي ستكون فقط الصفحة الثانية من المستند الأصلي.
+// عندما نحفظ المستند بتنسيق JPEG، يعرض Aspose.Words صفحة واحدة فقط.
+// ستحتوي هذه الصورة على صفحة واحدة تبدأ من الصفحة الثانية،
+// والتي ستكون مجرد الصفحة الثانية من المستند الأصلي.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
@@ -214,20 +216,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// قم بإنشاء كائن "ImageSaveOptions" يمكننا تمريره إلى طريقة "حفظ" المستند
+// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
 // لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// اضبط خاصية "JpegQuality" على "10" لاستخدام ضغط أقوى عند تقديم المستند.
-// سيؤدي ذلك إلى تقليل حجم ملف المستند ، لكن الصورة ستعرض المزيد من عناصر الضغط البارزة.
+// اضبط خاصية "JpegQuality" على "10" لاستخدام ضغط أقوى عند عرض المستند.
+// سيؤدي هذا إلى تقليل حجم ملف المستند، لكن الصورة ستعرض عناصر ضغط أكثر وضوحًا.
 imageOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
-// اضبط خاصية "JpegQuality" على "100" لاستخدام ضغط أضعف عند تمزيق المستند.
-// سيؤدي ذلك إلى تحسين جودة الصورة على حساب زيادة حجم الملف.
+// اضبط خاصية "JpegQuality" على "100" لاستخدام ضغط أضعف عند تقطيع المستند.
+// سيؤدي هذا إلى تحسين جودة الصورة على حساب زيادة حجم الملف.
 imageOptions.JpegQuality = 100;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
@@ -268,22 +270,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// سيحتوي مستند PDF الناتج على مخطط تفصيلي ، وهو جدول محتويات يسرد العناوين في نص المستند.
-// سيأخذنا النقر فوق إدخال في هذا المخطط التفصيلي إلى موقع العنوان الخاص به.
-// قم بتعيين خاصية "HeadingsOutlineLevels" على "4" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 4 من المخطط التفصيلي.
+// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين في نص المستند.
+// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
+// قم بتعيين خاصية "HeadingsOutlineLevels" على "4" لاستبعاد كافة العناوين التي تكون مستوياتها أعلى من 4 من المخطط التفصيلي.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// إذا كان إدخال المخطط التفصيلي يحتوي على إدخالات لاحقة من مستوى أعلى بين نفسه والإدخال التالي من نفس المستوى أو المستوى الأدنى ،
+// إذا كان الإدخال التفصيلي يحتوي على إدخالات لاحقة بمستوى أعلى بينه وبين الإدخال التالي من نفس المستوى أو مستوى أقل،
 // سيظهر سهم على يسار الإدخال. هذا الإدخال هو "مالك" العديد من هذه "الإدخالات الفرعية".
-// في وثيقتنا ، إدخالات المخطط التفصيلي من مستوى العنوان الخامس هي إدخالات فرعية لإدخال المخطط التفصيلي الثاني من المستوى الرابع ،
- // تعد إدخالات مستوى العنوان الرابع والخامس إدخالات فرعية لإدخال المستوى الثالث الثاني ، وما إلى ذلك.
-// في المخطط التفصيلي ، يمكننا النقر فوق سهم إدخال "المالك" لطي / توسيع جميع إدخالاته الفرعية.
-// قم بتعيين خاصية "ExpandedOutlineLevels" على "2" لتوسيع كل مستوى العنوان 2 وإدخالات المخطط التفصيلي السفلية تلقائيًا
- // وطي كل المستويات والإدخالات 3 وأعلى عندما نفتح المستند.
+// في مستندنا، إدخالات المخطط التفصيلي من مستوى العنوان الخامس هي إدخالات فرعية لإدخال المخطط التفصيلي للمستوى الرابع الثاني،
+// إدخالات مستوى العنوان الرابع والخامس هي إدخالات فرعية لإدخال المستوى الثالث الثاني، وهكذا.
+// في المخطط التفصيلي، يمكننا النقر على سهم إدخال "المالك" لطي/توسيع جميع إدخالاته الفرعية.
+// قم بتعيين خاصية "ExpandedOutlineLevels" على "2" لتوسيع كل مستوى العناوين 2 وإدخالات المخطط التفصيلي السفلية تلقائيًا
+// وقم بطي جميع المستويات والإدخالات الثلاثة والأعلى عندما نفتح المستند.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -301,7 +303,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ## Save(Stream, SaveFormat) {#save}
 
-يحفظ المستند إلى دفق باستخدام التنسيق المحدد.
+يحفظ المستند في دفق باستخدام التنسيق المحدد.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
@@ -309,16 +311,16 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | دفق مكان حفظ المستند. |
+| stream | Stream | تيار حيث لحفظ المستند. |
 | saveFormat | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### أمثلة
 
-يوضح كيفية حفظ مستند في دفق.
+يوضح كيفية حفظ مستند في الدفق.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -332,7 +334,7 @@ using (MemoryStream dstStream = new MemoryStream())
 }
 ```
 
-يوضح كيفية حفظ مستند إلى صورة عبر الدفق ، ثم قراءة الصورة من هذا الدفق.
+يوضح كيفية حفظ مستند في صورة عبر الدفق، ثم قراءة الصورة من هذا الدفق.
 
 ```csharp
 Document doc = new Document();
@@ -351,7 +353,7 @@ Document doc = new Document();
 
                 stream.Position = 0;
 
-                // اقرأ الدفق مرة أخرى في صورة.
+                // اقرأ الدفق مرة أخرى في الصورة.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -401,12 +403,12 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | دفق مكان حفظ المستند. |
-| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن أن يكون فارغًا. إذا كان هذا فارغًا ، فسيتم حفظ المستند بتنسيق DOC الثنائي. |
+| stream | Stream | تيار حيث لحفظ المستند. |
+| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن ان يكون`باطل` . إذا كان هذا`باطل`سيتم حفظ المستند بتنسيق DOC الثنائي. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### أمثلة
 
@@ -424,14 +426,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-    // لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // اضبط "فهرس الصفحة" على "1" لعرض جزء من المستند بدءًا من الصفحة الثانية.
+    // اضبط "PageIndex" على "1" لعرض جزء من المستند بدءًا من الصفحة الثانية.
     options.PageSet = new PageSet(1);
 
-    // سيحتوي هذا المستند على صفحة واحدة تبدأ من الصفحة الثانية ، والتي ستحتوي فقط على الصفحة الثانية.
+    // سيحتوي هذا المستند على صفحة واحدة تبدأ من الصفحة الثانية، والتي ستحتوي على الصفحة الثانية فقط.
     doc.Save(stream, options);
 }
 ```
@@ -448,7 +450,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
 
-يرسل المستند إلى مستعرض العميل .
+يرسل المستند إلى متصفح العميل.
 
 ```csharp
 public SaveOutputParameters Save(HttpResponse response, string fileName, 
@@ -458,21 +460,21 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | response | HttpResponse | كائن الاستجابة حيث يتم حفظ المستند. |
-| fileName | String | اسم المستند الذي سيظهر في مستعرض العميل. يجب ألا يحتوي الاسم على مسار. |
-| contentDisposition | ContentDisposition | أ[`ContentDisposition`](../../contentdisposition/) تحدد القيمة that كيفية تقديم المستند في مستعرض العميل. |
-| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن أن تكون خالية. |
+| fileName | String | اسم المستند الذي سيظهر في متصفح العميل. يجب ألا يحتوي الاسم على مسار. |
+| contentDisposition | ContentDisposition | أ[`ContentDisposition`](../../contentdisposition/)تحدد القيمة that كيفية عرض المستند في متصفح العميل. |
+| saveOptions | SaveOptions | يحدد الخيارات التي تتحكم في كيفية حفظ المستند. يمكن ان يكون`باطل`. |
 
 ### قيمة الإرجاع
 
-معلومات إضافية يمكنك استخدامها بشكل اختياري.
+معلومات إضافية يمكنك استخدامها اختياريًا.
 
 ### ملاحظات
 
-داخليًا ، يتم حفظ هذه الطريقة في دفق ذاكرة أولاً ثم نسخها إلى استجابة stream لأن دفق الاستجابة لا يدعم البحث.
+داخليًا، تقوم هذه الطريقة بالحفظ في دفق الذاكرة أولاً ثم نسخها إلى دفق الاستجابة لأن دفق الاستجابة لا يدعم البحث.
 
 ### أمثلة
 
-يوضح كيفية إجراء دمج المراسلات ، ثم حفظ المستند في مستعرض العميل.
+يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
 
 ```csharp
 Document doc = new Document();
@@ -491,7 +493,7 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
 
 // أرسل المستند إلى متصفح العميل.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // تم الإلقاء لأن HttpResponse فارغ في الاختبار.
+    Throws.TypeOf<ArgumentNullException>()); // تم طرحه لأن HttpResponse فارغ في الاختبار.
 
 // سنحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من أننا لا نضيف أي محتوى غير ضروري إلى المستند بعد الحفظ.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());

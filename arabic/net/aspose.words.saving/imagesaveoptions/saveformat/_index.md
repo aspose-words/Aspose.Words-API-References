@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يحدد التنسيق الذي سيتم به حفظ صفحات المستند أو الأشكال المعروضة إذا تم استخدام كائن خيارات الحفظ هذا.Tiff وPng وBmp  Jpeg أو ناقلEmf وSvg .
+description: ImageSaveOptions ملكية. يحدد التنسيق الذي سيتم به حفظ صفحات أو أشكال المستند المقدمة إذا تم استخدام كائن خيارات الحفظ هذا. يمكن أن يكون raster Tiff Png BmpJpeg أو ناقلاتEmf EpsSvg .
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم به حفظ صفحات المستند أو الأشكال المعروضة إذا تم استخدام كائن خيارات الحفظ هذا.Tiff وPng وBmp ، Jpeg أو ناقلEmf وSvg .
+يحدد التنسيق الذي سيتم به حفظ صفحات أو أشكال المستند المقدمة إذا تم استخدام كائن خيارات الحفظ هذا. يمكن أن يكون raster Tiff ,Png ,BmpJpeg أو ناقلاتEmf ,EpsSvg .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,13 +16,13 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### ملاحظات
 
-في الأنظمة الأساسية المختلفة ، قد تكون التنسيقات المدعومة مختلفة. يعتمد عدد الخيارات الأخرى على التنسيق المحدد.
+يعتمد عدد الخيارات الأخرى على التنسيق المحدد.
 
-أيضًا ، من الممكن الحفظ في SVG عبر ImageSaveOptions وعبر[`SvgSaveOptions`](../../svgsaveoptions/).
+ومن الممكن أيضًا الحفظ إلى SVG عبر كليهما[`ImageSaveOptions`](../) وعبر[`SvgSaveOptions`](../../svgsaveoptions/).
 
 ### أمثلة
 
-يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى واحد.
+يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
 ```csharp
 Document doc = new Document();
@@ -32,22 +32,22 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-// تحرير الصورة بينما تعرضها عملية الحفظ.
+// عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+// قم بتحرير الصورة أثناء عرضها من خلال عملية الحفظ.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // يمكننا ضبط هذه الخصائص لتغيير سطوع الصورة وتباينها.
-    // كلاهما على مقياس 0-1 وهما 0.5 افتراضيًا.
+    // كلاهما على مقياس من 0 إلى 1 ويكونا عند 0.5 بشكل افتراضي.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 
-    // يمكننا ضبط الدقة الأفقية والعمودية بهذه الخصائص.
+    // يمكننا ضبط الدقة الأفقية والرأسية باستخدام هذه الخصائص.
     // سيؤثر هذا على أبعاد الصورة.
-    // القيمة الافتراضية لهذه الخصائص هي 96.0 ، لدقة 96 نقطة في البوصة.
+    // القيمة الافتراضية لهذه الخصائص هي 96.0، بدقة 96 نقطة في البوصة.
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // يمكننا قياس الصورة باستخدام هذه الخاصية. القيمة الافتراضية هي 1.0 للقياس بنسبة 100٪.
+    // يمكننا تغيير حجم الصورة باستخدام هذه الخاصية. القيمة الافتراضية هي 1.0، للقياس بنسبة 100%.
     // يمكننا استخدام هذه الخاصية لإلغاء أي تغييرات في أبعاد الصورة قد يسببها تغيير الدقة.
     Scale = 96f / 72f
 };

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseSingleBorderforContiguousCells
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. استخدام القواعد المبسطة لتعارضات حدود الجدول.
+description: CompatibilityOptions ملكية. استخدم قواعد مبسطة لتعارض حدود الجدول.
 type: docs
 weight: 650
 url: /ar/net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
 ---
 ## CompatibilityOptions.UseSingleBorderforContiguousCells property
 
-استخدام القواعد المبسطة لتعارضات حدود الجدول.
+استخدم قواعد مبسطة لتعارض حدود الجدول.
 
 ```csharp
 public bool UseSingleBorderforContiguousCells { get; set; }

@@ -16,7 +16,7 @@ public IEnumerator<List> GetEnumerator()
 
 ### أمثلة
 
-يوضح كيفية إنشاء مستند باستخدام عينة من جميع القوائم من مستند آخر.
+يوضح كيفية إنشاء مستند باستخدام عينة من كافة القوائم من مستند آخر.
 
 ```csharp
 public void PrintOutAllLists()

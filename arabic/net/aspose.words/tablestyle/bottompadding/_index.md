@@ -1,14 +1,14 @@
 ---
 title: TableStyle.BottomPadding
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تحديد مقدار المساحة بالنقاط لإضافتها أسفل محتويات خلايا الجدول.
+description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-الحصول على أو تحديد مقدار المساحة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول.
 
 ```csharp
 public double BottomPadding { get; set; }

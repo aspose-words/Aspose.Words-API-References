@@ -3,7 +3,7 @@ title: FieldOptions.ResultFormatter
 second_title: Aspose.Words لمراجع .NET API
 description: FieldOptions ملكية. يسمح بالتحكم في كيفية تنسيق نتيجة الحقل.
 type: docs
-weight: 160
+weight: 180
 url: /ar/net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property
@@ -16,25 +16,26 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق مُنسق النتائج الميدانية الخاص بنا تنسيقًا مخصصًا على الحقول المنشأة حديثًا المكونة من ثلاثة أنواع من التنسيقات.
-    // تطبق مُنسِّقات نتائج الحقول تنسيقًا جديدًا للحقول فور تحديثها ،
-    // الذي يحدث بمجرد إنشائها باستخدام طريقة InsertField overload.
-    // 1 - رقم:
+    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
+    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric));
 
-    // 2 - التاريخ / الوقت:
+    // 2 - التاريخ/الوقت:
     builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
 
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
@@ -50,8 +51,8 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق ، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص ، أثناء تتبع كل استدعاء.
+/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
+/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

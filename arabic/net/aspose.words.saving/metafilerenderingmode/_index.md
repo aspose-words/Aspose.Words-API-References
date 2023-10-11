@@ -1,14 +1,14 @@
 ---
 title: Enum MetafileRenderingMode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.MetafileRenderingMode تعداد. يحدد كيف يجب على Aspose.Words عرض ملفات تعريف WMF و EMF .
+description: Aspose.Words.Saving.MetafileRenderingMode تعداد. يحدد كيفية عرض Aspose.Words لملفات تعريف WMF وEMF.
 type: docs
-weight: 5010
+weight: 5290
 url: /ar/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
 
-يحدد كيف يجب على Aspose.Words عرض ملفات تعريف WMF و EMF .
+يحدد كيفية عرض Aspose.Words لملفات تعريف WMF وEMF.
 
 ```csharp
 public enum MetafileRenderingMode
@@ -18,30 +18,31 @@ public enum MetafileRenderingMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words يحاول تقديم ملف تعريف كرسومات متجهة. إذا تعذر على Aspose.Words عرض بعض تسجيلات ملف التعريف بشكل صحيح إلى رسومات متجهة ، فإن Aspose.Words يجعل ملف التعريف هذا إلى صورة نقطية. |
-| Vector | `1` | Aspose.Words تعرض ملف تعريف كرسومات متجهة. |
-| Bitmap | `2` | Aspose.Words يستدعي GDI + لتقديم ملف تعريف إلى صورة نقطية ثم يحفظ الصورة النقطية في مستند الإخراج. |
+| VectorWithFallback | `0` | يحاول Aspose.Words عرض ملف تعريف كرسومات متجهة. إذا لم يتمكن Aspose.Words من عرض بعض من سجلات ملف التعريف بشكل صحيح إلى رسومات متجهة، فسيقوم Aspose.Words بعرض ملف التعريف هذا إلى صورة نقطية. |
+| Vector | `1` | يعرض Aspose.Words ملف تعريف كرسومات متجهة. |
+| Bitmap | `2` | يستدعي Aspose.Words GDI+ لتقديم ملف تعريف إلى صورة نقطية ثم يحفظ الصورة النقطية في مستند الإخراج. |
 
 ### أمثلة
 
-أضافت العروض رجوعًا إلى عرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
+تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // قم بتعيين خاصية "EmulateRasterOperations" على "false" للرجوع إلى الصورة النقطية عندما
-    // يواجه ملف تعريف ، والذي سيتطلب عمليات نقطية لتقديمه في ملف PDF الناتج.
+    // قم بتعيين خاصية "EmulateRasterOperations" على "خطأ" للرجوع إلى الصورة النقطية عندما
+    // يواجه ملف تعريف، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // عيّن خاصية "RenderingMode" على "VectorWithFallback" لمحاولة تقديم كل ملف تعريف باستخدام رسومات متجهة.
+    // قم بتعيين خاصية "RenderingMode" على "VectorWithFallback" لمحاولة عرض كل ملف تعريف باستخدام الرسومات المتجهة.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF وتطبيق التكوين
-    // في كائن MetafileRenderingOptions الخاص بنا إلى عملية الحفظ.
+    // في كائن MetafileRenderingOptions الخاص بنا لعملية الحفظ.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -51,12 +52,12 @@ public enum MetafileRenderingMode
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// يطبع ويجمع التحذيرات المتعلقة بضياع التنسيق التي تحدث عند حفظ مستند.
+/// يطبع ويجمع التحذيرات المتعلقة بفقدان التنسيق التي تحدث عند حفظ المستند.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

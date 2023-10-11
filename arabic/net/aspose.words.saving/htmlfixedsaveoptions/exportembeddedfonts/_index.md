@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64 . ملاحظة يمكن أن يؤدي إعداد هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
+description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64 . ملاحظة يمكن أن يؤدي إعداد هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
+يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة: يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -21,13 +21,13 @@ public bool ExportEmbeddedFonts { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
-// عندما نقوم بتصدير مستند يحتوي على خطوط مضمنة إلى .html ،
-// Aspose.Words يمكن أن تضع الخطوط في موقعين محتملين.
-// سيؤدي تعيين علامة "ExportEmbeddedFonts" على "true" إلى تخزين البيانات الأولية للخطوط المضمنة داخل ورقة أنماط CSS ،
-// في خاصية "url" لقاعدة "@ font-face". قد يؤدي هذا إلى إنشاء ملف ورقة أنماط CSS ضخم
+// عندما نقوم بتصدير مستند يحتوي على خطوط مضمنة إلى ‎.html،
+// يمكن لـ Aspose.Words وضع الخطوط في موقعين محتملين.
+// سيؤدي تعيين علامة "ExportEmbeddedFonts" على "true" إلى تخزين البيانات الأولية للخطوط المضمنة داخل ورقة أنماط CSS،
+// في خاصية "url" لقاعدة "@font-face". قد يؤدي هذا إلى إنشاء ملف ورقة أنماط CSS ضخم
 // وتقليل عدد الملفات الخارجية التي سينشئها تحويل HTML هذا.
 // سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف لكل خط.
-// سترتبط ورقة أنماط CSS بكل ملف خط باستخدام خاصية "url" لقاعدة "@ font-face".
+// سيتم ربط ورقة أنماط CSS بكل ملف خط باستخدام خاصية "url" لقاعدة "@font-face".
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedFonts = exportEmbeddedFonts

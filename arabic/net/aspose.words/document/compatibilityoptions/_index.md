@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر الوصول إلى خيارات توافق المستندات أي تفضيلات المستخدم التي تم إدخالها في ملف التوافق من علامة التبويب خيارات مربع حوار في Word.
+description: Document ملكية. يوفر الوصول إلى خيارات توافق المستندات أي تفضيلات المستخدم التي تم إدخالها في ملف التوافق علامة التبويب خيارات الحوار في Word.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** من علامة التبويب **خيارات** مربع حوار في Word).
+يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** علامة التبويب **خيارات** الحوار في Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -24,14 +24,14 @@ public void OptimizeFor()
     Document doc = new Document();
 
     // يحتوي هذا الكائن على قائمة واسعة من العلامات الفريدة لكل مستند
-    // التي تسمح لنا بتسهيل التوافق مع الإصدارات القديمة من Microsoft Word.
+    // التي تتيح لنا تسهيل التوافق مع الإصدارات القديمة من Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // طباعة الإعدادات الافتراضية لمستند فارغ.
+    // اطبع الإعدادات الافتراضية لمستند فارغ.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // يمكننا الوصول إلى هذه الإعدادات في Microsoft Word عبر "ملف" - >; "خيارات" - >. "متقدم" - >. "خيارات التوافق لـ ...".
+    // يمكننا الوصول إلى هذه الإعدادات في Microsoft Word عبر "ملف" -> "الخيارات" -> "متقدم" -> "خيارات التوافق لـ...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // يمكننا استخدام طريقة OptimizeFor لضمان التوافق الأمثل مع إصدار معين من Microsoft Word.
@@ -45,7 +45,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// يجمع كل العلامات في كائن خيارات توافق المستند حسب الحالة ، ثم يطبع كل مجموعة.
+/// يجمع كل العلامات الموجودة في كائن خيارات توافق المستند حسب الحالة، ثم يطبع كل مجموعة.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. محجوز لاستخدام النظام. IXPathNavigable.
+description: CompositeNode طريقة. إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-محجوز لاستخدام النظام. IXPathNavigable.
+إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -17,9 +17,10 @@ public XPathNavigator CreateNavigator()
 
 ### أمثلة
 
-يوضح كيفية إنشاء XPathNavigator ، ثم استخدامه لاجتياز العقد وقراءتها.
+يوضح كيفية إنشاء XPathNavigator، ثم استخدامه لاجتياز العقد وقراءتها.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -30,9 +31,9 @@ public XPathNavigator CreateNavigator()
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // تحتوي شجرة الوثيقة على المستند ، القسم الأول ،
-        // النص ، والفقرة الأولى كعقد ، مع كون كل منها تابعًا للسابقة.
-        // يمكننا إضافة المزيد لإعطاء الشجرة بعض الفروع للملاح لاجتيازها.
+        // تحتوي شجرة المستندات على المستند، القسم الأول،
+        // النص والفقرة الأولى كعقد، حيث تكون كل منهما فرعًا وحيدًا للفقرة السابقة.
+        // يمكننا إضافة المزيد لإعطاء الشجرة بعض الفروع ليتمكن الملاح من اجتيازها.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -41,16 +42,17 @@ public XPathNavigator CreateNavigator()
         docBuilder.MoveToSection(1);
         docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // استخدم الملاح الخاص بنا لطباعة خريطة لجميع العقد الموجودة في المستند إلى وحدة التحكم.
+        // استخدم متصفحنا لطباعة خريطة لجميع العقد الموجودة في المستند إلى وحدة التحكم.
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>
-/// اجتياز جميع العناصر الفرعية للعقدة المركبة وتعيين الهيكل في نمط شجرة الدليل.
-/// يشير مقدار المسافة البادئة للمسافة إلى العمق بالنسبة للعقدة الأولية.
-/// يطبع محتويات نص العقدة الحالية فقط إذا كانت تشغيل.
+/// يجتاز كافة العناصر الفرعية للعقدة المركبة ويرسم خريطة للبنية بأسلوب شجرة الدليل.
+/// يشير مقدار المسافة البادئة للمساحة إلى العمق بالنسبة للعقدة الأولية.
+/// يطبع محتويات النص للعقدة الحالية فقط إذا كانت قيد التشغيل.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

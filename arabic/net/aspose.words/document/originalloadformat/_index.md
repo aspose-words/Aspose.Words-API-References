@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. الحصول على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن.
 type: docs
-weight: 280
+weight: 300
 url: /ar/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -16,7 +16,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### ملاحظات
 
-إذا قمت بإنشاء مستند جديد فارغ ، يتم إرجاعDoc القيمة.
+إذا قمت بإنشاء مستند فارغ جديد، فسيتم إرجاع الملفDoc قيمة.
 
 ### أمثلة
 

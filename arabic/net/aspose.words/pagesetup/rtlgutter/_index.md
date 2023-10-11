@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RtlGutter
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تحديد ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين.
+description: PageSetup ملكية. الحصول على أو تعيين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين.
 type: docs
-weight: 370
+weight: 380
 url: /ar/net/aspose.words/pagesetup/rtlgutter/
 ---
 ## PageSetup.RtlGutter property
 
-الحصول على أو تحديد ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين.
+الحصول على أو تعيين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين.
 
 ```csharp
 public bool RtlGutter { get; set; }
@@ -16,7 +16,7 @@ public bool RtlGutter { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين هوامش هامش التوثيق.
+يوضح كيفية تعيين هوامش الحضيض.
 
 ```csharp
 Document doc = new Document();
@@ -30,20 +30,20 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// يضيف الحضيض مسافات بيضاء إلى هامش الصفحة الأيمن أو الأيسر ،
-// مما يعوض عن طي الوسط للصفحات في كتاب يتعدى على تخطيط الصفحة.
+// يضيف الحضيض مسافات بيضاء إلى هامش الصفحة الأيسر أو الأيمن،
+// الذي يعوض الطي المركزي للصفحات في الكتاب الذي يتعدى على تخطيط الصفحة.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
- // حدد مقدار المساحة المتوفرة لصفحاتنا للنص داخل الهوامش ثم أضف مقدارًا لتضمين الهامش.
+// حدد مقدار المساحة المتوفرة في صفحاتنا للنص داخل الهوامش ثم أضف مقدارًا لحشو الهامش.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// اضبط خاصية "RtlGutter" على "true" لوضع هامش التوثيق في موضع أكثر ملاءمة للنص من اليمين إلى اليسار.
+// اضبط خاصية "RtlGutter" على "صحيح" لوضع الهامش في موضع أكثر ملاءمة للنص من اليمين إلى اليسار.
 pageSetup.RtlGutter = true;
 
-// اضبط خاصية "MultiplePages" على "MultiplePagesType.MirrorMargins" على البديل
-// موضع جانب الصفحة الأيسر / الأيمن للهوامش لكل صفحة.
+// قم بتعيين خاصية "MultiplePages" على "MultiplePagesType.MirrorMargins" للتبديل
+// موضع هوامش كل صفحة على الجانب الأيسر/الأيمن من الصفحة.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 
 doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");

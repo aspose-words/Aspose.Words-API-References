@@ -16,18 +16,18 @@ public void SetText(string text)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| text | String | النص المعروض كعلامة مائية. |
+| text | String | النص الذي يتم عرضه كعلامة مائية. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم رميه عندما يكون طول النص خارج النطاق أو يحتوي النص على مسافات بيضاء فقط. |
-| ArgumentNullException | يتم الرمي عندما يكون النص فارغًا . |
+| ArgumentOutOfRangeException | يتم العرض عندما يكون طول النص خارج النطاق أو عندما يحتوي النص على مسافات بيضاء فقط. |
+| ArgumentNullException | يرمي عندما يكون النص`باطل` . |
 
 ### ملاحظات
 
-يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً . لا يمكن أن يكون النص فارغًا أو يحتوي على مسافات بيضاء فقط.
+يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً. لا يمكن أن يكون النص`باطل` أو تحتوي على مسافات بيضاء فقط.
 
 ### أمثلة
 
@@ -36,10 +36,10 @@ public void SetText(string text)
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -75,21 +75,21 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| text | String | النص المعروض كعلامة مائية. |
+| text | String | النص الذي يتم عرضه كعلامة مائية. |
 | options | TextWatermarkOptions | يحدد خيارات إضافية للعلامة المائية النصية. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم رميه عندما يكون طول النص خارج النطاق أو يحتوي النص على مسافات بيضاء فقط. |
-| ArgumentNullException | يتم الرمي عندما يكون النص فارغًا . |
+| ArgumentOutOfRangeException | يتم العرض عندما يكون طول النص خارج النطاق أو عندما يحتوي النص على مسافات بيضاء فقط. |
+| ArgumentNullException | يرمي عندما يكون النص`باطل` . |
 
 ### ملاحظات
 
-يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً . لا يمكن أن يكون النص فارغًا أو يحتوي على مسافات بيضاء فقط.
+يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً. لا يمكن أن يكون النص`باطل` أو تحتوي على مسافات بيضاء فقط.
 
-إذا[`TextWatermarkOptions`](../../textwatermarkoptions/) فارغة ، سيتم تعيين العلامة المائية مع الخيارات الافتراضية.
+لو[`TextWatermarkOptions`](../../textwatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
 ### أمثلة
 
@@ -98,10 +98,10 @@ public void SetText(string text, TextWatermarkOptions options)
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

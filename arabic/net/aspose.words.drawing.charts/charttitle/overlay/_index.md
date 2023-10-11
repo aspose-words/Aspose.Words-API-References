@@ -1,14 +1,14 @@
 ---
 title: ChartTitle.Overlay
 second_title: Aspose.Words لمراجع .NET API
-description: ChartTitle ملكية. يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بالتداخل مع العنوان. بشكل افتراضي  يكون التراكب خاطئًا.
+description: ChartTitle ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. بشكل افتراضي يكون التراكبخطأ شنيع .
 type: docs
-weight: 10
+weight: 20
 url: /ar/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بالتداخل مع العنوان. بشكل افتراضي ، يكون التراكب خاطئًا.
+يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. بشكل افتراضي يكون التراكب`خطأ شنيع` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -22,18 +22,18 @@ public bool Overlay { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل شكل مخطط باستخدام أداة إنشاء المستندات واحصل على مخططها.
+// قم بإدراج شكل مخطط باستخدام أداة إنشاء المستندات واحصل على مخططه.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// استخدم خاصية "Title" لمنح المخطط عنوانًا يظهر في أعلى منتصف منطقة المخطط.
+// استخدم خاصية "العنوان" لإعطاء مخططنا عنوانًا، والذي يظهر في الجزء العلوي الأوسط من منطقة المخطط.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
- // اضبط خاصية "Show" على "true" لجعل العنوان مرئيًا.
+ // اضبط خاصية "إظهار" على "صحيح" لجعل العنوان مرئيًا.
 title.Show = true;
 
-// عيّن خاصية "التراكب" على "صواب" امنح عناصر المخطط الأخرى مساحة أكبر من خلال السماح لهم بتداخل العنوان
+// اضبط خاصية "التراكب" على "صحيح" امنح عناصر المخطط الأخرى مساحة أكبر من خلال السماح لها بتداخل العنوان
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

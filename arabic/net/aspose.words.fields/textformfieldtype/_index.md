@@ -1,14 +1,14 @@
 ---
 title: Enum TextFormFieldType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.TextFormFieldType تعداد. يحدد نوع حقل نموذج النص.
+description: Aspose.Words.Fields.TextFormFieldType تعداد. يحدد نوع حقل النموذج النصي.
 type: docs
-weight: 2590
+weight: 2770
 url: /ar/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
 
-يحدد نوع حقل نموذج النص.
+يحدد نوع حقل النموذج النصي.
 
 ```csharp
 public enum TextFormFieldType
@@ -18,12 +18,12 @@ public enum TextFormFieldType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Regular | `0` | يمكن أن يحتوي حقل النموذج النصي على أي نص . |
+| Regular | `0` | يمكن أن يحتوي حقل النموذج النصي على أي نص. |
 | Number | `1` | يمكن أن يحتوي حقل النموذج النصي على أرقام فقط. |
 | Date | `2` | يمكن أن يحتوي حقل النموذج النصي على قيمة تاريخ صالحة فقط. |
-| CurrentDate | `3` | قيمة حقل نموذج النص هي التاريخ الحالي عند تحديث الحقل. |
-| CurrentTime | `4` | قيمة حقل نموذج النص هي الوقت الحالي عند تحديث الحقل. |
-| Calculated | `5` | يتم حساب قيمة حقل نموذج النص من التعبير المحدد في [`TextInputDefault`](../formfield/textinputdefault/) الملكية . |
+| CurrentDate | `3` | قيمة حقل النموذج النصي هي التاريخ الحالي عند تحديث الحقل. |
+| CurrentTime | `4` | قيمة حقل النموذج النصي هي الوقت الحالي الذي يتم فيه تحديث الحقل. |
+| Calculated | `5` | يتم حساب قيمة حقل النموذج النصي من التعبير المحدد في the[`TextInputDefault`](../formfield/textinputdefault/) الملكية. |
 
 ### أمثلة
 
@@ -33,12 +33,12 @@ public enum TextFormFieldType
 DocumentBuilder builder = new DocumentBuilder();
 
 // حقول النموذج هي كائنات في المستند يمكن للمستخدم التفاعل معها من خلال مطالبته بإدخال القيم.
-// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات ، وفيما يلي طريقتان للقيام بذلك.
-// 1 - الإدخال الأساسي للنص:
+// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات، وفيما يلي طريقتان للقيام بذلك.
+// 1 - إدخال النص الأساسي:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - مربع تحرير وسرد مع نص موجه ومجموعة من القيم الممكنة:
+// 2 - مربع تحرير وسرد يحتوي على نص موجه ونطاق من القيم المحتملة:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

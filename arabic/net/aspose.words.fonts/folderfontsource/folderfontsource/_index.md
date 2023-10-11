@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource.FolderFontSource
 second_title: Aspose.Words لمراجع .NET API
-description: FolderFontSource البناء. Ctor.
+description: FolderFontSource البناء. الممثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource(string, bool) {#constructor}
 
-Ctor.
+الممثل.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders)
@@ -16,15 +16,15 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| folderPath | String | مسار المجلد. |
+| folderPath | String | المسار إلى المجلد. |
 | scanSubfolders | Boolean | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا. |
 
 ### أمثلة
 
-يوضح كيفية استخدام مجلد نظام محلي يحتوي على خطوط كمصدر للخط.
+يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
 ```csharp
-// إنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
+// قم بإنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
@@ -47,7 +47,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ## FolderFontSource(string, bool, int) {#constructor_1}
 
-Ctor.
+الممثل.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
@@ -55,16 +55,16 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| folderPath | String | مسار المجلد. |
+| folderPath | String | المسار إلى المجلد. |
 | scanSubfolders | Boolean | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا. |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
-يوضح كيفية استخدام مجلد نظام محلي يحتوي على خطوط كمصدر للخط.
+يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
 ```csharp
-// إنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
+// قم بإنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

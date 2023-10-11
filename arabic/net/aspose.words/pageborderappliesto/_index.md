@@ -1,14 +1,14 @@
 ---
 title: Enum PageBorderAppliesTo
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageBorderAppliesTo تعداد. يحدد الصفحات التي تتم طباعة حد الصفحة عليها.
+description: Aspose.Words.PageBorderAppliesTo تعداد. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
 type: docs
-weight: 4100
+weight: 4340
 url: /ar/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
 
-يحدد الصفحات التي تتم طباعة حد الصفحة عليها.
+يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
 
 ```csharp
 public enum PageBorderAppliesTo
@@ -18,13 +18,13 @@ public enum PageBorderAppliesTo
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| AllPages | `0` | يظهر حد الصفحة في كافة صفحات القسم. |
+| AllPages | `0` | يظهر حد الصفحة في جميع صفحات القسم. |
 | FirstPage | `1` | يظهر حد الصفحة في الصفحة الأولى من القسم فقط. |
-| OtherPages | `2` | يتم عرض حد الصفحة في كافة الصفحات باستثناء الصفحة الأولى من القسم. |
+| OtherPages | `2` | يظهر حد الصفحة في جميع الصفحات باستثناء الصفحة الأولى من القسم. |
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد شريط أزرق عريض أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

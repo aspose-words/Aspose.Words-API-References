@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitGroupShapeEnd
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤها عند انتهاء تعداد شكل مجموعة .
+description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد شكل المجموعة.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-يتم استدعاؤها عند انتهاء تعداد شكل مجموعة .
+يتم استدعاؤه عند انتهاء تعداد شكل المجموعة.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 ### أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -32,9 +32,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت تريد إنشاء أشكال "غير أساسية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
+    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
     // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // الرجاء استخدام أساليب DocumentBuilder.InsertShape.
+    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة شكل تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

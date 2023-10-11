@@ -1,14 +1,14 @@
 ---
 title: Footnote.Footnote
 second_title: Aspose.Words لمراجع .NET API
-description: Footnote البناء. يقوم بتهيئة مثيل لملف هامش فئة .
+description: Footnote البناء. تهيئة مثيل لـFootnote فئة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote constructor
 
-يقوم بتهيئة مثيل لملف **هامش** فئة .
+تهيئة مثيل لـ[`Footnote`](../) فئة.
 
 ```csharp
 public Footnote(DocumentBase doc, FootnoteType footnoteType)
@@ -17,13 +17,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| footnoteType | FootnoteType | أ[`FootnoteType`](../footnotetype/) value التي تحدد ما إذا كانت هذه حاشية سفلية أو تعليق ختامي. |
+| footnoteType | FootnoteType | أ[`FootnoteType`](../footnotetype/) value الذي يحدد ما إذا كانت هذه حاشية سفلية أو تعليق ختامي. |
 
 ### ملاحظات
 
-متي **هامش** تم إنشاؤه ، فهو ينتمي إلى المستند المحدد ، ولكنه ليس بعد جزءًا من المستند و **عقدة الأم** باطل.
+متى[`Footnote`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق **هامش** إلى المستند ، استخدم InsertAfter أو InsertBefore في الفقرة التي تريد إدراج الحاشية السفلية فيها.
+لإلحاق[`Footnote`](../) لاستخدام الوثيقةNode) أوNode) في الفقرة التي تريد إدراج الحاشية السفلية فيها.
 
 ### أمثلة
 
@@ -33,19 +33,19 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف نصًا ، وقم بالإشارة إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا صغيرًا مرتفعًا
-// علامة بعد النص الذي يشير إليه وإنشاء إدخال أسفل النص الأساسي الرئيسي في أسفل الصفحة.
-// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي ،
-// التي سنمررها إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
+// أضف نصًا، وأشر إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا مرتفعًا صغيرًا
+// ضع علامة بعد النص الذي تشير إليه وقم بإنشاء إدخال أسفل النص الأساسي في أسفل الصفحة.
+// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي،
+// والذي سنمرره إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// إذا تم تعيين هذه الخاصية على "true" ، فإن العلامة المرجعية للحاشية السفلية الخاصة بنا
-// سيكون فهرسها بين جميع الحواشي السفلية للقسم.
-// هذه هي الحاشية الأولى ، لذا فإن العلامة المرجعية ستكون "1".
+// إذا تم تعيين هذه الخاصية على "صحيح"، فستكون العلامة المرجعية للحاشية السفلية
+// سيكون فهرسه بين جميع الحواشي السفلية للقسم.
+// هذه هي الحاشية السفلية الأولى، لذا ستكون العلامة المرجعية "1".
 Assert.True(footnote.IsAuto);
 
-// يمكننا نقل منشئ المستند داخل الحاشية السفلية لتحرير نصه المرجعي. 
+ // يمكننا نقل أداة إنشاء المستندات داخل الحاشية السفلية لتحرير النص المرجعي الخاص بها.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -55,13 +55,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// يمكننا تعيين علامة مرجعية مخصصة ستستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
+// يمكننا تعيين علامة مرجعية مخصصة تستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// ستظل الإشارة المرجعية مع تعيين علامة "IsAuto" على "صواب" تظهر فهرسها الحقيقي
-// حتى إذا كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة ، فإن العلامة المرجعية لهذه الإشارة المرجعية ستكون "3".
+// الإشارة المرجعية التي تم ضبط علامة "IsAuto" على "صحيح" ستظل تُظهر فهرسها الحقيقي
+// حتى لو كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة، فستكون العلامة المرجعية لهذه الإشارة المرجعية "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

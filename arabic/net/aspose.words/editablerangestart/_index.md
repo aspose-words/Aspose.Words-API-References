@@ -3,12 +3,14 @@ title: Class EditableRangeStart
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.EditableRangeStart فصل. يمثل بداية نطاق قابل للتحرير في مستند Word.
 type: docs
-weight: 1290
+weight: 1440
 url: /ar/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
 يمثل بداية نطاق قابل للتحرير في مستند Word.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -18,45 +20,45 @@ public sealed class EditableRangeStart : Node
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | الحصول على كائن الواجهة الذي يغلف بداية ونهاية النطاق القابل للتحرير. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | يحصل على كائن الواجهة الذي يغلف هذا النطاق القابل للتحرير بداية ونهاية. |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | يحدد معرف النطاق القابل للتحرير. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | عوائدEditableRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
+| override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | إرجاعEditableRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
 يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف`EditableRangeStart` ومطابقة[`EditableRangeEnd`](../editablerangeend/) بنفس المعرف.
 
-`EditableRangeStart` و[`EditableRangeEnd`](../editablerangeend/) هي مجرد علامات داخل document تحدد أين يبدأ النطاق القابل للتحرير وينتهي.
+`EditableRangeStart` و[`EditableRangeEnd`](../editablerangeend/) هي مجرد علامات داخل document تحدد أين يبدأ وينتهي النطاق القابل للتحرير.
 
-استخدم ال[`EditableRange`](./editablerange/)فئة كـ "واجهة" للعمل مع نطاق قابل للتحرير ككائن واحد.
+استخدم ال[`EditableRange`](./editablerange/) فئة كـ "واجهة" للعمل مع نطاق قابل للتحرير ككائن واحد.
 
-يتم دعم النطاقات القابلة للتحرير حاليًا على المستوى المضمن فقط ، أي في الداخل[`Paragraph`](../paragraph/)، لكن يمكن أن يكون بداية النطاق القابل للتحرير ونهاية النطاق القابل للتحرير في فقرات مختلفة.
+النطاقات القابلة للتحرير حاليًا مدعومة فقط على المستوى المضمن، أي بالداخل[`Paragraph`](../paragraph/)، لكن بداية النطاق القابل للتحرير ونهاية النطاق القابل للتحرير يمكن أن تكون في فقرات مختلفة.
 
 ### أمثلة
 
-يوضح كيفية تقييد حقوق التحرير للنطاقات القابلة للتحرير لمجموعة / مستخدم معين.
+يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
 ```csharp
 public void Visitor()
@@ -68,9 +70,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // عندما نكتب حماية المستندات ، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
-    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح لهم.
-    // 1 - حدد مستخدمًا:
+    // عندما نحمي المستندات من الكتابة، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
+    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح بهم.
+    // 1 - تحديد مستخدم:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -78,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - حدد مجموعة يرتبط بها المستخدمون المسموح لهم بـ:
+    // 2 - حدد المجموعة التي يسمح للمستخدمين بالارتباط بها:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -118,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -136,7 +138,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -148,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند. يسجل هذا الزائر فقط عمليات التشغيل الموجودة داخل نطاقات قابلة للتحرير.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند. يقوم هذا الزائر بتسجيل عمليات التشغيل التي تقع داخل النطاقات القابلة للتحرير فقط.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

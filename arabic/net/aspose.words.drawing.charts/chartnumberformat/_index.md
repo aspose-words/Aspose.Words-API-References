@@ -1,14 +1,16 @@
 ---
 title: Class ChartNumberFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat فصل. يمثل تنسيق الأرقام للعنصر الأصل.
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat فصل. يمثل تنسيق الأرقام للعنصر الأصلي.
 type: docs
-weight: 720
+weight: 770
 url: /ar/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
-يمثل تنسيق الأرقام للعنصر الأصل.
+يمثل تنسيق الأرقام للعنصر الأصلي.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
 ```csharp
 public class ChartNumberFormat
@@ -18,8 +20,8 @@ public class ChartNumberFormat
 
 | اسم | وصف |
 | --- | --- |
-| [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | الحصول على أو تعيين رمز التنسيق المطبق على تسمية البيانات. |
-| [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | يحدد ما إذا كان كود التنسيق مرتبطًا بخلية مصدر. القيمة الافتراضية هي true . |
+| [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | الحصول على رمز التنسيق المطبق على تسمية البيانات أو تعيينه. |
+| [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | يحدد ما إذا كان رمز التنسيق مرتبطًا بخلية مصدر أم لا. الافتراضي هو صحيح. |
 
 ### أمثلة
 
@@ -32,19 +34,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة إلى الرسم البياني بفئات للمحور السيني ،
- // والقيم الرقمية الكبيرة الخاصة بالمحور ص.
+// أضف سلسلة مخصصة إلى المخطط مع فئات المحور السيني،
+ // وقيم رقمية كبيرة خاصة بالمحور Y.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // قم بتعيين تنسيق الأرقام الخاص بعلامات تحديد المحور Y على عدم تجميع الأرقام بفاصلات.
+ // قم بتعيين تنسيق الأرقام لتسميات تحديد المحور Y بحيث لا يتم تجميع الأرقام بفواصل.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// يمكن لهذه العلامة تجاوز القيمة أعلاه ورسم تنسيق الأرقام من الخلية المصدر.
+// يمكن لهذه العلامة تجاوز القيمة المذكورة أعلاه ورسم تنسيق الأرقام من الخلية المصدر.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

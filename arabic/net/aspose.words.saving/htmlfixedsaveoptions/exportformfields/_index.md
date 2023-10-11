@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. الحصول على أو تعيين إشارة إلى ما إذا كان يتم تصدير حقول النموذج كعناصر تفاعلية كعلامة إدخال بدلاً من تحويلها إلى نص أو رسومات.
+description: HtmlFixedSaveOptions ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم تصدير حقول النموذج كعناصر تفاعلية كعلامة إدخال بدلاً من تحويلها إلى نص أو رسومات.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-الحصول على أو تعيين إشارة إلى ما إذا كان يتم تصدير حقول النموذج كعناصر تفاعلية (كعلامة "إدخال") بدلاً من تحويلها إلى نص أو رسومات.
+الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم تصدير حقول النموذج كعناصر تفاعلية (كعلامة 'إدخال') بدلاً من تحويلها إلى نص أو رسومات.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.InsertCheckBox("CheckBox", false, 15);
 
-// عندما نقوم بتصدير مستند يحتوي على حقول نموذج إلى .html ،
-// هناك طريقتان يمكن من خلالهما لـ Aspose.Words تصدير حقول النموذج.
+// عندما نقوم بتصدير مستند يحتوي على حقول النموذج إلى .html،
+// هناك طريقتان يمكن لـ Aspose.Words من خلالهما تصدير حقول النموذج.
 // سيؤدي تعيين علامة "ExportFormFields" على "true" إلى تصديرها ككائنات تفاعلية.
-// تعيين هذه العلامة على "خطأ" سيعرض حقول النموذج كنص عادي.
-// سيؤدي ذلك إلى تجميدها بقيمتها الحالية ، ومنع قارئ مستند HTML الخاص بنا
+// سيؤدي تعيين هذه العلامة إلى "خطأ" إلى عرض حقول النموذج كنص عادي.
+// سيؤدي هذا إلى تجميدها عند قيمتها الحالية، ومنع قارئ مستند HTML الخاص بنا
 // من القدرة على التفاعل معهم.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

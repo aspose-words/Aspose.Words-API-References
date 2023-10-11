@@ -1,14 +1,14 @@
 ---
 title: FieldCitation.Suffix
 second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين لاحقة ملحقة بالاقتباس.
+description: FieldCitation ملكية. الحصول على أو تعيين اللاحقة الملحقة بالاقتباس.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldcitation/suffix/
 ---
 ## FieldCitation.Suffix property
 
-الحصول على أو تعيين لاحقة ملحقة بالاقتباس.
+الحصول على أو تعيين اللاحقة الملحقة بالاقتباس.
 
 ```csharp
 public string Suffix { get; set; }
@@ -16,19 +16,19 @@ public string Suffix { get; set; }
 
 ### أمثلة
 
-يوضح كيفية العمل مع حقلي CITATION و BIBLIOGRAPHY.
+يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
 ```csharp
 // افتح مستندًا يحتوي على مصادر ببليوغرافية يمكننا العثور عليها
-// Microsoft Word عبر المراجع - >; الاقتباسات وأمبير. ببليوغرافيا - >. إدارة المصادر.
+// Microsoft Word عبر المراجع -> اقتباسات & قائمة المراجع -> إدارة المصادر.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// أنشئ اقتباسًا برقم الصفحة فقط ومؤلف الكتاب المشار إليه.
+// أنشئ اقتباسًا باستخدام رقم الصفحة ومؤلف الكتاب المشار إليه فقط.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// نشير إلى المصادر باستخدام أسماء العلامات الخاصة بهم.
+// نشير إلى المصادر باستخدام أسماء علاماتها.
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -37,7 +37,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// إنشاء اقتباس أكثر تفصيلاً يستشهد بمصدرين.
+// قم بإنشاء اقتباس أكثر تفصيلاً يستشهد بمصدرين.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -54,12 +54,12 @@ fieldCitation.VolumeNumber = "VII";
 
 Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
 
-// يمكننا استخدام حقل ببليوجرافي لعرض جميع المصادر داخل المستند.
+// يمكننا استخدام حقل الببليوغرافيا لعرض كافة المصادر داخل الوثيقة.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

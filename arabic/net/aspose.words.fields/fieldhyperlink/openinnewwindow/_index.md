@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
 second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. يحصل أو يحدد ما إذا كان سيتم فتح الموقع الوجهة في نافذة مستعرض ويب جديدة.
+description: FieldHyperlink ملكية. الحصول على أو تعيين ما إذا كان سيتم فتح موقع الوجهة في نافذة متصفح ويب جديدة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
 ---
 ## FieldHyperlink.OpenInNewWindow property
 
-يحصل أو يحدد ما إذا كان سيتم فتح الموقع الوجهة في نافذة مستعرض ويب جديدة.
+الحصول على أو تعيين ما إذا كان سيتم فتح موقع الوجهة في نافذة متصفح ويب جديدة.
 
 ```csharp
 public bool OpenInNewWindow { get; set; }
@@ -16,7 +16,7 @@ public bool OpenInNewWindow { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات في نظام الملفات المحلي.
+يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document();
@@ -24,16 +24,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// عندما نضغط على حقل HYPERLINK هذا في Microsoft Word ،
-// سيفتح المستند المرتبط ثم يضع المؤشر على الإشارة المرجعية المحددة.
+// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
+// سيتم فتح المستند المرتبط ثم وضع المؤشر على الإشارة المرجعية المحددة.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// عندما نضغط على حقل HYPERLINK هذا في Microsoft Word ،
-// سيفتح المستند المرتبط ، وينتقل تلقائيًا لأسفل إلى إطار iframe المحدد.
+// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
+// سيفتح المستند المرتبط، وينتقل تلقائيًا لأسفل إلى إطار iframe المحدد.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";
 field.ScreenTip = "Open " + field.Address;

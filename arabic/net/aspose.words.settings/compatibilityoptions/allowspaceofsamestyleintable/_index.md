@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. السماح بالتباعد السياقي للفقرات في الجداول .
+description: CompatibilityOptions ملكية. السماح بالتباعد السياقي للفقرات في الجداول.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
 ---
 ## CompatibilityOptions.AllowSpaceOfSameStyleInTable property
 
-السماح بالتباعد السياقي للفقرات في الجداول .
+السماح بالتباعد السياقي للفقرات في الجداول.
 
 ```csharp
 public bool AllowSpaceOfSameStyleInTable { get; set; }

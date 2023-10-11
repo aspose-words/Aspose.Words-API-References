@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words لمراجع .NET API
 description: HtmlSaveOptions ملكية. يحدد دقة الإخراج للصور عند التصدير إلى HTML أو MHTML أو EPUB. الافتراضي هو96 نقطة في البوصة .
 type: docs
-weight: 350
+weight: 340
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
@@ -16,11 +16,11 @@ public int ImageResolution { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية تؤثر على الصور النقطية عندما[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) هو`حقيقي` وتأثيرات ملفات التعريف التي تم تصديرها كصور نقطية. تتطلب بعض خصائص الصورة مثل cropping أو التدوير حفظ الصور المحولة وفي هذه الحالة يتم إنشاء الصور المحولة بدقة الوضوح المحددة.
+تؤثر هذه الخاصية على الصور النقطية عندما[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) هو`حقيقي` وملفات تعريف التأثيرات التي يتم تصديرها كصور نقطية. تتطلب بعض خصائص الصورة مثل Cropping أو التدوير حفظ الصور المحولة وفي هذه الحالة يتم إنشاء الصور المحولة بدقة معينة .
 
 ### أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي ستنشئها Aspose.Words عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -34,9 +34,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts "،
-    ImagesFolderAlias = "http://example.com/images "،
-    ResourceFolderAlias = "http://example.com/resources "،
+    FontsFolderAlias = "http://example.com/fonts"،
+    ImagesFolderAlias = "http://example.com/images"،
+    ResourceFolderAlias = "http://example.com/resources"،
     ExportOriginalUrlForLinkedImages = true
 };
 

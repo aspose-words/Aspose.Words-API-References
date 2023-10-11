@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Appearance
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل / يحدد مظهر علامة مستند منظم.
+description: StructuredDocumentTag ملكية. الحصول على/تعيين مظهر علامة المستند المنظمة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttag/appearance/
 ---
 ## StructuredDocumentTag.Appearance property
 
-يحصل / يحدد مظهر علامة مستند منظم.
+الحصول على/تعيين مظهر علامة المستند المنظمة.
 
 ```csharp
 public SdtAppearance Appearance { get; set; }
@@ -16,53 +16,53 @@ public SdtAppearance Appearance { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء علامة وثيقة منظمة في مربع نص عادي وتعديل مظهره.
+يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
 ```csharp
 Document doc = new Document();
 
-// إنشاء علامة وثيقة منظمة تحتوي على نص عادي.
+// قم بإنشاء علامة مستند منظمة تحتوي على نص عادي.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// قم بتعيين عنوان ولون الإطار الذي يظهر عند تحريك الماوس فوق علامة المستند المهيكلة في Microsoft Word.
+// قم بتعيين عنوان ولون الإطار الذي يظهر عند تمرير الماوس فوق علامة المستند المنظم في Microsoft Word.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// تعيين علامة لعلامة المستند المنظمة هذه ، والتي يمكن الحصول عليها
-// كعنصر XML يسمى "tag" ، مع السلسلة الموجودة أدناه في سمة "val" الخاصة بها.
+// قم بتعيين علامة لعلامة المستند المنظمة هذه، والتي يمكن الحصول عليها
+// كعنصر XML يُسمى "tag"، مع السلسلة الموجودة أدناه في السمة "@val" الخاصة به.
 tag.Tag = "MyPlainTextSDT";
 
-// كل علامة وثيقة منظمة لها معرّف فريد عشوائي.
+// كل علامة مستند منظمة لها معرف فريد عشوائي.
 Assert.That(tag.Id, Is.Positive);
 
-// تعيين خط النص داخل علامة المستند المهيكل.
+// قم بتعيين الخط للنص داخل علامة المستند المنظم.
 tag.ContentsFont.Name = "Arial";
 
-// تعيين خط النص في نهاية علامة المستند المهيكل.
+// قم بتعيين الخط للنص الموجود في نهاية علامة المستند المنظمة.
 // أي نص نكتبه في نص المستند بعد الخروج من العلامة باستخدام مفاتيح الأسهم سيستخدم هذا الخط.
 tag.EndCharacterFont.Name = "Arial Black";
 
-// بشكل افتراضي ، هذا خطأ والضغط على مفتاح الإدخال أثناء وجوده داخل علامة مستند منظم لا يفعل شيئًا.
-// عند التعيين على "صحيح" ، يمكن أن تحتوي علامة المستند المهيكلة الخاصة بنا على عدة أسطر.
+// بشكل افتراضي، هذا خطأ والضغط على زر الإدخال أثناء وجودك داخل علامة مستند منظمة لا يؤدي إلى أي شيء.
+// عند التعيين على "صحيح"، يمكن أن تحتوي علامة المستند المنظمة لدينا على عدة أسطر.
 
-// اضبط خاصية "Multiline" على "false" للسماح فقط بالمحتويات
-// من علامة المستند المهيكلة هذه لتمتد إلى سطر واحد.
-// اضبط خاصية "Multiline" على "true" للسماح للعلامة بأن تحتوي على أسطر متعددة من المحتوى.
+// اضبط الخاصية "متعدد الأسطر" على "خطأ" للسماح بالمحتويات فقط
+// من علامة المستند المنظمة هذه لتمتد على سطر واحد.
+// اضبط الخاصية "متعدد الأسطر" على "صحيح" للسماح للعلامة باحتواء أسطر متعددة من المحتوى.
 tag.Multiline = true;
 
-// عيّن خاصية "Appearance" على "SdtAppearance.Tags" لإظهار العلامات حول المحتوى.
- // بشكل افتراضي تظهر علامة المستند المهيكلة على أنها BoundingBox.
+// قم بتعيين خاصية "المظهر" على "SdtAppearance.Tags" لإظهار العلامات حول المحتوى.
+ // افتراضيًا، تظهر علامة المستند المنظمة كـ BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(tag);
 
-// أدخل نسخة من علامة المستند المهيكلة الخاصة بنا في فقرة جديدة.
+// أدخل نسخة من علامة المستند المنظمة في فقرة جديدة.
 StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// استخدم طريقة "RemoveSelfOnly" لإزالة علامة مستند منظم ، مع الاحتفاظ بمحتوياتها في المستند.
+// استخدم طريقة "RemoveSelfOnly" لإزالة علامة مستند منظم، مع الاحتفاظ بمحتوياتها في المستند.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

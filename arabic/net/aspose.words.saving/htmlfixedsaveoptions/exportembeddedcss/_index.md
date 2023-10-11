@@ -21,11 +21,11 @@ public bool ExportEmbeddedCss { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// عندما نقوم بتصدير مستند إلى html ، ستقوم Aspose.Words أيضًا بإنشاء ورقة أنماط CSS لتنسيق المستند بها.
-// تعيين علامة "ExportEmbeddedCss" على "true" احفظ ورقة أنماط CSS في ملف .css ،
-// وربط الملف من مستند html باستخدام < link > عنصر.
-// سيؤدي تعيين العلامة إلى "خطأ" إلى تضمين ورقة أنماط CSS في مستند Html ،
-// الذي سينشئ ملفًا واحدًا فقط بدلاً من ملفين.
+// عندما نقوم بتصدير مستند إلى html، سيقوم Aspose.Words أيضًا بإنشاء ورقة أنماط CSS لتنسيق المستند بها.
+// ضبط علامة "ExportEmbeddedCss" على "صحيح" وحفظ ورقة أنماط CSS في ملف ‎.css،
+// واربط الملف من مستند html باستخدام <link> عنصر.
+// سيؤدي تعيين العلامة إلى "خطأ" إلى تضمين ورقة أنماط CSS داخل مستند Html،
+// والذي سيؤدي إلى إنشاء ملف واحد فقط بدلاً من ملفين.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

@@ -1,14 +1,14 @@
 ---
 title: Document.DefaultTabStop
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تحديد الفاصل الزمني بالنقاط بين علامات الجدولة الافتراضية.
+description: Document ملكية. الحصول على الفاصل الزمني بالنقاط أو تعيينه بين علامات الجدولة الافتراضية.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/document/defaulttabstop/
 ---
 ## Document.DefaultTabStop property
 
-الحصول على أو تحديد الفاصل الزمني (بالنقاط) بين علامات الجدولة الافتراضية.
+الحصول على الفاصل الزمني (بالنقاط) أو تعيينه بين علامات الجدولة الافتراضية.
 
 ```csharp
 public double DefaultTabStop { get; set; }
@@ -22,10 +22,10 @@ public double DefaultTabStop { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
+// قم بتعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
 builder.Document.DefaultTabStop = 72;
 
-// يقوم كل حرف جدولة بمحاذاة النص بعده إلى أقرب موضع علامة جدولة تالية.
+// يلتقط كل حرف جدولة النص الذي يليه إلى أقرب موضع لعلامة الجدولة.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

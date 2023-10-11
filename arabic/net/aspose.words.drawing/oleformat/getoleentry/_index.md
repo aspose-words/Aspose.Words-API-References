@@ -1,14 +1,14 @@
 ---
 title: OleFormat.GetOleEntry
 second_title: Aspose.Words لمراجع .NET API
-description: OleFormat طريقة. يحصل على إدخال بيانات كائن OLE .
+description: OleFormat طريقة. يحصل على إدخال بيانات كائن OLE.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat.GetOleEntry method
 
-يحصل على إدخال بيانات كائن OLE .
+يحصل على إدخال بيانات كائن OLE.
 
 ```csharp
 public MemoryStream GetOleEntry(string oleEntryName)
@@ -20,7 +20,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### قيمة الإرجاع
 
-دفق بيانات OLE أو فارغ.
+دفق بيانات OLE أو`باطل`.
 
 ### أمثلة
 
@@ -30,7 +30,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تضمين رسم Microsoft Visio في المستند ككائن OLE.
+// قم بتضمين رسم Microsoft Visio في المستند ككائن OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كرمز.
@@ -42,8 +42,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// إذا احتوى الشكل على كائن OLE ، فسيكون له خاصية "تنسيق OleFormat" صالحة ،
-// التي يمكننا استخدامها للتحقق من بعض جوانب الشكل.
+// إذا كان الشكل يحتوي على كائن OLE، فسيكون له خاصية "OleFormat" صالحة،
+// والتي يمكننا استخدامها للتحقق من بعض جوانب الشكل.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// إذا كان الكائن يحتوي على بيانات OLE ، فيمكننا الوصول إليها باستخدام دفق.
+// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليه باستخدام الدفق.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

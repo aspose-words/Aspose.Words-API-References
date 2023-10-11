@@ -1,14 +1,14 @@
 ---
 title: Enum ExportFontFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ExportFontFormat تعداد. يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء التقديم إلى تنسيق HTML الثابت.
+description: Aspose.Words.Saving.ExportFontFormat تعداد. يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء العرض إلى تنسيق HTML ثابت.
 type: docs
-weight: 4730
+weight: 4990
 url: /ar/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء التقديم إلى تنسيق HTML الثابت.
+يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء العرض إلى تنسيق HTML ثابت.
 
 ```csharp
 public enum ExportFontFormat
@@ -18,12 +18,12 @@ public enum ExportFontFormat
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Woff | `0` | WOFF (تنسيق خط الويب المفتوح). |
-| Ttf | `1` | TTF (تنسيق خط TrueType) . |
+| Woff | `0` | WOFF (تنسيق الخط المفتوح على الويب). |
+| Ttf | `1` | TTF (تنسيق خط TrueType). |
 
 ### أمثلة
 
-يوضح كيفية استخدام الخطوط فقط من الجهاز الهدف عند حفظ مستند إلى HTML.
+يوضح كيفية استخدام الخطوط فقط من الجهاز المستهدف عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

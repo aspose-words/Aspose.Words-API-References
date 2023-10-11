@@ -22,11 +22,11 @@ public string TableName { get; }
 
 إذا كنت تنفذ[`IMailMergeDataSource`](../)، قم بإرجاع اسم مصدر data من هذه الخاصية.
 
-يستخدم Aspose.Words هذا الاسم لمطابقة اسم منطقة دمج المراسلات المحدد في مستند النموذج. المقارنة بين اسم مصدر البيانات و اسم منطقة دمج المراسلات ليست حساسة لحالة الأحرف.
+يستخدم Aspose.Words هذا الاسم للمطابقة مع اسم منطقة دمج المراسلات المحدد في مستند القالب. المقارنة بين اسم مصدر البيانات و اسم منطقة دمج المراسلات ليست حساسة لحالة الأحرف.
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج المراسلات مع مصدر بيانات في شكل كائن مخصص.
+يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
 ```csharp
 public void CustomDataSource()
@@ -37,11 +37,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // لاستخدام كائن مخصص كمصدر بيانات ، يجب أن يقوم بتنفيذ واجهة IMailMergeDataSource. 
+     // لاستخدام كائن مخصص كمصدر بيانات، يجب عليه تنفيذ واجهة IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -50,7 +52,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
 /// </summary>
 public class Customer
 {
@@ -65,8 +67,8 @@ public class Customer
 }
 
 /// <summary>
-/// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح لـ Aspose.Words 
-/// لدمج البيانات من كائنات العميل في مستندات Microsoft Word.
+ /// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح بـ Aspose.Words
+/// لدمج بيانات البريد من كائنات العميل الخاصة بك في مستندات Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -74,12 +76,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // عندما نقوم بتهيئة مصدر البيانات ، يجب أن يكون موضعه قبل السجل الأول.
+        // عندما نقوم بتهيئة مصدر البيانات، يجب أن يكون موضعه قبل السجل الأول.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -87,7 +89,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -100,7 +102,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;

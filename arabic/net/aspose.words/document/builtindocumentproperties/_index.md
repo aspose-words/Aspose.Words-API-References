@@ -16,7 +16,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ### أمثلة
 
-يوضح كيفية العمل بخصائص المستند المضمنة.
+يوضح كيفية العمل مع خصائص المستند المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
@@ -24,15 +24,15 @@ Document doc = new Document(MyDir + "Properties.docx");
 // يحتوي كائن "المستند" على بعض بيانات التعريف الخاصة به في أعضائه.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// يخزن المستند أيضًا البيانات الوصفية في خصائصه المضمنة.
-// كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" للمستند.
+// يقوم المستند أيضًا بتخزين البيانات التعريفية في خصائصه المضمنة.
+// كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" الخاص بالمستند.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // قد تخزن بعض الخصائص قيمًا متعددة.
+    // قد تقوم بعض الخصائص بتخزين قيم متعددة.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

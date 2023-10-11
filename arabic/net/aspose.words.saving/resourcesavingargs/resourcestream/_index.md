@@ -16,15 +16,15 @@ public Stream ResourceStream { get; set; }
 
 ### ملاحظات
 
-تسمح لك هذه الخاصية بحفظ الموارد في التدفقات بدلاً من الملفات.
+تتيح لك هذه الخاصية حفظ الموارد في التدفقات بدلاً من الملفات.
 
-النظام الأساسي`لا شيء` . عندما تكون هذه الخاصية`لا شيء` ، سيتم حفظ المورد في ملف محدد في[`ResourceFileName`](../resourcefilename/) منشأه.
+القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` ، سيتم حفظ المورد في ملف محدد في ملف[`ResourceFileName`](../resourcefilename/) ملكية.
 
 استخدام[`IResourceSavingCallback`](../../iresourcesavingcallback/) لا يمكنك استبدال مورد بـ آخر. الغرض منه هو فقط التحكم في الموقع حيث يتم حفظ الموارد.
 
 ### أمثلة
 
-يوضح كيفية استخدام رد اتصال لطباعة URIs للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -44,7 +44,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // سيحتوي المجلد المحدد بواسطة ResourcesFolderAlias على الموارد بدلاً من ResourcesFolder.
-    // يجب أن نتأكد من وجود المجلد قبل أن تضع التدفقات مواردها فيه.
+    // يجب أن نتأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -58,13 +58,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع URIs للموارد المتضمنة بواسطة حيث يتم تحويلها إلى HTML ثابت.
+/// يحسب ويطبع عناوين URI للموارد التي تحتوي عليها عند تحويلها إلى HTML ثابت.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions ، فسنكون قادرين على طباعته من هنا.
+        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسنكون قادرين على طباعته من هنا.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -73,8 +73,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // افتراضيًا ، يستخدم "ResourceFileUri" مجلد النظام للخطوط.
-                // لتجنب المشاكل في الأنظمة الأساسية الأخرى ، يجب عليك تحديد مسار الخطوط بشكل صريح.
+                // بشكل افتراضي، يستخدم 'ResourceFileUri' مجلد النظام للخطوط.
+                // لتجنب المشاكل في الأنظمة الأساسية الأخرى، يجب عليك تحديد مسار الخطوط بشكل صريح.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -82,8 +82,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // إذا حددنا مجلدًا في خاصية "ResourcesFolderAlias" ،
-        // سنحتاج أيضًا إلى إعادة توجيه كل دفق لوضع مورده في هذا المجلد.
+        // إذا قمنا بتحديد مجلد في خاصية "ResourcesFolderAlias"،
+        // سنحتاج أيضًا إلى إعادة توجيه كل تيار لوضع موارده في هذا المجلد.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

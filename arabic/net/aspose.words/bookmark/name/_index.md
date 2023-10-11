@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### ملاحظات
 
-لاحظ أنه إذا قمت بتغيير اسم إشارة مرجعية إلى اسم موجود بالفعل في المستند ، فلن يظهر أي خطأ وسيتم تخزين الإشارة المرجعية الأولى فقط عند حفظ المستند.
+لاحظ أنه إذا قمت بتغيير اسم الإشارة المرجعية إلى اسم موجود بالفعل في المستند، فلن يتم تقديم أي خطأ وسيتم تخزين الإشارة المرجعية الأولى فقط عند حفظ المستند.
 
 ### أمثلة
 
@@ -24,12 +24,12 @@ public string Name { get; set; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
-// تحتوي إشارة مرجعية صالحة على اسم و BookmarkStart وعقدة BookmarkEnd.
-// سيتم تحويل أي مسافة بيضاء في أسماء الإشارات المرجعية إلى شرطات سفلية إذا فتحنا المستند المحفوظ باستخدام Microsoft Word. 
-// إذا قمنا بتمييز اسم الإشارة المرجعية في Microsoft Word عبر Insert - > الروابط - >. ضع إشارة مرجعية واضغط على "الانتقال إلى" ،
-// سينتقل المؤشر إلى النص المرفق بين عقدتي BookmarkStart و BookmarkEnd.
+// الإشارة المرجعية الصالحة لها اسم وBookmarkStart وعقدة BookmarkEnd.
+// سيتم تحويل أي مسافة بيضاء في أسماء الإشارات المرجعية إلى شرطات سفلية إذا فتحنا المستند المحفوظ باستخدام Microsoft Word.
+// إذا قمنا بتمييز اسم الإشارة المرجعية في Microsoft Word عبر Insert -> الروابط -> قم بوضع إشارة مرجعية، ثم اضغط على "انتقال إلى"،
+// سينتقل المؤشر إلى النص الموجود بين عقدتي BookmarkStart وBookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
@@ -45,22 +45,21 @@ doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا بثلاث إشارات مرجعية ، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
+    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية بالفهرس أو الاسم ، ويمكن تحديث أسمائها.
+    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // طباعة جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
+    // اطبع جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// أنشئ مستندًا بعدد معين من الإشارات المرجعية.
+/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -82,7 +81,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم مكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -107,7 +106,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
 second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة .
+description: RowFormat ملكية. صحيح إذا تم السماح للنص الموجود في صف الجدول بالانقسام عبر فاصل الصفحات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 ---
 ## RowFormat.AllowBreakAcrossPages property
 
-صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة .
+صحيح إذا تم السماح للنص الموجود في صف الجدول بالانقسام عبر فاصل الصفحات.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -22,10 +22,10 @@ public bool AllowBreakAcrossPages { get; set; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// اضبط خاصية "AllowBreakAcrossPages" على "false" للاحتفاظ بالصف
-// في قطعة واحدة إذا كان الجدول يمتد على صفحتين ، والتي تنقسم على طول هذا الصف.
-// إذا كان الصف أكبر من أن يتسع في صفحة واحدة ، فسيقوم Microsoft Word بدفعه لأسفل إلى الصفحة التالية.
-// اضبط خاصية "AllowBreakAcrossPages" على "true" للسماح للصف بالانفصال عبر صفحتين.
+// اضبط الخاصية "AllowBreakAcrossPages" على "خطأ" للاحتفاظ بالصف
+// قطعة واحدة إذا كان الجدول يمتد إلى صفحتين، مقسمتين على طول هذا الصف.
+// إذا كان الصف كبيرًا جدًا بحيث لا يمكن احتواؤه في صفحة واحدة، فسيقوم Microsoft Word بدفعه إلى الصفحة التالية.
+// قم بتعيين خاصية "AllowBreakAcrossPages" على "صحيح" للسماح للصف بالتقسيم عبر صفحتين.
 foreach (Row row in table.OfType<Row>())
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 

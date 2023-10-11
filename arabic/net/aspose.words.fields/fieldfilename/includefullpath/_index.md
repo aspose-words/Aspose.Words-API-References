@@ -1,14 +1,14 @@
 ---
 title: FieldFileName.IncludeFullPath
 second_title: Aspose.Words لمراجع .NET API
-description: FieldFileName ملكية. يحصل أو يحدد ما إذا كان سيتم تضمين اسم مسار الملف الكامل.
+description: FieldFileName ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldfilename/includefullpath/
 ---
 ## FieldFileName.IncludeFullPath property
 
-يحصل أو يحدد ما إذا كان سيتم تضمين اسم مسار الملف الكامل.
+الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
 
-// سيعرض حقل FILENAME هذا اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
+// سيعرض حقل اسم الملف هذا اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
@@ -34,16 +34,16 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// بشكل افتراضي ، يعرض حقل FILENAME اسم الملف ، ولكن ليس مسار نظام الملفات المحلي الكامل الخاص به.
-// يمكننا تعيين علامة لجعلها تظهر مسار الملف الكامل.
+// افتراضيًا، يُظهر الحقل FILENAME اسم الملف، ولكن ليس مسار نظام الملفات المحلي الكامل الخاص به.
+// يمكننا تعيين علامة لجعلها تظهر مسار الملف بالكامل.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// يمكننا أيضًا تعيين قيمة لهذه الخاصية إلى
-// تجاوز القيمة التي يعرضها حقل FILENAME.
+// يمكننا أيضًا تعيين قيمة لهذه الخاصية
+// تجاوز القيمة التي يعرضها حقل اسم الملف.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 

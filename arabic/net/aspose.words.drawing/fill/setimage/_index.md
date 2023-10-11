@@ -1,14 +1,14 @@
 ---
 title: Fill.SetImage
 second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يغير نوع التعبئة إلى صورة واحدة.
+description: Fill طريقة. تغيير نوع التعبئة إلى صورة واحدة.
 type: docs
-weight: 190
+weight: 250
 url: /ar/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
 
-يغير نوع التعبئة إلى صورة واحدة.
+تغيير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(string fileName)
@@ -26,17 +26,17 @@ public void SetImage(string fileName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// هناك عدة طرق لتعيين الصورة.
+// هناك عدة طرق لإعداد الصورة.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 1 - استخدام اسم ملف نظام محلي:
+// 1 - استخدام اسم ملف النظام المحلي:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - تحميل ملف في مصفوفة بايت:
+// 2 - تحميل ملف إلى مصفوفة بايت:
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - من تيار:
+// 3 - من الدفق:
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ## SetImage(Stream) {#setimage_1}
 
-يغير نوع التعبئة إلى صورة واحدة.
+تغيير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -72,7 +72,7 @@ public void SetImage(Stream stream)
 
 ## SetImage(byte[]) {#setimage}
 
-يغير نوع التعبئة إلى صورة واحدة.
+تغيير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(byte[] imageBytes)

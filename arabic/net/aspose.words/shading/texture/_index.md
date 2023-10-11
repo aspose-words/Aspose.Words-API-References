@@ -3,7 +3,7 @@ title: Shading.Texture
 second_title: Aspose.Words لمراجع .NET API
 description: Shading ملكية. الحصول على نسيج التظليل أو تعيينه.
 type: docs
-weight: 30
+weight: 70
 url: /ar/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property

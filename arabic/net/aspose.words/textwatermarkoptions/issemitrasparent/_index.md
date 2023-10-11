@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
 second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هي True .
+description: TextWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هيحقيقي .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هي True .
+الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -21,10 +21,10 @@ public bool IsSemitrasparent { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

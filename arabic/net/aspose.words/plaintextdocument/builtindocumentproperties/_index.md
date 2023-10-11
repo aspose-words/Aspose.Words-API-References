@@ -16,7 +16,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ### أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي ثم الوصول إلى الخصائص المضمنة في المستند الأصلي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي ثم الوصول إلى الخصائص المضمنة للمستند الأصلي.
 
 ```csharp
 Document doc = new Document();

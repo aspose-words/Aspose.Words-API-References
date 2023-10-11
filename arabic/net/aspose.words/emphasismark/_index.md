@@ -1,14 +1,14 @@
 ---
 title: Enum EmphasisMark
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EmphasisMark تعداد. تحديد الأنواع الممكنة لعلامة التوكيد .
+description: Aspose.Words.EmphasisMark تعداد. يحدد الأنواع المحتملة لعلامات التركيز.
 type: docs
-weight: 1310
+weight: 1460
 url: /ar/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-تحديد الأنواع الممكنة لعلامة التوكيد .
+يحدد الأنواع المحتملة لعلامات التركيز.
 
 ```csharp
 public enum EmphasisMark
@@ -18,20 +18,20 @@ public enum EmphasisMark
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا توجد علامة تأكيد . |
+| None | `0` | لا توجد علامة تأكيد. |
 | OverSolidCircle | `1` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أعلى النص. |
-| OverComma | `2` | علامة التوكيد هي حرف فاصلة معروض أعلى النص. |
-| OverWhiteCircle | `3` | علامة التوكيد عبارة عن دائرة بيضاء فارغة معروضة فوق النص. |
+| OverComma | `2` | علامة التوكيد هي حرف فاصلة يتم عرضه فوق النص. |
+| OverWhiteCircle | `3` | علامة التوكيد عبارة عن دائرة بيضاء فارغة معروضة أعلى النص. |
 | UnderSolidCircle | `4` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أسفل النص. |
 
 ### أمثلة
 
-يوضح كيفية إضافة حرف إضافي مقدم أعلى / أسفل الحرف الرسومي.
+يوضح كيفية إضافة حرف إضافي معروض أعلى/أسفل الحرف الرسومي.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// الأنواع الممكنة من علامة التركيز:
+// الأنواع المحتملة لعلامة التركيز:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

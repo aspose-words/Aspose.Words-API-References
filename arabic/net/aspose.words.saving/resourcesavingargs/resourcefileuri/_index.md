@@ -16,17 +16,17 @@ public string ResourceFileUri { get; set; }
 
 ### ملاحظات
 
-تتيح لك هذه الخاصية تغيير URIs لملفات الموارد التي تم تصديرها إلى مستندات HTML أو SVG للصفحة الثابتة.
+تسمح لك هذه الخاصية بتغيير معرفات URI لملفات الموارد المصدرة إلى مستندات HTML أو SVG ذات صفحة ثابتة.
 
-ينشئ Aspose.Words تلقائيًا عنوان URI لكل ملف مورد أثناء التصدير إلى تنسيق HTML أو SVG للصفحة الثابتة. ملفات الموارد المرجعية التي تم إنشاؤها بواسطة Aspose.Words ملفات الموارد المرجعية التي تم إنشاؤها. ومع ذلك ، يمكن أن تكون URIs غير صحيحة إذا كان سيتم نقل ملفات الموارد إلى موقع آخر أو إذا تم حفظ ملفات الموارد في الدفق.
+يقوم Aspose.Words تلقائيًا بإنشاء URI لكل ملف مورد أثناء التصدير إلى صفحة ثابتة بتنسيق HTML أو SVG. تشير معرفات URI التي تم إنشاؤها إلى ملفات الموارد المحفوظة بواسطة Aspose.Words. ومع ذلك، يمكن أن تكون عناوين URI غير صحيحة إذا تم نقل ملفات الموارد إلى موقع آخر أو إذا تم حفظ ملفات الموارد في التدفقات. تسمح هذه الخاصية بتصحيح معرفات URI في هذه الحالات.
 
-عند إطلاق الحدث ، تحتوي هذه الخاصية على URI الذي تم إنشاؤه بواسطة Aspose.Words . يمكنك تغيير قيمة هذه الخاصية لتوفير URI مخصص لملف المورد.
+عند إطلاق الحدث، تحتوي هذه الخاصية على URI الذي تم إنشاؤه بواسطة Aspose.Words. يمكنك تغيير قيمة هذه الخاصية لتوفير عنوان URI مخصص لملف المورد.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
 ### أمثلة
 
-يوضح كيفية استخدام رد الاتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يحفظ Aspose.Words موردًا خارجيًا لصفحة ثابتة HTML أو SVG.
+    /// يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

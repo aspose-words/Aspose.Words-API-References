@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 second_title: Aspose.Words لمراجع .NET API
 description: PageSetup ملكية. إرجاع أو تعيين اتجاه الصفحة.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,11 +16,11 @@ public Orientation Orientation { get; set; }
 
 ### ملاحظات
 
-التغيير **توجيه** المقايضات[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/).
+تغيير`Orientation` مقايضات[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/).
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -40,19 +40,19 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

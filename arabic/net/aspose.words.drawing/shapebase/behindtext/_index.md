@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BehindText
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحديد ما إذا كان الشكل أسفل النص أو فوقه.
+description: ShapeBase ملكية. يحدد ما إذا كان الشكل أسفل النص أو فوقه.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-تحديد ما إذا كان الشكل أسفل النص أو فوقه.
+يحدد ما إذا كان الشكل أسفل النص أو فوقه.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -16,9 +16,9 @@ public bool BehindText { get; set; }
 
 ### ملاحظات
 
-له تأثير فقط لأشكال المستوى الأعلى.
+له تأثير فقط على أشكال المستوى الأعلى.
 
-النظام الأساسي **خاطئة**.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ public bool BehindText { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

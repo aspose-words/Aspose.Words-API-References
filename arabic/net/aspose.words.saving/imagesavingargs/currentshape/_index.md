@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.CurrentShape
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. يحصل على ملفShapeBase كائن مطابق للشكل أو شكل المجموعة الذي على وشك حفظه .
+description: ImageSavingArgs ملكية. يحصل علىShapeBase الكائن المطابق للشكل أو شكل المجموعة الذي على وشك أن يتم حفظه.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/imagesavingargs/currentshape/
 ---
 ## ImageSavingArgs.CurrentShape property
 
-يحصل على ملف[`ShapeBase`](../../../aspose.words.drawing/shapebase/) كائن مطابق للشكل أو شكل المجموعة الذي على وشك حفظه .
+يحصل على[`ShapeBase`](../../../aspose.words.drawing/shapebase/) الكائن المطابق للشكل أو شكل المجموعة الذي على وشك أن يتم حفظه.
 
 ```csharp
 public ShapeBase CurrentShape { get; }
@@ -16,21 +16,22 @@ public ShapeBase CurrentShape { get; }
 
 ### ملاحظات
 
-[`IImageSavingCallback`](../../iimagesavingcallback/) يمكن إطلاقه أثناء حفظ شكل أو شكل مجموعة. لهذا العقار[`ShapeBase`](../../../aspose.words.drawing/shapebase/) يكتب. يمكنك التحقق مما إذا كان شكل مجموعة يقارن [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) معGroup أو عن طريق تحويلها إلى إحدى الفئات المشتقة: [`Shape`](../../../aspose.words.drawing/shape/) أو[`GroupShape`](../../../aspose.words.drawing/groupshape/).
+[`IImageSavingCallback`](../../iimagesavingcallback/) يمكن إطلاقها مع حفظ شكل أو شكل مجموعة. لهذا السبب الملكية[`ShapeBase`](../../../aspose.words.drawing/shapebase/) يكتب. يمكنك التحقق مما إذا كان شكل مجموعة يقارن [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) معGroup أو عن طريق إرسالها إلى أحد الفئات المشتقة: [`Shape`](../../../aspose.words.drawing/shape/) أو[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
-يستخدم Aspose.Words اسم ملف المستند ورقم فريد لإنشاء اسم ملف فريد لكل صورة موجودة في المستند. يمكنك استخدام ال`CurrentShape` إنشاء الخاصية اسم ملف "أفضل" من خلال فحص خصائص الشكل مثل[`Title`](../../../aspose.words.drawing/imagedata/title/) (الشكل فقط) ،[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (الشكل فقط) و[`Name`](../../../aspose.words.drawing/shapebase/name/)بالطبع يمكنك إنشاء أسماء الملفات باستخدام أي خصائص أو معايير أخرى لكن لاحظ أن أسماء الملفات الفرعية يجب أن تكون فريدة في عملية التصدير.
+يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء اسم ملف فريد لكل صورة موجودة في المستند. يمكنك استخدام ال`CurrentShape`الخاصية لإنشاء اسم ملف "أفضل" عن طريق فحص خصائص الشكل مثل[`Title`](../../../aspose.words.drawing/imagedata/title/) (الشكل فقط)،[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (الشكل فقط) و[`Name`](../../../aspose.words.drawing/shapebase/name/). بالطبع يمكنك إنشاء أسماء الملفات باستخدام أي خصائص أو معايير أخرى ولكن لاحظ أن أسماء الملفات الفرعية يجب أن تكون فريدة ضمن عملية التصدير.
 
-قد تكون بعض الصور في المستند غير متوفرة. للتحقق من توفر الصورة استخدم ملف[`IsImageAvailable`](../isimageavailable/) منشأه.
+قد تكون بعض الصور في المستند غير متوفرة. للتحقق من توفر الصورة استخدم[`IsImageAvailable`](../isimageavailable/) ملكية.
 
 ### أمثلة
 
-يوضح كيفية إشراك رد اتصال حفظ الصورة في عملية تحويل HTML.
+يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML ، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -39,7 +40,7 @@ public ShapeBase CurrentShape { get; }
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة حيث أن عملية الحفظ تحفظها في ملف صورة في نظام الملفات المحلي
+/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
 /// أثناء تصدير مستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

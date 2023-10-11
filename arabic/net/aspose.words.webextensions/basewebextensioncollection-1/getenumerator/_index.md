@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: BaseWebExtensionCollection طريقة. إرجاع عداد يمكنه التكرار من خلال مجموعة.
+description: BaseWebExtensionCollection طريقة. يُرجع عدادًا يمكنه التكرار من خلال مجموعة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-إرجاع عداد يمكنه التكرار من خلال مجموعة.
+يُرجع عدادًا يمكنه التكرار من خلال مجموعة.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -16,14 +16,14 @@ public IEnumerator<T> GetEnumerator()
 
 ### أمثلة
 
-يوضح كيفية العمل مع مجموعة وثيقة من امتدادات الويب.
+يوضح كيفية العمل مع مجموعة ملحقات الويب الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// طباعة جميع خصائص امتداد الويب الخاص بالمستند.
+// اطبع كافة خصائص ملحق الويب الخاص بالمستند.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -34,7 +34,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// إزالة امتداد الويب.
+// قم بإزالة ملحق الويب.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

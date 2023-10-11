@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحديد متعلق بالموضع الرأسي للشكل.
+description: ShapeBase ملكية. يحدد نسبة إلى موضع الشكل عموديًا.
 type: docs
-weight: 410
+weight: 440
 url: /ar/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
 
-تحديد متعلق بالموضع الرأسي للشكل.
+يحدد نسبة إلى موضع الشكل عموديًا.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
@@ -16,9 +16,9 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 ### ملاحظات
 
-النظام الأساسيParagraph.
+القيمة الافتراضية هيParagraph.
 
-له تأثير فقط للأشكال العائمة ذات المستوى الأعلى.
+له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

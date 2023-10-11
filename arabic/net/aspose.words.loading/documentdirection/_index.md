@@ -3,7 +3,7 @@ title: Enum DocumentDirection
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Loading.DocumentDirection تعداد. يسمح بتحديد اتجاه تدفق النص في المستند.
 type: docs
-weight: 3380
+weight: 3580
 url: /ar/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
@@ -18,9 +18,9 @@ public enum DocumentDirection
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| LeftToRight | `0` | من اليسار إلى الاتجاه الصحيح. |
-| RightToLeft | `1` | الاتجاه من اليمين إلى اليسار . |
-| Auto | `2` | اتجاه الكشف التلقائي . |
+| LeftToRight | `0` | الاتجاه من اليسار إلى اليمين. |
+| RightToLeft | `1` | الاتجاه من اليمين إلى اليسار. |
+| Auto | `2` | اتجاه الكشف التلقائي. |
 
 ### أنظر أيضا
 

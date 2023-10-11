@@ -16,7 +16,7 @@ public string AltName { get; set; }
 
 ### ملاحظات
 
-لا يمكن`لا شيء`. يمكن أن تكون سلسلة فارغة.
+لا يمكن`باطل`. يمكن أن تكون سلسلة فارغة.
 
 ### أمثلة
 
@@ -33,7 +33,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // عادةً ما تكون أسماء Alt فارغة.
+        // الأسماء البديلة عادة ما تكون فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -16,17 +16,17 @@ public string ResourceFolderAlias { get; set; }
 
 ### ملاحظات
 
-`ResourceFolderAlias` هي أبسط طريقة لتحديد كيفية إنشاء URIs لجميع ملفات الموارد. يمكن تحديد نفس المعلومات للصور والخطوط بشكل منفصل عبر[`ImagesFolderAlias`](../imagesfolderalias/) و[`FontsFolderAlias`](../fontsfolderalias/) الخصائص ، على التوالي. ومع ذلك ، لا توجد خاصية فردية لـ CSS.
+`ResourceFolderAlias` هي أبسط طريقة لتحديد كيفية إنشاء معرفات URI لجميع ملفات الموارد. يمكن تحديد نفس المعلومات للصور والخطوط بشكل منفصل عبر[`ImagesFolderAlias`](../imagesfolderalias/) و[`FontsFolderAlias`](../fontsfolderalias/) الخصائص، على التوالي. ومع ذلك، لا توجد خاصية فردية لـ CSS.
 
-`ResourceFolderAlias` له أولوية أقل من[`FontsFolderAlias`](../fontsfolderalias/) و[`ImagesFolderAlias`](../imagesfolderalias/) . على سبيل المثال ، إذا كان كلاهما`ResourceFolderAlias` و[`FontsFolderAlias`](../fontsfolderalias/) محددة ، سيتم إنشاء URIs للخطوط باستخدام [`FontsFolderAlias`](../fontsfolderalias/) ، بينما سيتم إنشاء URIs للصور و CSS باستخدام `ResourceFolderAlias`.
+`ResourceFolderAlias` لديه أولوية أقل من[`FontsFolderAlias`](../fontsfolderalias/) و[`ImagesFolderAlias`](../imagesfolderalias/) . على سبيل المثال، إذا كان كلاهما`ResourceFolderAlias` و[`FontsFolderAlias`](../fontsfolderalias/) تم تحديد عناوين URL الخاصة بالخطوط باستخدام [`FontsFolderAlias`](../fontsfolderalias/) ، بينما سيتم إنشاء معرفات URI للصور وCSS باستخدام `ResourceFolderAlias`.
 
-إذا`ResourceFolderAlias` فارغ ،[`ResourceFolder`](../resourcefolder/)سيتم استخدام قيمة الخاصية لإنشاء محددات الموارد المنتظمة (URIs).
+لو`ResourceFolderAlias` فارغة،[`ResourceFolder`](../resourcefolder/)سيتم استخدام قيمة الخاصية لإنشاء معرفات URI للمورد.
 
-إذا`ResourceFolderAlias` تم تعيينه على "." (نقطة) ، ستحتوي URIs على أسماء الملفات فقط ، بدون أي مسار.
+لو`ResourceFolderAlias` تم ضبطه على "." (نقطة)، ستحتوي معرفات الموارد المنتظمة (URI) للمورد على أسماء الملفات فقط، بدون أي مسار.
 
 ### أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي ستنشئها Aspose.Words عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -40,9 +40,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts "،
-    ImagesFolderAlias = "http://example.com/images "،
-    ResourceFolderAlias = "http://example.com/resources "،
+    FontsFolderAlias = "http://example.com/fonts"،
+    ImagesFolderAlias = "http://example.com/images"،
+    ResourceFolderAlias = "http://example.com/resources"،
     ExportOriginalUrlForLinkedImages = true
 };
 

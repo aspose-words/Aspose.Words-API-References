@@ -1,14 +1,14 @@
 ---
 title: Enum TextureAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextureAlignment تعداد. يحدد المحاذاة لتجانب تعبئة النسيج.
+description: Aspose.Words.Drawing.TextureAlignment تعداد. يحدد المحاذاة لتبليط تعبئة النسيج.
 type: docs
-weight: 1220
+weight: 1370
 url: /ar/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-يحدد المحاذاة لتجانب تعبئة النسيج.
+يحدد المحاذاة لتبليط تعبئة النسيج.
 
 ```csharp
 public enum TextureAlignment
@@ -18,16 +18,16 @@ public enum TextureAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| TopLeft | `0` | محاذاة النسيج العلوية اليسرى . |
-| Top | `1` | محاذاة النسيج العلوي . |
-| TopRight | `2` | محاذاة النسيج العلوية اليمنى . |
-| Left | `3` | محاذاة النسيج الأيسر . |
-| Center | `4` | توسيط محاذاة النسيج . |
-| Right | `5` | محاذاة الملمس الأيمن . |
-| BottomLeft | `6` | محاذاة النسيج السفلي الأيسر . |
-| Bottom | `7` | محاذاة النسيج السفلي . |
-| BottomRight | `8` | محاذاة النسيج السفلي الأيمن . |
-| None | `9` | محاذاة بلا نسيج . |
+| TopLeft | `0` | محاذاة النسيج العلوي الأيسر. |
+| Top | `1` | محاذاة النسيج العلوي. |
+| TopRight | `2` | محاذاة النسيج العلوي الأيمن. |
+| Left | `3` | محاذاة المادة لليسار. |
+| Center | `4` | محاذاة النسيج للمركز. |
+| Right | `5` | محاذاة الملمس لليمين. |
+| BottomLeft | `6` | محاذاة الملمس السفلي الأيسر. |
+| Bottom | `7` | محاذاة النسيج السفلي. |
+| BottomRight | `8` | محاذاة الملمس السفلي الأيمن. |
+| None | `9` | لا توجد محاذاة للنسيج. |
 
 ### أمثلة
 
@@ -43,8 +43,8 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// استخدم خيار التوافق لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "TextureAlignment"
-// خاصية بعد حفظ المستند.
+// استخدم خيار الامتثال لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "TextureAlignment"
+// الخاصية بعد حفظ المستند.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);

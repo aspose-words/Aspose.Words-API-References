@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Font
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يوفر الوصول إلى تنسيق خط هذا الكائن.
+description: ShapeBase ملكية. يوفر الوصول إلى تنسيق الخط لهذا الكائن.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-يوفر الوصول إلى تنسيق خط هذا الكائن.
+يوفر الوصول إلى تنسيق الخط لهذا الكائن.
 
 ```csharp
 public Font Font { get; }
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج مربع نص ، وتعيين خط محتوياته.
+يوضح كيفية إدراج مربع نص وتعيين خط محتوياته.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// قم بتعيين الخاصية "Hidden" لكائن "Font" للشكل على "true" لإخفاء مربع النص عن الأنظار
-// وخفض المساحة التي تشغلها عادةً.
-// قم بتعيين الخاصية "Hidden" لكائن "Font" للشكل على "false" لترك مربع النص مرئيًا.
+// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "صحيح" لإخفاء مربع النص عن الأنظار
+// وقم بطي المساحة التي كانت تشغلها عادةً.
+// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "خطأ" لترك مربع النص مرئيًا.
 shape.Font.Hidden = hideShape;
 
-// إذا كان الشكل مرئيًا ، فسنقوم بتعديل مظهره عبر كائن الخط.
+// إذا كان الشكل مرئيًا، فسنقوم بتعديل مظهره عبر كائن الخط.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -41,7 +41,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// انقل المنشئ خارج مربع النص إلى المستند الرئيسي.
+// انقل المنشئ خارج مربع النص مرة أخرى إلى المستند الرئيسي.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

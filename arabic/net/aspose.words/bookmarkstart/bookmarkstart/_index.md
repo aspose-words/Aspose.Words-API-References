@@ -1,14 +1,14 @@
 ---
 title: BookmarkStart.BookmarkStart
 second_title: Aspose.Words لمراجع .NET API
-description: BookmarkStart البناء. يقوم بتهيئة مثيل جديد لملفBookmarkStart فئة .
+description: BookmarkStart البناء. تهيئة مثيل جديد لـBookmarkStart فئة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkstart/bookmarkstart/
 ---
 ## BookmarkStart constructor
 
-يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](../) فئة .
+تهيئة مثيل جديد لـ[`BookmarkStart`](../) فئة.
 
 ```csharp
 public BookmarkStart(DocumentBase doc, string name)
@@ -17,7 +17,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| name | String | اسم الإشارة المرجعية. لا يمكن أن تكون لاغية. |
+| name | String | اسم الإشارة المرجعية. لا يمكن`باطل`. |
 
 ### أمثلة
 
@@ -26,22 +26,21 @@ public BookmarkStart(DocumentBase doc, string name)
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا بثلاث إشارات مرجعية ، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
+    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية بالفهرس أو الاسم ، ويمكن تحديث أسمائها.
+    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // طباعة جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
+    // اطبع جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// أنشئ مستندًا بعدد معين من الإشارات المرجعية.
+/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -63,7 +62,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم مكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -88,7 +87,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

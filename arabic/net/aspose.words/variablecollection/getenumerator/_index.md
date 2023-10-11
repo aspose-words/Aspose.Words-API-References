@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على جميع المتغيرات في المجموعة.
+description: VariableCollection طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار على كافة المتغيرات في المجموعة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/variablecollection/getenumerator/
 ---
 ## VariableCollection.GetEnumerator method
 
-إرجاع كائن العداد الذي يمكن استخدامه للتكرار على جميع المتغيرات في المجموعة.
+يُرجع كائن العداد الذي يمكن استخدامه للتكرار على كافة المتغيرات في المجموعة.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
@@ -22,14 +22,14 @@ public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// يحتوي كل مستند على مجموعة من متغيرات زوج المفتاح / القيمة ، والتي يمكننا إضافة عناصر إليها.
+// يحتوي كل مستند على مجموعة من متغيرات زوج المفتاح/القيمة، والتي يمكننا إضافة عناصر إليها.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// يمكننا عرض قيم المتغيرات في نص المستند باستخدام حقول DOCVARIABLE.
+// يمكننا عرض قيم المتغيرات في نص الوثيقة باستخدام حقول DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -37,7 +37,7 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// سيؤدي تعيين قيم للمفاتيح الموجودة إلى تحديثها.
+// سيؤدي تعيين القيم للمفاتيح الموجودة إلى تحديثها.
 variables.Add("Home address", "456 Queen St.");
 
 // سيتعين علينا بعد ذلك تحديث حقول DOCVARIABLE للتأكد من أنها تعرض قيمة محدثة.
@@ -47,21 +47,21 @@ field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// تحقق من وجود متغيرات المستند باسم أو قيمة معينة.
+// التحقق من وجود متغيرات المستند ذات اسم أو قيمة معينة.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// تقوم مجموعة المتغيرات تلقائيًا بفرز المتغيرات أبجديًا بالاسم.
+// تقوم مجموعة المتغيرات بفرز المتغيرات أبجديًا حسب الاسم تلقائيًا.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// عد على مجموعة المتغيرات.
+// تعداد مجموعة المتغيرات.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// فيما يلي ثلاث طرق لإزالة متغيرات المستند من مجموعة.
+// فيما يلي ثلاث طرق لإزالة متغيرات المستند من المجموعة.
 // 1 - بالاسم:
 variables.Remove("City");
 
@@ -72,7 +72,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - امسح المجموعة بأكملها مرة واحدة:
+// 3 - مسح المجموعة بأكملها مرة واحدة:
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

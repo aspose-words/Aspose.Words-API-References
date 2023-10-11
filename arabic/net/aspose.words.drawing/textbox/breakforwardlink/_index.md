@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words لمراجع .NET API
-description: TextBox طريقة. يكسر الارتباط إلى مربع النص التالي.
+description: TextBox طريقة. يقطع الرابط إلى التاليTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-يكسر الارتباط إلى مربع النص التالي.
+يقطع الرابط إلى التالي[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### ملاحظات
 
-لا يكسر BreakForwardLink () جميع الارتباطات الأخرى في التسلسل الحالي للأشكال. على سبيل المثال: التسلسل 1-2-3-4 و BreakForwardLink في مربع النص الثاني سينشئ تسلسلين 1-2 ، 3-4.
+`BreakForwardLink`لا يؤدي إلى قطع جميع الروابط الأخرى في التسلسل الحالي للأشكال. على سبيل المثال: تسلسل 1-2-3-4 و`BreakForwardLink` في مربع النص الثاني سيتم إنشاء تسلسلين 1-2، 3-4.
 
 ### أمثلة
 
@@ -48,7 +48,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// فقط مربع نص فارغ قد يحتوي على ارتباط.
+// قد يحتوي مربع النص الفارغ فقط على رابط.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -66,7 +66,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // قطع الارتباط الأمامي بين textBox2 و textBox3 ، ثم تحقق من أنهما لم يعودا مرتبطين.
+    // اقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تحقق من أنهما لم يعودا مرتبطين.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

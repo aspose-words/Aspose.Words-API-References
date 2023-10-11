@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Placeholder
 second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. يحصل على ملفBuildingBlock يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة  يكون عنصر XML المعين المرتبط فارغًا كما هو محدد عبرXmlMapping element أو ملفIsShowingPlaceholderText العنصر صحيح.
+description: IStructuredDocumentTag ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر صحيح
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/istructureddocumenttag/placeholder/
 ---
 ## IStructuredDocumentTag.Placeholder property
 
-يحصل على ملف[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة ، يكون عنصر XML المعين المرتبط فارغًا كما هو محدد عبر[`XmlMapping`](../xmlmapping/) element أو ملف[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر صحيح.
+يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة، عنصر XML المعين المرتبط فارغ كما هو محدد عبر[`XmlMapping`](../xmlmapping/) element أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر صحيح
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### ملاحظات
 
-يمكن أن يكون فارغًا ، مما يعني أن العنصر النائب لا ينطبق على Sdt.
+يمكن أن يكون فارغًا، مما يعني أن العنصر النائب غير قابل للتطبيق على Sdt.
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: Field.Update
 second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل.
+description: Field طريقة. يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل.
+يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
 
 ```csharp
 public void Update()
@@ -16,14 +16,14 @@ public void Update()
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل في مستند باستخدام نوع الحقل.
+يوضح كيفية إدراج حقل في مستند باستخدام FieldType.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلين أثناء تمرير علامة تحدد ما إذا كان سيتم تحديثهما أثناء قيام المنشئ بإدخالهما.
-// في بعض الحالات ، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية ، وقد يكون تأجيل التحديث فكرة جيدة.
+// أدخل حقلين أثناء تمرير علامة تحدد ما إذا كان سيتم تحديثهما عندما يقوم المنشئ بإدراجهما.
+// في بعض الحالات، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية، وقد يكون تأجيل التحديث فكرة جيدة.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -62,7 +62,7 @@ else
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون أي تنسيق مطبق.
+// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -78,7 +78,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - تنسيق التاريخ / الوقت:
+// 2 - تنسيق التاريخ/الوقت:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -104,7 +104,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكله الأصلي.
+// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -125,7 +125,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(bool) {#update_1}
 
-يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل.
+إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -133,11 +133,11 @@ public void Update(bool ignoreMergeFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | إذا`حقيقي` ثم يتم التخلي عن تنسيق نتيجة الحقل المباشر ، بغض النظر عن مفتاح MERGEFORMAT ، وإلا يتم إجراء التحديث العادي. |
+| ignoreMergeFormat | Boolean | إذا`حقيقي` ثم يتم التخلي عن التنسيق المباشر لنتيجة الحقل، بغض النظر عن رمز التبديل MERGEFORMAT، وإلا فسيتم إجراء التحديث العادي. |
 
 ### أمثلة
 
-يوضح كيفية الاحتفاظ بحقول INCLUDEPICTURE أو تجاهلها عند تحميل مستند.
+يوضح كيفية الحفاظ على حقول INCLUDEPICTURE أو تجاهلها عند تحميل مستند.
 
 ```csharp
 Document doc = new Document();
@@ -152,7 +152,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // يمكننا تعيين علامة في كائن LoadOptions لتحديد ما إذا كان سيتم تحويل جميع حقول INCLUDEPICTURE
-    // في أشكال الصور عند تحميل مستند يحتوي عليها.
+    // إلى أشكال الصور عند تحميل مستند يحتوي عليها.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

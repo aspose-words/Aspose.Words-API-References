@@ -1,14 +1,14 @@
 ---
 title: Table.AutoFit
 second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. يغير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد.
+description: Table طريقة. تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد.
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
 
-يغير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد.
+تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد.
 
 ```csharp
 public void AutoFit(AutoFitBehavior behavior)
@@ -16,11 +16,11 @@ public void AutoFit(AutoFitBehavior behavior)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| behavior | AutoFitBehavior | يحدد كيفية احتواء الجدول تلقائيًا. |
+| behavior | AutoFitBehavior | يحدد كيفية الملاءمة التلقائية للجدول. |
 
 ### ملاحظات
 
-تحاكي هذه الطريقة الأوامر المتوفرة في قائمة Auto Fit لجدول في Microsoft Word . الأوامر المتاحة هي "ملاءمة تلقائية للمحتويات" و "ملاءمة تلقائية للنافذة" و "عرض عمود ثابت". في Microsoft Word تقوم هذه الأوامر بتعيين خصائص الجدول ذات الصلة ثم تقوم بتحديث تخطيط الجدول ويقوم Aspose.Words بنفس الشيء من أجلك.
+تحاكي هذه الطريقة الأوامر المتوفرة في قائمة الاحتواء التلقائي لجدول في Microsoft Word. الأوامر المتوفرة هي "الاحتواء التلقائي للمحتويات" و"الاحتواء التلقائي للنافذة" و"عرض العمود الثابت". في Microsoft Word ، تقوم هذه الأوامر بتعيين خصائص الجدول ذات الصلة ثم تحديث تخطيط الجدول ويقوم Aspose.Words بنفس الشيء بالنسبة لك.
 
 ### أمثلة
 
@@ -34,11 +34,11 @@ Table table = builder.StartTable();
 // يجب علينا إدراج صف واحد على الأقل قبل تعيين أي تنسيق للجدول.
 builder.InsertCell();
 
-// تعيين نمط الجدول المستخدم بناءً على معرف النمط.
-// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق doc.
+// قم بتعيين نمط الجدول المستخدم بناءً على معرف النمط.
+// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// قم بتطبيق النمط جزئيًا على ميزات الجدول بناءً على المسندات ، ثم قم ببناء الجدول.
+// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم أنشئ الجدول.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

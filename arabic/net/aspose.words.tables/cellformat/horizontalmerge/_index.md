@@ -3,7 +3,7 @@ title: CellFormat.HorizontalMerge
 second_title: Aspose.Words لمراجع .NET API
 description: CellFormat ملكية. يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -16,25 +16,25 @@ public CellMerge HorizontalMerge { get; set; }
 
 ### أمثلة
 
-يوضح كيفية دمج خلايا الجدول أفقيًا.
+يوضح كيفية دمج خلايا الجدول أفقياً.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية الأولى في نطاق الخلايا المدمجة أفقيًا.
+// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة أفقيًا.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول. بدلاً من إضافة محتويات نصية ،
+// أدخل خلية في العمود الثاني من الصف الأول. بدلاً من إضافة محتويات نصية،
 // سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها مباشرة إلى اليسار.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// أدخل خليتين أخريين غير مدمجين في الصف الثاني.
+// أدخل خليتين غير مدمجتين في الصف الثاني.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -46,7 +46,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-يطبع نوع الدمج الأفقي والعمودي لخلية.
+طباعة نوع الدمج الأفقي والرأسي للخلية.
 
 ```csharp
 public void CheckCellsMerged()

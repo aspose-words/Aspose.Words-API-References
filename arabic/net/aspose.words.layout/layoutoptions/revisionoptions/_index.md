@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.RevisionOptions
 second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. يحصل على خيارات المراجعة .
+description: LayoutOptions ملكية. الحصول على خيارات المراجعة.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
 
-يحصل على خيارات المراجعة .
+الحصول على خيارات المراجعة.
 
 ```csharp
 public RevisionOptions RevisionOptions { get; }
@@ -16,13 +16,13 @@ public RevisionOptions RevisionOptions { get; }
 
 ### أمثلة
 
-يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة ، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
+// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

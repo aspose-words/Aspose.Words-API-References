@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.IsTemporary
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته .
+description: StructuredDocumentTag ملكية. يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته .
+يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته .
 
 ```csharp
 public bool IsTemporary { get; set; }
@@ -16,32 +16,32 @@ public bool IsTemporary { get; set; }
 
 ### أمثلة
 
-يوضح كيفية عمل عناصر تحكم ذات استخدام واحد.
+يوضح كيفية إنشاء عناصر تحكم للاستخدام الفردي.
 
 ```csharp
 Document doc = new Document();
 
-// إدراج علامة مستند منظم بنص عادي ،
-// الذي سيعمل كنموذج نص عادي يمكن للمستخدم إدخال نص فيه.
+// أدخل علامة مستند منظم بنص عادي،
+// والذي سيكون بمثابة نموذج نص عادي يمكن للمستخدم إدخال النص فيه.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// عيّن الخاصية "IsTporary" إلى "true" لجعل علامة المستند المهيكلة تختفي و
+// اضبط الخاصية "IsTemporary" على "true" حتى تختفي علامة المستند المنظمة و
 // استيعاب محتوياته في المستند بعد أن يقوم المستخدم بتحريره مرة واحدة في Microsoft Word.
-// اضبط الخاصية "IsTporary" على "false" للسماح للمستخدم بتحرير المحتويات
-// من علامة المستند المهيكل أي عدد من المرات.
+// اضبط الخاصية "IsTemporary" على "خطأ" للسماح للمستخدم بتحرير المحتويات
+// لعلامة الوثيقة المنظمة أي عدد من المرات.
 tag.IsTemporary = isTemporary;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Please enter text: ");
 builder.InsertNode(tag);
 
-// أدخل علامة مستند مهيكلة أخرى في شكل مربع اختيار وقم بتعيين حالتها الافتراضية على "محدد".
+// أدخل علامة مستند منظمة أخرى في شكل مربع اختيار وقم بتعيين حالتها الافتراضية على "محدد".
 tag = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 tag.Checked = true;
 
-// عيّن الخاصية "IsTporary" إلى "true" لجعل خانة الاختيار رمزًا
-// بمجرد أن ينقر المستخدم عليها في Microsoft Word.
-// اضبط الخاصية "IsTporary" على "false" للسماح للمستخدم بالنقر فوق خانة الاختيار في أي عدد من المرات.
+// اضبط الخاصية "IsTemporary" على "صحيح" لجعل خانة الاختيار رمزًا
+// بمجرد أن ينقر المستخدم عليه في Microsoft Word.
+// اضبط الخاصية "IsTemporary" على "خطأ" للسماح للمستخدم بالنقر فوق خانة الاختيار لأي عدد من المرات.
 tag.IsTemporary = isTemporary;
 
 builder.Write("\nPlease click the check box: ");

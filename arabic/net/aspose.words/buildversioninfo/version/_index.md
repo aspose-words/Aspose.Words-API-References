@@ -16,7 +16,7 @@ public static string Version { get; }
 
 ### ملاحظات
 
-إصدار المنتج بتنسيق "Major.Minor.Hotfix.0".
+إصدار المنتج بالتنسيق "Major.Minor.Hotfix.0".
 
 ### أمثلة
 

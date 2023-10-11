@@ -16,7 +16,7 @@ public void Remove()
 
 ### أمثلة
 
-يوضح كيفية حذف كل الأشكال بالصور من مستند.
+يوضح كيفية حذف جميع الأشكال التي تحتوي على صور من مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -31,7 +31,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-يوضح كيفية إزالة جميع العقد الفرعية من نوع معين من عقدة مركبة.
+يوضح كيفية إزالة جميع العقد الفرعية من نوع معين من العقدة المركبة.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,11 +42,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // احفظ العقدة الشقيقة التالية كمتغير في حال أردنا الانتقال إليها بعد حذف هذه العقدة.
+    // احفظ العقدة الشقيقة التالية كمتغير في حالة أردنا الانتقال إليها بعد حذف هذه العقدة.
     Node nextNode = curNode.NextSibling;
 
-    // يمكن أن يحتوي نص القسم على عقد فقرة وجدول.
-    // إذا كانت العقدة عبارة عن جدول ، فقم بإزالتها من الأصل.
+    // يمكن أن يحتوي نص القسم على عقد الفقرة والجدول.
+    // إذا كانت العقدة عبارة عن جدول، فقم بإزالتها من الأصل.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

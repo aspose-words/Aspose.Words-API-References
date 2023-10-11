@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.MatchOffset
 second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة .
+description: ReplacingArgs ملكية. الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة .
+الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة.
 
 ```csharp
 public int MatchOffset { get; }
@@ -16,9 +16,10 @@ public int MatchOffset { get; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ public int MatchOffset { get; }
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // اضبط خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج للعملية.
+    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

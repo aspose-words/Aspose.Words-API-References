@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreFields
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل الحقول. القيمة الافتراضية هيخاطئة .
+description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل النص الموجود داخل الحقول. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل الحقول. القيمة الافتراضية هي`خاطئة` .
+الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل النص الموجود داخل الحقول. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -16,9 +16,9 @@ public bool IgnoreFields { get; set; }
 
 ### ملاحظات
 
-يؤثر هذا الخيار على الحقل بالكامل (جميع العقد بين FieldStart وFieldEnd).
+يؤثر هذا الخيار على الحقل بأكمله (جميع العقد بين FieldStart وFieldEnd).
 
-لتجاهل رموز الحقول فقط ، يرجى استخدام الخيار المقابل[`IgnoreFieldCodes`](../ignorefieldcodes/).
+لتجاهل رموز الحقول فقط، يرجى استخدام الخيار المقابل[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
 ### أمثلة
 
@@ -34,9 +34,9 @@ builder.InsertField("QUOTE", "Hello again!");
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط علامة "IgnoreFields" على "true" للحصول على البحث والاستبدال
+// اضبط علامة "IgnoreFields" على "صحيح" للحصول على عملية البحث والاستبدال
 // عملية لتجاهل النص داخل الحقول.
-// اضبط علامة "IgnoreFields" على "false" للحصول على البحث والاستبدال
+// اضبط علامة "IgnoreFields" على "خطأ" للحصول على عملية البحث والاستبدال
 // عملية للبحث أيضًا عن نص داخل الحقول.
 options.IgnoreFields = ignoreTextInsideFields;
 

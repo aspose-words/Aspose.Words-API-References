@@ -1,14 +1,14 @@
 ---
 title: Enum TableStyleOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.TableStyleOptions تعداد. يحدد كيفية تطبيق نمط الجدول على الجدول .
+description: Aspose.Words.Tables.TableStyleOptions تعداد. يحدد كيفية تطبيق نمط الجدول على الجدول.
 type: docs
-weight: 6070
+weight: 6370
 url: /ar/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
 
-يحدد كيفية تطبيق نمط الجدول على الجدول .
+يحدد كيفية تطبيق نمط الجدول على الجدول.
 
 ```csharp
 [Flags]
@@ -20,14 +20,14 @@ public enum TableStyleOptions
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | None | `0` | لم يتم تطبيق تنسيق نمط الجدول. |
-| FirstRow | `20` | تطبيق التنسيق الشرطي للصف الأول . |
-| LastRow | `40` | تطبيق التنسيق الشرطي للصف الأخير . |
-| FirstColumn | `80` | تطبيق التنسيق الشرطي الأول للعمود الأول. |
-| LastColumn | `100` | تطبيق التنسيق الشرطي للعمود الأخير . |
-| RowBands | `200` | تطبيق التنسيق الشرطي لربط الصفوف . |
-| ColumnBands | `400` | تطبيق التنسيق الشرطي لنطاقات الأعمدة . |
-| Default2003 | `600` | يتم تطبيق نطاقات الصفوف والأعمدة. هذا هو Microsoft Word الافتراضي للتنسيقات القديمة مثل DOC و WML و RTF. |
-| Default | `2A0` | هذه هي الإعدادات الافتراضية لـ Microsoft Word . |
+| FirstRow | `20` | تطبيق التنسيق الشرطي للصف الأول. |
+| LastRow | `40` | تطبيق التنسيق الشرطي للصف الأخير. |
+| FirstColumn | `80` | تطبيق التنسيق الشرطي للعمود الأول. |
+| LastColumn | `100` | تطبيق التنسيق الشرطي للعمود الأخير. |
+| RowBands | `200` | تطبيق التنسيق الشرطي لنطاق الصفوف. |
+| ColumnBands | `400` | تطبيق التنسيق الشرطي لنطاق الأعمدة. |
+| Default2003 | `600` | تم تطبيق نطاق الصفوف والأعمدة. هذا هو الإعداد الافتراضي لبرنامج Microsoft Word للتنسيقات القديمة مثل DOC وWML وRTF. |
+| Default | `2A0` | هذه هي الإعدادات الافتراضية لبرنامج Microsoft Word. |
 
 ### أمثلة
 
@@ -41,11 +41,11 @@ Table table = builder.StartTable();
 // يجب علينا إدراج صف واحد على الأقل قبل تعيين أي تنسيق للجدول.
 builder.InsertCell();
 
-// تعيين نمط الجدول المستخدم بناءً على معرف النمط.
-// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق doc.
+// قم بتعيين نمط الجدول المستخدم بناءً على معرف النمط.
+// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// قم بتطبيق النمط جزئيًا على ميزات الجدول بناءً على المسندات ، ثم قم ببناء الجدول.
+// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم أنشئ الجدول.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

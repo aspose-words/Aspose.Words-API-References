@@ -1,14 +1,14 @@
 ---
 title: Fill.Patterned
 second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يضبط التعبئة المحددة على نمط .
+description: Fill طريقة. يضبط التعبئة المحددة على النمط.
 type: docs
-weight: 170
+weight: 230
 url: /ar/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
 
-يضبط التعبئة المحددة على نمط .
+يضبط التعبئة المحددة على النمط.
 
 ```csharp
 public void Patterned(PatternType patternType)
@@ -20,7 +20,7 @@ public void Patterned(PatternType patternType)
 
 ### أمثلة
 
-يوضح كيفية تعيين نمط لشكل.
+يوضح كيفية تعيين نمط للشكل.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -34,7 +34,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - تطبيق النمط على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - تطبيق النقش بألوان المقدمة والخلفية على تعبئة الشكل:
+// 2 - قم بتطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ## Patterned(PatternType, Color, Color) {#patterned_1}
 
-يضبط التعبئة المحددة على نمط .
+يضبط التعبئة المحددة على النمط.
 
 ```csharp
 public void Patterned(PatternType patternType, Color foreColor, Color backColor)
@@ -65,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 
 ### أمثلة
 
-يوضح كيفية تعيين نمط لشكل.
+يوضح كيفية تعيين نمط للشكل.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -79,7 +79,7 @@ Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 // 1 - تطبيق النمط على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - تطبيق النقش بألوان المقدمة والخلفية على تعبئة الشكل:
+// 2 - قم بتطبيق النمط بألوان المقدمة والخلفية على تعبئة الشكل:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

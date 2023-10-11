@@ -1,14 +1,14 @@
 ---
 title: Story.FirstParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على الفقرة الأولى في القصة .
+description: Story ملكية. الحصول على الفقرة الأولى في القصة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-الحصول على الفقرة الأولى في القصة .
+الحصول على الفقرة الأولى في القصة.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -42,11 +42,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// تعيين المحاذاة الأفقية والعمودية للنص داخل الشكل.
+// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
+// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

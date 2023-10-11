@@ -1,14 +1,16 @@
 ---
 title: Class DefaultFontSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule فصل. قاعدة استبدال الخط الافتراضي.
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule فصل. قاعدة استبدال الخط الافتراضية.
 type: docs
-weight: 2660
+weight: 2840
 url: /ar/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
-قاعدة استبدال الخط الافتراضي.
+قاعدة استبدال الخط الافتراضية.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -19,23 +21,23 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | اسم | وصف |
 | --- | --- |
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | الحصول على اسم الخط الافتراضي أو تعيينه. |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
 ### ملاحظات
 
-تحدد هذه القاعدة اسم الخط الافتراضي الفردي الذي سيتم استخدامه للاستبدال في حالة عدم توفر الخط الأصلي.
+تحدد هذه القاعدة اسم خط افتراضي واحد ليتم استخدامه للاستبدال في حالة عدم توفر الخط الأصلي.
 
 ### أمثلة
 
-يوضح كيفية تعيين قاعدة استبدال الخط الافتراضي.
+يوضح كيفية تعيين قاعدة استبدال الخط الافتراضية.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// احصل على قاعدة الاستبدال الافتراضية داخل FontSettings.
-// ستستبدل هذه القاعدة جميع الخطوط المفقودة بـ "Times New Roman".
+// احصل على قاعدة الاستبدال الافتراضية ضمن FontSettings.
+// ستستبدل هذه القاعدة كافة الخطوط المفقودة بـ "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
@@ -44,8 +46,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // قم بتعيين بديل الخط الافتراضي على "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// باستخدام مُنشئ المستندات ، أضف بعض النص بخط لسنا مضطرين لرؤية الاستبدال ،
-// ثم اعرض النتيجة في ملف PDF.
+// باستخدام أداة إنشاء المستندات، أضف بعض النص بخط لا نحتاجه حتى يتم الاستبدال،
+// ثم قم بتقديم النتيجة في ملف PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

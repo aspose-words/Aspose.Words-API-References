@@ -1,14 +1,14 @@
 ---
 title: Interface IWarningCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.IWarningCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى التقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه .
+description: Aspose.Words.IWarningCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى لالتقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه.
 type: docs
-weight: 3010
+weight: 3210
 url: /ar/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى التقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه .
+قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى لالتقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه.
 
 ```csharp
 public interface IWarningCallback
@@ -18,13 +18,14 @@ public interface IWarningCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words تستدعي هذه الطريقة عندما تواجه بعض المشاكل أثناء تحميل المستند أو الحفظ الذي قد يؤدي إلى فقدان التنسيق أو دقة البيانات . |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات. |
 
 ### أمثلة
 
 يوضح كيفية استخدام واجهة IWarningCallback لمراقبة تحذيرات استبدال الخط.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,28 +36,29 @@ public interface IWarningCallback
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // قم بتخزين المجموعة الحالية من مصادر الخطوط ، والتي ستكون مصدر الخط الافتراضي لكل مستند
-    // التي لم نحدد مصدر خط مختلف لها.
+    // قم بتخزين المجموعة الحالية من مصادر الخطوط، والتي ستكون مصدر الخط الافتراضي لكل مستند
+    // الذي لا نحدد له مصدر خط مختلف.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // لأغراض الاختبار ، سنقوم بتعيين Aspose.Words للبحث عن الخطوط فقط في مجلد غير موجود.
+    // لأغراض الاختبار، سنقوم بتعيين Aspose.Words للبحث عن الخطوط في مجلد غير موجود فقط.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // عند تقديم المستند ، لن يكون هناك مكان للعثور على الخط "Times New Roman".
-    // سيؤدي هذا إلى تحذير بشأن استبدال الخط ، والذي سيكتشفه رد الاتصال الخاص بنا.
+    // عند عرض المستند، لن يكون هناك مكان للعثور على الخط "Times New Roman".
+    // سيؤدي هذا إلى ظهور تحذير بشأن استبدال الخط، والذي سيكتشفه رد الاتصال الخاص بنا.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -68,24 +70,25 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-أضافت العروض رجوعًا إلى عرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
+تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // قم بتعيين خاصية "EmulateRasterOperations" على "false" للرجوع إلى الصورة النقطية عندما
-    // يواجه ملف تعريف ، والذي سيتطلب عمليات نقطية لتقديمه في ملف PDF الناتج.
+    // قم بتعيين خاصية "EmulateRasterOperations" على "خطأ" للرجوع إلى الصورة النقطية عندما
+    // يواجه ملف تعريف، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // عيّن خاصية "RenderingMode" على "VectorWithFallback" لمحاولة تقديم كل ملف تعريف باستخدام رسومات متجهة.
+    // قم بتعيين خاصية "RenderingMode" على "VectorWithFallback" لمحاولة عرض كل ملف تعريف باستخدام الرسومات المتجهة.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF وتطبيق التكوين
-    // في كائن MetafileRenderingOptions الخاص بنا إلى عملية الحفظ.
+    // في كائن MetafileRenderingOptions الخاص بنا لعملية الحفظ.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -95,12 +98,12 @@ private class FontSubstitutionWarningCollector : IWarningCallback
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// يطبع ويجمع التحذيرات المتعلقة بضياع التنسيق التي تحدث عند حفظ مستند.
+/// يطبع ويجمع التحذيرات المتعلقة بفقدان التنسيق التي تحدث عند حفظ المستند.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -117,26 +120,28 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخط المتاحة.
+يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // تعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // سنحصل على تحذير بشأن استبدال الخط إذا حفظنا مستندًا بخط مفقود.
+    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -158,7 +163,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

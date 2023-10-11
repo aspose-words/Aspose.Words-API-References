@@ -1,14 +1,14 @@
 ---
 title: FieldPageRef.InsertRelativePosition
 second_title: Aspose.Words لمراجع .NET API
-description: FieldPageRef ملكية. الحصول على أو تحديد ما إذا كان سيتم إدراج موضع نسبي للفقرة التي تم وضع إشارة مرجعية عليها.
+description: FieldPageRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-الحصول على أو تحديد ما إذا كان سيتم إدراج موضع نسبي للفقرة التي تم وضع إشارة مرجعية عليها.
+الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -22,7 +22,7 @@ public bool InsertRelativePosition { get; set; }
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
@@ -31,17 +31,17 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // يمكننا استخدام علامة \ p لعرض حقل PAGEREF
+    // يمكننا استخدام العلامة \p لعرض حقل PAGEREF
     // موضع الإشارة المرجعية بالنسبة لموضع الحقل.
-    // Bookmark1 موجودة في نفس الصفحة وفوق هذا الحقل ، لذا ستكون النتيجة المعروضة لهذا الحقل "أعلى".
+    // الإشارة المرجعية 1 موجودة في نفس الصفحة وفوق هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أعلى".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    ستكون // Bookmark2 في نفس الصفحة وأسفل هذا الحقل ، لذا ستكون النتيجة المعروضة في هذا الحقل "أدناه".
+    // الإشارة المرجعية 2 ستكون في نفس الصفحة وأسفل هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أدناه".
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // ستظهر Bookmark3 على صفحة مختلفة ، لذلك سيعرض الحقل "في الصفحة 2".
+    // الإشارة المرجعية 3 ستكون في صفحة مختلفة، لذا سيعرض الحقل "في الصفحة 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -49,8 +49,10 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
 /// يستخدم منشئ المستندات لإدراج حقل PAGEREF وتعيين خصائصه.

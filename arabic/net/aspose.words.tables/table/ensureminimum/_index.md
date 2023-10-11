@@ -1,14 +1,14 @@
 ---
 title: Table.EnsureMinimum
 second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. في حالة عدم احتواء الجدول على صفوف  يتم إنشاء صفوف وإلحاقها صف .
+description: Table طريقة. إذا لم يكن الجدول يحتوي على صفوف فسيتم إنشاء واحد وإلحاقهRow .
 type: docs
-weight: 400
+weight: 420
 url: /ar/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
 
-في حالة عدم احتواء الجدول على صفوف ، يتم إنشاء صفوف وإلحاقها **صف** .
+إذا لم يكن الجدول يحتوي على صفوف، فسيتم إنشاء واحد وإلحاقه[`Row`](../../row/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -16,7 +16,7 @@ public void EnsureMinimum()
 
 ### أمثلة
 
-يوضح كيفية التأكد من احتواء عقدة الجدول على العقد التي نحتاجها لإضافة محتوى.
+يوضح كيفية التأكد من أن عقدة الجدول تحتوي على العقد التي نحتاجها لإضافة المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -25,11 +25,11 @@ doc.FirstSection.Body.AppendChild(table);
 
 // تحتوي الجداول على صفوف تحتوي على خلايا قد تحتوي على فقرات
 // مع عناصر نموذجية مثل المسارات والأشكال وحتى الجداول الأخرى.
-// لا يحتوي جدولنا الجديد على أي من هذه العقد ، ولا يمكننا إضافة محتويات إليه حتى يحدث ذلك.
+// لا يحتوي جدولنا الجديد على أي من هذه العقد، ولا يمكننا إضافة محتويات إليه حتى يتم ذلك.
 Assert.AreEqual(0, table.GetChildNodes(NodeType.Any, true).Count);
 
-// استدعاء طريقة "ضمان الحد الأدنى" على الطاولة سيضمن ذلك
-// يحتوي الجدول على صف واحد على الأقل وخلية واحدة تحتوي على فقرة فارغة.
+// سيؤدي استدعاء طريقة "EnsureMinimum" على الجدول إلى التأكد من ذلك
+// يحتوي الجدول على صف واحد على الأقل وخلية واحدة بها فقرة فارغة.
 table.EnsureMinimum();
 table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

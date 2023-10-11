@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Height
 second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. الحصول على أو تحديد ارتفاع صف الجدول بالنقاط .
+description: RowFormat ملكية. الحصول على أو تحديد ارتفاع صف الجدول بالنقاط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/rowformat/height/
 ---
 ## RowFormat.Height property
 
-الحصول على أو تحديد ارتفاع صف الجدول بالنقاط .
+الحصول على أو تحديد ارتفاع صف الجدول بالنقاط.
 
 ```csharp
 public double Height { get; set; }
@@ -16,7 +16,7 @@ public double Height { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تنسيق الصفوف باستخدام منشئ المستندات.
+يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// ابدأ الصف الثاني ، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
-// صفه الحالي ، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
+// ابدأ الصف الثاني، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
+// الصف الحالي، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -58,7 +58,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// تعيين بعض خيارات التنسيق لمظهر النص والجدول.
+// قم بتعيين بعض خيارات التنسيق لمظهر النص والجدول.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -69,7 +69,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // سيؤدي تكوين خيارات التنسيق في أداة إنشاء المستندات إلى تطبيقها
-// إلى الخلية / الصف الحالي الذي يوجد به المؤشر ،
+// إلى الخلية/الصف الحالي الذي يوجد به المؤشر،
 // بالإضافة إلى أي خلايا وصفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -78,8 +78,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// إعادة تكوين كائنات التنسيق الخاصة بالباني للصفوف والخلايا الجديدة التي نحن على وشك تكوينها.
-// لن يطبق المنشئ هذه على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
+// أعد تكوين كائنات التنسيق الخاصة بالمنشئ للصفوف والخلايا الجديدة التي نحن على وشك إنشاؤها.
+// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

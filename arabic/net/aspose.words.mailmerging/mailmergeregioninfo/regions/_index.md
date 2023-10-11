@@ -1,14 +1,14 @@
 ---
 title: MailMergeRegionInfo.Regions
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع قائمة بالمناطق الفرعية .
+description: MailMergeRegionInfo ملكية. إرجاع قائمة بالمناطق الفرعية.
 type: docs
-weight: 60
+weight: 80
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property
 
-إرجاع قائمة بالمناطق الفرعية .
+إرجاع قائمة بالمناطق الفرعية.
 
 ```csharp
 public IList<MailMergeRegionInfo> Regions { get; }
@@ -21,10 +21,10 @@ public IList<MailMergeRegionInfo> Regions { get; }
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// إرجاع التسلسل الهرمي الكامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
+// إرجاع تسلسل هرمي كامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// احصل على أهم المناطق في المستند.
+// احصل على المناطق العليا في المستند.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -33,7 +33,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// احصل على منطقة متداخلة في أول منطقة أعلى.
+// احصل على المنطقة المتداخلة في المنطقة العليا الأولى.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);

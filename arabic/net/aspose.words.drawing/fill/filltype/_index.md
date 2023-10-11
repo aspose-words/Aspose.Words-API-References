@@ -1,14 +1,14 @@
 ---
 title: Fill.FillType
 second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. يحصل على نوع التعبئة .
+description: Fill ملكية. الحصول على نوع التعبئة.
 type: docs
-weight: 20
+weight: 60
 url: /ar/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
 
-يحصل على نوع التعبئة .
+الحصول على نوع التعبئة.
 
 ```csharp
 public FillType FillType { get; }

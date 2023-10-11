@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
 second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag طريقة. إرجاع كائن العقدة الذي يقوم بتنفيذ هذه الواجهة.
+description: IStructuredDocumentTag طريقة. إرجاع كائن العقدة الذي ينفذ هذه الواجهة.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
 ## IStructuredDocumentTag.StructuredDocumentTagNode method
 
-إرجاع كائن العقدة الذي يقوم بتنفيذ هذه الواجهة.
+إرجاع كائن العقدة الذي ينفذ هذه الواجهة.
 
 ```csharp
 public Node StructuredDocumentTagNode()

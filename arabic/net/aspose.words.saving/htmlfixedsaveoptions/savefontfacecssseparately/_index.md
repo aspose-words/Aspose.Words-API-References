@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS  fontface في ملف منفصل fontFaces.css عندما يتم حفظ مستند مع ورقة أنماط خارجية أي عندماExportEmbeddedCss هوخاطئة  . القيمة الافتراضية هيخاطئة  جميع قواعد CSS مكتوبة في ملف واحد styles.css .
+description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS fontface في ملف منفصل fontFaces.css عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية أي عندماExportEmbeddedCss هوخطأ شنيع . القيمة الافتراضية هيخطأ شنيع جميع قواعد CSS مكتوبة في ملف واحد styles.css.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS "@ font-face" في ملف منفصل "fontFaces.css" عندما يتم حفظ مستند مع ورقة أنماط خارجية (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss/) هو`خاطئة` ) . القيمة الافتراضية هي`خاطئة` ، جميع قواعد CSS مكتوبة في ملف واحد "styles.css" .
+تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS "@font-face" في ملف منفصل "fontFaces.css" عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss/) هو`خطأ شنيع` ). القيمة الافتراضية هي`خطأ شنيع` جميع قواعد CSS مكتوبة في ملف واحد "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,7 +16,7 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### ملاحظات
 
-تعيين هذه الخاصية على`حقيقي` يستعيد السلوك القديم (ملفات منفصلة) للتوافق مع الكود القديم.
+تعيين هذه الخاصية على`حقيقي` يستعيد السلوك القديم (ملفات منفصلة) للتوافق مع التعليمات البرمجية القديمة.
 
 ### أمثلة
 

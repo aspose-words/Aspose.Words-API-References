@@ -1,14 +1,14 @@
 ---
 title: Stroke.Visible
 second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية .
+description: Stroke ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الحدود مرئية أم لا.
 type: docs
-weight: 190
+weight: 210
 url: /ar/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية .
+الحصول على أو تعيين علامة تشير إلى ما إذا كانت الحدود مرئية أم لا.
 
 ```csharp
 public bool Visible { get; set; }
@@ -16,11 +16,11 @@ public bool Visible { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية لملف[`Shape`](../../shape/) هو **حقيقي** .
+القيمة الافتراضية لـ a[`Shape`](../../shape/) يكون`حقيقي` .
 
 ### أمثلة
 
-أظهر كيفية تعيين تنسيق العلامة.
+أظهر كيفية ضبط تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// تعيين تنسيق العلامة.
+// ضبط تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

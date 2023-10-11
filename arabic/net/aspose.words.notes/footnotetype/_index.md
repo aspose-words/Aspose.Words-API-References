@@ -1,14 +1,14 @@
 ---
 title: Enum FootnoteType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.FootnoteType تعداد. تحديد ما إذا كانت هذه حاشية سفلية أو تعليق ختامي.
+description: Aspose.Words.Notes.FootnoteType تعداد. يحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي.
 type: docs
-weight: 4060
+weight: 4300
 url: /ar/net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration
 
-تحديد ما إذا كانت هذه حاشية سفلية أو تعليق ختامي.
+يحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي.
 
 ```csharp
 public enum FootnoteType
@@ -18,36 +18,36 @@ public enum FootnoteType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Footnote | `0` | الكائن عبارة عن حاشية سفلية . |
-| Endnote | `1` | الكائن عبارة عن تعليق ختامي . |
+| Footnote | `0` | الكائن عبارة عن حاشية سفلية. |
+| Endnote | `1` | الكائن عبارة عن تعليق ختامي. |
 
 ### ملاحظات
 
-يتم تمثيل كل من الحواشي السفلية والتعليقات الختامية بواسطة الكائنات بواسطةFootnote فئة . يستخدم[`FootnoteType`](../footnote/footnotetype/) للتمييز بين الحواشي والتعليقات الختامية.
+يتم تمثيل كل من الحواشي السفلية والتعليقات الختامية بكائنات بواسطةFootnote فئة. يستخدم[`FootnoteType`](../footnote/footnotetype/) للتمييز بين الحواشي السفلية والتعليقات الختامية.
 
 ### أمثلة
 
-يوضح كيفية الإشارة إلى نص مع حاشية سفلية وتعليق ختامي.
+يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض النص وقم بتمييزه بحاشية سفلية مع تعيين خاصية IsAuto على "true" افتراضيًا ،
-// لذلك سيتم ترقيم العلامة الظاهرة في النص الأساسي تلقائيًا عند "1" ،
+// قم بإدراج بعض النص ووضع علامة عليه باستخدام حاشية سفلية مع تعيين الخاصية IsAuto على "صحيح" افتراضيًا،
+// لذلك سيتم ترقيم العلامة الموجودة في النص الأساسي تلقائيًا عند "1"،
 // وستظهر الحاشية السفلية في أسفل الصفحة.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// أدخل المزيد من النص وقم بتمييزه بتعليق ختامي بعلامة مرجعية مخصصة ،
-// التي سيتم استخدامها بدلاً من الرقم "2" وتعيين "IsAuto" على خطأ.
+// قم بإدراج المزيد من النص ووضع علامة عليه بتعليق ختامي بعلامة مرجعية مخصصة،
+// والذي سيتم استخدامه بدلاً من الرقم "2" وضبط "IsAuto" على "خطأ".
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// تظهر الحواشي السفلية دائمًا في الجزء السفلي من النص المشار إليه ،
-// لذلك لن يؤثر فاصل الصفحة هذا على الحاشية السفلية.
-// من ناحية أخرى ، تكون التعليقات الختامية دائمًا في نهاية المستند
-// بحيث يدفع فاصل الصفحة هذا التعليق الختامي لأسفل إلى الصفحة التالية.
+// تظهر الحواشي السفلية دائمًا أسفل النص المشار إليه،
+// لذلك لن يؤثر فاصل الصفحات هذا على الحاشية السفلية.
+// ومن ناحية أخرى، تكون التعليقات الختامية دائمًا في نهاية المستند
+// بحيث يؤدي فاصل الصفحة هذا إلى دفع التعليق الختامي إلى الصفحة التالية.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
@@ -59,19 +59,19 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف نصًا ، وقم بالإشارة إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا صغيرًا مرتفعًا
-// علامة بعد النص الذي يشير إليه وإنشاء إدخال أسفل النص الأساسي الرئيسي في أسفل الصفحة.
-// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي ،
-// التي سنمررها إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
+// أضف نصًا، وأشر إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا مرتفعًا صغيرًا
+// ضع علامة بعد النص الذي تشير إليه وقم بإنشاء إدخال أسفل النص الأساسي في أسفل الصفحة.
+// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي،
+// والذي سنمرره إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// إذا تم تعيين هذه الخاصية على "true" ، فإن العلامة المرجعية للحاشية السفلية الخاصة بنا
-// سيكون فهرسها بين جميع الحواشي السفلية للقسم.
-// هذه هي الحاشية الأولى ، لذا فإن العلامة المرجعية ستكون "1".
+// إذا تم تعيين هذه الخاصية على "صحيح"، فستكون العلامة المرجعية للحاشية السفلية
+// سيكون فهرسه بين جميع الحواشي السفلية للقسم.
+// هذه هي الحاشية السفلية الأولى، لذا ستكون العلامة المرجعية "1".
 Assert.True(footnote.IsAuto);
 
-// يمكننا نقل منشئ المستند داخل الحاشية السفلية لتحرير نصه المرجعي. 
+ // يمكننا نقل أداة إنشاء المستندات داخل الحاشية السفلية لتحرير النص المرجعي الخاص بها.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -81,13 +81,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// يمكننا تعيين علامة مرجعية مخصصة ستستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
+// يمكننا تعيين علامة مرجعية مخصصة تستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// ستظل الإشارة المرجعية مع تعيين علامة "IsAuto" على "صواب" تظهر فهرسها الحقيقي
-// حتى إذا كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة ، فإن العلامة المرجعية لهذه الإشارة المرجعية ستكون "3".
+// الإشارة المرجعية التي تم ضبط علامة "IsAuto" على "صحيح" ستظل تُظهر فهرسها الحقيقي
+// حتى لو كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة، فستكون العلامة المرجعية لهذه الإشارة المرجعية "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

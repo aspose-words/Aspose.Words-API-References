@@ -1,14 +1,14 @@
 ---
 title: LayoutCollector.GetEntity
 second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector طريقة. إرجاع موضع معتم لملفLayoutEnumerator التي تتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة لCurrent بالنظر إلى أن المستند يتم تعداده وأن مستند العقدة هو نفسه.
+description: LayoutCollector طريقة. إرجاع موضع معتم للملفLayoutEnumerator الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة لCurrent نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.layout/layoutcollector/getentity/
 ---
 ## LayoutCollector.GetEntity method
 
-إرجاع موضع معتم لملف[`LayoutEnumerator`](../../layoutenumerator/) التي تتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../../layoutenumerator/current/) بالنظر إلى أن المستند يتم تعداده وأن مستند العقدة هو نفسه.
+إرجاع موضع معتم للملف[`LayoutEnumerator`](../../layoutenumerator/) الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../../layoutenumerator/current/) نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها.
 
 ```csharp
 public object GetEntity(Node node)
@@ -16,28 +16,28 @@ public object GetEntity(Node node)
 
 ### ملاحظات
 
-هذه الطريقة تعمل فقط[`Paragraph`](../../../aspose.words/paragraph/) العقد ، وكذلك العقد المضمنة غير القابلة للتجزئة ، على سبيل المثال[`BookmarkStart`](../../../aspose.words/bookmarkstart/) أو[`Shape`](../../../aspose.words.drawing/shape/) إنه لا يعمل من أجل[`Run`](../../../aspose.words/run/) و[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) أو[`Table`](../../../aspose.words.tables/table/) العقد والعقد داخل الرأس / التذييل.
+هذه الطريقة تعمل فقط[`Paragraph`](../../../aspose.words/paragraph/) العقد، وكذلك العقد المضمنة غير القابلة للتجزئة، على سبيل المثال[`BookmarkStart`](../../../aspose.words/bookmarkstart/) أو[`Shape`](../../../aspose.words.drawing/shape/) . لا يعمل من أجل[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) أو[`Table`](../../../aspose.words.tables/table/) العقد والعقد داخل الرأس/التذييل.
 
-لاحظ أن الكيان تم إرجاعه لـ[`Paragraph`](../../../aspose.words/paragraph/) العقدة هي فترة فاصلة للفقرة. استخدم الطريقة المناسبة للصعود إلى السطر الأصل
+لاحظ أن الكيان عاد لـ a[`Paragraph`](../../../aspose.words/paragraph/) العقدة عبارة عن فترة فاصل للفقرة. استخدم الطريقة المناسبة للصعود إلى السطر الأصلي
 
-إذا كنت بحاجة إلى الانتقال إلى ملف[`Run`](../../../aspose.words/run/) من النص ، يمكنك إدخال إشارة مرجعية مباشرة قبل it ثم الانتقال إلى الإشارة المرجعية بدلاً من ذلك.
+إذا كنت بحاجة إلى الانتقال إلى أ[`Run`](../../../aspose.words/run/) من النص، فيمكنك إدراج إشارة مرجعية قبل it مباشرة ثم الانتقال إلى الإشارة المرجعية بدلاً من ذلك.
 
-إذا كنت بحاجة إلى الانتقال إلى ملف[`Cell`](../../../aspose.words.tables/cell/) عقدة ثم يمكنك الانتقال إلى[`Paragraph`](../../../aspose.words/paragraph/) في هذه الخلية ثم تصعد إلى الكيان الأصل. يمكن استخدام نفس النهج ل[`Row`](../../../aspose.words.tables/row/) و[`Table`](../../../aspose.words.tables/table/) العقد.
+إذا كنت بحاجة إلى الانتقال إلى أ[`Cell`](../../../aspose.words.tables/cell/) عقدة ثم يمكنك الانتقال إلى[`Paragraph`](../../../aspose.words/paragraph/)عقدة في هذه الخلية ثم اصعد إلى الكيان الأصلي. يمكن استخدام نفس النهج ل[`Row`](../../../aspose.words.tables/row/) و[`Table`](../../../aspose.words.tables/table/) العقد.
 
 ### أمثلة
 
-يوضح كيفية مشاهدة نطاقات الصفحات التي تمتد العقدة.
+يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// اتصل بطريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يمتد محتوى وثيقتنا عليها.
-// نظرًا لأن المستند فارغًا ، فإن هذا العدد من الصفحات هو صفر حاليًا.
+// اتصل بطريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يغطيها محتوى وثيقتنا.
+// بما أن المستند فارغ، فإن عدد الصفحات هذا هو صفر حاليًا.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// ملء المستند بـ 5 صفحات من المحتوى.
+// املأ المستند بخمس صفحات من المحتوى.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -47,8 +47,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// قبل جامع التخطيط ، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لإعطائنا
-// رقم دقيق لأي مقياس متعلق بالتنسيق ، مثل عدد الصفحات.
+// قبل تجميع التخطيط، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لتعطينا
+// رقم دقيق لأي مقياس متعلق بالتخطيط، مثل عدد الصفحات.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -56,7 +56,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// يمكننا أن نرى أرقام صفحات البداية والنهاية لأي عقدة وامتدادات صفحتها الإجمالية.
+// يمكننا رؤية أرقام صفحات البداية والنهاية لأي عقدة وامتداد صفحاتها الإجمالي.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -66,13 +66,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// يمكننا التكرار عبر كيانات التخطيط باستخدام LayoutEnumerator.
+// يمكننا التكرار على كيانات التخطيط باستخدام LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
 // يمكن لـ LayoutEnumerator اجتياز مجموعة كيانات التخطيط مثل الشجرة.
-// يمكننا أيضًا تطبيقه على أي كيان تخطيط مطابق لأي عقدة.
+// يمكننا أيضًا تطبيقه على كيان التخطيط المقابل لأي عقدة.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

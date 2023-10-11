@@ -1,14 +1,14 @@
 ---
 title: PageRange.PageRange
 second_title: Aspose.Words لمراجع .NET API
-description: PageRange البناء. إنشاء كائن نطاق صفحات جديد .
+description: PageRange البناء. إنشاء كائن نطاق صفحات جديد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pagerange/pagerange/
 ---
 ## PageRange constructor
 
-إنشاء كائن نطاق صفحات جديد .
+إنشاء كائن نطاق صفحات جديد.
 
 ```csharp
 public PageRange(int from, int to)
@@ -17,7 +17,7 @@ public PageRange(int from, int to)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | from | Int32 | الفهرس الصفري لصفحة البداية. |
-| to | Int32 | فهرس الصفحة النهائية الصفري. إذا تجاوز فهرس الصفحة الأخيرة في المستند ، يتم اقتطاعه ليلائم المستند عند التقديم. |
+| to | Int32 | فهرس الصفحة النهائية ذو الأساس الصفري. إذا تجاوز فهرس الصفحة الأخيرة في المستند، فسيتم اقتطاعه ليناسب المستند عند العرض. |
 
 ### ملاحظات
 
@@ -25,7 +25,7 @@ MaxValue تعني الصفحة الأخيرة في المستند.
 
 ### أمثلة
 
-يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات الدقيقة.
+يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

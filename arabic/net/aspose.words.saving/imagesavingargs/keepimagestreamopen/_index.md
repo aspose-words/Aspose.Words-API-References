@@ -16,17 +16,18 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### ملاحظات
 
-الافتراضي هو`خاطئة` و Aspose.Words ستغلق الدفق الذي قدمته في[`ImageStream`](../imagestream/) الخاصية بعد كتابة صورة فيها . حدد`حقيقي` لإبقاء الدفق مفتوحًا.
+الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`ImageStream`](../imagestream/) الخاصية بعد كتابة الصورة فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
 ### أمثلة
 
-يوضح كيفية إشراك رد اتصال حفظ الصورة في عملية تحويل HTML.
+يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML ، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -35,7 +36,7 @@ public bool KeepImageStreamOpen { get; set; }
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة حيث أن عملية الحفظ تحفظها في ملف صورة في نظام الملفات المحلي
+/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
 /// أثناء تصدير مستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

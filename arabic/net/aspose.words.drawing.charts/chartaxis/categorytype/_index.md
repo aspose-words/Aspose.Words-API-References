@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.CategoryType
 second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على نوع محور الفئة أو تعيينه.
+description: ChartAxis ملكية. الحصول على أو تحديد نوع محور الفئة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartaxis/categorytype/
 ---
 ## ChartAxis.CategoryType property
 
-الحصول على نوع محور الفئة أو تعيينه.
+الحصول على أو تحديد نوع محور الفئة.
 
 ```csharp
 public AxisCategoryType CategoryType { get; set; }
@@ -16,7 +16,7 @@ public AxisCategoryType CategoryType { get; set; }
 
 ### ملاحظات
 
-فئات النص فقط (Category ) مسموح به في مخططات MS Office 2016 الجديدة .
+فئات النص فقط (Category ) مسموح بها في مخططات MS Office 2016 الجديدة.
 
 ### أمثلة
 
@@ -29,16 +29,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخطط بفئات للمحور السيني والقيم الرقمية ذات الصلة للمحور ص.
+// قم بإدراج سلسلة مخططات تحتوي على فئات للمحور X والقيم الرقمية المعنية للمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// محاور المخطط لها خيارات متنوعة يمكن أن تغير مظهرها ،
-// مثل اتجاههم ، وعلامات الوحدة الرئيسية / الثانوية ، وعلامات التجزئة.
+// تحتوي محاور المخطط على خيارات متعددة يمكنها تغيير مظهرها،
+// مثل اتجاهها، وعلامات التجزئة للوحدة الرئيسية/الثانوية، وعلامات التجزئة.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

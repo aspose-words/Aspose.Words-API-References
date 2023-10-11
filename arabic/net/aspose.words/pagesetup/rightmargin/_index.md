@@ -3,7 +3,7 @@ title: PageSetup.RightMargin
 second_title: Aspose.Words لمراجع .NET API
 description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي.
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
@@ -16,7 +16,7 @@ public double RightMargin { get; set; }
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

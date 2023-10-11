@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Clone
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions طريقة. لإنشاء نسخة عميقة من هذا الكائن .
+description: ImageSaveOptions طريقة. إنشاء نسخة عميقة لهذا الكائن.
 type: docs
-weight: 200
+weight: 210
 url: /ar/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method
 
-لإنشاء نسخة عميقة من هذا الكائن .
+إنشاء نسخة عميقة لهذا الكائن.
 
 ```csharp
 public ImageSaveOptions Clone()
@@ -16,7 +16,7 @@ public ImageSaveOptions Clone()
 
 ### أمثلة
 
-يوضح كيفية تحديد معدل بت لكل بكسل لتقديم مستند إلى صورة.
+يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-            // حدد تنسيق بكسل للصورة التي ستنشئها عملية الحفظ.
+            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+            // حدد تنسيق البكسل للصورة التي ستنشئها عملية الحفظ.
             // ستؤثر معدلات البت المختلفة لكل بكسل على جودة الصورة التي تم إنشاؤها وحجمها.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // يمكننا استنساخ أمثلة ImageSaveOptions.
+            // يمكننا استنساخ مثيلات ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

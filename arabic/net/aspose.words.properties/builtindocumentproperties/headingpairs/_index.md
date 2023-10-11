@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
 second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. تحديد عناوين المستند وأسمائها .
+description: BuiltInDocumentProperties ملكية. تحديد عناوين المستندات وأسمائها.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-تحديد عناوين المستند وأسمائها .
+تحديد عناوين المستندات وأسمائها.
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -16,28 +16,28 @@ public object[] HeadingPairs { get; set; }
 
 ### ملاحظات
 
-يحتل كل زوج عنوان عنصرين في هذه المجموعة.
+يحتل كل زوج عنوان عنصرين في هذه المصفوفة.
 
-العنصر الأول في الزوج هوString ويحدد اسم العنوان . العنصر الثاني للزوج هوInt32 ويحدد عدد أجزاء document لهذا العنوان في ملف[`TitlesOfParts`](../titlesofparts/) منشأه.
+العنصر الأول في الزوج هو أString ويحدد اسم العنوان. العنصر الثاني من الزوج هوInt32 ويحدد عدد أجزاء document لهذا العنوان في ملف[`TitlesOfParts`](../titlesofparts/) ملكية.
 
-يجب أن يكون إجمالي عدد الأعداد لكل أزواج العناوين في هذه الخاصية مساويًا لـ عدد العناصر في[`TitlesOfParts`](../titlesofparts/) منشأه.
+يجب أن يكون إجمالي عدد الأعداد لجميع أزواج العناوين في هذه الخاصية مساويًا لعدد من العناصر في[`TitlesOfParts`](../titlesofparts/) ملكية.
 
-Aspose.Words لا تقوم بتحديث هذه الخاصية.
+لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
 ### أمثلة
 
-يظهر العلاقة بين خصائص "HeadingPairs" و "TitlesOfParts".
+إظهار العلاقة بين خصائص "HeadingPairs" و"TitlesOfParts".
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// يمكننا العثور على القيم المجمعة لهذه المجموعات عبر
-// "ملف" - >. "خصائص" - >. "خصائص متقدمة" - >. علامة التبويب "المحتويات".
-// الخاصية HeadingPairs هي مجموعة من < string، int > أزواج ذلك
-// يحدد عدد أجزاء المستند التي يمتد العنوان عبرها.
+// يمكننا إيجاد القيم المجمعة لهذه المجموعات عبر
+// "ملف" -> "الخصائص" -> "الخصائص المتقدمة" -> علامة التبويب "المحتويات".
+// خاصية HeadingPairs عبارة عن مجموعة من <string, int> أزواج ذلك
+// يحدد عدد أجزاء المستند التي يمتد عليها العنوان.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// تحتوي الخاصية TitlesOfParts على أسماء الأجزاء التي تنتمي إلى العناوين أعلاه.
+// تحتوي الخاصية TitlesOfParts على أسماء الأجزاء التي تنتمي إلى العناوين المذكورة أعلاه.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

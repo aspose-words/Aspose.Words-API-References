@@ -1,14 +1,14 @@
 ---
 title: OleFormat.GetRawData
 second_title: Aspose.Words لمراجع .NET API
-description: OleFormat طريقة. الحصول على بيانات أولية لكائن OLE .
+description: OleFormat طريقة. يحصل على البيانات الأولية لكائن OLE.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/oleformat/getrawdata/
 ---
 ## OleFormat.GetRawData method
 
-الحصول على بيانات أولية لكائن OLE .
+يحصل على البيانات الأولية لكائن OLE.
 
 ```csharp
 public byte[] GetRawData()

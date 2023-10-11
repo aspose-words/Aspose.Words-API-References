@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property
 
-يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`خاطئة` .
+يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }
@@ -16,7 +16,7 @@ public bool ExportDocumentProperties { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام ترميز معين عند حفظ مستند في epub.
+يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -26,10 +26,10 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// بشكل افتراضي ، سيكون لمستند الإخراج .epub جميع محتوياته في جزء HTML واحد.
-// يسمح لنا معيار الانقسام بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
-// سنضع المعايير لتقسيم الوثيقة إلى فقرات عنوان.
-// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML أكثر من حجم معين.
+// بشكل افتراضي، سيحتوي مستند الإخراج .epub على جميع محتوياته في جزء HTML واحد.
+// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
+// سنضع المعايير لتقسيم الوثيقة إلى فقرات رأسية.
+// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // حدد أننا نريد تصدير خصائص المستند.

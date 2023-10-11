@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSnapToGridInCell
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات .
+description: CompatibilityOptions ملكية. عدم الانطباق على شبكة المستند في خلايا الجدول التي تحتوي على كائنات.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property
 
-عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات .
+عدم الانطباق على شبكة المستند في خلايا الجدول التي تحتوي على كائنات.
 
 ```csharp
 public bool DoNotSnapToGridInCell { get; set; }

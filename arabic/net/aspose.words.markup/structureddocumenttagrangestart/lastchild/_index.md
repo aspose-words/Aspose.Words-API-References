@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على آخر طفل في نطاق المحتوى القياسي.
+description: StructuredDocumentTagRangeStart ملكية. الحصول على الطفل الأخير في نطاق stdContent.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 ---
 ## StructuredDocumentTagRangeStart.LastChild property
 
-الحصول على آخر طفل في نطاق المحتوى القياسي.
+الحصول على الطفل الأخير في نطاق stdContent.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### ملاحظات
 
-إذا لم تكن هناك عقدة فرعية أخيرة ، فسيتم إرجاع قيمة فارغة .
+إذا لم تكن هناك عقدة تابعة أخيرة، أ`باطل` تم إرجاعها.
 
 ### أنظر أيضا
 

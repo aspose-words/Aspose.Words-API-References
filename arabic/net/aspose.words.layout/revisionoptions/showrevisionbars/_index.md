@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionBars
 second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي True .
+description: RevisionOptions ملكية. يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هيحقيقي .
 type: docs
 weight: 180
 url: /ar/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي True .
+يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -16,13 +16,13 @@ public bool ShowRevisionBars { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة ، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
+// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

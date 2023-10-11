@@ -1,14 +1,14 @@
 ---
 title: GroupShape.GroupShape
 second_title: Aspose.Words لمراجع .NET API
-description: GroupShape البناء. إنشاء شكل مجموعة جديد .
+description: GroupShape البناء. إنشاء شكل مجموعة جديد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape constructor
 
-إنشاء شكل مجموعة جديد .
+إنشاء شكل مجموعة جديد.
 
 ```csharp
 public GroupShape(DocumentBase doc)
@@ -20,13 +20,13 @@ public GroupShape(DocumentBase doc)
 
 ### ملاحظات
 
-بشكل افتراضي ، يكون الشكل عائمًا وله موقع وحجم افتراضيان.
+بشكل افتراضي، يكون الشكل عائمًا وله موقع وحجم افتراضيان.
 
-يجب تحديد خصائص الشكل المطلوبة بعد إنشاء الشكل.
+يجب عليك تحديد خصائص الشكل المطلوب بعد إنشاء الشكل.
 
 ### أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,9 +34,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت تريد إنشاء أشكال "غير أساسية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
+    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
     // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // الرجاء استخدام أساليب DocumentBuilder.InsertShape.
+    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة شكل تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

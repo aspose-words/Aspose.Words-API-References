@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة.
+description: FontInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
 ## FontInfoCollection.GetEnumerator method
 
-إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة.
+إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 
 ```csharp
 public IEnumerator<FontInfo> GetEnumerator()
@@ -29,7 +29,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // عادةً ما تكون أسماء Alt فارغة.
+        // الأسماء البديلة عادة ما تكون فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

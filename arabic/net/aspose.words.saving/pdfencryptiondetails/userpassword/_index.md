@@ -16,9 +16,9 @@ public string UserPassword { get; set; }
 
 ### ملاحظات
 
-ستكون كلمة مرور المستخدم مطلوبة لفتح مستند PDF مشفر لعرضه. الأذونات المحددة في [`Permissions`](../permissions/) سيتم فرضه بواسطة برنامج القارئ.
+سيُطلب كلمة مرور المستخدم لفتح مستند PDF مشفر للعرض. الأذونات المحددة في [`Permissions`](../permissions/) سيتم فرضه بواسطة برنامج القارئ.
 
-يمكن أن تكون كلمة مرور المستخدم فارغة أو سلسلة فارغة ، وفي هذه الحالة لن تكون كلمة المرور مطلوبة من المستخدم عند فتح مستند PDF. لا يمكن أن تكون كلمة مرور المستخدم هي نفسها كلمة مرور المالك.
+يمكن أن تكون كلمة مرور المستخدم`باطل` أو سلسلة فارغة، في هذه الحالة لن تكون هناك حاجة لكلمة مرور من المستخدم عند فتح مستند PDF. لا يمكن أن تكون كلمة مرور المستخدم هي نفس كلمة مرور المالك.
 
 ### أمثلة
 
@@ -30,23 +30,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
+// توسيع الأذونات للسماح بتحرير التعليقات التوضيحية.
 PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// ابدأ برفض جميع الأذونات.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
-// تمديد الأذونات للسماح بتحرير التعليقات التوضيحية.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
-
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // تمكين التشفير عبر خاصية "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// عندما نفتح هذا المستند ، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
+// عندما نفتح هذا المستند، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

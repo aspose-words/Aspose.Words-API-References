@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### ملاحظات
 
-ينشئ ملفًا جديدًا **DocumentBuilder** الكائن وإرفاقه بملف[`Document`](../document/) الكائن .
+إنشاء ملف جديد[`DocumentBuilder`](../) الكائن وإرفاقه بكائن جديد[`Document`](../../document/) الكائن.
 
 ### أمثلة
 
@@ -26,7 +26,7 @@ public DocumentBuilder()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد تنسيق الخط ، ثم أضف نصًا.
+// حدد تنسيق الخط، ثم أضف النص.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| doc | Document | كائن المستند المراد إرفاقه. |
+| doc | Document | ال[`Document`](../../document/) كائن لنعلق عليه. |
 
 ### ملاحظات
 
-ينشئ ملفًا جديدًا **DocumentBuilder** الكائن ، يعلق على المحدد[`Document`](../document/) object. تم وضع المؤشر في بداية المستند.
+إنشاء ملف جديد[`DocumentBuilder`](../) كائن، يعلق على المحدد[`Document`](../../document/)object. تم وضع المؤشر في بداية المستند.
 
 ### أمثلة
 
@@ -69,11 +69,11 @@ public DocumentBuilder(Document doc)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد أننا نريد رؤوس وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
+// حدد أننا نريد رؤوسًا وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس ، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -91,21 +91,21 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كمدخلات.
+يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل جدول محتويات للصفحة الأولى من المستند.
-// تكوين الجدول لالتقاط فقرات بعناوين المستويات من 1 إلى 3.
-// أيضًا ، قم بتعيين إدخالاتها لتكون ارتباطات تشعبية ستأخذنا
+// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// ملء جدول المحتويات بإضافة فقرات بأنماط عناوين.
-// كل عنوان بمستوى بين 1 و 3 سينشئ إدخالاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
+// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -133,7 +133,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع يحتاج إلى تحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -3,7 +3,7 @@ title: Enum FontSourceType
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Fonts.FontSourceType تعداد. يحدد نوع مصدر الخط.
 type: docs
-weight: 2810
+weight: 2990
 url: /ar/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -19,14 +19,14 @@ public enum FontSourceType
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | FontFile | `0` | أ[`FileFontSource`](../filefontsource/) الكائن الذي يمثل ملف خط واحد. |
-| FontsFolder | `1` | أ[`FolderFontSource`](../folderfontsource/) الكائن الذي يمثل مجلدًا يحتوي على ملفات خط . |
+| FontsFolder | `1` | أ[`FolderFontSource`](../folderfontsource/) الكائن الذي يمثل المجلد الذي يحتوي على ملفات الخطوط. |
 | MemoryFont | `2` | أ[`MemoryFontSource`](../memoryfontsource/) كائن يمثل خطًا واحدًا في الذاكرة. |
-| SystemFonts | `3` | أ[`SystemFontSource`](../systemfontsource/) يمثل كل الخطوط المثبتة على النظام. |
-| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource/) الكائن الذي يمثل دفقًا ببيانات الخط . |
+| SystemFonts | `3` | أ[`SystemFontSource`](../systemfontsource/) الكائن الذي يمثل جميع الخطوط المثبتة على النظام. |
+| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource/) كائن يمثل دفقًا ببيانات الخط. |
 
 ### أمثلة
 
-يوضح كيفية استخدام ملف خط في نظام الملفات المحلي كمصدر للخط.
+يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

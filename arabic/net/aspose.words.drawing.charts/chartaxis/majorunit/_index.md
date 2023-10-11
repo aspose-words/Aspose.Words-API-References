@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.MajorUnit
 second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تحديد المسافة بين علامات التجزئة الرئيسية.
+description: ChartAxis ملكية. إرجاع أو تعيين المسافة بين علامات التجزئة الرئيسية.
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
 
-إرجاع أو تحديد المسافة بين علامات التجزئة الرئيسية.
+إرجاع أو تعيين المسافة بين علامات التجزئة الرئيسية.
 
 ```csharp
 public double MajorUnit { get; set; }
@@ -16,9 +16,9 @@ public double MajorUnit { get; set; }
 
 ### ملاحظات
 
-النطاق الصالح للقيمة أكبر من الصفر. الخاصية لها تأثير لفئة الوقت و محاور القيمة.
+النطاق الصالح للقيمة أكبر من الصفر. الخاصية لها تأثير على فئة الوقت ومحاور القيمة .
 
-تعيين هذه الخاصية يعيّن[`MajorUnitIsAuto`](../majorunitisauto/) الملكية ل **خاطئة**.
+يؤدي تعيين هذه الخاصية إلى تعيين[`MajorUnitIsAuto`](../majorunitisauto/) الملكية ل`خطأ شنيع`.
 
 ### أمثلة
 
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخطط بفئات للمحور السيني والقيم الرقمية ذات الصلة للمحور ص.
+// قم بإدراج سلسلة مخططات تحتوي على فئات للمحور X والقيم الرقمية المعنية للمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// محاور المخطط لها خيارات متنوعة يمكن أن تغير مظهرها ،
-// مثل اتجاههم ، وعلامات الوحدة الرئيسية / الثانوية ، وعلامات التجزئة.
+// تحتوي محاور المخطط على خيارات متعددة يمكنها تغيير مظهرها،
+// مثل اتجاهها، وعلامات التجزئة للوحدة الرئيسية/الثانوية، وعلامات التجزئة.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

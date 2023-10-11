@@ -3,7 +3,7 @@ title: Section.ClearContent
 second_title: Aspose.Words لمراجع .NET API
 description: Section طريقة. مسح القسم.
 type: docs
-weight: 90
+weight: 110
 url: /ar/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -16,9 +16,9 @@ public void ClearContent()
 
 ### ملاحظات
 
-نص[`Body`](../body/) تم مسحه ، ولم يتبق سوى فقرة واحدة فارغة تمثل الفاصل المقطعي.
+نص[`Body`](../body/) تم مسحه، ولم يتبق سوى فقرة واحدة فارغة تمثل الفاصل المقطعي.
 
-تم مسح نص كافة الرؤوس والتذييلات ، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الأشياء نفسها.
+يتم مسح نص كافة الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الكائنات نفسها.
 
 ### أمثلة
 
@@ -34,7 +34,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
 // سيؤدي تشغيل طريقة "ClearContent" إلى إزالة كافة محتويات القسم
-// لكن اترك فقرة فارغة لإضافة المحتوى مرة أخرى.
+// لكن اترك فقرة فارغة لإضافة محتوى مرة أخرى.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

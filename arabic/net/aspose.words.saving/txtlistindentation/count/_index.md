@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation.Count
 second_title: Aspose.Words لمراجع .NET API
-description: TxtListIndentation ملكية. يحصل أو يحدد كمCharacter لاستخدام مسافة بادئة لكل مستوى قائمة . القيمة الافتراضية هي 0  وهذا يعني عدم وجود مسافة بادئة .
+description: TxtListIndentation ملكية. الحصول على العدد أو تعيينهCharacter لاستخدامها كمسافة بادئة لكل مستوى قائمة. القيمة الافتراضية هي 0 وهذا يعني عدم وجود مسافة بادئة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-يحصل أو يحدد كم[`Character`](../character/) لاستخدام مسافة بادئة لكل مستوى قائمة . القيمة الافتراضية هي 0 ، وهذا يعني عدم وجود مسافة بادئة .
+الحصول على العدد أو تعيينه[`Character`](../character/) لاستخدامها كمسافة بادئة لكل مستوى قائمة. القيمة الافتراضية هي 0، وهذا يعني عدم وجود مسافة بادئة.
 
 ```csharp
 public int Count { get; set; }
@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تكوين مسافة بادئة للقائمة عند حفظ مستند إلى نص عادي.
+يوضح كيفية تكوين المسافة البادئة للقائمة عند حفظ مستند إلى نص عادي.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// قم بإنشاء كائن "TxtSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية حفظ المستند على نص عادي.
+// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية حفظ المستند إلى نص عادي.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // قم بتعيين خاصية "الحرف" لتعيين حرف لاستخدامه
-// للحشو الذي يحاكي المسافة البادئة للقائمة في نص عادي.
+// للحشوة التي تحاكي المسافة البادئة للقائمة في النص العادي.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// قم بتعيين خاصية "Count" لتحديد عدد المرات
-// لوضع حرف المساحة المتروكة لكل مستوى مسافة بادئة للقائمة.
+// قم بتعيين خاصية "العدد" لتحديد عدد المرات
+// لوضع حرف الحشو لكل مستوى من مستويات المسافة البادئة في القائمة.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

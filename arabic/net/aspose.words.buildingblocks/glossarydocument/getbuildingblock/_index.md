@@ -1,14 +1,14 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
 second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument طريقة. البحث عن كتلة إنشاء باستخدام المعرض والفئة والاسم المحدد.
+description: GlossaryDocument طريقة. يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد.
 type: docs
-weight: 70
+weight: 90
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
 
-البحث عن كتلة إنشاء باستخدام المعرض والفئة والاسم المحدد.
+يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد.
 
 ```csharp
 public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string category, string name)
@@ -17,22 +17,22 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | معايير المعرض. |
-| category | String | معايير الفئة. يمكن أن يكون فارغًا ، وفي هذه الحالة لن يتم استخدامه للمقارنة. |
-| name | String | معايير اسم الكتلة البرمجية الإنشائية. |
+| category | String | معايير الفئة. يمكن ان يكون`باطل`، وفي هذه الحالة لن يتم استخدامه للمقارنة. |
+| name | String | معايير اسم كتلة البناء. |
 
 ### قيمة الإرجاع
 
-الكتلة البرمجية الإنشائية المطابقة أو فارغة إذا لم يتم العثور على تطابق.
+كتلة البناء المطابقة أو`باطل` إذا لم يتم العثور على المباراة.
 
 ### ملاحظات
 
-هذه طريقة ملائمة تتكرر عبر جميع كتل الإنشاء في هذه المجموعة وتُرجع أول كتلة إنشاء تتطابق مع المعرض والفئة والاسم المحدد.
+هذه طريقة ملائمة تتكرر على كل الكتل البرمجية الإنشائية في هذه المجموعة وتقوم بإرجاع الكتلة البرمجية الأولى التي تطابق المعرض والفئة والاسم المحدد.
 
-ينظم Microsoft Word اللبنات الأساسية في صالات العرض. تم تعريف galleries مسبقًا باستخدام امتداد[`BuildingBlockGallery`](../../buildingblockgallery/) enum. داخل كل معرض ، يمكن تنظيم الكتل البرمجية الإنشائية في فئة واحدة أو أكثر. اسم الفئة عبارة عن سلسلة. كل كتلة بناء لها اسم. لا يمكن ضمان أن يكون اسم block فريدًا.
+يقوم Microsoft Word بتنظيم الكتل البرمجية الإنشائية في المعارض. تم تحديد المعارض مسبقًا باستخدام ملف[`BuildingBlockGallery`](../../buildingblockgallery/) enum. داخل كل معرض، يمكن تنظيم الكتل البرمجية الإنشائية في فئة واحدة أو أكثر. اسم الفئة عبارة عن سلسلة. كل كتلة بناء لها اسم. لا يُضمن أن يكون اسم block فريدًا.
 
 ### أمثلة
 
-يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند مسرد.
+يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
 ```csharp
 public void GlossaryDocument()
@@ -50,33 +50,32 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // هناك طرق مختلفة للوصول إلى اللبنات الأساسية.
-    // 1 - احصل على اللبنات الأساسية الأولى / الأخيرة في المجموعة:
+    // هناك طرق مختلفة للوصول إلى الكتل البرمجية الإنشائية.
+    // 1 - احصل على اللبنات الأولى/الأخيرة في المجموعة:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - احصل على قالب بناء حسب الفهرس:
+    // 2 - الحصول على كتلة بناء حسب الفهرس:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - احصل على أول قالب إنشائي يطابق معرضًا واسمًا وفئة:
+    // 3 - احصل على أول كتلة بناء تطابق المعرض والاسم والفئة:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // سنفعل ذلك باستخدام زائر مخصص ،
-    // الذي سيعطي كل BuildingBlock في GlossaryDocument GUID فريدًا
+    // سنفعل ذلك باستخدام زائر مخصص،
+    // والذي سيمنح كل BuildingBlock في GlossaryDocument معرفًا فريدًا (GUID).
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // في Microsoft Word ، يمكننا الوصول إلى اللبنات الأساسية عبر "إدراج" - > "أجزاء سريعة" - >. "منظم كتل البناء".
+    // في Microsoft Word، يمكننا الوصول إلى الكتل البرمجية الإنشائية عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// يعطي كل كتلة إنشائية في مستند قاموس المصطلحات الذي تمت زيارته GUID فريدًا.
-/// يخزن أزواج الكتل البرمجية الإنشائية GUID في قاموس.
+/// يمنح كل كتلة إنشاء في مستند المسرد الذي تمت زيارته معرفًا فريدًا (GUID).
+/// يخزن أزواج كتل بناء GUID في القاموس.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

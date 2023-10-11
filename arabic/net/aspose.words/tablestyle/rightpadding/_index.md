@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RightPadding
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تحديد مقدار المساحة بالنقاط لإضافتها إلى يمين محتويات خلايا الجدول.
+description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-الحصول على أو تحديد مقدار المساحة (بالنقاط) لإضافتها إلى يمين محتويات خلايا الجدول.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات خلايا الجدول.
 
 ```csharp
 public double RightPadding { get; set; }

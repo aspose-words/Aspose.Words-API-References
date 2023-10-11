@@ -1,14 +1,14 @@
 ---
 title: FieldImport.IsLinked
 second_title: Aspose.Words لمراجع .NET API
-description: FieldImport ملكية. الحصول على أو تحديد ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
+description: FieldImport ملكية. الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldimport/islinked/
 ---
 ## FieldImport.IsLinked property
 
-الحصول على أو تحديد ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
+الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
 
 ```csharp
 public bool IsLinked { get; set; }
@@ -16,20 +16,20 @@ public bool IsLinked { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج الصور باستخدام حقلي IMPORT و INCLUDEPICTURE.
+يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يوجد أدناه نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
-// 1 - حقل INCLUDEPICTURE:
+// 1 - حقل التضمين:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
 Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
 
-// تطبيق مرشح PNG32.FLT.
+// قم بتطبيق مرشح PNG32.FLT.
 fieldIncludePicture.GraphicFilter = "PNG32";
 fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;

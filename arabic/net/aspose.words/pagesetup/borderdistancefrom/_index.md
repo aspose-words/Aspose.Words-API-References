@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderDistanceFrom
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يتم قياس حد الصفحة المحدد من حافة الصفحة أو من النص الذي يحيط به.
+description: PageSetup ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان حد الصفحة المحدد يتم قياسه من حافة الصفحة أو من النص المحيط بها.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يتم قياس حد الصفحة المحدد من حافة الصفحة أو من النص الذي يحيط به.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان حد الصفحة المحدد يتم قياسه من حافة الصفحة أو من النص المحيط بها.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -16,7 +16,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد شريط أزرق عريض أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

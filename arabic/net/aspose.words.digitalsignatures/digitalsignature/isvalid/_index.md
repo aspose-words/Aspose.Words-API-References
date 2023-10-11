@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. يعود صحيحًا إذا كان هذا التوقيع الرقمي صحيحًا ولم يتم العبث بالمستند.
+description: DigitalSignature ملكية. إرجاعحقيقي إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-يعود صحيحًا إذا كان هذا التوقيع الرقمي صحيحًا ولم يتم العبث بالمستند.
+إرجاع`حقيقي` إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### أمثلة
 
-يوضح كيفية التحقق من صحة المعلومات وعرضها حول كل توقيع في مستند.
+يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

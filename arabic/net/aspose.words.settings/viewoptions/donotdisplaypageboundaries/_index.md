@@ -16,7 +16,7 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إخفاء المسافات الرأسية والرؤوس / التذييلات في خيارات العرض.
+يوضح كيفية إخفاء المسافات البيضاء الرأسية والرؤوس/التذييلات في خيارات العرض.
 
 ```csharp
 Document doc = new Document();
@@ -29,16 +29,16 @@ builder.Writeln("Paragraph 2, Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 3, Page 3.");
 
-// أدخل رأس وتذييل.
+// أدخل رأسًا وتذييلًا.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// يحتوي هذا المستند على قدر صغير من المحتوى يشغل مساحة قليلة من الصفحات الكاملة.
-// قم بتعيين علامة "DoNotDisplayPageBoundaries" على "true" للحصول على إصدارات أقدم من Microsoft Word لحذف الرؤوس ،
-// التذييلات ، والكثير من المسافات الرأسية عند عرض المستند.
-// قم بتعيين علامة "DoNotDisplayPageBoundaries" على "خطأ" للحصول على إصدارات أقدم من Microsoft Word
+// يحتوي هذا المستند على كمية صغيرة من المحتوى تشغل بضع صفحات كاملة من المساحة.
+// قم بتعيين علامة "DoNotDisplayPageBoundaries" على "صحيح" لجعل الإصدارات الأقدم من Microsoft Word تحذف الرؤوس،
+// التذييلات، والكثير من المسافات البيضاء الرأسية عند عرض وثيقتنا.
+// اضبط علامة "DoNotDisplayPageBoundaries" على "خطأ" للحصول على الإصدارات الأقدم من Microsoft Word
 // لعرض وثيقتنا بشكل طبيعي.
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 

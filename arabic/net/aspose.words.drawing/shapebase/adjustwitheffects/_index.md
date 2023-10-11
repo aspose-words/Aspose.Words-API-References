@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.AdjustWithEffects
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase طريقة. يضيف إلى قيم مستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي.
+description: ShapeBase طريقة. يضيف إلى قيم المستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي.
 type: docs
-weight: 560
+weight: 620
 url: /ar/net/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
 ## ShapeBase.AdjustWithEffects method
 
-يضيف إلى قيم مستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي.
+يضيف إلى قيم المستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي.
 
 ```csharp
 public RectangleF AdjustWithEffects(RectangleF source)
@@ -16,7 +16,7 @@ public RectangleF AdjustWithEffects(RectangleF source)
 
 ### أمثلة
 
-يوضح كيفية التحقق من كيفية تأثر حدود الشكل بتأثيرات الشكل.
+يوضح كيفية التحقق من مدى تأثر حدود الشكل بتأثيرات الشكل.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape shadow effect.docx");
@@ -30,10 +30,10 @@ Assert.AreEqual(shapes[0].Width, shapes[1].Width);
 Assert.AreEqual(shapes[0].Height, shapes[1].Height);
 Assert.AreEqual(shapes[0].ShapeType, shapes[1].ShapeType);
 
-// الشكل الأول ليس له تأثيرات ، والشكل الثاني له ظل ومخطط سميك.
-// تجعل هذه التأثيرات حجم الصورة الظلية للشكل الثاني أكبر من حجم الشكل الأول.
-// على الرغم من ظهور حجم المستطيل عند النقر فوق هذه الأشكال في Microsoft Word ،
-// تتأثر الحدود الخارجية المرئية للشكل الثاني بالظل والمخطط وبالتالي تكون أكبر.
+// الشكل الأول ليس له أي تأثيرات، والثاني له ظل ومخطط سميك.
+// هذه التأثيرات تجعل حجم الصورة الظلية للشكل الثاني أكبر من حجم الشكل الأول.
+// على الرغم من أن حجم المستطيل يظهر عندما ننقر على هذه الأشكال في برنامج Microsoft Word،
+// تتأثر الحدود الخارجية المرئية للشكل الثاني بالظل والمخطط الخارجي وبالتالي تكون أكبر.
 // يمكننا استخدام طريقة "AdjustWithEffects" لمعرفة الحجم الحقيقي للشكل.
 Assert.AreEqual(0.0, shapes[0].StrokeWeight);
 Assert.AreEqual(20.0, shapes[1].StrokeWeight);
@@ -42,20 +42,20 @@ Assert.True(shapes[1].ShadowEnabled);
 
 Shape shape = shapes[0];
 
-// قم بإنشاء كائن RectangleF ، يمثل مستطيلاً ،
-// التي يمكن أن نستخدمها كإحداثيات وحدود للشكل.
+// قم بإنشاء كائن RectangleF، يمثل مستطيلاً،
+// والتي من المحتمل أن نستخدمها كإحداثيات وحدود للشكل.
 RectangleF rectangleF = new RectangleF(200, 200, 1000, 1000);
 
-// قم بتشغيل هذه الطريقة لتعديل حجم المستطيل لجميع تأثيرات الشكل لدينا.
+// قم بتشغيل هذه الطريقة لضبط حجم المستطيل ليناسب جميع تأثيرات الشكل.
 RectangleF rectangleFOut = shape.AdjustWithEffects(rectangleF);
 
-// نظرًا لأن الشكل ليس له تأثيرات متغيرة للحدود ، فإن أبعاده الحدية لا تتأثر.
+// بما أن الشكل ليس له تأثيرات تغيير الحدود، فإن أبعاد حدوده لن تتأثر.
 Assert.AreEqual(200, rectangleFOut.X);
 Assert.AreEqual(200, rectangleFOut.Y);
 Assert.AreEqual(1000, rectangleFOut.Width);
 Assert.AreEqual(1000, rectangleFOut.Height);
 
-// تحقق من المدى النهائي للشكل الأول بالنقاط.
+// التحقق من المدى النهائي للشكل الأول، بالنقاط.
 Assert.AreEqual(0, shape.BoundsWithEffects.X);
 Assert.AreEqual(0, shape.BoundsWithEffects.Y);
 Assert.AreEqual(147, shape.BoundsWithEffects.Width);
@@ -65,7 +65,7 @@ shape = shapes[1];
 rectangleF = new RectangleF(200, 200, 1000, 1000);
 rectangleFOut = shape.AdjustWithEffects(rectangleF);
 
-// لقد نقلت تأثيرات الشكل الزاوية اليسرى العلوية الظاهرة من الشكل قليلاً.
+// لقد حركت تأثيرات الشكل الزاوية اليسرى العلوية الظاهرة من الشكل قليلاً.
 Assert.AreEqual(171.5, rectangleFOut.X);
 Assert.AreEqual(167, rectangleFOut.Y);
 

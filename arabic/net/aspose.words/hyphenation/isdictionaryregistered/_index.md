@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
 second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation طريقة. إرجاع خطأ إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان مسجلاً هو قاموس Null  أو إذا كان صحيحًا بخلاف ذلك.
+description: Hyphenation طريقة. إرجاعخطأ شنيع إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان المسجل هو قاموس فارغحقيقي وإلا.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-إرجاع خطأ إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان مسجلاً هو قاموس Null ، أو إذا كان صحيحًا بخلاف ذلك.
+إرجاع`خطأ شنيع` إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان المسجل هو قاموس فارغ،`حقيقي` وإلا.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)
@@ -19,18 +19,18 @@ public static bool IsDictionaryRegistered(string language)
 يوضح كيفية تسجيل قاموس الواصلة.
 
 ```csharp
-// يحتوي قاموس الواصلة على قائمة بالسلاسل التي تحدد قواعد الواصلة للغة القاموس.
-// عندما يحتوي المستند على سطور من النص يمكن فيها تقسيم الكلمة والاستمرار في السطر التالي ،
-// ستبحث الواصلة في قائمة السلاسل في القاموس للسلاسل الفرعية لهذه الكلمة.
-// إذا كان القاموس يحتوي على سلسلة فرعية ، فإن الواصلة ستقسم الكلمة على سطرين
-// بواسطة السلسلة الفرعية وإضافة واصلة إلى النصف الأول.
-// تسجيل ملف قاموس من نظام الملفات المحلي إلى لغة "de-CH".
+// يحتوي قاموس الواصلة على قائمة من السلاسل التي تحدد قواعد الواصلة للغة القاموس.
+// عندما يحتوي المستند على أسطر نصية يمكن فيها تقسيم الكلمة واستمرارها في السطر التالي،
+// ستبحث الواصلة في قائمة سلاسل القاموس عن السلاسل الفرعية لتلك الكلمة.
+// إذا كان القاموس يحتوي على سلسلة فرعية، فستؤدي الواصلة إلى تقسيم الكلمة عبر سطرين
+// بواسطة السلسلة الفرعية وأضف واصلة إلى النصف الأول.
+// سجل ملف قاموس من نظام الملفات المحلي إلى لغة "de-CH".
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// افتح مستندًا يحتوي على نص بلغة تطابق لغة قاموسنا ،
-// واحفظه في تنسيق حفظ بصفحة ثابتة. سيتم وصل النص الموجود في هذا المستند.
+// افتح مستندًا يحتوي على نص ذو لغة تطابق لغة القاموس الخاص بنا،
+// وحفظه بتنسيق حفظ صفحة ثابتة. سيتم تطبيق الواصلة على النص الموجود في هذا المستند.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -38,8 +38,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// أعد تحميل المستند بعد إلغاء تسجيل القاموس ،
-// واحفظه في ملف PDF آخر ، والذي لن يحتوي على نصوص بواصلة.
+// أعد تحميل المستند بعد إلغاء تسجيل القاموس،
+// واحفظه في ملف PDF آخر، والذي لن يحتوي على نص موصول.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));

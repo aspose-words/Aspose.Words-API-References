@@ -1,14 +1,14 @@
 ---
 title: FieldTitle.Text
 second_title: Aspose.Words لمراجع .NET API
-description: FieldTitle ملكية. الحصول على نص العنوان أو تحديده.
+description: FieldTitle ملكية. الحصول على نص العنوان أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtitle/text/
 ---
 ## FieldTitle.Text property
 
-الحصول على نص العنوان أو تحديده.
+الحصول على نص العنوان أو تعيينه.
 
 ```csharp
 public string Text { get; set; }
@@ -21,7 +21,7 @@ public string Text { get; set; }
 ```csharp
 Document doc = new Document();
 
- // تعيين قيمة لخاصية المستند المضمنة "العنوان".
+ // قم بتعيين قيمة لخاصية المستند المضمنة "العنوان".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // يمكننا استخدام حقل العنوان لعرض قيمة هذه الخاصية في المستند.
@@ -32,7 +32,7 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// تعيين قيمة لخاصية نص الحقل ،
+// تعيين قيمة لخاصية النص في الحقل،
 // ثم تحديث الحقل سيؤدي أيضًا إلى استبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);

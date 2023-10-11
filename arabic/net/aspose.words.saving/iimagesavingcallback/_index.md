@@ -1,14 +1,14 @@
 ---
 title: Interface IImageSavingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IImageSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Words الصور عند حفظ مستند إلى HTML. يمكن استخدامها بواسطة تنسيقات أخرى.
+description: Aspose.Words.Saving.IImageSavingCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ الصور عند حفظ مستند إلى HTML. يمكن استخدامه بواسطة تنسيقات أخرى.
 type: docs
-weight: 4910
+weight: 5170
 url: /ar/net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Words الصور عند حفظ مستند إلى HTML. يمكن استخدامها بواسطة تنسيقات أخرى.
+قم بتطبيق هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ الصور عند حفظ مستند إلى HTML. يمكن استخدامه بواسطة تنسيقات أخرى.
 
 ```csharp
 public interface IImageSavingCallback
@@ -18,24 +18,25 @@ public interface IImageSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | يتم استدعاؤها عندما تحفظ Aspose.Words صورة في HTML . |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صورة بتنسيق HTML. |
 
 ### أمثلة
 
 يوضح كيفية إعادة تسمية اسم الصورة أثناء الحفظ في مستند Markdown.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown ، فسننتهي بملف Markdown واحد يرتبط بعدة صور.
-    // ستكون كل صورة في شكل ملف في نظام الملفات المحلي.
-    // يوجد أيضًا رد اتصال يمكنه تخصيص اسم وموقع نظام الملفات لكل صورة.
+    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown، فسنحصل في النهاية على ملف Markdown واحد يرتبط بعدة صور.
+    // ستكون كل صورة على شكل ملف في نظام الملفات المحلي.
+    // يوجد أيضًا رد اتصال يمكنه تخصيص الاسم وموقع نظام الملفات لكل صورة.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
-    // سيتم تشغيل طريقة ImageSaving () لرد الاتصال لدينا في هذا الوقت.
+    // سيتم تشغيل طريقة ImageSaving () لرد الاتصال الخاص بنا في هذا الوقت.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -49,7 +50,7 @@ public interface IImageSavingCallback
 }
 
 /// <summary>
-/// يعيد تسمية الصور المحفوظة التي تم إنتاجها عند حفظ مستند Markdown.
+/// إعادة تسمية الصور المحفوظة التي يتم إنتاجها عند حفظ مستند Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -83,22 +84,22 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // إذا حفظنا المستند بشكل طبيعي ، فسيكون هناك ناتج HTML واحد
-    // مستند بجميع محتويات المستند المصدر.
-    // تعيين خاصية "DocumentSplitCriteria" إلى "DocumentSplitCriteria.SectionBreak" إلى
-    // احفظ وثيقتنا في عدة ملفات HTML: واحد لكل قسم.
+    // إذا قمنا بحفظ المستند بشكل طبيعي، فسيكون هناك مخرج HTML واحد
+    // مستند يحتوي على جميع محتويات المستند المصدر.
+    // قم بتعيين خاصية "DocumentSplitCriteria" على "DocumentSplitCriteria.SectionBreak" إلى
+    // احفظ وثيقتنا في ملفات HTML متعددة: ملف واحد لكل قسم.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // تعيين رد اتصال مخصص لخاصية "DocumentPartSavingCallback" لتغيير منطق حفظ جزء المستند.
+    // قم بتعيين رد اتصال مخصص للخاصية "DocumentPartSavingCallback" لتغيير منطق حفظ جزء المستند.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // إذا قمنا بتحويل مستند يحتوي على صور إلى html ، فسننتهي بملف html واحد يرتبط بعدة صور.
-    // ستكون كل صورة في شكل ملف في نظام الملفات المحلي.
-    // يوجد أيضًا رد اتصال يمكنه تخصيص اسم وموقع نظام الملفات لكل صورة.
+    // إذا قمنا بتحويل مستند يحتوي على صور إلى html، فسوف نحصل في النهاية على ملف html واحد يرتبط بعدة صور.
+    // ستكون كل صورة على شكل ملف في نظام الملفات المحلي.
+    // يوجد أيضًا رد اتصال يمكنه تخصيص الاسم وموقع نظام الملفات لكل صورة.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -117,7 +118,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // يمكننا الوصول إلى المستند المصدر بالكامل عبر خاصية "المستند".
+        // يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -140,8 +141,8 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // فيما يلي طريقتان لتحديد مكان حفظ Aspose.Words كل جزء من المستند.
-        // 1 - حدد اسم ملف لملف جزء الإخراج:
+        // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل جزء من المستند.
+        // 1 - قم بتعيين اسم ملف لملف جزء الإخراج:
         args.DocumentPartFileName = partFileName;
 
         // 2 - إنشاء دفق مخصص لملف جزء الإخراج:
@@ -170,8 +171,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // فيما يلي طريقتان لتحديد مكان حفظ Aspose.Words كل جزء من المستند.
-        // 1 - حدد اسم ملف لملف الصورة الناتج:
+        // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل جزء من المستند.
+        // 1 - قم بتعيين اسم ملف لملف الصورة الناتج:
         args.ImageFileName = imageFileName;
 
         // 2 - إنشاء دفق مخصص لملف الصورة الناتج:

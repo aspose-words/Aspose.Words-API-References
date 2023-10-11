@@ -21,8 +21,8 @@ public bool IsFormatRevision { get; }
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
-// هذه الفقرة هي مراجعة "التنسيق" ، والتي تحدث عندما نغير تنسيق النص الحالي
-// أثناء تتبع المراجعات في Microsoft Word عبر "مراجعة" - >; "تعقب التغيرات".
+// هذه الفقرة هي مراجعة "التنسيق"، والتي تحدث عندما نغير تنسيق النص الموجود
+// أثناء تتبع المراجعات في Microsoft Word عبر "المراجعة" -> "تعقب التغيرات".
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```
 

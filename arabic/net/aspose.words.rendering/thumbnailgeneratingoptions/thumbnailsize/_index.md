@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
 second_title: Aspose.Words لمراجع .NET API
-description: ThumbnailGeneratingOptions ملكية. حجم الصورة المصغرة التي تم إنشاؤها بالبكسل . الافتراضي هو 600x900.
+description: ThumbnailGeneratingOptions ملكية. حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-حجم الصورة المصغرة التي تم إنشاؤها بالبكسل . الافتراضي هو 600x900.
+حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900.
 
 ```csharp
 public Size ThumbnailSize { get; set; }
@@ -30,7 +30,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - استخدم أول صورة موجودة في المستند:
+// 2 - استخدم الصورة الأولى الموجودة في المستند:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

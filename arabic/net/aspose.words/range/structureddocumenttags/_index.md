@@ -1,14 +1,14 @@
 ---
 title: Range.StructuredDocumentTags
 second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. إرجاع أStructuredDocumentTags المجموعة التي تمثل جميع علامات المستند المهيكلة في النطاق.
+description: Range ملكية. إرجاع أStructuredDocumentTags المجموعة التي تمثل جميع علامات المستندات المنظمة في النطاق.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property
 
-إرجاع أ`StructuredDocumentTags` المجموعة التي تمثل جميع علامات المستند المهيكلة في النطاق.
+إرجاع أ`StructuredDocumentTags` المجموعة التي تمثل جميع علامات المستندات المنظمة في النطاق.
 
 ```csharp
 public StructuredDocumentTagCollection StructuredDocumentTags { get; }

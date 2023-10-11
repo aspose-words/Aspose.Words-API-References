@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
 second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY.
+description: GraphicsQualityOptions ملكية. الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY.
+الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -16,15 +16,15 @@ public bool UseTileFlipMode { get; set; }
 
 ### ملاحظات
 
-الWrapMode يحدد كيفية تجانب النسيج أو التدرج اللوني عندما يكون أصغر_ من المساحة التي يتم تعبئتها.
+الWrapMode يحدد كيفية تجانب المادة أو التدرج عندما يكون أصغر من المساحة التي يتم ملؤها.
 
-افتراضيا يستخدمTile (يحدد التجانب دون التقليب). يؤدي هذا إلى عرض غير دقيق للصورة التي تم تحجيمها (بدقة عالية).
+حسب الاستخدامات الافتراضيةTile (يحدد التبليط دون التقليب). يؤدي هذا إلى عرض غير دقيق للصورة التي تم تغيير حجمها (بدقة عالية).
 
-تسمح هذه الخاصية بتبديل WrapMode إلىTileFlipXY (يحدد أن المربعات تنقلب أفقياً وأنت تتحرك على طول صف وتنقلب رأسيًا وأنت تتحرك على طول عمود).
+تسمح هذه الخاصية بتبديل WrapMode إلىTileFlipXY (يحدد أنه يتم قلب المربعات أفقيًا أثناء تحركك على طول الصف وقلبها رأسيًا أثناء تحركك على طول عمود).
 
 ### أمثلة
 
-يوضح كيفية منع ظهور الخط الأبيض عند التقديم بدقة عالية.
+يوضح كيفية منع ظهور الخط الأبيض عند العرض بدقة عالية.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

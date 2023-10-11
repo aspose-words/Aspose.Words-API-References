@@ -1,14 +1,16 @@
 ---
 title: Class ImportFormatOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ImportFormatOptions فصل. يسمح بتحديد خيارات استيراد متنوعة لتنسيق الإخراج.
+description: Aspose.Words.ImportFormatOptions فصل. يسمح بتحديد خيارات الاستيراد المتنوعة لتنسيق الإخراج.
 type: docs
-weight: 3040
+weight: 3240
 url: /ar/net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class
 
-يسمح بتحديد خيارات استيراد متنوعة لتنسيق الإخراج.
+يسمح بتحديد خيارات الاستيراد المتنوعة لتنسيق الإخراج.
+
+لمعرفة المزيد، قم بزيارة[تحديد خيارات التحميل](https://docs.aspose.com/words/net/specify-load-options/) مقالة توثيقية.
 
 ```csharp
 public class ImportFormatOptions
@@ -24,12 +26,13 @@ public class ImportFormatOptions
 
 | اسم | وصف |
 | --- | --- |
-| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles/) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ فيKeepSourceFormatting mode. القيمة الافتراضية هي`خاطئة` . |
-| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس / التذييلات الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هي`حقيقي` . |
-| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هي`حقيقي` . |
-| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الترقيم عندما يتعارض في مستندات المصدر و_ المستندات . القيمة الافتراضية هي`خاطئة` . |
-| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة.`خاطئة` . |
-| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط _ عندما يكون لها أسماء متساوية في مستندات المصدر والوجهة. _ القيمة الافتراضية هي`خاطئة` . |
+| [AdjustSentenceAndWordSpacing](../../aspose.words/importformatoptions/adjustsentenceandwordspacing/) { get; set; } | الحصول على قيمة منطقية أو تعيينها والتي تحدد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيًا. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هي`خطأ شنيع` . |
+| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى الرؤوس/التذييلات الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هي`حقيقي` . |
+| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هي`حقيقي` . |
+| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering/) { get; set; } | الحصول على قيمة منطقية أو تعيينها والتي تحدد كيفية استيراد الترقيم عندما يتعارض مع مستندات المصدر و الوجهة. القيمة الافتراضية هي`خطأ شنيع` . |
+| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة. القيمة الافتراضية هي`خطأ شنيع` . |
+| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هي`خطأ شنيع` . |
 
 ### أمثلة
 
@@ -47,13 +50,13 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// استنساخ المستند وتعديل نمط "MyStyle" الخاص بالنسخة ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
-// إذا أدخلنا النسخة في المستند الأصلي ، فإن النمطين اللذين يحملان الاسم نفسه سيتسببان في حدوث تضارب.
+// انسخ المستند وقم بتحرير نمط "MyStyle" الخاص بالمستنسخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
+// إذا قمنا بإدراج النسخة في المستند الأصلي، فسيتسبب النمطان اللذان يحملان نفس الاسم في حدوث تعارض.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// عندما نقوم بتمكين SmartStyleBehavior واستخدام وضع تنسيق الاستيراد KeepSourceFormatting ،
-// Aspose.Words سوف تحل تضارب الأنماط عن طريق تحويل أنماط الوثيقة المصدر.
+// عندما نقوم بتمكين SmartStyleBehavior ونستخدم وضع تنسيق الاستيراد KeepSourceFormatting،
+// Aspose.Words سوف يحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
 // بنفس أسماء أنماط الوجهة في سمات الفقرة المباشرة.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

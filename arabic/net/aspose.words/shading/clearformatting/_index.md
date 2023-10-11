@@ -1,14 +1,14 @@
 ---
 title: Shading.ClearFormatting
 second_title: Aspose.Words لمراجع .NET API
-description: Shading طريقة. يزيل التظليل من الكائن .
+description: Shading طريقة. إزالة التظليل من الكائن.
 type: docs
-weight: 40
+weight: 80
 url: /ar/net/aspose.words/shading/clearformatting/
 ---
 ## Shading.ClearFormatting method
 
-يزيل التظليل من الكائن .
+إزالة التظليل من الكائن.
 
 ```csharp
 public void ClearFormatting()
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

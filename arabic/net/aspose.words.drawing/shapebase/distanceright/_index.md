@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.DistanceRight
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع أو تحديد المسافة بالنقاط بين نص المستند والحافة اليمنى للشكل.
+description: ShapeBase ملكية. إرجاع أو تعيين المسافة بالنقاط بين نص المستند والحافة اليمنى للشكل.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/shapebase/distanceright/
 ---
 ## ShapeBase.DistanceRight property
 
-إرجاع أو تحديد المسافة (بالنقاط) بين نص المستند والحافة اليمنى للشكل.
+إرجاع أو تعيين المسافة (بالنقاط) بين نص المستند والحافة اليمنى للشكل.
 
 ```csharp
 public double DistanceRight { get; set; }
@@ -18,7 +18,7 @@ public double DistanceRight { get; set; }
 
 القيمة الافتراضية هي 1/8 بوصة.
 
-له تأثير فقط لأشكال المستوى الأعلى.
+له تأثير فقط على أشكال المستوى الأعلى.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ public double DistanceRight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مستطيلًا ، واجعل النص يلتف بإحكام حول حدوده.
+// أدخل مستطيلاً واجعل النص يلتف بإحكام حول حدوده.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 150, 150);
 shape.WrapType = WrapType.Tight;
 
@@ -38,12 +38,12 @@ shape.DistanceBottom = 40;
 shape.DistanceLeft = 40;
 shape.DistanceRight = 40;
 
-// حرك الشكل بالقرب من مركز الصفحة ، ثم قم بتدوير الشكل 60 درجة في اتجاه عقارب الساعة.
+// حرك الشكل بالقرب من منتصف الصفحة، ثم قم بتدوير الشكل 60 درجة في اتجاه عقارب الساعة.
 shape.Top = 75;
 shape.Left = 150; 
 shape.Rotation = 60;
 
-// أضف نصًا سيلتف حول الشكل.
+// أضف نصًا يلتف حول الشكل.
 builder.Font.Size = 24;
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
               "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");

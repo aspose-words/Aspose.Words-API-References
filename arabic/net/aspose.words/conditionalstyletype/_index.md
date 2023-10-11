@@ -1,14 +1,14 @@
 ---
 title: Enum ConditionalStyleType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConditionalStyleType تعداد. يمثل مناطق الجدول المحتملة التي يمكن تحديد التنسيق الشرطي لها في نمط الجدول.
+description: Aspose.Words.ConditionalStyleType تعداد. يمثل مناطق الجدول المحتملة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول.
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
 
-يمثل مناطق الجدول المحتملة التي يمكن تحديد التنسيق الشرطي لها في نمط الجدول.
+يمثل مناطق الجدول المحتملة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول.
 
 ```csharp
 public enum ConditionalStyleType
@@ -18,22 +18,22 @@ public enum ConditionalStyleType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| FirstRow | `0` | يحدد تنسيق الصف الأول من الجدول. |
-| FirstColumn | `1` | يحدد تنسيق العمود الأول من الجدول. |
-| LastRow | `2` | يحدد تنسيق الصف الأخير من الجدول. |
-| LastColumn | `3` | يحدد تنسيق العمود الأخير بالجدول. |
-| OddRowBanding | `4` | يحدد تنسيق شريط الصفوف المرقمة بأرقام فردية . |
-| OddColumnBanding | `5` | يحدد تنسيق شريط الأعمدة المرقّم بأرقام فردية . |
-| EvenRowBanding | `6` | تحديد تنسيق شريط الصفوف ذات الأرقام الزوجية . |
+| FirstRow | `0` | تحديد تنسيق الصف الأول من الجدول. |
+| FirstColumn | `1` | تحديد تنسيق العمود الأول من الجدول. |
+| LastRow | `2` | تحديد تنسيق الصف الأخير من الجدول. |
+| LastColumn | `3` | تحديد تنسيق العمود الأخير في الجدول. |
+| OddRowBanding | `4` | تحديد تنسيق شريط الصفوف ذات الأرقام الفردية. |
+| OddColumnBanding | `5` | تحديد تنسيق شريط الأعمدة ذات الأرقام الفردية. |
+| EvenRowBanding | `6` | يحدد تنسيق شريط الصف ذو الأرقام الزوجية. |
 | EvenColumnBanding | `7` | تحديد تنسيق شريط الأعمدة ذات الأرقام الزوجية. |
-| TopLeftCell | `8` | تحديد تنسيق الخلية اليسرى العلوية للجدول. |
-| TopRightCell | `9` | تحديد تنسيق الخلية اليمنى العلوية للجدول . |
-| BottomLeftCell | `10` | يحدد تنسيق الخلية اليسرى السفلية للجدول. |
+| TopLeftCell | `8` | تحديد تنسيق الخلية العلوية اليسرى للجدول. |
+| TopRightCell | `9` | تحديد تنسيق الخلية العلوية اليمنى للجدول. |
+| BottomLeftCell | `10` | تحديد تنسيق الخلية اليسرى السفلية للجدول. |
 | BottomRightCell | `11` | تحديد تنسيق الخلية اليمنى السفلية للجدول. |
 
 ### أمثلة
 
-يوضح كيفية التعامل مع أنماط منطقة معينة في الجدول.
+يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -54,9 +54,9 @@ builder.EndTable();
 // إنشاء نمط جدول مخصص.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// الأنماط الشرطية هي تغييرات تنسيق تؤثر فقط على بعض خلايا الجدول
-// استنادًا إلى المسند ، مثل وجود الخلايا في الصف الأخير.
-// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "ConditionalStyles".
+// الأنماط الشرطية هي تغييرات التنسيق التي تؤثر فقط على بعض خلايا الجدول
+// استنادًا إلى المسند، مثل وجود الخلايا في الصف الأخير.
+// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "الأنماط الشرطية".
 // 1 - حسب نوع النمط:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -65,17 +65,17 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - كممتلكات:
+// 3 - كخاصية:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// تطبيق تنسيق النص والحشو على الأنماط الشرطية.
+// تطبيق الحشو وتنسيق النص على الأنماط الشرطية.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// قائمة بجميع شروط النمط الممكنة.
+// قم بإدراج جميع شروط النمط الممكنة.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -85,10 +85,10 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// قم بتطبيق النمط المخصص ، الذي يحتوي على جميع الأنماط الشرطية ، على الجدول.
+// قم بتطبيق النمط المخصص، الذي يحتوي على كافة الأنماط الشرطية، على الجدول.
 table.Style = tableStyle;
 
-// يطبق أسلوبنا بعض الأنماط الشرطية افتراضيًا.
+// يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

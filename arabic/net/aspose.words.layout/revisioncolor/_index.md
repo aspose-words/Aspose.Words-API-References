@@ -3,7 +3,7 @@ title: Enum RevisionColor
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Layout.RevisionColor تعداد. يسمح بتحديد لون مراجعات المستند.
 type: docs
-weight: 3180
+weight: 3380
 url: /ar/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -18,37 +18,37 @@ public enum RevisionColor
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | افتراضي . |
-| Black | `1` | يمثل 000000 لون . |
-| Blue | `2` | يمثل 2e97d3 color. |
-| BrightGreen | `3` | يمثل 84a35b لون . |
-| ClassicBlue | `4` | يمثل 0000ff color. |
-| ClassicRed | `5` | يمثل ff0000 لون . |
-| DarkBlue | `6` | يمثل 376e96 لونًا . |
-| DarkRed | `7` | يمثل 881824 لون . |
-| DarkYellow | `8` | يمثل e09a2b color. |
-| Gray25 | `9` | يمثل a0a3a9 color. |
-| Gray50 | `10` | يمثل 50565e اللون . |
-| Green | `11` | يمثل 2c6234 color. |
-| Pink | `12` | يمثل لون ce338f . |
-| Red | `13` | يمثل لون b5082e . |
-| Teal | `14` | يمثل 1b9cab color. |
-| Turquoise | `15` | يمثل 3eafc2 color. |
-| Violet | `16` | يمثل 633277 لون . |
-| White | `17` | يمثل لون ffffff . |
-| Yellow | `18` | يمثل fad272 color. |
-| NoHighlight | `19` | لم يتم استخدام أي لون لإبراز تغييرات المراجعة. |
-| ByAuthor | `20` | تتلقى المراجعات الخاصة بكل مؤلف لونها الخاص للتمييز من مجموعة محددة مسبقًا من الألوان عالية التباين. |
+| Auto | `0` | الافتراضي. |
+| Black | `1` | يمثل 000000 لون. |
+| Blue | `2` | يمثل اللون 2e97d3. |
+| BrightGreen | `3` | يمثل اللون 84a35b. |
+| ClassicBlue | `4` | يمثل اللون 0000ff. |
+| ClassicRed | `5` | يمثل اللون ff0000. |
+| DarkBlue | `6` | يمثل 376e96 لون. |
+| DarkRed | `7` | يمثل 881824 لون. |
+| DarkYellow | `8` | يمثل اللون e09a2b. |
+| Gray25 | `9` | يمثل اللون a0a3a9. |
+| Gray50 | `10` | يمثل لون 50565e. |
+| Green | `11` | يمثل لون 2c6234. |
+| Pink | `12` | يمثل اللون ce338f. |
+| Red | `13` | يمثل اللون b5082e. |
+| Teal | `14` | يمثل لون 1b9cab. |
+| Turquoise | `15` | يمثل لون 3eafc2. |
+| Violet | `16` | يمثل 633277 لون. |
+| White | `17` | يمثل اللون ffffff. |
+| Yellow | `18` | يمثل لونفاد272. |
+| NoHighlight | `19` | لم يتم استخدام أي لون لتسليط الضوء على تغييرات المراجعة. |
+| ByAuthor | `20` | تحصل مراجعات كل مؤلف على اللون الخاص بها لتسليط الضوء عليها من مجموعة محددة مسبقًا من الألوان عالية التباين. |
 
 ### أمثلة
 
-يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة ، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
+// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

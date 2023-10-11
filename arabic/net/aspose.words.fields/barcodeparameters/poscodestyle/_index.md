@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCA  UPCE  EAN13  EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STD  SUP2  SUP5  CASE .
+description: BarcodeParameters ملكية. نمط الباركود لنقطة البيع أنواع الباركود UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] .
+نمط الباركود لنقطة البيع (أنواع الباركود UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,19 +16,18 @@ public string PosCodeStyle { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام منشئ الباركود.
+يوضح كيفية استخدام مولد الباركود.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// يمكننا استخدام تطبيق IBarcodeGenerator المخصص لإنشاء رموز شريطية ،
-// ثم أدخلها في المستند كصور.
+// يمكننا استخدام تطبيق IBarcodeGenerator مخصص لإنشاء الرموز الشريطية،
+// ثم قم بإدراجها في المستند كصور.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// فيما يلي أربعة أمثلة لأنواع مختلفة من الرموز الشريطية التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
-// لكل رمز شريطي ، نحدد مجموعة جديدة من معلمات الباركود ، ثم ننشئ الصورة.
-// بعد ذلك ، يمكننا إدخال الصورة في المستند ، أو حفظها في نظام الملفات المحلي.
+// فيما يلي أربعة أمثلة لأنواع مختلفة من الباركود التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
+// لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
+// بعد ذلك، يمكننا إدراج الصورة في المستند، أو حفظها في نظام الملفات المحلي.
 // 1 - رمز الاستجابة السريعة:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -47,7 +46,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
-// 2 - الباركود EAN13:
+// 2 - الرمز الشريطي EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",

@@ -1,14 +1,14 @@
 ---
 title: GroupShape.Accept
 second_title: Aspose.Words لمراجع .NET API
-description: GroupShape طريقة. يقبل الزائر .
+description: GroupShape طريقة. يقبل الزائر.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape.Accept method
 
-يقبل الزائر .
+يقبل الزائر.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد ؛ خطأ إذا أوقف برنامج DocumentVisitor العملية قبل زيارة جميع العقد.
+صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
 ### ملاحظات
 
-يعدّ فوق هذه العقدة وجميع توابعها. تستدعي كل عقدة طريقة مقابلة في DocumentVisitor.
+يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات ، راجع نمط تصميم الزائر.
+لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-المكالمات[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) ثم المكالمات[`Accept`](../../../aspose.words/node/accept/) لجميع الأشكال الفرعية لشكل المجموعة والمكالمات[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) في النهاية .
+المكالمات[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع الأشكال الفرعية لشكل المجموعة واستدعاءاتها[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) في النهاية.
 
 ### أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -40,9 +40,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت تريد إنشاء أشكال "غير أساسية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
+    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
     // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // الرجاء استخدام أساليب DocumentBuilder.InsertShape.
+    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة شكل تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.Add
 second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. يضيف عنصرًا إلى المجموعة .
+description: CustomXmlSchemaCollection طريقة. إضافة عنصر إلى المجموعة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlschemacollection/add/
 ---
 ## CustomXmlSchemaCollection.Add method
 
-يضيف عنصرًا إلى المجموعة .
+إضافة عنصر إلى المجموعة.
 
 ```csharp
 public void Add(string value)
@@ -20,7 +20,7 @@ public void Add(string value)
 
 ### أمثلة
 
-يوضح كيفية العمل مع مجموعة مخطط XML.
+يوضح كيفية العمل مع مجموعة مخططات XML.
 
 ```csharp
 Document doc = new Document();
@@ -30,18 +30,18 @@ string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
 // إضافة اقتران مخطط XML.
-xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema ") ;
+xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// استنساخ مجموعة اقتران مخطط XML لجزء XML المخصص ،
-// ثم قم بإضافة بعض المخططات الجديدة إلى النسخة.
+// استنساخ مجموعة اقتران مخطط XML لجزء XML المخصص،
+// ثم قم بإضافة اثنين من المخططات الجديدة إلى النسخة.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
-schemas.Add("http://www.w3.org/2001/XMLSchema-instance ") ;
-schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType ") ;
+schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
+schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
 Assert.AreEqual(3, schemas.Count);
-Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType ")) ;
+Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// عد المخططات واطبع كل عنصر.
+// قم بتعداد المخططات وطباعة كل عنصر.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -49,13 +49,13 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 }
 
 // فيما يلي ثلاث طرق لإزالة المخططات من المجموعة.
-// 1 - إزالة مخطط قاعدة بيانات بواسطة الفهرس:
+// 1 - إزالة المخطط حسب الفهرس:
 schemas.RemoveAt(2);
 
-// 2 - إزالة مخطط قاعدة بيانات حسب القيمة:
-schemas.Remove("http://www.w3.org/2001/XMLSchema ") ;
+// 2 - إزالة المخطط حسب القيمة:
+schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - استخدم طريقة "Clear" لتفريغ المجموعة مرة واحدة.
+// 3 - استخدم طريقة "المسح" لإفراغ المجموعة مرة واحدة.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

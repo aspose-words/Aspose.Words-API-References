@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات الخاصة بالسلسلة بأكملها. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي خاطئة .
+description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات الخاصة بالسلسلة بأكملها. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات الخاصة بالسلسلة بأكملها. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي **خاطئة** .
+يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات الخاصة بالسلسلة بأكملها. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -16,11 +16,11 @@ public bool ShowBubbleSize { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) الملكية .
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) الملكية.
 
 ### أمثلة
 
-يوضح كيفية العمل باستخدام تسميات البيانات لمخطط فقاعي.
+يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الفقاعي.
 
 ```csharp
 Document doc = new Document();
@@ -28,16 +28,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
- // أضف سلسلة مخصصة بإحداثيات X / Y وقطر كل من الفقاعات.
+// أضف سلسلة مخصصة بإحداثيات X/Y وقطر كل من الفقاعات.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
     new[] { 9.0, 4.5, 2.5, 8.0, 5.0 });
 
-// تمكين تسميات البيانات ، ثم تعديل مظهرها.
+// قم بتمكين تسميات البيانات، ثم قم بتعديل مظهرها.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowBubbleSize = true;

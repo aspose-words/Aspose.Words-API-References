@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertBreak
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. إدراج فاصل من النوع المحدد في المستند.
 type: docs
-weight: 240
+weight: 260
 url: /ar/net/aspose.words/documentbuilder/insertbreak/
 ---
 ## DocumentBuilder.InsertBreak method
@@ -16,7 +16,7 @@ public void InsertBreak(BreakType breakType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| breakType | BreakType | يحدد نوع الفاصل الذي سيتم إدخاله. |
+| breakType | BreakType | يحدد نوع الفاصل المراد إدراجه. |
 
 ### ملاحظات
 
@@ -30,11 +30,11 @@ public void InsertBreak(BreakType breakType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد أننا نريد رؤوس وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
+// حدد أننا نريد رؤوسًا وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس ، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -52,19 +52,19 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
@@ -81,21 +81,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كمدخلات.
+يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل جدول محتويات للصفحة الأولى من المستند.
-// تكوين الجدول لالتقاط فقرات بعناوين المستويات من 1 إلى 3.
-// أيضًا ، قم بتعيين إدخالاتها لتكون ارتباطات تشعبية ستأخذنا
+// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// ملء جدول المحتويات بإضافة فقرات بأنماط عناوين.
-// كل عنوان بمستوى بين 1 و 3 سينشئ إدخالاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
+// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -123,7 +123,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع يحتاج إلى تحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

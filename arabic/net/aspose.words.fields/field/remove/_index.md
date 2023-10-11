@@ -1,14 +1,14 @@
 ---
 title: Field.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية  يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل  يعود لا شيء .
+description: Field طريقة. إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل فسيتم إرجاعهباطل .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** .
+إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` .
 
 ```csharp
 public Node Remove()
@@ -48,7 +48,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة جميع الحقول من المجموعة مرة واحدة:
+// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,24 +56,25 @@ Assert.AreEqual(0, fields.Count);
 يوضح كيفية معالجة الحقول الخاصة.
 
 ```csharp
+public void FieldPrivate()
 {
-    // افتح مستند Corel WordPerfect الذي قمنا بتحويله إلى تنسيق docx.
+    // افتح مستند Corel WordPerfect الذي قمنا بتحويله إلى تنسيق .docx.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
-    // WordPerfect 5.x / 6.x مستندات مثل تلك التي قمنا بتحميلها قد تحتوي على حقول خاصة.
-    // يحتفظ Microsoft Word بالحقول الخاصة أثناء عمليات التحميل / الحفظ ،
-    // لكنه لا يوفر وظائف لهم.
+    // قد تحتوي مستندات WordPerfect 5.x/6.x مثل تلك التي قمنا بتحميلها على حقول خاصة.
+    // يحتفظ Microsoft Word بالحقول الخاصة أثناء عمليات التحميل/الحفظ،
+    // لكنه لا يوفر أي وظيفة لهم.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
     Assert.AreEqual(FieldType.FieldPrivate, field.Type);
 
-    // يمكننا أيضًا إدراج الحقول الخاصة باستخدام أداة إنشاء المستندات.
+    // يمكننا أيضًا إدراج حقول خاصة باستخدام أداة إنشاء المستندات.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
-    // هذه الحقول ليست طريقة قابلة للتطبيق لحماية المعلومات الحساسة.
-    // ما لم يكن التوافق مع الإصدارات القديمة من WordPerfect ضروريًا ،
+    // هذه الحقول ليست طريقة فعالة لحماية المعلومات الحساسة.
+    // ما لم يكن التوافق مع الإصدارات السابقة مع الإصدارات الأقدم من WordPerfect ضروريًا،
     // يمكننا إزالة هذه الحقول بأمان. يمكننا القيام بذلك باستخدام تطبيق DocumentVisiitor.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
@@ -100,8 +101,8 @@ public class FieldPrivateRemover : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldEnd في المستند.
-    /// إذا كانت العقدة تنتمي إلى حقل خاص ، فسيتم إزالة الحقل بأكمله.
+    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// إذا كانت العقدة تنتمي إلى حقل خاص، فسيتم إزالة الحقل بأكمله.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

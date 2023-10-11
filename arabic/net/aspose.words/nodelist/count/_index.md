@@ -39,7 +39,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif
 
-// يحتوي وثيقتنا على ثلاث عقد تشغيل.
+// تحتوي وثيقتنا على ثلاث عقد تشغيل.
 NodeList nodeList = doc.SelectNodes("//يجري");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -47,20 +47,20 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// استخدم الشرطة المائلة للأمام مزدوجة لتحديد كل عقد التشغيل
-// التي هي أحفاد غير مباشرة من عقدة الجدول ، والتي من شأنها أن تكون عمليات التشغيل داخل الخليتين اللتين أدخلناهما.
+// استخدم شرطة مائلة مزدوجة لتحديد جميع عقد التشغيل
+// التي هي أحفاد غير مباشرة لعقدة الجدول، والتي ستكون بمثابة عمليات التشغيل داخل الخليتين اللتين أدخلناهما.
 nodeList = doc.SelectNodes("//Table//يجري");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// تحدد الشرطات المائلة للأمام المفردة العلاقات الفرعية المباشرة ،
-// التي تخطيناها عند استخدام الشرطتين المائلتين.
-Assert.AreEqual(doc.SelectNodes(" // جدول // تشغيل ") ،
-    doc.SelectNodes("// جدول / صف / خلية / فقرة / تشغيل ")) ;
+// تحدد الخطوط المائلة الأمامية المفردة العلاقات السليلة المباشرة،
+// والتي قمنا بتخطيها عندما استخدمنا الشرطة المائلة المزدوجة.
+Assert.AreEqual(doc.SelectNodes(" //الجدول//تشغيل")،
+    doc.SelectNodes("//جدول/صف/خلية/فقرة/تشغيل"));
 
-// الوصول إلى الشكل الذي يحتوي على الصورة التي أدخلناها.
+// الوصول إلى الشكل الذي يحتوي على الصورة التي قمنا بإدراجها.
 nodeList = doc.SelectNodes("//شكل");
 
 Assert.AreEqual(1, nodeList.Count);

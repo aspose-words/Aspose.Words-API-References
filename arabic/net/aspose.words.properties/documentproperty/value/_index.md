@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.Value
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. الحصول على أو تحديد قيمة الخاصية.
+description: DocumentProperty ملكية. الحصول على قيمة الخاصية أو تحديدها.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.properties/documentproperty/value/
 ---
 ## DocumentProperty.Value property
 
-الحصول على أو تحديد قيمة الخاصية.
+الحصول على قيمة الخاصية أو تحديدها.
 
 ```csharp
 public object Value { get; set; }
@@ -16,11 +16,11 @@ public object Value { get; set; }
 
 ### ملاحظات
 
-لا يمكن أن تكون لاغية.
+لا يمكن`باطل`.
 
 ### أمثلة
 
-يوضح كيفية العمل بخصائص المستند المضمنة.
+يوضح كيفية العمل مع خصائص المستند المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
@@ -28,15 +28,15 @@ Document doc = new Document(MyDir + "Properties.docx");
 // يحتوي كائن "المستند" على بعض بيانات التعريف الخاصة به في أعضائه.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// يخزن المستند أيضًا البيانات الوصفية في خصائصه المضمنة.
-// كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" للمستند.
+// يقوم المستند أيضًا بتخزين البيانات التعريفية في خصائصه المضمنة.
+// كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" الخاص بالمستند.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // قد تخزن بعض الخصائص قيمًا متعددة.
+    // قد تقوم بعض الخصائص بتخزين قيم متعددة.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

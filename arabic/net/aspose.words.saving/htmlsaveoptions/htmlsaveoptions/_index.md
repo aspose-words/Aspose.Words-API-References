@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions البناء. تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق .
+description: HtmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق.
 
 ```csharp
 public HtmlSaveOptions()
@@ -16,7 +16,7 @@ public HtmlSaveOptions()
 
 ### أمثلة
 
-يوضح كيفية استخدام ترميز معين عند حفظ مستند في epub.
+يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -26,10 +26,10 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// بشكل افتراضي ، سيكون لمستند الإخراج .epub جميع محتوياته في جزء HTML واحد.
-// يسمح لنا معيار الانقسام بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
-// سنضع المعايير لتقسيم الوثيقة إلى فقرات عنوان.
-// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML أكثر من حجم معين.
+// بشكل افتراضي، سيحتوي مستند الإخراج .epub على جميع محتوياته في جزء HTML واحد.
+// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
+// سنضع المعايير لتقسيم الوثيقة إلى فقرات رأسية.
+// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // حدد أننا نريد تصدير خصائص المستند.
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml وMhtml أوEpub التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml ,Mhtml ,EpubAzw3 أوMobi التنسيق.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,11 +56,11 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| saveFormat | SaveFormat | يمكن ان يكونHtml وMhtml أوEpub. |
+| saveFormat | SaveFormat | يمكن أن يكونHtml ,Mhtml ,EpubAzw3 أوMobi . |
 
 ### أمثلة
 
-يوضح كيفية حفظ مستند في إصدار محدد من HTML.
+يوضح كيفية حفظ مستند إلى إصدار محدد من HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

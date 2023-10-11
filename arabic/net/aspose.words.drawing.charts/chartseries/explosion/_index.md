@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Explosion
 second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. 
+description: ChartSeries ملكية. يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartseries/explosion/
 ---
 ## ChartSeries.Explosion property
+
+يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا، ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية.
 
 ```csharp
 public int Explosion { get; set; }

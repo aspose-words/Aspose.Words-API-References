@@ -1,14 +1,14 @@
 ---
 title: IReplacingCallback.Replacing
 second_title: Aspose.Words لمراجع .NET API
-description: IReplacingCallback طريقة. طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق يتم العثور عليه قبل إجراء الاستبدال.
+description: IReplacingCallback طريقة. طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق يتم العثور عليه قبل إجراء الاستبدال.
+طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -16,13 +16,14 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### قيمة الإرجاع
 
-أ[`ReplaceAction`](../../replaceaction/) القيمة التي تحدد الإجراء المطلوب اتخاذه للمطابقة الحالية.
+أ[`ReplaceAction`](../../replaceaction/) القيمة التي تحدد الإجراء الذي سيتم اتخاذه للمطابقة الحالية.
 
 ### أمثلة
 
-يوضح كيفية استبدال كل تكرارات نمط التعبير العادي بسلسلة أخرى ، أثناء تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,7 +34,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // تعيين رد اتصال يتتبع أي بدائل تقوم بها طريقة "استبدال".
+    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -48,7 +49,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 /// <summary>
 /// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
-/// ويلاحظ قيمة النص المتطابق الأصلي.
+/// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,6 +74,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -82,6 +84,8 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -93,7 +97,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -101,7 +105,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

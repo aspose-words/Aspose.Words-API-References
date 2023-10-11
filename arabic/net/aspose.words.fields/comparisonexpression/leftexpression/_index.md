@@ -1,14 +1,14 @@
 ---
 title: ComparisonExpression.LeftExpression
 second_title: Aspose.Words لمراجع .NET API
-description: ComparisonExpression ملكية. يحصل على التعبير الأيسر .
+description: ComparisonExpression ملكية. يحصل على التعبير الأيسر.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/comparisonexpression/leftexpression/
 ---
 ## ComparisonExpression.LeftExpression property
 
-يحصل على التعبير الأيسر .
+يحصل على التعبير الأيسر.
 
 ```csharp
 public string LeftExpression { get; }
@@ -16,7 +16,7 @@ public string LeftExpression { get; }
 
 ### أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقلي IF و COMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -28,12 +28,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // أكواد الحقول التي نستخدمها في هذا المثال:
-    // 1. "إذا {0} {1} {2} \" وسيطة صحيحة \ "\" وسيطة خاطئة \ "".
-    // 2. "قارن {0} {1} {2}".
+    // رموز الحقول التي نستخدمها في هذا المثال:
+    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
+    // 2. " قارن {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "ComparisonEvaluationResult" غير محددة ، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من منطقي.
+    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

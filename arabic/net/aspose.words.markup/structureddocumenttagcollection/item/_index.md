@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection ملكية. إرجاع علامة المستند المركب بالفهرس المحدد.
+description: StructuredDocumentTagCollection ملكية. إرجاع علامة المستند المنظمة في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-إرجاع علامة المستند المركب بالفهرس المحدد.
+إرجاع علامة المستند المنظمة في الفهرس المحدد.
 
 ```csharp
 public IStructuredDocumentTag this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. True إذا تم تنسيق الخط على أنه مائل.
+description: Font ملكية. صحيح إذا كان الخط منسقًا بالخط المائل.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-True إذا تم تنسيق الخط على أنه مائل.
+صحيح إذا كان الخط منسقًا بالخط المائل.
 
 ```csharp
 public bool Italic { get; set; }

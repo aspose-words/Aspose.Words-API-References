@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Instructions
 second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
+description: SignatureLineOptions ملكية. الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
+الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -16,7 +16,7 @@ public string Instructions { get; set; }
 
 ### أمثلة
 
-يوضح كيفية توقيع مستند بشهادة شخصية وسطر توقيع.
+يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ ، وتحقق من أن خصائص "IsSigned" و "IsValid" تساوي "true" ،
+// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

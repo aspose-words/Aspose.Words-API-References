@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsTopLevel
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة .
+description: ShapeBase ملكية. إرجاعحقيقيإذا لم يكن هذا الشكل تابعًا لشكل المجموعة.
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة .
+إرجاع`حقيقي`إذا لم يكن هذا الشكل تابعًا لشكل المجموعة.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -26,13 +26,13 @@ shape.Width = 200;
 shape.Height = 200;
 shape.WrapType = WrapType.None;
 
-// لا يعد الشكل بشكل افتراضي جزءًا من أي شكل مجموعة ، ولذلك تم تعيين الخاصية "IsTopLevel" على "true".
+// الشكل بشكل افتراضي ليس جزءًا من أي شكل مجموعة، وبالتالي تم تعيين الخاصية "IsTopLevel" على "true".
 Assert.True(shape.IsTopLevel);
 
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
-// بمجرد استيعاب شكل في شكل مجموعة ، تتغير خاصية "IsTopLevel" إلى "false".
+// بمجرد دمج شكل في شكل مجموعة، تتغير الخاصية "IsTopLevel" إلى "خطأ".
 Assert.False(shape.IsTopLevel);
 ```
 

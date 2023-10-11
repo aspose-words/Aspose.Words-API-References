@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Scale
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تحديد عامل التكبير / التصغير للصور التي تم إنشاؤها.
+description: ImageSaveOptions ملكية. الحصول على أو تعيين عامل التكبير للصور التي تم إنشاؤها.
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property
 
-الحصول على أو تحديد عامل التكبير / التصغير للصور التي تم إنشاؤها.
+الحصول على أو تعيين عامل التكبير للصور التي تم إنشاؤها.
 
 ```csharp
 public float Scale { get; set; }
@@ -20,24 +20,24 @@ public float Scale { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تحويل كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
+يوضح كيفية تقديم كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// قم بإنشاء كائن "ImageSaveOptions" لتمريره إلى طريقة "Save" لتعديل طريقة عرض العقدة
-// كيف يعرض عقدة OfficeMath في صورة.
+// قم بإنشاء كائن "ImageSaveOptions" لتمريره إلى طريقة "حفظ" عارض العقدة لتعديله
+// كيفية تحويل عقدة OfficeMath إلى صورة.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// اضبط خاصية "Scale" على 5 لجعل الكائن خمسة أضعاف حجمه الأصلي.
+// اضبط خاصية "Scale" على 5 لجعل الكائن يصل إلى خمسة أضعاف حجمه الأصلي.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
 ```
 
-يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى واحد.
+يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
 ```csharp
 Document doc = new Document();
@@ -47,22 +47,22 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-// تحرير الصورة بينما تعرضها عملية الحفظ.
+// عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+// قم بتحرير الصورة أثناء عرضها من خلال عملية الحفظ.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // يمكننا ضبط هذه الخصائص لتغيير سطوع الصورة وتباينها.
-    // كلاهما على مقياس 0-1 وهما 0.5 افتراضيًا.
+    // كلاهما على مقياس من 0 إلى 1 ويكونا عند 0.5 بشكل افتراضي.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 
-    // يمكننا ضبط الدقة الأفقية والعمودية بهذه الخصائص.
+    // يمكننا ضبط الدقة الأفقية والرأسية باستخدام هذه الخصائص.
     // سيؤثر هذا على أبعاد الصورة.
-    // القيمة الافتراضية لهذه الخصائص هي 96.0 ، لدقة 96 نقطة في البوصة.
+    // القيمة الافتراضية لهذه الخصائص هي 96.0، بدقة 96 نقطة في البوصة.
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // يمكننا قياس الصورة باستخدام هذه الخاصية. القيمة الافتراضية هي 1.0 للقياس بنسبة 100٪.
+    // يمكننا تغيير حجم الصورة باستخدام هذه الخاصية. القيمة الافتراضية هي 1.0، للقياس بنسبة 100%.
     // يمكننا استخدام هذه الخاصية لإلغاء أي تغييرات في أبعاد الصورة قد يسببها تغيير الدقة.
     Scale = 96f / 72f
 };

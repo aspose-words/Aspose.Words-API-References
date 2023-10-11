@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfCell
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملفCell  خطأ بخلاف ذلك.
+description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في أCell  كاذبة خلاف ذلك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property
 
-صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف[`Cell`](../../../aspose.words.tables/cell/) ؛ خطأ بخلاف ذلك.
+صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في أ[`Cell`](../../../aspose.words.tables/cell/) ; كاذبة خلاف ذلك.
 
 ```csharp
 public bool IsEndOfCell { get; }
@@ -22,8 +22,8 @@ public bool IsEndOfCell { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تمكين KeepWithNext لكل فقرة في الجدول باستثناء ملف
-// الأخيرة في الصف الأخير ستمنع الجدول من الانقسام عبر صفحات متعددة.
+// تمكين KeepWithNext لكل فقرة في الجدول باستثناء فقرة
+// آخر العناصر الموجودة في الصف الأخير ستمنع تقسيم الجدول عبر صفحات متعددة.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

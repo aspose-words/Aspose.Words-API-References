@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsInCell
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة تابعة مباشرة لـCell  خطأ بخلاف ذلك.
+description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة فرعًا مباشرًا لـCell  كاذبة خلاف ذلك.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/paragraph/isincell/
 ---
 ## Paragraph.IsInCell property
 
-صحيح إذا كانت هذه الفقرة تابعة مباشرة لـ[`Cell`](../../../aspose.words.tables/cell/) ؛ خطأ بخلاف ذلك.
+صحيح إذا كانت هذه الفقرة فرعًا مباشرًا لـ[`Cell`](../../../aspose.words.tables/cell/) ; كاذبة خلاف ذلك.
 
 ```csharp
 public bool IsInCell { get; }
@@ -22,8 +22,8 @@ public bool IsInCell { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تمكين KeepWithNext لكل فقرة في الجدول باستثناء ملف
-// الأخيرة في الصف الأخير ستمنع الجدول من الانقسام عبر صفحات متعددة.
+// تمكين KeepWithNext لكل فقرة في الجدول باستثناء فقرة
+// آخر العناصر الموجودة في الصف الأخير ستمنع تقسيم الجدول عبر صفحات متعددة.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

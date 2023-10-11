@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParentStory
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. استرداد القصة الأصلية على مستوى القسم التي يمكن أن تكونBody أوHeaderFooter .
+description: Paragraph ملكية. يسترد القصة على مستوى القسم الأصلي التي يمكن أن تكونBody أوHeaderFooter .
 type: docs
 weight: 210
 url: /ar/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-استرداد القصة الأصلية على مستوى القسم التي يمكن أن تكون[`Body`](../../body/) أو[`HeaderFooter`](../../headerfooter/) .
+يسترد القصة على مستوى القسم الأصلي التي يمكن أن تكون[`Body`](../../body/) أو[`HeaderFooter`](../../headerfooter/) .
 
 ```csharp
 public Story ParentStory { get; }
@@ -21,8 +21,8 @@ public Story ParentStory { get; }
 ```csharp
 Document doc = new Document();
 
-// إنشاء رأس وإلحاق فقرة به. النص في تلك الفقرة
-// في أعلى كل صفحة من هذا القسم ، فوق النص الأساسي الرئيسي.
+// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
+// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -31,8 +31,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// إنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// في أسفل كل صفحة من هذا القسم ، أسفل النص الأساسي الرئيسي.
+// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
+// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

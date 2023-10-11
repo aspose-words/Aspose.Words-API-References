@@ -16,13 +16,13 @@ public string FieldName { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام حقول MERGEFIELD لإجراء دمج المراسلات.
+يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج المراسلات.
+// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج المراسلات.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -30,7 +30,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// أدخل MERGEFIELD مع تعيين خاصية FieldName إلى اسم عمود في مصدر البيانات.
+// قم بإدراج MERGEFIELD مع تعيين خاصية FieldName على اسم عمود في مصدر البيانات.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;

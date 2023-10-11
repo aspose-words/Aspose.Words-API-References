@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPosition الملكية .
+description: FrameFormat ملكية. يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPosition الملكية.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](../relativeverticalposition/) الملكية .
+يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](../relativeverticalposition/) الملكية.
 
 ```csharp
 public double VerticalPosition { get; }
@@ -16,7 +16,7 @@ public double VerticalPosition { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseFELayout
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تتجاوز كود تخطيط البرنامج النصي المعقد لشرق آسيا.
+description: CompatibilityOptions ملكية. لا تتجاوز كود تخطيط البرنامج النصي المعقد/شرق آسيا.
 type: docs
 weight: 620
 url: /ar/net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property
 
-لا تتجاوز كود تخطيط البرنامج النصي المعقد لشرق آسيا.
+لا تتجاوز كود تخطيط البرنامج النصي المعقد/شرق آسيا.
 
 ```csharp
 public bool UseFELayout { get; set; }

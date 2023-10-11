@@ -1,14 +1,14 @@
 ---
 title: Interface IFontSavingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IFontSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words الخطوط عند تصدير مستند إلى تنسيق HTML .
+description: Aspose.Words.Saving.IFontSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ الخطوط عند تصدير مستند إلى تنسيق HTML.
 type: docs
-weight: 4900
+weight: 5160
 url: /ar/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words الخطوط عند تصدير مستند إلى تنسيق HTML .
+قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ الخطوط عند تصدير مستند إلى تنسيق HTML.
 
 ```csharp
 public interface IFontSavingCallback
@@ -18,25 +18,26 @@ public interface IFontSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | يتم الاتصال به عندما يكون Aspose.Words على وشك حفظ مورد الخط. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ مورد الخط. |
 
 ### أمثلة
 
-يوضح كيفية تحديد منطق مخصص لتصدير الخطوط عند الحفظ بتنسيق HTML.
+يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // تكوين كائن SaveOptions لتصدير الخطوط إلى ملفات منفصلة.
-    // تعيين رد اتصال يعالج حفظ الخط بطريقة مخصصة.
+    // قم بتعيين رد اتصال يتعامل مع حفظ الخط بطريقة مخصصة.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // ستصدر رد النداء ملفات .ttf وحفظها بجانب المستند الناتج.
+    // سيقوم رد الاتصال بتصدير ملفات .ttf وحفظها بجانب المستند الناتج.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -44,8 +45,10 @@ public interface IFontSavingCallback
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل إخراجها .html.
+/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل مخرجاتها .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,11 +65,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // هناك طريقتان لحفظ الخط الذي تم تصديره.
-        // 1 - احفظه في موقع نظام ملفات محلي:
+        // هناك طريقتان لحفظ الخط المُصدَّر.
+        // 1 - احفظه في موقع نظام الملفات المحلي:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - احفظه في دفق:
+        // 2 - احفظه في الدفق:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

@@ -1,14 +1,14 @@
 ---
 title: Shape.StrokeWeight
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد سماكة الفرشاة التي تضرب مسار الشكل بالنقاط.
+description: Shape ملكية. يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
 
-يحدد سماكة الفرشاة التي تضرب مسار الشكل بالنقاط.
+يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط.
 
 ```csharp
 public double StrokeWeight { get; set; }
@@ -16,15 +16,16 @@ public double StrokeWeight { get; set; }
 
 ### ملاحظات
 
-هذا هو اختصار لملف[`Weight`](../../stroke/weight/) منشأه.
+هذا اختصار لل[`Weight`](../../stroke/weight/) ملكية.
 
 القيمة الافتراضية هي 0.75.
 
 ### أمثلة
 
-يوضح كيفية التكرار على كل الأشكال في المستند.
+يوضح كيفية التكرار على كافة الأشكال في المستند.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// تلحق سطرًا بـ StringBuilder بحرف جدولة واحد مضاف مسبقًا لكل مستوى مسافة بادئة.
+    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -112,7 +113,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -123,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

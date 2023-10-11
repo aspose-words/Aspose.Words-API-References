@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.PdfImageCompression تعداد. يحدد نوع الضغط المطبق على الصور في ملف PDF.
 type: docs
-weight: 5210
+weight: 5490
 url: /ar/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -18,8 +18,8 @@ public enum PdfImageCompression
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | تحديد الضغط الأنسب تلقائيًا لكل صورة. |
-| Jpeg | `1` | ضغط Jpeg . لا يدعم الشفافية . |
+| Auto | `0` | يقوم تلقائيًا بتحديد الضغط الأنسب لكل صورة. |
+| Jpeg | `1` | ضغط Jpeg. لا يدعم الشفافية. |
 
 ### أمثلة
 
@@ -35,17 +35,17 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// اضبط خاصية "ImageCompression" على "PdfImageCompression.Auto" لاستخدام ملف
-// "ImageCompression" للتحكم في جودة صور Jpeg التي تنتهي في ملف PDF الناتج.
-// اضبط خاصية "ImageCompression" على "PdfImageCompression.Jpeg" لاستخدام ملف
-// خاصية ImageCompression للتحكم في جودة كل الصور التي تنتهي في ملف PDF الناتج.
+// اضبط خاصية "ImageCompression" على "PdfImageCompression.Auto" لاستخدامها
+// خاصية "ImageCompression" للتحكم في جودة صور Jpeg التي تنتهي في ملف PDF الناتج.
+// اضبط خاصية "ImageCompression" على "PdfImageCompression.Jpeg" لاستخدامها
+// خاصية "ImageCompression" للتحكم في جودة جميع الصور التي تنتهي في ملف PDF الناتج.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 
-// اضبط خاصية "JpegQuality" على "10" لتقوية الضغط على حساب جودة الصورة.
+// اضبط خاصية "JpegQuality" على "10" لتعزيز الضغط على حساب جودة الصورة.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

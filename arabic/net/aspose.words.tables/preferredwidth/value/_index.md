@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Value
 second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth ملكية. الحصول على قيمة العرض المفضلة. يتم تحديد وحدة القياس فيType الملكية .
+description: PreferredWidth ملكية. يحصل على قيمة العرض المفضلة. وحدة القياس محددة فيType الملكية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-الحصول على قيمة العرض المفضلة. يتم تحديد وحدة القياس في[`Type`](../type/) الملكية .
+يحصل على قيمة العرض المفضلة. وحدة القياس محددة في[`Type`](../type/) الملكية.
 
 ```csharp
 public double Value { get; }

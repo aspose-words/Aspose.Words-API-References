@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.AllowComments
 second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على أو تعيين قيمة تشير إلى أن الموقّع يمكنه إضافة تعليقات في مربع حوار التوقيع . القيمة الافتراضية لهذه الخاصية هي خاطئة .
+description: SignatureLineOptions ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-الحصول على أو تعيين قيمة تشير إلى أن الموقّع يمكنه إضافة تعليقات في مربع حوار التوقيع . القيمة الافتراضية لهذه الخاصية هي **خاطئة** .
+الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار "تسجيل" أو تعيينها. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -16,7 +16,7 @@ public bool AllowComments { get; set; }
 
 ### أمثلة
 
-يوضح كيفية توقيع مستند بشهادة شخصية وسطر توقيع.
+يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ ، وتحقق من أن خصائص "IsSigned" و "IsValid" تساوي "true" ،
+// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

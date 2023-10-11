@@ -3,12 +3,14 @@ title: Class BookmarkCollection
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.BookmarkCollection فصل. مجموعة منBookmark الكائنات التي تمثل الإشارات المرجعية في النطاق المحدد.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 مجموعة من[`Bookmark`](../bookmark/) الكائنات التي تمثل الإشارات المرجعية في النطاق المحدد.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الإشارات المرجعية](https://docs.aspose.com/words/net/working-with-bookmarks/) مقالة توثيقية.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -19,17 +21,17 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words/bookmarkcollection/count/) { get; } | إرجاع عدد الإشارات المرجعية في المجموعة. |
-| [Item](../../aspose.words/bookmarkcollection/item/) { get; } | إرجاع إشارة مرجعية بالفهرس المحدد. (2 indexers) |
+| [Item](../../aspose.words/bookmarkcollection/item/) { get; } | إرجاع إشارة مرجعية في الفهرس المحدد. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clear](../../aspose.words/bookmarkcollection/clear/)() | يزيل كافة الإشارات المرجعية من هذه المجموعة ومن المستند. |
-| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | إرجاع كائن العداد . |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | يزيل الإشارة المرجعية المحددة من المستند. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | يزيل إشارة مرجعية بالاسم المحدد. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | يزيل إشارة مرجعية في الفهرس المحدد . |
+| [Clear](../../aspose.words/bookmarkcollection/clear/)() | إزالة كافة الإشارات المرجعية من هذه المجموعة ومن المستند. |
+| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | يُرجع كائن العداد. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | إزالة الإشارة المرجعية المحددة من المستند. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | إزالة إشارة مرجعية بالاسم المحدد. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | إزالة الإشارة المرجعية في الفهرس المحدد. |
 
 ### أمثلة
 
@@ -38,22 +40,21 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا بثلاث إشارات مرجعية ، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
+    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية بالفهرس أو الاسم ، ويمكن تحديث أسمائها.
+    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // طباعة جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
+    // اطبع جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// أنشئ مستندًا بعدد معين من الإشارات المرجعية.
+/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -75,7 +76,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم مكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -100,7 +101,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

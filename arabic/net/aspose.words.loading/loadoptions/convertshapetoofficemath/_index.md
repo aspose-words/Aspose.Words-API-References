@@ -21,7 +21,7 @@ public bool ConvertShapeToOfficeMath { get; set; }
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 
-// استخدم هذه العلامة لتحديد ما إذا كنت تريد تحويل الأشكال بسمات EquationXML
+// استخدم هذه العلامة لتحديد ما إذا كان سيتم تحويل الأشكال باستخدام سمات EquationXML
 // إلى كائنات Office Math ثم قم بتحميل المستند.
 loadOptions.ConvertShapeToOfficeMath = isConvertShapeToOfficeMath;
 

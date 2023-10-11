@@ -1,14 +1,14 @@
 ---
 title: IDocumentLoadingCallback.Notify
 second_title: Aspose.Words لمراجع .NET API
-description: IDocumentLoadingCallback طريقة. يتم استدعاء هذا لإخطار تقدم تحميل المستند.
+description: IDocumentLoadingCallback طريقة. يتم استدعاؤه للإخطار بتقدم تحميل المستند.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-يتم استدعاء هذا لإخطار تقدم تحميل المستند.
+يتم استدعاؤه للإخطار بتقدم تحميل المستند.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -20,16 +20,15 @@ public void Notify(DocumentLoadingArgs args)
 
 ### ملاحظات
 
-الاستخدامات الأساسية لهذه الواجهة هي السماح لكود التطبيق بالحصول على حالة التقدم وإحباط عملية التحميل.
+الاستخدامات الأساسية لهذه الواجهة هي السماح لرمز التطبيق بالحصول على حالة التقدم وإلغاء عملية التحميل.
 
-يجب طرح استثناء من رد نداء التقدم للإجهاض ويجب أن يتم تسجيله في كود المستهلك.
+يجب طرح استثناء من رد اتصال التقدم للإجهاض ويجب اكتشافه في كود المستهلك.
 
 ### أمثلة
 
 يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -44,17 +43,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // معالجة مشكلة مدة التحميل.
+        // التعامل مع مشكلة مدة التحميل.
     }
 }
 
 /// <summary>
-/// إلغاء تحميل مستند بعد ثوان "MaxDuration".
+/// قم بإلغاء تحميل مستند بعد ثواني "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// تحكم.
+    /// نسبة مئوية.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -62,9 +61,9 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي تم استدعاؤها أثناء تحميل المستند.
+    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء تحميل المستند.
     /// </summary>
-    /// < param name = "args" > تحميل الوسائط. < / param >
+    /// <param name="args">جاري تحميل الوسائط.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -75,12 +74,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// تاريخ ووقت بدء تحميل المستند.
+    /// التاريخ والوقت الذي يبدأ فيه تحميل المستند.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// أقصى مدة مسموح بها بالثانية.
+    /// الحد الأقصى للمدة المسموح بها بالثواني.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.LineWidth
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على أو تحديد عرض الحد بالنقاط .
+description: BorderCollection ملكية. الحصول على أو تعيين عرض الحدود بالنقاط.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/bordercollection/linewidth/
 ---
 ## BorderCollection.LineWidth property
 
-الحصول على أو تحديد عرض الحد بالنقاط .
+الحصول على أو تعيين عرض الحدود بالنقاط.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -16,13 +16,13 @@ public double LineWidth { get; set; }
 
 ### ملاحظات
 
-ترجع عرض الحد الأول في المجموعة.
+إرجاع عرض الحد الأول في المجموعة.
 
-يضبط عرض كل الحدود في المجموعة باستثناء الحدود القطرية.
+يضبط عرض كافة الحدود في المجموعة باستثناء الحدود القطرية.
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

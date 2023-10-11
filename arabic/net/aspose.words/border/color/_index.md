@@ -1,14 +1,14 @@
 ---
 title: Border.Color
 second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على لون الحد أو تعيينه .
+description: Border ملكية. الحصول على لون الحدود أو تعيينه.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/border/color/
 ---
 ## Border.Color property
 
-الحصول على لون الحد أو تعيينه .
+الحصول على لون الحدود أو تعيينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في المستند.
+يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
 ```csharp
 Document doc = new Document();

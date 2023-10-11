@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: MarkdownSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ المستند في Markdown التنسيق .
+description: MarkdownSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-يسمح بالتحكم في كيفية حفظ الصور عند حفظ المستند في Markdown التنسيق .
+يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -19,17 +19,18 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 يوضح كيفية إعادة تسمية اسم الصورة أثناء الحفظ في مستند Markdown.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown ، فسننتهي بملف Markdown واحد يرتبط بعدة صور.
-    // ستكون كل صورة في شكل ملف في نظام الملفات المحلي.
-    // يوجد أيضًا رد اتصال يمكنه تخصيص اسم وموقع نظام الملفات لكل صورة.
+    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown، فسنحصل في النهاية على ملف Markdown واحد يرتبط بعدة صور.
+    // ستكون كل صورة على شكل ملف في نظام الملفات المحلي.
+    // يوجد أيضًا رد اتصال يمكنه تخصيص الاسم وموقع نظام الملفات لكل صورة.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
-    // سيتم تشغيل طريقة ImageSaving () لرد الاتصال لدينا في هذا الوقت.
+    // سيتم تشغيل طريقة ImageSaving () لرد الاتصال الخاص بنا في هذا الوقت.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -43,7 +44,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 }
 
 /// <summary>
-/// يعيد تسمية الصور المحفوظة التي تم إنتاجها عند حفظ مستند Markdown.
+/// إعادة تسمية الصور المحفوظة التي يتم إنتاجها عند حفظ مستند Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

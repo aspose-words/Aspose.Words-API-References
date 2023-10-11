@@ -1,14 +1,14 @@
 ---
 title: Paragraph.GetText
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. يحصل على نص هذه الفقرة متضمنًا حرف نهاية الفقرة.
+description: Paragraph طريقة. الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة.
 type: docs
-weight: 260
+weight: 280
 url: /ar/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
 
-يحصل على نص هذه الفقرة متضمنًا حرف نهاية الفقرة.
+الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة.
 
 ```csharp
 public override string GetText()
@@ -16,41 +16,41 @@ public override string GetText()
 
 ### ملاحظات
 
-يتم تسلسل نص جميع العقد الفرعية ويتم إلحاق حرف نهاية الفقرة على النحو التالي:
+يتم ربط نص جميع العقد الفرعية ويتم إلحاق حرف نهاية الفقرة على النحو التالي:
 
-* إذا كانت الفقرة هي الفقرة الأخيرة من[`Body`](../../body/) ، then [`ControlChar.SectionBreak`](../../controlchar/sectionbreak/) (\ x000c) ملحق.
-* إذا كانت الفقرة هي الفقرة الأخيرة من[`Cell`](../../../aspose.words.tables/cell/) ، then [`ControlChar.Cell`](../../controlchar/cell/) (\ x0007) ملحق.
-* لجميع الفقرات الأخرى [`ControlChar.ParagraphBreak`](../../controlchar/paragraphbreak/) (\ r) مرفق.
+* إذا كانت الفقرة هي الفقرة الأخيرة من[`Body`](../../body/) ، ثم [`SectionBreak`](../../controlchar/sectionbreak/) تم إلحاق (\x000c).
+* إذا كانت الفقرة هي الفقرة الأخيرة من[`Cell`](../../../aspose.words.tables/cell/) ، ثم [`Cell`](../../controlchar/cell/) تم إلحاق (\x0007).
+* لجميع الفقرات الأخرى [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) تم إلحاقه.
 
-تتضمن السلسلة التي تم إرجاعها كل عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
+تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
 ### أمثلة
 
-يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة العناصر الفرعية الخاصة بالعقدة المركبة.
+يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة CompositeNode الفرعية.
 
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ ، افتراضيًا ، على فقرة واحدة.
+// يحتوي المستند الفارغ افتراضيًا على فقرة واحدة.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// يمكن أن تحتوي العقد المركبة مثل فقرتنا على عقد مركبة ومضمنة أخرى مثل الأطفال.
+// العقد المركبة مثل فقرتنا يمكن أن تحتوي على عقد مركبة ومضمنة أخرى كأبناء.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// إنشاء ثلاث عقد تشغيل أخرى.
+// أنشئ ثلاث عقد تشغيل أخرى.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// لن يعرض نص المستند عمليات التشغيل هذه حتى نقوم بإدخالها في عقدة مركبة
-// هذا بحد ذاته جزء من شجرة عقدة المستند ، كما فعلنا مع التشغيل الأول.
-// يمكننا تحديد مكان محتويات نص العقد التي ندرجها
-// في المستند عن طريق تحديد موقع الإدراج المتعلق بعقدة أخرى في الفقرة.
+// لن يعرض نص المستند عمليات التشغيل هذه حتى نقوم بإدراجها في عقدة مركبة
+// الذي يعد في حد ذاته جزءًا من شجرة عقدة المستند، كما فعلنا مع التشغيل الأول.
+// يمكننا تحديد مكان محتويات النص للعقد التي نقوم بإدراجها
+// يظهر في المستند عن طريق تحديد موقع الإدراج بالنسبة لعقدة أخرى في الفقرة.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// أدخل المدى الثاني في الفقرة أمام التشغيل الأولي.
+// أدخل التشغيل الثاني في الفقرة الموجودة أمام التشغيل الأولي.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());

@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection.Add
 second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة .
+description: OdsoFieldMapDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/add/
 ---
 ## OdsoFieldMapDataCollection.Add method
 
-إضافة كائن إلى نهاية هذه المجموعة .
+إضافة كائن إلى نهاية هذه المجموعة.
 
 ```csharp
 public int Add(OdsoFieldMapData value)
@@ -16,17 +16,17 @@ public int Add(OdsoFieldMapData value)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| value | OdsoFieldMapData | الكائن المراد إضافته. لا يمكن أن تكون لاغية. |
+| value | OdsoFieldMapData | الكائن المراد إضافته. لا يمكن`باطل`. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تعين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيف سيقوم دمج البريد بتعيين أعمدة من مصدر بيانات
-// إلى حقول MERGEFIELD و ADDRESSBLOCK و GREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
+// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -44,15 +44,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر في هذه المجموعة.
+// استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر طريقة "RemoveAt" بشكل فردي عن طريق الفهرس.
+// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
+// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

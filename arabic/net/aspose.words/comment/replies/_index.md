@@ -1,14 +1,14 @@
 ---
 title: Comment.Replies
 second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاع مجموعة منComment الكائنات التي هي تابعة مباشرة للتعليق المحدد.
+description: Comment ملكية. إرجاع مجموعة منComment الكائنات التي تعتبر أبناء مباشرين للتعليق المحدد.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-إرجاع مجموعة من[`Comment`](../) الكائنات التي هي تابعة مباشرة للتعليق المحدد.
+إرجاع مجموعة من[`Comment`](../) الكائنات التي تعتبر أبناء مباشرين للتعليق المحدد.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -16,15 +16,14 @@ public CommentCollection Replies { get; }
 
 ### أمثلة
 
-يوضح كيفية طباعة كافة تعليقات المستند وردودهم.
+يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// إذا لم يكن للتعليق أصل ، فهو تعليق من "المستوى الأعلى" بدلاً من تعليق من نوع الرد.
-// طباعة جميع تعليقات المستوى الأعلى مع أي ردود قد تكون لديهم.
+// إذا لم يكن للتعليق أصل، فهو تعليق "المستوى الأعلى" وليس تعليقًا من نوع الرد.
+// اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

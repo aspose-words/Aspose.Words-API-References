@@ -16,21 +16,20 @@ public string Author { get; set; }
 
 ### ملاحظات
 
-لا يمكن أن تكون لاغية.
+لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
 ### أمثلة
 
-يوضح كيفية طباعة كافة تعليقات المستند وردودهم.
+يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// إذا لم يكن للتعليق أصل ، فهو تعليق من "المستوى الأعلى" بدلاً من تعليق من نوع الرد.
-// طباعة جميع تعليقات المستوى الأعلى مع أي ردود قد تكون لديهم.
+// إذا لم يكن للتعليق أصل، فهو تعليق "المستوى الأعلى" وليس تعليقًا من نوع الرد.
+// اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

@@ -1,14 +1,16 @@
 ---
 title: Class FontInfoSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule فصل. قاعدة استبدال معلومات الخط .
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule فصل. قاعدة استبدال معلومات الخط.
 type: docs
-weight: 2760
+weight: 2940
 url: /ar/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
-قاعدة استبدال معلومات الخط .
+قاعدة استبدال معلومات الخط.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
@@ -18,34 +20,36 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 | اسم | وصف |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
 ### ملاحظات
 
-وفقًا لهذه القاعدة ، تقوم Aspose.Words بتقييم جميع الحقول ذات الصلة في[`FontInfo`](../fontinfo/) (Panose ، Sig ، إلخ) for الخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. إذا[`FontInfo`](../fontinfo/) is not متاحًا للخط المفقود ، فلن يتم فعل أي شيء.
+وفقًا لهذه القاعدة، يقوم Aspose.Words بتقييم جميع الحقول ذات الصلة فيها[`FontInfo`](../fontinfo/) (Panose، Sig، إلخ) for الخط المفقود ويبحث عن أقرب تطابق بين مصادر الخطوط المتاحة. لو[`FontInfo`](../fontinfo/)غير متوفر للخط المفقود، فلن يتم فعل أي شيء.
 
 ### أمثلة
 
-يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخط المتاحة.
+يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // تعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // سنحصل على تحذير بشأن استبدال الخط إذا حفظنا مستندًا بخط مفقود.
+    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -67,7 +71,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

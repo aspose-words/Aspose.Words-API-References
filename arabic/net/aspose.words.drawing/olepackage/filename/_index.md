@@ -16,15 +16,15 @@ public string FileName { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج كائن OLE في مستند.
+يوضح كيفية إدراج كائن OLE في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // تسمح لنا كائنات OLE بفتح ملفات أخرى في نظام الملفات المحلي باستخدام تطبيق آخر مثبت
-// في نظام التشغيل لدينا عن طريق النقر المزدوج على الشكل الذي يحتوي على كائن OLE في نص المستند.
-// في هذه الحالة ، سيكون ملفنا الخارجي عبارة عن أرشيف بتنسيق ZIP.
+// في نظام التشغيل الخاص بنا عن طريق النقر المزدوج على الشكل الذي يحتوي على كائن OLE في نص المستند.
+// في هذه الحالة، سيكون ملفنا الخارجي عبارة عن أرشيف مضغوط بتنسيق ZIP.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

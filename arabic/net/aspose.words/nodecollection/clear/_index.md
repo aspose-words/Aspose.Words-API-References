@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.Clear
 second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. يزيل كافة العقد من هذه المجموعة ومن المستند.
+description: NodeCollection طريقة. إزالة كافة العقد من هذه المجموعة ومن المستند.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/nodecollection/clear/
 ---
 ## NodeCollection.Clear method
 
-يزيل كافة العقد من هذه المجموعة ومن المستند.
+إزالة كافة العقد من هذه المجموعة ومن المستند.
 
 ```csharp
 public void Clear()
@@ -16,7 +16,7 @@ public void Clear()
 
 ### أمثلة
 
-يوضح كيفية إزالة كافة الأقسام من المستند.
+يوضح كيفية إزالة جميع الأقسام من المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,7 +26,7 @@ Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// امسح مجموعة الأقسام ، والتي ستزيل جميع توابع المستند.
+// امسح مجموعة الأقسام، مما سيؤدي إلى إزالة كافة العناصر الفرعية للمستند.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

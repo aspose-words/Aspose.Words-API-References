@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Aspose.Words لمراجع .NET API
-description: ImageWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية . القيمة الافتراضية هي True .
+description: ImageWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هيحقيقي .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية . القيمة الافتراضية هي True .
+الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -21,8 +21,8 @@ public bool IsWashout { get; set; }
 ```csharp
 Document doc = new Document();
 
-            // قم بتعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions ،
-            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم قم بتمريرها أثناء إنشاء علامة مائية من ملف صورة.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

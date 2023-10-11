@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. نقل المؤشر إلى بداية رأس أو تذييل في القسم الحالي.
+description: DocumentBuilder طريقة. ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي.
 type: docs
-weight: 520
+weight: 550
 url: /ar/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-نقل المؤشر إلى بداية رأس أو تذييل في القسم الحالي.
+ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -20,11 +20,11 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### ملاحظات
 
-بعد نقل المؤشر إلى رأس أو تذييل الصفحة ، يمكنك استخدام باقي أساليب DocumentBuilder لتعديل محتويات الرأس أو التذييل.
+بعد نقل المؤشر إلى رأس أو تذييل الصفحة، يمكنك استخدام بقية[`DocumentBuilder`](../) طرق لتعديل محتويات الرأس أو التذييل.
 
-إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحة الأولى ، فأنت بحاجة إلى ضبط[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحة الأولى، فأنت بحاجة إلى لتعيينها[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-إذا كنت ترغب في إنشاء رؤوس وتذييلات مختلفة للصفحات الفردية والزوجية ، فأنت بحاجة إلى تعيين [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحات الزوجية والفردية، فأنت بحاجة إلى لتعيينها[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
 يستخدم[`MoveToSection`](../movetosection/) للانتقال من الرأس إلى النص الرئيسي.
 
@@ -43,7 +43,7 @@ Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// ضع الصورة في منتصف الصفحة.
+// ضع الصورة في وسط الصفحة.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -68,7 +68,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // ضع الصورة في منتصف الصفحة.
+    // ضع الصورة في وسط الصفحة.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -84,11 +84,11 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد أننا نريد رؤوس وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
+// حدد أننا نريد رؤوسًا وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس ، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

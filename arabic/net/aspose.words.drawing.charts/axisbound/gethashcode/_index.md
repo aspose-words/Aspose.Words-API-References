@@ -1,14 +1,14 @@
 ---
 title: AxisBound.GetHashCode
 second_title: Aspose.Words لمراجع .NET API
-description: AxisBound طريقة. يعمل كدالة تجزئة لهذا النوع.
+description: AxisBound طريقة. بمثابة وظيفة تجزئة لهذا النوع.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/axisbound/gethashcode/
 ---
 ## AxisBound.GetHashCode method
 
-يعمل كدالة تجزئة لهذا النوع.
+بمثابة وظيفة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()

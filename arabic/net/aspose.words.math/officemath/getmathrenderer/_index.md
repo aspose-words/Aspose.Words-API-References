@@ -3,7 +3,7 @@ title: OfficeMath.GetMathRenderer
 second_title: Aspose.Words لمراجع .NET API
 description: OfficeMath طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذه المعادلة إلى صورة.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -20,22 +20,22 @@ public OfficeMathRenderer GetMathRenderer()
 
 ### ملاحظات
 
-تستدعي هذه الطريقة فقط[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/)المُنشئ ويمرر هذا الكائن كمعامل.
+هذه الطريقة تستدعي فقط[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) منشئ ويمرر هذا الكائن كمعلمة.
 
 ### أمثلة
 
-يوضح كيفية تحويل كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
+يوضح كيفية تقديم كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// قم بإنشاء كائن "ImageSaveOptions" لتمريره إلى طريقة "Save" لتعديل طريقة عرض العقدة
-// كيف يعرض عقدة OfficeMath في صورة.
+// قم بإنشاء كائن "ImageSaveOptions" لتمريره إلى طريقة "حفظ" عارض العقدة لتعديله
+// كيفية تحويل عقدة OfficeMath إلى صورة.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// اضبط خاصية "Scale" على 5 لجعل الكائن خمسة أضعاف حجمه الأصلي.
+// اضبط خاصية "Scale" على 5 لجعل الكائن يصل إلى خمسة أضعاف حجمه الأصلي.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);

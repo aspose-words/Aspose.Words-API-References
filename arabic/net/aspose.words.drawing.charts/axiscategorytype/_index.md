@@ -1,14 +1,14 @@
 ---
 title: Enum AxisCategoryType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisCategoryType تعداد. يحدد نوع محور الفئة .
+description: Aspose.Words.Drawing.Charts.AxisCategoryType تعداد. يحدد نوع محور الفئة.
 type: docs
-weight: 520
+weight: 530
 url: /ar/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-يحدد نوع محور الفئة .
+يحدد نوع محور الفئة.
 
 ```csharp
 public enum AxisCategoryType
@@ -18,9 +18,9 @@ public enum AxisCategoryType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Automatic | `0` | يحدد هذا النوع من محور الفئة الذي يتم تحديده تلقائيًا استنادًا إلى البيانات. |
-| Category | `1` | يحدد محورًا لمجموعة عشوائية من الفئات. |
-| Time | `2` | يحدد محور فئة الوقت . |
+| Automatic | `0` | يحدد أن نوع محور الفئة يتم تحديده تلقائيًا بناءً على البيانات. |
+| Category | `1` | يحدد محور مجموعة عشوائية من الفئات. |
+| Time | `2` | يحدد محور الفئة الزمنية. |
 
 ### أمثلة
 
@@ -33,16 +33,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخطط بفئات للمحور السيني والقيم الرقمية ذات الصلة للمحور ص.
+// قم بإدراج سلسلة مخططات تحتوي على فئات للمحور X والقيم الرقمية المعنية للمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// محاور المخطط لها خيارات متنوعة يمكن أن تغير مظهرها ،
-// مثل اتجاههم ، وعلامات الوحدة الرئيسية / الثانوية ، وعلامات التجزئة.
+// تحتوي محاور المخطط على خيارات متعددة يمكنها تغيير مظهرها،
+// مثل اتجاهها، وعلامات التجزئة للوحدة الرئيسية/الثانوية، وعلامات التجزئة.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

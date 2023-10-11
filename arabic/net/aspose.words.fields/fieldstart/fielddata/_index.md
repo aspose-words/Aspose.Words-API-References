@@ -1,14 +1,14 @@
 ---
 title: FieldStart.FieldData
 second_title: Aspose.Words لمراجع .NET API
-description: FieldStart ملكية. الحصول على بيانات الحقل المخصصة المرتبطة بالحقل.
+description: FieldStart ملكية. يحصل على بيانات الحقل المخصصة المرتبطة بالحقل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldstart/fielddata/
 ---
 ## FieldStart.FieldData property
 
-الحصول على بيانات الحقل المخصصة المرتبطة بالحقل.
+يحصل على بيانات الحقل المخصصة المرتبطة بالحقل.
 
 ```csharp
 public byte[] FieldData { get; }

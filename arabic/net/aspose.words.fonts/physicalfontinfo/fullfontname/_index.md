@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.FullFontName
 second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. الاسم الكامل للخط .
+description: PhysicalFontInfo ملكية. اسم الخط بالكامل.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property
 
-الاسم الكامل للخط .
+اسم الخط بالكامل.
 
 ```csharp
 public string FullFontName { get; }
@@ -19,7 +19,7 @@ public string FullFontName { get; }
 يوضح كيفية سرد الخطوط المتاحة.
 
 ```csharp
-// تكوين Aspose.Words لخطوط المصدر من مجلد مخصص ، ثم طباعة كل خط متاح.
+// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

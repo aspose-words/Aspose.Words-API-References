@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.OfficeMathOutputMode
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في كيفية تصدير كائنات OfficeMath إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيHtmlOfficeMathOutputMode.Image .
+description: HtmlSaveOptions ملكية. يتحكم في كيفية تصدير كائنات OfficeMath إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيImage .
 type: docs
 weight: 400
 url: /ar/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property
 
-يتحكم في كيفية تصدير كائنات OfficeMath إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`HtmlOfficeMathOutputMode.Image` .
+يتحكم في كيفية تصدير كائنات OfficeMath إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيImage .
 
 ```csharp
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
@@ -21,13 +21,13 @@ public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-// عندما نحفظ المستند بتنسيق HTML ، يمكننا تمرير كائن SaveOptions
-// لتحديد كيفية معالجة عملية الحفظ لكائنات OfficeMath.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Image"
-// سيعرض كل كائن OfficeMath في صورة.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.MathML"
-// سيحول كل كائن OfficeMath إلى MathML.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Text"
+// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد كيفية تعامل عملية الحفظ مع كائنات OfficeMath.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Image"
+// سوف يعرض كل كائن OfficeMath في صورة.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.MathML"
+// سيقوم بتحويل كل كائن OfficeMath إلى MathML.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Text"
 // سيمثل كل صيغة OfficeMath باستخدام نص HTML عادي.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
@@ -46,7 +46,7 @@ switch (htmlOfficeMathOutputMode)
     case HtmlOfficeMathOutputMode.MathML:
         Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:center\">" +
-                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"> " +
+                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">" +
                     "<mi>i</mi>" +
                     "<mo>[+]</mo>" +
                     "<mi>b</mi>" +

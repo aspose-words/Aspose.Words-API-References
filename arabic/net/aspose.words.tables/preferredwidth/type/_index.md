@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Type
 second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth ملكية. الحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
+description: PreferredWidth ملكية. للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-الحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
+للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
 
 ```csharp
 public PreferredWidthType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: Document.Compare
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يقارن هذا المستند بمستند آخر ينتج عنه تغييرات كعدد مراجعات التحرير والتنسيقRevision .
+description: Document طريقة. يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيقRevision .
 type: docs
-weight: 540
+weight: 580
 url: /ar/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-يقارن هذا المستند بمستند آخر ينتج عنه تغييرات كعدد مراجعات التحرير والتنسيق[`Revision`](../../revision/) .
+يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيق[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -17,15 +17,10 @@ public void Compare(Document document, string author, DateTime dateTime)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | document | Document | وثيقة للمقارنة. |
-| author | String | الأحرف الأولى من المؤلف لاستخدامها في المراجعات. |
-| dateTime | DateTime | التاريخ والوقت المراد استخدامهما للمراجعات. |
+| author | String | الأحرف الأولى من اسم المؤلف لاستخدامها في المراجعات. |
+| dateTime | DateTime | التاريخ والوقت المستخدم للمراجعات. |
 
 ### ملاحظات
-
-لا تتم مقارنة عقد المستند التالية في الوقت الحالي:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* البند 3
 
 يجب ألا تحتوي المستندات على مراجعات قبل المقارنة.
 
@@ -42,12 +37,13 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// ستؤدي مقارنة المستندات بالمراجعات إلى استثناء.
+// ستؤدي مقارنة المستندات مع المراجعات إلى حدوث استثناء.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// بعد المقارنة ، سيحصل المستند الأصلي على مراجعة جديدة
+// بعد المقارنة، سيحصل المستند الأصلي على مراجعة جديدة
 // لكل عنصر مختلف في المستند المحرر.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-مقارنة هذا المستند بمستند آخر ينتج عنه تغييرات في صورة عدد من مراجعات التحرير والتنسيق[`Revision`](../../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+يقارن هذا المستند بمستند آخر ينتج عنه تغييرات بعدد من مراجعات التحرير والتنسيق[`Revision`](../../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -77,18 +73,18 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 
 ### أمثلة
 
-يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء مقارنة.
+يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
 ```csharp
 // أنشئ المستند الأصلي واملأه بأنواع مختلفة من العناصر.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// نص فقرة مشار إليه بتعليق ختامي:
+// نص الفقرة المشار إليه بتعليق ختامي:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
-// الطاولة:
+// طاولة:
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Original cell 1 text");
@@ -110,11 +106,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// العنوان:
+// الرأس:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// قم بإنشاء نسخة من وثيقتنا وقم بإجراء تعديل سريع على كل عنصر من عناصر المستند المنسوخ.
+// أنشئ نسخة من المستند الخاص بنا وقم بإجراء تحرير سريع على كل عنصر من عناصر المستند المستنسخ.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -128,9 +124,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// تؤدي المقارنة بين المستندات إلى إنشاء مراجعة لكل تحرير في المستند المحرر.
+// تؤدي مقارنة المستندات إلى إنشاء مراجعة لكل تعديل في المستند الذي تم تحريره.
 // يحتوي كائن CompareOptions على سلسلة من العلامات التي يمكنها منع المراجعات
-// على كل نوع من العناصر ، متجاهلاً تغييرها بشكل فعال.
+// على كل نوع من العناصر، مع تجاهل التغيير بشكل فعال.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

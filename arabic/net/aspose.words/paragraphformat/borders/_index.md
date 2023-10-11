@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Borders
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على مجموعة من حدود الفقرة .
+description: ParagraphFormat ملكية. الحصول على مجموعة حدود الفقرة.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property
 
-الحصول على مجموعة من حدود الفقرة .
+الحصول على مجموعة حدود الفقرة.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -16,18 +16,20 @@ public BorderCollection Borders { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج فقرة بحد علوي.
+يوضح كيفية إدراج فقرة ذات حد علوي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// قم بتعيين ThemeColor فقط عند ضبط LineWidth أو LineStyle.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

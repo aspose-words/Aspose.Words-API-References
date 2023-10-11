@@ -1,14 +1,14 @@
 ---
 title: Fill.RotateWithObject
 second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تحديد ما إذا كانت التعبئة تدور مع الكائن المحدد.
+description: Fill ملكية. الحصول على أو تحديد ما إذا كان سيتم تدوير التعبئة مع الكائن المحدد.
 type: docs
-weight: 120
+weight: 180
 url: /ar/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
 
-الحصول على أو تحديد ما إذا كانت التعبئة تدور مع الكائن المحدد.
+الحصول على أو تحديد ما إذا كان سيتم تدوير التعبئة مع الكائن المحدد.
 
 ```csharp
 public bool RotateWithObject { get; set; }

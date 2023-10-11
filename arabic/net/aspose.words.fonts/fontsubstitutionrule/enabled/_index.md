@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionRule.Enabled
 second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionRule ملكية. يحدد ما إذا كانت القاعدة ممكّنة أم لا.
+description: FontSubstitutionRule ملكية. يحدد ما إذا كانت القاعدة مفعلة أم لا.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsubstitutionrule/enabled/
 ---
 ## FontSubstitutionRule.Enabled property
 
-يحدد ما إذا كانت القاعدة ممكّنة أم لا.
+يحدد ما إذا كانت القاعدة مفعلة أم لا.
 
 ```csharp
 public virtual bool Enabled { get; set; }
@@ -26,8 +26,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة تشغيل Windows / غير أنظمة تشغيل Windows.
-// في Windows ، إنه غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
+// على نظام التشغيل Windows، فهو غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// في Linux / Mac ، سنتمكن من الوصول إليه ، وسنكون قادرين على إجراء العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);
@@ -47,13 +47,13 @@ if (isLinuxOrMac)
 }
 ```
 
-يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخط.
+يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// بشكل افتراضي ، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
+// بشكل افتراضي، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -75,7 +75,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// تعيين خط موجود في دليل Windows Fonts كبديل لخط غير موجود.
+// قم بتعيين خط موجود في دليل خطوط Windows كبديل للخط غير الموجود.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -84,12 +84,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// بدلاً من ذلك ، يمكننا إضافة مصدر خط مجلد يحتوي فيه المجلد المقابل على الخط.
+// بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد حيث يحتوي المجلد المقابل على الخط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// لا تزال إعادة تعيين مصادر الخط تترك لنا مصدر خط النظام وكذلك البدائل.
+// إعادة تعيين مصادر الخطوط لا تزال تتركنا مع مصدر خط النظام بالإضافة إلى البدائل.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

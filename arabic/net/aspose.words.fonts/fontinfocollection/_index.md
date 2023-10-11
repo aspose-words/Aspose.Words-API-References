@@ -3,12 +3,14 @@ title: Class FontInfoCollection
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Fonts.FontInfoCollection فصل. يمثل مجموعة من الخطوط المستخدمة في المستند.
 type: docs
-weight: 2750
+weight: 2930
 url: /ar/net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
 
 يمثل مجموعة من الخطوط المستخدمة في المستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public class FontInfoCollection : IEnumerable<FontInfo>
@@ -19,23 +21,23 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.fonts/fontinfocollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. القيمة الافتراضية لهذه الخاصية هي **خاطئة**. |
-| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند أم لا عند حفظه. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
-| [Item](../../aspose.words.fonts/fontinfocollection/item/) { get; } | يحصل على خط بالاسم المحدد . (2 indexers) |
-| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. **خاطئة**. |
+| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط النظام في المستند أم لا. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع`. |
+| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند عند حفظه أم لا. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
+| [Item](../../aspose.words.fonts/fontinfocollection/item/) { get; } | الحصول على خط بالاسم المحدد. (2 indexers) |
+| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع`. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | لتحديد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد. |
-| [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد. |
+| [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
 
 ### ملاحظات
 
-العناصر[`FontInfo`](../fontinfo/) أشياء.
+العناصر هي[`FontInfo`](../fontinfo/) أشياء.
 
-لا تقوم بإنشاء نسخ من هذه الفئة مباشرة. استخدم ملف[`FontInfos`](../../aspose.words/documentbase/fontinfos/) خاصية للوصول إلى مجموعة الخطوط المحددة في المستند.
+لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم[`FontInfos`](../../aspose.words/documentbase/fontinfos/) خاصية الوصول إلى مجموعة الخطوط المحددة في المستند.
 
 ### أمثلة
 
@@ -45,7 +47,7 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// طباعة جميع الخطوط المستخدمة وغير المستخدمة في المستند.
+// اطبع جميع الخطوط المستخدمة وغير المستخدمة في المستند.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");
@@ -54,7 +56,7 @@ for (int i = 0; i < allFonts.Count; i++)
 }
 ```
 
-يوضح كيفية حفظ مستند بخطوط TrueType المضمنة.
+يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

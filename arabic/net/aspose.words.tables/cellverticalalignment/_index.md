@@ -1,14 +1,14 @@
 ---
 title: Enum CellVerticalAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.CellVerticalAlignment تعداد. تحديد الضبط الرأسي للنص داخل خلية جدول.
+description: Aspose.Words.Tables.CellVerticalAlignment تعداد. يحدد الضبط الرأسي للنص داخل خلية الجدول.
 type: docs
-weight: 5980
+weight: 6280
 url: /ar/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
 
-تحديد الضبط الرأسي للنص داخل خلية جدول.
+يحدد الضبط الرأسي للنص داخل خلية الجدول.
 
 ```csharp
 public enum CellVerticalAlignment
@@ -18,13 +18,13 @@ public enum CellVerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Top | `0` | تمت محاذاة النص أعلى الخلية. |
-| Center | `1` | تمت محاذاة النص في منتصف الخلية. |
-| Bottom | `2` | تمت محاذاة النص أسفل الخلية. |
+| Top | `0` | تتم محاذاة النص في أعلى الخلية. |
+| Center | `1` | تتم محاذاة النص في منتصف الخلية. |
+| Bottom | `2` | تتم محاذاة النص في أسفل الخلية. |
 
 ### أمثلة
 
-يوضح كيفية إنشاء جدول منسق بحجم 2 × 2.
+يوضح كيفية إنشاء جدول منسق 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء بناء الجدول ، سيقوم منشئ الوثيقة بتطبيق قيم خاصية RowFormat / CellFormat الحالية
-// إلى الصف / الخلية الحالية التي يوجد بها المؤشر وأي صفوف / خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
+// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات في تنسيق المنشئ.
+// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات التي تطرأ على تنسيق المنشئ.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

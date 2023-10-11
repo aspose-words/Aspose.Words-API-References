@@ -3,7 +3,7 @@ title: CellFormat.PreferredWidth
 second_title: Aspose.Words لمراجع .NET API
 description: CellFormat ملكية. إرجاع أو تعيين العرض المفضل للخلية.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -16,11 +16,11 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### ملاحظات
 
-يحدد العرض المفضل (جنبًا إلى جنب مع خيار الملاءمة التلقائية للجدول) كيفية حساب العرض الفعلي للخلية بواسطة خوارزمية تخطيط الجدول. يمكن تنفيذ تخطيط الجدول بواسطة Aspose.Words عندما يحفظ المستند أو بواسطة Microsoft Word عندما يعرض المستند.
+يحدد العرض المفضل (مع خيار الاحتواء التلقائي للجدول) كيفية حساب عرض الفعلي للخلية بواسطة خوارزمية تخطيط الجدول. يمكن تنفيذ تخطيط الجدول بواسطة Aspose.Words عندما يحفظ المستند أو بواسطة Microsoft Word عندما يعرض المستند.
 
-يمكن تحديد العرض المفضل بالنقاط أو بالنسبة المئوية. يمكن أيضًا تحديد width المفضل كـ "auto" ، مما يعني أنه لم يتم تحديد عرض مفضل.
+يمكن تحديد العرض المفضل بالنقاط أو بالنسبة المئوية. يمكن أيضًا تحديد width المفضل كـ "تلقائي"، مما يعني عدم تحديد العرض المفضل.
 
-النظام الأساسي[`Auto`](../../preferredwidth/auto/).
+القيمة الافتراضية هي[`Auto`](../../preferredwidth/auto/).
 
 ### أمثلة
 
@@ -32,13 +32,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // هناك طريقتان لتطبيق فئة "PreferredWidth" على خلايا الجدول.
-// 1 - قم بتعيين عرض مفضل مطلق بناءً على النقاط:
+// 1 - قم بتعيين العرض المفضل المطلق بناءً على النقاط:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - قم بتعيين عرض مفضل نسبي بناءً على النسبة المئوية لعرض الجدول:
+// 2 - قم بتعيين العرض المفضل النسبي بناءً على النسبة المئوية لعرض الجدول:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -46,10 +46,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// ستشغل الخلية التي ليس لها عرض مفضل محدد بقية المساحة المتاحة.
+// الخلية التي لم يتم تحديد العرض المفضل لها سوف تشغل بقية المساحة المتوفرة.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// ينشئ كل تكوين للخاصية "PreferredWidth" كائنًا جديدًا.
+// يقوم كل تكوين لخاصية "PreferredWidth" بإنشاء كائن جديد.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

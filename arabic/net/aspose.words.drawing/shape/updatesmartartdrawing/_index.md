@@ -1,14 +1,14 @@
 ---
 title: Shape.UpdateSmartArtDrawing
 second_title: Aspose.Words لمراجع .NET API
-description: Shape طريقة. يحدّث رسم SmartArt الذي تم تقديمه مسبقًا باستخدام محرك العرض البارد Aspose.Wordss SmartArt .
+description: Shape طريقة. يقوم بتحديث رسم SmartArt المعروض مسبقًا باستخدام محرك العرض البارد SmartArt الخاص بـ Aspose.Words.
 type: docs
-weight: 250
+weight: 270
 url: /ar/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method
 
-يحدّث رسم SmartArt الذي تم تقديمه مسبقًا باستخدام محرك العرض البارد Aspose.Words's SmartArt .
+يقوم بتحديث رسم SmartArt المعروض مسبقًا باستخدام محرك العرض البارد SmartArt الخاص بـ Aspose.Words.
 
 ```csharp
 public void UpdateSmartArtDrawing()
@@ -16,7 +16,7 @@ public void UpdateSmartArtDrawing()
 
 ### ملاحظات
 
-يقوم Microsoft Word بإنشاء وحفظ الرسم الذي تم تقديمه مسبقًا مع كائن SmartArt. ومع ذلك ، إذا تم حفظ المستند بواسطة تطبيقات أخرى ، فقد يكون رسم SmartArt المعروض مسبقًا مفقودًا أو غير صحيح. مفقود ، ثم يستخدم Aspose.Words محرك العرض البارد SmartArt الخاص به لعرض كائن SmartArt . إذا كان الرسم الذي تم تقديمه مسبقًا غير صحيح ، فيجب استدعاء هذه الطريقة لاستدعاء SmartArt cold rendering engine .
+يقوم Microsoft Word بإنشاء الرسم المعروض مسبقًا وحفظه مع كائن SmartArt. ومع ذلك، إذا تم حفظ المستند بواسطة تطبيقات أخرى، فقد يكون رسم SmartArt المعروض مسبقًا مفقودًا أو غير صحيح. إذا كان الرسم المعروض مسبقًا متاحًا، فسيستخدمه Aspose.Words لعرض كائن SmartArt. إذا كان الرسم معروضًا مسبقًا مفقود، إذًا يستخدم Aspose.Words محرك العرض البارد SmartArt الخاص به لعرض كائن SmartArt. إذا كان الرسم المعروض مسبقًا غير صحيح، فمن الضروري استدعاء هذه الطريقة لاستدعاء محرك العرض Cold SmartArt.
 
 ### أنظر أيضا
 

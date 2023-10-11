@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط .
+description: FrameFormat ملكية. يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط .
+يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -16,7 +16,7 @@ public double HorizontalDistanceFromText { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

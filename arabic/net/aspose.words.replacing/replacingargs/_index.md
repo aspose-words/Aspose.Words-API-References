@@ -1,14 +1,16 @@
 ---
 title: Class ReplacingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.ReplacingArgs فصل. توفير بيانات لعملية استبدال مخصصة .
+description: Aspose.Words.Replacing.ReplacingArgs فصل. يوفر بيانات لعملية استبدال مخصصة.
 type: docs
-weight: 4390
+weight: 4650
 url: /ar/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
-توفير بيانات لعملية استبدال مخصصة .
+يوفر بيانات لعملية استبدال مخصصة.
+
+لمعرفة المزيد، قم بزيارة[البحث والاستبدال](https://docs.aspose.com/words/net/find-and-replace/) مقالة توثيقية.
 
 ```csharp
 public class ReplacingArgs
@@ -18,18 +20,19 @@ public class ReplacingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](./match/) الذي سيتم استبداله بامتداد[`Replacement`](./replacement/) السلسلة . |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](./match/) الذي سيتم استبداله بامتداد[`Replacement`](./replacement/) السلسلة . |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | ملفMatch الناتج عن تطابق تعبير واحد normal أثناء a **يحل محل** . |
-| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | يحصل على العقدة التي تحتوي على بداية المباراة . |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة . |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | يحدد، حسب الفهرس، المجموعة الملتقطة في[`Match`](./match/) الذي سيتم استبداله بـ[`Replacement`](./replacement/) سلسلة. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | يحدد، بالاسم، المجموعة التي تم التقاطها في[`Match`](./match/) الذي سيتم استبداله بـ[`Replacement`](./replacement/) سلسلة. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a **يستبدل** . |
+| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | الحصول على العقدة التي تحتوي على بداية المباراة. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | الحصول على سلسلة الاستبدال أو تعيينها. |
 
 ### أمثلة
 
-يوضح كيفية استبدال كل تكرارات نمط التعبير العادي بسلسلة أخرى ، أثناء تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -40,7 +43,7 @@ public class ReplacingArgs
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // تعيين رد اتصال يتتبع أي بدائل تقوم بها طريقة "استبدال".
+    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -55,7 +58,7 @@ public class ReplacingArgs
 
 /// <summary>
 /// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
-/// ويلاحظ قيمة النص المتطابق الأصلي.
+/// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -80,6 +83,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -89,6 +93,8 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -100,7 +106,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -108,7 +114,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

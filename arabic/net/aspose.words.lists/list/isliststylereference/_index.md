@@ -1,14 +1,14 @@
 ---
 title: List.IsListStyleReference
 second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة .
+description: List ملكية. إرجاعحقيقي إذا كانت هذه القائمة مرجعًا لنمط القائمة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة .
+إرجاع`حقيقي` إذا كانت هذه القائمة مرجعًا لنمط القائمة.
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -16,7 +16,7 @@ public bool IsListStyleReference { get; }
 
 ### ملاحظات
 
-لاحظ أن تعديل خصائص قائمة تمثل مرجعًا لنمط القائمة ليس له أي تأثير . تنسيق القائمة المحدد في نمط القائمة نفسه دائمًا ما يكون له الأسبقية.
+لاحظ أن تعديل خصائص القائمة التي تعتبر مرجعًا لنمط القائمة ليس له أي تأثير. تنسيق القائمة المحدد في نمط القائمة نفسه له الأسبقية دائمًا.
 
 ### أمثلة
 
@@ -25,11 +25,11 @@ public bool IsListStyleReference { get; }
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز بادئة ومسافات بادئة.
-// يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة. 
-// يمكننا بدء قائمة وإنهائها باستخدام خاصية "تنسيق القائمة" الخاصة بمنشئ المستندات. 
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
+ // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن قائمة كامل داخل نمط.
+// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -51,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// إنشاء قائمة أخرى من قائمة داخل النمط.
+// أنشئ قائمة أخرى من قائمة داخل النمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -66,7 +66,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// إنشاء وتطبيق قائمة أخرى بناءً على نمط القائمة.
+// إنشاء قائمة أخرى وتطبيقها بناءً على نمط القائمة.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

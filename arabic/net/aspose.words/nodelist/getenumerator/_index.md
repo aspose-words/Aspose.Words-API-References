@@ -16,7 +16,7 @@ public IEnumerator<Node> GetEnumerator()
 
 ### قيمة الإرجاع
 
-مبسط IEnumerator.
+العداد.
 
 ### أمثلة
 
@@ -25,25 +25,25 @@ public IEnumerator<Node> GetEnumerator()
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// هذا التعبير سوف يستخرج جميع عقد الفقرة ،
-// التي تنحدر من أي عقدة جدول في المستند.
-NodeList nodeList = doc.SelectNodes("// جدول // فقرة ") ;
+// هذا التعبير سوف يستخرج جميع عقد الفقرة،
+// وهي من نسل أي عقدة جدول في المستند.
+NodeList nodeList = doc.SelectNodes("//الجدول//الفقرة");
 
-// كرر من خلال القائمة باستخدام العداد واطبع محتويات كل فقرة في كل خلية من خلايا الجدول.
+// كرر القائمة باستخدام العداد واطبع محتويات كل فقرة في كل خلية في الجدول.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// سيحدد هذا التعبير أي فقرات تكون فرعية مباشرة لأي عقدة أساسية في المستند.
-nodeList = doc.SelectNodes("// نص / فقرة ") ;
+// سيحدد هذا التعبير أي فقرات تعتبر فرعية مباشرة لأي عقدة نص في المستند.
+nodeList = doc.SelectNodes("//النص/الفقرة");
 
 // يمكننا التعامل مع القائمة كمصفوفة.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// استخدم SelectSingleNode لتحديد النتيجة الأولى لنفس التعبير على النحو الوارد أعلاه.
-Node node = doc.SelectSingleNode("// نص / فقرة ") ;
+// استخدم SelectSingleNode لتحديد النتيجة الأولى لنفس التعبير المذكور أعلاه.
+Node node = doc.SelectSingleNode("//النص/الفقرة");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());
 ```

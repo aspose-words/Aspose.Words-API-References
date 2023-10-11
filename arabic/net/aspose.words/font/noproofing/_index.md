@@ -22,7 +22,7 @@ public bool NoProofing { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// عادةً ما يؤكد Microsoft Word على الأخطاء الإملائية بتسطير أحمر مسنن.
+// عادةً، يركز برنامج Microsoft Word على الأخطاء الإملائية من خلال تسطير أحمر متعرج.
 // يمكننا إلغاء تعيين علامة "NoProofing" لإنشاء جزء من النص
 // يتجاوز المدقق الإملائي أثناء تعطيله تمامًا.
 builder.Font.NoProofing = true;

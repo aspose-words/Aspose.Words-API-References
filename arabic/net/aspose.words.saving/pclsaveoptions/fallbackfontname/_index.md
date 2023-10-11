@@ -16,11 +16,11 @@ public string FallbackFontName { get; set; }
 
 ### ملاحظات
 
-في حالة عدم العثور على رجوع ، يتم إنشاء تحذير ويتم استخدام الخط "Arial" .
+إذا لم يتم العثور على أي بديل، فسيتم إنشاء تحذير ويتم استخدام الخط "Arial".
 
 ### أمثلة
 
-يوضح كيفية التصريح عن خط ستطبقه الطابعة على النص المطبوع كبديل في حالة عدم توفر الخط الأصلي.
+يوضح كيفية الإعلان عن الخط الذي ستطبقه الطابعة على النص المطبوع كبديل في حالة عدم توفر الخط الأصلي.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.FallbackFontName = "Times New Roman";
 
-// سيوجه هذا المستند الطابعة لتطبيق "Times New Roman" على النص ذي الخط المفقود.
-// في حالة عدم توفر "Times New Roman" أيضًا ، ستتحول الطابعة افتراضيًا إلى الخط "Arial".
+// سيوجه هذا المستند الطابعة لتطبيق "Times New Roman" على النص الذي يحتوي على الخط المفقود.
+// في حالة عدم توفر "Times New Roman" أيضًا، ستستخدم الطابعة الخط "Arial" بشكل افتراضي.
 doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 

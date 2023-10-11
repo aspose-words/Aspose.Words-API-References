@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SectionCollection فصل. مجموعة من الجزء كائنات في المستند .
+description: Aspose.Words.SectionCollection فصل. مجموعة منSection الكائنات الموجودة في المستند.
 type: docs
-weight: 5450
+weight: 5740
 url: /ar/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-مجموعة من **الجزء** كائنات في المستند .
+مجموعة من[`Section`](../section/) الكائنات الموجودة في المستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الأقسام](https://docs.aspose.com/words/net/working-with-sections/) مقالة توثيقية.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -25,25 +27,25 @@ public class SectionCollection : NodeCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | يضيف عقدة إلى نهاية المجموعة. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | يزيل كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | لتحديد ما إذا كانت العقدة موجودة في المجموعة. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | إضافة عقدة إلى نهاية المجموعة. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة بالفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | يزيل العقدة من المجموعة ومن الوثيقة. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | يزيل العقدة في الفهرس المحدد من المجموعة ومن المستند. |
-| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | نسخ جميع الأقسام من المجموعة إلى مصفوفة جديدة من الأقسام. (2 methods) |
+| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(Node) | إزالة العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | نسخ كافة الأقسام من المجموعة إلى مجموعة جديدة من الأقسام. (2 methods) |
 
 ### ملاحظات
 
-يمكن أن يحتوي مستند Microsoft Word على أقسام متعددة. لإنشاء قسم في Microsoft Word ، حدد الأمر Insert / Break وحدد نوع الفاصل. يحدد الفاصل ما إذا كان المقطع يبدأ على صفحة جديدة أو على نفس الصفحة.
+يمكن أن يحتوي مستند Microsoft Word على أقسام متعددة. لإنشاء قسم في Microsoft Word، حدد أمر إدراج/فاصل وحدد نوع الفاصل. يحدد الفاصل ما إذا كان القسم يبدأ في صفحة جديدة أو في نفس الصفحة.
 
-يمكن استخدام إدراج الأقسام وإزالتها برمجيًا لتخصيص المستندات المنتجة_ أثناء دمج البريد. إذا كان المستند يحتاج إلى محتوى أو أجزاء مختلفة من محتوى بناءً على بعض المعايير ، فيمكنك إنشاء مستند "رئيسي" يحتوي على أقسام متعددة وحذف بعض الأقسام قبل دمج البريد أو بعده.
+يمكن استخدام إدراج المقاطع وإزالتها برمجيًا لتخصيص المستندات التي تم إنتاجها أثناء دمج البريد. إذا كان المستند يحتاج إلى محتوى أو أجزاء مختلفة من محتوى بناءً على بعض المعايير، فيمكنك إنشاء مستند "رئيسي" يحتوي على أقسام متعددة وحذف بعض الأقسام قبل دمج البريد أو بعده.
 
 ### أمثلة
 
-يوضح كيفية إضافة وإزالة أقسام في مستند.
+يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +62,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// قم بإلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

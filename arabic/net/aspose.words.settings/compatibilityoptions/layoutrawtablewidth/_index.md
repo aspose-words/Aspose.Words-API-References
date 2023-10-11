@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.LayoutRawTableWidth
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا .
+description: CompatibilityOptions ملكية. تجاهل المسافة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول حول كائن عائم.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property
 
-تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا .
+تجاهل المسافة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول حول كائن عائم.
 
 ```csharp
 public bool LayoutRawTableWidth { get; set; }

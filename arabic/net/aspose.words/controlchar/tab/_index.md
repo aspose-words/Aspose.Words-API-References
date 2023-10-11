@@ -1,14 +1,14 @@
 ---
 title: ControlChar.Tab
 second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف الجدولة  x0009 أو  t .
+description: ControlChar مجال. حرف علامة التبويب x0009 أو t.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-حرف الجدولة: "\ x0009" أو "\ t" .
+حرف علامة التبويب: "\x0009" أو "\t".
 
 ```csharp
 public static readonly string Tab;
@@ -22,10 +22,10 @@ public static readonly string Tab;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
+// قم بتعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
 builder.Document.DefaultTabStop = 72;
 
-// يقوم كل حرف جدولة بمحاذاة النص بعده إلى أقرب موضع علامة جدولة تالية.
+// يلتقط كل حرف جدولة النص الذي يليه إلى أقرب موضع لعلامة الجدولة.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

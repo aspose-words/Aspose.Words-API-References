@@ -3,12 +3,14 @@ title: Class SpecialChar
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.SpecialChar فصل. الفئة الأساسية للأحرف الخاصة في المستند.
 type: docs
-weight: 5800
+weight: 6100
 url: /ar/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 الفئة الأساسية للأحرف الخاصة في المستند.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class SpecialChar : Inline
@@ -18,77 +20,78 @@ public class SpecialChar : Inline
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق خط هذا الكائن. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق الخط لهذا الكائن. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (حذفه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | عوائد **NodeType.SpecialChar** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | استرداد الأصل[`Paragraph`](../paragraph/) من هذه العقدة. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | إرجاعSpecialChar . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | يسترد الأصل[`Paragraph`](../paragraph/) من هذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | يحصل على الحرف الخاص الذي تمثله هذه العقدة . |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | الحصول على الحرف الخاص الذي تمثله هذه العقدة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-يمكن أن يتضمن مستند Microsoft Word عددًا من الأحرف الخاصة التي تمثل الحقول ، وحقول النموذج ، والأشكال ، وكائنات OLE ، والحواشي السفلية ، إلخ.[`ControlChar`](../controlchar/).
+يمكن أن يتضمن مستند Microsoft Word عددًا من الأحرف الخاصة التي تمثل الحقول وحقول النماذج والأشكال وكائنات OLE والحواشي السفلية وما إلى ذلك. للحصول على قائمة من الأحرف الخاصة، راجع[`ControlChar`](../controlchar/).
 
-**SpecialChar** هي عقدة مضمنة ويمكن أن تكون تابعة فقط لـ **فقرة**.
+`SpecialChar`هي عقدة مضمّنة ويمكن أن تكون تابعة فقط لـ[`Paragraph`](../paragraph/).
 
-**SpecialChar** يتم استخدام char كفئة أساسية للفئات الأكثر تحديدًا التي تمثل الأحرف الخاصة التي توفرها Aspose.Words وصول برمجي لـ . The **SpecialChar** تُستخدم الفئة نفسها أيضًا لتمثيل الحرف الخاص الذي لا يوفر له Aspose.Words وصول برمجي مفصل.
+`SpecialChar` يتم استخدام char كفئة أساسية لـclasses الأكثر تحديدًا والتي تمثل الأحرف الخاصة التي يوفر Aspose.Words وصولاً برمجيًا لها. `SpecialChar` يتم أيضًا استخدام الفئة نفسها لتمثيل الحرف الخاص الذي Aspose.Words لا يوفر وصولاً برمجيًا مفصلاً.
 
 ### أمثلة
 
 يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكن أن تقبل زائر المستند ،
-    // مما سيسمح له بزيارة عقدة القبول ، ثم اجتياز العقد الفرعية بطريقة العمق أولاً.
-    // 1 - عقدة فقرة:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكنها قبول زائر المستند،
+    // والذي سيسمح لها بزيارة العقدة المقبولة، ثم اجتياز العقد الفرعية الخاصة بها بطريقة العمق أولاً.
+    // 1 - عقدة الفقرة:
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - عقدة الجدول:
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - عقدة المستند:
+    // 3 - عقدة الوثيقة:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// يزيل جميع العقد التي تمت زيارتها والتي تم وضع علامة عليها على أنها "محتوى مخفي".
+/// يزيل جميع العقد التي تمت زيارتها والتي تم وضع علامة "المحتوى المخفي" عليها.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -99,7 +102,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -110,7 +113,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -121,7 +124,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -132,7 +135,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة فقرة في المستند.
+    /// يتم استدعاؤه عند مواجهة عقدة فقرة في المستند.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -143,7 +146,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة FormField في المستند.
+    /// يتم الاتصال به عند مواجهة FormField في المستند.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -154,7 +157,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة GroupShape في المستند.
+    /// يتم الاتصال به عند مواجهة شكل مجموعة في المستند.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -165,7 +168,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة شكل في المستند.
+    /// يتم استدعاؤه عند مواجهة شكل ما في المستند.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -176,7 +179,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة أحد التعليقات في المستند.
+    /// يتم استدعاؤه عند مواجهة تعليق في المستند.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -187,7 +190,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة حاشية سفلية في المستند.
+    /// يتم استدعاؤه عند وجود حاشية سفلية في المستند.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -198,7 +201,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة حرف خاص في المستند.
+    /// يتم الاتصال به عند مواجهة حرف خاص في المستند.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -209,16 +212,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند زيارة عقدة جدول تنتهي في المستند.
+    /// يتم الاتصال به عند انتهاء زيارة عقدة الجدول في المستند.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // قد يحتوي المحتوى الموجود داخل خلايا الجدول على علامة المحتوى المخفية ، ولكن لا يمكن للجداول نفسها.
-        // إذا كان هذا الجدول لا يحتوي إلا على محتوى مخفي ، لكان هذا الزائر قد أزاله بالكامل ،
+        // قد يحتوي المحتوى الموجود داخل خلايا الجدول على علامة محتوى مخفية، لكن لا يمكن أن تحتوي الجداول نفسها على علامة محتوى مخفية.
+        // لو لم يكن هذا الجدول سوى محتوى مخفي، لكان هذا الزائر قد أزاله كله،
         // ولن تكون هناك عقد فرعية متبقية.
-        // وبالتالي ، يمكننا أيضًا التعامل مع الجدول نفسه كمحتوى مخفي وإزالته.
-        // ستحتوي الجداول الفارغة ولكن ليس بها محتوى مخفي على خلايا بها فقرات فارغة بداخلها ،
-        // التي لن يزيلها هذا الزائر.
+        // وبالتالي، يمكننا أيضًا التعامل مع الجدول نفسه كمحتوى مخفي وإزالته.
+        // الجداول الفارغة ولكن لا تحتوي على محتوى مخفي ستحتوي على خلايا تحتوي على فقرات فارغة بداخلها،
+        // الذي لن يقوم هذا الزائر بإزالته.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -226,7 +229,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند زيارة عقدة خلية في المستند.
+    /// يتم الاتصال به عند انتهاء زيارة عقدة الخلية في المستند.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -237,7 +240,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند زيارة عقدة صف منتهية في المستند.
+    /// يتم الاتصال به عند انتهاء زيارة عقدة الصف في المستند.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

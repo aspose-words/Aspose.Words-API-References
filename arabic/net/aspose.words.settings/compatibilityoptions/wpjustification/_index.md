@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.WPJustification
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة WordPerfect 6.x ضبط الفقرة.
+description: CompatibilityOptions ملكية. محاكاة تبرير الفقرة WordPerfect 6.x.
 type: docs
 weight: 690
 url: /ar/net/aspose.words.settings/compatibilityoptions/wpjustification/
 ---
 ## CompatibilityOptions.WPJustification property
 
-محاكاة WordPerfect 6.x ضبط الفقرة.
+محاكاة تبرير الفقرة WordPerfect 6.x.
 
 ```csharp
 public bool WPJustification { get; set; }

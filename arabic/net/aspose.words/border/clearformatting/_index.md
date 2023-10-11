@@ -1,14 +1,14 @@
 ---
 title: Border.ClearFormatting
 second_title: Aspose.Words لمراجع .NET API
-description: Border طريقة. يعيد تعيين خصائص الحدود إلى القيم الافتراضية.
+description: Border طريقة. إعادة تعيين خصائص الحدود إلى القيم الافتراضية.
 type: docs
-weight: 70
+weight: 90
 url: /ar/net/aspose.words/border/clearformatting/
 ---
 ## Border.ClearFormatting method
 
-يعيد تعيين خصائص الحدود إلى القيم الافتراضية.
+إعادة تعيين خصائص الحدود إلى القيم الافتراضية.
 
 ```csharp
 public void ClearFormatting()
@@ -16,17 +16,17 @@ public void ClearFormatting()
 
 ### ملاحظات
 
-عند إعادة تعيين خصائص الحدود إلى القيم الافتراضية ، يكون الحد غير مرئي.
+عند إعادة تعيين خصائص الحدود إلى القيم الافتراضية، تكون الحدود غير مرئية.
 
 ### أمثلة
 
-يوضح كيفية إزالة الحدود من فقرة.
+يوضح كيفية إزالة الحدود من الفقرة.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// لكل فقرة مجموعة فردية من الحدود.
-// يمكننا الوصول إلى إعدادات ظهور هذه الحدود عبر كائن تنسيق الفقرة.
+// تحتوي كل فقرة على مجموعة فردية من الحدود.
+// يمكننا الوصول إلى إعدادات مظهر هذه الحدود عبر كائن تنسيق الفقرة.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -34,8 +34,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// يمكننا إزالة حد مرة واحدة عن طريق تشغيل طريقة ClearFormatting. 
-// سيؤدي تشغيل هذه الطريقة على كل حدود الفقرة إلى إزالة كل حدودها.
+ // يمكننا إزالة الحدود مرة واحدة عن طريق تشغيل طريقة ClearFormatting.
+// سيؤدي تشغيل هذه الطريقة على كل حدود الفقرة إلى إزالة جميع حدودها.
 foreach (Border border in borders)
     border.ClearFormatting();
 

@@ -1,14 +1,14 @@
 ---
 title: Class ComHelper
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ComHelper فصل. يوفر طرقًا لعملاء COM لتحميل مستند إلى Aspose.Words.
+description: Aspose.Words.ComHelper فصل. يوفر أساليب لعملاء COM لتحميل مستند إلى Aspose.Words.
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words/comhelper/
 ---
 ## ComHelper class
 
-يوفر طرقًا لعملاء COM لتحميل مستند إلى Aspose.Words.
+يوفر أساليب لعملاء COM لتحميل مستند إلى Aspose.Words.
 
 ```csharp
 public class ComHelper
@@ -24,15 +24,15 @@ public class ComHelper
 
 | اسم | وصف |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(Stream) | يسمح بتحميل تطبيق COM[`Document`](../document/) من تيار . |
-| [Open](../../aspose.words/comhelper/open/#open_1)(string) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document/) من ملف . |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(IStream) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document/) من كائن IStream . |
+| [Open](../../aspose.words/comhelper/open/#open)(Stream) | يسمح بتحميل تطبيق COM[`Document`](../document/) من تيار. |
+| [Open](../../aspose.words/comhelper/open/#open_1)(string) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document/) من ملف. |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(IStream) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document/) من كائن IStream. |
 
 ### ملاحظات
 
 استخدم ال`ComHelper` فئة لتحميل مستند من ملف أو دفق إلى [`Document`](../document/) كائن في تطبيق COM.
 
-ال[`Document`](../document/)توفر الفئة مُنشئًا افتراضيًا لإنشاء document جديدًا وتوفر أيضًا مُنشِئات محملة بشكل زائد لتحميل مستند من ملف أو دفق . إذا كنت تستخدم Aspose.Words من تطبيق .NET ، فيمكنك استخدام كل[`Document`](../document/) المنشئات مباشرةً ، ولكن إذا كنت تستخدم Aspose.Words من تطبيق COM ، فقط الافتراضي[`Document`](../document/) منشئ متاح.
+ال[`Document`](../document/) توفر الفئة مُنشئًا افتراضيًا لإنشاء مستند جديد وتوفر أيضًا مُنشئات مثقلة لتحميل مستند من ملف أو دفق. إذا كنت تستخدم Aspose.Words من تطبيق .NET، فيمكنك استخدام كافة الميزات[`Document`](../document/) مُنشئات مباشرة، ولكن إذا كنت تستخدم Aspose.Words من تطبيق COM، فإن هو الإعداد الافتراضي فقط[`Document`](../document/) المنشئ متاح.
 
 ### أمثلة
 
@@ -52,12 +52,12 @@ Set doc = helper.Open(fileName)
 // تسمح لنا فئة ComHelper بتحميل المستندات من داخل عملاء COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - استخدام اسم ملف نظام محلي:
+// 1 - استخدام اسم ملف النظام المحلي:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من تيار:
+// 2 - من الدفق:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

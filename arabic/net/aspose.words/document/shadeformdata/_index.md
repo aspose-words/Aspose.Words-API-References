@@ -3,7 +3,7 @@ title: Document.ShadeFormData
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. يحدد ما إذا كان سيتم تشغيل التظليل الرمادي في حقول النموذج.
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
@@ -25,7 +25,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// يمكننا إيقاف التظليل الرمادي ، بحيث يندمج النص الذي تم وضع إشارة مرجعية عليه مع النص الآخر.
+// يمكننا إيقاف التظليل الرمادي، بحيث يمتزج النص ذو الإشارة المرجعية مع النص الآخر.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

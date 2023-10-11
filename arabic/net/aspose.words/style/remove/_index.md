@@ -1,14 +1,14 @@
 ---
 title: Style.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: Style طريقة. يزيل النمط المحدد من المستند.
+description: Style طريقة. إزالة النمط المحدد من المستند.
 type: docs
-weight: 180
+weight: 200
 url: /ar/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
 
-يزيل النمط المحدد من المستند.
+إزالة النمط المحدد من المستند.
 
 ```csharp
 public void Remove()
@@ -16,11 +16,11 @@ public void Remove()
 
 ### ملاحظات
 
-إزالة النمط له التأثيرات التالية على نموذج المستند:
+إزالة النمط لها التأثيرات التالية على طراز المستند:
 
-* تتم إزالة كافة الإشارات إلى النمط من الفقرات والتشغيل والجداول المقابلة.
-* إذا تمت إزالة النمط الأساسي ، فسيتم نقل تنسيقه إلى الأنماط الفرعية.
-* إذا كان النمط المراد حذفه يحتوي على نمط مرتبط ، فسيتم حذف كلاهما.
+* تتم إزالة جميع المراجع إلى النمط من الفقرات والجداول والجداول المقابلة.
+* إذا تمت إزالة النمط الأساسي، فسيتم نقل تنسيقه إلى الأنماط الفرعية.
+* إذا كان النمط المراد حذفه يحتوي على نمط مرتبط، فسيتم حذف كليهما.
 
 ### أمثلة
 
@@ -33,6 +33,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// إعادة تعريف النمط تلقائيًا.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -44,7 +46,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// قم بإزالة نمطنا المخصص من مجموعة أنماط المستند.
+// قم بإزالة النمط المخصص لدينا من مجموعة أنماط المستند.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

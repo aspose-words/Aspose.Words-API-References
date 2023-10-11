@@ -1,14 +1,14 @@
 ---
 title: Table.PreferredWidth
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تحديد العرض المفضل للجدول.
+description: Table ملكية. الحصول على العرض المفضل للجدول أو تعيينه.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.tables/table/preferredwidth/
 ---
 ## Table.PreferredWidth property
 
-الحصول على أو تحديد العرض المفضل للجدول.
+الحصول على العرض المفضل للجدول أو تعيينه.
 
 ```csharp
 public PreferredWidth PreferredWidth { get; set; }
@@ -16,11 +16,11 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي[`Auto`](../../preferredwidth/auto/).
+القيمة الافتراضية هي[`Auto`](../../preferredwidth/auto/).
 
 ### أمثلة
 
-يوضح كيفية ضبط الجدول بحيث يتلاءم تلقائيًا مع 50٪ من عرض الصفحة.
+يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
 ```csharp
 Document doc = new Document();

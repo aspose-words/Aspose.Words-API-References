@@ -18,7 +18,7 @@ public string AttachedTemplate { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يرمي إذا حاولت التعيين إلى قيمة خالية. |
+| ArgumentNullException | يلقي إذا حاولت التعيين على أ`باطل` قيمة. |
 
 ### ملاحظات
 
@@ -31,14 +31,14 @@ public string AttachedTemplate { get; set; }
 ```csharp
 Document doc = new Document();
 
-// تمكين التحديث التلقائي للنمط ، لكن لا تقم بإرفاق مستند نموذج.
+// تمكين التحديث التلقائي للنمط، ولكن لا ترفق مستند القالب.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// نظرًا لعدم وجود مستند قالب ، لم يكن للمستند أي مكان لتعقب تغييرات النمط.
-// استخدم كائن SaveOptions لتعيين قالب تلقائيًا
-// إذا كان المستند الذي نحفظه لا يحتوي على واحد.
+// نظرًا لعدم وجود مستند قالب، لم يكن للمستند مكان لتتبع تغييرات النمط.
+// استخدم كائن SaveOptions لتعيين القالب تلقائيًا
+// إذا كانت الوثيقة التي نقوم بحفظها لا تحتوي على واحدة.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

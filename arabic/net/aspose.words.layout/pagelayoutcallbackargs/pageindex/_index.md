@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
 second_title: Aspose.Words لمراجع .NET API
-description: PageLayoutCallbackArgs ملكية. الحصول على فهرس للصفحة على أساس 0 في المستند الذي يتعلق به هذا الحدث . إرجاع قيمة سلبية في حالة عدم وجود صفحة مرتبطة  أو إذا تمت إزالة الصفحة أثناء إعادة التدفق .
+description: PageLayoutCallbackArgs ملكية. الحصول على فهرس يستند إلى 0 للصفحة في المستند الذي يتعلق به هذا الحدث. إرجاع قيمة سالبة إذا لم تكن هناك صفحة مرتبطة أو إذا تمت إزالة الصفحة أثناء إعادة التدفق.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-الحصول على فهرس للصفحة على أساس 0 في المستند الذي يتعلق به هذا الحدث . إرجاع قيمة سلبية في حالة عدم وجود صفحة مرتبطة ، أو إذا تمت إزالة الصفحة أثناء إعادة التدفق .
+الحصول على فهرس يستند إلى 0 للصفحة في المستند الذي يتعلق به هذا الحدث. إرجاع قيمة سالبة إذا لم تكن هناك صفحة مرتبطة، أو إذا تمت إزالة الصفحة أثناء إعادة التدفق.
 
 ```csharp
 public int PageIndex { get; }
@@ -16,10 +16,9 @@ public int PageIndex { get; }
 
 ### أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط مع استدعاء التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -36,7 +35,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض صفحة ننفذها لإعادة تدفق الصفحة إلى صورة في نظام الملفات المحلي.
+/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

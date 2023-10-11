@@ -1,14 +1,16 @@
 ---
 title: Class Paragraph
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Paragraph فصل. يمثل فقرة من النص .
+description: Aspose.Words.Paragraph فصل. يمثل فقرة من النص.
 type: docs
-weight: 4150
+weight: 4390
 url: /ar/net/aspose.words/paragraph/
 ---
 ## Paragraph class
 
-يمثل فقرة من النص .
+يمثل فقرة من النص.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الفقرات](https://docs.aspose.com/words/net/working-with-paragraphs/) مقالة توثيقية.
 
 ```csharp
 public class Paragraph : CompositeNode
@@ -18,94 +20,95 @@ public class Paragraph : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **فقرة** فئة . |
+| [Paragraph](paragraph/)(DocumentBase) | تهيئة مثيل جديد لـ`Paragraph` فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BreakIsStyleSeparator](../../aspose.words/paragraph/breakisstyleseparator/) { get; } | صواب إذا كان فاصل الفقرة هذا عبارة عن فاصل نمط. يسمح فاصل الأنماط بفقرة واحدة لتتكون من أجزاء لها أنماط فقرة مختلفة. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | الحصول على الطفل الأول للعقدة . |
-| [FrameFormat](../../aspose.words/paragraph/frameformat/) { get; } | يوفر الوصول إلى خصائص تنسيق الفقرة. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
+| [BreakIsStyleSeparator](../../aspose.words/paragraph/breakisstyleseparator/) { get; } | صحيح إذا كان فاصل الفقرة هذا عبارة عن فاصل نمط. يسمح فاصل الأنماط بأن تتكون فقرة one من أجزاء لها أنماط فقرات مختلفة. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | يحصل على عدد الأطفال المباشرين لهذه العقدة. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | يحصل على الطفل الأول للعقدة. |
+| [FrameFormat](../../aspose.words/paragraph/frameformat/) { get; } | يوفر الوصول إلى خصائص تنسيق الإطار. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة تحتوي على أي عقد فرعية. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع`حقيقي` لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
 | [IsDeleteRevision](../../aspose.words/paragraph/isdeleterevision/) { get; } | إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsEndOfCell](../../aspose.words/paragraph/isendofcell/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف[`Cell`](../../aspose.words.tables/cell/) ؛ خطأ بخلاف ذلك. |
+| [IsEndOfCell](../../aspose.words/paragraph/isendofcell/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في أ[`Cell`](../../aspose.words.tables/cell/) ; كاذبة خلاف ذلك. |
 | [IsEndOfDocument](../../aspose.words/paragraph/isendofdocument/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في القسم الأخير من المستند. |
-| [IsEndOfHeaderFooter](../../aspose.words/paragraph/isendofheaderfooter/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف **تذييل الرأس** (قصة النص الرئيسي) من أ **الجزء** ؛ خطأ بخلاف ذلك. |
-| [IsEndOfSection](../../aspose.words/paragraph/isendofsection/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف **الجسم** (قصة النص الرئيسي) من أ **الجزء** ؛ خطأ بخلاف ذلك. |
+| [IsEndOfHeaderFooter](../../aspose.words/paragraph/isendofheaderfooter/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`HeaderFooter`](../headerfooter/) (قصة النص الرئيسي) من أ[`Section`](../section/) ; كاذبة خلاف ذلك. |
+| [IsEndOfSection](../../aspose.words/paragraph/isendofsection/) { get; } | صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`Body`](../body/) (قصة النص الرئيسي) من أ[`Section`](../section/) ; كاذبة خلاف ذلك. |
 | [IsFormatRevision](../../aspose.words/paragraph/isformatrevision/) { get; } | إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsInCell](../../aspose.words/paragraph/isincell/) { get; } | صحيح إذا كانت هذه الفقرة تابعة مباشرة لـ[`Cell`](../../aspose.words.tables/cell/) ؛ خطأ بخلاف ذلك. |
+| [IsInCell](../../aspose.words/paragraph/isincell/) { get; } | صحيح إذا كانت هذه الفقرة فرعًا مباشرًا لـ[`Cell`](../../aspose.words.tables/cell/) ; كاذبة خلاف ذلك. |
 | [IsInsertRevision](../../aspose.words/paragraph/isinsertrevision/) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsListItem](../../aspose.words/paragraph/islistitem/) { get; } | صحيح عندما تكون الفقرة عنصرًا في قائمة ذات تعداد نقطي أو رقمي في المراجعة الأصلية. |
-| [IsMoveFromRevision](../../aspose.words/paragraph/ismovefromrevision/) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveToRevision](../../aspose.words/paragraph/ismovetorevision/) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | الحصول على آخر تابع للعقدة . |
-| [ListFormat](../../aspose.words/paragraph/listformat/) { get; } | يوفر الوصول إلى خصائص تنسيق القائمة للفقرة. |
-| [ListLabel](../../aspose.words/paragraph/listlabel/) { get; } | يحصل على أ[`ListLabel`](./listlabel/) الذي يوفر الوصول إلى قائمة قيم الترقيم والتنسيق_ لهذه الفقرة. |
+| [IsMoveFromRevision](../../aspose.words/paragraph/ismovefromrevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (حذفه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [IsMoveToRevision](../../aspose.words/paragraph/ismovetorevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | يحصل على الطفل الأخير للعقدة. |
+| [ListFormat](../../aspose.words/paragraph/listformat/) { get; } | يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بالفقرة. |
+| [ListLabel](../../aspose.words/paragraph/listlabel/) { get; } | يحصل على[`ListLabel`](./listlabel/)الكائن الذي يوفر الوصول إلى قيمة ترقيم القائمة وتنسيق لهذه الفقرة. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/paragraph/nodetype/) { get; } | عوائد **نوع العقدة** . |
-| [ParagraphBreakFont](../../aspose.words/paragraph/paragraphbreakfont/) { get; } | يوفر الوصول إلى تنسيق خط حرف فاصل الفقرة. |
+| override [NodeType](../../aspose.words/paragraph/nodetype/) { get; } | إرجاعParagraph . |
+| [ParagraphBreakFont](../../aspose.words/paragraph/paragraphbreakfont/) { get; } | يوفر الوصول إلى تنسيق الخط لحرف فاصل الفقرة. |
 | [ParagraphFormat](../../aspose.words/paragraph/paragraphformat/) { get; } | يوفر الوصول إلى خصائص تنسيق الفقرة. |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [ParentSection](../../aspose.words/paragraph/parentsection/) { get; } | استرداد الأصل[`Section`](../section/) من الفقرة . |
-| [ParentStory](../../aspose.words/paragraph/parentstory/) { get; } | استرداد القصة الأصلية على مستوى القسم التي يمكن أن تكون[`Body`](../body/) أو[`HeaderFooter`](../headerfooter/) . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
+| [ParentSection](../../aspose.words/paragraph/parentsection/) { get; } | يسترد الأصل[`Section`](../section/) من الفقرة. |
+| [ParentStory](../../aspose.words/paragraph/parentstory/) { get; } | يسترد القصة على مستوى القسم الأصلي التي يمكن أن تكون[`Body`](../body/) أو[`HeaderFooter`](../headerfooter/) . |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [Runs](../../aspose.words/paragraph/runs/) { get; } | يوفر الوصول إلى مجموعة أجزاء النص المكتوبة داخل الفقرة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | لإلحاق حقل بهذه الفقرة . |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | لإلحاق حقل بهذه الفقرة . |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | لإلحاق حقل بهذه الفقرة . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | محجوز لاستخدام النظام. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
+| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | يقبل الزائر. |
+| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | إلحاق حقل بهذه الفقرة. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | إلحاق حقل بهذه الفقرة. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | إلحاق حقل بهذه الفقرة. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | إرجاع مصفوفة لجميع علامات الجدولة المطبقة على هذه الفقرة ، بما في ذلك تطبيقها بشكل غير مباشر بواسطة الأنماط أو القوائم. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
-| override [GetText](../../aspose.words/paragraph/gettext/)() | يحصل على نص هذه الفقرة متضمنًا حرف نهاية الفقرة. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | إدراج حقل في هذه الفقرة . |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | إدراج حقل في هذه الفقرة . |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | إدراج حقل في هذه الفقرة . |
-| [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | تعمل الصلات بنفس التنسيق في الفقرة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | إرجاع مصفوفة من كافة علامات الجدولة المطبقة على هذه الفقرة، بما في ذلك المطبقة بشكل غير مباشر بواسطة الأنماط أو القوائم. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
+| override [GetText](../../aspose.words/paragraph/gettext/)() | الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | إدراج حقل في هذه الفقرة. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | إدراج حقل في هذه الفقرة. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | إدراج حقل في هذه الفقرة. |
+| [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | يتم تشغيل عمليات الانضمام بنفس التنسيق في الفقرة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | يزيل كافة العقد التابعة للعقدة الحالية. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | يزيل العقدة الفرعية المحددة . |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/) العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../node/) الذي يطابق تعبير XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-`Paragraph` هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة من [`Story`](../story/) أو[`InlineStory`](../inlinestory/).
+`Paragraph` هي عقدة على مستوى الكتلة ويمكن أن تكون فرعًا للفئات المشتقة من [`Story`](../story/) أو[`InlineStory`](../inlinestory/).
 
-`Paragraph` يمكن أن يحتوي على أي عدد من العقد والإشارات المرجعية المضمنة.
+`Paragraph` يمكن أن تحتوي على أي عدد من العقد والإشارات المرجعية ذات المستوى المضمّن.
 
-تتكون القائمة الكاملة للعقد الفرعية التي يمكن أن تحدث داخل فقرة من [`BookmarkStart`](../bookmarkstart/) و[`BookmarkEnd`](../bookmarkend/) ، [`FieldStart`](../../aspose.words.fields/fieldstart/) و[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ، [`FieldEnd`](../../aspose.words.fields/fieldend/) و[`FormField`](../../aspose.words.fields/formfield/) ، [`Comment`](../comment/) و[`Footnote`](../../aspose.words.notes/footnote/) ، [`Run`](../run/) و[`SpecialChar`](../specialchar/) ، [`Shape`](../../aspose.words.drawing/shape/) و[`GroupShape`](../../aspose.words.drawing/groupshape/) ، [`SmartTag`](../../aspose.words.markup/smarttag/).
+تتكون القائمة الكاملة للعقد الفرعية التي يمكن أن تحدث داخل الفقرة من [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/)[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/)[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/)[`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/)[`Run`](../run/) ,[`SpecialChar`](../specialchar/)[`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/)[`SmartTag`](../../aspose.words.markup/smarttag/).
 
-تنتهي الفقرة الصالحة في Microsoft Word دائمًا بحرف فاصل فقرات و_ تتكون أدنى فقرة صالحة من فاصل فقرة فقط. ال **فقرة** تُلحق فئة تلقائيًا حرف فاصل الفقرة المناسب في end وهذا الحرف ليس جزءًا من العقد الفرعية لـ **فقرة** ، لذلك_ أ **فقرة** يمكن أن تكون فارغة.
+تنتهي الفقرة الصالحة في Microsoft Word دائمًا بحرف فاصل فقرة و وتتكون الفقرة الصحيحة الدنيا من فاصل فقرة فقط. ال`Paragraph` تقوم فئة تلقائيًا بإلحاق حرف فاصل الفقرة المناسب في end وهذا الحرف ليس جزءًا من العقد الفرعية لل`Paragraph` ، وبالتالي أ`Paragraph` يمكن أن تكون فارغة.
 
-لا تقم بتضمين نهاية الفقرة[`ControlChar.ParagraphBreak`](../controlchar/paragraphbreak/) أو نهاية الخلية[`ControlChar.Cell`](../controlchar/cell/) أحرف داخل نص الفقرة لأنها قد تجعل الفقرة غير صالحة عند فتح المستند في Microsoft Word.
+لا تقم بتضمين نهاية الفقرة[`ParagraphBreak`](../controlchar/paragraphbreak/) أو نهاية الخلية[`Cell`](../controlchar/cell/) الأحرف الموجودة داخل نص الفقرة لأنها قد تجعل الفقرة غير صالحة عند فتح المستند في Microsoft Word.
 
 ### أمثلة
 
@@ -114,27 +117,27 @@ public class Paragraph : CompositeNode
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد وجسم واحد وفقرة واحدة.
-// اتصل بطريقة "RemoveAllChildren" لإزالة كل هذه العقد ،
-// وتنتهي بعقدة مستند بدون توابع.
+// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
+// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+// وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
 // لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا كنا نرغب في تعديله ، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً ، قم بإنشاء قسم جديد ، ثم قم بإلحاقه كعقدة فرعية بصفته فرعيًا.
+// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// تعيين بعض خصائص إعداد الصفحة للقسم.
+// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى جسم يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس وتذييل القسم.
+// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
+// في الصفحة الواقعة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// قم بإنشاء فقرة ، وقم بتعيين بعض خصائص التنسيق ، ثم قم بإلحاقها كطفل بالجسم.
+// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -142,8 +145,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// أخيرًا ، أضف بعض المحتوى لعمل المستند. إنشاء شوط ،
-// قم بتعيين مظهرها ومحتوياتها ، ثم قم بإلحاقها كطفل بالفقرة.
+// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
+// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

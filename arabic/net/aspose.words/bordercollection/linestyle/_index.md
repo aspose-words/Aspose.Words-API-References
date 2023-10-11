@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.LineStyle
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على نمط الحدود أو تعيينه .
+description: BorderCollection ملكية. الحصول على نمط الحدود أو تعيينه.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/bordercollection/linestyle/
 ---
 ## BorderCollection.LineStyle property
 
-الحصول على نمط الحدود أو تعيينه .
+الحصول على نمط الحدود أو تعيينه.
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -22,7 +22,7 @@ public LineStyle LineStyle { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

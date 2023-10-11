@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.RenderToSize
 second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. يجعل الشكل في ملفGraphics كائن لحجم محدد .
+description: NodeRendererBase طريقة. يحول الشكل إلى aGraphics كائن بحجم محدد.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-يجعل الشكل في ملفGraphics كائن لحجم محدد .
+يحول الشكل إلى aGraphics كائن بحجم محدد.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -16,29 +16,30 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| graphics | Graphics | الكائن الذي يتم تقديمه إليه. |
-| x | Single | إحداثي X (بوحدات العالم) للركن الأيسر العلوي للشكل المعروض. |
-| y | Single | إحداثي Y (بوحدات العالم) للركن الأيسر العلوي للشكل المعروض. |
-| width | Single | أقصى عرض (بوحدات العالم) يمكن أن يشغله الشكل المعروض. |
-| height | Single | أقصى ارتفاع (بوحدات العالم) يمكن أن يشغله الشكل المعروض. |
+| graphics | Graphics | الكائن الذي سيتم تقديمه إليه. |
+| x | Single | الإحداثي X (بالوحدات العالمية) للزاوية العلوية اليسرى من الشكل المعروض. |
+| y | Single | الإحداثي Y (بالوحدات العالمية) للزاوية العلوية اليسرى من الشكل المعروض. |
+| width | Single | الحد الأقصى للعرض (بالوحدات العالمية) الذي يمكن أن يشغله الشكل المعروض. |
+| height | Single | الحد الأقصى للارتفاع (بالوحدات العالمية) الذي يمكن أن يشغله الشكل المعروض. |
 
 ### قيمة الإرجاع
 
-المقياس الذي تم حسابه تلقائيًا للشكل المعروض ليلائم الحجم المحدد.
+المقياس الذي تم حسابه تلقائيًا للشكل المعروض ليناسب الحجم المحدد.
 
 ### أمثلة
 
-يوضح كيفية تجسيد شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
+يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومات.
-    // 1 - أنشئ شكلًا باستخدام مخطط ، واجعله بمقياس معين.
+    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومي.
+    // 1 - قم بإنشاء شكل باستخدام مخطط، ثم قم بعرضه على مقياس محدد.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -49,7 +50,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - أنشئ مجموعة شكل ، واجعلها بحجم معين.
+    // 2 - إنشاء مجموعة أشكال، وعرضها بحجم محدد.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -79,7 +80,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 }
 
 /// <summary>
-/// يعرض قائمة من الأشكال ويعرضها.
+/// يعرض ويعرض قائمة من الأشكال.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -128,6 +129,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

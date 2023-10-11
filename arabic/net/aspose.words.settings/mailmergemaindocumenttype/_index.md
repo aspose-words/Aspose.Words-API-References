@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeMainDocumentType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeMainDocumentType تعداد. تحديد الأنواع الممكنة لمستند مصدر دمج المراسلات.
+description: Aspose.Words.Settings.MailMergeMainDocumentType تعداد. تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات.
 type: docs
-weight: 5540
+weight: 5840
 url: /ar/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-تحديد الأنواع الممكنة لمستند مصدر دمج المراسلات.
+تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -18,12 +18,12 @@ public enum MailMergeMainDocumentType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | هذا المستند ليس مستند دمج مراسلات . |
-| FormLetters | `1` | تحديد أن المستند المصدر لدمج المراسلات من نوع الحرف النموذجي. |
-| MailingLabels | `2` | تحديد أن مستند مصدر دمج المراسلات من نوع التسمية البريدية. |
+| NotAMergeDocument | `0` | هذا المستند ليس مستند دمج بريد. |
+| FormLetters | `1` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع الرسالة النموذجية. |
+| MailingLabels | `2` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع التسمية البريدية. |
 | Envelopes | `4` | تحديد أن المستند المصدر لدمج المراسلات من نوع المغلف. |
 | Catalog | `8` | تحديد أن المستند المصدر لدمج المراسلات من نوع الكتالوج. |
-| Email | `16` | تحديد أن المستند المصدر لدمج المراسلات من نوع رسالة البريد الإلكتروني. |
+| Email | `16` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع رسالة البريد الإلكتروني. |
 | Fax | `32` | تحديد أن المستند المصدر لدمج المراسلات من نوع الفاكس. |
 | Default | `0` | يساويNotAMergeDocument |
 
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -20,17 +20,18 @@ public ShapeRenderer(ShapeBase shape)
 
 ### أمثلة
 
-يوضح كيفية تجسيد شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
+يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومات.
-    // 1 - أنشئ شكلًا باستخدام مخطط ، واجعله بمقياس معين.
+    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومي.
+    // 1 - قم بإنشاء شكل باستخدام مخطط، ثم قم بعرضه على مقياس محدد.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -41,7 +42,7 @@ public ShapeRenderer(ShapeBase shape)
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - أنشئ مجموعة شكل ، واجعلها بحجم معين.
+    // 2 - إنشاء مجموعة أشكال، وعرضها بحجم محدد.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -71,7 +72,7 @@ public ShapeRenderer(ShapeBase shape)
 }
 
 /// <summary>
-/// يعرض قائمة من الأشكال ويعرضها.
+/// يعرض ويعرض قائمة من الأشكال.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

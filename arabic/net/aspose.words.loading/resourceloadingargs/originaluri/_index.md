@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
 second_title: Aspose.Words لمراجع .NET API
-description: ResourceLoadingArgs ملكية. URI الأصلي للمورد كما هو محدد في المستند المستورد.
+description: ResourceLoadingArgs ملكية. عنوان URI الأصلي للمورد كما هو محدد في المستند المستورد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/resourceloadingargs/originaluri/
 ---
 ## ResourceLoadingArgs.OriginalUri property
 
-URI الأصلي للمورد كما هو محدد في المستند المستورد.
+عنوان URI الأصلي للمورد كما هو محدد في المستند المستورد.
 
 ```csharp
 public string OriginalUri { get; }
@@ -16,17 +16,18 @@ public string OriginalUri { get; }
 
 ### أمثلة
 
-يوضح كيفية تخصيص عملية تحميل الموارد الخارجية في مستند.
+يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادةً ما يتم إدراج الصور باستخدام URI أو مصفوفة بايت.
-    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading لرد الاتصال.
+    // عادة ما يتم إدراج الصور باستخدام URI، أو مصفوفة بايت.
+    // كل مثيل لتحميل المورد سوف يستدعي طريقة ResourceLoading الخاصة برد الاتصال الخاص بنا.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -34,24 +35,25 @@ public string OriginalUri { get; }
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// يسمح لنا بتحميل الصور في مستند باستخدام اختصارات محددة مسبقًا ، بدلاً من URIs.
-/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن باقي إنشاء المستند.
+/// يسمح لنا بتحميل الصور في مستند باستخدام اختصارات محددة مسبقًا، بدلاً من عناوين URI.
+/// سيؤدي هذا إلى فصل منطق تحميل الصورة عن بقية إنشاء المستند.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // إذا واجهت رد النداء هذا أحد اختصارات الصور أثناء تحميل الصورة ،
-        // سيطبق منطقًا فريدًا لكل اختصار محدد بدلاً من معاملته على أنه URI.
+        // إذا واجه رد الاتصال هذا أحد اختصارات الصورة أثناء تحميل الصورة،
+        // سيتم تطبيق منطق فريد لكل اختصار محدد بدلاً من معاملته كعنوان URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {
                 case "Google logo":
                     using (WebClient webClient = new WebClient())
                     {
-                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png ")) ;
+                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png"));
                     }
 
                     return ResourceLoadingAction.UserProvided;

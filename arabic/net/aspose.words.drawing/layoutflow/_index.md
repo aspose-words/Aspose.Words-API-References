@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutFlow
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.LayoutFlow تعداد. يحدد تدفق تخطيط النص في مربع نص.
+description: Aspose.Words.Drawing.LayoutFlow تعداد. يحدد تدفق تخطيط النص في مربع النص.
 type: docs
-weight: 970
+weight: 1100
 url: /ar/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-يحدد تدفق تخطيط النص في مربع نص.
+يحدد تدفق تخطيط النص في مربع النص.
 
 ```csharp
 public enum LayoutFlow
@@ -18,12 +18,12 @@ public enum LayoutFlow
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Horizontal | `0` | يتم عرض النص أفقيًا . |
-| TopToBottomIdeographic | `1` | يتم عرض النص الأيديوغرافي عموديًا. |
-| BottomToTop | `2` | يتم عرض النص عموديًا . |
-| TopToBottom | `3` | يتم عرض النص عموديًا . |
-| HorizontalIdeographic | `4` | يتم عرض النص الأيديوغرافي أفقيًا. |
-| Vertical | `5` | يتم عرض النص عموديًا . |
+| Horizontal | `0` | يتم عرض النص أفقيًا. |
+| TopToBottomIdeographic | `1` | يتم عرض النص الإيديوغرافي عموديًا. |
+| BottomToTop | `2` | يتم عرض النص عموديًا. |
+| TopToBottom | `3` | يتم عرض النص عموديًا. |
+| HorizontalIdeographic | `4` | يتم عرض النص الإيديوغرافي أفقيًا. |
+| Vertical | `5` | يتم عرض النص عموديًا. |
 
 ### أمثلة
 

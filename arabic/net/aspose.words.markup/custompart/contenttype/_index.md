@@ -1,14 +1,14 @@
 ---
 title: CustomPart.ContentType
 second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. يحدد نوع المحتوى لهذا الجزء المخصص.
+description: CustomPart ملكية. يحدد نوع محتوى هذا الجزء المخصص.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-يحدد نوع المحتوى لهذا الجزء المخصص.
+يحدد نوع محتوى هذا الجزء المخصص.
 
 ```csharp
 public string ContentType { get; set; }
@@ -16,25 +16,25 @@ public string ContentType { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية قابلة للتطبيق فقط عندما[`IsExternal`](../isexternal/) هو`خاطئة`.
+هذه الخاصية قابلة للتطبيق فقط عندما[`IsExternal`](../isexternal/) يكون`خطأ شنيع`.
 
-القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة سلسلة غير فارغة.
+القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// استنساخ الجزء الثاني ، ثم أضف النسخة إلى المجموعة.
+// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// تعداد المجموعة وطباعة كل جزء.
+// قم بتعداد المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي أو كلها مرة واحدة.
+// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

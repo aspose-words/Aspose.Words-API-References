@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.RightOffset
 second_title: Aspose.Words لمراجع .NET API
-description: FieldAdvance ملكية. الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل إلى اليمين .
+description: FieldAdvance ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل إلى اليمين.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldadvance/rightoffset/
 ---
 ## FieldAdvance.RightOffset property
 
-الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل إلى اليمين .
+الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل إلى اليمين.
 
 ```csharp
 public string RightOffset { get; set; }
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يليه.
-// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة ،
-// أو يقوم حقل ADVANCE آخر بتحديث قيم الإزاحة / الإحداثيات.
-// 1 - حدد إزاحة اتجاهية:
+// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يتبعه.
+// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة،
+// أو حقل ADVANCE آخر يقوم بتحديث قيم الإزاحة/الإحداثيات.
+// 1 - تحديد إزاحة الاتجاه:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

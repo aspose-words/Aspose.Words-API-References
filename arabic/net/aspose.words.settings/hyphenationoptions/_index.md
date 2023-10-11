@@ -1,14 +1,16 @@
 ---
 title: Class HyphenationOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.HyphenationOptions فصل. يسمح بتكوين خيارات الواصلة في المستند.
+description: Aspose.Words.Settings.HyphenationOptions فصل. يسمح بتكوين خيارات الواصلة للمستند.
 type: docs
-weight: 5500
+weight: 5790
 url: /ar/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-يسمح بتكوين خيارات الواصلة في المستند.
+يسمح بتكوين خيارات الواصلة للمستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الواصلة](https://docs.aspose.com/words/net/working-with-hyphenation/) مقالة توثيقية.
 
 ```csharp
 public class HyphenationOptions
@@ -24,10 +26,10 @@ public class HyphenationOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات . القيمة الافتراضية لهذه الخاصية هي 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة جميعها موصولة بواصلة . القيمة الافتراضية لهذه الخاصية هي **حقيقي** . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | الحصول على المسافة أو تحديدها في 1/20 نقطة من الهامش الأيمن الذي لا ترغب في لوصل الكلمات . القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة) . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | الحصول على أو تعيين المسافة بـ 1/20 نقطة من الهامش الأيمن الذي لا تريد وصل الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة). |
 
 ### أمثلة
 

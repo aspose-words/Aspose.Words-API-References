@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Odso
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. الحصول على أو تعيين الكائن الذي يحدد إعدادات كائن مصدر بيانات Office ODSO.
+description: MailMergeSettings ملكية. الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office ODSO أو تعيينه.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.settings/mailmergesettings/odso/
 ---
 ## MailMergeSettings.Odso property
 
-الحصول على أو تعيين الكائن الذي يحدد إعدادات كائن مصدر بيانات Office (ODSO).
+الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office (ODSO) أو تعيينه.
 
 ```csharp
 public Odso Odso { get; set; }
@@ -16,7 +16,7 @@ public Odso Odso { get; set; }
 
 ### ملاحظات
 
-هذا الكائن ليس فارغًا أبدًا.
+هذا الكائن أبدا`باطل`.
 
 ### أمثلة
 
@@ -33,9 +33,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

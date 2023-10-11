@@ -1,12 +1,14 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. 
+description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة StructuredDocumentTagRangeEnd.
 type: docs
 weight: 450
 url: /ar/net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagRangeEnd method
+
+يتم استدعاؤه عند مواجهة StructuredDocumentTagRangeEnd.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagRangeEnd(

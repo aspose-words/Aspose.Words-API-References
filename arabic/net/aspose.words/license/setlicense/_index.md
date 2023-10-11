@@ -1,14 +1,14 @@
 ---
 title: License.SetLicense
 second_title: Aspose.Words لمراجع .NET API
-description: License طريقة. تراخيص المكون .
+description: License طريقة. ترخيص المكون.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 
-تراخيص المكون .
+ترخيص المكون.
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -16,46 +16,46 @@ public void SetLicense(string licenseName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| licenseName | String | يمكن أن يكون اسم ملف كامل أو قصير أو اسم مورد مضمن. استخدم سلسلة فارغة للتبديل إلى وضع التقييم. |
+| licenseName | String | يمكن أن يكون اسم ملف كاملاً أو قصيرًا أو اسمًا لمورد مضمن. استخدم سلسلة فارغة للتبديل إلى وضع التقييم. |
 
 ### ملاحظات
 
 يحاول العثور على الترخيص في المواقع التالية:
 
-1. مسار صريح.
+1. المسار الصريح.
 
-2. المجلد الذي يحتوي على تجميع مكون Aspose.
+2. المجلد الذي يحتوي على مجموعة مكونات Aspose.
 
-3. المجلد الذي يحتوي على تجميع استدعاء العميل.
+3. المجلد الذي يحتوي على مجموعة الاستدعاء الخاصة بالعميل.
 
-4. المجلد الذي يحتوي على دخول (بدء التشغيل) التجمع.
+4. المجلد الذي يحتوي على مجموعة الإدخال (بدء التشغيل).
 
-5. مورد مضمن في تجميع استدعاء العميل.
+5. مورد مضمن في تجميع الاستدعاء الخاص بالعميل.
 
-**ملحوظة:**في .NET Compact Framework ، يحاول العثور على الترخيص في هذه المواقع فقط:
+**ملحوظة:**في .NET Compact Framework، يحاول العثور على الترخيص في هذه المواقع فقط:
 
-1. مسار صريح.
+1. المسار الصريح.
 
-2. مورد مضمن في تجميع استدعاء العميل.
+2. مورد مضمن في تجميع الاستدعاء الخاص بالعميل.
 
 ### أمثلة
 
-يوضح كيفية تهيئة ترخيص لـ Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
+يوضح كيفية تهيئة ترخيص Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
 
 ```csharp
-// قم بتعيين ترخيص منتج Aspose.Words الخاص بنا عن طريق تمرير اسم ملف نظام الملفات المحلي لملف ترخيص صالح.
+// قم بتعيين الترخيص لمنتج Aspose.Words الخاص بنا عن طريق تمرير اسم ملف نظام الملفات المحلي لملف ترخيص صالح.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// أنشئ نسخة من ملف الترخيص الخاص بنا في مجلد الثنائيات لتطبيقنا.
+// قم بإنشاء نسخة من ملف الترخيص الخاص بنا في مجلد الثنائيات الخاص بتطبيقنا.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// إذا مررنا اسم ملف بدون مسار ،
-// سيبحث SetLicense في العديد من مواقع نظام الملفات المحلي لهذا الملف.
-// سيكون أحد هذه المواقع هو مجلد "bin" ، الذي يحتوي على نسخة من ملف الترخيص الخاص بنا.
+// إذا مررنا اسم ملف بدون مسار،
+// سيبحث SetLicense في العديد من مواقع نظام الملفات المحلية لهذا الملف.
+// سيكون أحد هذه المواقع هو المجلد "bin"، الذي يحتوي على نسخة من ملف الترخيص الخاص بنا.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 
@@ -69,7 +69,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 ## SetLicense(Stream) {#setlicense}
 
-تراخيص المكون .
+ترخيص المكون.
 
 ```csharp
 public void SetLicense(Stream stream)
@@ -81,14 +81,14 @@ public void SetLicense(Stream stream)
 
 ### ملاحظات
 
-استخدم هذه الطريقة لتحميل ترخيص من دفق.
+استخدم هذه الطريقة لتحميل ترخيص من الدفق.
 
 ### أمثلة
 
-يوضح كيفية تهيئة ترخيص لـ Aspose.Words من تيار.
+يوضح كيفية تهيئة ترخيص Aspose.Words من التدفق.
 
 ```csharp
-// قم بتعيين ترخيص منتج Aspose.Words لدينا عن طريق تمرير دفق لملف ترخيص صالح في نظام الملفات المحلي لدينا.
+// قم بتعيين الترخيص لمنتج Aspose.Words الخاص بنا عن طريق تمرير دفق لملف ترخيص صالح في نظام الملفات المحلي الخاص بنا.
 using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NET.lic")))
 {
     License license = new License();

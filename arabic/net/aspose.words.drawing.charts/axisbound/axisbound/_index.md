@@ -1,14 +1,14 @@
 ---
 title: AxisBound.AxisBound
 second_title: Aspose.Words لمراجع .NET API
-description: AxisBound البناء. إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات .
+description: AxisBound البناء. إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات .
+إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات .
 
 ```csharp
 public AxisBound()
@@ -25,21 +25,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة ذات مصفوفتين عشريتين. تحتوي المصفوفة الأولى على قيم X ،
+// أضف سلسلة ذات صفيفين عشريين. المصفوفة الأولى تحتوي على قيم X،
 // والثاني يحتوي على قيم Y المقابلة للنقاط في المخطط المبعثر.
 chart.Series.Add("Series 1", 
     new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
-// بشكل افتراضي ، يتم تطبيق القياس الافتراضي على محوري الرسم البياني X و Y ،
-// بحيث يكون كلا نطاقيهما كبيرًا بما يكفي ليشمل كل قيمة X و Y لكل سلسلة.
+// بشكل افتراضي، يتم تطبيق القياس الافتراضي على المحورين X وY للرسم البياني،
+// بحيث يكون كلا النطاقين كبيرًا بما يكفي ليشمل كل قيمة X وY لكل سلسلة.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
 // يمكننا تحديد حدود المحور الخاصة بنا.
-// في هذه الحالة ، سنجعل مساطر المحور X و Y تظهر نطاقًا من 0 إلى 10.
+// في هذه الحالة، سنجعل كلاً من مساطر المحور X وY تظهر نطاقًا من 0 إلى 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -48,7 +48,7 @@ chart.AxisY.Scaling.Maximum = new AxisBound(10);
 Assert.False(chart.AxisX.Scaling.Minimum.IsAuto);
 Assert.False(chart.AxisY.Scaling.Minimum.IsAuto);
 
-// إنشاء مخطط خطي بسلسلة تتطلب نطاقًا من التواريخ على المحور السيني والقيم العشرية للمحور ص.
+// قم بإنشاء مخطط خطي بسلسلة تتطلب نطاقًا من التواريخ على المحور السيني، والقيم العشرية للمحور الصادي.
 chartShape = builder.InsertChart(ChartType.Line, 450, 300);
 chart = chartShape.Chart;
 chart.Series.Clear();
@@ -62,8 +62,8 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// يمكننا أيضًا تعيين حدود المحور في شكل تواريخ أيضًا ، مع قصر الرسم البياني على فترة زمنية.
-// سيؤدي تعيين النطاق إلى 1980-1990 إلى حذف قيمتي السلاسل
+// يمكننا تعيين حدود المحاور في شكل تواريخ أيضًا، مع تحديد المخطط بفترة.
+// سيؤدي تعيين النطاق إلى 1980-1990 إلى حذف قيمتي السلسلة
 // التي تقع خارج النطاق من الرسم البياني.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
@@ -81,7 +81,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ## AxisBound(double) {#constructor_1}
 
-لإنشاء حد محور يتم تمثيله كرقم .
+إنشاء محور محدد ممثلاً برقم.
 
 ```csharp
 public AxisBound(double value)
@@ -89,7 +89,7 @@ public AxisBound(double value)
 
 ### أمثلة
 
-يوضح كيفية إدراج مخطط بقيم التاريخ / الوقت.
+يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
 ```csharp
 Document doc = new Document();
@@ -98,10 +98,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ / الوقت للمحور السيني ، والقيم العشرية ذات الصلة للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -115,12 +115,14 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// قم بتعيين الوحدات الرئيسية للمحور X على أسبوع ، والوحدات الثانوية على يوم.
+// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // تحديد خصائص المحور ص للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
@@ -130,6 +132,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```
@@ -144,7 +148,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(DateTime) {#constructor_2}
 
-يُنشئ محورًا منضمًا يتم تمثيله كقيمة للتاريخ والوقت.
+ينشئ محورًا محددًا يتم تمثيله كقيمة تاريخ ووقت.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -152,7 +156,7 @@ public AxisBound(DateTime datetime)
 
 ### أمثلة
 
-يوضح كيفية إدراج مخطط بقيم التاريخ / الوقت.
+يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
 ```csharp
 Document doc = new Document();
@@ -161,10 +165,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ / الوقت للمحور السيني ، والقيم العشرية ذات الصلة للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -178,12 +182,14 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// قم بتعيين الوحدات الرئيسية للمحور X على أسبوع ، والوحدات الثانوية على يوم.
+// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // تحديد خصائص المحور ص للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
@@ -193,6 +199,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

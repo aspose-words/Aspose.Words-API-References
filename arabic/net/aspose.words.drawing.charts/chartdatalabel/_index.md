@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataLabel
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartDataLabel فصل. يمثل تسمية البيانات على نقطة مخطط أو خط اتجاه.
+description: Aspose.Words.Drawing.Charts.ChartDataLabel فصل. يمثل تسمية البيانات على نقطة الرسم البياني أو خط الاتجاه.
 type: docs
-weight: 630
+weight: 670
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
 
-يمثل تسمية البيانات على نقطة مخطط أو خط اتجاه.
+يمثل تسمية البيانات على نقطة الرسم البياني أو خط الاتجاه.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
 ```csharp
 public class ChartDataLabel
@@ -18,35 +20,38 @@ public class ChartDataLabel
 
 | اسم | وصف |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | تحديد فهرس العنصر المحتوي. سيحدد هذا الفهرس أي مجموعة من العناصر الأبناء ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | يحصل / يحدد علامة تشير إلى ما إذا كانت هذه التسمية مخفية. القيمة الافتراضية هي **خاطئة** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه . |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | إرجاع تنسيق الأرقام للعنصر الأصل. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات على الرسم البياني. الافتراضي هو الفاصلة ، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط ، عند استخدام فاصل أسطر بدلاً من ذلك. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على الرسم البياني. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية خاطئة . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط. صحيح لإظهار اسم السلسلة. خطأ للاختباء. افتراضيا false . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة . |
+| [Font](../../aspose.words.drawing.charts/chartdatalabel/font/) { get; } | يوفر الوصول إلى تنسيق الخط لتسمية البيانات هذه. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabel/format/) { get; } | يوفر الوصول إلى تعبئة وتنسيق سطر تسمية البيانات. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | يحدد فهرس العنصر الذي يحتوي عليه. سيحدد هذا الفهرس المجموعة الفرعية للأصل التي ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | الحصول على/تعيين علامة تشير إلى ما إذا كانت هذه التسمية مخفية أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | إرجاع`حقيقي` إذا كان تصنيف البيانات هذا يحتوي على شيء لعرضه. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | إرجاع تنسيق الرقم للعنصر الأصلي. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات في المخطط. الإعداد الافتراضي هو فاصلة، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط، عند استخدام فاصل الأسطر بدلاً من ذلك. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على المخطط. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات على المخطط. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | يسمح بتحديد ما إذا كانت هناك حاجة إلى إظهار الخطوط الرئيسية لتسمية البيانات. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على المخطط. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على المخطط. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات في المخطط. `حقيقي` لإظهار اسم المسلسل؛`خطأ شنيع` لإخفاء. بشكل افتراضي`خطأ شنيع` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية هي`خطأ شنيع` . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في البيانات الأصلية data label collection. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في مجموعة التسمية data الأصل. |
 
 ### ملاحظات
 
-في سلسلة ، ملف`ChartDataLabel` الكائن عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ملف[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على`ChartDataLabel` كائن لكل نقطة.
+في مسلسل`ChartDataLabel` الكائن هو عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ال[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على`ChartDataLabel` كائن لكل نقطة.
 
 ### أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -59,15 +64,15 @@ public class ChartDataLabel
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // تطبيق تسميات البيانات على كل سلسلة في الرسم البياني.
-    // ستظهر هذه العلامات بجوار كل نقطة بيانات في الرسم البياني وتعرض قيمتها.
+    // قم بتطبيق تسميات البيانات على كل سلسلة في المخطط.
+    // ستظهر هذه التسميات بجوار كل نقطة بيانات في الرسم البياني وستعرض قيمتها.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // تغيير سلسلة الفاصل لكل تسمية بيانات في سلسلة.
+    // قم بتغيير السلسلة الفاصلة لكل تسمية بيانات في السلسلة.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -77,7 +82,7 @@ public class ChartDataLabel
         }
     }
 
-    // للحصول على رسم بياني أنظف ، يمكننا إزالة ملصقات البيانات بشكل فردي.
+    // للحصول على رسم بياني أكثر وضوحًا، يمكننا إزالة تسميات البيانات بشكل فردي.
     chart.Series[1].DataLabels[2].ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من تسميات البيانات الخاصة بها مرة واحدة.
@@ -87,7 +92,7 @@ public class ChartDataLabel
 }
 
 /// <summary>
-/// تطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
+/// قم بتطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

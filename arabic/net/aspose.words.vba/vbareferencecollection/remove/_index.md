@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: VbaReferenceCollection طريقة. يزيل التواجد الأول لعنصر VbaReference المحدد من المجموعة.
+description: VbaReferenceCollection طريقة. إزالة التواجد الأول لعنصر محددVbaReference عنصر من المجموعة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-يزيل التواجد الأول لعنصر VbaReference المحدد من المجموعة.
+إزالة التواجد الأول لعنصر محدد[`VbaReference`](../../vbareference/) عنصر من المجموعة.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -16,10 +16,9 @@ public void Remove(VbaReference item)
 
 ### أمثلة
 
-يوضح كيفية الحصول على / إزالة عنصر من مجموعة مرجع VBA.
+يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// إرجاع سلسلة تمثل مسار LibId لمرجع محدد. 
+ /// إرجاع سلسلة تمثل مسار LibId لمرجع محدد.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +62,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +77,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

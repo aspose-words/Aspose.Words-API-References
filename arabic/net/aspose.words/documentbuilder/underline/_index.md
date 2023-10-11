@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Underline
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. الحصول على / مجموعات نوع التسطير للخط الحالي.
+description: DocumentBuilder ملكية. يحصل على/يحدد نوع التسطير للخط الحالي.
 type: docs
-weight: 170
+weight: 190
 url: /ar/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property
 
-الحصول على / مجموعات نوع التسطير للخط الحالي.
+يحصل على/يحدد نوع التسطير للخط الحالي.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -16,7 +16,7 @@ public Underline Underline { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تنسيق النص الذي تم إدراجه بواسطة منشئ المستندات.
+يوضح كيفية تنسيق النص المدرج بواسطة منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// يطبق المنشئ التنسيق على فقرته الحالية وأي نص جديد يضيفه بعد ذلك.
+// يطبق المنشئ التنسيق على فقرته الحالية وأي نص جديد يضاف بواسطته بعد ذلك.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

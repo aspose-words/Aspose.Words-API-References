@@ -1,14 +1,14 @@
 ---
 title: Shape.Shape
 second_title: Aspose.Words لمراجع .NET API
-description: Shape البناء. إنشاء كائن شكل جديد .
+description: Shape البناء. إنشاء كائن شكل جديد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shape/shape/
 ---
 ## Shape constructor
 
-إنشاء كائن شكل جديد .
+إنشاء كائن شكل جديد.
 
 ```csharp
 public Shape(DocumentBase doc, ShapeType shapeType)
@@ -21,19 +21,19 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 ### ملاحظات
 
-يجب تحديد خصائص الشكل المطلوبة بعد إنشاء الشكل.
+يجب عليك تحديد خصائص الشكل المطلوب بعد إنشاء الشكل.
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل بصورة من نظام الملفات المحلي في مستند.
+يوضح كيفية إدراج شكل به صورة من نظام الملفات المحلي في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// سيقوم المُنشئ العام لفئة "الشكل" بإنشاء شكل بنوع علامة "ShapeMarkupLanguage.Vml".
-// إذا كنت بحاجة إلى إنشاء شكل من نوع غير بدائي ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
-// TopCornersOneRoundedOneSnipped أو SingleCornerRounded أو TopCornersRounded أو DiagonalCornersRounded
-// الرجاء استخدام DocumentBuilder.InsertShape.
+// سيقوم المنشئ العام لفئة "الشكل" بإنشاء شكل بنوع الترميز "ShapeMarkupLanguage.Vml".
+// إذا كنت بحاجة إلى إنشاء شكل من النوع غير البدائي، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
+// TopCornersOneRoundedOneSnipped، أو SingleCornerRounded، أو TopCornersRounded، أو DiagonalCornersRounded،
+// يرجى استخدام DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -55,11 +55,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// تعيين المحاذاة الأفقية والعمودية للنص داخل الشكل.
+// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
+// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

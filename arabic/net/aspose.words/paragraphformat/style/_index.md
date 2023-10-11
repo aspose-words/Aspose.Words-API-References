@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Style
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تحديد نمط الفقرة المطبق على هذا التنسيق.
+description: ParagraphFormat ملكية. الحصول على أو تعيين نمط الفقرة المطبق على هذا التنسيق.
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/aspose.words/paragraphformat/style/
 ---
 ## ParagraphFormat.Style property
 
-الحصول على أو تحديد نمط الفقرة المطبق على هذا التنسيق.
+الحصول على أو تعيين نمط الفقرة المطبق على هذا التنسيق.
 
 ```csharp
 public Style Style { get; set; }
@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه مع تنسيق القائمة.
+يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ الوثيقة ، ثم أضف بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 

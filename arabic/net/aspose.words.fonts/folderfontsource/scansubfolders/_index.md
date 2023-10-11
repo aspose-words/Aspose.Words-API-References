@@ -16,10 +16,10 @@ public bool ScanSubfolders { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام مجلد نظام محلي يحتوي على خطوط كمصدر للخط.
+يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
 ```csharp
-// إنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
+// قم بإنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

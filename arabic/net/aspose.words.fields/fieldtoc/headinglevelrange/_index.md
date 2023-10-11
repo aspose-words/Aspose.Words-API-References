@@ -1,14 +1,14 @@
 ---
 title: FieldToc.HeadingLevelRange
 second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على نطاق من مستويات العناوين المراد تضمينها أو تعيينها .
+description: FieldToc ملكية. الحصول على أو تعيين نطاق من مستويات العناوين المراد تضمينها.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldtoc/headinglevelrange/
 ---
 ## FieldToc.HeadingLevelRange property
 
-الحصول على نطاق من مستويات العناوين المراد تضمينها أو تعيينها .
+الحصول على أو تعيين نطاق من مستويات العناوين المراد تضمينها.
 
 ```csharp
 public string HeadingLevelRange { get; set; }
@@ -16,39 +16,40 @@ public string HeadingLevelRange { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج جدول المحتويات ، وملئه بالإدخالات بناءً على أنماط العناوين.
+يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     builder.StartBookmark("MyBookmark");
 
-    // أدخل حقل جدول المحتويات ، والذي سيجمع كل العناوين في جدول المحتويات.
-    // لكل عنوان ، سينشئ هذا الحقل سطرًا بالنص الموجود في نمط العنوان هذا إلى اليسار ،
-    // والصفحة التي يظهر عليها العنوان إلى اليمين.
+    // أدخل حقل جدول المحتويات، الذي سيجمع كل العناوين في جدول المحتويات.
+    // لكل عنوان، سينشئ هذا الحقل سطرًا يحتوي على النص بنمط العنوان هذا على اليسار،
+    // والصفحة التي يظهر فيها العنوان على اليمين.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // استخدم خاصية BookmarkName لقائمة العناوين فقط
-    // التي تظهر داخل حدود إشارة مرجعية باسم "MyBookmark".
+    // استخدم خاصية BookmarkName لسرد العناوين فقط
+    // التي تظهر ضمن حدود الإشارة المرجعية باسم "MyBookmark".
     field.BookmarkName = "MyBookmark";
 
-    // سيتم احتساب النص الذي يحتوي على نمط عنوان مضمّن ، مثل "العنوان 1" ، المطبق عليه كعنوان.
-    // يمكننا تسمية أنماط إضافية ليتم التقاطها كعناوين بواسطة جدول المحتويات في هذه الخاصية ومستويات جدول المحتويات.
+    // سيتم احتساب النص الذي يحتوي على نمط عنوان مدمج، مثل "العنوان 1"، المطبق عليه كعنوان.
+    // يمكننا تسمية الأنماط الإضافية التي سيتم التقاطها كعناوين بواسطة جدول المحتويات في هذه الخاصية ومستويات جدول المحتويات الخاصة بها.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // افتراضيًا ، يتم فصل مستويات الأنماط / جدول المحتويات في خاصية CustomStyles بفاصلة ،
+    // افتراضيًا، يتم فصل مستويات الأنماط/جدول المحتويات في خاصية CustomStyles بفاصلة،
     // ولكن يمكننا تعيين محدد مخصص في هذه الخاصية.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // تكوين الحقل لاستبعاد أي عناوين لها مستويات جدول المحتويات خارج هذا النطاق.
+    // قم بتكوين الحقل لاستبعاد أي عناوين تحتوي على مستويات جدول المحتويات خارج هذا النطاق.
     field.HeadingLevelRange = "1-3";
 
-    // لن يعرض جدول المحتويات أرقام صفحات العناوين التي تقع مستويات جدول المحتويات ضمن هذا النطاق.
+    // لن يعرض جدول المحتويات أرقام صفحات العناوين التي تقع مستويات جدول المحتويات الخاصة بها ضمن هذا النطاق.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // قم بتعيين سلسلة مخصصة تفصل كل عنوان عن رقم صفحته.
+     // قم بتعيين سلسلة مخصصة تفصل كل عنوان عن رقم الصفحة الخاص به.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -62,11 +63,11 @@ public string HeadingLevelRange { get; set; }
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // سيتم حذف أرقام الصفحات لهذين العنوانين لأنهما يقعان ضمن النطاق "2-5".
+    // سيتم حذف أرقام الصفحات في هذين العنوانين لأنها تقع ضمن النطاق "2-5".
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // لا يظهر هذا الإدخال لأن "العنوان 4" خارج النطاق "1-3" الذي حددناه سابقًا.
+    // لا يظهر هذا الإدخال لأن "العنوان 4" يقع خارج النطاق "1-3" الذي قمنا بتعيينه مسبقًا.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
@@ -80,9 +81,10 @@ public string HeadingLevelRange { get; set; }
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
-/// ابدأ صفحة جديدة وأدخل فقرة من النمط المحدد.
+/// ابدأ صفحة جديدة وأدخل فقرة بنمط محدد.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

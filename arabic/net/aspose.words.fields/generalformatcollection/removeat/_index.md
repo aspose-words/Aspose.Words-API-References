@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.RemoveAt
 second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection طريقة. يزيل حدوث تنسيق عام في الفهرس المحدد.
+description: GeneralFormatCollection طريقة. إزالة تكرار التنسيق العام في الفهرس المحدد.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/generalformatcollection/removeat/
 ---
 ## GeneralFormatCollection.RemoveAt method
 
-يزيل حدوث تنسيق عام في الفهرس المحدد.
+إزالة تكرار التنسيق العام في الفهرس المحدد.
 
 ```csharp
 public void RemoveAt(int index)
@@ -26,7 +26,7 @@ public void RemoveAt(int index)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون أي تنسيق مطبق.
+// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -42,7 +42,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - تنسيق التاريخ / الوقت:
+// 2 - تنسيق التاريخ/الوقت:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -68,7 +68,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكله الأصلي.
+// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

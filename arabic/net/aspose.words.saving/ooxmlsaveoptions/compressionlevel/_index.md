@@ -16,18 +16,18 @@ public CompressionLevel CompressionLevel { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تحديد مستوى الضغط لاستخدامه أثناء حفظ مستند OOXML.
+يوضح كيفية تحديد مستوى الضغط المطلوب استخدامه أثناء حفظ مستند OOXML.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
-// عندما نحفظ المستند بتنسيق OOXML ، يمكننا إنشاء كائن OoxmlSaveOptions
+// عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
 // ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// قم بتعيين خاصية "CompressionLevel" إلى "CompressionLevel.Maximum" لتطبيق أقوى وأبطأ ضغط.
-// قم بتعيين خاصية "CompressionLevel" إلى "CompressionLevel.Normal" لتطبيقها
+// اضبط خاصية "CompressionLevel" على "CompressionLevel.Maximum" لتطبيق الضغط الأقوى والأبطأ.
+// قم بتعيين خاصية "CompressionLevel" على "CompressionLevel.Normal" ليتم تطبيقها
 // الضغط الافتراضي الذي يستخدمه Aspose.Words أثناء حفظ مستندات OOXML.
-// قم بتعيين خاصية "CompressionLevel" إلى "CompressionLevel.Fast" لتطبيق ضغط أسرع وأضعف.
-// قم بتعيين خاصية "CompressionLevel" إلى "CompressionLevel.SuperFast" لتطبيقها
+// اضبط خاصية "CompressionLevel" على "CompressionLevel.Fast" لتطبيق ضغط أسرع وأضعف.
+// قم بتعيين خاصية "CompressionLevel" على "CompressionLevel.SuperFast" لتطبيقها
 // الضغط الافتراضي الذي يستخدمه Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;

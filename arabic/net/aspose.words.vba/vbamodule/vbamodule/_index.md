@@ -1,14 +1,14 @@
 ---
 title: VbaModule.VbaModule
 second_title: Aspose.Words لمراجع .NET API
-description: VbaModule البناء. ينشئ وحدة فارغة .
+description: VbaModule البناء. إنشاء وحدة فارغة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbamodule/vbamodule/
 ---
 ## VbaModule constructor
 
-ينشئ وحدة فارغة .
+إنشاء وحدة فارغة.
 
 ```csharp
 public VbaModule()
@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// إنشاء وحدة نمطية جديدة وتحديد شفرة مصدر الماكرو.
+// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة إلى مشروع VBA.
+// أضف الوحدة النمطية إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

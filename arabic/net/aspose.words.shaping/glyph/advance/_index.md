@@ -1,12 +1,14 @@
 ---
 title: Glyph.Advance
 second_title: Aspose.Words لمراجع .NET API
-description: Glyph ملكية. 
+description: Glyph ملكية. العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
+
+العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة.
 
 ```csharp
 public short Advance { get; set; }

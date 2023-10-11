@@ -1,14 +1,14 @@
 ---
 title: FieldLink.InsertAsRtf
 second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق richtext RTF.
+description: FieldLink ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص منسق RTF.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldlink/insertasrtf/
 ---
 ## FieldLink.InsertAsRtf property
 
-الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق rich-text (RTF).
+الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص منسق (RTF).
 
 ```csharp
 public bool InsertAsRtf { get; set; }
@@ -16,15 +16,16 @@ public bool InsertAsRtf { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بمستندات أخرى في نظام الملفات المحلي ، وعرض محتوياتها.
+يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات من مستند مرتبط في شكل نص.
-    // 1 - حقل LINK:
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل نص.
+    // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -42,12 +43,13 @@ public bool InsertAsRtf { get; set; }
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات من مستند مرتبط في شكل صورة.
-    // 1 - حقل LINK:
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل صورة.
+    // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -67,7 +69,7 @@ public bool InsertAsRtf { get; set; }
 }
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل LINK وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل LINK وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -105,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل DDE ، وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل DDE وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل DDEAUTO وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل DDEAUTO وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

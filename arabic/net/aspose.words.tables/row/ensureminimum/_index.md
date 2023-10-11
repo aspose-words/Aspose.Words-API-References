@@ -1,14 +1,14 @@
 ---
 title: Row.EnsureMinimum
 second_title: Aspose.Words لمراجع .NET API
-description: Row طريقة. إذا كان ملف صف لا يحتوي على خلايا  يقوم بإنشاء وإلحاق خلية واحدة خلية .
+description: Row طريقة. إذاRow لا يحتوي على خلايا ويقوم بإنشاء وإلحاق واحدةCell .
 type: docs
-weight: 110
+weight: 150
 url: /ar/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-إذا كان ملف **صف** لا يحتوي على خلايا ، يقوم بإنشاء وإلحاق خلية واحدة **خلية** .
+إذا[`Row`](../) لا يحتوي على خلايا، ويقوم بإنشاء وإلحاق واحدة[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -16,7 +16,7 @@ public void EnsureMinimum()
 
 ### أمثلة
 
-يوضح كيفية التأكد من احتواء عقدة الصف على العقد التي نحتاجها لبدء إضافة محتوى إليها.
+يوضح كيفية التأكد من أن عقدة الصف تحتوي على العقد التي نحتاجها لبدء إضافة المحتوى إليها.
 
 ```csharp
 Document doc = new Document();
@@ -25,12 +25,12 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// تحتوي الصفوف على خلايا تحتوي على فقرات تحتوي على عناصر نموذجية مثل عمليات التشغيل والأشكال وحتى الجداول الأخرى.
-// لا يحتوي صفنا الجديد على أي من هذه العقد ، ولا يمكننا إضافة محتويات إليه حتى يحدث ذلك.
+// تحتوي الصفوف على خلايا تحتوي على فقرات تحتوي على عناصر نموذجية مثل المسارات والأشكال وحتى الجداول الأخرى.
+// لا يحتوي صفنا الجديد على أي من هذه العقد، ولا يمكننا إضافة محتويات إليه حتى يتم ذلك.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// استدعاء طريقة "ضمان الحد الأدنى" على الطاولة سيضمن ذلك
-// يحتوي الجدول على خلية واحدة على الأقل بها فقرة فارغة.
+// سيؤدي استدعاء طريقة "EnsureMinimum" على الجدول إلى التأكد من ذلك
+// يحتوي الجدول على خلية واحدة على الأقل تحتوي على فقرة فارغة.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

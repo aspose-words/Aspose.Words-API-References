@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.LockFields
 second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. يحصل أو يحدد ما إذا كان سيتم منع تحديث الحقول في المستند المضمن.
+description: FieldIncludeText ملكية. الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldincludetext/lockfields/
 ---
 ## FieldIncludeText.LockFields property
 
-يحصل أو يحدد ما إذا كان سيتم منع تحديث الحقول في المستند المضمن.
+الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن.
 
 ```csharp
 public bool LockFields { get; set; }
@@ -36,10 +36,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionReferenceCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection فصل. يحدد قائمة مراجع امتداد الويب .
+description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection فصل. يحدد قائمة بمراجع امتدادات الويب.
 type: docs
-weight: 6500
+weight: 6810
 url: /ar/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-يحدد قائمة مراجع امتداد الويب .
+يحدد قائمة بمراجع امتدادات الويب.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وظائف Office الإضافية](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

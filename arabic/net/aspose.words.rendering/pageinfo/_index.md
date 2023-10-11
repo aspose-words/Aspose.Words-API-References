@@ -1,14 +1,16 @@
 ---
 title: Class PageInfo
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.PageInfo فصل. يمثل معلومات حول صفحة وثيقة معينة.
+description: Aspose.Words.Rendering.PageInfo فصل. يمثل معلومات حول صفحة مستند معينة.
 type: docs
-weight: 4310
+weight: 4570
 url: /ar/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
-يمثل معلومات حول صفحة وثيقة معينة.
+يمثل معلومات حول صفحة مستند معينة.
+
+لمعرفة المزيد، قم بزيارة[استدعاء](https://docs.aspose.com/words/net/rendering/) مقالة توثيقية.
 
 ```csharp
 public class PageInfo
@@ -18,25 +20,26 @@ public class PageInfo
 
 | اسم | وصف |
 | --- | --- |
-| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | الحصول على ارتفاع الصفحة بالنقاط . |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | إرجاع صحيح إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة أفقيًا. |
-| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | الحصول على حجم الورق كتعداد . |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | الحصول على درج (حاوية) الورق لهذه الصفحة كما هو محدد في المستند. |
-| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | الحصول على حجم الصفحة بالنقاط . |
-| [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | الحصول على عرض الصفحة بالنقاط . |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | إرجاع`حقيقي` إذا كانت الصفحة تحتوي على محتوى ملون. |
+| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | الحصول على ارتفاع الصفحة بالنقاط. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | إرجاع`حقيقي` إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو الاتجاه الأفقي. |
+| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | الحصول على حجم الورق بالتعداد. |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | الحصول على درج الورق (الحاوية) لهذه الصفحة كما هو محدد في المستند. القيمة خاصة بالتنفيذ (الطابعة). |
+| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | الحصول على حجم الصفحة بالنقاط. |
+| [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | الحصول على عرض الصفحة بالنقاط. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | يحصل على ملفPaperSize كائن مناسب للطباعة الصفحة التي يمثلها هذا`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | يحصل علىPaperSize كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | يحصل على ملفPaperSource كائن مناسب للطباعة الصفحة التي يمثلها هذا`PageInfo` . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
 
 ### ملاحظات
 
-يمثل عرض الصفحة وارتفاعها الناتج عن هذا الكائن الحجم "النهائي" للصفحة ، على سبيل المثال ، تم تدويرهما بالفعل إلى الاتجاه الصحيح.
+يمثل عرض الصفحة وارتفاعها الذي يتم إرجاعه بواسطة هذا الكائن الحجم "النهائي" للصفحة، على سبيل المثال، تم تدويرهما بالفعل إلى الاتجاه الصحيح.
 
 ### أمثلة
 
@@ -45,8 +48,8 @@ public class PageInfo
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// يحتوي القسم الأول على صفحتين. سنقوم بتعيين درج ورق طابعة مختلف لكل واحد ،
-// الذي سيتطابق رقمه مع نوع مصدر الورق. هذه المصادر وأنواعها سوف تختلف
+// القسم الأول يحتوي على صفحتين. سنقوم بتخصيص درج ورق طابعة مختلف لكل واحد،
+// الذي سيتطابق رقمه مع نوع مصدر الورق. وسوف تختلف هذه المصادر وأنواعها
 // اعتمادًا على برنامج تشغيل الطابعة المثبت.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -60,7 +63,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // تحتوي كل صفحة على كائن PageInfo ، والفهرس الخاص به هو رقم الصفحة المعنية.
+    // تحتوي كل صفحة على كائن PageInfo، والفهرس الخاص به هو رقم الصفحة المعنية.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // اطبع اتجاه الصفحة وأبعادها.
@@ -70,7 +73,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // اطبع معلومات علبة المصدر.
+    // اطبع معلومات الدرج المصدر.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

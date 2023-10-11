@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين مقيِّم تعبيرات مقارنة الحقول.
+description: FieldOptions ملكية. الحصول على أو تعيين مقيم تعبيرات مقارنة الحقول.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property
 
-الحصول على أو تعيين مقيِّم تعبيرات مقارنة الحقول.
+الحصول على أو تعيين مقيم تعبيرات مقارنة الحقول.
 
 ```csharp
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
@@ -16,7 +16,7 @@ public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; 
 
 ### أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقلي IF و COMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -28,12 +28,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // أكواد الحقول التي نستخدمها في هذا المثال:
-    // 1. "إذا {0} {1} {2} \" وسيطة صحيحة \ "\" وسيطة خاطئة \ "".
-    // 2. "قارن {0} {1} {2}".
+    // رموز الحقول التي نستخدمها في هذا المثال:
+    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
+    // 2. " قارن {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "ComparisonEvaluationResult" غير محددة ، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من منطقي.
+    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

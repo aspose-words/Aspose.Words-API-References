@@ -1,14 +1,14 @@
 ---
 title: Enum Compatibility
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.Compatibility تعداد. يحدد أسماء خيارات التوافق .
+description: Aspose.Words.Settings.Compatibility تعداد. يحدد أسماء خيارات التوافق.
 type: docs
-weight: 5480
+weight: 5770
 url: /ar/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
 
-يحدد أسماء خيارات التوافق .
+يحدد أسماء خيارات التوافق.
 
 ```csharp
 public enum Compatibility
@@ -100,14 +100,14 @@ public void OptimizeFor()
     Document doc = new Document();
 
     // يحتوي هذا الكائن على قائمة واسعة من العلامات الفريدة لكل مستند
-    // التي تسمح لنا بتسهيل التوافق مع الإصدارات القديمة من Microsoft Word.
+    // التي تتيح لنا تسهيل التوافق مع الإصدارات القديمة من Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // طباعة الإعدادات الافتراضية لمستند فارغ.
+    // اطبع الإعدادات الافتراضية لمستند فارغ.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // يمكننا الوصول إلى هذه الإعدادات في Microsoft Word عبر "ملف" - >; "خيارات" - >. "متقدم" - >. "خيارات التوافق لـ ...".
+    // يمكننا الوصول إلى هذه الإعدادات في Microsoft Word عبر "ملف" -> "الخيارات" -> "متقدم" -> "خيارات التوافق لـ...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // يمكننا استخدام طريقة OptimizeFor لضمان التوافق الأمثل مع إصدار معين من Microsoft Word.
@@ -121,7 +121,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// يجمع كل العلامات في كائن خيارات توافق المستند حسب الحالة ، ثم يطبع كل مجموعة.
+/// يجمع كل العلامات الموجودة في كائن خيارات توافق المستند حسب الحالة، ثم يطبع كل مجموعة.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

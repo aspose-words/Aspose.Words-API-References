@@ -1,14 +1,14 @@
 ---
 title: RowFormat.HeadingFormat
 second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة .
+description: RowFormat ملكية. صحيح إذا تم تكرار الصف كعنوان جدول في كل صفحة عندما يمتد الجدول لأكثر من صفحة واحدة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة .
+صحيح إذا تم تكرار الصف كعنوان جدول في كل صفحة عندما يمتد الجدول لأكثر من صفحة واحدة.
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -16,7 +16,7 @@ public bool HeadingFormat { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء جدول بالصفوف التي تتكرر في كل صفحة.
+يوضح كيفية إنشاء جدول يحتوي على صفوف تتكرر في كل صفحة.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// أي صفوف تم إدراجها أثناء تعيين علامة "HeadingFormat" على "true"
-// في أعلى الجدول في كل صفحة يمتد عليها.
+// أي صفوف يتم إدراجها أثناء تعيين علامة "HeadingFormat" على "true"
+// سيظهر في أعلى الجدول في كل صفحة يمتد فيها.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -40,7 +40,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// أضف عددًا كافيًا من الصفوف بحيث يمتد الجدول على صفحتين.
+// أضف صفوفًا كافية حتى يغطي الجدول صفحتين.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

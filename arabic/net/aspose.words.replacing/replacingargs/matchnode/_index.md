@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.MatchNode
 second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. يحصل على العقدة التي تحتوي على بداية المباراة .
+description: ReplacingArgs ملكية. الحصول على العقدة التي تحتوي على بداية المباراة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-يحصل على العقدة التي تحتوي على بداية المباراة .
+الحصول على العقدة التي تحتوي على بداية المباراة.
 
 ```csharp
 public Node MatchNode { get; }
@@ -19,6 +19,7 @@ public Node MatchNode { get; }
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -28,6 +29,8 @@ public Node MatchNode { get; }
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -39,7 +42,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -47,7 +50,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

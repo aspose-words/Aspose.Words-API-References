@@ -1,14 +1,14 @@
 ---
 title: StyleCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على نمط بالاسم أو الاسم المستعار .
+description: StyleCollection ملكية. الحصول على النمط بالاسم أو الاسم المستعار.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/stylecollection/item/
 ---
 ## StyleCollection indexer (1 of 3)
 
-الحصول على نمط بالاسم أو الاسم المستعار .
+الحصول على النمط بالاسم أو الاسم المستعار.
 
 ```csharp
 public Style this[string name] { get; }
@@ -16,28 +16,29 @@ public Style this[string name] { get; }
 
 ### ملاحظات
 
-حساس لحالة الأحرف ، يتم إرجاع قيمة فارغة إذا لم يتم العثور على النمط الذي يحمل الاسم المحدد.
+حساس لحالة الأحرف، المرتجعات`باطل` إذا لم يتم العثور على النمط الذي يحمل الاسم المحدد.
 
-إذا كان هذا اسمًا باللغة الإنجليزية لنمط مدمج غير موجود بعد ، فقم بإنشائه تلقائيًا.
+إذا كان هذا اسمًا إنجليزيًا لنمط مضمن غير موجود بعد، فقم بإنشائه تلقائيًا.
 
 ### أمثلة
 
-يظهر وقت إعادة حساب تخطيط الصفحة للمستند.
+يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// حفظ مستند إلى ملف PDF أو في صورة أو الطباعة لأول مرة سيتم تلقائيًا
-// تخزين تخطيط المستند مؤقتًا داخل صفحاته.
+// سيتم تلقائيًا حفظ مستند إلى PDF أو صورة أو طباعته لأول مرة
+// قم بتخزين تخطيط المستند داخل صفحاته.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
 // قم بتعديل المستند بطريقة ما.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // في الإصدار الحالي من Aspose.Words ، لا يؤدي تعديل المستند إلى إعادة البناء تلقائيًا
-// تخطيط الصفحة المخبأة. إذا كنا نرغب في التخطيط المخبأ
-// للبقاء محدثًا ، سنحتاج إلى تحديثه يدويًا.
+ // في الإصدار الحالي من Aspose.Words، لا يؤدي تعديل المستند إلى إعادة البناء تلقائيًا
+// تخطيط الصفحة المخزنة مؤقتًا. إذا أردنا التخطيط المخبأ
+// للبقاء على اطلاع، سنحتاج إلى تحديثه يدويًا.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
@@ -54,7 +55,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ## StyleCollection indexer (2 of 3)
 
-الحصول على نمط مضمن بواسطة المعرف المستقل المحلي الخاص به.
+الحصول على نمط مدمج من خلال المعرف المحلي المستقل الخاص به.
 
 ```csharp
 public Style this[StyleIdentifier sti] { get; }
@@ -62,11 +63,11 @@ public Style this[StyleIdentifier sti] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| sti | أ[`StyleIdentifier`](../../styleidentifier/) القيمة التي تحدد النمط المضمن لاسترداده. |
+| sti | أ[`StyleIdentifier`](../../styleidentifier/) القيمة التي تحدد النمط المدمج الذي سيتم استرداده. |
 
 ### ملاحظات
 
-عند الوصول إلى نمط غير موجود بعد ، يقوم بإنشائه تلقائيًا.
+عند الوصول إلى نمط غير موجود بعد، يتم إنشاؤه تلقائيًا.
 
 ### أمثلة
 
@@ -74,16 +75,14 @@ public Style this[StyleIdentifier sti] { get; }
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-
-// إذا أضفنا نمطًا من "StyleType.Paragraph" ، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "تنسيق ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
+// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// أضف نمطًا ، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);
@@ -102,7 +101,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 ## StyleCollection indexer (3 of 3)
 
-الحصول على نمط حسب الفهرس .
+الحصول على النمط حسب الفهرس.
 
 ```csharp
 public Style this[int index] { get; }
@@ -114,16 +113,14 @@ public Style this[int index] { get; }
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-
-// إذا أضفنا نمطًا من "StyleType.Paragraph" ، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "تنسيق ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
+// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// أضف نمطًا ، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

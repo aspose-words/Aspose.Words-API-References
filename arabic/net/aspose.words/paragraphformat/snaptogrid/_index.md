@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.SnapToGrid
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. يحدد ما إذا كان يجب أن تستخدم الفقرة الحالية خطوط شبكة المستند لكل إعدادات صفحة عند تخطيط المحتويات في الفقرة.
+description: ParagraphFormat ملكية. يحدد ما إذا كان يجب على الفقرة الحالية استخدام خطوط شبكة المستند لكل صفحة settings عند تخطيط المحتويات في الفقرة.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-يحدد ما إذا كان يجب أن تستخدم الفقرة الحالية خطوط شبكة المستند لكل إعدادات صفحة عند تخطيط المحتويات في الفقرة.
+يحدد ما إذا كان يجب على الفقرة الحالية استخدام خطوط شبكة المستند لكل صفحة settings عند تخطيط المحتويات في الفقرة.
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -22,8 +22,8 @@ public bool SnapToGrid { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تمكين الترويج ، ثم استخدمه لتعيين عدد الأسطر لكل صفحة في هذا القسم.
-// سيؤدي حجم الخط الكبير بدرجة كافية إلى دفع بعض الأسطر لأسفل في الصفحة التالية لتجنب تداخل الأحرف.
+// قم بتمكين العرض، ثم استخدمه لتعيين عدد الأسطر لكل صفحة في هذا القسم.
+// سيؤدي حجم الخط الكبير بدرجة كافية إلى دفع بعض الأسطر لأسفل إلى الصفحة التالية لتجنب تداخل الأحرف.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

@@ -1,14 +1,16 @@
 ---
 title: Class PrinterSettingsContainer
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.PrinterSettingsContainer فصل. تمثل مخزنًا لبعض معلماتPrinterSettings الكائن .
+description: Aspose.Words.Rendering.PrinterSettingsContainer فصل. يمثل مخزنًا لبعض معلماتPrinterSettings الكائن.
 type: docs
-weight: 4320
+weight: 4580
 url: /ar/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-تمثل مخزنًا لبعض معلماتPrinterSettings الكائن .
+يمثل مخزنًا لبعض معلماتPrinterSettings الكائن.
+
+لمعرفة المزيد، قم بزيارة[طباعة مستند برمجياً أو باستخدام مربعات الحوار](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) مقالة توثيقية.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -24,21 +26,21 @@ public class PrinterSettingsContainer
 
 | اسم | وصف |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | انظرPaperSource منDefaultPageSettings . |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | انظرPaperSource لDefaultPageSettings . |
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | انظرPaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | انظرPaperSources . |
 
 ### ملاحظات
 
-الوصول إلى بياناتPrinterSettings يستغرق وقتا طويلا.`PrinterSettingsContainer` وتخزين المعلمات منPrinterSettings ، لذا تعمل الطباعة بشكل أسرع.
+الوصول إلى بياناتPrinterSettings يستغرق وقتا طويلا. `PrinterSettingsContainer` تخزين المعلمات منPrinterSettings لذا فإن الطباعة تعمل بشكل أسرع.
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مصادر الورق وأحجام الطابعة الخاصة بك وسردها.
+يوضح كيفية الوصول إلى مصادر الورق وأحجامه وإدراجها في الطابعة.
 
 ```csharp
-// يحتوي "PrinterSettingsContainer" على كائن "PrinterSettings" ،
-// الذي يحتوي على بيانات فريدة لمختلف برامج تشغيل الطابعة.
+// يحتوي "PrinterSettingsContainer" على كائن "PrinterSettings"،
+// الذي يحتوي على بيانات فريدة لبرامج تشغيل الطابعة المختلفة.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -50,11 +52,11 @@ foreach (PaperSource paperSource in container.PaperSources)
 }
 
 // تحتوي خاصية "أحجام الورق" على قائمة بأحجام الورق لتوجيه الطابعة لاستخدامها.
-// يحتوي كل من PrinterSource و PrinterSize على خاصية "RawKind" ،
-// الذي يعادل نوع الورق المدرج في تعداد PaperSourceKind.
-// إذا كان هناك مصدر ورق بنفس قيمة "RawKind" مثل تلك الخاصة بصفحة الطباعة ،
-// ستطبع الطابعة الصفحة باستخدام مصدر الورق وحجمه المقدمين.
-// خلاف ذلك ، ستقوم الطابعة افتراضيًا بالمصدر المعين بواسطة خاصية "DefaultPageSettingsPaperSource".
+// يحتوي كل من PrinterSource وPrinterSize على خاصية "RawKind"،
+// والذي يعادل نوع الورق المدرج في تعداد PaperSourceKind.
+// إذا كان هناك مصدر ورق له نفس قيمة "RawKind" مثل قيمة صفحة الطباعة،
+// ستقوم الطابعة بطباعة الصفحة باستخدام مصدر الورق وحجمه المقدمين.
+// بخلاف ذلك، ستنتقل الطابعة افتراضيًا إلى المصدر المعين بواسطة خاصية "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

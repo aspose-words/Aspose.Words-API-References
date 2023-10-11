@@ -1,14 +1,16 @@
 ---
 title: Class CertificateHolder
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.CertificateHolder فصل. يمثل صاحب X509 شهادة 2 نموذج.
+description: Aspose.Words.DigitalSignatures.CertificateHolder فصل. يمثل صاحب شهادة X5092 المثال.
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-يمثل صاحب **X509 شهادة 2** نموذج.
+يمثل صاحب **شهادة X5092** المثال.
+
+لمعرفة المزيد، قم بزيارة[العمل مع التوقيعات الرقمية](https://docs.aspose.com/words/net/working-with-digital-signatures/) مقالة توثيقية.
 
 ```csharp
 public class CertificateHolder
@@ -18,27 +20,27 @@ public class CertificateHolder
 
 | اسم | وصف |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | إرجاع مثيل **X509 شهادة 2** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | إرجاع مثيل **شهادة X5092** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | إنشاء كائن CertificateHolder باستخدام مصفوفة بايت من مخزن PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | إنشاء كائن CertificateHolder باستخدام مصفوفة بايت من مخزن PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | إنشاء كائن CertificateHolder باستخدام المسار إلى مخزن PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | إنشاء كائن CertificateHolder باستخدام المسار إلى مخزن PKCS12 وكلمة المرور والاسم المستعار باستخدام المفتاح الخاص والشهادة التي سيتم العثور عليها. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به والاسم المستعار باستخدام المفتاح الخاص والشهادة التي سيتم العثور عليها. |
 
 ### ملاحظات
 
-**حامله الشهاده** يمكن إنشاؤها بواسطة طرق المصنع الثابتة فقط. يحتوي على مثيل **X509 شهادة 2** والذي يستخدم لإدخال المفاتيح الخاصة والعامة وسلاسل الشهادات في النظام. يتم تطبيق هذه الفئة في[`DigitalSignatureUtil`](../digitalsignatureutil/) و[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) بدلاً من الطرق القديمة مع X509Certificate2 كمعلمات.
+`CertificateHolder` يمكن إنشاؤها بطرق المصنع الثابتة فقط. يحتوي على مثيل لـ **شهادة X5092** والذي يستخدم لإدخال المفاتيح الخاصة والعامة وسلاسل الشهادات في النظام. يتم تطبيق هذه الفئة في[`DigitalSignatureUtil`](../digitalsignatureutil/) و[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) بدلاً من الأساليب القديمة مع X509Certificate2 كمعلمات.
 
 ### أمثلة
 
 يوضح كيفية توقيع ملف المستند المشفر.
 
 ```csharp
-// أنشئ شهادة X.509 من متجر PKCS # 12 ، والتي يجب أن تحتوي على مفتاح خاص.
+// أنشئ شهادة X.509 من متجر PKCS#12، والتي يجب أن تحتوي على مفتاح خاص.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // أنشئ تعليقًا وتاريخًا وكلمة مرور لفك التشفير والتي سيتم تطبيقها مع توقيعنا الرقمي الجديد.
@@ -49,7 +51,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// قم بتعيين اسم ملف نظام محلي لمستند الإدخال غير الموقع ، واسم ملف الإخراج لنسخته الجديدة الموقعة رقمياً.
+// قم بتعيين اسم ملف النظام المحلي لمستند الإدخال غير الموقع، واسم ملف الإخراج لنسخته الجديدة الموقعة رقميًا.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 
@@ -59,18 +61,18 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 يوضح كيفية توقيع المستندات رقميًا.
 
 ```csharp
-// أنشئ شهادة X.509 من متجر PKCS # 12 ، والتي يجب أن تحتوي على مفتاح خاص.
+// أنشئ شهادة X.509 من متجر PKCS#12، والتي يجب أن تحتوي على مفتاح خاص.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// أنشئ تعليقًا وتاريخًا سيتم تطبيقه بتوقيعنا الرقمي الجديد.
+// قم بإنشاء تعليق وتاريخ سيتم تطبيقه مع توقيعنا الرقمي الجديد.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// خذ مستندًا غير موقع من نظام الملفات المحلي عبر تدفق ملف ،
-// ثم أنشئ نسخة موقعة منه يحددها اسم ملف تدفق ملف الإخراج.
+// خذ مستندًا غير موقع من نظام الملفات المحلي عبر دفق الملفات،
+// ثم قم بإنشاء نسخة موقعة منه يحددها اسم ملف دفق ملف الإخراج.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -80,10 +82,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
-يوضح كيفية إضافة سطر توقيع إلى مستند ، ثم توقيعه باستخدام شهادة رقمية.
+يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -102,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// ينشئ نسخة من مستند مصدر موقع باستخدام معلومات الموقّع المقدمة وشهادة X509.
+        /// ينشئ نسخة من مستند المصدر موقعًا باستخدام معلومات الموقع المقدمة وشهادة X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -110,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // تكوين وإدراج سطر توقيع ، وهو كائن في المستند سيعرض توقيعًا نوقعه به.
+            // قم بتكوين سطر التوقيع وإدراجه، وهو كائن في المستند سيعرض التوقيع الذي وقعنا به.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -120,7 +123,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // أولاً ، سنحفظ نسخة غير موقعة من وثيقتنا.
+            // أولاً، سنقوم بحفظ نسخة غير موقعة من وثيقتنا.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -131,13 +134,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // اكتب فوق المستند غير الموقع الذي حفظناه أعلاه بإصدار موقع باستخدام الشهادة.
+            // استبدل المستند غير الموقع الذي حفظناه أعلاه بنسخة موقعة باستخدام الشهادة.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// يحول صورة إلى مصفوفة بايت.
+        /// تحويل الصورة إلى مصفوفة بايت.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowDataLabelsRange
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض القيم من نطاق تسميات البيانات في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هي خاطئة .
+description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 70
+weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
 ---
 ## ChartDataLabelCollection.ShowDataLabelsRange property
 
-يسمح بتحديد ما إذا كان سيتم عرض القيم من نطاق تسميات البيانات في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هي **خاطئة** .
+يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ShowDataLabelsRange { get; set; }
@@ -16,7 +16,7 @@ public bool ShowDataLabelsRange { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) الملكية .
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) الملكية.
 
 ### أنظر أيضا
 

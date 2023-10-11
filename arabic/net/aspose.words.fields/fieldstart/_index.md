@@ -1,14 +1,16 @@
 ---
 title: Class FieldStart
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldStart فصل. يمثل بداية حقل Word في مستند.
+description: Aspose.Words.Fields.FieldStart فصل. يمثل بداية حقل Word في المستند.
 type: docs
-weight: 2280
+weight: 2430
 url: /ar/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
 
-يمثل بداية حقل Word في مستند.
+يمثل بداية حقل Word في المستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldStart : FieldChar
@@ -18,57 +20,58 @@ public class FieldStart : FieldChar
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | الحصول على بيانات الحقل المخصصة المرتبطة بالحقل. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | يحصل على بيانات الحقل المخصصة المرتبطة بالحقل. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | إرجاع نوع الحقل. |
-| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق خط هذا الكائن. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق الخط لهذا الكائن. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا (يجب عدم إعادة حساب النتيجة) . |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل الأصلي مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (حذفه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | عوائدFieldStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | استرداد الأصل[`Paragraph`](../../aspose.words/paragraph/) من هذه العقدة. |
+| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | إرجاعFieldStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | يسترد الأصل[`Paragraph`](../../aspose.words/paragraph/) من هذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../../aspose.words/range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| [GetField](../../aspose.words.fields/fieldchar/getfield/)() | إرجاع حقل للحقل char . |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | يحصل على الحرف الخاص الذي تمثله هذه العقدة . |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetField](../../aspose.words.fields/fieldchar/getfield/)() | إرجاع حقل للحقل char. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | الحصول على الحرف الخاص الذي تمثله هذه العقدة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-`FieldStart` هي عقدة ذات مستوى مضمن ويتم تمثيلها بواسطة [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) حرف التحكم في المستند.
+`FieldStart` هي عقدة على المستوى المضمّن ويتم تمثيلها بواسطة [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) حرف التحكم في المستند.
 
-`FieldStart` يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` لا يمكن إلا أن يكون طفلا[`Paragraph`](../../aspose.words/paragraph/).
 
-الحقل الكامل في مستند Microsoft Word عبارة عن بنية معقدة تتكون من حرف بداية الحقل ، ورمز الحقل ، وحرف فاصل الحقل ، ونتائج الحقل وحرف نهاية الحقل. تحتوي بعض الحقول فقط على بداية الحقل ورمز الحقل ونهاية الحقل.
+الحقل الكامل في مستند Microsoft Word عبارة عن بنية معقدة تتكون من حرف بداية الحقل ورمز الحقل وحرف فاصل الحقل ونتيجة الحقل وحرف نهاية الحقل. تحتوي بعض الحقول فقط على بداية الحقل ورمز الحقل ونهاية الحقل.
 
-لإدراج حقل جديد بسهولة في مستند ، استخدم ملحق[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة .
+لإدراج حقل جديد في مستند بسهولة، استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة .
 
 ### أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -85,8 +88,8 @@ public class FieldStart : FieldChar
 
     Assert.AreEqual(6, fields.Count);
 
-    // تكرار عبر المجموعة الميدانية ، وطباعة المحتويات والنوع
-    // من كل حقل باستخدام تنفيذ زائر مخصص.
+    // كرر المجموعة الميدانية واطبع المحتويات واكتبها
+    // لكل حقل باستخدام تطبيق زائر مخصص.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -107,9 +110,10 @@ public class FieldStart : FieldChar
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// تنفيذ الزائر المستند الذي يطبع معلومات الحقل.
+/// تنفيذ مستند الزائر الذي يطبع معلومات الحقل.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -127,7 +131,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -139,7 +143,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -149,7 +153,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -162,7 +166,7 @@ public class FieldVisitor : DocumentVisitor
 }
 ```
 
-يوضح كيفية البحث عن جميع الارتباطات التشعبية في مستند Word ، ثم تغيير عناوين URL وأسماء العرض الخاصة بهم.
+يوضح كيفية البحث عن كافة الارتباطات التشعبية في مستند Word، ثم تغيير عناوين URL وأسماء العرض الخاصة بها.
 
 ```csharp
 using System;
@@ -181,9 +185,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // الارتباطات التشعبية في مستندات Word هي حقول. لبدء البحث عن الارتباطات التشعبية ، يجب أن نجد أولاً جميع الحقول.
-            // استخدم طريقة "SelectNodes" للعثور على جميع الحقول في المستند عبر XPath.
-            NodeList fieldStarts = doc.SelectNodes("// FieldStart ") ;
+            // الارتباطات التشعبية في مستندات Word هي حقول. للبدء في البحث عن الارتباطات التشعبية، يجب علينا أولاً العثور على كافة الحقول.
+            // استخدم طريقة "SelectNodes" للعثور على كافة الحقول في المستند عبر XPath.
+            NodeList fieldStarts = doc.SelectNodes("//فيلدستارت");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -195,7 +199,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // امنح كل رابط تشعبي عنوان URL واسمًا جديدين.
+                    // أعط كل رابط تشعبي لعنوان URL عنوان URL واسمًا جديدًا.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -204,25 +208,25 @@ namespace ApiExamples
             doc.Save(ArtifactsDir + "ReplaceHyperlinks.Fields.docx");
         }
 
-        private const string NewUrl = @"http://www.aspose.com ";
+        private const string NewUrl = @"http://www.aspose.com";
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
-    /// <summary>
-    /// تحتوي حقول HYPERLINK على ارتباطات تشعبية وتعرضها في نص المستند. حقل في Aspose.Words 
-    /// يتكون من عدة عقد ، وقد يكون من الصعب العمل مع كل هذه العقد مباشرة. 
-    /// لن يعمل هذا التنفيذ إلا إذا كان رمز الارتباط التشعبي والاسم يتكونان من عقدة تشغيل واحدة فقط.
+     ///<summary>
+      ///تحتوي حقول الارتباط التشعبي على الارتباطات التشعبية وتعرضها في نص المستند. حقل في Aspose.Words
+      ///يتكون من عدة عقد، وقد يكون من الصعب العمل مع كل تلك العقد مباشرة.
+     ///لن يعمل هذا التنفيذ إلا إذا كان كل من رمز الارتباط التشعبي واسمه يتكونان من عقدة تشغيل واحدة فقط.
     ///
-    /// تكون بنية العقدة للحقول كما يلي:
-    /// 
-    /// [FieldStart] [تشغيل - رمز الحقل] [FieldSeparator] [تشغيل - نتيجة الحقل] [FieldEnd]
-    /// 
-    /// فيما يلي مثالان على أكواد الحقول في حقول HYPERLINK:
-    /// HYPERLINK "url"
-    /// HYPERLINK \ l "اسم الإشارة المرجعية"
-    /// 
-    /// تحتوي خاصية "النتيجة" الخاصة بالحقل على النص الذي يعرضه الحقل في نص المستند للمستخدم.
-    /// </summary>
+     ///بنية العقدة للحقول هي كما يلي:
+     ///
+     ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+     ///
+     ///Below are two example field codes of HYPERLINK fields:
+     ///HYPERLINK "url"
+     ///HYPERLINK \l "bookmark name"
+     ///
+     ///A field's "Result" property contains text that the field displays in the document body to the user.
+     ///</summary>
     internal class Hyperlink
     {
         internal Hyperlink(FieldStart fieldStart)
@@ -234,47 +238,47 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // ابحث عن عقدة فاصل المجال.
+            // ابحث عن عقدة فاصل الحقل.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-            // في العادة ، يمكننا دائمًا العثور على عقدة نهاية الحقل ، ولكن نموذج المستند 
-            // يحتوي على فاصل فقرة داخل ارتباط تشعبي ، مما يضع نهاية الحقل 
-            // في الفقرة التالية. سيكون الأمر أكثر تعقيدًا للتعامل مع الحقول التي تمتد على عدة مجالات 
-            // الفقرات بشكل صحيح. في هذه الحالة ، يكفي السماح بأن تكون نهاية الحقل خالية.
+             // عادةً، يمكننا دائمًا العثور على عقدة نهاية الحقل، ولكن المستند النموذجي
+             // يحتوي على فاصل فقرة داخل الارتباط التشعبي، مما يضع نهاية الحقل
+            // في الفقرة التالية. سيكون التعامل مع الحقول التي تمتد لعدة مرات أكثر تعقيدًا
+            // الفقرات بشكل صحيح. في هذه الحالة، يعد السماح لنهاية الحقل بأن تكون فارغة أمرًا كافيًا.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // يبدو رمز الحقل شيئًا مثل "HYPERLINK" http: \\ www.myurl.com "" ، ولكن يمكن أن يتكون من عدة عمليات تشغيل.
+            // يبدو رمز الحقل مثل "HYPERLINK "http:\\www.myurl.com""، ولكنه يمكن أن يتكون من عدة عمليات تشغيل.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
-            // يكون الارتباط التشعبي محليًا إذا كان \ l موجودًا في رمز الحقل.
+            // يكون الارتباط التشعبي محليًا إذا كان \l موجودًا في رمز الحقل.
             mIsLocal = match.Groups[1].Length > 0; 
             mTarget = match.Groups[2].Value;
         }
 
-        /// <summary>
-        /// الحصول على أو تحديد اسم عرض الارتباط التشعبي.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the display name of the hyperlink.
+         ///</summary>
         internal string Name
         {
             get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
             set
             {
-                // يتم تخزين اسم عرض الارتباط التشعبي في نتيجة الحقل ، وهي عبارة عن تشغيل 
-                // عقدة بين فاصل المجال ونهاية الحقل.
+                 // يتم تخزين اسم عرض الارتباط التشعبي في نتيجة الحقل، وهو تشغيل
+                // العقدة بين فاصل الحقل ونهاية الحقل.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // إذا كانت نتيجة الحقل تتكون من أكثر من تشغيل واحد ، فاحذف هذه العمليات.
+                // إذا كانت نتيجة الحقل تتكون من أكثر من عملية تشغيل واحدة، فاحذف عمليات التشغيل هذه.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
 
-        /// <summary>
-        /// الحصول على أو تحديد عنوان URL الهدف أو اسم الإشارة المرجعية للارتباط التشعبي.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the target URL or bookmark name of the hyperlink.
+         ///</summary>
         internal string Target
         {
             get => mTarget;
@@ -285,9 +289,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// True إذا كان هدف الارتباطات التشعبية عبارة عن إشارة مرجعية داخل المستند. خطأ إذا كان الارتباط التشعبي عبارة عن عنوان URL.
-        /// </summary>
+         ///<summary>
+         ///True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+         ///</summary>
         internal bool IsLocal
         {
             get => mIsLocal; 
@@ -300,17 +304,17 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // يوجد رمز حقل الحقل في عقدة تشغيل بين عقدة بدء الحقل وفاصل الحقل.
+            // رمز حقل الحقل موجود في عقدة التشغيل بين عقدة بداية الحقل وفاصل الحقل.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // إذا كان رمز الحقل يتكون من أكثر من تشغيل واحد ، فاحذف هذه العمليات.
+            // إذا كان رمز الحقل يتكون من أكثر من تشغيل واحد، فاحذف عمليات التشغيل هذه.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
-        /// <summary>
-        /// يمر عبر الأشقاء بدءًا من عقدة البداية حتى يجد عقدة من النوع المحدد أو عقدة خالية.
-        /// </summary>
+         ///<summary>
+         ///Goes through siblings starting from the start node until it finds a node of the specified type or null.
+         ///</summary>
         private static Node FindNextSibling(Node startNode, NodeType nodeType)
         {
             for (Node node = startNode; node != null; node = node.NextSibling)
@@ -322,9 +326,9 @@ namespace ApiExamples
             return null;
         }
 
-        /// <summary>
-        /// يسترجع النص من البداية حتى لا يشمل عقدة النهاية.
-        /// </summary>
+         ///<summary>
+         ///Retrieves text from start up to but not including the end node.
+         ///</summary>
         private static string GetTextSameParent(Node startNode, Node endNode)
         {
             if ((endNode != null) && (startNode.ParentNode != endNode.ParentNode))
@@ -337,10 +341,10 @@ namespace ApiExamples
             return builder.ToString();
         }
 
-        /// <summary>
-        /// يزيل العقد من البداية حتى العقدة النهائية دون تضمينها.
-        /// يفترض أن عقد البداية والنهاية لها نفس الأصل.
-        /// </summary>
+         ///<summary>
+         ///Removes nodes from start up to but not including the end node.
+         ///Assumes that the start and end nodes have the same parent.
+         ///</summary>
         private static void RemoveSameParent(Node startNode, Node endNode)
         {
             if (endNode != null && startNode.ParentNode != endNode.ParentNode)
@@ -362,13 +366,13 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // واحد أو أكثر بدون مسافة HYPERLINK أو كلمة أخرى بلغات أخرى.
+            "\\S+" + // واحد أو أكثر بدون مسافات HYPERLINK أو كلمة أخرى في اللغات الأخرى.
             "\\s+" + // مسافة واحدة أو أكثر.
             "(?:\"\"\\s+)?" + // عدم الالتقاط اختياري "" ومسافة واحدة أو أكثر.
-            "(\\\\l\\s+)?" + // اختياري \ l علامة متبوعة بمسافة واحدة أو أكثر.
-            "\"" + // فاصلة عليا واحدة.    
-            "([^\"]+)" + // حرف أو أكثر ، باستثناء الفاصلة العليا (هدف الارتباط التشعبي).
-            "\"" // فاصلة عليا واحدة للإغلاق.
+            "(\\\\l\\s+)?" + // علامة \l اختيارية متبوعة بمسافة واحدة أو أكثر.
+            "\"" +  // فاصلة عليا واحدة.
+            "([^\"]+)" + // حرف واحد أو أكثر، باستثناء الفاصلة العليا (هدف الارتباط التشعبي).
+            "\"" // فاصلة علوية واحدة للإغلاق.
         );
     }
 }

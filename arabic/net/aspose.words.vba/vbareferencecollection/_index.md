@@ -1,14 +1,16 @@
 ---
 title: Class VbaReferenceCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReferenceCollection فصل. يمثل مجموعة منVbaReference الكائنات .
+description: Aspose.Words.Vba.VbaReferenceCollection فصل. يمثل مجموعة منVbaReference الكائنات.
 type: docs
-weight: 6290
+weight: 6600
 url: /ar/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-يمثل مجموعة من[`VbaReference`](../vbareference/) الكائنات .
+يمثل مجموعة من[`VbaReference`](../vbareference/) الكائنات.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -19,21 +21,20 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | إرجاع عدد مراجع VBA في المجموعة. |
-| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | يحصل[`VbaReference`](../vbareference/) الكائن في الفهرس المحدد. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | يحصل[`VbaReference`](../vbareference/) كائن في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | يزيل التواجد الأول لعنصر VbaReference المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | يزيل عنصر VbaReference في الفهرس المحدد للمجموعة. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | إزالة التواجد الأول لعنصر محدد[`VbaReference`](../vbareference/) عنصر من المجموعة. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | يزيل[`VbaReference`](../vbareference/) العنصر في الفهرس المحدد للمجموعة. |
 
 ### أمثلة
 
-يوضح كيفية الحصول على / إزالة عنصر من مجموعة مرجع VBA.
+يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// إرجاع سلسلة تمثل مسار LibId لمرجع محدد. 
+ /// إرجاع سلسلة تمثل مسار LibId لمرجع محدد.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -77,7 +78,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -92,7 +93,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

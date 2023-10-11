@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.Priority
 second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase ملكية. إرجاع أولوية مصدر الخط.
+description: FontSourceBase ملكية. يُرجع أولوية مصدر الخط.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-إرجاع أولوية مصدر الخط.
+يُرجع أولوية مصدر الخط.
 
 ```csharp
 public int Priority { get; }
@@ -16,13 +16,13 @@ public int Priority { get; }
 
 ### ملاحظات
 
-يتم استخدام هذه القيمة عندما تكون هناك خطوط بنفس اسم العائلة والنمط في مصادر خطوط مختلفة . في هذه الحالة ، يختار Aspose.Words الخط من المصدر بقيمة أولوية أعلى.
+يتم استخدام هذه القيمة عندما تكون هناك خطوط لها نفس اسم العائلة والنمط في مصادر خطوط مختلفة. في هذه الحالة يقوم Aspose.Words بتحديد الخط من المصدر ذي القيمة ذات الأولوية الأعلى.
 
 القيمة الافتراضية هي 0.
 
 ### أمثلة
 
-يوضح كيفية استخدام ملف خط في نظام الملفات المحلي كمصدر للخط.
+يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

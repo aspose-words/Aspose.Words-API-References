@@ -1,14 +1,14 @@
 ---
 title: Paragraph.FrameFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق الفقرة.
+description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق الإطار.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-يوفر الوصول إلى خصائص تنسيق الفقرة.
+يوفر الوصول إلى خصائص تنسيق الإطار.
 
 ```csharp
 public FrameFormat FrameFormat { get; }
@@ -16,7 +16,7 @@ public FrameFormat FrameFormat { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

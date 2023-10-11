@@ -1,14 +1,14 @@
 ---
 title: TextPath.Italic
 second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. True إذا تم تنسيق الخط على أنه مائل.
+description: TextPath ملكية. صحيح إذا كان الخط منسقًا بالخط المائل.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/textpath/italic/
 ---
 ## TextPath.Italic property
 
-True إذا تم تنسيق الخط على أنه مائل.
+صحيح إذا كان الخط منسقًا بالخط المائل.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,26 +16,27 @@ public bool Italic { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي **خاطئة**.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ### أمثلة
 
-يوضح كيفية استخدام WordArt.
+يوضح كيفية العمل مع WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // أدخل كائن WordArt لعرض النص في شكل يمكننا تغيير حجمه ونقله باستخدام الماوس في Microsoft Word.
+    // قم بإدراج كائن WordArt لعرض النص في شكل يمكننا تغيير حجمه وتحريكه باستخدام الماوس في Microsoft Word.
     // قم بتوفير "ShapeType" كوسيطة لتعيين شكل لـ WordArt.
     Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // قم بتطبيق إعدادات التنسيق "غامق" و "مائل" على النص باستخدام الخصائص ذات الصلة.
+    // قم بتطبيق إعدادات التنسيق "غامق" و"مائل" على النص باستخدام الخصائص المعنية.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
-    // يوجد أدناه العديد من الخصائص الأخرى المتعلقة بتنسيق النص.
+    // فيما يلي العديد من الخصائص الأخرى المتعلقة بتنسيق النص.
     Assert.False(shape.TextPath.Underline);
     Assert.False(shape.TextPath.Shadow);
     Assert.False(shape.TextPath.StrikeThrough);
@@ -48,39 +49,39 @@ public bool Italic { get; set; }
     Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
     Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
 
-    // استخدم خاصية "تشغيل" لإظهار / إخفاء النص.
+    // استخدم خاصية "تشغيل" لإظهار/إخفاء النص.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.On = true;
 
     shape = AppendWordArt(doc, "On set to \"false\"", "Calibri", 150, 24, Color.Yellow, Color.Purple, ShapeType.TextPlainText);
     shape.TextPath.On = false;
 
-    // استخدم خاصية "Kerning" لتمكين / تعطيل تباعد المسافات بين أحرف معينة.
+    // استخدم خاصية "تقنين الأحرف" لتمكين/تعطيل تباعد المسافات بين أحرف معينة.
     shape = AppendWordArt(doc, "Kerning: VAV", "Times New Roman", 90, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = true;
 
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // استخدم خاصية "التباعد" لتعيين التباعد المخصص بين الأحرف على مقياس من 0.0 (بلا) إلى 1.0 (افتراضي).
+    // استخدم خاصية "التباعد" لتعيين التباعد المخصص بين الأحرف على مقياس من 0.0 (لا شيء) إلى 1.0 (افتراضي).
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
-    // اضبط خاصية "RotateLetters" على "true" لتدوير كل حرف 90 درجة عكس اتجاه عقارب الساعة.
+    // اضبط خاصية "RotateLetters" على "صحيح" لتدوير كل حرف بمقدار 90 درجة عكس اتجاه عقارب الساعة.
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // اضبط خاصية "SameLetterHeights" على "true" لجعل ارتفاع x لكل حرف يساوي ارتفاع الحد الأقصى.
+    // اضبط خاصية "SameLetterHeights" على "صحيح" للحصول على ارتفاع x لكل حرف يساوي ارتفاع الحد الأقصى.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // بشكل افتراضي ، سيتغير حجم النص دائمًا ليناسب حجم الشكل المحتوي ، متجاوزًا إعداد حجم النص.
+    // افتراضيًا، سيتم دائمًا تغيير حجم النص ليناسب حجم الشكل الذي يحتوي عليه، مما يؤدي إلى تجاوز إعداد حجم النص.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // إذا قمنا بتعيين "FitShape: property على" false "، فسيحتفظ النص بالحجم
-    // التي تحددها خاصية "الحجم" بغض النظر عن حجم الشكل.
+    // إذا قمنا بتعيين خاصية "FitShape: على "خطأ"، فسيحتفظ النص بالحجم
+    // الذي تحدده خاصية "الحجم" بغض النظر عن حجم الشكل.
     // استخدم خاصية "TextPathAlignment" أيضًا لمحاذاة النص إلى جانب الشكل.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
@@ -88,16 +89,17 @@ public bool Italic { get; set; }
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
-/// أدخل فقرة جديدة بداخلها شكل WordArt.
+/// قم بإدراج فقرة جديدة تحتوي على شكل WordArt بداخلها.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // قم بإنشاء شكل مضمن ، والذي سيكون بمثابة حاوية لـ WordArt الخاص بنا.
-    // لا يمكن أن يكون الشكل سوى شكل WordArt صالحًا إذا قمنا بتعيين ShapeType معين من WordArt إليه.
-    // سيكون لهذه الأنواع "كائن WordArt" في الوصف ،
-    // وستبدأ جميع أسماءهم الثابتة في العداد بكلمة "نص".
+    // قم بإنشاء شكل مضمن، والذي سيكون بمثابة حاوية لـ WordArt الخاص بنا.
+    // يمكن أن يكون الشكل شكل WordArt صالحًا فقط إذا قمنا بتعيين ShapeType مخصص لـ WordArt له.
+    // ستحتوي هذه الأنواع على "كائن WordArt" في الوصف،
+    // وستبدأ جميع أسماء عداداتها الثابتة بـ "نص".
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

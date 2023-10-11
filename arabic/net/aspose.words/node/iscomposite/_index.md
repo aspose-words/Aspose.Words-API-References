@@ -1,14 +1,14 @@
 ---
 title: Node.IsComposite
 second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى.
+description: Node ملكية. إرجاعحقيقي إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى.
+إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى.
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -16,26 +16,27 @@ public virtual bool IsComposite { get; }
 
 ### Property_Value
 
-ترجع هذه الطريقة خطأ لأن العقدة لا يمكن أن تحتوي على عقد فرعية.
+تعود هذه الطريقة`خطأ شنيع` مثل[`Node`](../) لا يمكن أن تحتوي على عقد فرعية.
 
 ### أمثلة
 
-يوضح كيفية اجتياز شجرة العقد المركبة الخاصة بالعقد الفرعية.
+يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // أي عقدة يمكن أن تحتوي على عقد فرعية ، مثل المستند نفسه ، تكون مركبة.
+    // أي عقدة يمكن أن تحتوي على عقد فرعية، مثل المستند نفسه، تكون مركبة.
     Assert.True(doc.IsComposite);
 
-    // استدعاء الدالة العودية التي ستمر خلال وطباعة جميع العقد الفرعية للعقدة المركبة.
+    // استدعاء الوظيفة العودية التي ستمر عبر جميع العقد الفرعية للعقدة المركبة وتطبعها.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// يجتاز بشكل متكرر شجرة عقدة أثناء طباعة نوع كل عقدة
-/// مع مسافة بادئة اعتمادًا على العمق بالإضافة إلى محتويات جميع العقد المضمنة.
+/// يجتاز شجرة العقدة بشكل متكرر أثناء طباعة نوع كل عقدة
+/// مع مسافة بادئة تعتمد على العمق بالإضافة إلى محتويات جميع العقد المضمنة.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -43,7 +44,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // تكرر في العقدة إذا كانت عقدة مركبة. بخلاف ذلك ، اطبع محتوياته إذا كانت عقدة مضمنة.
+        // العودة إلى العقدة إذا كانت عقدة مركبة. بخلاف ذلك، قم بطباعة محتوياتها إذا كانت عقدة مضمنة.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

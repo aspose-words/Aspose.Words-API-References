@@ -1,14 +1,16 @@
 ---
 title: Class Bookmark
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Bookmark فصل. يمثل إشارة مرجعية واحدة .
+description: Aspose.Words.Bookmark فصل. يمثل إشارة مرجعية واحدة.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
-يمثل إشارة مرجعية واحدة .
+يمثل إشارة مرجعية واحدة.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الإشارات المرجعية](https://docs.aspose.com/words/net/working-with-bookmarks/) مقالة توثيقية.
 
 ```csharp
 public class Bookmark
@@ -18,23 +20,23 @@ public class Bookmark
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | يحصل على العقدة التي تمثل نهاية الإشارة المرجعية . |
+| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | يحصل على العقدة التي تمثل نهاية الإشارة المرجعية. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | يحصل على العقدة التي تمثل بداية الإشارة المرجعية. |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | الحصول على الفهرس الصفري للعمود الأول من نطاق عمود الجدول المرتبط بالإشارة المرجعية. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | عوائد **حقيقي** إذا كانت هذه الإشارة المرجعية عبارة عن إشارة مرجعية لعمود الجدول. |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | الحصول على الفهرس الصفري للعمود الأول من نطاق أعمدة الجدول المرتبط بالإشارة المرجعية. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | إرجاع`حقيقي` إذا كانت هذه الإشارة المرجعية عبارة عن إشارة مرجعية لعمود الجدول. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | الحصول على الفهرس الصفري للعمود الأخير من نطاق أعمدة الجدول المرتبط بالإشارة المرجعية. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |
-| [Text](../../aspose.words/bookmark/text/) { get; set; } | الحصول على أو تعيين النص المضمن في الإشارة المرجعية. |
+| [Text](../../aspose.words/bookmark/text/) { get; set; } | الحصول على النص الموجود في الإشارة المرجعية أو تعيينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Remove](../../aspose.words/bookmark/remove/)() | يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية . |
+| [Remove](../../aspose.words/bookmark/remove/)() | إزالة الإشارة المرجعية من المستند. لا يزيل النص الموجود داخل الإشارة المرجعية. |
 
 ### ملاحظات
 
-`Bookmark` هو كائن "واجهة" يغلف عقدتين[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) في شجرة وثيقة ويسمح بالعمل مع إشارة مرجعية ككائن واحد.
+`Bookmark` هو كائن "واجهة" يحتوي على عقدتين[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) في شجرة المستندات ويسمح بالعمل مع الإشارة المرجعية ككائن واحد.
 
 ### أمثلة
 
@@ -43,22 +45,21 @@ public class Bookmark
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا بثلاث إشارات مرجعية ، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
+    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية بالفهرس أو الاسم ، ويمكن تحديث أسمائها.
+    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // طباعة جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
+    // اطبع جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// أنشئ مستندًا بعدد معين من الإشارات المرجعية.
+/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -80,7 +81,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم مكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -105,7 +106,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

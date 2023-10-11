@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
 second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف Wmf أوEmf  صور لPng تنسيق الصورة .
+description: LoadOptions ملكية. يحصل على أو يحدد ما إذا كان سيتم تحويل ملف التعريف Wmf أوEmf  الصور لPng تنسيق الصورة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة .
+يحصل على أو يحدد ما إذا كان سيتم تحويل ملف التعريف (Wmf أوEmf ) الصور لPng تنسيق الصورة.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }
@@ -16,11 +16,11 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ### ملاحظات
 
-ملفات التعريف (Wmf أوEmf ) هو تنسيق صورة غير مضغوط ويتطلب أحيانًا قدرًا كبيرًا من ذاكرة الوصول العشوائي للاحتفاظ بالمستند ومعالجته.Png عند تحميل المستند. يرجى ملاحظة - تحويل الرسومات المتجهة إلى خطوط نقطية يقلل من جودة الصور.
+ملفات التعريف (Wmf أوEmf ) هو تنسيق صورة غير مضغوط ويتطلب أحيانًا قدرًا كبيرًا من ذاكرة الوصول العشوائي للاحتفاظ بالمستند ومعالجته. يسمح هذا الخيار بتحويل جميع صور ملفات التعريف إلىPng عند تحميل المستند. يرجى ملاحظة أن تحويل الرسومات المتجهة إلى خطوط نقطية يقلل من جودة الصور.
 
 ### أمثلة
 
-يوضح كيفية تحويل WMF / EMF إلى PNG أثناء تحميل المستند.
+يوضح كيفية تحويل WMF/EMF إلى PNG أثناء تحميل المستند.
 
 ```csharp
 Document doc = new Document();

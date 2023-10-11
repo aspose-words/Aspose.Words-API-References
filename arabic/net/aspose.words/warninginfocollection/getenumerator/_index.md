@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة.
+description: WarningInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/warninginfocollection/getenumerator/
 ---
 ## WarningInfoCollection.GetEnumerator method
 
-إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة.
+إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 
 ```csharp
 public IEnumerator<WarningInfo> GetEnumerator()
@@ -16,26 +16,28 @@ public IEnumerator<WarningInfo> GetEnumerator()
 
 ### أمثلة
 
-يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخط المتاحة.
+يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // تعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // سنحصل على تحذير بشأن استبدال الخط إذا حفظنا مستندًا بخط مفقود.
+    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {
